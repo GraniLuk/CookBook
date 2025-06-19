@@ -60,6 +60,9 @@ Oto przepis na pieczonego łososia w piekarniku z ziemniakami pieczonymi oraz kr
 - Piecz razem z ziemniakami przez kolejne 10–15 minut, aż łosoś będzie soczysty i lekko zarumieniony.
 
 ### 3. Przygotowanie sosu szparagowego
+
+> 📋 **Pełny przepis na sos**: [Sos Szparagowy Z Mascarpone I Suszonymi Pomidorami]({{< ref "Sos Szparagowy Z Mascarpone.md" >}})
+
 - Szparagi umyj, odłam twarde końcówki i pokrój na kawałki.
 - Ugotuj szparagi na parze do miękkości około 15min
 - Wrzuć szparagi na patelnię.
