@@ -56,15 +56,20 @@ fileName = "/images/favicon.svg" #your favicon here if you wish to change it.
     url = "/categories/obiady/"
     weight = 2
   [[menu.main]]
-    name = "Kolacje"
+    name = "Sałatki"
     parent = "categories"
-    url = "/categories/kolacje/"
+    url = "/categories/salatki/"
     weight = 3
   [[menu.main]]
     name = "Desery"
     parent = "categories"
     url = "/categories/desery/"
     weight = 4
+  [[menu.main]]
+    name = "Sosy"
+    parent = "categories"
+    url = "/categories/sosy/"
+    weight = 5
   [[menu.main]]
     name = "Tagi" # change to w/e you want, tags or categories works best
     pre = "fas fa-tags" #icon, change if you would prefer a different icon
