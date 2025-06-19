@@ -1,0 +1,53 @@
+{{ define "main" }}
+<div class="section">
+    <div class="container">
+        <h1 class="title">Wszystkie Podkategorie Śniadań</h1>
+        <p class="subtitle">Przeglądaj przepisy śniadaniowe według podkategorii</p>
+        
+        <div class="columns is-multiline">
+            {{ range .Pages.ByTitle }}
+            <div class="column is-one-half">
+                <div class="card">
+                    <header class="card-header">
+                        <p class="card-header-title">
+                            <a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+                            {{ if eq .Title "Słodkie" }}
+                                <i class="fas fa-cookie-bite pl-3 pb-3"></i>
+                            {{ else if eq .Title "Słone" }}
+                                <i class="fas fa-egg pl-3 pb-3"></i>
+                            {{ else }}
+                                <i class="fas fa-utensils pl-3 pb-3"></i>
+                            {{ end }}
+                        </p>
+                        <div class="pt-4 pr-2">
+                            {{ $count := .Data.Pages | len }}
+                            {{ if gt $count 1 }}
+                                {{ $count }} przepisów
+                            {{ else }}
+                                1 przepis
+                            {{ end }}
+                        </div>
+                    </header>
+                    <div class="card-content">
+                        <p class="has-text-grey">
+                            {{ if eq .Title "Słodkie" }}
+                                Słodkie śniadania: naleśniki, owsianki z owocami, tosty z dżemem i inne słodkie propozycje na początek dnia.
+                            {{ else if eq .Title "Słone" }}
+                                Słone śniadania: jajecznice, omlety, kanapki, wrapy i inne sycące propozycje.
+                            {{ end }}
+                        </p>
+                        <br>
+                        {{ range first 3 .Pages }}
+                            <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+                        {{ end }}
+                        {{ if gt (len .Pages) 3 }}
+                            <li><a href="{{ .Permalink }}">... i więcej</a></li>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}

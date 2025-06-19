@@ -1,0 +1,91 @@
+/* Three-level dropdown menu styles */
+.nested-dropdown {
+    position: relative;
+}
+
+.navbar-link-nested {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 2rem !important;
+    cursor: pointer;
+}
+
+.nested-dropdown-content {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    min-width: 200px;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
+    border-radius: 6px;
+    z-index: 30;
+    opacity: 0;
+    transform: translateX(-10px);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    pointer-events: none;
+}
+
+/* Show nested dropdown only on hover */
+.nested-dropdown:hover .nested-dropdown-content {
+    display: block;
+    opacity: 1;
+    transform: translateX(0);
+    pointer-events: auto;
+}
+
+/* Ensure proper spacing and styling for nested items */
+.nested-dropdown-content .navbar-item {
+    padding: 0.5rem 1rem;
+    color: #4a4a4a;
+    display: block;
+    line-height: 1.5;
+    position: relative;
+    border-radius: 0;
+    white-space: nowrap;
+}
+
+.nested-dropdown-content .navbar-item:hover {
+    background-color: #f5f5f5;
+    color: #363636;
+}
+
+.nested-dropdown-content .navbar-item:first-child {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.nested-dropdown-content .navbar-item:last-child {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+/* Hover state for the parent item */
+.nested-dropdown:hover > .navbar-link-nested {
+    background-color: #f5f5f5;
+    color: #363636;
+}
+
+/* Mobile responsiveness for nested dropdowns */
+@media screen and (max-width: 1023px) {
+    .nested-dropdown-content {
+        position: static;
+        box-shadow: none;
+        background-color: #f5f5f5;
+        margin-left: 1rem;
+        border-radius: 0;
+        transform: none;
+        transition: none;
+    }
+    
+    .nested-dropdown:hover .nested-dropdown-content {
+        display: block;
+        opacity: 1;
+        pointer-events: auto;
+    }
+    
+    .navbar-link-nested {
+        padding-right: 1rem !important;
+    }
+}

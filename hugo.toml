@@ -4,9 +4,11 @@ theme = "cookbook"
 
 [permalinks]
   categories = "/categories/:slug/"
+  subcategories = "/subcategories/:slug/"
 
 [taxonomies]
   categories = "categories"
+  subcategories = "subcategories"
   tag = "tags"
 
 [languages]
@@ -40,16 +42,29 @@ fileName = "/images/favicon.svg" #your favicon here if you wish to change it.
     pre = "fas fa-home" #icon, change if you would prefer a different icon
     url = "/"
     weight = 1
-  [[menu.main]]
+  
+    [[menu.main]]
     name = "Kategorie"
     pre = "fas fa-list"
     identifier = "categories"
     weight = 2  
+    
     [[menu.main]]
     name = "Śniadania"
     parent = "categories"
     url = "/categories/sniadania/"
     weight = 1
+    identifier = "sniadania"
+  [[menu.main]]
+    name = "Słodkie"
+    parent = "sniadania"
+    url = "/subcategories/słodkie/"
+    weight = 11
+  [[menu.main]]
+    name = "Słone" 
+    parent = "sniadania"
+    url = "/subcategories/słone/"
+    weight = 12
   [[menu.main]]
     name = "Obiady"
     parent = "categories"

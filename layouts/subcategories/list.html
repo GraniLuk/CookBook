@@ -1,24 +1,17 @@
 {{ define "main" }}
 <div class="section">
     <div class="container">
+        <nav class="breadcrumb" aria-label="breadcrumbs">
+            <ul>
+                <li><a href="/">Strona Główna</a></li>
+                <li><a href="/categories/">Kategorie</a></li>
+                <li><a href="/categories/sniadania/">Śniadania</a></li>
+                <li class="is-active"><a href="#" aria-current="page">{{ .Title }}</a></li>
+            </ul>
+        </nav>
+
         <h1 class="title">{{ .Title }}</h1>
-        <p class="subtitle">{{ len .Pages }} {{ if eq (len .Pages) 1 }}przepis{{ else }}przepisów{{ end }} w kategorii "{{ .Title }}"</p>
-        
-        {{ if eq .Title "Śniadania" }}
-        <div class="notification is-info is-light">
-            <h3 class="title is-5">Podkategorie śniadań:</h3>
-            <div class="buttons">
-                <a class="button is-primary is-outlined" href="/subcategories/słodkie/">
-                    <span class="icon"><i class="fas fa-cookie-bite"></i></span>
-                    <span>Słodkie</span>
-                </a>
-                <a class="button is-primary is-outlined" href="/subcategories/słone/">
-                    <span class="icon"><i class="fas fa-egg"></i></span>
-                    <span>Słone</span>
-                </a>
-            </div>
-        </div>
-        {{ end }}
+        <p class="subtitle">{{ len .Pages }} {{ if eq (len .Pages) 1 }}przepis{{ else }}przepisów{{ end }} w podkategorii "{{ .Title }}" ze śniadań</p>
         
         <div class="columns is-multiline">
             {{ range .Pages.ByPublishDate.Reverse }}

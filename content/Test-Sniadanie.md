@@ -7,6 +7,7 @@ image_width: 512
 image_height: 512
 date: 2025-06-19T12:00:00-00:00
 categories: ["sniadania"]
+subcategories: ["słodkie"]
 tags: ["śniadania", "szybkie"]
 tagline: "Test śniadania!"
 servings: 2
