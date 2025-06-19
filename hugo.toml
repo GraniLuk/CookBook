@@ -87,4 +87,6 @@ fileName = "/images/favicon.svg" #your favicon here if you wish to change it.
   mediaType = "text/html"
   baseName = "print"
 
-relativeURLs = true
+# disable relative URLs to ensure images reference the repository path correctly
+# relativeURLs = true
+canonifyURLs = true
