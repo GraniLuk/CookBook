@@ -2,11 +2,6 @@ baseURL = "https://graniluk.github.io/CookBook/"
 defaultContentLanguage = "pl"
 theme = "cookbook"
 
-# Use Hugo Modules to automatically fetch the theme
-[module]
-  [[module.imports]]
-    path = "github.com/deranjer/hugo-cookbook"
-
 [permalinks]
   categories = "/categories/:slug/"
 
