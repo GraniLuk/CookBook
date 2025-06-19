@@ -1,0 +1,11 @@
+{{ if eq hugo.Environment "development" }}
+<script src="{{ "/CookBook/js/umbrella.min.js" }}"></script>
+<script src="{{ "/CookBook/js/custom.js" }}"></script>
+<script src="{{ "/CookBook/js/menu.js" }}"></script>
+{{ else }}
+<script src="{{ "/js/umbrella.min.js" | absURL }}"></script>
+<script src="{{ "/js/custom.js" | absURL }}"></script>
+<script src="{{ "/js/menu.js" | absURL }}"></script>
+{{ end }}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js"></script>
+

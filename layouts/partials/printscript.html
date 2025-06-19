@@ -1,0 +1,7 @@
+{{ if eq hugo.Environment "development" }}
+<script src="/CookBook/js/umbrella.min.js"></script>
+<script src="/CookBook/js/print.js"></script>
+{{ else }}
+<script src="{{ "/js/umbrella.min.js" | absURL }}"></script>
+<script src="{{ "/js/print.js" | absURL }}"></script>
+{{ end }}

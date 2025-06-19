@@ -26,7 +26,7 @@ defaultImageWidth = 512 # default recipe image width
 # The default height/width are the recommended bulma size (112W X 28H), best to get your logo as close as possible to that
 # The site will SCALE your image, but will not force a stretch, so you may need to stretch it in external tool before using.
 [params.logo]
-fileName = "/images/logo.webp"
+fileName = "images/logo.webp"
 #fileName = "images/logo-alt.png" #alt logo if you are interested
 height =  50
 width = 200
@@ -86,6 +86,4 @@ fileName = "/images/favicon.svg" #your favicon here if you wish to change it.
   mediaType = "text/html"
   baseName = "print"
 
-# disable relative URLs to ensure images reference the repository path correctly
-# relativeURLs = true
 canonifyURLs = true

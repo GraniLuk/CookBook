@@ -1,3 +1,4 @@
+
 var searchTerm = null;
 
 summaryInclude=60;
@@ -36,7 +37,7 @@ u('#searchButton').handle('click', function(e) { //use handle to automatically p
         u('#searchButton').addClass("is-loading");
         executeSearch(searchTerm);
       }else {
-        showAlert("Wyszukiwanie nie może być puste!")
+        showAlert("Search cannot be empty!")
       }
 })
 
@@ -53,7 +54,7 @@ function executeSearch(searchQuery){
             u('#searchResults').removeClass("is-hidden") //show Result area
             populateResults(result);
         }else{
-          showAlert("Nie znaleziono wyników!")
+          showAlert("No results found!")
           u('#searchButton').removeClass("is-loading");
           u("#searchTerm").text("");
         }
