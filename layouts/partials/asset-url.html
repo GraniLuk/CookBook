@@ -1,0 +1,6 @@
+{{- $path := . -}}
+{{- if eq hugo.Environment "development" -}}
+/CookBook{{ $path }}
+{{- else -}}
+https://graniluk.github.io/CookBook{{ $path }}
+{{- end -}}
