@@ -2,7 +2,7 @@
 draft: false
 title: "Sos Szparagowy Z Mascarpone I Suszonymi Pomidorami"
 author: "Autor Przepisu"
-recipe_image: images/recipe-headers/sos_szparagowy.jpg
+recipe_image: images/recipe-headers/defaultImage.png
 image_width: 512
 image_height: 512
 date: 2025-06-19T12:00:00-00:00
