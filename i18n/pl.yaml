@@ -1,0 +1,39 @@
+# Polish translations for the cookbook theme
+- id: home
+  translation: "Strona Główna"
+- id: categories
+  translation: "Kategorie"
+- id: tags
+  translation: "Tagi"
+- id: breakfast
+  translation: "Śniadania"
+- id: lunch
+  translation: "Obiady"
+- id: dinner
+  translation: "Kolacje"
+- id: desserts
+  translation: "Desery"
+- id: search
+  translation: "Szukaj"
+- id: searchPlaceholder
+  translation: "Szukaj przepisów..."
+- id: author
+  translation: "Autor"
+- id: servings
+  translation: "Porcje"
+- id: prepTime
+  translation: "Czas przygotowania"
+- id: cookTime
+  translation: "Czas gotowania"
+- id: calories
+  translation: "Kalorie"
+- id: ingredients
+  translation: "Składniki"
+- id: instructions
+  translation: "Instrukcje"
+- id: print
+  translation: "Drukuj"
+- id: minutes
+  translation: "minut"
+- id: kcal
+  translation: "kcal"

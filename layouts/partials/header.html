@@ -1,0 +1,69 @@
+<nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-brand">
+            {{ with .Site.Params.logo }}
+                <img src="{{ .filename }}" width="{{ .width }}" height="{{ .height }}">
+            {{ else }}
+                <h1 style="font-size:300%"><em>{{ .Site.Params.navText.text }}</em></h1>
+            {{ end }}
+        </a>
+        <a id="navBarButton" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+    <div id="navBarMenu" class="navbar-menu">        <div class="navbar-start">
+            {{ with site.Menus.main }}
+                {{ range . }}
+                    {{ if .HasChildren }}
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link">
+                                {{ if .Pre }}
+                                {{ $icon := printf "<i class=\"%s pr-2\"></i> " .Pre | safeHTML }}
+                                {{- $icon -}}
+                                {{ end }}
+                                {{ .Name }}
+                            </a>
+                            <div class="navbar-dropdown">
+                                {{ range .Children }}
+                                    <a class="navbar-item" href="{{- .URL -}}">
+                                        {{ if .Pre }}
+                                        {{ $icon := printf "<i class=\"%s pr-2\"></i> " .Pre | safeHTML }}
+                                        {{- $icon -}}
+                                        {{ end }}
+                                        {{ .Name }}
+                                    </a>
+                                {{ end }}
+                            </div>
+                        </div>
+                    {{ else }}
+                        {{ if $.IsMenuCurrent .Menu . }}
+                        <a class="navbar-item is-active" href="{{- .URL -}}">
+                        {{ else }}
+                        <a class="navbar-item" href="{{- .URL -}}">
+                        {{ end }}
+                        {{ if .Pre }}
+                        {{ $icon := printf "<i class=\"%s pr-2\"></i> " .Pre | safeHTML }}
+                        {{- $icon -}}
+                        {{ end }}
+                        {{ .Name }}
+                        </a>
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+        </div>
+        <div class="navbar-end">
+            <div class="navbar-item">
+                <form class="field has-addons">
+                    <div class="control">
+                        <input class="input" id="searchTerm" type="text" value="" placeholder="Szukaj przepisów...">
+                    </div>
+                    <div class="control">
+                        <button id="searchButton" class="button is-secondary">Szukaj</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</nav>

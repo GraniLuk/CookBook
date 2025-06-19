@@ -1,0 +1,39 @@
+{{ define "main" }}
+<div class="section">
+    <div class="container">
+        <h1 class="title">Wszystkie Kategorie</h1>
+        <p class="subtitle">Przeglądaj przepisy według kategorii</p>
+        
+        <div class="columns is-multiline">
+            {{ range .Pages.ByTitle }}
+            <div class="column is-one-quarter">
+                <div class="card">
+                    <header class="card-header">
+                        <p class="card-header-title">
+                            <a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+                            <i class="fas fa-utensils pl-3 pb-3"></i>
+                        </p>
+                        <div class="pt-4 pr-2">
+                            {{ $count := .Data.Pages | len }}
+                            {{ if gt $count 1 }}
+                                {{ $count }} przepisów
+                            {{ else }}
+                                1 przepis
+                            {{ end }}
+                        </div>
+                    </header>
+                    <div class="card-content">
+                        {{ range first 5 .Pages }}
+                            <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+                        {{ end }}
+                        {{ if gt (len .Pages) 5 }}
+                            <li><a href="{{ .Permalink }}">... i więcej</a></li>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}

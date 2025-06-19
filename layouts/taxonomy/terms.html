@@ -1,0 +1,37 @@
+{{ define "main" }}
+<div class="section">
+    <div class="columns is-multiline">
+        {{ range .Pages.ByPublishDate.Reverse }}
+        <div class="column is-one-quarter">
+            <div class="card">
+                <header class="card-header">
+                    <p class="card-header-title">
+                        <a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+                        <i class="fas fa-tags pl-3 pb-3"></i>
+                    </p>
+                    <div class="pt-4 pr-2">
+                        {{ $category := lower .Title }}
+                        {{ with .Site.GetPage $category }}
+                            {{ $count := .Data.Pages | len }}
+                            {{ if gt $count 1 }}
+                                {{ $count }} przepisów znaleziono
+                            {{ else }}
+                                1 przepis znaleziony
+                            {{ end }}
+                        {{ end }}
+                    </div>
+                </header>
+                <div class="card-content">
+                    {{ $category := lower .Title }}
+                    {{ with .Site.GetPage $category }}
+                        {{ range first 5 .Pages }}
+                            <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+                        {{ end }}
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

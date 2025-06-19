@@ -1,0 +1,63 @@
+{{ define "main" }}
+<div class="section">
+    <div class="container">
+        <h1 class="title">{{ .Title }}</h1>
+        <p class="subtitle">{{ len .Pages }} {{ if eq (len .Pages) 1 }}przepis{{ else }}przepisów{{ end }} w kategorii "{{ .Title }}"</p>
+        
+        <div class="columns is-multiline">
+            {{ range .Pages.ByPublishDate.Reverse }}
+            <div class="column is-one-third">
+                <div class="card">
+                    {{ if .Params.recipe_image }}
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="/{{ .Params.recipe_image }}" alt="{{ .Title }}">
+                        </figure>
+                    </div>
+                    {{ end }}
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-5">
+                                    <a href="{{ .Permalink }}">{{ .Title }}</a>
+                                </p>
+                                {{ if .Params.tagline }}
+                                <p class="subtitle is-6">{{ .Params.tagline }}</p>
+                                {{ end }}
+                            </div>
+                        </div>
+                        
+                        <div class="content">
+                            {{ if .Params.servings }}
+                            <span class="tag is-light">
+                                <i class="fas fa-users pr-1"></i>{{ .Params.servings }} porcji
+                            </span>
+                            {{ end }}
+                            
+                            {{ if .Params.prep_time }}
+                            <span class="tag is-light">
+                                <i class="fas fa-clock pr-1"></i>{{ .Params.prep_time }} min
+                            </span>
+                            {{ end }}
+                            
+                            {{ if .Params.calories }}
+                            <span class="tag is-light">
+                                <i class="fas fa-fire pr-1"></i>{{ .Params.calories }} kcal
+                            </span>
+                            {{ end }}
+                            
+                            <br><br>
+                            {{ if .Params.tags }}
+                            {{ range .Params.tags }}
+                            <span class="tag is-primary is-light">{{ . }}</span>
+                            {{ end }}
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}
