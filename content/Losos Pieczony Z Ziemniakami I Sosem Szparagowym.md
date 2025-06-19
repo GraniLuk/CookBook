@@ -7,7 +7,7 @@ image_width: 512
 image_height: 512
 date: 2025-06-19T12:00:00-00:00
 categories: ["obiady"]
-tags: ["ryby", "łosoś", "pieczenie", "szparagi", "mascarpone"]
+tags: ["ryby", "łosoś", "goście", "szparagi", "mascarpone"]
 tagline: "Efektowny obiad z pieczonego łososia z ziemniakami i kremowym sosem szparagowym!"
 servings: 4
 prep_time: 25
@@ -31,7 +31,7 @@ Oto przepis na pieczonego łososia w piekarniku z ziemniakami pieczonymi oraz kr
 ### Na ziemniaki:
 - **Ziemniaki** – 1-1,5 kg
 - **Oliwa z oliwek** – 2–3 łyżki
-- **Czosnek** – 2 ząbki (opcjonalnie)
+- **Czosnek granlowany** – 1 łyżeczka
 - **Tymianek** – 1 łyżeczka
 - **Przyprawa grillowa** – do smaku
 - **Sól** – do smaku
@@ -49,7 +49,7 @@ Oto przepis na pieczonego łososia w piekarniku z ziemniakami pieczonymi oraz kr
 ### 1. Przygotowanie ziemniaków
 - Nagrzej piekarnik do 180–200°C (tryb góra-dół).
 - Ziemniaki obierz, opłucz i pokrój na kawałki (ćwiartki lub ósemki).
-- Wymieszaj ziemniaki z oliwą, solą, pieprzem, tymiankiem, przyprawą grillową, papryką oraz posiekanym czosnkiem.
+- Wymieszaj ziemniaki z oliwą, solą, pieprzem, tymiankiem, przyprawą grillową, papryką oraz czosnkiem.
 - Rozłóż na blaszce wyłożonej papierem do pieczenia i wstaw do piekarnika na 30–35 minut, aż będą złociste i chrupiące.
 
 ### 2. Przygotowanie łososia
@@ -61,11 +61,12 @@ Oto przepis na pieczonego łososia w piekarniku z ziemniakami pieczonymi oraz kr
 
 ### 3. Przygotowanie sosu szparagowego
 - Szparagi umyj, odłam twarde końcówki i pokrój na kawałki.
-- Podsmaż szparagi na patelni z odrobiną oliwy i przeciśniętym czosnkiem przez ok. 5 minut.
-- Dodaj pokrojone w paski suszone pomidory i podsmaż jeszcze 2 minuty.
+- Ugotuj szparagi na parze do miękkości około 15min
+- Wrzuć szparagi na patelnię.
+- Dodaj pokrojone w paski suszone pomidory i przeciśnięty przez praskę czosnek i podsmaż 2 minuty.
 - Dodaj mascarpone i mieszaj, aż sos będzie gładki i kremowy.
 - Dopraw solą i pieprzem do smaku.
-- Jeśli sos jest zbyt gęsty, możesz dolać odrobinę wody lub bulionu rybnego.
+- Jeśli sos jest zbyt gęsty, możesz dolać odrobinę wody.
 
 ## Podanie
 
