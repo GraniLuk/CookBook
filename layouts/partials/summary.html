@@ -4,10 +4,12 @@
         <img style="border-radius: 3%;" src="{{ $.Params.Recipe_image | absURL }}" alt="Zdjęcie przepisu">
         </figure>
     </div>
+    
     <div class="card-content">
         <div class="media-content">
-            <p class="title is-4 has-text-centered">{{ $.Title }}</p>
-            <p class="subtitle is-6 "><em>{{ $.Params.Author }}</em></p>
+            <p class="title is-4 has-text-centered">
+                <a href="{{ .Permalink }}" style="color: inherit; text-decoration: none;">{{ $.Title }}</a>
+            </p>
         </div>
         <div class="content">
             <p class="is-small">{{ $.Params.Tagline }}</p>
