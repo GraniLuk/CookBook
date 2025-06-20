@@ -123,8 +123,18 @@
         border-radius: 0;
         transform: none;
         transition: none;
+        display: none; /* Hidden by default on mobile */
+        opacity: 1;
+        pointer-events: auto;
     }
     
+    /* Show nested dropdown when active class is applied (mobile click) */
+    .nested-dropdown.is-active .nested-dropdown-content,
+    .nested-dropdown-content.is-active {
+        display: block !important;
+    }
+    
+    /* Keep hover behavior for desktop, but add click behavior for mobile */
     .nested-dropdown:hover .nested-dropdown-content {
         display: block;
         opacity: 1;
@@ -133,5 +143,25 @@
     
     .navbar-link-nested {
         padding-right: 1rem !important;
+        cursor: pointer !important; /* Ensure it looks clickable */
+    }
+      /* Visual indicator for expandable items on mobile */
+    .navbar-link-nested .icon {
+        transition: transform 0.2s ease;
+    }
+    
+    .nested-dropdown.is-active .navbar-link-nested .icon {
+        transform: rotate(90deg);
+    }
+    
+    /* Make the nested dropdown links more prominent on mobile */
+    .nested-dropdown .navbar-link-nested {
+        background-color: #f9f9f9 !important;
+        border-left: 3px solid #00d1b2 !important;
+    }
+    
+    .nested-dropdown.is-active .navbar-link-nested {
+        background-color: #e8f5e8 !important;
+        border-left-color: #23d160 !important;
     }
 }
