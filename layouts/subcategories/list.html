@@ -16,11 +16,10 @@
         <div class="columns is-multiline">
             {{ range .Pages.ByPublishDate.Reverse }}
             <div class="column is-one-third">
-                <div class="card">
-                    {{ if .Params.recipe_image }}
+                <div class="card">                    {{ if .Params.recipe_image }}
                     <div class="card-image">
                         <figure class="image is-4by3">
-                            <img src="/{{ .Params.recipe_image }}" alt="{{ .Title }}">
+                            <img src="{{ .Site.BaseURL }}{{ .Params.recipe_image }}" alt="{{ .Title }}">
                         </figure>
                     </div>
                     {{ end }}
