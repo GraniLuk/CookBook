@@ -163,7 +163,7 @@ function requestTick() {
 window.addEventListener('scroll', requestTick);
 
 // Enhanced mobile menu behavior for sticky navbar
-u(document).ready(function() {
+u(document).on('DOMContentLoaded', function() {
     // Close mobile menu when clicking on a link (except nested dropdowns)
     u('.navbar-item:not(.has-dropdown)').on('click', function() {
         if (window.innerWidth < 1024) {
@@ -238,6 +238,6 @@ u('.navbar-burger').on('keydown', function(e) {
 });
 
 // Initialize navbar on page load
-u(document).ready(function() {
+u(document).on('DOMContentLoaded', function() {
     updateNavbar();
 });
