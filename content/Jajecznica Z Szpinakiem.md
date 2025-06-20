@@ -2,7 +2,7 @@
 draft: false
 title: "Jajecznica Ze Szpinakiem"
 author: "Stefan"
-recipe_image: /images/recipe-headers/jajecznica_z_szpinakiem.webp
+recipe_image: images/recipe-headers/jajecznica_z_szpinakiem.webp
 image_width: 512
 image_height: 512
 date: 2025-06-18T12:00:00-00:00

@@ -2,7 +2,7 @@
 draft: false
 title: "Wrap Z Awokado I Jajkiem"
 author: "Granica"
-recipe_image: /images/recipe-headers/wrap_z_awokado.webp
+recipe_image: images/recipe-headers/wrap_z_awokado.webp
 image_width: 512
 image_height: 512
 date: 2025-06-18T12:00:00-00:00
