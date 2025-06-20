@@ -1,4 +1,3 @@
-
 var searchTerm = null;
 
 summaryInclude=60;
@@ -127,3 +126,118 @@ function populateResults(result){
     }
     return templateString;
 }
+
+// ===== STICKY NAVBAR ENHANCEMENTS =====
+
+// Enhanced navbar scrolling behavior
+let lastScrollY = window.scrollY;
+let ticking = false;
+
+function updateNavbar() {
+    const navbar = document.querySelector('.sticky-navbar');
+    const currentScrollY = window.scrollY;
+    
+    if (!navbar) return;
+    
+    // Add/remove shadow based on scroll position
+    if (currentScrollY > 10) {
+        navbar.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.15)';
+        navbar.style.backgroundColor = 'rgba(0, 209, 178, 0.95)'; // Semi-transparent primary color
+    } else {
+        navbar.style.boxShadow = '0 2px 8px rgba(0, 0, 0, 0.1)';
+        navbar.style.backgroundColor = '#00d1b2'; // Solid primary color
+    }
+    
+    lastScrollY = currentScrollY;
+    ticking = false;
+}
+
+function requestTick() {
+    if (!ticking) {
+        requestAnimationFrame(updateNavbar);
+        ticking = true;
+    }
+}
+
+// Add scroll event listener for navbar effects
+window.addEventListener('scroll', requestTick);
+
+// Enhanced mobile menu behavior for sticky navbar
+u(document).ready(function() {
+    // Close mobile menu when clicking on a link (except nested dropdowns)
+    u('.navbar-item:not(.has-dropdown)').on('click', function() {
+        if (window.innerWidth < 1024) {
+            u('#navBarMenu').removeClass('is-active');
+        }
+    });
+    
+    // Close mobile menu when clicking outside
+    u(document).on('click', function(e) {
+        const target = u(e.target);
+        const navbar = target.closest('.navbar');
+        const navbarMenu = u('#navBarMenu');
+        
+        if (!navbar.length && navbarMenu.hasClass('is-active')) {
+            navbarMenu.removeClass('is-active');
+        }
+    });
+    
+    // Prevent mobile menu from closing when clicking inside it
+    u('#navBarMenu').on('click', function(e) {
+        e.stopPropagation();
+    });
+});
+
+// Enhanced search functionality for sticky navbar
+u('#searchTerm').on('keypress', function(e) {
+    if (e.keyCode === 13) { // Enter key
+        e.preventDefault();
+        u('#searchButton').trigger('click');
+    }
+});
+
+// Add focus/blur effects for search input
+u('#searchTerm').on('focus', function() {
+    u(this).parent().addClass('is-focused');
+});
+
+u('#searchTerm').on('blur', function() {
+    u(this).parent().removeClass('is-focused');
+});
+
+// Smooth scroll to top functionality (optional enhancement)
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}
+
+// Add keyboard navigation support
+u(document).on('keydown', function(e) {
+    // ESC key closes mobile menu
+    if (e.keyCode === 27) {
+        u('#navBarMenu').removeClass('is-active');
+        u('.nested-dropdown').removeClass('is-active');
+        u('.nested-dropdown-content').removeClass('is-active');
+    }
+    
+    // Alt + S focuses search input
+    if (e.altKey && e.keyCode === 83) {
+        e.preventDefault();
+        u('#searchTerm').first().focus();
+    }
+});
+
+// Accessibility improvements
+u('.navbar-burger').on('keydown', function(e) {
+    if (e.keyCode === 13 || e.keyCode === 32) { // Enter or Space
+        e.preventDefault();
+        u(this).trigger('click');
+    }
+});
+
+// Initialize navbar on page load
+u(document).ready(function() {
+    updateNavbar();
+});

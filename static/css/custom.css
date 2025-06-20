@@ -40,3 +40,205 @@ body, button, input, optgroup, select, textarea {
     white-space: nowrap;
     margin-right: 0.3em;
 }
+
+/* ===== STICKY NAVBAR STYLES ===== */
+/* Make the navbar sticky/floating */
+.sticky-navbar {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    z-index: 1000 !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+    transition: all 0.3s ease-in-out !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+}
+
+/* Add top margin to body to prevent content from being hidden behind sticky navbar */
+body {
+    margin-top: 3.25rem !important; /* Standard Bulma navbar height */
+}
+
+/* Enhanced mobile burger menu for sticky navbar */
+.sticky-navbar .navbar-burger {
+    background-color: transparent !important;
+    border: none !important;
+    cursor: pointer !important;
+    display: block !important;
+    height: 3.25rem !important;
+    position: relative !important;
+    width: 3.25rem !important;
+    margin-left: auto !important;
+}
+
+/* Improve dropdown visibility on sticky navbar */
+.sticky-navbar .navbar-dropdown {
+    position: absolute !important;
+    top: 100% !important;
+    left: 0 !important;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 0 0 6px 6px !important;
+    max-height: 70vh !important;
+    overflow-y: auto !important;
+}
+
+/* Ensure nested dropdowns work well with sticky navbar */
+.sticky-navbar .navbar-dropdown .nested-dropdown-content {
+    position: absolute !important;
+    left: 100% !important;
+    top: 0 !important;
+    min-width: 200px !important;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 6px !important;
+    max-height: 60vh !important;
+    overflow-y: auto !important;
+}
+
+/* Improve search form styling in sticky navbar */
+.sticky-navbar .navbar-end .field {
+    margin-bottom: 0 !important;
+}
+
+.sticky-navbar .navbar-end .navbar-item {
+    padding: 0.5rem 1rem !important;
+}
+
+/* Enhanced search input styling */
+.sticky-navbar #searchTerm {
+    border-radius: 4px 0 0 4px !important;
+    border-right: none !important;
+    min-width: 200px !important;
+}
+
+.sticky-navbar #searchButton {
+    border-radius: 0 4px 4px 0 !important;
+    border-left: none !important;
+    transition: all 0.2s ease !important;
+}
+
+.sticky-navbar #searchButton:hover {
+    transform: translateY(-1px) !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Enhanced search input focus states */
+.sticky-navbar .is-focused #searchTerm {
+    border-color: #00d1b2 !important;
+    box-shadow: 0 0 0 0.125em rgba(0, 209, 178, 0.25) !important;
+}
+
+.sticky-navbar .is-focused #searchButton {
+    border-color: #00d1b2 !important;
+}
+
+/* Add visual feedback for keyboard navigation */
+.navbar-item:focus,
+.navbar-link:focus,
+.navbar-burger:focus {
+    outline: 2px solid #00d1b2 !important;
+    outline-offset: 2px !important;
+}
+
+/* Improve dropdown accessibility */
+.navbar-dropdown .navbar-item:focus {
+    background-color: #f5f5f5 !important;
+    outline: none !important;
+}
+
+/* Loading state for search button */
+.sticky-navbar #searchButton.is-loading {
+    color: transparent !important;
+}
+
+.sticky-navbar #searchButton.is-loading::after {
+    animation: spinAround 500ms infinite linear !important;
+    border: 2px solid #dbdbdb !important;
+    border-radius: 50% !important;
+    border-right-color: transparent !important;
+    border-top-color: transparent !important;
+    content: "" !important;
+    display: block !important;
+    height: 1em !important;
+    position: relative !important;
+    width: 1em !important;
+    margin: 0 auto !important;
+}
+
+@keyframes spinAround {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+/* Responsive adjustments for mobile */
+@media screen and (max-width: 1023px) {
+    .sticky-navbar .navbar-menu {
+        position: absolute !important;
+        top: 100% !important;
+        left: 0 !important;
+        right: 0 !important;
+        background-color: white !important;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1) !important;
+        max-height: 70vh !important;
+        overflow-y: auto !important;
+        border-radius: 0 0 6px 6px !important;
+    }
+    
+    /* Adjust body margin for mobile */
+    body {
+        margin-top: 3.25rem !important;
+    }
+    
+    /* Mobile search form adjustments */
+    .sticky-navbar .navbar-end .navbar-item {
+        padding: 1rem !important;
+        border-top: 1px solid #dbdbdb !important;
+    }
+    
+    .sticky-navbar #searchTerm {
+        min-width: 100% !important;
+        margin-bottom: 0.5rem !important;
+        border-radius: 4px !important;
+        border: 1px solid #dbdbdb !important;
+    }
+    
+    .sticky-navbar #searchButton {
+        width: 100% !important;
+        border-radius: 4px !important;
+        border: 1px solid #dbdbdb !important;
+    }
+    
+    .sticky-navbar .field.has-addons {
+        display: block !important;
+    }
+    
+    .sticky-navbar .field.has-addons .control {
+        width: 100% !important;
+    }
+}
+
+/* Smooth scroll behavior for better UX */
+html {
+    scroll-behavior: smooth !important;
+}
+
+/* Add subtle animation when navbar appears */
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.sticky-navbar {
+    animation: slideDown 0.3s ease-out !important;
+}
