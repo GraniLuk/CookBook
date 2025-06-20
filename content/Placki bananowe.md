@@ -1,4 +1,3 @@
-
 ---
 draft: false
 title: "Placki Bananowe"
