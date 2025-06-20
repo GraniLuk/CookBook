@@ -1,26 +1,32 @@
-<div class="card" style="border-radius: 1%;">
+<div class="card" style="border-radius: 1%; height: 100%; display: flex; flex-direction: column;">
     <div class="card-image">
         <figure class="image is-4by3">
         <img style="border-radius: 3%;" src="{{ $.Params.Recipe_image | absURL }}" alt="Zdjęcie przepisu">
         </figure>
     </div>
-    
-    <div class="card-content">
-        <div class="media-content">
-            <p class="title is-4 has-text-centered">
-                <a href="{{ .Permalink }}" style="color: inherit; text-decoration: none;">{{ $.Title }}</a>
+      <div class="card-content" style="flex-grow: 1; display: flex; flex-direction: column;">
+        <div class="media-content" style="height: 4em; display: flex; align-items: center;">
+            <p class="title is-4 has-text-centered" style="width: 100%; margin: 0;">
+                <a href="{{ .Permalink }}" style="color: inherit; text-decoration: none; display: -webkit-box; -webkit-line-clamp: 2; line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">{{ $.Title }}</a>
             </p>
         </div>
-        <div class="content">
-            <p class="is-small">{{ $.Params.Tagline }}</p>
-            <br>                <i class="fas fa-tags pr-2"></i>
-                {{ range $index, $element := $.Params.Tags }}
-               <a href="{{ partial "asset-url.html" (printf "/tags/%s" $element) }}">{{$element}}</a>
-                {{ end }}
-            <br>
-            <i class="fas fa-calendar pr-4"></i>{{ .Date.Format "January 2006" }}
+        <div class="content" style="flex-grow: 1; display: flex; flex-direction: column;">
+            <div style="height: 4.5em; margin-bottom: 0.5em;">
+                <p class="is-small" style="display: -webkit-box; -webkit-line-clamp: 3; line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; margin-bottom: 0;">{{ $.Params.Tagline }}</p>
+            </div>
+            <div style="height: 2em; margin-bottom: 0.5em; display: flex; align-items: flex-start;">
+                <i class="fas fa-tags pr-2"></i>
+                <div style="display: -webkit-box; -webkit-line-clamp: 1; line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden;">
+                    {{ range $index, $element := $.Params.Tags }}
+                    <a href="{{ partial "asset-url.html" (printf "/tags/%s" $element) }}">{{$element}}</a>
+                    {{ end }}
+                </div>
+            </div>
+            <div style="height: 1.5em; display: flex; align-items: center;">
+                <i class="fas fa-calendar pr-4"></i>{{ .Date.Format "January 2006" }}
+            </div>
         </div>
-        <div class="card-footer">
+        <div class="card-footer" style="margin-top: auto;">
             <a href="{{ .Permalink }}" class="card-footer-item button is-primary">Zobacz przepis</a>
         </div>
     </div>

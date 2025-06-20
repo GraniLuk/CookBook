@@ -2,3 +2,29 @@ li {
     padding-bottom: .5em;
     font-size: 20px;
 }
+
+/* Ensure equal height cards */
+.columns.is-multiline {
+    align-items: stretch;
+}
+
+.column {
+    display: flex;
+}
+
+.card {
+    width: 100%;
+}
+
+/* Remove the old tagline styling as it's now handled inline */
+/* Title styling for consistent height */
+.card .title.is-4 {
+    line-height: 1.2em;
+    font-size: 1.1rem;
+}
+
+/* Ensure tags don't wrap and stay on one line */
+.card-content .content a {
+    white-space: nowrap;
+    margin-right: 0.3em;
+}
