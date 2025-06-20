@@ -1,6 +1,6 @@
 <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-        <a class="navbar-brand">
+        <a class="navbar-brand" href="{{ .Site.Home.RelPermalink }}">
             {{ with .Site.Params.logo }}
                 <img src="{{ .filename }}" width="{{ .width }}" height="{{ .height }}">
             {{ else }}
