@@ -1,34 +1,44 @@
 
-Recipe Book: *Granica*
-Servings: **3 porcje**
-Active Time: **15 minut**
-Total Time: **30 minut**
+---
+draft: false
+title: "Jajka Zapiekane Z Szynką I Warzywami"
+author: "Granica"
+recipe_image: /images/recipe_headers/jajka_zapiekane_z_szynka_warzywami.webp
+image_width: 512
+image_height: 512
+date: 2025-06-20T12:00:00-00:00
+categories: ["sniadania"]
+subcategories: ["słone"]
+tags: ["jajka", "warzywa", "szynka", "zapiekanka", "białkowe"]
+tagline: "Sycące jajka zapiekane z warzywami i szynką - pełnowartościowy posiłek!"
+servings: 3
+prep_time: 15
+cook: true
+cook_time: 20
+calories: 180
+---
 
-![photo](https://www.umami.recipes/api/image/recipes/BZwBt5OYLlBm6Cxn17Gh/images/70BWXZ1YNvIGt1mx8luZ3B?w=3840&q=75)
+## Składniki
+- 3 jaja kurze rozmiar L
+- 30g chudej wędliny (np. z kurczaka)
+- 30g sera Piórko
+- 5g oliwy
+- 3-4 spore różyczki brokuła
+- ¼ średniej papryki czerwonej
+- ¼ średniej cebuli
+- 1-2 łodygi szczypiorku
+- sól do smaku
+- pieprz do smaku
 
-#ingredients 
-## Ingredients
-- [x] Jaja kurze r. L – 3 sztuki
-- [x] Chuda wędlina(np. z kurczaka) – 30g
-- [x] Ser Piórko – 30g
-- [x] Oliwa – 5g
-- [x] Brokuł – 3- [ ]4 spore różyczki
-- [x] Papryka czerwona – ¼ średniej
-- [x] Cebula – ¼ średniej
-- [x] Szczypiorek – 1- [ ]2 łodygi
-- [x] Sól – do smaku
-- [x] Pieprz – do smaku
+## Sposób przygotowania
 
-## Directions
 1. Piekarnik rozgrzej do 180 stopni.
 2. Wędlinę pokrój na małe kawałki, cebulę w kostkę, podsmaż je przez chwilę na oliwie.
-3. 2. Do miski wbij jajka, dodaj starty ser, posiekany szczypiorek, pokrojone na mniejsze kawałki różyczki brokuła i paprykę oraz zawartość patelni.
+3. Do miski wbij jajka, dodaj starty ser, posiekany szczypiorek, pokrojone na mniejsze kawałki różyczki brokuła i paprykę oraz zawartość patelni.
 4. Dopraw pieprzem i solą, wymieszaj.
-5. Masę przelej do kokilki (lub kilku mniejszych kokilek) przesmarowanej oliwą. Piecz przez około 20 minut
+5. Masę przelej do kokilki (lub kilku mniejszych kokilek) przesmarowanej oliwą. Piecz przez około 20 minut.
 
-## Notes
-Jeżeli nie masz kokilki, możesz użyć foremek do muffinów lub usmażyć omlet.
+## Uwagi
+Jeżeli nie masz kokilki, możesz użyć foremek do muffinów lub usmażyć omlet. Danie sprawdzi się jako posiłek solo, możesz też pokroić je na cieńsze plastry/kawałki i użyć jako wkładu do kanapek. Jako dodatek polecam sos z zielonych jalapeño.
 
-Danie sprawdzi się jako posiłek solo, możesz też pokroić je na cieńsze plastry/kawałki i użyć jako wkładu do kanapek.
-
-Jako dodatek polecam sos z zielonych jalapeno
+To zapiekane danie to doskonałe źródło białka i witamin. Idealne na sycące śniadanie lub lekki obiad!
