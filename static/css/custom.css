@@ -230,7 +230,15 @@ body {
 
 /* Responsive adjustments for mobile */
 @media screen and (max-width: 1023px) {
-    .sticky-navbar .navbar-menu {
+    /* Burger menu visibility */
+    .navbar-burger {
+        display: block !important;
+    }
+    
+    /* Default: hide navbar menu */
+    .sticky-navbar .navbar-menu,
+    .navbar-menu {
+        display: none !important;
         position: absolute !important;
         top: 100% !important;
         left: 0 !important;
@@ -240,6 +248,75 @@ body {
         max-height: 70vh !important;
         overflow-y: auto !important;
         border-radius: 0 0 6px 6px !important;
+        z-index: 9999 !important;
+        width: 100% !important;
+    }    
+    /* Show when active - Proper mobile menu styling */
+    nav.navbar.sticky-navbar #navBarMenu.navbar-menu.is-active,
+    nav.navbar.sticky-navbar .navbar-menu.is-active,
+    .sticky-navbar #navBarMenu.is-active,
+    .sticky-navbar .navbar-menu.is-active,
+    #navBarMenu.navbar-menu.is-active,
+    .navbar-menu.is-active {
+        display: block !important;
+        background-color: white !important;
+        position: absolute !important;
+        top: 100% !important;
+        left: 0 !important;
+        right: 0 !important;
+        z-index: 9999 !important;
+        width: 100% !important;
+        max-height: 70vh !important;
+        overflow-y: auto !important;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1) !important;
+        border-radius: 0 0 6px 6px !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+    }
+    
+    /* Style menu items properly */
+    #navBarMenu.is-active .navbar-item {
+        color: #4a4a4a !important;
+        background-color: transparent !important;
+        padding: 0.5rem 1rem !important;
+        display: block !important;
+        line-height: 1.5 !important;
+    }
+    
+    #navBarMenu.is-active .navbar-item:hover {
+        background-color: #f5f5f5 !important;
+        color: #363636 !important;
+    }
+      /* Mobile dropdown behavior */
+    .navbar-dropdown {
+        display: none;
+    }
+    
+    .navbar-item.has-dropdown.is-active .navbar-dropdown {
+        display: block !important;
+    }
+    
+    /* Override nested-menu.css mobile rules - ensure dropdowns are hidden by default on mobile too */
+    .navbar.sticky-navbar .navbar-dropdown .nested-dropdown-content,
+    .sticky-navbar .navbar-dropdown .nested-dropdown-content,
+    .navbar-dropdown .nested-dropdown-content {
+        display: none !important;
+        position: static !important;
+        background-color: #f5f5f5 !important;
+        margin-left: 1rem !important;
+        padding: 0.5rem 0 !important;
+        border-left: 2px solid #00d1b2 !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+    }
+    
+    /* Show only when parent is active on mobile */
+    .navbar.sticky-navbar .navbar-dropdown .nested-dropdown.is-active .nested-dropdown-content,
+    .sticky-navbar .navbar-dropdown .nested-dropdown.is-active .nested-dropdown-content,
+    .navbar-dropdown .nested-dropdown.is-active .nested-dropdown-content {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
     }
     
     /* Adjust body margin for mobile */
@@ -291,8 +368,7 @@ body {
     /* Make sure dropdowns work properly on desktop */
     .navbar-item.has-dropdown.is-hoverable:hover .navbar-dropdown {
         display: block !important;
-        opacity: 1 !important;
-        visibility: visible !important;
+        opacity: 1 !important;        visibility: visible !important;
     }
       /* Nested dropdown positioning for desktop */
     .nested-dropdown {
@@ -302,24 +378,7 @@ body {
     /* REMOVED CONFLICTING RULE - using our final solution instead */
 }
 
-/* Mobile navbar menu behavior */
-@media screen and (max-width: 1023px) {
-    .navbar-menu {
-        display: none;
-    }
-    
-    .navbar-menu.is-active {
-        display: block !important;
-    }
-    
-    /* Mobile dropdown behavior */
-    .navbar-dropdown {
-        display: none;
-    }
-      .navbar-item.has-dropdown.is-active .navbar-dropdown {
-        display: block !important;
-    }
-}
+/* REMOVED DUPLICATE MOBILE RULES - consolidated below */
 
 /* Smooth scroll behavior for better UX */
 html {
@@ -490,7 +549,7 @@ html {
     top: 0 !important;
     min-width: 200px !important;
     z-index: 1001 !important;
-    background: red !important; /* TEMP DEBUG: Should not be visible */
+    background: white !important;
     border: 1px solid #dbdbdb !important;
     border-radius: 6px !important;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1) !important;
@@ -507,7 +566,7 @@ html {
     display: block !important;
     opacity: 1 !important;
     visibility: visible !important;
-    background: white !important; /* TEMP DEBUG: Should show white when hovered */
+    background: white !important;
 }
 
 /* Ensure nested dropdown parent has relative positioning */
@@ -556,47 +615,10 @@ html {
     .sticky-navbar .navbar-dropdown .nested-dropdown:not(:hover) .nested-dropdown-content,
     .navbar-dropdown .nested-dropdown:not(:hover) .nested-dropdown-content {
         display: none !important;
-        opacity: 0 !important;
-        visibility: hidden !important;
+        opacity: 0 !important;        visibility: hidden !important;
     }
 }
 
-/* Mobile navbar behavior */
-@media screen and (max-width: 1023px) {
-    .navbar-burger {
-        display: block !important;
-    }
-    
-    .navbar-menu {
-        display: none !important;
-    }
-    
-    .navbar-menu.is-active {
-        display: block !important;
-    }
-    
-    /* Override nested-menu.css mobile rules - ensure dropdowns are hidden by default on mobile too */
-    .navbar.sticky-navbar .navbar-dropdown .nested-dropdown-content,
-    .sticky-navbar .navbar-dropdown .nested-dropdown-content,
-    .navbar-dropdown .nested-dropdown-content {
-        display: none !important;
-        position: static !important;
-        background-color: #f5f5f5 !important;
-        margin-left: 1rem !important;
-        padding: 0.5rem 0 !important;
-        border-left: 2px solid #00d1b2 !important;
-        visibility: hidden !important;
-        opacity: 0 !important;
-    }
-    
-    /* Show only when parent is active on mobile */
-    .navbar.sticky-navbar .navbar-dropdown .nested-dropdown.is-active .nested-dropdown-content,
-    .sticky-navbar .navbar-dropdown .nested-dropdown.is-active .nested-dropdown-content,
-    .navbar-dropdown .nested-dropdown.is-active .nested-dropdown-content {
-        display: block !important;
-        visibility: visible !important;
-        opacity: 1 !important;
-    }
-}
+/* REMOVED DUPLICATE MOBILE RULES - consolidated above */
 
 /* ===== END RESPONSIVE BEHAVIOR ===== */
