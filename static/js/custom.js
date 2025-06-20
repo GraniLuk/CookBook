@@ -42,7 +42,9 @@ u('#searchButton').handle('click', function(e) { //use handle to automatically p
 })
 
 function executeSearch(searchQuery){
-    fetch("/index.json").then(r => r.json())
+    // Get the correct base URL for index.json
+    const baseUrl = window.location.pathname.includes('/CookBook/') ? '/CookBook' : '';
+    fetch(`${baseUrl}/index.json`).then(r => r.json())
     .then(function(data) {    
         var pages = data;
         var fuse = new Fuse(pages, fuseOptions);
