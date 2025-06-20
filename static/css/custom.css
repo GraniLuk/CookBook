@@ -3,28 +3,28 @@ li {
     font-size: 20px;
 }
 
-/* Ensure equal height cards */
-.columns.is-multiline {
+/* Ensure equal height cards - only for home page and list pages with card grids */
+.section .columns.is-multiline {
     align-items: stretch;
 }
 
-.column {
+.section .columns.is-multiline .column {
     display: flex;
 }
 
-.card {
+/* Only target cards within multiline grid layouts */
+.section .columns.is-multiline .card {
     width: 100%;
 }
 
-/* Remove the old tagline styling as it's now handled inline */
-/* Title styling for consistent height */
-.card .title.is-4 {
+/* Title styling for consistent height - only for cards in grid layout */
+.section .columns.is-multiline .card .title.is-4 {
     line-height: 1.2em;
     font-size: 1.1rem;
 }
 
-/* Ensure tags don't wrap and stay on one line */
-.card-content .content a {
+/* Ensure tags don't wrap and stay on one line - only for cards in grid layout */
+.section .columns.is-multiline .card-content .content a {
     white-space: nowrap;
     margin-right: 0.3em;
 }
