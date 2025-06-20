@@ -10,38 +10,48 @@ u('#searchButton').on('click', function(e) {
 
 // Handle mobile nested dropdown toggles
 u('.navbar-link-nested').on('click', function(e) {
-    console.log('Nested dropdown clicked, window width:', window.innerWidth);
-    
     // Only handle on mobile (screen width < 1024px)
     if (window.innerWidth < 1024) {
-        console.log('Mobile mode detected, preventing default and toggling dropdown');
         e.preventDefault(); // Prevent following the link
         e.stopPropagation(); // Prevent event bubbling
-        
-        var clickedLink = u(this);
+          var clickedLink = u(this);
         var parentDropdown = clickedLink.closest('.nested-dropdown');
         var nestedContent = parentDropdown.find('.nested-dropdown-content');
-        
-        console.log('Parent dropdown found:', parentDropdown.length);
-        console.log('Nested content found:', nestedContent.length);
-        
-        // Close other open nested dropdowns
+                  // Close other open nested dropdowns
         u('.nested-dropdown').each(function(node, i) {
             var currentNode = u(node);
             if (node !== parentDropdown.first()) {
                 currentNode.removeClass('is-active');
                 currentNode.find('.nested-dropdown-content').removeClass('is-active');
+                // Hide other dropdowns
+                var otherContent = currentNode.find('.nested-dropdown-content');
+                if (otherContent.length > 0) {
+                    otherContent.first().style.display = 'none';
+                }
             }
         });
-        
-        // Toggle current dropdown
+          // Toggle current dropdown
         var wasActive = parentDropdown.hasClass('is-active');
         parentDropdown.toggleClass('is-active');
         nestedContent.toggleClass('is-active');
         
-        console.log('Dropdown toggled. Was active:', wasActive, 'Now active:', parentDropdown.hasClass('is-active'));
-    } else {
-        console.log('Desktop mode, allowing normal link behavior');
+        // Apply inline styles for mobile
+        if (!wasActive) {
+            if (nestedContent.length > 0) {
+                var contentEl = nestedContent.first();
+                contentEl.style.display = 'block';
+                contentEl.style.visibility = 'visible';
+                contentEl.style.position = 'static';
+                contentEl.style.backgroundColor = '#f5f5f5';
+                contentEl.style.marginLeft = '1rem';
+                contentEl.style.padding = '0.5rem 0';
+                contentEl.style.borderLeft = '2px solid #00d1b2';
+            }
+        } else {
+            if (nestedContent.length > 0) {
+                nestedContent.first().style.display = 'none';
+            }
+        }
     }
 })
 
@@ -52,6 +62,10 @@ u(document).on('click', function(e) {
         if (!target.closest('.nested-dropdown').length) {
             u('.nested-dropdown').removeClass('is-active');
             u('.nested-dropdown-content').removeClass('is-active');
+            // Hide all dropdowns
+            u('.nested-dropdown-content').each(function(node) {
+                node.style.display = 'none';
+            });
         }
     }
 })

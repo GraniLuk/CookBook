@@ -116,29 +116,33 @@
 /* Mobile responsiveness for nested dropdowns */
 @media screen and (max-width: 1023px) {
     .nested-dropdown-content {
-        position: static;
-        box-shadow: none;
-        background-color: #f5f5f5;
-        margin-left: 1rem;
-        border-radius: 0;
-        transform: none;
-        transition: none;
-        display: none; /* Hidden by default on mobile */
-        opacity: 1;
-        pointer-events: auto;
+        position: static !important;
+        box-shadow: none !important;
+        background-color: #f5f5f5 !important;
+        margin-left: 1rem !important;
+        border-radius: 0 !important;
+        transform: none !important;
+        transition: none !important;
+        display: none !important; /* Hidden by default on mobile */
+        opacity: 1 !important;
+        pointer-events: auto !important;
+        left: auto !important;
+        top: auto !important;
+        min-width: auto !important;
+        width: 100% !important;
+    }
+    
+    /* Disable hover behavior on mobile */
+    .nested-dropdown:hover .nested-dropdown-content {
+        display: none !important;
     }
     
     /* Show nested dropdown when active class is applied (mobile click) */
     .nested-dropdown.is-active .nested-dropdown-content,
     .nested-dropdown-content.is-active {
         display: block !important;
-    }
-    
-    /* Keep hover behavior for desktop, but add click behavior for mobile */
-    .nested-dropdown:hover .nested-dropdown-content {
-        display: block;
-        opacity: 1;
-        pointer-events: auto;
+        opacity: 1 !important;
+        pointer-events: auto !important;
     }
     
     .navbar-link-nested {
@@ -165,3 +169,50 @@
         border-left-color: #23d160 !important;
     }
 }
+
+/* Emergency mobile dropdown fix with highest specificity */
+@media screen and (max-width: 1023px) {
+    /* Force show when active - this should override everything */
+    .navbar-dropdown .nested-dropdown.is-active > .nested-dropdown-content,
+    .navbar-dropdown .nested-dropdown > .nested-dropdown-content.is-active,
+    .nested-dropdown.is-active .nested-dropdown-content,
+    .nested-dropdown-content.is-active {
+        display: block !important;
+        position: static !important;
+        background-color: #f5f5f5 !important;
+        margin-left: 1rem !important;
+        padding: 0.5rem 0 !important;
+        border-left: 2px solid #00d1b2 !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        height: auto !important;
+        overflow: visible !important;
+        max-height: none !important;
+        transform: none !important;
+        z-index: 999 !important;
+    }
+    
+    /* Ensure we're not getting interference from other styles */
+    .navbar-dropdown .nested-dropdown:not(.is-active) > .nested-dropdown-content {
+        display: none !important;
+    }
+    
+    /* Force the parent containers to be visible too */
+    .navbar-dropdown .nested-dropdown.is-active,
+    .navbar-dropdown .nested-dropdown {
+        overflow: visible !important;
+        height: auto !important;
+        max-height: none !important;
+    }
+    
+    /* Make sure the parent navbar-dropdown doesn't hide overflow */
+    .navbar-dropdown {
+        overflow: visible !important;
+        max-height: none !important;
+        height: auto !important;
+    }
+}
+
+
+
+
