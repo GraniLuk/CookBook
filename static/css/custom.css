@@ -24,6 +24,11 @@ body, button, input, optgroup, select, textarea {
     display: flex;
 }
 
+/* Override flex for mobile columns (stats tables) */
+.section .columns.is-mobile .column {
+    display: block !important;
+}
+
 /* Only target cards within multiline grid layouts */
 .section .columns.is-multiline .card {
     width: 100%;
