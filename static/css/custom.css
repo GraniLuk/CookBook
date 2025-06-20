@@ -87,18 +87,66 @@ body {
     border-radius: 0 0 6px 6px !important;
     max-height: 70vh !important;
     overflow-y: auto !important;
+    min-width: 200px !important;
+    white-space: nowrap !important;
+    z-index: 1001 !important;
 }
 
+/* Position dropdowns to the right when they're near the edge - handled by nth-last-child rules below */
+
 /* Ensure nested dropdowns work well with sticky navbar */
-.sticky-navbar .navbar-dropdown .nested-dropdown-content {
-    position: absolute !important;
-    left: 100% !important;
-    top: 0 !important;
-    min-width: 200px !important;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1) !important;
-    border-radius: 6px !important;
-    max-height: 60vh !important;
-    overflow-y: auto !important;
+.sticky-navbar .navbar-dropdown .nested-dropdown {
+    position: relative !important;
+}
+
+/* REMOVED CONFLICTING RULE - this was making nested dropdown always visible */
+
+/* Position nested dropdowns to the left when they're in items near the edge - handled by nth-last-child rules below */
+
+/* Ensure proper navbar container setup */
+.sticky-navbar .navbar-brand,
+.sticky-navbar .navbar-menu,
+.sticky-navbar .navbar-start {
+    /* Allow dropdowns to extend beyond container */
+    overflow: visible !important;
+}
+
+/* Fallback: prevent document-level horizontal scroll only if needed */
+body {
+    overflow-x: hidden !important;
+}
+
+/* But allow the navbar to have visible overflow for dropdowns */
+.sticky-navbar {
+    overflow-x: visible !important;
+}
+
+/* Ensure dropdowns stay within reasonable bounds as fallback */
+.sticky-navbar .navbar-dropdown {
+    max-width: 90vw !important;
+}
+
+/* Comprehensive horizontal scroll prevention */
+html {
+    overflow-x: hidden !important;
+}
+
+body {
+    overflow-x: hidden !important;
+}
+
+/* But ensure the sticky navbar can still show dropdowns */
+.sticky-navbar,
+.sticky-navbar .navbar-menu,
+.sticky-navbar .navbar-start {
+    overflow-x: visible !important;
+}
+
+/* Ensure main dropdowns don't extend beyond viewport */
+.sticky-navbar .navbar-dropdown {
+    max-width: calc(100vw - 2rem) !important;
+    box-sizing: border-box !important;
+    overflow: visible !important;
 }
 
 /* Improve search form styling in sticky navbar */
@@ -224,6 +272,52 @@ body {
     
     .sticky-navbar .field.has-addons .control {
         width: 100% !important;
+    }
+}
+
+/* ===== NAVBAR RESPONSIVE FIXES ===== */
+
+/* Show navbar menu on desktop by default */
+@media screen and (min-width: 1024px) {
+    .navbar-menu {
+        display: flex !important;
+    }
+    
+    /* Ensure navbar-burger is hidden on desktop */
+    .navbar-burger {
+        display: none !important;
+    }
+    
+    /* Make sure dropdowns work properly on desktop */
+    .navbar-item.has-dropdown.is-hoverable:hover .navbar-dropdown {
+        display: block !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+    }
+      /* Nested dropdown positioning for desktop */
+    .nested-dropdown {
+        position: relative;
+    }
+    
+    /* REMOVED CONFLICTING RULE - using our final solution instead */
+}
+
+/* Mobile navbar menu behavior */
+@media screen and (max-width: 1023px) {
+    .navbar-menu {
+        display: none;
+    }
+    
+    .navbar-menu.is-active {
+        display: block !important;
+    }
+    
+    /* Mobile dropdown behavior */
+    .navbar-dropdown {
+        display: none;
+    }
+      .navbar-item.has-dropdown.is-active .navbar-dropdown {
+        display: block !important;
     }
 }
 
@@ -381,3 +475,128 @@ html {
         padding: 0.5em 1.5em !important;
     }
 }
+
+/* ===== FINAL WORKING DROPDOWN SOLUTION ===== */
+
+/* Reset any previous styles that might interfere - using maximum specificity */
+.navbar.sticky-navbar .navbar-dropdown .nested-dropdown-content,
+.sticky-navbar .navbar-dropdown .nested-dropdown-content,
+.navbar-dropdown .nested-dropdown-content {
+    display: none !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    position: absolute !important;
+    left: 100% !important;
+    top: 0 !important;
+    min-width: 200px !important;
+    z-index: 1001 !important;
+    background: red !important; /* TEMP DEBUG: Should not be visible */
+    border: 1px solid #dbdbdb !important;
+    border-radius: 6px !important;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1) !important;
+    padding: 0.5rem 0 !important;
+    transform: translateX(0) !important;
+    transition: none !important;
+    pointer-events: auto !important;
+}
+
+/* Show nested dropdown ONLY on hover - maximum specificity */
+.navbar.sticky-navbar .navbar-dropdown .nested-dropdown:hover .nested-dropdown-content,
+.sticky-navbar .navbar-dropdown .nested-dropdown:hover .nested-dropdown-content,
+.navbar-dropdown .nested-dropdown:hover .nested-dropdown-content {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    background: white !important; /* TEMP DEBUG: Should show white when hovered */
+}
+
+/* Ensure nested dropdown parent has relative positioning */
+.navbar-dropdown .nested-dropdown {
+    position: relative !important;
+}
+
+/* Ensure all parent containers allow overflow */
+.sticky-navbar,
+.sticky-navbar .navbar-menu,
+.sticky-navbar .navbar-start,
+.sticky-navbar .navbar-dropdown {
+    overflow: visible !important;
+}
+
+/* ===== END FINAL SOLUTION ===== */
+
+/* ===== RESPONSIVE NAVBAR BEHAVIOR ===== */
+
+/* Force show navbar menu on desktop */
+@media screen and (min-width: 1024px) {
+    .navbar-menu {
+        display: flex !important;
+    }
+    
+    .navbar-burger {
+        display: none !important;
+    }
+    
+    /* Ensure dropdowns work on desktop - override nested-menu.css */
+    .navbar-item.has-dropdown.is-hoverable:hover .navbar-dropdown {
+        display: block !important;
+    }
+    
+    /* Maximum specificity for desktop nested dropdown hover */
+    .navbar.sticky-navbar .navbar-dropdown .nested-dropdown:hover .nested-dropdown-content,
+    .sticky-navbar .navbar-dropdown .nested-dropdown:hover .nested-dropdown-content,
+    .navbar-dropdown .nested-dropdown:hover .nested-dropdown-content {
+        display: block !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+    }
+    
+    /* Ensure non-hovered dropdowns stay hidden on desktop */
+    .navbar.sticky-navbar .navbar-dropdown .nested-dropdown:not(:hover) .nested-dropdown-content,
+    .sticky-navbar .navbar-dropdown .nested-dropdown:not(:hover) .nested-dropdown-content,
+    .navbar-dropdown .nested-dropdown:not(:hover) .nested-dropdown-content {
+        display: none !important;
+        opacity: 0 !important;
+        visibility: hidden !important;
+    }
+}
+
+/* Mobile navbar behavior */
+@media screen and (max-width: 1023px) {
+    .navbar-burger {
+        display: block !important;
+    }
+    
+    .navbar-menu {
+        display: none !important;
+    }
+    
+    .navbar-menu.is-active {
+        display: block !important;
+    }
+    
+    /* Override nested-menu.css mobile rules - ensure dropdowns are hidden by default on mobile too */
+    .navbar.sticky-navbar .navbar-dropdown .nested-dropdown-content,
+    .sticky-navbar .navbar-dropdown .nested-dropdown-content,
+    .navbar-dropdown .nested-dropdown-content {
+        display: none !important;
+        position: static !important;
+        background-color: #f5f5f5 !important;
+        margin-left: 1rem !important;
+        padding: 0.5rem 0 !important;
+        border-left: 2px solid #00d1b2 !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+    }
+    
+    /* Show only when parent is active on mobile */
+    .navbar.sticky-navbar .navbar-dropdown .nested-dropdown.is-active .nested-dropdown-content,
+    .sticky-navbar .navbar-dropdown .nested-dropdown.is-active .nested-dropdown-content,
+    .navbar-dropdown .nested-dropdown.is-active .nested-dropdown-content {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+}
+
+/* ===== END RESPONSIVE BEHAVIOR ===== */

@@ -127,6 +127,68 @@ function populateResults(result){
     return templateString;
 }
 
+// Handle mobile dropdown toggles
+u('.navbar-item.has-dropdown .navbar-link').on('click', function(e) {
+    if (window.innerWidth < 1024) {
+        e.preventDefault();
+        const dropdown = u(this).closest('.has-dropdown');
+        dropdown.toggleClass('is-active');
+        
+        // Close other dropdowns
+        u('.navbar-item.has-dropdown').not(dropdown.nodes).removeClass('is-active');
+    }
+});
+
+// Handle nested mobile dropdowns  
+u('.nested-dropdown .navbar-link-nested').on('click', function(e) {
+    if (window.innerWidth < 1024) {
+        e.preventDefault();
+        const nestedDropdown = u(this).closest('.nested-dropdown');
+        nestedDropdown.toggleClass('is-active');
+        
+        // Close other nested dropdowns
+        u('.nested-dropdown').not(nestedDropdown.nodes).removeClass('is-active');
+    }
+});
+
+// ===== NAVBAR BURGER TOGGLE =====
+
+// Toggle mobile menu when burger is clicked
+u('.navbar-burger').on('click', function() {
+    const burgerButton = u(this);
+    const navbarMenu = u('#navBarMenu');
+    
+    // Toggle is-active class on both burger and menu
+    burgerButton.toggleClass('is-active');
+    navbarMenu.toggleClass('is-active');
+    
+    // Update aria-expanded attribute for accessibility
+    const isExpanded = burgerButton.hasClass('is-active');
+    burgerButton.attr('aria-expanded', isExpanded.toString());
+});
+
+// Close mobile menu when clicking on menu items (except dropdowns)
+u('.navbar-item:not(.has-dropdown)').on('click', function() {
+    if (window.innerWidth < 1024) {
+        u('#navBarMenu').removeClass('is-active');
+        u('.navbar-burger').removeClass('is-active');
+        u('.navbar-burger').attr('aria-expanded', 'false');
+    }
+});
+
+// Close mobile menu when clicking outside
+u(document).on('click', function(e) {
+    const target = u(e.target);
+    const navbar = target.closest('.navbar');
+    const navbarMenu = u('#navBarMenu');
+    
+    if (!navbar.length && navbarMenu.hasClass('is-active')) {
+        navbarMenu.removeClass('is-active');
+        u('.navbar-burger').removeClass('is-active');
+        u('.navbar-burger').attr('aria-expanded', 'false');
+    }
+});
+
 // ===== STICKY NAVBAR ENHANCEMENTS =====
 
 // Enhanced navbar scrolling behavior
@@ -176,13 +238,10 @@ u(document).on('DOMContentLoaded', function() {
         const target = u(e.target);
         const navbar = target.closest('.navbar');
         const navbarMenu = u('#navBarMenu');
-        
-        if (!navbar.length && navbarMenu.hasClass('is-active')) {
+          if (!navbar.length && navbarMenu.hasClass('is-active')) {
             navbarMenu.removeClass('is-active');
         }
-    });
-    
-    // Prevent mobile menu from closing when clicking inside it
+    });    // Prevent mobile menu from closing when clicking inside it
     u('#navBarMenu').on('click', function(e) {
         e.stopPropagation();
     });
@@ -240,4 +299,72 @@ u('.navbar-burger').on('keydown', function(e) {
 // Initialize navbar on page load
 u(document).on('DOMContentLoaded', function() {
     updateNavbar();
+});
+
+// ===== DEBUG LOGGING FOR DROPDOWN ISSUES =====
+
+u(document).on('DOMContentLoaded', function() {
+    console.log('Dropdown debugging initialized');
+    
+    // Log all dropdown elements found
+    const mainDropdowns = u('.navbar-item.has-dropdown');
+    console.log('Found main dropdowns:', mainDropdowns.length);
+    
+    const nestedDropdowns = u('.nested-dropdown');
+    console.log('Found nested dropdowns:', nestedDropdowns.length);
+    
+    const nestedContents = u('.nested-dropdown-content');
+    console.log('Found nested dropdown contents:', nestedContents.length);
+    
+    // Log when hovering over Śniadania specifically    // Clean hover handlers for nested dropdowns
+    u('.navbar-dropdown .nested-dropdown').on('mouseenter', function() {
+        // Nested dropdown hover is handled by CSS
+    });
+});
+
+// ===== NESTED DROPDOWN HOVER FIX =====
+
+// Ensure nested dropdowns work on hover/focus
+u(document).on('DOMContentLoaded', function() {
+    // Handle nested dropdown hover
+    u('.nested-dropdown').on('mouseenter', function() {
+        const nestedContent = u(this).find('.nested-dropdown-content');
+        nestedContent.addClass('is-active');
+        nestedContent.first().style.display = 'block';
+        nestedContent.first().style.opacity = '1';
+        nestedContent.first().style.transform = 'translateX(0)';
+    });
+    
+    u('.nested-dropdown').on('mouseleave', function() {
+        const nestedContent = u(this).find('.nested-dropdown-content');
+        nestedContent.removeClass('is-active');
+        nestedContent.first().style.display = 'none';
+        nestedContent.first().style.opacity = '0';
+        nestedContent.first().style.transform = 'translateX(-10px)';
+    });
+    
+    // Also handle click for touch devices
+    u('.nested-dropdown .navbar-link-nested').on('click', function(e) {
+        e.preventDefault();
+        const nestedDropdown = u(this).closest('.nested-dropdown');
+        const nestedContent = nestedDropdown.find('.nested-dropdown-content');
+        
+        // Toggle the nested dropdown
+        if (nestedContent.hasClass('is-active')) {
+            nestedContent.removeClass('is-active');
+            nestedContent.first().style.display = 'none';
+        } else {
+            // Close other nested dropdowns
+            u('.nested-dropdown-content').removeClass('is-active');
+            u('.nested-dropdown-content').each(function(el) {
+                el.style.display = 'none';
+            });
+            
+            // Open this one
+            nestedContent.addClass('is-active');
+            nestedContent.first().style.display = 'block';
+            nestedContent.first().style.opacity = '1';
+            nestedContent.first().style.transform = 'translateX(0)';
+        }
+    });
 });
