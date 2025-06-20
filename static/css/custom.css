@@ -3,6 +3,18 @@ li {
     font-size: 20px;
 }
 
+/* Custom font override - prioritizing different fonts */
+/* body, button, input, optgroup, select, textarea {
+    font-family: "Georgia", "Times New Roman", "Palatino", "Book Antiqua", serif !important;
+} */
+
+/* Alternative option with modern sans-serif fonts */
+
+body, button, input, optgroup, select, textarea {
+    font-family: "Inter", "SF Pro Display", "Nunito", "Source Sans Pro", "Open Sans", sans-serif !important;
+}
+
+
 /* Ensure equal height cards - only for home page and list pages with card grids */
 .section .columns.is-multiline {
     align-items: stretch;
