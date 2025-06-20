@@ -19,7 +19,7 @@ link: https://www.youtube.com/shorts/x1zHo9TF1NA
 
 ## Składniki
 - 2 dojrzałe banany (najlepiej z brązowymi przebarwieniami)
-- 1,5–2 szklanki płatków owsianych błyskawicznych (ilość do uzyskania gęstej masy)
+- 100g płatków owsianych błyskawicznych (ilość do uzyskania gęstej masy)
 - 1/4 tabliczki ciemnej czekolady (ok. 25g), drobno posiekanej na wiórki
 - 1–2 łyżeczki przyprawy korzennej (np. do piernika)
 
