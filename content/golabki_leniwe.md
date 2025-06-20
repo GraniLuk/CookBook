@@ -2,7 +2,7 @@
 draft: false
 title: "Gołąbki Leniwe"
 author: "Autor Przepisu"
-recipe_image: images/recipe-headers/golabkiLeniwe.webp
+recipe_image: /images/recipe-headers/golabkiLeniwe.webp
 image_width: 512
 image_height: 512
 date: 2025-06-18T12:00:00-00:00
