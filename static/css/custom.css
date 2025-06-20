@@ -242,3 +242,137 @@ html {
 .sticky-navbar {
     animation: slideDown 0.3s ease-out !important;
 }
+
+/* ===== MODERN BORDER-RADIUS STYLES ===== */
+
+/* Recipe cards - modern rounded corners */
+.card {
+    border-radius: 16px !important;
+    overflow: hidden !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.card:hover {
+    transform: translateY(-4px) !important;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Card content area */
+.card-content {
+    border-radius: 0 0 16px 16px !important;
+}
+
+/* Card header if present */
+.card-header {
+    border-radius: 16px 16px 0 0 !important;
+}
+
+/* Images within cards - subtle rounding */
+.card img,
+.card-image img {
+    border-radius: 8px !important;
+}
+
+/* For images that are at the top of cards */
+.card-image:first-child img {
+    border-radius: 16px 16px 0 0 !important;
+}
+
+/* Buttons - pill-shaped for modern look */
+.button {
+    border-radius: 24px !important;
+    transition: all 0.3s ease !important;
+}
+
+/* Primary action buttons - more pronounced */
+.button.is-primary,
+.button.is-link {
+    border-radius: 999px !important;
+    padding: 0.75em 2em !important;
+}
+
+/* Small buttons */
+.button.is-small {
+    border-radius: 16px !important;
+}
+
+/* Large buttons */
+.button.is-large {
+    border-radius: 32px !important;
+}
+
+/* Button hover effects */
+.button:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Standalone images - subtle rounding */
+.content img,
+.section img {
+    border-radius: 8px !important;
+}
+
+/* Hero images or featured images */
+.hero img,
+.featured-image img {
+    border-radius: 12px !important;
+}
+
+/* Form inputs - consistent with modern design */
+.input,
+.textarea,
+.select select {
+    border-radius: 12px !important;
+}
+
+/* Tags - pill-shaped */
+.tag {
+    border-radius: 999px !important;
+}
+
+/* Notification boxes */
+.notification {
+    border-radius: 12px !important;
+}
+
+/* Modal content */
+.modal-content {
+    border-radius: 16px !important;
+}
+
+/* Pagination */
+.pagination-link,
+.pagination-ellipsis {
+    border-radius: 12px !important;
+}
+
+/* Search form elements - ensure consistency */
+#searchTerm {
+    border-radius: 12px 0 0 12px !important;
+}
+
+#searchButton {
+    border-radius: 0 12px 12px 0 !important;
+}
+
+/* Mobile adjustments for border-radius */
+@media screen and (max-width: 768px) {
+    .card {
+        border-radius: 12px !important;
+    }
+    
+    .card-image:first-child img {
+        border-radius: 12px 12px 0 0 !important;
+    }
+    
+    .card-content {
+        border-radius: 0 0 12px 12px !important;
+    }
+    
+    .button.is-primary,
+    .button.is-link {
+        border-radius: 24px !important;
+        padding: 0.5em 1.5em !important;
+    }
+}
