@@ -20,9 +20,12 @@
                     {{ partial "metadata.html" . }}
                 </div>
                 <hr>
-            </div>
-            <div class="container has-text-centered">    
+            </div>            <div class="container has-text-centered">    
                 {{ partial "statstable.html" . }}
+            </div>
+            <hr>
+            <div class="container has-text-centered">    
+                {{ partial "macrostable.html" . }}
             </div>
             <hr>
             <p class="subtitle is-italic"> {{ .Params.Tagline }}</p>

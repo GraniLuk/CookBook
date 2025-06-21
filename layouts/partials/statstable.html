@@ -1,19 +1,19 @@
 <div class="columns is-mobile is-multiline">
-    <div class="column is-half-mobile" style="border-right: 1px solid #dbdbdb">
+    <div class="column is-one-third-mobile" style="border-right: 1px solid #dbdbdb">
         <i class="fas fa-concierge-bell fa-lg"></i>
         <div></div>
         <p class="has-text-weight-bold is-size-6">Porcje</p>
         <div></div>
         {{ .Params.Servings | default "---"}} porcji
     </div>
-    <div class="column is-half-mobile" style="border-right: 1px solid #dbdbdb">
+    <div class="column is-one-third-mobile" style="border-right: 1px solid #dbdbdb">
         <i class="fas fa-hourglass-half fa-lg"></i>
         <div></div>
         <p class="has-text-weight-bold is-size-6">Czas przygotowania</p>
         <div></div>
         {{ .Params.Prep_time | default "---"}} minut
     </div>
-    <div class="column is-half-mobile" style="border-right: 1px solid #dbdbdb">
+    <div class="column is-one-third-mobile">
         <i class="fas fa-temperature-high fa-lg"></i>
         <div></div>
         {{ if .Params.Cook }}
@@ -27,12 +27,4 @@
         {{ else }}
             {{ .Params.Cook_time | default "---"}} minut
         {{ end }}
-    </div>
-    <div class="column is-half-mobile">
-        <i class="fas fa-fire fa-lg"></i>
-        <div></div>
-        <p class="has-text-weight-bold is-size-6">Kalorie</p>
-        <div></div>
-        {{ .Params.Calories | default "---" }} kcal
-    </div>     
-</div>
+    </div></div>
