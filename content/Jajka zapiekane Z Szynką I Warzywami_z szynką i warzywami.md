@@ -14,18 +14,21 @@ servings: 3
 prep_time: 15
 cook: true
 cook_time: 20
-calories: 180
+calories: 255
+protein: 19
+fat: 15
+carbohydrate: 8
 ---
 
 ## Składniki
-- 3 jaja kurze rozmiar L
+- 3 jaja kurze rozmiar L (około 180g)
 - 30g chudej wędliny (np. z kurczaka)
 - 30g sera Piórko
-- 5g oliwy
-- 3-4 spore różyczki brokuła
-- ¼ średniej papryki czerwonej
-- ¼ średniej cebuli
-- 1-2 łodygi szczypiorku
+- 5g oliwy extra virgin
+- 3-4 spore różyczki brokuła (około 100g)
+- ¼ średniej papryki czerwonej (około 50g)
+- ¼ średniej cebuli (około 40g)
+- 1-2 łodygi szczypiorku (około 10g)
 - sól do smaku
 - pieprz do smaku
 
@@ -41,3 +44,11 @@ calories: 180
 Jeżeli nie masz kokilki, możesz użyć foremek do muffinów lub usmażyć omlet. Danie sprawdzi się jako posiłek solo, możesz też pokroić je na cieńsze plastry/kawałki i użyć jako wkładu do kanapek. Jako dodatek polecam sos z zielonych jalapeño.
 
 To zapiekane danie to doskonałe źródło białka i witamin. Idealne na sycące śniadanie lub lekki obiad!
+
+## Wartości odżywcze (na 1 porcję)
+| Składnik | Wartość |
+|----------|---------|
+| Kalorie | 255 kcal |
+| Białko | 19g |
+| Tłuszcze | 15g |
+| Węglowodany | 8g |

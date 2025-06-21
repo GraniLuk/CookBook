@@ -13,7 +13,10 @@ servings: 4
 prep_time: 10
 cook: true
 cook_time: 20
-calories: 180
+calories: 360
+protein: 10
+fat: 29
+carbohydrate: 19
 ---
 
 Kremowy sos szparagowy z mascarpone i suszonymi pomidorami to doskonały dodatek do ryb, mięsa drobiowego czy pieczonego mięsa. Sos ma delikatny smak szparagów wzbogacony kremowością mascarpone i słonawą nutą suszonych pomidorów.
@@ -23,9 +26,9 @@ Kremowy sos szparagowy z mascarpone i suszonymi pomidorami to doskonały dodatek
 - **Szparagi** – 1 pęczek (ok. 250 g)
 - **Mascarpone** – 250 g
 - **Suszone pomidory** – 1 słoik (lub około 100 g)
-- **Czosnek** – 1 ząbek
-- **Sól** – do smaku
-- **Pieprz biały lub czarny** – do smaku
+- **Czosnek** – 1 ząbek (3g)
+- **Sól** – do smaku (3g)
+- **Pieprz biały lub czarny** – do smaku (2g)
 - **Woda** – opcjonalnie, do rozcieńczenia
 
 ## Przygotowanie
@@ -70,3 +73,17 @@ Sos można przechowywać w lodówce do 3 dni. Przed ponownym podaniem delikatnie
 - Mascarpone dodawaj stopniowo, ciągle mieszając, aby uniknąć grudek.
 - Sos można wzbogacić o świeże zioła jak koperek, natka pietruszki lub bazylię.
 - Dla bardziej intensywnego smaku możesz dodać łyżkę białego wina podczas smażenia szparagów.
+
+## Podsumowanie wartości odżywczych (na 1 porcję z 4)
+
+| Składnik         | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
+|------------------|-----------|---------------|------------|--------------|-----------------|
+| Szparagi         | 62.5      | 12.5          | 1.37       | 0.06         | 2.44            |
+| Mascarpone       | 62.5      | 281.25        | 5          | 28.13        | 1.87            |
+| Suszone pomidory | 25        | 64.25         | 3.53       | 0.74         | 14.01           |
+| Czosnek          | 0.75      | 1.12          | 0.048      | 0.004        | 0.25            |
+| Sól              | 0.75      | 0             | 0          | 0            | 0               |
+| Pieprz           | 0.5       | 1.26          | 0.05       | 0.015        | 0.32            |
+| **RAZEM:**       | **151.5** | **360.4**     | **10.0**   | **28.9**     | **18.9**        |
+
+---

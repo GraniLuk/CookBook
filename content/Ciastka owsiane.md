@@ -13,15 +13,18 @@ servings: 6
 prep_time: 10
 cook: true
 cook_time: 20
-calories: 120
+calories: 125
+protein: 4
+fat: 3
+carbohydrate: 23
 link: https://www.youtube.com/shorts/x1zHo9TF1NA
 ---
 
 ## Składniki
-- 2 dojrzałe banany (najlepiej z brązowymi przebarwieniami)
-- 100g płatków owsianych błyskawicznych (ilość do uzyskania gęstej masy)
-- 1/4 tabliczki ciemnej czekolady (ok. 25g), drobno posiekanej na wiórki
-- 1–2 łyżeczki przyprawy korzennej (np. do piernika)
+- 2 dojrzałe banany (najlepiej z brązowymi przebarwieniami) - 240g
+- 100g płatków owsianych błyskawicznych (ilość do uzyskania gęstej masy) - 100g
+- 1/4 tabliczki ciemnej czekolady (ok. 25g), drobno posiekanej na wiórki - 25g
+- 1–2 łyżeczki przyprawy korzennej (np. do piernika) - 2g
 
 ## Sposób przygotowania
 1. Rozgrzej piekarnik do 200°C (góra-dół).
@@ -35,3 +38,13 @@ link: https://www.youtube.com/shorts/x1zHo9TF1NA
 
 **Wskazówka:**  
 Ciasteczka są chrupiące, mają świetny smak czekolady i aromat przyprawy korzennej – idealne na święta lub do popołudniowej herbaty!
+
+## Podsumowanie wartości odżywczych (na 1 porcję z 6)
+
+| Składnik         | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
+|------------------|-----------|---------------|------------|--------------|-----------------|
+| Banan            | 40        | 35.6          | 0.44       | 0.12         | 9.2             |
+| Płatki owsiane   | 16.7      | 64.8          | 2.8        | 1.2          | 11.1            |
+| Czekolada ciemna | 4.2       | 21.8          | 0.9        | 1.5          | 2.3             |
+| Przyprawa korzenna| 0.3      | 2.7           | 0.1        | 0.1          | 0.5             |
+| **RAZEM:**       | **61.2**  | **124.9**     | **4.24**   | **2.92**     | **23.1**        |

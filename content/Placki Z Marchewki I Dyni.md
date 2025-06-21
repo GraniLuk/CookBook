@@ -14,15 +14,19 @@ servings: 20
 prep_time: 30
 cook: true
 cook_time: 30
-calories: 45
+calories: 55
+protein: 2
+fat: 1
+carbohydrate: 11
 ---
 
 ## Składniki
-- 2 marchewki
-- Pół dyni
-- 60g mąki
-- 1 jajko
-- 1 banan
+- 2 marchewki (około 200g)
+- Pół dyni (około 400g)
+- 60g mąki pszennej
+- 1 jajko rozmiar M (około 50g)
+- 1 banan średni (około 120g)
+- olej do smażenia (około 10g)
 
 ## Sposób przygotowania
 
@@ -33,3 +37,11 @@ calories: 45
 5. Usmażyć placki na patelni z obu stron na złoty kolor.
 
 Te zdrowe placki to doskonałe źródło witamin i błonnika. Świetnie sprawdzą się jako lekkie śniadanie lub przekąska!
+
+## Wartości odżywcze (na 1 placek)
+| Składnik | Wartość |
+|----------|---------|
+| Kalorie | 55 kcal |
+| Białko | 2g |
+| Tłuszcze | 1g |
+| Węglowodany | 11g |

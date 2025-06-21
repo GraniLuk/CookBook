@@ -14,7 +14,10 @@ servings: 3
 prep_time: 15
 cook: false
 cook_time: 5
-calories: 280
+calories: 320
+protein: 18
+fat: 10
+carbohydrate: 35
 link: https://youtu.be/SQ4saBQrBYc?t=115
 ---
 
@@ -25,13 +28,14 @@ link: https://youtu.be/SQ4saBQrBYc?t=115
 - 1 kostka twarogu chudego (ok. 300g)
 - 150g płatków owsianych (50g na porcję)
 - 6 kropli aromatu waniliowego
-- napój owsiany (mleko owsiane), ilość według uznania
+- napój owsiany (mleko owsiane), około 100ml
 - opcjonalnie: erytrytol lub miód do słodzenia
 
 ### Do polewy:
-- 1/2 tabliczki gorzkiej czekolady
+- 50g gorzkiej czekolady (1/2 tabliczki)
 - 30g masła orzechowego
-- świeże truskawki do dekoracji
+- 30ml napoju owsianego
+- 50g świeżych truskawek do dekoracji
 
 ## Sposób przygotowania
 ### Przygotowanie puddingu:
@@ -45,3 +49,11 @@ link: https://youtu.be/SQ4saBQrBYc?t=115
 4. Pudding rozlej do trzech pojemników (po ok. 800ml). 
 5. Polej czekoladowo-orzechową polewą i udekoruj świeżymi truskawkami.
 6. Pudding najlepiej smakuje schłodzony.
+
+## Wartości odżywcze (na 1 porcję)
+| Składnik | Wartość |
+|----------|---------|
+| Kalorie | 320 kcal |
+| Białko | 18g |
+| Tłuszcze | 10g |
+| Węglowodany | 35g |

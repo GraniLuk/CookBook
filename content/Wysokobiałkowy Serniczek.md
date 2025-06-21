@@ -13,16 +13,19 @@ servings: 1
 prep_time: 10
 cook: true
 cook_time: 35
-calories: 200
+calories: 504
+protein: 39
+fat: 19
+carbohydrate: 46
 link: https://www.youtube.com/watch?v=SspgxK9oPdY
 ---
 
 ## Składniki
-- 3 jajka
+- 3 jajka (180g)
 - 1 opakowanie skyru waniliowego (150g)
 - 1 opakowanie budyniu waniliowego bez cukru (40g)
 - Erytrol do smaku (ok. 30g)
-- Opcjonalnie: świeże maliny do podania
+- Opcjonalnie: świeże maliny do podania (50g)
 
 ## Sposób przygotowania
 1. Piekarnik rozgrzej do 180°C (tryb góra-dół).
@@ -42,4 +45,15 @@ W przyszłości można spróbować dodać banana zamiast słodzika.
 
 **Wskazówka:**  
 Ten wysokobiałkowy serniczek zawiera około 20g białka w porcji przy zaledwie 200 kcal, co czyni go idealnym wyborem na zdrową przekąskę lub deser!
+
+## Podsumowanie wartości odżywczych (na 1 porcję)
+
+| Składnik         | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
+|------------------|-----------|---------------|------------|--------------|-----------------|
+| Jajka            | 180       | 257.4         | 22.68      | 17.64        | 1.26            |
+| Skyr waniliowy   | 150       | 85.5          | 15         | 0.3          | 6               |
+| Budyń waniliowy  | 40        | 134           | 0.4        | 0.4          | 32              |
+| Erytrol          | 30        | 0.6           | 0          | 0            | 0.3             |
+| Maliny           | 50        | 26            | 0.6        | 0.33         | 6               |
+| **RAZEM:**       | **450**   | **503.5**     | **38.7**   | **18.7**     | **45.6**        |
 

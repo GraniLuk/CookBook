@@ -12,7 +12,10 @@ servings: 3
 prep_time: 25
 cook: true
 cook_time: 35
-calories: 380
+calories: 420
+protein: 32
+fat: 8
+carbohydrate: 55
 ---
 
 ## Składniki
@@ -31,9 +34,9 @@ calories: 380
 - sól do smaku
 
 #### Sos majonezowy
-- 30g majonezu 
-- 30g jogurtu naturalnego
-- sok z 1/2 limonki lub cytryny
+- 30g majonezu light
+- 30g jogurtu naturalnego 0%
+- sok z 1/2 limonki lub cytryny (około 15ml)
 - szczypta ostrej papryki (np. chili cayenne)
 
 ## Sposób przygotowania
@@ -55,3 +58,11 @@ calories: 380
 To kolorowa, szybka propozja meal prep, która świetnie sprawdza się jako zdrowy lunch do pracy czy szkoły. Kurczak gotowany na parze jest bardzo chudý i soczysty, a meksykańskie przyprawy nadają całości charakteru!
 
 Smacznego!
+
+## Wartości odżywcze (na 1 porcję)
+| Składnik | Wartość |
+|----------|---------|
+| Kalorie | 420 kcal |
+| Białko | 32g |
+| Tłuszcze | 8g |
+| Węglowodany | 55g |

@@ -14,16 +14,19 @@ servings: 1
 prep_time: 10
 cook: true
 cook_time: 10
-calories: 320
+calories: 499
+protein: 25
+fat: 12
+carbohydrate: 76
 link: https://youtu.be/3qI4Y5dRumA?t=254
 ---
 
 ## Składniki
 - 60g mąki (np. pszennej pełnoziarnistej)
-- 1 banan
+- 1 banan (około 120g)
 - 100g jogurtu Skyr
-- 1 jajko
-- olej kokosowy do smażenia (opcjonalnie)
+- 1 jajko (około 60g)
+- olej kokosowy do smażenia (opcjonalnie) - 5g
 
 ## Sposób przygotowania
 
@@ -35,4 +38,15 @@ link: https://youtu.be/3qI4Y5dRumA?t=254
 
 ### Komentarz
 Z braku laku, można zrobić. Rating: 3/5
+
+## Podsumowanie wartości odżywczych (na 1 porcję)
+
+| Składnik         | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
+|------------------|-----------|---------------|------------|--------------|-----------------|
+| Mąka pszenna     | 60        | 204.6         | 6.24       | 0.6          | 43.8            |
+| Banan            | 120       | 106.8         | 1.32       | 0.36         | 27.6            |
+| Jogurt Skyr      | 100       | 57            | 10         | 0.2          | 4               |
+| Jajko            | 60        | 85.8          | 7.56       | 5.88         | 0.42            |
+| Olej kokosowy    | 5         | 44.5          | 0          | 5            | 0               |
+| **RAZEM:**       | **345**   | **498.7**     | **25.1**   | **12.0**     | **75.8**        |
 

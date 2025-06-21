@@ -14,6 +14,9 @@ prep_time: 25
 cook: true
 cook_time: 45
 calories: 480
+protein: 35
+fat: 25
+carbohydrate: 25
 ---
 
 Oto przepis na pieczonego łososia w piekarniku z ziemniakami pieczonymi oraz kremowym sosem z szparagów, mascarpone i suszonych pomidorów. Przepis jest łatwy do wykonania i pozwoli uzyskać efektowny obiad z wyrazistym smakiem.
@@ -22,27 +25,27 @@ Oto przepis na pieczonego łososia w piekarniku z ziemniakami pieczonymi oraz kr
 
 ### Na łososia:
 - **Łosoś** (filet) – ok. 800 g
-- **Sól** – do smaku
-- **Pieprz biały** – do smaku
-- **Sok z cytryny** – do skropienia
-- **Masło** – wiórki
-- **Cytryna** – plasterki do dekoracji
+- **Sól** – do smaku (5g)
+- **Pieprz biały** – do smaku (2g)
+- **Sok z cytryny** – do skropienia (15ml)
+- **Masło** – wiórki (20g)
+- **Cytryna** – plasterki do dekoracji (30g)
 
 ### Na ziemniaki:
-- **Ziemniaki** – 1-1,5 kg
-- **Oliwa z oliwek** – 2–3 łyżki
-- **Czosnek granlowany** – 1 łyżeczka
-- **Tymianek** – 1 łyżeczka
-- **Przyprawa grillowa** – do smaku
-- **Sól** – do smaku
-- **Papryka słodka mielona** – 1 łyżka
+- **Ziemniaki** – 1-1,5 kg (1250g)
+- **Oliwa z oliwek** – 2–3 łyżki (30ml)
+- **Czosnek granlowany** – 1 łyżeczka (2g)
+- **Tymianek** – 1 łyżeczka (2g)
+- **Przyprawa grillowa** – do smaku (3g)
+- **Sól** – do smaku (5g)
+- **Papryka słodka mielona** – 1 łyżka (5g)
 
 ### Na sos:
 - **Szparagi** – 1 pęczek (ok. 250 g)
 - **Mascarpone** – 250 g
-- **Suszone pomidory** – 1 słoik
-- **Czosnek** – 1 ząbek
-- **Sól, pieprz** – do smaku
+- **Suszone pomidory** – 1 słoik (100g)
+- **Czosnek** – 1 ząbek (3g)
+- **Sól, pieprz** – do smaku (3g)
 
 ## Przygotowanie
 

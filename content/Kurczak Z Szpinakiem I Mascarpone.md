@@ -12,18 +12,21 @@ servings: 4
 prep_time: 20
 cook: true
 cook_time: 40
-calories: 420
+calories: 641
+protein: 58
+fat: 41
+carbohydrate: 9
 ---
 
 ## Składniki
-- 4 filety z kurczaka (około 600-700g)
+- 4 filety z kurczaka (około 600-700g) - 650g
 - 300g świeżego szpinaku
 - 250g sera mascarpone
-- 1 cebula, drobno posiekana
-- 2 ząbki czosnku, przeciśnięte przez praskę
-- 2 łyżki oliwy z oliwek
+- 1 cebula, drobno posiekana (150g)
+- 2 ząbki czosnku, przeciśnięte przez praskę (6g)
+- 2 łyżki oliwy z oliwek (25g)
 - 100ml bulionu drobiowego
-- sól i świeżo mielony czarny pieprz do smaku
+- sól i świeżo mielony czarny pieprz do smaku (5g)
 - opcjonalnie: gałka muszkatołowa, sok z cytryny
 - roszponka (testowo)
 
@@ -39,3 +42,19 @@ calories: 420
    - Dopraw solą, pieprzem i opcjonalnie szczyptą gałki muszkatołowej.
 5. **Połączenie składników:** Wróć kurczaka na patelnię i delikatnie wymieszaj z sosem. Gotuj na małym ogniu przez 3-4 minuty, aż kurczak będzie całkowicie ugotowany, a sos zgęstnieje.
 6. **Finalizacja:** Jeśli chcesz, dodaj kilka kropel soku z cytryny dla świeżości. Sprawdź doprawienie i w razie potrzeby dodaj więcej soli lub pieprzu.
+
+## Podsumowanie wartości odżywczych (na 1 porcję z 4)
+
+| Składnik         | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
+|------------------|-----------|---------------|------------|--------------|-----------------|
+| Pierś z kurczaka | 162.5     | 268           | 50.37      | 5.85         | 0               |
+| Szpinak świeży   | 75        | 17.25         | 2.16       | 0.3          | 2.7             |
+| Mascarpone       | 62.5      | 281.25        | 5          | 28.13        | 1.87            |
+| Cebula           | 37.5      | 15            | 0.41       | 0.04         | 3.49            |
+| Czosnek          | 1.5       | 2.24          | 0.096      | 0.008        | 0.5             |
+| Oliwa z oliwek   | 6.25      | 55.6          | 0          | 6.25         | 0               |
+| Bulion drobiowy  | 25        | 0.5           | 0.05       | 0.025        | 0.05            |
+| Sól i pieprz     | 1.25      | 1.3           | 0.05       | 0.02         | 0.3             |
+| **RAZEM:**       | **371.5** | **641.1**     | **58.1**   | **40.6**     | **8.9**         |
+
+---
