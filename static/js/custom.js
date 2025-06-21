@@ -163,64 +163,103 @@ u('.nested-dropdown .navbar-link-nested').on('click', function(e) {
 
 // ===== NAVBAR BURGER TOGGLE =====
 
-// Toggle mobile menu when burger is clicked
-u('.navbar-burger, #navBarButton').on('click', function(e) {
-    e.preventDefault();
-    e.stopPropagation();
-    
-    const burgerButton = u('.navbar-burger');
+// Track menu state with our own variable instead of relying on CSS classes
+let mobileMenuOpen = false;
+
+// Helper function to close mobile menu
+function closeMobileMenu() {
     const navbarMenu = u('#navBarMenu');
+    const burgerButton = u('.navbar-burger');
     
-    // Toggle is-active class on both burger and menu
-    burgerButton.toggleClass('is-active');
-    navbarMenu.toggleClass('is-active');
+    mobileMenuOpen = false;
+    navbarMenu.removeClass('is-active');
+    burgerButton.removeClass('is-active');
+    burgerButton.attr('aria-expanded', 'false');
     
-    // Force menu visibility via JavaScript
+    // Hide menu via JavaScript
+    if (navbarMenu.length > 0) {
+        navbarMenu.first().style.display = 'none';
+    }
+}
+
+// Helper function to open mobile menu
+function openMobileMenu() {
+    const navbarMenu = u('#navBarMenu');
+    const burgerButton = u('.navbar-burger');
+    
+    mobileMenuOpen = true;
+    navbarMenu.addClass('is-active');
+    burgerButton.addClass('is-active');
+    burgerButton.attr('aria-expanded', 'true');
+    
+    // Show menu - force styles via JavaScript
     if (navbarMenu.length > 0) {
         const menuElement = navbarMenu.first();
-        
-        if (navbarMenu.hasClass('is-active')) {
-            // Show menu - force styles via JavaScript
-            menuElement.style.cssText = `
-                display: block !important;
-                position: absolute !important;
-                top: 100% !important;
-                left: 0 !important;
-                right: 0 !important;
-                width: 100% !important;
-                background-color: white !important;
-                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1) !important;
-                z-index: 9999 !important;
-                max-height: 70vh !important;
-                overflow-y: auto !important;
-                border-radius: 0 0 6px 6px !important;
-                opacity: 1 !important;
-                visibility: visible !important;
-            `;
-        } else {
-            // Hide menu
-            menuElement.style.display = 'none';
-        }
+        menuElement.style.cssText = `
+            display: block !important;
+            position: absolute !important;
+            top: 100% !important;
+            left: 0 !important;
+            right: 0 !important;
+            width: 100% !important;
+            background-color: white !important;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1) !important;
+            z-index: 9999 !important;
+            max-height: 70vh !important;
+            overflow-y: auto !important;
+            border-radius: 0 0 6px 6px !important;
+            opacity: 1 !important;
+            visibility: visible !important;
+        `;
     }
+}
+
+// Initialize burger menu functionality when document is ready
+u(document).on('DOMContentLoaded', function() {
+    // Initialize navbar on page load
+    updateNavbar();
     
-    // Update aria-expanded attribute for accessibility
-    const isExpanded = burgerButton.hasClass('is-active');
-    burgerButton.attr('aria-expanded', isExpanded.toString());
+    // Ensure menu starts in closed state
+    const navbarMenu = u('#navBarMenu');
+    const burgerButton = u('.navbar-burger');
+    
+    // Force initial closed state
+    mobileMenuOpen = false;
+    navbarMenu.removeClass('is-active');
+    burgerButton.removeClass('is-active');
+    burgerButton.attr('aria-expanded', 'false');
+    
+    if (navbarMenu.length > 0) {
+        navbarMenu.first().style.display = 'none';
+    }    // Toggle mobile menu when burger is clicked
+    u('#navBarButton, .navbar-burger').on('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        
+        if (mobileMenuOpen) {
+            closeMobileMenu();
+        } else {
+            openMobileMenu();
+        }
+    });
+    
+    // Prevent mobile menu from closing when clicking inside the search area
+    u('#navBarMenu .navbar-item:has(#searchTerm), #navBarMenu .navbar-item:has(#searchButton)').on('click', function(e) {
+        e.stopPropagation();
+    });
 });
 
 // Close mobile menu when clicking on menu items (except dropdowns and search area)
-u('.navbar-item:not(.has-dropdown):not(:has(#searchTerm)):not(:has(#searchButton))').on('click', function() {
+u('.navbar-item:not(.has-dropdown)').on('click', function(e) {
     if (window.innerWidth < 1024) {
-        const navbarMenu = u('#navBarMenu');
-        const burgerButton = u('.navbar-burger');
+        // Don't close if this is a search-related element
+        const isSearchElement = u(this).find('#searchTerm, #searchButton').length > 0 ||
+                               u(this).hasClass('search-item') ||
+                               e.target.closest('#searchTerm') ||
+                               e.target.closest('#searchButton');
         
-        navbarMenu.removeClass('is-active');
-        burgerButton.removeClass('is-active');
-        burgerButton.attr('aria-expanded', 'false');
-        
-        // Hide menu via JavaScript
-        if (navbarMenu.length > 0) {
-            navbarMenu.first().style.display = 'none';
+        if (!isSearchElement) {
+            closeMobileMenu();
         }
     }
 });
@@ -232,22 +271,22 @@ u('#searchTerm, #searchButton, .navbar-item:has(#searchTerm), .navbar-item:has(#
 
 // Close mobile menu when clicking outside (but not on search elements)
 u(document).on('click', function(e) {
-    const target = u(e.target);
-    const navbar = target.closest('.navbar');
-    const searchArea = target.closest('#searchTerm, #searchButton, .field.has-addons');
-    const navbarMenu = u('#navBarMenu');
-    const burgerButton = u('.navbar-burger');
+    const clickedElement = e.target;
     
-    // Don't close if clicking within navbar or search area
-    if (!navbar.length && !searchArea.length && navbarMenu.hasClass('is-active')) {
-        navbarMenu.removeClass('is-active');
-        burgerButton.removeClass('is-active');
-        burgerButton.attr('aria-expanded', 'false');
-        
-        // Hide menu via JavaScript
-        if (navbarMenu.length > 0) {
-            navbarMenu.first().style.display = 'none';
-        }
+    // Check if click is inside navbar or its children
+    const isInsideNavbar = clickedElement.closest('.navbar') || 
+                          clickedElement.closest('#navBarMenu') || 
+                          clickedElement.closest('.navbar-burger') ||
+                          clickedElement.closest('#navBarButton');
+    
+    // Check if click is on search elements
+    const isSearchElement = clickedElement.closest('#searchTerm') || 
+                           clickedElement.closest('#searchButton') || 
+                           clickedElement.closest('.field.has-addons');
+    
+    // Close menu if clicking outside and menu is active
+    if (!isInsideNavbar && !isSearchElement && mobileMenuOpen) {
+        closeMobileMenu();
     }
 });
 
@@ -286,17 +325,6 @@ function requestTick() {
 // Add scroll event listener for navbar effects
 window.addEventListener('scroll', requestTick);
 
-// Enhanced mobile menu behavior for sticky navbar
-u(document).on('DOMContentLoaded', function() {
-    // Initialize navbar on page load
-    updateNavbar();
-    
-    // Prevent mobile menu from closing when clicking inside the search area
-    u('#navBarMenu .navbar-item:has(#searchTerm), #navBarMenu .navbar-item:has(#searchButton)').on('click', function(e) {
-        e.stopPropagation();
-    });
-});
-
 // Enhanced search functionality for sticky navbar
 u('#searchTerm').on('keypress', function(e) {
     if (e.keyCode === 13) { // Enter key
@@ -326,18 +354,8 @@ function scrollToTop() {
 u(document).on('keydown', function(e) {
     // ESC key closes mobile menu
     if (e.keyCode === 27) {
-        const navbarMenu = u('#navBarMenu');
-        const burgerButton = u('.navbar-burger');
-        
-        if (navbarMenu.hasClass('is-active')) {
-            navbarMenu.removeClass('is-active');
-            burgerButton.removeClass('is-active');
-            burgerButton.attr('aria-expanded', 'false');
-            
-            // Hide menu via JavaScript
-            if (navbarMenu.length > 0) {
-                navbarMenu.first().style.display = 'none';
-            }
+        if (mobileMenuOpen) {
+            closeMobileMenu();
         }
         
         u('.nested-dropdown').removeClass('is-active');
@@ -358,5 +376,3 @@ u('.navbar-burger, #navBarButton').on('keydown', function(e) {
         u(this).trigger('click');
     }
 });
-
-// Initialize navbar on page load - removed duplicate updateNavbar() call
