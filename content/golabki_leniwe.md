@@ -6,7 +6,7 @@ recipe_image: images/recipe-headers/golabkiLeniwe.webp
 image_width: 512
 image_height: 512
 date: 2025-06-18T12:00:00-00:00
-tags: ["instant-pot", "kuchnia-polska"]
+tags: ["instant-pot", "stefan"]
 tagline: "Pyszne gołąbki bez zawijania!"
 servings: 9
 prep_time: 20

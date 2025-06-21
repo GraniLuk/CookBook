@@ -7,7 +7,7 @@ image_width: 512
 image_height: 512
 date: 2025-06-19T12:00:00-00:00
 categories: ["sosy"]
-tags: ["szparagi", "mascarpone", "suszone pomidory"]
+tags: []
 tagline: "Kremowy sos szparagowy z mascarpone - idealny do ryb, mięsa i warzyw!"
 servings: 4
 prep_time: 10

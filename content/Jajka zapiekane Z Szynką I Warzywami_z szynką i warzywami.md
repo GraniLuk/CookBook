@@ -8,7 +8,7 @@ image_height: 512
 date: 2025-06-20T12:00:00-00:00
 categories: ["sniadania"]
 subcategories: ["słone"]
-tags: ["jajka", "warzywa", "szynka", "zapiekanka", "białkowe"]
+tags: []
 tagline: "Sycące jajka zapiekane z warzywami i szynką - pełnowartościowy posiłek!"
 servings: 3
 prep_time: 15

@@ -7,7 +7,7 @@ image_width: 512
 image_height: 512
 date: 2025-06-19T12:00:00-00:00
 categories: ["obiady"]
-tags: ["ryby", "łosoś", "goście", "szparagi", "mascarpone"]
+tags: ["ryby", "goście"]
 tagline: "Efektowny obiad z pieczonego łososia z ziemniakami i kremowym sosem szparagowym!"
 servings: 4
 prep_time: 25

@@ -8,7 +8,7 @@ image_height: 512
 date: 2025-06-18T12:00:00-00:00
 categories: ["sniadania"]
 subcategories: ["słone"]
-tags: ["omlet", "kanapka", "awokado", "szynka"]
+tags: []
 tagline: "Pyszna omleto-kanapka z szynką i awokado!"
 servings: 1
 prep_time: 10

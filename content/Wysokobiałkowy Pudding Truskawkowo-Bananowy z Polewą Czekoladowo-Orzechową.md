@@ -8,7 +8,7 @@ image_height: 512
 date: 2025-06-19T12:00:00-00:00
 categories: ["sniadania"]
 subcategories: ["słodkie"]
-tags: ["pudding", "truskawki", "banany", "fit", "letnie"]
+tags: []
 tagline: "Wysokobiałkowy pudding idealny na letnie śniadanie!"
 servings: 3
 prep_time: 15

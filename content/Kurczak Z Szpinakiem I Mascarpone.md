@@ -6,7 +6,7 @@ recipe_image: images/recipe-headers/kurczak_szpinak_mascarpone.JPG
 image_width: 512
 image_height: 512
 date: 2025-06-18T12:00:00-00:00
-tags: ["kurczak"]
+tags: []
 tagline: "Kremowy kurczak ze szpinakiem i mascarpone!"
 servings: 4
 prep_time: 20

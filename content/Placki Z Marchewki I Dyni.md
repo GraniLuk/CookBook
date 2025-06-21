@@ -8,7 +8,7 @@ image_height: 512
 date: 2025-06-20T12:00:00-00:00
 categories: ["sniadania"]
 subcategories: ["słodkie"]
-tags: ["warzywa", "Stefan", "wegańskie", "placki"]
+tags: ["Stefan", "wegańskie"]
 tagline: "Zdrowe placki z marchewki i dyni - idealne na każdą porę dnia!"
 servings: 20
 prep_time: 30

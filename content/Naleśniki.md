@@ -8,7 +8,7 @@ image_height: 512
 date: 2025-06-19T12:00:00-00:00
 categories: ["sniadania"]
 subcategories: ["słodkie"]
-tags: ["naleśniki", "klasyczne"]
+tags: ["klasyczne"]
 tagline: "Klasyczne naleśniki na każdą okazję!"
 servings: 8
 prep_time: 10

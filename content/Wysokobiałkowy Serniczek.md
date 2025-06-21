@@ -7,7 +7,7 @@ image_width: 512
 image_height: 512
 date: 2025-06-19T10:00:00-00:00
 categories: ["desery"]
-tags: ["serniczek", "wysokobiałkowe", "skyr", "zdrowe"]
+tags: []
 tagline: "Zdrowy serniczek z wysoką zawartością białka!"
 servings: 1
 prep_time: 10

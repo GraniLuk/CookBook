@@ -7,7 +7,7 @@ image_width: 512
 image_height: 512
 date: 2025-06-18T12:00:00-00:00
 categories: ["obiady"]
-tags: ["kurczak", "letnie"]
+tags: [""]
 tagline: "Pyszny kurczak w chrupiącej panierce z batatami!"
 servings: 3
 prep_time: 20

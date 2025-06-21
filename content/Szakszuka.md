@@ -8,7 +8,7 @@ image_height: 512
 date: 2025-06-18T12:00:00-00:00
 categories: ["sniadania"]
 subcategories: ["słone"]
-tags: ["szakszuka", "jajka", "pomidory"]
+tags: []
 tagline: "Klasyczna szakszuka z jajkami w sosie pomidorowym!"
 servings: 3
 prep_time: 10

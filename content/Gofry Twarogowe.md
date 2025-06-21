@@ -8,7 +8,7 @@ image_height: 512
 date: 2025-06-20T12:00:00-00:00
 categories: ["sniadania"]
 subcategories: ["słodkie"]
-tags: ["gofry", "twarog", "stefan"]
+tags: ["stefan"]
 tagline: "Pyszne i zdrowe gofry twarogowe na śniadanie!"
 servings: 4
 prep_time: 5

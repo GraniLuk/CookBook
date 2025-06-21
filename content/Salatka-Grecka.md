@@ -7,7 +7,7 @@ image_width: 512
 image_height: 512
 date: 2025-06-18T12:00:00-00:00
 categories: ["salatki"]
-tags: ["sałatki", "letnie"]
+tags: []
 tagline: "Lekka i sycąca sałatka grecka na kolację!"
 servings: 3
 prep_time: 15

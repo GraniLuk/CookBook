@@ -8,7 +8,7 @@ image_height: 512
 date: 2025-06-19T12:00:00-00:00
 categories: ["sniadania"]
 subcategories: ["słodkie"]
-tags: ["placki", "banany", "stefan", "na-wynos"]
+tags: ["stefan", "na-wynos"]
 tagline: "Śniadanie na słodko na wynos - placki bananowe!"
 servings: 1
 prep_time: 10

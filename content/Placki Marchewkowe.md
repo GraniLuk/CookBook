@@ -8,7 +8,7 @@ image_height: 512
 date: 2025-06-20T12:00:00-00:00
 categories: ["sniadania"]
 subcategories: ["słodkie"]
-tags: ["marchewka", "Stefan", "szybkie", "placki", "cynamon"]
+tags: ["Stefan"]
 tagline: "Pyszne placki marchewkowe z cynamonem - zdrowe i szybkie śniadanie!"
 servings: 12
 prep_time: 10

@@ -8,7 +8,7 @@ image_height: 512
 date: 2025-06-19T12:00:00-00:00
 categories: ["sniadania"]
 subcategories: ["słodkie"]
-tags: ["owsianka", "maliny", "stefan", "pieczona"]
+tags: ["stefan"]
 tagline: "Aromatyczna pieczona owsianka z malinami!"
 servings: 2
 prep_time: 10

@@ -7,7 +7,7 @@ image_width: 512
 image_height: 512
 date: 2025-06-19T10:00:00-00:00
 categories: ["desery"]
-tags: ["ciasteczka", "owsiane", "banan", "czekolada", "fit"]
+tags: []
 tagline: "Chrupiące owsiane ciasteczka idealne na święta!"
 servings: 6
 prep_time: 10

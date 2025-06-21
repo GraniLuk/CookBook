@@ -8,7 +8,7 @@ image_height: 512
 date: 2025-06-18T12:00:00-00:00
 categories: ["sniadania"]
 subcategories: ["słone"]
-tags: ["tortilla", "jajecznica", "szybkie"]
+tags: ["szybkie"]
 tagline: "Szybka tortilla z jajecznicą na śniadanie!"
 servings: 2
 prep_time: 5
