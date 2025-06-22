@@ -1,7 +1,7 @@
 ---
 draft: false
 title: "Szakszuka"
-author: "Stefan"
+author: "Jemy Razem"
 recipe_image: images/recipe-headers/szakszuka.jpg
 image_width: 512
 image_height: 512
