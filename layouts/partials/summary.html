@@ -12,14 +12,23 @@
         <div class="content" style="flex-grow: 1; display: flex; flex-direction: column;">
             <div style="height: 4.5em; margin-bottom: 0.5em;">
                 <p class="is-small" style="display: -webkit-box; -webkit-line-clamp: 3; line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; margin-bottom: 0;">{{ $.Params.Tagline }}</p>
-            </div>            <div style="height: 2em; margin-bottom: 0.5em; display: flex; align-items: flex-start;">
-                <i class="fas fa-tags pr-2"></i>
-                <div style="display: -webkit-box; -webkit-line-clamp: 1; line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden;">
-                    {{ range $index, $element := $.Params.Tags }}
-                    <span>{{$element}}</span>{{ if ne $index (sub (len $.Params.Tags) 1) }}, {{ end }}
-                    {{ end }}
+            </div>            <div style="height: 2em; margin-bottom: 0.5em; display: flex; justify-content: center; align-items: center;">
+                <div style="display: flex; flex-wrap: wrap; gap: 1em; font-size: 0.8em; align-items: center; justify-content: center;">
+                    <span style="display: flex; align-items: center; gap: 0.3em;">
+                        <i class="fas fa-fire" style="color: #ff6b35;"></i><strong>{{ $.Params.calories }}</strong> kcal
+                    </span>
+                    <span style="display: flex; align-items: center; gap: 0.3em;">
+                        <i class="fas fa-dumbbell" style="color: #4ecdc4;"></i><strong>{{ $.Params.protein }}g</strong>
+                    </span>
+                    <span style="display: flex; align-items: center; gap: 0.3em;">
+                        <i class="fas fa-droplet" style="color: #45b7d1;"></i><strong>{{ $.Params.fat }}g</strong>
+                    </span>
+                    <span style="display: flex; align-items: center; gap: 0.3em;">
+                        <i class="fas fa-wheat-awn" style="color: #f9ca24;"></i><strong>{{ $.Params.carbohydrate }}g</strong>
+                    </span>
                 </div>
-            </div>            <div style="height: 1.5em; display: flex; align-items: center;">
+            </div>
+            <div style="height: 1.5em; display: flex; align-items: center;">
                 <i class="fas fa-calendar pr-4"></i>{{ .Date.Format "January 2006" }}
             </div>
         </div>

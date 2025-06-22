@@ -13,11 +13,24 @@
                         <figure class="image is-4by3">
                         <img style="border-radius: 3%;" src="${image}" alt="Zdjęcie przepisu">
                         </figure>
-                    </div>
-                    <div class="card-content">
+                    </div>                    <div class="card-content">
                         <div class="media-content">
-                            <p class="title is-4 has-text-centered">${title}</p>
-                            <p class="subtitle is-6 "><em>{{ $.Params }}</em></p>
+                            <p class="title is-4 has-text-centered">${title}</p>                            <div style="display: flex; align-items: center; justify-content: center; margin-top: 0.5em;">
+                                <div style="display: flex; flex-wrap: wrap; gap: 1em; font-size: 0.8em; align-items: center; justify-content: center;">
+                                    <span style="display: flex; align-items: center; gap: 0.3em;">
+                                        <i class="fas fa-fire" style="color: #ff6b35;"></i><strong>${calories}</strong> kcal
+                                    </span>
+                                    <span style="display: flex; align-items: center; gap: 0.3em;">
+                                        <i class="fas fa-dumbbell" style="color: #4ecdc4;"></i><strong>${protein}g</strong>
+                                    </span>
+                                    <span style="display: flex; align-items: center; gap: 0.3em;">
+                                        <i class="fas fa-droplet" style="color: #45b7d1;"></i><strong>${fat}g</strong>
+                                    </span>
+                                    <span style="display: flex; align-items: center; gap: 0.3em;">
+                                        <i class="fas fa-wheat-awn" style="color: #f9ca24;"></i><strong>${carbohydrate}g</strong>
+                                    </span>
+                                </div>
+                            </div>
                         </div>
                         <div class="content">
                             <p class="is-small">${snippet}</p>
