@@ -43,16 +43,16 @@ Zamiast cukru kokosowego możesz użyć miodu lub syropu klonowego. Mąkę pszen
 
 Te placki to doskonały sposób na wykorzystanie marchewki w zdrowym śniadaniu. Bogate w beta-karoten i błonnik!
 
-## Podsumowanie wartości odżywczych (na 1 placek z 12)
+## Podsumowanie wartości odżywczych (całe danie)
 
-| Składnik         | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
-|------------------|-----------|---------------|------------|--------------|-----------------|
-| Jajko            | 5         | 7.15          | 0.63       | 0.49         | 0.035           |
-| Marchewka        | 4.17      | 1.71          | 0.04       | 0.01         | 0.4             |
-| Mąka pszenna     | 4.17      | 14.2          | 0.43       | 0.04         | 3.04            |
-| Mleko            | 5         | 2.1           | 0.17       | 0.05         | 0.25            |
-| Cukier kokosowy  | 0.42      | 1.59          | 0.004      | 0.002        | 0.41            |
-| Cynamon          | 0.04      | 0.11          | 0.002      | 0.001        | 0.03            |
-| Proszek do pieczenia | 0.04  | 0.04          | 0          | 0            | 0.01            |
-| Olej kokosowy    | 0.83      | 7.4           | 0          | 0.83         | 0               |
-| **RAZEM:**       | **19.7**  | **34.3**      | **1.3**    | **1.4**      | **4.2**         |
+| Składnik            | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
+|---------------------|-----------|----------------|------------|--------------|-----------------|
+| Jajko               | 60        | 86             | 7.56       | 5.88         | 0.42            |
+| Marchewka           | 50        | 21             | 0.48       | 0.12         | 4.8             |
+| Mąka pszenna        | 50        | 170            | 5.16       | 0.48         | 36.5            |
+| Mleko               | 60        | 25             | 2.04       | 0.6          | 3.0             |
+| Cukier kokosowy     | 5         | 19             | 0.05       | 0.02         | 4.9             |
+| Cynamon             | 0.5       | 1.3            | 0.02       | 0.01         | 0.36            |
+| Proszek do pieczenia| 0.5       | 0.5            | 0          | 0            | 0.12            |
+| Olej kokosowy       | 10        | 89             | 0          | 10           | 0               |
+| **RAZEM:**          | **236**   | **411.8**      | **15.31**  | **17.11**    | **50.1**        |
