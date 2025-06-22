@@ -2,7 +2,7 @@
 draft: false
 title: "Placki z Serka Wiejskiego"
 author: "Autor Przepisu"
-recipe_image: images/recipe-headers/placki_z_serka_wiejskiego.webp
+recipe_image: images/recipe-headers/placki_z_serka_wiejskiego.jpg
 date: 2025-06-19T12:00:00-00:00
 categories: ["sniadania"]
 subcategories: ["słodkie"]
