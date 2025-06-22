@@ -6,6 +6,11 @@
                     <img style="border-radius: 3%; width: 100%; height: 100%; object-fit: cover;" src={{ printf "%s%s" .Site.BaseURL .Params.Recipe_image }} alt="Placeholder image">
                 </figure>
                 
+                {{ if .Params.link }}
+                <div id="youtubeButton" style="position: absolute; bottom: 0; left: 0;" class="is-rounded">
+                    <a href="{{ .Params.link }}" target="_blank"><i class="fab fa-youtube fa-3x" style="color: #FF0000;"></i></a>
+                </div>
+                {{ end }}
                 
                 <div id="printButton" style="position: absolute; bottom: 0; right: 0;" class="is-rounded">
                     <a href="/print/{{ urlize .File.BaseFileName }}/print.html" target="_blank"><i class="fas fa-print fa-3x"></i></a>
