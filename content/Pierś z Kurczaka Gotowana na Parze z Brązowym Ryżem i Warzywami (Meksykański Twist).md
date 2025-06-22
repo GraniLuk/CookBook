@@ -3,8 +3,6 @@ draft: false
 title: "Pierś z Kurczaka Gotowana na Parze z Brązowym Ryżem i Warzywami (Meksykański Twist)"
 author: "Autor Przepisu"
 recipe_image: images/recipe-headers/kurczak_na_parze.png
-image_width: 512
-image_height: 512
 date: 2025-06-18T12:00:00-00:00
 tags: ["meksykańskie"]
 tagline: "Zdrowy kurczak na parze z warzywami w meksykańskim stylu!"

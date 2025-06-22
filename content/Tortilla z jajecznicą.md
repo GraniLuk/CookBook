@@ -3,8 +3,6 @@ draft: false
 title: "Tortilla z Jajecznicą"
 author: "Granica"
 recipe_image: images/defaultImage.png
-image_width: 512
-image_height: 512
 date: 2025-06-18T12:00:00-00:00
 categories: ["sniadania"]
 subcategories: ["słone"]

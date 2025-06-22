@@ -3,8 +3,6 @@ draft: false
 title: "Gofry Twarogowe"
 author: "Autor Przepisu"
 recipe_image: images/recipe-headers/gofry_twarogowe.webp
-image_width: 512
-image_height: 512
 date: 2025-06-20T12:00:00-00:00
 categories: ["sniadania"]
 subcategories: ["słodkie"]

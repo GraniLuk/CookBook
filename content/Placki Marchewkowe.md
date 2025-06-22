@@ -3,8 +3,6 @@ draft: false
 title: "Placki Marchewkowe"
 author: "Stefan"
 recipe_image: images/recipe-headers/placki_marchewkowe.webp
-image_width: 512
-image_height: 512
 date: 2025-06-20T12:00:00-00:00
 categories: ["sniadania"]
 subcategories: ["słodkie"]

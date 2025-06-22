@@ -3,8 +3,6 @@ draft: false
 title: "Pieczona Owsianka Bananowo-Orzechowa z Daktylami"
 author: "Michał Wrzosek"
 recipe_image: images/recipe-headers/owsianka_daktylowa.jpg
-image_width: 512
-image_height: 512
 date: 2025-06-19T12:00:00-00:00
 categories: ["sniadania"]
 subcategories: ["słodkie"]

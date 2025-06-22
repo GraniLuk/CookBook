@@ -3,8 +3,6 @@ draft: false
 title: "Jajecznica na Maśle"
 author: "Autor Przepisu"
 recipe_image: images/recipe-headers/jajecznica.jpg
-image_width: 512
-image_height: 512
 date: 2025-06-18T12:00:00-00:00
 categories: ["sniadania"]
 subcategories: ["słone"]

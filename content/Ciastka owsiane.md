@@ -3,8 +3,6 @@ draft: false
 title: "Chrupiące Ciasteczka Owsiane Bananowo-Czekoladowe"
 author: "Autor Przepisu"
 recipe_image: images/recipe-headers/ciasta_owsiane.jpg
-image_width: 512
-image_height: 512
 date: 2025-06-19T10:00:00-00:00
 categories: ["desery"]
 tags: []

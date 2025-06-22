@@ -3,8 +3,6 @@ draft: false
 title: "Pieczona Owsianka z Malinami"
 author: "Autor Przepisu"
 recipe_image: images/recipe-headers/pieczona_owsianka_z_malinami.webp
-image_width: 512
-image_height: 512
 date: 2025-06-19T12:00:00-00:00
 categories: ["sniadania"]
 subcategories: ["słodkie"]
