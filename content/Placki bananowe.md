@@ -14,10 +14,10 @@ servings: 1
 prep_time: 10
 cook: true
 cook_time: 10
-calories: 499
-protein: 25
-fat: 12
-carbohydrate: 76
+calories: 145
+protein: 7
+fat: 3
+carbohydrate: 22
 link: https://youtu.be/3qI4Y5dRumA?t=254
 ---
 
@@ -39,14 +39,14 @@ link: https://youtu.be/3qI4Y5dRumA?t=254
 ### Komentarz
 Z braku laku, można zrobić. Rating: 3/5
 
-## Podsumowanie wartości odżywczych (na 1 porcję)
+## Podsumowanie wartości odżywczych (całe danie)
 
 | Składnik         | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
 |------------------|-----------|---------------|------------|--------------|-----------------|
-| Mąka pszenna     | 60        | 204.6         | 6.24       | 0.6          | 43.8            |
-| Banan            | 120       | 106.8         | 1.32       | 0.36         | 27.6            |
-| Jogurt Skyr      | 100       | 57            | 10         | 0.2          | 4               |
-| Jajko            | 60        | 85.8          | 7.56       | 5.88         | 0.42            |
-| Olej kokosowy    | 5         | 44.5          | 0          | 5            | 0               |
-| **RAZEM:**       | **345**   | **498.7**     | **25.1**   | **12.0**     | **75.8**        |
+| Mąka pszenna     | 60        | 205           | 6.2        | 0.6          | 43.8            |
+| Banan            | 120       | 107           | 1.3        | 0.4          | 27.6            |
+| Jogurt Skyr      | 100       | 57            | 10.0       | 0.2          | 4.0             |
+| Jajko            | 60        | 86            | 7.6        | 5.9          | 0.4             |
+| Olej kokosowy    | 5         | 45            | 0.0        | 5.0          | 0.0             |
+| **RAZEM:**       | **345**   | **500**       | **25.1**   | **12.1**     | **75.8**        |
 

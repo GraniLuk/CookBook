@@ -14,10 +14,10 @@ servings: 20
 prep_time: 30
 cook: true
 cook_time: 30
-calories: 55
-protein: 2
+calories: 71
+protein: 3
 fat: 1
-carbohydrate: 11
+carbohydrate: 14
 ---
 
 ## Składniki
@@ -38,10 +38,10 @@ carbohydrate: 11
 
 Te zdrowe placki to doskonałe źródło witamin i błonnika. Świetnie sprawdzą się jako lekkie śniadanie lub przekąska!
 
-## Wartości odżywcze (na 1 placek)
+## Podsumowanie wartości odżywczych (całe danie)
 | Składnik | Wartość |
 |----------|---------|
-| Kalorie | 55 kcal |
-| Białko | 2g |
-| Tłuszcze | 1g |
-| Węglowodany | 11g |
+| Kalorie | 1100 kcal |
+| Białko | 56g |
+| Tłuszcze | 21g |
+| Węglowodany | 219g |

@@ -14,10 +14,10 @@ servings: 3
 prep_time: 15
 cook: false
 cook_time: 5
-calories: 320
-protein: 18
-fat: 10
-carbohydrate: 35
+calories: 133
+protein: 7
+fat: 4
+carbohydrate: 15
 link: https://youtu.be/SQ4saBQrBYc?t=115
 ---
 
@@ -50,10 +50,10 @@ link: https://youtu.be/SQ4saBQrBYc?t=115
 5. Polej czekoladowo-orzechową polewą i udekoruj świeżymi truskawkami.
 6. Pudding najlepiej smakuje schłodzony.
 
-## Wartości odżywcze (na 1 porcję)
+## Podsumowanie wartości odżywczych (całe danie)
 | Składnik | Wartość |
 |----------|---------|
-| Kalorie | 320 kcal |
-| Białko | 18g |
-| Tłuszcze | 10g |
-| Węglowodany | 35g |
+| Kalorie | 960 kcal |
+| Białko | 54g |
+| Tłuszcze | 30g |
+| Węglowodany | 105g |

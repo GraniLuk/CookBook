@@ -2,7 +2,7 @@
 draft: false
 title: "Szakszuka"
 author: "Stefan"
-recipe_image: images/recipe-headers/szakszuka.webp
+recipe_image: images/recipe-headers/szakszuka.jpg
 image_width: 512
 image_height: 512
 date: 2025-06-18T12:00:00-00:00
@@ -14,10 +14,10 @@ servings: 3
 prep_time: 10
 cook: true
 cook_time: 10
-calories: 319
-protein: 16
-fat: 21
-carbohydrate: 19
+calories: 114
+protein: 6
+fat: 7
+carbohydrate: 7
 ---
 
 ## Składniki
@@ -37,18 +37,18 @@ carbohydrate: 19
 4. W międzyczasie zblanszuj jarmuż (połóż na sito i przelej krótko wrzątkiem, a następnie polej lodowatą wodą).
 5. Rozłóż zawartość patelni na dwa talerze, dodaj jarmuż i po dużej łyżce mascarpone. Polej bazyliowym pesto. Dopraw pieprzem, a wersję dla rodziców również solą. Podawaj z chlebem.
 
-## Podsumowanie wartości odżywczych (na 1 porcję z 3)
+## Podsumowanie wartości odżywczych (całe danie)
 
 | Składnik         | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
 |------------------|-----------|---------------|------------|--------------|-----------------|
-| Pesto bazyliowe  | 5         | 13.25         | 0.35       | 1.25         | 0.4             |
-| Jajka            | 80        | 114.4         | 10.08      | 7.84         | 0.56            |
-| Pomidory         | 133       | 23.9          | 1.2        | 0.27         | 5.18            |
-| Czosnek          | 1         | 1.49          | 0.064      | 0.005        | 0.33            |
-| Jarmuż           | 17        | 7.14          | 0.75       | 0.12         | 1.36            |
-| Oregano          | 0.7       | 2.3           | 0.08       | 0.03         | 0.45            |
-| Mascarpone       | 23        | 103.5         | 1.84       | 10.35        | 0.69            |
-| Chleb żytni      | 20        | 52.6          | 1.68       | 0.7          | 10.4            |
-| **RAZEM:**       | **279.7** | **318.6**     | **16.1**   | **20.6**     | **19.4**        |
+| Pesto bazyliowe  | 15        | 40            | 1.1        | 3.8          | 1.2             |
+| Jajka            | 240       | 343           | 30.2       | 23.5         | 1.7             |
+| Pomidory         | 400       | 72            | 3.6        | 0.8          | 15.5            |
+| Czosnek          | 3         | 4             | 0.2        | 0.0          | 1.0             |
+| Jarmuż           | 50        | 21            | 2.3        | 0.4          | 4.1             |
+| Oregano          | 2         | 7             | 0.2        | 0.1          | 1.4             |
+| Mascarpone       | 70        | 315           | 5.6        | 31.5         | 2.1             |
+| Chleb żytni      | 60        | 158           | 5.0        | 2.1          | 31.2            |
+| **RAZEM:**       | **840**   | **960**       | **48.2**   | **62.2**     | **58.2**        |
 
 ---

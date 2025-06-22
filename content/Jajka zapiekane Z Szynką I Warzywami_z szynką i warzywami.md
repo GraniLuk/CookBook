@@ -14,10 +14,10 @@ servings: 3
 prep_time: 15
 cook: true
 cook_time: 20
-calories: 255
-protein: 19
-fat: 15
-carbohydrate: 8
+calories: 196
+protein: 15
+fat: 12
+carbohydrate: 6
 ---
 
 ## Składniki
@@ -45,10 +45,10 @@ Jeżeli nie masz kokilki, możesz użyć foremek do muffinów lub usmażyć omle
 
 To zapiekane danie to doskonałe źródło białka i witamin. Idealne na sycące śniadanie lub lekki obiad!
 
-## Wartości odżywcze (na 1 porcję)
+## Podsumowanie wartości odżywczych (całe danie)
 | Składnik | Wartość |
 |----------|---------|
-| Kalorie | 255 kcal |
-| Białko | 19g |
-| Tłuszcze | 15g |
-| Węglowodany | 8g |
+| Kalorie | 765 kcal |
+| Białko | 57g |
+| Tłuszcze | 45g |
+| Węglowodany | 24g |

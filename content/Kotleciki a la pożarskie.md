@@ -12,10 +12,10 @@ servings: 6
 prep_time: 15
 cook: true
 cook_time: 30
-calories: 232
-protein: 34
-fat: 5
-carbohydrate: 11
+calories: 150
+protein: 22
+fat: 3
+carbohydrate: 7
 ---
 
 ## Składniki
@@ -33,15 +33,15 @@ carbohydrate: 11
 3. Wymieszać wszystko z jajkiem i mąką.
 4. Formować kotleciki, piec w piekarniku góra-dół 190°C przez 30 minut.
 
-## Podsumowanie wartości odżywczych (na 1 kotlecik z 6)
+## Podsumowanie wartości odżywczych (całe danie)
 
 | Składnik         | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
 |------------------|-----------|---------------|------------|--------------|-----------------|
-| Pierś z kurczaka | 100       | 165           | 31         | 3.6          | 0               |
-| Jajko            | 10        | 14.3          | 1.26       | 0.98         | 0.07            |
-| Warzywa mieszane | 33.3      | 11.6          | 0.5        | 0.1          | 2.7             |
-| Mąka jaglana     | 10        | 37.8          | 1.1        | 0.4          | 7.7             |
-| Przyprawy        | 0.83      | 2.8           | 0.1        | 0.08         | 0.6             |
-| **RAZEM:**       | **154**   | **231.5**     | **34.0**   | **5.2**      | **11.1**        |
+| Pierś z kurczaka | 600       | 990           | 186        | 21.6         | 0               |
+| Jajko            | 60        | 86            | 7.6        | 5.9          | 0.4             |
+| Warzywa mieszane | 200       | 70            | 3.0        | 0.6          | 16.2            |
+| Mąka jaglana     | 60        | 227           | 6.6        | 2.4          | 46.2            |
+| Przyprawy        | 5         | 17            | 0.6        | 0.5          | 3.6             |
+| **RAZEM:**       | **925**   | **1390**      | **203.8**  | **30.9**     | **66.4**        |
 
 ---

@@ -14,10 +14,10 @@ servings: 1
 prep_time: 10
 cook: true
 cook_time: 5
-calories: 673
-protein: 43
-fat: 39
-carbohydrate: 43
+calories: 143
+protein: 9
+fat: 8
+carbohydrate: 9
 link: https://www.youtube.com/watch?v=RR5V2Wcxk0w
 ---
 
@@ -42,18 +42,18 @@ link: https://www.youtube.com/watch?v=RR5V2Wcxk0w
 7. Złóż przygotowaną kanapkę (np. na pół).
 8. Podawaj od razu jako pyszne, zdrowe, wysokobiałkowe śniadanie.
 
-## Podsumowanie wartości odżywczych
+## Podsumowanie wartości odżywczych (całe danie)
 
 | Składnik         | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
 |------------------|-----------|---------------|------------|--------------|-----------------|
-| Jajka (3 szt.)   | 180       | 257,4         | 22,68      | 17,64        | 1,26            |
-| Bułka            | 60        | 155,4         | 5,22       | 2,28         | 29,28           |
-| Serek wiejski    | 30        | 30,3          | 3,3        | 1,35         | 1,02            |
-| Rukola           | 10        | 2,5           | 0,26       | 0,07         | 0,37            |
-| Awokado          | 100       | 160           | 2          | 14,7         | 8,5             |
-| Szynka           | 40        | 58            | 9,2        | 2,4          | 0,4             |
-| Pomidorki koktajlowe | 50    | 9             | 0,45       | 0,1          | 1,9             |
-| **RAZEM:**       | **470**   | **672,6**     | **43,1**   | **38,5**     | **42,7**        |
+| Jajka (3 szt.)   | 180       | 257           | 22.7       | 17.6         | 1.3             |
+| Bułka            | 60        | 155           | 5.2        | 2.3          | 29.3            |
+| Serek wiejski    | 30        | 30            | 3.3        | 1.4          | 1.0             |
+| Rukola           | 10        | 3             | 0.3        | 0.1          | 0.4             |
+| Awokado          | 100       | 160           | 2.0        | 14.7         | 8.5             |
+| Szynka           | 40        | 58            | 9.2        | 2.4          | 0.4             |
+| Pomidorki koktajlowe | 50    | 9             | 0.5        | 0.1          | 1.9             |
+| **RAZEM:**       | **470**   | **672**       | **43.2**   | **38.6**     | **42.8**        |
 
 ---
 

@@ -13,10 +13,10 @@ servings: 6
 prep_time: 40
 cook: true
 cook_time: 90
-calories: 420
-protein: 28
-fat: 22
-carbohydrate: 28
+calories: 161
+protein: 11
+fat: 8
+carbohydrate: 11
 ---
 
 ## Składniki
@@ -80,11 +80,11 @@ carbohydrate: 28
 - Przed podaniem posyp świeżo posiekaną natką pietruszki, szczypiorkiem lub koperkiem.
 - Podawaj gorącą, najlepiej z lekką surówką lub sałatką.
 
-## Wartości odżywcze (na 1 porcję)
+## Podsumowanie wartości odżywczych (całe danie)
 | Składnik | Wartość |
 |----------|---------|
-| Kalorie | 420 kcal |
-| Białko | 28g |
-| Tłuszcze | 22g |
-| Węglowodany | 28g |
+| Kalorie | 2520 kcal |
+| Białko | 168g |
+| Tłuszcze | 132g |
+| Węglowodany | 168g |
   

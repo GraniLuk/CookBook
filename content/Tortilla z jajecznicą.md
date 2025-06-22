@@ -14,10 +14,10 @@ servings: 2
 prep_time: 5
 cook: true
 cook_time: 10
-calories: 398
-protein: 25
-fat: 18
-carbohydrate: 36
+calories: 168
+protein: 10
+fat: 8
+carbohydrate: 15
 link: https://youtu.be/3qI4Y5dRumA?t=174
 ---
 
@@ -36,12 +36,12 @@ link: https://youtu.be/3qI4Y5dRumA?t=174
 4. Jeśli masz warzywa, np. paprykę, pokrój je drobno i dodaj do środka tortilli.
 5. Zwiń tortille i podawaj od razu.
 
-## Podsumowanie wartości odżywczych (na 1 porcję z 2)
+## Podsumowanie wartości odżywczych (całe danie)
 
 | Składnik         | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
 |------------------|-----------|---------------|------------|--------------|-----------------|
-| Jajka            | 150       | 214.5         | 18.9       | 14.7         | 1.05            |
-| Tortille         | 60        | 177.6         | 5.4        | 3.6          | 33              |
-| Sól i pieprz     | 1.5       | 1.3           | 0.05       | 0.02         | 0.3             |
-| Papryka          | 25        | 5             | 0.25       | 0.05         | 1.2             |
-| **RAZEM:**       | **236.5** | **398.4**     | **24.6**   | **18.4**     | **35.6**        |
+| Jajka            | 300       | 429           | 37.8       | 29.4         | 2.1             |
+| Tortille         | 120       | 355.2         | 10.8       | 7.2          | 66              |
+| Sól i pieprz     | 3         | 2.6           | 0.1        | 0.04         | 0.6             |
+| Papryka          | 50        | 10            | 0.5        | 0.1          | 2.4             |
+| **RAZEM:**       | **473**   | **796.8**     | **49.2**   | **36.7**     | **71.1**        |

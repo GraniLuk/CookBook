@@ -14,9 +14,9 @@ servings: 2
 prep_time: 5
 cook: true
 cook_time: 5
-calories: 268
-protein: 15
-fat: 22
+calories: 196
+protein: 11
+fat: 16
 carbohydrate: 1
 ---
 
@@ -34,13 +34,13 @@ carbohydrate: 1
 4. Gdy jajka zaczną się ścinać, zdejmij z ognia i kontynuuj mieszanie.
 5. Posyp posiekanym szczypiorkiem i podawaj od razu.
 
-## Podsumowanie wartości odżywczych (na 1 porcję z 2)
+## Podsumowanie wartości odżywczych (całe danie)
 
 | Składnik         | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
 |------------------|-----------|---------------|------------|--------------|-----------------|
-| Jajka            | 120       | 171.6         | 15.12      | 11.76        | 0.84            |
-| Masło            | 12.5      | 93.75         | 0.1        | 10.4         | 0.1             |
-| Sól              | 1         | 0             | 0          | 0            | 0               |
-| Pieprz           | 0.5       | 1.3           | 0.05       | 0.02         | 0.3             |
-| Szczypiorek      | 2.5       | 0.8           | 0.08       | 0.01         | 0.1             |
-| **RAZEM:**       | **136.5** | **267.5**     | **15.4**   | **22.2**     | **1.3**         |
+| Jajka            | 240       | 343           | 30.2       | 23.5         | 1.7             |
+| Masło            | 25        | 188           | 0.2        | 20.8         | 0.2             |
+| Sól              | 2         | 0             | 0.0        | 0.0          | 0.0             |
+| Pieprz           | 1         | 3             | 0.1        | 0.0          | 0.6             |
+| Szczypiorek      | 5         | 2             | 0.2        | 0.0          | 0.2             |
+| **RAZEM:**       | **273**   | **536**       | **30.7**   | **44.3**     | **2.7**         |

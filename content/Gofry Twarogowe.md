@@ -14,10 +14,10 @@ servings: 4
 prep_time: 5
 cook: true
 cook_time: 10
-calories: 281
-protein: 19
-fat: 9
-carbohydrate: 33
+calories: 158
+protein: 10
+fat: 5
+carbohydrate: 18
 ---
 
 ## Składniki
@@ -31,14 +31,14 @@ carbohydrate: 33
 ## Sposób przygotowania
 1. Wszystko do miski, zblendować i do gofrownicy.
 
-## Podsumowanie wartości odżywczych (na 1 porcję z 4)
+## Podsumowanie wartości odżywczych (całe danie)
 
 | Składnik         | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
 |------------------|-----------|---------------|------------|--------------|-----------------|
-| Twaróg           | 62.5      | 56.25         | 11.25      | 0.62         | 2.5             |
-| Jajka            | 30        | 42.9          | 3.78       | 2.94         | 0.21            |
-| Banan            | 30        | 26.7          | 0.33       | 0.09         | 6.9             |
-| Mleko            | 20        | 8.4           | 0.68       | 0.2          | 1               |
-| Mąka             | 30        | 102.3         | 3.12       | 0.33         | 21.9            |
-| Olej             | 5         | 44.5          | 0          | 5            | 0               |
-| **RAZEM:**       | **177.5** | **281**       | **19.2**   | **9.2**      | **32.5**        |
+| Twaróg           | 250       | 225           | 45.0       | 2.5          | 10.0            |
+| Jajka            | 120       | 172           | 15.1       | 11.8         | 0.8             |
+| Banan            | 120       | 107           | 1.3        | 0.4          | 27.6            |
+| Mleko            | 80        | 34            | 2.7        | 0.8          | 4.0             |
+| Mąka             | 120       | 409           | 12.5       | 1.3          | 87.6            |
+| Olej             | 20        | 178           | 0.0        | 20.0         | 0.0             |
+| **RAZEM:**       | **710**   | **1125**      | **76.6**   | **36.8**     | **130**         |

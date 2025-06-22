@@ -13,10 +13,10 @@ servings: 4
 prep_time: 25
 cook: true
 cook_time: 45
-calories: 480
-protein: 35
-fat: 25
-carbohydrate: 25
+calories: 193
+protein: 14
+fat: 10
+carbohydrate: 10
 ---
 
 Oto przepis na pieczonego łososia w piekarniku z ziemniakami pieczonymi oraz kremowym sosem z szparagów, mascarpone i suszonych pomidorów. Przepis jest łatwy do wykonania i pozwoli uzyskać efektowny obiad z wyrazistym smakiem.
@@ -77,6 +77,14 @@ Oto przepis na pieczonego łososia w piekarniku z ziemniakami pieczonymi oraz kr
 ## Podanie
 
 Podawaj łososia z pieczonymi ziemniakami, polanymi kremowym sosem z szparagów, mascarpone i suszonych pomidorów. Całość możesz posypać świeżymi ziołami, takimi jak koperek lub natka pietruszki.
+
+## Podsumowanie wartości odżywczych (całe danie)
+| Składnik | Wartość |
+|----------|---------|
+| Kalorie | 1920 kcal |
+| Białko | 140g |
+| Tłuszcze | 100g |
+| Węglowodany | 100g |
 
 ---
 

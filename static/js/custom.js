@@ -89,10 +89,10 @@ function populateResults(result){
         if(snippet.length<1){
             snippet += contents.substring(0,summaryInclude*2);
           }
-          //pull template from hugo template definition
+                    //pull template from hugo template definition
           var templateDefinition = u('#search-result-template').html();
           //replace values
-          var output = render(templateDefinition,{key:key,title:value.item.title,link:value.item.permalink,tags:value.item.tags,categories:value.item.categories,snippet:snippet,image:value.item.imageLink});
+          var output = render(templateDefinition,{key:key,title:value.item.title,link:value.item.permalink,tags:value.item.tags,categories:value.item.categories,snippet:snippet,image:value.item.imageLink,calories:value.item.calories,protein:value.item.protein,fat:value.item.fat,carbohydrate:value.item.carbohydrate});
           u('#searchResultsCol').append(output);
     })
 }

@@ -13,10 +13,10 @@ servings: 1
 prep_time: 10
 cook: false
 cook_time: 20
-calories: 578
-protein: 28
-fat: 34
-carbohydrate: 50
+calories: 172
+protein: 8
+fat: 10
+carbohydrate: 15
 link: https://www.youtube.com/watch?v=KoaGLBK5rhI
 ---
 
@@ -38,7 +38,7 @@ link: https://www.youtube.com/watch?v=KoaGLBK5rhI
 8. Odstaw deser do lodówki na minimum 20 minut.
 9. Po schłodzeniu zdrowy deser Snickers jest gotowy do podania.
 
-## Podsumowanie wartości odżywczych (na 1 porcję)
+## Podsumowanie wartości odżywczych (całe danie)
 
 | Składnik         | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
 |------------------|-----------|---------------|------------|--------------|-----------------|

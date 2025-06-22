@@ -13,10 +13,10 @@ servings: 6
 prep_time: 20
 cook: true
 cook_time: 70
-calories: 366
-protein: 28
-fat: 16
-carbohydrate: 34
+calories: 332
+protein: 25
+fat: 15
+carbohydrate: 31
 ---
 
 ## Składniki
@@ -78,20 +78,20 @@ carbohydrate: 34
 2. Dodaj nachosy, starty cheddar i posiekaną natkę pietruszki.
 3. Dla chętnych na większą ostrość – posyp płatkami chili.
 
-## Podsumowanie wartości odżywczych (na 1 porcję z 6)
+## Podsumowanie wartości odżywczych (całe danie)
 
 | Składnik         | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
 |------------------|-----------|---------------|------------|--------------|-----------------|
-| Mielona wołowina | 92        | 184           | 20         | 11           | 0               |
-| Cebula           | 50        | 20            | 0.5        | 0.1          | 4.7             |
-| Czosnek          | 2.5       | 3.7           | 0.2        | 0            | 0.8             |
-| Marchewka        | 58        | 20.3          | 0.5        | 0.1          | 4.6             |
-| Suszone pomidory | 5         | 12.9          | 0.7        | 0.1          | 2.8             |
-| Pomidory Pelati  | 133       | 24            | 1.3        | 0.3          | 5.3             |
-| Czerwona fasola  | 67        | 54.4          | 3.6        | 0.3          | 9.8             |
-| Rosół            | 146       | 2.9           | 0.3        | 0.1          | 0.3             |
-| Kumin            | 1.7       | 6.3           | 0.3        | 0.3          | 0.9             |
-| Oregano          | 0.7       | 2.3           | 0.1        | 0.1          | 0.4             |
-| Papryczka chili  | 0.2       | 0.3           | 0          | 0            | 0.1             |
-| Masło klarowane  | 4.2       | 34.9          | 0          | 3.9          | 0               |
-| **RAZEM:**       | **661**   | **366**       | **27.5**   | **16.3**     | **33.7**        |
+| Mielona wołowina | 550       | 1100          | 118        | 66           | 0               |
+| Cebula           | 300       | 120           | 3.0        | 0.3          | 28              |
+| Czosnek          | 15        | 22            | 1.0        | 0.1          | 5               |
+| Marchewka        | 350       | 144           | 3.2        | 0.7          | 33              |
+| Suszone pomidory | 30        | 77            | 4.1        | 0.8          | 17              |
+| Pomidory Pelati  | 800       | 144           | 7.8        | 1.6          | 32              |
+| Czerwona fasola  | 400       | 326           | 22         | 1.2          | 59              |
+| Rosół            | 875       | 18            | 1.5        | 0.4          | 1.5             |
+| Kumin            | 10        | 38            | 1.8        | 2.2          | 4.4             |
+| Oregano          | 4         | 11            | 0.4        | 0.4          | 2.7             |
+| Papryczka chili  | 1         | 3             | 0.1        | 0.1          | 0.7             |
+| Masło klarowane  | 25        | 209           | 0.3        | 23           | 0.1             |
+| **RAZEM:**       | **3960**  | **2212**      | **163**    | **96**       | **183**         |
