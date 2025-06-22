@@ -12,10 +12,10 @@ servings: 3
 prep_time: 25
 cook: true
 cook_time: 35
-calories: 420
-protein: 32
-fat: 8
-carbohydrate: 55
+calories: 144
+protein: 11
+fat: 3
+carbohydrate: 19
 ---
 
 ## Składniki
@@ -59,10 +59,10 @@ To kolorowa, szybka propozja meal prep, która świetnie sprawdza się jako zdro
 
 Smacznego!
 
-## Wartości odżywcze (na 1 porcję)
+## Podsumowanie wartości odżywczych (całe danie)
 | Składnik | Wartość |
 |----------|---------|
-| Kalorie | 420 kcal |
-| Białko | 32g |
-| Tłuszcze | 8g |
-| Węglowodany | 55g |
+| Kalorie | 1260 kcal |
+| Białko | 96g |
+| Tłuszcze | 24g |
+| Węglowodany | 165g |

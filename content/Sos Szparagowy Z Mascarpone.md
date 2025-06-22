@@ -13,10 +13,10 @@ servings: 4
 prep_time: 10
 cook: true
 cook_time: 20
-calories: 360
-protein: 10
-fat: 29
-carbohydrate: 19
+calories: 238
+protein: 7
+fat: 19
+carbohydrate: 12
 ---
 
 Kremowy sos szparagowy z mascarpone i suszonymi pomidorami to doskonały dodatek do ryb, mięsa drobiowego czy pieczonego mięsa. Sos ma delikatny smak szparagów wzbogacony kremowością mascarpone i słonawą nutą suszonych pomidorów.
@@ -74,16 +74,16 @@ Sos można przechowywać w lodówce do 3 dni. Przed ponownym podaniem delikatnie
 - Sos można wzbogacić o świeże zioła jak koperek, natka pietruszki lub bazylię.
 - Dla bardziej intensywnego smaku możesz dodać łyżkę białego wina podczas smażenia szparagów.
 
-## Podsumowanie wartości odżywczych (na 1 porcję z 4)
+## Podsumowanie wartości odżywczych (całe danie)
 
 | Składnik         | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
 |------------------|-----------|---------------|------------|--------------|-----------------|
-| Szparagi         | 62.5      | 12.5          | 1.37       | 0.06         | 2.44            |
-| Mascarpone       | 62.5      | 281.25        | 5          | 28.13        | 1.87            |
-| Suszone pomidory | 25        | 64.25         | 3.53       | 0.74         | 14.01           |
-| Czosnek          | 0.75      | 1.12          | 0.048      | 0.004        | 0.25            |
-| Sól              | 0.75      | 0             | 0          | 0            | 0               |
-| Pieprz           | 0.5       | 1.26          | 0.05       | 0.015        | 0.32            |
-| **RAZEM:**       | **151.5** | **360.4**     | **10.0**   | **28.9**     | **18.9**        |
+| Szparagi         | 250       | 50            | 5.5        | 0.24         | 9.75            |
+| Mascarpone       | 250       | 1125          | 20         | 112.5        | 7.5             |
+| Suszone pomidory | 100       | 257           | 14.1       | 2.97         | 56.0            |
+| Czosnek          | 3         | 4.5           | 0.19       | 0.015        | 1.0             |
+| Sól              | 3         | 0             | 0          | 0            | 0               |
+| Pieprz           | 2         | 5.0           | 0.2        | 0.06         | 1.28            |
+| **RAZEM:**       | **608**   | **1441.5**    | **39.99**  | **115.8**    | **75.5**        |
 
 ---

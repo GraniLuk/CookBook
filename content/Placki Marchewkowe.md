@@ -14,10 +14,10 @@ servings: 12
 prep_time: 10
 cook: true
 cook_time: 5
-calories: 34
-protein: 1
-fat: 1
-carbohydrate: 4
+calories: 174
+protein: 7
+fat: 7
+carbohydrate: 21
 ---
 
 ## Składniki

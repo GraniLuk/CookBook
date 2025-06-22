@@ -13,10 +13,10 @@ servings: 3
 prep_time: 20
 cook: true
 cook_time: 45
-calories: 485
-protein: 42
-fat: 18
-carbohydrate: 35
+calories: 174
+protein: 15
+fat: 6
+carbohydrate: 13
 link: https://youtu.be/SQ4saBQrBYc?t=224
 ---
 
@@ -41,10 +41,10 @@ link: https://youtu.be/SQ4saBQrBYc?t=224
 4. **Sałatka:** Sałatę, cebulę i pomidory wymieszaj. W oddzielnym pojemniku przygotuj dressing z oliwy, cytryny i ziół.
 5. **Pakowanie:** Bataty, kurczak i sałatkę rozdziel do trzech pojemników. Dressing dodaj przed podaniem.
 
-## Wartości odżywcze (na 1 porcję)
+## Podsumowanie wartości odżywczych (całe danie)
 | Składnik | Wartość |
 |----------|---------|
-| Kalorie | 485 kcal |
-| Białko | 42g |
-| Tłuszcze | 18g |
-| Węglowodany | 35g |
+| Kalorie | 1455 kcal |
+| Białko | 126g |
+| Tłuszcze | 54g |
+| Węglowodany | 105g |

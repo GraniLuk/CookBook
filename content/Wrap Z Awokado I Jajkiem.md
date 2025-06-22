@@ -14,10 +14,10 @@ servings: 1
 prep_time: 10
 cook: true
 cook_time: 5
-calories: 530
-protein: 28
-fat: 33
-carbohydrate: 37
+calories: 141
+protein: 8
+fat: 9
+carbohydrate: 10
 ---
 
 ## Składniki
@@ -40,7 +40,7 @@ carbohydrate: 37
 4. Na tortillę wyłóż kolejno: pastę z awokado i pomidora, ser oraz jajecznicę.
 5. Całość zawiń i podpiecz na suchej patelni z dwóch stron, tak aby się roztopił ser. Smacznego!
 
-## Podsumowanie wartości odżywczych (na 1 porcję)
+## Podsumowanie wartości odżywczych (całe danie)
 
 | Składnik         | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
 |------------------|-----------|---------------|------------|--------------|-----------------|

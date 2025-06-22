@@ -14,10 +14,10 @@ servings: 2
 prep_time: 15
 cook: true
 cook_time: 30
-calories: 575
-protein: 17
-fat: 12
-carbohydrate: 110
+calories: 138
+protein: 4
+fat: 3
+carbohydrate: 26
 link: https://www.youtube.com/shorts/mp41DOJiTco
 ---
 
@@ -43,18 +43,18 @@ link: https://www.youtube.com/shorts/mp41DOJiTco
 9. Na wierzch pokrojonych kawałków dodaj plastry banana i dodatkowe masło orzechowe.
 10. Podawaj ciepłą lub zimną.
 
-## Podsumowanie wartości odżywczych
+## Podsumowanie wartości odżywczych (całe danie)
 
 | Składnik         | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
 |------------------|-----------|---------------|------------|--------------|-----------------|
-| Banan (do rozgniecenia) | 240       | 213,6         | 2,64       | 0,72         | 55,2            |
-| Mleko            | 180       | 75,6          | 6,12       | 1,8          | 9               |
-| Płatki owsiane   | 100       | 389           | 16,9       | 6,9          | 66,3            |
-| Miód             | 20        | 60,8          | 0,06       | 0            | 16,48           |
-| Masło orzechowe  | 20        | 117,6         | 5          | 10           | 4               |
-| Siemię lniane    | 10        | 53,4          | 1,83       | 4,22         | 2,89            |
-| Daktyle          | 50        | 141           | 1,25       | 0,2          | 37,5            |
-| Banan (dekoracja)| 120       | 106,8         | 1,32       | 0,36         | 27,6            |
-| **RAZEM:**       | **840**   | **1158**      | **35,1**   | **24,2**     | **219**         |
+| Banan (do rozgniecenia) | 240       | 214           | 2.6        | 0.7          | 55.2            |
+| Mleko            | 180       | 76            | 6.1        | 1.8          | 9.0             |
+| Płatki owsiane   | 100       | 389           | 16.9       | 6.9          | 66.3            |
+| Miód             | 20        | 61            | 0.1        | 0.0          | 16.5            |
+| Masło orzechowe  | 20        | 118           | 5.0        | 10.0         | 4.0             |
+| Siemię lniane    | 10        | 53            | 1.8        | 4.2          | 2.9             |
+| Daktyle          | 50        | 141           | 1.3        | 0.2          | 37.5            |
+| Banan (dekoracja)| 120       | 107           | 1.3        | 0.4          | 27.6            |
+| **RAZEM:**       | **840**   | **1159**      | **35.1**   | **24.2**     | **219**         |
 
 ---

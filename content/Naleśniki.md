@@ -14,10 +14,10 @@ servings: 8
 prep_time: 10
 cook: true
 cook_time: 15
-calories: 132
+calories: 144
 protein: 5
 fat: 6
-carbohydrate: 15
+carbohydrate: 17
 ---
 
 ## Składniki
@@ -35,14 +35,14 @@ carbohydrate: 15
 4. Gdy spód naleśnika będzie już ładnie zrumieniony i dobrze ścięty, przewrócić go na drugą stronę za pomocą łopatki i powtórzyć smażenie na drugiej stronie.
 5. Usmażyć pozostałe naleśniki.
 
-## Podsumowanie wartości odżywczych (na 1 naleśnik z 8)
+## Podsumowanie wartości odżywczych (całe danie)
 
 | Składnik         | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
 |------------------|-----------|---------------|------------|--------------|-----------------|
-| Mąka pszenna     | 18.75     | 63.9          | 1.95       | 0.19         | 13.7            |
-| Mleko            | 31.25     | 13.1          | 1.06       | 0.31         | 1.56            |
-| Woda             | 22.5      | 0             | 0          | 0            | 0               |
-| Jajka            | 15        | 21.45         | 1.89       | 1.47         | 0.105           |
-| Sól              | 0.25      | 0             | 0          | 0            | 0               |
-| Olej/masło       | 3.75      | 33.38         | 0.004      | 3.75         | 0               |
-| **RAZEM:**       | **91.5**  | **131.8**     | **4.9**    | **5.75**     | **15.4**        |
+| Mąka pszenna     | 150       | 511           | 15.6       | 1.5          | 109.6           |
+| Mleko            | 250       | 105           | 8.5        | 2.5          | 12.5            |
+| Woda             | 180       | 0             | 0.0        | 0.0          | 0.0             |
+| Jajka            | 120       | 172           | 15.1       | 11.8         | 0.8             |
+| Sól              | 2         | 0             | 0.0        | 0.0          | 0.0             |
+| Olej/masło       | 30        | 267           | 0.0        | 30.0         | 0.0             |
+| **RAZEM:**       | **732**   | **1055**      | **39.2**   | **45.8**     | **122.9**       |

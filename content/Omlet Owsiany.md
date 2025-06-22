@@ -14,10 +14,10 @@ servings: 1
 prep_time: 5
 cook: true
 cook_time: 5
-calories: 739
-protein: 40
-fat: 25
-carbohydrate: 92
+calories: 238
+protein: 13
+fat: 8
+carbohydrate: 30
 ---
 
 ## Składniki
@@ -32,11 +32,11 @@ carbohydrate: 92
 4. Przewrócić na drugą stronę i zmniejszyć ogień
 5. Smażyć chwilę i gotowy
 
-## Podsumowanie wartości odżywczych (na 1 porcję)
+## Podsumowanie wartości odżywczych (całe danie)
 
 | Składnik         | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
 |------------------|-----------|---------------|------------|--------------|-----------------|
 | Płatki owsiane   | 100       | 389           | 16.9       | 6.9          | 66.3            |
-| Jajka            | 180       | 257.4         | 22.68      | 17.64        | 1.26            |
-| Żurawina         | 30        | 92.7          | 0.12       | 0.39         | 24.51           |
+| Jajka            | 180       | 257           | 22.7       | 17.6         | 1.3             |
+| Żurawina         | 30        | 93            | 0.1        | 0.4          | 24.5            |
 | **RAZEM:**       | **310**   | **739**       | **39.7**   | **24.9**     | **92.1**        |

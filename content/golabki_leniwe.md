@@ -12,10 +12,10 @@ servings: 9
 prep_time: 20
 cook: true
 cook_time: 50
-calories: 174
-protein: 11
-fat: 10
-carbohydrate: 10
+calories: 82
+protein: 5
+fat: 5
+carbohydrate: 4
 ---
 
 ## Składniki
@@ -47,24 +47,24 @@ carbohydrate: 10
 8. Piecz ok. 50 minut.
 9. Dopraw solą na talerzu.
 
-## Podsumowanie wartości odżywczych (na 1 porcję z 9)
+## Podsumowanie wartości odżywczych (całe danie)
 
 | Składnik         | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
 |------------------|-----------|---------------|------------|--------------|-----------------|
-| Mięso mielone    | 44.4      | 114.5         | 8.84       | 8.44         | 0               |
-| Kapusta biała    | 50        | 12.5          | 0.6        | 0.05         | 2.9             |
-| Jajko            | 6.7       | 9.57          | 0.84       | 0.65         | 0.047           |
-| Papryka słodka   | 0.22      | 0.62          | 0.03       | 0.03         | 0.12            |
-| Kurkuma          | 0.11      | 0.35          | 0.007      | 0.01         | 0.065           |
-| Koncentrat pomid.| 1.67      | 1.44          | 0.08       | 0.01         | 0.34            |
-| Czosnek          | 0.67      | 1             | 0.043      | 0.003        | 0.22            |
-| Passata pomidor. | 88.9      | 16            | 0.8        | 0.18         | 3.6             |
-| Woda             | 13.3      | 0             | 0          | 0            | 0               |
-| Koperek          | 1.67      | 0.6           | 0.05       | 0.012        | 0.12            |
-| Liść laurowy     | 0.11      | 0.27          | 0.008      | 0.007        | 0.066           |
-| Śmietana 30%     | 3.33      | 10            | 0.1        | 1            | 0.13            |
-| Pieprz           | 0.22      | 0.56          | 0.022      | 0.007        | 0.14            |
-| Cukier kokosowy  | 1.67      | 6.34          | 0.017      | 0.008        | 1.65            |
-| **RAZEM:**       | **212.9** | **173.7**     | **11.4**   | **10.4**     | **9.5**         |
+| Mięso mielone    | 400       | 1030          | 79.6       | 75.9         | 0.0             |
+| Kapusta biała    | 450       | 113           | 5.4        | 0.5          | 25.7            |
+| Jajko            | 60        | 86            | 7.6        | 5.9          | 0.4             |
+| Papryka słodka   | 2         | 6             | 0.3        | 0.3          | 1.1             |
+| Kurkuma          | 1         | 3             | 0.1        | 0.1          | 0.6             |
+| Koncentrat pomid.| 15        | 13            | 0.7        | 0.1          | 3.1             |
+| Czosnek          | 6         | 9             | 0.4        | 0.0          | 2.0             |
+| Passata pomidor. | 800       | 144           | 7.2        | 1.6          | 32.0            |
+| Woda             | 120       | 0             | 0.0        | 0.0          | 0.0             |
+| Koperek          | 15        | 5             | 0.5        | 0.1          | 1.1             |
+| Liść laurowy     | 1         | 2             | 0.1        | 0.1          | 0.6             |
+| Śmietana 30%     | 30        | 90            | 0.9        | 9.0          | 1.2             |
+| Pieprz           | 2         | 5             | 0.2        | 0.1          | 1.3             |
+| Cukier kokosowy  | 15        | 57            | 0.2        | 0.1          | 14.9            |
+| **RAZEM:**       | **1917**  | **1563**      | **102.3**  | **93.8**     | **84.0**        |
 
 ---

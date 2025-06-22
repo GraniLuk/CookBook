@@ -14,10 +14,10 @@ servings: 12
 prep_time: 10
 cook: true
 cook_time: 20
-calories: 74
-protein: 5
-fat: 2
-carbohydrate: 10
+calories: 158
+protein: 10
+fat: 4
+carbohydrate: 21
 ---
 
 ## Składniki
@@ -31,12 +31,12 @@ carbohydrate: 10
 2. Na rozgrzaną patelnię nakładaj placuszki za pomocą łyżki. Smaż na małym ogniu, najlepiej na indukcji, aż spód się delikatnie zetnie i będzie złocisty.
 3. Obróć placuszki i smaż je z drugiej strony na złoty kolor.
 
-## Podsumowanie wartości odżywczych (na 1 placek z 12)
+## Podsumowanie wartości odżywczych (całe danie)
 
 | Składnik         | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
 |------------------|-----------|---------------|------------|--------------|-----------------|
-| Banan            | 10        | 8.9           | 0.11       | 0.03         | 2.3             |
-| Serek wiejski    | 16.7      | 16.9          | 1.84       | 0.75         | 0.57            |
-| Mąka orkiszowa   | 10        | 33.8          | 1.47       | 0.24         | 7.0             |
-| Jajka            | 10        | 14.3          | 1.26       | 0.98         | 0.07            |
-| **RAZEM:**       | **46.7**  | **73.9**      | **4.7**    | **2.0**      | **9.9**         |
+| Banan            | 120       | 107           | 1.3        | 0.3          | 27.6            |
+| Serek wiejski    | 200       | 203           | 22.1       | 9.0          | 6.8             |
+| Mąka orkiszowa   | 120       | 406           | 17.6       | 2.9          | 84.0            |
+| Jajka            | 120       | 172           | 15.1       | 11.8         | 0.8             |
+| **RAZEM:**       | **560**   | **888**       | **56.1**   | **24.0**     | **119.2**       |
