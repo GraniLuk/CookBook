@@ -39,9 +39,13 @@ carbohydrate: 14
 Te zdrowe placki to doskonałe źródło witamin i błonnika. Świetnie sprawdzą się jako lekkie śniadanie lub przekąska!
 
 ## Podsumowanie wartości odżywczych (całe danie)
-| Składnik | Wartość |
-|----------|---------|
-| Kalorie | 1100 kcal |
-| Białko | 56g |
-| Tłuszcze | 21g |
-| Węglowodany | 219g |
+
+| Składnik         | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
+|------------------|-----------|----------------|------------|--------------|-----------------|
+| Marchewka        | 200       | 82             | 1.8        | 0.5          | 19              |
+| Dynia            | 400       | 104            | 4          | 0.4          | 24              |
+| Mąka pszenna     | 60        | 204            | 6.2        | 0.7          | 43.8            |
+| Jajko            | 50        | 71             | 6.3        | 4.9          | 0.4             |
+| Banan            | 120       | 107            | 1.3        | 0.4          | 27.6            |
+| Olej do smażenia | 10        | 90             | 0          | 10           | 0               |
+| **RAZEM:**       | **840**   | **658**        | **19.6**   | **16.9**     | **114.8**       |

@@ -46,9 +46,15 @@ Jeżeli nie masz kokilki, możesz użyć foremek do muffinów lub usmażyć omle
 To zapiekane danie to doskonałe źródło białka i witamin. Idealne na sycące śniadanie lub lekki obiad!
 
 ## Podsumowanie wartości odżywczych (całe danie)
-| Składnik | Wartość |
-|----------|---------|
-| Kalorie | 765 kcal |
-| Białko | 57g |
-| Tłuszcze | 45g |
-| Węglowodany | 24g |
+
+| Składnik         | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
+|------------------|-----------|----------------|------------|--------------|-----------------|
+| Jaja kurze       | 180       | 257            | 22.7       | 17.6         | 1.3             |
+| Wędlina z kurczaka| 30       | 32             | 6.3        | 0.6          | 0.3             |
+| Ser Piórko       | 30        | 104            | 7.8        | 7.8          | 0.9             |
+| Oliwa extra virgin| 5        | 45             | 0          | 5            | 0               |
+| Brokuł           | 100       | 28             | 3.0        | 0.4          | 5.1             |
+| Papryka czerwona | 50        | 10             | 0.5        | 0.2          | 2.3             |
+| Cebula           | 40        | 16             | 0.4        | 0.1          | 3.7             |
+| Szczypiorek      | 10        | 3              | 0.3        | 0.1          | 0.3             |
+| **RAZEM:**       | **445**   | **495**        | **41.0**   | **31.8**     | **13.9**        |

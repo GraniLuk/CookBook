@@ -81,10 +81,17 @@ carbohydrate: 11
 - Podawaj gorącą, najlepiej z lekką surówką lub sałatką.
 
 ## Podsumowanie wartości odżywczych (całe danie)
-| Składnik | Wartość |
-|----------|---------|
-| Kalorie | 2520 kcal |
-| Białko | 168g |
-| Tłuszcze | 132g |
-| Węglowodany | 168g |
+
+| Składnik            | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
+|---------------------|-----------|----------------|------------|--------------|-----------------|
+| Ziemniaki           | 1000      | 770            | 20         | 1            | 170             |
+| Mięso mielone       | 700       | 1890           | 161        | 140          | 0               |
+| Cukinia             | 400       | 68             | 5.2        | 1.2          | 12.8            |
+| Cebula              | 200       | 80             | 2.2        | 0.2          | 18.6            |
+| Czosnek             | 12        | 18             | 0.8        | 0.1          | 4.0             |
+| Przecier pomidorowy | 300       | 81             | 4.2        | 0.6          | 18.0            |
+| Śmietanka 30%       | 350       | 735            | 7.0        | 77           | 10.5            |
+| Ser żółty           | 200       | 720            | 50         | 56           | 2               |
+| Olej roślinny       | 30        | 270            | 0          | 30           | 0               |
+| **RAZEM:**          | **3192**  | **4632**       | **250.4**  | **306.1**    | **235.9**       |
   

@@ -60,9 +60,16 @@ To kolorowa, szybka propozja meal prep, która świetnie sprawdza się jako zdro
 Smacznego!
 
 ## Podsumowanie wartości odżywczych (całe danie)
-| Składnik | Wartość |
-|----------|---------|
-| Kalorie | 1260 kcal |
-| Białko | 96g |
-| Tłuszcze | 24g |
-| Węglowodany | 165g |
+
+| Składnik              | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
+|-----------------------|-----------|----------------|------------|--------------|-----------------|
+| Brązowy ryż (gotowany)| 600       | 666            | 15         | 6            | 138             |
+| Pierś z kurczaka      | 400       | 660            | 124        | 14.4         | 0               |
+| Jarmuż                | 200       | 70             | 8.6        | 1.4          | 10.8            |
+| Kukurydza             | 140       | 123            | 4.6        | 1.3          | 25.2            |
+| Czerwona fasola       | 400       | 326            | 22         | 1.2          | 59              |
+| Pomidorki cherry      | 300       | 54             | 2.7        | 0.6          | 11.7            |
+| Majonez light         | 30        | 105            | 0.6        | 10.5         | 2.1             |
+| Jogurt naturalny 0%   | 30        | 15             | 3          | 0            | 1.5             |
+| Sok z cytryny         | 15        | 4              | 0.1        | 0            | 1.3             |
+| **RAZEM:**            | **2115**  | **2023**       | **180**    | **35.4**     | **249.6**       |

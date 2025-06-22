@@ -42,9 +42,13 @@ link: https://youtu.be/SQ4saBQrBYc?t=224
 5. **Pakowanie:** Bataty, kurczak i sałatkę rozdziel do trzech pojemników. Dressing dodaj przed podaniem.
 
 ## Podsumowanie wartości odżywczych (całe danie)
-| Składnik | Wartość |
-|----------|---------|
-| Kalorie | 1455 kcal |
-| Białko | 126g |
-| Tłuszcze | 54g |
-| Węglowodany | 105g |
+
+| Składnik         | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
+|------------------|-----------|----------------|------------|--------------|-----------------|
+| Bataty           | 600       | 516            | 12         | 0.6          | 123             |
+| Mięso z uda kurczaka| 600    | 1206           | 166        | 56           | 0               |
+| Panierka panko   | 100       | 395            | 12.9       | 6.4          | 72.6            |
+| Parmezan         | 100       | 431            | 38         | 29           | 4               |
+| Oliwa z oliwek   | 30        | 270            | 0          | 30           | 0               |
+| Miks sałat       | 150       | 23             | 2.3        | 0.3          | 4.5             |
+| **RAZEM:**       | **1580**  | **2841**       | **231.2**  | **122.3**    | **204.1**       |

@@ -79,12 +79,19 @@ Oto przepis na pieczonego łososia w piekarniku z ziemniakami pieczonymi oraz kr
 Podawaj łososia z pieczonymi ziemniakami, polanymi kremowym sosem z szparagów, mascarpone i suszonych pomidorów. Całość możesz posypać świeżymi ziołami, takimi jak koperek lub natka pietruszki.
 
 ## Podsumowanie wartości odżywczych (całe danie)
-| Składnik | Wartość |
-|----------|---------|
-| Kalorie | 1920 kcal |
-| Białko | 140g |
-| Tłuszcze | 100g |
-| Węglowodany | 100g |
+
+| Składnik            | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
+|---------------------|-----------|----------------|------------|--------------|-----------------|
+| Łosoś (filet)       | 800       | 1640           | 139.2      | 116.8        | 0               |
+| Ziemniaki           | 1250      | 963            | 25         | 1.3          | 213             |
+| Oliwa z oliwek      | 30        | 270            | 0          | 30           | 0               |
+| Masło               | 20        | 149            | 0.2        | 16.6         | 0.1             |
+| Cytryna             | 45        | 13             | 0.4        | 0.1          | 4.0             |
+| Szparagi            | 250       | 50             | 5.5        | 0.24         | 9.75            |
+| Mascarpone          | 250       | 1125           | 20         | 112.5        | 7.5             |
+| Suszone pomidory    | 100       | 257            | 14.1       | 2.97         | 56.0            |
+| Czosnek             | 6         | 9              | 0.38       | 0.03         | 2.0             |
+| **RAZEM:**          | **2751**  | **4476**       | **204.8**  | **280.5**    | **292.4**       |
 
 ---
 

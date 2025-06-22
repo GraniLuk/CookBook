@@ -51,9 +51,16 @@ link: https://youtu.be/SQ4saBQrBYc?t=115
 6. Pudding najlepiej smakuje schłodzony.
 
 ## Podsumowanie wartości odżywczych (całe danie)
-| Składnik | Wartość |
-|----------|---------|
-| Kalorie | 960 kcal |
-| Białko | 54g |
-| Tłuszcze | 30g |
-| Węglowodany | 105g |
+
+| Składnik                | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
+|-------------------------|-----------|----------------|------------|--------------|-----------------|
+| Truskawki               | 300       | 96             | 2.0        | 0.9          | 23.1            |
+| Banany                  | 240       | 214            | 2.6        | 0.7          | 55.2            |
+| Twaróg chudy            | 300       | 270            | 54         | 3            | 12              |
+| Płatki owsiane          | 150       | 555            | 16.5       | 9            | 98.5            |
+| Napój owsiany (pudding) | 100       | 45             | 1          | 1.5          | 6.5             |
+| Czekolada gorzka        | 50        | 270            | 6          | 18           | 15              |
+| Masło orzechowe         | 30        | 176            | 7.5        | 15           | 6               |
+| Napój owsiany (polewa)  | 30        | 14             | 0.3        | 0.5          | 2               |
+| Truskawki (dekoracja)   | 50        | 16             | 0.3        | 0.2          | 3.8             |
+| **RAZEM:**              | **1250**  | **1656**       | **90.2**   | **48.8**     | **222.1**       |
