@@ -360,7 +360,9 @@ body {
         display: flex !important;
     }
     
-    /* Ensure navbar-burger is hidden on desktop */
+    /* Ensure navbar-burger is hidden on desktop - enhanced specificity */
+    .sticky-navbar .navbar-burger,
+    .navbar .navbar-burger,
     .navbar-burger {
         display: none !important;
     }
@@ -592,7 +594,11 @@ html {
         display: flex !important;
     }
     
-    .navbar-burger {
+    /* Hide navbar-burger on desktop - maximum specificity */
+    .sticky-navbar .navbar-burger,
+    .navbar .navbar-burger, 
+    .navbar-burger,
+    #navBarButton {
         display: none !important;
     }
     
