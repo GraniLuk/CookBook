@@ -2,7 +2,7 @@
 draft: false
 title: "Jajka Zapiekane Z Szynką I Warzywami"
 author: "Granica"
-recipe_image: images/recipe-headers/jajka_zapiekane_z_szynka_warzywami.webp
+recipe_image: images/recipe-headers/jajka_zapiekane_z_szynka_warzywami.jpg
 date: 2025-06-20T12:00:00-00:00
 categories: ["sniadania"]
 subcategories: ["słone"]
