@@ -1,6 +1,5 @@
 baseURL = "https://graniluk.github.io/CookBook/"
 defaultContentLanguage = "pl"
-theme = "cookbook"
 
 [permalinks]
   categories = "/categories/:slug/"
