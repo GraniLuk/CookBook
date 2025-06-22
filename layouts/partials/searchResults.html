@@ -7,15 +7,21 @@
 <script id="search-result-template" type="text/x-js-template">
     <div class="column is-one-quarter">
         <div class="result" id="summary-${key}">
-            <a href="${link}" style="color: inherit; text-decoration: none; display: block; height: 100%;">
-                <div class="card" style="border-radius: 1%; cursor: pointer; transition: transform 0.2s ease, box-shadow 0.2s ease;" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.1)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+            <a href="${link}" style="color: inherit; text-decoration: none; display: block; height: 100%;">                <div class="card" style="border-radius: 1%; height: 100%; display: flex; flex-direction: column; cursor: pointer; transition: transform 0.2s ease, box-shadow 0.2s ease;" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.1)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
                     <div class="card-image">
                         <figure class="image is-4by3">
                         <img style="border-radius: 3%;" src="${image}" alt="Zdjęcie przepisu">
                         </figure>
-                    </div>                    <div class="card-content">
-                        <div class="media-content">
-                            <p class="title is-4 has-text-centered">${title}</p>                            <div style="display: flex; align-items: center; justify-content: center; margin-top: 0.5em;">
+                    </div>
+                    <div class="card-content" style="flex-grow: 1; display: flex; flex-direction: column;">
+                        <div class="media-content" style="height: 4em; display: flex; align-items: center;">
+                            <p class="title is-4 has-text-centered" style="width: 100%; margin: 0; display: -webkit-box; -webkit-line-clamp: 2; line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">${title}</p>
+                        </div>
+                        <div class="content" style="flex-grow: 1; display: flex; flex-direction: column;">
+                            <div style="height: 4.5em; margin-bottom: 0.5em;">
+                                <p class="is-small" style="display: -webkit-box; -webkit-line-clamp: 3; line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; margin-bottom: 0;">${snippet}</p>
+                            </div>
+                            <div style="height: 3em; display: flex; justify-content: center; align-items: center;">
                                 <div style="display: flex; flex-wrap: wrap; gap: 1em; font-size: 0.8em; align-items: center; justify-content: center;">
                                     <span style="display: flex; align-items: center; gap: 0.3em;">
                                         <i class="fas fa-fire" style="color: #ff6b35;"></i><strong>${calories}</strong> kcal
@@ -31,9 +37,6 @@
                                     </span>
                                 </div>
                             </div>
-                        </div>
-                        <div class="content">
-                            <p class="is-small">${snippet}</p>
                         </div>
                     </div>
                 </div>

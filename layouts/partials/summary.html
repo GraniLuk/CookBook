@@ -9,12 +9,11 @@
             <div class="media-content" style="height: 4em; display: flex; align-items: center;">
                 <p class="title is-4 has-text-centered" style="width: 100%; margin: 0; display: -webkit-box; -webkit-line-clamp: 2; line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">{{ $.Title }}</p>
             </div>
-        <div class="content" style="flex-grow: 1; display: flex; flex-direction: column;">
-            
+        <div class="content" style="flex-grow: 1; display: flex; flex-direction: column;">            
             <div style="height: 4.5em; margin-bottom: 0.5em;">
                 <p class="is-small" style="display: -webkit-box; -webkit-line-clamp: 3; line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; margin-bottom: 0;">{{ $.Params.Tagline }}</p>
             </div>            
-            <div style="height: 2em; margin-bottom: 0.5em; display: flex; justify-content: center; align-items: center;">
+            <div style="height: 3em; display: flex; justify-content: center; align-items: center;">
                 <div style="display: flex; flex-wrap: wrap; gap: 1em; font-size: 0.8em; align-items: center; justify-content: center;">
                     <span style="display: flex; align-items: center; gap: 0.3em;">
                         <i class="fas fa-fire" style="color: #ff6b35;"></i><strong>{{ $.Params.calories }}</strong> kcal
@@ -27,12 +26,8 @@
                     </span>
                     <span style="display: flex; align-items: center; gap: 0.3em;">
                         <i class="fas fa-wheat-awn" style="color: #f9ca24;"></i><strong>{{ $.Params.carbohydrate }}g</strong>
-                    </span>
-                
+                    </span>                
                 </div>
-            </div>
-            <div style="height: 1.5em; display: flex; align-items: center;">
-                <i class="fas fa-calendar pr-4"></i>{{ .Date.Format "January 2006" }}
             </div>
         </div>
         </div>
