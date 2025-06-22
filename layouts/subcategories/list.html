@@ -16,7 +16,8 @@
         <div class="columns is-multiline">
             {{ range .Pages.ByPublishDate.Reverse }}
             <div class="column is-one-third">
-                <div class="card">                    {{ if .Params.recipe_image }}
+                <div class="card">                    
+                    {{ if .Params.recipe_image }}
                     <div class="card-image">
                         <figure class="image is-4by3">
                             <img src="{{ .Site.BaseURL }}{{ .Params.recipe_image }}" alt="{{ .Title }}">
@@ -29,9 +30,6 @@
                                 <p class="title is-5">
                                     <a href="{{ .Permalink }}">{{ .Title }}</a>
                                 </p>
-                                {{ if .Params.tagline }}
-                                <p class="subtitle is-6">{{ .Params.tagline }}</p>
-                                {{ end }}
                             </div>
                         </div>
                         
