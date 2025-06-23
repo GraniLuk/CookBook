@@ -4,6 +4,7 @@ title: "Kotleciki a la pożarskie"
 author: "Autor Przepisu"
 recipe_image: images/recipe-headers/kotlety_pozarskie.jpg
 date: 2025-06-18T12:00:00-00:00
+categories: ["obiady"]
 tags: ["stefan"]
 tagline: "Pyszne kotleciki z kurczaka i warzyw!"
 servings: 6

@@ -4,6 +4,7 @@ title: "Pierś z Kurczaka Gotowana na Parze z Brązowym Ryżem i Warzywami (Meks
 author: "Autor Przepisu"
 recipe_image: images/recipe-headers/kurczak_na_parze.png
 date: 2025-06-18T12:00:00-00:00
+categories: ["obiady"]
 tags: ["meksykańskie"]
 tagline: "Zdrowy kurczak na parze z warzywami w meksykańskim stylu!"
 servings: 3

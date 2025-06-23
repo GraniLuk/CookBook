@@ -4,6 +4,7 @@ title: "Gołąbki Leniwe"
 author: "Autor Przepisu"
 recipe_image: images/recipe-headers/golabkiLeniwe.webp
 date: 2025-06-18T12:00:00-00:00
+categories: ["obiady"]
 tags: ["instant-pot", "stefan"]
 tagline: "Pyszne gołąbki bez zawijania!"
 servings: 9
