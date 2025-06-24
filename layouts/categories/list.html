@@ -19,47 +19,10 @@
             </div>
         </div>
         {{ end }}
-        
-        <div class="columns is-multiline">
+          <div class="columns is-multiline">
             {{ range .Pages.ByPublishDate.Reverse }}
-            <div class="column is-one-third">
-                <div class="card">                    {{ if .Params.recipe_image }}
-                    <div class="card-image">
-                        <figure class="image is-4by3">
-                            <img src="{{ .Site.BaseURL }}{{ .Params.recipe_image }}" alt="{{ .Title }}">
-                        </figure>
-                    </div>
-                    {{ end }}
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-content">
-                                <p class="title is-5">
-                                    <a href="{{ .Permalink }}">{{ .Title }}</a>
-                                </p>
-                            </div>
-                        </div>
-                        
-                        <div class="content">
-                            {{ if .Params.servings }}
-                            <span class="tag is-light">
-                                <i class="fas fa-users pr-1"></i>{{ .Params.servings }} porcji
-                            </span>
-                            {{ end }}
-                            
-                            {{ if .Params.prep_time }}
-                            <span class="tag is-light">
-                                <i class="fas fa-clock pr-1"></i>{{ .Params.prep_time }} min
-                            </span>
-                            {{ end }}
-                            
-                            {{ if .Params.calories }}
-                            <span class="tag is-light">
-                                <i class="fas fa-fire pr-1"></i>{{ .Params.calories }} kcal
-                            </span>
-                            {{ end }}
-                        </div>
-                    </div>
-                </div>
+            <div class="column is-one-quarter">
+                {{ partial "summary.html" . }}
             </div>
             {{ end }}
         </div>
