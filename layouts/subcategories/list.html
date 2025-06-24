@@ -1,14 +1,6 @@
 {{ define "main" }}
 <div class="section">
     <div class="container">
-        <nav class="breadcrumb" aria-label="breadcrumbs">
-            <ul>
-                <li><a href="/">Strona Główna</a></li>
-                <li><a href="/categories/">Kategorie</a></li>
-                <li><a href="/categories/sniadania/">Śniadania</a></li>
-                <li class="is-active"><a href="#" aria-current="page">{{ .Title }}</a></li>
-            </ul>
-        </nav>
 
         <h1 class="title">{{ .Title }}</h1>
         <p class="subtitle">{{ len .Pages }} {{ if eq (len .Pages) 1 }}przepis{{ else }}przepisów{{ end }} w podkategorii "{{ .Title }}" ze śniadań</p>
