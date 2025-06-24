@@ -173,24 +173,27 @@ body, button, input, optgroup, select, textarea {
 
 /* ===== CONSISTENT CARD WIDTHS FIX ===== */
 
-/* Force consistent widths for four-column layout */
-.section .columns.is-multiline .column.is-one-quarter {
-    flex: 0 0 25% !important;
-    max-width: 25% !important;
-    min-width: 25% !important;
-    width: 25% !important;
-}
+/* Force consistent widths for four-column layout - DESKTOP AND LARGER ONLY */
+@media screen and (min-width: 1024px) {
+    /* Force consistent widths for four-column layout */
+    .section .columns.is-multiline .column.is-one-quarter {
+        flex: 0 0 25% !important;
+        max-width: 25% !important;
+        min-width: 25% !important;
+        width: 25% !important;
+    }
 
-/* Ensure cards fill their containers properly */
-.section .columns.is-multiline .column.is-one-quarter .card {
-    width: 100% !important;
-    max-width: none !important;
-    min-width: 0 !important;
-    flex: 1 !important;
-}
+    /* Ensure cards fill their containers properly */
+    .section .columns.is-multiline .column.is-one-quarter .card {
+        width: 100% !important;
+        max-width: none !important;
+        min-width: 0 !important;
+        flex: 1 !important;
+    }
 
-/* Force equal heights while maintaining consistent widths */
-.section .columns.is-multiline .column.is-one-quarter {
-    display: flex !important;
-    flex-direction: column !important;
+    /* Force equal heights while maintaining consistent widths */
+    .section .columns.is-multiline .column.is-one-quarter {
+        display: flex !important;
+        flex-direction: column !important;
+    }
 }
