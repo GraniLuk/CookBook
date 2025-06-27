@@ -1,6 +1,7 @@
 {{- $path := . -}}
+{{- $version := site.Lastmod.Unix | default now.Unix -}}
 {{- if eq hugo.Environment "development" -}}
-/CookBook{{ $path }}
+/CookBook{{ $path }}?v={{ $version }}
 {{- else -}}
-https://graniluk.github.io/CookBook{{ $path }}
+https://graniluk.github.io/CookBook{{ $path }}?v={{ $version }}
 {{- end -}}

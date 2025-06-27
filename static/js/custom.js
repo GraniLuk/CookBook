@@ -43,7 +43,8 @@ u('#searchButton').handle('click', function(e) { //use handle to automatically p
 function executeSearch(searchQuery){
     // Get the correct base URL for index.json
     const baseUrl = window.location.pathname.includes('/CookBook/') ? '/CookBook' : '';
-    fetch(`${baseUrl}/index.json`).then(r => r.json())
+    const timestamp = new Date().getTime();
+    fetch(`${baseUrl}/index.json?v=${timestamp}`).then(r => r.json())
     .then(function(data) {    
         var pages = data;
         var fuse = new Fuse(pages, fuseOptions);

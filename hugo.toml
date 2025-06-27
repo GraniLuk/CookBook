@@ -108,3 +108,8 @@ fileName = "/images/icon.png" #your favicon here if you wish to change it.
 # disable relative URLs to ensure images reference the repository path correctly
 # relativeURLs = true
 canonifyURLs = true
+
+# Cache control settings
+enableGitInfo = true
+
+[params]
