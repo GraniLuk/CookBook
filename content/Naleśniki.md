@@ -2,7 +2,7 @@
 draft: false
 title: "Naleśniki"
 author: "Autor Przepisu"
-recipe_image: images/recipe-headers/nalesniki.webp
+recipe_image: images/recipe-headers/nalesniki.jpg
 date: 2025-06-19T12:00:00-00:00
 categories: ["sniadania"]
 subcategories: ["słodkie"]
