@@ -5,7 +5,7 @@ author: "Policzone Szamy"
 recipe_image: images/recipe-headers/kurczak_w_sosie_serowym.jpg
 date: 2025-06-27T12:17:00-00:00  
 categories: ["obiady"]  
-tags: ["kurczak", "sos serowy", "fit", "warzywa", "ryż"]  
+tags: []  
 tagline: "Soczysty kurczak z ryżem i warzywami w kremowym, lekkim sosie serowym."  
 servings: 3  
 prep_time: 20  

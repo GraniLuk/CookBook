@@ -1,11 +1,11 @@
 ---
 draft: false
 title: "Fit Sos Serowy Cheddar"
-author: "Policzone Szamy"
-recipe_image: images/recipe-headers/fit_sos_serowy.jpg
+author: "Policzone Szama"
+recipe_image: images/recipe-headers/sos_serowy.jpg
 date: 2025-06-27T12:15:00-00:00
 categories: ["sosy"]
-tags: ["sos serowy", "fit", "cheddar"]
+tags: ["impreza"]
 tagline: "Kremowy i lekki sos serowy, idealny do wielu dań."
 servings: 3
 prep_time: 5
@@ -35,10 +35,10 @@ link: https://www.youtube.com/watch?v=AIlwvEvCONM
 6.  Gdy sos uzyska jednolitą, gęstą konsystencję, zdejmij go z ognia.
 
 ## Do czego pasuje ten sos?
-Ten uniwersalny sos serowy jest doskonałym dodatkiem do wielu potraw i przekąsek. Możesz go wykorzystać jako[2]:
-*   **Dip** do nachos, krakersów, paluszków grissini lub surowych warzyw pokrojonych w słupki[6].
-*   **Sos do dań głównych**, takich jak makarony, pieczone ziemniaki, frytki czy zapiekanki warzywne[2][6].
-*   **Polewa** do mięs, na przykład pieczonego kurczaka, pulpetów lub burgerów[2].
+Ten uniwersalny sos serowy jest doskonałym dodatkiem do wielu potraw i przekąsek. Możesz go wykorzystać jako:
+*   **Dip** do nachos, krakersów, paluszków grissini lub surowych warzyw pokrojonych w słupki.
+*   **Sos do dań głównych**, takich jak makarony, pieczone ziemniaki, frytki czy zapiekanki warzywne.
+*   **Polewa** do mięs, na przykład pieczonego kurczaka, pulpetów lub burgerów.
 
 ## Podsumowanie wartości odżywczych (cały sos)
 
