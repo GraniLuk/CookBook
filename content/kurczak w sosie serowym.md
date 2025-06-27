@@ -39,6 +39,10 @@ link: https://www.youtube.com/watch?v=AIlwvEvCONM
 4.  **Sos serowy:** W małym rondelku rozpuść masło, dodaj mąkę i energicznie mieszaj przez kilkanaście sekund. Stopniowo wlewaj mleko, cały czas mieszając, aż sos zgęstnieje. Dodaj starty ser, mieszaj do jego rozpuszczenia. Na koniec dopraw chili, solą i pieprzem.  
 5.  **Podanie:** Gotowe porcje kurczaka, ryżu i warzyw przełóż do pojemników lub na talerze. Całość polej gorącym sosem serowym.  
 
+## Komentarz
+
+Po 30min ryż wyszedł zbyt twardy, następnym razem spróbuj dać więcej wody albo przykryć naczynie.
+
 ## Podsumowanie wartości odżywczych (całe danie)
 
 | Składnik           | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
