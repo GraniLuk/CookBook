@@ -20,8 +20,11 @@ body, button, input, optgroup, select, textarea {
     align-items: stretch;
 }
 
-.section .columns.is-multiline .column {
-    display: flex;
+/* Apply flex display only on tablet and larger to allow mobile stacking */
+@media screen and (min-width: 769px) {
+    .section .columns.is-multiline .column {
+        display: flex;
+    }
 }
 
 /* Override flex for mobile columns (stats tables) */
