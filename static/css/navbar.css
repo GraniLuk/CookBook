@@ -232,8 +232,29 @@ body {
         line-height: 1.5 !important;
     }
     
+    /* Ensure navbar-link elements (dropdown parents) are also left-aligned on mobile */
+    #navBarMenu.is-active .navbar-item .navbar-link {
+        color: #4a4a4a !important;
+        background-color: transparent !important;
+        padding: 0.5rem 1rem !important;
+        margin: 0 !important;
+        display: block !important;
+        line-height: 1.5 !important;
+        text-align: left !important;
+        justify-content: flex-start !important;
+        border: none !important;
+        text-decoration: none !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+    }
+    
     #navBarMenu.is-active .navbar-item:hover {
         background-color: #f5f5f5 !important;
+        color: #363636 !important;
+    }
+    
+    #navBarMenu.is-active .navbar-item:hover .navbar-link {
+        background-color: transparent !important;
         color: #363636 !important;
     }
       /* Mobile dropdown behavior */
@@ -257,6 +278,115 @@ body {
         border-left: 2px solid #00d1b2 !important;
         visibility: hidden !important;
         opacity: 0 !important;
+    }
+    
+    /* Ensure consistent alignment for all mobile navbar items */
+    #navBarMenu.is-active .navbar-item,
+    #navBarMenu.is-active .navbar-item > a,
+    #navBarMenu.is-active .navbar-item > .navbar-link,
+    #navBarMenu.is-active .navbar-item.has-dropdown,
+    #navBarMenu.is-active .navbar-item.has-dropdown > .navbar-link {
+        position: relative !important;
+        left: 0 !important;
+        right: auto !important;
+        margin: 0 !important;
+        padding: 0.5rem 1rem !important;
+        text-align: left !important;
+        display: block !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+        border: none !important;
+        background: transparent !important;
+        color: #4a4a4a !important;
+        font-weight: normal !important;
+        line-height: 1.5 !important;
+    }
+    
+    /* Ensure hover states are consistent */
+    #navBarMenu.is-active .navbar-item:hover,
+    #navBarMenu.is-active .navbar-item > a:hover,
+    #navBarMenu.is-active .navbar-item > .navbar-link:hover,
+    #navBarMenu.is-active .navbar-item.has-dropdown:hover,
+    #navBarMenu.is-active .navbar-item.has-dropdown > .navbar-link:hover {
+        background-color: #f5f5f5 !important;
+        color: #363636 !important;
+    }
+    
+    /* Override any Bulma center or right alignment on mobile */
+    #navBarMenu.is-active .navbar-item.has-dropdown,
+    #navBarMenu.is-active .navbar-item.has-dropdown .navbar-link {
+        display: flex !important;
+        justify-content: flex-start !important;
+        align-items: center !important;
+        text-align: left !important;
+    }
+    
+    /* Force remove any default Bulma dropdown arrow positioning that might cause indentation */
+    #navBarMenu.is-active .navbar-item.has-dropdown {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    
+    /* Ensure dropdown parent container has no extra spacing */
+    #navBarMenu.is-active .navbar-item.has-dropdown > .navbar-link {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+    
+    /* Remove any potential right-side elements like arrows from mobile view */
+    #navBarMenu.is-active .navbar-link::after {
+        display: none !important;
+    }
+    
+    /* Remove Bulma's default dropdown arrow entirely on mobile */
+    #navBarMenu.is-active .navbar-item.has-dropdown .navbar-link::after,
+    #navBarMenu.is-active .navbar-link::before,
+    #navBarMenu.is-active .navbar-link::after {
+        content: none !important;
+        display: none !important;
+        border: none !important;
+        width: 0 !important;
+        height: 0 !important;
+    }
+    
+    /* Ensure dropdown parent items have same visual appearance as regular items */
+    #navBarMenu.is-active .navbar-item.has-dropdown > .navbar-link {
+        padding: 0.5rem 1rem !important;
+        font-weight: normal !important;
+    }
+    
+    /* Style nested dropdown links consistently on mobile */
+    #navBarMenu.is-active .navbar-link-nested {
+        color: #4a4a4a !important;
+        background-color: transparent !important;
+        padding: 0.5rem 1rem !important;
+        display: block !important;
+        line-height: 1.5 !important;
+        text-align: left !important;
+        justify-content: flex-start !important;
+        border: none !important;
+        border-left: none !important;
+        text-decoration: none !important;
+        font-weight: normal !important;
+    }
+    
+    #navBarMenu.is-active .navbar-link-nested:hover {
+        background-color: #f5f5f5 !important;
+        color: #363636 !important;
+    }
+    
+    /* Override nested-menu.css mobile styles for better alignment */
+    #navBarMenu.is-active .nested-dropdown .navbar-link-nested {
+        background-color: transparent !important;
+        border-left: none !important;
+        padding: 0.5rem 1rem !important;
+    }
+    
+    #navBarMenu.is-active .nested-dropdown.is-active .navbar-link-nested {
+        background-color: transparent !important;
+        border-left: none !important;
     }
     
     /* Show only when parent is active on mobile */
