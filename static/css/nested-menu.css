@@ -210,6 +210,7 @@
         overflow: visible !important;
         max-height: none !important;
         height: auto !important;
+        background-color: white !important;
     }
 }
 
