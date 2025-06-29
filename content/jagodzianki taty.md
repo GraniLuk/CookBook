@@ -1,0 +1,70 @@
+---
+draft: false  
+title: "Jagodzianki Taty"  
+author: "Policzone Szamy"  
+recipe_image: images/recipe-headers/jagodzianki.jpg  
+date: 2025-06-29T19:37:00-00:00  
+categories: ["wypieki", "desery"]  
+tags: ["drożdżowe", "jagodzianki", "bułki", "jagody"]  
+tagline: "Miękkie, domowe jagodzianki na puszystym cieście drożdżowym."  
+servings: 12  
+prep_time: 30  
+cook: true  
+cook_time: 25  
+calories: 255  
+protein: 6  
+fat: 7  
+carbohydrate: 41  
+link:   
+---
+
+## Składniki
+* 0,5 kg mąki pszennej  
+* 0,4 kostki drożdży (ok. 40 g)  
+* 2 żółtka  
+* duża szklanka mleka (ok. 300 ml)  
+* 80 g masła  
+* 1/4 szklanki cukru (ok. 50 g)  
+* 1 żółtko do posmarowania  
+* jagody i cukier do nadzienia (ilość wg uznania)
+
+## Sposób przygotowania
+
+1. **Zaczyn drożdżowy:**  
+   Do miseczki wsyp 1 łyżeczkę cukru i 1 łyżkę mąki, dodaj pokruszone drożdże oraz trochę ciepłego mleka (najlepiej śmietankowego, jeśli masz). Wymieszaj i odstaw na kilka minut, aż zaczyn zacznie pracować.
+
+2. **Ciasto:**  
+   Do dużej miski przesiej mąkę. Dodaj cukier, żółtka oraz wyrośnięty zaczyn. Wlej większość mleka, zostawiając trochę do regulacji konsystencji. Wyrabiaj ciasto, stopniowo dolewając resztę mleka, aż uzyskasz miękkie, elastyczne ciasto. Na koniec dodaj roztopione, przestudzone masło i wyrabiaj, aż ciasto będzie gładkie i będzie odchodzić od ręki. Odstaw do wyrośnięcia na ok. 1–1,5 godziny.
+
+3. **Formowanie i nadziewanie:**  
+   Wyrośnięte ciasto podziel na 12 części. Każdą część lekko spłaszcz, nałóż porcję jagód wymieszanych z cukrem, zlep brzegi i uformuj bułeczki.
+
+4. **Pieczenie:**  
+   Ułóż bułeczki na blasze wyłożonej papierem do pieczenia. Posmaruj wierzch żółtkiem. Odstaw na 15–20 minut do ponownego wyrośnięcia. Piecz w piekarniku nagrzanym do 180°C przez ok. 20–25 minut, aż będą złociste.
+
+5. **Podanie:**  
+   Po wystudzeniu można oprószyć cukrem pudrem.
+
+## Podsumowanie wartości odżywczych (całe danie)
+
+| Składnik         | Ilość   | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
+|------------------|---------|----------------|------------|--------------|-----------------|
+| Mąka pszenna     | 500 g   | 1820           | 50         | 5            | 380             |  
+| Drożdże          | 40 g    | 37             | 4.4        | 0.8          | 2.8             |  
+| Żółtka           | 2 szt. (36 g) | 114      | 5.6        | 10.2         | 0.2             |  
+| Mleko 2%         | 300 ml  | 156            | 10.2       | 6            | 14.1            |  
+| Masło            | 80 g    | 595            | 0.8        | 65.6         | 0.8             |  
+| Cukier           | 50 g    | 194            | 0          | 0            | 50              |  
+| Żółtko do smar.  | 1 szt. (18 g) | 57       | 2.8        | 5.1          | 0.1             |  
+| **RAZEM:**       |         | **2973**       | **73.8**   | **92.7**     | **447.8**       |  
+| **1 PORCJA:**    |         | **~255**       | **~6**     | **~7**       | **~41**         |  
+
+*Wartości orientacyjne, bez nadzienia jagodowego i cukru pudru – należy doliczyć w zależności od ilości użytych jagód i cukru do środka.*
+
+**Źródła wartości odżywczych:**
+- Mąka pszenna: 364 kcal/100g, 10g białka, 1g tłuszczu, 76g węglowodanów[1]
+- Drożdże: 92 kcal/100g, 11g białka, 2g tłuszczu, 7g węglowodanów[2]
+- Żółtko: 317 kcal/100g, 15.5g białka, 28.2g tłuszczu, 0.3g węglowodanów[3]
+- Mleko 2%: 52 kcal/100ml, 3.4g białka, 2g tłuszczu, 4.7g węglowodanów[4]
+- Masło: 744 kcal/100g, 1g białka, 82g tłuszczu, 1g węglowodanów[5]
+- Cukier: 387 kcal/100g, 0g białka, 0g tłuszczu, 99.98g węglowodanów[6]
