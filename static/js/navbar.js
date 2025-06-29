@@ -17,6 +17,14 @@ u('.navbar-item.has-dropdown .navbar-link').on('click', function(e) {
                 u(item).removeClass('is-active');
             }
         });
+        
+        // Ensure the expanded dropdown is visible
+        if (dropdown.hasClass('is-active')) {
+            const dropdownContent = dropdown.find('.navbar-dropdown').first();
+            if (dropdownContent) {
+                ensureDropdownVisible(dropdownContent);
+            }
+        }
     }
 });
 
@@ -34,6 +42,51 @@ u('.nested-dropdown .navbar-link-nested').on('click', function(e) {
                 u(item).removeClass('is-active');
             }
         });
+        
+        // Scroll the expanded dropdown into view with improved logic
+        setTimeout(() => {
+            const navbarMenu = u('#navBarMenu').first();
+            const expandedContent = nestedDropdown.find('.nested-dropdown-content').first();
+            
+            if (navbarMenu && expandedContent && nestedDropdown.hasClass('is-active')) {
+                // Calculate the position of the expanded content
+                const menuRect = navbarMenu.getBoundingClientRect();
+                const contentRect = expandedContent.getBoundingClientRect();
+                const menuScrollTop = navbarMenu.scrollTop;
+                
+                // Check if the expanded content is fully visible
+                const isContentVisible = (
+                    contentRect.top >= menuRect.top &&
+                    contentRect.bottom <= menuRect.bottom
+                );
+                
+                if (!isContentVisible) {
+                    // Calculate optimal scroll position
+                    const elementOffsetTop = expandedContent.offsetTop;
+                    const elementHeight = expandedContent.offsetHeight;
+                    const menuHeight = navbarMenu.offsetHeight;
+                    
+                    let targetScrollTop;
+                    
+                    if (elementHeight > menuHeight * 0.8) {
+                        // If content is taller than 80% of menu, scroll to show the top
+                        targetScrollTop = elementOffsetTop - 10;
+                    } else {
+                        // Center the content in the visible area
+                        targetScrollTop = elementOffsetTop - (menuHeight - elementHeight) / 2;
+                    }
+                    
+                    // Ensure we don't scroll beyond bounds
+                    targetScrollTop = Math.max(0, Math.min(targetScrollTop, navbarMenu.scrollHeight - menuHeight));
+                    
+                    // Smooth scroll to the target position
+                    navbarMenu.scrollTo({
+                        top: targetScrollTop,
+                        behavior: 'smooth'
+                    });
+                }
+            }
+        }, 100); // Small delay to ensure DOM is updated
     }
 });
 
@@ -81,12 +134,36 @@ function openMobileMenu() {
             background-color: white !important;
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1) !important;
             z-index: 9999 !important;
-            max-height: 70vh !important;
+            max-height: 80vh !important;
             overflow-y: auto !important;
+            overflow-x: hidden !important;
             border-radius: 0 0 6px 6px !important;
             opacity: 1 !important;
             visibility: visible !important;
+            scroll-behavior: smooth !important;
+            scrollbar-width: thin !important;
+            scrollbar-color: #00d1b2 #f5f5f5 !important;
         `;
+        
+        // Add custom scrollbar styles for webkit browsers
+        const style = document.createElement('style');
+        style.textContent = `
+            #navBarMenu::-webkit-scrollbar {
+                width: 6px;
+            }
+            #navBarMenu::-webkit-scrollbar-track {
+                background: #f5f5f5;
+                border-radius: 3px;
+            }
+            #navBarMenu::-webkit-scrollbar-thumb {
+                background: #00d1b2;
+                border-radius: 3px;
+            }
+            #navBarMenu::-webkit-scrollbar-thumb:hover {
+                background: #00b09b;
+            }
+        `;
+        document.head.appendChild(style);
     }
 }
 
@@ -257,10 +334,49 @@ u('.navbar-burger, #navBarButton').on('keydown', function(e) {
 
 // ===== UTILITY FUNCTIONS =====
 
-// Smooth scroll to top functionality (optional enhancement)
-function scrollToTop() {
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-    });
+// Function to ensure expanded content is visible in the mobile menu
+function ensureDropdownVisible(dropdownElement) {
+    if (window.innerWidth >= 1024) return; // Only for mobile
+    
+    const navbarMenu = u('#navBarMenu').first();
+    if (!navbarMenu || !dropdownElement) return;
+    
+    setTimeout(() => {
+        const menuRect = navbarMenu.getBoundingClientRect();
+        const dropdownRect = dropdownElement.getBoundingClientRect();
+        
+        // Check if dropdown is fully visible
+        const isVisible = (
+            dropdownRect.top >= menuRect.top &&
+            dropdownRect.bottom <= menuRect.bottom
+        );
+        
+        if (!isVisible) {
+            // Calculate optimal scroll position
+            const elementOffsetTop = dropdownElement.offsetTop;
+            const elementHeight = dropdownElement.offsetHeight;
+            const menuHeight = navbarMenu.offsetHeight;
+            
+            let targetScrollTop;
+            
+            if (elementHeight > menuHeight * 0.8) {
+                // If content is taller than 80% of menu, scroll to show the top
+                targetScrollTop = elementOffsetTop - 20;
+            } else {
+                // Center the content in the visible area
+                targetScrollTop = elementOffsetTop - (menuHeight - elementHeight) / 2;
+            }
+            
+            // Ensure we don't scroll beyond bounds
+            targetScrollTop = Math.max(0, Math.min(targetScrollTop, navbarMenu.scrollHeight - menuHeight));
+            
+            // Smooth scroll to the target position
+            navbarMenu.scrollTo({
+                top: targetScrollTop,
+                behavior: 'smooth'
+            });
+        }
+    }, 150); // Small delay to ensure DOM is updated and animations complete
 }
+
+

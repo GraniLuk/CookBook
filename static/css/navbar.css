@@ -215,12 +215,18 @@ body {
         right: 0 !important;
         z-index: 9999 !important;
         width: 100% !important;
-        max-height: 70vh !important;
+        max-height: 80vh !important;
         overflow-y: auto !important;
+        overflow-x: hidden !important;
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1) !important;
         border-radius: 0 0 6px 6px !important;
         opacity: 1 !important;
         visibility: visible !important;
+        /* Smooth scrolling for better UX */
+        scroll-behavior: smooth !important;
+        /* Better scrollbar styling */
+        scrollbar-width: thin !important;
+        scrollbar-color: #00d1b2 #f5f5f5 !important;
     }
     
     /* Style menu items properly */
@@ -272,12 +278,67 @@ body {
     .navbar-dropdown .nested-dropdown-content {
         display: none !important;
         position: static !important;
-        background-color: #f5f5f5 !important;
+        background-color: #f8f9fa !important;
         margin-left: 1rem !important;
         padding: 0.5rem 0 !important;
-        border-left: 2px solid #00d1b2 !important;
+        border-left: 3px solid #00d1b2 !important;
+        border-radius: 0 6px 6px 0 !important;
         visibility: hidden !important;
         opacity: 0 !important;
+        /* Better mobile nested dropdown styling */
+        box-shadow: inset 2px 0 4px rgba(0, 209, 178, 0.1) !important;
+        transition: all 0.2s ease !important;
+    }
+    
+    /* Show nested dropdown when parent is active on mobile */
+    .navbar.sticky-navbar .navbar-dropdown .nested-dropdown.is-active .nested-dropdown-content,
+    .sticky-navbar .navbar-dropdown .nested-dropdown.is-active .nested-dropdown-content,
+    .navbar-dropdown .nested-dropdown.is-active .nested-dropdown-content {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        background-color: #f8f9fa !important;
+        /* Smooth slide-down animation */
+        transform: translateY(0) !important;
+    }
+    
+    Enhanced styling for nested dropdown items on mobile
+    .navbar-dropdown .nested-dropdown-content .navbar-item {
+        padding: 0.75rem 1.5rem !important;
+        border-bottom: 1px solid #e8e8e8 !important;
+        transition: all 0.15s ease !important;
+        position: relative !important;
+    }
+    
+    .navbar-dropdown .nested-dropdown-content .navbar-item:last-child {
+        border-bottom: none !important;
+    }
+    
+    .navbar-dropdown .nested-dropdown-content .navbar-item:hover {
+        background-color: #e8f5e8 !important;
+        padding-left: 2rem !important;
+        color: #00d1b2 !important;
+    }
+    
+    Add visual indicator for expanded nested dropdown
+    .navbar-dropdown .nested-dropdown.is-active > .navbar-link-nested::after {
+      /*  content: "\f107" !important; *//* Font Awesome down arrow */
+        font-family: "Font Awesome 5 Free" !important;
+        font-weight: 900 !important;
+        position: absolute !important;
+        right: 1rem !important;
+        transform: rotate(0deg) !important;
+        transition: transform 0.2s ease !important;
+    }
+    
+    .navbar-dropdown .nested-dropdown:not(.is-active) > .navbar-link-nested::after {
+      
+        font-family: "Font Awesome 5 Free" !important;
+        font-weight: 900 !important;
+        position: absolute !important;
+        right: 1rem !important;
+        transform: rotate(0deg) !important;
+        transition: transform 0.2s ease !important;
     }
     
     /* Ensure consistent alignment for all mobile navbar items */
@@ -580,3 +641,97 @@ body {
         border-radius: 12px !important;
     }
 }
+
+/* ===== IMPROVED MOBILE SCROLLING AND VISIBILITY ===== */
+
+/* Better mobile navbar menu height for very small screens */
+@media screen and (max-height: 600px) {
+    .sticky-navbar .navbar-menu.is-active,
+    #navBarMenu.navbar-menu.is-active {
+        max-height: 85vh !important;
+    }
+    
+    /* Reduce padding on very small screens to fit more content */
+    #navBarMenu.is-active .navbar-item,
+    #navBarMenu.is-active .navbar-item > .navbar-link {
+        padding: 0.4rem 1rem !important;
+    }
+    
+    .navbar-dropdown .nested-dropdown-content .navbar-item {
+        padding: 0.6rem 1.5rem !important;
+    }
+}
+
+/* Enhanced scrollbar styling for all mobile sizes */
+.navbar-menu.is-active {
+    /* Firefox */
+    scrollbar-width: thin !important;
+    scrollbar-color: #00d1b2 rgba(245, 245, 245, 0.8) !important;
+}
+
+/* Webkit scrollbar improvements */
+.navbar-menu.is-active::-webkit-scrollbar {
+    width: 8px !important;
+    background: transparent !important;
+}
+
+.navbar-menu.is-active::-webkit-scrollbar-track {
+    background: rgba(245, 245, 245, 0.5) !important;
+    border-radius: 4px !important;
+    margin: 4px !important;
+}
+
+.navbar-menu.is-active::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #00d1b2, #00b09b) !important;
+    border-radius: 4px !important;
+    transition: background 0.2s ease !important;
+}
+
+.navbar-menu.is-active::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #00b09b, #009688) !important;
+}
+
+/* Add subtle scroll indicators */
+.navbar-menu.is-active::before {
+    content: "" !important;
+    position: sticky !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    height: 3px !important;
+    background: linear-gradient(90deg, transparent, #00d1b2, transparent) !important;
+    z-index: 1 !important;
+    opacity: 0.6 !important;
+}
+
+.navbar-menu.is-active::after {
+    content: "" !important;
+    position: sticky !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    height: 3px !important;
+    background: linear-gradient(90deg, transparent, #00d1b2, transparent) !important;
+    z-index: 1 !important;
+    opacity: 0.6 !important;
+}
+
+/* Improve nested dropdown visibility indicators */
+.navbar-dropdown .nested-dropdown.is-active > .navbar-link-nested {
+    background-color: rgba(0, 209, 178, 0.1) !important;
+    border-left: 3px solid #00d1b2 !important;
+    padding-left: calc(1rem - 3px) !important;
+}
+
+/* Add smooth transitions for all dropdown actions */
+.navbar-dropdown,
+.nested-dropdown-content,
+.navbar-item {
+    transition: all 0.2s ease !important;
+}
+
+/* Improve visual hierarchy for nested items */
+.navbar-dropdown .nested-dropdown-content .navbar-item {
+    position: relative !important;
+}
+
