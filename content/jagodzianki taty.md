@@ -11,10 +11,10 @@ servings: 12
 prep_time: 30  
 cook: true  
 cook_time: 25  
-calories: 255  
-protein: 6  
-fat: 7  
-carbohydrate: 41  
+calories: 290  
+protein: 7  
+fat: 9  
+carbohydrate: 44  
 link:   
 ---
 
@@ -57,14 +57,6 @@ link:
 | Cukier           | 50 g    | 194            | 0          | 0            | 50              |  
 | Żółtko do smar.  | 1 szt. (18 g) | 57       | 2.8        | 5.1          | 0.1             |  
 | **RAZEM:**       |         | **2973**       | **73.8**   | **92.7**     | **447.8**       |  
-| **1 PORCJA:**    |         | **~255**       | **~6**     | **~7**       | **~41**         |  
+| **100g:**        |         | **~290**       | **~7**     | **~9**       | **~44**         |  
 
-*Wartości orientacyjne, bez nadzienia jagodowego i cukru pudru – należy doliczyć w zależności od ilości użytych jagód i cukru do środka.*
-
-**Źródła wartości odżywczych:**
-- Mąka pszenna: 364 kcal/100g, 10g białka, 1g tłuszczu, 76g węglowodanów[1]
-- Drożdże: 92 kcal/100g, 11g białka, 2g tłuszczu, 7g węglowodanów[2]
-- Żółtko: 317 kcal/100g, 15.5g białka, 28.2g tłuszczu, 0.3g węglowodanów[3]
-- Mleko 2%: 52 kcal/100ml, 3.4g białka, 2g tłuszczu, 4.7g węglowodanów[4]
-- Masło: 744 kcal/100g, 1g białka, 82g tłuszczu, 1g węglowodanów[5]
-- Cukier: 387 kcal/100g, 0g białka, 0g tłuszczu, 99.98g węglowodanów[6]
+*Wartości orientacyjne na 100g gotowej potrawy, bez nadzienia jagodowego i cukru pudru – należy doliczyć w zależności od ilości użytych jagód i cukru do środka.*
