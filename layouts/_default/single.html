@@ -4,7 +4,11 @@
         <div class="column is-full-mobile is-half-desktop" style="border-radius: 1%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)">            
             <div class="is-flex" style="justify-content: center; border-radius: 3%; position: relative;">
                 <figure class="image" style="max-width: 300px; width: 100%; aspect-ratio: 1/1;"> 
-                    <img style="border-radius: 3%; width: 100%; height: 100%; object-fit: cover;" src={{ printf "%s%s" .Site.BaseURL .Params.Recipe_image }} alt="Placeholder image">
+                    {{- $image_url := partial "asset-url.html" "/images/defaultImage.png" -}}
+                    {{- if and .Params.recipe_image (fileExists (printf "static/%s" .Params.recipe_image)) -}}
+                        {{- $image_url = partial "asset-url.html" (printf "/%s" .Params.recipe_image) -}}
+                    {{- end -}}
+                    <img style="border-radius: 3%; width: 100%; height: 100%; object-fit: cover;" src="{{ $image_url }}" alt="Placeholder image">
                 </figure>
                 
                 {{ if .Params.link }}

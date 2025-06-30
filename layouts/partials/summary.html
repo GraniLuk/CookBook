@@ -2,7 +2,11 @@
     <div class="card" style="border-radius: 1%; height: 100%; display: flex; flex-direction: column; cursor: pointer; transition: transform 0.2s ease, box-shadow 0.2s ease;" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.1)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
         <div class="card-image">
             <figure class="image is-4by3">
-            <img style="border-radius: 3%;" src="{{ $.Params.Recipe_image | absURL }}" alt="Zdjęcie przepisu">
+                {{- $image_url := partial "asset-url.html" "/images/defaultImage.png" -}}
+                {{- if and .Params.recipe_image (fileExists (printf "static/%s" .Params.recipe_image)) -}}
+                    {{- $image_url = partial "asset-url.html" (printf "/%s" .Params.recipe_image) -}}
+                {{- end -}}
+                <img style="border-radius: 3%;" src="{{ $image_url }}" alt="Zdjęcie przepisu">
             </figure>
         </div>
           <div class="card-content" style="flex-grow: 1; display: flex; flex-direction: column;">

@@ -2,7 +2,6 @@
 draft: false
 title: "Placki Bananowe"
 author: "Autor Przepisu"
-recipe_image: images/defaultImage.png
 date: 2025-06-19T12:00:00-00:00
 categories: ["sniadania"]
 subcategories: ["słodkie"]
