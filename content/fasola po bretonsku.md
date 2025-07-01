@@ -8,7 +8,7 @@ categories: ["sniadania"]
 subcategories: ["słone"]
 tags: ["instant pot", "jednogarnkowe"]  
 tagline: "Szybka i aromatyczna fasolka po bretońsku z boczkiem i kiełbasą, gotowana w Instant Pot bez wcześniejszego namaczania fasoli."  
-servings: 12  
+servings: 4  
 prep_time: 20  
 cook: true  
 cook_time: 80  
@@ -40,8 +40,8 @@ link: https://www.youtube.com/watch?v=RwzTn7o7OkY
 ## Sposób przygotowania
 1.  **Przygotowanie składników:** Boczek, kiełbasę i cebulę pokrój w kostkę. Suchą fasolę dokładnie wypłucz pod bieżącą wodą.
 2.  **Podsmażanie mięsa i cebuli:** Włącz Instant Pot, wybierając tryb **Sauté**. Do rozgrzanego garnka wrzuć pokrojony boczek i smaż przez 4-5 minut, aż wytopi się z niego tłuszcz. Dodaj kiełbasę i smaż kolejne 4 minuty. Na koniec dorzuć cebulę, przeciśnięty czosnek oraz przyprawy: obie papryki, kminek, sól i pieprz. Mieszaj i smaż wszystko razem przez 3-4 minuty.
-3.  **Dodawanie pozostałych składników:** Do garnka dodaj pomidory z puszki wraz z zalewą i drewnianą łyżką zeskrob ewentualne przypalenia z dna. Wsyp opłukaną fasolę i zalej wszystko wodą (do poziomu ok. 0,5 cm poniżej linii MAX). Dodaj majeranek, ziele angielskie oraz liście laurowe. Całość dokładnie wymieszaj.
-4.  **Gotowanie ciśnieniowe:** Zamknij pokrywę urządzenia i upewnij się, że zawór ciśnienia jest w pozycji **Sealing**. Wyłącz tryb Sauté i ustaw program **Manual/Pressure Cook** na **45 minut**.
+3.  **Dodawanie pozostałych składników:** Do garnka dodaj pomidory z puszki wraz z zalewą i drewnianą łyżką zeskrob ewentualne przypalenia z dna. Wsyp opłukaną fasolę i zalej wszystko wodą tak aby wszystko było zakryte. Dodaj majeranek, ziele angielskie oraz liście laurowe. Całość dokładnie wymieszaj.
+4.  **Gotowanie ciśnieniowe:** Zamknij pokrywę urządzenia i upewnij się, że zawór ciśnienia jest w pozycji **Sealing**. Wyłącz tryb Sauté i ustaw program **Chilli/Bean** na **45 minut**.
 5.  **Uwalnianie ciśnienia:** Po zakończeniu gotowania pozostaw garnek zamknięty na co najmniej **20 minut**, aby ciśnienie opadło w naturalny sposób (tzw. **Natural Release**). Po tym czasie ostrożnie przesuń zawór na pozycję Venting, aby uwolnić resztę pary, a następnie otwórz pokrywę.
 6.  **Finalizacja:** Wyjmij z fasolki liście laurowe. W małej miseczce lub szklance wymieszaj koncentrat pomidorowy z kilkoma łyżkami gorącego wywaru z garnka, a następnie wlej mieszankę z powrotem do fasolki, aby ją zagęścić. Spróbuj i w razie potrzeby dopraw dodatkowo solą lub pieprzem. Podawaj na gorąco, najlepiej z pieczywem.
 
