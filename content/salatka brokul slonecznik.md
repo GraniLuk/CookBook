@@ -3,7 +3,7 @@ draft: false
 title: "Sałatka z Brokułem, Fetą i Prażonym Słonecznikiem"  
 author: "Policzone Szamy"  
 recipe_image: images/recipe-headers/salatka_brokul_slonecznik.jpg  
-date: 2025-07-05T20:04:00-00:00  
+date: 2025-07-05T17:04:00-00:00  
 categories: ["sałatki"]  
 tags: ["grill"]  
 tagline: "Świeża sałatka z chrupiącym brokułem, kremową fetą i aromatycznym prażonym słonecznikiem."  
