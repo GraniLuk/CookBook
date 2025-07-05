@@ -1,11 +1,11 @@
 ---
 draft: false  
-title: "Sos Winegret z Miodem i Oregano"  
+title: "Sos Winegret"  
 author: "Policzone Szamy"  
 recipe_image: images/recipe-headers/sos_winegret.jpg
 date: 2025-07-05T19:52:00-00:00  
 categories: ["sosy"]  
-tags: ["sos winegret", "miód", "oregano", "oliwa", "musztarda"]  
+tags: []  
 tagline: "Klasyczny sos winegret z dodatkiem miodu i oregano - idealny do sałatek."  
 servings: 4  
 prep_time: 5  
