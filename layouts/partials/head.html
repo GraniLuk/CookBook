@@ -1,9 +1,15 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate, max-age=0">
     <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0">    
+    <meta http-equiv="Expires" content="0">
+    <meta name="cache-control" content="no-cache">
+    <meta name="expires" content="0">
+    <meta name="pragma" content="no-cache">
+    {{- /* Add timestamp to help with cache busting */ -}}
+    <meta name="last-modified" content="{{ now.Format "2006-01-02 15:04:05" }}">
+    <meta name="build-time" content="{{ now.Unix }}"    
     <link rel="apple-touch-icon" sizes="180x180" href="{{ partial "asset-url.html" "/apple-touch-icon.png" }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ partial "asset-url.html" "/favicon-32x32.png" }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ partial "asset-url.html" "/favicon-16x16.png" }}">
@@ -15,6 +21,7 @@
     <link rel="stylesheet" type="text/css" href="{{ partial "asset-url.html" "/css/custom.css" }}">
     <link rel="stylesheet" type="text/css" href="{{ partial "asset-url.html" "/css/print.css" }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="{{ partial "asset-url.html" "/js/cache-bust.js" }}" defer></script>
     {{ $title := print .Site.Title " | " .Title }}
     {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
     <title>{{ $title }}</title>
