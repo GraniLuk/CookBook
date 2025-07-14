@@ -1,5 +1,5 @@
 {{- $path := . -}}
-{{- $version := partial "cache-bust.html" . -}}
+{{- $version := site.Lastmod.Unix | default now.Unix -}}
 {{- if eq hugo.Environment "development" -}}
 /CookBook{{ $path }}?v={{ $version }}
 {{- else -}}

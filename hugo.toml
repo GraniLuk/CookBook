@@ -112,9 +112,4 @@ canonifyURLs = true
 # Cache control settings
 enableGitInfo = true
 
-# Additional cache busting settings
 [params]
-  # Add cache busting parameters
-  [params.cachebusting]
-    enabled = true
-    version = "1.0"

@@ -1,7 +1,0 @@
-{{- $timestamp := now.Unix -}}
-{{- if .Site.IsServer -}}
-  {{- $timestamp = now.UnixMilli -}}
-{{- else -}}
-  {{- $timestamp = site.Lastmod.Unix | default now.Unix -}}
-{{- end -}}
-{{- return $timestamp -}}
