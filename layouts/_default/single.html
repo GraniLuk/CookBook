@@ -16,9 +16,9 @@
                     <a href="{{ .Params.link }}" target="_blank"><i class="fab fa-youtube fa-3x" style="color: #FF0000;"></i></a>
                 </div>
                 {{ end }}
-                  <div id="printButton" style="position: absolute; bottom: 0; right: 0;" class="is-rounded">
-                    <button onclick="printRecipe()" style="background: none; border: none; cursor: pointer;"><i class="fas fa-print fa-3x"></i></button>
-                </div>
+                                    <div id="shareButton" style="position: absolute; bottom: 0; right: 0;" class="is-rounded">
+                                        <button onclick="shareRecipe()" style="background: none; border: none; cursor: pointer;"><i class="fas fa-share-from-square fa-3x"></i></button>
+                                </div>
             </div>
               <div class="container has-text-centered">
                 <h1 class="title is-bold"> {{ .Title }}</h1>

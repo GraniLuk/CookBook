@@ -3,7 +3,7 @@
     /* Hide unnecessary elements */
     .navbar,
     .footer,
-    #printButton,
+    #shareButton,
     #youtubeButton,
     hr {
         display: none !important;
@@ -141,7 +141,7 @@ body.printing {
 
 body.printing .navbar,
 body.printing .footer,
-body.printing #printButton,
+body.printing #shareButton,
 body.printing #youtubeButton,
 body.printing hr {
     display: none !important;
