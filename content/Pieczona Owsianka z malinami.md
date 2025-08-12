@@ -9,9 +9,9 @@ subcategories: ["słodkie"]
 tags: ["stefan"]
 tagline: "Aromatyczna pieczona owsianka z malinami!"
 servings: 2
-prep_time: 10
+prep_time: 5
 cook: true
-cook_time: 15
+cook_time: 20
 calories: 157
 protein: 6
 fat: 4
