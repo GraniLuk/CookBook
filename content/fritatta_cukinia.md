@@ -3,7 +3,7 @@ draft: false
 title: "Giga Frittata z Cukinią, Szynką i Makaronem Orzo"  
 author: "Policzone Szamy"  
 recipe_image: images/recipe-headers/frittata_cukinia_szynka_orzo.jpg  
-date: 2025-08-14T12:00:00-00:00  
+date: 2025-08-13T12:00:00-00:00  
 categories: ["sniadania"]
 subcategories: ["słone"]  
 tags: ["frittata","omlet","szynka","warzywa","orzo"]  
