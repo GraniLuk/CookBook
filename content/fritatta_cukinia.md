@@ -16,7 +16,7 @@ calories: 103
 protein: 7.8  
 fat: 4.4  
 carbohydrate: 8.6  
-link: ""  
+link: https://www.youtube.com/watch?v=wDmemjiyK4w&t=306s
 ---
 
 ## Składniki
