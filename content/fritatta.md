@@ -4,7 +4,8 @@ title: "Śniadaniowa Frittata z Batatami i Serem Feta"
 author: "Policzone Szamy"
 recipe_image: images/recipe-headers/fritatta.jpg
 date: 2025-08-06T10:00:00-00:00
-categories: ["śniadania"]
+categories: ["sniadania"]
+subcategories: ["słone"]
 tags: ["frittata", "bataty", "jajka", "ser feta", "fit", "bezglutenowe"]
 tagline: "Połączenie słodkiego ziemniaka ze słonym serem w puszystej frittacie."
 servings: 3
