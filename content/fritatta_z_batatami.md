@@ -6,7 +6,7 @@ recipe_image: images/recipe-headers/fritatta.jpg
 date: 2025-08-06T10:00:00-00:00
 categories: ["sniadania"]
 subcategories: ["słone"]
-tags: ["frittata", "bataty", "jajka", "ser feta", "fit", "bezglutenowe"]
+tags: []
 tagline: "Połączenie słodkiego ziemniaka ze słonym serem w puszystej frittacie."
 servings: 3
 prep_time: 15

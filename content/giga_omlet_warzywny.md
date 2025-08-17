@@ -6,7 +6,7 @@ recipe_image: images/recipe-headers/giga_omlet.jpg
 date: 2025-08-13T12:00:00-00:00  
 categories: ["sniadania"]
 subcategories: ["słone"]  
-tags: ["frittata","omlet","szynka","warzywa","orzo"]  
+tags: []  
 tagline: "Syta, kolorowa frittata na 6 porcji – cukinia, warzywa, szynka i chrupiące orzo."  
 servings: 6  
 prep_time: 20  

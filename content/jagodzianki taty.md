@@ -4,8 +4,8 @@ title: "Jagodzianki Taty"
 author: "Policzone Szamy"  
 recipe_image: images/recipe-headers/jagodzianki.jpg  
 date: 2025-06-29T19:37:00-00:00  
-categories: ["wypieki", "desery"]  
-tags: ["drożdżowe", "jagodzianki", "bułki", "jagody"]  
+categories: ["desery"]  
+tags: []  
 tagline: "Miękkie, domowe jagodzianki na puszystym cieście drożdżowym."  
 servings: 12  
 prep_time: 30  

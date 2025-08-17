@@ -5,7 +5,7 @@ author: "Policzone Szamy"
 recipe_image: images/recipe-headers/kurczak_curry_ryz_brokuły.jpg  
 date: 2025-07-06T16:55:00-00:00  
 categories: ["obiady"]  
-tags: ["kurczak", "curry", "wysokobiałkowe", "lunchbox", "brokuły", "ryż"]  
+tags: ["lunchbox"]  
 tagline: "Aromatyczny kurczak w sosie curry z ryżem i świeżymi brokułami na parze."  
 servings: 4  
 prep_time: 20  

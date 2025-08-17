@@ -5,7 +5,7 @@ author: "Autor Przepisu"
 recipe_image: images/recipe-headers/sos_majonezowy.jpg
 date: 2025-06-23T12:00:00-00:00
 categories: ["sosy"]
-tags: ["meksykańskie", "light"]
+tags: ["meksykańskie"]
 tagline: "Lekki sos majonezowy z nutą limonki - idealny do mięs i warzyw!"
 servings: 4
 prep_time: 5
