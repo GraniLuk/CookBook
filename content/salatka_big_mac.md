@@ -39,52 +39,51 @@ link: "https://www.youtube.com/watch?v=5dtlGZke2Zg"
 * Pomidorki cherry / paprykowe – ok. 180g
 * (Opcjonalnie) dodatkowe ogórki kiszone do podania
 
-### Sos a’la Big Mac (przygotuj pełną porcję – użyjesz połowę)
-Pełna porcja (na ok. 6 sałatek):
-* Majonez – 200g (użyj Majonezu Kieleckiego)
-* Musztarda sarepska – 50g
-* Ogórki kiszone drobno siekane – 70g
-* Chili (prawie 1 łyżeczka)
-* Papryka wędzona – 1/2 łyżeczki
-* Czosnek suszony – 1 łyżeczka
-* (Opcjonalnie) 1 łyżka wody / zalewy z ogórków kiszonych (do regulacji gęstości)
+### Sos a’la Big Mac
+* Majonez (Majonez Kielecki) – 100g
+* Musztarda sarepska – 25g
+* Ogórki kiszone drobno siekane – 35g
+* Chili – 1/2 do 3/4 łyżeczki (do smaku)
+* Papryka wędzona – 1/4 łyżeczki
+* Czosnek suszony – 1/2 łyżeczki
+* (Opcjonalnie) 1–2 łyżeczki zalewy z ogórków (regulacja gęstości)
 
-Do sałatki (3 porcje) używasz dokładnie połowę gotowego sosu.
+
 
 ---
 
 ## Sposób przygotowania
 
-1. Sos (zrób wcześniej): Wymieszaj majonez, musztardę, drobno posiekane kiszone ogórki i przyprawy. W razie potrzeby rozrzedź 1 łyżką zalewy. Przykryj i schowaj do lodówki, by się przegryzł. Do tej sałatki użyjesz połowy.
-2. Sery: Cheddar zetrzyj na grubych oczkach. Mimolette (plastry) ułóż w stos, potnij w cienkie paseczki 2–3 mm, następnie skróć je na pół. Dodaj parmezan (płatki). Delikatnie wymieszaj – trzymaj chłodne.
-3. Wołowina: Rozgrzej stalową / grubą patelnię na dużym ogniu. Dodaj masło klarowane. Wyłóż mięso i rozgniataj szpatułką / praską jak burgera, zostawiając większe „kawałki”. Smaż, aż powierzchnia dobrze się przypiecze; obracaj tylko różowe fragmenty. Po ścięciu wyłącz ogień, dopraw solą i pieprzem – nie rozdrabniaj dalej.
-4. Warzywa: Sałatę posiekaj w 2‑cm paski. Cebulę pokrój w drobną kostkę. Pomidorki – małe na połówki, większe na ćwiartki. Ogórki konserwowe w plastry.
+1. Sos: Wymieszaj majonez, musztardę, drobno posiekane kiszone ogórki i przyprawy. Rozrzedź odrobiną zalewy, jeśli trzeba. Schowaj do lodówki na min. 30–60 min.
+2. Sery: Cheddar zetrzyj na grubych oczkach. Mimolette potnij w cienkie paski 2–3 mm i skróć je na pół. Dodaj parmezan w płatkach, wymieszaj – trzymaj w chłodzie.
+3. Wołowina: Rozgrzej patelnię na dużym ogniu z masłem klarowanym. Rozgnieć mięso jak burger, zostaw większe kawałki, obracaj tylko różowe fragmenty. Po ścięciu dopraw solą i pieprzem – nie siekaj drobniej.
+4. Warzywa: Sałata w paski (ok. 2 cm), cebula w drobną kostkę, pomidorki w połówki / ćwiartki, ogórki konserwowe w plastry.
 5. Warstwowanie (słoje):  
-   1) Sałata (cienka warstwa na dno)  
-   2) Wołowina – równy podział „kawałków”  
+   1) Sałata (cienka warstwa)  
+   2) Wołowina  
    3) Czerwona cebula  
-   4) Ogórki konserwowe – ułóż w zwartą warstwę (baza pod sos)  
-   5) Sos – 1/3 połowy (czyli 1/6 całej porcji) do każdego słoja  
-   6) Pomidorki (po dwie garści łącznie w podziale)  
-   7) Mieszanka serów – zużyj połowę przygotowanych  
-   8) Sałata – reszta na wierzch  
-6. Zamknij / schłódź (opcjonalnie). Przed jedzeniem możesz wstrząsnąć słoik lub wyłożyć zawartość do miski i wymieszać.
+   4) Ogórki konserwowe (zwarta warstwa)  
+   5) Sos (po równo do 3 słoików)  
+   6) Pomidorki  
+   7) Mieszanka serów (po równo)  
+   8) Sałata na wierzch  
+6. Schłódź lub jedz od razu; przed jedzeniem możesz wstrząsnąć albo wysypać do miski i wymieszać.
 
 ---
 
 ## Wskazówki
 
-* Klucz do „burgerowego” efektu: duży ogień i nie mieszanie mięsa co chwilę.  
-* Sos nabiera charakteru po leżakowaniu – zrób min. 1–2 h wcześniej.  
-* Jeśli chcesz lżejszą wersję – zamień 1/3 majonezu na jogurt grecki (przelicz makro).  
-* Do bardziej keto-wersji – dodaj więcej sera lub 30–40g dodatkowego tłustszego kawałka wołowiny.  
-* Możesz dorzucić kilka kropli soku z ogórków dla ostrzejszej kwasowości.  
+* Duży ogień + brak mieszania = efekt „burgerowych” kawałków.  
+* Sos zyskuje na głębi po schłodzeniu.  
+* Lżejsza wersja: zastąp 30% majonezu jogurtem (przelicz makro).  
+* Bardziej keto: dołóż 30–40g sera albo tłustszej wołowiny.  
+* Chcesz więcej kwasu? Dodaj dodatkową łyżeczkę zalewy z ogórków.  
 
 ---
 
 ## Podsumowanie wartości odżywczych (całe danie)
 
-Założenia (orientacyjne): wołowina średnio tłusta (~15% tłuszczu), wliczono 9g masła klarowanego, przyjęto ilości warzyw jak w sekcji Składniki, użyto połowy sosu. Wartości są przybliżone – rzeczywiste zależą od marek i faktycznych wag warzyw.
+(Obliczenia już oparte na powyższych – „połowicznych” ilościach sosu.)
 
 | Składnik                  | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
 |---------------------------|----------:|---------------:|-----------:|-------------:|----------------:|
@@ -93,9 +92,9 @@ Założenia (orientacyjne): wołowina średnio tłusta (~15% tłuszczu), wliczon
 | Cheddar                   | 60        | 242            | 15.0       | 19.9         | 0.8             |
 | Mimolette                 | 75        | 295            | 18.5       | 23.5         | 1.4             |
 | Parmezan                  | 7         | 30             | 2.7        | 2.0          | 0.3             |
-| (POŁOWA) Sos – majonez    | 100       | 680            | 1.0        | 75.0         | 1.0             |
-| (POŁOWA) Sos – musztarda  | 25        | 17             | 0.9        | 0.9          | 2.2             |
-| (POŁOWA) Sos – og. kisz.  | 35        | 4              | 0.2        | 0.0          | 0.8             |
+| Sos – majonez             | 100       | 680            | 1.0        | 75.0         | 1.0             |
+| Sos – musztarda           | 25        | 17             | 0.9        | 0.9          | 2.2             |
+| Sos – ogórki kiszone      | 35        | 4              | 0.2        | 0.0          | 0.8             |
 | Sałata rzymska            | 150       | 26             | 1.5        | 0.3          | 5.0             |
 | Ogórki konserwowe         | 60        | 14             | 0.6        | 0.1          | 2.3             |
 | Czerwona cebula           | 60        | 24             | 0.6        | 0.1          | 5.5             |
@@ -104,8 +103,6 @@ Założenia (orientacyjne): wołowina średnio tłusta (~15% tłuszczu), wliczon
 | **RAZEM:**                | **1211**  | **2584**       | **119.2**  | **221.3**    | **26.7**        |
 | **1 PORCJA (1/3)**        | ~404      | ~861           | ~39.7      | ~73.8        | ~8.9            |
 | **NA 100G:**              | 100       | ~214           | ~9.9       | ~18.3        | ~2.2            |
-
-(Uwaga: Jeśli użyjesz chudszej wołowiny lub zmniejszysz ser / majonez – kaloryczność i tłuszcz spadną.)
 
 ---
 
