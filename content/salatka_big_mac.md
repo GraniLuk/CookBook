@@ -1,7 +1,7 @@
 ---
 draft: false
-title: "Sałatka Big Mac w Słoiku (3 Porcje)"
-author: "Policzone Szamy"
+title: "Sałatka Big Mac"
+author: "Policzona Szama"
 recipe_image: images/recipe-headers/salatka_big_mac.jpg
 date: 2025-08-18T12:00:00-00:00
 categories: ["salatki"]
