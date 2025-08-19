@@ -200,3 +200,14 @@ body, button, input, optgroup, select, textarea {
         flex-direction: column !important;
     }
 }
+
+/* ===== CARD TAGS STYLING ===== */
+.card-tags .tag.is-primary {
+    background-color: var(--bulma-primary,hsl(171, 100%, 41%)) !important; /* fallback to Bulma primary */
+    color: #fff !important;
+    text-transform: lowercase;
+}
+
+.card-tags .tag.is-primary:first-letter {
+    text-transform: lowercase; /* keep tags as provided */
+}

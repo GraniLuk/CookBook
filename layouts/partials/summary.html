@@ -30,6 +30,13 @@
                     </span>                
                 </div>
             </div>
+            {{ with .Params.tags }}
+            <div class="card-tags" style="margin-top: .25em; display: flex; flex-wrap: wrap; gap: 0.4em; justify-content: center;">
+                {{ range . }}
+                <span class="tag is-primary" style="font-size: .65rem;">{{ . }}</span>
+                {{ end }}
+            </div>
+            {{ end }}
         </div>
         </div>
     </div>
