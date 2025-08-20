@@ -98,7 +98,8 @@ function populateResults(result){
           if (Array.isArray(value.item.tags)) {
             value.item.tags.forEach(function(t){
               if(t){
-                tagsHtml += '<span class="recipe-tag">#'+ t +'</span>';
+                var slug = t.toString().toLowerCase().trim().replace(/\s+/g,'-').replace(/[^a-z0-9\-]/g,'');
+                tagsHtml += '<span class="recipe-tag tag-link" data-tag="'+ slug +'">#'+ t +'</span>';
               }
             });
           }
@@ -135,3 +136,23 @@ function populateResults(result){
       templateString = templateString.replace(re, data[key]);
     }    return templateString;
 }
+
+// Navigate when clicking tag badges (both static Hugo-rendered and search results)
+document.addEventListener('click', function(e){
+  var target = e.target;
+  if(target.classList && target.classList.contains('tag-link')){
+    // Stop the card anchor from triggering
+    e.stopPropagation();
+    e.preventDefault();
+    var slug = target.getAttribute('data-tag');
+    if(slug){
+      var url = '/tags/' + slug + '/';
+      // Support ctrl/cmd/middle click to open in new tab
+      if(e.metaKey || e.ctrlKey || e.button === 1){
+        window.open(url, '_blank');
+      } else {
+        window.location.href = url;
+      }
+    }
+  }
+});

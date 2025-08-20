@@ -9,7 +9,7 @@
                 <img style="border-radius: 3%;" src="{{ $image_url }}" alt="Zdjęcie przepisu">
                 {{ with .Params.tags }}
                 <div class="card-tags-overlay">
-                    {{ range . }}<span class="recipe-tag">#{{ . }}</span>{{ end }}
+                    {{ range . }}<span class="recipe-tag tag-link" data-tag="{{ . | urlize }}">#{{ . }}</span>{{ end }}
                 </div>
                 {{ end }}
             </figure>
