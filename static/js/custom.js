@@ -42,7 +42,7 @@ u('#searchButton').handle('click', function(e) { //use handle to automatically p
 
 function executeSearch(searchQuery){
     // Get the correct base URL for index.json
-    const baseUrl = window.location.pathname.includes('/CookBook/') ? '/CookBook' : '';
+  const baseUrl = '/CookBook';
     const timestamp = new Date().getTime();
     fetch(`${baseUrl}/index.json?v=${timestamp}`).then(r => r.json())
     .then(function(data) {    
@@ -146,7 +146,8 @@ document.addEventListener('click', function(e){
     e.preventDefault();
     var slug = target.getAttribute('data-tag');
     if(slug){
-      var url = '/tags/' + slug + '/';
+  // Detect base path (works for local dev under /CookBook/ subpath)
+  var url = '/CookBook/tags/' + slug + '/';
       // Support ctrl/cmd/middle click to open in new tab
       if(e.metaKey || e.ctrlKey || e.button === 1){
         window.open(url, '_blank');
