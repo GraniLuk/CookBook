@@ -98,7 +98,7 @@ function populateResults(result){
           if (Array.isArray(value.item.tags)) {
             value.item.tags.forEach(function(t){
               if(t){
-                tagsHtml += '<span class="tag is-primary" style="font-size:.65rem;">'+ t +'</span>';
+                tagsHtml += '<span class="recipe-tag">#'+ t +'</span>';
               }
             });
           }

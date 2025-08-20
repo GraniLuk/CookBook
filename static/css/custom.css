@@ -211,3 +211,54 @@ body, button, input, optgroup, select, textarea {
 .card-tags .tag.is-primary:first-letter {
     text-transform: lowercase; /* keep tags as provided */
 }
+
+/* Modern transparent recipe tags */
+.recipe-tag {
+        font-size: .65rem;
+        font-weight: 600;
+        letter-spacing: .5px;
+    padding: 3px 8px;
+        border-radius: 999px;
+    color: var(--bulma-primary,hsl(171, 100%, 41%));
+    background: rgba(0,209,178,0.08);
+    border: 1px solid rgba(0,209,178,0.25);
+        line-height: 1;
+        display: inline-flex;
+        align-items: center;
+        transition: all .25s ease;
+        text-transform: lowercase;
+}
+
+.recipe-tag:hover {
+    background: rgba(0,209,178,0.2);
+    color: var(--bulma-primary,hsl(171, 100%, 41%));
+    box-shadow: none;
+    transform: none;
+}
+
+@media (hover:none) {
+    .recipe-tag:hover { transform:none; box-shadow:none; }
+}
+
+/* Overlay container for tags on images */
+.card-tags-overlay {
+    position:absolute;
+    left:6px;
+    top:6px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:4px;
+    max-width:calc(100% - 12px);
+}
+
+.card-tags-overlay .recipe-tag {
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    background: rgba(255,255,255,0.55);
+    border: 1px solid rgba(0,209,178,0.35);
+    color: var(--bulma-primary,hsl(171, 100%, 41%));
+}
+
+.card-tags-overlay .recipe-tag:hover {
+    background: rgba(255,255,255,0.8);
+}
