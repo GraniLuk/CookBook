@@ -6,7 +6,7 @@ recipe_image: images/recipe-headers/granola.jpg
 date: 2025-08-23T12:00:00-00:00
 categories: ["sniadania"]
 subcategories: ["słodkie"]
-tags: ["granola", "śniadanie", "przekąska", "miód", "kokos"]
+tags: ["przekąska"]
 tagline: "Chrupiąca, złocista granola pieczona wolniej w niższej temperaturze – idealna do jogurtu i na wynos."
 servings: 12
 prep_time: 10
