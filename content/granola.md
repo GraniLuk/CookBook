@@ -39,13 +39,3 @@ carbohydrate: 54
 6. Piecz 25–30 minut w 160–170°C, aż granola będzie złota i chrupiąca. Dla równomiernego koloru można delikatnie przemieszać po ~15 minutach.
 7. Wyjmij blachę i pozostaw do pełnego wystudzenia przez ok. 30 minut – granola stwardnieje i łatwo się pokruszy.
 8. Dodaj pokrojone w kostkę morele i żurawinę, wymieszaj i od razu przesyp do całkowicie suchych, szczelnych pojemników.
-
-```mermaid
-flowchart TD
-    A[Suchy miks] --> B[Mokry miks]
-    B --> C[Łączenie]
-    C --> D[Rozkład na blachę ~2 cm]
-    D --> E[Pieczenie 25–30 min @ 160–170°C]
-    E --> F[Chłodzenie ~30 min]
-    F --> G[Dodanie suszonych owoców]
-    G --> H[Pakowanie do pojemników]
