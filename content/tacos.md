@@ -84,12 +84,21 @@ link: https://www.youtube.com/watch?v=UKEwoHAWCTs
 5. Dodaj sporą łyżkę salsy na wierzch.
 6. Udekoruj kolendrą.
 
+## Podsumowanie wartości odżywczych (całe danie)
 
-## Kalorie i makroskładniki (na 1 tacos)
-| Wartość       | Szacunkowo |
-|---------------|------------|
-| Kalorie       | ≈ 575 kcal |
-| Białko        | ≈ 35 g     |
-| Tłuszcze      | ≈ 25 g     |
-| Węglowodany   | ≈ 30 g     |
-| Błonnik       | ≈ 7 g      |
+| Składnik | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
+| :--- | ---: | ---: | ---: | ---: | ---: |
+| Wołowina (chuda) | 400 | 480 | 84.0 | 16.0 | 0.0 |
+| Tortille pszenne | 100 | 300 | 8.0 | 7.0 | 50.0 |
+| Ser cheddar | 40 | 160 | 10.0 | 13.0 | 0.5 |
+| Awokado | 80 | 128 | 1.6 | 12.0 | 7.2 |
+| Pomidor | 160 | 29 | 1.4 | 0.3 | 6.2 |
+| Cebula czerwona | 40 | 16 | 0.4 | 0.0 | 3.7 |
+| Papryczki padron | 30 | 8 | 0.3 | 0.1 | 1.8 |
+| Sok z cytryny | 25 | 7 | 0.1 | 0.0 | 1.7 |
+| Olej | 9 | 81 | 0.0 | 9.0 | 0.0 |
+| Czosnek | 15 | 22 | 1.0 | 0.1 | 5.0 |
+| Koncentrat pomidorowy | 5 | 15 | 0.2 | 0.0 | 1.0 |
+| Sałata lodowa | 30 | 5 | 0.4 | 0.1 | 0.9 |
+| **RAZEM:** | **~944** | **~1282** | **~108.8** | **~59.1** | **~83.2** |
+| **NA 100G:** | - | **~138** | **~11.5** | **~6.3** | **~8.8** |
