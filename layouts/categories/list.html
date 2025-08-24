@@ -21,7 +21,7 @@
         {{ end }}
           <div class="columns is-multiline">
             {{ range .Pages.ByPublishDate.Reverse }}
-            <div class="column is-one-quarter">
+            <div class="column is-one-fifth-desktop is-one-quarter-tablet is-full-mobile">
                 {{ partial "summary.html" . }}
             </div>
             {{ end }}

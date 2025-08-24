@@ -3,7 +3,7 @@
     <div class="columns is-multiline">
         {{ range .Site.RegularPages }}
             {{ if not (in .Params.categories "sosy") }}
-                <div class="column is-one-quarter">
+                <div class="column is-one-fifth-desktop is-one-quarter-tablet is-full-mobile">
                     {{ partial "summary.html" . }}
                 </div>
             {{ end }}
