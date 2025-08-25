@@ -230,6 +230,28 @@ body, button, input, optgroup, select, textarea {
     box-shadow: 0 10px 30px rgba(0,0,0,.15);
 }
 
+/* Gradient overlay and title on hero */
+.recipe-hero { position: relative; }
+.recipe-hero__gradient {
+    position: absolute;
+    inset: 0;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(0,0,0,0) 55%, rgba(0,0,0,0.55) 100%);
+    pointer-events: none;
+}
+.recipe-hero__title {
+    position: absolute;
+    left: 0; right: 0; bottom: clamp(10px, 4%, 24px);
+    padding: 0 18px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.recipe-hero__title .title { 
+    font-size: clamp(1.25rem, 2.5vw + .75rem, 2.25rem);
+    text-shadow: 0 2px 12px rgba(0,0,0,.75);
+}
+
 /* Media badges (YouTube / Share) */
 .media-badge {
     position: absolute;
