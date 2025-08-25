@@ -256,14 +256,14 @@ body, button, input, optgroup, select, textarea {
 .media-badge {
     position: absolute;
     bottom: 10px;
-    background: rgba(255,255,255,.9);
+    background: transparent;
     border-radius: 999px;
     padding: .5rem .75rem;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: .25rem;
-    box-shadow: 0 6px 16px rgba(0,0,0,.12);
+    box-shadow: none;
     z-index: 2; /* above gradient */
 }
 
@@ -273,6 +273,8 @@ body, button, input, optgroup, select, textarea {
 
 /* Red YouTube icon */
 .media-badge .fa-youtube { color: #FF0000; }
+/* White share icon for contrast on dark gradient */
+.media-badge .fa-share-from-square { color: #ffffff; }
 
 .unstyled-btn { background: none; border: none; cursor: pointer; padding: 0; }
 
