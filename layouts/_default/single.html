@@ -13,20 +13,19 @@
                     <div class="recipe-hero__title">
                         <h1 class="title is-bold has-text-white">{{ .Title }}</h1>
                     </div>
+                    {{ if .Params.link }}
+                    <div id="youtubeButton" class="is-rounded media-badge media-badge--left">
+                        <a href="{{ .Params.link }}" target="_blank" aria-label="Open video">
+                            <i class="fab fa-youtube" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    {{ end }}
+                    <div id="shareButton" class="is-rounded media-badge media-badge--right">
+                        <button onclick="shareRecipe()" aria-label="Share recipe" class="unstyled-btn">
+                            <i class="fas fa-share-from-square" aria-hidden="true"></i>
+                        </button>
+                    </div>
                 </figure>
-
-                {{ if .Params.link }}
-                <div id="youtubeButton" class="is-rounded media-badge media-badge--left">
-                    <a href="{{ .Params.link }}" target="_blank" aria-label="Open video">
-                        <i class="fab fa-youtube"></i>
-                    </a>
-                </div>
-                {{ end }}
-                <div id="shareButton" class="is-rounded media-badge media-badge--right">
-                    <button onclick="shareRecipe()" aria-label="Share recipe" class="unstyled-btn">
-                        <i class="fas fa-share-from-square"></i>
-                    </button>
-                </div>
             </div>
 
             

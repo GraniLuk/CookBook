@@ -264,11 +264,15 @@ body, button, input, optgroup, select, textarea {
     justify-content: center;
     gap: .25rem;
     box-shadow: 0 6px 16px rgba(0,0,0,.12);
+    z-index: 2; /* above gradient */
 }
 
 .media-badge i { font-size: 1.75rem; }
 .media-badge--left { left: 10px; }
 .media-badge--right { right: 10px; }
+
+/* Red YouTube icon */
+.media-badge .fa-youtube { color: #FF0000; }
 
 .unstyled-btn { background: none; border: none; cursor: pointer; padding: 0; }
 
