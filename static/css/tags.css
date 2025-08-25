@@ -1,32 +1,6 @@
 /* Tag styles extracted from custom.css for clarity and reuse */
 
-/* Modern recipe tag pill */
-.recipe-tag {
-    font-size: .65rem;
-    font-weight: 600;
-    letter-spacing: .5px;
-    padding: 3px 8px;
-    border-radius: 999px;
-    color: var(--bulma-primary,hsl(171, 100%, 41%));
-    background: rgba(0,209,178,0.08);
-    border: 1px solid rgba(0,209,178,0.25);
-    line-height: 1;
-    display: inline-flex;
-    align-items: center;
-    transition: all .25s ease;
-    text-transform: lowercase;
-}
-
-.recipe-tag:hover {
-    background: rgba(0,209,178,0.2);
-    color: var(--bulma-primary,hsl(171, 100%, 41%));
-    box-shadow: none;
-    transform: none;
-}
-
-@media (hover:none) {
-    .recipe-tag:hover { transform:none; box-shadow:none; }
-}
+/* Modern recipe tag pill (scoped to overlay since tags only appear on cards) */
 
 /* Overlay container for tags on images */
 .card-tags-overlay {
@@ -41,13 +15,22 @@
 }
 
 .card-tags-overlay .recipe-tag {
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
-    background: rgba(255,255,255,0.55);
-    border: 1px solid rgba(0,209,178,0.35);
+    font-size: .65rem;
+    font-weight: 600;
+    letter-spacing: .5px;
+    padding: 3px 8px;
+    border-radius: 999px;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    transition: all .25s ease;
+    text-transform: lowercase;
+    /* visual */
+    background: #f1f1f1;
+    border: 1px solid #d9d9d9;
     color: var(--bulma-primary,hsl(171, 100%, 41%));
 }
 
 .card-tags-overlay .recipe-tag:hover {
-    background: rgba(255,255,255,0.8);
+    background: #e8e8e8;
 }
