@@ -1,21 +1,30 @@
 ---
-draft: false  
-title: "Kurczak w Sosie Curry z Ryżem i Brokułami na Parze"  
-author: "Policzone Szamy"  
-recipe_image: images/recipe-headers/kurczak_curry_ryz_brokuły.jpg  
-date: 2025-07-06T16:55:00-00:00  
-categories: ["obiady"]  
-tags: ["lunchbox"]  
-tagline: "Aromatyczny kurczak w sosie curry z ryżem i świeżymi brokułami na parze."  
-servings: 4  
-prep_time: 20  
-cook: true  
-cook_time: 40  
+draft: false
+title: "Kurczak w Sosie Curry z Ryżem i Brokułami na Parze"
+author: "Policzone Szamy"
+recipe_image: images/recipe-headers/kurczak_curry_ryz_brokuły.jpg
+date: 2025-07-06T16:55:00-00:00
+categories: ["obiady"]
+tags: ["lunchbox"]
+tagline: "Aromatyczny kurczak w sosie curry z ryżem i świeżymi brokułami na parze."
+servings: 4
+prep_time: 20
+cook: true
+cook_time: 40
 calories: 140
 protein: 11
 fat: 3.9
 carbohydrate: 14.6
-link: https://www.youtube.com/watch?v=gtkbJZfsios  
+link: https://www.youtube.com/watch?v=gtkbJZfsios
+diets: ["low-fodmap"]
+fodmap:
+  status: "depends"
+  serving_ok: "Porcja ~300 g; brokuły do 75 g/porcję; mleczko kokosowe ≤ 60 ml/porcję"
+  notes: "Użyj pasty curry bez cebuli i czosnku; unikaj czosnku w całości. Możesz wykorzystać olej czosnkowy."
+  substitutions:
+    - "czosnek -> olej czosnkowy"
+    - "cebula -> zielona część dymki"
+    - "mleczko kokosowe -> ≤ 60 ml + bulion dla objętości"
 ---
 
 ## Składniki

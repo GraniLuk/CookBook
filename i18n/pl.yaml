@@ -37,3 +37,19 @@
   translation: "minut"
 - id: kcal
   translation: "kcal"
+
+# FODMAP
+- id: fodmap.title
+  translation: "Low FODMAP"
+- id: fodmap.status.yes
+  translation: "Tak"
+- id: fodmap.status.no
+  translation: "Nie"
+- id: fodmap.status.depends
+  translation: "Zależy"
+- id: fodmap.serving_ok
+  translation: "Bezpieczna porcja"
+- id: fodmap.notes
+  translation: "Uwaga"
+- id: fodmap.substitutions
+  translation: "Zamienniki"

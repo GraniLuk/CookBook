@@ -19,4 +19,25 @@
     {{ $title := print .Site.Title " | " .Title }}
     {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
     <title>{{ $title }}</title>
+            {{ if in (default (slice) .Params.diets) "low-fodmap" }}
+                {{ $kw := (slice "low fodmap") }}
+                {{ with .Params.tags }}{{ $kw = $kw | append . }}{{ end }}
+                <meta name="keywords" content="{{ delimit $kw ", " }}">
+            {{/* Basic JSON-LD augmentation: add additionalProperty for lowFODMAP if recipe schema exists elsewhere; otherwise embed minimal */}}
+            <script type="application/ld+json">
+            {{ $status := (cond (and .Params.fodmap .Params.fodmap.status) .Params.fodmap.status "") }}
+            {{ $desc := (cond (and .Params.fodmap .Params.fodmap.notes) .Params.fodmap.notes "") }}
+            {
+                "@context": "https://schema.org",
+                "@type": "Recipe",
+                "name": {{ printf "%q" .Title }},
+                "additionalProperty": [{
+                    "@type": "PropertyValue",
+                    "name": "lowFODMAP",
+                    "value": {{ printf "%q" $status }},
+                    "description": {{ printf "%q" $desc }}
+                }]
+            }
+            </script>
+        {{ end }}
 </head>

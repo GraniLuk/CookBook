@@ -1,0 +1,28 @@
+{{/* Detailed FODMAP panel for recipe pages */}}
+{{ with .Params.fodmap }}
+  <div class="fodmap-panel">
+    <div class="fodmap-row" style="justify-content: space-between;">
+      <h3 class="title is-5" style="margin: 0;">
+        <i class="fas fa-seedling" aria-hidden="true"></i>
+        {{ i18n "fodmap.title" | default "Low FODMAP" }}
+      </h3>
+      {{ partial "fodmap-badge.html" $ }}
+    </div>
+    <div class="content" style="margin-top:.5rem;">
+      {{ if .serving_ok }}
+      <p><strong>{{ i18n "fodmap.serving_ok" | default "Bezpieczna porcja" }}:</strong> {{ .serving_ok }}</p>
+      {{ end }}
+      {{ if .notes }}
+      <p><strong>{{ i18n "fodmap.notes" | default "Uwaga" }}:</strong> {{ .notes }}</p>
+      {{ end }}
+      {{ with .substitutions }}
+      <p><strong>{{ i18n "fodmap.substitutions" | default "Zamienniki" }}:</strong></p>
+      <ul>
+        {{ range . }}
+          <li>{{ . }}</li>
+        {{ end }}
+      </ul>
+      {{ end }}
+    </div>
+  </div>
+{{ end }}

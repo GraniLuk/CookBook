@@ -1,0 +1,12 @@
+{{ define "main" }}
+<div class="section">
+  <h1 class="title"><i class="fas fa-leaf" aria-hidden="true"></i> {{ .Title }}</h1>
+  <div class="columns is-multiline">
+    {{ range .Pages }}
+      <div class="column is-one-quarter">
+        {{ partial "summary.html" . }}
+      </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

@@ -9,6 +9,7 @@ defaultContentLanguage = "pl"
   categories = "categories"
   subcategories = "subcategories"
   tag = "tags"
+  diet = "diets"
 
 [languages]
   [languages.pl]
@@ -47,6 +48,18 @@ fileName = "/images/icon.png" #your favicon here if you wish to change it.
     pre = "fas fa-list"
     identifier = "categories"
     weight = 2  
+    
+    [[menu.main]]
+    name = "Diety"
+    pre = "fas fa-leaf"
+    identifier = "diety"
+    url = "/diets/"
+    weight = 3
+  [[menu.main]]
+    name = "Low FODMAP"
+    parent = "diety"
+    url = "/diets/low-fodmap/"
+    weight = 31
     
     [[menu.main]]
     name = "Śniadania"
@@ -88,7 +101,7 @@ fileName = "/images/icon.png" #your favicon here if you wish to change it.
     name = "Tagi" # change to w/e you want, tags or categories works best
     pre = "fas fa-tags" #icon, change if you would prefer a different icon
     url = "/tags/"
-    weight = 3
+  weight = 4
 
 # Print output just creates a special route for a print view
 [outputs]

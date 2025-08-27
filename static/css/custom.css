@@ -300,3 +300,32 @@ body, button, input, optgroup, select, textarea {
     .recipe-hero { max-width: 100%; }
     .media-badge { bottom: 8px; }
 }
+
+/* ===== FODMAP BADGE & PANEL ===== */
+.fodmap-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: .35em;
+    padding: .25em .6em;
+    border-radius: 999px;
+    font-size: .85rem;
+    font-weight: 700;
+    border: 1px solid #d1d5db;
+    color: #374151;
+    background: #e5e7eb;
+}
+.fodmap-badge i { font-size: .95em; }
+.fodmap-badge.fodmap--yes { color: #15803d; background: #22c55e20; border-color: #22c55e66; }
+.fodmap-badge.fodmap--depends { color: #92400e; background: #f59e0b20; border-color: #f59e0b66; }
+.fodmap-badge.fodmap--no { color: #991b1b; background: #ef444420; border-color: #ef444466; }
+
+.fodmap-panel {
+    margin-top: 1.25rem;
+    padding: 1rem 1.25rem;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    background: #fafafa;
+}
+.fodmap-panel h3 { margin-top: 0; margin-bottom: .5rem; }
+.fodmap-panel ul { margin: .5rem 0 0 1.25rem; }
+.fodmap-row { display:flex; gap:.5rem; align-items:center; flex-wrap:wrap; }
