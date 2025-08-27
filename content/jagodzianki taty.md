@@ -16,6 +16,15 @@ protein: 7
 fat: 9  
 carbohydrate: 44  
 link:   
+diets: ["low-fodmap"]
+fodmap:
+  status: "no"
+  serving_ok: "Unikaj na diecie Low FODMAP"
+  notes: "Mąka pszenna z drożdżami zawiera wysokie poziomy fruktatów."
+  substitutions:
+    - "mąka pszenna -> mąka ryżowa lub bezglutenowa mieszanka"
+    - "drożdże -> proszek do pieczenia bezglutenowy"
+    - "mleko -> mleko bezlaktozowe"
 ---
 
 ## Składniki

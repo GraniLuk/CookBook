@@ -15,6 +15,14 @@ calories: 433
 protein: 39
 fat: 27
 carbohydrate: 6
+diets: ["low-fodmap"]
+fodmap:
+  status: "no"
+  serving_ok: "Unikaj na diecie Low FODMAP"
+  notes: "Cebula i czosnek to główne problemy w tym przepisie."
+  substitutions:
+    - "cebula -> zielona część dymki"
+    - "czosnek -> olej czosnkowy"
 ---
 
 ## Składniki

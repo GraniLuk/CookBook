@@ -16,7 +16,16 @@ calories: 200
 protein: 11
 fat: 9
 carbohydrate: 20 
-link: https://www.youtube.com/watch?v=RwzTn7o7OkY  
+link: https://www.youtube.com/watch?v=RwzTn7o7OkY
+diets: ["low-fodmap"]
+fodmap:
+  status: "no"
+  serving_ok: "Unikaj na diecie Low FODMAP"
+  notes: "Cebula, czosnek i duże ilości fasoli - wysokie FODMAP."
+  substitutions:
+    - "cebula -> zielona część dymki"
+    - "czosnek -> olej czosnkowy"
+    - "fasola biała -> soczewica czerwona w małych ilościach"
 ---
 
 ## Składniki

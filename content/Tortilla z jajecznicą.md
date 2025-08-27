@@ -16,6 +16,14 @@ calories: 168
 protein: 10
 fat: 8
 carbohydrate: 15
+diets: ["low-fodmap"]
+fodmap:
+  status: "depends"
+  serving_ok: "Sprawdź skład tortilli - unikaj pszenicy pełnoziarnistej"
+  notes: "Jajka są OK. Problem z pełnoziarnistą tortillą (więcej błonnika)"
+  substitutions:
+    - "tortilla pełnoziarnista -> tortilla kukurydziana"
+    - "tortilla pszenna -> tortilla ryżowa"
 link: https://youtu.be/3qI4Y5dRumA?t=174
 ---
 

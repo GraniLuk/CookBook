@@ -16,6 +16,15 @@ calories: 133
 protein: 7
 fat: 4
 carbohydrate: 15
+diets: ["low-fodmap"]
+fodmap:
+  status: "depends"
+  serving_ok: "Mała porcja - uważaj na banany i napój owsiany"
+  notes: "Banany (1/2 na porcję), mleko owsiane może zawierać błonnik"
+  substitutions:
+    - "mleko owsiane -> mleko ryżowe lub bezlaktozowe"
+    - "duże banany -> małe banany lub mniej"
+    - "dodaj więcej truskawek zamiast bananów"
 link: https://youtu.be/SQ4saBQrBYc?t=115
 ---
 

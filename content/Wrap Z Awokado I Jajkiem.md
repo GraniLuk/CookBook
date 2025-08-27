@@ -16,6 +16,14 @@ calories: 141
 protein: 8
 fat: 9
 carbohydrate: 10
+diets: ["low-fodmap"]
+fodmap:
+  status: "depends"
+  serving_ok: "Zamień tortillę pełnoziarnistą na kukurydzianą"
+  notes: "Awokado, jajka, pomidor są OK. Problem z pełnoziarnistą tortillą"
+  substitutions:
+    - "tortilla pełnoziarnista -> tortilla kukurydziana"
+    - "tortilla pszenna -> tortilla ryżowa"
 ---
 
 ## Składniki

@@ -15,6 +15,14 @@ calories: 193
 protein: 14
 fat: 10
 carbohydrate: 10
+diets: ["low-fodmap"]
+fodmap:
+  status: "depends"
+  serving_ok: "Szparagi - maksymalnie 5 łodyg na porcję; ziemniaki bez ograniczeń"
+  notes: "Unikaj czosnku. Szparagi w większych ilościach zawierają fruktany."
+  substitutions:
+    - "czosnek świeży -> olej czosnkowy"
+    - "czosnek granulowany -> imbir w proszku lub kurkuma"
 ---
 
 Oto przepis na pieczonego łososia w piekarniku z ziemniakami pieczonymi oraz kremowym sosem z szparagów, mascarpone i suszonych pomidorów. Przepis jest łatwy do wykonania i pozwoli uzyskać efektowny obiad z wyrazistym smakiem.

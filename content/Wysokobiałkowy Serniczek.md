@@ -15,6 +15,12 @@ calories: 112
 protein: 9
 fat: 4
 carbohydrate: 10
+diets: ["low-fodmap"]
+fodmap:
+  status: "yes"
+  serving_ok: "OK w tej porcji"
+  notes: "Jajka, skyr, erytrol są bezpieczne. Sprawdź skład budyniu"
+  substitutions: []
 link: https://www.youtube.com/watch?v=SspgxK9oPdY
 ---
 

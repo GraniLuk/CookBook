@@ -16,6 +16,14 @@ calories: 174
 protein: 7
 fat: 7
 carbohydrate: 21
+diets: ["low-fodmap"]
+fodmap:
+  status: "depends"
+  serving_ok: "Marchewka bez ograniczeń, mąka pszenna może być problematyczna"
+  notes: "Marchewka jest bezpieczna. Problem może być w mące pszennej."
+  substitutions:
+    - "mąka pszenna -> mąka ryżowa lub owsiana"
+    - "mleko -> mleko bezlaktozowe"
 ---
 
 ## Składniki

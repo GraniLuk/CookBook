@@ -15,6 +15,14 @@ calories: 144
 protein: 11
 fat: 3
 carbohydrate: 19
+diets: ["low-fodmap"]
+fodmap:
+  status: "depends"
+  serving_ok: "Czerwona fasola - maksymalnie 1/4 szklanki na porcję"
+  notes: "Fasola czerwona może powodować problemy w większych ilościach. Kukurydza i pomidorki są OK."
+  substitutions:
+    - "czerwona fasola -> soczewica czerwona (1/4 szklanki) lub więcej warzyw"
+    - "duża ilość fasoli -> tofu w kostkach lub tempeh"
 ---
 
 ## Składniki

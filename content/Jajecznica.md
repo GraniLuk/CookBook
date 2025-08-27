@@ -16,6 +16,12 @@ calories: 196
 protein: 11
 fat: 16
 carbohydrate: 1
+diets: ["low-fodmap"]
+fodmap:
+  status: "yes"
+  serving_ok: "Porcja bez ograniczeń"
+  notes: "Wszystkie składniki są bezpieczne na diecie Low FODMAP."
+  substitutions: []
 ---
 
 ## Składniki

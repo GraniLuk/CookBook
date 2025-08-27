@@ -15,6 +15,15 @@ calories: 332
 protein: 25
 fat: 15
 carbohydrate: 31
+diets: ["low-fodmap"]
+fodmap:
+  status: "no"
+  serving_ok: "Unikaj na diecie Low FODMAP"
+  notes: "Cebula i czosnek to główne źródła fruktatów. Fasola też może być problematyczna."
+  substitutions:
+    - "cebula -> zielona część dymki lub olej cebulowy"
+    - "czosnek -> olej czosnkowy"
+    - "czerwona fasola -> marchewka w większej ilości lub batatach"
 ---
 
 ## Składniki

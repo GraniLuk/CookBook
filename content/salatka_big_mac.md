@@ -16,6 +16,15 @@ protein: 9.9
 fat: 18.3
 carbohydrate: 2.1
 link: "https://www.youtube.com/watch?v=5dtlGZke2Zg"
+diets: ["low-fodmap"]
+fodmap:
+  status: "depends"
+  serving_ok: "Czerwona cebula - maksymalnie 2 łyżki na porcję"
+  notes: "Unikaj czosnku w sosie. Czerwona cebula w małych ilościach jest OK."
+  substitutions:
+    - "czerwona cebula -> zielona część dymki"
+    - "czosnek suszony -> olej czosnkowy lub asant (szczypta)"
+    - "duża ilość cebuli -> więcej szczypiorku"
 ---
 
 ## Składniki

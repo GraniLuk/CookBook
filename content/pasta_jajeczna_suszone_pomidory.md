@@ -16,6 +16,12 @@ calories: 172
 protein: 13
 fat: 12
 carbohydrate: 3
+diets: ["low-fodmap"]
+fodmap:
+  status: "yes"
+  serving_ok: "OK w tej porcji"
+  notes: "Jajka, tuńczyk, suszone pomidory są bezpieczne"
+  substitutions: []
 link: ""
 ---
 

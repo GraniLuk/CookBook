@@ -15,7 +15,16 @@ calories: 285
 protein: 25
 fat: 18
 carbohydrate: 8
-link: https://www.youtube.com/watch?v=U0RCUwb7as4  
+link: https://www.youtube.com/watch?v=U0RCUwb7as4
+diets: ["low-fodmap"]
+fodmap:
+  status: "depends"
+  serving_ok: "Unikaj marynaty z czosnkiem i cebulą"
+  notes: "Sama karkówka jest OK. Problem w składnikach marynaty."
+  substitutions:
+    - "czosnek w marynacie -> olej czosnkowy"
+    - "cebula -> zielona część dymki"
+    - "miód -> syrop klonowy"
 ---
 
 Karkówka z grilla to prawdziwy klasyk polskich grillowań. Ten przepis przedstawia dwie różne marynaty oraz eksperyment z czasem marynowania, który pokazuje, że nie zawsze trzeba marynować mięso przez całą noc - **3 godziny również wystarczą** do uzyskania soczystego i miękkiego mięsa.

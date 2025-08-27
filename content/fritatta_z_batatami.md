@@ -17,6 +17,14 @@ protein: 6.2
 fat: 5.3
 carbohydrate: 9.2
 link: https://www.youtube.com/watch?v=prsZbulipCk
+diets: ["low-fodmap"]
+fodmap:
+  status: "depends"
+  serving_ok: "Czerwona cebula - maksymalnie 2 łyżki na porcję"
+  notes: "Bataty, jajka, papryka i szpinak są OK. Uważaj na ilość cebuli."
+  substitutions:
+    - "czerwona cebula -> zielona część dymki"
+    - "duża ilość cebuli -> więcej papryki i szpinaku"
 ---
 
 ## Składniki

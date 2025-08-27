@@ -16,6 +16,12 @@ calories: 143
 protein: 9
 fat: 8
 carbohydrate: 9
+diets: ["low-fodmap"]
+fodmap:
+  status: "yes"
+  serving_ok: "OK w tej porcji"
+  notes: "Jajka, szynka, awokado są bezpieczne"
+  substitutions: []
 link: https://www.youtube.com/watch?v=RR5V2Wcxk0w
 ---
 

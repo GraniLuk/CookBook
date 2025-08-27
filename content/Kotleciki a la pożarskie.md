@@ -15,6 +15,14 @@ calories: 150
 protein: 22
 fat: 3
 carbohydrate: 7
+diets: ["low-fodmap"]
+fodmap:
+  status: "depends"
+  serving_ok: "Por - tylko zielona część; marchewka bez ograniczeń"
+  notes: "Por może być problematyczny - używaj tylko zielonej części."
+  substitutions:
+    - "biała część pora -> zielona część pora"
+    - "mąka pszenna -> mąka jaglana (jak w przepisie) lub ryżowa"
 ---
 
 ## Składniki

@@ -16,6 +16,14 @@ protein: 7
 fat: 3
 carbohydrate: 22
 link: https://youtu.be/3qI4Y5dRumA?t=254
+diets: ["low-fodmap"]
+fodmap:
+  status: "depends"
+  serving_ok: "1 średni banan (maksymalnie 1/3 dużego banana) na porcję"
+  notes: "Banany są bezpieczne w małych ilościach. Unikaj mąki pszennej w dużych ilościach."
+  substitutions:
+    - "mąka pszenna -> mąka owsiana lub mąka ryżowa"
+    - "duży banan -> 1/3 dużego banana + więcej jogurtu"
 ---
 
 ## Składniki

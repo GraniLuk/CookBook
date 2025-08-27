@@ -15,6 +15,12 @@ calories: 175
 protein: 11
 fat: 13
 carbohydrate: 6 
+diets: ["low-fodmap"]
+fodmap:
+  status: "yes"
+  serving_ok: "OK w tej porcji"
+  notes: "Brokuł, pomidory koktajlowe, feta, słonecznik - wszystko bezpieczne"
+  substitutions: []
 link: ""  
 ---
 

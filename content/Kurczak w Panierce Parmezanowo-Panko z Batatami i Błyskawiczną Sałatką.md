@@ -16,6 +16,14 @@ protein: 15
 fat: 6
 carbohydrate: 13
 link: https://youtu.be/SQ4saBQrBYc?t=224
+diets: ["low-fodmap"]
+fodmap:
+  status: "depends"
+  serving_ok: "Panierka może zawierać gluten - sprawdź skład"
+  notes: "Bataty i kurczak są OK. Problem może być w panierce panko."
+  substitutions:
+    - "panierka panko -> bezglutenowa panierka lub mielone orzechy"
+    - "mąka pszenna -> mąka ryżowa (jeśli w przepisie)"
 ---
 
 ## Składniki

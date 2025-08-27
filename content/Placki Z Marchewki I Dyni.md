@@ -16,6 +16,15 @@ calories: 71
 protein: 3
 fat: 1
 carbohydrate: 14
+diets: ["low-fodmap"]
+fodmap:
+  status: "depends"
+  serving_ok: "Mała porcja - zamień mąkę pszenną"
+  notes: "Marchewka, dynia, jajko OK. Problem z mąką pszenną"
+  substitutions:
+    - "mąka pszenna -> mąka ryżowa"
+    - "mąka pszenna -> mąka owsiana"
+    - "mąka pszenna -> mix mąk bezglutenowych"
 ---
 
 ## Składniki

@@ -15,6 +15,12 @@ calories: 238
 protein: 7
 fat: 19
 carbohydrate: 12
+diets: ["low-fodmap"]
+fodmap:
+  status: "yes"
+  serving_ok: "OK w tej porcji"
+  notes: "Szparagi, mascarpone, suszone pomidory są bezpieczne"
+  substitutions: []
 ---
 
 Kremowy sos szparagowy z mascarpone i suszonymi pomidorami to doskonały dodatek do ryb, mięsa drobiowego czy pieczonego mięsa. Sos ma delikatny smak szparagów wzbogacony kremowością mascarpone i słonawą nutą suszonych pomidorów.

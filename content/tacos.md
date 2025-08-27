@@ -15,6 +15,15 @@ calories: 575
 protein: 35
 fat: 25
 carbohydrate: 30
+diets: ["low-fodmap"]
+fodmap:
+  status: "depends"
+  serving_ok: "Mała porcja - uważaj na cebulę i pszenną tortillę"
+  notes: "Cebula (2 łyżki max), pszenica w tortilli problematyczna"
+  substitutions:
+    - "tortilla pszenna -> tortilla kukurydziana"
+    - "cebula -> dymka (tylko zielone części)"
+    - "duże porcje cebuli -> posypka szczypiorkiem"
 link: https://www.youtube.com/watch?v=UKEwoHAWCTs
 ---
 

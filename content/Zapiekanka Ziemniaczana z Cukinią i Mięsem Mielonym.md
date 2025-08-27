@@ -15,6 +15,15 @@ calories: 161
 protein: 11
 fat: 8
 carbohydrate: 11
+diets: ["low-fodmap"]
+fodmap:
+  status: "depends"
+  serving_ok: "Mała porcja - unikaj cebuli i czosnku"
+  notes: "Ziemniaki, cukinia, mięso OK. Problem z cebulą i czosnkiem"
+  substitutions:
+    - "cebula -> dymka (zielone części)"
+    - "czosnek -> olej czosnkowy"
+    - "lub gotuj bez cebuli i czosnku"
 ---
 
 ## Składniki

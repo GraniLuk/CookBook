@@ -15,6 +15,15 @@ calories: 172
 protein: 8
 fat: 10
 carbohydrate: 15
+diets: ["low-fodmap"]
+fodmap:
+  status: "depends"
+  serving_ok: "Używaj małego banana lub 1/2 banana"
+  notes: "Skyr i masło orzechowe OK. Uważaj na wielkość banana"
+  substitutions:
+    - "duży banan -> 1/2 banana + więcej skyru"
+    - "orzechy włoskie -> orzechy pekan (bezpieczne)"
+    - "migdały -> małe porcje (max 10 sztuk)"
 link: https://www.youtube.com/watch?v=KoaGLBK5rhI
 ---
 

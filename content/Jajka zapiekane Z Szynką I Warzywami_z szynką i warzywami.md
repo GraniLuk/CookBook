@@ -16,6 +16,14 @@ calories: 196
 protein: 15
 fat: 12
 carbohydrate: 6
+diets: ["low-fodmap"]
+fodmap:
+  status: "depends"
+  serving_ok: "Brokuły - maksymalnie 75g na porcję, cebula - maksymalnie 2 łyżki"
+  notes: "Brokuły w małych ilościach są OK. Uważaj na ilość cebuli."
+  substitutions:
+    - "cebula -> zielona część dymki"
+    - "duże ilości brokułów -> więcej papryki"
 ---
 
 ## Składniki

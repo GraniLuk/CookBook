@@ -16,6 +16,14 @@ calories: 144
 protein: 5
 fat: 6
 carbohydrate: 17
+diets: ["low-fodmap"]
+fodmap:
+  status: "no"
+  serving_ok: "Unikaj na diecie Low FODMAP"
+  notes: "Mąka pszenna zawiera gluten i fruktany. Nie jest odpowiednia na diecie Low FODMAP."
+  substitutions:
+    - "mąka pszenna -> mąka ryżowa lub mąka ziemniaczana"
+    - "mleko -> mleko bezlaktozowe lub mleko ryżowe"
 ---
 
 ## Składniki

@@ -16,6 +16,15 @@ calories: 138
 protein: 4
 fat: 3
 carbohydrate: 26
+diets: ["low-fodmap"]
+fodmap:
+  status: "depends"
+  serving_ok: "Mała porcja - uważaj na banany i daktyle"
+  notes: "Daktyle i banany wysokie FODMAP. Owies OK w małych ilościach"
+  substitutions:
+    - "daktyle -> owoce jagody lub truskawki"
+    - "2 banany -> 1 banan + więcej owsia"
+    - "mleko krowie -> mleko bezlaktozowe"
 link: https://www.youtube.com/shorts/mp41DOJiTco
 ---
 

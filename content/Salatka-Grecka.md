@@ -14,6 +14,15 @@ calories: 86
 protein: 3
 fat: 6
 carbohydrate: 5
+diets: ["low-fodmap"]
+fodmap:
+  status: "depends"
+  serving_ok: "Mała porcja - unikaj czerwonej cebuli"
+  notes: "Pomidory, ogórek, feta, oliwki OK. Problem z czerwoną cebulą"
+  substitutions:
+    - "czerwona cebula -> dymka (zielone części)"
+    - "czerwona cebula -> posypka ze szczypiorku"
+    - "lub zrób bez cebuli"
 ---
 
 ## Składniki

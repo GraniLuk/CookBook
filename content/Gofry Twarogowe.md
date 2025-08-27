@@ -16,6 +16,15 @@ calories: 158
 protein: 10
 fat: 5
 carbohydrate: 18
+diets: ["low-fodmap"]
+fodmap:
+  status: "depends"
+  serving_ok: "1 gofr na porcję (maksymalnie 1/4 banana na porcję)"
+  notes: "Banan w małych ilościach jest OK. Mąka może być problematyczna."
+  substitutions:
+    - "mąka pszenna -> mąka ryżowa lub owsiana"
+    - "1 banan -> 1/2 banana + więcej twarogu"
+    - "mleko -> mleko bezlaktozowe"
 ---
 
 ## Składniki

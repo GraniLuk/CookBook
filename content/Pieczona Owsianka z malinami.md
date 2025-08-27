@@ -16,6 +16,14 @@ calories: 157
 protein: 6
 fat: 4
 carbohydrate: 26
+diets: ["low-fodmap"]
+fodmap:
+  status: "depends"
+  serving_ok: "Mała porcja - sprawdź napój owsiany"
+  notes: "Owies OK, jogurt grecki OK. Sprawdź skład napoju owsianego"
+  substitutions:
+    - "napój owsiany -> mleko ryżowe lub bezlaktozowe"
+    - "syrop klonowy -> miód (mała ilość)"
 ---
 
 ## Składniki

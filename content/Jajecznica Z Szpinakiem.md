@@ -16,6 +16,15 @@ calories: 144
 protein: 10
 fat: 10
 carbohydrate: 2
+diets: ["low-fodmap"]
+fodmap:
+  status: "depends"
+  serving_ok: "Bez dodatków z cebulą; pomidorki maksymalnie 5 sztuk"
+  notes: "Szpinak i jajka są OK. Unikaj czosnku i cebuli w dodatkach."
+  substitutions:
+    - "czosnek -> olej czosnkowy lub pominąć"
+    - "cebula w dodatkach -> szczypiorek"
+    - "chleb pszenny -> chleb bezglutenowy"
 ---
 
 ## Składniki

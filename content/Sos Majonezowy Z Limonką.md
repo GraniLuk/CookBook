@@ -15,6 +15,12 @@ calories: 35
 protein: 1
 fat: 3
 carbohydrate: 1
+diets: ["low-fodmap"]
+fodmap:
+  status: "yes"
+  serving_ok: "Bez ograniczeń"
+  notes: "Wszystkie składniki są bezpieczne na diecie Low FODMAP."
+  substitutions: []
 ---
 
 Lekki sos majonezowy z nutą limonki i ostrą papryką to doskonały dodatek do grillowanych mięs, warzyw na parze czy sałatek. Dzięki połączeniu majonezu light z jogurtem naturalnym sos jest znacznie mniej kaloryczny niż tradycyjny majonez, a sok z limonki nadaje mu świeży, cytrusowy smak.
