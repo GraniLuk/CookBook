@@ -44,7 +44,9 @@
                 {{ .Content }}
             </div>
             {{/* FODMAP panel placed after content (below nutrition tables which precede .Content) */}}
-            {{ partial "fodmap-panel.html" . }}
+            <div class="fodmap-indicator">
+                {{ partial "fodmap-panel.html" . }}
+            </div>
         </div>
     </div>
 </div>
