@@ -329,3 +329,25 @@ body, button, input, optgroup, select, textarea {
 .fodmap-panel h3 { margin-top: 0; margin-bottom: .5rem; }
 .fodmap-panel ul { margin: .5rem 0 0 1.25rem; }
 .fodmap-row { display:flex; gap:.5rem; align-items:center; flex-wrap:wrap; }
+
+/* FODMAP Toggle Icon */
+#fodmap-toggle-icon .fa-leaf {
+  color: #dbdbdb; /* Inactive color */
+  transition: color 0.2s ease-in-out;
+  cursor: pointer;
+}
+#fodmap-toggle-icon:hover .fa-leaf {
+  color: #363636;
+}
+body.fodmap-view-enabled #fodmap-toggle-icon .fa-leaf {
+  color: #48c774; /* Active color */
+}
+
+/* FODMAP Indicator Visibility */
+.fodmap-indicator {
+  display: none;
+}
+
+body.fodmap-view-enabled .fodmap-indicator {
+  display: inline-block;
+}

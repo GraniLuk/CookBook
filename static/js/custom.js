@@ -45,7 +45,7 @@ function executeSearch(searchQuery){
   const baseUrl = '/CookBook';
     const timestamp = new Date().getTime();
     fetch(`${baseUrl}/index.json?v=${timestamp}`).then(r => r.json())
-    .then(function(data) {    
+    .then(function(data) {
         var pages = data;
         var fuse = new Fuse(pages, fuseOptions);
         var result = fuse.search(searchQuery);
@@ -115,7 +115,7 @@ function populateResults(result){
   
   function render(templateString, data) {
     var conditionalMatches,conditionalPattern,copy;
-    conditionalPattern = /\$\{\s*isset ([a-zA-Z]*) \s*\}(.*)\$\{\s*end\s*}/g;
+    conditionalPattern = /\$\{\s*isset ([a-zA-Z]*) \s*\}(.*)\$\{\s*end\s*\}/g;
     //since loop below depends on re.lastInxdex, we use a copy to capture any manipulations whilst inside the loop
     copy = templateString;
     while ((conditionalMatches = conditionalPattern.exec(templateString)) !== null) {
@@ -131,7 +131,7 @@ function populateResults(result){
     //now any conditionals removed we can do simple substitution
     var key, find, re;
     for (key in data) {
-      find = '\\$\\{\\s*' + key + '\\s*\\}';
+      find = '\$\{\s*' + key + '\s*\}';
       re = new RegExp(find, 'g');
       templateString = templateString.replace(re, data[key]);
     }    return templateString;
@@ -168,3 +168,25 @@ if ('serviceWorker' in navigator) {
     });
   });
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+  const fodmapToggleIcon = document.getElementById('fodmap-toggle-icon');
+  if (fodmapToggleIcon) {
+    const body = document.body;
+    const preference = localStorage.getItem('fodmap-view-enabled');
+
+    if (preference === 'true') {
+      body.classList.add('fodmap-view-enabled');
+    }
+
+    fodmapToggleIcon.addEventListener('click', (e) => {
+      e.preventDefault();
+      body.classList.toggle('fodmap-view-enabled');
+      if (body.classList.contains('fodmap-view-enabled')) {
+        localStorage.setItem('fodmap-view-enabled', 'true');
+      } else {
+        localStorage.setItem('fodmap-view-enabled', 'false');
+      }
+    });
+  }
+});
