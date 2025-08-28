@@ -16,12 +16,13 @@ calories: 229
 protein: 16.6
 fat: 9.1
 carbohydrate: 18.9
-
 fodmap:
   status: "yes"
-  serving_ok: "OK w tej porcji"
-  notes: "Kurczak, suszone pomidory, majonez, wafle ryżowe - wszystko bezpieczne"
-  substitutions: []
+  serving_ok: "OK przy porcji 1; ogranicz suszone pomidory do 8–12 g"
+  notes: "Bezpieczne: kurczak, wafle ryżowe, majonez bez dodatków. Suszone pomidory tylko w małej porcji; przyprawy bez cebuli/czosnku."
+  substitutions:
+    - "Jogurt bez laktozy zamiast części majonezu (dla lżejszej wersji)."
+    - "Podawaj z pieczywem bezglutenowym/owsianym lub małą porcją chleba orkiszowego na zakwasie."
 link: ""
 ---
 

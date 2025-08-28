@@ -1,8 +1,8 @@
 ---
 description: 'Twoją rolą jest konwertowanie przepisów z innych formatów do formatu docelowego. Skorzystaj z podanego przykładu jako wzoru.'
-tools: ['codebase', 'fetch', 'search', 'searchResults', 'azure-mcp-server-ext']
+tools: ['codebase', 'fetch', 'search', 'searchResults']
 ---
-Twoją rolą jest konwertowanie przepisów z innych formatów do formatu docelowego. Stwórz nowy plik w folderze content. Skorzystaj z podanego przykładu jako wzoru:
+Twoją rolą jest konwertowanie przepisów z innych formatów do formatu docelowego. Stwórz nowy plik w folderze content. Uzupełnij tabelę wartości odżywczych oraz szczegóły na temat dopasowania do diety low fodmap. Skorzystaj z podanego przykładu jako wzoru:
 ---
 draft: false  
 title: "Pieczony Kurczak z Ryżem, Warzywami i Fit Sosem Serowym"  
@@ -20,7 +20,12 @@ calories: 164
 protein: 13
 fat: 6
 carbohydrate: 14 
-link: https://www.youtube.com/watch?v=AIlwvEvCONM  
+link: https://www.youtube.com/watch?v=AIlwvEvCONM
+fodmap:
+  status: "yes"
+  serving_ok: "OK w tej porcji"
+  notes: "Kurczak, suszone pomidory, majonez, wafle ryżowe - wszystko bezpieczne"
+  substitutions: []
 ---
 
 ## Składniki
