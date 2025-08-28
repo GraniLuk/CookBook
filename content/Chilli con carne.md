@@ -15,6 +15,15 @@ calories: 332
 protein: 25
 fat: 15
 carbohydrate: 31
+
+fodmap:
+  status: "no"
+  serving_ok: "Unikaj na diecie Low FODMAP"
+  notes: "Cebula i czosnek to główne źródła fruktanów. Czerwona fasola również jest wysokofodmapowa (zwłaszcza w dużej porcji)."
+  substitutions:
+    - "cebula -> zielona część dymki/szczypior"
+    - "czosnek -> olej czosnkowy"
+    - "czerwona fasola -> więcej marchewki lub bataty"
 ---
 
 ## Składniki

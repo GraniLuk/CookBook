@@ -14,6 +14,13 @@ calories: 86
 protein: 3
 fat: 6
 carbohydrate: 5
+
+fodmap:
+  status: "depends"
+  serving_ok: "OK po modyfikacjach: bez czerwonej cebuli; feta w małej porcji (~30–40 g/os.)"
+  notes: "Pomidory, ogórek, oliwki są zwykle dobrze tolerowane. Czerwona cebula jest wysokofodmapowa – zamień na szczypiorek. Feta bywa akceptowalna w małej porcji."
+  substitutions:
+    - "czerwona cebula -> szczypiorek/zielona część dymki"
 ---
 
 ## Składniki

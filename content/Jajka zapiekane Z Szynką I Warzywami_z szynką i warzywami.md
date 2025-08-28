@@ -16,6 +16,14 @@ calories: 196
 protein: 15
 fat: 12
 carbohydrate: 6
+
+fodmap:
+  status: "depends"
+  serving_ok: "OK po modyfikacjach: bez cebuli; brokuły (różyczki) ~60–75 g/porcję"
+  notes: "Cebula (fruktany) niewskazana. Brokuły – wybieraj różyczki i trzymaj umiarkowaną porcję. Szynka zwykle OK – sprawdź dodatki (bez cebuli/czosnku)."
+  substitutions:
+    - "cebula -> zielona część dymki/szczypior"
+    - "duże ilości brokułów -> więcej papryki"
 ---
 
 ## Składniki

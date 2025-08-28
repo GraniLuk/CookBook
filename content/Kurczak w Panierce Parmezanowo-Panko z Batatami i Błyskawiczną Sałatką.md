@@ -16,6 +16,14 @@ protein: 15
 fat: 6
 carbohydrate: 13
 link: https://youtu.be/SQ4saBQrBYc?t=224
+
+fodmap:
+  status: "depends"
+  serving_ok: "OK po modyfikacjach: panierka bez pszenicy; sałatka bez czerwonej cebuli"
+  notes: "Panko zwykle pszenne (fruktany) – wybierz wersję bezglutenową/ryżową. Czerwona cebula w sałatce jest wysokofodmapowa – zamień na szczypior. Bataty są OK w umiarkowanej porcji."
+  substitutions:
+    - "panko pszenne -> bułka tarta bezglutenowa/ryżowa lub drobno mielone płatki kukurydziane"
+    - "czerwona cebula -> zielona część dymki/szczypior"
 ---
 
 ## Składniki

@@ -1,6 +1,175 @@
 {{ define "main" }}
+<!-- DEBUG: Używamy szablonu taxonomy/list.html -->
+<!-- DEBUG: Title = {{ .Title }}, Type = {{ .Type }}, Kind = {{ .Kind }} -->
 <div class="section">
     <div class="container">
+        {{ if eq .Title "low-fodmap" }}
+        {{/* Specjalna strona dla Low FODMAP - pokazuje tylko przepisy z fodmap.status = "yes" */}}
+        <h1 class="title"><i class="fas fa-leaf has-text-success"></i> Low FODMAP - Bezpieczne Przepisy</h1>
+        <p class="subtitle">
+            Przepisy oznaczone jako w pełni bezpieczne dla diety Low FODMAP
+        </p>
+        
+        <div class="notification is-info is-light mb-5">
+            <p><strong>Co to oznacza?</strong> Te przepisy zawierają tylko składniki o niskiej zawartości FODMAP i można je spożywać bez ograniczeń w normalnych porcjach.</p>
+        </div>
+        
+        {{/* Filtruj wszystkie strony w site - tylko te z fodmap.status = "yes" */}}
+        {{ $safePages := where site.RegularPages ".Params.fodmap.status" "yes" }}
+        
+        <p class="has-text-grey mb-4">
+            <i class="fas fa-check-circle has-text-success"></i> 
+            {{ len $safePages }} {{ if eq (len $safePages) 1 }}bezpieczny przepis{{ else }}bezpiecznych przepisów{{ end }}
+        </p>
+        
+        <div class="columns is-multiline">
+            {{ range $safePages.ByPublishDate.Reverse }}
+            <div class="column is-one-third">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            {{- $image_url := partial "asset-url.html" "/images/defaultImage.png" -}}
+                            {{- if and .Params.recipe_image (fileExists (printf "static/%s" .Params.recipe_image)) -}}
+                                {{- $image_url = partial "asset-url.html" (printf "/%s" .Params.recipe_image) -}}
+                            {{- end -}}
+                            <img src="{{ $image_url }}" alt="{{ .Title }}">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-5">
+                                    <a href="{{ .Permalink }}">{{ .Title }}</a>
+                                    {{/* Dodajemy zielony znaczek dla bezpiecznych przepisów */}}
+                                    {{ partial "fodmap-badge.html" . }}
+                                </p>
+                                {{ if .Params.tagline }}
+                                <p class="subtitle is-6">{{ .Params.tagline }}</p>
+                                {{ end }}
+                            </div>
+                        </div>
+                        
+                        <div class="content">
+                            {{ if .Params.servings }}
+                            <span class="tag is-light">
+                                <i class="fas fa-users pr-1"></i>{{ .Params.servings }} porcji
+                            </span>
+                            {{ end }}
+                            
+                            {{ if .Params.prep_time }}
+                            <span class="tag is-light">
+                                <i class="fas fa-clock pr-1"></i>{{ .Params.prep_time }} min
+                            </span>
+                            {{ end }}
+                            
+                            {{ if .Params.calories }}
+                            <span class="tag is-light">
+                                <i class="fas fa-fire pr-1"></i>{{ .Params.calories }} kcal
+                            </span>
+                            {{ end }}
+                            
+                            {{/* Pokazujemy informacje FODMAP */}}
+                            {{ if .Params.fodmap }}
+                            <br>
+                            <span class="tag is-success is-light">
+                                <i class="fas fa-check pr-1"></i>{{ .Params.fodmap.serving_ok }}
+                            </span>
+                            {{ end }}
+                            
+                            <br><br>
+                            {{ if .Params.tags }}
+                            {{ range .Params.tags }}
+                            <span class="tag is-primary is-light">{{ . }}</span>
+                            {{ end }}
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+        
+        {{/* Dodaj sekcję z przepisami "depends" */}}
+        {{ $dependsPages := where site.RegularPages ".Params.fodmap.status" "depends" }}
+        {{ if gt (len $dependsPages) 0 }}
+        <hr class="my-6">
+        <h2 class="title is-4"><i class="fas fa-exclamation-triangle has-text-warning"></i> Przepisy z ograniczeniami</h2>
+        <p class="subtitle">
+            Przepisy, które można dostosować do diety Low FODMAP
+        </p>
+        
+        <div class="notification is-warning is-light">
+            <p><strong>Uwaga:</strong> Te przepisy wymagają modyfikacji składników lub ograniczeń porcji. Każdy przepis zawiera szczegółowe instrukcje jak je dostosować do diety Low FODMAP.</p>
+        </div>
+        
+        <div class="columns is-multiline">
+            {{ range $dependsPages.ByPublishDate.Reverse }}
+            <div class="column is-one-third">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            {{- $image_url := partial "asset-url.html" "/images/defaultImage.png" -}}
+                            {{- if and .Params.recipe_image (fileExists (printf "static/%s" .Params.recipe_image)) -}}
+                                {{- $image_url = partial "asset-url.html" (printf "/%s" .Params.recipe_image) -}}
+                            {{- end -}}
+                            <img src="{{ $image_url }}" alt="{{ .Title }}">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-5">
+                                    <a href="{{ .Permalink }}">{{ .Title }}</a>
+                                    {{ partial "fodmap-badge.html" . }}
+                                </p>
+                                {{ if .Params.tagline }}
+                                <p class="subtitle is-6">{{ .Params.tagline }}</p>
+                                {{ end }}
+                            </div>
+                        </div>
+                        
+                        <div class="content">
+                            {{ if .Params.servings }}
+                            <span class="tag is-light">
+                                <i class="fas fa-users pr-1"></i>{{ .Params.servings }} porcji
+                            </span>
+                            {{ end }}
+                            
+                            {{ if .Params.prep_time }}
+                            <span class="tag is-light">
+                                <i class="fas fa-clock pr-1"></i>{{ .Params.prep_time }} min
+                            </span>
+                            {{ end }}
+                            
+                            {{ if .Params.calories }}
+                            <span class="tag is-light">
+                                <i class="fas fa-fire pr-1"></i>{{ .Params.calories }} kcal
+                            </span>
+                            {{ end }}
+                            
+                            {{/* Pokazujemy informacje FODMAP */}}
+                            {{ if .Params.fodmap }}
+                            <br>
+                            <span class="tag is-success is-light">
+                                <i class="fas fa-check pr-1"></i>{{ .Params.fodmap.serving_ok }}
+                            </span>
+                            {{ end }}
+                            
+                            <br><br>
+                            {{ if .Params.tags }}
+                            {{ range .Params.tags }}
+                            <span class="tag is-primary is-light">{{ . }}</span>
+                            {{ end }}
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+        {{ end }}
+        
+        {{ else }}
         <h1 class="title">{{ .Title }}</h1>
         <p class="subtitle">{{ len .Pages }} {{ if eq (len .Pages) 1 }}przepis{{ else }}przepisów{{ end }} w kategorii "{{ .Title }}"</p>
         
@@ -60,6 +229,7 @@
             </div>
             {{ end }}
         </div>
+        {{ end }}
     </div>
 </div>
 {{ end }}

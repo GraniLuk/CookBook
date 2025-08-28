@@ -17,6 +17,14 @@ protein: 13
 fat: 14
 carbohydrate: 2
 link: https://www.youtube.com/shorts/qb3A_kAPio4
+
+fodmap:
+  status: "depends"
+  serving_ok: "OK po modyfikacjach: pesto bez czosnku; pomidorki ≤ 5 szt.; ser w małej porcji"
+  notes: "Czosnek w pesto (fruktany) niewskazany. Pomidorki w małej porcji zwykle OK. Sery dojrzewające mają mało laktozy; mozzarella w umiarkowanej porcji."
+  substitutions:
+    - "pesto z czosnkiem -> pesto bazyliowe bez czosnku lub olej czosnkowy"
+    - "ser -> ser dojrzewający (jeśli wrażliwość na laktozę)"
 ---
 
 ## Składniki

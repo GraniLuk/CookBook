@@ -15,6 +15,14 @@ calories: 112
 protein: 9
 fat: 4
 carbohydrate: 10
+
+fodmap:
+  status: "depends"
+  serving_ok: "OK przy nabiale bez laktozy i umiarkowanej porcji"
+  notes: "Skyr i proszek budyniowy mogą zawierać laktozę; wybierz wersje bez laktozy."
+  substitutions:
+    - "Skyr -> skyr bez laktozy."
+    - "Budyń -> budyń przygotowany na mleku bez laktozy lub napoju ryżowym."
 link: https://www.youtube.com/watch?v=SspgxK9oPdY
 ---
 

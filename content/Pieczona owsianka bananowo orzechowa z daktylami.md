@@ -16,6 +16,16 @@ calories: 138
 protein: 4
 fat: 3
 carbohydrate: 26
+
+fodmap:
+  status: "no"
+  serving_ok: "Nieodpowiednie na etapie eliminacji"
+  notes: "Daktyle (wysokie FODMAP), dojrzałe banany i miód zwiększają ładunek FODMAP; mleko krowie zawiera laktozę."
+  substitutions:
+    - "Zamień daktyle na maliny/truskawki (≤40–60 g/porcję)."
+    - "Użyj niedojrzałego banana i zmniejsz ilość (maks. 1/3–1/2 na porcję) lub zastąp część owocem jagodowym."
+    - "Mleko -> napój ryżowy lub mleko bez laktozy."
+    - "Miód -> syrop klonowy."
 link: https://www.youtube.com/shorts/mp41DOJiTco
 ---
 

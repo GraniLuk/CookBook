@@ -15,6 +15,14 @@ calories: 406
 protein: 0.1
 fat: 44
 carbohydrate: 5 
+
+fodmap:
+    status: "depends"
+    serving_ok: "OK po zamianie miodu"
+    notes: "Miód ma wysoki FODMAP (fruktoza); reszta składników jest zwykle OK."
+    substitutions:
+      - "Miód -> syrop klonowy."
+      - "Musztarda – sprawdź skład (bez cebuli/czosnku)."
 link: ""  
 ---
 

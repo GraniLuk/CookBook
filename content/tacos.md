@@ -15,6 +15,21 @@ calories: 575
 protein: 35
 fat: 25
 carbohydrate: 30
+
+fodmap:
+  status: "depends"
+  serving_ok: "Nieodpowiednie w obecnej wersji (cebula, czosnek, awokado)"
+  notes: "Tortille pszenne – pszenica (fruktany); cebula/czosnek niewskazane; awokado wysokie FODMAP (sorbitol) w większych porcjach."
+  substitutions:
+    - "Tortilla pszenna -> tortilla kukurydziana (100% kukurydza)."
+    - "Cebula/czosnek -> zielona część dymki + olej czosnkowy."
+    - "Awokado -> mała porcja (≤30 g) lub pominąć."
+  serving_ok: "Mała porcja - uważaj na cebulę i pszenną tortillę"
+  notes: "Cebula (2 łyżki max), pszenica w tortilli problematyczna"
+  substitutions:
+    - "tortilla pszenna -> tortilla kukurydziana"
+    - "cebula -> dymka (tylko zielone części)"
+    - "duże porcje cebuli -> posypka szczypiorkiem"
 link: https://www.youtube.com/watch?v=UKEwoHAWCTs
 ---
 

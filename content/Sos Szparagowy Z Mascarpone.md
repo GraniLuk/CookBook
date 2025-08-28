@@ -15,6 +15,14 @@ calories: 238
 protein: 7
 fat: 19
 carbohydrate: 12
+
+fodmap:
+  status: "depends"
+  serving_ok: "OK po modyfikacjach: usuń czosnek, kontroluj suszone pomidory (≤10–12 g/os.)"
+  notes: "Mascarpone ma wysoką laktozę; czosnek i większe ilości suszonych pomidorów zwiększają FODMAP."
+  substitutions:
+    - "Mascarpone -> śmietanka bez laktozy lub ser twardy (np. cheddar) rozpuszczony w sosie."
+    - "Czosnek -> olej czosnkowy."
 ---
 
 Kremowy sos szparagowy z mascarpone i suszonymi pomidorami to doskonały dodatek do ryb, mięsa drobiowego czy pieczonego mięsa. Sos ma delikatny smak szparagów wzbogacony kremowością mascarpone i słonawą nutą suszonych pomidorów.

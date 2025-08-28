@@ -15,7 +15,16 @@ calories: 164
 protein: 13
 fat: 6
 carbohydrate: 14 
-link: https://www.youtube.com/watch?v=AIlwvEvCONM  
+link: https://www.youtube.com/watch?v=AIlwvEvCONM
+
+fodmap:
+  status: "depends"
+  serving_ok: "OK po modyfikacjach: bez czosnku; mleko bez laktozy; zagęszczenie skrobią zamiast mąki pszennej"
+  notes: "Czosnek (fruktany) i mąka pszenna podnoszą FODMAP. Ser cheddar bywa niskolaktozowy, ale bazowe mleko powinno być bez laktozy."
+  substitutions:
+    - "czosnek -> olej czosnkowy (bez cząstek)"
+    - "mleko 1,5% -> mleko bez laktozy"
+    - "mąka pszenna -> skrobia kukurydziana/ryżowa"
 ---
 
 ## Składniki

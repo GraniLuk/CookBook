@@ -16,6 +16,20 @@ calories: 141
 protein: 8
 fat: 9
 carbohydrate: 10
+
+fodmap:
+  status: "depends"
+  serving_ok: "OK po modyfikacjach: mała porcja awokado i bez cebuli/czosnku"
+  notes: "Awokado wysokie FODMAP w większych porcjach (sorbitol); cebula/czosnek granulowane niewskazane; tortilla pszenna to pszenica."
+  substitutions:
+    - "Tortilla pełnoziarnista -> 100% kukurydziana."
+    - "Czosnek/cebula granulowana -> olej czosnkowy + szczypiorek."
+    - "Awokado -> maks. 30 g na porcję lub pominąć."
+  serving_ok: "Zamień tortillę pełnoziarnistą na kukurydzianą"
+  notes: "Awokado, jajka, pomidor są OK. Problem z pełnoziarnistą tortillą"
+  substitutions:
+    - "tortilla pełnoziarnista -> tortilla kukurydziana"
+    - "tortilla pszenna -> tortilla ryżowa"
 ---
 
 ## Składniki

@@ -16,6 +16,14 @@ protein: 7
 fat: 3
 carbohydrate: 22
 link: https://youtu.be/3qI4Y5dRumA?t=254
+
+fodmap:
+  status: "depends"
+  serving_ok: "OK przy małej porcji; użyj niedojrzałego banana (≤1/2 szt. na porcję)"
+  notes: "Dojrzałe banany są wysokie FODMAP – wybieraj niedojrzałe i ogranicz ilość. Rozważ zamianę mąki pszennej."
+  substitutions:
+    - "Mąka pszenna -> mąka owsiana bezglutenowa lub ryżowa."
+    - "Zmniejsz banana -> dodaj więcej jogurtu/skyr bez laktozy."
 ---
 
 ## Składniki

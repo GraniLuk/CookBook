@@ -15,6 +15,15 @@ calories: 193
 protein: 14
 fat: 10
 carbohydrate: 10
+
+fodmap:
+  status: "depends"
+  serving_ok: "OK po modyfikacjach: bez czosnku; mascarpone zamienić; suszone pomidory ≤ 8–12 g/os.; szparagi 4–5 łodyg"
+  notes: "Czosnek (fruktany) i mascarpone (laktoza) są problematyczne. Suszone pomidory podnoszą FODMAP powyżej małej porcji – ogranicz. Ziemniaki i łosoś są bezpieczne."
+  substitutions:
+    - "czosnek -> olej czosnkowy (bez cząstek)"
+    - "mascarpone -> śmietanka/śmietana bez laktozy lub tarty ser dojrzewający (mała porcja)"
+    - "suszone pomidory -> ≤ 8–12 g/os. lub świeże pomidory w małej ilości"
 ---
 
 Oto przepis na pieczonego łososia w piekarniku z ziemniakami pieczonymi oraz kremowym sosem z szparagów, mascarpone i suszonych pomidorów. Przepis jest łatwy do wykonania i pozwoli uzyskać efektowny obiad z wyrazistym smakiem.

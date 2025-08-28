@@ -15,7 +15,16 @@ calories: 285
 protein: 25
 fat: 18
 carbohydrate: 8
-link: https://www.youtube.com/watch?v=U0RCUwb7as4  
+link: https://www.youtube.com/watch?v=U0RCUwb7as4
+
+fodmap:
+  status: "depends"
+  serving_ok: "OK po modyfikacjach: marynata bez cebuli/czosnku; miód zamienić na syrop klonowy"
+  notes: "Mięso jest low FODMAP. Źródłem FODMAP są dodatki w marynacie (czosnek/cebula/honey). Użyj past bez cebuli/czosnku i słodź syropem klonowym."
+  substitutions:
+    - "czosnek -> olej czosnkowy (bez cząstek)"
+    - "cebula -> zielona część dymki/szczypior"
+    - "miód -> syrop klonowy"
 ---
 
 Karkówka z grilla to prawdziwy klasyk polskich grillowań. Ten przepis przedstawia dwie różne marynaty oraz eksperyment z czasem marynowania, który pokazuje, że nie zawsze trzeba marynować mięso przez całą noc - **3 godziny również wystarczą** do uzyskania soczystego i miękkiego mięsa.

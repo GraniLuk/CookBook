@@ -16,6 +16,15 @@ protein: 7
 fat: 9  
 carbohydrate: 44  
 link:   
+
+fodmap:
+   status: "no"
+   serving_ok: "Unikaj na diecie Low FODMAP"
+   notes: "Mąka pszenna i fermentacja drożdżowa sprzyjają fruktanom."
+   substitutions:
+      - "mąka pszenna -> mąka ryżowa lub mieszanka bezglutenowa"
+      - "drożdże -> proszek do pieczenia (BG)"
+      - "mleko -> mleko bezlaktozowe"
 ---
 
 ## Składniki

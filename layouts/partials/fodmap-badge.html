@@ -1,0 +1,14 @@
+{{/* FODMAP badge next to titles or anywhere compact */}}
+{{ $isLowFodmap := in (default (slice) .Params.diets) "low-fodmap" }}
+{{ $status := (cond (and .Params.fodmap .Params.fodmap.status) .Params.fodmap.status "") }}
+{{ if or $isLowFodmap $status }}
+  {{ $label := "Low FODMAP" }}
+  {{ $mod := "" }}
+  {{ if eq $status "yes" }}{{ $mod = " fodmap--yes" }}{{ end }}
+  {{ if eq $status "depends" }}{{ $mod = " fodmap--depends" }}{{ end }}
+  {{ if eq $status "no" }}{{ $mod = " fodmap--no" }}{{ end }}
+  <span class="fodmap-badge{{ $mod }}">
+    <i class="fas fa-leaf" aria-hidden="true"></i>
+    {{ $label }}{{ if $status }}: {{ i18n (print "fodmap.status." $status) | default (title $status) }}{{ end }}
+  </span>
+{{ end }}

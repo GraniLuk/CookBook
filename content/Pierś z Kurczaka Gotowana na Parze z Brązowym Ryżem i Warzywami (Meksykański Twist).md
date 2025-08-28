@@ -15,6 +15,15 @@ calories: 144
 protein: 11
 fat: 3
 carbohydrate: 19
+
+fodmap:
+  status: "depends"
+  serving_ok: "OK po modyfikacjach: czerwona fasola ≤ 1/4 szkl.; jogurt bez laktozy; przyprawy bez cebuli/czosnku"
+  notes: "Fasola (GOS) w większej ilości jest problematyczna – ogranicz lub zamień. Jogurt wybierz bez laktozy. Sprawdź mieszanki przypraw, by nie zawierały cebuli/czosnku."
+  substitutions:
+    - "czerwona fasola -> soczewica czerwona z puszki (płukana) ≤ 1/2 szkl. lub więcej warzyw"
+    - "jogurt naturalny -> jogurt bez laktozy"
+    - "mieszanki przypraw -> bez cebuli/czosnku, ewentualnie olej czosnkowy"
 ---
 
 ## Składniki

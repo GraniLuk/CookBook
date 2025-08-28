@@ -16,6 +16,15 @@ calories: 157
 protein: 6
 fat: 4
 carbohydrate: 26
+
+fodmap:
+  status: "depends"
+  serving_ok: "OK w małej porcji; wybierz napój ryżowy lub bez laktozy"
+  notes: "Owies bywa dobrze tolerowany w umiarkowanych porcjach; jogurt grecki zwykle OK (niska laktoza), ale preferuj wersję bez laktozy. Napój owsiany bywa problematyczny – lepiej ryżowy/bezlaktozowy."
+  substitutions:
+    - "Napój owsiany -> napój ryżowy lub mleko bez laktozy."
+    - "Jogurt grecki -> jogurt bez laktozy."
+    - "Słodzenie: pozostań przy syropie klonowym; unikaj miodu."
 ---
 
 ## Składniki

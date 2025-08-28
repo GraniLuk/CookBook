@@ -16,6 +16,15 @@ calories: 158
 protein: 10
 fat: 5
 carbohydrate: 18
+
+fodmap:
+  status: "depends"
+  serving_ok: "OK po modyfikacjach: twaróg i mleko bez laktozy; mąka bez pszenicy; banan ≤ 1/3 szt. na porcję"
+  notes: "Twaróg i mleko zawierają laktozę – wybierz wersje bez laktozy. Mąka pszenna to źródło fruktanów – zamień na ryżową/owsianą (GF). Dojrzały banan w większej porcji zwiększa FODMAP."
+  substitutions:
+    - "mąka pszenna -> mąka ryżowa/gluten-free owsiana"
+    - "twaróg/mleko -> odpowiedniki bez laktozy"
+    - "banan -> mniejsza ilość (≤ 1/3 szt. na porcję) lub bardziej niedojrzały"
 ---
 
 ## Składniki

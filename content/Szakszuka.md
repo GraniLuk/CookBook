@@ -16,6 +16,14 @@ calories: 114
 protein: 6
 fat: 7
 carbohydrate: 7
+
+fodmap:
+  status: "no"
+  serving_ok: "Nieodpowiednie w obecnej wersji (cebula, czosnek, mascarpone)"
+  notes: "Cebula i czosnek (fruktany) są niewskazane; mascarpone to wysoka laktoza."
+  substitutions:
+    - "Cebula/czosnek -> zielona część dymki + olej czosnkowy."
+    - "Mascarpone -> ser twardy (np. cheddar) lub niewielka porcja śmietanki bez laktozy."
 ---
 
 ## Składniki

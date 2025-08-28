@@ -16,6 +16,14 @@ protein: 7
 fat: 5
 carbohydrate: 38
 link: https://www.youtube.com/shorts/x1zHo9TF1NA
+
+fodmap:
+  status: "depends"
+  serving_ok: "1–2 ciasteczka; łączny banan ≤ 1/2 szt. na porcję; podawać bez dodatku miodu"
+  notes: "Dojrzały banan w większej ilości jest wysokofodmapowy. Płatki owsiane są OK w umiarkowanej porcji. Unikaj daktyli (wysoko FODMAP)."
+  substitutions:
+    - "2 banany -> 1 banan + 60 g puree jabłkowego (bez dosładzania)"
+    - "część płatków -> mąka ryżowa/gluten-free owsiana, by zmniejszyć porcję owsa"
 ---
 
 ## Składniki

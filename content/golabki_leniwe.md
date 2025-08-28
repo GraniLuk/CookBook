@@ -15,6 +15,15 @@ calories: 82
 protein: 5
 fat: 5
 carbohydrate: 4
+
+fodmap:
+  status: "depends"
+  serving_ok: "OK po modyfikacjach: bez czosnku; śmietana bez laktozy; kapusta w umiarkowanej porcji (~75–90 g/porcję)"
+  notes: "Czosnek (fruktany) jest niewskazany, śmietana zawiera laktozę. Kapusta biała jest akceptowalna w małej/umiarkowanej porcji."
+  substitutions:
+    - "czosnek -> olej czosnkowy (bez cząstek)"
+    - "śmietana 30% -> śmietanka bez laktozy lub pominąć"
+    - "duża ilość kapusty -> mniejsza porcja kapusty + więcej mięsa/sosu pomidorowego"
 ---
 
 ## Składniki

@@ -17,6 +17,15 @@ protein: 7.8
 fat: 4.4  
 carbohydrate: 8.6  
 link: https://www.youtube.com/watch?v=wDmemjiyK4w&t=306s
+
+fodmap:
+  status: "no"
+  serving_ok: "Unikaj na diecie Low FODMAP"
+  notes: "Cebula i czosnek (fruktany) oraz mąka pszenna (fruktany) czynią to danie nieodpowiednim."
+  substitutions:
+    - "cebula czerwona -> zielona część dymki/szczypior"
+    - "czosnek -> olej czosnkowy lub asafetyda"
+    - "mąka pszenna -> mąka ryżowa/ziemniaczana (GF)"
 ---
 
 ## Składniki

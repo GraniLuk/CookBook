@@ -16,6 +16,15 @@ calories: 133
 protein: 7
 fat: 4
 carbohydrate: 15
+
+fodmap:
+  status: "depends"
+  serving_ok: "OK po modyfikacjach: nabiał bez laktozy; napój ryżowy; banan ≤ 1/2 na porcję"
+  notes: "Płatki owsiane zwykle OK w umiarkowanej porcji; banany podnoszą FODMAP przy większej ilości. Twaróg wymaga wersji bez laktozy; unikaj napoju owsianego."
+  substitutions:
+    - "twaróg -> skyr/twaróg bez laktozy"
+    - "napój owsiany -> napój ryżowy lub mleko bez laktozy"
+    - "część banana -> więcej truskawek"
 link: https://youtu.be/SQ4saBQrBYc?t=115
 ---
 

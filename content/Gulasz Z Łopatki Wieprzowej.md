@@ -15,6 +15,15 @@ calories: 133
 protein: 11
 fat: 8
 carbohydrate: 4
+
+fodmap:
+  status: "no"
+  serving_ok: "Unikaj na diecie Low FODMAP"
+  notes: "Cebula i czosnek (fruktany) czynią danie nieodpowiednim."
+  substitutions:
+    - "cebula -> zielona część dymki/szczypior"
+    - "czosnek -> olej czosnkowy"
+    - "aromat -> asafetyda/papryka wędzona + więcej marchewki i papryki"
 ---
 
 ## Składniki

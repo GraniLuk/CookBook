@@ -15,6 +15,15 @@ calories: 150
 protein: 22
 fat: 3
 carbohydrate: 7
+
+fodmap:
+  status: "depends"
+  serving_ok: "Por - tylko zielona część; marchewka bez ograniczeń"
+  notes: "Por – tylko zielona część. Unikaj czosnku i mieszanek przypraw z cebulą/czosnkiem."
+  substitutions:
+    - "biała część pora -> zielona część pora"
+    - "mąka pszenna -> mąka jaglana (jak w przepisie) lub ryżowa"
+    - "czosnek granulowany -> asafetyda lub olej czosnkowy"
 ---
 
 ## Składniki

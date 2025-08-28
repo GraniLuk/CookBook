@@ -16,6 +16,16 @@ calories: 144
 protein: 10
 fat: 10
 carbohydrate: 2
+
+fodmap:
+  status: "depends"
+  serving_ok: "OK po modyfikacjach: bez czosnku; pieczywo bez pszenicy; awokado ≤ 30 g; pomidorki ≤ 5 szt."
+  notes: "Czosnek (fruktany) niewskazany – użyj oleju czosnkowego. Pieczywo pszenne zawiera fruktany – wybierz bezglutenowe. Awokado tylko w małej porcji. Szpinak i jajka są bezpieczne."
+  substitutions:
+    - "czosnek -> olej czosnkowy lub pominąć"
+    - "cebula w dodatkach -> szczypiorek/ziele dymki"
+    - "chleb pszenny -> pieczywo bezglutenowe"
+    - "awokado (do podania) -> ≤ 30 g lub pominąć"
 ---
 
 ## Składniki

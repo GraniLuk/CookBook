@@ -16,6 +16,14 @@ calories: 71
 protein: 3
 fat: 1
 carbohydrate: 14
+
+fodmap:
+  status: "depends"
+  serving_ok: "OK przy małej porcji i zamianie mąki; kontroluj banana"
+  notes: "Marchewka i dynia (w małych porcjach) są low FODMAP. Pszenica i dojrzały banan zwiększają FODMAP."
+  substitutions:
+    - "Mąka pszenna -> mąka ryżowa lub owsiana bezglutenowa."
+    - "Dojrzały banan -> niedojrzały i w mniejszej ilości lub zamień na puree z dyni."
 ---
 
 ## Składniki

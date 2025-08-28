@@ -16,6 +16,14 @@ calories: 174
 protein: 7
 fat: 7
 carbohydrate: 21
+
+fodmap:
+  status: "depends"
+  serving_ok: "OK przy zamianie mąki pszennej i mleka na wersje low FODMAP"
+  notes: "Marchewka jest low FODMAP. Ogranicz pszenicę; wybierz nabiał bez laktozy."
+  substitutions:
+    - "Mąka pszenna -> mąka ryżowa lub owsiana bezglutenowa."
+    - "Mleko -> mleko bez laktozy lub napój ryżowy."
 ---
 
 ## Składniki

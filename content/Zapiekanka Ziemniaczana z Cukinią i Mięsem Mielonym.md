@@ -15,6 +15,21 @@ calories: 161
 protein: 11
 fat: 8
 carbohydrate: 11
+
+fodmap:
+  status: "depends"
+  serving_ok: "Nieodpowiednie w obecnej wersji (cebula, czosnek, fasola, śmietanka)"
+  notes: "Cebula/czosnek (fruktany), fasola (GOS) i śmietanka (laktoza) podnoszą FODMAP. Ziemniaki i cukinia są OK w umiarkowanych porcjach."
+  substitutions:
+    - "Cebula/czosnek -> zielona część dymki + olej czosnkowy."
+    - "Fasola -> pominąć lub zamienić na marchewkę/cukinię."
+    - "Śmietanka -> śmietanka bez laktozy."
+  serving_ok: "Mała porcja - unikaj cebuli i czosnku"
+  notes: "Ziemniaki, cukinia, mięso OK. Problem z cebulą i czosnkiem"
+  substitutions:
+    - "cebula -> dymka (zielone części)"
+    - "czosnek -> olej czosnkowy"
+    - "lub gotuj bez cebuli i czosnku"
 ---
 
 ## Składniki
