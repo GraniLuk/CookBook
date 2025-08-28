@@ -19,12 +19,12 @@ link: "https://www.youtube.com/watch?v=5dtlGZke2Zg"
 
 fodmap:
   status: "depends"
-  serving_ok: "Czerwona cebula - maksymalnie 2 łyżki na porcję"
-  notes: "Unikaj czosnku w sosie. Czerwona cebula w małych ilościach jest OK."
+  serving_ok: "OK przy małej ilości cebuli i bez czosnku w sosie"
+  notes: "Czerwona cebula tylko w małych ilościach; czosnek w proszku niewskazany. Sery dojrzewające zwykle OK."
   substitutions:
-    - "czerwona cebula -> zielona część dymki"
-    - "czosnek suszony -> olej czosnkowy lub asant (szczypta)"
-    - "duża ilość cebuli -> więcej szczypiorku"
+    - "Czerwona cebula -> zielona część dymki/szczypiorek."
+    - "Czosnek suszony -> olej czosnkowy lub asafetyda (szczypta)."
+    - "Więcej cebuli -> zamień na szczypiorek."
 ---
 
 ## Składniki

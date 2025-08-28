@@ -19,11 +19,11 @@ carbohydrate: 31
 fodmap:
   status: "no"
   serving_ok: "Unikaj na diecie Low FODMAP"
-  notes: "Cebula i czosnek to główne źródła fruktatów. Fasola też może być problematyczna."
+  notes: "Cebula i czosnek to główne źródła fruktanów. Czerwona fasola również jest wysokofodmapowa (zwłaszcza w dużej porcji)."
   substitutions:
-    - "cebula -> zielona część dymki lub olej cebulowy"
+    - "cebula -> zielona część dymki/szczypior"
     - "czosnek -> olej czosnkowy"
-    - "czerwona fasola -> marchewka w większej ilości lub batatach"
+    - "czerwona fasola -> więcej marchewki lub bataty"
 ---
 
 ## Składniki

@@ -19,11 +19,11 @@ link: https://www.youtube.com/watch?v=U0RCUwb7as4
 
 fodmap:
   status: "depends"
-  serving_ok: "Unikaj marynaty z czosnkiem i cebulą"
-  notes: "Sama karkówka jest OK. Problem w składnikach marynaty."
+  serving_ok: "OK po modyfikacjach: marynata bez cebuli/czosnku; miód zamienić na syrop klonowy"
+  notes: "Mięso jest low FODMAP. Źródłem FODMAP są dodatki w marynacie (czosnek/cebula/honey). Użyj past bez cebuli/czosnku i słodź syropem klonowym."
   substitutions:
-    - "czosnek w marynacie -> olej czosnkowy"
-    - "cebula -> zielona część dymki"
+    - "czosnek -> olej czosnkowy (bez cząstek)"
+    - "cebula -> zielona część dymki/szczypior"
     - "miód -> syrop klonowy"
 ---
 

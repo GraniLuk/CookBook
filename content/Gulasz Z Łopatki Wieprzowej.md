@@ -19,11 +19,11 @@ carbohydrate: 4
 fodmap:
   status: "no"
   serving_ok: "Unikaj na diecie Low FODMAP"
-  notes: "Cebula i czosnek to główne problemy w tym przepisie."
+  notes: "Cebula i czosnek (fruktany) czynią danie nieodpowiednim."
   substitutions:
-    - "cebula -> zielona część dymki"
+    - "cebula -> zielona część dymki/szczypior"
     - "czosnek -> olej czosnkowy"
-    - "duża ilość cebuli -> więcej marchewki i papryki"
+    - "aromat -> asafetyda/papryka wędzona + więcej marchewki i papryki"
 ---
 
 ## Składniki

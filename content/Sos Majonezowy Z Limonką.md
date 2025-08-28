@@ -18,9 +18,10 @@ carbohydrate: 1
 
 fodmap:
   status: "yes"
-  serving_ok: "Bez ograniczeń"
-  notes: "Wszystkie składniki są bezpieczne na diecie Low FODMAP."
-  substitutions: []
+  serving_ok: "OK przy użyciu jogurtu bez laktozy"
+  notes: "Majonez i cytrusy są OK; jogurt wybierz bez laktozy."
+  substitutions:
+    - "Jogurt naturalny -> jogurt bez laktozy."
 ---
 
 Lekki sos majonezowy z nutą limonki i ostrą papryką to doskonały dodatek do grillowanych mięs, warzyw na parze czy sałatek. Dzięki połączeniu majonezu light z jogurtem naturalnym sos jest znacznie mniej kaloryczny niż tradycyjny majonez, a sok z limonki nadaje mu świeży, cytrusowy smak.

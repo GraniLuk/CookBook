@@ -20,12 +20,12 @@ link: https://www.youtube.com/watch?v=xsvyi8sl8xM
 
 fodmap:
   status: "depends"
-  serving_ok: "Maksymalnie 1/4 szklanki (30g) na porcję"
-  notes: "Płatki owsiane i orzechy w małych ilościach są OK. Miód może być problematyczny."
+  serving_ok: "Porcja ~30 g; podawać z nabiałem bez laktozy lub napojem ryżowym"
+  notes: "Miód jest wysokofodmapowy – zamień na syrop klonowy. Suszone owoce szybko podbijają FODMAP – ogranicz lub pomiń. Płatki owsiane i orzechy są OK w małej porcji."
   substitutions:
-    - "miód -> syrop klonowy (w tej samej ilości)"
-    - "duża porcja -> mniejsza porcja z jogurtem"
-    - "orzechy włoskie -> orzechie pekan lub migdały (małe ilości)"
+    - "miód -> syrop klonowy"
+    - "suszone morele/żurawina -> bardzo mała ilość lub pominąć"
+    - "jogurt zwykły -> jogurt/skyr bez laktozy lub napój ryżowy"
 ---
 
 ## Składniki

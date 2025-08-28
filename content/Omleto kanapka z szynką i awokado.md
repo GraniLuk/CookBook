@@ -18,10 +18,13 @@ fat: 8
 carbohydrate: 9
 
 fodmap:
-  status: "yes"
-  serving_ok: "OK w tej porcji"
-  notes: "Jajka, szynka, awokado są bezpieczne"
-  substitutions: []
+  status: "depends"
+  serving_ok: "OK po modyfikacjach: pieczywo bez pszenicy; serek wiejski bez laktozy; awokado ≤ 30 g"
+  notes: "Bułka pszenna (fruktany), serek wiejski (laktoza) i 100 g awokado (sorbitol) nie są zalecane na etapie eliminacji. Jajka są bezpieczne; szynka zwykle OK – sprawdź dodatki (bez cebuli/czosnku)."
+  substitutions:
+    - "bułka pszenna -> 100% kukurydziana tortilla lub pieczywo bezglutenowe (mała porcja)"
+    - "serek wiejski -> wersja bez laktozy lub cienkie plastry sera dojrzewającego"
+    - "awokado 100 g -> ≤ 30 g lub pominąć"
 link: https://www.youtube.com/watch?v=RR5V2Wcxk0w
 ---
 

@@ -18,7 +18,13 @@ fat: 4
 carbohydrate: 21
 
 fodmap:
-  status: "depends"
+  status: "no"
+  serving_ok: "Nieodpowiednie na etapie eliminacji"
+  notes: "Serek wiejski (laktoza), dojrzały banan i mąka pszenna zwiększają ładunek FODMAP."
+  substitutions:
+    - "Serek wiejski -> wersja bez laktozy lub niewielka porcja sera dojrzewającego."
+    - "Mąka pszenna -> mąka ryżowa lub owsiana bezglutenowa."
+    - "Banan -> niedojrzały i w mniejszej ilości."
   serving_ok: "Mała porcja - zamień mąkę, uważaj na banan"
   notes: "Banan (1/2 max), mąka orkiszowa/pszenna problematyczna"
   substitutions:

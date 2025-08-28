@@ -20,11 +20,11 @@ link: https://www.youtube.com/watch?v=prsZbulipCk
 
 fodmap:
   status: "depends"
-  serving_ok: "Czerwona cebula - maksymalnie 2 łyżki na porcję"
-  notes: "Bataty, jajka, papryka i szpinak są OK. Uważaj na ilość cebuli."
+  serving_ok: "OK bez cebuli; bataty do ~75–100 g/porcję; feta ~30–40 g/porcję"
+  notes: "Cebula (fruktany) niewskazana – użyj tylko zielonych części dymki. Bataty zawierają mannitol – zachowaj umiarkowaną porcję (~75–100 g na osobę). Feta jest zwykle OK w małej porcji."
   substitutions:
-    - "czerwona cebula -> zielona część dymki"
-    - "duża ilość cebuli -> więcej papryki i szpinaku"
+    - "czerwona cebula -> zielona część dymki / szczypior"
+    - "za dużo batatów -> mniejsza porcja lub więcej papryki/szpinaku"
 ---
 
 ## Składniki

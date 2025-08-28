@@ -18,11 +18,12 @@ carbohydrate: 19
 
 fodmap:
   status: "depends"
-  serving_ok: "Czerwona fasola - maksymalnie 1/4 szklanki na porcję"
-  notes: "Fasola czerwona może powodować problemy w większych ilościach. Kukurydza i pomidorki są OK."
+  serving_ok: "OK po modyfikacjach: czerwona fasola ≤ 1/4 szkl.; jogurt bez laktozy; przyprawy bez cebuli/czosnku"
+  notes: "Fasola (GOS) w większej ilości jest problematyczna – ogranicz lub zamień. Jogurt wybierz bez laktozy. Sprawdź mieszanki przypraw, by nie zawierały cebuli/czosnku."
   substitutions:
-    - "czerwona fasola -> soczewica czerwona (1/4 szklanki) lub więcej warzyw"
-    - "duża ilość fasoli -> tofu w kostkach lub tempeh"
+    - "czerwona fasola -> soczewica czerwona z puszki (płukana) ≤ 1/2 szkl. lub więcej warzyw"
+    - "jogurt naturalny -> jogurt bez laktozy"
+    - "mieszanki przypraw -> bez cebuli/czosnku, ewentualnie olej czosnkowy"
 ---
 
 ## Składniki

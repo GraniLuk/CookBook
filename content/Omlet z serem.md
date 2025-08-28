@@ -20,10 +20,11 @@ link: https://www.youtube.com/shorts/qb3A_kAPio4
 
 fodmap:
   status: "depends"
-  serving_ok: "Pomidorki cherry - maksymalnie 5 sztuk na porcję"
-  notes: "Uważaj na ilość pomidorków. Czosnek w pesto może być problematyczny."
+  serving_ok: "OK po modyfikacjach: pesto bez czosnku; pomidorki ≤ 5 szt.; ser w małej porcji"
+  notes: "Czosnek w pesto (fruktany) niewskazany. Pomidorki w małej porcji zwykle OK. Sery dojrzewające mają mało laktozy; mozzarella w umiarkowanej porcji."
   substitutions:
     - "pesto z czosnkiem -> pesto bazyliowe bez czosnku lub olej czosnkowy"
+    - "ser -> ser dojrzewający (jeśli wrażliwość na laktozę)"
 ---
 
 ## Składniki

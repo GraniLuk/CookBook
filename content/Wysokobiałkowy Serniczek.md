@@ -17,10 +17,12 @@ fat: 4
 carbohydrate: 10
 
 fodmap:
-  status: "yes"
-  serving_ok: "OK w tej porcji"
-  notes: "Jajka, skyr, erytrol są bezpieczne. Sprawdź skład budyniu"
-  substitutions: []
+  status: "depends"
+  serving_ok: "OK przy nabiale bez laktozy i umiarkowanej porcji"
+  notes: "Skyr i proszek budyniowy mogą zawierać laktozę; wybierz wersje bez laktozy."
+  substitutions:
+    - "Skyr -> skyr bez laktozy."
+    - "Budyń -> budyń przygotowany na mleku bez laktozy lub napoju ryżowym."
 link: https://www.youtube.com/watch?v=SspgxK9oPdY
 ---
 

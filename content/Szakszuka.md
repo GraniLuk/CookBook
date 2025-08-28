@@ -18,12 +18,12 @@ fat: 7
 carbohydrate: 7
 
 fodmap:
-  status: "depends"
-  serving_ok: "Sprawdź skład pesto - unikaj czosnku"
-  notes: "Pomidory i jajka są OK. Problem może być w czosnku."
+  status: "no"
+  serving_ok: "Nieodpowiednie w obecnej wersji (cebula, czosnek, mascarpone)"
+  notes: "Cebula i czosnek (fruktany) są niewskazane; mascarpone to wysoka laktoza."
   substitutions:
-    - "czosnek -> olej czosnkowy"
-    - "pesto z czosnkiem -> pesto bazyliowe bez czosnku"
+    - "Cebula/czosnek -> zielona część dymki + olej czosnkowy."
+    - "Mascarpone -> ser twardy (np. cheddar) lub niewielka porcja śmietanki bez laktozy."
 ---
 
 ## Składniki

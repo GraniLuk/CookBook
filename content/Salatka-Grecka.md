@@ -17,12 +17,10 @@ carbohydrate: 5
 
 fodmap:
   status: "depends"
-  serving_ok: "Mała porcja - unikaj czerwonej cebuli"
-  notes: "Pomidory, ogórek, feta, oliwki OK. Problem z czerwoną cebulą"
+  serving_ok: "OK po modyfikacjach: bez czerwonej cebuli; feta w małej porcji (~30–40 g/os.)"
+  notes: "Pomidory, ogórek, oliwki są zwykle dobrze tolerowane. Czerwona cebula jest wysokofodmapowa – zamień na szczypiorek. Feta bywa akceptowalna w małej porcji."
   substitutions:
-    - "czerwona cebula -> dymka (zielone części)"
-    - "czerwona cebula -> posypka ze szczypiorku"
-    - "lub zrób bez cebuli"
+    - "czerwona cebula -> szczypiorek/zielona część dymki"
 ---
 
 ## Składniki

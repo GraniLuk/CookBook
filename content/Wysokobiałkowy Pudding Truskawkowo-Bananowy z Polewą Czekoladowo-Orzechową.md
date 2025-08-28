@@ -19,12 +19,12 @@ carbohydrate: 15
 
 fodmap:
   status: "depends"
-  serving_ok: "Mała porcja - uważaj na banany i napój owsiany"
-  notes: "Banany (1/2 na porcję), mleko owsiane może zawierać błonnik"
+  serving_ok: "OK po modyfikacjach: nabiał bez laktozy; napój ryżowy; banan ≤ 1/2 na porcję"
+  notes: "Płatki owsiane zwykle OK w umiarkowanej porcji; banany podnoszą FODMAP przy większej ilości. Twaróg wymaga wersji bez laktozy; unikaj napoju owsianego."
   substitutions:
-    - "mleko owsiane -> mleko ryżowe lub bezlaktozowe"
-    - "duże banany -> małe banany lub mniej"
-    - "dodaj więcej truskawek zamiast bananów"
+    - "twaróg -> skyr/twaróg bez laktozy"
+    - "napój owsiany -> napój ryżowy lub mleko bez laktozy"
+    - "część banana -> więcej truskawek"
 link: https://youtu.be/SQ4saBQrBYc?t=115
 ---
 

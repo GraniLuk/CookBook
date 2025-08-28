@@ -18,11 +18,12 @@ carbohydrate: 4
 
 fodmap:
   status: "depends"
-  serving_ok: "Kapusta - maksymalnie 1 szklanka pokrojonej na porcję"
-  notes: "Unikaj czosnku. Kapusta w umiarkowanych ilościach jest OK."
+  serving_ok: "OK po modyfikacjach: bez czosnku; śmietana bez laktozy; kapusta w umiarkowanej porcji (~75–90 g/porcję)"
+  notes: "Czosnek (fruktany) jest niewskazany, śmietana zawiera laktozę. Kapusta biała jest akceptowalna w małej/umiarkowanej porcji."
   substitutions:
-    - "czosnek -> olej czosnkowy"
-    - "dużo kapusty -> połowa kapusty + więcej mięsa"
+    - "czosnek -> olej czosnkowy (bez cząstek)"
+    - "śmietana 30% -> śmietanka bez laktozy lub pominąć"
+    - "duża ilość kapusty -> mniejsza porcja kapusty + więcej mięsa/sosu pomidorowego"
 ---
 
 ## Składniki

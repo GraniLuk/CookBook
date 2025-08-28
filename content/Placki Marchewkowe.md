@@ -19,11 +19,11 @@ carbohydrate: 21
 
 fodmap:
   status: "depends"
-  serving_ok: "Marchewka bez ograniczeń, mąka pszenna może być problematyczna"
-  notes: "Marchewka jest bezpieczna. Problem może być w mące pszennej."
+  serving_ok: "OK przy zamianie mąki pszennej i mleka na wersje low FODMAP"
+  notes: "Marchewka jest low FODMAP. Ogranicz pszenicę; wybierz nabiał bez laktozy."
   substitutions:
-    - "mąka pszenna -> mąka ryżowa lub owsiana"
-    - "mleko -> mleko bezlaktozowe"
+    - "Mąka pszenna -> mąka ryżowa lub owsiana bezglutenowa."
+    - "Mleko -> mleko bez laktozy lub napój ryżowy."
 ---
 
 ## Składniki

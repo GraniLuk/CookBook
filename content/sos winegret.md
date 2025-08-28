@@ -17,10 +17,12 @@ fat: 44
 carbohydrate: 5 
 
 fodmap:
-  status: "yes"
-  serving_ok: "OK w tej porcji"
-  notes: "Miód, musztarda, oliwa są bezpieczne w małych ilościach"
-  substitutions: []
+    status: "depends"
+    serving_ok: "OK po zamianie miodu"
+    notes: "Miód ma wysoki FODMAP (fruktoza); reszta składników jest zwykle OK."
+    substitutions:
+      - "Miód -> syrop klonowy."
+      - "Musztarda – sprawdź skład (bez cebuli/czosnku)."
 link: ""  
 ---
 

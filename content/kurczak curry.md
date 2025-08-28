@@ -19,12 +19,12 @@ link: https://www.youtube.com/watch?v=gtkbJZfsios
 
 fodmap:
   status: "depends"
-  serving_ok: "Porcja ~300 g; brokuły do 75 g/porcję; mleczko kokosowe ≤ 60 ml/porcję"
-  notes: "Użyj pasty curry bez cebuli i czosnku; unikaj czosnku w całości. Możesz wykorzystać olej czosnkowy."
+  serving_ok: "OK po modyfikacjach: bez cebuli/czosnku; brokuły (tylko różyczki) ~60–75 g/porcję; mleczko kokosowe ≤ 60 ml/porcję"
+  notes: "Wybierz pastę curry bez cebuli/czosnku (częste w składzie). Czosnek/cebula to źródło fruktanów – zamień na olej czosnkowy i zielone części dymki. Kokos: ogranicz porcję mleczka, resztę objętości dolej bulionem."
   substitutions:
-    - "czosnek -> olej czosnkowy"
-    - "cebula -> zielona część dymki"
-    - "mleczko kokosowe -> ≤ 60 ml + bulion dla objętości"
+    - "czosnek -> olej czosnkowy (bez cząstek)"
+    - "cebula -> zielona część dymki/szczypior"
+    - "mleczko kokosowe -> ≤ 60 ml + bulion"
 ---
 
 ## Składniki

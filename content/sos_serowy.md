@@ -18,6 +18,11 @@ carbohydrate: 5
 
 fodmap:
   status: "depends"
+  serving_ok: "OK przy użyciu mleka bez laktozy i ograniczonej porcji"
+  notes: "Cheddar ma niską laktozę; problemem jest mleko i mąka pszenna w zasmażce."
+  substitutions:
+    - "Mleko 1,5% -> mleko bez laktozy."
+    - "Mąka pszenna -> skrobia kukurydziana/ryżowa."
   serving_ok: "Sprawdź mleko - używaj bezlaktozowego"
   notes: "Cheddar OK, mąka pszenna w małej ilości. Problem z laktozą"
   substitutions:

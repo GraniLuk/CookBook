@@ -19,11 +19,11 @@ link: https://youtu.be/3qI4Y5dRumA?t=254
 
 fodmap:
   status: "depends"
-  serving_ok: "1 średni banan (maksymalnie 1/3 dużego banana) na porcję"
-  notes: "Banany są bezpieczne w małych ilościach. Unikaj mąki pszennej w dużych ilościach."
+  serving_ok: "OK przy małej porcji; użyj niedojrzałego banana (≤1/2 szt. na porcję)"
+  notes: "Dojrzałe banany są wysokie FODMAP – wybieraj niedojrzałe i ogranicz ilość. Rozważ zamianę mąki pszennej."
   substitutions:
-    - "mąka pszenna -> mąka owsiana lub mąka ryżowa"
-    - "duży banan -> 1/3 dużego banana + więcej jogurtu"
+    - "Mąka pszenna -> mąka owsiana bezglutenowa lub ryżowa."
+    - "Zmniejsz banana -> dodaj więcej jogurtu/skyr bez laktozy."
 ---
 
 ## Składniki

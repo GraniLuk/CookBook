@@ -20,10 +20,10 @@ link:
 fodmap:
   status: "no"
   serving_ok: "Unikaj na diecie Low FODMAP"
-  notes: "Mąka pszenna z drożdżami zawiera wysokie poziomy fruktatów."
+   notes: "Mąka pszenna i fermentacja drożdżowa sprzyjają fruktanom."
   substitutions:
-    - "mąka pszenna -> mąka ryżowa lub bezglutenowa mieszanka"
-    - "drożdże -> proszek do pieczenia bezglutenowy"
+      - "mąka pszenna -> mąka ryżowa lub mieszanka bezglutenowa"
+      - "drożdże -> proszek do pieczenia (BG)"
     - "mleko -> mleko bezlaktozowe"
 ---
 

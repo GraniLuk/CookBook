@@ -19,11 +19,12 @@ carbohydrate: 26
 
 fodmap:
   status: "depends"
-  serving_ok: "Mała porcja - sprawdź napój owsiany"
-  notes: "Owies OK, jogurt grecki OK. Sprawdź skład napoju owsianego"
+  serving_ok: "OK w małej porcji; wybierz napój ryżowy lub bez laktozy"
+  notes: "Owies bywa dobrze tolerowany w umiarkowanych porcjach; jogurt grecki zwykle OK (niska laktoza), ale preferuj wersję bez laktozy. Napój owsiany bywa problematyczny – lepiej ryżowy/bezlaktozowy."
   substitutions:
-    - "napój owsiany -> mleko ryżowe lub bezlaktozowe"
-    - "syrop klonowy -> miód (mała ilość)"
+    - "Napój owsiany -> napój ryżowy lub mleko bez laktozy."
+    - "Jogurt grecki -> jogurt bez laktozy."
+    - "Słodzenie: pozostań przy syropie klonowym; unikaj miodu."
 ---
 
 ## Składniki

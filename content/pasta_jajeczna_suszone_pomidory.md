@@ -18,10 +18,12 @@ fat: 12
 carbohydrate: 3
 
 fodmap:
-  status: "yes"
-  serving_ok: "OK w tej porcji"
-  notes: "Jajka, tuńczyk, suszone pomidory są bezpieczne"
-  substitutions: []
+  status: "depends"
+  serving_ok: "OK po modyfikacjach: suszone pomidory ≤ 8–12 g/os.; jogurt bez laktozy"
+  notes: "Suszone pomidory powyżej małej porcji mogą zwiększać ładunek FODMAP – ogranicz do ~1–2 kawałków na osobę. Nabiał wybieraj bez laktozy."
+  substitutions:
+    - "jogurt naturalny -> jogurt/skyr bez laktozy"
+    - "za dużo suszonych pomidorów -> ogranicz do 8–12 g/os. lub użyj świeżych w małej ilości"
 link: ""
 ---
 

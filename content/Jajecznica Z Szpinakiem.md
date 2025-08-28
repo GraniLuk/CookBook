@@ -19,12 +19,13 @@ carbohydrate: 2
 
 fodmap:
   status: "depends"
-  serving_ok: "Bez dodatków z cebulą; pomidorki maksymalnie 5 sztuk"
-  notes: "Szpinak i jajka są OK. Unikaj czosnku i cebuli w dodatkach."
+  serving_ok: "OK po modyfikacjach: bez czosnku; pieczywo bez pszenicy; awokado ≤ 30 g; pomidorki ≤ 5 szt."
+  notes: "Czosnek (fruktany) niewskazany – użyj oleju czosnkowego. Pieczywo pszenne zawiera fruktany – wybierz bezglutenowe. Awokado tylko w małej porcji. Szpinak i jajka są bezpieczne."
   substitutions:
     - "czosnek -> olej czosnkowy lub pominąć"
-    - "cebula w dodatkach -> szczypiorek"
-    - "chleb pszenny -> chleb bezglutenowy"
+    - "cebula w dodatkach -> szczypiorek/ziele dymki"
+    - "chleb pszenny -> pieczywo bezglutenowe"
+    - "awokado (do podania) -> ≤ 30 g lub pominąć"
 ---
 
 ## Składniki

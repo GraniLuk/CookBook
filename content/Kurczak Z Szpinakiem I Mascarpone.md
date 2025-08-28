@@ -17,12 +17,13 @@ fat: 27
 carbohydrate: 6
 
 fodmap:
-  status: "no"
-  serving_ok: "Unikaj na diecie Low FODMAP"
-  notes: "Cebula i czosnek to główne problemy w tym przepisie."
-  substitutions:
-    - "cebula -> zielona część dymki"
-    - "czosnek -> olej czosnkowy"
+   status: "no"
+   serving_ok: "W obecnej formie nieodpowiednie (cebula, czosnek, mascarpone)"
+   notes: "Cebula/czosnek (fruktany) i mascarpone (wysoka laktoza) czynią danie niezgodne na etapie eliminacji."
+   substitutions:
+      - "cebula -> zielona część dymki/szczypior"
+      - "czosnek -> olej czosnkowy (bez cząstek)"
+      - "mascarpone -> śmietanka/napój bez laktozy + tarty ser dojrzewający (w małej porcji)"
 ---
 
 ## Składniki

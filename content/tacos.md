@@ -18,6 +18,12 @@ carbohydrate: 30
 
 fodmap:
   status: "depends"
+  serving_ok: "Nieodpowiednie w obecnej wersji (cebula, czosnek, awokado)"
+  notes: "Tortille pszenne – pszenica (fruktany); cebula/czosnek niewskazane; awokado wysokie FODMAP (sorbitol) w większych porcjach."
+  substitutions:
+    - "Tortilla pszenna -> tortilla kukurydziana (100% kukurydza)."
+    - "Cebula/czosnek -> zielona część dymki + olej czosnkowy."
+    - "Awokado -> mała porcja (≤30 g) lub pominąć."
   serving_ok: "Mała porcja - uważaj na cebulę i pszenną tortillę"
   notes: "Cebula (2 łyżki max), pszenica w tortilli problematyczna"
   substitutions:

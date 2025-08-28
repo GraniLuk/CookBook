@@ -18,13 +18,14 @@ fat: 3
 carbohydrate: 26
 
 fodmap:
-  status: "depends"
-  serving_ok: "Mała porcja - uważaj na banany i daktyle"
-  notes: "Daktyle i banany wysokie FODMAP. Owies OK w małych ilościach"
+  status: "no"
+  serving_ok: "Nieodpowiednie na etapie eliminacji"
+  notes: "Daktyle (wysokie FODMAP), dojrzałe banany i miód zwiększają ładunek FODMAP; mleko krowie zawiera laktozę."
   substitutions:
-    - "daktyle -> owoce jagody lub truskawki"
-    - "2 banany -> 1 banan + więcej owsia"
-    - "mleko krowie -> mleko bezlaktozowe"
+    - "Zamień daktyle na maliny/truskawki (≤40–60 g/porcję)."
+    - "Użyj niedojrzałego banana i zmniejsz ilość (maks. 1/3–1/2 na porcję) lub zastąp część owocem jagodowym."
+    - "Mleko -> napój ryżowy lub mleko bez laktozy."
+    - "Miód -> syrop klonowy."
 link: https://www.youtube.com/shorts/mp41DOJiTco
 ---
 

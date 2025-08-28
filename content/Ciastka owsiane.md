@@ -19,11 +19,11 @@ link: https://www.youtube.com/shorts/x1zHo9TF1NA
 
 fodmap:
   status: "depends"
-  serving_ok: "1-2 ciasteczka na porcję (maksymalnie 1/3 banana na porcję)"
-  notes: "Banany są OK w małych ilościach. Płatki owsiane - umiarkowanie."
+  serving_ok: "1–2 ciasteczka; łączny banan ≤ 1/2 szt. na porcję; podawać bez dodatku miodu"
+  notes: "Dojrzały banan w większej ilości jest wysokofodmapowy. Płatki owsiane są OK w umiarkowanej porcji. Unikaj daktyli (wysoko FODMAP)."
   substitutions:
-    - "2 banany -> 1 banan + 60g jabłek lub 30g daktyli"
-    - "100g płatków owsianych -> 60g płatków owsianych + 40g mąki ryżowej"
+    - "2 banany -> 1 banan + 60 g puree jabłkowego (bez dosładzania)"
+    - "część płatków -> mąka ryżowa/gluten-free owsiana, by zmniejszyć porcję owsa"
 ---
 
 ## Składniki

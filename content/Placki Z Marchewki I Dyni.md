@@ -19,12 +19,11 @@ carbohydrate: 14
 
 fodmap:
   status: "depends"
-  serving_ok: "Mała porcja - zamień mąkę pszenną"
-  notes: "Marchewka, dynia, jajko OK. Problem z mąką pszenną"
+  serving_ok: "OK przy małej porcji i zamianie mąki; kontroluj banana"
+  notes: "Marchewka i dynia (w małych porcjach) są low FODMAP. Pszenica i dojrzały banan zwiększają FODMAP."
   substitutions:
-    - "mąka pszenna -> mąka ryżowa"
-    - "mąka pszenna -> mąka owsiana"
-    - "mąka pszenna -> mix mąk bezglutenowych"
+    - "Mąka pszenna -> mąka ryżowa lub owsiana bezglutenowa."
+    - "Dojrzały banan -> niedojrzały i w mniejszej ilości lub zamień na puree z dyni."
 ---
 
 ## Składniki

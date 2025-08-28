@@ -17,10 +17,11 @@ fat: 13
 carbohydrate: 6 
 
 fodmap:
-  status: "yes"
-  serving_ok: "OK w tej porcji"
-  notes: "Brokuł, pomidory koktajlowe, feta, słonecznik - wszystko bezpieczne"
-  substitutions: []
+  status: "depends"
+  serving_ok: "OK przy użyciu samych różyczek brokuła (~75–90 g/porcję)"
+  notes: "Różyczki brokuła w umiarkowanej porcji są OK; unikaj łodyg. Feta zwykle OK, pestki słonecznika OK."
+  substitutions:
+    - "Brokuł – tylko różyczki; w razie wątpliwości zmniejsz porcję."
 link: ""  
 ---
 

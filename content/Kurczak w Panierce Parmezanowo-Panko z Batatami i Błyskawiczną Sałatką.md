@@ -19,11 +19,11 @@ link: https://youtu.be/SQ4saBQrBYc?t=224
 
 fodmap:
   status: "depends"
-  serving_ok: "Panierka może zawierać gluten - sprawdź skład"
-  notes: "Bataty i kurczak są OK. Problem może być w panierce panko."
+  serving_ok: "OK po modyfikacjach: panierka bez pszenicy; sałatka bez czerwonej cebuli"
+  notes: "Panko zwykle pszenne (fruktany) – wybierz wersję bezglutenową/ryżową. Czerwona cebula w sałatce jest wysokofodmapowa – zamień na szczypior. Bataty są OK w umiarkowanej porcji."
   substitutions:
-    - "panierka panko -> bezglutenowa panierka lub mielone orzechy"
-    - "mąka pszenna -> mąka ryżowa (jeśli w przepisie)"
+    - "panko pszenne -> bułka tarta bezglutenowa/ryżowa lub drobno mielone płatki kukurydziane"
+    - "czerwona cebula -> zielona część dymki/szczypior"
 ---
 
 ## Składniki
