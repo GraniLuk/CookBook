@@ -20,12 +20,8 @@ link: https://www.youtube.com/watch?v=RwzTn7o7OkY
 
 fodmap:
   status: "no"
-  serving_ok: "Nieodpowiednie na diecie Low FODMAP"
-  notes: "Fasola sucha (GOS), cebula i czosnek – wysoki ładunek FODMAP."
-  substitutions:
-    - "Brak bezpośrednich – rozważ wersję z większą ilością marchewki i bez roślin strączkowych."
   serving_ok: "Unikaj na diecie Low FODMAP"
-  notes: "Cebula, czosnek i duże ilości fasoli - wysokie FODMAP."
+  notes: "Fasola sucha (GOS), cebula i czosnek – wysoki ładunek FODMAP."
   substitutions:
     - "cebula -> zielona część dymki"
     - "czosnek -> olej czosnkowy"

@@ -22,8 +22,14 @@
                 <meta name="keywords" content="{{ delimit $kw ", " }}">
             {{/* Basic JSON-LD augmentation: add additionalProperty for lowFODMAP if recipe schema exists elsewhere; otherwise embed minimal */}}
             <script type="application/ld+json">
-            {{ $status := (cond (and .Params.fodmap .Params.fodmap.status) .Params.fodmap.status "") }}
-            {{ $desc := (cond (and .Params.fodmap .Params.fodmap.notes) .Params.fodmap.notes "") }}
+                        {{ $status := "" }}
+                        {{ $desc := "" }}
+                        {{ if and (isset .Params "fodmap") (isset .Params.fodmap "status") }}
+                            {{ $status = .Params.fodmap.status }}
+                        {{ end }}
+                        {{ if and (isset .Params "fodmap") (isset .Params.fodmap "notes") }}
+                            {{ $desc = .Params.fodmap.notes }}
+                        {{ end }}
             {
                 "@context": "https://schema.org",
                 "@type": "Recipe",

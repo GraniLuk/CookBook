@@ -1,7 +1,10 @@
 {{/* FODMAP badge next to titles or anywhere compact */}}
 {{ $isLowFodmap := in (default (slice) .Params.diets) "low-fodmap" }}
-{{ $status := (cond (and .Params.fodmap .Params.fodmap.status) .Params.fodmap.status "") }}
-{{ if or $isLowFodmap $status }}
+{{ $status := "" }}
+{{ if and (isset .Params "fodmap") (isset .Params.fodmap "status") }}
+  {{ $status = .Params.fodmap.status }}
+{{ end }}
+{{ if or $isLowFodmap (ne $status "") }}
   {{ $label := "Low FODMAP" }}
   {{ $mod := "" }}
   {{ if eq $status "yes" }}{{ $mod = " fodmap--yes" }}{{ end }}
