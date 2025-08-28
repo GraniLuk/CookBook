@@ -16,7 +16,7 @@ calories: 238
 protein: 13
 fat: 8
 carbohydrate: 30
-diets: ["low-fodmap"]
+
 fodmap:
   status: "depends"
   serving_ok: "Płatki owsiane - maksymalnie 1/2 szklanki (50g) na porcję"

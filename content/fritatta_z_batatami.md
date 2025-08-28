@@ -17,7 +17,7 @@ protein: 6.2
 fat: 5.3
 carbohydrate: 9.2
 link: https://www.youtube.com/watch?v=prsZbulipCk
-diets: ["low-fodmap"]
+
 fodmap:
   status: "depends"
   serving_ok: "Czerwona cebula - maksymalnie 2 łyżki na porcję"

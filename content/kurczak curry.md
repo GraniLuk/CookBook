@@ -16,7 +16,7 @@ protein: 11
 fat: 3.9
 carbohydrate: 14.6
 link: https://www.youtube.com/watch?v=gtkbJZfsios
-diets: ["low-fodmap"]
+
 fodmap:
   status: "depends"
   serving_ok: "Porcja ~300 g; brokuły do 75 g/porcję; mleczko kokosowe ≤ 60 ml/porcję"

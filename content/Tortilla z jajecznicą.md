@@ -16,7 +16,7 @@ calories: 168
 protein: 10
 fat: 8
 carbohydrate: 15
-diets: ["low-fodmap"]
+
 fodmap:
   status: "depends"
   serving_ok: "Sprawdź skład tortilli - unikaj pszenicy pełnoziarnistej"

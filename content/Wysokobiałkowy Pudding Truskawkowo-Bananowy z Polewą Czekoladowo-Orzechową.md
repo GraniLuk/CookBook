@@ -16,7 +16,7 @@ calories: 133
 protein: 7
 fat: 4
 carbohydrate: 15
-diets: ["low-fodmap"]
+
 fodmap:
   status: "depends"
   serving_ok: "Mała porcja - uważaj na banany i napój owsiany"

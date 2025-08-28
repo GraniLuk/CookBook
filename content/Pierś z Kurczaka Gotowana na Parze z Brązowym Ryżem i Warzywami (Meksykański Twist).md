@@ -15,7 +15,7 @@ calories: 144
 protein: 11
 fat: 3
 carbohydrate: 19
-diets: ["low-fodmap"]
+
 fodmap:
   status: "depends"
   serving_ok: "Czerwona fasola - maksymalnie 1/4 szklanki na porcję"

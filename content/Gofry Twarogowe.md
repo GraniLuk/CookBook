@@ -16,7 +16,7 @@ calories: 158
 protein: 10
 fat: 5
 carbohydrate: 18
-diets: ["low-fodmap"]
+
 fodmap:
   status: "depends"
   serving_ok: "1 gofr na porcję (maksymalnie 1/4 banana na porcję)"

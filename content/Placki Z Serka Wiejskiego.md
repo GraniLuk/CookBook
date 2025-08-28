@@ -16,7 +16,7 @@ calories: 158
 protein: 10
 fat: 4
 carbohydrate: 21
-diets: ["low-fodmap"]
+
 fodmap:
   status: "depends"
   serving_ok: "Mała porcja - zamień mąkę, uważaj na banan"

@@ -17,7 +17,7 @@ protein: 13
 fat: 14
 carbohydrate: 2
 link: https://www.youtube.com/shorts/qb3A_kAPio4
-diets: ["low-fodmap"]
+
 fodmap:
   status: "depends"
   serving_ok: "Pomidorki cherry - maksymalnie 5 sztuk na porcję"

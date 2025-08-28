@@ -16,7 +16,7 @@ protein: 13
 fat: 6
 carbohydrate: 14 
 link: https://www.youtube.com/watch?v=AIlwvEvCONM
-diets: ["low-fodmap"]
+
 fodmap:
   status: "yes"
   serving_ok: "Bez ograniczeń (sprawdź skład warzyw mrożonych)"

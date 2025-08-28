@@ -14,7 +14,7 @@ calories: 86
 protein: 3
 fat: 6
 carbohydrate: 5
-diets: ["low-fodmap"]
+
 fodmap:
   status: "depends"
   serving_ok: "Mała porcja - unikaj czerwonej cebuli"

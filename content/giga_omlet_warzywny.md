@@ -17,7 +17,7 @@ protein: 7.8
 fat: 4.4  
 carbohydrate: 8.6  
 link: https://www.youtube.com/watch?v=wDmemjiyK4w&t=306s
-diets: ["low-fodmap"]
+
 fodmap:
   status: "no"
   serving_ok: "Unikaj na diecie Low FODMAP"

@@ -15,7 +15,7 @@ calories: 161
 protein: 11
 fat: 8
 carbohydrate: 11
-diets: ["low-fodmap"]
+
 fodmap:
   status: "depends"
   serving_ok: "Mała porcja - unikaj cebuli i czosnku"

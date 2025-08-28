@@ -15,7 +15,7 @@ calories: 35
 protein: 1
 fat: 3
 carbohydrate: 1
-diets: ["low-fodmap"]
+
 fodmap:
   status: "yes"
   serving_ok: "Bez ograniczeń"

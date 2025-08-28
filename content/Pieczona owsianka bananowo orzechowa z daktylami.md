@@ -16,7 +16,7 @@ calories: 138
 protein: 4
 fat: 3
 carbohydrate: 26
-diets: ["low-fodmap"]
+
 fodmap:
   status: "depends"
   serving_ok: "Mała porcja - uważaj na banany i daktyle"

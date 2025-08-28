@@ -17,7 +17,7 @@ protein: 10
 fat: 24
 carbohydrate: 54
 link: https://www.youtube.com/watch?v=xsvyi8sl8xM
-diets: ["low-fodmap"]
+
 fodmap:
   status: "depends"
   serving_ok: "Maksymalnie 1/4 szklanki (30g) na porcję"

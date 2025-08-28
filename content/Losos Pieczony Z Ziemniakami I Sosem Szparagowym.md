@@ -15,7 +15,7 @@ calories: 193
 protein: 14
 fat: 10
 carbohydrate: 10
-diets: ["low-fodmap"]
+
 fodmap:
   status: "depends"
   serving_ok: "Szparagi - maksymalnie 5 łodyg na porcję; ziemniaki bez ograniczeń"

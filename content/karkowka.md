@@ -16,7 +16,7 @@ protein: 25
 fat: 18
 carbohydrate: 8
 link: https://www.youtube.com/watch?v=U0RCUwb7as4
-diets: ["low-fodmap"]
+
 fodmap:
   status: "depends"
   serving_ok: "Unikaj marynaty z czosnkiem i cebulą"

@@ -16,7 +16,7 @@ calories: 141
 protein: 8
 fat: 9
 carbohydrate: 10
-diets: ["low-fodmap"]
+
 fodmap:
   status: "depends"
   serving_ok: "Zamień tortillę pełnoziarnistą na kukurydzianą"

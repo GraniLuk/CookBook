@@ -15,7 +15,7 @@ calories: 150
 protein: 22
 fat: 3
 carbohydrate: 7
-diets: ["low-fodmap"]
+
 fodmap:
   status: "depends"
   serving_ok: "Por - tylko zielona część; marchewka bez ograniczeń"

@@ -16,7 +16,7 @@ calories: 71
 protein: 3
 fat: 1
 carbohydrate: 14
-diets: ["low-fodmap"]
+
 fodmap:
   status: "depends"
   serving_ok: "Mała porcja - zamień mąkę pszenną"

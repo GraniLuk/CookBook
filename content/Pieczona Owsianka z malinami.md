@@ -16,7 +16,7 @@ calories: 157
 protein: 6
 fat: 4
 carbohydrate: 26
-diets: ["low-fodmap"]
+
 fodmap:
   status: "depends"
   serving_ok: "Mała porcja - sprawdź napój owsiany"

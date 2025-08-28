@@ -1,6 +1,6 @@
 ---
-title: "Low FODMAP"
-draft: true
+title: "low-fodmap"
+type: "diet"
 ---
 
 Przepisy dostosowane do diety Low FODMAP.

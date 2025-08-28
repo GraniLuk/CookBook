@@ -15,7 +15,7 @@ calories: 158
 protein: 7
 fat: 12
 carbohydrate: 5
-diets: ["low-fodmap"]
+
 fodmap:
   status: "depends"
   serving_ok: "Sprawdź mleko - używaj bezlaktozowego"

@@ -16,7 +16,7 @@ calories: 114
 protein: 6
 fat: 7
 carbohydrate: 7
-diets: ["low-fodmap"]
+
 fodmap:
   status: "depends"
   serving_ok: "Sprawdź skład pesto - unikaj czosnku"

@@ -16,7 +16,7 @@ protein: 7
 fat: 5
 carbohydrate: 38
 link: https://www.youtube.com/shorts/x1zHo9TF1NA
-diets: ["low-fodmap"]
+
 fodmap:
   status: "depends"
   serving_ok: "1-2 ciasteczka na porcję (maksymalnie 1/3 banana na porcję)"

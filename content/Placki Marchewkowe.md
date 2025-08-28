@@ -16,7 +16,7 @@ calories: 174
 protein: 7
 fat: 7
 carbohydrate: 21
-diets: ["low-fodmap"]
+
 fodmap:
   status: "depends"
   serving_ok: "Marchewka bez ograniczeń, mąka pszenna może być problematyczna"

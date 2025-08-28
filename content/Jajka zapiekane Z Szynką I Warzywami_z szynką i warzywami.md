@@ -16,7 +16,7 @@ calories: 196
 protein: 15
 fat: 12
 carbohydrate: 6
-diets: ["low-fodmap"]
+
 fodmap:
   status: "depends"
   serving_ok: "Brokuły - maksymalnie 75g na porcję, cebula - maksymalnie 2 łyżki"

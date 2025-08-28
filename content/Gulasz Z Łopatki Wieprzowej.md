@@ -15,7 +15,7 @@ calories: 133
 protein: 11
 fat: 8
 carbohydrate: 4
-diets: ["low-fodmap"]
+
 fodmap:
   status: "no"
   serving_ok: "Unikaj na diecie Low FODMAP"

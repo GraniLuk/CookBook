@@ -16,7 +16,7 @@ calories: 143
 protein: 9
 fat: 8
 carbohydrate: 9
-diets: ["low-fodmap"]
+
 fodmap:
   status: "yes"
   serving_ok: "OK w tej porcji"

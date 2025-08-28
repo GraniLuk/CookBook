@@ -15,7 +15,7 @@ calories: 82
 protein: 5
 fat: 5
 carbohydrate: 4
-diets: ["low-fodmap"]
+
 fodmap:
   status: "depends"
   serving_ok: "Kapusta - maksymalnie 1 szklanka pokrojonej na porcję"

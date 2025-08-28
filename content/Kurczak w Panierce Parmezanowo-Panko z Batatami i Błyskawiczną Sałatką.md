@@ -16,7 +16,7 @@ protein: 15
 fat: 6
 carbohydrate: 13
 link: https://youtu.be/SQ4saBQrBYc?t=224
-diets: ["low-fodmap"]
+
 fodmap:
   status: "depends"
   serving_ok: "Panierka może zawierać gluten - sprawdź skład"

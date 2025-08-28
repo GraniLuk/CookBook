@@ -15,7 +15,7 @@ calories: 172
 protein: 8
 fat: 10
 carbohydrate: 15
-diets: ["low-fodmap"]
+
 fodmap:
   status: "depends"
   serving_ok: "Używaj małego banana lub 1/2 banana"

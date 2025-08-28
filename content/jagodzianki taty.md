@@ -16,7 +16,7 @@ protein: 7
 fat: 9  
 carbohydrate: 44  
 link:   
-diets: ["low-fodmap"]
+
 fodmap:
   status: "no"
   serving_ok: "Unikaj na diecie Low FODMAP"

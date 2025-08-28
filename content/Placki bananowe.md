@@ -16,7 +16,7 @@ protein: 7
 fat: 3
 carbohydrate: 22
 link: https://youtu.be/3qI4Y5dRumA?t=254
-diets: ["low-fodmap"]
+
 fodmap:
   status: "depends"
   serving_ok: "1 średni banan (maksymalnie 1/3 dużego banana) na porcję"
