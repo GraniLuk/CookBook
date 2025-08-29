@@ -1,6 +1,6 @@
 ﻿---
 draft: true
-title: "Pieczony Łosoś z Majonezowo-Cytrynową Chmurką"
+title: "Pieczony Łosoś z Majonezowo-Cytrynową "Chmurką""
 author: "Autor Przepisu"
 recipe_image: images/recipe-headers/default.jpg
 date: 2025-08-29T17:13:23-00:00
