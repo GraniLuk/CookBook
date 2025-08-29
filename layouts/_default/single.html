@@ -12,7 +12,9 @@
                     <div class="recipe-hero__gradient" aria-hidden="true"></div>
                     <div class="recipe-hero__title">
                         <h1 class="title is-bold has-text-white">{{ .Title }}</h1>
-                        <div style="margin-top:.5rem;">{{ partial "fodmap-badge.html" . }}</div>
+                        <div class="fodmap-indicator">
+                            <div style="margin-top:.5rem;">{{ partial "fodmap-badge.html" . }}</div>
+                        </div>
                     </div>
                     {{ if .Params.link }}
                     <div id="youtubeButton" class="is-rounded media-badge media-badge--left">
