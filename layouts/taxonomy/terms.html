@@ -11,7 +11,8 @@
                     </p>
                     <div class="pt-4 pr-2">
                         {{ $category := lower .Title }}
-                        {{ with .Site.GetPage $category }}
+                        {{ $tagPage := printf "/tags/%s" $category }}
+                        {{ with .Site.GetPage $tagPage }}
                             {{ $count := .Data.Pages | len }}
                             {{ if gt $count 1 }}
                                 {{ $count }} przepisów znaleziono
@@ -23,7 +24,8 @@
                 </header>
                 <div class="card-content">
                     {{ $category := lower .Title }}
-                    {{ with .Site.GetPage $category }}
+                    {{ $tagPage := printf "/tags/%s" $category }}
+                    {{ with .Site.GetPage $tagPage }}
                         {{ range first 5 .Pages }}
                             <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
                         {{ end }}
