@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 title: "Bowl z Łososiem"
 author: "Granica"
 recipe_image: images/defaultImage.png
