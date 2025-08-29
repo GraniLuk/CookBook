@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:21-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: 10 przepisów na szybkie posiłki dla zapracowanych
-source: https://www.youtube.com/watch?v=wIC8JJtZEso
-author:
-  - "[[Michał Wrzosek]]"
-published: 2024-12-11
-created: 2025-04-25
-description: Tekst prezentuje dziesięć szybkich i zdrowych przepisów kulinarnych przeznaczonych dla zapracowanych osób, wzbogaconych o osobiste anegdoty, wskazówki dotyczące planowania posiłków i historię sukcesu klienta.
-category: Fitness
-length: 2162
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 **10 Szybkich Przepisów dla Zapracowanych**

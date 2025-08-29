@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Domowe GAINERY - KOKTAJLE BIAŁKOWE
-source: https://www.youtube.com/watch?v=SV63X4HVlmE
-author:
-  - "[[Policzona Szama]]"
-published: 2021-11-08
-created: 2025-07-24
-description: Ten materiał przedstawia trzy przepisy na domowe gainery (koktajle wysokobiałkowe i wysokowęglowodanowe) bez użycia odżywki białkowej, z naciskiem na naturalne składniki i ich przygotowanie w blenderze Ninja.
-category: Fitness
-length: 1126
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 ### **Wstęp: Domowe Gainery – Idealny Posiłek Potreningowy**

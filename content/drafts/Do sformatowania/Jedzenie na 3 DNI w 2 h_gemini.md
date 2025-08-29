@@ -1,17 +1,21 @@
+﻿---
+draft: true
+title: "**DESCRIPTION:** Szczegółowy opis przygotowania i degustacji czterech posiłków w ramach 3-dnioweg..."
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Jedzenie na 3 DNI w 2 h
-source: https://www.youtube.com/watch?v=gpvGc0U6nkw
-author:
-  - "[[Policzona Szama]]"
-published: 2024-01-21
-created: 2025-05-22
-description: No description available
-category: Fitness
-length: 2039
-tags:
-  - Summaries/Przepisy
----
-
 **DESCRIPTION:** Szczegółowy opis przygotowania i degustacji czterech posiłków w ramach 3-dniowego planu żywieniowego "Dzień Jedzenia razy 3" o wartości 2500 kcal, z naciskiem na efektywne gotowanie metodą DIY, w tym w piekarniku.
 
 ---

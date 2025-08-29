@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Pyszny sos z PATELNI - grillowane warzywa z makaronem
-source: https://www.youtube.com/watch?v=XuHz-5UNBfE
-author:
-  - "[[Policzona Szama]]"
-published: 2021-10-25
-created: 2025-07-24
-description: Przepis na wegetariański makaron w sosie z pieczonej papryki, przedstawiony w humorystycznym i szczegółowym stylu, z poradami dotyczącymi składników, przygotowania, wariantów z dodatkiem białka oraz wskazówkami dotyczącymi makroskładników i serwowania.
-category: Fitness
-length: 862
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 # Wstęp

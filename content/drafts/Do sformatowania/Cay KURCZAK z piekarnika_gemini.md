@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:21-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Cały KURCZAK z piekarnika
-source: https://www.youtube.com/watch?v=ekR440XJkxs
-author:
-  - "[[Policzona Szama]]"
-published: 2023-03-15
-created: 2025-05-23
-description: Ten tekst opisuje proces przygotowania specjalnego niedzielnego obiadu – pieczonego kurczaka z dodatkami (ziemniakami, marchewką, brukselką) i sosem z pieczenia, podkreślając jakość składników i szczegółowe kroki.
-category: Fitness
-length: 1534
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 **Wstęp i Kontekst: Weekendowa Uczta**

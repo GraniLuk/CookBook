@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "***"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Nadziewane PIEROŻKI - imprezowe MINI CALZONE
-source: https://www.youtube.com/watch?v=a2-uQbDzn_w
-author:
-  - "[[Policzona Szama]]"
-published: 2023-12-27
-created: 2025-05-22
-description: W tym odcinku Policzonej Szamy przygotowujemy mini calzone z nadzieniem chicken mayo, prezentując szybką (10+10 minut), imprezową propozycję z przyzwoitym makro, którą można włączyć do codziennego jadłospisu.
-category: Fitness
-length: 1249
-tags:
-  - Summaries/Przepisy
----
-
-
 ***
 
 ### **Witajcie w Policzonej Szamie! Chicken Mayo Mini Calzones**

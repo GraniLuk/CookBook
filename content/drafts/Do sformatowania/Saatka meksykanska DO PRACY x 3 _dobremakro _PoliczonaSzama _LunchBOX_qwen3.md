@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "**Składniki**"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: "Sałatka meksykańska DO PRACY x 3    #dobremakro #PoliczonaSzama #LunchBOX"
-source: https://www.youtube.com/watch?v=JYJcXKQ7kQ0
-author:
-  - "[[Policzona Szama]]"
-published: 2023-11-23
-created: 2025-05-22
-description: Poradnik kulinarski na przygotowanie trzech lunchboxów z mega sałatką z kurczakiem, ryżem brązowym, konserwowaną kukurydzą, czerwoną fasolą, pomidorkami cherry i pikantnym sosem, wraz z wskazówkami technicznymi, notatkami i informacjami o subskrypcji.
-category: Fitness
-length: 338
-tags:
-  - Summaries/Przepisy
----
-
-
 **Składniki**  
 - **Ryż brązowy** (uzyskaj informacje o ilości i sposobie gotowania)  
 - **Pierś z kurczaka** (większe kawałki, obrabiasz na parze)  

@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:21-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: BIG KEBAB w CIEŚCIE - 50 cm FIT ROLLO
-source: https://www.youtube.com/watch?v=8KQ_aacwYMc
-author:
-  - "[[Policzona Szama]]"
-published: 2024-08-01
-created: 2025-05-18
-description: Film prezentuje szczegółowy przepis na "giga fit kebab" o imponujących wymiarach i korzystnym makro (100 g białka), omawiając przygotowanie mięsa z kurczaka, domowych sosów (łagodnego i ostrego), świeżej surówki, a także wykorzystanie chlebków arabskich i promowanie nowych produktów kanału Policzonej Szamy.
-category: Fitness
-length: 1674
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 **Powitanie i Wprowadzenie do Giga Kebaba**

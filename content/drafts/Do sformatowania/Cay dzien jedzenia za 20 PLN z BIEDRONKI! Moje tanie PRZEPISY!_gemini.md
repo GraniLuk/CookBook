@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:21-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Cały dzień jedzenia za 20 PLN z BIEDRONKI! Moje tanie PRZEPISY!
-source: https://www.youtube.com/watch?v=i6HGL7LB8L8
-author:
-  - "[[Michał Wrzosek]]"
-published: 2025-07-14
-created: 2025-07-15
-description: Filmik szczegółowo przedstawia proces przygotowania trzech pełnowartościowych posiłków na cały dzień (2200 kcal, ponad 150 g białka) z produktów zakupionych w Biedronce za mniej niż 20 zł, skupiając się na efektywności czasowej i zdrowych nawykach żywieniowych.
-category: Fitness
-length: 1409
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 ### **Cały Dzień Jedzenia z Biedronki za Mniej niż 20 Zł**

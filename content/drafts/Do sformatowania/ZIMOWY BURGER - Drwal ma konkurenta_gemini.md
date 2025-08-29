@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:23-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: ZIMOWY BURGER - Drwal ma konkurenta
-source: https://www.youtube.com/watch?v=ZD7tRGS-ycE
-author:
-  - "[[Policzona Szama]]"
-published: 2022-12-11
-created: 2025-05-24
-description: Prezentacja przepisu i procesu przygotowania autorskiego zimowego burgera z sosem żurawinowym, oscypkiem i wołowiną, wraz z degustacją i porównaniem do wcześniejszej receptury "drwala".
-category: Fitness
-length: 1232
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 **Witajcie w Policzonej Szamie: Zimowy Burger**

@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "***"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Domowe BAJGLE
-source: https://www.youtube.com/watch?v=xPXURisaVRc
-author:
-  - "[[Policzona Szama]]"
-published: 2024-02-26
-created: 2025-05-22
-description: Odcinek **Policzonej Szamy** przedstawia przepis na domowe bajgle z charakterystyczną skórką uzyskaną dzięki obgotowaniu, wraz z trzema propozycjami ich podania na różne posiłki.
-category: Fitness
-length: 1570
-tags:
-  - Summaries/Przepisy
----
-
-
 ***
 
 **Wstęp**

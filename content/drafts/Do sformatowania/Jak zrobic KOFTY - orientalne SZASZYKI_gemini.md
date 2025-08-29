@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "***"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Jak zrobić KOFTY - orientalne SZASZŁYKI
-source: https://www.youtube.com/watch?v=9LiAsVHJ4ag
-author:
-  - "[[Policzona Szama]]"
-published: 2024-06-25
-created: 2025-05-19
-description: Opis przygotowania orientalnych szaszłyków wołowych (kofta) i sałatki tabbouleh na grilla, z dokładnym przedstawieniem składników, procesu wykonania i uwagami autora.
-category: Fitness
-length: 1257
-tags:
-  - Summaries/Przepisy
----
-
-
 ***
 
 **Wstęp i Zapowiedź**

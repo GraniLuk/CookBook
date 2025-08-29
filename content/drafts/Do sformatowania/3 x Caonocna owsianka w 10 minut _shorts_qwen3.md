@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "==="
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:21-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: "3 x Całonocna owsianka w 10 minut #shorts"
-source: https://www.youtube.com/watch?v=mvHD2-nm_F8
-author:
-  - "[[Policzona Szama]]"
-published: 2022-11-28
-created: 2025-05-24
-description: Rewelacyjna całonocna owsianka bananowo-cynamonowa, niesamowicie kremowa, przygotowana w 10 minut bez gotowania, z doskonałymi makro, idealna na szybki obiad lub kolację.
-category: Fitness
-length: 276
-tags:
-  - Summaries/Przepisy
----
-
-
 ===  
 **SKŁADNIKI**  
 - **2 banany** (obrute i przerzucone od razu do robota)  

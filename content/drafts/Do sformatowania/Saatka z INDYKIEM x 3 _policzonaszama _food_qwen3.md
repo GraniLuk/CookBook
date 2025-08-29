@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "**PRZEPIS NA SAŁATKĘ Z INDYKIEM**"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: "Sałatka z INDYKIEM x 3 #policzonaszama #food"
-source: https://www.youtube.com/watch?v=mC7iAtejtyc
-author:
-  - "[[Policzona Szama]]"
-published: 2024-04-23
-created: 2025-05-19
-description: Przepis na smaczna sałatke z indykiem, która można spożywać na różne sposoby, w tym jako kanapki, z makaronem lub jako zdrową opcję na świąteczne posiłki, wraz z szczegółowym opisem składników i sposobem przygotowania sosu.
-category: Fitness
-length: 246
-tags:
-  - Summaries/Przepisy
----
-
-
 **PRZEPIS NA SAŁATKĘ Z INDYKIEM**  
 **Składniki**  
 - **Pierś z indyka** – w dużych kawałkach, obrobiona na parze, pokrojona na małe kostki, doprawiona solą.  

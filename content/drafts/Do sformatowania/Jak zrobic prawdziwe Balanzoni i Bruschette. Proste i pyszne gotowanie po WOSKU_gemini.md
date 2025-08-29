@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Jak zrobić prawdziwe Balanzoni i Bruschettę. Proste i pyszne gotowanie po WŁOSKU
-source: https://www.youtube.com/watch?v=iMOyfkI5cmY
-author:
-  - "[[Policzona Szama]]"
-published: 2022-11-14
-created: 2025-05-24
-description: Ten wyjątkowy odcinek na kanale, zrealizowany we współpracy z Italian Trade Agency w ramach VII edycji Tygodnia Kuchni Włoskiej na Świecie, przedstawia wspólne gotowanie klasycznych włoskich dań, bruschetty i balanzoni, z użyciem certyfikowanych produktów DOP/ChNP, prowadzone przez Mateusza i szefową kuchni Cristinę Catese.
-category: Fitness
-length: 1146
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 # Wprowadzenie i Kontekst Odcinka

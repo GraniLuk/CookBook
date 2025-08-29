@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Najlepsza Karkówka po CYGAŃSKU - SUPER SOS
-source: https://www.youtube.com/watch?v=5MZMIXpYfW4
-author:
-  - "[[Policzona Szama]]"
-published: 2022-09-25
-created: 2025-05-24
-description: Przepis wideo na przygotowanie karczku wieprzowego po cygańsku, obejmujący marynowanie mięsa, grillowanie go w piekarniku, przygotowanie warzyw i sosu, a następnie zapiekanie całości w piekarniku, wraz ze wskazówkami dotyczącymi optymalizacji czasu i energii oraz podziału na porcje.
-category: Fitness
-length: 1328
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 **Wstęp i Prezentacja Dania**

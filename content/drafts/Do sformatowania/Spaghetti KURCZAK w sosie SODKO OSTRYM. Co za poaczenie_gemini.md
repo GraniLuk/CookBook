@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:23-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Spaghetti KURCZAK w sosie SŁODKO OSTRYM. Co za połączenie😮🍌🍎
-source: https://www.youtube.com/watch?v=UYd18g_WVsI
-author:
-  - "[[Policzona Szama]]"
-published: 2022-01-30
-created: 2025-07-16
-description: Autor przedstawia szczegółowy przepis na słodko-ostrego kurczaka z bananem i jabłkiem, podawanego ze spaghetti, podkreślając jego łatwość przygotowania, wartości odżywcze i idealne dopasowanie do lunchboxów.
-category: Fitness
-length: 1293
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 # Przepis na Kurczaka w Sosie Słodko-Ostrym z Bananem i Jabłkiem

@@ -1,19 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Przepis na wysokowęglowodanowe ciasto z daktyli
-source: https://www.youtube.com/watch?v=lE4aJYZU09c
-author:
-  - "[[Michał Wrzosek]]"
-published: 2025-04-15
-created: 2025-04-17
-description: Ten tekst opisuje przepis na wysokowęglowodanowe ciasto, idealne dla osób trenujących, z użyciem daktyli, mleka, jajek i innych składników, a także informuje o czasie pieczenia.
-category: Fitness
-length: 362
-tags:
-  - Summaries/Przepisy
-  - CiastoNaCF3m
----
-
-
 ---
 
 ### Przepis na Pyszne i Wysokowęglowodanowe Ciasto

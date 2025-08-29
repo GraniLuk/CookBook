@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "***"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:23-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: SHOARMA z kurczaka - Idealna KOLACJA dla dwojga. Zestaw a’la SPHINX
-source: https://www.youtube.com/watch?v=ou8d41WFfzw
-author:
-  - "[[Policzona Szama]]"
-published: 2022-10-13
-created: 2025-05-24
-description: Film prezentuje szczegółowy przepis na domową shoarmę a'la Sphinx, obejmujący przygotowanie bułeczek pita z kieszonką, trzech różnych sosów (łagodnego, czosnkowego i meksykańskiego) oraz soczystego, doprawionego mięsa z kurczaka, z instrukcjami dotyczącymi składników, procesu i serwowania.
-category: Fitness
-length: 1748
-tags:
-  - Summaries/Przepisy
----
-
-
 ***
 
 ### **Witajcie w Policzonej Szamie: Shoarma a'la Sphinx**

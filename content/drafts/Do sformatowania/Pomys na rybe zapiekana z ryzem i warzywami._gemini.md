@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "***"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Pomysł na rybę zapiekaną z ryżem i warzywami.
-source: https://www.youtube.com/watch?v=FOp-k7L-V0Y
-author:
-  - "[[Policzona Szama]]"
-published: 2021-12-21
-created: 2025-07-16
-description: Przepis przedstawia sposób przygotowania prostego i szybkiego dania z zapiekanego fileta rybnego (np. dorsza lub halibuta) z warzywami i ryżem, podanego w niezwykle smakowej zalewie, idealnego nawet dla osób nieprzepadających za rybami.
-category: Fitness
-length: 1052
-tags:
-  - Summaries/Przepisy
----
-
-
 ***
 
 ## Witam w Policzonej Szamie: Ryba Zapiekana w Warzywach z Ryżem

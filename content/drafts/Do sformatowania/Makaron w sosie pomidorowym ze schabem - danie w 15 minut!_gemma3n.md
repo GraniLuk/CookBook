@@ -1,17 +1,21 @@
+﻿---
+draft: true
+title: "DESKRYPCJA:"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Makaron w sosie pomidorowym ze schabem - danie w 15 minut!
-source: https://www.youtube.com/watch?v=rdScTUc6ltM
-author:
-  - "[[Policzona Szama]]"
-published: 2025-07-17
-created: 2025-07-17
-description: No description available
-category: Fitness
-length: 277
-tags:
-  - Summaries/Przepisy
----
-
 DESKRYPCJA:
 Tekst zawiera przepis na szybkie i proste danie z makaronem, schabem i pomidorowym sosem, z instrukcjami dotyczącymi przygotowania i podania.
 

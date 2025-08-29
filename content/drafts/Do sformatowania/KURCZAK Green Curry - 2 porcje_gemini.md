@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: KURCZAK Green Curry - 2 porcje
-source: https://www.youtube.com/watch?v=zlV-lx2cuts
-author:
-  - "[[Policzona Szama]]"
-published: 2022-12-01
-created: 2025-05-24
-description: Tekst opisuje szczegółowy proces przygotowania pikantnego i aromatycznego kurczaka w sosie Green Curry w prawdziwym woku, prezentując składniki, etapy gotowania oraz informacje o używanym sprzęcie i wartościach odżywczych.
-category: Fitness
-length: 1335
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 **Witajcie i Wprowadzenie do Dania**

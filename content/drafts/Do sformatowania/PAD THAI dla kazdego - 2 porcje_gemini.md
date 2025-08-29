@@ -1,19 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: PAD THAI dla każdego - 2 porcje
-source: https://www.youtube.com/watch?v=QnNP5iDxoJ4
-author:
-  - "[[Policzona Szama]]"
-published: 2022-06-01
-created: 2025-06-22
-description: Ten tekst przedstawia szczegółowy przepis na Pad Thai dla dwóch osób, obejmujący listę składników, instrukcje przygotowania oraz wskazówki dotyczące gotowania, z zachowaniem entuzjastycznego i osobistego tonu.
-category: Fitness
-length: 1418
-tags:
-  - Summaries/Przepisy
-  - PrzepisDlaGości
----
-
-
 ---
 
 # Pad Thai: Tajska Legenda Street Foodu

@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "***"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:21-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: 4 sposoby na placki - FIT FAST FOOD
-source: https://www.youtube.com/watch?v=GU3JxVQzbYI
-author:
-  - "[[Policzona Szama]]"
-published: 2021-10-17
-created: 2025-07-24
-description: Ten dokument zawiera szczegółowy opis czterech prostych, szybkich i pożywnych przepisów z wykorzystaniem pszennych placków (piady włoskiej i spodu do pizzy), zaprezentowanych w odcinku programu „Policzona Szama”, z uwzględnieniem składników, sposobu przygotowania oraz wartości odżywczych.
-category: Fitness
-length: 1443
-tags:
-  - Summaries/Przepisy
----
-
-
 ***
 
 ### **Wstęp: Witajcie w Policzonej Szamie!**

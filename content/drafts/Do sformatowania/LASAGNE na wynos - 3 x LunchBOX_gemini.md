@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "**Wprowadzenie do Fit Lazanii Jesiennej**"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: LASAGNE na wynos - 3 x LunchBOX
-source: https://www.youtube.com/watch?v=eMlE7F2e5XM
-author:
-  - "[[Policzona Szama]]"
-published: 2024-09-26
-created: 2025-05-17
-description: Przepis na rozgrzewającą Fit Lazanię w jesiennym wydaniu z dynią i cukinią, charakteryzującą się wysoką zawartością białka i rewelacyjnym smakiem, możliwą do przygotowania z łatwo dostępnych składników.
-category: Fitness
-length: 1238
-tags:
-  - Summaries/Przepisy
----
-
-
 **Wprowadzenie do Fit Lazanii Jesiennej**
 
 Witam serdecznie na kanale Policzona Szama. Dziś przygotowujemy **Fit Lazanię** w jesiennym wydaniu. Powstaną **trzy niesamowicie wykręcone porcje**, z których **każda zawiera 50 g białka**. Składniki i ich proporcje zostały dobrane w taki sposób, że uzyskujemy **całkiem przyzwoite wartości tłuszczów**, a co najważniejsze – **rewelacyjny smak**. To wszystko idzie w parze ze **świetnymi makrosami**.

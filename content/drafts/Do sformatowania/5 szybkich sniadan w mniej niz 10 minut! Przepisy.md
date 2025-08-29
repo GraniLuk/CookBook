@@ -1,17 +1,21 @@
+﻿---
+draft: true
+title: "**OPIS:** Prezentacja pięciu przepisów na szybkie (poniżej 10 minut) i zbilansowane (około 500 ka..."
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:21-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: 5 szybkich śniadań w mniej niż 10 minut! Przepisy
-source: https://www.youtube.com/watch?v=T5Wfu7UhZg0
-author:
-  - "[[Michał Wrzosek]]"
-published: 2024-12-09
-created: 2025-04-25
-description: No description available
-category: Fitness
-length: 1198
-tags:
-  - Summaries/Przepisy
----
-
 **OPIS:** Prezentacja pięciu przepisów na szybkie (poniżej 10 minut) i zbilansowane (około 500 kalorii) śniadania, przedstawiona przez żonę dietetyka, wraz z osobistymi anegdotami i wzmianką o metodzie odchudzania Respo.
 
 ---

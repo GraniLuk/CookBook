@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:21-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: BUTTER CHICKEN - LunchBOX na 3 dni
-source: https://www.youtube.com/watch?v=A8UuuiSs0SI
-author:
-  - "[[Policzona Szama]]"
-published: 2022-04-08
-created: 2025-07-15
-description: Ten odcinek Policzonej Szamy prezentuje przepis na indyjski klasyk – Butter Chicken, oferując aromatyczne danie o aksamitnym sosie, zoptymalizowane pod kątem makroskładników i przygotowane w trzech porcjach do lunchboxów, z uwzględnieniem szczegółowych instrukcji i promocji akcesoriów kuchennych.
-category: Fitness
-length: 1134
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 ### **Witajcie w Policzonej Szamie: Butter Chicken – Indyjski Klasyk!**

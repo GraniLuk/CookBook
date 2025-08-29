@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "***"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Jak zrobić Domowy SCHAB + super kanapki
-source: https://www.youtube.com/watch?v=d71Nd3lS2Ok
-author:
-  - "[[Policzona Szama]]"
-published: 2023-10-22
-created: 2025-05-23
-description: Szczegółowy przepis na domowy pieczony schab wieprzowy, idealny jako wędlina do kanapek, wraz z instrukcją przygotowania i składania "mega kanapek" z wykorzystaniem tego schabu, sosu tatarskiego Kielecki i innych dodatków.
-category: Fitness
-length: 1491
-tags:
-  - Summaries/Przepisy
----
-
-
 ***
 
 **Wprowadzenie do Policzonej Szamy**

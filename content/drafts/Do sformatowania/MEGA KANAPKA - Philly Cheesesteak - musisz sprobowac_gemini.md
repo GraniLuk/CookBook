@@ -1,19 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: MEGA KANAPKA - Philly Cheesesteak - musisz spróbować
-source: https://www.youtube.com/watch?v=jG1d6moOJow
-author:
-  - "[[Policzona Szama]]"
-published: 2022-07-07
-created: 2025-06-22
-description: Przepis przedstawia szczegółowy proces przygotowania domowej kanapki Philly Cheesesteak, krok po kroku omawiając składniki, techniki obróbki mięsa i warzyw, tworzenie sosu serowego oraz montaż dania, z naciskiem na zachowanie smaku przy jednoczesnej optymalizacji wartości odżywczych.
-category: Fitness
-length: 1216
-tags:
-  - PrzepisDlaGości
-  - Summaries/Przepisy
----
-
-
 ---
 
 ### **Wstęp: Niesamowita Kanapka Philly Cheesesteak**

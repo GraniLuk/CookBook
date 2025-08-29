@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "***"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:21-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: 4 sposoby na KURCZAKA z dobrym MAKRO
-source: https://www.youtube.com/watch?v=wFgjuZzQpGk
-author:
-  - "[[Policzona Szama]]"
-published: 2021-12-15
-created: 2025-07-16
-description: Ten odcinek prezentuje cztery szybkie (15-20 minut) i zdrowe przepisy na dania z kurczakiem, wykorzystujące proste składniki oraz autorskie mieszanki przypraw Policzonej Szamy, zoptymalizowane pod kątem wartości makroskładników.
-category: Fitness
-length: 1939
-tags:
-  - Summaries/Przepisy
----
-
-
 ***
 
 Witajcie moi drodzy widzowie w kolejnym wyjątkowym odcinku **Policzonej Szamy**! Dzisiaj zobaczycie cztery przepisy na cztery super dania z kurczakiem.

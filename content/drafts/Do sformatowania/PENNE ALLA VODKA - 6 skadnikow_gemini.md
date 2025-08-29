@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: PENNE ALLA VODKA - 6 składników
-source: https://www.youtube.com/watch?v=r1r0XpkIGBI
-author:
-  - "[[Policzona Szama]]"
-published: 2025-06-25
-created: 2025-06-25
-description: Przepis z kanału "Policzona Szama" na makaron penne ala wódka, szczegółowo wyjaśniający rolę wódki jako emulgatora i wzmacniacza smaku, proces przygotowania, składniki oraz bezpieczne spożycie, potwierdzone testem alkomatem.
-category: Fitness
-length: 1559
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 ### **Wstęp: Penne Ala Wódka – Odkrycie Smaku**

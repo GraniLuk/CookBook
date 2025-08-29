@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Placki ziemniaczane BEZ SMAŻENIA
-source: https://www.youtube.com/watch?v=xqcYGroOdj8
-author:
-  - "[[Policzona Szama]]"
-published: 2022-03-03
-created: 2025-07-15
-description: Film przedstawia szczegółowy przepis na placki ziemniaczane pieczone w piekarniku lub smażone na patelni, bez głębokiego tłuszczu, z uwzględnieniem dokładnych proporcji, technik przygotowania i porównania efektów końcowych.
-category: Fitness
-length: 1109
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 ### **Wstęp: Placki Ziemniaczane Bez Smażenia**

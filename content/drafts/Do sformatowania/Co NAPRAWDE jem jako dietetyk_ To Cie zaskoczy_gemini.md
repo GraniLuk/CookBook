@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "**Przepis 4: Makaron z Ricottą i Owocami (Na Słodko)**"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:21-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Co NAPRAWDĘ  jem jako dietetyk? To Cię zaskoczy 🍕
-source: https://www.youtube.com/watch?v=tOjiV2jVmRE
-author:
-  - "[[Michał Wrzosek]]"
-published: 2024-07-23
-created: 2025-05-20
-description: No description available
-category: Fitness
-length: 1790
-tags:
-  - Summaries/Przepisy
----
-
-
 **Przepis 4: Makaron z Ricottą i Owocami (Na Słodko)**
 
 Czas zrobić coś **na słodko**.

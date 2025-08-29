@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "***"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: DIETA ŚRÓDZIEMNOMORSKA NA 3 DNI - 2500 kcal
-source: https://www.youtube.com/watch?v=prsZbulipCk
-author:
-  - "[[Policzona Szama]]"
-published: 2025-08-05
-created: 2025-08-06
-description: Mateusz Mroczek przedstawia w odcinku serii „Policzona Szama” cztery przepisy na trzydniowe posiłki w stylu diety śródziemnomorskiej, o wartości 2500 kcal i zbilansowanym makro, szczegółowo omawiając ich przygotowanie i zalety.
-category: Fitness
-length: 2184
-tags:
-  - Summaries/Przepisy
----
-
-
 ***
 
 ### **Wstęp: Witamy w "Policzonej Szamie" – Dieta Śródziemnomorska na 2500 kcal**

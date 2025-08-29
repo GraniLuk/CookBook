@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:23-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Zdrowe nuggetsy od dietetyka
-source: https://www.youtube.com/watch?v=uhP0k2qBLHg
-author:
-  - "[[Michał Wrzosek]]"
-published: 2025-06-17
-created: 2025-06-18
-description: Ten tekst opisuje prosty przepis na przygotowanie pysznych i zdrowych nuggetów, w którym używa się ziemniaków, pierzchniętego kurczaka, sera, cebuli, czosnku i innych składników.
-category: Fitness
-length: 312
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 **Przepis na Pyszne i Zdrowe Nuggetsy – Krok po Kroku**

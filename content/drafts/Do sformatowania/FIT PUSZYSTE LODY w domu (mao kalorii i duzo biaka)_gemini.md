@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: FIT PUSZYSTE LODY w domu (mało kalorii i dużo białka)
-source: https://www.youtube.com/watch?v=XNzn954S4ug
-author:
-  - "[[Policzona Szama]]"
-published: 2022-06-30
-created: 2025-06-22
-description: Odcinek przedstawia przepis na domowe, proteinowe i dietetyczne lody inspirowane smakami Big Milk Trio, wykonane bez odżywki białkowej, z wykorzystaniem jogurtów typu Skyr oraz specjalnej techniki mrożenia i miksowania, zapewniającej puszystą strukturę.
-category: Fitness
-length: 1203
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 # Wstęp: Rewolucyjne Lody Proteinowe "Policzona Szama"

@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "***"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:21-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: 3 FIT Śniadania na słodko
-source: https://www.youtube.com/watch?v=wmM49OvW780
-author:
-  - "[[Policzona Szama]]"
-published: 2024-03-25
-created: 2025-05-19
-description: Ten odcinek "Policzonej Szamy" prezentuje trzy proste, słodkie i wysokobiałkowe przepisy fit na tosty/placek z opiekacza, omlet marchewkowo-jabłkowy oraz mini racuchy/serniczki z patelni, często wykorzystujące produkty bio Stovit słodzone ksylitolem lub o obniżonej zawartości cukru, we współpracy z Europejskim Funduszem Rolnym.
-category: Fitness
-length: 1285
-tags:
-  - Summaries/Przepisy
----
-
-
 ***
 
 **Wstęp i Kontekst Odcinka**

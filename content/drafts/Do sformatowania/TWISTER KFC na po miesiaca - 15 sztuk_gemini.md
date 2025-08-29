@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:23-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: TWISTER KFC na pół miesiąca - 15 sztuk
-source: https://www.youtube.com/watch?v=1Q6_Gvsri9k
-author:
-  - "[[Policzona Szama]]"
-published: 2022-08-29
-created: 2025-05-24
-description: W tym odcinku prezentowany jest szczegółowy przepis na przygotowanie 15 domowych twisterów z dobrym makro, które posłużą jako wygodne posiłki na dwa tygodnie, wraz z opisem składników, sposobu wykonania, przechowywania i degustacją.
-category: Fitness
-length: 1657
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 **Powitanie i Wprowadzenie**

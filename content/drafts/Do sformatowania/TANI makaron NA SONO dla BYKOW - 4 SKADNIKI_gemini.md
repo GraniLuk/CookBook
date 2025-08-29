@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:23-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: TANI makaron NA SŁONO dla BYKÓW - 4 SKŁADNIKI
-source: https://www.youtube.com/watch?v=pEpBn0cBm6g
-author:
-  - "[[Policzona Szama]]"
-published: 2022-11-03
-created: 2025-05-24
-description: Film prezentuje przepis na tanie, pożywne i proste w przygotowaniu "inflacyjne" danie z makaronu, wędzonego boczku, cebuli i twarogu, podkreślając oszczędność i smak.
-category: Fitness
-length: 1108
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 **Wprowadzenie: Danie Inflacyjne**

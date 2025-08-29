@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "***"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: JEDNOGARNKOWE posiłki na wynos - pomysły do LunchBOX
-source: https://www.youtube.com/watch?v=7js_OwaaDCQ
-author:
-  - "[[Policzona Szama]]"
-published: 2023-10-12
-created: 2025-05-23
-description: Film przedstawia przygotowanie dwóch różnych, łatwych do podgrzania jednogarnkowych posiłków (pikantnej potrawki z kurczakiem i sycącego makaronu ze schabem) na weekendową zasiadkę wędkarską, demonstrując praktyczne zastosowanie technik kulinarnych prezentowanych na kanale.
-category: Fitness
-length: 1448
-tags:
-  - Summaries/Przepisy
----
-
-
 ***
 
 **Wstęp i Założenia Posiłków**

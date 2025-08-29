@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Pysznie po studencku - SZYNKA &amp; SER i dziękuję, dobranoc.
-source: https://www.youtube.com/watch?v=7kRUxzjkp6k
-author:
-  - "[[Policzona Szama]]"
-published: 2021-10-07
-created: 2025-07-24
-description: Ten materiał to szczegółowy, humorystyczny przewodnik po przygotowaniu dania „ham and cheese”, czyli makaronu z szynką i serem, w którym autor krok po kroku przedstawia składniki, opisuje proces gotowania oraz dzieli się praktycznymi uwagami i spostrzeżeniami dotyczącymi smaku, tekstury i wartości odżywczych potrawy.
-category: Fitness
-length: 639
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 # Wstęp

@@ -1,17 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:21-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: 7 NAJZDROWSZYCH OBIADÓW! Co poleca dietetyk?
-source: https://www.youtube.com/watch?v=9PRbSa9c1pk
-author:
-  - "[[Michał Wrzosek]]"
-published: 2025-01-14
-created: 2025-04-09
-description: Dietetyk Michał Wrzosek przedstawia siedem tanich, łatwych, szybkich, sycących i smacznych przepisów na zdrowe obiady, w tym opcje mięsne, wegetariańskie i wegańskie, wraz z poradami i ciekawostkami.
-tags:
-  - Summaries/Przepisy
-category: Fitness
----
-
-
 ---
 
 **Wprowadzenie: Odmień Swoje Obiadowe Rutyny**

@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Pyszna Chili z wołowiną z Instant Pot, szybkowar elektryczny / Chili in Instant Pot
-source: https://www.youtube.com/watch?v=ul_2SDRex5w
-author:
-  - "[[Iwona Piotrowski (Instant Pot po polsku)]]"
-published: 2020-12-31
-created: 2025-07-02
-description: Film przedstawia szczegółowy przepis na przygotowanie bogatej w składniki, kolorowej i pikantnej potrawy chili con carne w szybkowarze Instant Pot, z zachowaniem wszystkich etapów, od przygotowania składników po gotowanie i serwowanie.
-category: News
-length: 811
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 ### **Wprowadzenie**

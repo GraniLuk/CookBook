@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Jednogarnkowa zapiekanka z indykiem
-source: https://www.youtube.com/watch?v=DGckTrObfgk
-author:
-  - "[[Policzona Szama]]"
-published: 2025-03-10
-created: 2025-05-17
-description: Przepis na jednogarnkową zapiekankę z indykiem i kremowym makaronem, przedstawiony w formie instrukcji krok po kroku z zachowaniem humoru, narracji i praktycznych porad.
-category: Fitness
-length: 337
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 ## **Wstęp: Jednogarnkowa Zapiekanka – Dwa w Jednym**

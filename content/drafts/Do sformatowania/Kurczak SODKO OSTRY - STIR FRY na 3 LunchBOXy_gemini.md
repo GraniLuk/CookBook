@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Kurczak SŁODKO OSTRY - STIR FRY na 3 LunchBOXy
-source: https://www.youtube.com/watch?v=fRKBzBIhPdo
-author:
-  - "[[Policzona Szama]]"
-published: 2023-04-19
-created: 2025-05-23
-description: Przepis na rewelacyjnego, słodko-pikantno-kwaśnego kurczaka stir fry z ananasem na 3 porcje, przygotowywanego na woku, z dokładnym omówieniem składników i procesu gotowania.
-category: Fitness
-length: 1371
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 **Wprowadzenie: Przygotowanie Kurczaka Stir Fry z Ananasem**

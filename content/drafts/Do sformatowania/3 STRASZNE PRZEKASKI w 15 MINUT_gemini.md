@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:21-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: 3 STRASZNE PRZEKĄSKI w 15 MINUT
-source: https://www.youtube.com/watch?v=xHEQTMuuxdg
-author:
-  - "[[Policzona Szama]]"
-published: 2024-10-23
-created: 2025-05-17
-description: Przepis na trzy szybkie, proste i efektowne halloweenowe przekąski – hot dogi mumie, kosmiczne burgery potwory i mini pizzerinki duszki – przygotowywane głównie przy użyciu frytkownicy beztłuszczowej (Air Fryer).
-category: Fitness
-length: 1112
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 **Wstęp Halloweenowy i Szybkie Przekąski**

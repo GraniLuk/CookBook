@@ -1,17 +1,21 @@
+﻿---
+draft: true
+title: "# Śniadanie do Łóżka – Historia i Realizacja"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:23-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Śniadanie do łóżka dla doktora dietetyki - co sobie zażyczyłem?
-source: https://www.youtube.com/watch?v=uAf2UGEE6FE
-author:
-  - "[[Michał Wrzosek]]"
-published: 2025-07-11
-created: 2025-07-13
-description: No description available
-category: Fitness
-length: 289
-tags:
-  - Summaries/Przepisy
----
-
 ## Śniadanie do Łóżka – Historia i Realizacja
 
 **Wstęp:**

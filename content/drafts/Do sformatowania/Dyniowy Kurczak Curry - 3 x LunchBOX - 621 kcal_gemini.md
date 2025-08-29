@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "***"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Dyniowy Kurczak Curry - 3 x LunchBOX - 621 kcal
-source: https://www.youtube.com/watch?v=0t1TNUMGD8w
-author:
-  - "[[Policzona Szama]]"
-published: 2023-10-01
-created: 2025-05-23
-description: Ten odcinek Policzonej Szamy prezentuje przepis na trzy sycące, rozgrzewające i łatwe w przygotowaniu lunch boxy z kurczakiem w gęstym sosie dyniowym curry, idealne na jesienne dni.
-category: Fitness
-length: 964
-tags:
-  - Summaries/Przepisy
----
-
-
 ***
 
 **Policzona Szama: Top Jesieni - Lunch Boxy z Kurczakiem i Sosem Dyniowym Curry**

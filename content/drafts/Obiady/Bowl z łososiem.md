@@ -1,32 +1,21 @@
----
+﻿---
 draft: true
-title: "Bowl z Łososiem"
-author: "Granica"
-recipe_image: images/defaultImage.png
-date: 2025-08-29T12:00:00-00:00
-categories: ["obiady"]
-subcategories: ["szybkie"]
-tags: ["łosoś", "bowl"]
-tagline: "Szybki, kolorowy bowl z łososiem, ryżem i świeżymi warzywami w sezamowo-sojowej nucie."
-servings: 1
-prep_time: 10
+title: "# Składniki"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:23-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
 cook: true
-cook_time: 15
-calories: 872
-protein: 40.3
-fat: 36.5
-carbohydrate: 96.4
-link: "https://youtu.be/OOEN1F9s4c8?t=534"
-fodmap:
-  status: "depends"
-  serving_ok: "OK po modyfikacjach: awokado maks. ~30 g; wybierz tamari/bezglutenowy sos sojowy."
-  notes: "Bezpieczne: łosoś, ryż, marchew, ogórek, szpinak, olej sezamowy. Awokado zawiera sorbitol — większe porcje (>45 g) są wysokofodmapowe. Sos sojowy w małej ilości jest low FODMAP; przy nietolerancji glutenu użyj tamari."
-  substitutions:
-    - "Awokado 80 g -> 30 g lub zamień na ogórka/cukinię"
-    - "Sos sojowy -> tamari (bezglutenowe)"
-    - "Opcjonalnie dodaj szczypiorek (zielona część) dla aromatu — low FODMAP"
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-
 ## Składniki
 - 140 g filetu z łososia, bez skóry
 - Ryż biały (suchy) 100 g (po ugotowaniu ok. 280–320 g)

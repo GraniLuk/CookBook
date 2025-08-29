@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:23-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Zapiekane NALEŚNIKI z MIĘSEM i pieczarkami.
-source: https://www.youtube.com/watch?v=WPpSSGgjMYg
-author:
-  - "[[Policzona Szama]]"
-published: 2023-03-06
-created: 2025-05-23
-description: Ten odcinek Policzonej Szamy Retro prezentuje przepis z lat dziewięćdziesiątych na tanie, proste i domowe naleśniki z rewelacyjnym farszem mięsno-pieczarkowym, idealne do zapiekania.
-category: Fitness
-length: 1307
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 ### **Wstęp i Przedstawienie Tematu**

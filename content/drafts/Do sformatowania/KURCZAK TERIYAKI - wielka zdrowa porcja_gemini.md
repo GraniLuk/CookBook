@@ -1,19 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: KURCZAK TERIYAKI - wielka zdrowa porcja
-source: https://www.youtube.com/watch?v=r9upjiK0zxU
-author:
-  - "[[Policzona Szama]]"
-published: 2022-06-17
-created: 2025-06-22
-description: Przepis kulinarny na przygotowanie „Mega Michy” – dużego, pożywnego posiłku w azjatyckim stylu, składającego się z kurczaka teriyaki, fasolki szparagowej, ryżu, ananasa i awokado, z naciskiem na łatwość wykonania, wartości odżywcze i możliwość podziału na dwie porcje.
-category: Fitness
-length: 1132
-tags:
-  - PrzepisDlaGości
-  - Summaries/Przepisy
----
-
-
 ---
 
 # **Policzona Szama: Przepis na „Mega Michę”**

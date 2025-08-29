@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: POSIŁKI z AIR FRYER - Wakacyjne Pomysły do AirFry
-source: https://www.youtube.com/watch?v=mIx5JzDz1EA
-author:
-  - "[[Policzona Szama]]"
-published: 2024-06-10
-created: 2025-05-19
-description: Ten odcinek „Policzonej Szamy” prezentuje letnie, grillowe posiłki przygotowane w air fryerze – od śniadaniowej pity gyros, przez ćevapčići z warzywami i ajvarem, aż po klasyczną kolację z rybą, frytkami i colesławem, uzupełnione o shake przedtreningowy, wszystko z dokładnym opisem przygotowania, składników, makroskładników oraz osobistymi wrażeniami prowadzącego.
-category: Fitness
-length: 746
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 ## **Wstęp: Letni Odcinek Policzonej Szamy**

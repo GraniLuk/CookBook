@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: ROSÓŁ od A do Z - cudowny WYWAR i napój BOGÓW
-source: https://www.youtube.com/watch?v=v4IZxeOCFss
-author:
-  - "[[Policzona Szama]]"
-published: 2022-09-08
-created: 2025-05-24
-description: Tekst opisuje szczegółowy proces przygotowywania esencjonalnego, klarownego rosołu mięsno-warzywnego, omawiając dobór składników, etapy gotowania oraz przyszłe zastosowania wywaru i pozostałych po gotowaniu elementów, z zachowaniem osobistego tonu i humoru autora.
-category: Fitness
-length: 1730
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 **Poranny Start i Definicja Rosołu**

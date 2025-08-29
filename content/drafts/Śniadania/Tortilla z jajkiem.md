@@ -1,15 +1,21 @@
+﻿---
+draft: true
+title: "![[Pasted image 20250823073929.png]]"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:23-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Tortilla z jajkiem
-book: Granica
-tags:
-  - Śniadanie
-  - DoZrobienia
-servings: 3
-active_time: 10 minut
-total_time: 15 minut
-image: "[[Pasted image 20250823073929.png]]"
----
-
 ![[Pasted image 20250823073929.png]]
 
 #ingredients 

@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "***"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Jak smażyć KARPIA - Jak przygotować, patroszenie. Karp w panierce
-source: https://www.youtube.com/watch?v=4ilWa6_ha9E
-author:
-  - "[[Policzona Szama]]"
-published: 2023-12-16
-created: 2025-05-22
-description: Kompleksowy przewodnik po przygotowaniu karpia na Wigilię, obejmujący patroszenie, krojenie, marynowanie w mleku z cebulą, panierowanie i smażenie, z praktycznymi wskazówkami na uzyskanie soczystego mięsa bez zapachu mułu oraz informacjami o makro.
-category: Fitness
-length: 1722
-tags:
-  - Summaries/Przepisy
----
-
-
 ***
 
 ### **Wstęp: Przygotowanie Karpia od A do Z na Święta**

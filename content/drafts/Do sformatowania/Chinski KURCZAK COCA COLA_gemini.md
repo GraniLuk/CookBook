@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "***"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:21-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Chiński KURCZAK COCA COLA
-source: https://www.youtube.com/watch?v=yZSDkjOC4X8
-author:
-  - "[[Policzona Szama]]"
-published: 2024-02-11
-created: 2025-05-22
-description: Przepis na azjatyckiego kurczaka coca-cola chicken, wyjaśnienie konceptu dania, lista składników, szczegółowe instrukcje przygotowania, od gotowania ryżu i brokułów po smażenie kurczaka, sauté aromatycznych dodatków, redukcję sosu na bazie Coca-Coli z winem i przyprawami, oraz wskazówki dotyczące podania i degustacji.
-category: Fitness
-length: 1344
-tags:
-  - Summaries/Przepisy
----
-
-
 ***
 
 **Policzona Szama: Coca-Cola Chicken - Przepis**

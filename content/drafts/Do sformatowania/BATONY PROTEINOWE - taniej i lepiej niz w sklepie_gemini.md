@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:21-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: BATONY PROTEINOWE - taniej i lepiej niż w sklepie
-source: https://www.youtube.com/watch?v=OmL2ry--rGo
-author:
-  - "[[Policzona Szama]]"
-published: 2022-07-24
-created: 2025-06-22
-description: Przepis przedstawia szczegółowe instrukcje przygotowania domowych batonów proteinowo-energetycznych, podkreślając ich zalety w porównaniu do produktów sklepowych, omawiając składniki, proces wykonania, a także wskazówki dotyczące przechowywania.
-category: Fitness
-length: 901
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 # **Proteinowe Batony Energetyczne 2.0: Ulepszona Formuła**

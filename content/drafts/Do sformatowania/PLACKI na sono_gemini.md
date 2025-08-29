@@ -1,17 +1,21 @@
+﻿---
+draft: true
+title: "## **Wprowadzenie: Powrót do Smaków Dzieciństwa**"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: PLACKI na słono
-source: https://www.youtube.com/watch?v=FyztPoXHt5c
-author:
-  - "[[Policzona Szama]]"
-published: 2023-06-12
-created: 2025-05-23
-description: Autor prezentuje przepis na szybkie i tanie wytrawne racuchy z ciastem naleśnikowo-pieczarkowym, inspirowane daniem z dzieciństwa, testując dodatki w postaci kiełbasy, szynki i kurczaka.
-category: Fitness
-length: 1204
-tags:
-  - Summaries/Przepisy
----
-
 ### **Wprowadzenie: Powrót do Smaków Dzieciństwa**
 
 *   Witajcie drodzy widzowie w kolejnym odcinku.

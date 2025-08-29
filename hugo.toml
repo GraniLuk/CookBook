@@ -122,6 +122,9 @@ fileName = "/images/icon.png" #your favicon here if you wish to change it.
 # relativeURLs = true
 canonifyURLs = true
 
+# Exclude draft content from builds
+buildDrafts = false
+
 # Cache control settings
 enableGitInfo = true
 

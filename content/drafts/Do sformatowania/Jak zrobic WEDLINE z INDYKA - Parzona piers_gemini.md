@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "***"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Jak zrobić WĘDLINĘ z INDYKA - Parzona pierś
-source: https://www.youtube.com/watch?v=yPpNDtm5ym4
-author:
-  - "[[Policzona Szama]]"
-published: 2024-05-30
-created: 2025-05-19
-description: W tym odcinku Policzonej Szamy pokazano, jak łatwo i szybko przygotować domową, parzoną wędlinę z piersi indyka, podkreślając jej wartości makro, wysoką zawartość białka oraz soczystość.
-category: Fitness
-length: 1504
-tags:
-  - Summaries/Przepisy
----
-
-
 ***
 
 **Wstęp: Domowa Wędlina z Indyka w Policzonej Szamie**

@@ -1,4 +1,21 @@
-
+﻿---
+draft: true
+title: "Recipe Book: _Zdrowe Wypieki_"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:21-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
+---
 Recipe Book: _Zdrowe Wypieki_  
 Tags: #Śniadanie #Muffinki #Owsiane #Jabłka  
 Servings: **15-20 sztuk**  

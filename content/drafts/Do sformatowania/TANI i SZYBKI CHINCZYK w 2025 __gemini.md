@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:23-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: TANI i SZYBKI CHIŃCZYK w 2025 ?
-source: https://www.youtube.com/watch?v=mrBSLkGy5NI
-author:
-  - "[[Policzona Szama]]"
-published: 2022-05-09
-created: 2025-07-15
-description: Film szczegółowo opisuje proces przygotowania pożywnego i smacznego kurczaka po chińsku w formie lunchboxów, analizując jednocześnie rosnące ceny składników i porównując je z kosztami sprzed pięciu lat, aby sprawdzić, czy nadal możliwe jest gotowanie tanio.
-category: Fitness
-length: 1776
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 **Wstęp: Czy Da Się Gotować Tanio i Pożywnie?**

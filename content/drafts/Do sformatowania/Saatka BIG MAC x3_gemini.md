@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Sałatka BIG MAC x3
-source: https://www.youtube.com/watch?v=5dtlGZke2Zg
-author:
-  - "[[Policzona Szama]]"
-published: 2023-09-24
-created: 2025-05-23
-description: W tym odcinku Policzonej Szamy przygotowywana jest niskowęglowodanowa sałatka a'la Big Mac w trzech porcjach do słoików, z naciskiem na wysokiej jakości składniki, szczegółowe przygotowanie mięsa i charakterystycznego sosu, oraz praktyczne pakowanie.
-category: Fitness
-length: 1238
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 **Wstęp i Cel**

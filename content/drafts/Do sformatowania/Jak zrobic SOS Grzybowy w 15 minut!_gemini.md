@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Jak zrobić SOS Grzybowy w 15 minut!
-source: https://www.youtube.com/watch?v=NWKkjC7qUH0
-author:
-  - "[[Policzona Szama]]"
-published: 2024-10-18
-created: 2025-05-17
-description: Przepis na szybki (15-20 minut), smaczny i korzystny makro sos z suszonych polskich grzybów (prawdziwki, podgrzybki) z kurczakiem i makaronem, z wykorzystaniem odchudzonego mleka skondensowanego jako składnika "X".
-category: Fitness
-length: 1351
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 **Wprowadzenie: Jesienna Aura i Grzybowy Sezon**

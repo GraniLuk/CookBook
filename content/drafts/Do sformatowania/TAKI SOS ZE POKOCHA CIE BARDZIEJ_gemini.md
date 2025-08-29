@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:23-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: TAKI SOS ŻE POKOCHA CIĘ BARDZIEJ
-source: https://www.youtube.com/watch?v=iK4ab0eXFJY
-author:
-  - "[[Policzona Szama]]"
-published: 2025-07-03
-created: 2025-07-04
-description: Przepis kulinarny na **gnocchi** (nioki) w intensywnym sosie szpinakowo-brokułowym z serem **Gorgonzola**, suszonymi pomidorami i dużą ilością piersi z kurczaka, przedstawiony w programie "Policzona Szama" jako łatwe do przygotowania, wysokobiałkowe i niezwykle smaczne danie.
-category: Fitness
-length: 1051
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 ## **Policzona Szama: Nioki w Sosie Szpinakowo-Brokułowym z Kurczakiem**

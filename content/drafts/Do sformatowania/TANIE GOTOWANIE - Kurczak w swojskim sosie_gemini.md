@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:23-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: TANIE GOTOWANIE - Kurczak w swojskim sosie
-source: https://www.youtube.com/watch?v=kK4f-3KeF5o
-author:
-  - "[[Policzona Szama]]"
-published: 2022-08-23
-created: 2025-06-22
-description: Ten odcinek przedstawia przepis na proste, pożywne i ekonomiczne danie z kurczaka w swojskim sosie z polskimi warzywami, idealne jako inflacyjny lunchbox, z dokładnym omówieniem kosztów i wartości odżywczych.
-category: Fitness
-length: 1482
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 # Polski Pożywny Posiłek: Kurczak w Swojskim Sosie (Przepis na Inflacyjne Lunchboxy)

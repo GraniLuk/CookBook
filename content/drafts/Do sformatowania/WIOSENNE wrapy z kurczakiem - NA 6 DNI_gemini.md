@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:23-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: WIOSENNE wrapy z kurczakiem - NA 6 DNI
-source: https://www.youtube.com/watch?v=wpWElyk0U20
-author:
-  - "[[Policzona Szama]]"
-published: 2023-03-26
-created: 2025-05-23
-description: Prezentacja przepisu na 6 wiosennych, śniadaniowych wrapów z kurczakiem i zielonym sosem jogurtowo-majonezowym, przeznaczonych do przygotowania na 6 dni.
-category: Fitness
-length: 1563
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 **Wprowadzenie: Powitanie i Przedstawienie Dania**

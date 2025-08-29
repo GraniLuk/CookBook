@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Jak zrobić SUSHI od A do Z
-source: https://www.youtube.com/watch?v=RiLcleNSuig
-author:
-  - "[[Policzona Szama]]"
-published: 2023-02-12
-created: 2025-05-23
-description: Szczegółowy przewodnik po przygotowaniu domowego sushi w trzech rodzajach – hosomaki, futomaki (Philadelphia) i uramaki (California) – z kompleksowymi instrukcjami dotyczącymi ryżu, składników i technik zawijania.
-category: Fitness
-length: 2489
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 **Wprowadzenie do Policzonej Szamy: Robimy Sushi**

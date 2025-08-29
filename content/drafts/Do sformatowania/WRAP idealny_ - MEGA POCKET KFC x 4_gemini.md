@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:23-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: WRAP idealny?  - MEGA POCKET KFC x 4
-source: https://www.youtube.com/watch?v=jWWgfr6cXT4
-author:
-  - "[[Policzona Szama]]"
-published: 2022-07-31
-created: 2025-06-22
-description: Przepis szczegółowo opisuje, jak przygotować cztery domowe "mega pockety", skupiając się na efektywności, zdrowych składnikach i dokładnym procesie przyrządzania kurczaka, placków ziemniaczanych i sosu, a także ich składaniu i grillowaniu.
-category: Fitness
-length: 1608
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 **Witajcie w Świecie Mega Pocketów!**

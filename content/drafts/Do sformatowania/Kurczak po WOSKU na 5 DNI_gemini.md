@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Kurczak po WŁOSKU na 5 DNI
-source: https://www.youtube.com/watch?v=2UBQrarHyI0
-author:
-  - "[[Policzona Szama]]"
-published: 2024-04-29
-created: 2025-05-19
-description: Film prezentuje przepis na przygotowanie pięciu porcji prostego, smacznego i wartościowego dania obiadowego (kurczak, ryż, sos, warzywa) w oparciu o metodykę gotowania dla cateringu dietetycznego, z wprowadzeniem nowych elementów jak duża liczba porcji, specjalne pojemniki do przechowywania i podsumowanie w formie PDF.
-category: Fitness
-length: 1324
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 **Wprowadzenie: Powrót do Korzeni i Nowości**

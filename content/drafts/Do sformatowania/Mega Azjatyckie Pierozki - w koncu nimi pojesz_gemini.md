@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Mega Azjatyckie Pierożki - w końcu nimi pojesz
-source: https://www.youtube.com/watch?v=yXQAqUFtARk
-author:
-  - "[[Policzona Szama]]"
-published: 2022-02-09
-created: 2025-07-15
-description: Ten przepis szczegółowo opisuje, jak przygotować duże, soczyste azjatyckie pierożki gyoza od podstaw, obejmując precyzyjne ilości składników, dokładne instrukcje dotyczące ciasta i farszu, metody gotowania oraz informacje o wartościach odżywczych.
-category: Fitness
-length: 1313
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 ### Wstęp

@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Posiłki za 5 ZŁ w 2022. POŻYWNE z dobrym makro
-source: https://www.youtube.com/watch?v=wRFti2T8wgY
-author:
-  - "[[Policzona Szama]]"
-published: 2022-02-23
-created: 2025-07-15
-description: Ten odcinek kanału "Policzona Szama" prezentuje cztery przepisy na smaczne, pożywne i bogate w makroskładniki posiłki, których koszt przygotowania wynosi około 5 złotych za porcję, z uwzględnieniem cen po tarczy antyinflacyjnej.
-category: Fitness
-length: 1950
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 ### **Wstęp: Misja „Policzonej Szamy”**

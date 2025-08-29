@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Idealny Sposób na KREWETKI - Kolorowy LUNCHBOX
-source: https://www.youtube.com/watch?v=pN5xAYoNxZE
-author:
-  - "[[Policzona Szama]]"
-published: 2024-09-30
-created: 2025-05-17
-description: Ten odcinek prezentuje przepis na przygotowanie kolorowych boksów z pieczonymi krewetkami marynowanymi w sosie majonezowo-sriracha, ryżem jaśminowym z limonką i kolendrą, oraz orzeźwiającą salsą ananasową, idealnych do spożycia na zimno.
-category: Fitness
-length: 1274
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 **Wstęp i Prezentacja Dania**

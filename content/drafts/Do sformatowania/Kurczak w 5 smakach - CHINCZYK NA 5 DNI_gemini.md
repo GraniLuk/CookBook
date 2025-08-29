@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Kurczak w 5 smakach - CHIŃCZYK NA 5 DNI
-source: https://www.youtube.com/watch?v=y-xRvaYmqCw
-author:
-  - "[[Policzona Szama]]"
-published: 2025-07-20
-created: 2025-07-21
-description: Mateusz z kanału "Policzona Szama" prezentuje przepis na kurczaka w pięciu smakach na pięć porcji, szczegółowo omawiając przygotowanie domowej przyprawy, pieczenie mięsa i warzyw, oraz tworzenie gęstego, aromatycznego sosu, idealnego do meal preppingu.
-category: Fitness
-length: 1584
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 # Wstęp: Policzona Szama Przedstawia Kurczaka w Pięciu Smakach

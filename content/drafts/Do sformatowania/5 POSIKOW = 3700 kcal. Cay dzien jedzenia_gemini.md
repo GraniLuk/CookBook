@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:21-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: 5 POSIŁKÓW = 3700 kcal. Cały dzień jedzenia
-source: https://www.youtube.com/watch?v=Z4N3k6_M3E4
-author:
-  - "[[Policzona Szama]]"
-published: 2021-09-27
-created: 2025-07-24
-description: Ten odcinek "Policzonej Szamy" prezentuje pięć prostych, szybkich i smacznych przepisów na posiłki, które łącznie dostarczają ponad 3700 kcal, idealne do włączenia w codzienny jadłospis i przygotowania formy na 2022 rok.
-category: Fitness
-length: 1942
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 # Policzone Szama: Dzień Jedzenia – Ponad 3700 kcal

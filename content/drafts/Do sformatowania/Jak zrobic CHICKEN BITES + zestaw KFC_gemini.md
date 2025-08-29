@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Jak zrobić CHICKEN BITES + zestaw KFC
-source: https://www.youtube.com/watch?v=8hl96ntYJsg
-author:
-  - "[[Policzona Szama]]"
-published: 2023-02-02
-created: 2025-05-23
-description: W tym odcinku Policzonej Szamy przygotowywane są chrupiące i pikantne chicken bites niczym z KFC, które następnie wykorzystywane są do stworzenia pożywnych i racjonalnych boxów California Bowl, z dokładnym opisem składników, procesu przygotowania, smażenia oraz pomysłów na podanie i odgrzewanie.
-category: Fitness
-length: 1348
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 **Wstęp**

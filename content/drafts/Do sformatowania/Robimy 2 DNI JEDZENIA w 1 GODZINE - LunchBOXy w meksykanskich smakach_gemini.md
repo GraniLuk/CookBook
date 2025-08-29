@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Robimy 2 DNI JEDZENIA w 1 GODZINĘ - LunchBOXy w meksykańskich smakach
-source: https://www.youtube.com/watch?v=hyma4o7NijY
-author:
-  - "[[Policzona Szama]]"
-published: 2022-05-18
-created: 2025-07-15
-description: Ten materiał przedstawia szczegółowy przewodnik po przygotowaniu czterech meksykańskich posiłków na dwa dni, o łącznej wartości około 2600 kcal każdy, z naciskiem na minimalizację odpadów i efektywne wykorzystanie czasu.
-category: Fitness
-length: 2359
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 ### **Wprowadzenie i Koncepcja Posiłków**

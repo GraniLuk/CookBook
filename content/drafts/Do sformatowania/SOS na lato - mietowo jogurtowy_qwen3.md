@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "**SOS MIĘTOWY – PRZEPIS ORZEŹWIAJĄCY DLA LATIWOŚCI**"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:23-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: SOS na lato - miętowo jogurtowy
-source: https://www.youtube.com/watch?v=RjtZy9oMZvs
-author:
-  - "[[Policzona Szama]]"
-published: 2023-07-14
-created: 2025-05-23
-description: Krok po kroku przepis na miętowy orzeźwiający sos idealny do grillowanych dań z mięsem i warzyw oraz porady dotyczące jego przygotowania i zastosowania.
-category: Fitness
-length: 282
-tags:
-  - Summaries/Przepisy
----
-
-
 **SOS MIĘTOWY – PRZEPIS ORZEŹWIAJĄCY DLA LATIWOŚCI**  
 
 **Wprowadzenie**  

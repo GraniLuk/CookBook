@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: GRANDER KFC - ta kanapka powala
-source: https://www.youtube.com/watch?v=xgo3KtdhDbM
-author:
-  - "[[Policzona Szama]]"
-published: 2022-04-21
-created: 2025-07-15
-description: Film przedstawia szczegółowy przepis na domową wersję kultowego burgera Grander, skupiając się na przygotowaniu każdego elementu od podstaw, z naciskiem na zdrowsze metody obróbki i zachowanie oryginalnego smaku.
-category: Fitness
-length: 992
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 ### **Wstęp: Witamy w Policzonej Szamie!**

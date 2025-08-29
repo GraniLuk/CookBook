@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "***"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: IMPREZOWE ROŻKI z kurczakiem - MEGA NADZIENIE
-source: https://www.youtube.com/watch?v=lBRbP_DoNmM
-author:
-  - "[[Policzona Szama]]"
-published: 2022-12-29
-created: 2025-05-24
-description: Przepis na rożki z wrapów nadziewane farszem z kurczaka i zapiekane z mozzarellą, podawane z koperkowo-jogurtowym sosem.
-category: Fitness
-length: 1568
-tags:
-  - Summaries/Przepisy
----
-
-
 ***
 
 **Wstęp**

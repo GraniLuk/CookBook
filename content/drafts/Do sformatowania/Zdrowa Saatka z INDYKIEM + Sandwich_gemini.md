@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "***"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:23-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Zdrowa Sałatka z INDYKIEM + Sandwich
-source: https://www.youtube.com/watch?v=LGERJ1Qut5U
-author:
-  - "[[Policzona Szama]]"
-published: 2024-03-17
-created: 2025-05-19
-description: Prezentacja przepisu na szybką i wszechstronną sałatkę z indykiem, żurawiną, orzechami i selerem naciowym, którą można spożywać na zimno w formie low carb, z makaronem lub na ciepło jako nadzienie do sandwicza, idealną na okres okołoświąteczny.
-category: Fitness
-length: 1344
-tags:
-  - Summaries/Przepisy
----
-
-
 ***
 
 ### Wstęp i Prezentacja Dania

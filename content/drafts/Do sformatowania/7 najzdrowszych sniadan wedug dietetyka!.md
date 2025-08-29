@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:21-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: 7 najzdrowszych śniadań według dietetyka!
-source: https://www.youtube.com/watch?v=qry9YeZZ6EA
-author:
-  - "[[Michał Wrzosek]]"
-published: 2024-12-05
-created: 2025-04-25
-description: Dietetyk Michał Wrzosek przedstawia siedem przepisów na zdrowe, szybkie i smaczne śniadania, omawiając ich składniki, korzyści oraz rozwiewając mity dietetyczne, bazując na preferencjach swoich podopiecznych.
-category: Fitness
-length: 1402
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 **Wprowadzenie od Michała Wrzoska**

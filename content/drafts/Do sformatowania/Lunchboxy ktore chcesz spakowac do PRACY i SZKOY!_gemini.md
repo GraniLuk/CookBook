@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "---"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:22-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Lunchboxy które chcesz spakować do PRACY i SZKOŁY!
-source: https://www.youtube.com/watch?v=OcJsYc7IGeg
-author:
-  - "[[Policzona Szama]]"
-published: 2024-09-04
-created: 2025-05-17
-description: Tekst przedstawia trzy przepisy na zdrowe, łatwe do przygotowania posiłki na zimno do lunchboxów na bazie różnych rodzajów kasz (bulgur, kuskus, pęczak), z dodatkiem kurczaka i różnorodnych warzyw, warzyw strączkowych, ziaren oraz charakterystycznych sosów, idealne na powrót do pracy i szkoły po wakacjach.
-category: Fitness
-length: 1757
-tags:
-  - Summaries/Przepisy
----
-
-
 ---
 
 **Wstęp: Powrót po Wakacjach i Propozycje Posiłków**

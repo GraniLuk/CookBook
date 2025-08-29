@@ -1,18 +1,21 @@
+﻿---
+draft: true
+title: "***"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:21-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
-title: Catering Dietetyczny - 3 DNI JEDZENIA / 1800 kcal
-source: https://www.youtube.com/watch?v=nbZB9V3N6LY
-author:
-  - "[[Policzona Szama]]"
-published: 2023-12-12
-created: 2025-05-22
-description: W tym odcinku przedstawiono plan posiłków na 3 dni (1800 kcal dziennie, 3 posiłki po 600 kcal) z grudniowym akcentem, obejmujący zapiekaną owsiankę, kurczaka z makaronem i warzywami oraz sałatkę z łososiem, z naciskiem na proste i szybkie przygotowanie.
-category: Fitness
-length: 1808
-tags:
-  - Summaries/Przepisy
----
-
-
 ***
 
 ### **Wstęp i Powrót po Remoncie**

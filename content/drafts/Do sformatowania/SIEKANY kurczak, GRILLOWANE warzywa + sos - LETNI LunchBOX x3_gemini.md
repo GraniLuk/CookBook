@@ -1,15 +1,20 @@
----
-title: SIEKANY kurczak, GRILLOWANE warzywa + sos - LETNI LunchBOX x3
-source: https://www.youtube.com/watch?v=8XKK5Q-kpjQ
-author:
-  - "[[Policzona Szama]]"
-published: 2023-07-13
-created: 2025-05-23
-description: Przepis na letni lunch box z pieczonymi siekanymi kotletami drobiowymi, pieczonymi warzywami i orzeźwiającym miętowym sosem, przygotowywany głównie w piekarniku w celu uniknięcia stania przy kuchence w upały.
-category: Fitness
-length: 1298
-tags:
-  - Summaries/Przepisy
+﻿---
+draft: true
+title: "## **Wstęp: Letni Box 2023 - Danie Idealne na Upały**"
+author: "Autor Przepisu"
+recipe_image: images/recipe-headers/default.jpg
+date: 2025-08-29T17:13:23-00:00
+categories: ["do-kategoryzacji"]
+tags: ["draft"]
+tagline: "Przepis do sformatowania"
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 30
+calories: 300
+protein: 20
+fat: 10
+carbohydrate: 25
 ---
 ### **Wstęp: Letni Box 2023 - Danie Idealne na Upały**
 
