@@ -18,11 +18,6 @@ carbohydrate: 15
 
 fodmap:
   status: "depends"
-  serving_ok: "OK przy małej porcji banana i jogurcie bez laktozy"
-  notes: "Banan w większej porcji i jogurt ze zwykłym mlekiem mogą podnosić FODMAP; orzechy ziemne zwykle OK w małych ilościach."
-  substitutions:
-    - "Skyr waniliowy -> wersja bez laktozy."
-    - "Banan -> ≤1/2 niedojrzałego banana."
   serving_ok: "Używaj małego banana lub 1/2 banana"
   notes: "Skyr i masło orzechowe OK. Uważaj na wielkość banana"
   substitutions:
