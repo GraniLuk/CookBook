@@ -1,0 +1,166 @@
+views:
+  - type: table
+    name: Wszystkie przepisy
+    filters:
+      or:
+        - file.path.contains("Przepisy/")
+        - file.path.contains("Do sformatowania/")
+    sort: []
+    columns:
+      - file.name
+      - Tags
+      - Servings
+      - Active Time
+      - Total Time
+      - Recipe Book
+      - file.folder
+      - file.mtime
+  - type: cards
+    name: Karty przepisów
+    filters:
+      or:
+        - file.path.contains("Przepisy/")
+        - file.path.contains("Do sformatowania/")
+    sort: []
+    image:
+      property: image
+      fit: cover
+      aspectRatio: 4:3
+  - type: table
+    name: Śniadania
+    filters:
+      and:
+        - file.path.contains("Przepisy/Śniadania")
+    order:
+      - file.name
+      - file.path
+    sort:
+      - property: file.name
+        direction: DESC
+    columns:
+      - file.name
+      - Servings
+      - Active Time
+      - Total Time
+      - Tags
+      - file.mtime
+  - type: table
+    name: Obiady
+    filters:
+      and:
+        - or:
+            - file.path.contains("Przepisy/Obiady")
+    sort: []
+    columns:
+      - file.name
+      - Servings
+      - Active Time
+      - Total Time
+      - Tags
+      - file.mtime
+  - type: table
+    name: Kolacje
+    filters:
+      and:
+        - or:
+            - file.path.contains("Przepisy/Kolacje")
+    sort: []
+    columns:
+      - file.name
+      - Servings
+      - Active Time
+      - Total Time
+      - Tags
+      - file.mtime
+  - type: table
+    name: Desery
+    filters:
+      and:
+        - or:
+            - file.path.contains("Przepisy/Desery")
+    sort: []
+    columns:
+      - file.name
+      - Servings
+      - Active Time
+      - Total Time
+      - Tags
+      - file.mtime
+  - type: table
+    name: Do zrobienia
+    filters:
+      and:
+        - or:
+            - file.path.contains("Do zrobienia")
+    order:
+      - file.name
+      - file.path
+    sort: []
+    columns:
+      - file.name
+      - Tags
+      - file.mtime
+  - type: table
+    name: Do sformatowania
+    filters:
+      and:
+        - file.path.startsWith("Do sformatowania")
+    sort: []
+    columns:
+      - file.name
+      - file.size
+      - file.mtime
+      - file.ctime
+  - type: table
+    name: Szybkie przepisy
+    filters:
+      and:
+        - file.path =~ "Przepisy/"
+        - or:
+            - Active Time =~ "5|10|15"
+            - Active Time contains "minut"
+    sort: []
+    columns:
+      - file.name
+      - Active Time
+      - Total Time
+      - Tags
+      - file.folder
+  - type: table
+    name: Nowe przepisy
+    filters:
+      and:
+        - file.path =~ "Przepisy/"
+    sort: []
+    limit: 20
+    columns:
+      - file.name
+      - Tags
+      - Active Time
+      - file.folder
+      - file.ctime
+  - type: table
+    name: Według książki
+    filters:
+      and:
+        - file.path =~ "Przepisy/"
+    sort: []
+    columns:
+      - file.name
+      - Recipe Book
+      - Tags
+      - Active Time
+      - Total Time
+  - type: table
+    name: Z linkami
+    filters:
+      and:
+        - file.path.startsWith("Przepisy")
+        - Link is not empty
+    sort: []
+    columns:
+      - file.name
+      - Link
+      - Tags
+      - Active Time
+      - file.folder
