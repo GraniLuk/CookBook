@@ -1,3 +1,7 @@
+---
+categories:
+  - desery
+---
 ﻿---
 draft: true
 title: "Domowe  Batoniki Owsiane z Orzechami i Czekoladą"

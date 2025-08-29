@@ -1,3 +1,7 @@
+---
+categories:
+  - sniadania
+---
 ﻿---
 draft: true
 title: "Sztosowy Weekendowy Bajgiel z Łososiem, Awokado i Jajkiem Sadznym"
