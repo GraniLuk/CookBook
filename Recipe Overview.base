@@ -18,14 +18,15 @@ views:
   - type: cards
     name: Karty przepisów
     filters:
-      or:
-        - file.path.contains("Przepisy/")
-        - file.path.contains("Do sformatowania/")
+      and:
+        - file.folder == "content"
+        - file.name != "_index"
+    order:
+      - file.name
+      - categories
     sort: []
-    image:
-      property: image
-      fit: cover
-      aspectRatio: 4:3
+    image: note.recipe_image
+    cardSize: 180
   - type: table
     name: Śniadania
     filters:
@@ -92,11 +93,11 @@ views:
     name: Do zrobienia
     filters:
       and:
-        - or:
-            - file.path.contains("Do zrobienia")
+        - and:
+            - file.folder.startsWith("content/drafts")
+            - '!file.folder.endsWith("Do sformatowania")'
     order:
       - file.name
-      - file.path
     sort: []
     columns:
       - file.name
