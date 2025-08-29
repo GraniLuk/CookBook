@@ -30,10 +30,12 @@ views:
     name: Śniadania
     filters:
       and:
-        - file.path.contains("Przepisy/Śniadania")
+        - file.folder == "content"
+        - file.name != "_index"
+        - categories == ["sniadania"]
     order:
       - file.name
-      - file.path
+      - tags
     sort:
       - property: file.name
         direction: DESC

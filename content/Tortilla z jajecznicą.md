@@ -19,10 +19,6 @@ carbohydrate: 15
 
 fodmap:
   status: "depends"
-  serving_ok: "OK po zamianie tortilli pszennej i bez dodatków cebuli/czosnku"
-  notes: "Jajka są OK; tortille pszenne zawierają fruktany."
-  substitutions:
-    - "Tortilla pełnoziarnista -> 100% kukurydziana."
   serving_ok: "Sprawdź skład tortilli - unikaj pszenicy pełnoziarnistej"
   notes: "Jajka są OK. Problem z pełnoziarnistą tortillą (więcej błonnika)"
   substitutions:
