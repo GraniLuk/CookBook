@@ -31,8 +31,10 @@ function showAlert(message){
 }
 
 u('#searchButton').handle('click', function(e) { //use handle to automatically prevent default
-    if(searchTerm){
-        u("#searchTerm").text(searchTerm);
+    const current = (u('#searchTerm').first() && u('#searchTerm').first().value) || searchTerm;
+    if(current && current.trim()){
+        searchTerm = current.trim();
+        if(u('#searchTerm').first()){ u('#searchTerm').first().value = searchTerm; }
         u('#searchButton').addClass("is-loading");
         executeSearch(searchTerm);
       }else {
@@ -40,72 +42,194 @@ u('#searchButton').handle('click', function(e) { //use handle to automatically p
       }
 })
 
+// Allow pressing Enter in the input to run search without reloading the page
+u('#searchTerm').on('keydown', function(e){
+  if(e.key === 'Enter'){
+    e.preventDefault();
+    u('#searchButton').trigger('click');
+  }
+});
+
 function executeSearch(searchQuery){
     // Get the correct base URL for index.json
   const baseUrl = '/CookBook';
     const timestamp = new Date().getTime();
-    fetch(`${baseUrl}/index.json?v=${timestamp}`).then(r => r.json())
-    .then(function(data) {
-        var pages = data;
+    fetch(`${baseUrl}/index.json?v=${timestamp}`)
+      .then(r => {
+        if (!r.ok) throw new Error(`Failed to load index.json: ${r.status}`);
+        return r.json();
+      })
+      .then(function(data) {
+        if (!Array.isArray(data)) {
+          console.warn('Search index is not an array. Raw data:', data);
+        }
+        var pages = Array.isArray(data) ? data : [];
         var fuse = new Fuse(pages, fuseOptions);
         var result = fuse.search(searchQuery);
         if(result.length > 0){
             u('#content').addClass("is-hidden"); //hiding our main content to display the results
-            u('#searchResults').children(u('div')).empty(); // clean out any previous search results
+            u('#searchResultsCol').empty(); // clean out any previous search results
             u('#searchButton').removeClass("is-loading") //change our button back
             u('#searchResults').removeClass("is-hidden") //show Result area
             populateResults(result);
         }else{
           showAlert("No results found!")
           u('#searchButton').removeClass("is-loading");
-          u("#searchTerm").text("");
+          if(u('#searchTerm').first()){ u('#searchTerm').first().value = ""; }
         }
-    });
+      })
+      .catch(err => {
+        console.error('Search error:', err);
+        showAlert('Problem loading search index.');
+        u('#searchButton').removeClass("is-loading");
+      });
 }
 
 function populateResults(result){
-    //Object.keys(result).forEach(function(key,value){
-    Object.entries(result).forEach(entry => {
-        const [key, value] = entry;
-        var contents= value.item.contents;
-        var snippet = "";
-        var snippetHighlights=[];
-        var tags =[];
-        if( fuseOptions.tokenize ){
-          snippetHighlights.push(searchTerm);
-        }else{
-          value.matches.forEach(function(matchKey,mvalue){
-            
-            if(mvalue.key == "tags" || mvalue.key == "categories" ){
-              snippetHighlights.push(mvalue.value);
-            }else if(mvalue.key == "contents"){
-              start = mvalue.indices[0][0]-summaryInclude>0?mvalue.indices[0][0]-summaryInclude:0;
-              end = mvalue.indices[0][1]+summaryInclude<contents.length?mvalue.indices[0][1]+summaryInclude:contents.length;
-              snippet += contents.substring(start,end);
-              snippetHighlights.push(mvalue.value.substring(mvalue.indices[0][0],mvalue.indices[0][1]-mvalue.indices[0][0]+1));
-            }
-          });
-        }
+  Object.entries(result).forEach(entry => {
+    const [idx, val] = entry;
+    const item = (val && val.item) ? val.item : {};
 
-        if(snippet.length<1){
-            snippet += contents.substring(0,summaryInclude*2);
-          }
-                    //pull template from hugo template definition
-          var templateDefinition = u('#search-result-template').html();
-          //replace values
-          // Build tags HTML (same color scheme as navbar primary) - rely on Bulma 'is-primary'
-          var tagsHtml = '';
-          if (Array.isArray(value.item.tags)) {
-            value.item.tags.forEach(function(t){
-              if(t){
-                var slug = t.toString().toLowerCase().trim().replace(/\s+/g,'-').replace(/[^a-z0-9\-]/g,'');
-                tagsHtml += '<span class="recipe-tag tag-link" data-tag="'+ slug +'">#'+ t +'</span>';
-              }
-            });
-          }
-          var output = render(templateDefinition,{key:key,title:value.item.title,link:value.item.permalink,tags:value.item.tags,categories:value.item.categories,snippet:snippet,image:value.item.imageLink,calories:value.item.calories,protein:value.item.protein,fat:value.item.fat,carbohydrate:value.item.carbohydrate,tagsHtml:tagsHtml});
-          u('#searchResultsCol').append(output);
-    })
+    const contents = item.contents || '';
+    let snippet = '';
+    if (fuseOptions.tokenize) {
+      snippet = contents.substring(0, summaryInclude * 2);
+    } else if (val && Array.isArray(val.matches)) {
+      val.matches.forEach(function(match){
+        if(!match) return;
+        if(match.key === 'contents' && Array.isArray(match.indices) && match.indices[0]){
+          var start = match.indices[0][0]-summaryInclude>0?match.indices[0][0]-summaryInclude:0;
+          var end = match.indices[0][1]+summaryInclude<contents.length?match.indices[0][1]+summaryInclude:contents.length;
+          snippet += contents.substring(start,end);
+        }
+      });
+      if(snippet.length<1){ snippet = contents.substring(0, summaryInclude * 2); }
+    } else {
+      snippet = contents.substring(0, summaryInclude * 2);
+    }
+
+    // Robust fallbacks
+    const defaultImage = '/CookBook/images/defaultImage.avif';
+    const imageUrl = item.imageLink || defaultImage;
+    const title = item.title || 'Bez tytułu';
+    const link = item.permalink || '#';
+    const calories = item.calories || 0;
+    const protein = item.protein || 0;
+    const fat = item.fat || 0;
+    const carbohydrate = item.carbohydrate || 0;
+
+    // Build DOM nodes directly to avoid template parsing issues
+    const col = document.createElement('div');
+    col.className = 'column is-one-fifth-desktop is-one-quarter-tablet is-full-mobile';
+
+    const resultWrap = document.createElement('div');
+    resultWrap.className = 'result';
+    resultWrap.id = 'summary-' + idx;
+    col.appendChild(resultWrap);
+
+    const a = document.createElement('a');
+    a.href = link;
+    a.style.cssText = 'color: inherit; text-decoration: none; display: block; height: 100%;';
+    resultWrap.appendChild(a);
+
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.style.cssText = 'border-radius: 1%; height: 100%; display: flex; flex-direction: column; cursor: pointer; transition: transform 0.2s ease, box-shadow 0.2s ease;';
+    card.onmouseover = function(){ this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.1)'; };
+    card.onmouseout = function(){ this.style.transform='translateY(0)'; this.style.boxShadow='none'; };
+    a.appendChild(card);
+
+    const cardImage = document.createElement('div');
+    cardImage.className = 'card-image';
+    cardImage.style.position = 'relative';
+    card.appendChild(cardImage);
+
+    const figure = document.createElement('figure');
+    figure.className = 'image';
+    figure.style.cssText = 'position:relative; aspect-ratio: 1 / 1; width: 100%;';
+    cardImage.appendChild(figure);
+
+    const img = document.createElement('img');
+    img.style.cssText = 'border-radius: 3%; width: 100%; height: 100%; object-fit: cover;';
+    img.alt = 'Zdjęcie przepisu';
+    img.src = imageUrl;
+    figure.appendChild(img);
+
+    const tagOverlay = document.createElement('div');
+    tagOverlay.className = 'card-tags-overlay';
+    // Build tag badges
+    if (Array.isArray(item.tags)) {
+      item.tags.forEach(function(t){
+        if(!t) return;
+        const slug = t.toString().toLowerCase().trim().replace(/\s+/g,'-').replace(/[^a-z0-9\-]/g,'');
+        const span = document.createElement('span');
+        span.className = 'recipe-tag tag-link';
+        span.dataset.tag = slug;
+        span.textContent = '#' + t;
+        tagOverlay.appendChild(span);
+      });
+    }
+    figure.appendChild(tagOverlay);
+
+    const cardContent = document.createElement('div');
+    cardContent.className = 'card-content';
+    cardContent.style.cssText = 'flex-grow: 1; display: flex; flex-direction: column;';
+    card.appendChild(cardContent);
+
+    const mediaContent = document.createElement('div');
+    mediaContent.className = 'media-content';
+    mediaContent.style.cssText = 'height: 4em; display: flex; align-items: center;';
+    cardContent.appendChild(mediaContent);
+
+    const titleP = document.createElement('p');
+    titleP.className = 'title is-4 has-text-centered';
+    titleP.style.cssText = 'width: 100%; margin: 0; display: -webkit-box; -webkit-line-clamp: 2; line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;';
+    titleP.textContent = title;
+    mediaContent.appendChild(titleP);
+
+    const contentDiv = document.createElement('div');
+    contentDiv.className = 'content';
+    contentDiv.style.cssText = 'flex-grow: 1; display: flex; flex-direction: column;';
+    cardContent.appendChild(contentDiv);
+
+    const snippetWrap = document.createElement('div');
+    snippetWrap.style.cssText = 'height: 4.5em; margin-bottom: 0.5em;';
+    const snippetP = document.createElement('p');
+    snippetP.className = 'is-small';
+    snippetP.style.cssText = 'display: -webkit-box; -webkit-line-clamp: 3; line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; margin-bottom: 0;';
+    snippetP.textContent = snippet || '';
+    snippetWrap.appendChild(snippetP);
+    contentDiv.appendChild(snippetWrap);
+
+    const macrosWrapOuter = document.createElement('div');
+    macrosWrapOuter.style.cssText = 'height: 3em; display: flex; justify-content: center; align-items: center; margin-top: .2em;';
+    const macrosWrap = document.createElement('div');
+    macrosWrap.style.cssText = 'display: flex; flex-wrap: wrap; gap: 1em; font-size: 0.8em; align-items: center; justify-content: center;';
+
+    const makeMetric = (iconClass, color, value, suffix) => {
+      const span = document.createElement('span');
+      span.style.cssText = 'display: flex; align-items: center; gap: 0.3em;';
+      const i = document.createElement('i');
+      i.className = iconClass;
+      i.style.color = color;
+      const strong = document.createElement('strong');
+      strong.textContent = String(value) + (suffix || '');
+      span.appendChild(i);
+      span.appendChild(strong);
+      return span;
+    };
+
+    macrosWrap.appendChild(makeMetric('fas fa-fire', '#ff6b35', calories, ' kcal'));
+    macrosWrap.appendChild(makeMetric('fas fa-dumbbell', '#4ecdc4', protein, 'g'));
+    macrosWrap.appendChild(makeMetric('fas fa-droplet', '#45b7d1', fat, 'g'));
+    macrosWrap.appendChild(makeMetric('fas fa-wheat-awn', '#f9ca24', carbohydrate, 'g'));
+
+    macrosWrapOuter.appendChild(macrosWrap);
+    contentDiv.appendChild(macrosWrapOuter);
+
+    // Append to results column
+    u('#searchResultsCol').append(col);
+  });
 }
 
   
@@ -113,29 +237,7 @@ function populateResults(result){
       return decodeURIComponent((location.search.split(name + '=')[1] || '').split('&')[0]).replace(/\+/g, ' ');
   }
   
-  function render(templateString, data) {
-    var conditionalMatches,conditionalPattern,copy;
-    conditionalPattern = /\$\{\s*isset ([a-zA-Z]*) \s*\}(.*)\$\{\s*end\s*\}/g;
-    //since loop below depends on re.lastInxdex, we use a copy to capture any manipulations whilst inside the loop
-    copy = templateString;
-    while ((conditionalMatches = conditionalPattern.exec(templateString)) !== null) {
-      if(data[conditionalMatches[1]]){
-        //valid key, remove conditionals, leave contents.
-        copy = copy.replace(conditionalMatches[0],conditionalMatches[2]);
-      }else{
-        //not valid, remove entire section
-        copy = copy.replace(conditionalMatches[0],'');
-      }
-    }
-    templateString = copy;
-    //now any conditionals removed we can do simple substitution
-    var key, find, re;
-    for (key in data) {
-      find = '\$\{\s*' + key + '\s*\}';
-      re = new RegExp(find, 'g');
-      templateString = templateString.replace(re, data[key]);
-    }    return templateString;
-}
+// (removed) legacy string-template renderer; now building DOM directly for reliability
 
 // Navigate when clicking tag badges (both static Hugo-rendered and search results)
 document.addEventListener('click', function(e){
