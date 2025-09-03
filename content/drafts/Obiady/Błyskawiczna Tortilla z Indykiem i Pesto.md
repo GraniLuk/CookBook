@@ -1,7 +1,3 @@
----
-categories:
-  - sniadania
----
 ﻿---
 draft: true
 title: "Recipe Book: *Szybkie Obiady*"
