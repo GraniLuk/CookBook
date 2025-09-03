@@ -2,7 +2,7 @@
 draft: false
 title: "Pasta z Piersi z Kurczaka z Suszonymi Pomidorami"
 author: "Policzona Szama"
-recipe_image: images/defaultImage.png
+recipe_image: images/defaultImage.avif
 date: 2025-08-12T12:00:00-00:00
 categories: ["sniadania"]
 subcategories: ["słone"]

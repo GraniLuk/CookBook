@@ -16,7 +16,7 @@
                         <div class="column is-half">
                             <div class="is-pulled-right">
                                 <figure class="image"> 
-                                    {{- $image_url := partial "asset-url.html" "/images/defaultImage.png" -}}
+                                    {{- $image_url := partial "asset-url.html" "/images/defaultImage.avif" -}}
                                     {{- if and .Params.recipe_image (fileExists (printf "static/%s" .Params.recipe_image)) -}}
                                         {{- $image_url = partial "asset-url.html" (printf "/%s" .Params.recipe_image) -}}
                                     {{- end -}}

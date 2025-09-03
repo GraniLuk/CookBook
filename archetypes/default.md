@@ -2,7 +2,7 @@
 draft: true
 title: "Title for your recipe"
 author: {{ .Site.Params.front.defaultAuthor | default "User" }}
-recipe_image: {{ .Site.Params.front.defaultImage | default "images/defaultImage.png" }} #The image for your recipe
+recipe_image: {{ .Site.Params.front.defaultImage | default "images/defaultImage.avif" }} #The image for your recipe
 image_width: {{ .Site.Params.front.defaultImageWidth | default 512 }}
 image_height: {{ .Site.Params.front.defaultImageHeight | default 512 }}
 date: {{ .Date }}

@@ -2,7 +2,7 @@
 draft: false
 title: "Wysokobiałkowe Śniadanie Bez Węglowodanów"
 author: "Granica"
-recipe_image: images/defaultImage.png
+recipe_image: images/defaultImage.avif
 date: 2025-06-18T12:00:00-00:00
 categories: ["sniadania"]
 subcategories: ["słone"]

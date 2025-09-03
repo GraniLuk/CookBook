@@ -2,7 +2,7 @@
 draft: false
 title: "Pudding Truskawkowo-Bananowy z Polewą Czekoladowo-Orzechową"
 author: "Autor Przepisu"
-recipe_image: images/defaultImage.png
+recipe_image: images/defaultImage.avif
 date: 2025-06-19T12:00:00-00:00
 categories: ["sniadania"]
 subcategories: ["słodkie"]

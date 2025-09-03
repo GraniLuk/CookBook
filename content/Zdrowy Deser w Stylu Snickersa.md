@@ -2,7 +2,7 @@
 draft: false
 title: "Zdrowy Deser w Stylu Snickersa"
 author: "Autor Przepisu"
-recipe_image: images/defaultImage.png
+recipe_image: images/defaultImage.avif
 date: 2025-06-19T10:00:00-00:00
 categories: ["desery"]
 tags: []
