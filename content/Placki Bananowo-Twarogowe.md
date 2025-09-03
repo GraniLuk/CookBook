@@ -2,7 +2,7 @@
 draft: false
 title: "Placki Bananowo-Twarogowe"
 author: "Autor Przepisu"
-recipe_image: images/recipe-headers/placki_bananowo_twarogowe.jpg
+recipe_image: images/recipe-headers/placki_bananowo_twarogowe.avif
 date: 2025-08-29T12:00:00-00:00
 categories: ["sniadania"]
 subcategories: ["słodkie"]

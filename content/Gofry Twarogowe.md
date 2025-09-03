@@ -2,7 +2,7 @@
 draft: false
 title: "Gofry Twarogowe"
 author: "Autor Przepisu"
-recipe_image: images/recipe-headers/gofry_twarogowe.jpg
+recipe_image: images/recipe-headers/gofry_twarogowe.avif
 date: 2025-06-20T12:00:00-00:00
 categories: ["sniadania"]
 subcategories: ["słodkie"]

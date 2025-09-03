@@ -55,7 +55,7 @@ Loaded in `partials/script.html` via `asset-url.html`:
 
 ## Common tasks & examples
 - Add a recipe image:
-  - Put image under `static/images/...` and set front matter `recipe_image: images/your-file.jpg`.
+  - Put image under `static/images/...` and set front matter `recipe_image: images/your-file.avif`.
   - In templates, always resolve via `asset-url.html`.
 - Add list card tweaks: edit `partials/summary.html` and matching styles in `static/css/custom.css`.
 - Modify hero overlay or badges: edit `layouts/_default/single.html` and styles in `static/css/custom.css` (`.recipe-hero*`, `.media-badge*`).

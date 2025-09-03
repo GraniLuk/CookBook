@@ -2,7 +2,7 @@
 draft: false
 title: "Chili Con Carne w Instant Pot"
 author: "Autor Przepisu"
-recipe_image: images/recipe-headers/chili-con-carne.jpg
+recipe_image: images/recipe-headers/chili-con-carne.avif
 date: 2025-06-18T12:00:00-00:00
 categories: ["obiady"]
 tags: ["instant-pot", "meksykańskie"]

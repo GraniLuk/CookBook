@@ -2,7 +2,7 @@
 draft: false
 title: "Szakszuka"
 author: "Jemy Razem"
-recipe_image: images/recipe-headers/szakszuka.jpg
+recipe_image: images/recipe-headers/szakszuka.avif
 date: 2025-06-18T12:00:00-00:00
 categories: ["sniadania"]
 subcategories: ["słone"]

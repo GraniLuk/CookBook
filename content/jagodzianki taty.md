@@ -2,7 +2,7 @@
 draft: false  
 title: "Jagodzianki Taty"  
 author: "Policzone Szamy"  
-recipe_image: images/recipe-headers/jagodzianki.jpg  
+recipe_image: images/recipe-headers/jagodzianki.avif  
 date: 2025-06-29T19:37:00-00:00  
 categories: ["desery"]  
 tags: []  

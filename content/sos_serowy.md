@@ -2,7 +2,7 @@
 draft: false
 title: "Fit Sos Serowy Cheddar"
 author: "Policzone Szama"
-recipe_image: images/recipe-headers/sos_serowy.jpg
+recipe_image: images/recipe-headers/sos_serowy.avif
 date: 2025-06-27T12:15:00-00:00
 categories: ["sosy"]
 tags: ["impreza"]

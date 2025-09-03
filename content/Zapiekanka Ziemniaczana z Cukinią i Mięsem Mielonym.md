@@ -2,7 +2,7 @@
 draft: false
 title: "Zapiekanka Ziemniaczana z Cukinią i Mięsem Mielonym"
 author: "Autor Przepisu"
-recipe_image: images/recipe-headers/zapiekanka_ziemniaczana_z_miesem_mielonym.jpg
+recipe_image: images/recipe-headers/zapiekanka_ziemniaczana_z_miesem_mielonym.avif
 date: 2025-06-18T12:00:00-00:00
 categories: ["obiady"]
 tags: []

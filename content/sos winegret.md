@@ -2,7 +2,7 @@
 draft: false  
 title: "Sos Winegret"  
 author: "Policzone Szamy"  
-recipe_image: images/recipe-headers/sos_winegret.jpg
+recipe_image: images/recipe-headers/sos_winegret.avif
 date: 2025-07-05T17:52:00-00:00  
 categories: ["sosy"]  
 tags: []  

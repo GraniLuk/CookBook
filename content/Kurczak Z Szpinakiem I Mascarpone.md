@@ -2,7 +2,7 @@
 draft: false
 title: "Kurczak Z Szpinakiem I Mascarpone"
 author: "Autor Przepisu"
-recipe_image: images/recipe-headers/kurczak_szpinak_mascarpone.JPG
+recipe_image: images/recipe-headers/kurczak_szpinak_mascarpone.avif
 date: 2025-06-18T12:00:00-00:00
 categories: ["obiady"]
 tags: []

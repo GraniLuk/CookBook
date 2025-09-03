@@ -2,7 +2,7 @@
 draft: true
 title: "**Przepis na Gorącą Czekoladę: Krok po Kroku**"
 author: "Autor Przepisu"
-recipe_image: images/recipe-headers/default.jpg
+recipe_image: images/recipe-headers/default.avif
 date: 2025-08-29T17:13:21-00:00
 categories: ["do-kategoryzacji"]
 tags: ["draft"]

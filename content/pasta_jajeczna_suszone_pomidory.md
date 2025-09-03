@@ -2,7 +2,7 @@
 draft: false
 title: "Pasta Jajeczna z Suszonymi Pomidorami i Tuńczykiem"
 author: "Użytkownik"
-recipe_image: images/recipe-headers/pasta_jajeczna_suszone_pomidory.jpg
+recipe_image: images/recipe-headers/pasta_jajeczna_suszone_pomidory.avif
 date: 2025-07-14T11:40:00-00:00
 categories: ["sniadania"]
 subcategories: ["słone"]

@@ -2,7 +2,7 @@
 draft: false  
 title: "Giga Omlet z Cukinią, Szynką i Makaronem Orzo"  
 author: "Policzone Szamy"  
-recipe_image: images/recipe-headers/giga_omlet.jpg  
+recipe_image: images/recipe-headers/giga_omlet.avif  
 date: 2025-08-13T12:00:00-00:00  
 categories: ["sniadania"]
 subcategories: ["słone"]  

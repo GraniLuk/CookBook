@@ -7,7 +7,7 @@ Twoją rolą jest konwertowanie przepisów z innych formatów do formatu docelow
 draft: false  
 title: "Pieczony Kurczak z Ryżem, Warzywami i Fit Sosem Serowym"  
 author: "Policzone Szamy"  
-recipe_image: images/recipe-headers/pieczony_kurczak_ryz_warzywa.jpg  
+recipe_image: images/recipe-headers/pieczony_kurczak_ryz_warzywa.avif  
 date: 2025-06-27T12:17:00-00:00  
 categories: ["obiady"]  
 tags: ["kurczak", "sos serowy", "fit", "warzywa", "ryż"]  

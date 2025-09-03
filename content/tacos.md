@@ -2,7 +2,7 @@
 draft: false
 title: "Tacos z Wołowiną, Salsą z Awokado i Cheddarem"
 author: "Policzona Szama"
-recipe_image: images/recipe-headers/tacos.jpg
+recipe_image: images/recipe-headers/tacos.avif
 date: 2025-08-24T12:00:00-00:00
 categories: ["obiady"]
 tags: ["meksykańskie"]

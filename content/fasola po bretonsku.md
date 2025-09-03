@@ -2,7 +2,7 @@
 draft: false  
 title: "Fasolka po Bretońsku"  
 author: "Instynkt po Polsku"  
-recipe_image: images/recipe-headers/fasolka_po_bretonsku_instant_pot.jpg  
+recipe_image: images/recipe-headers/fasolka_po_bretonsku_instant_pot.avif  
 date: 2025-06-28T12:00:00-00:00  
 categories: ["sniadania"]
 subcategories: ["słone"]

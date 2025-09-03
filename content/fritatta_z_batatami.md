@@ -2,7 +2,7 @@
 draft: false
 title: "Śniadaniowa Frittata z Batatami i Serem Feta"
 author: "Policzone Szamy"
-recipe_image: images/recipe-headers/fritatta.jpg
+recipe_image: images/recipe-headers/fritatta.avif
 date: 2025-08-06T10:00:00-00:00
 categories: ["sniadania"]
 subcategories: ["słone"]
