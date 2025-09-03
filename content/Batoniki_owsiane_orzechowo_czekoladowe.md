@@ -1,13 +1,18 @@
 ---
 draft: true
-title: "Batoniki Owsiane z Orzechami i Czekoladą"
-author: "Centrum Respo"
+title: Batoniki Owsiane z Orzechami i Czekoladą
+author: Centrum Respo
 recipe_image: images/recipe-headers/default.avif
 date: 2025-09-02T12:00:00-00:00
-categories: ["desery"]
-tags: ["batoniki", "owsiane", "czekolada", "przekąska", "bez pieczenia"]
-tagline: "Proste, zdrowe batoniki owsiane bez pieczenia – idealne na śniadanie lub przekąskę, pełne orzechów i czekolady."
-servings: 4
+categories:
+  - desery
+tags:
+  - batoniki
+  - owsiane
+  - czekolada
+  - przekąska
+tagline: Proste, zdrowe batoniki owsiane bez pieczenia – idealne na śniadanie lub przekąskę, pełne orzechów i czekolady.
+servings: 8
 prep_time: 10
 cook: false
 cook_time: 0
@@ -17,21 +22,23 @@ fat: 15.2
 carbohydrate: 28.11
 link: https://centrumrespo.pl/przepisy/owsiane-batoniki-z-czekolada-orzechami-arachidowymi-i-miodem/
 fodmap:
-  status: "yes"
-  serving_ok: "OK w tej porcji z modyfikacją"
-  notes: "Miód jest wysokofodmapowy – zastąp erytrolem. Jogurt naturalny jest wysokofodmapowy – zastąp bezlaktozowym jogurtem greckim lub kokosowym."
-  substitutions: ["Miód -> erytrol", "Jogurt naturalny -> jogurt bezlaktozowy lub kokosowy"]
+  status: yes
+  serving_ok: OK w tej porcji z modyfikacją
+  notes: Miód jest wysokofodmapowy – zastąp erytrolem. Jogurt naturalny jest wysokofodmapowy – zastąp bezlaktozowym jogurtem greckim lub kokosowym.
+  substitutions:
+    - Miód -> erytrol
+    - Jogurt naturalny -> jogurt bezlaktozowy lub kokosowy
 ---
 
 ## Składniki
 
-* 50g łyżek płatków owsianych górskich (ok. 5 łyżek)
-* 10g orzeszków arachidowych
-* 15g łyżeczki masła orzechowego (ok. 1,5 łyżeczki)
-* 60g gorzkiej czekolady
-* 12g miodu (ok. 1 łyżeczka)
-* 10g płatków migdałowych
-* 80g opakowania jogurtu naturalnego
+* 100g łyżek płatków owsianych górskich (ok. 5 łyżek)
+* 20g orzeszków arachidowych
+* 30g łyżeczki masła orzechowego (ok. 1,5 łyżeczki)
+* 120g gorzkiej czekolady
+* 24g miodu (ok. 1 łyżeczka)
+* 20g płatków migdałowych
+* 160g opakowania jogurtu naturalnego
 
 ## Sposób przygotowania
 
@@ -47,12 +54,11 @@ fodmap:
 
 | Składnik           | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
 |--------------------|-----------|----------------|------------|--------------|-----------------|
-| Płatki owsiane    | 50        | 150            | 5.0        | 3.0          | 27.0            |
-| Orzeszki arachidowe| 10        | 60             | 3.0        | 5.0          | 2.0             |
-| Masło orzechowe   | 15        | 90             | 3.0        | 8.0          | 2.0             |
-| Czekolada gorzka  | 30        | 150            | 2.0        | 12.0         | 12.0            |
-| Erytrol           | 12        | 0              | 0.0        | 0.0          | 12.0            |
-| Płatki migdałowe  | 10        | 60             | 2.0        | 5.0          | 2.0             |
-| Jogurt bezlaktozowy| 80        | 50             | 8.0        | 0.0          | 4.0             |
-| **RAZEM:**         | **217**   | **560**        | **23.0**   | **33.0**     | **61.0**        |
-| **NA 100G:**       | 100      | 258  | 10.59 | 15.2 | 28.11
+| Płatki owsiane     | 100       | 300            | 10.0       | 6.0          | 54.0            |
+| Orzeszki arachidowe| 20        | 120            | 6.0        | 10.0         | 4.0             |
+| Masło orzechowe    | 30        | 180            | 6.0        | 16.0         | 4.0             |
+| Czekolada gorzka   | 60        | 300            | 4.0        | 24.0         | 24.0            |
+| Erytrol            | 24        | 0              | 0.0        | 0.0          | 24.0            |
+| Płatki migdałowe   | 20        | 120            | 4.0        | 10.0         | 4.0             |
+| Jogurt bezlaktozowy| 160       | 100            | 16.0       | 0.0          | 8.0             |
+| **RAZEM:**         | **354**   | **1120**       | **46.0**   | **66.0**     | **122.0**       |
