@@ -2,7 +2,7 @@
 draft: true
 title: Sałatka z Indykiem, Żurawiną i Orzechami Pekan
 author: Policzona Szama
-recipe_image: images/recipe-headers/default.avif
+recipe_image: images/defaultImage.avif
 date: 2025-09-02T12:00:00-00:00
 categories:
   - obiady

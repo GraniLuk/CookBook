@@ -1,12 +1,18 @@
 ---
 draft: true
-title: "Bajgiel z Łososiem, Awokado i Jajkiem Sadzonym"
-author: "Michał Wrzosek"
-recipe_image: images/recipe-headers/default.avif
+title: Bajgiel z Łososiem, Awokado i Jajkiem Sadzonym
+author: Michał Wrzosek
+recipe_image: images/defaultImage.avif
 date: 2025-09-03T12:00:00-00:00
-categories: ["śniadania"]
-tags: ["bajgiel", "łosoś", "awokado", "jajko", "śniadanie"]
-tagline: "Stosowe weekendowe śniadanie z bajglem, łososiem, awokado i jajkiem sadzonym – pyszne i sycące."
+categories:
+  - śniadania
+tags:
+  - bajgiel
+  - łosoś
+  - awokado
+  - jajko
+  - śniadanie
+tagline: Stosowe weekendowe śniadanie z bajglem, łososiem, awokado i jajkiem sadzonym – pyszne i sycące.
 servings: 1
 prep_time: 10
 cook: true
@@ -17,10 +23,12 @@ fat: 20
 carbohydrate: 30
 link: https://www.youtube.com/watch?v=mNq7c4FHAL0
 fodmap:
-  status: "yes"
-  serving_ok: "OK w tej porcji z modyfikacją"
-  notes: "Bajgiel jest wysokofodmapowy (pszenny) – zastąp bezglutenowym. Serek kanapkowy jest wysokofodmapowy (jogurt) – zastąp bezlaktozowym serkiem śmietankowym."
-  substitutions: ["Bajgiel -> bajgiel bezglutenowy", "Serek kanapkowy -> serek bezlaktozowy"]
+  status: yes
+  serving_ok: OK w tej porcji z modyfikacją
+  notes: Bajgiel jest wysokofodmapowy (pszenny) – zastąp bezglutenowym. Serek kanapkowy jest wysokofodmapowy (jogurt) – zastąp bezlaktozowym serkiem śmietankowym.
+  substitutions:
+    - Bajgiel -> bajgiel bezglutenowy
+    - Serek kanapkowy -> serek bezlaktozowy
 ---
 
 ## Składniki
