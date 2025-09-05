@@ -2,7 +2,7 @@
 draft: false
 title: Pieczony Łosoś z Majonezowo-Cytrynową Chmurką
 author: Policzone Szamy
-recipe_image: images/recipe_headers/losos_z_majonezowa_chmurka.avif
+recipe_image: images/recipe-headers/losos_z_majonezowa_chmurka.avif
 date: 2025-09-04T12:00:00-00:00
 categories:
   - obiady
