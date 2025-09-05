@@ -8,8 +8,6 @@ categories:
   - desery
 tags:
   - batoniki
-  - owsiane
-  - czekolada
   - przekąska
 tagline: Proste, zdrowe batoniki owsiane bez pieczenia – idealne na śniadanie lub przekąskę, pełne orzechów i czekolady.
 servings: 8
