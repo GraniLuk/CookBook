@@ -1,8 +1,8 @@
 ---
-draft: true
+draft: false
 title: Batoniki Owsiane z Orzechami i Czekoladą
 author: Centrum Respo
-recipe_image: images/recipe-headers/default.avif
+recipe_image: images/recipe-headers/Batoniki_owsiane_orzechowo_czekoladowe.avif
 date: 2025-09-02T12:00:00-00:00
 categories:
   - desery
