@@ -9,10 +9,6 @@ categories:
 tags:
   - łosoś
   - ryba
-  - pieczony
-  - majonez
-  - cytryna
-  - koperek
 tagline: Soczysty pieczony łosoś z aromatyczną majonezowo-cytrynową chmurką – prosty i elegancki obiad.
 servings: 3
 prep_time: 10
