@@ -44,9 +44,13 @@ fodmap:
 6. Smaż około 2-3 minuty z każdej strony, aż placki będą złociste.
 
 ## Wskazówki
-- Jeśli ciasto jest za gęste, dodaj odrobinę więcej mleka
-- Jeśli za rzadkie, dodaj łyżkę mąki
-- Placki można podawać z miodem, syropem klonowym lub owocami
+- Optymalna moc palnika: ok. 6/9 (średnio-wyższa, żeby się rumieniły, ale nie przypalały).
+- Przed KAŻDYM nałożeniem nowej porcji delikatnie psiknij patelnię oliwą / sprayem – to utrzyma równą strukturę i zapobiegnie przywieraniu.
+- Pierwszą stronę smaż ~1 minutę, aż pojawią się pęcherzyki i brzegi lekko się zetną.
+- Przewróć i dosmaż drugą stronę tylko chwilę (15–30 sekund) – nie przesuszaj.
+- Jeśli ciasto jest za gęste, dodaj odrobinę więcej mleka.
+- Jeśli za rzadkie, dodaj 1 łyżkę mąki.
+- Placki można podawać z miodem, syropem klonowym lub owocami.
 
 ## Podsumowanie wartości odżywczych (całe danie)
 
@@ -62,7 +66,7 @@ fodmap:
 
 ## Wartości odżywcze
 
-| Porcja           | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
-|------------------|---------------|------------|--------------|-----------------|
-| **Na 100g**     | **142**       | **6.9**    | **2.8**      | **21.7**        |
-| **Na porcję (1/10)** | **108**   | **5.2**    | **2.1**      | **16.4**        |
+| Porcja              | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
+|---------------------|---------------|------------|--------------|-----------------|
+| **Na 100g**         | **142**       | **6.9**    | **2.8**      | **21.7**        |
+| **Na porcję (1/10)**| **108**       | **5.2**    | **2.1**      | **16.4**        |
