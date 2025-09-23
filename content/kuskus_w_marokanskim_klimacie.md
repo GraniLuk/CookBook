@@ -2,7 +2,7 @@
 draft: false
 title: "Kuskus w Marokańskim Klimacie (Low FODMAP)"
 author: "Policzone Szamy"
-recipe_image: images/recipe-headers/default.avif
+recipe_image: images/recipe-headers/kuskus_w_marokanskim_klimacie.avif
 date: 2025-09-23T12:00:00-00:00
 categories: ["obiady"]
 tags: ["kuskus", "marokański", "lunchbox"]
