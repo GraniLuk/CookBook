@@ -1,4 +1,4 @@
-﻿---
+---
 draft: true
 title: "---"
 author: "Autor Przepisu"
@@ -130,76 +130,7 @@ Autor przechodzi do degustacji pierwszego wariantu (takie Tabo). W końcu, bo ci
 
 **Propozycja 2: Kuskus w Marokańskim Klimacie**
 
-Druga propozycja to kuskus w marokańskim klimacie.
-
-**Przygotowanie Kuskusu:**
-*   Autor pokochał kuskus, ponieważ jego przygotowanie to **10 minut bez gotowania**.
-*   Po prostu **zalewa wrzącą wodą**.
-*   Objętościowo: mniej więcej tyle samo wody co kuskusu.
-*   Przykrywa tylko talerzykiem, nic więcej z tym nie robi.
-*   Po **10 minutach** jest gotowy.
-*   Podkreśla, że ważne jest tylko, aby zalewać go **wrzącą wodą zaraz po gotowaniu**.
-*   Po obróbce wchłonął całą gorącą wodę.
-*   Zaraz po tym widelcem rozdziela ziarna od siebie.
-*   Pokazuje piękną złotą zdrową kaszę.
-*   Taka rozdzielona trafia do michy.
-
-**Pozostałe Składniki (Micha):**
-*   W czasie, gdy kuskus się przygotowuje, szykuje resztę składników.
-*   **Obrane marchewki:** dwie średnie marchewki ściera na grubych oczkach prosto do michy.
-*   Dodaje też **białą fasolę**.
-*   Nadka pietruszki również się przyda – nie musi być jej tak dużo.
-*   Używa same liście – duża garść.
-*   Kroi/szatkuje pietruszkę.
-*   Czerwonej cebuli również nieco mniej – dokładnie **połówka średniej czerwonej cebuli**.
-*   Cebulę kroi drobno.
-*   Dodaje delikatny "kick" pikantności dzięki **papryczce chili**.
-*   Ważne: używa chili **bez pestek** (wydłubuje je i szatkuje).
-*   Poszatkowana czerwona papryczka chili trafia do michy.
-*   Podkreśla, żeby się nie obawiać – nic tutaj nie będzie piekło za bardzo.
-*   Za miłe chrupnięcie będą odpowiadać **orzechy nerkowca** (**30 g**).
-*   Szatkuje orzechy – nie specjalnie się do tego przykłada, nie na miał, nie na wiór, ale takie **półcentymetrowe kawałki**.
-*   Stwierdza, że składniki są w misce i zajęło mu to mniej niż 10 minut.
-*   Miesza wszystkie składniki (wraz z gotowym kuskusem).
-*   Doprawia delikatnie **świeżo mielonym pieprzem** oraz **solą**.
-
-**Przygotowanie Dipu Pomarańczowego:**
-*   Został dip do przygotowania, który jest bardzo, bardzo ciekawy.
-*   Będzie to sos na bazie **soku z pomarańczy**.
-*   Wyciska dokładnie całą pomarańczę.
-*   Wlewa **oliwę** (dodatek tłuszczowy) – użył **18 ml** (po **6 ml do porcji**).
-*   Dodaje **szczyptę soli**.
-*   Dodaje **pół garści kolendry** drobno poszatkowanej – wsypuje od razu do sosu (naprawdę da świetny aromat, będziecie zachwyceni).
-*   Żeby jeszcze bardziej podbić aromat pomarańczy, dodaje dosłownie **dwie szczypty skórki z pomarańczy** (zdciera tylko pomarańczową część, nie dochodzi do białego, aby uniknąć goryczki).
-*   Szejkuje/miesza dokładnie.
-*   Ma gotowy **pomarańczowy dip z nutą kolendry**.
-*   Dip ma dosyć dużą objętość.
-*   Przelewa do czarek (praktycznie wypełnione na maksa – **po 60 ml każda**).
-
-**Montaż i Podział:**
-*   Przekłada gotową mieszankę (kuskus + warzywa + orzechy) od razu do trzech boksów.
-*   Standardowo robi miejsce na kurczaka.
-*   Kurczak trafia tyle samo co wcześniej (1/9 całości).
-*   Ma przyszykowane trzy świetne posiłki z kuskusem do zjedzenia na zimno w pracy/szkole. Kolejny ze zdrową kaszą.
-
----
-
-**Degustacja 2: Kuskus w Marokańskim Klimacie**
-
-Autor przechodzi do degustacji drugiego boksa, prosto z lodówki (jeszcze widać skropliny). Otwiera. Sosik to sosik pomarańczowy.
-
-*   Autor już wie, czego można się tu spodziewać, nie je tego pierwszy raz.
-*   Poleca serdecznie.
-*   Miesza (bo właśnie o to w tym chodzi).
-*   Opisuje **pomarańczowy posmak** po całości razem z marchewką.
-*   Kuskus to bardzo ciekawa kasza (jak widzieliście, 10 minut przygotowania).
-*   Podkreśla, że mamy trochę **orzecha**, który gdzieś tam chrupnie przy okazji.
-*   To bardzo fajna kompozycja.
-*   **Świetnie smakuje na zimno** i chyba w takiej formie właśnie najlepiej.
-*   Nie wyobraża sobie jeść tego na ciepło.
-*   Właśnie na wynos, prosto z lodówki, można zajadać.
-
----
+[[kuskus_w_marokanskim_klimacie]]
 
 **Propozycja 3: Sałatka z Kaszą Pęczak**
 
