@@ -351,3 +351,29 @@ body.fodmap-view-enabled #fodmap-toggle-icon .fa-leaf {
 body.fodmap-view-enabled .fodmap-indicator {
   display: inline-block;
 }
+
+/* Recipe video modal */
+.recipe-video-modal .modal-content {
+    max-width: 720px;
+    width: 92%;
+}
+
+.recipe-video-modal__box {
+    padding: 0;
+    background: #000;
+    box-shadow: none;
+}
+
+.recipe-video-modal__player {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 16px;
+    max-height: 80vh;
+}
+
+@media screen and (max-width: 768px) {
+    .recipe-video-modal__player {
+        border-radius: 12px;
+    }
+}

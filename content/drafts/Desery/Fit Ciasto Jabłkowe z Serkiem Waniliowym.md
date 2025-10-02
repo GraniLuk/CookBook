@@ -15,6 +15,7 @@ calories: 300
 protein: 20
 fat: 10
 carbohydrate: 25
+link: https://www.youtube.com/shorts/odDaQ8VTgJs
 ---
 # Fit Ciasto Jabłkowe z Serkiem Waniliowym
 

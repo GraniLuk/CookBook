@@ -16,11 +16,26 @@
                             <div style="margin-top:.5rem;">{{ partial "fodmap-badge.html" . }}</div>
                         </div>
                     </div>
-                    {{ if .Params.link }}
+                    {{- $videoHref := "" -}}
+                    {{- $videoIsLocal := false -}}
+                    {{- if .Params.video_file -}}
+                        {{- $videoHref = partial "asset-url.html" (printf "/%s" .Params.video_file) -}}
+                        {{- $videoIsLocal = true -}}
+                    {{- else if .Params.link -}}
+                        {{- $videoHref = .Params.link -}}
+                    {{- end -}}
+                    {{- $modalId := printf "recipe-video-modal-%s" (anchorize .Title) -}}
+                    {{ if $videoHref }}
                     <div id="youtubeButton" class="is-rounded media-badge media-badge--left">
-                        <a href="{{ .Params.link }}" target="_blank" aria-label="Open video">
+                        {{ if $videoIsLocal }}
+                        <button type="button" class="unstyled-btn" aria-label="Odtwórz wideo" data-video-modal-trigger="{{ $modalId }}">
+                            <i class="fab fa-youtube" aria-hidden="true"></i>
+                        </button>
+                        {{ else }}
+                        <a href="{{ $videoHref }}" target="_blank" rel="noopener" aria-label="Otwórz wideo">
                             <i class="fab fa-youtube" aria-hidden="true"></i>
                         </a>
+                        {{ end }}
                     </div>
                     {{ end }}
                     <div id="shareButton" class="is-rounded media-badge media-badge--right">
@@ -30,6 +45,22 @@
                     </div>
                 </figure>
             </div>
+
+            {{ if and $videoIsLocal $videoHref }}
+            <div id="{{ $modalId }}" class="modal recipe-video-modal" role="dialog" aria-modal="true" aria-label="Odtwarzacz wideo" tabindex="-1">
+                <div class="modal-background" data-video-modal-close></div>
+                <div class="modal-content">
+                    <div class="box recipe-video-modal__box">
+                        <video class="recipe-video-modal__player" controls preload="metadata" data-video-modal-player>
+                            <source src="{{ $videoHref }}" type="video/mp4">
+                            Twoja przeglądarka nie wspiera odtwarzania wideo. Pobierz plik
+                            <a href="{{ $videoHref }}">tutaj</a>.
+                        </video>
+                    </div>
+                </div>
+                <button class="modal-close is-large" aria-label="Zamknij wideo" data-video-modal-close></button>
+            </div>
+            {{ end }}
 
             
 

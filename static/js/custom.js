@@ -272,6 +272,69 @@ if ('serviceWorker' in navigator) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+  const rootElement = document.documentElement;
+  let activeVideoModal = null;
+
+  const closeVideoModal = (modal) => {
+    if (!modal) { return; }
+    const videoEl = modal.querySelector('[data-video-modal-player]');
+    modal.classList.remove('is-active');
+    if (videoEl) {
+      videoEl.pause();
+      videoEl.currentTime = 0;
+    }
+    if (!document.querySelector('.modal.is-active')) {
+      rootElement.classList.remove('is-clipped');
+    }
+    if (activeVideoModal === modal) {
+      activeVideoModal = null;
+    }
+  };
+
+  const openVideoModal = (modal) => {
+    if (!modal) { return; }
+    modal.classList.add('is-active');
+    rootElement.classList.add('is-clipped');
+    const videoEl = modal.querySelector('[data-video-modal-player]');
+    if (videoEl) {
+      videoEl.pause();
+      videoEl.currentTime = 0;
+    }
+    activeVideoModal = modal;
+    modal.focus({ preventScroll: true });
+  };
+
+  document.querySelectorAll('[data-video-modal-trigger]').forEach((trigger) => {
+    const modalId = trigger.getAttribute('data-video-modal-trigger');
+    if (!modalId) { return; }
+    const modal = document.getElementById(modalId);
+    if (!modal) { return; }
+
+    trigger.addEventListener('click', (event) => {
+      event.preventDefault();
+      openVideoModal(modal);
+    });
+
+    modal.querySelectorAll('[data-video-modal-close]').forEach((closeEl) => {
+      closeEl.addEventListener('click', (event) => {
+        event.preventDefault();
+        closeVideoModal(modal);
+      });
+    });
+
+    modal.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') {
+        closeVideoModal(modal);
+      }
+    });
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && activeVideoModal) {
+      closeVideoModal(activeVideoModal);
+    }
+  });
+
   const fodmapToggleIcon = document.getElementById('fodmap-toggle-icon');
   if (fodmapToggleIcon) {
     const body = document.body;
