@@ -2,11 +2,11 @@
 draft: false
 title: "Czekoladowa owsianka z duszonymi śliwkami"
 author: "Policzone Szamy"
-recipe_image: images/recipe-headers/czekoladowa_owsianka_sliwki.avif
+recipe_image: images/recipe-headers/owsianka_z_sliwkami.avif
 date: 2025-10-02T12:00:00-00:00
 categories: ["śniadania"]
 subcategories: ["słodkie"]
-tags: ["owsianka", "czekolada", "śliwki", "śniadanie"]
+tags: ["owsianka", "czekolada", "śliwki"]
 tagline: "Pyszna czekoladowa owsianka z duszonymi śliwkami."
 video_file: videos/owsianka_z_sliwkami.mp4
 servings: 1
@@ -34,6 +34,7 @@ fodmap:
 - śliwki – 220 g (ok. 4 sztuki)
 - cynamon – szczypta
 - masło orzechowe – 10 g (1 łyżeczka)
+- szczypta soli
 
 ## Sposób przygotowania
 
