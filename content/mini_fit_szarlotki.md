@@ -6,7 +6,7 @@ recipe_image: images/recipe-headers/mini_fit_szarlotki.avif
 date: 2025-10-03T12:00:00-00:00
 categories: ["desery"]
 subcategories: ["wypieki"]
-video_file: videos/owsianka_z_sliwkami.mp4
+video_file: videos/mini_fit_szarlotki.mp4
 tags: ["szarlotka", "jabłka", "fit", "przekąska", "jesień"]
 tagline: "Małe, miękkie i wilgotne mini szarlotki z twarogiem – idealne do kawy i do lunchboxa."
 servings: 10
