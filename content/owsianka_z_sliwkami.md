@@ -4,9 +4,8 @@ title: Czekoladowa owsianka z duszonymi śliwkami
 author: Policzone Szamy
 recipe_image: images/recipe-headers/owsianka_z_sliwkami.avif
 date: 2025-10-02T12:00:00-00:00
-categories:
-  - salatki
-subcategories:
+categories: ["sniadania"]
+subcategories: ["słodkie"]
 tags:
   - owsianka
   - czekolada
