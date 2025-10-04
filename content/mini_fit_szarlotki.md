@@ -31,10 +31,10 @@ fodmap:
 
 ## Składniki
 - 250 g twarogu (półtłusty lub chudy, rozgnieciony)
-- 150 g jabłek (waga po pokrojeniu w drobną kostkę)
-- 1 jajko (ok. 60 g)
-- 20 g miękkiego masła
-- ok. 90 g mąki pszennej (lub ryżowej w wersji bezglutenowej)
+- 300 g jabłek (około 5 średnich jabłek)
+- 2 jajka
+- 30 g miękkiego masła
+- ok. 120 g mąki pszennej (lub ryżowej w wersji bezglutenowej)
 - 1 płaska łyżeczka proszku do pieczenia
 - 1–2 łyżki erytrytolu / cukru / ksylitolu (przy obliczeniach wersja z erytrytolem – 0 kcal)
 - (Opcjonalnie) szczypta cynamonu do masy
