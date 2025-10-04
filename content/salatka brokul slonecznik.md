@@ -5,6 +5,7 @@ author: Policzone Szamy
 recipe_image: images/recipe-headers/salatka_brokul_slonecznik.avif
 date: 2025-07-05T17:04:00-00:00
 categories:
+  - salatki
 tags:
   - grill
 tagline: Świeża sałatka z chrupiącym brokułem, kremową fetą i aromatycznym prażonym słonecznikiem.
