@@ -1,12 +1,19 @@
 ---
 draft: true
-title: "Proteinowe Batony Energetyczne 2.0 z Pistacjami i Berberysem"
-author: "Policzone Szamy"
+title: Proteinowe Batony Energetyczne 2.0 z Pistacjami i Berberysem
+author: Policzone Szamy
 recipe_image: images/recipe-headers/proteinowe_batony_pistacjowe.avif
 date: 2025-09-07T10:00:00-00:00
-categories: ["przekąski"]
-tags: ["batony", "przekąska", "proteinowe", "pistacje", "berberys", "bez-pieczenia"]
-tagline: "Gęste, sycące batony białkowe z chrupiącymi pistacjami i kwaskowym berberysem."
+categories:
+  - desery
+tags:
+  - batony
+  - przekąska
+  - proteinowe
+  - pistacje
+  - berberys
+  - bez-pieczenia
+tagline: Gęste, sycące batony białkowe z chrupiącymi pistacjami i kwaskowym berberysem.
 servings: 6
 prep_time: 15
 cook: false
@@ -17,13 +24,13 @@ fat: 6
 carbohydrate: 30
 link: https://www.youtube.com/watch?v=OmL2ry--rGo
 fodmap:
-  status: "no"
-  serving_ok: "Nie low FODMAP w oryginale (pistacje + laktoza)."
-  notes: "Pistacje są wysokie w FODMAP; laktoza z mleka może zwiększać ładunek. Przy wrażliwości – zamień."
+  status: no
+  serving_ok: Nie low FODMAP w oryginale (pistacje + laktoza).
+  notes: Pistacje są wysokie w FODMAP; laktoza z mleka może zwiększać ładunek. Przy wrażliwości – zamień.
   substitutions:
-    - "Pistacje → orzechy włoskie lub pekan (niski FODMAP w standardowej małej porcji)."
-    - "Mleko 1,5% → napój bezlaktozowy lub wzbogacone mleko bezlaktozowe."
-    - "Odżywka białkowa → izolat serwatki (niska laktoza) lub wegańska mieszanka ryż + groch."
+    - Pistacje → orzechy włoskie lub pekan (niski FODMAP w standardowej małej porcji).
+    - Mleko 1,5% → napój bezlaktozowy lub wzbogacone mleko bezlaktozowe.
+    - Odżywka białkowa → izolat serwatki (niska laktoza) lub wegańska mieszanka ryż + groch.
 ---
 
 ## Opis

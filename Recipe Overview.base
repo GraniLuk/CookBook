@@ -3,9 +3,16 @@ views:
     name: Wszystkie przepisy
     filters:
       or:
-        - file.path.contains("Przepisy/")
-        - file.path.contains("Do sformatowania/")
-    sort: []
+        - file.folder == "content"
+    order:
+      - file.name
+      - categories
+      - subcategories
+    sort:
+      - property: subcategories
+        direction: ASC
+      - property: categories
+        direction: ASC
     columns:
       - file.name
       - Tags

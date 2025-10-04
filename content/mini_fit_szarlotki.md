@@ -1,14 +1,20 @@
 ---
 draft: false
-title: "Mini Fit Szarlotki"
-author: "Autor Przepisu"
+title: Mini Fit Szarlotki
+author: Autor Przepisu
 recipe_image: images/recipe-headers/mini_fit_szarlotki.avif
 date: 2025-10-03T12:00:00-00:00
-categories: ["desery"]
-subcategories: ["wypieki"]
+categories:
+  - desery
+subcategories:
 video_file: videos/mini_fit_szarlotki.mp4
-tags: ["szarlotka", "jabłka", "fit", "przekąska", "jesień"]
-tagline: "Małe, miękkie i wilgotne mini szarlotki z twarogiem – idealne do kawy i do lunchboxa."
+tags:
+  - szarlotka
+  - jabłka
+  - fit
+  - przekąska
+  - jesień
+tagline: Małe, miękkie i wilgotne mini szarlotki z twarogiem – idealne do kawy i do lunchboxa.
 servings: 10
 prep_time: 10
 cook: true
@@ -17,16 +23,15 @@ calories: 175
 protein: 11
 fat: 6
 carbohydrate: 16
-
 fodmap:
-  status: "no"
-  serving_ok: "Nie jest low FODMAP w tej wersji (jabłka + laktoza)."
-  notes: "Jabłka są wysokofodmapowe (fruktoza + poliole), twaróg może zawierać laktozę. Małe porcje nadal kumulują FODMAP przy innych posiłkach."
+  status: no
+  serving_ok: Nie jest low FODMAP w tej wersji (jabłka + laktoza).
+  notes: Jabłka są wysokofodmapowe (fruktoza + poliole), twaróg może zawierać laktozę. Małe porcje nadal kumulują FODMAP przy innych posiłkach.
   substitutions:
-    - "jabłka -> borówki, truskawki lub rabarbar (wtedy mniejsza fruktoza)"
-    - "twaróg -> twaróg bez laktozy lub chudy serek bez laktozy"
-    - "mąka pszenna -> mąka ryżowa (wersja bezglutenowa / lepiej tolerowana)"
-    - "erytrytol -> można zostawić (niski FODMAP); unikać dużej ilości ksylitolu"
+    - jabłka -> borówki, truskawki lub rabarbar (wtedy mniejsza fruktoza)
+    - twaróg -> twaróg bez laktozy lub chudy serek bez laktozy
+    - mąka pszenna -> mąka ryżowa (wersja bezglutenowa / lepiej tolerowana)
+    - erytrytol -> można zostawić (niski FODMAP); unikać dużej ilości ksylitolu
 ---
 
 ## Składniki

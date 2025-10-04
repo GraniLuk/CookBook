@@ -1,28 +1,28 @@
 ---
-draft: false  
-title: "Sałatka z Brokułem, Fetą i Prażonym Słonecznikiem"  
-author: "Policzone Szamy"  
-recipe_image: images/recipe-headers/salatka_brokul_slonecznik.avif  
-date: 2025-07-05T17:04:00-00:00  
-categories: ["sałatki"]  
-tags: ["grill"]  
-tagline: "Świeża sałatka z chrupiącym brokułem, kremową fetą i aromatycznym prażonym słonecznikiem."  
-servings: 4  
-prep_time: 15  
-cook: true  
-cook_time: 5  
+draft: false
+title: Sałatka z Brokułem, Fetą i Prażonym Słonecznikiem
+author: Policzone Szamy
+recipe_image: images/recipe-headers/salatka_brokul_slonecznik.avif
+date: 2025-07-05T17:04:00-00:00
+categories:
+tags:
+  - grill
+tagline: Świeża sałatka z chrupiącym brokułem, kremową fetą i aromatycznym prażonym słonecznikiem.
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 5
 calories: 175
 protein: 11
 fat: 13
-carbohydrate: 6 
-
+carbohydrate: 6
 fodmap:
-  status: "depends"
-  serving_ok: "OK przy użyciu samych różyczek brokuła (~75–90 g/porcję)"
-  notes: "Różyczki brokuła w umiarkowanej porcji są OK; unikaj łodyg. Feta zwykle OK, pestki słonecznika OK."
+  status: depends
+  serving_ok: OK przy użyciu samych różyczek brokuła (~75–90 g/porcję)
+  notes: Różyczki brokuła w umiarkowanej porcji są OK; unikaj łodyg. Feta zwykle OK, pestki słonecznika OK.
   substitutions:
-    - "Brokuł – tylko różyczki; w razie wątpliwości zmniejsz porcję."
-link: ""  
+    - Brokuł – tylko różyczki; w razie wątpliwości zmniejsz porcję.
+link: ""
 ---
 
 ## Składniki

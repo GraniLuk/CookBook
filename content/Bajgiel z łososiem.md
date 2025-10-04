@@ -5,7 +5,7 @@ author: Michał Wrzosek
 recipe_image: images/defaultImage.avif
 date: 2025-09-03T12:00:00-00:00
 categories:
-  - śniadania
+  - sniadania
 tags:
   - bajgiel
   - łosoś
@@ -29,6 +29,8 @@ fodmap:
   substitutions:
     - Bajgiel -> bajgiel bezglutenowy
     - Serek kanapkowy -> serek bezlaktozowy
+subcategories:
+  - słone
 ---
 
 ## Składniki
