@@ -3,7 +3,7 @@ function printRecipe() {
     // Hide non-essential elements for printing
     const elementsToHide = [
         '#printButton',
-        '#youtubeButton',
+    '#mediaButtons',
         '.navbar',
         '.footer',
         'hr'

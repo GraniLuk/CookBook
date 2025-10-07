@@ -273,6 +273,8 @@ body, button, input, optgroup, select, textarea {
 
 /* Red YouTube icon */
 .media-badge .fa-youtube { color: #FF0000; }
+/* Teal local video icon */
+.media-badge .fa-film { color: #38bdf8; }
 /* White share icon for contrast on dark gradient */
 .media-badge .fa-share-from-square { color: #ffffff; }
 

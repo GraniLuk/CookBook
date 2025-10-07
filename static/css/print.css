@@ -4,7 +4,7 @@
     .navbar,
     .footer,
     #shareButton,
-    #youtubeButton,
+    #mediaButtons,
     hr {
         display: none !important;
     }
@@ -142,7 +142,7 @@ body.printing {
 body.printing .navbar,
 body.printing .footer,
 body.printing #shareButton,
-body.printing #youtubeButton,
+body.printing #mediaButtons,
 body.printing hr {
     display: none !important;
 }

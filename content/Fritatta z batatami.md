@@ -17,6 +17,7 @@ protein: 6.2
 fat: 5.3
 carbohydrate: 9.2
 link: https://www.youtube.com/watch?v=prsZbulipCk
+video_file: videos/Frittata z batatem, fetą i szpinakiem - szybkie śniadanie!.webm
 
 fodmap:
   status: "depends"
