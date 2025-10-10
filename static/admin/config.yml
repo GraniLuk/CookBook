@@ -38,10 +38,15 @@ collections:
       - { label: Obrazek przepisu (static/...), name: recipe_image, widget: string, required: false }
       - label: Tagi
         name: tags
-        widget: list
+        widget: relation
+        collection: tagCollection
+        file: tags
+        search_fields: [tags.*.label, tags.*.value]
+        display_fields: [tags.*.label]
+        value_field: tags.*.value
+        multiple: true
         required: false
-        allow_add: true
-        hint: "Wpisz tagi (jeden na linię). Sprawdź istniejące w Bibliotece tagów, aby zachować spójność."
+        hint: "Wybierz z listy tagów. Wszystkie tagi są załadowane."
       - { label: Kategorie, name: categories, widget: list, required: false }
       - { label: Podkategorie, name: subcategories, widget: list, required: false }
       - { label: Diety, name: diets, widget: list, required: false }
@@ -73,8 +78,21 @@ collections:
         name: body
         widget: markdown
         hint: "Treść przepisu"
+  - name: tagCollection
+    label: Tagi
+    files:
+      - name: tags
+        label: Lista tagów
+        file: data/tags.json
+        fields:
+          - name: tags
+            label: Wszystkie tagi
+            widget: list
+            fields:
+              - { label: Nazwa, name: label, widget: string }
+              - { label: Wartość, name: value, widget: string }
   - name: tagLibrary
-    label: Biblioteka tagów
+    label: Biblioteka tagów (stara)
     folder: data/tags
     extension: yaml
     format: yaml
