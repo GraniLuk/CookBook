@@ -1,0 +1,90 @@
+backend:
+  name: github
+  repo: GraniLuk/CookBook
+  branch: main
+  auth_type: implicit
+  app_id: Ov23liNlYyyS8AIONc4D
+  scope: repo
+
+site_url: https://graniluk.github.io/CookBook/
+local_backend: true
+publish_mode: simple
+media_folder: static/images/uploaded
+public_folder: /CookBook/images/uploaded
+slug:
+  encoding: ascii
+  clean_accents: true
+  sanitize_replacement: "-"
+
+collections:
+  - name: recipes
+    label: Przepisy
+    label_singular: Przepis
+    folder: content
+    create: true
+    slug: "{{slug}}"
+    extension: md
+    format: frontmatter
+    nested:
+      depth: 2
+      summary: "{{title}}"
+    fields:
+      - { label: Tytuł, name: title, widget: string }
+      - { label: Autor, name: author, widget: string, required: false }
+      - { label: Szkic, name: draft, widget: boolean, required: false, default: false }
+      - { label: Opis skrócony, name: tagline, widget: string, required: false }
+      - { label: Obrazek przepisu (static/...), name: recipe_image, widget: string, required: false }
+      - { label: Szerokość obrazu, name: image_width, widget: number, required: false }
+      - { label: Wysokość obrazu, name: image_height, widget: number, required: false }
+      - label: Tagi
+        name: tags
+        widget: relation
+        collection: tagLibrary
+        search_fields: [label, value]
+        display_fields: [label]
+        value_field: value
+        multiple: true
+        required: false
+        hint: "Wybierz z istniejącej listy tagów, aby zachować spójność."
+      - { label: Kategorie, name: categories, widget: list, required: false }
+      - { label: Podkategorie, name: subcategories, widget: list, required: false }
+      - { label: Diety, name: diets, widget: list, required: false }
+      - { label: Porcje, name: servings, widget: number, required: false, min: 1 }
+      - { label: Czas przygotowania (min), name: prep_time, widget: number, required: false, min: 0 }
+      - { label: Czy wymaga gotowania, name: cook, widget: boolean, required: false, default: false }
+      - { label: Czas gotowania (minuty/godziny), name: cook_time, widget: string, required: false }
+      - { label: Jednostka czasu gotowania, name: cook_increment, widget: string, required: false, hint: "minutes | hours" }
+      - { label: Kalorie, name: calories, widget: number, required: false, min: 0 }
+      - { label: Białko, name: protein, widget: number, required: false, min: 0 }
+      - { label: Tłuszcz, name: fat, widget: number, required: false, min: 0 }
+      - { label: Węglowodany, name: carbohydrate, widget: number, required: false, min: 0 }
+      - { label: Link (YouTube itp.), name: link, widget: string, required: false }
+      - label: Low FODMAP
+        name: fodmap
+        widget: object
+        required: false
+        collapsed: true
+        fields:
+          - { label: Status, name: status, widget: string, required: false }
+          - { label: Notatki, name: notes, widget: text, required: false }
+          - label: Zamienniki
+            name: substitutions
+            widget: list
+            required: false
+            field: { label: Zamiennik, name: substitution, widget: string }
+          - { label: Porcja OK, name: serving_ok, widget: string, required: false }
+      - label: Treść
+        name: body
+        widget: markdown
+        hint: "Treść przepisu"
+  - name: tagLibrary
+    label: Biblioteka tagów
+    folder: data/tags
+    extension: yaml
+    format: yaml
+    create: true
+    identifier_field: value
+    slug: "{{value}}"
+    fields:
+      - { label: Nazwa do wyświetlenia, name: label, widget: string }
+      - { label: Wartość (dokładny tag w front matter), name: value, widget: string }
