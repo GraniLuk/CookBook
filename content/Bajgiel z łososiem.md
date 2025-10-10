@@ -9,7 +9,6 @@ tags:
   - łosoś
   - awokado
   - jajko
-  - śniadanie
 categories:
   - sniadania
 subcategories:
