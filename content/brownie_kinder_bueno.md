@@ -40,7 +40,7 @@ fodmap:
 * 6 jajek (ok. 300 g)
 * 250 g masła
 * 100 g gorzkiej czekolady (≥60–70%)
-* 250 g cukru białego
+* 150 g cukru białego
 * 80 g kremu Kinder Bueno (lub innego kremu orzechowo-kakaowego)
 * 90 g kakao naturalnego
 * 6 batoników Kinder Bueno (ok. 129 g – 3 opakowania po 2 sztuki)
