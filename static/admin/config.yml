@@ -46,7 +46,7 @@ collections:
         value_field: tags.*.value
         multiple: true
         required: false
-        hint: "Wybierz z listy tagów. Wszystkie tagi są załadowane."
+        hint: "Wybierz z listy tagów."
       - { label: Kategorie, name: categories, widget: list, required: false }
       - { label: Podkategorie, name: subcategories, widget: list, required: false }
       - { label: Diety, name: diets, widget: list, required: false }
