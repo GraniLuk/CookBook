@@ -36,8 +36,6 @@ collections:
       - { label: Szkic, name: draft, widget: boolean, required: false, default: false }
       - { label: Opis skrócony, name: tagline, widget: string, required: false }
       - { label: Obrazek przepisu (static/...), name: recipe_image, widget: string, required: false }
-      - { label: Szerokość obrazu, name: image_width, widget: number, required: false }
-      - { label: Wysokość obrazu, name: image_height, widget: number, required: false }
       - label: Tagi
         name: tags
         widget: relation
@@ -47,6 +45,7 @@ collections:
         value_field: value
         multiple: true
         options_length: 200
+        load_all: true
         required: false
         hint: "Wybierz z istniejącej listy tagów, aby zachować spójność."
       - { label: Kategorie, name: categories, widget: list, required: false }
