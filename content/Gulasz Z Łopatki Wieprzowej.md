@@ -5,7 +5,7 @@ author: "Autor Przepisu"
 recipe_image: images/recipe-headers/gulasz_z_lopatki_wieprzowej.avif
 date: 2025-06-18T12:00:00-00:00
 categories: ["obiady"]
-tags: ["instant-pot", "stefan"]
+tags: ["instant pot", "stefan"]
 tagline: "Aromatyczny gulasz z łopatki wieprzowej!"
 servings: 8
 prep_time: 30

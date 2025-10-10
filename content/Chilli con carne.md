@@ -5,7 +5,7 @@ author: "Autor Przepisu"
 recipe_image: images/recipe-headers/chili-con-carne.avif
 date: 2025-06-18T12:00:00-00:00
 categories: ["obiady"]
-tags: ["instant-pot", "meksykańskie"]
+tags: ["instant pot", "meksykańskie"]
 tagline: "TOP Policzonej Szamy – pyszne chili con carne!"
 servings: 6
 prep_time: 20
