@@ -46,6 +46,7 @@ collections:
         display_fields: [label]
         value_field: value
         multiple: true
+        options_length: 200
         required: false
         hint: "Wybierz z istniejącej listy tagów, aby zachować spójność."
       - { label: Kategorie, name: categories, widget: list, required: false }
