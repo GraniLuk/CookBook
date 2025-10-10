@@ -2,7 +2,9 @@ backend:
   name: github
   repo: GraniLuk/CookBook
   branch: main
-  auth_type: implicit
+  auth_type: pkce
+  base_url: https://cookbook-cms-oauth.onrender.com/
+  auth_endpoint: /auth
   app_id: Ov23liNlYyyS8AIONc4D
   scope: repo
 
