@@ -6,7 +6,9 @@ recipe_image: images/recipe-headers/owsianka_daktylowa.avif
 date: 2025-06-19T12:00:00-00:00
 categories: ["sniadania"]
 subcategories: ["słodkie"]
-tags: ["stefan"]
+tags: 
+  - stefan
+  - owsianka
 tagline: "Sycąca owsianka z naturalną słodyczą daktyli!"
 servings: 2
 prep_time: 15
