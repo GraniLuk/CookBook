@@ -38,15 +38,47 @@ collections:
       - { label: Obrazek przepisu (static/...), name: recipe_image, widget: string, required: false }
       - label: Tagi
         name: tags
-        widget: relation
-        collection: tagCollection
-        file: tags
-        search_fields: [tags.*.label, tags.*.value]
-        display_fields: [tags.*.label]
-        value_field: tags.*.value
+        widget: select
         multiple: true
         required: false
-        hint: "Wybierz z listy tagów."
+        options:
+          - { label: "", value: "" }
+          - { label: "awokado", value: "awokado" }
+          - { label: "batony", value: "batony" }
+          - { label: "berberys", value: "berberys" }
+          - { label: "bez-pieczenia", value: "bez-pieczenia" }
+          - { label: "brownie", value: "brownie" }
+          - { label: "czekolada", value: "czekolada" }
+          - { label: "draft", value: "draft" }
+          - { label: "goście", value: "goście" }
+          - { label: "grill", value: "grill" }
+          - { label: "impreza", value: "impreza" }
+          - { label: "instant pot", value: "instant pot" }
+          - { label: "jabłka", value: "jabłka" }
+          - { label: "jajko", value: "jajko" }
+          - { label: "jesień", value: "jesień" }
+          - { label: "kinder bueno", value: "kinder bueno" }
+          - { label: "klasyczne", value: "klasyczne" }
+          - { label: "kurczak", value: "kurczak" }
+          - { label: "kuskus", value: "kuskus" }
+          - { label: "low carb", value: "low carb" }
+          - { label: "lunchbox", value: "lunchbox" }
+          - { label: "marokański", value: "marokański" }
+          - { label: "meksykańskie", value: "meksykańskie" }
+          - { label: "na-wynos", value: "na-wynos" }
+          - { label: "owsianka", value: "owsianka" }
+          - { label: "pasta", value: "pasta" }
+          - { label: "pistacje", value: "pistacje" }
+          - { label: "proteinowe", value: "proteinowe" }
+          - { label: "przekąska", value: "przekąska" }
+          - { label: "ryby", value: "ryby" }
+          - { label: "Stefan", value: "Stefan" }
+          - { label: "stefan", value: "stefan" }
+          - { label: "szybkie", value: "szybkie" }
+          - { label: "wegańskie", value: "wegańskie" }
+          - { label: "łosoś", value: "łosoś" }
+          - { label: "śliwki", value: "śliwki" }
+        hint: "Wybierz z listy tagów (wpisz lub kliknij, aby zobaczyć wszystkie)."
       - { label: Kategorie, name: categories, widget: list, required: false }
       - { label: Podkategorie, name: subcategories, widget: list, required: false }
       - { label: Diety, name: diets, widget: list, required: false }

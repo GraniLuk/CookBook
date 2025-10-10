@@ -20,14 +20,15 @@ This document captures how the Git-based CMS integration works, how to keep tag 
 3. Press **Save** to commit immediately, or **Publish** (same effect in simple mode).
 4. GitHub Pages workflow rebuilds automatically via `.github/workflows/hugo.yml`.
 
-### Tag selector (relation widget)
+### Tag selector (select widget)
 
-- The **Tagi** field pulls from the `tagLibrary` collection and only allows values defined in `data/tags/*.yaml`.
+- The **Tagi** field uses a `select` widget with all tag options defined inline in `static/admin/config.yml`.
+- All 38+ tags are visible in the dropdown—type to filter or scroll through the full list.
 - Removing a tag in the CMS deletes it from the front matter list.
 - To add a new tag:
-  1. Open **Biblioteka tagów**.
-  2. Create an entry with the tag display label and exact value (value must match what Hugo expects in `.Params.tags`).
-  3. Save – the tag becomes available in the recipes collection.
+  1. Manually add it to a recipe's front matter in Markdown (e.g., via git or text editor).
+  2. Run `scripts/update_tag_options.py` to regenerate the inline options in `config.yml`.
+  3. Commit the updated config and redeploy; the new tag appears in the CMS dropdown.
 
 ## Media uploads
 
@@ -76,12 +77,22 @@ This document captures how the Git-based CMS integration works, how to keep tag 
     ```
 
 - `scripts/generate_tag_data.py`
-  - Regenerates `data/tags/*.yaml` from current front matter.
-  - Run after adding/removing tags manually to keep the whitelist in sync:
+  - Regenerates `data/tags/*.yaml` from current front matter (legacy; kept for reference).
+  - Run after adding/removing tags manually to keep the YAML whitelist in sync:
 
     ```pwsh
     C:/Users/5028lukgr/source/repos/Another/CookBook/.venv/Scripts/python.exe scripts/generate_tag_data.py
     ```
+
+- `scripts/update_tag_options.py`
+  - **Primary maintenance script**: regenerates the inline `select` widget options in `static/admin/config.yml` from current recipe tags.
+  - Run after adding new tags manually in Markdown to refresh the CMS dropdown:
+
+    ```pwsh
+    C:/Users/5028lukgr/source/repos/Another/CookBook/.venv/Scripts/python.exe scripts/update_tag_options.py
+    ```
+
+  - Commit the updated `config.yml` after running.
 
 ## Troubleshooting checklist
 
