@@ -6,7 +6,7 @@ recipe_image: images/recipe-headers/placki_bananowo_twarogowe.avif
 date: 2025-08-29T12:00:00-00:00
 categories: ["sniadania"]
 subcategories: ["słodkie"]
-tags: ["stefan"]
+tags: ["Stefan"]
 tagline: "Pyszne placki z bananami i twarogiem!"
 servings: 10
 prep_time: 10

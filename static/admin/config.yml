@@ -73,9 +73,7 @@ collections:
           - { label: "przekąska", value: "przekąska" }
           - { label: "ryby", value: "ryby" }
           - { label: "Stefan", value: "Stefan" }
-          - { label: "stefan", value: "stefan" }
           - { label: "szybkie", value: "szybkie" }
-          - { label: "wegańskie", value: "wegańskie" }
           - { label: "łosoś", value: "łosoś" }
           - { label: "śliwki", value: "śliwki" }
           - { label: "migdały", value: "migdały" }
@@ -111,27 +109,3 @@ collections:
         name: body
         widget: markdown
         hint: "Treść przepisu"
-  - name: tagCollection
-    label: Tagi
-    files:
-      - name: tags
-        label: Lista tagów
-        file: data/tags.json
-        fields:
-          - name: tags
-            label: Wszystkie tagi
-            widget: list
-            fields:
-              - { label: Nazwa, name: label, widget: string }
-              - { label: Wartość, name: value, widget: string }
-  - name: tagLibrary
-    label: Biblioteka tagów (stara)
-    folder: data/tags
-    extension: yaml
-    format: yaml
-    create: true
-    identifier_field: value
-    slug: "{{value}}"
-    fields:
-      - { label: Nazwa do wyświetlenia, name: label, widget: string }
-      - { label: Wartość (dokładny tag w front matter), name: value, widget: string }

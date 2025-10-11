@@ -5,7 +5,7 @@ draft: false
 tagline: Aromatyczna pieczona owsianka z malinami!
 recipe_image: images/recipe-headers/pieczona_owsianka_z_malinami.avif
 tags:
-  - stefan
+  - Stefan
   - owsianka
 categories:
   - sniadania

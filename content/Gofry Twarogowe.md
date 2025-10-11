@@ -6,7 +6,7 @@ recipe_image: images/recipe-headers/gofry_twarogowe.avif
 date: 2025-06-20T12:00:00-00:00
 categories: ["sniadania"]
 subcategories: ["słodkie"]
-tags: ["stefan"]
+tags: ["Stefan"]
 tagline: "Pyszne i zdrowe gofry twarogowe na śniadanie!"
 servings: 4
 prep_time: 5

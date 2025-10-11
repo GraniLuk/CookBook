@@ -7,7 +7,7 @@ date: 2025-06-19T12:00:00-00:00
 categories: ["sniadania"]
 subcategories: ["słodkie"]
 tags: 
-  - stefan
+  - Stefan
   - owsianka
 tagline: "Sycąca owsianka z naturalną słodyczą daktyli!"
 servings: 2

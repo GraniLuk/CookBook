@@ -6,7 +6,7 @@ recipe_image: images/recipe-headers/placki_z_serka_wiejskiego.avif
 date: 2025-06-19T12:00:00-00:00
 categories: ["sniadania"]
 subcategories: ["słodkie"]
-tags: ["stefan"]
+tags: ["Stefan"]
 tagline: "Zdrowe placki z serka wiejskiego!"
 servings: 12
 prep_time: 10
