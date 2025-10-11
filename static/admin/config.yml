@@ -78,6 +78,7 @@ collections:
           - { label: "wegańskie", value: "wegańskie" }
           - { label: "łosoś", value: "łosoś" }
           - { label: "śliwki", value: "śliwki" }
+          - { label: "migdały", value: "migdały" }
         hint: "Wybierz z listy tagów (wpisz lub kliknij, aby zobaczyć wszystkie)."
       - { label: Kategorie, name: categories, widget: list, required: false }
       - { label: Podkategorie, name: subcategories, widget: list, required: false }
