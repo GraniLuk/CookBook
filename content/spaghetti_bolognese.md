@@ -1,12 +1,17 @@
 ---
+title: Spaghetti Bolognese
+author: Policzona Szama
 draft: false
-title: "Spaghetti Bolognese z Udźcem Wołowym"
-author: "Policzona Szamy"
+tagline: Klasyczne i aromatyczne spaghetti bolognese, którego smak tkwi w prostocie.
 recipe_image: images/recipe-headers/spaghetti_bolognese.avif
-date: 2025-10-11T12:00:00-00:00
-categories: ["obiady"]
-tags: ["makaron", "wołowina", "bolognese", "włoskie", "pomidory"]
-tagline: "Klasyczne i aromatyczne spaghetti bolognese, którego smak tkwi w prostocie."
+tags:
+  - makaron
+  - wołowina
+  - bolognese
+  - włoskie
+  - pomidory
+categories:
+  - obiady
 servings: 3
 prep_time: 15
 cook: true
@@ -14,18 +19,20 @@ cook_time: 20
 calories: 685
 protein: 45
 fat: 20
+fodmap:
+  status: no
+  serving_ok: Nie jest to danie niskofodmapowe.
+  notes: Główne źródła FODMAP to cebula, czosnek oraz makaron pszenny. Passata
+    pomidorowa w większych porcjach również może być problematyczna (fruktany).
+  substitutions:
+    - Cebula -> zielone części dymki lub pora (tylko zielone).
+    - Czosnek -> oliwa infuzowana czosnkiem (bez kawałków czosnku).
+    - Makaron pszenny -> makaron bezglutenowy (np. kukurydziany, ryżowy).
+    - Passata -> upewnij się, że nie zawiera dodatku cebuli/czosnku; porcja na
+      osobę nie powinna przekraczać 1/2 szklanki.
+date: 2025-10-11T12:00:00-00:00
 carbohydrate: 80
 link: https://youtu.be/vZ52mlw4yRs?t=447
-
-fodmap:
-  status: "no"
-  serving_ok: "Nie jest to danie niskofodmapowe."
-  notes: "Główne źródła FODMAP to cebula, czosnek oraz makaron pszenny. Passata pomidorowa w większych porcjach również może być problematyczna (fruktany)."
-  substitutions:
-    - "Cebula -> zielone części dymki lub pora (tylko zielone)."
-    - "Czosnek -> oliwa infuzowana czosnkiem (bez kawałków czosnku)."
-    - "Makaron pszenny -> makaron bezglutenowy (np. kukurydziany, ryżowy)."
-    - "Passata -> upewnij się, że nie zawiera dodatku cebuli/czosnku; porcja na osobę nie powinna przekraczać 1/2 szklanki."
 ---
 
 ## Składniki (na 3 porcje)
