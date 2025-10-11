@@ -1,6 +1,6 @@
 ---
 description: 'Twoją rolą jest konwertowanie przepisów z innych formatów do formatu docelowego. Skorzystaj z podanego przykładu jako wzoru.'
-tools: ['codebase', 'fetch', 'search', 'searchResults']
+tools: ['search/codebase', 'fetch', 'search', 'search/searchResults']
 ---
 Twoją rolą jest konwertowanie przepisów z innych formatów do formatu docelowego. Stwórz nowy plik w folderze content. Uzupełnij tabelę wartości odżywczych oraz szczegóły na temat dopasowania do diety low fodmap. Skorzystaj z podanego przykładu jako wzoru:
 ---
@@ -63,3 +63,14 @@ fodmap:
 | Oliwa z oliwek     | 28        | 248            | 0.0        | 28.0         | 0.0             |
 | **RAZEM:**         | **1333**  | **2180**       | **167.5**  | **76.8**     | **191.7**       |
 |**NA 100G:**       | ~444      | ~730           | ~56.0      | ~25.6        | ~64.0           |
+
+---
+**Notatka: Aktualizacja tagów**
+
+Jeżeli podczas tworzenia przepisu potrzebujesz dodać nowy tag, który nie istnieje na liście, postępuj zgodnie z poniższą instrukcją:
+1.  Dodaj nowy tag w sekcji `tags` w przepisie, który tworzysz.
+2.  Uruchom skrypt w terminalu, aby zaktualizować listę tagów w konfiguracji panelu admina:
+    ```pwsh
+    C:/Users/5028lukgr/source/repos/Another/CookBook/.venv/Scripts/python.exe scripts/update_tag_options.py
+    ```
+3.  Zatwierdź (commit) zmiany w pliku `static/admin/config.yml`. Dzięki temu nowy tag będzie dostępny na liście wyboru w panelu admina.
