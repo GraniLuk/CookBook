@@ -34,33 +34,34 @@ date: 2025-10-11T12:00:00-00:00
 carbohydrate: 80
 link: https://youtu.be/vZ52mlw4yRs?t=447
 ---
-
 ## Składniki (na 3 porcje)
-- 500g mielonego udźca wołowego (najlepiej zmielonego na grubych oczkach)
-- 300g makaronu spaghetti
-- 1 duża cebula (~150g)
-- 3-4 ząbki czosnku (~15g)
-- 1 butelka passaty pomidorowej (~700g)
-- 15ml oliwy z oliwek
-- 1 duża łyżka suszonego oregano
-- 1 duża łyżka suszonej bazylii
-- Sól i świeżo mielony pieprz do smaku
-- Kilka listków świeżej bazylii do dekoracji
-- Opcjonalnie: 1 chochla wody z gotowania makaronu
+
+* 500g mielonego udźca wołowego (najlepiej zmielonego na grubych oczkach)
+* 300g makaronu spaghetti
+* 1 duża cebula (~150g)
+* 3-4 ząbki czosnku (~15g)
+* 1 butelka passaty pomidorowej (~700g)
+* 15ml oliwy z oliwek
+* 1 duża łyżka suszonego oregano
+* 1 duża łyżka suszonej bazylii
+* Sól i świeżo mielony pieprz do smaku
+* Kilka listków świeżej bazylii do dekoracji
+* Opcjonalnie: 1 chochla wody z gotowania makaronu
 
 ## Sposób przygotowania
-1.  **Przygotowanie warzyw:** Cebulę i czosnek obierz, a następnie drobno posiekaj. Możesz użyć siekacza, aby przyspieszyć proces.
-2.  **Smażenie:** Na dużej, głębokiej patelni rozgrzej 15 ml oliwy. Wrzuć posiekaną cebulę z czosnkiem i smaż do zeszklenia, aż stracą surowość.
-3.  **Gotowanie makaronu:** W międzyczasie w dużym garnku zagotuj osoloną wodę. Wrzuć makaron spaghetti i gotuj zgodnie z instrukcją na opakowaniu, celując w konsystencję *al dente* (zwykle ok. 7-8 minut).
-4.  **Mięso i sos:** Do zeszklonej cebuli dodaj zmielone mięso. Rozdrobnij je łopatką i smaż, aż straci różowy kolor. Dopraw solą, pieprzem, oregano oraz suszoną bazylią. Wlej całą butelkę passaty, wymieszaj i gotuj na małym ogniu, aż makaron będzie gotowy.
-5.  **Łączenie:** Ugotowany makaron odcedź (zachowując trochę wody) i przełóż bezpośrednio na patelnię z sosem. Dodaj jedną chochlę wody z gotowania makaronu – zawarta w niej skrobia pomoże zagęścić sos i lepiej połączyć go z makaronem.
-6.  **Finalne gotowanie:** Wszystko razem energicznie wymieszaj i gotuj jeszcze przez 3-4 minuty, aby makaron wchłonął smaki sosu, a całość lekko zgęstniała.
-7.  **Podanie:** Gotowe spaghetti rozłóż na 3 porcje. Każdą udekoruj listkiem świeżej bazylii.
+
+1. **Przygotowanie warzyw:** Cebulę i czosnek obierz, a następnie drobno posiekaj. Możesz użyć siekacza, aby przyspieszyć proces.
+2. **Smażenie:** Na dużej, głębokiej patelni rozgrzej 15 ml oliwy. Wrzuć posiekaną cebulę z czosnkiem i smaż do zeszklenia, aż stracą surowość.
+3. **Gotowanie makaronu:** W międzyczasie w dużym garnku zagotuj osoloną wodę. Wrzuć makaron spaghetti i gotuj zgodnie z instrukcją na opakowaniu, celując w konsystencję *al dente* (zwykle ok. 7-8 minut).
+4. **Mięso i sos:** Do zeszklonej cebuli dodaj zmielone mięso. Rozdrobnij je łopatką i smaż, aż straci różowy kolor. Dopraw solą, pieprzem, oregano oraz suszoną bazylią. Wlej całą butelkę passaty, wymieszaj i gotuj na małym ogniu, aż makaron będzie gotowy.
+5. **Łączenie:** Ugotowany makaron odcedź (zachowując trochę wody) i przełóż bezpośrednio na patelnię z sosem. Dodaj jedną chochlę wody z gotowania makaronu – zawarta w niej skrobia pomoże zagęścić sos i lepiej połączyć go z makaronem.
+6. **Finalne gotowanie:** Wszystko razem energicznie wymieszaj i gotuj jeszcze przez 3-4 minuty, aby makaron wchłonął smaki sosu, a całość lekko zgęstniała.
+7. **Podanie:** Gotowe spaghetti rozłóż na 3 porcje. Każdą udekoruj listkiem świeżej bazylii.
 
 ## Podsumowanie wartości odżywczych (całe danie)
 
 | Składnik           | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
-|--------------------|-----------|----------------|------------|--------------|-----------------|
+| ------------------ | --------- | -------------- | ---------- | ------------ | --------------- |
 | Udziec wołowy      | 500       | 750            | 105.0      | 35.0         | 0.0             |
 | Makaron spaghetti  | 300       | 1080           | 39.0       | 4.5          | 219.0           |
 | Passata pomidorowa | 700       | 224            | 9.8        | 1.4          | 38.5            |
@@ -69,5 +70,3 @@ link: https://youtu.be/vZ52mlw4yRs?t=447
 | Czosnek            | 15        | 22             | 1.0        | 0.1          | 5.0             |
 | **RAZEM:**         | **1680**  | **2268**       | **156.5**  | **56.2**     | **276.5**       |
 | **NA 1 PORCJĘ:**   | **~560**  | **~756**       | **~52.2**  | **~18.7**    | **~92.2**       |
-
-*Uwaga: Wartości w tabeli są szacunkowe. Wartości w nagłówku (`front matter`) zostały zaokrąglone i dostosowane do typowych porcji.*
