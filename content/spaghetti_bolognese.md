@@ -5,9 +5,6 @@ draft: false
 tagline: Klasyczne i aromatyczne spaghetti bolognese, którego smak tkwi w prostocie.
 recipe_image: images/recipe-headers/spaghetti_bolognese.avif
 tags:
-  - makaron
-  - wołowina
-  - bolognese
   - włoskie
   - pomidory
 categories:
