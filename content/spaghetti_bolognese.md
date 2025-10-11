@@ -42,6 +42,7 @@ link: https://youtu.be/vZ52mlw4yRs?t=447
 * 3-4 ząbki czosnku (~15g)
 * 1 butelka passaty pomidorowej (~700g)
 * 15ml oliwy z oliwek
+* 20g parmezanu
 * 1 duża łyżka suszonego oregano
 * 1 duża łyżka suszonej bazylii
 * Sól i świeżo mielony pieprz do smaku
@@ -56,7 +57,7 @@ link: https://youtu.be/vZ52mlw4yRs?t=447
 4. **Mięso i sos:** Do zeszklonej cebuli dodaj zmielone mięso. Rozdrobnij je łopatką i smaż, aż straci różowy kolor. Dopraw solą, pieprzem, oregano oraz suszoną bazylią. Wlej całą butelkę passaty, wymieszaj i gotuj na małym ogniu, aż makaron będzie gotowy.
 5. **Łączenie:** Ugotowany makaron odcedź (zachowując trochę wody) i przełóż bezpośrednio na patelnię z sosem. Dodaj jedną chochlę wody z gotowania makaronu – zawarta w niej skrobia pomoże zagęścić sos i lepiej połączyć go z makaronem.
 6. **Finalne gotowanie:** Wszystko razem energicznie wymieszaj i gotuj jeszcze przez 3-4 minuty, aby makaron wchłonął smaki sosu, a całość lekko zgęstniała.
-7. **Podanie:** Gotowe spaghetti rozłóż na 3 porcje. Każdą udekoruj listkiem świeżej bazylii.
+7. **Podanie:** Gotowe spaghetti rozłóż na 3 porcje. Każdą udekoruj listkiem świeżej bazylii oraz startym parmezanem
 
 ## Podsumowanie wartości odżywczych (całe danie)
 
