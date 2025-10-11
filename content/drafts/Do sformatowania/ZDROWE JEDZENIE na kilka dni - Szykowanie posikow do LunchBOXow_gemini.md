@@ -47,46 +47,6 @@ Produkty na dzisiejszy dzień są już na stole – naszykowane to, co trzeba, i
 
 Słuchajcie, jest wczesna godzina, a ja zabieram się za szykowanie, aby już dzisiaj zacząć jeść pierwszy dzień jedzenia. Myślę, że jeśli macie wszystko przyszykowane i wszystkie składniki, to **do 2 godzin** powinniście się ze wszystkim wyrobić. Powiem wam, że nie ma przyjemniejszej rzeczy niż mieć naszykowane jedzonko w lodówce w lunchboxach na cały dzień i na kolejne dni, gdzie nie musicie myśleć o gotowaniu, tylko robicie swoje. No to co? Zaczynamy!
 
----
-
-## Posiłek 1: Frittata (na 3 dni)
-
-Szybki rzut oka na składniki do pierwszego posiłku – **frittata na 3 dni**. Szczegółowy rozpis macie w opisie.
-
-### Przygotowanie:
-1.  **Ser:** Przekrój ser na pół.
-2.  **Bataty:** Pokrój bataty w ćwiartki i wrzuć do gotującej się wody. Gotuj około **15 minut**.
-3.  **Szpinak i Czosnek (w międzyczasie):**
-    *   Na nieprzywierającej patelni obok wylej **10 ml oliwy**.
-    *   Przeciśnij czosnek przez praskę i obrabiaj kilkanaście sekund.
-    *   Po chwili dodaj szpinak – wrzuć całą paczkę **200 g** na patelnię.
-    *   Delikatnie przemieszaj, aby podrzucić czosnek z patelni.
-    *   Obrabiaj liście szpinaku do zwiotczenia, aż utracą wodę (kilka minut).
-4.  **Jajka i Ser:**
-    *   W tym czasie przełóż wszystkie **9 jajek** do miski.
-    *   Dopraw solą, świeżo mielonym pieprzem i dodaj pół łyżeczki **gałki muszkatołowej**.
-    *   Dobrze wymieszaj.
-    *   Pokrój w kosteczkę **3/4 sera à la feta**, który masz, i przerzuć tę kostkę do jajka. Resztę sera wrzucimy na samą górę naszych frittat.
-5.  **Składanie Frittat:**
-    *   Zobaczcie, co zostało po szpinaku z całego wora – ładnie przysmażony szpinak, zero wody na patelni.
-    *   Bataty również gotowe, więc odcedź.
-    *   Do **3 szklanych pojemników** ląduje szpinak.
-    *   Rozdziel masę jajeczną z serem sałatkowo-kanapkowym.
-    *   Dodaj bataty – ugotowany batat ładnie rozdziela się widelcem (użyłem nieco więcej niż **450 g**, aby uwzględnić skórę, która zostanie).
-    *   Na górę reszta sera, aby ładnie się zapiekła.
-    *   Mamy gotowe, wypełnione pojemniki surową jeszcze frittatą.
-6.  **Pieczenie:**
-    *   Frittatę obrabiam w piekarniku na sam koniec szykowania całego dnia, po to, aby zjeść ciepłe śniadanie.
-    *   W tym samym czasie robimy grzanki.
-    *   Temperatura: **180 stopni**, termoobieg.
-    *   Zapiekaj mniej więcej **16-17 minut**.
-
-### Wynik i Degustacja:
-Po tym czasie mamy **3 porcje pysznego, pierwszego posiłku frittaty**. Zobaczcie, pięknie przypieczona, świetnie odchodzi od pojemnika. Ja wam teraz wrzucam **makro i kalorie na jedną porcję**.
-
-OK, ja już po wszystkim, zrobiłem 4 posiłki na 3 dni, więc mogę próbować. Oj, było ciężko przetrwać do tego momentu, ale wiem, że było warto. Spróbuję bez noża – bez problemu widzę. Ale pyszne, WOW! To połączenie słodkości i słoności z batata i sera à la feta jest po prostu fenomenalne. Wiem, że ten posiłek, jako śniadanie, wchodzi bardzo dobrze również na zimno.
-
----
 
 ## Posiłek 2: Tiramisu (na 3 dni)
 
@@ -118,42 +78,6 @@ Jak widzicie, jest tu niezła mieszanka nabiału, ale uwierzcie mi, składniki i
 
 ### Wynik i Degustacja:
 Łapcie **makro i kalorie na jedno**. Możecie zamykać, do lodówki i przyjdzie na nie pora. Pokażę wam, co my tutaj mamy – zanurzymy się w tym słoiku. No zobaczcie, przecież wygląda obłędnie, biszkopt miękki. Rewelacja! Co za smaki! Coś pysznego, naprawdę! Myślę, że pójdzie na jeden raz! Dużo cukrów prostych, sporo z biszkoptu, dlatego idealnie na okołotreningowo, polecam.
-
----
-
-## Posiłek 3: Spaghetti Bolognese (na 3 dni)
-
-A na obiad robimy **spaghetti bolognese**. Niewiele składników, cały smak w prostocie. Ja tutaj użyłem pięknego kawałka **udźca wołowego**, którego zmieliłem na maszynce na dużych oczkach. Po zmieleniu mięsa właściwie mamy wszystko gotowe. Reszta już na patelni. Włoska kuchnia jest też tym piękna, że jest tak prosta i właśnie tak rewelacyjnie smakuje.
-
-### Przygotowanie:
-1.  **Przygotowanie Warzyw (wersja dla leniwych):**
-    *   Aby było jeszcze szybciej, cebulę i czosnek tylko wstępnie ćwiartuję.
-    *   Obieram oczywiście i wrzucam do siekacza. Kilka ruchów i cebulę z czosnkiem mam poszatkowaną. Takie ulubione wasze urządzonko, dostępne również u **Szamy**.
-2.  **Smażenie Mięsa i Warzyw:**
-    *   Mamy wszystko, przechodzimy na patelnię.
-    *   Na patelni stalowej **15 ml oliwy**.
-    *   Obok zaczyna gotować się już woda na makaron, włożymy go w odpowiednim momencie.
-    *   Na patelnię cebulka z czosnkiem. Odpowiednio przesmażam do zeszklenia, utraty surowości.
-    *   I wlatuje mięso. Przemieszam i zostawiam w spokoju, ma się ładnie przysmażyć, z jednej strony praktycznie stracić różowy kolor.
-    *   Obracam, przemieszam mięso i po krótkiej chwili jest gotowe.
-3.  **Dodanie Przypraw i Passaty:**
-    *   Dodaję przyprawy: po jednej sporej łyżce **oregano** oraz **bazylii**.
-    *   Doprawiamy solą i pieprzem i można wlewać całą butlę **passaty**.
-    *   Doleję nawet nieco wody, żeby zebrać wszystko ze ścianek, i wlewam na patelnię.
-4.  **Gotowanie Makaronu i Łączenie:**
-    *   W tym momencie do gotującej się wody dodaję sól i mogę wrzucać makaron **spaghetti**.
-    *   Nastawiam **7 minut**, po tym czasie będzie al dente. W tym samym czasie sos przechodzi smakami, lekko się redukuje. Nastawcie czas **7-8 minut**, makaron się gotuje. Sos możecie przemieszać kilka razy w tym czasie.
-    *   No i teraz ważny moment: minęło tak **7 minut**, odkąd zaczął gotować się makaron. W tym momencie makaron al dente mogę wyłączyć.
-    *   Przerzucam cały tutaj na patelnię. Pod patelnią cały czas płomień, dalsza obróbka trwa. Nie wiem, czy widzicie, piękny rdzeń jeszcze w środku. Co do jednej nitki, kurcze, nie chce się tu nabrać.
-    *   Mieszamy całość i doleję chochlę wody z makaronu ze skrobią. Przemieszam i właśnie tak zatopiony makaron jeszcze obrabiam **3-4 minuty**. Redukujemy sos, wodę. Możecie sprawdzić, czy czegoś do doprawienia nie brakuje.
-    *   **4-5 minut** obróbki, makaron wchłonie smaki i będzie gotowe.
-
-### Wynik i Degustacja:
-Wyłączam palnik. Sprawdźmy, co my tutaj mamy? Ooo! Ojejku, poezja! Dobra, wykładamy do boxów. Wypełniamy **3 lunchboxy o pojemności 1 l**. Na początku będzie wam się nabierać makaron, więc później wykładamy sos. Wszystko pachnie rewelacyjnie. Dodaję po listku bazylii i mamy gotowe **3 porcje przepysznego spaghetti bolognese**. **Makro i kalorie na jedną porcję** przed wami.
-
-### Wskazówki dot. Podgrzewania:
-Słuchajcie, z podgrzewaniem: czy to jest kuchenka gazowa, czy to jest mikrofala, to dolewamy zawsze minimalną ilość wody. A woda, a właściwie para wodna, ładnie nam ten makaron pobudzi do życia. Ja po wstępnym wymieszaniu przykrywam jeszcze folią, aby stworzyć odpowiednio gorącą atmosferę dla makaronu. Oczywiście nie muszę mówić, jak przepyszne obiady miałem przez 3 dni, jedząc to spaghetti.
-
 ---
 
 ## Posiłek 4: Sałatka Śródziemnomorska z Grzankami (na 3 dni)
