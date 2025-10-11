@@ -65,18 +65,21 @@ collections:
           - { label: "lunchbox", value: "lunchbox" }
           - { label: "marokański", value: "marokański" }
           - { label: "meksykańskie", value: "meksykańskie" }
+          - { label: "migdały", value: "migdały" }
           - { label: "na-wynos", value: "na-wynos" }
           - { label: "owsianka", value: "owsianka" }
           - { label: "pasta", value: "pasta" }
           - { label: "pistacje", value: "pistacje" }
+          - { label: "pomidory", value: "pomidory" }
           - { label: "proteinowe", value: "proteinowe" }
           - { label: "przekąska", value: "przekąska" }
           - { label: "ryby", value: "ryby" }
           - { label: "Stefan", value: "Stefan" }
           - { label: "szybkie", value: "szybkie" }
+          - { label: "wegańskie", value: "wegańskie" }
+          - { label: "włoskie", value: "włoskie" }
           - { label: "łosoś", value: "łosoś" }
           - { label: "śliwki", value: "śliwki" }
-          - { label: "migdały", value: "migdały" }
         hint: "Wybierz z listy tagów (wpisz lub kliknij, aby zobaczyć wszystkie)."
       - { label: Kategorie, name: categories, widget: list, required: false }
       - { label: Podkategorie, name: subcategories, widget: list, required: false }
