@@ -3,7 +3,7 @@ draft: false
 title: "Pieczona Owsianka Migdałowa (Croissant Vibe)"
 author: "Granica"
 recipe_image: images/recipe-headers/owsianka_migdalowa.avif
-date: 2025-10-11T12:00:00-00:00
+date: 2025-10-11T07:00:00-00:00
 categories: ["sniadania"]
 subcategories: ["słodkie"]
 tags: ["owsianka", "migdały"]
