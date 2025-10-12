@@ -60,6 +60,12 @@ fileName = "/images/icon.png" #your favicon here if you wish to change it.
     parent = "diety"
     url = "/diets/low-fodmap/"
     weight = 31
+  
+  [[menu.main]]
+    name = "Plany Tygodniowe"
+    pre = "fas fa-calendar-week"
+    url = "/weekly-plans/"
+    weight = 35
     
     [[menu.main]]
     name = "Śniadania"
