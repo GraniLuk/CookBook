@@ -7,7 +7,9 @@
                     <div>
                         <h1 class="title is-2">{{ .Title }}</h1>
                         <p class="subtitle">
+                            {{ if .Params.start_date }}
                             Od {{ .Params.start_date | time.Format "02.01.2006" }} 
+                            {{ end }}
                             <span class="tag is-info is-medium ml-2">Tydzień {{ .Params.week_number }}/{{ .Params.year }}</span>
                         </p>
                     </div>

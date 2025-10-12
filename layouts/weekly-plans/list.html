@@ -21,7 +21,9 @@
                             <a href="{{ .Permalink }}">{{ .Title }}</a>
                         </p>
                         <div class="card-header-icon">
+                            {{ if .Params.start_date }}
                             <span class="tag is-info is-medium">{{ .Params.start_date | time.Format "02.01" }}</span>
+                            {{ end }}
                         </div>
                     </header>
                     <div class="card-content">
