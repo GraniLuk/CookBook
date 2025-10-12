@@ -1,0 +1,64 @@
+{{ define "main" }}
+<section class="section">
+    <div class="container">
+        <h1 class="title is-2 has-text-centered">{{ .Title }}</h1>
+        <p class="subtitle has-text-centered">{{ .Content }}</p>
+        
+        <div class="buttons is-centered mb-5">
+            <a href="{{ partial "asset-url.html" "/admin/#/collections/weekly_plans/new" }}" class="button is-primary is-medium">
+                <span class="icon"><i class="fas fa-plus"></i></span>
+                <span>Stwórz nowy plan</span>
+            </a>
+        </div>
+
+        {{ if .Pages }}
+        <div class="columns is-multiline">
+            {{ range .Pages.ByDate.Reverse }}
+            <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
+                <div class="card">
+                    <header class="card-header">
+                        <p class="card-header-title">
+                            <a href="{{ .Permalink }}">{{ .Title }}</a>
+                        </p>
+                        <div class="card-header-icon">
+                            <span class="tag is-info is-medium">{{ .Params.start_date | time.Format "02.01" }}</span>
+                        </div>
+                    </header>
+                    <div class="card-content">
+                        <div class="content">
+                            <p class="has-text-grey">
+                                <span class="icon"><i class="far fa-calendar"></i></span>
+                                Tydzień {{ .Params.week_number }}/{{ .Params.year }}
+                            </p>
+                            {{ if .Params.notes }}
+                            <p class="mt-2">{{ .Params.notes | truncate 100 }}</p>
+                            {{ end }}
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <a href="{{ .Permalink }}" class="card-footer-item">
+                            <span class="icon"><i class="fas fa-eye"></i></span>
+                            <span>Zobacz</span>
+                        </a>
+                        <a href="{{ partial "asset-url.html" (printf "/admin/#/collections/weekly_plans/entries/%s" .File.BaseFileName) }}" class="card-footer-item">
+                            <span class="icon"><i class="fas fa-edit"></i></span>
+                            <span>Edytuj</span>
+                        </a>
+                    </footer>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+        {{ else }}
+        <div class="notification is-info is-light">
+            <p class="has-text-centered">
+                <span class="icon is-large"><i class="fas fa-calendar-alt fa-2x"></i></span>
+            </p>
+            <p class="has-text-centered">
+                Nie masz jeszcze żadnych planów tygodniowych. Kliknij przycisk wyżej, aby stworzyć pierwszy!
+            </p>
+        </div>
+        {{ end }}
+    </div>
+</section>
+{{ end }}
