@@ -125,7 +125,7 @@ collections:
       - { label: Tytuł, name: title, widget: string, default: "Plan tygodnia" }
       - { label: Tydzień, name: week_number, widget: number, min: 1, max: 53, value_type: int }
       - { label: Rok, name: year, widget: number, default: 2025, value_type: int }
-      - { label: Od dnia, name: start_date, widget: date, format: "YYYY-MM-DD" }
+      - { label: Od dnia, name: start_date, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false, required: false }
       - { label: Notatki, name: notes, widget: text, required: false }
       - label: Poniedziałek
         name: monday
