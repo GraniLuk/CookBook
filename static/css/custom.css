@@ -379,3 +379,170 @@ body.fodmap-view-enabled .fodmap-indicator {
         border-radius: 12px;
     }
 }
+
+/* ===== WEEKLY PLAN STYLES ===== */
+
+/* Weekly plan day boxes */
+.weekly-plan-day {
+    border-left: 4px solid #00d1b2;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 16px;
+}
+
+.weekly-plan-day:hover {
+    border-left-color: #3273dc;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Meal slot styling */
+.meal-slot {
+    min-height: 120px;
+    padding: 1rem;
+    background: #fafafa;
+    border-radius: 12px;
+    border: 1px solid #e8e8e8;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.meal-slot:hover {
+    background: #f5f5f5;
+    border-color: #dbdbdb;
+}
+
+.meal-slot .heading {
+    color: #363636;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5rem;
+}
+
+.meal-slot img {
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.meal-slot img:hover {
+    transform: scale(1.05);
+}
+
+.meal-slot a {
+    color: #3273dc;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.meal-slot a:hover {
+    color: #00d1b2;
+    text-decoration: underline;
+}
+
+/* Weekly plan list cards */
+.weekly-plan-list .card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.weekly-plan-list .card-content {
+    flex-grow: 1;
+}
+
+/* Print styles for weekly plans */
+@media print {
+    /* Hide interactive elements */
+    .buttons, 
+    .card-footer,
+    .is-hidden-print,
+    .level-right,
+    .navbar,
+    footer { 
+        display: none !important; 
+    }
+    
+    /* Adjust layout for printing */
+    .section {
+        padding: 1rem !important;
+    }
+    
+    .container {
+        max-width: 100% !important;
+    }
+    
+    /* Weekly plan day boxes */
+    .box,
+    .weekly-plan-day { 
+        page-break-inside: avoid;
+        border: 1px solid #dbdbdb;
+        margin-bottom: 1rem !important;
+        box-shadow: none !important;
+    }
+    
+    .weekly-plan-day {
+        border-left: 3px solid #00d1b2;
+    }
+    
+    /* Meal slots */
+    .meal-slot {
+        background: white;
+        border: 1px solid #e8e8e8;
+        page-break-inside: avoid;
+    }
+    
+    /* Ensure images print */
+    .meal-slot img {
+        max-width: 100px !important;
+        height: auto !important;
+    }
+    
+    /* Compact spacing for print */
+    .title {
+        font-size: 1.25rem !important;
+    }
+    
+    .subtitle {
+        font-size: 1rem !important;
+    }
+    
+    .notification {
+        border: 1px solid #dbdbdb;
+        background: #f5f5f5 !important;
+    }
+    
+    /* Force columns to display properly */
+    .columns {
+        display: flex !important;
+    }
+    
+    .column {
+        padding: 0.5rem !important;
+    }
+}
+
+/* Mobile responsiveness for weekly plans */
+@media screen and (max-width: 768px) {
+    .meal-slot {
+        min-height: 100px;
+        padding: 0.75rem;
+    }
+    
+    .meal-slot .image.is-128x128 {
+        width: 96px;
+        height: 96px;
+    }
+    
+    .weekly-plan-day .title.is-4 {
+        font-size: 1.25rem;
+    }
+    
+    /* Stack meal columns on mobile */
+    .weekly-plan-day .columns {
+        margin-bottom: 0;
+    }
+    
+    .weekly-plan-day .column {
+        padding-bottom: 0.5rem;
+    }
+}
