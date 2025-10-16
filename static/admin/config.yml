@@ -135,6 +135,7 @@ collections:
           - { label: Śniadanie, name: breakfast, widget: relation, collection: recipes, search_fields: ["title"], value_field: "{{slug}}", display_fields: ["title"], required: false }
           - { label: Lunch, name: lunch, widget: relation, collection: recipes, search_fields: ["title"], value_field: "{{slug}}", display_fields: ["title"], required: false }
           - { label: Obiad, name: dinner, widget: relation, collection: recipes, search_fields: ["title"], value_field: "{{slug}}", display_fields: ["title"], required: false }
+          - { label: Kolacja, name: supper, widget: relation, collection: recipes, search_fields: ["title"], value_field: "{{slug}}", display_fields: ["title"], required: false }
           - { label: Notatki, name: notes, widget: string, required: false }
       - label: Wtorek
         name: tuesday
@@ -144,6 +145,7 @@ collections:
           - { label: Śniadanie, name: breakfast, widget: relation, collection: recipes, search_fields: ["title"], value_field: "{{slug}}", display_fields: ["title"], required: false }
           - { label: Lunch, name: lunch, widget: relation, collection: recipes, search_fields: ["title"], value_field: "{{slug}}", display_fields: ["title"], required: false }
           - { label: Obiad, name: dinner, widget: relation, collection: recipes, search_fields: ["title"], value_field: "{{slug}}", display_fields: ["title"], required: false }
+          - { label: Kolacja, name: supper, widget: relation, collection: recipes, search_fields: ["title"], value_field: "{{slug}}", display_fields: ["title"], required: false }
           - { label: Notatki, name: notes, widget: string, required: false }
       - label: Środa
         name: wednesday
@@ -153,6 +155,7 @@ collections:
           - { label: Śniadanie, name: breakfast, widget: relation, collection: recipes, search_fields: ["title"], value_field: "{{slug}}", display_fields: ["title"], required: false }
           - { label: Lunch, name: lunch, widget: relation, collection: recipes, search_fields: ["title"], value_field: "{{slug}}", display_fields: ["title"], required: false }
           - { label: Obiad, name: dinner, widget: relation, collection: recipes, search_fields: ["title"], value_field: "{{slug}}", display_fields: ["title"], required: false }
+          - { label: Kolacja, name: supper, widget: relation, collection: recipes, search_fields: ["title"], value_field: "{{slug}}", display_fields: ["title"], required: false }
           - { label: Notatki, name: notes, widget: string, required: false }
       - label: Czwartek
         name: thursday
@@ -162,6 +165,7 @@ collections:
           - { label: Śniadanie, name: breakfast, widget: relation, collection: recipes, search_fields: ["title"], value_field: "{{slug}}", display_fields: ["title"], required: false }
           - { label: Lunch, name: lunch, widget: relation, collection: recipes, search_fields: ["title"], value_field: "{{slug}}", display_fields: ["title"], required: false }
           - { label: Obiad, name: dinner, widget: relation, collection: recipes, search_fields: ["title"], value_field: "{{slug}}", display_fields: ["title"], required: false }
+          - { label: Kolacja, name: supper, widget: relation, collection: recipes, search_fields: ["title"], value_field: "{{slug}}", display_fields: ["title"], required: false }
           - { label: Notatki, name: notes, widget: string, required: false }
       - label: Piątek
         name: friday
@@ -171,6 +175,7 @@ collections:
           - { label: Śniadanie, name: breakfast, widget: relation, collection: recipes, search_fields: ["title"], value_field: "{{slug}}", display_fields: ["title"], required: false }
           - { label: Lunch, name: lunch, widget: relation, collection: recipes, search_fields: ["title"], value_field: "{{slug}}", display_fields: ["title"], required: false }
           - { label: Obiad, name: dinner, widget: relation, collection: recipes, search_fields: ["title"], value_field: "{{slug}}", display_fields: ["title"], required: false }
+          - { label: Kolacja, name: supper, widget: relation, collection: recipes, search_fields: ["title"], value_field: "{{slug}}", display_fields: ["title"], required: false }
           - { label: Notatki, name: notes, widget: string, required: false }
       - label: Sobota
         name: saturday
@@ -180,6 +185,7 @@ collections:
           - { label: Śniadanie, name: breakfast, widget: relation, collection: recipes, search_fields: ["title"], value_field: "{{slug}}", display_fields: ["title"], required: false }
           - { label: Lunch, name: lunch, widget: relation, collection: recipes, search_fields: ["title"], value_field: "{{slug}}", display_fields: ["title"], required: false }
           - { label: Obiad, name: dinner, widget: relation, collection: recipes, search_fields: ["title"], value_field: "{{slug}}", display_fields: ["title"], required: false }
+          - { label: Kolacja, name: supper, widget: relation, collection: recipes, search_fields: ["title"], value_field: "{{slug}}", display_fields: ["title"], required: false }
           - { label: Notatki, name: notes, widget: string, required: false }
       - label: Niedziela
         name: sunday
@@ -189,4 +195,5 @@ collections:
           - { label: Śniadanie, name: breakfast, widget: relation, collection: recipes, search_fields: ["title"], value_field: "{{slug}}", display_fields: ["title"], required: false }
           - { label: Lunch, name: lunch, widget: relation, collection: recipes, search_fields: ["title"], value_field: "{{slug}}", display_fields: ["title"], required: false }
           - { label: Obiad, name: dinner, widget: relation, collection: recipes, search_fields: ["title"], value_field: "{{slug}}", display_fields: ["title"], required: false }
+          - { label: Kolacja, name: supper, widget: relation, collection: recipes, search_fields: ["title"], value_field: "{{slug}}", display_fields: ["title"], required: false }
           - { label: Notatki, name: notes, widget: string, required: false }

@@ -40,8 +40,8 @@
         <div class="weekly-plan-grid">
             {{ $days := slice "monday" "tuesday" "wednesday" "thursday" "friday" "saturday" "sunday" }}
             {{ $dayNames := dict "monday" "Poniedziałek" "tuesday" "Wtorek" "wednesday" "Środa" "thursday" "Czwartek" "friday" "Piątek" "saturday" "Sobota" "sunday" "Niedziela" }}
-            {{ $meals := slice "breakfast" "lunch" "dinner" }}
-            {{ $mealNames := dict "breakfast" "Śniadanie" "lunch" "Lunch" "dinner" "Obiad" }}
+            {{ $meals := slice "breakfast" "lunch" "dinner" "supper" }}
+            {{ $mealNames := dict "breakfast" "Śniadanie" "lunch" "Lunch" "dinner" "Obiad" "supper" "Kolacja" }}
 
             {{ range $dayIndex, $day := $days }}
             {{ $dayData := index $.Params $day }}
@@ -54,7 +54,7 @@
                 <div class="columns is-multiline">
                     {{ range $meals }}
                     {{ $mealSlug := index $dayData . }}
-                    <div class="column is-one-third-desktop is-full-mobile">
+                    <div class="column is-one-quarter-desktop is-half-tablet is-full-mobile">
                         <div class="meal-slot">
                             <p class="heading">{{ index $mealNames . }}</p>
                             {{ if $mealSlug }}
