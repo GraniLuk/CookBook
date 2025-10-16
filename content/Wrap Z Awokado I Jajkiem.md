@@ -2,7 +2,7 @@
 draft: false
 title: "Wrap Z Awokado I Jajkiem"
 author: "Granica"
-recipe_image: images/recipe-headers/wrap_z_awokado.webp
+recipe_image: images/recipe-headers/wrap_z_awokado.awif
 date: 2025-06-18T12:00:00-00:00
 categories: ["sniadania"]
 subcategories: ["słone"]

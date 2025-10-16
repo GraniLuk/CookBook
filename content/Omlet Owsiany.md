@@ -2,7 +2,7 @@
 draft: false
 title: "Omlet Owsiany"
 author: "Granica"
-recipe_image: images/recipe-headers/omlet_owsiany.webp
+recipe_image: images/recipe-headers/omlet_owsiany.awif
 date: 2025-06-18T12:00:00-00:00
 categories: ["sniadania"]
 subcategories: ["słodkie"]
