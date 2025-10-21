@@ -14,6 +14,7 @@ calories: 258
 protein: 17.5
 fat: 9
 carbohydrate: 25
+video_file: videos/pasta_pikanta_z_tunczyka.mp4
 fodmap:
   status: "depends"
   serving_ok: "OK po modyfikacjach: bez czosnku, sprawdź ilość jalapeno"
