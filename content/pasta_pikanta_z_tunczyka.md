@@ -2,7 +2,7 @@
 draft: false  
 title: "Pikantna Pasta z Tuńczyka z Mozzarellą"  
 author: "GraniLuk"  
-recipe_image: images/recipe-headers/pasta_pikanta_tunczyk.avif
+recipe_image: images/recipe-headers/pasta_pikantna_z_tunczyka.avif
 date: 2025-10-21T12:00:00-00:00  
 categories: ["przekąski"]  
 tags: ["tuńczyk", "mozzarella", "pasta", "pikantne", "fit", "szybkie danie"]  
