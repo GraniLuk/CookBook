@@ -16,6 +16,7 @@ protein: 35
 fat: 25
 carbohydrate: 20
 link: https://www.youtube.com/watch?v=LGERJ1Qut5U
+video_file: videos/Sałatka z INDYKIEM.webm
 fodmap:
   status: yes
   serving_ok: OK w tej porcji z modyfikacją
