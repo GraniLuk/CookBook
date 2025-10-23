@@ -3,7 +3,7 @@ draft: false
 title: "Domowy Twarożek z Rzodkiewką i Szczypiorkiem"  
 author: "GraniLuk"  
 recipe_image: images/recipe-headers/twarog_rzodkiewka.avif
-date: 2025-10-23T12:00:00-00:00  
+date: 2025-10-23T11:00:00-00:00  
 categories: ["sniadania"]  
 subcategories: ["słone"]
 tags: ["twaróg", "rzodkiewka", "szybkie"]  
