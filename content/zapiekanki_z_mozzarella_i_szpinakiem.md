@@ -1,30 +1,39 @@
 ---
-draft: false
-title: "Zapiekanki z Mozzarellą i Szpinakiem"
-author: "Kozak Trener"
-recipe_image: images/recipe-headers/zapiekanki_mozzarella_szpinak.avif
 video_file: videos/zapiekanki_z_mozarella_pesto.mp4
-date: 2025-10-24T12:30:00-00:00
-categories: ["śniadania"]
-subcategories: ["słone"]
-tags: ["mozzarella", "szpinak", "szybkie", "kanapki"]
-tagline: "Szybka, sycąca zapiekanka z mozzarellą, szpinakiem i nutą pesto – idealna z Twojej rozpiski."
+title: Zapiekanki z Mozzarellą i Szpinakiem
+author: Kozak Trener
+draft: false
+tagline: Szybka, sycąca zapiekanka z mozzarellą, szpinakiem i nutą pesto.
+recipe_image: images/recipe-headers/zapiekanki_mozzarella_szpinak.avif
+tags:
+  - mozzarella
+  - szpinak
+  - szybkie
+  - kanapki
+categories:
+  - śniadania
+subcategories:
+  - słone
 servings: 1
 prep_time: 10
 cook: true
 cook_time: 10
 calories: 485
 protein: 33
+fodmap:
+  status: depends
+  serving_ok: "OK po modyfikacjach: czosnek -> olej czosnkowy; pieczywo
+    bezglutenowe; ostrożnie z ilością chili"
+  notes: Pszenna bułka i czosnek zwiększają FODMAP. Szpinak w porcji 100g zwykle
+    tolerowany. Pesto może zawierać czosnek – wybierz wersję bez cząstek
+    czosnku.
+  substitutions:
+    - bułka pszenna -> bułka bezglutenowa (ryżowa/kukurydziana)
+    - czosnek -> olej czosnkowy (infuzja bez cząstek)
+    - pesto -> domowe bez czosnku
+date: 2025-10-24T12:30:00-00:00
 fat: 20
 carbohydrate: 44
-fodmap:
-  status: "depends"
-  serving_ok: "OK po modyfikacjach: czosnek -> olej czosnkowy; pieczywo bezglutenowe; ostrożnie z ilością chili"
-  notes: "Pszenna bułka i czosnek zwiększają FODMAP. Szpinak w porcji 100g zwykle tolerowany. Pesto może zawierać czosnek – wybierz wersję bez cząstek czosnku."
-  substitutions:
-    - "bułka pszenna -> bułka bezglutenowa (ryżowa/kukurydziana)"
-    - "czosnek -> olej czosnkowy (infuzja bez cząstek)"
-    - "pesto -> domowe bez czosnku"
 ---
 
 ## Składniki (1 porcja)
