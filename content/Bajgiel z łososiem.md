@@ -9,6 +9,7 @@ tags:
   - łosoś
   - awokado
   - jajko
+  - kanapki
 categories:
   - sniadania
 subcategories:

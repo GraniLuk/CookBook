@@ -6,7 +6,7 @@ recipe_image: images/recipe-headers/twarog_z_rzodkiewka.avif
 date: 2025-10-23T11:00:00-00:00  
 categories: ["sniadania"]  
 subcategories: ["słone"]
-tags: ["twaróg", "rzodkiewka", "szybkie"]  
+tags: ["twaróg", "rzodkiewka", "szybkie", "kanapki"]  
 tagline: "Kremowy domowy twarożek z chrupiącą rzodkiewką i świeżym szczypiorkiem - idealne śniadanie."  
 servings: 5  
 prep_time: 20  

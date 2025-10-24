@@ -6,7 +6,7 @@ recipe_image: images/recipe-headers/pasta_jajeczna_suszone_pomidory.avif
 date: 2025-07-14T11:40:00-00:00
 categories: ["sniadania"]
 subcategories: ["słone"]
-tags: ["szybkie", "pasta"]
+tags: ["szybkie", "pasta", "kanapki"]
 tagline: "Kremowa i aromatyczna pasta jajeczna z wyrazistym smakiem suszonych pomidorów i tuńczyka."
 servings: 4
 prep_time: 5
