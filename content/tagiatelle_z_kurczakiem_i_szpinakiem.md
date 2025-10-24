@@ -1,7 +1,7 @@
 ---
 draft: false  
 title: "Tagliatelle z Kurczakiem, Szpinakiem i Pomidorami"  
-author: "GraniLuk"  
+author: "barlomiej_wlodarczyk"  
 recipe_image: images/recipe-headers/tagliatelle_kurczak_szpinak.avif
 video_file: videos/tagiatelle_z_szpinakiem.mp4
 date: 2025-10-24T12:00:00-00:00  
