@@ -8,6 +8,7 @@ categories: ["sniadania"]
 subcategories: ["słodkie"]
 tags: ["Stefan"]
 tagline: "Pyszne i zdrowe gofry twarogowe na śniadanie!"
+ingredients: ["twaróg", "jajka", "banan", "mleko", "mąka", "olej"]
 servings: 4
 prep_time: 5
 cook: true

@@ -8,6 +8,7 @@ categories: ["sniadania"]
 subcategories: ["słone"]
 tags: []
 tagline: "Klasyczna szakszuka z jajkami w sosie pomidorowym!"
+ingredients: ["pesto bazyliowe", "jajka", "pomidory", "czosnek", "jarmuż", "oregano", "mascarpone", "chleb żytni"]
 servings: 3
 prep_time: 10
 cook: true

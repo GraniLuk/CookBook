@@ -1,13 +1,33 @@
-{{- $.Scratch.Add "index" slice -}}
-{{- range .Site.RegularPages -}}
-	{{- $img := partial "asset-url.html" (or site.Params.front.defaultImage "/images/defaultImage.avif") -}}
-	{{- with .Params.recipe_image -}}
-		{{- $img = partial "asset-url.html" (printf "/%s" .) -}}
-	{{- end -}}
-	{{- $.Scratch.Add "index" (dict
+{
+	{- $.Scratch.Add "index" slice -
+	}
+}
+{
+	{- range .Site.RegularPages -
+	}
+}
+	{
+	{- $img := partial "asset-url.html" (or site.Params.front.defaultImage "/images/defaultImage.avif") -
+	}
+}
+	{
+	{- with .Params.recipe_image -
+	}
+}
+		{
+	{- $img = partial "asset-url.html" (printf "/%s" .) -
+	}
+}
+	{
+	{- end -
+	}
+}
+	{
+	{- $.Scratch.Add "index" (dict
 		"title"        .Title
 		"tags"         .Params.tags
 		"categories"   .Params.categories
+		"ingredients"  .Params.ingredients
 		"contents"     .Plain
 		"permalink"    .Permalink
 		"imageLink"    $img
@@ -15,6 +35,14 @@
 		"protein"      .Params.protein
 		"fat"          .Params.fat
 		"carbohydrate" .Params.carbohydrate
-	) -}}
-{{- end -}}
-{{- $.Scratch.Get "index" | jsonify -}}
+	) -
+	}
+}
+{
+	{- end -
+	}
+}
+{
+	{- $.Scratch.Get "index" | jsonify -
+	}
+}

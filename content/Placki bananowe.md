@@ -8,6 +8,7 @@ categories: ["sniadania"]
 subcategories: ["słodkie"]
 tags: ["Stefan", "na-wynos"]
 tagline: "Śniadanie na słodko na wynos - placki bananowe!"
+ingredients: ["banan", "jajka", "mąka"]
 servings: 1
 prep_time: 10
 cook: true

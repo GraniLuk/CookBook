@@ -8,6 +8,7 @@ categories: ["sniadania"]
 subcategories: ["słodkie"]
 tags: ["Stefan"]
 tagline: "Pyszne placki z bananami i twarogiem!"
+ingredients: ["jajka", "mleko", "woda", "twaróg", "mąka pszenna", "banany"]
 servings: 10
 prep_time: 10
 cook: true

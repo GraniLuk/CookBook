@@ -8,6 +8,7 @@ categories: ["sniadania"]
 subcategories: ["słodkie"]
 tags: []
 tagline: "Zdrowy i sycący omlet owsiany na śniadanie!"
+ingredients: ["jajka", "płatki owsiane", "banan", "mleko"]
 servings: 1
 prep_time: 5
 cook: true

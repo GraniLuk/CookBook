@@ -8,6 +8,7 @@ categories: ["sniadania"]
 subcategories: ["słone"]
 tags: []
 tagline: "Wysokobiałkowy omlet bez węglowodanów!"
+ingredients: ["jajka", "ser", "oliwa", "sól", "pieprz", "pesto", "mozzarella", "pomidorki koktajlowe", "rukola"]
 servings: 1
 prep_time: 7
 cook: true

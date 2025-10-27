@@ -8,6 +8,7 @@ categories: ["sniadania"]
 subcategories: ["słodkie"]
 tags: ["Stefan"]
 tagline: "Pyszne placki marchewkowe z cynamonem - zdrowe i szybkie śniadanie!"
+ingredients: ["jajko", "marchewka", "mąka pszenna", "mleko", "cukier kokosowy", "cynamon", "proszek do pieczenia", "olej"]
 servings: 12
 prep_time: 10
 cook: true

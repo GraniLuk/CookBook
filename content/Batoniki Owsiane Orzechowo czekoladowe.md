@@ -10,6 +10,7 @@ tags:
   - batony
   - przekąska
 tagline: Proste, zdrowe batoniki owsiane bez pieczenia – idealne na śniadanie lub przekąskę, pełne orzechów i czekolady.
+ingredients: ["płatki owsiane", "orzeszki arachidowe", "masło orzechowe", "gorzka czekolada", "miód", "płatki migdałowe", "jogurt naturalny"]
 servings: 8
 prep_time: 10
 cook: false

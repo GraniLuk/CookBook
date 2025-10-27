@@ -1,12 +1,77 @@
 {{ define "main" }}
 <div class="section">
+    <div class="filter-wrapper" id="filterContainer">
+        <div class="filter-compact" id="filterCompact">
+            <button class="button is-light is-small filter-toggle" id="filterToggle">
+                <span class="icon is-small">
+                    <i class="fas fa-filter"></i>
+                </span>
+                <span>Filtruj po składnikach</span>
+                <span class="icon is-small">
+                    <i class="fas fa-chevron-down"></i>
+                </span>
+            </button>
+            <div id="quickFilterStatus" class="quick-filter-status"></div>
+        </div>
+        <div class="filter-expanded box" id="filterExpanded" style="display: none;">
+            <div class="is-flex is-justify-content-space-between is-align-items-center mb-3">
+                <h2 class="title is-6 mb-0">Filtruj przepisy po składnikach</h2>
+                <button class="delete" id="closeFilter" aria-label="close"></button>
+            </div>
+            <div class="field is-grouped is-grouped-multiline">
+                <div class="control">
+                    <div class="dropdown" id="ingredientDropdown">
+                        <div class="dropdown-trigger">
+                            <button class="button is-small" aria-haspopup="true" aria-controls="dropdown-menu">
+                                <span>Wybierz składniki</span>
+                                <span class="icon is-small">
+                                    <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                            <div class="dropdown-content">
+                                <div class="dropdown-item">
+                                    <div class="field">
+                                        <div class="control has-icons-left">
+                                            <input class="input is-small" type="text" id="ingredientSearch"
+                                                placeholder="Szukaj składnika...">
+                                            <span class="icon is-small is-left">
+                                                <i class="fas fa-search"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr class="dropdown-divider">
+                                <div id="ingredientList"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="control">
+                    <button class="button is-light is-small" id="clearFilters">
+                        <span class="icon is-small">
+                            <i class="fas fa-times"></i>
+                        </span>
+                        <span>Wyczyść</span>
+                    </button>
+                </div>
+            </div>
+            <div class="field is-grouped is-grouped-multiline mt-3" id="selectedIngredients"></div>
+            <div class="notification is-light is-small mt-3" id="filterResults">
+                <p id="resultsCount">Pokazuję wszystkie przepisy</p>
+            </div>
+        </div>
+    </div>
+
     <div class="columns is-multiline">
         {{ range .Site.RegularPages }}
-            {{ if not (in .Params.categories "sosy") }}
-                <div class="column is-one-fifth-desktop is-one-quarter-tablet is-full-mobile">
-                    {{ partial "summary.html" . }}
-                </div>
-            {{ end }}
+        {{ if not (in .Params.categories "sosy") }}
+        <div class="column is-one-fifth-desktop is-one-quarter-tablet is-full-mobile"
+            data-ingredients='{{ .Params.ingredients | jsonify }}'>
+            {{ partial "summary.html" . }}
+        </div>
+        {{ end }}
         {{ end }}
     </div>
 </div>

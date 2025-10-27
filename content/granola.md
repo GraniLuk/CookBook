@@ -4,6 +4,7 @@ author: Policzone Szamy
 draft: false
 tagline: Chrupiąca, złocista granola pieczona wolniej w niższej temperaturze –
   idealna do jogurtu i na wynos.
+ingredients: ["płatki owsiane", "płatki migdałowe", "wiórki kokosowe", "orzechy włoskie", "sól", "miód", "olej kokosowy", "wanilia", "suszone morele", "żurawina"]
 recipe_image: images/recipe-headers/granola.avif
 tags:
   - przekąska

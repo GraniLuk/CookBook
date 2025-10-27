@@ -8,6 +8,7 @@ categories: ["sniadania"]
 subcategories: ["słodkie"]
 tags: ["Stefan"]
 tagline: "Zdrowe placki z serka wiejskiego!"
+ingredients: ["banan", "serek wiejski", "mąka", "jajka"]
 servings: 12
 prep_time: 10
 cook: true

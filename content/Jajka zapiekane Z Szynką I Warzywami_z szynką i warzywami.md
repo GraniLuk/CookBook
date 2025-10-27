@@ -8,6 +8,7 @@ categories: ["sniadania"]
 subcategories: ["słone"]
 tags: []
 tagline: "Sycące jajka zapiekane z warzywami i szynką - pełnowartościowy posiłek!"
+ingredients: ["jajka", "szynka", "ser piórko", "oliwa", "brokuł", "papryka", "cebula", "szczypiorek", "sól", "pieprz"]
 servings: 3
 prep_time: 15
 cook: true

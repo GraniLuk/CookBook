@@ -7,6 +7,7 @@ date: 2025-06-23T12:00:00-00:00
 categories: ["sosy"]
 tags: ["meksykańskie"]
 tagline: "Lekki sos majonezowy z nutą limonki - idealny do mięs i warzyw!"
+ingredients: ["majonez light", "jogurt naturalny", "limonka", "ostra papryka", "sól"]
 servings: 4
 prep_time: 5
 cook: false

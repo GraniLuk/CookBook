@@ -7,6 +7,7 @@ date: 2025-07-05T17:52:00-00:00
 categories: ["sosy"]  
 tags: []  
 tagline: "Klasyczny sos winegret z dodatkiem miodu i oregano - idealny do sałatek."  
+ingredients: ["miód", "musztarda", "woda", "oliwa z oliwek", "cytryna", "oregano"]
 servings: 4  
 prep_time: 5  
 cook: false  

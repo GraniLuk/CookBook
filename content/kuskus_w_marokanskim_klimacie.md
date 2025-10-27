@@ -7,6 +7,7 @@ date: 2025-09-23T12:00:00-00:00
 categories: ["obiady"]
 tags: ["kuskus", "marokański", "lunchbox"]
 tagline: "Lekki kuskus z marchewką, fasolą i kurczakiem w orzeźwiającym sosie pomarańczowym – idealny na lunchbox, przyjazny dla diety low FODMAP."
+ingredients: ["kuskus", "marchewka", "biała fasola", "natka pietruszki", "papryczka chili", "orzechy nerkowca", "kurczak", "oliwa", "przyprawa", "pomarańcza", "kolendra", "skórka pomarańczowa", "sól", "pieprz"]
 servings: 3
 prep_time: 15
 cook: true

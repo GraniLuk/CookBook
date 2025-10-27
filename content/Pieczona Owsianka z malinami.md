@@ -3,6 +3,7 @@ title: Pieczona Owsianka z Malinami
 author: Autor Przepisu
 draft: false
 tagline: Aromatyczna pieczona owsianka z malinami!
+ingredients: ["płatki owsiane", "napój owsiany", "syrop klonowy", "jogurt grecki", "maliny", "sezam"]
 recipe_image: images/recipe-headers/pieczona_owsianka_z_malinami.avif
 tags:
   - Stefan

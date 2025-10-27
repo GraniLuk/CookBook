@@ -34,6 +34,15 @@ fodmap:
 date: 2025-10-24T12:30:00-00:00
 fat: 20
 carbohydrate: 44
+ingredients: ["mozzarella", "bułka pszenna", "szpinak", "oliwa z oliwek", "pesto", "czosnek", "chili"]
+fodmap:
+  status: "depends"
+  serving_ok: "OK po modyfikacjach: czosnek -> olej czosnkowy; pieczywo bezglutenowe; ostrożnie z ilością chili"
+  notes: "Pszenna bułka i czosnek zwiększają FODMAP. Szpinak w porcji 100g zwykle tolerowany. Pesto może zawierać czosnek – wybierz wersję bez cząstek czosnku."
+  substitutions:
+    - "bułka pszenna -> bułka bezglutenowa (ryżowa/kukurydziana)"
+    - "czosnek -> olej czosnkowy (infuzja bez cząstek)"
+    - "pesto -> domowe bez czosnku"
 ---
 
 ## Składniki (1 porcja)

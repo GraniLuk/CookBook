@@ -7,6 +7,7 @@ date: 2025-06-29T19:37:00-00:00
 categories: ["desery"]  
 tags: []  
 tagline: "Miękkie, domowe jagodzianki na puszystym cieście drożdżowym."  
+ingredients: ["mąka pszenna", "drożdże", "żółtka", "mleko", "masło", "cukier", "jagody", "cukier puder"]
 servings: 12  
 prep_time: 30  
 cook: true  

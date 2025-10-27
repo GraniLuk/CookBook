@@ -7,6 +7,7 @@ date: 2025-10-21T12:00:00-00:00
 categories: ["przekąski"]  
 tags: ["tuńczyk", "pasta", "pikantne", "kanapki"]  
 tagline: "Pikantna pasta z tuńczyka z mozzarellą - idealna na kanapki lub jako przekąska."  
+ingredients: ["tuńczyk", "mozzarella", "ketchup", "majonez", "jalapeno", "pomidor", "rukola", "papryka słodka", "papryka wędzona", "sól", "czosnek", "pieczywo"]
 servings: 2  
 prep_time: 10  
 cook: false  

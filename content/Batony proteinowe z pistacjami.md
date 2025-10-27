@@ -14,6 +14,7 @@ tags:
   - berberys
   - bez-pieczenia
 tagline: Gęste, sycące batony białkowe z chrupiącymi pistacjami i kwaskowym berberysem.
+ingredients: ["płatki owsiane", "płatki jaglane", "mleko", "masło orzechowe", "kakao", "odżywka białkowa", "berberys", "pistacje"]
 servings: 6
 prep_time: 15
 cook: false

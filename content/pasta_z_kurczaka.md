@@ -8,6 +8,7 @@ categories: ["sniadania"]
 subcategories: ["słone"]
 tags: ["kurczak", "pasta", "szybkie", "kanapki"]
 tagline: "Kremowa, aromatyczna pasta z piersi kurczaka i suszonych pomidorów – idealna na kanapki lub wafle ryżowe."
+ingredients: ["pierś z kurczaka", "suszone pomidory", "majonez", "wafle ryżowe", "woda", "mieszanka ziół", "sól", "pieprz"]
 servings: 1
 prep_time: 5
 cook: true

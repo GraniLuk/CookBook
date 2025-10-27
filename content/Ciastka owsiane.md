@@ -7,6 +7,7 @@ date: 2025-06-19T10:00:00-00:00
 categories: ["desery"]
 tags: []
 tagline: "Chrupiące owsiane ciasteczka idealne na święta!"
+ingredients: ["banan", "płatki owsiane", "ciemna czekolada", "przyprawa korzenna"]
 servings: 6
 prep_time: 10
 cook: true
