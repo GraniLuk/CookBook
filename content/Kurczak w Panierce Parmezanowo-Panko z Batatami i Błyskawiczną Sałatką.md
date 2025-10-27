@@ -7,7 +7,7 @@ date: 2025-06-18T12:00:00-00:00
 categories: ["obiady"]
 tags: [""]
 tagline: "Pyszny kurczak w chrupiącej panierce z batatami!"
-ingredients: ["bataty", "kurczak", "panierka panko", "parmezan", "oliwa", "przyprawa arabska", "sól", "miks sałat", "czerwona cebula", "pomidorki cherry", "cytryna", "zioła"]
+ingredients: ["bataty", "kurczak", "panko", "parmezan", "oliwa", "miks sałat", "czerwona cebula", "pomidorki cherry", "cytryna"]
 servings: 3
 prep_time: 20
 cook: true
