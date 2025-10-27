@@ -7,7 +7,7 @@ date: 2025-06-18T12:00:00-00:00
 categories: ["obiady"]
 tags: ["meksykańskie"]
 tagline: "Zdrowy kurczak na parze z warzywami w meksykańskim stylu!"
-ingredients: ["brązowy ryż", "pierś z kurczaka", "jarmuż", "kukurydza", "czerwona fasola", "pomidorki cherry", "kumin", "oregano", "papryka słodka", "papryka ostra", "sól", "majonez light", "jogurt naturalny", "limonka", "chili"]
+ingredients: ["ryż brązowy", "pierś z kurczaka", "jarmuż", "kukurydza", "czerwona fasola", "pomidorki cherry", "majonez light", "jogurt naturalny", "limonka"]
 servings: 3
 prep_time: 25
 cook: true
