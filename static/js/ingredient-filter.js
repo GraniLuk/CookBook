@@ -142,6 +142,16 @@
         if (clearButton) {
             clearButton.addEventListener('click', clearAllFilters);
         }
+
+        // Ingredient search input
+        const searchInput = document.getElementById('ingredientSearch');
+        if (searchInput) {
+            searchInput.addEventListener('input', filterIngredientList);
+            // Prevent dropdown from closing when typing
+            searchInput.addEventListener('click', function (e) {
+                e.stopPropagation();
+            });
+        }
     }
 
     // Toggle filter panel
@@ -257,6 +267,28 @@
         updateSelectedDisplay();
         updateQuickStatus();
         filterRecipes();
+    }
+
+    // Filter the ingredient list based on search input
+    function filterIngredientList() {
+        const searchInput = document.getElementById('ingredientSearch');
+        if (!searchInput) return;
+
+        const searchTerm = searchInput.value.toLowerCase().trim();
+        const ingredientItems = document.querySelectorAll('#ingredientList .dropdown-item');
+
+        ingredientItems.forEach(item => {
+            const label = item.querySelector('label');
+            if (!label) return;
+
+            const ingredientText = label.textContent.toLowerCase();
+
+            if (ingredientText.includes(searchTerm)) {
+                item.style.display = 'block';
+            } else {
+                item.style.display = 'none';
+            }
+        });
     }
 
     // Filter recipes based on selected ingredients

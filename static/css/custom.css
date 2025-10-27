@@ -731,6 +731,22 @@ body.fodmap-view-enabled .fodmap-indicator {
     overflow-y: auto;
 }
 
+/* Ingredient search input styling */
+#ingredientSearch {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 0;
+}
+
+#ingredientSearch:focus {
+    border-color: #48c774;
+    box-shadow: 0 0 0 0.125em rgba(72, 199, 116, 0.25);
+}
+
+#ingredientDropdown .dropdown-divider {
+    margin: 0.5rem 0;
+}
+
 #ingredientDropdown .dropdown-item {
     padding: 0.5rem 1rem;
     transition: background-color 0.2s ease;
