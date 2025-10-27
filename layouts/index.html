@@ -6,7 +6,7 @@
                 <span class="icon is-small">
                     <i class="fas fa-filter"></i>
                 </span>
-                <span>Filtruj po składnikach</span>
+                <span>Filtruj przepisy</span>
                 <span class="icon is-small">
                     <i class="fas fa-chevron-down"></i>
                 </span>
@@ -15,9 +15,18 @@
         </div>
         <div class="filter-expanded box" id="filterExpanded" style="display: none;">
             <div class="is-flex is-justify-content-space-between is-align-items-center mb-3">
-                <h2 class="title is-6 mb-0">Filtruj przepisy po składnikach</h2>
+                <h2 class="title is-6 mb-0">Filtruj przepisy</h2>
                 <button class="delete" id="closeFilter" aria-label="close"></button>
             </div>
+
+            <!-- Draft Filter Checkbox -->
+            <div class="field mb-4">
+                <label class="checkbox">
+                    <input type="checkbox" id="showDraftsCheckbox">
+                    <span class="ml-2">Pokaż przepisy robocze</span>
+                </label>
+            </div>
+
             <div class="field is-grouped is-grouped-multiline">
                 <div class="control">
                     <div class="dropdown" id="ingredientDropdown">
@@ -68,7 +77,7 @@
         {{ range .Site.RegularPages }}
         {{ if not (in .Params.categories "sosy") }}
         <div class="column is-one-fifth-desktop is-one-quarter-tablet is-full-mobile"
-            data-ingredients='{{ .Params.ingredients | jsonify }}'>
+            data-ingredients='{{ .Params.ingredients | jsonify }}' data-draft="{{ default false .Draft }}">
             {{ partial "summary.html" . }}
         </div>
         {{ end }}

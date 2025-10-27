@@ -1,5 +1,5 @@
-// Ingredient Filter for Recipe Cookbook
-// Handles multi-select ingredient filtering with dropdown UI
+// Recipe Filter for Recipe Cookbook
+// Handles multi-select ingredient filtering, draft filter, and other recipe filters
 
 (function () {
     'use strict';
@@ -9,6 +9,7 @@
     let allRecipeCards = [];
     let totalRecipes = 0;
     let isExpanded = false;
+    let showDrafts = false; // Draft filter state
 
     // Initialize the filter on page load
     function init() {
@@ -23,6 +24,7 @@
         extractAllIngredients();
         populateDropdown();
         attachEventListeners();
+        filterRecipes(); // Apply initial filter to hide drafts
         updateResultsCount();
     }
 
@@ -98,6 +100,15 @@
 
     // Attach event listeners to UI controls
     function attachEventListeners() {
+        // Draft checkbox event listener
+        const draftCheckbox = document.getElementById('showDraftsCheckbox');
+        if (draftCheckbox) {
+            draftCheckbox.addEventListener('change', function () {
+                showDrafts = this.checked;
+                filterRecipes();
+            });
+        }
+
         // Toggle filter expand/collapse
         const filterToggle = document.getElementById('filterToggle');
         if (filterToggle) {
@@ -291,15 +302,20 @@
         });
     }
 
-    // Filter recipes based on selected ingredients
+    // Filter recipes based on selected ingredients AND draft status
     function filterRecipes() {
         let visibleCount = 0;
 
         allRecipeCards.forEach(card => {
             const ingredientsAttr = card.getAttribute('data-ingredients');
+            const isDraft = card.getAttribute('data-draft') === 'true';
             let shouldShow = true;
 
-            if (selectedIngredients.size > 0) {
+            // Filter by draft status first
+            if (isDraft && !showDrafts) {
+                shouldShow = false;
+            } else if (selectedIngredients.size > 0) {
+                // Then filter by ingredients if any are selected
                 if (!ingredientsAttr || ingredientsAttr === 'null') {
                     shouldShow = false;
                 } else {
@@ -342,8 +358,10 @@
 
         const count = visibleCount !== null ? visibleCount : totalRecipes;
 
-        if (selectedIngredients.size === 0) {
-            resultsCount.textContent = `Pokazuję wszystkie przepisy (${totalRecipes})`;
+        if (selectedIngredients.size === 0 && !showDrafts) {
+            resultsCount.textContent = `Pokazuję oficjalne przepisy (${count} z ${totalRecipes})`;
+        } else if (selectedIngredients.size === 0) {
+            resultsCount.textContent = `Pokazuję wszystkie przepisy (${count})`;
         } else if (count === 0) {
             resultsCount.textContent = 'Nie znaleziono przepisów spełniających kryteria';
             resultsCount.parentElement.classList.add('is-warning');
