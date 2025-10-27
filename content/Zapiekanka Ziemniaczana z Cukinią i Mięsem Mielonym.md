@@ -16,7 +16,7 @@ protein: 11
 fat: 8
 carbohydrate: 11
 
-ingredients: ["ziemniaki", "mięso mielone", "cukinia", "cebula", "czosnek", "przecier pomidorowy", "śmietana", "ser żółty", "olej roślinny", "natka pietruszki", "szczypiorek", "koperek"]
+ingredients: ["ziemniaki", "mięso mielone", "cukinia", "cebula", "czosnek", "przecier pomidorowy", "śmietana 30%", "ser żółty", "olej roślinny", "natka pietruszki", "szczypiorek", "koperek"]
 
 fodmap:
   status: "depends"

@@ -34,7 +34,7 @@ fodmap:
 date: 2025-10-24T12:30:00-00:00
 fat: 20
 carbohydrate: 44
-ingredients: ["mozzarella", "bułka pszenna", "szpinak", "oliwa z oliwek", "pesto", "czosnek", "chili"]
+ingredients: ["mozzarella", "bułka", "szpinak", "oliwa z oliwek", "pesto", "czosnek", "chili"]
 fodmap:
   status: "depends"
   serving_ok: "OK po modyfikacjach: czosnek -> olej czosnkowy; pieczywo bezglutenowe; ostrożnie z ilością chili"

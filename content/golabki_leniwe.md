@@ -7,7 +7,7 @@ date: 2025-06-18T12:00:00-00:00
 categories: ["obiady"]
 tags: ["instant pot", "Stefan"]
 tagline: "Pyszne gołąbki bez zawijania!"
-ingredients: ["mięso mielone", "kapusta biała", "jajko", "papryka słodka", "kurkuma", "koncentrat pomidorowy", "czosnek", "passata pomidorowa", "woda", "koperek", "liść laurowy", "śmietana", "pieprz", "cukier kokosowy", "sól"]
+ingredients: ["mięso mielone", "kapusta biała", "jajko", "papryka słodka", "kurkuma", "koncentrat pomidorowy", "czosnek", "passata pomidorowa", "woda", "koperek", "liść laurowy", "śmietana 30%", "pieprz", "cukier kokosowy", "sól"]
 servings: 9
 prep_time: 20
 cook: true

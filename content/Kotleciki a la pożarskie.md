@@ -7,7 +7,7 @@ date: 2025-06-18T12:00:00-00:00
 categories: ["obiady"]
 tags: ["Stefan"]
 tagline: "Pyszne kotleciki z kurczaka i warzyw!"
-ingredients: ["pierś z kurczaka", "jajko", "marchewka", "dynia", "por", "mąka jaglana", "pieprz", "oregano", "czosnek granulowany", "curry"]
+ingredients: ["pierś z kurczaka", "jajko", "marchewka", "dynia", "por", "mąka jaglana"]
 servings: 6
 prep_time: 15
 cook: true
