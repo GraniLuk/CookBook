@@ -17,7 +17,7 @@ calories: 485
 protein: 33
 fat: 20
 carbohydrate: 44
-ingredients: ["mozzarella light", "bułka pszenna", "szpinak", "oliwa z oliwek", "pesto", "czosnek", "chili"]
+ingredients: ["mozzarella", "bułka pszenna", "szpinak", "oliwa z oliwek", "pesto", "czosnek", "chili"]
 fodmap:
   status: "depends"
   serving_ok: "OK po modyfikacjach: czosnek -> olej czosnkowy; pieczywo bezglutenowe; ostrożnie z ilością chili"
