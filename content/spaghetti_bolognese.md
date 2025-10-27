@@ -3,7 +3,7 @@ title: Spaghetti Bolognese
 author: Policzona Szama
 draft: false
 tagline: Klasyczne i aromatyczne spaghetti bolognese, którego smak tkwi w prostocie.
-ingredients: ["wołowina mielona", "makaron spaghetti", "cebula", "czosnek", "passata pomidorowa", "oliwa z oliwek", "parmezan", "oregano", "bazylia", "sól", "pieprz"]
+ingredients: ["wołowina mielona", "makaron spaghetti", "cebula", "czosnek", "passata pomidorowa", "oliwa z oliwek", "parmezan"]
 recipe_image: images/recipe-headers/spaghetti_bolognese.avif
 tags:
   - włoskie
