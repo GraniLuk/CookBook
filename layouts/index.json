@@ -1,33 +1,11 @@
-{
-	{- $.Scratch.Set "index" slice -
-	}
-}
-{
-	{- range .Site.RegularPages -
-	}
-}
-  {
-	{- if not (in .Params.categories "sosy") -
-	}
-}
-    {
-	{- $img := partial "asset-url.html" (or site.Params.front.defaultImage "/images/defaultImage.avif") -
-	}
-}
-    {
-	{- with .Params.recipe_image -
-	}
-}
-      {
-	{- $img = partial "asset-url.html" (printf "/%s" .) -
-	}
-}
-    {
-	{- end -
-	}
-}
-    {
-	{- $.Scratch.Add "index" (dict
+{{- $.Scratch.Set "index" slice -}}
+{{- range .Site.RegularPages -}}
+  {{- if not (in .Params.categories "sosy") -}}
+    {{- $img := partial "asset-url.html" (or site.Params.front.defaultImage "/images/defaultImage.avif") -}}
+    {{- with .Params.recipe_image -}}
+      {{- $img = partial "asset-url.html" (printf "/%s" .) -}}
+    {{- end -}}
+    {{- $.Scratch.Add "index" (dict
       "title"        .Title
       "tags"         .Params.tags
       "categories"   .Params.categories
@@ -39,18 +17,7 @@
       "protein"      .Params.protein
       "fat"          .Params.fat
       "carbohydrate" .Params.carbohydrate
-    ) -
-	}
-}
-  {
-	{- end -
-	}
-}
-{
-	{- end -
-	}
-}
-{
-	{- $.Scratch.Get "index" | jsonify -
-	}
-}
+    ) -}}
+  {{- end -}}
+{{- end -}}
+{{- $.Scratch.Get "index" | jsonify -}}
