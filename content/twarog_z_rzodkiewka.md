@@ -15,7 +15,7 @@ calories: 150
 protein: 10
 fat: 8
 carbohydrate: 6
-ingredients: ["twaróg półtłusty", "śmietana 18%", "rzodkiewka", "szczypiorek", "sól", "pieprz", "cukier"]
+ingredients: ["twaróg półtłusty", "śmietana 18%", "rzodkiewka", "szczypiorek"]
 fodmap:
   status: "depends"
   serving_ok: "OK po modyfikacjach: szczypiorek ≤ 1 łyżka/os.; śmietana bez laktozy"

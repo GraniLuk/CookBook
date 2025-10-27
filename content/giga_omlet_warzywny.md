@@ -8,7 +8,7 @@ categories: ["sniadania"]
 subcategories: ["słone"]  
 tags: []  
 tagline: "Syta, kolorowa frittata na 6 porcji – cukinia, warzywa, szynka i chrupiące orzo."  
-ingredients: ["jajka", "szynka", "makaron orzo", "cukinia", "papryka", "pomidory", "cebula", "czosnek", "natka pietruszki", "rozmaryn", "parmezan", "mąka pszenna", "oliwa", "sól", "pieprz"]
+ingredients: ["jajka", "szynka", "makaron orzo", "cukinia", "papryka", "pomidory", "cebula", "czosnek", "natka pietruszki", "rozmaryn", "parmezan", "mąka pszenna", "oliwa"]
 servings: 6  
 prep_time: 20  
 cook: true  

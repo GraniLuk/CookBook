@@ -7,7 +7,7 @@ date: 2025-06-18T12:00:00-00:00
 categories: ["salatki"]
 tags: []
 tagline: "Lekka i sycąca sałatka grecka na kolację!"
-ingredients: ["pomidory", "ogórek", "czerwona cebula", "ser feta", "oliwki", "oliwa z oliwek", "ocet winny", "oregano", "sól", "pieprz"]
+ingredients: ["pomidory", "ogórek", "czerwona cebula", "ser feta", "oliwki", "oliwa z oliwek", "ocet winny"]
 servings: 3
 prep_time: 15
 cook: false

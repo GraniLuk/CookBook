@@ -10,7 +10,7 @@ tags:
   - łosoś
   - ryby
 tagline: Soczysty pieczony łosoś z aromatyczną majonezowo-cytrynową chmurką – prosty i elegancki obiad.
-ingredients: ["łosoś", "majonez", "oliwa czosnkowa", "koperek", "skórka cytrynowa", "sól", "pieprz"]
+ingredients: ["łosoś", "majonez", "oliwa czosnkowa", "koperek", "skórka cytrynowa"]
 servings: 3
 prep_time: 10
 cook: true

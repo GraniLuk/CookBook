@@ -11,7 +11,7 @@ tags:
   - czekolada
   - śliwki
 tagline: Pyszna czekoladowa owsianka z duszonymi śliwkami.
-ingredients: ["płatki owsiane", "napój roślinny", "gorzka czekolada", "kakao", "skyr waniliowy", "śliwki", "cynamon", "masło orzechowe", "sól"]
+ingredients: ["płatki owsiane", "napój roślinny", "czekolada gorzka", "kakao", "jogurt skyr waniliowy", "śliwki", "masło orzechowe"]
 video_file: videos/owsianka_z_sliwkami.mp4
 servings: 1
 prep_time: 10

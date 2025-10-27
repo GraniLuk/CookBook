@@ -8,7 +8,7 @@ categories: ["sniadania"]
 subcategories: ["słone"]
 tags: []
 tagline: "Klasyczna jajecznica na śniadanie!"
-ingredients: ["jajka", "masło", "sól", "pieprz", "szczypiorek"]
+ingredients: ["jajka", "masło", "szczypiorek"]
 servings: 2
 prep_time: 5
 cook: true

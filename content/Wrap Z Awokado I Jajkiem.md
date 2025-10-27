@@ -17,7 +17,7 @@ protein: 8
 fat: 9
 carbohydrate: 10
 
-ingredients: ["tortilla pełnoziarnista", "jajka", "awokado", "pomidor", "ser żółty light", "sok z cytryny", "czosnek granulowany", "suszona cebula", "pieprz", "sól", "oliwa z oliwek"]
+ingredients: ["tortilla pełnoziarnista", "jajka", "awokado", "pomidor", "ser żółty", "sok z cytryny", "oliwa z oliwek"]
 
 fodmap:
   status: "depends"

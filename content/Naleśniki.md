@@ -8,7 +8,7 @@ categories: ["sniadania"]
 subcategories: ["słodkie"]
 tags: ["klasyczne"]
 tagline: "Klasyczne naleśniki na każdą okazję!"
-ingredients: ["mąka pszenna", "mleko", "woda", "jajka", "sól", "olej"]
+ingredients: ["mąka pszenna", "mleko", "jajka", "olej"]
 servings: 8
 prep_time: 10
 cook: true

@@ -8,7 +8,7 @@ categories: ["sniadania"]
 subcategories: ["słone"]
 tags: ["instant pot"]  
 tagline: "Szybka i aromatyczna fasolka po bretońsku z boczkiem i kiełbasą, gotowana w Instant Pot bez wcześniejszego namaczania fasoli."  
-ingredients: ["fasola biała", "boczek", "kiełbasa", "cebula", "pomidory", "koncentrat pomidorowy", "czosnek", "majeranek", "papryka", "kminek", "sól", "ziele angielskie", "liść laurowy"]
+ingredients: ["fasola biała", "boczek", "kiełbasa", "cebula", "pomidory", "koncentrat pomidorowy", "czosnek"]
 servings: 4  
 prep_time: 20  
 cook: true  

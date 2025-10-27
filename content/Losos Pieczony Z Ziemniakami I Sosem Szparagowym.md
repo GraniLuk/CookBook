@@ -7,7 +7,7 @@ date: 2025-06-19T12:00:00-00:00
 categories: ["obiady"]
 tags: ["ryby", "goście"]
 tagline: "Efektowny obiad z pieczonego łososia z ziemniakami i kremowym sosem szparagowym!"
-ingredients: ["łosoś", "sól", "pieprz biały", "cytryna", "masło", "ziemniaki", "oliwa", "czosnek granulowany", "tymianek", "przyprawa grillowa", "papryka słodka", "szparagi", "mascarpone", "suszone pomidory", "czosnek"]
+ingredients: ["łosoś", "cytryna", "masło", "ziemniaki", "oliwa", "szparagi", "mascarpone", "suszone pomidory", "czosnek"]
 servings: 4
 prep_time: 25
 cook: true

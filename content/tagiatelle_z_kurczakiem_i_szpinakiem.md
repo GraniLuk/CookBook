@@ -16,7 +16,7 @@ calories: 485
 protein: 37.8
 fat: 12
 carbohydrate: 47
-ingredients: ["makaron tagliatelle", "pierś z kurczaka", "szpinak", "pomidory koktajlowe", "cebula", "suszone pomidory", "ser grana padano", "oliwa z oliwek", "natka pietruszki", "papryka słodka", "sól", "pieprz"]
+ingredients: ["makaron tagliatelle", "pierś z kurczaka", "szpinak", "pomidory koktajlowe", "cebula", "suszone pomidory", "ser grana padano", "oliwa z oliwek", "natka pietruszki"]
 fodmap:
   status: "depends"
   serving_ok: "OK po modyfikacjach: cebula -> zielona część dymki, makaron bezglutenowy"

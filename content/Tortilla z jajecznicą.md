@@ -17,7 +17,7 @@ protein: 10
 fat: 8
 carbohydrate: 15
 
-ingredients: ["jajka", "tortilla", "sól", "pieprz", "papryka"]
+ingredients: ["jajka", "tortilla"]
 
 fodmap:
   status: "depends"

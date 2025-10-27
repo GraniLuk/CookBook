@@ -5,7 +5,7 @@ author: Bartłomiej Włodarczyk
 draft: false
 tagline: Gęste, intensywnie czekoladowe brownie z kawałkami batonów Kinder Bueno
   i kremem orzechowo-kakaowym.
-ingredients: ["mąka pszenna", "jajka", "masło", "gorzka czekolada", "cukier", "krem kinder bueno", "kakao", "batony kinder bueno", "proszek do pieczenia", "ekstrakt waniliowy", "sól"]
+ingredients: ["mąka pszenna", "jajka", "masło", "gorzka czekolada", "cukier", "kakao", "kinder bueno", "proszek do pieczenia", "ekstrakt waniliowy"]
 recipe_image: images/recipe-headers/brownie_kinder_bueno.avif
 tags:
   - brownie
