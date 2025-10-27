@@ -12,6 +12,7 @@ date: 2025-06-27T12:17:00-00:00
 categories: ["obiady"]  
 tags: ["kurczak", "sos serowy", "fit", "warzywa", "ryż"]  
 tagline: "Soczysty kurczak z ryżem i warzywami w kremowym, lekkim sosie serowym."  
+ingredients: ["pierś z kurczaka", "mrożone warzywa", "ryż basmati", "oliwa", "czosnek", "ser cheddar", "mleko", "masło", "mąka pszenna", "chili"]
 servings: 3  
 prep_time: 20  
 cook: true  
@@ -74,3 +75,58 @@ Jeżeli podczas tworzenia przepisu potrzebujesz dodać nowy tag, który nie istn
     C:/Users/5028lukgr/source/repos/Another/CookBook/.venv/Scripts/python.exe scripts/update_tag_options.py
     ```
 3.  Zatwierdź (commit) zmiany w pliku `static/admin/config.yml`. Dzięki temu nowy tag będzie dostępny na liście wyboru w panelu admina.
+
+---
+**Reguły dla pola `ingredients` (filtracja po składnikach)**
+
+Pole `ingredients` w front matter służy wyłącznie do filtrowania po GŁÓWNYCH składnikach potrawy.
+Wpisuj tam pełne nazwy podstawowych produktów użytych w istotnych (ilościowych) ilościach. NIE dodawaj przypraw ani drobnych dodatków smakowych.
+
+Włącz (PRZYKŁADY):
+- Białka: "pierś z kurczaka", "łosoś", "czerwona soczewica", "twaróg półtłusty"
+- Produkty mleczne / nabiałowe: "mleko 1,5%", "ser cheddar", "jogurt grecki", "śmietana 18%"
+- Warzywa główne (jeśli stanowią część dania > ok. 30g lub kluczową funkcję): "brokuł", "papryka czerwona", "rzodkiewka", "szpinak"
+- Węglowodany bazowe: "ryż basmati", "makaron pełnoziarnisty", "tortilla pszenna", "płatki owsiane"
+- Produkty tłuszczowe w większej ilości lub charakterystyczne: "oliwa z oliwek" (gdy ≥ 1 łyżka), "masło orzechowe", "awokado"
+- Inne istotne składniki masowe: "mrożone warzywa mieszane", "ser mozzarella light", "mąka pszenna" (jeśli buduje strukturę ciasta / sosu), "banan" (w placuszkach), "daktyle" (słodzenie objętościowe)
+
+Wyklucz (NIE wpisuj):
+- Przyprawy i zioła: "sól", "pieprz", "czosnek", "cebula suszona", "papryka słodka", "papryka wędzona", "chili", "zioła prowansalskie", "kurkuma", "curry", "kminek".
+- Mieszanki typu: "przyprawa do kurczaka", "mix sałatkowy", "marynata" (jeśli tylko smak).
+- Minimalne ilości dodatków smakowych (< 10g lub < 1 łyżeczka): "cukier", "miód", "ocet balsamiczny", "sok z cytryny", "skórka z cytryny".
+- Spraje / olej w sprayu, proszki do pieczenia, soda, aromaty, ekstrakty (wanilia, migdał) – chyba że stanowią główny składnik (rzadkie przypadki).
+
+Zasady doprecyzowujące:
+1. Jeżeli składnik występuje w formie listy (np. "mrożone warzywa") – użyj tej uogólnionej nazwy.
+2. Składniki powtarzalne w wielu przepisach standaryzuj ("pierś z kurczaka", nie "filet z kurczaka").
+3. Przy produktach mlecznych dodaj procent tłuszczu jeśli wpływa na charakter ("mleko 1,5%", "śmietana 18%").
+4. Jeśli przepis ma wersje (np. słodka vs wytrawna) – użyj wspólnego mianownika; wariantowe dodatki pomiń jeśli są opcjonalne i małe.
+5. Unikaj liczby mnogiej ("rzodkiewka" zamiast "rzodkiewki"), chyba że tylko forma mnogiej jest naturalna ("płatki owsiane").
+
+Format: tablica w front matter, np. `ingredients: ["pierś z kurczaka", "ryż basmati", "mrożone warzywa", "ser cheddar", "mleko 1,5%", "mąka pszenna", "masło", "oliwa z oliwek"]`
+
+Przykład 1 (Twarożek):
+```
+ingredients: ["twaróg półtłusty", "śmietana 18%", "rzodkiewka", "szczypiorek"]
+```
+Wykluczone: sól, pieprz, cukier (szczypta, przyprawa).
+
+Przykład 2 (Pieczony Kurczak z Ryżem):
+```
+ingredients: ["pierś z kurczaka", "mrożone warzywa", "ryż basmati", "oliwa z oliwek", "ser cheddar", "mleko 1,5%", "masło", "mąka pszenna"]
+```
+Wykluczone: czosnek, sól, pieprz, przyprawa do kurczaka, chili.
+
+Przykład 3 (Placuszki bananowe):
+```
+ingredients: ["banan", "jajko", "płatki owsiane", "jogurt grecki"]
+```
+Wykluczone: proszek do pieczenia, cynamon, sól, olej w sprayu.
+
+Checklist podczas dodawania `ingredients`:
+1. Spisz wszystkie składniki z sekcji Składniki.
+2. Skreśl przyprawy / mikro dodatki / aromaty.
+3. Ujednolicij nazwy (brokuł vs brokuły -> "brokuł").
+4. Zastanów się czy tłuszcz jest ilościowo istotny – jeśli tak (≥1 łyżka) dodaj.
+
+---
