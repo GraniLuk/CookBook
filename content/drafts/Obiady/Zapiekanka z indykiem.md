@@ -1,64 +1,82 @@
 ﻿---
-draft: true
+draft: false
 title: "Jednogarnkowa Zapiekanka z Indykiem, Jarmużem i Suszonymi Pomidorami"
-author: "Autor Przepisu"
-recipe_image: images/recipe-headers/default.avif
-date: 2025-08-29T17:13:23-00:00
-categories: ["do-kategoryzacji"]
-tags: ["draft"]
-tagline: "Przepis do sformatowania"
-servings: 4
-prep_time: 15
+author: "Policzona Szama"
+recipe_image: images/recipe-headers/zapiekanka_indyk_jarmuz.avif
+date: 2025-10-27T12:11:00-00:00
+categories: ["obiady"]
+tags: ["indyk", "zapiekanka", "jarmuż", "makaron", "passata"]
+tagline: "Indyk, makaron i jarmuż w aromatycznym, gęstym sosie pomidorowym – syty fit obiad."
+ingredients: ["mięso mielone z indyka", "makaron", "jarmuż", "suszone pomidory", "cebula", "czosnek", "passata pomidorowa", "mozzarella", "oliwa z oliwek"]
+servings: 3
+prep_time: 20
 cook: true
-cook_time: 30
-calories: 300
-protein: 20
-fat: 10
-carbohydrate: 25
+cook_time: 25
+calories: 109
+protein: 9
+fat: 2
+carbohydrate: 13
+link: https://www.youtube.com/watch?v=eRttoS2L1qE
+fodmap:
+  status: "no"
+  serving_ok: "Nie – cebula, czosnek, pszeniczny makaron."
+  notes: "Suszone pomidory dodatkowo podnoszą FODMAP; jarmuż umiarkowany."
+  substitutions:
+    - "Makaron bezglutenowy."
+    - "Olej czosnkowy zamiast czosnku."
+    - "Szczypiorek zamiast cebuli."
 ---
-# Jednogarnkowa Zapiekanka z Indykiem, Jarmużem i Suszonymi Pomidorami
 
-Recipe Book: *Policzone Szamy – Obiady i Zapiekanki*
-Tags: #Indyk #Zapiekanka #Jednogarnkowe #Makaron #FitObiad
-Servings: **3 porcje**
-Active Time: **20 minut**
-Total Time: **45 minut**
-Link: https://www.youtube.com/watch?v=eRttoS2L1qE
+## Składniki
 
-#ingredients 
-## Ingredients
-- [x] 400g mielonego mięsa z indyka (najlepiej mieszanka piersi i ud)
-- [x] 200g makaronu penne lub świderki (pełnoziarniste lub klasyczne)
-- [x] 2 duże garście jarmużu (lub szpinaku), bez twardych łodyg
-- [x] 6-8 suszonych pomidorów (nie z oleju), pokrojonych w kostkę
-- [x] 1 średnia cebula
-- [x] 4 ząbki czosnku
-- [x] 1 garść suszonych grzybów (np. podgrzybki) lub 150g pieczarek
-- [x] 400ml passaty pomidorowej
-- [x] 1,5 łyżeczki koncentratu pomidorowego
-- [x] 60g mozzarelli (startej)
-- [x] 1 łyżka oliwy z oliwek
-- [x] 1 łyżeczka ulubionych ziół (np. zioła prowansalskie)
-- [x] Sól i świeżo mielony pieprz do smaku
-- [x] Natka pietruszki do posypania
-- [x] 200ml wody
+- 400 g mielonego indyka
+- 200 g makaronu penne/świderki (suchy)
+- 2 duże garście jarmużu (~100 g)
+- 6–8 suszonych pomidorów (≈25 g) kostka
+- 1 cebula (110 g)
+- 4 ząbki czosnku (20 g)
+- 10 g suszonych grzybów lub 150 g pieczarek
+- 400 ml passaty
+- 1,5 łyżeczki koncentratu (~9 g)
+- 60 g mozzarelli
+- 15 g oliwy
+- 200 ml wody
+- Zioła prowansalskie, sól, pieprz
 
-## Directions
-1. Cebulę drobno posiekaj, czosnek przeciśnij przez praskę, suszone pomidory pokrój w kostkę, a jarmuż pozbaw twardych łodyg.
-2. Rozgrzej dużą patelnię (ok. 30 cm) z oliwą. Podsmaż cebulę do zeszklenia, następnie dodaj czosnek.
-3. Dodaj koncentrat pomidorowy i przesmaż przez chwilę, by wydobyć aromat.
-4. Wrzuć mielonego indyka, rozdrobnij i smaż, aż się zarumieni.
-5. Dodaj suszone pomidory, suszone grzyby (lub pieczarki), sól, pieprz i zioła. Wymieszaj.
-6. Wlej passatę pomidorową i wodę, dokładnie wymieszaj, zbierając smaki z dna patelni.
-7. Dodaj jarmuż i ponownie dopraw solą. Wymieszaj.
-8. Wsyp suchy makaron, dokładnie zamieszaj i przykryj patelnię. Duś na średnim ogniu ok. 10-15 minut, aż makaron będzie al dente i wchłonie większość płynu. W razie potrzeby dolej odrobinę wody.
-9. W międzyczasie zetrzyj mozzarellę na dużych oczkach.
-10. Gdy makaron będzie gotowy, przełóż całość do naczynia żaroodpornego.
-11. Posyp wierzch startą mozzarellą i świeżą natką pietruszki.
-12. Wstaw do nagrzanego piekarnika (200°C, termoobieg) na 5-7 minut, aż ser się roztopi i lekko przyrumieni.
-13. Wyjmij, podziel na 3 porcje i podawaj na gorąco.
+## Przygotowanie
 
-**Wskazówka:**  
-Danie możesz jeść od razu po ugotowaniu na patelni (wersja jednogarnkowa) lub zapiec z serem dla efektu zapiekanki.  
-To sycący, aromatyczny i pełen warzyw obiad, który świetnie sprawdzi się także jako meal prep na kilka dni!
+1. Zeszklij cebulę na oliwie, dodaj czosnek.
+2. Dodaj koncentrat – krótko przesmaż.
+3. Dodaj indyka – rozdrobnij, zarumień.
+4. Dorzuć suszone pomidory, grzyby, zioła, sól, pieprz.
+5. Wlej passatę + wodę, dodaj jarmuż.
+6. Wsyp suchy makaron, wymieszaj, przykryj – duś 10–15 min (al dente).
+7. Przełóż do naczynia, posyp mozzarellą – zapiecz 5–7 min w 200°C.
+8. Podziel na 3 porcje.
+
+## Szacowane Makro (Całość)
+
+| Składnik            | Kalorie | Białko | Tłuszcze | Węglowodany |
+|---------------------|---------|--------|----------|-------------|
+| Mielony indyk 400g  | 460     | 92.0   | 8.0      | 0.0         |
+| Makaron 200g        | 720     | 26.0   | 3.2      | 146.0       |
+| Jarmuż 100g         | 49      | 4.0    | 0.9      | 8.8         |
+| Suszone pomidory 25g| 45      | 2.0    | 0.5      | 10.0        |
+| Cebula 110g         | 44      | 1.2    | 0.1      | 10.2        |
+| Czosnek 20g         | 30      | 1.5    | 0.1      | 6.7         |
+| Grzyby suszone 10g  | 30      | 3.0    | 0.5      | 3.0         |
+| Passata 400ml       | 80      | 4.0    | 0.0      | 16.0        |
+| Koncentrat 9g       | 12      | 0.6    | 0.0      | 3.0         |
+| Mozzarella 60g      | 144     | 11.0   | 9.6      | 2.4         |
+| Oliwa 15g           | 135     | 0.0    | 15.0     | 0.0         |
+| **RAZEM**           | 1749    | 145.3  | 38.9     | 206.1       |
+| Szac. masa ~1609 g  |         |        |          |             |
+| **NA 100G**         | ~       | 109    | 9.0      | 2.4         | 12.8        |
+| **1 porcja (⅓)**    | ~536g   | ~583   | ~48.4    | ~13.0       | ~68.7       |
+
+## Wskazówki
+
+- Za gęste? Dodaj 30–50 ml wody pod koniec duszenia.
+- Wersja z większym białkiem: +100 g indyka, oliwa 10 g.
+- Wersja bez zapiekania: ser dodaj na patelni – szybciej.
 
