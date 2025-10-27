@@ -7,7 +7,7 @@ date: 2025-07-06T16:55:00-00:00
 categories: ["obiady"]
 tags: ["lunchbox"]
 tagline: "Aromatyczny kurczak w sosie curry z ryżem i świeżymi brokułami na parze."
-ingredients: ["kurczak", "ryż", "brokuły", "mleko kokosowe", "curry"]
+ingredients: ["kurczak", "ryż", "brokuł", "mleko kokosowe", "curry"]
 servings: 4
 prep_time: 20
 cook: true

@@ -9,7 +9,7 @@ categories:
 tags:
   - grill
 tagline: Świeża sałatka z chrupiącym brokułem, kremową fetą i aromatycznym prażonym słonecznikiem.
-ingredients: ["brokuł", "pomidory koktajlowe", "ser feta", "pestki słonecznika", "sos winegret", "sól", "pieprz"]
+ingredients: ["brokuł", "pomidory koktajlowe", "ser feta", "pestki słonecznika", "sos winegret"]
 servings: 4
 prep_time: 15
 cook: true
