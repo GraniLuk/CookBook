@@ -47,35 +47,54 @@ collections:
           - { label: "batony", value: "batony" }
           - { label: "berberys", value: "berberys" }
           - { label: "bez-pieczenia", value: "bez-pieczenia" }
+          - { label: "brokuł", value: "brokuł" }
           - { label: "brownie", value: "brownie" }
+          - { label: "buraki", value: "buraki" }
+          - { label: "chrupiące", value: "chrupiące" }
           - { label: "czekolada", value: "czekolada" }
           - { label: "draft", value: "draft" }
+          - { label: "gnocchi", value: "gnocchi" }
+          - { label: "gorgonzola", value: "gorgonzola" }
           - { label: "goście", value: "goście" }
           - { label: "grill", value: "grill" }
           - { label: "impreza", value: "impreza" }
           - { label: "instant pot", value: "instant pot" }
           - { label: "jabłka", value: "jabłka" }
+          - { label: "jajka", value: "jajka" }
           - { label: "jajko", value: "jajko" }
           - { label: "jesień", value: "jesień" }
+          - { label: "kanapki", value: "kanapki" }
           - { label: "kinder bueno", value: "kinder bueno" }
           - { label: "klasyczne", value: "klasyczne" }
+          - { label: "kotlety", value: "kotlety" }
           - { label: "kurczak", value: "kurczak" }
           - { label: "kuskus", value: "kuskus" }
           - { label: "low carb", value: "low carb" }
           - { label: "lunchbox", value: "lunchbox" }
+          - { label: "makaron", value: "makaron" }
           - { label: "marokański", value: "marokański" }
           - { label: "meksykańskie", value: "meksykańskie" }
           - { label: "migdały", value: "migdały" }
+          - { label: "mozzarella", value: "mozzarella" }
           - { label: "na-wynos", value: "na-wynos" }
+          - { label: "nerkowce", value: "nerkowce" }
           - { label: "owsianka", value: "owsianka" }
+          - { label: "panko", value: "panko" }
           - { label: "pasta", value: "pasta" }
+          - { label: "pikantne", value: "pikantne" }
           - { label: "pistacje", value: "pistacje" }
           - { label: "pomidory", value: "pomidory" }
           - { label: "proteinowe", value: "proteinowe" }
           - { label: "przekąska", value: "przekąska" }
           - { label: "ryby", value: "ryby" }
+          - { label: "rzodkiewka", value: "rzodkiewka" }
+          - { label: "sałatka", value: "sałatka" }
           - { label: "Stefan", value: "Stefan" }
+          - { label: "suszone pomidory", value: "suszone pomidory" }
+          - { label: "szpinak", value: "szpinak" }
           - { label: "szybkie", value: "szybkie" }
+          - { label: "tuńczyk", value: "tuńczyk" }
+          - { label: "twaróg", value: "twaróg" }
           - { label: "wegańskie", value: "wegańskie" }
           - { label: "włoskie", value: "włoskie" }
           - { label: "łosoś", value: "łosoś" }
