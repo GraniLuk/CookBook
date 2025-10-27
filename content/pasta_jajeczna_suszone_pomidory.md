@@ -8,6 +8,7 @@ categories: ["sniadania"]
 subcategories: ["słone"]
 tags: ["szybkie", "pasta", "kanapki"]
 tagline: "Kremowa i aromatyczna pasta jajeczna z wyrazistym smakiem suszonych pomidorów i tuńczyka."
+ingredients: ["jajka", "tuńczyk", "suszone pomidory", "jogurt", "majonez", "sól", "pieprz"]
 servings: 4
 prep_time: 5
 cook: true

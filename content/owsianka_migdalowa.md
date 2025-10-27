@@ -5,6 +5,7 @@ author: Nowakuje
 draft: false
 tagline: Kremowa, pachnąca migdałami pieczona owsianka inspirowana migdałowym
   croissantem.
+ingredients: ["płatki owsiane", "mąka migdałowa", "odżywka białkowa", "banan", "jajka", "skyr", "napój migdałowy", "aromat migdałowy", "proszek do pieczenia", "masło migdałowe", "płatki migdałowe", "erytrytol"]
 recipe_image: images/recipe-headers/owsianka_migdalowa.avif
 tags:
   - owsianka

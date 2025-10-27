@@ -7,6 +7,7 @@ date: 2025-06-27T12:17:00-00:00
 categories: ["obiady"]  
 tags: []  
 tagline: "Soczysty kurczak z ryżem i warzywami w kremowym, lekkim sosie serowym."  
+ingredients: ["pierś z kurczaka", "mrożone warzywa", "ryż basmati", "oliwa", "czosnek", "przyprawa do kurczaka", "sól", "pieprz", "ser cheddar", "mleko", "masło", "mąka pszenna", "chili"]
 servings: 3  
 prep_time: 20  
 cook: true  

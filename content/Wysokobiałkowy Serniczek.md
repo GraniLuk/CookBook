@@ -16,6 +16,8 @@ protein: 9
 fat: 4
 carbohydrate: 10
 
+ingredients: ["jajka", "skyr waniliowy", "budyń waniliowy", "erytrol", "maliny"]
+
 fodmap:
   status: "depends"
   serving_ok: "OK przy nabiale bez laktozy i umiarkowanej porcji"

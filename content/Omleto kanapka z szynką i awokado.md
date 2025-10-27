@@ -8,6 +8,7 @@ categories: ["sniadania"]
 subcategories: ["słone"]
 tags: []
 tagline: "Pyszna omleto-kanapka z szynką i awokado!"
+ingredients: ["jajka", "sól", "pieprz", "bułka", "serek wiejski", "rukola", "awokado", "szynka", "pomidorki koktajlowe"]
 servings: 1
 prep_time: 10
 cook: true

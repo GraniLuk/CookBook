@@ -7,6 +7,7 @@ date: 2025-08-24T12:00:00-00:00
 categories: ["obiady"]
 tags: ["meksykańskie"]
 tagline: "Gigantyczne tacos: soczysta wołowina, chrupiąca tortilla, świeża salsa i dużo cheddara."
+ingredients: ["wołowina", "tortilla pszenna", "ser cheddar", "sałata lodowa", "awokado", "czerwona cebula", "papryczki padron", "pomidory", "kolendra", "cytryna", "czosnek", "kumin", "oregano", "papryka ostra", "papryka słodka", "koncentrat pomidorowy", "olej", "sól", "pieprz"]
 servings: 2
 prep_time: 25
 cook: true

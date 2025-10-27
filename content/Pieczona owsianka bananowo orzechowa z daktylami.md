@@ -10,6 +10,7 @@ tags:
   - Stefan
   - owsianka
 tagline: "Sycąca owsianka z naturalną słodyczą daktyli!"
+ingredients: ["banany", "mleko", "płatki owsiane", "miód", "masło orzechowe", "siemię lniane", "daktyle"]
 servings: 2
 prep_time: 15
 cook: true

@@ -7,6 +7,7 @@ date: 2025-06-18T12:00:00-00:00
 categories: ["obiady"]
 tags: ["instant pot", "Stefan"]
 tagline: "Aromatyczny gulasz z łopatki wieprzowej!"
+ingredients: ["łopatka wieprzowa", "cebula", "czosnek", "marchewka", "papryka", "papryka słodka", "papryka ostra", "kminek", "liść laurowy", "koncentrat pomidorowy", "bulion", "olej", "sól", "pieprz", "śmietana"]
 servings: 8
 prep_time: 30
 cook: true

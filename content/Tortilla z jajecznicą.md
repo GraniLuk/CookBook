@@ -17,6 +17,8 @@ protein: 10
 fat: 8
 carbohydrate: 15
 
+ingredients: ["jajka", "tortilla", "sól", "pieprz", "papryka"]
+
 fodmap:
   status: "depends"
   serving_ok: "Sprawdź skład tortilli - unikaj pszenicy pełnoziarnistej"

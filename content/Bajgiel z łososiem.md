@@ -4,6 +4,7 @@ author: Michał Wrzosek
 draft: true
 tagline: Stosowe weekendowe śniadanie z bajglem, łososiem, awokado i jajkiem
   sadzonym – pyszne i sycące.
+ingredients: ["bajgiel", "serek", "rukola", "ogórek", "łosoś", "awokado", "jajko", "oliwa"]
 recipe_image: images/defaultImage.avif
 tags:
   - łosoś

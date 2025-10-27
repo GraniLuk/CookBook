@@ -8,6 +8,7 @@ categories: ["sniadania"]
 subcategories: ["słone"]
 tags: []
 tagline: "Połączenie słodkiego ziemniaka ze słonym serem w puszystej frittacie."
+ingredients: ["bataty", "jajka", "papryka", "cebula", "szpinak", "ser feta", "sól", "pieprz"]
 servings: 3
 prep_time: 15
 cook: true

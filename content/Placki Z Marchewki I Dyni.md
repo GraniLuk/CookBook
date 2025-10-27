@@ -8,6 +8,7 @@ categories: ["sniadania"]
 subcategories: ["słodkie"]
 tags: ["Stefan", "wegańskie"]
 tagline: "Zdrowe placki z marchewki i dyni - idealne na każdą porę dnia!"
+ingredients: ["marchewka", "dynia", "mąka pszenna", "jajko", "banan", "olej"]
 servings: 20
 prep_time: 30
 cook: true

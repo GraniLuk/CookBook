@@ -17,6 +17,8 @@ protein: 8
 fat: 9
 carbohydrate: 10
 
+ingredients: ["tortilla pełnoziarnista", "jajka", "awokado", "pomidor", "ser żółty light", "sok z cytryny", "czosnek granulowany", "suszona cebula", "pieprz", "sól", "oliwa z oliwek"]
+
 fodmap:
   status: "depends"
   serving_ok: "Zamień tortillę pełnoziarnistą na kukurydzianą"

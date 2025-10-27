@@ -7,6 +7,7 @@ date: 2025-06-27T12:15:00-00:00
 categories: ["sosy"]
 tags: ["impreza"]
 tagline: "Kremowy i lekki sos serowy, idealny do wielu dań."
+ingredients: ["ser cheddar", "mleko", "masło", "mąka pszenna", "chili", "sól", "pieprz"]
 servings: 3
 prep_time: 5
 cook: true

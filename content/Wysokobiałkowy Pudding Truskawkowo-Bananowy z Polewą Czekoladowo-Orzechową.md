@@ -17,6 +17,8 @@ protein: 7
 fat: 4
 carbohydrate: 15
 
+ingredients: ["truskawki", "banany", "twaróg chudy", "płatki owsiane", "napój owsiany", "aromat waniliowy", "erytrytol", "miód", "czekolada gorzka", "masło orzechowe"]
+
 fodmap:
   status: "depends"
   serving_ok: "OK po modyfikacjach: nabiał bez laktozy; napój ryżowy; banan ≤ 1/2 na porcję"
