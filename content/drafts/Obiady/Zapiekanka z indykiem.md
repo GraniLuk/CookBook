@@ -1,5 +1,5 @@
 ﻿---
-draft: false
+draft: true
 title: "Jednogarnkowa Zapiekanka z Indykiem, Jarmużem i Suszonymi Pomidorami"
 author: "Policzona Szama"
 recipe_image: images/recipe-headers/zapiekanka_indyk_jarmuz.avif

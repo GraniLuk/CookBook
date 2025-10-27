@@ -1,5 +1,5 @@
 ﻿---
-draft: false
+draft: true
 title: "Zimowy Burger z Kurczakiem i Plackiem Ziemniaczano-Parmezanowym"
 author: "Policzona Szama"
 recipe_image: images/recipe-headers/burger_zimowy.avif
