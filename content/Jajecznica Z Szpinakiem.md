@@ -8,6 +8,7 @@ categories: ["sniadania"]
 subcategories: ["słone"]
 tags: []
 tagline: "Zdrowa jajecznica ze szpinakiem na śniadanie!"
+ingredients: ["jajka", "szpinak", "czosnek", "masło"]
 servings: 1
 prep_time: 5
 cook: true
