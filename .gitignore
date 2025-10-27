@@ -6,3 +6,4 @@ resources/
 .gemini/
 gha-creds-*.json
 .obsidian/
+.vscode/settings.json
