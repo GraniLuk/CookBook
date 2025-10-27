@@ -17,7 +17,7 @@ protein: 7
 fat: 4
 carbohydrate: 15
 
-ingredients: ["truskawki", "banany", "twaróg chudy", "płatki owsiane", "napój owsiany", "aromat waniliowy", "erytrytol", "miód", "czekolada gorzka", "masło orzechowe"]
+ingredients: ["truskawki", "banany", "twaróg chudy", "płatki owsiane", "napój owsiany", "miód", "czekolada gorzka", "masło orzechowe"]
 
 fodmap:
   status: "depends"
