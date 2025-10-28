@@ -11,7 +11,7 @@ tags:
   - szybkie
   - kanapki
 categories:
-  - śniadania
+  - sniadania
 subcategories:
   - słone
 servings: 1
