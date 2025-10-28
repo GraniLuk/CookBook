@@ -9,7 +9,8 @@
     let allRecipeCards = [];
     let totalRecipes = 0;
     let isExpanded = false;
-    let showTestRecipes = false; // Test recipes filter state (readyToTest)
+    let showOfficialRecipes = true;  // Official recipes filter state (default: true)
+    let showTestRecipes = false;     // Test recipes filter state (readyToTest)
 
     // Initialize the filter on page load
     function init() {
@@ -119,10 +120,20 @@
         const dropdown = document.getElementById('ingredientDropdown');
         const searchInput = document.getElementById('ingredientSearch');
 
+        // Official recipes checkbox event listener
+        const officialCheckbox = document.getElementById('showOfficialCheckbox');
+        if (officialCheckbox) {
+            officialCheckbox.addEventListener('change', function () {
+                showOfficialRecipes = this.checked;
+                console.log('Show official recipes:', showOfficialRecipes);
+                filterRecipes();
+            });
+        }
+
         // Test recipes checkbox event listener (readyToTest)
-        const draftCheckbox = document.getElementById('showDraftsCheckbox');
-        if (draftCheckbox) {
-            draftCheckbox.addEventListener('change', function () {
+        const testCheckbox = document.getElementById('showTestCheckbox');
+        if (testCheckbox) {
+            testCheckbox.addEventListener('change', function () {
                 showTestRecipes = this.checked;
                 console.log('Show test recipes:', showTestRecipes);
                 filterRecipes();
@@ -328,7 +339,7 @@
         });
     }
 
-    // Filter recipes based on selected ingredients AND readyToTest status
+    // Filter recipes based on selected ingredients AND recipe type (official/test)
     function filterRecipes() {
         let visibleCount = 0;
 
@@ -338,17 +349,25 @@
             const isReadyToTest = card.getAttribute('data-ready-to-test') === 'true';
             let shouldShow = true;
 
-            // Filter by readyToTest status first
-            // Hide if it's readyToTest and checkbox is not checked
-            if (isReadyToTest && !showTestRecipes) {
+            // Always hide actual drafts (draft: true) - they should never show
+            if (isDraft) {
                 shouldShow = false;
             }
-            // Also hide actual drafts (draft: true) - they should never show
-            else if (isDraft) {
-                shouldShow = false;
+            // Check recipe type filters
+            else if (isReadyToTest) {
+                // This is a test recipe - show only if test checkbox is checked
+                if (!showTestRecipes) {
+                    shouldShow = false;
+                }
+            } else {
+                // This is an official recipe - show only if official checkbox is checked
+                if (!showOfficialRecipes) {
+                    shouldShow = false;
+                }
             }
-            else if (selectedIngredients.size > 0) {
-                // Then filter by ingredients if any are selected
+
+            // Apply ingredient filter if recipes passed the type filter
+            if (shouldShow && selectedIngredients.size > 0) {
                 if (!ingredientsAttr || ingredientsAttr === 'null') {
                     shouldShow = false;
                 } else {
@@ -391,15 +410,26 @@
 
         const count = visibleCount !== null ? visibleCount : totalRecipes;
 
-        if (selectedIngredients.size === 0 && !showTestRecipes) {
-            resultsCount.textContent = `Pokazuję oficjalne przepisy (${count} z ${totalRecipes})`;
-        } else if (selectedIngredients.size === 0) {
-            resultsCount.textContent = `Pokazuję wszystkie przepisy (${count})`;
-        } else if (count === 0) {
+        // Determine what's being shown
+        let statusText = '';
+        if (showOfficialRecipes && showTestRecipes) {
+            statusText = 'Pokazuję wszystkie przepisy';
+        } else if (showOfficialRecipes && !showTestRecipes) {
+            statusText = 'Pokazuję oficjalne przepisy';
+        } else if (!showOfficialRecipes && showTestRecipes) {
+            statusText = 'Pokazuję przepisy testowe';
+        } else {
+            statusText = 'Wszystkie filtry wyłączone';
+        }
+
+        if (count === 0) {
             resultsCount.textContent = 'Nie znaleziono przepisów spełniających kryteria';
             resultsCount.parentElement.classList.add('is-warning');
+        } else if (selectedIngredients.size === 0) {
+            resultsCount.textContent = `${statusText} (${count})`;
+            resultsCount.parentElement.classList.remove('is-warning');
         } else {
-            resultsCount.textContent = `Pokazuję ${count} z ${totalRecipes} przepisów`;
+            resultsCount.textContent = `${statusText}: ${count} z ${totalRecipes}`;
             resultsCount.parentElement.classList.remove('is-warning');
         }
     }

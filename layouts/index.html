@@ -19,12 +19,19 @@
                 <button class="delete" id="closeFilter" aria-label="close"></button>
             </div>
 
-            <!-- Draft Filter Checkbox -->
+            <!-- Recipe Type Filter Checkboxes -->
             <div class="field mb-4">
-                <label class="checkbox">
-                    <input type="checkbox" id="showDraftsCheckbox">
-                    <span class="ml-2">Pokaż przepisy testowe</span>
-                </label>
+                <label class="label is-small mb-2">Pokaż przepisy:</label>
+                <div class="control">
+                    <label class="checkbox is-block mb-2">
+                        <input type="checkbox" id="showOfficialCheckbox" checked>
+                        <span class="ml-2">Oficjalne przepisy</span>
+                    </label>
+                    <label class="checkbox is-block">
+                        <input type="checkbox" id="showTestCheckbox">
+                        <span class="ml-2">Przepisy testowe</span>
+                    </label>
+                </div>
             </div>
 
             <div class="field is-grouped is-grouped-multiline">
