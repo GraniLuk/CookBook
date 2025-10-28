@@ -9,7 +9,7 @@
     let allRecipeCards = [];
     let totalRecipes = 0;
     let isExpanded = false;
-    let showDrafts = false; // Draft filter state
+    let showTestRecipes = false; // Test recipes filter state (readyToTest)
 
     // Initialize the filter on page load
     function init() {
@@ -20,6 +20,21 @@
             console.warn('No recipe cards found on page');
             return;
         }
+
+        // Debug: Log draft status
+        let draftCount = 0;
+        let testCount = 0;
+        allRecipeCards.forEach(card => {
+            const isDraft = card.getAttribute('data-draft');
+            const isReadyToTest = card.getAttribute('data-ready-to-test');
+            if (isDraft === 'true') {
+                draftCount++;
+            }
+            if (isReadyToTest === 'true') {
+                testCount++;
+            }
+        });
+        console.log(`Found ${totalRecipes} recipes, ${draftCount} drafts, ${testCount} ready to test`);
 
         extractAllIngredients();
         populateDropdown();
@@ -100,11 +115,12 @@
 
     // Attach event listeners to UI controls
     function attachEventListeners() {
-        // Draft checkbox event listener
+        // Test recipes checkbox event listener (readyToTest)
         const draftCheckbox = document.getElementById('showDraftsCheckbox');
         if (draftCheckbox) {
             draftCheckbox.addEventListener('change', function () {
-                showDrafts = this.checked;
+                showTestRecipes = this.checked;
+                console.log('Show test recipes:', showTestRecipes);
                 filterRecipes();
             });
         }
@@ -302,19 +318,26 @@
         });
     }
 
-    // Filter recipes based on selected ingredients AND draft status
+    // Filter recipes based on selected ingredients AND readyToTest status
     function filterRecipes() {
         let visibleCount = 0;
 
         allRecipeCards.forEach(card => {
             const ingredientsAttr = card.getAttribute('data-ingredients');
             const isDraft = card.getAttribute('data-draft') === 'true';
+            const isReadyToTest = card.getAttribute('data-ready-to-test') === 'true';
             let shouldShow = true;
 
-            // Filter by draft status first
-            if (isDraft && !showDrafts) {
+            // Filter by readyToTest status first
+            // Hide if it's readyToTest and checkbox is not checked
+            if (isReadyToTest && !showTestRecipes) {
                 shouldShow = false;
-            } else if (selectedIngredients.size > 0) {
+            } 
+            // Also hide actual drafts (draft: true) - they should never show
+            else if (isDraft) {
+                shouldShow = false;
+            } 
+            else if (selectedIngredients.size > 0) {
                 // Then filter by ingredients if any are selected
                 if (!ingredientsAttr || ingredientsAttr === 'null') {
                     shouldShow = false;
@@ -358,7 +381,7 @@
 
         const count = visibleCount !== null ? visibleCount : totalRecipes;
 
-        if (selectedIngredients.size === 0 && !showDrafts) {
+        if (selectedIngredients.size === 0 && !showTestRecipes) {
             resultsCount.textContent = `Pokazuję oficjalne przepisy (${count} z ${totalRecipes})`;
         } else if (selectedIngredients.size === 0) {
             resultsCount.textContent = `Pokazuję wszystkie przepisy (${count})`;

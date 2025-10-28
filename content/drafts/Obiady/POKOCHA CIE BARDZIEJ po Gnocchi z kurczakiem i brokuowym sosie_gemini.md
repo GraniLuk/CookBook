@@ -1,5 +1,6 @@
 ---
-draft: true
+draft: false
+readyToTest: true
 title: "Gnocchi z Kurczakiem w Sosie Szpinakowo-Brokułowym z Gorgonzolą"
 author: "Policzona Szama"
 recipe_image: images/recipe-headers/gnocchi_kurczak_brokul.avif

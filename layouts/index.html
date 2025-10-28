@@ -23,7 +23,7 @@
             <div class="field mb-4">
                 <label class="checkbox">
                     <input type="checkbox" id="showDraftsCheckbox">
-                    <span class="ml-2">Pokaż przepisy robocze</span>
+                    <span class="ml-2">Pokaż przepisy testowe</span>
                 </label>
             </div>
 
@@ -77,7 +77,9 @@
         {{ range .Site.RegularPages }}
         {{ if not (in .Params.categories "sosy") }}
         <div class="column is-one-fifth-desktop is-one-quarter-tablet is-full-mobile"
-            data-ingredients='{{ .Params.ingredients | jsonify }}' data-draft="{{ default false .Draft }}">
+            data-ingredients='{{ .Params.ingredients | jsonify }}'
+            data-draft="{{ default false .Draft }}"
+            data-ready-to-test="{{ default false .Params.readyToTest }}">
             {{ partial "summary.html" . }}
         </div>
         {{ end }}

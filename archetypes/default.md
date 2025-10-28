@@ -15,6 +15,7 @@ cook: true # If we are cooking this, leave true, if we are cooling set to false
 cook_increment: minutes # set to minutes or hours
 cook_time: 8 #in minutes or hours #can be BLANK
 calories: 300 #in kcal #can be BLANK
+# readyToTest: true # Uncomment to make this recipe visible when "Pokaż przepisy testowe" is checked (requires draft: false)
 
 # For ingredient subheadings (if you use them), please use the h4 header.  For print view I have those elements targeted
 ---

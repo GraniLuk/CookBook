@@ -18,6 +18,7 @@
       "fat"          .Params.fat
       "carbohydrate" .Params.carbohydrate
       "draft"        (default false .Draft)
+      "readyToTest"  (default false .Params.readyToTest)
     ) -}}
   {{- end -}}
 {{- end -}}
