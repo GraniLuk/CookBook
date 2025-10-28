@@ -115,6 +115,10 @@
 
     // Attach event listeners to UI controls
     function attachEventListeners() {
+        // Get commonly used elements
+        const dropdown = document.getElementById('ingredientDropdown');
+        const searchInput = document.getElementById('ingredientSearch');
+
         // Test recipes checkbox event listener (readyToTest)
         const draftCheckbox = document.getElementById('showDraftsCheckbox');
         if (draftCheckbox) {
@@ -138,13 +142,20 @@
         }
 
         // Dropdown toggle
-        const dropdown = document.getElementById('ingredientDropdown');
         if (dropdown) {
             const trigger = dropdown.querySelector('.dropdown-trigger button');
             if (trigger) {
                 trigger.addEventListener('click', function (e) {
                     e.stopPropagation();
                     dropdown.classList.toggle('is-active');
+
+                    // Auto-focus search input when dropdown opens
+                    if (dropdown.classList.contains('is-active') && searchInput) {
+                        // Small delay to ensure dropdown is fully rendered
+                        setTimeout(() => {
+                            searchInput.focus();
+                        }, 100);
+                    }
                 });
             }
         }
@@ -171,7 +182,6 @@
         }
 
         // Ingredient search input
-        const searchInput = document.getElementById('ingredientSearch');
         if (searchInput) {
             searchInput.addEventListener('input', filterIngredientList);
             // Prevent dropdown from closing when typing
