@@ -186,7 +186,6 @@
             });
         });
     }
-            const text = document.createTextNode(capitalizeFirst(ingredient));    }
 
     // Attach event listeners to UI controls
     function attachEventListeners() {
@@ -509,18 +508,6 @@
             }
         });
     }
-        selectedIngredients.clear();
-
-        // Uncheck all checkboxes
-        const checkboxes = document.querySelectorAll('#ingredientList input[type="checkbox"]');
-        checkboxes.forEach(checkbox => {
-            checkbox.checked = false;
-        });
-
-        updateSelectedDisplay();
-        updateQuickStatus();
-        filterRecipes();
-    }
 
     // Filter the ingredient list based on search input
     function filterIngredientList() {
@@ -677,4 +664,5 @@
     } else {
         init();
     }
+
 })();
