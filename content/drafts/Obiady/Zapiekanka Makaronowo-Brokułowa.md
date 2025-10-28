@@ -1,5 +1,6 @@
 ﻿---
-draft: true
+draft: false
+readyToTest: true
 title: "Zapiekanka Makaronowo-Brokułowa z Mozzarellą"
 author: "Policzona Szama"
 recipe_image: images/recipe-headers/zapiekanka_makaron_brokul.avif

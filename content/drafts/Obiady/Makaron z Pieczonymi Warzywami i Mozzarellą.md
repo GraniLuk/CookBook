@@ -1,5 +1,6 @@
 ﻿---
-draft: true
+draft: false
+readyToTest: true
 title: "Makaron z Pieczonymi Warzywami i Mozzarellą"
 author: "Policzona Szama"
 recipe_image: images/recipe-headers/makaron_warzywa_mozzarella.avif

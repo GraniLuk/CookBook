@@ -6,6 +6,8 @@
 
     let allIngredients = new Set();
     let selectedIngredients = new Set();
+    let allCategories = new Set();
+    let selectedCategories = new Set();
     let allRecipeCards = [];
     let totalRecipes = 0;
     let isExpanded = false;
@@ -38,7 +40,9 @@
         console.log(`Found ${totalRecipes} recipes, ${draftCount} drafts, ${testCount} ready to test`);
 
         extractAllIngredients();
-        populateDropdown();
+        extractAllCategories();
+        populateIngredientsDropdown();
+        populateCategoriesDropdown();
         attachEventListeners();
         filterRecipes(); // Apply initial filter to hide drafts
         updateResultsCount();
@@ -65,8 +69,29 @@
         });
     }
 
-    // Populate the dropdown with ingredient checkboxes
-    function populateDropdown() {
+    // Extract all unique categories from recipe cards
+    function extractAllCategories() {
+        allRecipeCards.forEach(card => {
+            const categoriesAttr = card.getAttribute('data-categories');
+            if (categoriesAttr && categoriesAttr !== 'null') {
+                try {
+                    const categories = JSON.parse(categoriesAttr);
+                    if (Array.isArray(categories)) {
+                        categories.forEach(category => {
+                            if (category && category.trim()) {
+                                allCategories.add(category.trim().toLowerCase());
+                            }
+                        });
+                    }
+                } catch (e) {
+                    console.error('Error parsing categories:', e);
+                }
+            }
+        });
+    }
+
+    // Populate the ingredients dropdown with checkboxes
+    function populateIngredientsDropdown() {
         const ingredientList = document.getElementById('ingredientList');
         if (!ingredientList) return;
 
@@ -114,11 +139,62 @@
         });
     }
 
+    // Populate the categories dropdown with checkboxes
+    function populateCategoriesDropdown() {
+        const categoryList = document.getElementById('categoryList');
+        if (!categoryList) return;
+
+        if (allCategories.size === 0) {
+            categoryList.innerHTML = '<div class="dropdown-item"><em>Brak kategorii do filtrowania</em></div>';
+            return;
+        }
+
+        // Sort categories alphabetically
+        const sortedCategories = Array.from(allCategories).sort();
+
+        sortedCategories.forEach(category => {
+            const item = document.createElement('div');
+            item.className = 'dropdown-item';
+
+            const label = document.createElement('label');
+            label.className = 'checkbox';
+            label.style.display = 'block';
+            label.style.cursor = 'pointer';
+
+            const checkbox = document.createElement('input');
+            checkbox.type = 'checkbox';
+            checkbox.value = category;
+            checkbox.className = 'mr-2';
+
+            const text = document.createTextNode(capitalizeFirst(category));
+
+            label.appendChild(checkbox);
+            label.appendChild(text);
+            item.appendChild(label);
+
+            categoryList.appendChild(item);
+
+            // Add click event to checkbox
+            checkbox.addEventListener('change', function () {
+                if (this.checked) {
+                    selectedCategories.add(this.value);
+                } else {
+                    selectedCategories.delete(this.value);
+                }
+                updateSelectedCategoriesDisplay();
+                filterRecipes();
+            });
+        });
+    }
+            const text = document.createTextNode(capitalizeFirst(ingredient));    }
+
     // Attach event listeners to UI controls
     function attachEventListeners() {
         // Get commonly used elements
         const dropdown = document.getElementById('ingredientDropdown');
+        const categoryDropdown = document.getElementById('categoryDropdown');
         const searchInput = document.getElementById('ingredientSearch');
+        const categorySearchInput = document.getElementById('categorySearch');
 
         // Official recipes checkbox event listener
         const officialCheckbox = document.getElementById('showOfficialCheckbox');
@@ -152,7 +228,7 @@
             closeFilter.addEventListener('click', collapseFilter);
         }
 
-        // Dropdown toggle
+        // Dropdown toggle - Ingredients
         if (dropdown) {
             const trigger = dropdown.querySelector('.dropdown-trigger button');
             if (trigger) {
@@ -171,17 +247,46 @@
             }
         }
 
-        // Close dropdown when clicking outside
+        // Dropdown toggle - Categories
+        if (categoryDropdown) {
+            const trigger = categoryDropdown.querySelector('.dropdown-trigger button');
+            if (trigger) {
+                trigger.addEventListener('click', function (e) {
+                    e.stopPropagation();
+                    categoryDropdown.classList.toggle('is-active');
+
+                    // Auto-focus search input when dropdown opens
+                    if (categoryDropdown.classList.contains('is-active') && categorySearchInput) {
+                        setTimeout(() => {
+                            categorySearchInput.focus();
+                        }, 100);
+                    }
+                });
+            }
+        }
+
+        // Close dropdowns when clicking outside
         document.addEventListener('click', function (e) {
             if (dropdown && !dropdown.contains(e.target)) {
                 dropdown.classList.remove('is-active');
             }
+            if (categoryDropdown && !categoryDropdown.contains(e.target)) {
+                categoryDropdown.classList.remove('is-active');
+            }
         });
 
-        // Prevent dropdown from closing when clicking inside
+        // Prevent ingredient dropdown from closing when clicking inside
         const dropdownMenu = document.getElementById('dropdown-menu');
         if (dropdownMenu) {
             dropdownMenu.addEventListener('click', function (e) {
+                e.stopPropagation();
+            });
+        }
+
+        // Prevent category dropdown from closing when clicking inside
+        const categoryDropdownMenu = document.getElementById('category-dropdown-menu');
+        if (categoryDropdownMenu) {
+            categoryDropdownMenu.addEventListener('click', function (e) {
                 e.stopPropagation();
             });
         }
@@ -197,6 +302,15 @@
             searchInput.addEventListener('input', filterIngredientList);
             // Prevent dropdown from closing when typing
             searchInput.addEventListener('click', function (e) {
+                e.stopPropagation();
+            });
+        }
+
+        // Category search input
+        if (categorySearchInput) {
+            categorySearchInput.addEventListener('input', filterCategoryList);
+            // Prevent dropdown from closing when typing
+            categorySearchInput.addEventListener('click', function (e) {
                 e.stopPropagation();
             });
         }
@@ -285,6 +399,39 @@
         });
     }
 
+    // Update the display of selected categories as tags
+    function updateSelectedCategoriesDisplay() {
+        const container = document.getElementById('selectedCategories');
+        if (!container) return;
+
+        container.innerHTML = '';
+
+        if (selectedCategories.size === 0) {
+            return;
+        }
+
+        selectedCategories.forEach(category => {
+            const tagControl = document.createElement('div');
+            tagControl.className = 'control';
+
+            const tags = document.createElement('div');
+            tags.className = 'tags has-addons';
+
+            const tag = document.createElement('span');
+            tag.className = 'tag is-info';
+            tag.textContent = capitalizeFirst(category);
+
+            const deleteBtn = document.createElement('a');
+            deleteBtn.className = 'tag is-delete';
+            deleteBtn.addEventListener('click', () => removeCategory(category));
+
+            tags.appendChild(tag);
+            tags.appendChild(deleteBtn);
+            tagControl.appendChild(tags);
+            container.appendChild(tagControl);
+        });
+    }
+
     // Remove a specific ingredient from selection
     function removeIngredient(ingredient) {
         selectedIngredients.delete(ingredient);
@@ -302,8 +449,66 @@
         filterRecipes();
     }
 
+    // Remove a specific category from selection
+    function removeCategory(category) {
+        selectedCategories.delete(category);
+
+        // Uncheck the checkbox
+        const checkboxes = document.querySelectorAll('#categoryList input[type="checkbox"]');
+        checkboxes.forEach(checkbox => {
+            if (checkbox.value === category) {
+                checkbox.checked = false;
+            }
+        });
+
+        updateSelectedCategoriesDisplay();
+        filterRecipes();
+    }
+
     // Clear all selected filters
     function clearAllFilters() {
+        selectedIngredients.clear();
+        selectedCategories.clear();
+
+        // Uncheck all ingredient checkboxes
+        const ingredientCheckboxes = document.querySelectorAll('#ingredientList input[type="checkbox"]');
+        ingredientCheckboxes.forEach(checkbox => {
+            checkbox.checked = false;
+        });
+
+        // Uncheck all category checkboxes
+        const categoryCheckboxes = document.querySelectorAll('#categoryList input[type="checkbox"]');
+        categoryCheckboxes.forEach(checkbox => {
+            checkbox.checked = false;
+        });
+
+        updateSelectedDisplay();
+        updateSelectedCategoriesDisplay();
+        updateQuickStatus();
+        filterRecipes();
+    }
+
+    // Filter the category list based on search input
+    function filterCategoryList() {
+        const searchInput = document.getElementById('categorySearch');
+        if (!searchInput) return;
+
+        const searchTerm = searchInput.value.toLowerCase().trim();
+        const categoryItems = document.querySelectorAll('#categoryList .dropdown-item');
+
+        categoryItems.forEach(item => {
+            const label = item.querySelector('label');
+            if (!label) return;
+
+            const categoryText = label.textContent.toLowerCase();
+
+            if (categoryText.includes(searchTerm)) {
+                item.style.display = 'block';
+            } else {
+                item.style.display = 'none';
+            }
+        });
+    }
         selectedIngredients.clear();
 
         // Uncheck all checkboxes
@@ -339,12 +544,13 @@
         });
     }
 
-    // Filter recipes based on selected ingredients AND recipe type (official/test)
+    // Filter recipes based on selected categories, ingredients AND recipe type (official/test)
     function filterRecipes() {
         let visibleCount = 0;
 
         allRecipeCards.forEach(card => {
             const ingredientsAttr = card.getAttribute('data-ingredients');
+            const categoriesAttr = card.getAttribute('data-categories');
             const isDraft = card.getAttribute('data-draft') === 'true';
             const isReadyToTest = card.getAttribute('data-ready-to-test') === 'true';
             let shouldShow = true;
@@ -366,7 +572,33 @@
                 }
             }
 
-            // Apply ingredient filter if recipes passed the type filter
+            // Apply category filter if recipes passed the type filter
+            if (shouldShow && selectedCategories.size > 0) {
+                if (!categoriesAttr || categoriesAttr === 'null') {
+                    shouldShow = false;
+                } else {
+                    try {
+                        const recipeCategories = JSON.parse(categoriesAttr);
+                        if (!Array.isArray(recipeCategories)) {
+                            shouldShow = false;
+                        } else {
+                            // Normalize recipe categories for comparison
+                            const normalizedRecipeCategories = recipeCategories.map(
+                                c => c.trim().toLowerCase()
+                            );
+
+                            // Check if recipe contains ANY selected category
+                            shouldShow = Array.from(selectedCategories).some(
+                                selectedCat => normalizedRecipeCategories.includes(selectedCat)
+                            );
+                        }
+                    } catch (e) {
+                        shouldShow = false;
+                    }
+                }
+            }
+
+            // Apply ingredient filter if recipes passed previous filters
             if (shouldShow && selectedIngredients.size > 0) {
                 if (!ingredientsAttr || ingredientsAttr === 'null') {
                     shouldShow = false;

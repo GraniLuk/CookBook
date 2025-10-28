@@ -1,5 +1,6 @@
 ﻿---
-draft: true
+draft: false
+readyToTest: true
 title: "Bowl z Łososiem, Ryżem i Warzywami"
 author: "Policzona Szama"
 recipe_image: images/recipe-headers/bowl_losos.avif

@@ -1,5 +1,6 @@
 ﻿---
-draft: true
+draft: false
+readyToTest: true
 title: "Błyskawiczna Tortilla z Indykiem i Pesto"
 author: "Policzona Szama"
 recipe_image: images/recipe-headers/tortilla_indyk_pesto.avif

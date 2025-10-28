@@ -1,5 +1,6 @@
 ﻿---
-draft: true
+draft: false
+readyToTest: true
 title: "Kurczak Teriyaki z Warzywami i Ryżem"
 author: "Policzona Szama"
 recipe_image: images/recipe-headers/kurczak_teriyaki.avif

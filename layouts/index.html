@@ -36,6 +36,35 @@
 
             <div class="field is-grouped is-grouped-multiline">
                 <div class="control">
+                    <div class="dropdown" id="categoryDropdown">
+                        <div class="dropdown-trigger">
+                            <button class="button is-small" aria-haspopup="true" aria-controls="category-dropdown-menu">
+                                <span>Wybierz kategorie</span>
+                                <span class="icon is-small">
+                                    <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="dropdown-menu" id="category-dropdown-menu" role="menu">
+                            <div class="dropdown-content">
+                                <div class="dropdown-item">
+                                    <div class="field">
+                                        <div class="control has-icons-left">
+                                            <input class="input is-small" type="text" id="categorySearch"
+                                                placeholder="Szukaj kategorii...">
+                                            <span class="icon is-small is-left">
+                                                <i class="fas fa-search"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr class="dropdown-divider">
+                                <div id="categoryList"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="control">
                     <div class="dropdown" id="ingredientDropdown">
                         <div class="dropdown-trigger">
                             <button class="button is-small" aria-haspopup="true" aria-controls="dropdown-menu">
@@ -73,7 +102,8 @@
                     </button>
                 </div>
             </div>
-            <div class="field is-grouped is-grouped-multiline mt-3" id="selectedIngredients"></div>
+            <div class="field is-grouped is-grouped-multiline mt-3" id="selectedCategories"></div>
+            <div class="field is-grouped is-grouped-multiline mt-2" id="selectedIngredients"></div>
             <div class="notification is-light is-small mt-3" id="filterResults">
                 <p id="resultsCount">Pokazuję wszystkie przepisy</p>
             </div>
@@ -84,7 +114,9 @@
         {{ range .Site.RegularPages }}
         {{ if not (in .Params.categories "sosy") }}
         <div class="column is-one-fifth-desktop is-one-quarter-tablet is-full-mobile"
-            data-ingredients='{{ .Params.ingredients | jsonify }}' data-draft="{{ default false .Draft }}"
+            data-ingredients='{{ .Params.ingredients | jsonify }}'
+            data-categories='{{ .Params.categories | jsonify }}'
+            data-draft="{{ default false .Draft }}"
             data-ready-to-test="{{ default false .Params.readyToTest }}">
             {{ partial "summary.html" . }}
         </div>
