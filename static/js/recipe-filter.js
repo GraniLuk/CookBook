@@ -332,11 +332,11 @@
             // Hide if it's readyToTest and checkbox is not checked
             if (isReadyToTest && !showTestRecipes) {
                 shouldShow = false;
-            } 
+            }
             // Also hide actual drafts (draft: true) - they should never show
             else if (isDraft) {
                 shouldShow = false;
-            } 
+            }
             else if (selectedIngredients.size > 0) {
                 // Then filter by ingredients if any are selected
                 if (!ingredientsAttr || ingredientsAttr === 'null') {
