@@ -1,5 +1,6 @@
 ---
 draft: false
+readyToTest: true
 title: "Jednogarnkowa Zapiekanka z Indykiem"
 author: "Policzone Szamy"
 recipe_image: images/recipe-headers/jednogarnkowa_zapiekanka_indyk.avif

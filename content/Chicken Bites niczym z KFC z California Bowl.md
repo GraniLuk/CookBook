@@ -1,5 +1,6 @@
 ---
 draft: false
+readyToTest: true
 title: "Chicken Bites niczym z KFC z California Bowl"
 author: "Policzone Szamy"
 recipe_image: images/recipe-headers/chicken_bites_kfc.avif

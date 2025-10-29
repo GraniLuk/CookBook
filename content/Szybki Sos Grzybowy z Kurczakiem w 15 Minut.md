@@ -1,5 +1,6 @@
 ---
 draft: false
+readyToTest: true
 title: "Szybki Sos Grzybowy z Kurczakiem w 15 Minut"
 author: "Policzone Szamy"
 recipe_image: images/recipe-headers/sos_grzybowy_kurczak.avif
