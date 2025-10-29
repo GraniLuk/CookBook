@@ -2,7 +2,7 @@
 draft: false
 title: "Jajecznica Ze Szpinakiem"
 author: "Stefan"
-recipe_image: images/recipe-headers/jajecznica_z_szpinakiem.webp
+recipe_image: images/recipe-headers/jajecznica_z_szpinakiem.avif
 date: 2025-06-18T12:00:00-00:00
 categories: ["sniadania"]
 subcategories: ["słone"]
