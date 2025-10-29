@@ -20,7 +20,7 @@ protein: 38
 fat: 9
 carbohydrate: 56
 readyToTest: true
-link: https://www.youtube.com/watch?v=wmM49OvW780
+link: https://youtu.be/wmM49OvW780?t=390
 fodmap:
   status: "no"
   serving_ok: "NIE – banan i rodzynki są wysokofodmap"

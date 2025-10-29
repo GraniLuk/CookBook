@@ -20,7 +20,7 @@ protein: 35
 fat: 11
 carbohydrate: 31
 readyToTest: true
-link: https://www.youtube.com/watch?v=wmM49OvW780
+link: https://youtu.be/wmM49OvW780?t=267
 fodmap:
   status: "depends"
   serving_ok: "OK po modyfikacjach: uwaga na mleko, odżywkę i jabłko"

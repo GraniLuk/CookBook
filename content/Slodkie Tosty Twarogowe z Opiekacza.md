@@ -20,7 +20,7 @@ protein: 40
 fat: 8
 carbohydrate: 29
 readyToTest: true
-link: https://www.youtube.com/watch?v=wmM49OvW780
+link: https://youtu.be/wmM49OvW780?t=136
 fodmap:
   status: "depends"
   serving_ok: "OK po modyfikacjach: uwaga na mleko laktozowe"
