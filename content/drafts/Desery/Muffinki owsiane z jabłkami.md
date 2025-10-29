@@ -15,6 +15,7 @@ calories: 300
 protein: 20
 fat: 10
 carbohydrate: 25
+converted_to: "Muffinki Owsiane z Jablkami.md"
 ---
 Recipe Book: _Zdrowe Wypieki_  
 Tags: #Śniadanie #Muffinki #Owsiane #Jabłka  

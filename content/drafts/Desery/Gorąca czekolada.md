@@ -15,6 +15,7 @@ calories: 300
 protein: 20
 fat: 10
 carbohydrate: 25
+converted_to: "Goraca Czekolada Owsiana.md"
 ---
 **Przepis na Gorącą Czekoladę: Krok po Kroku**
 
