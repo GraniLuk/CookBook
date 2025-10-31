@@ -44,6 +44,7 @@ collections:
         options:
           - { label: "", value: "" }
           - { label: "awokado", value: "awokado" }
+          - { label: "bagietka", value: "bagietka" }
           - { label: "batony", value: "batony" }
           - { label: "berberys", value: "berberys" }
           - { label: "bez-pieczenia", value: "bez-pieczenia" }
@@ -89,9 +90,11 @@ collections:
           - { label: "ryby", value: "ryby" }
           - { label: "rzodkiewka", value: "rzodkiewka" }
           - { label: "sałatka", value: "sałatka" }
+          - { label: "ser śmietankowy", value: "ser śmietankowy" }
           - { label: "Stefan", value: "Stefan" }
           - { label: "suszone pomidory", value: "suszone pomidory" }
           - { label: "szpinak", value: "szpinak" }
+          - { label: "szynka wędzona", value: "szynka wędzona" }
           - { label: "szybkie", value: "szybkie" }
           - { label: "tuńczyk", value: "tuńczyk" }
           - { label: "twaróg", value: "twaróg" }
