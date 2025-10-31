@@ -55,7 +55,7 @@ fodmap:
 
 7. **Nadziewanie:** Napełnij bagietki farszem, zamknij i włóż do piekarnika.
 
-8. **Pieczenie:** Piecz 80 minut, aż bagietki się zrumienią z wierzchu, a środek pozostanie miękki.
+8. **Pieczenie:** Piecz 8-10 minut, aż bagietki się zrumienią z wierzchu, a środek pozostanie miękki.
 
 9. **Podanie:** Podziel na 2 porcje. Można przygotować wcześniej i podgrzać następnego dnia.
 
