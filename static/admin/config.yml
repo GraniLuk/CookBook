@@ -77,7 +77,7 @@ collections:
           - { label: "marokański", value: "marokański" }
           - { label: "meksykańskie", value: "meksykańskie" }
           - { label: "migdały", value: "migdały" }
-          -           - { label: "ser cheddar", value: "ser cheddar" }
+          - { label: "ser cheddar", value: "ser cheddar" }
           - { label: "ser mozzarella", value: "ser mozzarella" }
           - { label: "na-wynos", value: "na-wynos" }
           - { label: "oliwki", value: "oliwki" }
