@@ -45,7 +45,7 @@ fodmap:
 
 ## Przygotowanie
 
-1. Brokuł: Podziel na różyczki, wrzuć do osolonego wrzątku na 1–2 minuty, odcedź i zahartuj zimną wodą. Odłóż.
+1. Brokuł: Podziel na różyczki, wrzuć do osolonego wrzątku na 2–3 minuty, odcedź i zahartuj zimną wodą. Odłóż.
 2. Kurczak: Pokrój w kostkę, wymieszaj z 10 g oliwy i mieszanką ziół (sól dodasz później). Odstaw na moment w temperaturze pokojowej.
 3. Aromaty: Posiekaj cebulę, czosnek przygotuj do wyciśnięcia. Szpinak rozmroź i odciśnij nadmiar wody.
 4. Smażenie kurczaka: Na mocno rozgrzanej patelni obsmaż kurczaka 5–8 minut do ścięcia. Przełóż do miski, przykryj talerzem, zachowaj soki.
