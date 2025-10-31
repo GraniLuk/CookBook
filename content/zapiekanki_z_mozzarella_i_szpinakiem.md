@@ -6,8 +6,6 @@ draft: false
 tagline: Szybka, sycąca zapiekanka z mozzarellą, szpinakiem i nutą pesto.
 recipe_image: images/recipe-headers/zapiekanki_mozzarella_szpinak.avif
 tags:
-  - mozzarella
-  - szpinak
   - szybkie
   - kanapki
 categories:
