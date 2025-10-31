@@ -17,7 +17,7 @@ calories: 220
 protein: 10
 fat: 12
 carbohydrate: 18
-link: https://www.youtube.com/watch?v= [link do filmu]
+link: https://www.youtube.com/watch?v=7WBWsXO6G3g
 fodmap:
   status: "no"
   serving_ok: "Nie – zawiera suszone pomidory >30g."

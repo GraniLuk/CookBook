@@ -17,7 +17,7 @@ calories: 200
 protein: 7
 fat: 8
 carbohydrate: 25
-link: https://www.youtube.com/watch?v= [link do filmu]
+link: https://www.youtube.com/watch?v=7WBWsXO6G3g
 fodmap:
   status: "yes"
   serving_ok: "OK w tej porcji"

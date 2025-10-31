@@ -17,7 +17,7 @@ calories: 150
 protein: 9
 fat: 6
 carbohydrate: 15
-link: https://www.youtube.com/watch?v= [link do filmu]
+link: https://www.youtube.com/watch?v=7WBWsXO6G3g
 fodmap:
   status: "no"
   serving_ok: "Nie – zawiera cebulę."
