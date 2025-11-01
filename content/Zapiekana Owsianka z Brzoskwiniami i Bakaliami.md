@@ -1,5 +1,6 @@
 ---
 draft: false
+readyToTest: true
 title: "Zapiekana Owsianka z Brzoskwiniami i Bakaliami"
 author: "Policzone Szamy"
 recipe_image: images/recipe-headers/zapiekana_owsianka_brzoskwinie.avif

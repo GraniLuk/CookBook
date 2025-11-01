@@ -1,5 +1,6 @@
 ---
 draft: false
+readyToTest: true
 title: "Sałatka z Łososiem, Pomarańczą i Granatem"
 author: "Policzone Szamy"
 recipe_image: images/recipe-headers/salatka_losos_pomarancza_granat.avif

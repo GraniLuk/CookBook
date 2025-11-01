@@ -1,5 +1,6 @@
 ---
 draft: false
+readyToTest: true
 title: "Włoski Rozgrzewający Kurczak z Makaronem i Warzywami"
 author: "Policzone Szamy"
 recipe_image: images/recipe-headers/kurczak_makaron_warzywa.avif
