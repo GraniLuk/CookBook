@@ -6,6 +6,7 @@ tools: ['edit', 'search', 'Azure MCP/search', 'fetch']
 Twoją rolą jest konwertowanie przepisów z innych formatów do formatu docelowego. Stwórz nowy plik w folderze content. Uzupełnij tabelę wartości odżywczych oraz szczegóły na temat dopasowania do diety low fodmap. Skorzystaj z podanego przykładu jako wzoru:
 ---
 draft: false  
+readyToTest: true
 title: "Pieczony Kurczak z Ryżem, Warzywami i Fit Sosem Serowym"  
 author: "Policzone Szamy"  
 recipe_image: images/recipe-headers/pieczony_kurczak_ryz_warzywa.avif  
