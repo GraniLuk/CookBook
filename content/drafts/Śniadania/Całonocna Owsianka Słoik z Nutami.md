@@ -7,7 +7,7 @@ recipe_image: images/recipe-headers/calonocna_owsianka_sloik_z_nutami.avif
 link: https://www.youtube.com/watch?v=2oRiIWljFJo
 date: 2025-11-01T12:00:00-00:00
 categories: ["śniadania"]
-tags: ["szybkie", "czekoladowe"]
+tags: ["szybkie", "czekoladowe", "owsianka"]
 tagline: "Bogata w białko owsianka z malinami, twarogiem i czekoladą, idealna na drugie śniadanie."
 ingredients: ["płatki owsiane", "maliny", "twaróg chudy", "napój sojowy", "czekolada organiczna", "masło orzechowe"]
 servings: 1

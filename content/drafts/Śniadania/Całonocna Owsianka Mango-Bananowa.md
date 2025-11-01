@@ -7,7 +7,7 @@ recipe_image: images/recipe-headers/calonocna_owsianka_mango_bananowa.avif
 link: https://www.youtube.com/watch?v=2oRiIWljFJo
 date: 2025-11-01T12:00:00-00:00
 categories: ["śniadania"]
-tags: ["szybkie", "tropikalne"]
+tags: ["szybkie", "tropikalne", "owsianka"]
 tagline: "Kremowa owsianka z mango i bananem, pełna energii na cały dzień."
 ingredients: ["płatki owsiane", "banan", "mango", "mleko"]
 servings: 1
