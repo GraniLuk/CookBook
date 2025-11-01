@@ -64,6 +64,8 @@ collections:
           - { label: "ryby", value: "ryby" }
           - { label: "Stefan", value: "Stefan" }
           - { label: "szybkie", value: "szybkie" }
+          - { label: "tropikalne", value: "tropikalne" }
+          - { label: "czekoladowe", value: "czekoladowe" }
           - { label: "wegańskie", value: "wegańskie" }
           - { label: "włoskie", value: "włoskie" }
         hint: "Wybierz z listy tagów (wpisz lub kliknij, aby zobaczyć wszystkie)."
