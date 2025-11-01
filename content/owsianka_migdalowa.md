@@ -9,6 +9,7 @@ ingredients: ["płatki owsiane", "mąka migdałowa", "odżywka białkowa", "bana
 recipe_image: images/recipe-headers/owsianka_migdalowa.avif
 tags:
   - szybkie
+  - owsianka
 categories:
   - sniadania
 subcategories:
