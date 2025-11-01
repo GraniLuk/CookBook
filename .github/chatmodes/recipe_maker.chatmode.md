@@ -11,7 +11,7 @@ author: "Policzone Szamy"
 recipe_image: images/recipe-headers/pieczony_kurczak_ryz_warzywa.avif  
 date: 2025-06-27T12:17:00-00:00  
 categories: ["obiady"]  
-tags: ["kurczak", "sos serowy", "fit", "warzywa", "ryż"]  
+tags: ["szybkie", "proteinowe"]  
 tagline: "Soczysty kurczak z ryżem i warzywami w kremowym, lekkim sosie serowym."  
 ingredients: ["pierś z kurczaka", "mrożone warzywa", "ryż basmati", "oliwa", "czosnek", "ser cheddar", "mleko", "masło", "mąka pszenna", "chili"]
 servings: 3  
@@ -64,9 +64,28 @@ fodmap:
 | Mąka pszenna       | 5         | 18             | 0.5        | 0.1          | 3.9             |
 | Oliwa z oliwek     | 28        | 248            | 0.0        | 28.0         | 0.0             |
 | **RAZEM:**         | **1333**  | **2180**       | **167.5**  | **76.8**     | **191.7**       |
-|**NA 100G:**       | ~444      | ~730           | ~56.0      | ~25.6        | ~64.0           |
+---
+
+**Zasady dla pola `tags` (filtracja po rodzaju potrawy lub zastosowaniu)**
+
+Pole `tags` w front matter służy do filtrowania po RODZAJU POTRAWY lub ZASTOSOWANIU, a nie po składnikach. Składniki są już w osobnym polu `ingredients` i służą do filtrowania po nich.
+
+Wybieraj tagi wyłącznie z dostępnej listy w `static/admin/config.yml`. Tagi powinny opisywać:
+- Rodzaj potrawy: np. "kanapki", "batony", "kotlety", "włoskie", "meksykańskie", "marokański"
+- Zastosowanie lub cechy: np. "szybkie", "przekąska", "proteinowe", "low carb", "lunchbox", "goście", "jesień", "wegańskie"
+
+NIE dodawaj tagów odnoszących się do składników, takich jak "kurczak", "szpinak", "pomidory", "ser cheddar", itp. – te zostały usunięte z listy.
+
+Przykłady prawidłowych tagów:
+- Dla śniadania typu kanapka: ["kanapki", "szybkie"]
+- Dla obiadu włoskiego: ["włoskie", "szybkie"]
+- Dla deseru proteinowego: ["proteinowe", "przekąska"]
+- Dla lunchbox: ["lunchbox", "pikantne"]
+
+Jeśli potrzebujesz nowego tagu, który pasuje do powyższych zasad, dodaj go do listy w config.yml i uruchom skrypt aktualizacji.
 
 ---
+
 **Notatka: Aktualizacja tagów**
 
 Jeżeli podczas tworzenia przepisu potrzebujesz dodać nowy tag, który nie istnieje na liście, postępuj zgodnie z poniższą instrukcją:
