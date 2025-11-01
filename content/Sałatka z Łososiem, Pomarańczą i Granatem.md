@@ -17,7 +17,7 @@ calories: 600
 protein: 35
 fat: 25
 carbohydrate: 50
-link: https://www.youtube.com/watch?v=nbZB9V3N6LY
+link: https://youtu.be/nbZB9V3N6LY?t=433
 fodmap:
   status: "no"
   serving_ok: "Nie OK w tej porcji"
