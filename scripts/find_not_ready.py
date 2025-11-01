@@ -1,5 +1,7 @@
 import os
+
 import frontmatter
+
 
 def find_md_without_proper_frontmatter(directory):
     """
@@ -9,7 +11,7 @@ def find_md_without_proper_frontmatter(directory):
     count = 0
     for root, dirs, files in os.walk(directory):
         for file in files:
-            if file.endswith('.md'):
+            if file.endswith(".md"):
                 filepath = os.path.join(root, file)
                 try:
                     post = frontmatter.load(filepath)
@@ -21,6 +23,7 @@ def find_md_without_proper_frontmatter(directory):
                     count += 1
     print(f"\nSummary: Found {count} Markdown files without proper frontmatter.")
 
+
 if __name__ == "__main__":
-    content_dir = 'content'
+    content_dir = "content"
     find_md_without_proper_frontmatter(content_dir)
