@@ -6,7 +6,7 @@ author: "Policzone Szamy"
 recipe_image: images/recipe-headers/chicken_bites_kfc.avif
 date: 2025-10-29T12:00:00-00:00
 categories: ["obiady"]
-tags: ["kurczak", "chicken bites", "california bowl", "kfc", "przekaska"]
+tags: ["szybkie", "przekąska"]
 tagline: "Chrupiące chicken bites w stylu KFC połączone z pysznym California Bowl – idealne na przekąskę lub posiłek."
 ingredients: ["polędwiczki kurczaka", "mąka pszenna", "jajko", "mleko", "muszarda sarepska", "oliwa z oliwek", "ryż parboiled", "awokado", "ananas", "pomidor", "sałata", "sos teriyaki"]
 servings: 3

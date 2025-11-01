@@ -8,7 +8,6 @@ tagline: Małe, miękkie i wilgotne mini szarlotki z twarogiem – idealne do ka
 ingredients: ["twaróg", "jabłka", "jajka", "masło", "mąka pszenna", "orzechy włoskie", "proszek do pieczenia", "erytrytol", "cynamon"]
 recipe_image: images/recipe-headers/mini_fit_szarlotki.avif
 tags:
-  - jabłka
   - przekąska
   - jesień
 categories:

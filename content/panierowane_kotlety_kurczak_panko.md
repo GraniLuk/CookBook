@@ -5,7 +5,7 @@ author: "Autor Przepisu"
 recipe_image: images/recipe-headers/kurczak_panko_kotlety.avif
 date: 2025-10-27T12:10:00-00:00
 categories: ["obiady"]
-tags: ["kurczak", "panko", "kotlety", "chrupiące", "szybkie"]
+tags: ["kotlety", "chrupiące", "szybkie"]
 tagline: "Lekka, ultra chrupiąca panierka panko – prosty obiad w 30 minut."
 servings: 4
 prep_time: 15

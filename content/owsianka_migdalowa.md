@@ -8,8 +8,7 @@ tagline: Kremowa, pachnąca migdałami pieczona owsianka inspirowana migdałowym
 ingredients: ["płatki owsiane", "mąka migdałowa", "odżywka białkowa", "banan", "jajka", "skyr", "napój migdałowy", "masło migdałowe", "płatki migdałowe"]
 recipe_image: images/recipe-headers/owsianka_migdalowa.avif
 tags:
-  - owsianka
-  - migdały
+  - szybkie
 categories:
   - sniadania
 subcategories:

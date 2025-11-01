@@ -7,7 +7,7 @@ image_width: 512
 image_height: 512
 date: 2025-10-29T11:00:00-00:00
 categories: ["obiady"]
-tags: ["pizza", "low-carb", "twaróg", "fit", "bezglutenowe", "piekarnik", "air fryer"]
+tags: ["low carb", "proteinowe"]
 tagline: "Niskowęglowodanowa pizza na spodzie z twarogu – sprężysta jak prawdziwa!"
 ingredients: ["twaróg półtłusty", "jajko", "parmezan", "mąka ryżowa", "sos pomidorowy", "ser mozzarella", "pepperoni", "tuńczyk"]
 servings: 3

@@ -7,9 +7,7 @@ date: 2025-10-02T12:00:00-00:00
 categories: ["sniadania"]
 subcategories: ["słodkie"]
 tags:
-  - owsianka
-  - czekolada
-  - śliwki
+  - szybkie
 tagline: Pyszna czekoladowa owsianka z duszonymi śliwkami.
 ingredients: ["płatki owsiane", "napój roślinny", "czekolada gorzka", "kakao", "jogurt skyr waniliowy", "śliwki", "masło orzechowe"]
 video_file: videos/owsianka_z_sliwkami.mp4

@@ -7,7 +7,7 @@ image_width: 512
 image_height: 512
 date: 2025-10-28T13:15:00-00:00
 categories: ["sniadania"]
-tags: ["serek wiejski", "owoce", "szybkie", "słodkie", "fit"]
+tags: ["szybkie", "przekąska"]
 tagline: "Pożywne śniadanie z serkiem wiejskim, świeżymi owocami i masłem orzechowym – gotowe w 5 minut!"
 ingredients: ["serek wiejski", "płatki owsiane", "masło orzechowe", "jagody", "dżem"]
 servings: 1

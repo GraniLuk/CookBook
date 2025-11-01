@@ -7,7 +7,6 @@ ingredients: ["wołowina mielona", "makaron spaghetti", "cebula", "czosnek", "pa
 recipe_image: images/recipe-headers/spaghetti_bolognese.avif
 tags:
   - włoskie
-  - pomidory
 categories:
   - obiady
 servings: 3

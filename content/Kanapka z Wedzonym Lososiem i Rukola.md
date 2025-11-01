@@ -7,7 +7,7 @@ image_width: 512
 image_height: 512
 date: 2025-10-28T13:10:00-00:00
 categories: ["sniadania"]
-tags: ["kanapka", "łosoś", "szybkie", "na wynos"]
+tags: ["kanapki", "szybkie", "na-wynos"]
 tagline: "Elegancka kanapka z wędzonym łososiem i rukolą – idealna na śniadanie do pracy!"
 ingredients: ["łosoś wędzony", "bułka pełnoziarnista", "serek śmietankowy", "rukola", "pomidorki koktajlowe"]
 servings: 1

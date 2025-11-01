@@ -7,7 +7,7 @@ image_width: 512
 image_height: 512
 date: 2025-10-28T13:00:00-00:00
 categories: ["obiady"]
-tags: ["kurczak", "curry", "wok", "azjatyckie", "pikantne", "stir-fry"]
+tags: ["szybkie", "pikantne"]
 tagline: "Aromatyczny, pikantny kurczak Green Curry smażony w woku z zielonymi warzywami – azjatyckie doznania smakowe!"
 ingredients: ["kurczak", "pasta green curry", "mleko kokosowe", "ryż basmati", "brokuł", "fasolka szparagowa", "groszek cukrowy"]
 servings: 2

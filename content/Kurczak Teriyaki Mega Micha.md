@@ -7,7 +7,7 @@ image_width: 512
 image_height: 512
 date: 2025-10-28T13:20:00-00:00
 categories: ["obiady"]
-tags: ["kurczak", "teriyaki", "azjatyckie", "fasolka szparagowa", "ananas", "wysokokaloryczne"]
+tags: ["szybkie", "na-wynos"]
 tagline: "Ogromna, sycąca porcja kurczaka teriyaki z fasolką, ryżem, awokado i ananasem – prawdziwa Mega Micha Mocy!"
 ingredients: ["kurczak", "ryż jaśminowy", "fasolka szparagowa", "awokado", "ananas", "sos sojowy", "olej sezamowy"]
 servings: 2

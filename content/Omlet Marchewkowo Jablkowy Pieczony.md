@@ -7,7 +7,7 @@ image_width: 512
 image_height: 512
 date: 2025-10-28T12:35:00-00:00
 categories: ["sniadania"]
-tags: ["fit", "omlet", "jabłko", "marchewka", "słodkie", "pieczony"]
+tags: ["szybkie", "proteinowe"]
 tagline: "Pulchny, aromatyczny omlet marchewkowo-jabłkowy pieczony w lunch boxie – zero dodanego cukru!"
 ingredients: ["jajko", "mleko", "odżywka białkowa", "płatki jaglane", "jabłko", "marchewka", "mąka orkiszowa pełnoziarnista"]
 servings: 1

@@ -10,8 +10,6 @@ tags:
   - batony
   - przekąska
   - proteinowe
-  - pistacje
-  - berberys
   - bez-pieczenia
 tagline: Gęste, sycące batony białkowe z chrupiącymi pistacjami i kwaskowym berberysem.
 ingredients: ["płatki owsiane", "płatki jaglane", "mleko", "masło orzechowe", "kakao", "odżywka białkowa", "berberys", "pistacje"]

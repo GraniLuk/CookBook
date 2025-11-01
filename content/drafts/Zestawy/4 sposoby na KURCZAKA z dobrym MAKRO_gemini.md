@@ -5,7 +5,7 @@ author: "Autor Przepisu"
 recipe_image: images/recipe-headers/default.avif
 date: 2025-08-29T17:13:21-00:00
 categories: ["sniadania"]
-tags: ["draft"]
+tags: []
 tagline: "Przepis do sformatowania"
 servings: 4
 prep_time: 15

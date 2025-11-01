@@ -7,7 +7,7 @@ image_width: 512
 image_height: 512
 date: 2025-10-29T10:30:00-00:00
 categories: ["kolacje"]
-tags: ["shoarma", "kurczak", "pita", "arabs kie", "zestaw", "sphinx", "frytki"]
+tags: ["szybkie", "na-wynos"]
 tagline: "Domowa shoarma z soczysta kurczakiem, 3 sosami i puszystymi pitami z kieszonką!"
 ingredients: ["mięso z uda kurczaka", "mąka pszenna", "drożdże świeże", "jogurt naturalny", "passata pomidorowa", "papryka", "frytki", "sałata mieszana", "coleslaw"]
 servings: 2

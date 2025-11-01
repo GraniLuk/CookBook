@@ -7,10 +7,8 @@ tagline: Stosowe weekendowe śniadanie z bajglem, łososiem, awokado i jajkiem
 ingredients: ["bajgiel", "serek", "rukola", "ogórek", "łosoś", "awokado", "jajko", "oliwa"]
 recipe_image: images/defaultImage.avif
 tags:
-  - łosoś
-  - awokado
-  - jajko
   - kanapki
+  - ryby
 categories:
   - sniadania
 subcategories:

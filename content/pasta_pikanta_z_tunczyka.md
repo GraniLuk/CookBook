@@ -6,7 +6,7 @@ recipe_image: images/recipe-headers/pasta_pikantna_z_tunczyka.avif
 date: 2025-10-21T12:00:00-00:00  
 categories: ["śniadania"]
 subcategories: ["słone"]  
-tags: ["tuńczyk", "pasta", "pikantne", "kanapki"]  
+tags: ["pikantne", "kanapki"]  
 tagline: "Pikantna pasta z tuńczyka z mozzarellą - idealna na kanapki lub jako przekąska."  
 ingredients: ["tuńczyk", "mozzarella", "ketchup", "majonez", "jalapeno", "pomidor", "rukola", "czosnek"]
 servings: 2  

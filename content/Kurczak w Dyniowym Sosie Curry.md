@@ -7,7 +7,7 @@ image_width: 512
 image_height: 512
 date: 2025-10-28T12:50:00-00:00
 categories: ["obiady"]
-tags: ["lunchbox", "kurczak", "dynia", "curry", "jesień", "pikantne"]
+tags: ["lunchbox", "jesień", "pikantne"]
 tagline: "Rozgrzewający kurczak w gęstym, aromatycznym sosie dyniowym curry – top jesieni!"
 ingredients: ["kurczak", "dynia piżmowa", "kasza bulgur", "mleko kokosowe", "pomidory krojone", "curry"]
 servings: 3

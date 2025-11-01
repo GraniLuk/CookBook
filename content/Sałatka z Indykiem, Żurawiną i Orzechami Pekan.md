@@ -5,7 +5,7 @@ author: Policzona Szama
 recipe_image: images/defaultImage.avif
 date: 2025-09-02T12:00:00-00:00
 categories: ["salatki"]
-tags: ["kanapki"]
+tags: ["przekąska"]
 tagline: Świąteczna sałatka z indykiem, żurawiną i orzechami – prosta, zdrowa i pełna smaku, idealna na zimno.
 ingredients: ["indyk", "żurawina", "orzechy pekan", "sałata", "ser"]
 servings: 3

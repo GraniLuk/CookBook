@@ -7,7 +7,7 @@ image_width: 512
 image_height: 512
 date: 2025-10-28T12:30:00-00:00
 categories: ["sniadania"]
-tags: ["fit", "twaróg", "słodkie", "szybkie"]
+tags: ["szybkie", "proteinowe"]
 tagline: "Ekspresowe słodkie tosty z twarogu – mięciutkie, wysokobiałkowe i niskokalaryczne."
 ingredients: ["twaróg chudy", "jajko", "mąka orkiszowa pełnoziarnista", "mleko", "wiórki kokosowe"]
 servings: 1

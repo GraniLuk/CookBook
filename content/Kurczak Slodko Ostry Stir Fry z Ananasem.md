@@ -7,7 +7,7 @@ image_width: 512
 image_height: 512
 date: 2025-10-28T13:35:00-00:00
 categories: ["obiady"]
-tags: ["kurczak", "stir-fry", "wok", "ananas", "słodko-ostre", "lunchbox", "azjatyckie"]
+tags: ["szybkie", "lunchbox"]
 tagline: "Kwaśno-słodko-pikantny kurczak z ananasem i warzywami smażony w woku – 3 porcje na 3 dni!"
 ingredients: ["kurczak", "ananas", "marchewka", "papryka czerwona", "ryż jaśminowy", "sos sojowy", "miód", "pasta yellow curry"]
 servings: 3

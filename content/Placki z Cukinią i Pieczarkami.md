@@ -6,7 +6,7 @@ author: "Policzona Szama"
 recipe_image: images/recipe-headers/placki_cukinia_pieczarki.avif
 date: 2025-10-31T12:00:00-00:00
 categories: ["śniadania"]
-tags: ["cukinia", "pieczarki", "cebula", "płatki owsiane", "ser wiejski", "jajko", "tymianek", "oliwa z oliwek"]
+tags: ["szybkie", "przekąska"]
 tagline: "Wytrawne placki z cukini, pieczarek, cebuli i serka wiejskiego, aromatyczne i miękkie."
 ingredients: ["cukinia", "pieczarki", "cebula", "płatki owsiane", "ser wiejski", "jajko", "oliwa z oliwek"]
 servings: 4

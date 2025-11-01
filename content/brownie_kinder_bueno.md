@@ -9,8 +9,6 @@ ingredients: ["mąka pszenna", "jajka", "masło", "gorzka czekolada", "cukier", 
 recipe_image: images/recipe-headers/brownie_kinder_bueno.avif
 tags:
   - brownie
-  - czekolada
-  - kinder bueno
 categories:
   - desery
 servings: 28

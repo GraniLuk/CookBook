@@ -7,7 +7,7 @@ image_width: 512
 image_height: 512
 date: 2025-10-28T13:05:00-00:00
 categories: ["sniadania"]
-tags: ["kanapka", "jajko sadzone", "szybkie", "proste"]
+tags: ["kanapki", "szybkie"]
 tagline: "Klasyczna kanapka z jajkiem sadzonym, serkiem śmietankowym i świeżymi pomidorkami – gotowa w 10 minut!"
 ingredients: ["jajko", "bułka pełnoziarnista", "serek śmietankowy", "pomidorki koktajlowe"]
 servings: 1

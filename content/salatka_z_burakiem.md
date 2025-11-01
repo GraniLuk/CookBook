@@ -5,7 +5,7 @@ author: "anpsk"
 recipe_image: images/recipe-headers/salatka_z_burakiem.avif
 date: 2025-10-27T12:00:00-00:00
 categories: ["salatki"]
-tags: ["sałatka", "buraki", "jajka", "mozzarella", "suszone pomidory", "nerkowce"]
+tags: ["przekąska"]
 tagline: "Kolorowa, sycąca sałatka – buraki, jajka, orzechy nerkowca i kremowa mozzarella."
 ingredients: ["buraki gotowane", "miks sałat", "suszone pomidory", "mozzarella", "orzechy nerkowca", "jajka", "oliwa z oliwek"]
 servings: 2

@@ -6,7 +6,7 @@ author: "Policzona Szama"
 recipe_image: images/recipe-headers/racuchy_z_dyni.avif
 date: 2025-10-31T12:00:00-00:00
 categories: ["śniadania"]
-tags: ["dynia", "płatki owsiane", "ser wiejski", "jajko", "oliwa z oliwek"]
+tags: ["szybkie", "przekąska"]
 tagline: "Proste i słodkie racuchy z dyni, płatków owsianych i serka wiejskiego, bez dodatku cukru."
 ingredients: ["dynia", "płatki owsiane", "ser wiejski", "jajko", "oliwa z oliwek"]
 servings: 4

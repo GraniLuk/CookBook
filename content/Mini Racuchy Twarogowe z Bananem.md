@@ -7,7 +7,7 @@ image_width: 512
 image_height: 512
 date: 2025-10-28T12:40:00-00:00
 categories: ["sniadania"]
-tags: ["fit", "racuchy", "twaróg", "banan", "słodkie", "serniczki"]
+tags: ["szybkie", "proteinowe"]
 tagline: "Pusziste mini racuchy twarogowe z bananem – 11 sztuk pełnych białka i smaku!"
 ingredients: ["twaróg chudy", "jajko", "banan", "mleko", "mąka orkiszowa pełnoziarnista", "rodzynki"]
 servings: 1

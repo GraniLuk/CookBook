@@ -7,7 +7,7 @@ image_width: 512
 image_height: 512
 date: 2025-10-29T10:15:00-00:00
 categories: ["obiady"]
-tags: ["lunchbox", "jednogarnkowe", "makaron", "schab", "pomidory", "włoskie"]
+tags: ["lunchbox", "włoskie"]
 tagline: "Prosty makaron w intensywnie pomidorowym sosie z pieczonym schabem – gotowy w 15 minut!"
 ingredients: ["makaron pełnoziarnisty kokardki", "schab pieczony", "passata pomidorowa", "koncentrat pomidorowy", "cebula", "czosnek", "parmezan", "oregano"]
 servings: 3
