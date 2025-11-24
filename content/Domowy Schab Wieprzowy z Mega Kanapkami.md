@@ -6,7 +6,7 @@ author: "Policzone Szamy"
 recipe_image: images/recipe-headers/domowy_schab_kanapki.avif
 date: 2025-11-20T12:00:00-00:00
 categories: ["obiady"]
-tags: ["szybkie", "proteinowe", "kanapki"]
+tags: ["szybkie", "proteinowe", "kanapki", "instant pot"]
 tagline: "Soczysty domowy schab wieprzowy z mega kanapkami w sosie tatarskim."
 ingredients: ["schab wieprzowy", "chleb tostowy", "ser parmezan", "cebula czerwona", "pomidory suszone", "sos tatarski", "sałata"]
 servings: 3

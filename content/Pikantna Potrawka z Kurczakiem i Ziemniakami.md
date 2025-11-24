@@ -86,6 +86,65 @@ fodmap:
 2. Po ostygnięciu zamknij pokrywkami i przechowuj w lodówce do 3 dni.
 3. Podgrzewaj bezpośrednio na palniku (pojemniki metalowe) lub w mikrofali.
 
+{{< collapsible title="Wersja w Instant Pot Duo 6" icon="⚡" >}}
+
+### Przygotowanie w Instant Pot
+
+Ta wersja przepisu wykorzystuje funkcję gotowania pod ciśnieniem, co skraca czas przygotowania i eliminuje potrzebę mieszania w trakcie gotowania. Wszystkie warzywa będą miękkie i aromatyczne.
+
+**Zmiany w składnikach:**
+- Bulion: 400 ml (zamiast 500 ml - Instant Pot wymaga mniej płynu, bo nie paruje)
+- Olej: można zmniejszyć do 10 ml
+
+**Modyfikacje w przygotowaniu:**
+
+### Przygotowanie składników
+Bez zmian - przygotuj wszystkie składniki zgodnie z oryginalnym przepisem (pokrój kurczaka, ziemniaki, marchewkę, cebulę, pomidory, obierz czosnek, podziel brokuł).
+
+### Gotowanie potrawki w Instant Pot
+
+1. **Funkcja Sauté (Smażenie):**
+   - Naciśnij przycisk **"Sauté"** na Instant Pot, poczekaj, aż wyświetli się "Hot".
+   - Dodaj **10-15 ml oleju**, następnie kurczaka.
+   - Dopraw **solą, pieprzem** i przyprawą uniwersalną.
+   - Dodaj **2 łyżeczki czerwonej pasty curry**, smaż 3-4 minuty, aż kurczak się zarumieni.
+
+2. **Deglasowanie:**
+   - Gdy kurczak się przysmażył, dolej **50 ml bulionu**, zeskrob przysmażone smaki z dna garnka (ważne, aby uniknąć komunikatu "burn").
+
+3. **Dodawanie warzyw:**
+   - Dodaj **cebulę i suszone pomidory**, smaż 1-2 minuty.
+   - Dodaj **czosnek**, smaż 30 sekund.
+   - Wrzuć **ziemniaki i marchewkę**.
+   - Zalej pozostałym **bulionem** (łącznie około 400 ml).
+   - Dodaj **2 liście laurowe**, wymieszaj.
+
+4. **Gotowanie pod ciśnieniem:**
+   - Naciśnij **"Cancel"**, aby wyłączyć funkcję Sauté.
+   - Zamknij pokrywę, upewnij się, że wentyl jest w pozycji **"Sealing"**.
+   - Naciśnij **"Pressure Cook"** (lub **"Manual"**).
+   - Ustaw czas na **8 minut** przy **wysokim ciśnieniu** (High Pressure).
+   - Po zakończeniu cyklu, poczekaj **5 minut** (naturalne uwolnienie), następnie ostrożnie przestaw wentyl do pozycji **"Venting"** (quick release).
+
+5. **Zagęszczanie i dodanie brokuła:**
+   - Otwórz pokrywę. W szklance rozpuść **2 łyżki mąki** w **~100 ml zimnej wody**.
+   - Naciśnij ponownie **"Sauté"**, wlej zasmażkę, wymieszaj.
+   - Dodaj **brokuła**, gotuj na funkcji Sauté przez **3-4 minuty**, aż sos zgęstnieje, a brokuł stanie się miękki.
+   - Naciśnij **"Cancel"**, dopraw do smaku.
+
+### Porcjowanie
+Bez zmian - rozłóż do pojemników, schłódź i przechowuj w lodówce do 3 dni.
+
+**Wskazówki:**
+- Jeśli ziemniaki są większe, możesz wydłużyć czas gotowania do 10 minut.
+- Nie otwieraj pokrywy natychmiast po zakończeniu gotowania - daj ciśnieniu opaść.
+- Brokuł dodaj koniecznie po gotowaniu pod ciśnieniem, aby zachował kolor i strukturę.
+- Funkcja Sauté w Instant Pot działa podobnie jak smażenie na patelni - możesz regulować temperaturę przyciskiem "Adjust".
+
+**Oszczędność czasu:** Około 10-15 minut w porównaniu do tradycyjnej metody, plus brak konieczności mieszania!
+
+{{< /collapsible >}}
+
 ## Podsumowanie wartości odżywczych (szacunkowe, całe danie)
 
 | Składnik                 | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
