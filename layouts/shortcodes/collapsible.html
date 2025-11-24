@@ -1,0 +1,13 @@
+{{- $title := .Get "title" -}}
+{{- $icon := .Get "icon" | default "🔽" -}}
+{{- $open := .Get "open" | default false -}}
+
+<details class="collapsible-section" {{ if $open }} open{{ end }}>
+    <summary class="collapsible-header">
+        <span class="collapsible-icon">{{ $icon }}</span>
+        <span class="collapsible-title">{{ $title }}</span>
+    </summary>
+    <div class="collapsible-content">
+        {{ .Inner | markdownify }}
+    </div>
+</details>

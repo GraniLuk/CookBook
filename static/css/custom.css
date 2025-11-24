@@ -850,6 +850,119 @@ body.fodmap-view-enabled .fodmap-indicator {
         left: 0;
         right: 0;
     }
+}
+
+/* ===== COLLAPSIBLE SECTION STYLES ===== */
+
+.collapsible-section {
+    margin: 1.5rem 0;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    background: #fafafa;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+}
+
+.collapsible-section:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.collapsible-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 1.25rem;
+    cursor: pointer;
+    background: #ffffff;
+    border: none;
+    transition: background-color 0.2s ease;
+    list-style: none;
+    user-select: none;
+}
+
+.collapsible-header::-webkit-details-marker {
+    display: none;
+}
+
+.collapsible-header::marker {
+    display: none;
+}
+
+.collapsible-section:hover .collapsible-header {
+    background: #f9fafb;
+}
+
+.collapsible-icon {
+    font-size: 1.25rem;
+    transition: transform 0.3s ease;
+    flex-shrink: 0;
+}
+
+.collapsible-section[open] .collapsible-icon {
+    transform: rotate(180deg);
+}
+
+.collapsible-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #374151;
+}
+
+.collapsible-content {
+    padding: 1rem 1.25rem 1.5rem;
+    background: #ffffff;
+    animation: slideDown 0.3s ease;
+}
+
+.collapsible-content>*:first-child {
+    margin-top: 0;
+}
+
+.collapsible-content>*:last-child {
+    margin-bottom: 0;
+}
+
+/* Instant Pot specific styling */
+.collapsible-section.instant-pot-section {
+    border-color: #e11d48;
+    background: linear-gradient(135deg, #fff1f2 0%, #fef2f2 100%);
+}
+
+.instant-pot-section .collapsible-header {
+    background: #fff1f2;
+}
+
+.instant-pot-section:hover .collapsible-header {
+    background: #ffe4e6;
+}
+
+.instant-pot-section .collapsible-title {
+    color: #be123c;
+}
+
+/* Mobile adjustments */
+@media screen and (max-width: 768px) {
+    .collapsible-section {
+        margin: 1rem 0;
+        border-radius: 8px;
+    }
+
+    .collapsible-header {
+        padding: 0.875rem 1rem;
+        gap: 0.5rem;
+    }
+
+    .collapsible-icon {
+        font-size: 1.1rem;
+    }
+
+    .collapsible-title {
+        font-size: 1rem;
+    }
+
+    .collapsible-content {
+        padding: 0.875rem 1rem 1.25rem;
+    }
 
     .filter-expanded .field.is-grouped {
         flex-wrap: wrap;

@@ -49,6 +49,44 @@ fodmap:
 6.  **Przygotowanie kanapek:** Pokrój schłodzony schab w plastry (ok. 60 g na kanapkę). Na kromce chleba ułóż parmezan, pomidory suszone, cebulę, schab, sos tatarski, sałatę i przykryj drugą kromką.
 7.  **Grillowanie:** Podgrzej kanapki z obu stron na patelni grillowej lub w opiekaczu.
 
+{{< collapsible title="Wersja w Instant Pot Duo 6" icon="⚡" >}}
+
+### Przygotowanie w Instant Pot
+
+Ta wersja przepisu pozwala znacznie skrócić czas duszenia mięsa dzięki gotowaniu pod ciśnieniem. Instant Pot Duo 6 to model o pojemności 5,7 litra, idealny do przygotowania 1 kg schabu.
+
+**Zmiany w składnikach:**
+- Woda: 100-150 ml (zamiast 50 ml - Instant Pot wymaga więcej płynu do zbudowania ciśnienia)
+
+**Modyfikacje w przygotowaniu:**
+
+1. **Marynowanie i obsmażanie:** Bez zmian - wykonaj kroki 1-3 z oryginalnego przepisu.
+
+2. **Przygotowanie do gotowania pod ciśnieniem:**
+   - Przenieś obsmażony schab do garnka Instant Pot.
+   - Dodaj tłuszcz z patelni (olej + soki z mięsa).
+   - Wlej **100-150 ml wody** (nie mniej, aby uniknąć komunikatu "burn").
+   - Dodaj zebrany czosnek z solą, ćwierć łyżeczki ziół i gałązkę rozmarynu.
+
+3. **Gotowanie pod ciśnieniem:**
+   - Zamknij pokrywę Instant Pot i upewnij się, że wentyl ciśnienia jest w pozycji **"Sealing"**.
+   - Naciśnij przycisk **"Pressure Cook"** (lub **"Manual"** na starszych modelach).
+   - Ustaw czas na **45 minut** przy **wysokim ciśnieniu** (High Pressure).
+   - Po zakończeniu cyklu gotowania, pozwól na **naturalne uwolnienie ciśnienia** (Natural Release) przez **10-15 minut**.
+   - Następnie ostrożnie przestaw wentyl do pozycji **"Venting"**, aby uwolnić resztę ciśnienia (Quick Release).
+
+4. **Chłodzenie i dalsze kroki:** Bez zmian - usuń rozmaryn, schłódź mięso z sosem do powstania galaretki, pokrój i przygotuj kanapki.
+
+**Wskazówki:**
+- Jeśli kawałek mięsa jest większy niż 1 kg, dodaj 5-10 minut do czasu gotowania.
+- Nie otwieraj pokrywy natychmiast po zakończeniu gotowania - poczekaj na spadek ciśnienia.
+- Po otwarciu sprawdź mięso - powinno być miękkie i soczyste. Jeśli nie, możesz dodać kolejne 5-10 minut gotowania.
+- Galaretka powinna powstać podobnie jak w tradycyjnej wersji po schłodzeniu.
+
+**Oszczędność czasu:** Około 30-40 minut w porównaniu do tradycyjnej metody!
+
+{{< /collapsible >}}
+
 ## Podsumowanie wartości odżywczych (całe danie)
 
 | Składnik           | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
