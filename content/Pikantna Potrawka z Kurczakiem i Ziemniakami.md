@@ -7,7 +7,7 @@ image_width: 512
 image_height: 512
 date: 2025-10-29T10:00:00-00:00
 categories: ["obiady"]
-tags: ["lunchbox", "pikantne"]
+tags: ["lunchbox", "pikantne","instant pot"]
 tagline: "Rozgrzewająca potrawka z kurczakiem, ziemniakami i warzywami – idealna na wypady!"
 ingredients: ["mięso z uda kurczaka", "ziemniaki", "marchewka", "brokuł", "cebula", "czosnek", "suszone pomidory", "pasta curry", "bulion"]
 servings: 3
