@@ -19,7 +19,6 @@ calories: 410
 protein: 35
 fat: 14
 carbohydrate: 38
-readyToTest: true
 link: https://www.youtube.com/watch?v=7js_OwaaDCQ
 fodmap:
   status: "no"
