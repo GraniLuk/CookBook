@@ -1,6 +1,6 @@
 ---
 draft: false
-readyToTest: false
+readyToTest: true
 title: "Pikantna Potrawka z Kurczakiem i Ziemniakami (Jednogarnkowa)"
 author: "Policzone Szamy"
 recipe_image: images/recipe-headers/potrawka_kurczak_ziemniaki.avif
