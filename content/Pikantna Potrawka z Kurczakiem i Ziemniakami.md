@@ -5,7 +5,7 @@ author: "Policzone Szamy"
 recipe_image: images/recipe-headers/potrawka_kurczak_ziemniaki.avif
 image_width: 512
 image_height: 512
-date: 2025-10-29T10:00:00-00:00
+date: 2025-10-25T10:00:00-00:00
 categories: ["obiady"]
 tags: ["lunchbox", "pikantne","instant pot"]
 tagline: "Rozgrzewająca potrawka z kurczakiem, ziemniakami i warzywami – idealna na wypady!"
