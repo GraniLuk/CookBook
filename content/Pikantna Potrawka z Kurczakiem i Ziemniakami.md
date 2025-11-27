@@ -41,12 +41,12 @@ fodmap:
 * 600 g ziemniaków (umyte, pokrojone na ćwiartki lub 6 części)
 * 1 większa marchewka (~100 g) – plasterki/półplasterki
 * ~150 g różyczek brokuła
-* 1 większa cebula (~100 g) – drobna kostka (low FODMAP: zamień na zielone części dymki)
+* 1 większa cebula (~100 g) – drobna kostka
 * 3 ząbki czosnku (low FODMAP: zamień na olej czosnkowy)
-* 6 suszonych pomidorków z oleju (~30 g) – drobna kostka (low FODMAP: ogranicz do 2 szt.)
+* 6 suszonych pomidorków z oleju (~30 g) – drobna kostka
 * 15 ml oleju (do smażenia)
 * ~500 ml bulionu (warzywa/kurczak)
-* 2 łyżeczki czerwonej pasty curry (low FODMAP: własna mieszanka przypraw)
+* 2 łyżeczki czerwonej pasty curry
 * 2 liście laurowe
 * Sól, świeżo mielony pieprz
 
