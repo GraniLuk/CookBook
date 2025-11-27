@@ -2,7 +2,7 @@
 draft: false
 title: "Domowy Schab Wieprzowy"
 author: "Policzone Szamy"
-recipe_image: images/recipe-headers/domowy_schab.avif
+recipe_image: images/recipe-headers/domowy_schab.jpg
 date: 2025-11-20T12:00:00-00:00
 categories: ["obiady"]
 tags: ["szybkie", "proteinowe", "mięso"]
