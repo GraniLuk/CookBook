@@ -1,6 +1,5 @@
 ---
 draft: false
-readyToTest: true
 title: "Domowy Schab Wieprzowy"
 author: "Policzone Szamy"
 recipe_image: images/recipe-headers/domowy_schab.avif
