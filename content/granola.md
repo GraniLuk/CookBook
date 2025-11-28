@@ -33,6 +33,7 @@ fodmap:
 date: 2025-08-23T12:00:00-00:00
 carbohydrate: 54
 link: https://www.youtube.com/watch?v=xsvyi8sl8xM
+video_file: videos/granola.mp4
 ---
 
 ## Składniki
