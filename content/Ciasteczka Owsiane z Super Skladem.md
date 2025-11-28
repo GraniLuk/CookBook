@@ -1,6 +1,5 @@
 ---
 draft: false
-readyToTest: true
 title: "Ciasteczka Owsiane z Masłem Orzechowym"
 author: "Policzone Szamy"
 recipe_image: images/recipe-headers/ciasteczka_owsiane_maslo.avif
