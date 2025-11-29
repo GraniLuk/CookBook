@@ -59,6 +59,7 @@ collections:
           - { label: "jesień", value: "jesień" }
           - { label: "kanapki", value: "kanapki" }
           - { label: "klasyczne", value: "klasyczne" }
+          - { label: "koktajle", value: "koktajle" }
           - { label: "kotlety", value: "kotlety" }
           - { label: "low carb", value: "low carb" }
           - { label: "lunchbox", value: "lunchbox" }
@@ -67,6 +68,7 @@ collections:
           - { label: "mięso", value: "mięso" }
           - { label: "na słodko", value: "na słodko" }
           - { label: "na-wynos", value: "na-wynos" }
+          - { label: "odporność", value: "odporność" }
           - { label: "owsianka", value: "owsianka" }
           - { label: "pasta", value: "pasta" }
           - { label: "pikantne", value: "pikantne" }
