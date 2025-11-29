@@ -48,6 +48,7 @@ collections:
           - { label: "bez-pieczenia", value: "bez-pieczenia" }
           - { label: "bezglutenowe", value: "bezglutenowe" }
           - { label: "białkowe", value: "białkowe" }
+          - { label: "brokułowy", value: "brokułowy" }
           - { label: "brownie", value: "brownie" }
           - { label: "chrupiące", value: "chrupiące" }
           - { label: "ciastka", value: "ciastka" }
@@ -64,6 +65,7 @@ collections:
           - { label: "klasyczne", value: "klasyczne" }
           - { label: "koktajle", value: "koktajle" }
           - { label: "kotlety", value: "kotlety" }
+          - { label: "kurczak", value: "kurczak" }
           - { label: "low carb", value: "low carb" }
           - { label: "lunchbox", value: "lunchbox" }
           - { label: "marokański", value: "marokański" }
@@ -79,6 +81,7 @@ collections:
           - { label: "proteinowe", value: "proteinowe" }
           - { label: "przekąska", value: "przekąska" }
           - { label: "ryby", value: "ryby" }
+          - { label: "serowy", value: "serowy" }
           - { label: "Stefan", value: "Stefan" }
           - { label: "szybkie", value: "szybkie" }
           - { label: "słodkie", value: "słodkie" }
