@@ -46,12 +46,15 @@ collections:
           - { label: "batony", value: "batony" }
           - { label: "bez gotowania", value: "bez gotowania" }
           - { label: "bez-pieczenia", value: "bez-pieczenia" }
+          - { label: "bezglutenowe", value: "bezglutenowe" }
+          - { label: "białkowe", value: "białkowe" }
           - { label: "brownie", value: "brownie" }
           - { label: "chrupiące", value: "chrupiące" }
           - { label: "ciastka", value: "ciastka" }
           - { label: "ciastka owsiane", value: "ciastka owsiane" }
           - { label: "czekoladowe", value: "czekoladowe" }
           - { label: "dynia", value: "dynia" }
+          - { label: "fit", value: "fit" }
           - { label: "goście", value: "goście" }
           - { label: "grill", value: "grill" }
           - { label: "impreza", value: "impreza" }
