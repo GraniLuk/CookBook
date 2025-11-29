@@ -22,18 +22,14 @@ fodmap:
   status: "yes"
   notes: "Low FODMAP przy małych porcjach czosnku i brokułu."
 ingredients:
-- "300 g filetów z kurczaka"
-- "100 g makaronu tagliatelle"
-- "1 brokuł"
-- "18 g śmietany 18%"
-- "30 g serka blu"
-- "60 g parmezanu"
-- "15 ml oleju roślinnego"
-- "1 ząbek czosnku"
-- "1/2 łyżeczki musztardy"
-- "1/2 łyżeczki pieprzu czarnego"
-- "1/2 łyżeczki pieprzu zielonego"
-- "Sól wg smaku"
+- "kurczak"
+- "makaron tagliatelle"
+- "brokuł"
+- "śmietana"
+- "serek blu"
+- "parmezan"
+- "olej roślinny"
+- "czosnek"
 ---
 
 ## Instrukcje przygotowania

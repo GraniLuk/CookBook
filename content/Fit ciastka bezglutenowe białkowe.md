@@ -22,13 +22,12 @@ fodmap:
   status: "yes"
   notes: "Low FODMAP przy małych porcjach migdałów i kokosowej mąki."
 ingredients:
-- "100 g migdałów nieobranych ze skórek"
-- "100 g mąki kokosowej"
-- "2 białka jajek"
-- "35 g odżywki białkowej (wanilia lub kawa-wanilowy mix)"
-- "100 ml mleka bez laktozy"
-- "Stewia wg smaku"
-- "Czekolada gorzka w drobną kostkę (ok. 50 g)"
+- "migdały"
+- "mąka kokosowa"
+- "białka jajek"
+- "odżywka białkowa"
+- "mleko bez laktozy"
+- "czekolada gorzka"
 ---
 
 ## Instrukcje przygotowania

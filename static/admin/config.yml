@@ -74,6 +74,7 @@ collections:
           - { label: "na słodko", value: "na słodko" }
           - { label: "na-wynos", value: "na-wynos" }
           - { label: "odporność", value: "odporność" }
+          - { label: "orzechowy", value: "orzechowy" }
           - { label: "owsianka", value: "owsianka" }
           - { label: "pasta", value: "pasta" }
           - { label: "pikantne", value: "pikantne" }
