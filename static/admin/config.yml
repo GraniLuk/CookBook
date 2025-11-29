@@ -42,13 +42,20 @@ collections:
         multiple: true
         required: false
         options:
+          - { label: "", value: "" }
           - { label: "batony", value: "batony" }
+          - { label: "bez gotowania", value: "bez gotowania" }
           - { label: "bez-pieczenia", value: "bez-pieczenia" }
           - { label: "brownie", value: "brownie" }
           - { label: "chrupiące", value: "chrupiące" }
+          - { label: "ciastka", value: "ciastka" }
+          - { label: "ciastka owsiane", value: "ciastka owsiane" }
+          - { label: "czekoladowe", value: "czekoladowe" }
+          - { label: "dynia", value: "dynia" }
           - { label: "goście", value: "goście" }
           - { label: "grill", value: "grill" }
           - { label: "impreza", value: "impreza" }
+          - { label: "instant pot", value: "instant pot" }
           - { label: "jesień", value: "jesień" }
           - { label: "kanapki", value: "kanapki" }
           - { label: "klasyczne", value: "klasyczne" }
@@ -57,17 +64,24 @@ collections:
           - { label: "lunchbox", value: "lunchbox" }
           - { label: "marokański", value: "marokański" }
           - { label: "meksykańskie", value: "meksykańskie" }
+          - { label: "mięso", value: "mięso" }
+          - { label: "na słodko", value: "na słodko" }
           - { label: "na-wynos", value: "na-wynos" }
+          - { label: "owsianka", value: "owsianka" }
+          - { label: "pasta", value: "pasta" }
           - { label: "pikantne", value: "pikantne" }
+          - { label: "placki", value: "placki" }
           - { label: "proteinowe", value: "proteinowe" }
           - { label: "przekąska", value: "przekąska" }
           - { label: "ryby", value: "ryby" }
           - { label: "Stefan", value: "Stefan" }
           - { label: "szybkie", value: "szybkie" }
           - { label: "tropikalne", value: "tropikalne" }
-          - { label: "czekoladowe", value: "czekoladowe" }
           - { label: "wegańskie", value: "wegańskie" }
+          - { label: "wegetariańskie", value: "wegetariańskie" }
           - { label: "włoskie", value: "włoskie" }
+          - { label: "zdrowe", value: "zdrowe" }
+          - { label: "śródziemnomorska", value: "śródziemnomorska" }
         hint: "Wybierz z listy tagów (wpisz lub kliknij, aby zobaczyć wszystkie)."
       - { label: Kategorie, name: categories, widget: list, required: false }
       - { label: Podkategorie, name: subcategories, widget: list, required: false }
