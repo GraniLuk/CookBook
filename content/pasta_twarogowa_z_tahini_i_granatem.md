@@ -1,6 +1,5 @@
 ---
 draft: false  
-readyToTest: true
 title: "Pasta Twarogowa z Tahini i Granatem"  
 author: "Anonimowy"  
 recipe_image: images/recipe-headers/pasta_twarogowa_tahini_granat.avif  
