@@ -6,8 +6,7 @@ backend:
   app_id: Ov23liNlYyyS8AIONc4D
   scope: repo
 
-site_url: https://graniluk.github.io/CookBook/
-local_backend: true
+local_backend: false
 publish_mode: simple
 media_folder: static/images/uploaded
 public_folder: /CookBook/images/uploaded
