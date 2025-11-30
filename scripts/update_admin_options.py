@@ -1,7 +1,6 @@
 """
 Regenerate the tag and ingredient options in static/admin/config.yml from current content.
 """
-
 import pathlib
 import re
 
@@ -61,9 +60,7 @@ def main() -> None:
     for tag in tags:
         # Escape quotes in tag values
         safe_tag = tag.replace('"', '\\"')
-        tag_options_lines.append(
-            f'          - {{ label: "{safe_tag}", value: "{safe_tag}" }}'
-        )
+        tag_options_lines.append(f'          - {{ label: "{safe_tag}", value: "{safe_tag}" }}')
     tag_options_block = "\n".join(tag_options_lines)
 
     # Build the options block for ingredients
@@ -71,9 +68,7 @@ def main() -> None:
     for ingredient in ingredients:
         # Escape quotes in ingredient values
         safe_ingredient = ingredient.replace('"', '\\"')
-        ingredient_options_lines.append(
-            f'          - {{ label: "{safe_ingredient}", value: "{safe_ingredient}" }}'
-        )
+        ingredient_options_lines.append(f'          - {{ label: "{safe_ingredient}", value: "{safe_ingredient}" }}')
     ingredient_options_block = "\n".join(ingredient_options_lines)
 
     config_text = config_path.read_text(encoding="utf-8")
@@ -103,17 +98,13 @@ def main() -> None:
     )
 
     new_config = tag_pattern.sub(r"\1" + tag_options_block + r"\2", config_text)
-    new_config = ingredient_pattern.sub(
-        r"\1" + ingredient_options_block + r"\2", new_config
-    )
+    new_config = ingredient_pattern.sub(r"\1" + ingredient_options_block + r"\2", new_config)
 
     if new_config == config_text:
         print("No changes needed—options blocks not found or already up to date.")
     else:
         config_path.write_text(new_config, encoding="utf-8")
-        print(
-            f"Updated config.yml with {len(tags)} tags and {len(ingredients)} ingredients."
-        )
+        print(f"Updated config.yml with {len(tags)} tags and {len(ingredients)} ingredients.")
 
 
 if __name__ == "__main__":
