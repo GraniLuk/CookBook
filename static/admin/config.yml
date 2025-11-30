@@ -3,10 +3,13 @@ backend:
   repo: GraniLuk/CookBook
   branch: main
   auth_type: pkce
+  base_url: https://cookbook-cms-oauth.onrender.com/
+  auth_endpoint: /auth
   app_id: Ov23liNlYyyS8AIONc4D
   scope: repo
 
-local_backend: false
+site_url: https://graniluk.github.io/CookBook/
+local_backend: true
 publish_mode: simple
 media_folder: static/images/uploaded
 public_folder: /CookBook/images/uploaded
@@ -31,8 +34,6 @@ collections:
       - { label: Tytuł, name: title, widget: string }
       - { label: Autor, name: author, widget: string, required: false }
       - { label: Szkic, name: draft, widget: boolean, required: false, default: false }
-      - { label: Ulubione, name: favourite, widget: boolean, required: false, default: false }
-      - { label: Kolejka, name: queued, widget: boolean, required: false, default: false }
       - { label: Opis skrócony, name: tagline, widget: string, required: false }
       - { label: Obrazek przepisu (static/...), name: recipe_image, widget: string, required: false }
       - label: Tagi
