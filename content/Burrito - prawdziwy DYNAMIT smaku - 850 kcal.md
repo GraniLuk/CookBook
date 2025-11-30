@@ -1,7 +1,8 @@
 ---
 draft: false  
 readyToTest: true
-title: "Burrito - prawdziwy DYNAMIT smaku - 850 kcal"  
+title: "Burrito - prawdziwy DYNAMIT smaku - 850 kcal" 
+queued: true 
 author: "Policzona Szama"  
 recipe_image: images/recipe-headers/burrito.avif  
 date: 2025-11-29T12:00:00-00:00  

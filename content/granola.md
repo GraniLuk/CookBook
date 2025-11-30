@@ -2,6 +2,7 @@
 title: Domowa Granola z Miodem, Kokosem i Bakaliami
 author: Policzone Szamy
 draft: false
+favourite: true
 tagline: Chrupiąca, złocista granola pieczona wolniej w niższej temperaturze –
   idealna do jogurtu i na wynos.
 ingredients: ["płatki owsiane", "płatki migdałowe", "wiórki kokosowe", "orzechy włoskie", "miód", "olej kokosowy", "wanilia", "suszone morele", "żurawina"]
