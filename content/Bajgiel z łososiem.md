@@ -2,6 +2,8 @@
 title: Bajgiel z Łososiem, Awokado i Jajkiem Sadzonym
 author: Michał Wrzosek
 draft: true
+favourite: false
+queued: true
 tagline: Stosowe weekendowe śniadanie z bajglem, łososiem, awokado i jajkiem
   sadzonym – pyszne i sycące.
 ingredients: ["bajgiel", "serek", "rukola", "ogórek", "łosoś", "awokado", "jajko", "oliwa"]

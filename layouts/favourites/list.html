@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="section">
+    <div class="container">
+        <h1 class="title">Ulubione</h1>
+        {{ $pages := where site.RegularPages "Params.favourite" "eq" true }}
+        <p class="subtitle">{{ len $pages }} {{ if eq (len $pages) 1 }}przepis{{ else }}przepisów{{ end }} w ulubionych</p>
+        <div class="columns is-multiline">
+            {{ range $pages.ByPublishDate.Reverse }}
+            <div class="column is-one-fifth-desktop is-one-quarter-tablet is-full-mobile">
+                {{ partial "summary.html" . }}
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}

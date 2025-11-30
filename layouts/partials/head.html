@@ -13,6 +13,14 @@
     <link rel="stylesheet" type="text/css" href="{{ partial "asset-url.html" "/css/custom.css" }}">
     <link rel="stylesheet" type="text/css" href="{{ partial "asset-url.html" "/css/print.css" }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .recipe-status-icons {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            z-index: 10;
+        }
+    </style>
     {{ $title := print .Site.Title " | " .Title }}
     {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
     <title>{{ $title }}</title>
