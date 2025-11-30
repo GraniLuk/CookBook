@@ -1,26 +1,34 @@
 ---
-draft: false  
+title: Gyros Tzatziki - Kanapka z kurczakiem
+draft: false
 readyToTest: true
-title: "Gyros Tzatziki - Kanapka z kurczakiem"  
-author: "Policzona Szama"  
-recipe_image: images/recipe-headers/kanapka_gyros.avif  
-date: 2025-11-29T12:00:00-00:00  
-categories: ["obiady"]  
-tags: ["kanapki"]  
-tagline: "Soczysta kanapka z kurczakiem gyros, sosem tzatziki, cebulą i ogórkiem."  
-ingredients: ["bułka paryska", "pierś z kurczaka", "skyr", "cebula czerwona", "ogórek zielony", "mix sałat"]
-servings: 2  
-prep_time: 15  
-cook: true  
-cook_time: 10  
+recipe_image: images/recipe-headers/kanapka_gyros.avif
+servings: 2
+fodmap:
+  status: no
+  notes: Cebula czerwona jest źródłem FODMAP.
+ingredients:
+  - bułka paryska
+  - pierś z kurczaka
+  - skyr
+  - cebula czerwona
+  - ogórek zielony
+  - mix sałat
+author: Policzona Szama
+tagline: Soczysta kanapka z kurczakiem gyros, sosem tzatziki, cebulą i ogórkiem.
+tags:
+  - kanapki
+cook: true
+cook_time: 10
 calories: 612
 protein: 66
+date: 2025-11-29T12:00:00-00:00
+categories:
+  - Śniadania
+prep_time: 15
 fat: 8
-carbohydrate: 70 
+carbohydrate: 70
 link: https://www.youtube.com/watch?v=6GTyB2M09mU
-fodmap:
-  status: "no"
-  notes: "Cebula czerwona jest źródłem FODMAP."
 ---
 
 ## Składniki
