@@ -31,7 +31,7 @@ cook_time: 0
 calories: 450
 protein: 15
 date: 2025-11-25T12:00:00-00:00
-categories: sałatki
+categories: salatki
 fat: 35
 carbohydrate: 25
 link: https://youtu.be/wIC8JJtZEso?t=227
