@@ -2,7 +2,7 @@
 draft: false  
 title: "Sałatka z Burratą, Pomarańczą i Awokado"  
 author: "Michał Wrzosek"  
-recipe_image: images/recipe-headers/salatka_burrata_pomarancza_awokado.avif  
+recipe_image: images/recipe-headers/salatka_burrata_pomarancza_awokado.jpg  
 date: 2025-11-25T12:00:00-00:00  
 categories: ["sałatki"]  
 tags: ["szybkie", "wegetariańskie"]  
