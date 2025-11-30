@@ -4,6 +4,7 @@ draft: false
 readyToTest: true
 recipe_image: images/recipe-headers/kanapka_gyros.avif
 servings: 2
+prep_time: 15
 fodmap:
   status: no
   notes: Cebula czerwona jest źródłem FODMAP.
@@ -23,9 +24,8 @@ cook_time: 10
 calories: 612
 protein: 66
 date: 2025-11-29T12:00:00-00:00
-categories:
-  - Śniadania
-prep_time: 15
+categories: śniadania
+subcategories: słone
 fat: 8
 carbohydrate: 70
 link: https://www.youtube.com/watch?v=6GTyB2M09mU

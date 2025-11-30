@@ -439,7 +439,7 @@ collections:
         options:
           - { label: "śniadania", value: "śniadania" }
           - { label: "obiady", value: "obiady" }
-          - { label: "sałatki", value: "sałatki" }
+          - { label: "sałatki", value: "salatki" }
           - { label: "desery", value: "desery" }
           - { label: "sosy", value: "sosy" }
       - label: Podkategorie
