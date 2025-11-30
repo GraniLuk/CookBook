@@ -1,0 +1,14 @@
+{
+    "customManagers": [
+        {
+            "customType": "regex",
+            "managerFilePatterns": [
+                "\\.html$"
+            ],
+            "matchStrings": [
+                "<script src=\"https://unpkg\\.com/(?<depName>[^@]+)@(?<currentValue>[^/]+).*?</script>"
+            ],
+            "datasourceTemplate": "npm"
+        }
+    ]
+}
