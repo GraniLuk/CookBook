@@ -30,6 +30,8 @@ collections:
     nested:
       depth: 2
       summary: "{{title}}"
+    editor:
+      visualEditing: true
     fields:
       - { label: Tytuł, name: title, widget: string }
       - { label: Autor, name: author, widget: string, required: false }
