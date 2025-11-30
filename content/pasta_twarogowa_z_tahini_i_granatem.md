@@ -2,7 +2,7 @@
 title: Pasta Twarogowa z Tahini i Granatem
 author: Anonimowy
 draft: false
-favourite: true
+favourite: false
 servings: 2
 fodmap:
   status: yes
