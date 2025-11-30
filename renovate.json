@@ -3,10 +3,10 @@
         {
             "customType": "regex",
             "managerFilePatterns": [
-                "\\.html$"
+                "**/*.html"
             ],
             "matchStrings": [
-                "<script src=\"https://unpkg\\.com/(?<depName>[^@]+)@(?<currentValue>[^/]+).*?</script>"
+                "\\s*<script src=\"https://unpkg\\.com/(?<depName>[^@]+)@(?<currentValue>[^/]+).*?</script>"
             ],
             "datasourceTemplate": "npm"
         }
