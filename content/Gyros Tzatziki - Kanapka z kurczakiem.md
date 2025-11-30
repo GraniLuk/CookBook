@@ -23,8 +23,7 @@ cook_time: 10
 calories: 612
 protein: 66
 date: 2025-11-29T12:00:00-00:00
-categories:
-  - Śniadania
+categories: śniadania
 prep_time: 15
 fat: 8
 carbohydrate: 70
