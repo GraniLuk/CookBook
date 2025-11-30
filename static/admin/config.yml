@@ -110,7 +110,13 @@ collections:
           - { label: "sałatki", value: "sałatki" }
           - { label: "desery", value: "desery" }
           - { label: "sosy", value: "sosy" }
-      - { label: Podkategorie, name: subcategories, widget: list, required: false }
+      - label: Podkategorie
+        name: subcategories
+        widget: select
+        required: false
+        options: 
+          - { label: "słodkie", value: "słodkie" }
+          - { label: "słone", value: "słone" }
       - { label: Diety, name: diets, widget: list, required: false }
       - { label: Porcje, name: servings, widget: number, required: false, min: 1 }
       - { label: Czas przygotowania (min), name: prep_time, widget: number, required: false, min: 0 }
