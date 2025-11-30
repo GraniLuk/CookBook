@@ -99,7 +99,17 @@ collections:
           - { label: "zdrowe", value: "zdrowe" }
           - { label: "śródziemnomorska", value: "śródziemnomorska" }
         hint: "Wybierz z listy tagów (wpisz lub kliknij, aby zobaczyć wszystkie)."
-      - { label: Kategorie, name: categories, widget: list, required: false }
+      - label: Kategorie
+        name: categories
+        widget: select
+        multiple: false
+        required: true
+        options:
+          - { label: "śniadania", value: "śniadania" }
+          - { label: "obiady", value: "obiady" }
+          - { label: "sałatki", value: "sałatki" }
+          - { label: "desery", value: "desery" }
+          - { label: "sosy", value: "sosy" }
       - { label: Podkategorie, name: subcategories, widget: list, required: false }
       - { label: Diety, name: diets, widget: list, required: false }
       - { label: Porcje, name: servings, widget: number, required: false, min: 1 }
