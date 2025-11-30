@@ -17,7 +17,7 @@ calories: 450
 protein: 15
 fat: 35
 carbohydrate: 25 
-link: https://www.youtube.com/watch?v=wIC8JJtZEso
+link: https://youtu.be/wIC8JJtZEso?t=227
 fodmap:
   status: "no"
   serving_ok: "Nie OK - zawiera cebulę dymkę i miód"
