@@ -1,28 +1,36 @@
 ---
-draft: false  
+title: Owsianka Nocna Pinacolada
+author: Michał Wrzosek
+draft: false
 readyToTest: true
-title: "Owsianka Nocna Pinacolada"  
-author: "Michał Wrzosek"  
-recipe_image: images/recipe-headers/owsianka_nocna_pinacolada.avif  
-date: 2025-11-25T12:00:00-00:00  
-categories: ["śniadania"]  
-tags: ["owsianka"]  
-tagline: "Ekspresowy posiłek na słodko, przygotowany wieczorem."  
-ingredients: ["mleko", "płatki owsiane", "nasiona chia", "wiórki kokosowe", "puding białkowy waniliowy", "ananasa"]
-servings: 1  
-prep_time: 5  
-cook: false  
-cook_time: 0  
+tagline: Ekspresowy posiłek na słodko, przygotowany wieczorem.
+recipe_image: images/recipe-headers/owsianka_nocna_pinacolada.avif
+tags:
+  - owsianka
+ingredients:
+  - mleko
+  - płatki owsiane
+  - nasiona chia
+  - wiórki kokosowe
+  - puding białkowy waniliowy
+  - ananas
+categories: śniadania
+subcategories: słone
+servings: 1
+prep_time: 5
+cook: false
+cook_time: 0
 calories: 400
 protein: 20
-fat: 15
-carbohydrate: 50 
 link: https://www.youtube.com/watch?v=wIC8JJtZEso
 fodmap:
-  status: "yes"
-  serving_ok: "OK w tej porcji"
-  notes: "Wszystkie składniki są bezpieczne dla diety low FODMAP w podanych ilościach."
+  status: yes
+  serving_ok: OK w tej porcji
+  notes: Wszystkie składniki są bezpieczne dla diety low FODMAP w podanych ilościach.
   substitutions: []
+date: 2025-11-25T12:00:00-00:00
+fat: 15
+carbohydrate: 50
 ---
 
 ## Składniki
