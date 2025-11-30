@@ -1,28 +1,43 @@
 ---
+title: Mega Kanapki z Schabem Wieprzowym
 draft: false
 readyToTest: true
-title: "Mega Kanapki z Schabem Wieprzowym"
-author: "Policzone Szamy"
 recipe_image: images/recipe-headers/mega_kanapki_schab.avif
-date: 2025-11-20T12:00:00-00:00
-categories: ["obiady", "przekąski"]
-tags: ["szybkie", "kanapki", "proteinowe"]
-tagline: "Mega kanapki z domowym schabem wieprzowym w sosie tatarskim."
-ingredients: ["schab wieprzowy", "chleb tostowy", "ser parmezan", "cebula czerwona", "pomidory suszone", "sos tatarski", "sałata"]
 servings: 3
 prep_time: 10
+fodmap:
+  status: no
+  serving_ok: Nie OK - zawiera cebulę i czosnek
+  notes: Schab wieprzowy, chleb, ser parmezan, pomidory suszone, sałata -
+    bezpieczne. Cebula czerwona, sos tatarski (zawiera cebulkę i pieczarki) -
+    high FODMAP
+  substitutions:
+    - Zamiast cebuli czerwonej użyć szczypiorku
+    - Zamiast sosu tatarskiego użyć majonezu bez dodatków cebuli i pieczarek
+ingredients:
+  - schab wieprzowy
+  - chleb tostowy
+  - ser parmezan
+  - cebula czerwona
+  - pomidory suszone
+  - sos tatarski
+  - sałata
+author: Policzone Szamy
+tagline: Mega kanapki z domowym schabem wieprzowym w sosie tatarskim.
+tags:
+  - szybkie
+  - kanapki
+  - proteinowe
 cook: true
 cook_time: 5
 calories: 497
 protein: 30
+date: 2025-11-20T12:00:00-00:00
+categories: śniadania
+subcategories: słone
 fat: 18
 carbohydrate: 53
 link: https://www.youtube.com/watch?v=d71Nd3lS2Ok
-fodmap:
-  status: "no"
-  serving_ok: "Nie OK - zawiera cebulę i czosnek"
-  notes: "Schab wieprzowy, chleb, ser parmezan, pomidory suszone, sałata - bezpieczne. Cebula czerwona, sos tatarski (zawiera cebulkę i pieczarki) - high FODMAP"
-  substitutions: ["Zamiast cebuli czerwonej użyć szczypiorku", "Zamiast sosu tatarskiego użyć majonezu bez dodatków cebuli i pieczarek"]
 ---
 
 ## Składniki
