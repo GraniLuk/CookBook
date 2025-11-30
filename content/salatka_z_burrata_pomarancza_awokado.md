@@ -1,6 +1,5 @@
 ---
 draft: false  
-readyToTest: true
 title: "Sałatka z Burratą, Pomarańczą i Awokado"  
 author: "Michał Wrzosek"  
 recipe_image: images/recipe-headers/salatka_burrata_pomarancza_awokado.avif  
