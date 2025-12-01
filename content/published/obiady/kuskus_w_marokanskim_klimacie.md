@@ -11,7 +11,6 @@ tags:
 ingredients:
   - kuskus
   - marchewka
-  - biała fasola
   - natka pietruszki
   - papryczka chili
   - orzechy nerkowca
@@ -20,6 +19,7 @@ ingredients:
   - przyprawa
   - pomarańcza
   - kolendra
+  - fasola biała
 categories: obiady
 servings: 3
 prep_time: 15
