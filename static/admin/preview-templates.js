@@ -85,7 +85,7 @@ const RecipePreview = createClass({
                                 borderRadius: '4px',
                                 fontSize: '0.9rem'
                             }
-                        }, widgetFor('tags.' + i))
+                        }, tag)
                     ).toArray()
                 ),
 
@@ -104,7 +104,7 @@ const RecipePreview = createClass({
                                 fontSize: '0.9rem',
                                 border: '1px solid #ffe0b2'
                             }
-                        }, widgetFor('ingredients.' + i))
+                        }, ingredient)
                     ).toArray()
                 ),
 
