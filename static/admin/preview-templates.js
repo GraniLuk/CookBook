@@ -9,12 +9,13 @@ const RecipePreview = createClass({
         const widgetsFor = this.props.widgetsFor;
         const getAsset = this.props.getAsset;
 
-        // Get field values
-        const title = entry.getIn(['data', 'title'], '');
-        const author = entry.getIn(['data', 'author'], '');
-        const tagline = entry.getIn(['data', 'tagline'], '');
+        // Get field values - use widgetFor for visual editing support
+        const title = widgetFor('title');
+        const author = widgetFor('author');
+        const tagline = widgetFor('tagline');
         const recipeImage = entry.getIn(['data', 'recipe_image'], '');
-        const tags = entry.getIn(['data', 'tags'], []);
+        const tags = widgetsFor('tags');
+        const ingredients = widgetsFor('ingredients');
         const servings = entry.getIn(['data', 'servings'], '');
         const prepTime = entry.getIn(['data', 'prep_time'], '');
         const cookTime = entry.getIn(['data', 'cook_time'], '');
@@ -32,7 +33,7 @@ const RecipePreview = createClass({
             h('div', { className: 'recipe-hero', style: { position: 'relative', height: '400px', overflow: 'hidden' } },
                 imageUrl && h('img', {
                     src: imageUrl,
-                    alt: title,
+                    alt: entry.getIn(['data', 'title'], ''),
                     style: {
                         width: '100%',
                         height: '100%',
@@ -71,7 +72,7 @@ const RecipePreview = createClass({
                 ),
 
                 // Tags
-                tags && tags.size > 0 && h('div', { style: { marginBottom: '2rem' } },
+                tags && tags.toArray().length > 0 && h('div', { style: { marginBottom: '2rem' } },
                     h('strong', {}, 'Tagi: '),
                     tags.map((tag, i) =>
                         h('span', {
@@ -85,6 +86,25 @@ const RecipePreview = createClass({
                                 fontSize: '0.9rem'
                             }
                         }, tag)
+                    ).toArray()
+                ),
+
+                // Ingredients
+                ingredients && ingredients.toArray().length > 0 && h('div', { style: { marginBottom: '2rem' } },
+                    h('strong', {}, 'Składniki: '),
+                    ingredients.map((ingredient, i) =>
+                        h('span', {
+                            key: i,
+                            style: {
+                                display: 'inline-block',
+                                background: '#fff4e6',
+                                padding: '0.25rem 0.75rem',
+                                margin: '0.25rem',
+                                borderRadius: '4px',
+                                fontSize: '0.9rem',
+                                border: '1px solid #ffe0b2'
+                            }
+                        }, ingredient)
                     ).toArray()
                 ),
 
