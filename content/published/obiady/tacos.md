@@ -1,31 +1,44 @@
 ---
+title: Tacos z Wołowiną, Salsą z Awokado i Cheddarem
+author: Policzona Szama
 draft: false
-title: "Tacos z Wołowiną, Salsą z Awokado i Cheddarem"
-author: "Policzona Szama"
+tagline: "Gigantyczne tacos: soczysta wołowina, chrupiąca tortilla, świeża salsa
+  i dużo cheddara."
 recipe_image: images/recipe-headers/tacos.avif
-date: 2025-08-24T12:00:00-00:00
+tags:
+  - meksykańskie
+ingredients:
+  - wołowina
+  - tortilla pszenna
+  - ser cheddar
+  - sałata lodowa
+  - awokado
+  - papryczki padron
+  - pomidory
+  - kolendra
+  - cytryna
+  - czosnek
+  - koncentrat pomidorowy
+  - cebula czerwona
 categories: obiady
-tags: ["meksykańskie"]
-tagline: "Gigantyczne tacos: soczysta wołowina, chrupiąca tortilla, świeża salsa i dużo cheddara."
-ingredients: ["wołowina", "tortilla pszenna", "ser cheddar", "sałata lodowa", "awokado", "czerwona cebula", "papryczki padron", "pomidory", "kolendra", "cytryna", "czosnek", "koncentrat pomidorowy"]
 servings: 2
 prep_time: 25
 cook: true
 cook_time: 15
 calories: 575
 protein: 35
+link: https://www.youtube.com/watch?v=UKEwoHAWCTs
+fodmap:
+  status: depends
+  serving_ok: Mała porcja - uważaj na cebulę i pszenną tortillę
+  notes: Cebula (2 łyżki max), pszenica w tortilli problematyczna
+  substitutions:
+    - tortilla pszenna -> tortilla kukurydziana
+    - cebula -> dymka (tylko zielone części)
+    - duże porcje cebuli -> posypka szczypiorkiem
+date: 2025-08-24T12:00:00-00:00
 fat: 25
 carbohydrate: 30
-
-fodmap:
-  status: "depends"
-  serving_ok: "Mała porcja - uważaj na cebulę i pszenną tortillę"
-  notes: "Cebula (2 łyżki max), pszenica w tortilli problematyczna"
-  substitutions:
-    - "tortilla pszenna -> tortilla kukurydziana"
-    - "cebula -> dymka (tylko zielone części)"
-    - "duże porcje cebuli -> posypka szczypiorkiem"
-link: https://www.youtube.com/watch?v=UKEwoHAWCTs
 ---
 
 ## Składniki
