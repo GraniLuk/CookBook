@@ -1,6 +1,13 @@
 // Preview templates for Decap CMS with visual editing support
 // This file registers custom preview templates for your collections
 
+// Helper function to clean invisible Unicode characters from strings (stega encoding)
+const cleanString = (str) => {
+    if (!str) return str;
+    // Remove all invisible Unicode characters that stega encoding adds
+    return str.replace(/[\u200B-\u200D\uFEFF]/g, '');
+};
+
 // Recipe Preview Component
 const RecipePreview = createClass({
     render: function () {
@@ -26,9 +33,10 @@ const RecipePreview = createClass({
         const carbohydrate = entry.getIn(['data', 'carbohydrate'], '');
         const body = widgetFor('body');
 
-        // Get image URL - use raw data for image path to avoid encoding issues
+        // Get image URL - clean the path to remove any stega encoding
         const recipeImageRaw = entry.getIn(['data', 'recipe_image'], '');
-        const imageUrl = recipeImageRaw ? getAsset(recipeImageRaw).toString() : '';
+        const cleanImagePath = cleanString(recipeImageRaw);
+        const imageUrl = cleanImagePath ? getAsset(cleanImagePath).toString() : '';
 
         return h('div', { className: 'recipe-preview' },
             // Hero Section
