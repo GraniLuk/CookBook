@@ -56,15 +56,20 @@
                     <div id="shareButton" class="is-rounded media-badge media-badge--right">
                         {{- $collection := "sniadania" -}}
                         {{- $filePath := replace .File.Path "\\" "/" -}}
-                        {{- if or (strings.Contains $filePath "published/obiady/") (strings.Contains $filePath "/obiady/") -}}
+                        {{- if or (strings.Contains $filePath "published/obiady/") (strings.Contains $filePath
+                        "/obiady/") -}}
                         {{- $collection = "obiady" -}}
-                        {{- else if or (strings.Contains $filePath "published/sniadania/") (strings.Contains $filePath "/sniadania/") -}}
+                        {{- else if or (strings.Contains $filePath "published/sniadania/") (strings.Contains $filePath
+                        "/sniadania/") -}}
                         {{- $collection = "sniadania" -}}
-                        {{- else if or (strings.Contains $filePath "published/kolacje/") (strings.Contains $filePath "/kolacje/") -}}
+                        {{- else if or (strings.Contains $filePath "published/kolacje/") (strings.Contains $filePath
+                        "/kolacje/") -}}
                         {{- $collection = "kolacje" -}}
-                        {{- else if or (strings.Contains $filePath "published/desery/") (strings.Contains $filePath "/desery/") -}}
+                        {{- else if or (strings.Contains $filePath "published/desery/") (strings.Contains $filePath
+                        "/desery/") -}}
                         {{- $collection = "desery" -}}
-                        {{- else if or (strings.Contains $filePath "published/przekaski/") (strings.Contains $filePath "/przekaski/") -}}
+                        {{- else if or (strings.Contains $filePath "published/przekaski/") (strings.Contains $filePath
+                        "/przekaski/") -}}
                         {{- $collection = "przekaski" -}}
                         {{- end -}}
                         <a href="/CookBook/admin/#/collections/{{ $collection }}/entries/{{ .File.ContentBaseName }}"
