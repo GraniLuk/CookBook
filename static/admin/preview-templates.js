@@ -71,8 +71,24 @@ const RecipePreview = createClass({
                     tagline
                 ),
 
-                // Tags
-                tagsData && tagsData.size > 0 && h('div', { style: { marginBottom: '2rem' } },
+                // Tags - clickable area to focus tags field
+                tagsData && tagsData.size > 0 && h('div', {
+                    style: {
+                        marginBottom: '2rem',
+                        cursor: 'pointer',
+                        padding: '0.5rem',
+                        margin: '-0.5rem',
+                        borderRadius: '4px',
+                        transition: 'background-color 0.2s'
+                    },
+                    onClick: () => {
+                        // Focus the tags field when clicking anywhere in this section
+                        const tagsField = document.querySelector('[data-testid="tags-field"], [id*="tags"]');
+                        if (tagsField) tagsField.focus();
+                    },
+                    onMouseEnter: (e) => { e.currentTarget.style.backgroundColor = '#f5f5f5'; },
+                    onMouseLeave: (e) => { e.currentTarget.style.backgroundColor = 'transparent'; }
+                },
                     h('strong', {}, 'Tagi: '),
                     tagsData.map((tag, i) =>
                         h('span', {
@@ -89,8 +105,24 @@ const RecipePreview = createClass({
                     ).toArray()
                 ),
 
-                // Ingredients
-                ingredientsData && ingredientsData.size > 0 && h('div', { style: { marginBottom: '2rem' } },
+                // Ingredients - clickable area to focus ingredients field
+                ingredientsData && ingredientsData.size > 0 && h('div', {
+                    style: {
+                        marginBottom: '2rem',
+                        cursor: 'pointer',
+                        padding: '0.5rem',
+                        margin: '-0.5rem',
+                        borderRadius: '4px',
+                        transition: 'background-color 0.2s'
+                    },
+                    onClick: () => {
+                        // Focus the ingredients field when clicking anywhere in this section
+                        const ingredientsField = document.querySelector('[data-testid="ingredients-field"], [id*="ingredients"]');
+                        if (ingredientsField) ingredientsField.focus();
+                    },
+                    onMouseEnter: (e) => { e.currentTarget.style.backgroundColor = '#fff9f0'; },
+                    onMouseLeave: (e) => { e.currentTarget.style.backgroundColor = 'transparent'; }
+                },
                     h('strong', {}, 'Składniki: '),
                     ingredientsData.map((ingredient, i) =>
                         h('span', {
