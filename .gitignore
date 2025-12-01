@@ -3,6 +3,9 @@ resources/
 .hugo_build.lock
 .env
 
+# Node.js
+node_modules/
+
 .gemini/
 gha-creds-*.json
 .obsidian/

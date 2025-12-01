@@ -43,8 +43,26 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
-      - name: Run tests
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      - name: Install Node.js dependencies
+        run: npm ci
+      - name: Build Hugo site for testing
+        run: hugo
+      - name: Run edit button tests
         run: bash tests/test-edit-button.sh
+      - name: Run Fuse.js search tests
+        run: npm run test:search:v3
+      - name: Upload test report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: fusejs-test-report
+          path: tests/fusejs-test-report-*.json
+          retention-days: 30
 
   # Build job
   build:

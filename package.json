@@ -1,0 +1,16 @@
+{
+    "name": "cookbook-search-tests",
+    "version": "1.0.0",
+    "description": "Fuse.js search testing for Hugo CookBook",
+    "private": true,
+    "scripts": {
+        "test:search:v3": "node tests/fusejs-baseline-test.js",
+        "test:search:v7": "node tests/fusejs-v7-test.js"
+    },
+    "devDependencies": {
+        "fuse.js": "3.2.0"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    }
+}

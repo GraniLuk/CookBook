@@ -144,6 +144,112 @@ Check Hugo version consistency:
 hugo version  # Should match version in .github/workflows/hugo.yml
 ```
 
+---
+
+## Fuse.js Search Testing
+
+Automated test suite for validating search functionality during the Fuse.js v3.2.0 → v7.1.0 migration.
+
+### Prerequisites
+
+1. **Build the Hugo site** to generate `index.json`:
+   ```powershell
+   hugo
+   ```
+
+2. **Install Node.js dependencies**:
+   ```powershell
+   npm install
+   ```
+
+### Running Tests
+
+#### Baseline Tests (Fuse.js v3.2.0)
+Test current search behavior before migration:
+```powershell
+npm run test:search:v3
+```
+
+This validates:
+- ✅ Basic search functionality
+- ❌ Polish diacritics limitations (losos won't find łosoś)
+- ❌ Typo tolerance (gronola won't find granola)
+- ⚠️  Multi-word search behavior with tokenization
+
+#### Post-Migration Tests (Fuse.js v7.1.0)
+After completing the migration, test improved functionality:
+```powershell
+npm run test:search:v7
+```
+
+**Note:** You must update `package.json` to use `"fuse.js": "7.1.0"` and run `npm install` first.
+
+This validates:
+- ✅ Polish diacritics support (losos WILL find łosoś)
+- ✅ Fuzzy matching for typos (gronola WILL find granola)
+- ✅ Full content search (tahini found anywhere in recipe)
+- ✅ No regressions in existing functionality
+
+### Test Scenarios
+
+| Test ID | Category | Query | v3.2.0 Expected | v7.1.0 Expected |
+|---------|----------|-------|-----------------|-----------------|
+| T1 | Basic | "pasta" | ✅ Finds pasta | ✅ Finds pasta |
+| T2 | Multi-word | "pasta twarogowa" | ⚠️ Broad (tokenized) | ✅ Phrase match |
+| T3 | Diacritics | "losos" | ❌ No results | ✅ Finds łosoś |
+| T4 | Diacritics | "cwikla" | ❌ No results | ✅ Finds ćwikła |
+| T5 | Typo | "gronola" | ❌ No fuzzy match | ✅ Finds granola |
+| T6 | Typo | "kurczk" | ❌ No fuzzy match | ✅ Finds kurczak |
+| T7 | Tags | "sniadanie" | ✅ Tag search | ✅ Tag search |
+| T8 | Categories | "desery" | ✅ Category search | ✅ Category search |
+| T9 | Long content | "tahini" | ⚠️ May miss if late | ✅ Finds anywhere |
+| T10 | No results | "xyz123" | ✅ No results | ✅ No results |
+
+### Test Output
+
+Each test run generates:
+- **Console output**: Pass/fail status for each scenario
+- **JSON report**: Detailed results saved to:
+  - `tests/fusejs-test-report-v3.json` (baseline)
+  - `tests/fusejs-test-report-v7.json` (post-migration)
+
+### Understanding Results
+
+#### Expected v3.2.0 Behavior
+- 4-6 tests will **fail** (T3, T4, T5, T6 - this is expected)
+- T2 may show too many results (tokenization splits "pasta twarogowa" into separate words)
+
+#### Expected v7.1.0 Behavior
+- All 10 tests should **pass**
+- Improved search quality with Polish diacritics support
+- Better fuzzy matching for typos
+
+### Troubleshooting Search Tests
+
+**Error: "index.json not found"**
+```powershell
+# Build Hugo site first
+hugo
+```
+
+**Error: "Cannot find module 'fuse.js'"**
+```powershell
+# Install dependencies
+npm install
+```
+
+**Wrong Fuse.js version**
+```powershell
+# Check installed version
+npm list fuse.js
+
+# Install specific version
+npm install fuse.js@3.2.0  # for baseline
+npm install fuse.js@7.1.0  # for v7 tests
+```
+
+---
+
 ## Future Enhancements
 
 - [ ] Add tests for other collections (desery, sosy)
