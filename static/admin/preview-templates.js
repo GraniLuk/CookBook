@@ -22,6 +22,12 @@ const RecipePreview = createClass({
         const tagline = widgetFor('tagline');
         const category = entry.getIn(['data', 'categories'], '');
         const subcategory = entry.getIn(['data', 'subcategories'], '');
+        
+        // Get status fields
+        const draft = entry.getIn(['data', 'draft'], false);
+        const favourite = entry.getIn(['data', 'favourite'], false);
+        const queued = entry.getIn(['data', 'queued'], false);
+        const readyToTest = entry.getIn(['data', 'readyToTest'], false);
         const tagsData = entry.getIn(['data', 'tags'], []);
         const ingredientsData = entry.getIn(['data', 'ingredients'], []);
         const servings = entry.getIn(['data', 'servings'], '');
@@ -34,6 +40,113 @@ const RecipePreview = createClass({
         const body = widgetFor('body');
 
         return h('div', { className: 'recipe-preview', style: { padding: '1rem' } },
+            // Status badges at the very top
+            (draft || favourite || queued || readyToTest) && h('div', {
+                style: {
+                    display: 'flex',
+                    gap: '0.5rem',
+                    marginBottom: '1rem',
+                    flexWrap: 'wrap'
+                }
+            },
+                draft && h('span', {
+                    style: {
+                        display: 'inline-flex',
+                        alignItems: 'center',
+                        gap: '0.5rem',
+                        background: '#ffc107',
+                        color: '#000',
+                        padding: '0.5rem 1rem',
+                        borderRadius: '20px',
+                        fontSize: '0.9rem',
+                        fontWeight: 'bold',
+                        cursor: 'pointer',
+                        transition: 'transform 0.2s'
+                    },
+                    onClick: () => {
+                        const draftField = document.querySelector('[data-testid="draft-field"], [id*="draft"]');
+                        if (draftField) draftField.focus();
+                    },
+                    onMouseEnter: (e) => { e.currentTarget.style.transform = 'scale(1.05)'; },
+                    onMouseLeave: (e) => { e.currentTarget.style.transform = 'scale(1)'; }
+                },
+                    h('i', { className: 'fas fa-file-pen' }),
+                    'Szkic'
+                ),
+                favourite && h('span', {
+                    style: {
+                        display: 'inline-flex',
+                        alignItems: 'center',
+                        gap: '0.5rem',
+                        background: '#e91e63',
+                        color: '#fff',
+                        padding: '0.5rem 1rem',
+                        borderRadius: '20px',
+                        fontSize: '0.9rem',
+                        fontWeight: 'bold',
+                        cursor: 'pointer',
+                        transition: 'transform 0.2s'
+                    },
+                    onClick: () => {
+                        const favouriteField = document.querySelector('[data-testid="favourite-field"], [id*="favourite"]');
+                        if (favouriteField) favouriteField.focus();
+                    },
+                    onMouseEnter: (e) => { e.currentTarget.style.transform = 'scale(1.05)'; },
+                    onMouseLeave: (e) => { e.currentTarget.style.transform = 'scale(1)'; }
+                },
+                    h('i', { className: 'fas fa-heart' }),
+                    'Ulubiony'
+                ),
+                queued && h('span', {
+                    style: {
+                        display: 'inline-flex',
+                        alignItems: 'center',
+                        gap: '0.5rem',
+                        background: '#2196f3',
+                        color: '#fff',
+                        padding: '0.5rem 1rem',
+                        borderRadius: '20px',
+                        fontSize: '0.9rem',
+                        fontWeight: 'bold',
+                        cursor: 'pointer',
+                        transition: 'transform 0.2s'
+                    },
+                    onClick: () => {
+                        const queuedField = document.querySelector('[data-testid="queued-field"], [id*="queued"]');
+                        if (queuedField) queuedField.focus();
+                    },
+                    onMouseEnter: (e) => { e.currentTarget.style.transform = 'scale(1.05)'; },
+                    onMouseLeave: (e) => { e.currentTarget.style.transform = 'scale(1)'; }
+                },
+                    h('i', { className: 'fas fa-clock' }),
+                    'W Kolejce'
+                ),
+                readyToTest && h('span', {
+                    style: {
+                        display: 'inline-flex',
+                        alignItems: 'center',
+                        gap: '0.5rem',
+                        background: '#4caf50',
+                        color: '#fff',
+                        padding: '0.5rem 1rem',
+                        borderRadius: '20px',
+                        fontSize: '0.9rem',
+                        fontWeight: 'bold',
+                        cursor: 'pointer',
+                        transition: 'transform 0.2s'
+                    },
+                    onClick: () => {
+                        const readyToTestField = document.querySelector('[data-testid="readyToTest-field"], [id*="readyToTest"]');
+                        if (readyToTestField) readyToTestField.focus();
+                    },
+                    onMouseEnter: (e) => { e.currentTarget.style.transform = 'scale(1.05)'; },
+                    onMouseLeave: (e) => { e.currentTarget.style.transform = 'scale(1)'; }
+                },
+                    h('i', { className: 'fas fa-flask' }),
+                    'Gotowy do Testowania'
+                )
+            ),
+            
             // Title at the top - compact header
             h('h1', {
                 style: { 
