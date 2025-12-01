@@ -33,40 +33,21 @@ const RecipePreview = createClass({
         const carbohydrate = entry.getIn(['data', 'carbohydrate'], '');
         const body = widgetFor('body');
 
-        // Get image URL - clean the path to remove any stega encoding
-        const recipeImageRaw = entry.getIn(['data', 'recipe_image'], '');
-        const cleanImagePath = cleanString(recipeImageRaw);
-        const imageUrl = cleanImagePath ? getAsset(cleanImagePath).toString() : '';
-
         return h('div', { className: 'recipe-preview' },
-            // Hero Section
-            h('div', { className: 'recipe-hero', style: { position: 'relative', height: '400px', overflow: 'hidden' } },
-                imageUrl && h('img', {
-                    src: imageUrl,
-                    alt: entry.getIn(['data', 'title'], ''),
-                    style: {
-                        width: '100%',
-                        height: '100%',
-                        objectFit: 'cover',
-                        aspectRatio: '1/1'
-                    }
-                }),
-                h('div', {
-                    className: 'recipe-hero__gradient',
-                    style: {
-                        position: 'absolute',
-                        bottom: 0,
-                        left: 0,
-                        right: 0,
-                        background: 'linear-gradient(to top, rgba(0,0,0,0.8), transparent)',
-                        padding: '2rem'
-                    }
-                },
-                    h('h1', {
-                        className: 'recipe-hero__title',
-                        style: { color: 'white', margin: 0, fontSize: '2.5rem' }
-                    }, title)
-                )
+            // Hero Section - Simple header without image
+            h('div', {
+                className: 'recipe-hero',
+                style: {
+                    background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                    padding: '3rem 2rem',
+                    borderRadius: '8px',
+                    marginBottom: '2rem'
+                }
+            },
+                h('h1', {
+                    className: 'recipe-hero__title',
+                    style: { color: 'white', margin: 0, fontSize: '2.5rem', textAlign: 'center' }
+                }, title)
             ),
 
             // Meta Section
