@@ -936,6 +936,1377 @@ collections:
         widget: markdown
         hint: "Treść przepisu"
 
+  - name: salatki
+    label: "Sałatki"
+    label_singular: "Sałatka"
+    folder: "content/published/salatki"
+    create: true
+    slug: "{{slug}}"
+    extension: md
+    format: frontmatter
+    filter: {field: "draft", value: false}
+    editor:
+      preview: true
+      visualEditing: true
+    fields:
+      - { label: Tytuł, name: title, widget: string }
+      - { label: Autor, name: author, widget: string, required: false }
+      - { label: Szkic, name: draft, widget: boolean, required: false, default: false }
+      - { label: Ulubiony, name: favourite, widget: boolean, required: false, default: false }
+      - { label: W Kolejce, name: queued, widget: boolean, required: false, default: false }
+      - { label: Gotowy do Testowania, name: readyToTest, widget: boolean, required: false, default: false }
+      - { label: Opis skrócony, name: tagline, widget: string, required: false }
+      - { label: Obrazek przepisu (static/...), name: recipe_image, widget: string, required: false }
+      - label: Tagi
+        name: tags
+        widget: select
+        multiple: true
+        required: false
+        options:
+          - { label: "", value: "" }
+          - { label: "batony", value: "batony" }
+          - { label: "bez gotowania", value: "bez gotowania" }
+          - { label: "bez-pieczenia", value: "bez-pieczenia" }
+          - { label: "blender", value: "blender" }
+          - { label: "brownie", value: "brownie" }
+          - { label: "chrupiące", value: "chrupiące" }
+          - { label: "ciastka", value: "ciastka" }
+          - { label: "ciastka owsiane", value: "ciastka owsiane" }
+          - { label: "czekoladowe", value: "czekoladowe" }
+          - { label: "dynia", value: "dynia" }
+          - { label: "goście", value: "goście" }
+          - { label: "grill", value: "grill" }
+          - { label: "impreza", value: "impreza" }
+          - { label: "instant pot", value: "instant pot" }
+          - { label: "jesień", value: "jesień" }
+          - { label: "kanapki", value: "kanapki" }
+          - { label: "klasyczne", value: "klasyczne" }
+          - { label: "koktajle", value: "koktajle" }
+          - { label: "kotlety", value: "kotlety" }
+          - { label: "kurczak", value: "kurczak" }
+          - { label: "lody", value: "lody" }
+          - { label: "low carb", value: "low carb" }
+          - { label: "lunchbox", value: "lunchbox" }
+          - { label: "makaron", value: "makaron" }
+          - { label: "marokański", value: "marokański" }
+          - { label: "meksykańskie", value: "meksykańskie" }
+          - { label: "mięso", value: "mięso" }
+          - { label: "na słodko", value: "na słodko" }
+          - { label: "na-wynos", value: "na-wynos" }
+          - { label: "odporność", value: "odporność" }
+          - { label: "orzechowy", value: "orzechowy" }
+          - { label: "owsianka", value: "owsianka" }
+          - { label: "pasta", value: "pasta" }
+          - { label: "pikantne", value: "pikantne" }
+          - { label: "placki", value: "placki" }
+          - { label: "proteinowe", value: "proteinowe" }
+          - { label: "przekąska", value: "przekąska" }
+          - { label: "ryby", value: "ryby" }
+          - { label: "Stefan", value: "Stefan" }
+          - { label: "szybkie", value: "szybkie" }
+          - { label: "słodkie", value: "słodkie" }
+          - { label: "tropikalne", value: "tropikalne" }
+          - { label: "wegańskie", value: "wegańskie" }
+          - { label: "wegetariańskie", value: "wegetariańskie" }
+          - { label: "włoskie", value: "włoskie" }
+          - { label: "zdrowe", value: "zdrowe" }
+          - { label: "śródziemnomorska", value: "śródziemnomorska" }
+        hint: "Wybierz z listy tagów (wpisz lub kliknij, aby zobaczyć wszystkie)."
+      - label: Składniki
+        name: ingredients
+        widget: select
+        multiple: true
+        required: false
+        options:
+          - { label: "ananas", value: "ananas" }
+          - { label: "ananasa", value: "ananasa" }
+          - { label: "awokado", value: "awokado" }
+          - { label: "bagietka", value: "bagietka" }
+          - { label: "bajgiel", value: "bajgiel" }
+          - { label: "bakalie", value: "bakalie" }
+          - { label: "banan", value: "banan" }
+          - { label: "bataty", value: "bataty" }
+          - { label: "berberys", value: "berberys" }
+          - { label: "biała fasola", value: "biała fasola" }
+          - { label: "białka jajek", value: "białka jajek" }
+          - { label: "białko jajeczne", value: "białko jajeczne" }
+          - { label: "boczek", value: "boczek" }
+          - { label: "brokuł", value: "brokuł" }
+          - { label: "brzoskwinie", value: "brzoskwinie" }
+          - { label: "budyń waniliowy", value: "budyń waniliowy" }
+          - { label: "bulion", value: "bulion" }
+          - { label: "burak", value: "burak" }
+          - { label: "buraki gotowane", value: "buraki gotowane" }
+          - { label: "burrata", value: "burrata" }
+          - { label: "bułka", value: "bułka" }
+          - { label: "bułka paryska", value: "bułka paryska" }
+          - { label: "bułka pełnoziarnista", value: "bułka pełnoziarnista" }
+          - { label: "bułka tarta", value: "bułka tarta" }
+          - { label: "cebula", value: "cebula" }
+          - { label: "cebula czerwona", value: "cebula czerwona" }
+          - { label: "cebula dymka", value: "cebula dymka" }
+          - { label: "chia", value: "chia" }
+          - { label: "chili", value: "chili" }
+          - { label: "chleb", value: "chleb" }
+          - { label: "chleb pełnoziarnisty", value: "chleb pełnoziarnisty" }
+          - { label: "chleb tostowy", value: "chleb tostowy" }
+          - { label: "chleb żytni", value: "chleb żytni" }
+          - { label: "ciecierzyca", value: "ciecierzyca" }
+          - { label: "coleslaw", value: "coleslaw" }
+          - { label: "cukier", value: "cukier" }
+          - { label: "cukier kokosowy", value: "cukier kokosowy" }
+          - { label: "cukier puder", value: "cukier puder" }
+          - { label: "cukinia", value: "cukinia" }
+          - { label: "curry", value: "curry" }
+          - { label: "cynamon", value: "cynamon" }
+          - { label: "cytryna", value: "cytryna" }
+          - { label: "czekolada", value: "czekolada" }
+          - { label: "czekolada gorzka", value: "czekolada gorzka" }
+          - { label: "czekolada organiczna", value: "czekolada organiczna" }
+          - { label: "czerwona cebula", value: "czerwona cebula" }
+          - { label: "czerwona fasola", value: "czerwona fasola" }
+          - { label: "czosnek", value: "czosnek" }
+          - { label: "czosnek suszony", value: "czosnek suszony" }
+          - { label: "daktyle", value: "daktyle" }
+          - { label: "drożdże", value: "drożdże" }
+          - { label: "drożdże świeże", value: "drożdże świeże" }
+          - { label: "dynia", value: "dynia" }
+          - { label: "dynia piżmowa", value: "dynia piżmowa" }
+          - { label: "dżem", value: "dżem" }
+          - { label: "ekstrakt waniliowy", value: "ekstrakt waniliowy" }
+          - { label: "erytrol", value: "erytrol" }
+          - { label: "erytrytol", value: "erytrytol" }
+          - { label: "fasola", value: "fasola" }
+          - { label: "fasola biała", value: "fasola biała" }
+          - { label: "fasolka szparagowa", value: "fasolka szparagowa" }
+          - { label: "frytki", value: "frytki" }
+          - { label: "gnocchi", value: "gnocchi" }
+          - { label: "gorzka czekolada", value: "gorzka czekolada" }
+          - { label: "granat", value: "granat" }
+          - { label: "groszek cukrowy", value: "groszek cukrowy" }
+          - { label: "gruszka", value: "gruszka" }
+          - { label: "grzyby", value: "grzyby" }
+          - { label: "grzyby suszone", value: "grzyby suszone" }
+          - { label: "herbatniki", value: "herbatniki" }
+          - { label: "imbir", value: "imbir" }
+          - { label: "indyk", value: "indyk" }
+          - { label: "jabłka", value: "jabłka" }
+          - { label: "jabłko", value: "jabłko" }
+          - { label: "jagody", value: "jagody" }
+          - { label: "jajka", value: "jajka" }
+          - { label: "jajko", value: "jajko" }
+          - { label: "jalapeno", value: "jalapeno" }
+          - { label: "jarmuż", value: "jarmuż" }
+          - { label: "jogurt", value: "jogurt" }
+          - { label: "jogurt grecki", value: "jogurt grecki" }
+          - { label: "jogurt naturalny", value: "jogurt naturalny" }
+          - { label: "jogurt skyr waniliowy", value: "jogurt skyr waniliowy" }
+          - { label: "kakao", value: "kakao" }
+          - { label: "kapusta biała", value: "kapusta biała" }
+          - { label: "karkówka wieprzowa", value: "karkówka wieprzowa" }
+          - { label: "kasza bulgur", value: "kasza bulgur" }
+          - { label: "kawa", value: "kawa" }
+          - { label: "ketchup", value: "ketchup" }
+          - { label: "kiełbasa", value: "kiełbasa" }
+          - { label: "kiełki", value: "kiełki" }
+          - { label: "kiełki fasoli mung", value: "kiełki fasoli mung" }
+          - { label: "kinder bueno", value: "kinder bueno" }
+          - { label: "kminek", value: "kminek" }
+          - { label: "kolendra", value: "kolendra" }
+          - { label: "komosa ryżowa", value: "komosa ryżowa" }
+          - { label: "koncentrat pomidorowy", value: "koncentrat pomidorowy" }
+          - { label: "koperek", value: "koperek" }
+          - { label: "kukurydza", value: "kukurydza" }
+          - { label: "kurczak", value: "kurczak" }
+          - { label: "kurczak nóżki", value: "kurczak nóżki" }
+          - { label: "kuskus", value: "kuskus" }
+          - { label: "limonka", value: "limonka" }
+          - { label: "limonki", value: "limonki" }
+          - { label: "liść laurowy", value: "liść laurowy" }
+          - { label: "majeranek", value: "majeranek" }
+          - { label: "majonez", value: "majonez" }
+          - { label: "majonez light", value: "majonez light" }
+          - { label: "makaron", value: "makaron" }
+          - { label: "makaron orzo", value: "makaron orzo" }
+          - { label: "makaron pełnoziarnisty kokardki", value: "makaron pełnoziarnisty kokardki" }
+          - { label: "makaron ryżowy", value: "makaron ryżowy" }
+          - { label: "makaron spaghetti", value: "makaron spaghetti" }
+          - { label: "makaron tagliatelle", value: "makaron tagliatelle" }
+          - { label: "makrela", value: "makrela" }
+          - { label: "makrela wędzona", value: "makrela wędzona" }
+          - { label: "maliny", value: "maliny" }
+          - { label: "mandarynka", value: "mandarynka" }
+          - { label: "mango", value: "mango" }
+          - { label: "marchew", value: "marchew" }
+          - { label: "marchewka", value: "marchewka" }
+          - { label: "mascarpone", value: "mascarpone" }
+          - { label: "masło", value: "masło" }
+          - { label: "masło klarowane", value: "masło klarowane" }
+          - { label: "masło migdałowe", value: "masło migdałowe" }
+          - { label: "masło orzechowe", value: "masło orzechowe" }
+          - { label: "migdały", value: "migdały" }
+          - { label: "miks sałat", value: "miks sałat" }
+          - { label: "mix sałat", value: "mix sałat" }
+          - { label: "miód", value: "miód" }
+          - { label: "mięso mielone", value: "mięso mielone" }
+          - { label: "mięso z indyka", value: "mięso z indyka" }
+          - { label: "mięso z uda kurczaka", value: "mięso z uda kurczaka" }
+          - { label: "mięta", value: "mięta" }
+          - { label: "mleko", value: "mleko" }
+          - { label: "mleko bez laktozy", value: "mleko bez laktozy" }
+          - { label: "mleko kokosowe", value: "mleko kokosowe" }
+          - { label: "mleko skondensowane odchudzone", value: "mleko skondensowane odchudzone" }
+          - { label: "mleko sojowe", value: "mleko sojowe" }
+          - { label: "morele suszone", value: "morele suszone" }
+          - { label: "mozzarella", value: "mozzarella" }
+          - { label: "mrożone warzywa", value: "mrożone warzywa" }
+          - { label: "muszarda sarepska", value: "muszarda sarepska" }
+          - { label: "musztarda", value: "musztarda" }
+          - { label: "mąka", value: "mąka" }
+          - { label: "mąka jaglana", value: "mąka jaglana" }
+          - { label: "mąka kokosowa", value: "mąka kokosowa" }
+          - { label: "mąka migdałowa", value: "mąka migdałowa" }
+          - { label: "mąka orkiszowa pełnoziarnista", value: "mąka orkiszowa pełnoziarnista" }
+          - { label: "mąka owsiana", value: "mąka owsiana" }
+          - { label: "mąka pszenna", value: "mąka pszenna" }
+          - { label: "mąka ryżowa", value: "mąka ryżowa" }
+          - { label: "napój migdałowy", value: "napój migdałowy" }
+          - { label: "napój owsiany", value: "napój owsiany" }
+          - { label: "napój roślinny", value: "napój roślinny" }
+          - { label: "napój sojowy", value: "napój sojowy" }
+          - { label: "nasiona chia", value: "nasiona chia" }
+          - { label: "nasionka chia", value: "nasionka chia" }
+          - { label: "natka pietruszki", value: "natka pietruszki" }
+          - { label: "ocet balsamiczny", value: "ocet balsamiczny" }
+          - { label: "ocet winny", value: "ocet winny" }
+          - { label: "odżywka białkowa", value: "odżywka białkowa" }
+          - { label: "ogórek", value: "ogórek" }
+          - { label: "ogórek zielony", value: "ogórek zielony" }
+          - { label: "ogórki kiszone", value: "ogórki kiszone" }
+          - { label: "ogórki konserwowe", value: "ogórki konserwowe" }
+          - { label: "olej", value: "olej" }
+          - { label: "olej kokosowy", value: "olej kokosowy" }
+          - { label: "olej lniany", value: "olej lniany" }
+          - { label: "olej roślinny", value: "olej roślinny" }
+          - { label: "olej ryżowy", value: "olej ryżowy" }
+          - { label: "olej rzepakowy", value: "olej rzepakowy" }
+          - { label: "olej sezamowy", value: "olej sezamowy" }
+          - { label: "oliwa", value: "oliwa" }
+          - { label: "oliwa czosnkowa", value: "oliwa czosnkowa" }
+          - { label: "oliwa z oliwek", value: "oliwa z oliwek" }
+          - { label: "oliwki", value: "oliwki" }
+          - { label: "oregano", value: "oregano" }
+          - { label: "orzech włoski", value: "orzech włoski" }
+          - { label: "orzechy", value: "orzechy" }
+          - { label: "orzechy brazylijskie", value: "orzechy brazylijskie" }
+          - { label: "orzechy nerkowca", value: "orzechy nerkowca" }
+          - { label: "orzechy pekan", value: "orzechy pekan" }
+          - { label: "orzechy włoskie", value: "orzechy włoskie" }
+          - { label: "orzeszki arachidowe", value: "orzeszki arachidowe" }
+          - { label: "orzeszki ziemne", value: "orzeszki ziemne" }
+          - { label: "panko", value: "panko" }
+          - { label: "papryczka chili", value: "papryczka chili" }
+          - { label: "papryczki padron", value: "papryczki padron" }
+          - { label: "papryka", value: "papryka" }
+          - { label: "papryka czerwona", value: "papryka czerwona" }
+          - { label: "papryka ostra", value: "papryka ostra" }
+          - { label: "papryka słodka", value: "papryka słodka" }
+          - { label: "papryka wędzona", value: "papryka wędzona" }
+          - { label: "parmezan", value: "parmezan" }
+          - { label: "passata pomidorowa", value: "passata pomidorowa" }
+          - { label: "pasta curry", value: "pasta curry" }
+          - { label: "pasta green curry", value: "pasta green curry" }
+          - { label: "pasta yellow curry", value: "pasta yellow curry" }
+          - { label: "pasta z tamaryndowca", value: "pasta z tamaryndowca" }
+          - { label: "pepperoni", value: "pepperoni" }
+          - { label: "pestki słonecznika", value: "pestki słonecznika" }
+          - { label: "pesto", value: "pesto" }
+          - { label: "pesto bazyliowe", value: "pesto bazyliowe" }
+          - { label: "pieczarki", value: "pieczarki" }
+          - { label: "pieczywo rustykalne", value: "pieczywo rustykalne" }
+          - { label: "pierś z kurczaka", value: "pierś z kurczaka" }
+          - { label: "pietruszka", value: "pietruszka" }
+          - { label: "pistacje", value: "pistacje" }
+          - { label: "polędwica wieprzowa", value: "polędwica wieprzowa" }
+          - { label: "polędwiczki kurczaka", value: "polędwiczki kurczaka" }
+          - { label: "pomarańcza", value: "pomarańcza" }
+          - { label: "pomidor", value: "pomidor" }
+          - { label: "pomidor malinowy", value: "pomidor malinowy" }
+          - { label: "pomidorki", value: "pomidorki" }
+          - { label: "pomidorki cherry", value: "pomidorki cherry" }
+          - { label: "pomidorki koktajlowe", value: "pomidorki koktajlowe" }
+          - { label: "pomidory", value: "pomidory" }
+          - { label: "pomidory koktajlowe", value: "pomidory koktajlowe" }
+          - { label: "pomidory krojone", value: "pomidory krojone" }
+          - { label: "pomidory suszone", value: "pomidory suszone" }
+          - { label: "por", value: "por" }
+          - { label: "proszek do pieczenia", value: "proszek do pieczenia" }
+          - { label: "przecier pomidorowy", value: "przecier pomidorowy" }
+          - { label: "przyprawa", value: "przyprawa" }
+          - { label: "przyprawa korzenna", value: "przyprawa korzenna" }
+          - { label: "pstrąg tęczowy", value: "pstrąg tęczowy" }
+          - { label: "pstrąg wędzony", value: "pstrąg wędzony" }
+          - { label: "puding białkowy waniliowy", value: "puding białkowy waniliowy" }
+          - { label: "płatki jaglane", value: "płatki jaglane" }
+          - { label: "płatki migdałowe", value: "płatki migdałowe" }
+          - { label: "płatki owsiane", value: "płatki owsiane" }
+          - { label: "płatki owsiane błyskawiczne", value: "płatki owsiane błyskawiczne" }
+          - { label: "rodzynki", value: "rodzynki" }
+          - { label: "roszponka", value: "roszponka" }
+          - { label: "rozmaryn", value: "rozmaryn" }
+          - { label: "rukola", value: "rukola" }
+          - { label: "ryż", value: "ryż" }
+          - { label: "ryż basmati", value: "ryż basmati" }
+          - { label: "ryż brązowy", value: "ryż brązowy" }
+          - { label: "ryż czerwony", value: "ryż czerwony" }
+          - { label: "ryż jaśminowy", value: "ryż jaśminowy" }
+          - { label: "ryż parboiled", value: "ryż parboiled" }
+          - { label: "ryż ugotowany", value: "ryż ugotowany" }
+          - { label: "rzodkiewka", value: "rzodkiewka" }
+          - { label: "sałata", value: "sałata" }
+          - { label: "sałata lodowa", value: "sałata lodowa" }
+          - { label: "sałata mieszana", value: "sałata mieszana" }
+          - { label: "sałata rzymska", value: "sałata rzymska" }
+          - { label: "schab pieczony", value: "schab pieczony" }
+          - { label: "schab wieprzowy", value: "schab wieprzowy" }
+          - { label: "ser", value: "ser" }
+          - { label: "ser cheddar", value: "ser cheddar" }
+          - { label: "ser feta", value: "ser feta" }
+          - { label: "ser grana padano", value: "ser grana padano" }
+          - { label: "ser homogenizowany ciasteczkowy", value: "ser homogenizowany ciasteczkowy" }
+          - { label: "ser homogenizowany waniliowy", value: "ser homogenizowany waniliowy" }
+          - { label: "ser mimolette", value: "ser mimolette" }
+          - { label: "ser mozzarella", value: "ser mozzarella" }
+          - { label: "ser parmezan", value: "ser parmezan" }
+          - { label: "ser piórko", value: "ser piórko" }
+          - { label: "ser wiejski", value: "ser wiejski" }
+          - { label: "ser śmietankowy", value: "ser śmietankowy" }
+          - { label: "ser żółty", value: "ser żółty" }
+          - { label: "serek", value: "serek" }
+          - { label: "serek blu", value: "serek blu" }
+          - { label: "serek wiejski", value: "serek wiejski" }
+          - { label: "serek śmietankowy", value: "serek śmietankowy" }
+          - { label: "serek śmietankowy chrzanowy", value: "serek śmietankowy chrzanowy" }
+          - { label: "sezam", value: "sezam" }
+          - { label: "siemię lniane", value: "siemię lniane" }
+          - { label: "skyr", value: "skyr" }
+          - { label: "skyr naturalny", value: "skyr naturalny" }
+          - { label: "skyr waniliowy", value: "skyr waniliowy" }
+          - { label: "skórka cytrynowa", value: "skórka cytrynowa" }
+          - { label: "skórka pomarańczowa", value: "skórka pomarańczowa" }
+          - { label: "soczewica zielona", value: "soczewica zielona" }
+          - { label: "sok z cytryny", value: "sok z cytryny" }
+          - { label: "sos pomidorowy", value: "sos pomidorowy" }
+          - { label: "sos rybny", value: "sos rybny" }
+          - { label: "sos sojowy", value: "sos sojowy" }
+          - { label: "sos tatarski", value: "sos tatarski" }
+          - { label: "sos teriyaki", value: "sos teriyaki" }
+          - { label: "sos winegret", value: "sos winegret" }
+          - { label: "spaghetti", value: "spaghetti" }
+          - { label: "suszone morele", value: "suszone morele" }
+          - { label: "suszone pomidory", value: "suszone pomidory" }
+          - { label: "suszone żurawiny", value: "suszone żurawiny" }
+          - { label: "syrop klonowy", value: "syrop klonowy" }
+          - { label: "szczypiorek", value: "szczypiorek" }
+          - { label: "szparagi", value: "szparagi" }
+          - { label: "szpinak", value: "szpinak" }
+          - { label: "szynka", value: "szynka" }
+          - { label: "szynka wiejska", value: "szynka wiejska" }
+          - { label: "szynka wędzona", value: "szynka wędzona" }
+          - { label: "sól", value: "sól" }
+          - { label: "tahini", value: "tahini" }
+          - { label: "tortilla", value: "tortilla" }
+          - { label: "tortilla pełnoziarnista", value: "tortilla pełnoziarnista" }
+          - { label: "tortilla pszenna", value: "tortilla pszenna" }
+          - { label: "truskawki", value: "truskawki" }
+          - { label: "tuńczyk", value: "tuńczyk" }
+          - { label: "twaróg", value: "twaróg" }
+          - { label: "twaróg chudy", value: "twaróg chudy" }
+          - { label: "twaróg półtłusty", value: "twaróg półtłusty" }
+          - { label: "tymianek", value: "tymianek" }
+          - { label: "wanilia", value: "wanilia" }
+          - { label: "wieprzowina", value: "wieprzowina" }
+          - { label: "wino białe", value: "wino białe" }
+          - { label: "wiórki kokosowe", value: "wiórki kokosowe" }
+          - { label: "woda", value: "woda" }
+          - { label: "wołowina", value: "wołowina" }
+          - { label: "wołowina mielona", value: "wołowina mielona" }
+          - { label: "ziemniaki", value: "ziemniaki" }
+          - { label: "zioła", value: "zioła" }
+          - { label: "łopatka wieprzowa", value: "łopatka wieprzowa" }
+          - { label: "łosoś", value: "łosoś" }
+          - { label: "łosoś wędzony", value: "łosoś wędzony" }
+          - { label: "śliwki", value: "śliwki" }
+          - { label: "śmietana", value: "śmietana" }
+          - { label: "śmietana 12%", value: "śmietana 12%" }
+          - { label: "śmietana 18%", value: "śmietana 18%" }
+          - { label: "śmietana 30%", value: "śmietana 30%" }
+          - { label: "śmietana kremowa", value: "śmietana kremowa" }
+          - { label: "śmietanka 30%", value: "śmietanka 30%" }
+          - { label: "żurawina", value: "żurawina" }
+          - { label: "żółtka", value: "żółtka" }
+        hint: "Wybierz z listy składników (wpisz lub kliknij, aby zobaczyć wszystkie)."
+      - label: Kategorie
+        name: categories
+        widget: select
+        multiple: false
+        required: true
+        options:
+          - { label: "śniadania", value: "śniadania" }
+          - { label: "obiady", value: "obiady" }
+          - { label: "sałatki", value: "salatki" }
+          - { label: "desery", value: "desery" }
+          - { label: "sosy", value: "sosy" }
+      - label: Podkategorie
+        name: subcategories
+        widget: select
+        required: false
+        options: 
+          - { label: "słodkie", value: "słodkie" }
+          - { label: "słone", value: "słone" }
+      - { label: Porcje, name: servings, widget: number, required: false, min: 1 }
+      - { label: Czas przygotowania (min), name: prep_time, widget: number, required: false, min: 0 }
+      - { label: Czy wymaga gotowania, name: cook, widget: boolean, required: false, default: false }
+      - { label: Czas gotowania (minuty/godziny), name: cook_time, widget: string, required: false }
+      - { label: Jednostka czasu gotowania, name: cook_increment, widget: string, required: false, hint: "minutes | hours" }
+      - { label: Kalorie, name: calories, widget: number, required: false, min: 0 }
+      - { label: Białko, name: protein, widget: number, required: false, min: 0 }
+      - { label: Tłuszcz, name: fat, widget: number, required: false, min: 0 }
+      - { label: Węglowodany, name: carbohydrate, widget: number, required: false, min: 0 }
+      - { label: Link (YouTube itp.), name: link, widget: string, required: false }
+      - label: Low FODMAP
+        name: fodmap
+        widget: object
+        required: false
+        collapsed: true
+        fields:
+          - { label: Status, name: status, widget: string, required: false }
+          - { label: Notatki, name: notes, widget: text, required: false }
+          - label: Zamienniki
+            name: substitutions
+            widget: list
+            required: false
+            field: { label: Zamiennik, name: substitution, widget: string }
+          - { label: Porcja OK, name: serving_ok, widget: string, required: false }
+      - label: Treść
+        name: body
+        widget: markdown
+        hint: "Treść przepisu"
+
+  - name: desery
+    label: "Desery"
+    label_singular: "Deser"
+    folder: "content/published/desery"
+    create: true
+    slug: "{{slug}}"
+    extension: md
+    format: frontmatter
+    filter: {field: "draft", value: false}
+    editor:
+      preview: true
+      visualEditing: true
+    fields:
+      - { label: Tytuł, name: title, widget: string }
+      - { label: Autor, name: author, widget: string, required: false }
+      - { label: Szkic, name: draft, widget: boolean, required: false, default: false }
+      - { label: Ulubiony, name: favourite, widget: boolean, required: false, default: false }
+      - { label: W Kolejce, name: queued, widget: boolean, required: false, default: false }
+      - { label: Gotowy do Testowania, name: readyToTest, widget: boolean, required: false, default: false }
+      - { label: Opis skrócony, name: tagline, widget: string, required: false }
+      - { label: Obrazek przepisu (static/...), name: recipe_image, widget: string, required: false }
+      - label: Tagi
+        name: tags
+        widget: select
+        multiple: true
+        required: false
+        options:
+          - { label: "", value: "" }
+          - { label: "batony", value: "batony" }
+          - { label: "bez gotowania", value: "bez gotowania" }
+          - { label: "bez-pieczenia", value: "bez-pieczenia" }
+          - { label: "blender", value: "blender" }
+          - { label: "brownie", value: "brownie" }
+          - { label: "chrupiące", value: "chrupiące" }
+          - { label: "ciastka", value: "ciastka" }
+          - { label: "ciastka owsiane", value: "ciastka owsiane" }
+          - { label: "czekoladowe", value: "czekoladowe" }
+          - { label: "dynia", value: "dynia" }
+          - { label: "goście", value: "goście" }
+          - { label: "grill", value: "grill" }
+          - { label: "impreza", value: "impreza" }
+          - { label: "instant pot", value: "instant pot" }
+          - { label: "jesień", value: "jesień" }
+          - { label: "kanapki", value: "kanapki" }
+          - { label: "klasyczne", value: "klasyczne" }
+          - { label: "koktajle", value: "koktajle" }
+          - { label: "kotlety", value: "kotlety" }
+          - { label: "kurczak", value: "kurczak" }
+          - { label: "lody", value: "lody" }
+          - { label: "low carb", value: "low carb" }
+          - { label: "lunchbox", value: "lunchbox" }
+          - { label: "makaron", value: "makaron" }
+          - { label: "marokański", value: "marokański" }
+          - { label: "meksykańskie", value: "meksykańskie" }
+          - { label: "mięso", value: "mięso" }
+          - { label: "na słodko", value: "na słodko" }
+          - { label: "na-wynos", value: "na-wynos" }
+          - { label: "odporność", value: "odporność" }
+          - { label: "orzechowy", value: "orzechowy" }
+          - { label: "owsianka", value: "owsianka" }
+          - { label: "pasta", value: "pasta" }
+          - { label: "pikantne", value: "pikantne" }
+          - { label: "placki", value: "placki" }
+          - { label: "proteinowe", value: "proteinowe" }
+          - { label: "przekąska", value: "przekąska" }
+          - { label: "ryby", value: "ryby" }
+          - { label: "Stefan", value: "Stefan" }
+          - { label: "szybkie", value: "szybkie" }
+          - { label: "słodkie", value: "słodkie" }
+          - { label: "tropikalne", value: "tropikalne" }
+          - { label: "wegańskie", value: "wegańskie" }
+          - { label: "wegetariańskie", value: "wegetariańskie" }
+          - { label: "włoskie", value: "włoskie" }
+          - { label: "zdrowe", value: "zdrowe" }
+          - { label: "śródziemnomorska", value: "śródziemnomorska" }
+        hint: "Wybierz z listy tagów (wpisz lub kliknij, aby zobaczyć wszystkie)."
+      - label: Składniki
+        name: ingredients
+        widget: select
+        multiple: true
+        required: false
+        options:
+          - { label: "ananas", value: "ananas" }
+          - { label: "ananasa", value: "ananasa" }
+          - { label: "awokado", value: "awokado" }
+          - { label: "bagietka", value: "bagietka" }
+          - { label: "bajgiel", value: "bajgiel" }
+          - { label: "bakalie", value: "bakalie" }
+          - { label: "banan", value: "banan" }
+          - { label: "bataty", value: "bataty" }
+          - { label: "berberys", value: "berberys" }
+          - { label: "biała fasola", value: "biała fasola" }
+          - { label: "białka jajek", value: "białka jajek" }
+          - { label: "białko jajeczne", value: "białko jajeczne" }
+          - { label: "boczek", value: "boczek" }
+          - { label: "brokuł", value: "brokuł" }
+          - { label: "brzoskwinie", value: "brzoskwinie" }
+          - { label: "budyń waniliowy", value: "budyń waniliowy" }
+          - { label: "bulion", value: "bulion" }
+          - { label: "burak", value: "burak" }
+          - { label: "buraki gotowane", value: "buraki gotowane" }
+          - { label: "burrata", value: "burrata" }
+          - { label: "bułka", value: "bułka" }
+          - { label: "bułka paryska", value: "bułka paryska" }
+          - { label: "bułka pełnoziarnista", value: "bułka pełnoziarnista" }
+          - { label: "bułka tarta", value: "bułka tarta" }
+          - { label: "cebula", value: "cebula" }
+          - { label: "cebula czerwona", value: "cebula czerwona" }
+          - { label: "cebula dymka", value: "cebula dymka" }
+          - { label: "chia", value: "chia" }
+          - { label: "chili", value: "chili" }
+          - { label: "chleb", value: "chleb" }
+          - { label: "chleb pełnoziarnisty", value: "chleb pełnoziarnisty" }
+          - { label: "chleb tostowy", value: "chleb tostowy" }
+          - { label: "chleb żytni", value: "chleb żytni" }
+          - { label: "ciecierzyca", value: "ciecierzyca" }
+          - { label: "coleslaw", value: "coleslaw" }
+          - { label: "cukier", value: "cukier" }
+          - { label: "cukier kokosowy", value: "cukier kokosowy" }
+          - { label: "cukier puder", value: "cukier puder" }
+          - { label: "cukinia", value: "cukinia" }
+          - { label: "curry", value: "curry" }
+          - { label: "cynamon", value: "cynamon" }
+          - { label: "cytryna", value: "cytryna" }
+          - { label: "czekolada", value: "czekolada" }
+          - { label: "czekolada gorzka", value: "czekolada gorzka" }
+          - { label: "czekolada organiczna", value: "czekolada organiczna" }
+          - { label: "czerwona cebula", value: "czerwona cebula" }
+          - { label: "czerwona fasola", value: "czerwona fasola" }
+          - { label: "czosnek", value: "czosnek" }
+          - { label: "czosnek suszony", value: "czosnek suszony" }
+          - { label: "daktyle", value: "daktyle" }
+          - { label: "drożdże", value: "drożdże" }
+          - { label: "drożdże świeże", value: "drożdże świeże" }
+          - { label: "dynia", value: "dynia" }
+          - { label: "dynia piżmowa", value: "dynia piżmowa" }
+          - { label: "dżem", value: "dżem" }
+          - { label: "ekstrakt waniliowy", value: "ekstrakt waniliowy" }
+          - { label: "erytrol", value: "erytrol" }
+          - { label: "erytrytol", value: "erytrytol" }
+          - { label: "fasola", value: "fasola" }
+          - { label: "fasola biała", value: "fasola biała" }
+          - { label: "fasolka szparagowa", value: "fasolka szparagowa" }
+          - { label: "frytki", value: "frytki" }
+          - { label: "gnocchi", value: "gnocchi" }
+          - { label: "gorzka czekolada", value: "gorzka czekolada" }
+          - { label: "granat", value: "granat" }
+          - { label: "groszek cukrowy", value: "groszek cukrowy" }
+          - { label: "gruszka", value: "gruszka" }
+          - { label: "grzyby", value: "grzyby" }
+          - { label: "grzyby suszone", value: "grzyby suszone" }
+          - { label: "herbatniki", value: "herbatniki" }
+          - { label: "imbir", value: "imbir" }
+          - { label: "indyk", value: "indyk" }
+          - { label: "jabłka", value: "jabłka" }
+          - { label: "jabłko", value: "jabłko" }
+          - { label: "jagody", value: "jagody" }
+          - { label: "jajka", value: "jajka" }
+          - { label: "jajko", value: "jajko" }
+          - { label: "jalapeno", value: "jalapeno" }
+          - { label: "jarmuż", value: "jarmuż" }
+          - { label: "jogurt", value: "jogurt" }
+          - { label: "jogurt grecki", value: "jogurt grecki" }
+          - { label: "jogurt naturalny", value: "jogurt naturalny" }
+          - { label: "jogurt skyr waniliowy", value: "jogurt skyr waniliowy" }
+          - { label: "kakao", value: "kakao" }
+          - { label: "kapusta biała", value: "kapusta biała" }
+          - { label: "karkówka wieprzowa", value: "karkówka wieprzowa" }
+          - { label: "kasza bulgur", value: "kasza bulgur" }
+          - { label: "kawa", value: "kawa" }
+          - { label: "ketchup", value: "ketchup" }
+          - { label: "kiełbasa", value: "kiełbasa" }
+          - { label: "kiełki", value: "kiełki" }
+          - { label: "kiełki fasoli mung", value: "kiełki fasoli mung" }
+          - { label: "kinder bueno", value: "kinder bueno" }
+          - { label: "kminek", value: "kminek" }
+          - { label: "kolendra", value: "kolendra" }
+          - { label: "komosa ryżowa", value: "komosa ryżowa" }
+          - { label: "koncentrat pomidorowy", value: "koncentrat pomidorowy" }
+          - { label: "koperek", value: "koperek" }
+          - { label: "kukurydza", value: "kukurydza" }
+          - { label: "kurczak", value: "kurczak" }
+          - { label: "kurczak nóżki", value: "kurczak nóżki" }
+          - { label: "kuskus", value: "kuskus" }
+          - { label: "limonka", value: "limonka" }
+          - { label: "limonki", value: "limonki" }
+          - { label: "liść laurowy", value: "liść laurowy" }
+          - { label: "majeranek", value: "majeranek" }
+          - { label: "majonez", value: "majonez" }
+          - { label: "majonez light", value: "majonez light" }
+          - { label: "makaron", value: "makaron" }
+          - { label: "makaron orzo", value: "makaron orzo" }
+          - { label: "makaron pełnoziarnisty kokardki", value: "makaron pełnoziarnisty kokardki" }
+          - { label: "makaron ryżowy", value: "makaron ryżowy" }
+          - { label: "makaron spaghetti", value: "makaron spaghetti" }
+          - { label: "makaron tagliatelle", value: "makaron tagliatelle" }
+          - { label: "makrela", value: "makrela" }
+          - { label: "makrela wędzona", value: "makrela wędzona" }
+          - { label: "maliny", value: "maliny" }
+          - { label: "mandarynka", value: "mandarynka" }
+          - { label: "mango", value: "mango" }
+          - { label: "marchew", value: "marchew" }
+          - { label: "marchewka", value: "marchewka" }
+          - { label: "mascarpone", value: "mascarpone" }
+          - { label: "masło", value: "masło" }
+          - { label: "masło klarowane", value: "masło klarowane" }
+          - { label: "masło migdałowe", value: "masło migdałowe" }
+          - { label: "masło orzechowe", value: "masło orzechowe" }
+          - { label: "migdały", value: "migdały" }
+          - { label: "miks sałat", value: "miks sałat" }
+          - { label: "mix sałat", value: "mix sałat" }
+          - { label: "miód", value: "miód" }
+          - { label: "mięso mielone", value: "mięso mielone" }
+          - { label: "mięso z indyka", value: "mięso z indyka" }
+          - { label: "mięso z uda kurczaka", value: "mięso z uda kurczaka" }
+          - { label: "mięta", value: "mięta" }
+          - { label: "mleko", value: "mleko" }
+          - { label: "mleko bez laktozy", value: "mleko bez laktozy" }
+          - { label: "mleko kokosowe", value: "mleko kokosowe" }
+          - { label: "mleko skondensowane odchudzone", value: "mleko skondensowane odchudzone" }
+          - { label: "mleko sojowe", value: "mleko sojowe" }
+          - { label: "morele suszone", value: "morele suszone" }
+          - { label: "mozzarella", value: "mozzarella" }
+          - { label: "mrożone warzywa", value: "mrożone warzywa" }
+          - { label: "muszarda sarepska", value: "muszarda sarepska" }
+          - { label: "musztarda", value: "musztarda" }
+          - { label: "mąka", value: "mąka" }
+          - { label: "mąka jaglana", value: "mąka jaglana" }
+          - { label: "mąka kokosowa", value: "mąka kokosowa" }
+          - { label: "mąka migdałowa", value: "mąka migdałowa" }
+          - { label: "mąka orkiszowa pełnoziarnista", value: "mąka orkiszowa pełnoziarnista" }
+          - { label: "mąka owsiana", value: "mąka owsiana" }
+          - { label: "mąka pszenna", value: "mąka pszenna" }
+          - { label: "mąka ryżowa", value: "mąka ryżowa" }
+          - { label: "napój migdałowy", value: "napój migdałowy" }
+          - { label: "napój owsiany", value: "napój owsiany" }
+          - { label: "napój roślinny", value: "napój roślinny" }
+          - { label: "napój sojowy", value: "napój sojowy" }
+          - { label: "nasiona chia", value: "nasiona chia" }
+          - { label: "nasionka chia", value: "nasionka chia" }
+          - { label: "natka pietruszki", value: "natka pietruszki" }
+          - { label: "ocet balsamiczny", value: "ocet balsamiczny" }
+          - { label: "ocet winny", value: "ocet winny" }
+          - { label: "odżywka białkowa", value: "odżywka białkowa" }
+          - { label: "ogórek", value: "ogórek" }
+          - { label: "ogórek zielony", value: "ogórek zielony" }
+          - { label: "ogórki kiszone", value: "ogórki kiszone" }
+          - { label: "ogórki konserwowe", value: "ogórki konserwowe" }
+          - { label: "olej", value: "olej" }
+          - { label: "olej kokosowy", value: "olej kokosowy" }
+          - { label: "olej lniany", value: "olej lniany" }
+          - { label: "olej roślinny", value: "olej roślinny" }
+          - { label: "olej ryżowy", value: "olej ryżowy" }
+          - { label: "olej rzepakowy", value: "olej rzepakowy" }
+          - { label: "olej sezamowy", value: "olej sezamowy" }
+          - { label: "oliwa", value: "oliwa" }
+          - { label: "oliwa czosnkowa", value: "oliwa czosnkowa" }
+          - { label: "oliwa z oliwek", value: "oliwa z oliwek" }
+          - { label: "oliwki", value: "oliwki" }
+          - { label: "oregano", value: "oregano" }
+          - { label: "orzech włoski", value: "orzech włoski" }
+          - { label: "orzechy", value: "orzechy" }
+          - { label: "orzechy brazylijskie", value: "orzechy brazylijskie" }
+          - { label: "orzechy nerkowca", value: "orzechy nerkowca" }
+          - { label: "orzechy pekan", value: "orzechy pekan" }
+          - { label: "orzechy włoskie", value: "orzechy włoskie" }
+          - { label: "orzeszki arachidowe", value: "orzeszki arachidowe" }
+          - { label: "orzeszki ziemne", value: "orzeszki ziemne" }
+          - { label: "panko", value: "panko" }
+          - { label: "papryczka chili", value: "papryczka chili" }
+          - { label: "papryczki padron", value: "papryczki padron" }
+          - { label: "papryka", value: "papryka" }
+          - { label: "papryka czerwona", value: "papryka czerwona" }
+          - { label: "papryka ostra", value: "papryka ostra" }
+          - { label: "papryka słodka", value: "papryka słodka" }
+          - { label: "papryka wędzona", value: "papryka wędzona" }
+          - { label: "parmezan", value: "parmezan" }
+          - { label: "passata pomidorowa", value: "passata pomidorowa" }
+          - { label: "pasta curry", value: "pasta curry" }
+          - { label: "pasta green curry", value: "pasta green curry" }
+          - { label: "pasta yellow curry", value: "pasta yellow curry" }
+          - { label: "pasta z tamaryndowca", value: "pasta z tamaryndowca" }
+          - { label: "pepperoni", value: "pepperoni" }
+          - { label: "pestki słonecznika", value: "pestki słonecznika" }
+          - { label: "pesto", value: "pesto" }
+          - { label: "pesto bazyliowe", value: "pesto bazyliowe" }
+          - { label: "pieczarki", value: "pieczarki" }
+          - { label: "pieczywo rustykalne", value: "pieczywo rustykalne" }
+          - { label: "pierś z kurczaka", value: "pierś z kurczaka" }
+          - { label: "pietruszka", value: "pietruszka" }
+          - { label: "pistacje", value: "pistacje" }
+          - { label: "polędwica wieprzowa", value: "polędwica wieprzowa" }
+          - { label: "polędwiczki kurczaka", value: "polędwiczki kurczaka" }
+          - { label: "pomarańcza", value: "pomarańcza" }
+          - { label: "pomidor", value: "pomidor" }
+          - { label: "pomidor malinowy", value: "pomidor malinowy" }
+          - { label: "pomidorki", value: "pomidorki" }
+          - { label: "pomidorki cherry", value: "pomidorki cherry" }
+          - { label: "pomidorki koktajlowe", value: "pomidorki koktajlowe" }
+          - { label: "pomidory", value: "pomidory" }
+          - { label: "pomidory koktajlowe", value: "pomidory koktajlowe" }
+          - { label: "pomidory krojone", value: "pomidory krojone" }
+          - { label: "pomidory suszone", value: "pomidory suszone" }
+          - { label: "por", value: "por" }
+          - { label: "proszek do pieczenia", value: "proszek do pieczenia" }
+          - { label: "przecier pomidorowy", value: "przecier pomidorowy" }
+          - { label: "przyprawa", value: "przyprawa" }
+          - { label: "przyprawa korzenna", value: "przyprawa korzenna" }
+          - { label: "pstrąg tęczowy", value: "pstrąg tęczowy" }
+          - { label: "pstrąg wędzony", value: "pstrąg wędzony" }
+          - { label: "puding białkowy waniliowy", value: "puding białkowy waniliowy" }
+          - { label: "płatki jaglane", value: "płatki jaglane" }
+          - { label: "płatki migdałowe", value: "płatki migdałowe" }
+          - { label: "płatki owsiane", value: "płatki owsiane" }
+          - { label: "płatki owsiane błyskawiczne", value: "płatki owsiane błyskawiczne" }
+          - { label: "rodzynki", value: "rodzynki" }
+          - { label: "roszponka", value: "roszponka" }
+          - { label: "rozmaryn", value: "rozmaryn" }
+          - { label: "rukola", value: "rukola" }
+          - { label: "ryż", value: "ryż" }
+          - { label: "ryż basmati", value: "ryż basmati" }
+          - { label: "ryż brązowy", value: "ryż brązowy" }
+          - { label: "ryż czerwony", value: "ryż czerwony" }
+          - { label: "ryż jaśminowy", value: "ryż jaśminowy" }
+          - { label: "ryż parboiled", value: "ryż parboiled" }
+          - { label: "ryż ugotowany", value: "ryż ugotowany" }
+          - { label: "rzodkiewka", value: "rzodkiewka" }
+          - { label: "sałata", value: "sałata" }
+          - { label: "sałata lodowa", value: "sałata lodowa" }
+          - { label: "sałata mieszana", value: "sałata mieszana" }
+          - { label: "sałata rzymska", value: "sałata rzymska" }
+          - { label: "schab pieczony", value: "schab pieczony" }
+          - { label: "schab wieprzowy", value: "schab wieprzowy" }
+          - { label: "ser", value: "ser" }
+          - { label: "ser cheddar", value: "ser cheddar" }
+          - { label: "ser feta", value: "ser feta" }
+          - { label: "ser grana padano", value: "ser grana padano" }
+          - { label: "ser homogenizowany ciasteczkowy", value: "ser homogenizowany ciasteczkowy" }
+          - { label: "ser homogenizowany waniliowy", value: "ser homogenizowany waniliowy" }
+          - { label: "ser mimolette", value: "ser mimolette" }
+          - { label: "ser mozzarella", value: "ser mozzarella" }
+          - { label: "ser parmezan", value: "ser parmezan" }
+          - { label: "ser piórko", value: "ser piórko" }
+          - { label: "ser wiejski", value: "ser wiejski" }
+          - { label: "ser śmietankowy", value: "ser śmietankowy" }
+          - { label: "ser żółty", value: "ser żółty" }
+          - { label: "serek", value: "serek" }
+          - { label: "serek blu", value: "serek blu" }
+          - { label: "serek wiejski", value: "serek wiejski" }
+          - { label: "serek śmietankowy", value: "serek śmietankowy" }
+          - { label: "serek śmietankowy chrzanowy", value: "serek śmietankowy chrzanowy" }
+          - { label: "sezam", value: "sezam" }
+          - { label: "siemię lniane", value: "siemię lniane" }
+          - { label: "skyr", value: "skyr" }
+          - { label: "skyr naturalny", value: "skyr naturalny" }
+          - { label: "skyr waniliowy", value: "skyr waniliowy" }
+          - { label: "skórka cytrynowa", value: "skórka cytrynowa" }
+          - { label: "skórka pomarańczowa", value: "skórka pomarańczowa" }
+          - { label: "soczewica zielona", value: "soczewica zielona" }
+          - { label: "sok z cytryny", value: "sok z cytryny" }
+          - { label: "sos pomidorowy", value: "sos pomidorowy" }
+          - { label: "sos rybny", value: "sos rybny" }
+          - { label: "sos sojowy", value: "sos sojowy" }
+          - { label: "sos tatarski", value: "sos tatarski" }
+          - { label: "sos teriyaki", value: "sos teriyaki" }
+          - { label: "sos winegret", value: "sos winegret" }
+          - { label: "spaghetti", value: "spaghetti" }
+          - { label: "suszone morele", value: "suszone morele" }
+          - { label: "suszone pomidory", value: "suszone pomidory" }
+          - { label: "suszone żurawiny", value: "suszone żurawiny" }
+          - { label: "syrop klonowy", value: "syrop klonowy" }
+          - { label: "szczypiorek", value: "szczypiorek" }
+          - { label: "szparagi", value: "szparagi" }
+          - { label: "szpinak", value: "szpinak" }
+          - { label: "szynka", value: "szynka" }
+          - { label: "szynka wiejska", value: "szynka wiejska" }
+          - { label: "szynka wędzona", value: "szynka wędzona" }
+          - { label: "sól", value: "sól" }
+          - { label: "tahini", value: "tahini" }
+          - { label: "tortilla", value: "tortilla" }
+          - { label: "tortilla pełnoziarnista", value: "tortilla pełnoziarnista" }
+          - { label: "tortilla pszenna", value: "tortilla pszenna" }
+          - { label: "truskawki", value: "truskawki" }
+          - { label: "tuńczyk", value: "tuńczyk" }
+          - { label: "twaróg", value: "twaróg" }
+          - { label: "twaróg chudy", value: "twaróg chudy" }
+          - { label: "twaróg półtłusty", value: "twaróg półtłusty" }
+          - { label: "tymianek", value: "tymianek" }
+          - { label: "wanilia", value: "wanilia" }
+          - { label: "wieprzowina", value: "wieprzowina" }
+          - { label: "wino białe", value: "wino białe" }
+          - { label: "wiórki kokosowe", value: "wiórki kokosowe" }
+          - { label: "woda", value: "woda" }
+          - { label: "wołowina", value: "wołowina" }
+          - { label: "wołowina mielona", value: "wołowina mielona" }
+          - { label: "ziemniaki", value: "ziemniaki" }
+          - { label: "zioła", value: "zioła" }
+          - { label: "łopatka wieprzowa", value: "łopatka wieprzowa" }
+          - { label: "łosoś", value: "łosoś" }
+          - { label: "łosoś wędzony", value: "łosoś wędzony" }
+          - { label: "śliwki", value: "śliwki" }
+          - { label: "śmietana", value: "śmietana" }
+          - { label: "śmietana 12%", value: "śmietana 12%" }
+          - { label: "śmietana 18%", value: "śmietana 18%" }
+          - { label: "śmietana 30%", value: "śmietana 30%" }
+          - { label: "śmietana kremowa", value: "śmietana kremowa" }
+          - { label: "śmietanka 30%", value: "śmietanka 30%" }
+          - { label: "żurawina", value: "żurawina" }
+          - { label: "żółtka", value: "żółtka" }
+        hint: "Wybierz z listy składników (wpisz lub kliknij, aby zobaczyć wszystkie)."
+      - label: Kategorie
+        name: categories
+        widget: select
+        multiple: false
+        required: true
+        options:
+          - { label: "śniadania", value: "śniadania" }
+          - { label: "obiady", value: "obiady" }
+          - { label: "sałatki", value: "salatki" }
+          - { label: "desery", value: "desery" }
+          - { label: "sosy", value: "sosy" }
+      - label: Podkategorie
+        name: subcategories
+        widget: select
+        required: false
+        options: 
+          - { label: "słodkie", value: "słodkie" }
+          - { label: "słone", value: "słone" }
+      - { label: Porcje, name: servings, widget: number, required: false, min: 1 }
+      - { label: Czas przygotowania (min), name: prep_time, widget: number, required: false, min: 0 }
+      - { label: Czy wymaga gotowania, name: cook, widget: boolean, required: false, default: false }
+      - { label: Czas gotowania (minuty/godziny), name: cook_time, widget: string, required: false }
+      - { label: Jednostka czasu gotowania, name: cook_increment, widget: string, required: false, hint: "minutes | hours" }
+      - { label: Kalorie, name: calories, widget: number, required: false, min: 0 }
+      - { label: Białko, name: protein, widget: number, required: false, min: 0 }
+      - { label: Tłuszcz, name: fat, widget: number, required: false, min: 0 }
+      - { label: Węglowodany, name: carbohydrate, widget: number, required: false, min: 0 }
+      - { label: Link (YouTube itp.), name: link, widget: string, required: false }
+      - label: Low FODMAP
+        name: fodmap
+        widget: object
+        required: false
+        collapsed: true
+        fields:
+          - { label: Status, name: status, widget: string, required: false }
+          - { label: Notatki, name: notes, widget: text, required: false }
+          - label: Zamienniki
+            name: substitutions
+            widget: list
+            required: false
+            field: { label: Zamiennik, name: substitution, widget: string }
+          - { label: Porcja OK, name: serving_ok, widget: string, required: false }
+      - label: Treść
+        name: body
+        widget: markdown
+        hint: "Treść przepisu"
+
+  - name: sosy
+    label: "Sosy"
+    label_singular: "Sos"
+    folder: "content/published/sosy"
+    create: true
+    slug: "{{slug}}"
+    extension: md
+    format: frontmatter
+    filter: {field: "draft", value: false}
+    editor:
+      preview: true
+      visualEditing: true
+    fields:
+      - { label: Tytuł, name: title, widget: string }
+      - { label: Autor, name: author, widget: string, required: false }
+      - { label: Szkic, name: draft, widget: boolean, required: false, default: false }
+      - { label: Ulubiony, name: favourite, widget: boolean, required: false, default: false }
+      - { label: W Kolejce, name: queued, widget: boolean, required: false, default: false }
+      - { label: Gotowy do Testowania, name: readyToTest, widget: boolean, required: false, default: false }
+      - { label: Opis skrócony, name: tagline, widget: string, required: false }
+      - { label: Obrazek przepisu (static/...), name: recipe_image, widget: string, required: false }
+      - label: Tagi
+        name: tags
+        widget: select
+        multiple: true
+        required: false
+        options:
+          - { label: "", value: "" }
+          - { label: "batony", value: "batony" }
+          - { label: "bez gotowania", value: "bez gotowania" }
+          - { label: "bez-pieczenia", value: "bez-pieczenia" }
+          - { label: "blender", value: "blender" }
+          - { label: "brownie", value: "brownie" }
+          - { label: "chrupiące", value: "chrupiące" }
+          - { label: "ciastka", value: "ciastka" }
+          - { label: "ciastka owsiane", value: "ciastka owsiane" }
+          - { label: "czekoladowe", value: "czekoladowe" }
+          - { label: "dynia", value: "dynia" }
+          - { label: "goście", value: "goście" }
+          - { label: "grill", value: "grill" }
+          - { label: "impreza", value: "impreza" }
+          - { label: "instant pot", value: "instant pot" }
+          - { label: "jesień", value: "jesień" }
+          - { label: "kanapki", value: "kanapki" }
+          - { label: "klasyczne", value: "klasyczne" }
+          - { label: "koktajle", value: "koktajle" }
+          - { label: "kotlety", value: "kotlety" }
+          - { label: "kurczak", value: "kurczak" }
+          - { label: "lody", value: "lody" }
+          - { label: "low carb", value: "low carb" }
+          - { label: "lunchbox", value: "lunchbox" }
+          - { label: "makaron", value: "makaron" }
+          - { label: "marokański", value: "marokański" }
+          - { label: "meksykańskie", value: "meksykańskie" }
+          - { label: "mięso", value: "mięso" }
+          - { label: "na słodko", value: "na słodko" }
+          - { label: "na-wynos", value: "na-wynos" }
+          - { label: "odporność", value: "odporność" }
+          - { label: "orzechowy", value: "orzechowy" }
+          - { label: "owsianka", value: "owsianka" }
+          - { label: "pasta", value: "pasta" }
+          - { label: "pikantne", value: "pikantne" }
+          - { label: "placki", value: "placki" }
+          - { label: "proteinowe", value: "proteinowe" }
+          - { label: "przekąska", value: "przekąska" }
+          - { label: "ryby", value: "ryby" }
+          - { label: "Stefan", value: "Stefan" }
+          - { label: "szybkie", value: "szybkie" }
+          - { label: "słodkie", value: "słodkie" }
+          - { label: "tropikalne", value: "tropikalne" }
+          - { label: "wegańskie", value: "wegańskie" }
+          - { label: "wegetariańskie", value: "wegetariańskie" }
+          - { label: "włoskie", value: "włoskie" }
+          - { label: "zdrowe", value: "zdrowe" }
+          - { label: "śródziemnomorska", value: "śródziemnomorska" }
+        hint: "Wybierz z listy tagów (wpisz lub kliknij, aby zobaczyć wszystkie)."
+      - label: Składniki
+        name: ingredients
+        widget: select
+        multiple: true
+        required: false
+        options:
+          - { label: "ananas", value: "ananas" }
+          - { label: "ananasa", value: "ananasa" }
+          - { label: "awokado", value: "awokado" }
+          - { label: "bagietka", value: "bagietka" }
+          - { label: "bajgiel", value: "bajgiel" }
+          - { label: "bakalie", value: "bakalie" }
+          - { label: "banan", value: "banan" }
+          - { label: "bataty", value: "bataty" }
+          - { label: "berberys", value: "berberys" }
+          - { label: "biała fasola", value: "biała fasola" }
+          - { label: "białka jajek", value: "białka jajek" }
+          - { label: "białko jajeczne", value: "białko jajeczne" }
+          - { label: "boczek", value: "boczek" }
+          - { label: "brokuł", value: "brokuł" }
+          - { label: "brzoskwinie", value: "brzoskwinie" }
+          - { label: "budyń waniliowy", value: "budyń waniliowy" }
+          - { label: "bulion", value: "bulion" }
+          - { label: "burak", value: "burak" }
+          - { label: "buraki gotowane", value: "buraki gotowane" }
+          - { label: "burrata", value: "burrata" }
+          - { label: "bułka", value: "bułka" }
+          - { label: "bułka paryska", value: "bułka paryska" }
+          - { label: "bułka pełnoziarnista", value: "bułka pełnoziarnista" }
+          - { label: "bułka tarta", value: "bułka tarta" }
+          - { label: "cebula", value: "cebula" }
+          - { label: "cebula czerwona", value: "cebula czerwona" }
+          - { label: "cebula dymka", value: "cebula dymka" }
+          - { label: "chia", value: "chia" }
+          - { label: "chili", value: "chili" }
+          - { label: "chleb", value: "chleb" }
+          - { label: "chleb pełnoziarnisty", value: "chleb pełnoziarnisty" }
+          - { label: "chleb tostowy", value: "chleb tostowy" }
+          - { label: "chleb żytni", value: "chleb żytni" }
+          - { label: "ciecierzyca", value: "ciecierzyca" }
+          - { label: "coleslaw", value: "coleslaw" }
+          - { label: "cukier", value: "cukier" }
+          - { label: "cukier kokosowy", value: "cukier kokosowy" }
+          - { label: "cukier puder", value: "cukier puder" }
+          - { label: "cukinia", value: "cukinia" }
+          - { label: "curry", value: "curry" }
+          - { label: "cynamon", value: "cynamon" }
+          - { label: "cytryna", value: "cytryna" }
+          - { label: "czekolada", value: "czekolada" }
+          - { label: "czekolada gorzka", value: "czekolada gorzka" }
+          - { label: "czekolada organiczna", value: "czekolada organiczna" }
+          - { label: "czerwona cebula", value: "czerwona cebula" }
+          - { label: "czerwona fasola", value: "czerwona fasola" }
+          - { label: "czosnek", value: "czosnek" }
+          - { label: "czosnek suszony", value: "czosnek suszony" }
+          - { label: "daktyle", value: "daktyle" }
+          - { label: "drożdże", value: "drożdże" }
+          - { label: "drożdże świeże", value: "drożdże świeże" }
+          - { label: "dynia", value: "dynia" }
+          - { label: "dynia piżmowa", value: "dynia piżmowa" }
+          - { label: "dżem", value: "dżem" }
+          - { label: "ekstrakt waniliowy", value: "ekstrakt waniliowy" }
+          - { label: "erytrol", value: "erytrol" }
+          - { label: "erytrytol", value: "erytrytol" }
+          - { label: "fasola", value: "fasola" }
+          - { label: "fasola biała", value: "fasola biała" }
+          - { label: "fasolka szparagowa", value: "fasolka szparagowa" }
+          - { label: "frytki", value: "frytki" }
+          - { label: "gnocchi", value: "gnocchi" }
+          - { label: "gorzka czekolada", value: "gorzka czekolada" }
+          - { label: "granat", value: "granat" }
+          - { label: "groszek cukrowy", value: "groszek cukrowy" }
+          - { label: "gruszka", value: "gruszka" }
+          - { label: "grzyby", value: "grzyby" }
+          - { label: "grzyby suszone", value: "grzyby suszone" }
+          - { label: "herbatniki", value: "herbatniki" }
+          - { label: "imbir", value: "imbir" }
+          - { label: "indyk", value: "indyk" }
+          - { label: "jabłka", value: "jabłka" }
+          - { label: "jabłko", value: "jabłko" }
+          - { label: "jagody", value: "jagody" }
+          - { label: "jajka", value: "jajka" }
+          - { label: "jajko", value: "jajko" }
+          - { label: "jalapeno", value: "jalapeno" }
+          - { label: "jarmuż", value: "jarmuż" }
+          - { label: "jogurt", value: "jogurt" }
+          - { label: "jogurt grecki", value: "jogurt grecki" }
+          - { label: "jogurt naturalny", value: "jogurt naturalny" }
+          - { label: "jogurt skyr waniliowy", value: "jogurt skyr waniliowy" }
+          - { label: "kakao", value: "kakao" }
+          - { label: "kapusta biała", value: "kapusta biała" }
+          - { label: "karkówka wieprzowa", value: "karkówka wieprzowa" }
+          - { label: "kasza bulgur", value: "kasza bulgur" }
+          - { label: "kawa", value: "kawa" }
+          - { label: "ketchup", value: "ketchup" }
+          - { label: "kiełbasa", value: "kiełbasa" }
+          - { label: "kiełki", value: "kiełki" }
+          - { label: "kiełki fasoli mung", value: "kiełki fasoli mung" }
+          - { label: "kinder bueno", value: "kinder bueno" }
+          - { label: "kminek", value: "kminek" }
+          - { label: "kolendra", value: "kolendra" }
+          - { label: "komosa ryżowa", value: "komosa ryżowa" }
+          - { label: "koncentrat pomidorowy", value: "koncentrat pomidorowy" }
+          - { label: "koperek", value: "koperek" }
+          - { label: "kukurydza", value: "kukurydza" }
+          - { label: "kurczak", value: "kurczak" }
+          - { label: "kurczak nóżki", value: "kurczak nóżki" }
+          - { label: "kuskus", value: "kuskus" }
+          - { label: "limonka", value: "limonka" }
+          - { label: "limonki", value: "limonki" }
+          - { label: "liść laurowy", value: "liść laurowy" }
+          - { label: "majeranek", value: "majeranek" }
+          - { label: "majonez", value: "majonez" }
+          - { label: "majonez light", value: "majonez light" }
+          - { label: "makaron", value: "makaron" }
+          - { label: "makaron orzo", value: "makaron orzo" }
+          - { label: "makaron pełnoziarnisty kokardki", value: "makaron pełnoziarnisty kokardki" }
+          - { label: "makaron ryżowy", value: "makaron ryżowy" }
+          - { label: "makaron spaghetti", value: "makaron spaghetti" }
+          - { label: "makaron tagliatelle", value: "makaron tagliatelle" }
+          - { label: "makrela", value: "makrela" }
+          - { label: "makrela wędzona", value: "makrela wędzona" }
+          - { label: "maliny", value: "maliny" }
+          - { label: "mandarynka", value: "mandarynka" }
+          - { label: "mango", value: "mango" }
+          - { label: "marchew", value: "marchew" }
+          - { label: "marchewka", value: "marchewka" }
+          - { label: "mascarpone", value: "mascarpone" }
+          - { label: "masło", value: "masło" }
+          - { label: "masło klarowane", value: "masło klarowane" }
+          - { label: "masło migdałowe", value: "masło migdałowe" }
+          - { label: "masło orzechowe", value: "masło orzechowe" }
+          - { label: "migdały", value: "migdały" }
+          - { label: "miks sałat", value: "miks sałat" }
+          - { label: "mix sałat", value: "mix sałat" }
+          - { label: "miód", value: "miód" }
+          - { label: "mięso mielone", value: "mięso mielone" }
+          - { label: "mięso z indyka", value: "mięso z indyka" }
+          - { label: "mięso z uda kurczaka", value: "mięso z uda kurczaka" }
+          - { label: "mięta", value: "mięta" }
+          - { label: "mleko", value: "mleko" }
+          - { label: "mleko bez laktozy", value: "mleko bez laktozy" }
+          - { label: "mleko kokosowe", value: "mleko kokosowe" }
+          - { label: "mleko skondensowane odchudzone", value: "mleko skondensowane odchudzone" }
+          - { label: "mleko sojowe", value: "mleko sojowe" }
+          - { label: "morele suszone", value: "morele suszone" }
+          - { label: "mozzarella", value: "mozzarella" }
+          - { label: "mrożone warzywa", value: "mrożone warzywa" }
+          - { label: "muszarda sarepska", value: "muszarda sarepska" }
+          - { label: "musztarda", value: "musztarda" }
+          - { label: "mąka", value: "mąka" }
+          - { label: "mąka jaglana", value: "mąka jaglana" }
+          - { label: "mąka kokosowa", value: "mąka kokosowa" }
+          - { label: "mąka migdałowa", value: "mąka migdałowa" }
+          - { label: "mąka orkiszowa pełnoziarnista", value: "mąka orkiszowa pełnoziarnista" }
+          - { label: "mąka owsiana", value: "mąka owsiana" }
+          - { label: "mąka pszenna", value: "mąka pszenna" }
+          - { label: "mąka ryżowa", value: "mąka ryżowa" }
+          - { label: "napój migdałowy", value: "napój migdałowy" }
+          - { label: "napój owsiany", value: "napój owsiany" }
+          - { label: "napój roślinny", value: "napój roślinny" }
+          - { label: "napój sojowy", value: "napój sojowy" }
+          - { label: "nasiona chia", value: "nasiona chia" }
+          - { label: "nasionka chia", value: "nasionka chia" }
+          - { label: "natka pietruszki", value: "natka pietruszki" }
+          - { label: "ocet balsamiczny", value: "ocet balsamiczny" }
+          - { label: "ocet winny", value: "ocet winny" }
+          - { label: "odżywka białkowa", value: "odżywka białkowa" }
+          - { label: "ogórek", value: "ogórek" }
+          - { label: "ogórek zielony", value: "ogórek zielony" }
+          - { label: "ogórki kiszone", value: "ogórki kiszone" }
+          - { label: "ogórki konserwowe", value: "ogórki konserwowe" }
+          - { label: "olej", value: "olej" }
+          - { label: "olej kokosowy", value: "olej kokosowy" }
+          - { label: "olej lniany", value: "olej lniany" }
+          - { label: "olej roślinny", value: "olej roślinny" }
+          - { label: "olej ryżowy", value: "olej ryżowy" }
+          - { label: "olej rzepakowy", value: "olej rzepakowy" }
+          - { label: "olej sezamowy", value: "olej sezamowy" }
+          - { label: "oliwa", value: "oliwa" }
+          - { label: "oliwa czosnkowa", value: "oliwa czosnkowa" }
+          - { label: "oliwa z oliwek", value: "oliwa z oliwek" }
+          - { label: "oliwki", value: "oliwki" }
+          - { label: "oregano", value: "oregano" }
+          - { label: "orzech włoski", value: "orzech włoski" }
+          - { label: "orzechy", value: "orzechy" }
+          - { label: "orzechy brazylijskie", value: "orzechy brazylijskie" }
+          - { label: "orzechy nerkowca", value: "orzechy nerkowca" }
+          - { label: "orzechy pekan", value: "orzechy pekan" }
+          - { label: "orzechy włoskie", value: "orzechy włoskie" }
+          - { label: "orzeszki arachidowe", value: "orzeszki arachidowe" }
+          - { label: "orzeszki ziemne", value: "orzeszki ziemne" }
+          - { label: "panko", value: "panko" }
+          - { label: "papryczka chili", value: "papryczka chili" }
+          - { label: "papryczki padron", value: "papryczki padron" }
+          - { label: "papryka", value: "papryka" }
+          - { label: "papryka czerwona", value: "papryka czerwona" }
+          - { label: "papryka ostra", value: "papryka ostra" }
+          - { label: "papryka słodka", value: "papryka słodka" }
+          - { label: "papryka wędzona", value: "papryka wędzona" }
+          - { label: "parmezan", value: "parmezan" }
+          - { label: "passata pomidorowa", value: "passata pomidorowa" }
+          - { label: "pasta curry", value: "pasta curry" }
+          - { label: "pasta green curry", value: "pasta green curry" }
+          - { label: "pasta yellow curry", value: "pasta yellow curry" }
+          - { label: "pasta z tamaryndowca", value: "pasta z tamaryndowca" }
+          - { label: "pepperoni", value: "pepperoni" }
+          - { label: "pestki słonecznika", value: "pestki słonecznika" }
+          - { label: "pesto", value: "pesto" }
+          - { label: "pesto bazyliowe", value: "pesto bazyliowe" }
+          - { label: "pieczarki", value: "pieczarki" }
+          - { label: "pieczywo rustykalne", value: "pieczywo rustykalne" }
+          - { label: "pierś z kurczaka", value: "pierś z kurczaka" }
+          - { label: "pietruszka", value: "pietruszka" }
+          - { label: "pistacje", value: "pistacje" }
+          - { label: "polędwica wieprzowa", value: "polędwica wieprzowa" }
+          - { label: "polędwiczki kurczaka", value: "polędwiczki kurczaka" }
+          - { label: "pomarańcza", value: "pomarańcza" }
+          - { label: "pomidor", value: "pomidor" }
+          - { label: "pomidor malinowy", value: "pomidor malinowy" }
+          - { label: "pomidorki", value: "pomidorki" }
+          - { label: "pomidorki cherry", value: "pomidorki cherry" }
+          - { label: "pomidorki koktajlowe", value: "pomidorki koktajlowe" }
+          - { label: "pomidory", value: "pomidory" }
+          - { label: "pomidory koktajlowe", value: "pomidory koktajlowe" }
+          - { label: "pomidory krojone", value: "pomidory krojone" }
+          - { label: "pomidory suszone", value: "pomidory suszone" }
+          - { label: "por", value: "por" }
+          - { label: "proszek do pieczenia", value: "proszek do pieczenia" }
+          - { label: "przecier pomidorowy", value: "przecier pomidorowy" }
+          - { label: "przyprawa", value: "przyprawa" }
+          - { label: "przyprawa korzenna", value: "przyprawa korzenna" }
+          - { label: "pstrąg tęczowy", value: "pstrąg tęczowy" }
+          - { label: "pstrąg wędzony", value: "pstrąg wędzony" }
+          - { label: "puding białkowy waniliowy", value: "puding białkowy waniliowy" }
+          - { label: "płatki jaglane", value: "płatki jaglane" }
+          - { label: "płatki migdałowe", value: "płatki migdałowe" }
+          - { label: "płatki owsiane", value: "płatki owsiane" }
+          - { label: "płatki owsiane błyskawiczne", value: "płatki owsiane błyskawiczne" }
+          - { label: "rodzynki", value: "rodzynki" }
+          - { label: "roszponka", value: "roszponka" }
+          - { label: "rozmaryn", value: "rozmaryn" }
+          - { label: "rukola", value: "rukola" }
+          - { label: "ryż", value: "ryż" }
+          - { label: "ryż basmati", value: "ryż basmati" }
+          - { label: "ryż brązowy", value: "ryż brązowy" }
+          - { label: "ryż czerwony", value: "ryż czerwony" }
+          - { label: "ryż jaśminowy", value: "ryż jaśminowy" }
+          - { label: "ryż parboiled", value: "ryż parboiled" }
+          - { label: "ryż ugotowany", value: "ryż ugotowany" }
+          - { label: "rzodkiewka", value: "rzodkiewka" }
+          - { label: "sałata", value: "sałata" }
+          - { label: "sałata lodowa", value: "sałata lodowa" }
+          - { label: "sałata mieszana", value: "sałata mieszana" }
+          - { label: "sałata rzymska", value: "sałata rzymska" }
+          - { label: "schab pieczony", value: "schab pieczony" }
+          - { label: "schab wieprzowy", value: "schab wieprzowy" }
+          - { label: "ser", value: "ser" }
+          - { label: "ser cheddar", value: "ser cheddar" }
+          - { label: "ser feta", value: "ser feta" }
+          - { label: "ser grana padano", value: "ser grana padano" }
+          - { label: "ser homogenizowany ciasteczkowy", value: "ser homogenizowany ciasteczkowy" }
+          - { label: "ser homogenizowany waniliowy", value: "ser homogenizowany waniliowy" }
+          - { label: "ser mimolette", value: "ser mimolette" }
+          - { label: "ser mozzarella", value: "ser mozzarella" }
+          - { label: "ser parmezan", value: "ser parmezan" }
+          - { label: "ser piórko", value: "ser piórko" }
+          - { label: "ser wiejski", value: "ser wiejski" }
+          - { label: "ser śmietankowy", value: "ser śmietankowy" }
+          - { label: "ser żółty", value: "ser żółty" }
+          - { label: "serek", value: "serek" }
+          - { label: "serek blu", value: "serek blu" }
+          - { label: "serek wiejski", value: "serek wiejski" }
+          - { label: "serek śmietankowy", value: "serek śmietankowy" }
+          - { label: "serek śmietankowy chrzanowy", value: "serek śmietankowy chrzanowy" }
+          - { label: "sezam", value: "sezam" }
+          - { label: "siemię lniane", value: "siemię lniane" }
+          - { label: "skyr", value: "skyr" }
+          - { label: "skyr naturalny", value: "skyr naturalny" }
+          - { label: "skyr waniliowy", value: "skyr waniliowy" }
+          - { label: "skórka cytrynowa", value: "skórka cytrynowa" }
+          - { label: "skórka pomarańczowa", value: "skórka pomarańczowa" }
+          - { label: "soczewica zielona", value: "soczewica zielona" }
+          - { label: "sok z cytryny", value: "sok z cytryny" }
+          - { label: "sos pomidorowy", value: "sos pomidorowy" }
+          - { label: "sos rybny", value: "sos rybny" }
+          - { label: "sos sojowy", value: "sos sojowy" }
+          - { label: "sos tatarski", value: "sos tatarski" }
+          - { label: "sos teriyaki", value: "sos teriyaki" }
+          - { label: "sos winegret", value: "sos winegret" }
+          - { label: "spaghetti", value: "spaghetti" }
+          - { label: "suszone morele", value: "suszone morele" }
+          - { label: "suszone pomidory", value: "suszone pomidory" }
+          - { label: "suszone żurawiny", value: "suszone żurawiny" }
+          - { label: "syrop klonowy", value: "syrop klonowy" }
+          - { label: "szczypiorek", value: "szczypiorek" }
+          - { label: "szparagi", value: "szparagi" }
+          - { label: "szpinak", value: "szpinak" }
+          - { label: "szynka", value: "szynka" }
+          - { label: "szynka wiejska", value: "szynka wiejska" }
+          - { label: "szynka wędzona", value: "szynka wędzona" }
+          - { label: "sól", value: "sól" }
+          - { label: "tahini", value: "tahini" }
+          - { label: "tortilla", value: "tortilla" }
+          - { label: "tortilla pełnoziarnista", value: "tortilla pełnoziarnista" }
+          - { label: "tortilla pszenna", value: "tortilla pszenna" }
+          - { label: "truskawki", value: "truskawki" }
+          - { label: "tuńczyk", value: "tuńczyk" }
+          - { label: "twaróg", value: "twaróg" }
+          - { label: "twaróg chudy", value: "twaróg chudy" }
+          - { label: "twaróg półtłusty", value: "twaróg półtłusty" }
+          - { label: "tymianek", value: "tymianek" }
+          - { label: "wanilia", value: "wanilia" }
+          - { label: "wieprzowina", value: "wieprzowina" }
+          - { label: "wino białe", value: "wino białe" }
+          - { label: "wiórki kokosowe", value: "wiórki kokosowe" }
+          - { label: "woda", value: "woda" }
+          - { label: "wołowina", value: "wołowina" }
+          - { label: "wołowina mielona", value: "wołowina mielona" }
+          - { label: "ziemniaki", value: "ziemniaki" }
+          - { label: "zioła", value: "zioła" }
+          - { label: "łopatka wieprzowa", value: "łopatka wieprzowa" }
+          - { label: "łosoś", value: "łosoś" }
+          - { label: "łosoś wędzony", value: "łosoś wędzony" }
+          - { label: "śliwki", value: "śliwki" }
+          - { label: "śmietana", value: "śmietana" }
+          - { label: "śmietana 12%", value: "śmietana 12%" }
+          - { label: "śmietana 18%", value: "śmietana 18%" }
+          - { label: "śmietana 30%", value: "śmietana 30%" }
+          - { label: "śmietana kremowa", value: "śmietana kremowa" }
+          - { label: "śmietanka 30%", value: "śmietanka 30%" }
+          - { label: "żurawina", value: "żurawina" }
+          - { label: "żółtka", value: "żółtka" }
+        hint: "Wybierz z listy składników (wpisz lub kliknij, aby zobaczyć wszystkie)."
+      - label: Kategorie
+        name: categories
+        widget: select
+        multiple: false
+        required: true
+        options:
+          - { label: "śniadania", value: "śniadania" }
+          - { label: "obiady", value: "obiady" }
+          - { label: "sałatki", value: "salatki" }
+          - { label: "desery", value: "desery" }
+          - { label: "sosy", value: "sosy" }
+      - label: Podkategorie
+        name: subcategories
+        widget: select
+        required: false
+        options: 
+          - { label: "słodkie", value: "słodkie" }
+          - { label: "słone", value: "słone" }
+      - { label: Porcje, name: servings, widget: number, required: false, min: 1 }
+      - { label: Czas przygotowania (min), name: prep_time, widget: number, required: false, min: 0 }
+      - { label: Czy wymaga gotowania, name: cook, widget: boolean, required: false, default: false }
+      - { label: Czas gotowania (minuty/godziny), name: cook_time, widget: string, required: false }
+      - { label: Jednostka czasu gotowania, name: cook_increment, widget: string, required: false, hint: "minutes | hours" }
+      - { label: Kalorie, name: calories, widget: number, required: false, min: 0 }
+      - { label: Białko, name: protein, widget: number, required: false, min: 0 }
+      - { label: Tłuszcz, name: fat, widget: number, required: false, min: 0 }
+      - { label: Węglowodany, name: carbohydrate, widget: number, required: false, min: 0 }
+      - { label: Link (YouTube itp.), name: link, widget: string, required: false }
+      - label: Low FODMAP
+        name: fodmap
+        widget: object
+        required: false
+        collapsed: true
+        fields:
+          - { label: Status, name: status, widget: string, required: false }
+          - { label: Notatki, name: notes, widget: text, required: false }
+          - label: Zamienniki
+            name: substitutions
+            widget: list
+            required: false
+            field: { label: Zamiennik, name: substitution, widget: string }
+          - { label: Porcja OK, name: serving_ok, widget: string, required: false }
+      - label: Treść
+        name: body
+        widget: markdown
+        hint: "Treść przepisu"
+
   - name: weekly_plans
     label: Plany Tygodniowe
     label_singular: Plan Tygodniowy
