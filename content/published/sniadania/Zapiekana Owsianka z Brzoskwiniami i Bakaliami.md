@@ -8,7 +8,7 @@ date: 2025-11-01T12:00:00-00:00
 categories: śniadania
 tags: ["szybkie", "owsianka"]
 tagline: "Rozgrzewająca zapiekana owsianka z brzoskwiniami i bakaliami, idealna na zimowe dni."
-ingredients: ["płatki owsiane", "mleko", "odżywka białkowa", "masło orzechowe", "jajka", "brzoskwinie", "bakalie", "orzechy włoskie", "mandarynka", "skórka pomarańczowa", "syrop z brzoskwiń"]
+ingredients: ["płatki owsiane", "mleko", "odżywka białkowa", "masło orzechowe", "jajka", "orzech włoski", "żurawina suszona", "mandarynka"]
 servings: 3
 prep_time: 15
 cook: true
@@ -26,40 +26,35 @@ fodmap:
 ---
 
 ## Składniki
-*   Płatki owsiane: 150 g
-*   Proszek do pieczenia: 3 g
-*   Mleko: 150 ml (do namoczenia) + 120 ml (do masy)
-*   Odżywka białkowa (użyłem o smaku masła orzechowego)
-*   Masło orzechowe: 1 wielka łyżka
-*   Jajka: 2 szt.
-*   Koncentrat waniliowy: 3 krople
-*   Cynamon: 1 łyżeczka
-*   Brzoskwinia z puszki: 1,5 szt.
-*   Syrop z brzoskwiń (opcjonalnie, jako tip)
-*   Bakalie (żurawina)
-*   Orzechy włoskie (poszatkowane)
-*   Mandarynka: 1 szt.
-*   Skórka z pomarańczy
+*   Płatki owsiane 150 g
+*   Mleko 150 ml
+*   2 jajka
+*   Cynamon łyżeczka
+*   Proszek do pieczenia 3 g
+*   Orzech włoski 30 g
+*   Żurawina suszona 30 g
+*   Aromat waniliowe 3 krople
+*   Odżywka białkowa 90g
+*   Mleko lub woda 130 ml
+*   Masło orzechowe 50 g
+*   Mandarynka
 
 ## Sposób przygotowania
 
 ### Przygotowanie Masy Owsianej
 
 1. **Namaczanie płatków:** Do miski wsyp 150 g płatków owsianych i dodaj suchy składnik, czyli 3 g proszku do pieczenia. Dolej 150 ml mleka. Przemieszaj i odstaw, aby płatki wchłonęły wilgoć. Dzięki temu po upieczeniu będą miękkie i praktycznie niewyczuwalne w daniu.
-2. **Przygotowanie bazy:** Do kielicha blendera wlej około 120 ml mleka i dodaj odżywkę białkową, aby podbić ilość białka w porcji. Dodaj wielką łychę masła orzechowego dla kremowości i porcji zdrowych tłuszczów. Zblenduj na naprawdę gęstą mieszankę.
+2. **Przygotowanie bazy:** Do kielicha blendera wlej około 130 ml mleka lub wody i dodaj 90g odżywki białkowej, aby podbić ilość białka w porcji. Dodaj 50 g masła orzechowego dla kremowości i porcji zdrowych tłuszczów. Zblenduj na naprawdę gęstą mieszankę.
 3. **Łączenie składników:** Przełóż zblendowaną masę do miski z namoczonymi płatkami. Dodaj dwa jajka i wymieszaj.
 4. **Dodatki i aromaty:**
-   * Dodaj dosłownie trzy krople koncentratu waniliowego.
+   * Dodaj dosłownie trzy krople aromatu waniliowego.
    * Wsyp jedną łyżeczkę cynamonu.
-   * Pokrój półtorej brzoskwini z puszki w średnią kostkę i dodaj do masy.
-   * **Tip:** Jeśli masa jest zbyt gęsta, fajnym trikiem jest dolanie odrobiny syropu z brzoskwiń.
-   * Dodaj bakalie (żurawinę) i poszatkowane orzechy włoskie, zostawiając kilka do dekoracji.
+   * Dodaj 30 g żurawiny suszonej i 30 g poszatkowanych orzechów włoskich, zostawiając kilka do dekoracji.
 5. **Przygotowanie do pieczenia:**
    * Przygotuj trzy żaroodporne pojemniki o pojemności 640 ml każdy. Można je wysmarować olejem lub masłem, ale ja używam papieru do pieczenia, którym dokładnie wyścielam każdy pojemnik.
    * Podziel masę równo na trzy porcje i wylej do pojemników.
    * Obierz jedną mandarynkę, starając się pozbyć białych skórek. Ułóż kawałki na wierzchu owsianek.
-   * Udekoruj górę resztką żurawiny.
-   * Na koniec, dla rewelacyjnego aromatu, zetrzyj trochę skórki z dobrze umytej pomarańczy (tej samej, której użyjemy do kolacji). Użyj tylko pomarańczowej części, jak najmniej białej, aby uniknąć goryczy.
+   * Udekoruj górę resztką żurawiny i orzechów.
 
 ### Pieczenie i Finalne Wskazówki
 
