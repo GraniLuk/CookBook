@@ -445,8 +445,12 @@ const RecipePreview = createClass({
     }
 });
 
-// Register the preview template
-CMS.registerPreviewTemplate('recipes', RecipePreview);
+// Register the preview template for all recipe collections
+CMS.registerPreviewTemplate('sniadania', RecipePreview);
+CMS.registerPreviewTemplate('obiady', RecipePreview);
+CMS.registerPreviewTemplate('salatki', RecipePreview);
+CMS.registerPreviewTemplate('desery', RecipePreview);
+CMS.registerPreviewTemplate('sosy', RecipePreview);
 
 // Optional: Register preview styles
 CMS.registerPreviewStyle('/CookBook/css/bulma.min.css');
