@@ -38,7 +38,7 @@ foreach ($category in $categories) {
             
             # Normalize category name
             $recipeCategory = $recipeCategory -replace 'śniadania', 'sniadania' `
-                                               -replace 'sałatki', 'salatki'
+                -replace 'sałatki', 'salatki'
             
             # Check if file is in wrong folder
             if ($recipeCategory -and $recipeCategory -ne $category) {
