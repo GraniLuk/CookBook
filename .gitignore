@@ -10,3 +10,4 @@ node_modules/
 gha-creds-*.json
 .obsidian/
 .vscode/settings.json
+tests/fusejs-test-report-v7.json

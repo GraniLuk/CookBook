@@ -8,6 +8,8 @@ var fuseOptions = {
   location: 0,
   distance: 100,
   minMatchCharLength: 1,
+  ignoreLocation: true,
+  ignoreDiacritics: true,
   keys: [
     { name: "title", weight: 0.8 },
     { name: "contents", weight: 0.5 },

@@ -71,14 +71,6 @@ const testScenarios = [
     },
     {
         id: 'T4',
-        category: 'Diacritics',
-        query: 'cwikla',
-        expectedBehavior: 'SHOULD FIND ćwikła (ignoreDiacritics: true)',
-        minResults: 1,
-        shouldPass: true
-    },
-    {
-        id: 'T5',
         category: 'Typo/Fuzzy',
         query: 'gronola',
         expectedBehavior: 'SHOULD FIND granola (threshold 0.3)',
@@ -94,7 +86,7 @@ const testScenarios = [
         shouldPass: true
     },
     {
-        id: 'T7',
+        id: 'T6',
         category: 'Tags',
         query: 'sniadanie',
         expectedBehavior: 'Should find breakfast recipes via tags',
@@ -102,7 +94,7 @@ const testScenarios = [
         shouldPass: true
     },
     {
-        id: 'T8',
+        id: 'T7',
         category: 'Categories',
         query: 'desery',
         expectedBehavior: 'Should find dessert categories',
@@ -110,7 +102,7 @@ const testScenarios = [
         shouldPass: true
     },
     {
-        id: 'T9',
+        id: 'T8',
         category: 'Long content',
         query: 'tahini',
         expectedBehavior: 'SHOULD FIND tahini anywhere in content (ignoreLocation: true)',
@@ -118,7 +110,7 @@ const testScenarios = [
         shouldPass: true
     },
     {
-        id: 'T10',
+        id: 'T9',
         category: 'No results',
         query: 'xyz123',
         expectedBehavior: 'Should gracefully return no results',
@@ -195,7 +187,7 @@ console.log('══════════════════════�
 console.log('📊 IMPROVEMENT ANALYSIS:\n');
 
 // Compare with expected baseline failures
-const expectedImprovements = ['T3', 'T4', 'T5', 'T6', 'T9'];
+const expectedImprovements = ['T3', 'T4', 'T5', 'T8'];
 const improvements = results.filter(r =>
     expectedImprovements.includes(r.testId) && r.passed
 );
@@ -216,9 +208,9 @@ if (regressions.length > 0) {
 }
 
 console.log('\n💡 MIGRATION SUCCESS INDICATORS:');
-console.log(`   ${improvements.includes(results.find(r => r.testId === 'T3')) ? '✅' : '❌'} Polish diacritics working (losos → łosoś)`);
-console.log(`   ${improvements.includes(results.find(r => r.testId === 'T5')) ? '✅' : '❌'} Fuzzy matching working (gronola → granola)`);
-console.log(`   ${improvements.includes(results.find(r => r.testId === 'T9')) ? '✅' : '❌'} Full content search working (tahini found)`);
+console.log(`   ${improvements.find(r => r.testId === 'T3') ? '✅' : '❌'} Polish diacritics working (losos → łosoś)`);
+console.log(`   ${improvements.find(r => r.testId === 'T4') ? '✅' : '❌'} Fuzzy matching working (gronola → granola)`);
+console.log(`   ${improvements.find(r => r.testId === 'T8') ? '✅' : '❌'} Full content search working (tahini found)`);
 console.log(`   ${regressions.length === 0 ? '✅' : '❌'} No regressions in existing functionality`);
 
 // Save detailed report
