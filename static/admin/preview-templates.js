@@ -14,8 +14,8 @@ const RecipePreview = createClass({
         const author = widgetFor('author');
         const tagline = widgetFor('tagline');
         const recipeImage = entry.getIn(['data', 'recipe_image'], '');
-        const tags = widgetsFor('tags');
-        const ingredients = widgetsFor('ingredients');
+        const tagsData = entry.getIn(['data', 'tags'], []);
+        const ingredientsData = entry.getIn(['data', 'ingredients'], []);
         const servings = entry.getIn(['data', 'servings'], '');
         const prepTime = entry.getIn(['data', 'prep_time'], '');
         const cookTime = entry.getIn(['data', 'cook_time'], '');
@@ -72,9 +72,9 @@ const RecipePreview = createClass({
                 ),
 
                 // Tags
-                tags && tags.toArray().length > 0 && h('div', { style: { marginBottom: '2rem' } },
+                tagsData && tagsData.size > 0 && h('div', { style: { marginBottom: '2rem' } },
                     h('strong', {}, 'Tagi: '),
-                    tags.map((tag, i) =>
+                    tagsData.map((tag, i) =>
                         h('span', {
                             key: i,
                             style: {
@@ -85,14 +85,14 @@ const RecipePreview = createClass({
                                 borderRadius: '4px',
                                 fontSize: '0.9rem'
                             }
-                        }, tag)
+                        }, widgetFor('tags.' + i))
                     ).toArray()
                 ),
 
                 // Ingredients
-                ingredients && ingredients.toArray().length > 0 && h('div', { style: { marginBottom: '2rem' } },
+                ingredientsData && ingredientsData.size > 0 && h('div', { style: { marginBottom: '2rem' } },
                     h('strong', {}, 'Składniki: '),
-                    ingredients.map((ingredient, i) =>
+                    ingredientsData.map((ingredient, i) =>
                         h('span', {
                             key: i,
                             style: {
@@ -104,7 +104,7 @@ const RecipePreview = createClass({
                                 fontSize: '0.9rem',
                                 border: '1px solid #ffe0b2'
                             }
-                        }, ingredient)
+                        }, widgetFor('ingredients.' + i))
                     ).toArray()
                 ),
 
