@@ -1,28 +1,40 @@
 ---
+title: Szybki Sos Grzybowy z Kurczakiem w 15 Minut
+author: Policzone Szamy
 draft: false
 readyToTest: true
-title: "Szybki Sos Grzybowy z Kurczakiem w 15 Minut"
-author: "Policzone Szamy"
+tagline: Kremowy sos grzybowy z kurczakiem i makaronem – gotowy w 15 minut.
 recipe_image: images/recipe-headers/sos_grzybowy_kurczak.avif
-date: 2025-10-29T12:00:00-00:00
-categories: ["obiady"]
-tags: ["szybkie", "włoskie"]
-tagline: "Kremowy sos grzybowy z kurczakiem i makaronem – gotowy w 15 minut."
-ingredients: ["kurczak", "grzyby suszone", "makaron", "mleko skondensowane odchudzone", "cebula", "masło", "wino białe", "oliwa z oliwek"]
+tags:
+  - szybkie
+  - włoskie
+ingredients:
+  - kurczak
+  - grzyby suszone
+  - makaron
+  - mleko skondensowane odchudzone
+  - cebula
+  - masło
+  - wino białe
+  - oliwa z oliwek
+categories: obiady
 servings: 2
 prep_time: 10
 cook: true
 cook_time: 15
 calories: 757
 protein: 69
+link: https://www.youtube.com/watch?v=NWKkjC7qUH0
+fodmap:
+  status: caution
+  serving_ok: OK w tej porcji, ale unikać cebuli jeśli wrażliwy
+  notes: Cebula wysoka w FODMAP; mleko skondensowane średnie.
+  substitutions:
+    - Zastąpić cebulę szczypiorkiem
+    - Użyć mleka kokosowego zamiast skondensowanego dla niższego FODMAP
+date: 2025-10-29T12:00:00-00:00
 fat: 15
 carbohydrate: 80
-link: "https://www.youtube.com/watch?v=NWKkjC7qUH0"
-fodmap:
-  status: "caution"
-  serving_ok: "OK w tej porcji, ale unikać cebuli jeśli wrażliwy"
-  notes: "Cebula wysoka w FODMAP; mleko skondensowane średnie."
-  substitutions: ["Zastąpić cebulę szczypiorkiem", "Użyć mleka kokosowego zamiast skondensowanego dla niższego FODMAP"]
 ---
 
 ## Składniki
