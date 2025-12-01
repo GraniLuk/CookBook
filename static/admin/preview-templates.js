@@ -140,7 +140,7 @@ const RecipePreview = createClass({
                     ).toArray()
                 ),
 
-                // Stats Grid
+                // Stats Grid - each stat clickable to focus its field
                 h('div', {
                     className: 'recipe-meta',
                     style: {
@@ -153,15 +153,39 @@ const RecipePreview = createClass({
                         borderRadius: '8px'
                     }
                 },
-                    servings && h('div', {},
+                    servings && h('div', {
+                        style: { cursor: 'pointer', padding: '0.5rem', margin: '-0.5rem', borderRadius: '4px', transition: 'background-color 0.2s' },
+                        onClick: () => {
+                            const servingsField = document.querySelector('[data-testid="servings-field"], [id*="servings"]');
+                            if (servingsField) servingsField.focus();
+                        },
+                        onMouseEnter: (e) => { e.currentTarget.style.backgroundColor = '#e8e8e8'; },
+                        onMouseLeave: (e) => { e.currentTarget.style.backgroundColor = 'transparent'; }
+                    },
                         h('div', { style: { fontWeight: 'bold', fontSize: '0.9rem', color: '#666' } }, 'Porcje'),
                         h('div', { style: { fontSize: '1.5rem', fontWeight: 'bold' } }, servings)
                     ),
-                    prepTime && h('div', {},
+                    prepTime && h('div', {
+                        style: { cursor: 'pointer', padding: '0.5rem', margin: '-0.5rem', borderRadius: '4px', transition: 'background-color 0.2s' },
+                        onClick: () => {
+                            const prepTimeField = document.querySelector('[data-testid="prep_time-field"], [id*="prep_time"]');
+                            if (prepTimeField) prepTimeField.focus();
+                        },
+                        onMouseEnter: (e) => { e.currentTarget.style.backgroundColor = '#e8e8e8'; },
+                        onMouseLeave: (e) => { e.currentTarget.style.backgroundColor = 'transparent'; }
+                    },
                         h('div', { style: { fontWeight: 'bold', fontSize: '0.9rem', color: '#666' } }, 'Przygotowanie'),
                         h('div', { style: { fontSize: '1.5rem', fontWeight: 'bold' } }, prepTime + ' min')
                     ),
-                    cookTime && h('div', {},
+                    cookTime && h('div', {
+                        style: { cursor: 'pointer', padding: '0.5rem', margin: '-0.5rem', borderRadius: '4px', transition: 'background-color 0.2s' },
+                        onClick: () => {
+                            const cookTimeField = document.querySelector('[data-testid="cook_time-field"], [id*="cook_time"]');
+                            if (cookTimeField) cookTimeField.focus();
+                        },
+                        onMouseEnter: (e) => { e.currentTarget.style.backgroundColor = '#e8e8e8'; },
+                        onMouseLeave: (e) => { e.currentTarget.style.backgroundColor = 'transparent'; }
+                    },
                         h('div', { style: { fontWeight: 'bold', fontSize: '0.9rem', color: '#666' } }, 'Gotowanie'),
                         h('div', { style: { fontSize: '1.5rem', fontWeight: 'bold' } }, cookTime)
                     )
