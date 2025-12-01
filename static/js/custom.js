@@ -4,7 +4,7 @@ summaryInclude = 60;
 var fuseOptions = {
   shouldSort: true,
   includeMatches: true,
-  threshold: 0.0,
+  threshold: 0.3,
   location: 0,
   distance: 100,
   minMatchCharLength: 1,
