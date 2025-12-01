@@ -1,28 +1,40 @@
 ---
+title: Zapiekana Owsianka Świąteczna
+author: Policzone Szamy
 draft: false
+queued: true
 readyToTest: true
-title: "Zapiekana Owsianka Świąteczna"
-author: "Policzone Szamy"
+tagline: Rozgrzewająca zapiekana owsianka z brzoskwiniami i bakaliami, idealna
+  na zimowe dni.
 recipe_image: images/recipe-headers/zapiekana_owsianka_brzoskwinie.avif
-date: 2025-11-01T12:00:00-00:00
+tags:
+  - szybkie
+  - owsianka
+ingredients:
+  - płatki owsiane
+  - mleko
+  - odżywka białkowa
+  - masło orzechowe
+  - jajka
+  - orzech włoski
+  - żurawina suszona
+  - mandarynka
 categories: śniadania
-tags: ["szybkie", "owsianka"]
-tagline: "Rozgrzewająca zapiekana owsianka z brzoskwiniami i bakaliami, idealna na zimowe dni."
-ingredients: ["płatki owsiane", "mleko", "odżywka białkowa", "masło orzechowe", "jajka", "orzech włoski", "żurawina suszona", "mandarynka"]
 servings: 3
 prep_time: 15
 cook: true
 cook_time: 35
 calories: 600
 protein: 25
-fat: 20
-carbohydrate: 70
 link: https://youtu.be/nbZB9V3N6LY?t=119
 fodmap:
-  status: "yes"
-  serving_ok: "OK w tej porcji"
-  notes: "Wszystkie składniki są bezpieczne dla low FODMAP w małych ilościach."
+  status: yes
+  serving_ok: OK w tej porcji
+  notes: Wszystkie składniki są bezpieczne dla low FODMAP w małych ilościach.
   substitutions: []
+date: 2025-11-01T12:00:00-00:00
+fat: 20
+carbohydrate: 70
 ---
 
 ## Składniki
