@@ -31,6 +31,7 @@ collections:
       depth: 2
       summary: "{{title}}"
     editor:
+      preview: true
       visualEditing: true
     fields:
       - { label: Tytuł, name: title, widget: string }

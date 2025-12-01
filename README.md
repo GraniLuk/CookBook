@@ -84,6 +84,13 @@ hugo -D
 - Output is in `public/`. Publish to GitHub Pages (project pages) so it serves under `/CookBook/`.
 - Live site: [graniluk.github.io/CookBook](https://graniluk.github.io/CookBook/)
 
+## CMS (Decap CMS)
+
+- Admin panel: `/admin/` (requires authentication)
+- **Visual Editing enabled** – click on content in the preview pane to edit fields directly
+- Custom preview templates match the Hugo site's styling
+- See [docs/VISUAL_EDITING.md](docs/VISUAL_EDITING.md) for details on the click-to-edit feature
+
 ## Gotchas
 
 - Asset URLs: always use `asset-url.html`. Do not hardcode `/CookBook`.
