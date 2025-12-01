@@ -13,7 +13,6 @@ const RecipePreview = createClass({
         const title = widgetFor('title');
         const author = widgetFor('author');
         const tagline = widgetFor('tagline');
-        const recipeImage = entry.getIn(['data', 'recipe_image'], '');
         const category = entry.getIn(['data', 'categories'], '');
         const subcategory = entry.getIn(['data', 'subcategories'], '');
         const tagsData = entry.getIn(['data', 'tags'], []);
@@ -27,8 +26,9 @@ const RecipePreview = createClass({
         const carbohydrate = entry.getIn(['data', 'carbohydrate'], '');
         const body = widgetFor('body');
 
-        // Get image URL
-        const imageUrl = recipeImage ? getAsset(recipeImage).toString() : '';
+        // Get image URL - use raw data for image path to avoid encoding issues
+        const recipeImageRaw = entry.getIn(['data', 'recipe_image'], '');
+        const imageUrl = recipeImageRaw ? getAsset(recipeImageRaw).toString() : '';
 
         return h('div', { className: 'recipe-preview' },
             // Hero Section
