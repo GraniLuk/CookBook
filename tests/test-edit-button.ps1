@@ -22,14 +22,14 @@ try {
     # Test patterns
     $testFiles = @(
         @{
-            Path = "public\published\obiady\kuskus_w_marokanskim_klimacie\index.html"
+            Path            = "public\published\obiady\kuskus_w_marokanskim_klimacie\index.html"
             ExpectedPattern = "/CookBook/admin/#/collections/obiady/entries/"
-            Name = "Obiady recipe"
+            Name            = "Obiady recipe"
         },
         @{
-            Path = "public\published\sniadania\*.html"
+            Path            = "public\published\sniadania\*.html"
             ExpectedPattern = "/CookBook/admin/#/collections/sniadania/entries/"
-            Name = "Sniadania recipes"
+            Name            = "Sniadania recipes"
         }
     )
     
@@ -53,12 +53,14 @@ try {
                     if ($content -match "%5[bB]|%5[dD]") {
                         Write-Host "  ⚠️  Warning: Found URL-encoded brackets in $($file.Name)" -ForegroundColor Yellow
                     }
-                } else {
+                }
+                else {
                     Write-Host "  ❌ $($test.Name): $($file.Name) - Pattern not found" -ForegroundColor Red
                     $failed++
                 }
             }
-        } else {
+        }
+        else {
             Write-Host "  ⚠️  No files found matching: $($test.Path)" -ForegroundColor Yellow
         }
     }
@@ -73,11 +75,13 @@ try {
     if ($failed -gt 0) {
         Write-Host "`n❌ Some tests failed!" -ForegroundColor Red
         exit 1
-    } else {
+    }
+    else {
         Write-Host "`n✅ All tests passed!" -ForegroundColor Green
         exit 0
     }
     
-} finally {
+}
+finally {
     Pop-Location
 }
