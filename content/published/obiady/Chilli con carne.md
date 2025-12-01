@@ -7,7 +7,7 @@ date: 2025-06-18T12:00:00-00:00
 categories: obiady
 tags: ["instant pot", "meksykańskie"]
 tagline: "TOP Policzonej Szamy – pyszne chili con carne!"
-ingredients: ["wołowina", "cebula", "czosnek", "marchew", "pomidory", "fasola"]
+ingredients: ["wołowina", "cebula", "czosnek", "marchew", "pomidory", "czerwona fasola"]
 servings: 6
 prep_time: 20
 cook: true

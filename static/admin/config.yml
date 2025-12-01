@@ -148,7 +148,6 @@ _shared_fields:
       - { label: "ekstrakt waniliowy", value: "ekstrakt waniliowy" }
       - { label: "erytrol", value: "erytrol" }
       - { label: "erytrytol", value: "erytrytol" }
-      - { label: "fasola", value: "fasola" }
       - { label: "fasola biała", value: "fasola biała" }
       - { label: "fasolka szparagowa", value: "fasolka szparagowa" }
       - { label: "frytki", value: "frytki" }
