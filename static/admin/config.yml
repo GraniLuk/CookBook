@@ -17,6 +17,9 @@ slug:
   encoding: ascii
   clean_accents: true
   sanitize_replacement: "-"
+logo:
+  src: /CookBook/images/logo.webp   # required, replaces logo_url
+  show_in_header: true   # optional boolean, default is false
 
 # Shared field definitions (YAML anchors)
 shared_fields:
