@@ -55,12 +55,17 @@
                     {{ end }}
                     <div id="shareButton" class="is-rounded media-badge media-badge--right">
                         {{- $collection := "sniadania" -}}
-                        {{- with .Params.categories -}}
-                        {{- if reflect.IsSlice . -}}
-                        {{- $collection = index . 0 -}}
-                        {{- else -}}
-                        {{- $collection = . -}}
-                        {{- end -}}
+                        {{- $filePath := replace .File.Path "\\" "/" -}}
+                        {{- if or (strings.Contains $filePath "published/obiady/") (strings.Contains $filePath "/obiady/") -}}
+                        {{- $collection = "obiady" -}}
+                        {{- else if or (strings.Contains $filePath "published/sniadania/") (strings.Contains $filePath "/sniadania/") -}}
+                        {{- $collection = "sniadania" -}}
+                        {{- else if or (strings.Contains $filePath "published/kolacje/") (strings.Contains $filePath "/kolacje/") -}}
+                        {{- $collection = "kolacje" -}}
+                        {{- else if or (strings.Contains $filePath "published/desery/") (strings.Contains $filePath "/desery/") -}}
+                        {{- $collection = "desery" -}}
+                        {{- else if or (strings.Contains $filePath "published/przekaski/") (strings.Contains $filePath "/przekaski/") -}}
+                        {{- $collection = "przekaski" -}}
                         {{- end -}}
                         <a href="/CookBook/admin/#/collections/{{ $collection }}/entries/{{ .File.ContentBaseName }}"
                             target="_blank" rel="noopener" aria-label="Edit recipe" class="unstyled-btn">
