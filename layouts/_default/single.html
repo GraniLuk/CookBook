@@ -5,20 +5,20 @@
             <div class="is-flex recipe-hero-wrap" style="justify-content: center; position: relative;">
                 <div class="recipe-status-icons">
                     {{ if .Params.favourite }}
-                        <span class="icon is-large has-text-warning">
-                            <i class="fas fa-star"></i>
-                        </span>
+                    <span class="icon is-large has-text-warning">
+                        <i class="fas fa-star"></i>
+                    </span>
                     {{ end }}
                     {{ if .Params.queued }}
-                        <span class="icon is-large">
-                            <i class="fas fa-hourglass"></i>
-                        </span>
+                    <span class="icon is-large">
+                        <i class="fas fa-hourglass"></i>
+                    </span>
                     {{ end }}
                 </div>
                 <figure class="image recipe-hero">
                     {{- $image_url := partial "asset-url.html" "/images/defaultImage.avif" -}}
                     {{- if and .Params.recipe_image (fileExists (printf "static/%s" .Params.recipe_image)) -}}
-                        {{- $image_url = partial "asset-url.html" (printf "/%s" .Params.recipe_image) -}}
+                    {{- $image_url = partial "asset-url.html" (printf "/%s" .Params.recipe_image) -}}
                     {{- end -}}
                     <img src="{{ $image_url }}" alt="Recipe image">
                     <div class="recipe-hero__gradient" aria-hidden="true"></div>
@@ -30,29 +30,36 @@
                     </div>
                     {{- $videoFileHref := "" -}}
                     {{- with .Params.video_file -}}
-                        {{- $videoFileHref = partial "asset-url.html" (printf "/%s" .) -}}
+                    {{- $videoFileHref = partial "asset-url.html" (printf "/%s" .) -}}
                     {{- end -}}
                     {{- $youtubeHref := "" -}}
                     {{- with .Params.link -}}
-                        {{- $youtubeHref = . -}}
+                    {{- $youtubeHref = . -}}
                     {{- end -}}
                     {{- $modalId := printf "recipe-video-modal-%s" (anchorize .Title) -}}
                     {{ if or $youtubeHref $videoFileHref }}
                     <div id="mediaButtons" class="is-rounded media-badge media-badge--left">
                         {{ if $youtubeHref }}
-                        <a href="{{ $youtubeHref }}" target="_blank" rel="noopener" aria-label="Otwórz wideo na YouTube">
+                        <a href="{{ $youtubeHref }}" target="_blank" rel="noopener"
+                            aria-label="Otwórz wideo na YouTube">
                             <i class="fab fa-youtube" aria-hidden="true"></i>
                         </a>
                         {{ end }}
                         {{ if $videoFileHref }}
-                        <button type="button" class="unstyled-btn" aria-label="Odtwórz lokalne wideo" data-video-modal-trigger="{{ $modalId }}">
+                        <button type="button" class="unstyled-btn" aria-label="Odtwórz lokalne wideo"
+                            data-video-modal-trigger="{{ $modalId }}">
                             <i class="fas fa-film" aria-hidden="true"></i>
                         </button>
                         {{ end }}
                     </div>
                     {{ end }}
                     <div id="shareButton" class="is-rounded media-badge media-badge--right">
-                        <a href="/CookBook/admin/#/collections/recipes/entries/{{ .File.ContentBaseName }}" target="_blank" rel="noopener" aria-label="Edit recipe" class="unstyled-btn">
+                        {{- $collection := "sniadania" -}}
+                        {{- with .Params.categories -}}
+                        {{- $collection = . -}}
+                        {{- end -}}
+                        <a href="/CookBook/admin/#/collections/{{ $collection }}/entries/{{ .File.ContentBaseName }}"
+                            target="_blank" rel="noopener" aria-label="Edit recipe" class="unstyled-btn">
                             <i class="fas fa-pen-to-square" aria-hidden="true"></i>
                         </a>
                         <button onclick="shareRecipe()" aria-label="Share recipe" class="unstyled-btn">
@@ -63,7 +70,8 @@
             </div>
 
             {{ if $videoFileHref }}
-            <div id="{{ $modalId }}" class="modal recipe-video-modal" role="dialog" aria-modal="true" aria-label="Odtwarzacz wideo" tabindex="-1">
+            <div id="{{ $modalId }}" class="modal recipe-video-modal" role="dialog" aria-modal="true"
+                aria-label="Odtwarzacz wideo" tabindex="-1">
                 <div class="modal-background" data-video-modal-close></div>
                 <div class="modal-content">
                     <div class="box recipe-video-modal__box">
@@ -78,7 +86,7 @@
             </div>
             {{ end }}
 
-            
+
 
             <div class="container has-text-centered recipe-meta recipe-meta--stats">
                 {{ partial "statstable.html" . }}
