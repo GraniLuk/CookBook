@@ -56,7 +56,11 @@
                     <div id="shareButton" class="is-rounded media-badge media-badge--right">
                         {{- $collection := "sniadania" -}}
                         {{- with .Params.categories -}}
+                        {{- if reflect.IsSlice . -}}
+                        {{- $collection = index . 0 -}}
+                        {{- else -}}
                         {{- $collection = . -}}
+                        {{- end -}}
                         {{- end -}}
                         <a href="/CookBook/admin/#/collections/{{ $collection }}/entries/{{ .File.ContentBaseName }}"
                             target="_blank" rel="noopener" aria-label="Edit recipe" class="unstyled-btn">
