@@ -1,32 +1,43 @@
 ---
-draft: false  
-title: "Fasolka po Bretońsku"  
-author: "Instynkt po Polsku"  
-recipe_image: images/recipe-headers/fasolka_po_bretonsku_instant_pot.avif  
-date: 2025-06-28T12:00:00-00:00  
-categories: ["sniadania"]
-subcategories: ["słone"]
-tags: ["instant pot"]  
-tagline: "Szybka i aromatyczna fasolka po bretońsku z boczkiem i kiełbasą, gotowana w Instant Pot bez wcześniejszego namaczania fasoli."  
-ingredients: ["fasola biała", "boczek", "kiełbasa", "cebula", "pomidory", "koncentrat pomidorowy", "czosnek"]
-servings: 4  
-prep_time: 20  
-cook: true  
-cook_time: 80  
+title: Fasolka po Bretońsku
+author: Instynkt po Polsku
+draft: false
+favourite: true
+tagline: Szybka i aromatyczna fasolka po bretońsku z boczkiem i kiełbasą,
+  gotowana w Instant Pot bez wcześniejszego namaczania fasoli.
+recipe_image: images/recipe-headers/fasolka_po_bretonsku_instant_pot.avif
+tags:
+  - instant pot
+ingredients:
+  - fasola biała
+  - boczek
+  - kiełbasa
+  - cebula
+  - pomidory
+  - koncentrat pomidorowy
+  - czosnek
+categories:
+  - sniadania
+subcategories:
+  - słone
+servings: 4
+prep_time: 20
+cook: true
+cook_time: 80
 calories: 200
 protein: 11
-fat: 9
-carbohydrate: 20 
 link: https://www.youtube.com/watch?v=RwzTn7o7OkY
-
 fodmap:
-  status: "no"
-  serving_ok: "Unikaj na diecie Low FODMAP"
-  notes: "Fasola sucha (GOS), cebula i czosnek – wysoki ładunek FODMAP."
+  status: no
+  serving_ok: Unikaj na diecie Low FODMAP
+  notes: Fasola sucha (GOS), cebula i czosnek – wysoki ładunek FODMAP.
   substitutions:
-    - "cebula -> zielona część dymki"
-    - "czosnek -> olej czosnkowy"
-    - "fasola biała -> soczewica czerwona w małych ilościach"
+    - cebula -> zielona część dymki
+    - czosnek -> olej czosnkowy
+    - fasola biała -> soczewica czerwona w małych ilościach
+date: 2025-06-28T12:00:00-00:00
+fat: 9
+carbohydrate: 20
 ---
 
 ## Składniki
