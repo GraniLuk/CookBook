@@ -5,7 +5,7 @@ title: "Bowl z Łososiem, Ryżem i Warzywami"
 author: "Policzona Szama"
 recipe_image: images/recipe-headers/bowl_losos.avif
 date: 2025-10-27T12:06:00-00:00
-categories: ["obiady"]
+categories: obiady
 tags: ["łosoś", "bowl", "ryż", "awokado", "fit"]
 tagline: "Pełnowartościowa miska z marynowanym łososiem, ryżem i świeżymi warzywami."
 ingredients: ["łosoś", "ryż biały", "awokado", "ogórek", "marchewka", "szpinak", "olej sezamowy", "sos sojowy"]

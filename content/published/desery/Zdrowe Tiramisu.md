@@ -5,7 +5,7 @@ title: "Zdrowe Tiramisu"
 author: "Policzone Szamy"
 recipe_image: images/recipe-headers/zdrowe_tiramisu.avif
 date: 2025-11-01T12:00:00-00:00
-categories: ["desery"]
+categories: desery
 tags: ["włoskie", "bez-pieczenia", "proteinowe"]
 tagline: "Lekkie tiramisu z twarogiem i biszkoptami, idealne na deser lub przekąskę."
 ingredients: ["skyr naturalny", "skyr waniliowy", "ser homogenizowany waniliowy", "ser homogenizowany ciasteczkowy", "erytrytol", "herbatniki", "kawa", "kakao"]

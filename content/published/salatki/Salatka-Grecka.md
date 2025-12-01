@@ -4,7 +4,7 @@ title: "Sałatka Grecka"
 author: "Autor Przepisu"
 recipe_image: images/defaultImage.avif
 date: 2025-06-18T12:00:00-00:00
-categories: ["salatki"]
+categories: salatki
 tags: []
 tagline: "Lekka i sycąca sałatka grecka na kolację!"
 ingredients: ["pomidory", "ogórek", "czerwona cebula", "ser feta", "oliwki", "oliwa z oliwek", "ocet winny"]

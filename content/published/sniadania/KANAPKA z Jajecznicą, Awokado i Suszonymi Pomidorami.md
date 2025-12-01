@@ -5,7 +5,7 @@ title: "KANAPKA z Jajecznicą, Awokado i Suszonymi Pomidorami"
 author: "Policzona Szama"  
 recipe_image: images/recipe-headers/kanapka_jajecznica_awokado.avif  
 date: 2025-11-29T12:00:00-00:00  
-categories: ["śniadania"]  
+categories: śniadania  
 tags: ["kanapki"]  
 tagline: "Kremowa kanapka z jajecznicą, awokado i suszonymi pomidorami na rukoli."  
 ingredients: ["bułka paryska", "jajka", "awokado", "suszone pomidory", "rukola"]

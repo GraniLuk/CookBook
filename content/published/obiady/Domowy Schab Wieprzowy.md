@@ -5,7 +5,7 @@ author: "Policzone Szamy"
 favourite: true
 recipe_image: images/recipe-headers/domowy_schab.avif
 date: 2025-11-20T12:00:00-00:00
-categories: ["obiady"]
+categories: obiady
 tags: ["szybkie", "proteinowe", "mięso"]
 tagline: "Soczysty domowy schab wieprzowy, idealny do kanapek i dań."
 ingredients: ["schab wieprzowy", "sól", "czosnek", "olej", "woda", "zioła", "rozmaryn"]

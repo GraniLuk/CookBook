@@ -5,7 +5,7 @@ title: "Placki Bananowo-Czekoladowe z Cynamonem"
 author: "Policzona Szama"
 recipe_image: images/recipe-headers/placki_banan_czekolada.avif
 date: 2025-10-31T12:00:00-00:00
-categories: ["śniadania"]
+categories: śniadania
 tags: ["szybkie", "przekąska"]
 tagline: "Słodkie, puszyste placki bananowe z czekoladą i cynamonem, proste do przygotowania."
 ingredients: ["banan", "czekolada", "płatki jaglane", "ser wiejski", "jajko", "oliwa z oliwek"]

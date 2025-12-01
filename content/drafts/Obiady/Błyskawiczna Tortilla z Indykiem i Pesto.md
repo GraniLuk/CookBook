@@ -5,7 +5,7 @@ title: "Błyskawiczna Tortilla z Indykiem i Pesto"
 author: "Policzona Szama"
 recipe_image: images/recipe-headers/tortilla_indyk_pesto.avif
 date: 2025-10-27T12:05:00-00:00
-categories: ["obiady"]
+categories: obiady
 tags: ["tortilla", "indyk", "pesto", "szybkie", "fit"]
 tagline: "Ekspresowa tortilla z mielonym indykiem, pesto, rukolą i mozzarellą – gotowa w kilkanaście minut."
 ingredients: ["mięso mielone z indyka", "tortilla pszenna", "pesto", "rukola", "mozzarella light", "pomidorki koktajlowe"]

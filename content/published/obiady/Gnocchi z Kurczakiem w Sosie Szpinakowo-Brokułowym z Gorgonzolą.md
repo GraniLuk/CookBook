@@ -4,7 +4,7 @@ title: "Gnocchi z Kurczakiem w Sosie Szpinakowo-Brokułowym z Gorgonzolą"
 author: "Policzona Szama"
 recipe_image: images/recipe-headers/gnocchi_kurczak_brokul.avif
 date: 2025-10-27T12:00:00-00:00
-categories: ["obiady"]
+categories: obiady
 tags: ["włoskie", "szybkie"]
 tagline: "Anaboliczne gnocchi w kremowym, zielonym sosie z kurczakiem, brokułem i gorgonzolą."
 ingredients: ["gnocchi", "pierś z kurczaka", "szpinak", "brokuł", "ser gorgonzola", "śmietana 12%", "suszone pomidory", "oliwa z oliwek", "cebula"]

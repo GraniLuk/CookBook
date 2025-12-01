@@ -5,7 +5,7 @@ title: "Domowe lody truskawkowe - Białkowe"
 author: "Policzona Szama"  
 recipe_image: images/recipe-headers/lody_truskawkowe.avif  
 date: 2025-11-29T12:00:00-00:00  
-categories: ["desery"]  
+categories: desery  
 tags: ["blender", "lody"]  
 tagline: "Domowe białkowe lody truskawkowe z serkiem wiejskim, śmietanką i odżywką białkową."  
 ingredients: ["truskawki", "serek wiejski", "śmietanka 30%", "białko jajeczne", "odżywka białkowa", "wanilia"]

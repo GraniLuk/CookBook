@@ -6,7 +6,7 @@ recipe_image: images/recipe-headers/kurczak_green_curry.avif
 image_width: 512
 image_height: 512
 date: 2025-10-28T13:00:00-00:00
-categories: ["obiady"]
+categories: obiady
 tags: ["szybkie", "pikantne"]
 tagline: "Aromatyczny, pikantny kurczak Green Curry smażony w woku z zielonymi warzywami – azjatyckie doznania smakowe!"
 ingredients: ["kurczak", "pasta green curry", "mleko kokosowe", "ryż basmati", "brokuł", "fasolka szparagowa", "groszek cukrowy"]

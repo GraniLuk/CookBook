@@ -5,7 +5,7 @@ title: "Placki z Cukinią i Pieczarkami"
 author: "Policzona Szama"
 recipe_image: images/recipe-headers/placki_cukinia_pieczarki.avif
 date: 2025-10-31T12:00:00-00:00
-categories: ["śniadania"]
+categories: śniadania
 tags: ["szybkie", "przekąska"]
 tagline: "Wytrawne placki z cukini, pieczarek, cebuli i serka wiejskiego, aromatyczne i miękkie."
 ingredients: ["cukinia", "pieczarki", "cebula", "płatki owsiane", "ser wiejski", "jajko", "oliwa z oliwek"]

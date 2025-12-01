@@ -5,7 +5,7 @@ title: "Kurczak Teriyaki z Warzywami i Ryżem"
 author: "Policzona Szama"
 recipe_image: images/recipe-headers/kurczak_teriyaki.avif
 date: 2025-10-27T12:08:00-00:00
-categories: ["obiady"]
+categories: obiady
 tags: ["kurczak", "teriyaki", "warzywa", "ryż", "azjatyckie"]
 tagline: "Szybki kurczak teriyaki z chrupiącymi warzywami i ryżem."
 ingredients: ["pierś z kurczaka", "ryż biały", "brokuł", "papryka", "marchewka", "sos teriyaki", "olej sezamowy", "oliwa z oliwek"]

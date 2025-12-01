@@ -5,7 +5,7 @@ title: "Pasta z Makreli i Awokado"
 author: "Policzona Szama"
 recipe_image: images/recipe-headers/pasta_makrela_awokado.avif
 date: 2025-10-31T12:00:00-00:00
-categories: ["śniadania"]
+categories: śniadania
 tags: ["ryby"]
 tagline: "Prosta i odżywcza pasta z wędzonej makreli, awokado i sera, idealna na kanapki."
 ingredients: ["makrela", "awokado", "ser żółty", "jajko", "majonez"]

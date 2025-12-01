@@ -4,7 +4,7 @@ title: "Chrupiące Kotlety z Piersi Kurczaka w Panierce Panko"
 author: "Autor Przepisu"
 recipe_image: images/recipe-headers/kurczak_panko_kotlety.avif
 date: 2025-10-27T12:10:00-00:00
-categories: ["obiady"]
+categories: obiady
 tags: ["kotlety", "chrupiące", "szybkie"]
 tagline: "Lekka, ultra chrupiąca panierka panko – prosty obiad w 30 minut."
 servings: 4

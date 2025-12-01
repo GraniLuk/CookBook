@@ -4,7 +4,7 @@ title: "Bagietki Nadziane Farszem Szpinakowo-Szynkowym"
 author: "Policzona Szama"
 recipe_image: images/recipe-headers/bagietki_szpinak_szynka.avif
 date: 2025-10-31T07:00:00-00:00
-categories: ["obiady"]
+categories: obiady
 tags: ["kanapki"]
 tagline: "Nadziane bagietki z kremowym farszem ze szpinaku, sera śmietankowego, szynki i jajka."
 ingredients: ["bagietka", "szpinak", "ser śmietankowy", "szynka wędzona", "jajko", "suszone pomidory", "oliwa z oliwek"]

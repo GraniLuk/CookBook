@@ -5,7 +5,7 @@ title: "Szybkie mini serniczki (placuszkami)"
 author: "Policzona Szama"  
 recipe_image: images/recipe-headers/mini_serniczki.avif  
 date: 2025-11-29T12:00:00-00:00  
-categories: ["śniadania"]  
+categories: śniadania  
 tags: ["szybkie", "słodkie"]  
 tagline: "Słodkie placuszki z twarogu smakujące jak sernik, idealne na śniadanie."  
 ingredients: ["twaróg", "jajka", "erytrytol", "rodzynki", "olej kokosowy"]

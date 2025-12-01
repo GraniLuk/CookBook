@@ -5,7 +5,7 @@ title: "Wrapy LOW CARB z łososiem, serkiem śmietankowym, awokado"
 author: "Policzona Szama"  
 recipe_image: images/recipe-headers/wrapy_low_carb.avif  
 date: 2025-11-29T12:00:00-00:00  
-categories: ["obiady"]  
+categories: obiady  
 tags: ["low carb", "ryby"]  
 tagline: "Niskowęglowodanowe wrapy z domowym serkiem śmietankowym, wędzonym łososiem, awokado i jajecznymi naleśnikami."  
 ingredients: ["twaróg", "śmietana kremowa", "szczypiorek", "łosoś wędzony", "awokado", "jajka"]

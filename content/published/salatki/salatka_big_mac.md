@@ -4,7 +4,7 @@ title: "Sałatka Big Mac"
 author: "Policzona Szama"
 recipe_image: images/recipe-headers/salatka_big_mac.avif
 date: 2025-08-18T12:00:00-00:00
-categories: ["salatki"]
+categories: salatki
 tags: ["low carb"]
 tagline: "Big Mac bez bułki – warstwowa, niskowęglowodanowa sałatka w słoikach."
 ingredients: ["wołowina", "masło klarowane", "ser cheddar", "ser mimolette", "parmezan", "sałata rzymska", "ogórki konserwowe", "czerwona cebula", "pomidorki", "majonez", "musztarda", "ogórki kiszone", "chili", "papryka wędzona", "czosnek suszony"]

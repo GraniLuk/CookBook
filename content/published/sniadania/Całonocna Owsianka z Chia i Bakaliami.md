@@ -5,7 +5,7 @@ title: "Całonocna Owsianka z Chia i Bakaliami"
 author: "Policzone Szamy"
 recipe_image: images/recipe-headers/calonocna_owsianka_chia_bakalie.avif
 date: 2025-11-02T12:00:00-00:00
-categories: ["śniadania"]
+categories: śniadania
 tags: ["owsianka"]
 tagline: "Kremowa owsianka z twarogiem, chia i bakaliami, śródziemnomorski deser na lunch."
 ingredients: ["twaróg", "skyr", "miód", "napój sojowy", "nasionka chia", "płatki owsiane", "morele suszone", "rodzynki", "orzechy włoskie"]

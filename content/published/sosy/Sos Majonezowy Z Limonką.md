@@ -4,7 +4,7 @@ title: "Sos Majonezowy Z Limonką I Ostrą Papryką"
 author: "Autor Przepisu"
 recipe_image: images/recipe-headers/sos_majonezowy.avif
 date: 2025-06-23T12:00:00-00:00
-categories: ["sosy"]
+categories: sosy
 tags: ["meksykańskie"]
 tagline: "Lekki sos majonezowy z nutą limonki - idealny do mięs i warzyw!"
 ingredients: ["majonez", "jogurt naturalny", "limonka"]

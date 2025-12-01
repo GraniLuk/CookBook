@@ -7,7 +7,7 @@ recipe_image: images/recipe-headers/nozki_kurczak_curry_marchew.avif
 image_width: 512
 image_height: 512
 date: 2025-10-28T12:00:00-00:00
-categories: ["obiady"]
+categories: obiady
 tags: ["lunchbox", "pikantne"]
 tagline: "Aromatyczne, soczyste nóżki z kurczaka duszone w słodko‑pikantnym marchewkowym sosie curry z limonką i miodem."
 ingredients: ["kurczak nóżki", "marchewka", "olej ryżowy", "oliwa z oliwek", "pasta curry", "miód"]

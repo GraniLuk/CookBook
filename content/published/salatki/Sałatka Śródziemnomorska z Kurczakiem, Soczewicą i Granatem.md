@@ -5,7 +5,7 @@ title: "Sałatka Śródziemnomorska z Kurczakiem, Soczewicą i Granatem"
 author: "Policzone Szamy"
 recipe_image: images/recipe-headers/salatka_srodziemnomorska_kurczak_soczewica_granat.avif
 date: 2025-11-02T12:00:00-00:00
-categories: ["salatki"]
+categories: salatki
 tags: ["śródziemnomorska"]
 tagline: "Śródziemnomorska sałatka z kurczakiem, soczewicą, granatem i limonkowym dressingiem."
 ingredients: ["pierś z kurczaka", "komosa ryżowa", "soczewica zielona", "mięta", "granat", "rukola", "oliwa z oliwek", "limonka", "miód"]

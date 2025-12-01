@@ -5,7 +5,7 @@ title: "Jednogarnkowa Zapiekanka z Indykiem"
 author: "Policzone Szamy"
 recipe_image: images/recipe-headers/jednogarnkowa_zapiekanka_indyk.avif
 date: 2025-10-29T12:00:00-00:00
-categories: ["obiady"]
+categories: obiady
 tags: ["szybkie", "włoskie"]
 tagline: "Soczysta zapiekanka z indykiem i makaronem w jednym garnku – szybka i pełna smaku."
 ingredients: ["mięso z indyka", "makaron", "passata pomidorowa", "ser mozzarella", "cebula", "czosnek", "suszone pomidory", "jarmuż", "grzyby", "oliwa z oliwek"]

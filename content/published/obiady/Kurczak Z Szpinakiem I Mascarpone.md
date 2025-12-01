@@ -4,7 +4,7 @@ title: "Kurczak Z Szpinakiem I Mascarpone"
 author: "Autor Przepisu"
 recipe_image: images/recipe-headers/kurczak_szpinak_mascarpone.avif
 date: 2025-06-18T12:00:00-00:00
-categories: ["obiady"]
+categories: obiady
 tags: []
 tagline: "Kremowy kurczak ze szpinakiem i mascarpone!"
 ingredients: ["pierś z kurczaka", "szpinak", "mascarpone", "cebula", "czosnek", "oliwa", "bulion", "cytryna"]

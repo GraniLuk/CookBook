@@ -4,7 +4,7 @@ title: "Pierś z Kurczaka Gotowana na Parze z Brązowym Ryżem i Warzywami (Meks
 author: "Autor Przepisu"
 recipe_image: images/recipe-headers/kurczak_na_parze.avif
 date: 2025-06-18T12:00:00-00:00
-categories: ["obiady"]
+categories: obiady
 tags: ["meksykańskie"]
 tagline: "Zdrowy kurczak na parze z warzywami w meksykańskim stylu!"
 ingredients: ["ryż brązowy", "pierś z kurczaka", "jarmuż", "kukurydza", "czerwona fasola", "pomidorki cherry", "majonez light", "jogurt naturalny", "limonka"]

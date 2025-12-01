@@ -4,7 +4,7 @@ title: "Chili Con Carne w Instant Pot"
 author: "Autor Przepisu"
 recipe_image: images/recipe-headers/chili-con-carne.avif
 date: 2025-06-18T12:00:00-00:00
-categories: ["obiady"]
+categories: obiady
 tags: ["instant pot", "meksykańskie"]
 tagline: "TOP Policzonej Szamy – pyszne chili con carne!"
 ingredients: ["wołowina", "cebula", "czosnek", "marchew", "pomidory", "fasola"]

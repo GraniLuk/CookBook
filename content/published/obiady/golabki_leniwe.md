@@ -4,7 +4,7 @@ title: "Gołąbki Leniwe"
 author: "Autor Przepisu"
 recipe_image: images/recipe-headers/golabkiLeniwe.avif
 date: 2025-06-18T12:00:00-00:00
-categories: ["obiady"]
+categories: obiady
 tags: ["instant pot", "Stefan"]
 tagline: "Pyszne gołąbki bez zawijania!"
 ingredients: ["mięso mielone", "kapusta biała", "jajko", "papryka słodka", "koncentrat pomidorowy", "czosnek", "passata pomidorowa", "koperek", "liść laurowy", "śmietana 30%"]

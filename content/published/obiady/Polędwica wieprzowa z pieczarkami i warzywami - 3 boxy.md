@@ -5,7 +5,7 @@ title: Polędwica wieprzowa z pieczarkami i warzywami - 3 boxy
 author: Policzona Szama
 recipe_image: images/poledwica_wieprzowa_pieczarki.jpg
 date: 2025-11-29
-categories: ["obiady"]
+categories: obiady
 tags: ["lunchbox"]
 tagline: Szybkie danie z polędwicy wieprzowej, pieczarek i warzyw – idealne na trzy boxy lunchowe.
 servings: 3

@@ -4,7 +4,7 @@ title: "Włoski Rozgrzewający Kurczak z Makaronem i Warzywami"
 author: "Policzone Szamy"
 recipe_image: images/recipe-headers/kurczak_makaron_warzywa.avif
 date: 2025-11-01T12:00:00-00:00
-categories: ["obiady"]
+categories: obiady
 tags: ["włoskie", "szybkie", "proteinowe"]
 tagline: "Pikantny kurczak z makaronem i warzywami w sosie, rozgrzewający obiad."
 ingredients: ["pierś z kurczaka", "makaron", "czosnek", "passata pomidorowa", "brokuł", "marchewka", "mascarpone", "parmezan"]

@@ -4,7 +4,7 @@ title: "Gulasz Z Łopatki Wieprzowej"
 author: "Autor Przepisu"
 recipe_image: images/recipe-headers/gulasz_z_lopatki_wieprzowej.avif
 date: 2025-06-18T12:00:00-00:00
-categories: ["obiady"]
+categories: obiady
 tags: ["instant pot", "Stefan"]
 tagline: "Aromatyczny gulasz z łopatki wieprzowej!"
 ingredients: ["łopatka wieprzowa", "cebula", "czosnek", "marchewka", "papryka", "papryka słodka", "papryka ostra", "kminek", "liść laurowy", "koncentrat pomidorowy", "bulion", "olej"]

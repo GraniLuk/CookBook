@@ -6,7 +6,7 @@ recipe_image: images/recipe-headers/kurczak_dynia_curry.avif
 image_width: 512
 image_height: 512
 date: 2025-10-28T12:50:00-00:00
-categories: ["obiady"]
+categories: obiady
 tags: ["lunchbox", "jesień", "pikantne"]
 tagline: "Rozgrzewający kurczak w gęstym, aromatycznym sosie dyniowym curry – top jesieni!"
 ingredients: ["kurczak", "dynia piżmowa", "kasza bulgur", "mleko kokosowe", "pomidory krojone", "curry"]

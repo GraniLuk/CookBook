@@ -6,7 +6,7 @@ author: "Policzone Szamy"
 recipe_image: images/recipe-headers/calonocna_owsianka_pinacolada.avif
 link: https://www.youtube.com/watch?v=2oRiIWljFJo
 date: 2025-11-01T12:00:00-00:00
-categories: ["śniadania"]
+categories: śniadania
 tags: ["szybkie", "tropikalne", "owsianka"]
 tagline: "Orzeźwiająca całonocna owsianka z nutą pinacolady, pełna białka i witamin."
 ingredients: ["płatki owsiane", "ananas", "odżywka białkowa", "jogurt naturalny", "wiórki kokosowe", "mleko sojowe"]

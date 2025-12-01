@@ -5,7 +5,7 @@ title: "Zapiekana Owsianka z Brzoskwiniami i Bakaliami"
 author: "Policzone Szamy"
 recipe_image: images/recipe-headers/zapiekana_owsianka_brzoskwinie.avif
 date: 2025-11-01T12:00:00-00:00
-categories: ["śniadania"]
+categories: śniadania
 tags: ["szybkie", "owsianka"]
 tagline: "Rozgrzewająca zapiekana owsianka z brzoskwiniami i bakaliami, idealna na zimowe dni."
 ingredients: ["płatki owsiane", "mleko", "odżywka białkowa", "masło orzechowe", "jajka", "brzoskwinie", "bakalie", "orzechy włoskie", "mandarynka", "skórka pomarańczowa"]

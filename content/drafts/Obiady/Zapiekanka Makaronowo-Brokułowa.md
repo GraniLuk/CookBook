@@ -5,7 +5,7 @@ title: "Zapiekanka Makaronowo-Brokułowa z Mozzarellą"
 author: "Policzona Szama"
 recipe_image: images/recipe-headers/zapiekanka_makaron_brokul.avif
 date: 2025-10-27T12:10:00-00:00
-categories: ["obiady"]
+categories: obiady
 tags: ["zapiekanka", "makaron", "brokuł", "mozzarella", "meal-prep"]
 tagline: "Duża prosta zapiekanka pełnoziarnista z brokułem, pomidorkami i roztopioną mozzarellą."
 ingredients: ["makaron pełnoziarnisty", "brokuł", "cebula", "pomidorki koktajlowe", "mozzarella", "oliwa z oliwek"]

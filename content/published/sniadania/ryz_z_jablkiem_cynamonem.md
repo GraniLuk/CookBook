@@ -5,7 +5,7 @@ title: "Ryż z Jabłkiem i Cynamonem"
 author: "Michał Wrzosek"  
 recipe_image: images/recipe-headers/ryz_z_jablkiem_cynamonem.avif  
 date: 2025-11-25T12:00:00-00:00  
-categories: ["śniadania"]  
+categories: śniadania  
 tags: ["szybkie", "na słodko", "wegetariańskie"]  
 tagline: "Coś, co kochaliśmy w dzieciństwie, w wersji sycącej."  
 ingredients: ["ryż ugotowany", "serek wiejski", "jabłko", "cynamon"]

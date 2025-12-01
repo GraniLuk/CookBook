@@ -5,7 +5,7 @@ title: "Makaron z Pieczonymi Warzywami i Mozzarellą"
 author: "Policzona Szama"
 recipe_image: images/recipe-headers/makaron_warzywa_mozzarella.avif
 date: 2025-10-27T12:09:00-00:00
-categories: ["obiady"]
+categories: obiady
 tags: ["makaron", "warzywa", "wegetariańskie", "mozzarella", "pieczenie"]
 tagline: "Pieczone warzywa, czosnek i roztopiona mozzarella połączone z al dente makaronem."
 ingredients: ["makaron", "papryka", "cukinia", "pomidorki koktajlowe", "mozzarella", "oliwa z oliwek", "czosnek"]

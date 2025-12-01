@@ -5,7 +5,7 @@ title: "Ryba w Chmurce Ziołowo-Pistacjowej"
 author: "Policzone Szamy"
 recipe_image: images/recipe-headers/ryba_chmurka_ziolowa_pistacjowa.avif
 date: 2025-11-02T12:00:00-00:00
-categories: ["obiady"]
+categories: obiady
 tags: ["śródziemnomorska", "ryby", "szybkie"]
 tagline: "Pstrąg z ziołowo-pistacjową chmurką, ryżem i grillowaną cukinią."
 ingredients: ["ryż czerwony", "pistacje", "pietruszka", "rozmaryn", "cytryna", "pomarańcza", "czosnek", "oliwa z oliwek", "pstrąg tęczowy", "cukinia"]

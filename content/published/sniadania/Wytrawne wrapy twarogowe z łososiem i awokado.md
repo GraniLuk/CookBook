@@ -5,7 +5,7 @@ title: "Wytrawne wrapy twarogowe z łososiem i awokado"
 author: "Policzona Szama"  
 recipe_image: images/recipe-headers/wrapy_twarogowe.avif  
 date: 2025-11-29T12:00:00-00:00  
-categories: ["śniadania"]  
+categories: śniadania  
 tags: ["szybkie", "proteinowe"]  
 tagline: "Wytrawne wrapy z pastą twarogową, łososiem i awokado, idealne na śniadanie do pracy."  
 ingredients: ["twaróg", "serek śmietankowy chrzanowy", "szczypiorek", "łosoś wędzony", "awokado", "tortilla"]

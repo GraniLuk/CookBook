@@ -5,7 +5,7 @@ title: "Sałatka z Łososiem, Pomarańczą i Granatem"
 author: "Policzone Szamy"
 recipe_image: images/recipe-headers/salatka_losos_pomarancza_granat.avif
 date: 2025-11-01T12:00:00-00:00
-categories: ["salatki"]
+categories: salatki
 tags: ["szybkie", "ryby", "śródziemnomorska"]
 tagline: "Świeża sałatka z łososiem, pomarańczą i granatem w musztardowym sosie."
 ingredients: ["łosoś", "mix sałat", "pomarańcza", "granat", "olej lniany", "pieczywo rustykalne"]

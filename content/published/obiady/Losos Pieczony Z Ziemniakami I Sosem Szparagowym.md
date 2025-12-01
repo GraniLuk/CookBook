@@ -4,7 +4,7 @@ title: "Łosoś Pieczony Z Ziemniakami I Sosem Szparagowym"
 author: "Autor Przepisu"
 recipe_image: images/recipe-headers/losos_pieczony_z_ziemniakami.avif
 date: 2025-06-19T12:00:00-00:00
-categories: ["obiady"]
+categories: obiady
 tags: ["ryby", "goście"]
 tagline: "Efektowny obiad z pieczonego łososia z ziemniakami i kremowym sosem szparagowym!"
 ingredients: ["łosoś", "cytryna", "masło", "ziemniaki", "oliwa", "szparagi", "mascarpone", "suszone pomidory", "czosnek"]

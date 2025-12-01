@@ -4,7 +4,7 @@ title: "Tacos z Wołowiną, Salsą z Awokado i Cheddarem"
 author: "Policzona Szama"
 recipe_image: images/recipe-headers/tacos.avif
 date: 2025-08-24T12:00:00-00:00
-categories: ["obiady"]
+categories: obiady
 tags: ["meksykańskie"]
 tagline: "Gigantyczne tacos: soczysta wołowina, chrupiąca tortilla, świeża salsa i dużo cheddara."
 ingredients: ["wołowina", "tortilla pszenna", "ser cheddar", "sałata lodowa", "awokado", "czerwona cebula", "papryczki padron", "pomidory", "kolendra", "cytryna", "czosnek", "koncentrat pomidorowy"]

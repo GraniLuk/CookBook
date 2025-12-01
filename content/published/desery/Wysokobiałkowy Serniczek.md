@@ -4,7 +4,7 @@ title: "Wysokobiałkowy Serniczek"
 author: "Autor Przepisu"
 recipe_image: images/defaultImage.avif
 date: 2025-06-19T10:00:00-00:00
-categories: ["desery"]
+categories: desery
 tags: []
 tagline: "Zdrowy serniczek z wysoką zawartością białka!"
 servings: 1

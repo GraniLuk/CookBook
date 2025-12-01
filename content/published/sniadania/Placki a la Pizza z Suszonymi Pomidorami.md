@@ -5,7 +5,7 @@ title: "Placki a la Pizza z Suszonymi Pomidorami"
 author: "Policzona Szama"
 recipe_image: images/recipe-headers/placki_pizza_pomidory.avif
 date: 2025-10-31T12:00:00-00:00
-categories: ["śniadania"]
+categories: śniadania
 tags: ["szybkie", "przekąska"]
 tagline: "Wytrawne placki w stylu pizzy z suszonymi pomidorami, oliwkami i serem cheddar."
 ingredients: ["suszone pomidory", "oliwki", "ser cheddar", "płatki owsiane", "ser wiejski", "jajko", "oliwa z oliwek"]

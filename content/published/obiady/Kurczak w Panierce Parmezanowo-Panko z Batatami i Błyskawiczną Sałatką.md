@@ -4,7 +4,7 @@ title: "Kurczak w Panierce Parmezanowo-Panko z Batatami"
 author: "Policzona Szama"
 recipe_image: images/recipe-headers/kurczak_w_panierce_panko.avif
 date: 2025-06-18T12:00:00-00:00
-categories: ["obiady"]
+categories: obiady
 tags: [""]
 tagline: "Pyszny kurczak w chrupiącej panierce z batatami!"
 ingredients: ["bataty", "kurczak", "panko", "parmezan", "oliwa", "miks sałat", "czerwona cebula", "pomidorki cherry", "cytryna"]

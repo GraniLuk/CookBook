@@ -5,7 +5,7 @@ title: "Szybki Klasyk - Kanapka z serem i szynką"
 author: "Policzona Szama"  
 recipe_image: images/recipe-headers/kanapka_klasyczna.avif  
 date: 2025-11-29T12:00:00-00:00  
-categories: ["śniadania"]  
+categories: śniadania  
 tags: ["kanapki"]  
 tagline: "Klasyczna kanapka z serem królewskim, szynką, pomidorem i kiełkami, gotowa w 3 minuty."  
 ingredients: ["bułka paryska", "roszponka", "ser żółty", "szynka wiejska", "pomidor malinowy", "kiełki"]

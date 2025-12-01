@@ -5,7 +5,7 @@ title: "Nocna owsianka twarogowa z malinami (pudding)"
 author: "Policzona Szama"  
 recipe_image: images/recipe-headers/owsianka_twarogowa_maliny.avif  
 date: 2025-11-29T12:00:00-00:00  
-categories: ["śniadania"]  
+categories: śniadania  
 tags: ["owsianka"]  
 tagline: "Nocna owsianka z twarogiem i malinami, przygotowana dzień wcześniej."  
 ingredients: ["płatki owsiane", "twaróg", "maliny", "mleko", "chia"]

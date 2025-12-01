@@ -5,7 +5,7 @@ title: "Zapiekane Pulpety z Serem w Sosie Pomidorowym Spaghetti"
 author: "Policzone Szamy"
 recipe_image: images/recipe-headers/zapiekane_pulpety_ser_sos_spaghetti.avif
 date: 2025-11-01T12:00:00-00:00
-categories: ["obiady"]
+categories: obiady
 tags: ["włoskie", "szybkie"]
 tagline: "Domowe pulpety w sosie spaghetti z mozzarellą, idealne na rodzinny obiad."
 ingredients: ["wieprzowina", "jajko", "cebula", "bułka tarta", "mleko", "parmezan", "mozzarella", "natka pietruszki", "czosnek", "passata pomidorowa", "koncentrat pomidorowy", "spaghetti"]

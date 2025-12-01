@@ -6,7 +6,7 @@ queued: true
 author: "Policzona Szama"  
 recipe_image: images/recipe-headers/burrito.avif  
 date: 2025-11-29T12:00:00-00:00  
-categories: ["obiady"]  
+categories: obiady  
 tags: ["meksykańskie", "szybkie", "proteinowe"]  
 tagline: "Epickie burrito z wołowiną w pikantnym sosie pomidorowym, czerwoną fasolą, awokado, serem cheddar i jajecznicą."  
 ingredients: ["wołowina mielona", "czerwona fasola", "pomidory krojone", "awokado", "ser cheddar", "jajka", "tortilla"]

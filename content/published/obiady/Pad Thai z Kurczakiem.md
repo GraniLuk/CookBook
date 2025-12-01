@@ -6,7 +6,7 @@ recipe_image: images/recipe-headers/pad_thai_kurczak.avif
 image_width: 512
 image_height: 512
 date: 2025-10-28T13:45:00-00:00
-categories: ["obiady"]
+categories: obiady
 tags: ["szybkie", "na-wynos"]
 tagline: "Autentyczny Pad Thai z kurczakiem, sosem tamaryndowym i orzeszkami – słodko-kwaśno-pikantny klasyk tajskiej kuchni!"
 ingredients: ["makaron ryżowy", "kurczak", "jajko", "pasta z tamaryndowca", "sos rybny", "sos sojowy", "orzeszki ziemne", "kiełki fasoli mung"]

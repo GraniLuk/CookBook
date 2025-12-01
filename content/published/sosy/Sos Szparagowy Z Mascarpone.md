@@ -4,7 +4,7 @@ title: "Sos Szparagowy Z Mascarpone I Suszonymi Pomidorami"
 author: "Autor Przepisu"
 recipe_image: images/defaultImage.avif
 date: 2025-06-19T12:00:00-00:00
-categories: ["sosy"]
+categories: sosy
 tags: []
 tagline: "Kremowy sos szparagowy z mascarpone - idealny do ryb, mięsa i warzyw!"
 ingredients: ["szparagi", "mascarpone", "suszone pomidory", "czosnek"]

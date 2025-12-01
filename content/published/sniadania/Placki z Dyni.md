@@ -4,7 +4,7 @@ title: "Placki z Dyni"
 author: "Policzone Szamy"
 recipe_image: images/recipe-headers/placki_z_dyni.avif
 date: 2025-11-03T12:00:00-00:00
-categories: ["śniadania"]
+categories: śniadania
 tags: ["dynia", "placki"]
 tagline: "Proste placki z dyni, jajek, mąki i banana, idealne na zdrowe śniadanie."
 ingredients: ["dynia", "jajka", "mąka", "banan"]

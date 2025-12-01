@@ -4,7 +4,7 @@ title: "Fit Sos Serowy Cheddar"
 author: "Policzone Szama"
 recipe_image: images/recipe-headers/sos_serowy.avif
 date: 2025-06-27T12:15:00-00:00
-categories: ["sosy"]
+categories: sosy
 tags: ["impreza"]
 tagline: "Kremowy i lekki sos serowy, idealny do wielu dań."
 ingredients: ["ser cheddar", "mleko", "masło", "mąka pszenna", "chili"]

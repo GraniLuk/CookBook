@@ -4,7 +4,7 @@ title: "Jagodzianki Taty"
 author: "Policzone Szamy"  
 recipe_image: images/recipe-headers/jagodzianki.avif  
 date: 2025-06-29T19:37:00-00:00  
-categories: ["desery"]  
+categories: desery  
 tags: []  
 tagline: "Miękkie, domowe jagodzianki na puszystym cieście drożdżowym."  
 ingredients: ["mąka pszenna", "drożdże", "żółtka", "mleko", "masło", "cukier", "jagody", "cukier puder"]
