@@ -9,6 +9,27 @@
                 "\\s*<script src=\"https://unpkg\\.com/(?<depName>[^@]+)@(?<currentValue>[^/]+).*?</script>"
             ],
             "datasourceTemplate": "npm"
+        },
+        {
+            "customType": "regex",
+            "managerFilePatterns": [
+                "**/*.html"
+            ],
+            "matchStrings": [
+                "\\s*<script src=['\"]https://cdn\\.jsdelivr\\.net/npm/(?<depName>[^@]+)@(?<currentValue>[^/]+).*?</script>"
+            ],
+            "datasourceTemplate": "npm"
+        },
+        {
+            "customType": "regex",
+            "managerFilePatterns": [
+                "**/*.html"
+            ],
+            "matchStrings": [
+                "\\s*<link rel=\"stylesheet\" href=\"https://cdnjs\\.cloudflare\\.com/ajax/libs/(?<depName>[^/]+)/(?<currentValue>[^/]+).*?>"
+            ],
+            "datasourceTemplate": "npm",
+            "packageNameTemplate": "{{#switch depName}}{{#case 'font-awesome'}}@fortawesome/fontawesome-free{{/case}}{{#case 'jquery'}}jquery{{/case}}{{#case 'bootstrap'}}bootstrap{{/case}}{{#default}}{{depName}}{{/default}}{{/switch}}"
         }
     ]
 }

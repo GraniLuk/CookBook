@@ -4,11 +4,15 @@
     "description": "Fuse.js search testing for Hugo CookBook",
     "private": true,
     "scripts": {
+        "postinstall": "npm run copy-bulma",
         "test:search:v3": "node tests/fusejs-baseline-test.js",
-        "test:search:v7": "node tests/fusejs-v7-test.js"
+        "test:search:v7": "node tests/fusejs-v7-test.js",
+        "copy-bulma": "copyfiles node_modules/bulma/css/bulma.min.css static/css/bulma.min.css"
     },
     "devDependencies": {
-        "fuse.js": "7.1.0"
+        "bulma": "^0.9.4",
+        "fuse.js": "7.1.0",
+        "copyfiles": "^2.4.1"
     },
     "engines": {
         "node": ">=14.0.0"
