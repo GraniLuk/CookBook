@@ -191,7 +191,7 @@ const RecipePreview = createClass({
                     )
                 ),
 
-                // Macros
+                // Macros - each macro clickable to focus its field
                 (calories || protein || fat || carbohydrate) && h('div', {
                     className: 'recipe-macros',
                     style: {
@@ -204,19 +204,51 @@ const RecipePreview = createClass({
                         borderRadius: '8px'
                     }
                 },
-                    calories && h('div', {},
+                    calories && h('div', {
+                        style: { cursor: 'pointer', padding: '0.5rem', margin: '-0.5rem', borderRadius: '4px', transition: 'background-color 0.2s' },
+                        onClick: () => {
+                            const caloriesField = document.querySelector('[data-testid="calories-field"], [id*="calories"]');
+                            if (caloriesField) caloriesField.focus();
+                        },
+                        onMouseEnter: (e) => { e.currentTarget.style.backgroundColor = '#c8e6c9'; },
+                        onMouseLeave: (e) => { e.currentTarget.style.backgroundColor = 'transparent'; }
+                    },
                         h('div', { style: { fontWeight: 'bold', fontSize: '0.9rem', color: '#2e7d32' } }, 'Kalorie'),
                         h('div', { style: { fontSize: '1.5rem', fontWeight: 'bold', color: '#1b5e20' } }, calories)
                     ),
-                    protein && h('div', {},
+                    protein && h('div', {
+                        style: { cursor: 'pointer', padding: '0.5rem', margin: '-0.5rem', borderRadius: '4px', transition: 'background-color 0.2s' },
+                        onClick: () => {
+                            const proteinField = document.querySelector('[data-testid="protein-field"], [id*="protein"]');
+                            if (proteinField) proteinField.focus();
+                        },
+                        onMouseEnter: (e) => { e.currentTarget.style.backgroundColor = '#c8e6c9'; },
+                        onMouseLeave: (e) => { e.currentTarget.style.backgroundColor = 'transparent'; }
+                    },
                         h('div', { style: { fontWeight: 'bold', fontSize: '0.9rem', color: '#2e7d32' } }, 'Białko'),
                         h('div', { style: { fontSize: '1.5rem', fontWeight: 'bold', color: '#1b5e20' } }, protein + 'g')
                     ),
-                    fat && h('div', {},
+                    fat && h('div', {
+                        style: { cursor: 'pointer', padding: '0.5rem', margin: '-0.5rem', borderRadius: '4px', transition: 'background-color 0.2s' },
+                        onClick: () => {
+                            const fatField = document.querySelector('[data-testid="fat-field"], [id*="fat"]');
+                            if (fatField) fatField.focus();
+                        },
+                        onMouseEnter: (e) => { e.currentTarget.style.backgroundColor = '#c8e6c9'; },
+                        onMouseLeave: (e) => { e.currentTarget.style.backgroundColor = 'transparent'; }
+                    },
                         h('div', { style: { fontWeight: 'bold', fontSize: '0.9rem', color: '#2e7d32' } }, 'Tłuszcz'),
                         h('div', { style: { fontSize: '1.5rem', fontWeight: 'bold', color: '#1b5e20' } }, fat + 'g')
                     ),
-                    carbohydrate && h('div', {},
+                    carbohydrate && h('div', {
+                        style: { cursor: 'pointer', padding: '0.5rem', margin: '-0.5rem', borderRadius: '4px', transition: 'background-color 0.2s' },
+                        onClick: () => {
+                            const carbohydrateField = document.querySelector('[data-testid="carbohydrate-field"], [id*="carbohydrate"]');
+                            if (carbohydrateField) carbohydrateField.focus();
+                        },
+                        onMouseEnter: (e) => { e.currentTarget.style.backgroundColor = '#c8e6c9'; },
+                        onMouseLeave: (e) => { e.currentTarget.style.backgroundColor = 'transparent'; }
+                    },
                         h('div', { style: { fontWeight: 'bold', fontSize: '0.9rem', color: '#2e7d32' } }, 'Węglowodany'),
                         h('div', { style: { fontSize: '1.5rem', fontWeight: 'bold', color: '#1b5e20' } }, carbohydrate + 'g')
                     )
