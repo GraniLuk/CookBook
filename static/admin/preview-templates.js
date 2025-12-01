@@ -33,25 +33,19 @@ const RecipePreview = createClass({
         const carbohydrate = entry.getIn(['data', 'carbohydrate'], '');
         const body = widgetFor('body');
 
-        return h('div', { className: 'recipe-preview' },
-            // Hero Section - Simple header without image
-            h('div', {
-                className: 'recipe-hero',
+        return h('div', { className: 'recipe-preview', style: { padding: '1rem' } },
+            // Title at the top - compact header
+            h('h1', {
                 style: {
-                    background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-                    padding: '3rem 2rem',
-                    borderRadius: '8px',
-                    marginBottom: '2rem'
+                    margin: '0 0 1rem 0',
+                    fontSize: '2rem',
+                    borderBottom: '2px solid #667eea',
+                    paddingBottom: '0.5rem'
                 }
-            },
-                h('h1', {
-                    className: 'recipe-hero__title',
-                    style: { color: 'white', margin: 0, fontSize: '2.5rem', textAlign: 'center' }
-                }, title)
-            ),
+            }, title),
 
             // Meta Section
-            h('div', { className: 'recipe-content', style: { maxWidth: '800px', margin: '0 auto', padding: '2rem' } },
+            h('div', { style: { marginBottom: '2rem' } },
                 // Author
                 author && h('p', { style: { fontSize: '1.1rem', color: '#666', marginBottom: '1rem' } },
                     h('strong', {}, 'Autor: '), author
