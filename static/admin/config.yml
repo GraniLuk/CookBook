@@ -28,8 +28,14 @@ collections:
     extension: md
     format: frontmatter
     nested:
-      depth: 2
+      depth: 3
       summary: "{{title}}"
+      subfolders: true
+    meta:
+      path:
+        widget: string
+        label: "Ścieżka"
+        index_file: "_index"
     editor:
       preview: true
       visualEditing: true
