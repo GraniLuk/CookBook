@@ -450,7 +450,6 @@ collections:
         options: 
           - { label: "słodkie", value: "słodkie" }
           - { label: "słone", value: "słone" }
-      - { label: Diety, name: diets, widget: list, required: false }
       - { label: Porcje, name: servings, widget: number, required: false, min: 1 }
       - { label: Czas przygotowania (min), name: prep_time, widget: number, required: false, min: 0 }
       - { label: Czy wymaga gotowania, name: cook, widget: boolean, required: false, default: false }
