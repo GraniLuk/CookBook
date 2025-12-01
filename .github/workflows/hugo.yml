@@ -58,7 +58,7 @@ jobs:
         run: npm run test:search:v3
       - name: Upload test report
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: fusejs-test-report
           path: tests/fusejs-test-report-*.json
