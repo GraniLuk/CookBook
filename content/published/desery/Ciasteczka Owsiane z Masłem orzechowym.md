@@ -1,29 +1,40 @@
 ---
-draft: false
-title: "Ciasteczka Owsiane z Masłem Orzechowym"
-author: "Policzone Szamy"
-recipe_image: images/recipe-headers/ciasteczka_owsiane_maslo.avif
 video_file: videos/ciasteczka_owsiane_maslo.mp4
-date: 2025-11-28T10:00:00-00:00
-categories: ["desery"]
-tags: ["ciastka", "ciastka owsiane", "przekąska"]
-tagline: "Zdrowa i pyszna przekąska dla małych i dużych – kruche i chrupiące ciasteczka owsiane!"
-ingredients: ["banan", "masło orzechowe", "płatki owsiane błyskawiczne", "mąka owsiana", "suszone żurawiny"]
+title: Ciasteczka Owsiane z Masłem Orzechowym
+author: Policzone Szamy
+draft: false
+tagline: Zdrowa i pyszna przekąska dla małych i dużych – kruche i chrupiące
+  ciasteczka owsiane!
+recipe_image: images/recipe-headers/ciasteczka_owsiane_maslo.avif
+tags:
+  - ciastka
+  - ciastka owsiane
+  - przekąska
+ingredients:
+  - banan
+  - płatki owsiane błyskawiczne
+  - mąka owsiana
+  - suszone żurawiny
+categories: desery
 servings: 10
 prep_time: 10
 cook: true
 cook_time: 25
 calories: 120
 protein: 3
+fodmap:
+  status: no
+  serving_ok: NIE – suszone żurawiny (fruktoza)
+  notes: Banan, masło orzechowe, płatki owsiane i mąka owsiana są niskofodmap.
+    Suszone żurawiny zawierają fruktozę i mogą być problematyczne w większych
+    ilościach.
+  substitutions:
+    - suszone żurawiny -> rodzynki (w małych ilościach), pokrojone daktyle lub
+      śliwki (sprawdź tolerancję)
+    - czekolada -> opcjonalnie, wybierz niskofodmap (bez dodatków)
+date: 2025-11-28T10:00:00-00:00
 fat: 6
 carbohydrate: 15
-fodmap:
-  status: "no"
-  serving_ok: "NIE – suszone żurawiny (fruktoza)"
-  notes: "Banan, masło orzechowe, płatki owsiane i mąka owsiana są niskofodmap. Suszone żurawiny zawierają fruktozę i mogą być problematyczne w większych ilościach."
-  substitutions:
-    - "suszone żurawiny -> rodzynki (w małych ilościach), pokrojone daktyle lub śliwki (sprawdź tolerancję)"
-    - "czekolada -> opcjonalnie, wybierz niskofodmap (bez dodatków)"
 ---
 
 ## Składniki
