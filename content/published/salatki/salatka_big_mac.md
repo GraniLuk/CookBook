@@ -7,7 +7,7 @@ date: 2025-08-18T12:00:00-00:00
 categories: salatki
 tags: ["low carb"]
 tagline: "Big Mac bez bułki – warstwowa, niskowęglowodanowa sałatka w słoikach."
-ingredients: ["wołowina", "masło klarowane", "ser cheddar", "ser mimolette", "parmezan", "sałata rzymska", "ogórki konserwowe", "czerwona cebula", "pomidorki", "majonez", "musztarda", "ogórki kiszone", "chili", "papryka wędzona", "czosnek suszony"]
+ingredients: ["wołowina", "masło klarowane", "ser cheddar", "ser mimolette", "parmezan", "sałata rzymska", "ogórki konserwowe", "cebula czerwona", "pomidorki", "majonez", "musztarda", "ogórki kiszone", "chili", "papryka wędzona", "czosnek suszony"]
 servings: 3
 prep_time: 25
 cook: true

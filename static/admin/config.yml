@@ -135,8 +135,6 @@ _shared_fields:
       - { label: "czekolada", value: "czekolada" }
       - { label: "czekolada gorzka", value: "czekolada gorzka" }
       - { label: "czekolada organiczna", value: "czekolada organiczna" }
-      - { label: "czerwona cebula", value: "czerwona cebula" }
-      - { label: "czerwona fasola", value: "czerwona fasola" }
       - { label: "czosnek", value: "czosnek" }
       - { label: "czosnek suszony", value: "czosnek suszony" }
       - { label: "daktyle", value: "daktyle" }
