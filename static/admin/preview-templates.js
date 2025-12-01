@@ -14,6 +14,8 @@ const RecipePreview = createClass({
         const author = widgetFor('author');
         const tagline = widgetFor('tagline');
         const recipeImage = entry.getIn(['data', 'recipe_image'], '');
+        const category = entry.getIn(['data', 'categories'], '');
+        const subcategory = entry.getIn(['data', 'subcategories'], '');
         const tagsData = entry.getIn(['data', 'tags'], []);
         const ingredientsData = entry.getIn(['data', 'ingredients'], []);
         const servings = entry.getIn(['data', 'servings'], '');
@@ -69,6 +71,68 @@ const RecipePreview = createClass({
                 // Tagline
                 tagline && h('p', { style: { fontSize: '1.2rem', fontStyle: 'italic', marginBottom: '2rem' } },
                     tagline
+                ),
+
+                // Category - clickable to focus category field
+                category && h('div', {
+                    style: {
+                        marginBottom: '1rem',
+                        cursor: 'pointer',
+                        padding: '0.5rem',
+                        margin: '-0.5rem',
+                        borderRadius: '4px',
+                        transition: 'background-color 0.2s'
+                    },
+                    onClick: () => {
+                        const categoryField = document.querySelector('[data-testid="categories-field"], [id*="categories"]');
+                        if (categoryField) categoryField.focus();
+                    },
+                    onMouseEnter: (e) => { e.currentTarget.style.backgroundColor = '#f5f5f5'; },
+                    onMouseLeave: (e) => { e.currentTarget.style.backgroundColor = 'transparent'; }
+                },
+                    h('strong', {}, 'Kategoria: '),
+                    h('span', {
+                        style: {
+                            display: 'inline-block',
+                            background: '#e3f2fd',
+                            padding: '0.25rem 0.75rem',
+                            margin: '0.25rem',
+                            borderRadius: '4px',
+                            fontSize: '0.9rem',
+                            border: '1px solid #90caf9'
+                        }
+                    }, category)
+                ),
+
+                // Subcategory - clickable to focus subcategory field
+                subcategory && h('div', {
+                    style: {
+                        marginBottom: '2rem',
+                        cursor: 'pointer',
+                        padding: '0.5rem',
+                        margin: '-0.5rem',
+                        borderRadius: '4px',
+                        transition: 'background-color 0.2s'
+                    },
+                    onClick: () => {
+                        const subcategoryField = document.querySelector('[data-testid="subcategories-field"], [id*="subcategories"]');
+                        if (subcategoryField) subcategoryField.focus();
+                    },
+                    onMouseEnter: (e) => { e.currentTarget.style.backgroundColor = '#f5f5f5'; },
+                    onMouseLeave: (e) => { e.currentTarget.style.backgroundColor = 'transparent'; }
+                },
+                    h('strong', {}, 'Podkategoria: '),
+                    h('span', {
+                        style: {
+                            display: 'inline-block',
+                            background: '#f3e5f5',
+                            padding: '0.25rem 0.75rem',
+                            margin: '0.25rem',
+                            borderRadius: '4px',
+                            fontSize: '0.9rem',
+                            border: '1px solid #ce93d8'
+                        }
+                    }, subcategory)
                 ),
 
                 // Tags - clickable area to focus tags field
