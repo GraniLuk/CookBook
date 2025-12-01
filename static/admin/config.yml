@@ -100,7 +100,6 @@ _shared_fields:
       - { label: "banan", value: "banan" }
       - { label: "bataty", value: "bataty" }
       - { label: "berberys", value: "berberys" }
-      - { label: "biała fasola", value: "biała fasola" }
       - { label: "białka jajek", value: "białka jajek" }
       - { label: "białko jajeczne", value: "białko jajeczne" }
       - { label: "boczek", value: "boczek" }

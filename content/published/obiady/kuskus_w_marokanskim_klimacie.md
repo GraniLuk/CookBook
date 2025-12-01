@@ -30,7 +30,7 @@ protein: 41
 fodmap:
   status: yes
   serving_ok: OK w tej porcji z modyfikacją
-  notes: Czerwona cebula jest wysokofodmapowa – pominąć całkowicie. Biała fasola
+  notes: Czerwona cebula jest wysokofodmapowa – pominąć całkowicie. Fasola biała
     może być graniczna – zmniejszono ilość do bezpiecznej dawki (50g na porcję).
     Orzechy nerkowca dozwolone w małych ilościach (10g na porcję).
   substitutions:
@@ -73,7 +73,7 @@ carbohydrate: 78
 |--------------------|-----------|----------------|------------|--------------|-----------------|
 | Kuskus             | 200       | 680            | 14         | 2            | 140             |
 | Marchewki          | 200       | 80             | 2          | 0            | 18              |
-| Biała fasola       | 150       | 225            | 15         | 1.5          | 37.5            |
+| Fasola biała       | 150       | 225            | 15         | 1.5          | 37.5            |
 | Pietruszka         | 20        | 10             | 1          | 0            | 2               |
 | Papryczka chili    | 10        | 5              | 0          | 0            | 1               |
 | Orzechy nerkowca   | 30        | 180            | 5          | 15           | 6               |
