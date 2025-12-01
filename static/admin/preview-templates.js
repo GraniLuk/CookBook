@@ -22,7 +22,7 @@ const RecipePreview = createClass({
         const tagline = widgetFor('tagline');
         const category = entry.getIn(['data', 'categories'], '');
         const subcategory = entry.getIn(['data', 'subcategories'], '');
-        
+
         // Get status fields
         const draft = entry.getIn(['data', 'draft'], false);
         const favourite = entry.getIn(['data', 'favourite'], false);
@@ -146,12 +146,12 @@ const RecipePreview = createClass({
                     'Gotowy do Testowania'
                 )
             ),
-            
+
             // Title at the top - compact header
             h('h1', {
-                style: { 
-                    margin: '0 0 1rem 0', 
-                    fontSize: '2rem', 
+                style: {
+                    margin: '0 0 1rem 0',
+                    fontSize: '2rem',
                     borderBottom: '2px solid #667eea',
                     paddingBottom: '0.5rem'
                 }
@@ -414,14 +414,31 @@ const RecipePreview = createClass({
                     )
                 ),
 
-                // Body Content
+                // Body Content - clickable to focus markdown editor
                 h('div', {
                     className: 'recipe-body',
                     style: {
                         fontSize: '1.1rem',
                         lineHeight: '1.8',
-                        marginTop: '2rem'
-                    }
+                        marginTop: '2rem',
+                        cursor: 'pointer',
+                        padding: '1rem',
+                        margin: '2rem -1rem -1rem -1rem',
+                        borderRadius: '4px',
+                        transition: 'background-color 0.2s'
+                    },
+                    onClick: () => {
+                        const bodyField = document.querySelector('[data-testid="body-field"], [id*="body"], .cm-editor, textarea[id*="body"]');
+                        if (bodyField) {
+                            bodyField.focus();
+                            // For CodeMirror editors, try to focus the editor instance
+                            if (bodyField.classList.contains('cm-editor')) {
+                                bodyField.querySelector('.cm-content')?.focus();
+                            }
+                        }
+                    },
+                    onMouseEnter: (e) => { e.currentTarget.style.backgroundColor = '#f5f9ff'; },
+                    onMouseLeave: (e) => { e.currentTarget.style.backgroundColor = 'transparent'; }
                 }, body)
             )
         );
