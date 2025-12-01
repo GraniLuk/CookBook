@@ -3,35 +3,35 @@ title: Pasta Twarogowa z Tahini i Granatem
 author: Anonimowy
 draft: false
 favourite: false
-servings: 2
-fodmap:
-  status: yes
-  serving_ok: OK w tej porcji
-  notes: Wszystkie składniki są bezpieczne dla diety low FODMAP w podanych ilościach.
-  substitutions: []
-ingredients:
-  - twaróg chudy
-  - skyr naturalny
-  - tahini
-  - granat
-  - erytrytol
 tagline: Kremowa pasta twarogowa z tahini i granatem, idealna na śniadanie lub
   przekąskę.
 recipe_image: images/recipe-headers/pasta_twarogowa_tahini_granat.avif
 tags:
   - kanapki
   - pasta
+ingredients:
+  - twaróg chudy
+  - skyr naturalny
+  - tahini
+  - granat
+  - erytrytol
+categories: śniadania
+subcategories: słodkie
+servings: 2
+prep_time: 10
 cook: false
 cook_time: 0
 calories: 360
 protein: 34
+link: null
+fodmap:
+  status: yes
+  serving_ok: OK w tej porcji
+  notes: Wszystkie składniki są bezpieczne dla diety low FODMAP w podanych ilościach.
+  substitutions: []
 date: 2025-11-26T12:00:00-00:00
-categories:
-  - przekąski
-prep_time: 10
 fat: 16
 carbohydrate: 22
-link: null
 ---
 
 ## Składniki
