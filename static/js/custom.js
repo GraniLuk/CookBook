@@ -1,91 +1,89 @@
 var searchTerm = null;
 
-summaryInclude=60;
+summaryInclude = 60;
 var fuseOptions = {
   shouldSort: true,
   includeMatches: true,
   threshold: 0.0,
-  tokenize:true,
   location: 0,
   distance: 100,
-  maxPatternLength: 32,
   minMatchCharLength: 1,
   keys: [
-    {name:"title",weight:0.8},
-    {name:"contents",weight:0.5},
-    {name:"tags",weight:0.3},
-    {name:"categories",weight:0.3}
+    { name: "title", weight: 0.8 },
+    { name: "contents", weight: 0.5 },
+    { name: "tags", weight: 0.3 },
+    { name: "categories", weight: 0.3 }
   ]
 };
 
-u('#searchTerm').on('change keyup', function() { // Set the search value on keyup for the input
-    searchTerm = this.value;
+u('#searchTerm').on('change keyup', function () { // Set the search value on keyup for the input
+  searchTerm = this.value;
 })
 
-function showAlert(message){
-    u('#alert').removeClass("is-hidden")
-    u('#alert').html(message)
-    setTimeout(function () {
-        u('#alert').addClass("is-hidden")
-    }, 3000)
+function showAlert(message) {
+  u('#alert').removeClass("is-hidden")
+  u('#alert').html(message)
+  setTimeout(function () {
+    u('#alert').addClass("is-hidden")
+  }, 3000)
 }
 
-u('#searchButton').handle('click', function(e) { //use handle to automatically prevent default
-    const current = (u('#searchTerm').first() && u('#searchTerm').first().value) || searchTerm;
-    if(current && current.trim()){
-        searchTerm = current.trim();
-        if(u('#searchTerm').first()){ u('#searchTerm').first().value = searchTerm; }
-        u('#searchButton').addClass("is-loading");
-        executeSearch(searchTerm);
-      }else {
-        showAlert("Search cannot be empty!")
-      }
+u('#searchButton').handle('click', function (e) { //use handle to automatically prevent default
+  const current = (u('#searchTerm').first() && u('#searchTerm').first().value) || searchTerm;
+  if (current && current.trim()) {
+    searchTerm = current.trim();
+    if (u('#searchTerm').first()) { u('#searchTerm').first().value = searchTerm; }
+    u('#searchButton').addClass("is-loading");
+    executeSearch(searchTerm);
+  } else {
+    showAlert("Search cannot be empty!")
+  }
 })
 
 // Allow pressing Enter in the input to run search without reloading the page
-u('#searchTerm').on('keydown', function(e){
-  if(e.key === 'Enter'){
+u('#searchTerm').on('keydown', function (e) {
+  if (e.key === 'Enter') {
     e.preventDefault();
     u('#searchButton').trigger('click');
   }
 });
 
-function executeSearch(searchQuery){
-    // Get the correct base URL for index.json
+function executeSearch(searchQuery) {
+  // Get the correct base URL for index.json
   const baseUrl = '/CookBook';
-    const timestamp = new Date().getTime();
-    fetch(`${baseUrl}/index.json?v=${timestamp}`)
-      .then(r => {
-        if (!r.ok) throw new Error(`Failed to load index.json: ${r.status}`);
-        return r.json();
-      })
-      .then(function(data) {
-        if (!Array.isArray(data)) {
-          console.warn('Search index is not an array. Raw data:', data);
-        }
-        var pages = Array.isArray(data) ? data : [];
-        var fuse = new Fuse(pages, fuseOptions);
-        var result = fuse.search(searchQuery);
-        if(result.length > 0){
-            u('#content').addClass("is-hidden"); //hiding our main content to display the results
-            u('#searchResultsCol').empty(); // clean out any previous search results
-            u('#searchButton').removeClass("is-loading") //change our button back
-            u('#searchResults').removeClass("is-hidden") //show Result area
-            populateResults(result);
-        }else{
-          showAlert("No results found!")
-          u('#searchButton').removeClass("is-loading");
-          if(u('#searchTerm').first()){ u('#searchTerm').first().value = ""; }
-        }
-      })
-      .catch(err => {
-        console.error('Search error:', err);
-        showAlert('Problem loading search index.');
+  const timestamp = new Date().getTime();
+  fetch(`${baseUrl}/index.json?v=${timestamp}`)
+    .then(r => {
+      if (!r.ok) throw new Error(`Failed to load index.json: ${r.status}`);
+      return r.json();
+    })
+    .then(function (data) {
+      if (!Array.isArray(data)) {
+        console.warn('Search index is not an array. Raw data:', data);
+      }
+      var pages = Array.isArray(data) ? data : [];
+      var fuse = new Fuse(pages, fuseOptions);
+      var result = fuse.search(searchQuery);
+      if (result.length > 0) {
+        u('#content').addClass("is-hidden"); //hiding our main content to display the results
+        u('#searchResultsCol').empty(); // clean out any previous search results
+        u('#searchButton').removeClass("is-loading") //change our button back
+        u('#searchResults').removeClass("is-hidden") //show Result area
+        populateResults(result);
+      } else {
+        showAlert("No results found!")
         u('#searchButton').removeClass("is-loading");
-      });
+        if (u('#searchTerm').first()) { u('#searchTerm').first().value = ""; }
+      }
+    })
+    .catch(err => {
+      console.error('Search error:', err);
+      showAlert('Problem loading search index.');
+      u('#searchButton').removeClass("is-loading");
+    });
 }
 
-function populateResults(result){
+function populateResults(result) {
   Object.entries(result).forEach(entry => {
     const [idx, val] = entry;
     const item = (val && val.item) ? val.item : {};
@@ -95,15 +93,15 @@ function populateResults(result){
     if (fuseOptions.tokenize) {
       snippet = contents.substring(0, summaryInclude * 2);
     } else if (val && Array.isArray(val.matches)) {
-      val.matches.forEach(function(match){
-        if(!match) return;
-        if(match.key === 'contents' && Array.isArray(match.indices) && match.indices[0]){
-          var start = match.indices[0][0]-summaryInclude>0?match.indices[0][0]-summaryInclude:0;
-          var end = match.indices[0][1]+summaryInclude<contents.length?match.indices[0][1]+summaryInclude:contents.length;
-          snippet += contents.substring(start,end);
+      val.matches.forEach(function (match) {
+        if (!match) return;
+        if (match.key === 'contents' && Array.isArray(match.indices) && match.indices[0]) {
+          var start = match.indices[0][0] - summaryInclude > 0 ? match.indices[0][0] - summaryInclude : 0;
+          var end = match.indices[0][1] + summaryInclude < contents.length ? match.indices[0][1] + summaryInclude : contents.length;
+          snippet += contents.substring(start, end);
         }
       });
-      if(snippet.length<1){ snippet = contents.substring(0, summaryInclude * 2); }
+      if (snippet.length < 1) { snippet = contents.substring(0, summaryInclude * 2); }
     } else {
       snippet = contents.substring(0, summaryInclude * 2);
     }
@@ -135,8 +133,8 @@ function populateResults(result){
     const card = document.createElement('div');
     card.className = 'card';
     card.style.cssText = 'border-radius: 1%; height: 100%; display: flex; flex-direction: column; cursor: pointer; transition: transform 0.2s ease, box-shadow 0.2s ease;';
-    card.onmouseover = function(){ this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.1)'; };
-    card.onmouseout = function(){ this.style.transform='translateY(0)'; this.style.boxShadow='none'; };
+    card.onmouseover = function () { this.style.transform = 'translateY(-2px)'; this.style.boxShadow = '0 4px 8px rgba(0,0,0,0.1)'; };
+    card.onmouseout = function () { this.style.transform = 'translateY(0)'; this.style.boxShadow = 'none'; };
     a.appendChild(card);
 
     const cardImage = document.createElement('div');
@@ -159,9 +157,9 @@ function populateResults(result){
     tagOverlay.className = 'card-tags-overlay';
     // Build tag badges
     if (Array.isArray(item.tags)) {
-      item.tags.forEach(function(t){
-        if(!t) return;
-        const slug = t.toString().toLowerCase().trim().replace(/\s+/g,'-').replace(/[^a-z0-9\-]/g,'');
+      item.tags.forEach(function (t) {
+        if (!t) return;
+        const slug = t.toString().toLowerCase().trim().replace(/\s+/g, '-').replace(/[^a-z0-9\-]/g, '');
         const span = document.createElement('span');
         span.className = 'recipe-tag tag-link';
         span.dataset.tag = slug;
@@ -232,26 +230,26 @@ function populateResults(result){
   });
 }
 
-  
-  function param(name) {
-      return decodeURIComponent((location.search.split(name + '=')[1] || '').split('&')[0]).replace(/\+/g, ' ');
-  }
-  
+
+function param(name) {
+  return decodeURIComponent((location.search.split(name + '=')[1] || '').split('&')[0]).replace(/\+/g, ' ');
+}
+
 // (removed) legacy string-template renderer; now building DOM directly for reliability
 
 // Navigate when clicking tag badges (both static Hugo-rendered and search results)
-document.addEventListener('click', function(e){
+document.addEventListener('click', function (e) {
   var target = e.target;
-  if(target.classList && target.classList.contains('tag-link')){
+  if (target.classList && target.classList.contains('tag-link')) {
     // Stop the card anchor from triggering
     e.stopPropagation();
     e.preventDefault();
     var slug = target.getAttribute('data-tag');
-    if(slug){
-  // Detect base path (works for local dev under /CookBook/ subpath)
-  var url = '/CookBook/tags/' + slug + '/';
+    if (slug) {
+      // Detect base path (works for local dev under /CookBook/ subpath)
+      var url = '/CookBook/tags/' + slug + '/';
       // Support ctrl/cmd/middle click to open in new tab
-      if(e.metaKey || e.ctrlKey || e.button === 1){
+      if (e.metaKey || e.ctrlKey || e.button === 1) {
         window.open(url, '_blank');
       } else {
         window.location.href = url;
