@@ -1,6 +1,5 @@
 #!/bin/bash
 # Integration test script for edit button URL generation
-set -e  # Exit on any error
 
 echo "🧪 Testing Edit Button URL Generation..."
 
@@ -28,27 +27,53 @@ FAILED=0
 echo ""
 echo "🔍 Checking generated HTML files..."
 
+# Debug: Show what directories exist
+echo "  📁 Directory structure:"
+ls -la public/published/ 2>/dev/null | grep -E "^d" | awk '{print "     " $NF}' || echo "     No published directory found!"
+if [ -d "public/published/sniadania" ]; then
+    SNIADANIA_COUNT=$(find public/published/sniadania -name "*.html" -type f 2>/dev/null | wc -l)
+    echo "  📄 Found $SNIADANIA_COUNT HTML files in sniadania/"
+fi
+if [ -d "public/published/obiady" ]; then
+    OBIADY_COUNT=$(find public/published/obiady -name "*.html" -type f 2>/dev/null | wc -l)
+    echo "  📄 Found $OBIADY_COUNT HTML files in obiady/"
+fi
+echo ""
+
 # Test 1: Check obiady collection URLs
+echo "  🔍 Checking obiady collection..."
 if grep -r "collections/obiady/entries/" public/published/obiady/ >/dev/null 2>&1; then
     echo "  ✅ Obiady collection URLs are correct"
     ((PASSED++))
 else
     echo "  ❌ Obiady collection URLs not found or incorrect"
+    echo "     Expected pattern: collections/obiady/entries/"
+    echo "     Checking what's actually there:"
+    grep -r "admin/#/collections" public/published/obiady/ 2>/dev/null | head -3 | sed 's/^/     /'
     ((FAILED++))
 fi
 
 # Test 2: Check sniadania collection URLs
-if grep -r "collections/sniadania/entries/" public/published/sniadania/ >/dev/null 2>&1; then
+echo "  🔍 Checking sniadania collection..."
+if [ ! -d "public/published/sniadania" ]; then
+    echo "  ❌ Directory public/published/sniadania does not exist!"
+    ((FAILED++))
+elif grep -r "collections/sniadania/entries/" public/published/sniadania/ >/dev/null 2>&1; then
     echo "  ✅ Sniadania collection URLs are correct"
     ((PASSED++))
 else
     echo "  ❌ Sniadania collection URLs not found or incorrect"
+    echo "     Expected pattern: collections/sniadania/entries/"
+    echo "     Checking what's actually there:"
+    grep -r "admin/#/collections" public/published/sniadania/ 2>/dev/null | head -3 | sed 's/^/     /'
     ((FAILED++))
 fi
 
 # Test 3: Check for URL encoding issues (should NOT exist)
+echo "  🔍 Checking for URL encoding issues..."
 if grep -r "%5\[bB\].*collections.*%5\[dD\]" public/ >/dev/null 2>&1; then
     echo "  ❌ Found URL-encoded brackets in edit button URLs"
+    grep -r "%5\[bB\].*collections.*%5\[dD\]" public/ 2>/dev/null | head -3 | sed 's/^/     /'
     ((FAILED++))
 else
     echo "  ✅ No URL encoding issues detected"
