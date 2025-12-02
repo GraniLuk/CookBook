@@ -68,7 +68,7 @@
                             </a>
                             {{ with $recipe.Params.recipe_image }}
                             <figure class="image is-128x128 mt-2">
-                                <img src="{{ partial " asset-url.html" (printf "/%s" .) }}" alt="{{ $recipe.Title }}"
+                                <img src="{{ partial "asset-url.html" (printf "/%s" .) }}" alt="{{ $recipe.Title }}"
                                     style="aspect-ratio: 1/1; object-fit: cover; border-radius: 4px;">
                             </figure>
                             {{ end }}
@@ -107,7 +107,7 @@
         </div>
 
         <div class="buttons mt-5 is-hidden-print">
-            <a href="{{ partial " asset-url.html" "/weekly-plans/" }}" class="button">
+            <a href="{{ partial "asset-url.html" "/weekly-plans/" }}" class="button">
                 <span class="icon"><i class="fas fa-arrow-left"></i></span>
                 <span>Powrót do planów</span>
             </a>
