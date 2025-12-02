@@ -7,10 +7,10 @@
         "postinstall": "npm run copy-bulma",
         "test:search:v3": "node tests/fusejs-baseline-test.js",
         "test:search:v7": "node tests/fusejs-v7-test.js",
-        "copy-bulma": "copyfiles node_modules/bulma/css/bulma.min.css static/css/"
+        "copy-bulma": "copyfiles -f node_modules/bulma/css/bulma.min.css static/css/"
     },
     "devDependencies": {
-        "bulma": "^0.9.4",
+        "bulma": "^1.0.4",
         "fuse.js": "7.1.0",
         "copyfiles": "^2.4.1"
     },
