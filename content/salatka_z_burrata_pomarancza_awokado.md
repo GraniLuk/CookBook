@@ -1,7 +1,7 @@
 ---
 title: Sałatka z Burratą, Pomarańczą i Awokado
 draft: false
-recipe_image: images/recipe-headers/salatka_burrata_pomarancza_awokado.jpg
+recipe_image: images/recipe-headers/salatka_burrata_pomarancza_awokado.avif
 servings: 1
 prep_time: 10
 fodmap:
