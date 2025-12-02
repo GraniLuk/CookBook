@@ -181,19 +181,17 @@ textarea {
 
 /* ===== CONSISTENT CARD WIDTHS FIX ===== */
 
-/* Force consistent widths for four-column layout - DESKTOP AND LARGER ONLY */
+/* Force consistent widths for five-column layout (20% width) - DESKTOP ONLY */
 @media screen and (min-width: 1024px) {
-
-    /* Force consistent widths for four-column layout */
-    .section .columns.is-multiline .column.is-one-quarter {
-        flex: 0 0 25% !important;
-        max-width: 25% !important;
-        min-width: 25% !important;
-        width: 25% !important;
+    .section .columns.is-multiline .column.is-2-desktop {
+        flex: 0 0 20% !important;
+        max-width: 20% !important;
+        min-width: 20% !important;
+        width: 20% !important;
     }
 
     /* Ensure cards fill their containers properly */
-    .section .columns.is-multiline .column.is-one-quarter .card {
+    .section .columns.is-multiline .column.is-2-desktop .card {
         width: 100% !important;
         max-width: none !important;
         min-width: 0 !important;
@@ -201,7 +199,31 @@ textarea {
     }
 
     /* Force equal heights while maintaining consistent widths */
-    .section .columns.is-multiline .column.is-one-quarter {
+    .section .columns.is-multiline .column.is-2-desktop {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+}
+
+/* Force consistent widths for four-column layout (25% width) - DESKTOP ONLY */
+@media screen and (min-width: 1024px) {
+    .section .columns.is-multiline .column.is-3-desktop {
+        flex: 0 0 25% !important;
+        max-width: 25% !important;
+        min-width: 25% !important;
+        width: 25% !important;
+    }
+
+    /* Ensure cards fill their containers properly */
+    .section .columns.is-multiline .column.is-3-desktop .card {
+        width: 100% !important;
+        max-width: none !important;
+        min-width: 0 !important;
+        flex: 1 !important;
+    }
+
+    /* Force equal heights while maintaining consistent widths */
+    .section .columns.is-multiline .column.is-3-desktop {
         display: flex !important;
         flex-direction: column !important;
     }
