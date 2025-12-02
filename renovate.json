@@ -32,8 +32,8 @@
             "matchStrings": [
                 "<link rel=\"stylesheet\" href=\"https://cdnjs\\.cloudflare\\.com/ajax/libs/font-awesome/(?<currentValue>[^/]+)"
             ],
-            "datasourceTemplate": "npm",
-            "depNameTemplate": "@fortawesome/fontawesome-free"
+            "datasourceTemplate": "cdnjs",
+            "depNameTemplate": "font-awesome"
         }
     ]
 }
