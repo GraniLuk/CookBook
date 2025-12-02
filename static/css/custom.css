@@ -195,7 +195,7 @@ textarea {
 
 /* Force consistent widths for five-column layout (20% width) - DESKTOP ONLY */
 @media screen and (min-width: 1024px) {
-    .section .columns.is-multiline .column.is-2-desktop {
+    .section .columns.is-multiline .column.is-2-desktop:not([data-ready-to-test="true"]):not([data-draft="true"]) {
         flex: 0 0 20% !important;
         max-width: 20% !important;
         min-width: 20% !important;
@@ -203,7 +203,7 @@ textarea {
     }
 
     /* Ensure cards fill their containers properly */
-    .section .columns.is-multiline .column.is-2-desktop .card {
+    .section .columns.is-multiline .column.is-2-desktop:not([data-ready-to-test="true"]):not([data-draft="true"]) .card {
         width: 100% !important;
         max-width: none !important;
         min-width: 0 !important;
@@ -211,7 +211,7 @@ textarea {
     }
 
     /* Force equal heights while maintaining consistent widths */
-    .section .columns.is-multiline .column.is-2-desktop {
+    .section .columns.is-multiline .column.is-2-desktop:not([data-ready-to-test="true"]):not([data-draft="true"]) {
         display: flex !important;
         flex-direction: column !important;
     }
@@ -219,7 +219,7 @@ textarea {
 
 /* Force consistent widths for four-column layout (25% width) - DESKTOP ONLY */
 @media screen and (min-width: 1024px) {
-    .section .columns.is-multiline .column.is-3-desktop {
+    .section .columns.is-multiline .column.is-3-desktop:not([data-ready-to-test="true"]):not([data-draft="true"]) {
         flex: 0 0 25% !important;
         max-width: 25% !important;
         min-width: 25% !important;
@@ -227,7 +227,7 @@ textarea {
     }
 
     /* Ensure cards fill their containers properly */
-    .section .columns.is-multiline .column.is-3-desktop .card {
+    .section .columns.is-multiline .column.is-3-desktop:not([data-ready-to-test="true"]):not([data-draft="true"]) .card {
         width: 100% !important;
         max-width: none !important;
         min-width: 0 !important;
@@ -235,7 +235,7 @@ textarea {
     }
 
     /* Force equal heights while maintaining consistent widths */
-    .section .columns.is-multiline .column.is-3-desktop {
+    .section .columns.is-multiline .column.is-3-desktop:not([data-ready-to-test="true"]):not([data-draft="true"]) {
         display: flex !important;
         flex-direction: column !important;
     }
