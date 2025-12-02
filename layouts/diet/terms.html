@@ -14,14 +14,14 @@
         <div class="card-content">
           {{ $cat := lower .Title }}
           {{ with .Site.GetPage (printf "diet/%s" $cat) }}
-            {{ range first 5 .Pages }}
-              <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
-            {{ end }}
+          {{ range first 5 .Pages }}
+          <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+          {{ end }}
           {{ end }}
         </div>
       </div>
     </div>
     {{ end }}
   </div>
- </div>
+</div>
 {{ end }}

@@ -8,9 +8,10 @@
                         <h1 class="title is-2">{{ .Title }}</h1>
                         <p class="subtitle">
                             {{ if .Params.start_date }}
-                            Od {{ .Params.start_date | time.Format "02.01.2006" }} 
+                            Od {{ .Params.start_date | time.Format "02.01.2006" }}
                             {{ end }}
-                            <span class="tag is-info is-medium ml-2">Tydzień {{ .Params.week_number }}/{{ .Params.year }}</span>
+                            <span class="tag is-info is-medium ml-2">Tydzień {{ .Params.week_number }}/{{ .Params.year
+                                }}</span>
                         </p>
                     </div>
                 </div>
@@ -18,7 +19,8 @@
             <div class="level-right">
                 <div class="level-item">
                     <div class="buttons">
-                        <a href="{{ partial "asset-url.html" (printf "/admin/#/collections/weekly_plans/entries/%s" .File.BaseFileName) }}" class="button is-primary">
+                        <a href="{{ partial " asset-url.html" (printf "/admin/#/collections/weekly_plans/entries/%s"
+                            .File.BaseFileName) }}" class="button is-primary">
                             <span class="icon"><i class="fas fa-edit"></i></span>
                             <span>Edytuj</span>
                         </a>
@@ -39,7 +41,8 @@
 
         <div class="weekly-plan-grid">
             {{ $days := slice "monday" "tuesday" "wednesday" "thursday" "friday" "saturday" "sunday" }}
-            {{ $dayNames := dict "monday" "Poniedziałek" "tuesday" "Wtorek" "wednesday" "Środa" "thursday" "Czwartek" "friday" "Piątek" "saturday" "Sobota" "sunday" "Niedziela" }}
+            {{ $dayNames := dict "monday" "Poniedziałek" "tuesday" "Wtorek" "wednesday" "Środa" "thursday" "Czwartek"
+            "friday" "Piątek" "saturday" "Sobota" "sunday" "Niedziela" }}
             {{ $meals := slice "breakfast" "lunch" "dinner" "supper" }}
             {{ $mealNames := dict "breakfast" "Śniadanie" "lunch" "Lunch" "dinner" "Obiad" "supper" "Kolacja" }}
 
@@ -50,7 +53,7 @@
                     <span class="icon"><i class="far fa-calendar-day"></i></span>
                     {{ index $dayNames $day }}
                 </h2>
-                
+
                 <div class="columns is-multiline">
                     {{ range $meals }}
                     {{ $mealSlug := index $dayData . }}
@@ -58,43 +61,42 @@
                         <div class="meal-slot">
                             <p class="heading">{{ index $mealNames . }}</p>
                             {{ if $mealSlug }}
-                                {{ $recipe := $.Site.GetPage (printf "/%s" $mealSlug) }}
-                                {{ if $recipe }}
-                                    <a href="{{ $recipe.Permalink }}" class="has-text-weight-semibold">
-                                        {{ $recipe.Title }}
-                                    </a>
-                                    {{ with $recipe.Params.recipe_image }}
-                                    <figure class="image is-128x128 mt-2">
-                                        <img src="{{ partial "asset-url.html" (printf "/%s" .) }}" 
-                                             alt="{{ $recipe.Title }}"
-                                             style="aspect-ratio: 1/1; object-fit: cover; border-radius: 4px;">
-                                    </figure>
-                                    {{ end }}
-                                    <div class="is-flex is-align-items-center mt-2">
-                                        {{ with $recipe.Params.prep_time }}
-                                        <p class="has-text-grey mr-3">
-                                            <span class="icon is-small"><i class="far fa-clock"></i></span>
-                                            {{ . }} min
-                                        </p>
-                                        {{ end }}
-                                        {{ with $recipe.Params.calories }}
-                                        <p class="has-text-grey">
-                                            <span class="icon is-small"><i class="fas fa-fire"></i></span>
-                                            {{ . }} kcal
-                                        </p>
-                                        {{ end }}
-                                    </div>
-                                {{ else }}
-                                    <p class="has-text-danger">{{ $mealSlug }} (nie znaleziono)</p>
+                            {{ $recipe := $.Site.GetPage (printf "/%s" $mealSlug) }}
+                            {{ if $recipe }}
+                            <a href="{{ $recipe.Permalink }}" class="has-text-weight-semibold">
+                                {{ $recipe.Title }}
+                            </a>
+                            {{ with $recipe.Params.recipe_image }}
+                            <figure class="image is-128x128 mt-2">
+                                <img src="{{ partial " asset-url.html" (printf "/%s" .) }}" alt="{{ $recipe.Title }}"
+                                    style="aspect-ratio: 1/1; object-fit: cover; border-radius: 4px;">
+                            </figure>
+                            {{ end }}
+                            <div class="is-flex is-align-items-center mt-2">
+                                {{ with $recipe.Params.prep_time }}
+                                <p class="has-text-grey mr-3">
+                                    <span class="icon is-small"><i class="far fa-clock"></i></span>
+                                    {{ . }} min
+                                </p>
                                 {{ end }}
+                                {{ with $recipe.Params.calories }}
+                                <p class="has-text-grey">
+                                    <span class="icon is-small"><i class="fas fa-fire"></i></span>
+                                    {{ . }} kcal
+                                </p>
+                                {{ end }}
+                            </div>
                             {{ else }}
-                                <p class="has-text-grey-light">— nie zaplanowano —</p>
+                            <p class="has-text-danger">{{ $mealSlug }} (nie znaleziono)</p>
+                            {{ end }}
+                            {{ else }}
+                            <p class="has-text-grey-light">— nie zaplanowano —</p>
                             {{ end }}
                         </div>
                     </div>
                     {{ end }}
                 </div>
-                
+
                 {{ with $dayData.notes }}
                 <div class="notification is-light mt-3">
                     <p class="is-size-7"><strong>Notatka:</strong> {{ . }}</p>
@@ -105,7 +107,7 @@
         </div>
 
         <div class="buttons mt-5 is-hidden-print">
-            <a href="{{ partial "asset-url.html" "/weekly-plans/" }}" class="button">
+            <a href="{{ partial " asset-url.html" "/weekly-plans/" }}" class="button">
                 <span class="icon"><i class="fas fa-arrow-left"></i></span>
                 <span>Powrót do planów</span>
             </a>

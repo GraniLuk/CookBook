@@ -13,12 +13,12 @@
                         {{ $category := lower .Title }}
                         {{ $tagPage := printf "/tags/%s" $category }}
                         {{ with .Site.GetPage $tagPage }}
-                            {{ $count := .Data.Pages | len }}
-                            {{ if gt $count 1 }}
-                                {{ $count }} przepisów znaleziono
-                            {{ else }}
-                                1 przepis znaleziony
-                            {{ end }}
+                        {{ $count := .Data.Pages | len }}
+                        {{ if gt $count 1 }}
+                        {{ $count }} przepisów znaleziono
+                        {{ else }}
+                        1 przepis znaleziony
+                        {{ end }}
                         {{ end }}
                     </div>
                 </header>
@@ -26,9 +26,9 @@
                     {{ $category := lower .Title }}
                     {{ $tagPage := printf "/tags/%s" $category }}
                     {{ with .Site.GetPage $tagPage }}
-                        {{ range first 5 .Pages }}
-                            <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
-                        {{ end }}
+                    {{ range first 5 .Pages }}
+                    <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+                    {{ end }}
                     {{ end }}
                 </div>
             </div>
