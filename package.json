@@ -10,7 +10,7 @@
         "copy-bulma": "copyfiles node_modules/bulma/css/bulma.min.css static/css/"
     },
     "devDependencies": {
-        "bulma": "^0.9.4",
+        "bulma": "^1.0.0",
         "fuse.js": "7.1.0",
         "copyfiles": "^2.4.1"
     },
