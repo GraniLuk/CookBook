@@ -20,7 +20,7 @@
         totalRecipes = allRecipeCards.length;
 
         if (totalRecipes === 0) {
-            console.warn('No recipe cards found on page');
+            // No recipe cards on this page (e.g., single recipe page) - silently exit
             return;
         }
 
