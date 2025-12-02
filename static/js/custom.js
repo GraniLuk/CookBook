@@ -120,7 +120,7 @@ function populateResults(result) {
 
     // Build DOM nodes directly to avoid template parsing issues
     const col = document.createElement('div');
-    col.className = 'column is-one-fifth-desktop is-one-quarter-tablet is-full-mobile';
+    col.className = 'column is-2-desktop is-3-tablet is-full-mobile';
 
     const resultWrap = document.createElement('div');
     resultWrap.className = 'result';

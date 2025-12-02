@@ -24,7 +24,7 @@
         
         <div class="columns is-multiline">
             {{ range $safePages.ByPublishDate.Reverse }}
-            <div class="column is-one-quarter">
+            <div class="column is-3">
                 {{ partial "summary.html" . }}
             </div>
             {{ end }}
@@ -45,7 +45,7 @@
         
         <div class="columns is-multiline">
             {{ range $dependsPages.ByPublishDate.Reverse }}
-            <div class="column is-one-quarter">
+            <div class="column is-3">
                 {{ partial "summary.html" . }}
             </div>
             {{ end }}
@@ -57,7 +57,7 @@
         <h1 class="title"><i class="fas fa-leaf" aria-hidden="true"></i> {{ .Title }}</h1>
         <div class="columns is-multiline">
             {{ range .Pages }}
-            <div class="column is-one-quarter">
+            <div class="column is-3">
                 {{ partial "summary.html" . }}
             </div>
             {{ end }}
