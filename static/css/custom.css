@@ -3,6 +3,17 @@ li {
     font-size: 20px;
 }
 
+/* Hide readyToTest recipes by default - JavaScript will show them if checkbox is enabled */
+/* Must use !important and be specific enough to override Bulma and other display rules */
+.columns.is-multiline > .column[data-ready-to-test="true"] {
+    display: none !important;
+}
+
+/* Also hide draft recipes (belt and suspenders approach) */
+.columns.is-multiline > .column[data-draft="true"] {
+    display: none !important;
+}
+
 /* Custom font override - prioritizing different fonts */
 /* body, button, input, optgroup, select, textarea {
     font-family: "Georgia", "Times New Roman", "Palatino", "Book Antiqua", serif !important;
@@ -26,8 +37,9 @@ textarea {
 }
 
 /* Apply flex display only on tablet and larger to allow mobile stacking */
+/* But NOT for readyToTest recipes which should stay hidden */
 @media screen and (min-width: 769px) {
-    .section .columns.is-multiline .column {
+    .section .columns.is-multiline .column:not([data-ready-to-test="true"]) {
         display: flex;
     }
 }
