@@ -1,6 +1,5 @@
 ---
 draft: false
-readyToTest: true
 title: "Tradycyjny Rosół Drobiowo‑Wołowy"
 author: "Policzone Szamy"
 favourite: true
