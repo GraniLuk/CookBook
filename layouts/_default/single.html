@@ -81,10 +81,9 @@
                         "/sosy/") -}}
                         {{- $collection = "sosy" -}}
                         {{- end -}}
-                        {{- $encodedEntry := .File.ContentBaseName -}}
-                        {{- with urls.Parse (printf "https://example.com/%s" .File.ContentBaseName) -}}
-                        {{- $encodedEntry = strings.TrimPrefix .EscapedPath "/" -}}
-                        {{- end -}}
+                        {{- $encodedEntry := urlquery .File.ContentBaseName -}}
+                        {{- $encodedEntry = replace $encodedEntry "+" "%20" -}}
+                        {{- $encodedEntry = replace $encodedEntry "%2C" "," -}}
                         {{- $editPath := printf "admin/#/collections/%s/entries/%s" $collection $encodedEntry -}}
                         <a href="{{ absURL $editPath }}"
                             target="_blank" rel="noopener" aria-label="Edit recipe" class="unstyled-btn">

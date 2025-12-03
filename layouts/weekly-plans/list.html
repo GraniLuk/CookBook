@@ -5,7 +5,7 @@
         <p class="subtitle has-text-centered">{{ .Content }}</p>
 
         <div class="buttons is-centered mb-5">
-            <a href="{{ partial "asset-url.html" "/admin/#/collections/weekly_plans/new" }}"
+            <a href="{{ absURL "admin/#/collections/weekly_plans/new" }}"
                 class="button is-primary is-medium">
                 <span class="icon"><i class="fas fa-plus"></i></span>
                 <span>Stwórz nowy plan</span>
@@ -43,8 +43,10 @@
                             <span class="icon"><i class="fas fa-eye"></i></span>
                             <span>Zobacz</span>
                         </a>
-                        <a href="{{ partial "asset-url.html" (printf "/admin/#/collections/weekly_plans/entries/%s"
-                            .File.BaseFileName) }}" class="card-footer-item">
+                        {{- $planSlug := urlquery .File.BaseFileName -}}
+                        {{- $planSlug = replace $planSlug "+" "%20" -}}
+                        <a href="{{ absURL (printf "admin/#/collections/weekly_plans/entries/%s" $planSlug) }}"
+                            class="card-footer-item">
                             <span class="icon"><i class="fas fa-edit"></i></span>
                             <span>Edytuj</span>
                         </a>

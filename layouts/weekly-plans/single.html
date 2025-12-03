@@ -19,8 +19,10 @@
             <div class="level-right">
                 <div class="level-item">
                     <div class="buttons">
-                        <a href="{{ partial "asset-url.html" (printf "/admin/#/collections/weekly_plans/entries/%s"
-                            .File.BaseFileName) }}" class="button is-primary">
+                        {{- $planSlug := urlquery .File.BaseFileName -}}
+                        {{- $planSlug = replace $planSlug "+" "%20" -}}
+                        <a href="{{ absURL (printf "admin/#/collections/weekly_plans/entries/%s" $planSlug) }}"
+                            class="button is-primary">
                             <span class="icon"><i class="fas fa-edit"></i></span>
                             <span>Edytuj</span>
                         </a>

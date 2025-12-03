@@ -8,10 +8,22 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(dirname "$SCRIPT_DIR")"
 cd "$REPO_ROOT"
 
+# Resolve Hugo binary (Git Bash in CI sometimes misses PATH)
+if command -v hugo >/dev/null 2>&1; then
+    HUGO_BIN="$(command -v hugo)"
+elif [ -x "/c/Program Files/Hugo/bin/hugo.exe" ]; then
+    HUGO_BIN="/c/Program Files/Hugo/bin/hugo.exe"
+elif [ -x "/mnt/c/Program Files/Hugo/bin/hugo.exe" ]; then
+    HUGO_BIN="/mnt/c/Program Files/Hugo/bin/hugo.exe"
+else
+    echo "❌ Hugo binary not found. Please install Hugo or adjust PATH."
+    exit 1
+fi
+
 # Build the site
 echo ""
 echo "📦 Building Hugo site..."
-hugo --quiet
+"$HUGO_BIN" --quiet
 
 if [ $? -ne 0 ]; then
     echo "❌ Hugo build failed"
@@ -82,9 +94,9 @@ fi
 
 # Test 4: Ensure no cache-busting query params on admin links
 echo "  🔍 Checking for cache-busting query params..."
-if grep -r "admin/#/collections/[^"]*\\?v=" public/ >/dev/null 2>&1; then
+if grep -r 'admin/#/collections/[^" ]*\?v=' public/ >/dev/null 2>&1; then
     echo "  ❌ Found cache-busting query params on admin edit links"
-    grep -r "admin/#/collections/[^"]*\\?v=" public/ 2>/dev/null | head -3 | sed 's/^/     /'
+    grep -r 'admin/#/collections/[^" ]*\?v=' public/ 2>/dev/null | head -3 | sed 's/^/     /'
     ((FAILED++))
 else
     echo "  ✅ No cache-busting query params detected on admin links"
