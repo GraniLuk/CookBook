@@ -450,7 +450,6 @@ collections:
           - { label: "sałatki", value: "salatki" }
           - { label: "desery", value: "desery" }
           - { label: "sosy", value: "sosy" }
-      - { label: Szkic, name: draft, widget: boolean, required: false, default: false }
       - { label: Ulubiony, name: favourite, widget: boolean, required: false, default: false }
       - { label: W Kolejce, name: queued, widget: boolean, required: false, default: false }
       - { label: Gotowy do Testowania, name: readyToTest, widget: boolean, required: false, default: false }

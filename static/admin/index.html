@@ -12,7 +12,6 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
     /* Target the ControlContainer divs that contain the boolean fields */
-    div[class*="ControlContainer"]:has(button[id*="draft-field"]),
     div[class*="ControlContainer"]:has(button[id*="favourite-field"]),
     div[class*="ControlContainer"]:has(button[id*="queued-field"]),
     div[class*="ControlContainer"]:has(button[id*="readyToTest-field"]) {
@@ -26,7 +25,7 @@
   <script>
     // Script to compact boolean fields into one line
     (function() {
-      const targetFields = ['draft', 'favourite', 'queued', 'readyToTest'];
+      const targetFields = ['favourite', 'queued', 'readyToTest'];
       
       function compactFields() {
         targetFields.forEach(function(name) {
