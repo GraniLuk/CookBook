@@ -10,37 +10,101 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
     integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    /* Target the boolean field containers to make them inline */
+    [id*="nc-controlPane-control-field-draft"],
+    [id*="nc-controlPane-control-field-favourite"],
+    [id*="nc-controlPane-control-field-queued"] {
+      display: inline-block !important;
+      width: auto !important;
+      margin-right: 20px !important;
+      vertical-align: top !important;
+    }
+    
+    /* Alternative: target by field name in data attributes or class */
+    div[class*="draft"] > div,
+    div[class*="favourite"] > div,
+    div[class*="queued"] > div {
+      display: inline-block !important;
+      width: auto !important;
+      margin-right: 20px !important;
+    }
+  </style>
   <script>
     // Script to compact specific boolean fields into one line
     (function() {
       const targetFields = ['draft', 'favourite', 'queued'];
       
-      const observer = new MutationObserver(function(mutations) {
+      function compactFields() {
         targetFields.forEach(function(name) {
-          const id = 'control-field-' + name;
-          const input = document.getElementById(id);
-          if (input) {
-            // Find the main container. 
-            // Strategy: Go up until we find a div that seems to be the Field wrapper.
-            // We look for a parent with a class containing "Field" which is standard in Decap CMS
-            let container = input.closest('div[class*="Field"]');
+          // Try multiple selectors to find the field
+          const selectors = [
+            '#control-field-' + name,
+            '[id$="field-' + name + '"]',
+            'input[name="' + name + '"]',
+            'label[for*="' + name + '"]'
+          ];
+          
+          let element = null;
+          for (let selector of selectors) {
+            element = document.querySelector(selector);
+            if (element) break;
+          }
+          
+          if (element) {
+            // Try to find the field wrapper - go up several levels
+            let container = element.closest('[class*="Field"]') || 
+                           element.closest('[class*="field"]') ||
+                           element.closest('[class*="Control"]') ||
+                           element.closest('div[class]');
             
             if (container) {
               container.style.display = 'inline-block';
               container.style.width = 'auto';
+              container.style.maxWidth = 'none';
               container.style.marginRight = '20px';
               container.style.verticalAlign = 'top';
-              // Also ensure the label doesn't force full width if it's styled that way
-              container.style.flex = 'none'; 
+              container.style.flex = 'none';
+              
+              // Also style parent if needed
+              if (container.parentElement) {
+                const parent = container.parentElement;
+                if (parent.children.length > 1) {
+                  parent.style.display = 'flex';
+                  parent.style.flexWrap = 'wrap';
+                  parent.style.alignItems = 'flex-start';
+                }
+              }
             }
           }
         });
-      });
-
-      // Start observing once the body is available
-      window.addEventListener('load', function() {
+      }
+      
+      // Run immediately
+      compactFields();
+      
+      // Watch for DOM changes
+      const observer = new MutationObserver(compactFields);
+      
+      // Start observing once ready
+      if (document.body) {
         observer.observe(document.body, { childList: true, subtree: true });
-      });
+      } else {
+        window.addEventListener('DOMContentLoaded', function() {
+          observer.observe(document.body, { childList: true, subtree: true });
+        });
+      }
+      
+      // Also run on load as backup
+      window.addEventListener('load', compactFields);
+      
+      // Run periodically for the first few seconds (in case CMS loads slowly)
+      let attempts = 0;
+      const interval = setInterval(function() {
+        compactFields();
+        attempts++;
+        if (attempts > 10) clearInterval(interval);
+      }, 500);
     })();
   </script>
 </head>
