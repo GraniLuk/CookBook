@@ -10,17 +10,39 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
     integrity="sha512-w/OQOyHJ90cS/+36bth6tATgbSh3RIUaXC2qIagc0M5ek3mVFq11P7SiN32d6IEqbVdPMOq9P2c9EqGrLlPbUg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <style>
-    /* Make boolean checkboxes inline to save space */
-    div:has(> label[for^="control-field-draft"]),
-    div:has(> label[for^="control-field-favourite"]),
-    div:has(> label[for^="control-field-queued"]) {
-      display: inline-block !important;
-      width: auto !important;
-      margin-right: 20px;
-      vertical-align: top;
-    }
-  </style>
+  <script>
+    // Script to compact specific boolean fields into one line
+    (function() {
+      const targetFields = ['draft', 'favourite', 'queued'];
+      
+      const observer = new MutationObserver(function(mutations) {
+        targetFields.forEach(function(name) {
+          const id = 'control-field-' + name;
+          const input = document.getElementById(id);
+          if (input) {
+            // Find the main container. 
+            // Strategy: Go up until we find a div that seems to be the Field wrapper.
+            // We look for a parent with a class containing "Field" which is standard in Decap CMS
+            let container = input.closest('div[class*="Field"]');
+            
+            if (container) {
+              container.style.display = 'inline-block';
+              container.style.width = 'auto';
+              container.style.marginRight = '20px';
+              container.style.verticalAlign = 'top';
+              // Also ensure the label doesn't force full width if it's styled that way
+              container.style.flex = 'none'; 
+            }
+          }
+        });
+      });
+
+      // Start observing once the body is available
+      window.addEventListener('load', function() {
+        observer.observe(document.body, { childList: true, subtree: true });
+      });
+    })();
+  </script>
 </head>
 
 <body>
