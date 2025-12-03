@@ -11,23 +11,37 @@
     integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
-    /* Target the boolean field containers to make them inline */
-    [id*="nc-controlPane-control-field-draft"],
-    [id*="nc-controlPane-control-field-favourite"],
-    [id*="nc-controlPane-control-field-queued"] {
+    /* Make boolean checkboxes display inline - target the outer field wrapper */
+    [class*="ControlContainer"] [class*="FieldWrapper"]:has(label:is(
+      [for*="draft"],
+      [for*="favourite"],
+      [for*="queued"]
+    )) {
       display: inline-block !important;
       width: auto !important;
-      margin-right: 20px !important;
+      max-width: none !important;
+      margin-right: 24px !important;
+      vertical-align: top !important;
+      flex: none !important;
+    }
+    
+    /* Fallback: target any div that contains these specific boolean toggles */
+    div:has(> label[for*="draft"]),
+    div:has(> label[for*="favourite"]),
+    div:has(> label[for*="queued"]) {
+      display: inline-block !important;
+      width: auto !important;
+      margin-right: 24px !important;
       vertical-align: top !important;
     }
     
-    /* Alternative: target by field name in data attributes or class */
-    div[class*="draft"] > div,
-    div[class*="favourite"] > div,
-    div[class*="queued"] > div {
-      display: inline-block !important;
-      width: auto !important;
-      margin-right: 20px !important;
+    /* Ensure parent container allows wrapping */
+    [class*="ControlContainer"]:has([for*="draft"]),
+    [class*="ControlContainer"]:has([for*="favourite"]),
+    [class*="ControlContainer"]:has([for*="queued"]) {
+      display: flex !important;
+      flex-wrap: wrap !important;
+      gap: 0 !important;
     }
   </style>
   <script>
@@ -37,74 +51,59 @@
       
       function compactFields() {
         targetFields.forEach(function(name) {
-          // Try multiple selectors to find the field
-          const selectors = [
-            '#control-field-' + name,
-            '[id$="field-' + name + '"]',
-            'input[name="' + name + '"]',
-            'label[for*="' + name + '"]'
-          ];
+          // Find label by 'for' attribute containing the field name
+          const label = document.querySelector('label[for*="' + name + '"]');
           
-          let element = null;
-          for (let selector of selectors) {
-            element = document.querySelector(selector);
-            if (element) break;
-          }
-          
-          if (element) {
-            // Try to find the field wrapper - go up several levels
-            let container = element.closest('[class*="Field"]') || 
-                           element.closest('[class*="field"]') ||
-                           element.closest('[class*="Control"]') ||
-                           element.closest('div[class]');
+          if (label) {
+            // Find the wrapper - go up until we find the field container
+            let current = label;
+            let wrapper = null;
             
-            if (container) {
-              container.style.display = 'inline-block';
-              container.style.width = 'auto';
-              container.style.maxWidth = 'none';
-              container.style.marginRight = '20px';
-              container.style.verticalAlign = 'top';
-              container.style.flex = 'none';
+            // Go up max 10 levels to find the field wrapper
+            for (let i = 0; i < 10; i++) {
+              current = current.parentElement;
+              if (!current) break;
               
-              // Also style parent if needed
-              if (container.parentElement) {
-                const parent = container.parentElement;
-                if (parent.children.length > 1) {
-                  parent.style.display = 'flex';
-                  parent.style.flexWrap = 'wrap';
-                  parent.style.alignItems = 'flex-start';
-                }
+              // Check if this looks like a field wrapper
+              const classes = current.className || '';
+              if (classes.includes('Field') || 
+                  classes.includes('Control') ||
+                  classes.includes('Wrapper') ||
+                  current.tagName === 'DIV' && current.children.length <= 3) {
+                wrapper = current;
+                break;
               }
+            }
+            
+            if (wrapper) {
+              wrapper.style.display = 'inline-block';
+              wrapper.style.width = 'auto';
+              wrapper.style.maxWidth = 'none';
+              wrapper.style.marginRight = '24px';
+              wrapper.style.verticalAlign = 'top';
+              wrapper.style.flex = 'none';
+              
+              console.log('Compacted field:', name, wrapper);
             }
           }
         });
       }
       
-      // Run immediately
-      compactFields();
+      // Run multiple times with delays to catch the CMS loading
+      setTimeout(compactFields, 100);
+      setTimeout(compactFields, 500);
+      setTimeout(compactFields, 1000);
+      setTimeout(compactFields, 2000);
       
       // Watch for DOM changes
-      const observer = new MutationObserver(compactFields);
-      
-      // Start observing once ready
-      if (document.body) {
-        observer.observe(document.body, { childList: true, subtree: true });
-      } else {
-        window.addEventListener('DOMContentLoaded', function() {
-          observer.observe(document.body, { childList: true, subtree: true });
-        });
-      }
-      
-      // Also run on load as backup
-      window.addEventListener('load', compactFields);
-      
-      // Run periodically for the first few seconds (in case CMS loads slowly)
-      let attempts = 0;
-      const interval = setInterval(function() {
+      const observer = new MutationObserver(function() {
         compactFields();
-        attempts++;
-        if (attempts > 10) clearInterval(interval);
-      }, 500);
+      });
+      
+      window.addEventListener('load', function() {
+        compactFields();
+        observer.observe(document.body, { childList: true, subtree: true });
+      });
     })();
   </script>
 </head>
