@@ -431,7 +431,13 @@ collections:
       visualEditing: true
     fields:
       - { label: Tytuł, name: title, widget: string }
-      - { label: Autor, name: author, widget: string, required: false }
+      - label: Podkategorie
+        name: subcategories
+        widget: select
+        required: false
+        options: 
+          - { label: "słodkie", value: "słodkie" }
+          - { label: "słone", value: "słone" }
       - { label: Szkic, name: draft, widget: boolean, required: false, default: false }
       - { label: Ulubiony, name: favourite, widget: boolean, required: false, default: false }
       - { label: W Kolejce, name: queued, widget: boolean, required: false, default: false }
@@ -452,13 +458,6 @@ collections:
           - { label: "sałatki", value: "salatki" }
           - { label: "desery", value: "desery" }
           - { label: "sosy", value: "sosy" }
-      - label: Podkategorie
-        name: subcategories
-        widget: select
-        required: false
-        options: 
-          - { label: "słodkie", value: "słodkie" }
-          - { label: "słone", value: "słone" }
       - { label: Porcje, name: servings, widget: number, required: false, min: 1 }
       - { label: Czas przygotowania (min), name: prep_time, widget: number, required: false, min: 0 }
       - { label: Czy wymaga gotowania, name: cook, widget: boolean, required: false, default: false }
@@ -483,6 +482,7 @@ collections:
             required: false
             field: { label: Zamiennik, name: substitution, widget: string }
           - { label: Porcja OK, name: serving_ok, widget: string, required: false }
+      - { label: Autor, name: author, widget: string, required: false }
       - label: Treść
         name: body
         widget: markdown
@@ -502,7 +502,13 @@ collections:
       visualEditing: true
     fields:
       - { label: Tytuł, name: title, widget: string }
-      - { label: Autor, name: author, widget: string, required: false }
+      - label: Podkategorie
+        name: subcategories
+        widget: select
+        required: false
+        options: 
+          - { label: "słodkie", value: "słodkie" }
+          - { label: "słone", value: "słone" }
       - { label: Szkic, name: draft, widget: boolean, required: false, default: false }
       - { label: Ulubiony, name: favourite, widget: boolean, required: false, default: false }
       - { label: W Kolejce, name: queued, widget: boolean, required: false, default: false }
@@ -516,19 +522,13 @@ collections:
         widget: select
         multiple: false
         required: true
+        default: ["obiady"]
         options:
           - { label: "śniadania", value: "śniadania" }
           - { label: "obiady", value: "obiady" }
           - { label: "sałatki", value: "salatki" }
           - { label: "desery", value: "desery" }
           - { label: "sosy", value: "sosy" }
-      - label: Podkategorie
-        name: subcategories
-        widget: select
-        required: false
-        options: 
-          - { label: "słodkie", value: "słodkie" }
-          - { label: "słone", value: "słone" }
       - { label: Porcje, name: servings, widget: number, required: false, min: 1 }
       - { label: Czas przygotowania (min), name: prep_time, widget: number, required: false, min: 0 }
       - { label: Czy wymaga gotowania, name: cook, widget: boolean, required: false, default: false }
@@ -553,6 +553,7 @@ collections:
             required: false
             field: { label: Zamiennik, name: substitution, widget: string }
           - { label: Porcja OK, name: serving_ok, widget: string, required: false }
+      - { label: Autor, name: author, widget: string, required: false }
       - label: Treść
         name: body
         widget: markdown
@@ -572,7 +573,13 @@ collections:
       visualEditing: true
     fields:
       - { label: Tytuł, name: title, widget: string }
-      - { label: Autor, name: author, widget: string, required: false }
+      - label: Podkategorie
+        name: subcategories
+        widget: select
+        required: false
+        options: 
+          - { label: "słodkie", value: "słodkie" }
+          - { label: "słone", value: "słone" }
       - { label: Szkic, name: draft, widget: boolean, required: false, default: false }
       - { label: Ulubiony, name: favourite, widget: boolean, required: false, default: false }
       - { label: W Kolejce, name: queued, widget: boolean, required: false, default: false }
@@ -586,19 +593,13 @@ collections:
         widget: select
         multiple: false
         required: true
+        default: ["salatki"]
         options:
           - { label: "śniadania", value: "śniadania" }
           - { label: "obiady", value: "obiady" }
           - { label: "sałatki", value: "salatki" }
           - { label: "desery", value: "desery" }
           - { label: "sosy", value: "sosy" }
-      - label: Podkategorie
-        name: subcategories
-        widget: select
-        required: false
-        options: 
-          - { label: "słodkie", value: "słodkie" }
-          - { label: "słone", value: "słone" }
       - { label: Porcje, name: servings, widget: number, required: false, min: 1 }
       - { label: Czas przygotowania (min), name: prep_time, widget: number, required: false, min: 0 }
       - { label: Czy wymaga gotowania, name: cook, widget: boolean, required: false, default: false }
@@ -623,6 +624,7 @@ collections:
             required: false
             field: { label: Zamiennik, name: substitution, widget: string }
           - { label: Porcja OK, name: serving_ok, widget: string, required: false }
+      - { label: Autor, name: author, widget: string, required: false }
       - label: Treść
         name: body
         widget: markdown
@@ -642,7 +644,13 @@ collections:
       visualEditing: true
     fields:
       - { label: Tytuł, name: title, widget: string }
-      - { label: Autor, name: author, widget: string, required: false }
+      - label: Podkategorie
+        name: subcategories
+        widget: select
+        required: false
+        options: 
+          - { label: "słodkie", value: "słodkie" }
+          - { label: "słone", value: "słone" }
       - { label: Szkic, name: draft, widget: boolean, required: false, default: false }
       - { label: Ulubiony, name: favourite, widget: boolean, required: false, default: false }
       - { label: W Kolejce, name: queued, widget: boolean, required: false, default: false }
@@ -656,19 +664,13 @@ collections:
         widget: select
         multiple: false
         required: true
+        default: ["desery"]
         options:
           - { label: "śniadania", value: "śniadania" }
           - { label: "obiady", value: "obiady" }
           - { label: "sałatki", value: "salatki" }
           - { label: "desery", value: "desery" }
           - { label: "sosy", value: "sosy" }
-      - label: Podkategorie
-        name: subcategories
-        widget: select
-        required: false
-        options: 
-          - { label: "słodkie", value: "słodkie" }
-          - { label: "słone", value: "słone" }
       - { label: Porcje, name: servings, widget: number, required: false, min: 1 }
       - { label: Czas przygotowania (min), name: prep_time, widget: number, required: false, min: 0 }
       - { label: Czy wymaga gotowania, name: cook, widget: boolean, required: false, default: false }
@@ -693,6 +695,7 @@ collections:
             required: false
             field: { label: Zamiennik, name: substitution, widget: string }
           - { label: Porcja OK, name: serving_ok, widget: string, required: false }
+      - { label: Autor, name: author, widget: string, required: false }
       - label: Treść
         name: body
         widget: markdown
@@ -712,7 +715,13 @@ collections:
       visualEditing: true
     fields:
       - { label: Tytuł, name: title, widget: string }
-      - { label: Autor, name: author, widget: string, required: false }
+      - label: Podkategorie
+        name: subcategories
+        widget: select
+        required: false
+        options: 
+          - { label: "słodkie", value: "słodkie" }
+          - { label: "słone", value: "słone" }
       - { label: Szkic, name: draft, widget: boolean, required: false, default: false }
       - { label: Ulubiony, name: favourite, widget: boolean, required: false, default: false }
       - { label: W Kolejce, name: queued, widget: boolean, required: false, default: false }
@@ -726,19 +735,13 @@ collections:
         widget: select
         multiple: false
         required: true
+        default: ["sosy"]
         options:
           - { label: "śniadania", value: "śniadania" }
           - { label: "obiady", value: "obiady" }
           - { label: "sałatki", value: "salatki" }
           - { label: "desery", value: "desery" }
           - { label: "sosy", value: "sosy" }
-      - label: Podkategorie
-        name: subcategories
-        widget: select
-        required: false
-        options: 
-          - { label: "słodkie", value: "słodkie" }
-          - { label: "słone", value: "słone" }
       - { label: Porcje, name: servings, widget: number, required: false, min: 1 }
       - { label: Czas przygotowania (min), name: prep_time, widget: number, required: false, min: 0 }
       - { label: Czy wymaga gotowania, name: cook, widget: boolean, required: false, default: false }
@@ -763,6 +766,7 @@ collections:
             required: false
             field: { label: Zamiennik, name: substitution, widget: string }
           - { label: Porcja OK, name: serving_ok, widget: string, required: false }
+      - { label: Autor, name: author, widget: string, required: false }
       - label: Treść
         name: body
         widget: markdown
