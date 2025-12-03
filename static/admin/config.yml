@@ -450,9 +450,9 @@ collections:
           - { label: "sałatki", value: "salatki" }
           - { label: "desery", value: "desery" }
           - { label: "sosy", value: "sosy" }
-      - { label: Ulubiony, name: favourite, widget: boolean, required: false, default: false }
-      - { label: W Kolejce, name: queued, widget: boolean, required: false, default: false }
-      - { label: Gotowy do Testowania, name: readyToTest, widget: boolean, required: false, default: false }
+      - { label: Ulubiony, name: favourite, widget: boolean, required: true, default: false }
+      - { label: W Kolejce, name: queued, widget: boolean, required: true, default: false }
+      - { label: Gotowy do Testowania, name: readyToTest, widget: boolean, required: true, default: false }
       - { label: Opis skrócony, name: tagline, widget: string, required: false }
       - *tags_field
       - *ingredients_field
@@ -513,9 +513,9 @@ collections:
           - { label: "sałatki", value: "salatki" }
           - { label: "desery", value: "desery" }
           - { label: "sosy", value: "sosy" }
-      - { label: Ulubiony, name: favourite, widget: boolean, required: false, default: false }
-      - { label: W Kolejce, name: queued, widget: boolean, required: false, default: false }
-      - { label: Gotowy do Testowania, name: readyToTest, widget: boolean, required: false, default: false }
+      - { label: Ulubiony, name: favourite, widget: boolean, required: true, default: false }
+      - { label: W Kolejce, name: queued, widget: boolean, required: true, default: false }
+      - { label: Gotowy do Testowania, name: readyToTest, widget: boolean, required: true, default: false }
       - { label: Opis skrócony, name: tagline, widget: string, required: false }
       - *tags_field
       - *ingredients_field
@@ -576,9 +576,9 @@ collections:
           - { label: "sałatki", value: "salatki" }
           - { label: "desery", value: "desery" }
           - { label: "sosy", value: "sosy" }
-      - { label: Ulubiony, name: favourite, widget: boolean, required: false, default: false }
-      - { label: W Kolejce, name: queued, widget: boolean, required: false, default: false }
-      - { label: Gotowy do Testowania, name: readyToTest, widget: boolean, required: false, default: false }
+      - { label: Ulubiony, name: favourite, widget: boolean, required: true, default: false }
+      - { label: W Kolejce, name: queued, widget: boolean, required: true, default: false }
+      - { label: Gotowy do Testowania, name: readyToTest, widget: boolean, required: true, default: false }
       - { label: Opis skrócony, name: tagline, widget: string, required: false }
       - *tags_field
       - *ingredients_field
@@ -639,9 +639,9 @@ collections:
           - { label: "sałatki", value: "salatki" }
           - { label: "desery", value: "desery" }
           - { label: "sosy", value: "sosy" }
-      - { label: Ulubiony, name: favourite, widget: boolean, required: false, default: false }
-      - { label: W Kolejce, name: queued, widget: boolean, required: false, default: false }
-      - { label: Gotowy do Testowania, name: readyToTest, widget: boolean, required: false, default: false }
+      - { label: Ulubiony, name: favourite, widget: boolean, required: true, default: false }
+      - { label: W Kolejce, name: queued, widget: boolean, required: true, default: false }
+      - { label: Gotowy do Testowania, name: readyToTest, widget: boolean, required: true, default: false }
       - { label: Opis skrócony, name: tagline, widget: string, required: false }
       - *tags_field
       - *ingredients_field
@@ -702,9 +702,9 @@ collections:
           - { label: "sałatki", value: "salatki" }
           - { label: "desery", value: "desery" }
           - { label: "sosy", value: "sosy" }
-      - { label: Ulubiony, name: favourite, widget: boolean, required: false, default: false }
-      - { label: W Kolejce, name: queued, widget: boolean, required: false, default: false }
-      - { label: Gotowy do Testowania, name: readyToTest, widget: boolean, required: false, default: false }
+      - { label: Ulubiony, name: favourite, widget: boolean, required: true, default: false }
+      - { label: W Kolejce, name: queued, widget: boolean, required: true, default: false }
+      - { label: Gotowy do Testowania, name: readyToTest, widget: boolean, required: true, default: false }
       - { label: Opis skrócony, name: tagline, widget: string, required: false }
       - *tags_field
       - *ingredients_field
