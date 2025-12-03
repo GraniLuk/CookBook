@@ -71,6 +71,15 @@
                         {{- else if or (strings.Contains $filePath "published/przekaski/") (strings.Contains $filePath
                         "/przekaski/") -}}
                         {{- $collection = "przekaski" -}}
+                        {{- else if or (strings.Contains $filePath "published/salatki/") (strings.Contains $filePath
+                        "/salatki/") -}}
+                        {{- $collection = "salatki" -}}
+                        {{- else if or (strings.Contains $filePath "published/napoje/") (strings.Contains $filePath
+                        "/napoje/") -}}
+                        {{- $collection = "napoje" -}}
+                        {{- else if or (strings.Contains $filePath "published/sosy/") (strings.Contains $filePath
+                        "/sosy/") -}}
+                        {{- $collection = "sosy" -}}
                         {{- end -}}
                         <a href="/CookBook/admin/#/collections/{{ $collection }}/entries/{{ .File.ContentBaseName }}"
                             target="_blank" rel="noopener" aria-label="Edit recipe" class="unstyled-btn">
