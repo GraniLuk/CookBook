@@ -452,7 +452,7 @@ collections:
           - { label: "sosy", value: "sosy" }
       - { label: Ulubiony, name: favourite, widget: boolean, required: true, default: false }
       - { label: W Kolejce, name: queued, widget: boolean, required: true, default: false }
-      - { label: Gotowy do Testowania, name: readyToTest, widget: boolean, required: true, default: false }
+      - { label: Testowy, name: readyToTest, widget: boolean, required: true, default: false }
       - { label: Opis skrócony, name: tagline, widget: string, required: false }
       - *tags_field
       - *ingredients_field
@@ -515,7 +515,7 @@ collections:
           - { label: "sosy", value: "sosy" }
       - { label: Ulubiony, name: favourite, widget: boolean, required: true, default: false }
       - { label: W Kolejce, name: queued, widget: boolean, required: true, default: false }
-      - { label: Gotowy do Testowania, name: readyToTest, widget: boolean, required: true, default: false }
+      - { label: Testowy, name: readyToTest, widget: boolean, required: true, default: false }
       - { label: Opis skrócony, name: tagline, widget: string, required: false }
       - *tags_field
       - *ingredients_field
@@ -578,7 +578,7 @@ collections:
           - { label: "sosy", value: "sosy" }
       - { label: Ulubiony, name: favourite, widget: boolean, required: true, default: false }
       - { label: W Kolejce, name: queued, widget: boolean, required: true, default: false }
-      - { label: Gotowy do Testowania, name: readyToTest, widget: boolean, required: true, default: false }
+      - { label: Testowy, name: readyToTest, widget: boolean, required: true, default: false }
       - { label: Opis skrócony, name: tagline, widget: string, required: false }
       - *tags_field
       - *ingredients_field
@@ -641,7 +641,7 @@ collections:
           - { label: "sosy", value: "sosy" }
       - { label: Ulubiony, name: favourite, widget: boolean, required: true, default: false }
       - { label: W Kolejce, name: queued, widget: boolean, required: true, default: false }
-      - { label: Gotowy do Testowania, name: readyToTest, widget: boolean, required: true, default: false }
+      - { label: Testowy, name: readyToTest, widget: boolean, required: true, default: false }
       - { label: Opis skrócony, name: tagline, widget: string, required: false }
       - *tags_field
       - *ingredients_field
@@ -704,7 +704,7 @@ collections:
           - { label: "sosy", value: "sosy" }
       - { label: Ulubiony, name: favourite, widget: boolean, required: true, default: false }
       - { label: W Kolejce, name: queued, widget: boolean, required: true, default: false }
-      - { label: Gotowy do Testowania, name: readyToTest, widget: boolean, required: true, default: false }
+      - { label: Testowy, name: readyToTest, widget: boolean, required: true, default: false }
       - { label: Opis skrócony, name: tagline, widget: string, required: false }
       - *tags_field
       - *ingredients_field
