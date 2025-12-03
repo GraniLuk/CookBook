@@ -81,7 +81,8 @@
                         "/sosy/") -}}
                         {{- $collection = "sosy" -}}
                         {{- end -}}
-                        <a href="/CookBook/admin/#/collections/{{ $collection }}/entries/{{ .File.ContentBaseName }}"
+                        {{- $editPath := printf "/admin/#/collections/%s/entries/%s" $collection (urlize .File.ContentBaseName) -}}
+                        <a href="{{ partial "asset-url.html" $editPath }}"
                             target="_blank" rel="noopener" aria-label="Edit recipe" class="unstyled-btn">
                             <i class="fas fa-pen-to-square" aria-hidden="true"></i>
                         </a>
