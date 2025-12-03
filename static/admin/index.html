@@ -11,14 +11,15 @@
     integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
-    /* Target the specific divs containing the boolean toggle buttons */
-    div:has(> button[id*="draft-field"]),
-    div:has(> button[id*="favourite-field"]),
-    div:has(> button[id*="queued-field"]) {
+    /* Target the ControlContainer divs that contain the boolean fields */
+    div[class*="ControlContainer"]:has(button[id*="draft-field"]),
+    div[class*="ControlContainer"]:has(button[id*="favourite-field"]),
+    div[class*="ControlContainer"]:has(button[id*="queued-field"]) {
       display: inline-block !important;
       width: auto !important;
       margin-right: 24px !important;
       vertical-align: top !important;
+      max-width: none !important;
     }
   </style>
   <script>
@@ -31,14 +32,20 @@
           // Find button by ID pattern
           const button = document.querySelector('button[id*="' + name + '-field"]');
           
-          if (button && button.parentElement) {
-            const wrapper = button.parentElement;
-            wrapper.style.display = 'inline-block';
-            wrapper.style.width = 'auto';
-            wrapper.style.marginRight = '24px';
-            wrapper.style.verticalAlign = 'top';
+          if (button) {
+            // Find the ControlContainer (should be 2 levels up from button)
+            let container = button.parentElement;
+            if (container) container = container.parentElement;
             
-            console.log('Compacted field:', name, wrapper.className);
+            if (container && container.className && container.className.includes('ControlContainer')) {
+              container.style.display = 'inline-block';
+              container.style.width = 'auto';
+              container.style.maxWidth = 'none';
+              container.style.marginRight = '24px';
+              container.style.verticalAlign = 'top';
+              
+              console.log('Compacted field:', name);
+            }
           }
         });
       }
