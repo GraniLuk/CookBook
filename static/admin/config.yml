@@ -455,7 +455,6 @@ collections:
       - { label: W Kolejce, name: queued, widget: boolean, required: false, default: false }
       - { label: Gotowy do Testowania, name: readyToTest, widget: boolean, required: false, default: false }
       - { label: Opis skrócony, name: tagline, widget: string, required: false }
-      - { label: Obrazek przepisu (static/...), name: recipe_image, widget: string, required: false }
       - *tags_field
       - *ingredients_field
       - { label: Porcje, name: servings, widget: number, required: false, min: 1 }
@@ -467,6 +466,7 @@ collections:
       - { label: Białko, name: protein, widget: number, required: false, min: 0 }
       - { label: Tłuszcz, name: fat, widget: number, required: false, min: 0 }
       - { label: Węglowodany, name: carbohydrate, widget: number, required: false, min: 0 }
+      - { label: Obrazek przepisu (static/...), name: recipe_image, widget: string, required: false }
       - { label: Link (YouTube itp.), name: link, widget: string, required: false }
       - label: Low FODMAP
         name: fodmap
@@ -518,7 +518,6 @@ collections:
       - { label: W Kolejce, name: queued, widget: boolean, required: false, default: false }
       - { label: Gotowy do Testowania, name: readyToTest, widget: boolean, required: false, default: false }
       - { label: Opis skrócony, name: tagline, widget: string, required: false }
-      - { label: Obrazek przepisu (static/...), name: recipe_image, widget: string, required: false }
       - *tags_field
       - *ingredients_field
       - { label: Porcje, name: servings, widget: number, required: false, min: 1 }
@@ -530,6 +529,7 @@ collections:
       - { label: Białko, name: protein, widget: number, required: false, min: 0 }
       - { label: Tłuszcz, name: fat, widget: number, required: false, min: 0 }
       - { label: Węglowodany, name: carbohydrate, widget: number, required: false, min: 0 }
+      - { label: Obrazek przepisu (static/...), name: recipe_image, widget: string, required: false }
       - { label: Link (YouTube itp.), name: link, widget: string, required: false }
       - label: Low FODMAP
         name: fodmap
@@ -581,7 +581,6 @@ collections:
       - { label: W Kolejce, name: queued, widget: boolean, required: false, default: false }
       - { label: Gotowy do Testowania, name: readyToTest, widget: boolean, required: false, default: false }
       - { label: Opis skrócony, name: tagline, widget: string, required: false }
-      - { label: Obrazek przepisu (static/...), name: recipe_image, widget: string, required: false }
       - *tags_field
       - *ingredients_field
       - { label: Porcje, name: servings, widget: number, required: false, min: 1 }
@@ -593,6 +592,7 @@ collections:
       - { label: Białko, name: protein, widget: number, required: false, min: 0 }
       - { label: Tłuszcz, name: fat, widget: number, required: false, min: 0 }
       - { label: Węglowodany, name: carbohydrate, widget: number, required: false, min: 0 }
+      - { label: Obrazek przepisu (static/...), name: recipe_image, widget: string, required: false }
       - { label: Link (YouTube itp.), name: link, widget: string, required: false }
       - label: Low FODMAP
         name: fodmap
@@ -644,7 +644,6 @@ collections:
       - { label: W Kolejce, name: queued, widget: boolean, required: false, default: false }
       - { label: Gotowy do Testowania, name: readyToTest, widget: boolean, required: false, default: false }
       - { label: Opis skrócony, name: tagline, widget: string, required: false }
-      - { label: Obrazek przepisu (static/...), name: recipe_image, widget: string, required: false }
       - *tags_field
       - *ingredients_field
       - { label: Porcje, name: servings, widget: number, required: false, min: 1 }
@@ -656,6 +655,7 @@ collections:
       - { label: Białko, name: protein, widget: number, required: false, min: 0 }
       - { label: Tłuszcz, name: fat, widget: number, required: false, min: 0 }
       - { label: Węglowodany, name: carbohydrate, widget: number, required: false, min: 0 }
+      - { label: Obrazek przepisu (static/...), name: recipe_image, widget: string, required: false }
       - { label: Link (YouTube itp.), name: link, widget: string, required: false }
       - label: Low FODMAP
         name: fodmap
@@ -707,7 +707,6 @@ collections:
       - { label: W Kolejce, name: queued, widget: boolean, required: false, default: false }
       - { label: Gotowy do Testowania, name: readyToTest, widget: boolean, required: false, default: false }
       - { label: Opis skrócony, name: tagline, widget: string, required: false }
-      - { label: Obrazek przepisu (static/...), name: recipe_image, widget: string, required: false }
       - *tags_field
       - *ingredients_field
       - { label: Porcje, name: servings, widget: number, required: false, min: 1 }
@@ -719,6 +718,7 @@ collections:
       - { label: Białko, name: protein, widget: number, required: false, min: 0 }
       - { label: Tłuszcz, name: fat, widget: number, required: false, min: 0 }
       - { label: Węglowodany, name: carbohydrate, widget: number, required: false, min: 0 }
+      - { label: Obrazek przepisu (static/...), name: recipe_image, widget: string, required: false }
       - { label: Link (YouTube itp.), name: link, widget: string, required: false }
       - label: Low FODMAP
         name: fodmap
