@@ -81,8 +81,12 @@
                         "/sosy/") -}}
                         {{- $collection = "sosy" -}}
                         {{- end -}}
-                        {{- $editPath := printf "/admin/#/collections/%s/entries/%s" $collection (urlize .File.ContentBaseName) -}}
-                        <a href="{{ partial "asset-url.html" $editPath }}"
+                        {{- $encodedEntry := .File.ContentBaseName -}}
+                        {{- with urls.Parse (printf "https://example.com/%s" .File.ContentBaseName) -}}
+                        {{- $encodedEntry = strings.TrimPrefix .EscapedPath "/" -}}
+                        {{- end -}}
+                        {{- $editPath := printf "admin/#/collections/%s/entries/%s" $collection $encodedEntry -}}
+                        <a href="{{ absURL $editPath }}"
                             target="_blank" rel="noopener" aria-label="Edit recipe" class="unstyled-btn">
                             <i class="fas fa-pen-to-square" aria-hidden="true"></i>
                         </a>

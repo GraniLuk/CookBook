@@ -80,6 +80,31 @@ else
     ((PASSED++))
 fi
 
+# Test 4: Ensure no cache-busting query params on admin links
+echo "  🔍 Checking for cache-busting query params..."
+if grep -r "admin/#/collections/[^"]*\\?v=" public/ >/dev/null 2>&1; then
+    echo "  ❌ Found cache-busting query params on admin edit links"
+    grep -r "admin/#/collections/[^"]*\\?v=" public/ 2>/dev/null | head -3 | sed 's/^/     /'
+    ((FAILED++))
+else
+    echo "  ✅ No cache-busting query params detected on admin links"
+    ((PASSED++))
+fi
+
+# Test 5: Ensure specific salad slug remains intact
+TARGET_SALAD="CookBook/admin/#/collections/salatki/entries/Sa%C5%82atka%20%C5%9Ar%C3%B3dziemnomorska%20z%20Kurczakiem,%20Soczewic%C4%85%20i%20Granatem"
+echo "  🔍 Verifying flagship salad edit link..."
+if grep -r "$TARGET_SALAD" public/ >/dev/null 2>&1; then
+    echo "  ✅ Flagship salad edit link is correct"
+    ((PASSED++))
+else
+    echo "  ❌ Flagship salad edit link not found"
+    echo "     Expected: $TARGET_SALAD"
+    echo "     Sample admin links:"
+    grep -r "collections/salatki/entries" public/ 2>/dev/null | head -3 | sed 's/^/     /'
+    ((FAILED++))
+fi
+
 # Summary
 echo ""
 echo "=================================================="
