@@ -115,7 +115,7 @@
         {{ if not (in .Params.categories "sosy") }}
         <div class="column is-2-desktop is-3-tablet is-full-mobile"
             data-ingredients='{{ .Params.ingredients | jsonify }}' data-categories='{{ .Params.categories | jsonify }}'
-            data-draft="{{ default false .Draft }}" data-ready-to-test="{{ default false .Params.readyToTest }}">
+            data-draft="{{ default false .Draft }}" data-ready-to-test="{{ if .Params.readyToTest }}true{{ else }}false{{ end }}">
             {{ partial "summary.html" . }}
         </div>
         {{ end }}

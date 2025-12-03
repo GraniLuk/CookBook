@@ -1,4 +1,5 @@
 var searchTerm = null;
+var lastSearchResult = null;
 
 summaryInclude = 60;
 var fuseOptions = {
@@ -66,6 +67,7 @@ function executeSearch(searchQuery) {
       var pages = Array.isArray(data) ? data : [];
       var fuse = new Fuse(pages, fuseOptions);
       var result = fuse.search(searchQuery);
+      lastSearchResult = result;
       if (result.length > 0) {
         u('#content').addClass("is-hidden"); //hiding our main content to display the results
         u('#searchResultsCol').empty(); // clean out any previous search results
@@ -86,9 +88,16 @@ function executeSearch(searchQuery) {
 }
 
 function populateResults(result) {
+  u('#searchResultsCol').empty();
+  const showTestRecipes = document.getElementById('showTestCheckbox')?.checked || false;
+
   Object.entries(result).forEach(entry => {
     const [idx, val] = entry;
     const item = (val && val.item) ? val.item : {};
+
+    if (item.readyToTest === true && !showTestRecipes) {
+      return;
+    }
 
     const contents = item.contents || '';
     let snippet = '';
@@ -259,6 +268,15 @@ document.addEventListener('click', function (e) {
     }
   }
 });
+
+// Re-render search results when filter changes
+if (document.getElementById('showTestCheckbox')) {
+  u('#showTestCheckbox').on('change', function () {
+    if (lastSearchResult && !u('#searchResults').hasClass('is-hidden')) {
+      populateResults(lastSearchResult);
+    }
+  });
+}
 
 // Service Worker Registration
 if ('serviceWorker' in navigator) {

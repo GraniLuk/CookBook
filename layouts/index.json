@@ -2,8 +2,8 @@
 {{- range .Site.RegularPages -}}
   {{- if not (in .Params.categories "sosy") -}}
     {{- $img := partial "asset-url.html" (or site.Params.front.defaultImage "/images/defaultImage.avif") -}}
-    {{- with .Params.recipe_image -}}
-      {{- $img = partial "asset-url.html" (printf "/%s" .) -}}
+    {{- if and .Params.recipe_image (fileExists (printf "static/%s" .Params.recipe_image)) -}}
+      {{- $img = partial "asset-url.html" (printf "/%s" .Params.recipe_image) -}}
     {{- end -}}
     {{- $.Scratch.Add "index" (dict
       "title"        .Title

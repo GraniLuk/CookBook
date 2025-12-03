@@ -539,7 +539,8 @@
             const ingredientsAttr = card.getAttribute('data-ingredients');
             const categoriesAttr = card.getAttribute('data-categories');
             const isDraft = card.getAttribute('data-draft') === 'true';
-            const isReadyToTest = card.getAttribute('data-ready-to-test') === 'true';
+            const readyToTestAttr = card.getAttribute('data-ready-to-test');
+            const isReadyToTest = readyToTestAttr === 'true' || readyToTestAttr === 'True';
             let shouldShow = true;
 
             // Always hide actual drafts (draft: true) - they should never show
@@ -615,7 +616,7 @@
                 card.style.display = '';
                 visibleCount++;
             } else {
-                card.style.display = 'none';
+                card.style.setProperty('display', 'none', 'important');
             }
         });
 
