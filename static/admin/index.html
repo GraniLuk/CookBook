@@ -11,94 +11,46 @@
     integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
-    /* Make boolean checkboxes display inline - target the outer field wrapper */
-    [class*="ControlContainer"] [class*="FieldWrapper"]:has(label:is(
-      [for*="draft"],
-      [for*="favourite"],
-      [for*="queued"]
-    )) {
-      display: inline-block !important;
-      width: auto !important;
-      max-width: none !important;
-      margin-right: 24px !important;
-      vertical-align: top !important;
-      flex: none !important;
-    }
-    
-    /* Fallback: target any div that contains these specific boolean toggles */
-    div:has(> label[for*="draft"]),
-    div:has(> label[for*="favourite"]),
-    div:has(> label[for*="queued"]) {
+    /* Target the specific divs containing the boolean toggle buttons */
+    div:has(> button[id*="draft-field"]),
+    div:has(> button[id*="favourite-field"]),
+    div:has(> button[id*="queued-field"]) {
       display: inline-block !important;
       width: auto !important;
       margin-right: 24px !important;
       vertical-align: top !important;
-    }
-    
-    /* Ensure parent container allows wrapping */
-    [class*="ControlContainer"]:has([for*="draft"]),
-    [class*="ControlContainer"]:has([for*="favourite"]),
-    [class*="ControlContainer"]:has([for*="queued"]) {
-      display: flex !important;
-      flex-wrap: wrap !important;
-      gap: 0 !important;
     }
   </style>
   <script>
-    // Script to compact specific boolean fields into one line
+    // Script to compact boolean fields into one line
     (function() {
       const targetFields = ['draft', 'favourite', 'queued'];
       
       function compactFields() {
         targetFields.forEach(function(name) {
-          // Find label by 'for' attribute containing the field name
-          const label = document.querySelector('label[for*="' + name + '"]');
+          // Find button by ID pattern
+          const button = document.querySelector('button[id*="' + name + '-field"]');
           
-          if (label) {
-            // Find the wrapper - go up until we find the field container
-            let current = label;
-            let wrapper = null;
+          if (button && button.parentElement) {
+            const wrapper = button.parentElement;
+            wrapper.style.display = 'inline-block';
+            wrapper.style.width = 'auto';
+            wrapper.style.marginRight = '24px';
+            wrapper.style.verticalAlign = 'top';
             
-            // Go up max 10 levels to find the field wrapper
-            for (let i = 0; i < 10; i++) {
-              current = current.parentElement;
-              if (!current) break;
-              
-              // Check if this looks like a field wrapper
-              const classes = current.className || '';
-              if (classes.includes('Field') || 
-                  classes.includes('Control') ||
-                  classes.includes('Wrapper') ||
-                  current.tagName === 'DIV' && current.children.length <= 3) {
-                wrapper = current;
-                break;
-              }
-            }
-            
-            if (wrapper) {
-              wrapper.style.display = 'inline-block';
-              wrapper.style.width = 'auto';
-              wrapper.style.maxWidth = 'none';
-              wrapper.style.marginRight = '24px';
-              wrapper.style.verticalAlign = 'top';
-              wrapper.style.flex = 'none';
-              
-              console.log('Compacted field:', name, wrapper);
-            }
+            console.log('Compacted field:', name, wrapper.className);
           }
         });
       }
       
-      // Run multiple times with delays to catch the CMS loading
+      // Run with delays to catch CMS loading
       setTimeout(compactFields, 100);
       setTimeout(compactFields, 500);
       setTimeout(compactFields, 1000);
       setTimeout(compactFields, 2000);
       
       // Watch for DOM changes
-      const observer = new MutationObserver(function() {
-        compactFields();
-      });
+      const observer = new MutationObserver(compactFields);
       
       window.addEventListener('load', function() {
         compactFields();
