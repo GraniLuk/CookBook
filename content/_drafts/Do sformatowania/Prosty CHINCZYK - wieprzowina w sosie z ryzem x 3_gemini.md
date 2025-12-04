@@ -1,16 +1,15 @@
 ---
 title: Prosty CHIŃCZYK - wieprzowina w sosie z ryżem x 3
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=tRJsHTJgowE
-author: "[[Policzona Szama]]"
 published: 2020-10-04
 created: 2025-10-27
-description: "** Szczegółowy przepis kulinarny na proste, orientalne danie z wieprzowiny (schab) z marchewką i dużą ilością sosu, przygotowane jako trzyporcjowy lunch box."
+description: '** Szczegółowy przepis kulinarny na proste, orientalne danie z wieprzowiny (schab) z marchewką i dużą ilością sosu, przygotowane jako trzyporcjowy lunch box.'
 category: Fitness
 length: 1142
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ---
 

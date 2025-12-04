@@ -1,3 +1,7 @@
+---
+{}
+---
+
 ﻿---
 draft: true
 title: "Tekst opisuje przyprawę pięciu smaków i zawiera instrukcję jej użycia do przygotowania chińskiego..."

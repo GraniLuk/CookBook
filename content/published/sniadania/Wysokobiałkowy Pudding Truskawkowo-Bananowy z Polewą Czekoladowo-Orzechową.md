@@ -1,13 +1,25 @@
 ---
+title: Pudding Truskawkowo-Bananowy z Polewą Czekoladowo-Orzechową
+author: Autor Przepisu
+categories:
+- sniadania
+subcategories:
+- słodkie
 draft: false
-title: "Pudding Truskawkowo-Bananowy z Polewą Czekoladowo-Orzechową"
-author: "Autor Przepisu"
 recipe_image: images/defaultImage.avif
-date: 2025-06-19T12:00:00-00:00
-categories: ["sniadania"]
-subcategories: ["słodkie"]
+date: 2025-06-19 12:00:00+00:00
 tags: []
-tagline: "Wysokobiałkowy pudding idealny na letnie śniadanie!"
+tagline: Wysokobiałkowy pudding idealny na letnie śniadanie!
+link: https://youtu.be/SQ4saBQrBYc?t=115
+ingredients:
+- truskawki
+- banan
+- twaróg chudy
+- płatki owsiane
+- napój owsiany
+- miód
+- czekolada gorzka
+- masło orzechowe
 servings: 3
 prep_time: 15
 cook: false
@@ -16,18 +28,14 @@ calories: 133
 protein: 7
 fat: 4
 carbohydrate: 15
-
-ingredients: ["truskawki", "banan", "twaróg chudy", "płatki owsiane", "napój owsiany", "miód", "czekolada gorzka", "masło orzechowe"]
-
 fodmap:
-  status: "depends"
-  serving_ok: "OK po modyfikacjach: nabiał bez laktozy; napój ryżowy; banan ≤ 1/2 na porcję"
-  notes: "Płatki owsiane zwykle OK w umiarkowanej porcji; banany podnoszą FODMAP przy większej ilości. Twaróg wymaga wersji bez laktozy; unikaj napoju owsianego."
+  status: depends
+  serving_ok: 'OK po modyfikacjach: nabiał bez laktozy; napój ryżowy; banan ≤ 1/2 na porcję'
+  notes: Płatki owsiane zwykle OK w umiarkowanej porcji; banany podnoszą FODMAP przy większej ilości. Twaróg wymaga wersji bez laktozy; unikaj napoju owsianego.
   substitutions:
-    - "twaróg -> skyr/twaróg bez laktozy"
-    - "napój owsiany -> napój ryżowy lub mleko bez laktozy"
-    - "część banana -> więcej truskawek"
-link: https://youtu.be/SQ4saBQrBYc?t=115
+  - twaróg -> skyr/twaróg bez laktozy
+  - napój owsiany -> napój ryżowy lub mleko bez laktozy
+  - część banana -> więcej truskawek
 ---
 
 ## Składniki

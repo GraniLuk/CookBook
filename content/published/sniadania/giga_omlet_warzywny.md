@@ -1,32 +1,46 @@
 ---
-draft: false  
-title: "Giga Omlet z Cukinią, Szynką i Makaronem Orzo"  
-author: "Policzone Szamy"  
-recipe_image: images/recipe-headers/giga_omlet.avif  
-date: 2025-08-13T12:00:00-00:00  
-categories: ["sniadania"]
-subcategories: ["słone"]  
-tags: []  
-tagline: "Syta, kolorowa frittata na 6 porcji – cukinia, warzywa, szynka i chrupiące orzo."  
-ingredients: ["jajka", "szynka", "makaron orzo", "cukinia", "papryka", "pomidory", "cebula", "czosnek", "natka pietruszki", "rozmaryn", "parmezan", "mąka pszenna", "oliwa"]
-servings: 6  
-prep_time: 20  
-cook: true  
-cook_time: 45  
-calories: 103  
-protein: 7.8  
-fat: 4.4  
-carbohydrate: 8.6  
+title: Giga Omlet z Cukinią, Szynką i Makaronem Orzo
+author: Policzone Szamy
+categories:
+- sniadania
+subcategories:
+- słone
+draft: false
+recipe_image: images/recipe-headers/giga_omlet.avif
+date: 2025-08-13 12:00:00+00:00
+tags: []
+tagline: Syta, kolorowa frittata na 6 porcji – cukinia, warzywa, szynka i chrupiące orzo.
 link: https://www.youtube.com/watch?v=wDmemjiyK4w&t=306s
-
+ingredients:
+- jajka
+- szynka
+- makaron orzo
+- cukinia
+- papryka
+- pomidory
+- cebula
+- czosnek
+- natka pietruszki
+- rozmaryn
+- parmezan
+- mąka pszenna
+- oliwa
+servings: 6
+prep_time: 20
+cook: true
+cook_time: 45
+calories: 103
+protein: 7.8
+fat: 4.4
+carbohydrate: 8.6
 fodmap:
-  status: "no"
-  serving_ok: "Unikaj na diecie Low FODMAP"
-  notes: "Cebula i czosnek (fruktany) oraz mąka pszenna (fruktany) czynią to danie nieodpowiednim."
+  status: 'no'
+  serving_ok: Unikaj na diecie Low FODMAP
+  notes: Cebula i czosnek (fruktany) oraz mąka pszenna (fruktany) czynią to danie nieodpowiednim.
   substitutions:
-    - "cebula czerwona -> zielona część dymki/szczypior"
-    - "czosnek -> olej czosnkowy lub asafetyda"
-    - "mąka pszenna -> mąka ryżowa/ziemniaczana (GF)"
+  - cebula czerwona -> zielona część dymki/szczypior
+  - czosnek -> olej czosnkowy lub asafetyda
+  - mąka pszenna -> mąka ryżowa/ziemniaczana (GF)
 ---
 
 ## Składniki

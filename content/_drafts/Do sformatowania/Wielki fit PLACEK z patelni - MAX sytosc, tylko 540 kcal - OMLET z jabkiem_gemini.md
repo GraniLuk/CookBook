@@ -1,16 +1,15 @@
 ---
 title: Wielki fit PLACEK z patelni - MAX sytość, tylko 540 kcal - OMLET z jabłkiem
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=CfSU0OYhxTA
-author: "[[Policzona Szama]]"
 published: 2019-08-15
 created: 2025-10-27
 description: Mateusz z kanału Policzone Sama prezentuje szybki dwuminutowy przepis na rewelacyjny, puszysty i sycący placek jabłkowy z jogurtem typu skyr i płatkami owsianymi, idealny na śniadanie.
 category: Fitness
 length: 619
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

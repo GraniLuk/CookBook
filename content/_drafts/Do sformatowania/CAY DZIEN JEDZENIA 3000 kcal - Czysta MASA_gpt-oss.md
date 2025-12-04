@@ -1,16 +1,15 @@
 ---
 title: CAŁY DZIEŃ JEDZENIA 3000 kcal - Czysta MASA
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=mFwqkGt1EEg
-author: "[[Policzona Szama]]"
 published: 2021-04-11
 created: 2025-10-26
 description: Przedstawiam szczegółowy plan 5‑posiłkowego dnia pełnego 3000 kcal, gdzie każdy posiłek jest szybki, prosty do przygotowania i bogaty w makroskładniki, idealny dla osób budujących masę mięśniową.
 category: Fitness
 length: 1036
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ---  
 

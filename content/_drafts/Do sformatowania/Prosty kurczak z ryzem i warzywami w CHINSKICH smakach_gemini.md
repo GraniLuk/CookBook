@@ -1,16 +1,15 @@
 ---
 title: Prosty kurczak z ryżem i warzywami w CHIŃSKICH smakach
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=UuUGIXxrYL4
-author: "[[Policzona Szama]]"
 published: 2021-03-19
 created: 2025-11-01
 description: Przepis przedstawia przygotowanie szybkiego i prostego kurczaka w azjatyckich smakach z ryżem parboiled, idealnego jako pełnowartościowy posiłek typu lunch box na 3 dni.
 category: Fitness
 length: 960
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

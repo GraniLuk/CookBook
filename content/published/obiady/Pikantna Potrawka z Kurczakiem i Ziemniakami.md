@@ -1,15 +1,26 @@
 ---
-draft: false
-title: "Pikantna Potrawka z Kurczakiem i Ziemniakami (Jednogarnkowa)"
-author: "Policzone Szamy"
-recipe_image: images/recipe-headers/potrawka_kurczak_ziemniaki.avif
-image_width: 512
-image_height: 512
-date: 2025-11-20T12:00:00-00:00
+title: Pikantna Potrawka z Kurczakiem i Ziemniakami (Jednogarnkowa)
+author: Policzone Szamy
 categories: obiady
-tags: ["lunchbox", "pikantne","instant pot"]
-tagline: "Rozgrzewająca potrawka z kurczakiem, ziemniakami i warzywami – idealna na wypady!"
-ingredients: ["mięso z uda kurczaka", "ziemniaki", "marchewka", "brokuł", "cebula", "czosnek", "suszone pomidory", "pasta curry", "bulion"]
+draft: false
+recipe_image: images/recipe-headers/potrawka_kurczak_ziemniaki.avif
+date: 2025-11-20 12:00:00+00:00
+tags:
+- lunchbox
+- pikantne
+- instant pot
+tagline: Rozgrzewająca potrawka z kurczakiem, ziemniakami i warzywami – idealna na wypady!
+link: https://www.youtube.com/watch?v=7js_OwaaDCQ
+ingredients:
+- mięso z uda kurczaka
+- ziemniaki
+- marchewka
+- brokuł
+- cebula
+- czosnek
+- suszone pomidory
+- pasta curry
+- bulion
 servings: 3
 prep_time: 15
 cook: true
@@ -19,17 +30,18 @@ calories: 410
 protein: 35
 fat: 14
 carbohydrate: 38
-link: https://www.youtube.com/watch?v=7js_OwaaDCQ
 fodmap:
-  status: "no"
-  serving_ok: "NIE – cebula, czosnek, pasta curry (fruktany), suszone pomidory"
-  notes: "Cebula i czosnek są wysokofodmap (fruktany). Pasta curry zwykle zawiera dodatkowo cebulę i czosnek. Suszone pomidory w większej ilości mogą być problematyczne. Ziemniaki, marchewka, brokuł (≤75 g) i kurczak są niskofodmap."
+  status: 'no'
+  serving_ok: NIE – cebula, czosnek, pasta curry (fruktany), suszone pomidory
+  notes: Cebula i czosnek są wysokofodmap (fruktany). Pasta curry zwykle zawiera dodatkowo cebulę i czosnek. Suszone pomidory w większej ilości mogą być problematyczne. Ziemniaki, marchewka, brokuł (≤75 g) i kurczak są niskofodmap.
   substitutions:
-    - "cebula -> zielona część dymki lub pomiń"
-    - "czosnek -> olej czosnkowy (infuzja bez cząstek)"
-    - "pasta curry -> własna mieszanka (chili, kurkuma, imbir, kolendra)"
-    - "suszone pomidory -> ogranicz do 2 szt. lub zamień na świeże"
-    - "bulion -> sprawdź skład (bez cebuli/czosnku)"
+  - cebula -> zielona część dymki lub pomiń
+  - czosnek -> olej czosnkowy (infuzja bez cząstek)
+  - pasta curry -> własna mieszanka (chili, kurkuma, imbir, kolendra)
+  - suszone pomidory -> ogranicz do 2 szt. lub zamień na świeże
+  - bulion -> sprawdź skład (bez cebuli/czosnku)
+image_width: 512
+image_height: 512
 ---
 
 ## Składniki

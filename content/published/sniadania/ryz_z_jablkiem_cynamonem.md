@@ -1,27 +1,34 @@
 ---
-draft: false  
+title: Ryż z Jabłkiem i Cynamonem
+author: Michał Wrzosek
+categories: śniadania
+draft: false
 readyToTest: true
-title: "Ryż z Jabłkiem i Cynamonem"  
-author: "Michał Wrzosek"  
-recipe_image: images/recipe-headers/ryz_z_jablkiem_cynamonem.avif  
-date: 2025-11-25T12:00:00-00:00  
-categories: śniadania  
-tags: ["szybkie", "na słodko", "wegetariańskie"]  
-tagline: "Coś, co kochaliśmy w dzieciństwie, w wersji sycącej."  
-ingredients: ["ryż ugotowany", "serek wiejski", "jabłko", "cynamon"]
-servings: 1  
-prep_time: 5  
-cook: false  
-cook_time: 0  
+recipe_image: images/recipe-headers/ryz_z_jablkiem_cynamonem.avif
+date: 2025-11-25 12:00:00+00:00
+tags:
+- szybkie
+- na słodko
+- wegetariańskie
+tagline: Coś, co kochaliśmy w dzieciństwie, w wersji sycącej.
+link: https://www.youtube.com/watch?v=wIC8JJtZEso
+ingredients:
+- ryż ugotowany
+- serek wiejski
+- jabłko
+- cynamon
+servings: 1
+prep_time: 5
+cook: false
+cook_time: 0
 calories: 300
 protein: 15
 fat: 10
-carbohydrate: 40 
-link: https://www.youtube.com/watch?v=wIC8JJtZEso
+carbohydrate: 40
 fodmap:
-  status: "yes"
-  serving_ok: "OK w tej porcji"
-  notes: "Ryż, serek wiejski i cynamon są bezpieczne. Jabłko jest umiarkowane, ale w jednej sztuce OK."
+  status: 'yes'
+  serving_ok: OK w tej porcji
+  notes: Ryż, serek wiejski i cynamon są bezpieczne. Jabłko jest umiarkowane, ale w jednej sztuce OK.
   substitutions: []
 ---
 

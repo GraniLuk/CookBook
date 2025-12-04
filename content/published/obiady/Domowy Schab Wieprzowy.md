@@ -1,14 +1,25 @@
 ---
-draft: false
-title: "Domowy Schab Wieprzowy"
-author: "Policzone Szamy"
-favourite: true
-recipe_image: images/recipe-headers/domowy_schab.avif
-date: 2025-11-20T12:00:00-00:00
+title: Domowy Schab Wieprzowy
+author: Policzone Szamy
 categories: obiady
-tags: ["szybkie", "proteinowe", "mięso"]
-tagline: "Soczysty domowy schab wieprzowy, idealny do kanapek i dań."
-ingredients: ["schab wieprzowy", "sól", "czosnek", "olej", "woda", "zioła", "rozmaryn"]
+draft: false
+recipe_image: images/recipe-headers/domowy_schab.avif
+date: 2025-11-20 12:00:00+00:00
+tags:
+- szybkie
+- proteinowe
+- mięso
+tagline: Soczysty domowy schab wieprzowy, idealny do kanapek i dań.
+link: https://www.youtube.com/watch?v=d71Nd3lS2Ok
+favourite: true
+ingredients:
+- schab wieprzowy
+- sól
+- czosnek
+- olej
+- woda
+- zioła
+- rozmaryn
 servings: 6
 prep_time: 30
 cook: true
@@ -17,12 +28,12 @@ calories: 180
 protein: 25
 fat: 9
 carbohydrate: 0
-link: https://www.youtube.com/watch?v=d71Nd3lS2Ok
 fodmap:
-  status: "yes"
-  serving_ok: "TAK – bez cebuli i czosnku"
-  notes: "Schab wieprzowy, sól, olej, zioła, rozmaryn – bezpieczne. Czosnek jest high FODMAP, ale można go pominąć lub zastąpić olejem czosnkowym."
-  substitutions: ["Zamiast czosnku użyć olej czosnkowy (infuzja bez cząstek)"]
+  status: 'yes'
+  serving_ok: TAK – bez cebuli i czosnku
+  notes: Schab wieprzowy, sól, olej, zioła, rozmaryn – bezpieczne. Czosnek jest high FODMAP, ale można go pominąć lub zastąpić olejem czosnkowym.
+  substitutions:
+  - Zamiast czosnku użyć olej czosnkowy (infuzja bez cząstek)
 ---
 
 ## Składniki

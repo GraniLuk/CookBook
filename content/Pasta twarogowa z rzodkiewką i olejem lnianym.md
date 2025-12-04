@@ -1,26 +1,33 @@
 ---
-draft: false  
+title: Pasta twarogowa z rzodkiewką i olejem lnianym
+author: Policzona Szama
+categories:
+- przekąski
+draft: false
 readyToTest: true
-title: "Pasta twarogowa z rzodkiewką i olejem lnianym"  
-author: "Policzona Szama"  
-recipe_image: images/recipe-headers/pasta_twarogowa_rzodkiewka.avif  
-date: 2025-11-29T12:00:00-00:00  
-categories: ["przekąski"]  
-tags: ["szybkie", "proteinowe"]  
-tagline: "Słona pasta z twarogu, rzodkiewki i oleju lnianego, idealna do kanapek."  
-ingredients: ["twaróg", "rzodkiewka", "jajko", "olej lniany"]
-servings: 2  
-prep_time: 5  
-cook: false  
-cook_time: 0  
+recipe_image: images/recipe-headers/pasta_twarogowa_rzodkiewka.avif
+date: 2025-11-29 12:00:00+00:00
+tags:
+- szybkie
+- proteinowe
+tagline: Słona pasta z twarogu, rzodkiewki i oleju lnianego, idealna do kanapek.
+link: https://www.youtube.com/watch?v=oCjBBuNLGpc
+ingredients:
+- twaróg
+- rzodkiewka
+- jajko
+- olej lniany
+servings: 2
+prep_time: 5
+cook: false
+cook_time: 0
 calories: 257
 protein: 16
 fat: 13
-carbohydrate: 2 
-link: https://www.youtube.com/watch?v=oCjBBuNLGpc
+carbohydrate: 2
 fodmap:
-  status: "yes"
-  notes: "Wszystkie składniki są bezpieczne dla diety low FODMAP."
+  status: 'yes'
+  notes: Wszystkie składniki są bezpieczne dla diety low FODMAP.
 ---
 
 ## Składniki

@@ -1,14 +1,25 @@
 ---
+title: Sałatka Śródziemnomorska z Kurczakiem, Soczewicą i Granatem
+author: Policzone Szamy
+categories: salatki
 draft: false
 readyToTest: true
-title: "Sałatka Śródziemnomorska z Kurczakiem, Soczewicą i Granatem"
-author: "Policzone Szamy"
 recipe_image: images/recipe-headers/salatka_srodziemnomorska_kurczak_soczewica_granat.avif
-date: 2025-11-02T12:00:00-00:00
-categories: salatki
-tags: ["śródziemnomorska"]
-tagline: "Śródziemnomorska sałatka z kurczakiem, soczewicą, granatem i limonkowym dressingiem."
-ingredients: ["pierś z kurczaka", "komosa ryżowa", "soczewica zielona", "mięta", "granat", "rukola", "oliwa z oliwek", "limonka", "miód"]
+date: 2025-11-02 12:00:00+00:00
+tags:
+- śródziemnomorska
+tagline: Śródziemnomorska sałatka z kurczakiem, soczewicą, granatem i limonkowym dressingiem.
+link: https://www.youtube.com/watch?v=prsZbulipCk
+ingredients:
+- pierś z kurczaka
+- komosa ryżowa
+- soczewica zielona
+- mięta
+- granat
+- rukola
+- oliwa z oliwek
+- limonka
+- miód
 servings: 3
 prep_time: 15
 cook: true
@@ -17,11 +28,10 @@ calories: 600
 protein: 40
 fat: 20
 carbohydrate: 50
-link: https://www.youtube.com/watch?v=prsZbulipCk
 fodmap:
-  status: "yes"
-  serving_ok: "OK w tej porcji"
-  notes: "Wszystkie składniki są bezpieczne dla low FODMAP w małych ilościach."
+  status: 'yes'
+  serving_ok: OK w tej porcji
+  notes: Wszystkie składniki są bezpieczne dla low FODMAP w małych ilościach.
   substitutions: []
 ---
 

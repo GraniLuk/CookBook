@@ -1,16 +1,15 @@
 ---
 title: STRIPSY KFC. Przepis na PRAWDZIWĄ panierkę w domu! Świetny smak, Policzone kalorie.
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=l-tdCo6Fj8s
-author: "[[Policzona Szama]]"
 published: 2018-04-17
 created: 2025-10-30
 description: W tym odcinku programu „Policzona Szama” przedstawiono szczegółowy przepis na chrupiące stripsy kurczaka w stylu KFC, wraz z dokładną analizą użytych składników, procesu smażenia oraz finalnym podliczeniem makroskładników i kalorii.
 category: Fitness
 length: 1213
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ---
 

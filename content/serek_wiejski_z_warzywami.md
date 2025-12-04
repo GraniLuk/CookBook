@@ -1,27 +1,36 @@
 ---
-draft: false  
+title: Serek Wiejski z Warzywami
+author: Michał Wrzosek
+categories:
+- przekąski
+draft: false
 readyToTest: true
-title: "Serek Wiejski z Warzywami"  
-author: "Michał Wrzosek"  
-recipe_image: images/recipe-headers/serek_wiejski_z_warzywami.avif  
-date: 2025-11-25T12:00:00-00:00  
-categories: ["przekąski"]  
-tags: ["szybkie", "bez gotowania", "wegetariańskie"]  
-tagline: "Idealny posiłek bez gotowania, bogaty w białko i wapń."  
-ingredients: ["serek wiejski", "pomidorki koktajlowe", "ogórek zielony", "awokado", "chleb pełnoziarnisty"]
-servings: 1  
-prep_time: 5  
-cook: false  
-cook_time: 0  
+recipe_image: images/recipe-headers/serek_wiejski_z_warzywami.avif
+date: 2025-11-25 12:00:00+00:00
+tags:
+- szybkie
+- bez gotowania
+- wegetariańskie
+tagline: Idealny posiłek bez gotowania, bogaty w białko i wapń.
+link: https://www.youtube.com/watch?v=wIC8JJtZEso
+ingredients:
+- serek wiejski
+- pomidorki koktajlowe
+- ogórek zielony
+- awokado
+- chleb pełnoziarnisty
+servings: 1
+prep_time: 5
+cook: false
+cook_time: 0
 calories: 350
 protein: 20
 fat: 20
-carbohydrate: 25 
-link: https://www.youtube.com/watch?v=wIC8JJtZEso
+carbohydrate: 25
 fodmap:
-  status: "yes"
-  serving_ok: "OK w tej porcji"
-  notes: "Wszystkie składniki są bezpieczne dla diety low FODMAP w podanych ilościach."
+  status: 'yes'
+  serving_ok: OK w tej porcji
+  notes: Wszystkie składniki są bezpieczne dla diety low FODMAP w podanych ilościach.
   substitutions: []
 ---
 

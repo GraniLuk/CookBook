@@ -1,16 +1,15 @@
 ---
 title: Kolacja po której ONA zostanie na śniadanie - NAJLEPSZE KREWETKI
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=4jp0Pm23QqU
-author: "[[Policzona Szama]]"
 published: 2020-02-09
 created: 2025-10-27
 description: Danie to jest przepisem krok po kroku na krewetki z makaronem pełnym smaku, idealne na romantyczną kolację dla dwóch osób, z wykorzystaniem białego wina.
 category: Fitness
 length: 978
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

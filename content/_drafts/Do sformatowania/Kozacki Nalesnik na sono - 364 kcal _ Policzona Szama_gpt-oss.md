@@ -1,16 +1,15 @@
 ---
 title: Kozacki Naleśnik na słono - 364 kcal | Policzona Szama
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=hPVtglIkLbw
-author: "[[Policzona Szama]]"
 published: 2018-10-21
 created: 2025-11-22
 description: Strukturalizowany i wyraźnie zorganizowany opis filmu kucharskiego, w którym prowadzący krok po kroku demonstruje, jak przygotować pożywny, słodko‑słony naleśnik z jajkiem sadzonym i aromatycznym jarmużem, utrzymując przy tym oryginalny, nieformalny ton i wszystkie szczegóły pierwotnego tekstu.
 category: Fitness
 length: 843
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ---
 

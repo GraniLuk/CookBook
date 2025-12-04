@@ -1,13 +1,18 @@
 ---
-draft: false
-title: "Chrupiące Ciasteczka Owsiane Bananowo-Czekoladowe"
-author: "Autor Przepisu"
-recipe_image: images/recipe-headers/ciasta_owsiane.avif
-date: 2025-06-19T10:00:00-00:00
+title: Chrupiące Ciasteczka Owsiane Bananowo-Czekoladowe
+author: Autor Przepisu
 categories: desery
+draft: false
+recipe_image: images/recipe-headers/ciasta_owsiane.avif
+date: 2025-06-19 10:00:00+00:00
 tags: []
-tagline: "Chrupiące owsiane ciasteczka idealne na święta!"
-ingredients: ["banan", "płatki owsiane", "czekolada gorzka", "przyprawa korzenna"]
+tagline: Chrupiące owsiane ciasteczka idealne na święta!
+link: https://www.youtube.com/shorts/x1zHo9TF1NA
+ingredients:
+- banan
+- płatki owsiane
+- czekolada gorzka
+- przyprawa korzenna
 servings: 6
 prep_time: 10
 cook: true
@@ -16,15 +21,13 @@ calories: 204
 protein: 7
 fat: 5
 carbohydrate: 38
-link: https://www.youtube.com/shorts/x1zHo9TF1NA
-
 fodmap:
-  status: "depends"
-  serving_ok: "1–2 ciasteczka; łączny banan ≤ 1/2 szt. na porcję; podawać bez dodatku miodu"
-  notes: "Dojrzały banan w większej ilości jest wysokofodmapowy. Płatki owsiane są OK w umiarkowanej porcji. Unikaj daktyli (wysoko FODMAP)."
+  status: depends
+  serving_ok: 1–2 ciasteczka; łączny banan ≤ 1/2 szt. na porcję; podawać bez dodatku miodu
+  notes: Dojrzały banan w większej ilości jest wysokofodmapowy. Płatki owsiane są OK w umiarkowanej porcji. Unikaj daktyli (wysoko FODMAP).
   substitutions:
-    - "2 banany -> 1 banan + 60 g puree jabłkowego (bez dosładzania)"
-    - "część płatków -> mąka ryżowa/gluten-free owsiana, by zmniejszyć porcję owsa"
+  - 2 banany -> 1 banan + 60 g puree jabłkowego (bez dosładzania)
+  - część płatków -> mąka ryżowa/gluten-free owsiana, by zmniejszyć porcję owsa
 ---
 
 ## Składniki

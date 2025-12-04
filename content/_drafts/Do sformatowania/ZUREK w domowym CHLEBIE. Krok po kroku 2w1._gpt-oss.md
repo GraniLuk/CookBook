@@ -1,14 +1,14 @@
 ---
 title: ŻUREK w domowym CHLEBIE.  Krok po kroku 2w1.
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=SDDaQ809DmY
-author: "[[Policzona Szama]]"
 published: 2021-03-27
 created: 2025-10-26
 description: No description available
 category: Fitness
 length: 752
-tags:
-  - Summaries/Przepisy
 ---
 
 ## 📜 **DESCRIPTION**  

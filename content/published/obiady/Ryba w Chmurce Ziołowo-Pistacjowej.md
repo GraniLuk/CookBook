@@ -1,14 +1,28 @@
 ---
+title: Ryba w Chmurce Ziołowo-Pistacjowej
+author: Policzone Szamy
+categories: obiady
 draft: false
 readyToTest: true
-title: "Ryba w Chmurce Ziołowo-Pistacjowej"
-author: "Policzone Szamy"
 recipe_image: images/recipe-headers/ryba_chmurka_ziolowa_pistacjowa.avif
-date: 2025-11-02T12:00:00-00:00
-categories: obiady
-tags: ["śródziemnomorska", "ryby", "szybkie"]
-tagline: "Pstrąg z ziołowo-pistacjową chmurką, ryżem i grillowaną cukinią."
-ingredients: ["ryż czerwony", "pistacje", "pietruszka", "rozmaryn", "cytryna", "pomarańcza", "czosnek", "oliwa z oliwek", "pstrąg tęczowy", "cukinia"]
+date: 2025-11-02 12:00:00+00:00
+tags:
+- śródziemnomorska
+- ryby
+- szybkie
+tagline: Pstrąg z ziołowo-pistacjową chmurką, ryżem i grillowaną cukinią.
+link: https://www.youtube.com/watch?v=prsZbulipCk
+ingredients:
+- ryż czerwony
+- pistacje
+- pietruszka
+- rozmaryn
+- cytryna
+- pomarańcza
+- czosnek
+- oliwa z oliwek
+- pstrąg tęczowy
+- cukinia
 servings: 3
 prep_time: 15
 cook: true
@@ -17,12 +31,12 @@ calories: 700
 protein: 40
 fat: 30
 carbohydrate: 60
-link: https://www.youtube.com/watch?v=prsZbulipCk
 fodmap:
-  status: "no"
-  serving_ok: "Nie OK w tej porcji"
-  notes: "Czosnek jest wysokofodmapowy; ryż, pistacje, zioła, ryba i cukinia są bezpieczne."
-  substitutions: ["Zastąp czosnek porami dla wersji low FODMAP."]
+  status: 'no'
+  serving_ok: Nie OK w tej porcji
+  notes: Czosnek jest wysokofodmapowy; ryż, pistacje, zioła, ryba i cukinia są bezpieczne.
+  substitutions:
+  - Zastąp czosnek porami dla wersji low FODMAP.
 ---
 
 ## Składniki

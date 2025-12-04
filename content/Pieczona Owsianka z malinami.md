@@ -1,17 +1,24 @@
 ---
 title: Pieczona Owsianka z Malinami
 author: Autor Przepisu
-draft: false
-tagline: Aromatyczna pieczona owsianka z malinami!
-ingredients: ["płatki owsiane", "napój owsiany", "syrop klonowy", "jogurt grecki", "maliny", "sezam"]
-recipe_image: images/recipe-headers/pieczona_owsianka_z_malinami.avif
-tags:
-  - Stefan
-  - owsianka
 categories:
-  - sniadania
+- sniadania
 subcategories:
-  - słodkie
+- słodkie
+draft: false
+recipe_image: images/recipe-headers/pieczona_owsianka_z_malinami.avif
+date: 2025-06-19 12:00:00+00:00
+tags:
+- Stefan
+- owsianka
+tagline: Aromatyczna pieczona owsianka z malinami!
+ingredients:
+- płatki owsiane
+- napój owsiany
+- syrop klonowy
+- jogurt grecki
+- maliny
+- sezam
 servings: 2
 prep_time: 5
 cook: true
@@ -19,18 +26,15 @@ cook_time: 20
 calories: 157
 protein: 6
 fat: 4
+carbohydrate: 26
 fodmap:
   status: depends
   serving_ok: OK w małej porcji; wybierz napój ryżowy lub bez laktozy
-  notes: Owies bywa dobrze tolerowany w umiarkowanych porcjach; jogurt grecki
-    zwykle OK (niska laktoza), ale preferuj wersję bez laktozy. Napój owsiany
-    bywa problematyczny – lepiej ryżowy/bezlaktozowy.
+  notes: Owies bywa dobrze tolerowany w umiarkowanych porcjach; jogurt grecki zwykle OK (niska laktoza), ale preferuj wersję bez laktozy. Napój owsiany bywa problematyczny – lepiej ryżowy/bezlaktozowy.
   substitutions:
-    - Napój owsiany -> napój ryżowy lub mleko bez laktozy.
-    - Jogurt grecki -> jogurt bez laktozy.
-    - "Słodzenie: pozostań przy syropie klonowym; unikaj miodu."
-date: 2025-06-19T12:00:00-00:00
-carbohydrate: 26
+  - Napój owsiany -> napój ryżowy lub mleko bez laktozy.
+  - Jogurt grecki -> jogurt bez laktozy.
+  - 'Słodzenie: pozostań przy syropie klonowym; unikaj miodu.'
 ---
 
 ## Składniki

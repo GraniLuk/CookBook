@@ -1,16 +1,24 @@
 ---
-draft: false
 title: Batoniki Owsiane z Orzechami i Czekoladą
 author: Centrum Respo
-recipe_image: images/recipe-headers/Batoniki_owsiane_orzechowo_czekoladowe.avif
-date: 2025-09-02T12:00:00-00:00
 categories:
-  - desery
+- desery
+draft: false
+recipe_image: images/recipe-headers/Batoniki_owsiane_orzechowo_czekoladowe.avif
+date: 2025-09-02 12:00:00+00:00
 tags:
-  - batony
-  - przekąska
+- batony
+- przekąska
 tagline: Proste, zdrowe batoniki owsiane bez pieczenia – idealne na śniadanie lub przekąskę, pełne orzechów i czekolady.
-ingredients: ["płatki owsiane", "orzeszki arachidowe", "masło orzechowe", "gorzka czekolada", "miód", "płatki migdałowe", "jogurt naturalny"]
+link: https://centrumrespo.pl/przepisy/owsiane-batoniki-z-czekolada-orzechami-arachidowymi-i-miodem/
+ingredients:
+- płatki owsiane
+- orzeszki arachidowe
+- masło orzechowe
+- gorzka czekolada
+- miód
+- płatki migdałowe
+- jogurt naturalny
 servings: 8
 prep_time: 10
 cook: false
@@ -19,14 +27,13 @@ calories: 258
 protein: 10.59
 fat: 15.2
 carbohydrate: 28.11
-link: https://centrumrespo.pl/przepisy/owsiane-batoniki-z-czekolada-orzechami-arachidowymi-i-miodem/
 fodmap:
-  status: yes
+  status: true
   serving_ok: OK w tej porcji z modyfikacją
   notes: Miód jest wysokofodmapowy – zastąp erytrolem. Jogurt naturalny jest wysokofodmapowy – zastąp bezlaktozowym jogurtem greckim lub kokosowym.
   substitutions:
-    - Miód -> erytrol
-    - Jogurt naturalny -> jogurt bezlaktozowy lub kokosowy
+  - Miód -> erytrol
+  - Jogurt naturalny -> jogurt bezlaktozowy lub kokosowy
 ---
 
 ## Składniki

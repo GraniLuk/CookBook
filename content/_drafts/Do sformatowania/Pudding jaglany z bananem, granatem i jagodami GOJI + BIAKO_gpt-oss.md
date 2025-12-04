@@ -1,16 +1,15 @@
 ---
 title: Pudding jaglany z bananem, granatem i jagodami GOJI + BIAŁKO
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=3ELybJM528s
-author: "[[Policzona Szama]]"
 published: 2017-09-15
 created: 2025-11-23
 description: Pyszny, białkowy pudding z kaszy jaglanej, banana, jagód, pomegranate i orzechów włoskich, idealny na śniadanie, przekąskę, posiłek przed lub po treningu.
 category: Fitness
 length: 569
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ---
 

@@ -1,33 +1,34 @@
 ---
-draft: false
-readyToTest: true
 title: Polędwica wieprzowa z pieczarkami i warzywami - 3 boxy
 author: Policzona Szama
+categories: obiady
+draft: false
+readyToTest: true
 recipe_image: images/poledwica_wieprzowa_pieczarki.jpg
 date: 2025-11-29
-categories: obiady
-tags: ["lunchbox"]
+tags:
+- lunchbox
 tagline: Szybkie danie z polędwicy wieprzowej, pieczarek i warzyw – idealne na trzy boxy lunchowe.
+link: https://www.youtube.com/watch?v=ILHfSzQOwTU
+ingredients:
+- polędwica wieprzowa
+- pieczarki
+- cebula
+- papryka czerwona
+- cukinia
+- olej
 servings: 3
 prep_time: 15
 cook: true
-cook_time: "25"
 cook_increment: minutes
+cook_time: '25'
 calories: 400
 protein: 35
 fat: 20
 carbohydrate: 15
-link: https://www.youtube.com/watch?v=ILHfSzQOwTU
 fodmap:
-  status: "no"
-  notes: "Pieczarki i cebula są źródłami FODMAP."
-ingredients:
-- "polędwica wieprzowa"
-- "pieczarki"
-- "cebula"
-- "papryka czerwona"
-- "cukinia"
-- "olej"
+  status: 'no'
+  notes: Pieczarki i cebula są źródłami FODMAP.
 ---
 
 ## Instrukcje przygotowania

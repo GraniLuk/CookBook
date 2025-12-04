@@ -1,3 +1,7 @@
+---
+{}
+---
+
 ﻿---
 draft: true
 title: "# Śniadanie do Łóżka – Historia i Realizacja"

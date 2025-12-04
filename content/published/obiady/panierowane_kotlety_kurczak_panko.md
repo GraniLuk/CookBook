@@ -1,12 +1,21 @@
 ---
-draft: false
-title: "Chrupiące Kotlety z Piersi Kurczaka w Panierce Panko"
-author: "Autor Przepisu"
-recipe_image: images/recipe-headers/kurczak_panko_kotlety.avif
-date: 2025-10-27T12:10:00-00:00
+title: Chrupiące Kotlety z Piersi Kurczaka w Panierce Panko
+author: Autor Przepisu
 categories: obiady
-tags: ["kotlety", "chrupiące", "szybkie"]
-tagline: "Lekka, ultra chrupiąca panierka panko – prosty obiad w 30 minut."
+draft: false
+recipe_image: images/recipe-headers/kurczak_panko_kotlety.avif
+date: 2025-10-27 12:10:00+00:00
+tags:
+- kotlety
+- chrupiące
+- szybkie
+tagline: Lekka, ultra chrupiąca panierka panko – prosty obiad w 30 minut.
+link: ''
+ingredients:
+- pierś z kurczaka
+- mąka pszenna
+- jajka
+- panko
 servings: 4
 prep_time: 15
 cook: true
@@ -15,17 +24,15 @@ calories: 467
 protein: 47
 fat: 15
 carbohydrate: 33
-ingredients: ["pierś z kurczaka", "mąka pszenna", "jajka", "panko"]
 fodmap:
-  status: "depends"
-  serving_ok: "OK przy modyfikacjach: mąka + panko bezglutenowe; czosnek -> olej infuzowany czosnkiem"
-  notes: "Kurczak, jajka – niskofodmapowe. Pszenna mąka i klasyczne panko (pszenne) podnoszą fruktany. Czosnek w świeżej formie wysoki FODMAP – użyj oleju aromatyzowanego bez cząstek."
+  status: depends
+  serving_ok: 'OK przy modyfikacjach: mąka + panko bezglutenowe; czosnek -> olej infuzowany czosnkiem'
+  notes: Kurczak, jajka – niskofodmapowe. Pszenna mąka i klasyczne panko (pszenne) podnoszą fruktany. Czosnek w świeżej formie wysoki FODMAP – użyj oleju aromatyzowanego bez cząstek.
   substitutions:
-    - "mąka pszenna -> ryżowa/kukurydziana"
-    - "panko pszenne -> bezglutenowe (ryżowe/kukurydziane) lub pokruszone płatki kukurydziane"
-    - "czosnek -> olej czosnkowy (infuzja)"
-    - "olej do smażenia -> rzepakowy/oliwa (wysoka temperatura)"
-link: ""
+  - mąka pszenna -> ryżowa/kukurydziana
+  - panko pszenne -> bezglutenowe (ryżowe/kukurydziane) lub pokruszone płatki kukurydziane
+  - czosnek -> olej czosnkowy (infuzja)
+  - olej do smażenia -> rzepakowy/oliwa (wysoka temperatura)
 ---
 
 ## Składniki (4 porcje)

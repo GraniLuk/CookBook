@@ -1,12 +1,25 @@
 ---
-draft: false
-title: "Zapiekanka Ziemniaczana z Cukinią i Mięsem Mielonym"
-author: "Autor Przepisu"
-recipe_image: images/recipe-headers/zapiekanka_ziemniaczana_z_miesem_mielonym.avif
-date: 2025-06-18T12:00:00-00:00
+title: Zapiekanka Ziemniaczana z Cukinią i Mięsem Mielonym
+author: Autor Przepisu
 categories: obiady
+draft: false
+recipe_image: images/recipe-headers/zapiekanka_ziemniaczana_z_miesem_mielonym.avif
+date: 2025-06-18 12:00:00+00:00
 tags: []
-tagline: "Pyszna zapiekanka z ziemniakami, cukinią i mięsem!"
+tagline: Pyszna zapiekanka z ziemniakami, cukinią i mięsem!
+ingredients:
+- ziemniaki
+- mięso mielone
+- cukinia
+- cebula
+- czosnek
+- przecier pomidorowy
+- śmietana 30%
+- ser żółty
+- olej roślinny
+- natka pietruszki
+- szczypiorek
+- koperek
 servings: 6
 prep_time: 40
 cook: true
@@ -15,17 +28,14 @@ calories: 161
 protein: 11
 fat: 8
 carbohydrate: 11
-
-ingredients: ["ziemniaki", "mięso mielone", "cukinia", "cebula", "czosnek", "przecier pomidorowy", "śmietana 30%", "ser żółty", "olej roślinny", "natka pietruszki", "szczypiorek", "koperek"]
-
 fodmap:
-  status: "depends"
-  serving_ok: "Mała porcja - unikaj cebuli i czosnku"
-  notes: "Ziemniaki, cukinia, mięso OK. Problem z cebulą i czosnkiem"
+  status: depends
+  serving_ok: Mała porcja - unikaj cebuli i czosnku
+  notes: Ziemniaki, cukinia, mięso OK. Problem z cebulą i czosnkiem
   substitutions:
-    - "cebula -> dymka (zielone części)"
-    - "czosnek -> olej czosnkowy"
-    - "lub gotuj bez cebuli i czosnku"
+  - cebula -> dymka (zielone części)
+  - czosnek -> olej czosnkowy
+  - lub gotuj bez cebuli i czosnku
 ---
 
 ## Składniki
@@ -103,4 +113,3 @@ fodmap:
 | Ser żółty           | 200       | 720            | 50         | 56           | 2               |
 | Olej roślinny       | 30        | 270            | 0          | 30           | 0               |
 | **RAZEM:**          | **3192**  | **4632**       | **250.4**  | **306.1**    | **235.9**       |
-  

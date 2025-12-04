@@ -1,16 +1,15 @@
 ---
 title: KEBAB W BUŁCE, taki że nie kupisz już więcej na mieście.
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=OwGSru1vJX0
-author: "[[Policzona Szama]]"
 published: 2020-05-03
 created: 2025-10-27
 description: Przepis przedstawia szczegółową instrukcję przygotowania domowego kebaba w bułce, łączącego doskonałe walory smakowe ze zdrowymi makroskładnikami.
 category: Fitness
 length: 1089
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

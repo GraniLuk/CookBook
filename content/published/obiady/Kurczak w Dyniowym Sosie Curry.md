@@ -1,15 +1,24 @@
 ---
-draft: false
-title: "Kurczak w Dyniowym Sosie Curry (3 Lunch Boxy)"
-author: "Policzone Szamy"
-recipe_image: images/recipe-headers/kurczak_dynia_curry.avif
-image_width: 512
-image_height: 512
-date: 2025-10-28T12:50:00-00:00
+title: Kurczak w Dyniowym Sosie Curry (3 Lunch Boxy)
+author: Policzone Szamy
 categories: obiady
-tags: ["lunchbox", "jesień", "pikantne"]
-tagline: "Rozgrzewający kurczak w gęstym, aromatycznym sosie dyniowym curry – top jesieni!"
-ingredients: ["kurczak", "dynia piżmowa", "kasza bulgur", "mleko kokosowe", "pomidory krojone", "curry"]
+draft: false
+readyToTest: true
+recipe_image: images/recipe-headers/kurczak_dynia_curry.avif
+date: 2025-10-28 12:50:00+00:00
+tags:
+- lunchbox
+- jesień
+- pikantne
+tagline: Rozgrzewający kurczak w gęstym, aromatycznym sosie dyniowym curry – top jesieni!
+link: https://www.youtube.com/watch?v=0t1TNUMGD8w
+ingredients:
+- kurczak
+- dynia piżmowa
+- kasza bulgur
+- mleko kokosowe
+- pomidory krojone
+- curry
 servings: 3
 prep_time: 20
 cook: true
@@ -19,17 +28,17 @@ calories: 621
 protein: 48
 fat: 18
 carbohydrate: 62
-readyToTest: true
-link: https://www.youtube.com/watch?v=0t1TNUMGD8w
 fodmap:
-  status: "depends"
-  serving_ok: "OK po modyfikacjach: uwaga na cebulę, czosnek w curry, mleko kokosowe"
-  notes: "Dynia piżmowa jest niskofodmap (bezpieczna porcja ~75 g). Cebula (fruktany) jest wysokofodmap. Pasta curry często zawiera czosnek/cebulę. Mleko kokosowe – bezpieczna porcja ≤60 ml. Kasza bulgur (pszenica) zawiera fruktany – można zamienić na ryż."
+  status: depends
+  serving_ok: 'OK po modyfikacjach: uwaga na cebulę, czosnek w curry, mleko kokosowe'
+  notes: Dynia piżmowa jest niskofodmap (bezpieczna porcja ~75 g). Cebula (fruktany) jest wysokofodmap. Pasta curry często zawiera czosnek/cebulę. Mleko kokosowe – bezpieczna porcja ≤60 ml. Kasza bulgur (pszenica) zawiera fruktany – można zamienić na ryż.
   substitutions:
-    - "cebula -> olej czosnkowy + zielona część dymki"
-    - "pasta curry z czosnkiem/cebulą -> własna mieszanka (kurkuma, kumin, cynamon, chili)"
-    - "kasza bulgur -> ryż biały (jaśminowy, basmati)"
-    - "mleko kokosowe -> ogranicz do 50 ml/porcję, resztę dolej bulionem"
+  - cebula -> olej czosnkowy + zielona część dymki
+  - pasta curry z czosnkiem/cebulą -> własna mieszanka (kurkuma, kumin, cynamon, chili)
+  - kasza bulgur -> ryż biały (jaśminowy, basmati)
+  - mleko kokosowe -> ogranicz do 50 ml/porcję, resztę dolej bulionem
+image_width: 512
+image_height: 512
 ---
 
 ## Składniki

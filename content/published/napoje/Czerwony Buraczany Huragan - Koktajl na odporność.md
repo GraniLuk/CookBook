@@ -1,26 +1,34 @@
 ---
-draft: false  
+title: Czerwony Buraczany Huragan - Koktajl na odporność
+author: Policzona Szama
+categories:
+- napoje
+draft: false
 readyToTest: true
-title: "Czerwony Buraczany Huragan - Koktajl na odporność"  
-author: "Policzona Szama"  
-recipe_image: images/recipe-headers/koktajl_czerwony.avif  
-date: 2025-11-29T12:00:00-00:00  
-categories: ["napoje"]  
-tags: ["koktajle", "odporność"]  
-tagline: "Czerwony koktajl z burakiem, malinami i żurawiną, wspierający układ krwionośny."  
-ingredients: ["orzech włoski", "żurawina", "maliny", "jabłko", "burak"]
-servings: 2  
-prep_time: 10  
-cook: false  
-cook_time: 0  
+recipe_image: images/recipe-headers/koktajl_czerwony.avif
+date: 2025-11-29 12:00:00+00:00
+tags:
+- koktajle
+- odporność
+tagline: Czerwony koktajl z burakiem, malinami i żurawiną, wspierający układ krwionośny.
+link: https://www.youtube.com/watch?v=RUPfihOOViA
+ingredients:
+- orzech włoski
+- żurawina
+- maliny
+- jabłko
+- burak
+servings: 2
+prep_time: 10
+cook: false
+cook_time: 0
 calories: 165
 protein: 3
 fat: 3
-carbohydrate: 34 
-link: https://www.youtube.com/watch?v=RUPfihOOViA
+carbohydrate: 34
 fodmap:
-  status: "no"
-  notes: "Żurawina jest źródłem FODMAP."
+  status: 'no'
+  notes: Żurawina jest źródłem FODMAP.
 ---
 
 ## Składniki

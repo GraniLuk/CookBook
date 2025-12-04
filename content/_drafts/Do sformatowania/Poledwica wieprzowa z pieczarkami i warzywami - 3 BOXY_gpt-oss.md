@@ -1,16 +1,15 @@
 ---
 title: Polędwica wieprzowa z pieczarkami i warzywami - 3 BOXY
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=ILHfSzQOwTU
-author: "[[Policzona Szama]]"
 published: 2017-08-19
 created: 2025-11-23
 description: Szybkie, smaczne danie z polędwicy wieprzowej z warzywami, podane na trzy porcje do zabrania do pracy, z instrukcją krok po kroku i pełną listą składników.
 category: Fitness
 length: 500
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ---
 

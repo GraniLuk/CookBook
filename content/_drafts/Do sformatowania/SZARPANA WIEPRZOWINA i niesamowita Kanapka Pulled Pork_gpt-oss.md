@@ -1,16 +1,15 @@
 ---
 title: SZARPANA WIEPRZOWINA i niesamowita Kanapka Pulled Pork
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=K8RSTfTtbEA
-author: "[[Policzona Szama]]"
 published: 2021-06-10
 created: 2025-10-26
 description: W tym wesołym i praktycznym odcinku krok po kroku uczymy się, jak przygotować soczyste pulled pork z łopatki wieprzowej, marynować je, piec, a potem długotrwale gotować na małym ogniu, by uzyskać mięso, które rozpływa się w ustach i doskonale sprawdzi się w bułeczce z colesławem oraz korniszonym.
 category: Fitness
 length: 959
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ---
 

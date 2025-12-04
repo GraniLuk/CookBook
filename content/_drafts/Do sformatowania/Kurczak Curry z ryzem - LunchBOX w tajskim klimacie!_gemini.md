@@ -1,16 +1,15 @@
 ---
 title: Kurczak Curry z ryżem - LunchBOX w tajskim klimacie!
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=Wl5ohxOmlDs
-author: "[[Policzona Szama]]"
 published: 2020-03-25
 created: 2025-10-27
 description: Szczegółowy przepis na tajskie curry z kurczakiem i ryżem, idealne do porcjowania (meal prep), charakteryzujące się bogactwem smaku, idealną pikantnością oraz świetnymi makroskładnikami anabolicznymi.
 category: Fitness
 length: 725
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

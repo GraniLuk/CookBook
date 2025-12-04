@@ -1,16 +1,15 @@
 ---
 title: BATONY Energetyczne Naturalne z DAKTYLI - vege, paleo
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=HcfH8MIP7N0
-author: "[[Policzona Szama]]"
 published: 2019-02-20
 created: 2025-10-30
 description: Materiał instruktażowy prezentujący krok po kroku, jak przygotować w 100% naturalne i wegetariańskie batony energetyczne na bazie masy daktylowej, wraz z analizą kosztów i wartości odżywczych.
 category: Fitness
 length: 803
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

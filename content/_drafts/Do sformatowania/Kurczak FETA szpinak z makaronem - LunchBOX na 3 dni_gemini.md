@@ -1,16 +1,15 @@
 ---
 title: Kurczak FETA szpinak z makaronem - LunchBOX na 3 dni
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=Vq1a29cKn5A
-author: "[[Policzona Szama]]"
 published: 2019-12-27
 created: 2025-10-27
 description: Dziś na kanale prezentowany jest przepis na wysokobiałkowe, jednogarnkowe danie z makaronem, kurczakiem, fetą i szpinakiem, z podaniem szczegółowych wartości makroskładników dla różnych opcji porcjowania.
 category: Fitness
 length: 1132
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

@@ -1,19 +1,29 @@
 ---
 title: Domowa Granola z Miodem, Kokosem i Bakaliami
 author: Policzone Szamy
-draft: false
-favourite: true
-tagline: Chrupiąca, złocista granola pieczona wolniej w niższej temperaturze –
-  idealna do jogurtu i na wynos.
-ingredients: ["płatki owsiane", "płatki migdałowe", "wiórki kokosowe", "orzechy włoskie", "miód", "olej kokosowy", "wanilia", "suszone morele", "żurawina"]
-recipe_image: images/recipe-headers/granola.avif
-tags:
-  - przekąska
-  - owsianka
 categories:
-  - sniadania
+- sniadania
 subcategories:
-  - słodkie
+- słodkie
+draft: false
+recipe_image: images/recipe-headers/granola.avif
+date: 2025-08-23 12:00:00+00:00
+tags:
+- przekąska
+- owsianka
+tagline: Chrupiąca, złocista granola pieczona wolniej w niższej temperaturze – idealna do jogurtu i na wynos.
+link: https://www.youtube.com/watch?v=xsvyi8sl8xM
+favourite: true
+ingredients:
+- płatki owsiane
+- płatki migdałowe
+- wiórki kokosowe
+- orzechy włoskie
+- miód
+- olej kokosowy
+- wanilia
+- suszone morele
+- żurawina
 servings: 12
 prep_time: 10
 cook: true
@@ -21,19 +31,15 @@ cook_time: 30
 calories: 451
 protein: 10
 fat: 24
+carbohydrate: 54
 fodmap:
   status: depends
   serving_ok: Porcja ~30 g; podawać z nabiałem bez laktozy lub napojem ryżowym
-  notes: Miód jest wysokofodmapowy – zamień na syrop klonowy. Suszone owoce szybko
-    podbijają FODMAP – ogranicz lub pomiń. Płatki owsiane i orzechy są OK w
-    małej porcji.
+  notes: Miód jest wysokofodmapowy – zamień na syrop klonowy. Suszone owoce szybko podbijają FODMAP – ogranicz lub pomiń. Płatki owsiane i orzechy są OK w małej porcji.
   substitutions:
-    - miód -> syrop klonowy
-    - suszone morele/żurawina -> bardzo mała ilość lub pominąć
-    - jogurt zwykły -> jogurt/skyr bez laktozy lub napój ryżowy
-date: 2025-08-23T12:00:00-00:00
-carbohydrate: 54
-link: https://www.youtube.com/watch?v=xsvyi8sl8xM
+  - miód -> syrop klonowy
+  - suszone morele/żurawina -> bardzo mała ilość lub pominąć
+  - jogurt zwykły -> jogurt/skyr bez laktozy lub napój ryżowy
 video_file: videos/granola.mp4
 ---
 

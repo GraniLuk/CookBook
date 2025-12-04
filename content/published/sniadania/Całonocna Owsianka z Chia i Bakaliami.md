@@ -1,40 +1,39 @@
 ---
 title: Całonocna Owsianka z Chia i Bakaliami
 author: Policzone Szamy
-draft: false
-queued: true
-readyToTest: true
-tagline: Kremowa owsianka z twarogiem, chia i bakaliami, śródziemnomorski deser
-  na lunch.
-recipe_image: images/recipe-headers/calonocna_owsianka_chia_bakalie.avif
-tags:
-  - owsianka
-ingredients:
-  - twaróg
-  - skyr
-  - miód
-  - napój sojowy
-  - nasionka chia
-  - płatki owsiane
-  - morele suszone
-  - rodzynki
-  - orzechy włoskie
 categories: śniadania
+draft: false
+readyToTest: true
+recipe_image: images/recipe-headers/calonocna_owsianka_chia_bakalie.avif
+date: 2025-11-02 12:00:00+00:00
+tags:
+- owsianka
+tagline: Kremowa owsianka z twarogiem, chia i bakaliami, śródziemnomorski deser na lunch.
+link: https://www.youtube.com/watch?v=prsZbulipCk
+queued: true
+ingredients:
+- twaróg
+- skyr
+- miód
+- napój sojowy
+- nasionka chia
+- płatki owsiane
+- morele suszone
+- rodzynki
+- orzechy włoskie
 servings: 3
 prep_time: 10
 cook: false
 cook_time: 0
 calories: 650
 protein: 30
-link: https://www.youtube.com/watch?v=prsZbulipCk
+fat: 20
+carbohydrate: 80
 fodmap:
-  status: yes
+  status: true
   serving_ok: OK w tej porcji
   notes: Wszystkie składniki są bezpieczne dla low FODMAP w małych ilościach.
   substitutions: []
-date: 2025-11-02T12:00:00-00:00
-fat: 20
-carbohydrate: 80
 ---
 
 ## Składniki

@@ -1,12 +1,19 @@
 ---
-draft: false
-title: "Zdrowy Deser w Stylu Snickersa"
-author: "Autor Przepisu"
-recipe_image: images/defaultImage.avif
-date: 2025-06-19T10:00:00-00:00
+title: Zdrowy Deser w Stylu Snickersa
+author: Autor Przepisu
 categories: desery
+draft: false
+recipe_image: images/defaultImage.avif
+date: 2025-06-19 10:00:00+00:00
 tags: []
-tagline: "Zdrowa wersja ulubionego batonika!"
+tagline: Zdrowa wersja ulubionego batonika!
+link: https://www.youtube.com/watch?v=KoaGLBK5rhI
+ingredients:
+- banan
+- skyr waniliowy
+- masło orzechowe
+- orzechy
+- czekolada
 servings: 1
 prep_time: 10
 cook: false
@@ -15,18 +22,14 @@ calories: 172
 protein: 8
 fat: 10
 carbohydrate: 15
-
-ingredients: ["banan", "skyr waniliowy", "masło orzechowe", "orzechy", "czekolada"]
-
 fodmap:
-  status: "depends"
-  serving_ok: "Używaj małego banana lub 1/2 banana"
-  notes: "Skyr i masło orzechowe OK. Uważaj na wielkość banana"
+  status: depends
+  serving_ok: Używaj małego banana lub 1/2 banana
+  notes: Skyr i masło orzechowe OK. Uważaj na wielkość banana
   substitutions:
-    - "duży banan -> 1/2 banana + więcej skyru"
-    - "orzechy włoskie -> orzechy pekan (bezpieczne)"
-    - "migdały -> małe porcje (max 10 sztuk)"
-link: https://www.youtube.com/watch?v=KoaGLBK5rhI
+  - duży banan -> 1/2 banana + więcej skyru
+  - orzechy włoskie -> orzechy pekan (bezpieczne)
+  - migdały -> małe porcje (max 10 sztuk)
 ---
 
 ## Składniki

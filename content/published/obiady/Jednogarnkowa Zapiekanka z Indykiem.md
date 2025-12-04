@@ -1,14 +1,27 @@
 ---
+title: Jednogarnkowa Zapiekanka z Indykiem
+author: Policzone Szamy
+categories: obiady
 draft: false
 readyToTest: true
-title: "Jednogarnkowa Zapiekanka z Indykiem"
-author: "Policzone Szamy"
 recipe_image: images/recipe-headers/jednogarnkowa_zapiekanka_indyk.avif
-date: 2025-10-29T12:00:00-00:00
-categories: obiady
-tags: ["szybkie", "włoskie"]
-tagline: "Soczysta zapiekanka z indykiem i makaronem w jednym garnku – szybka i pełna smaku."
-ingredients: ["mięso z indyka", "makaron", "passata pomidorowa", "ser mozzarella", "cebula", "czosnek", "suszone pomidory", "jarmuż", "grzyby", "oliwa z oliwek"]
+date: 2025-10-29 12:00:00+00:00
+tags:
+- szybkie
+- włoskie
+tagline: Soczysta zapiekanka z indykiem i makaronem w jednym garnku – szybka i pełna smaku.
+link: https://www.youtube.com/watch?v=eRttoS2L1qE&t
+ingredients:
+- mięso z indyka
+- makaron
+- passata pomidorowa
+- ser mozzarella
+- cebula
+- czosnek
+- suszone pomidory
+- jarmuż
+- grzyby
+- oliwa z oliwek
 servings: 4
 prep_time: 15
 cook: true
@@ -17,12 +30,14 @@ calories: 514
 protein: 45
 fat: 10
 carbohydrate: 43
-link: "https://www.youtube.com/watch?v=eRttoS2L1qE&t"
 fodmap:
-  status: "caution"
-  serving_ok: "OK w tej porcji, ale unikać jeśli wrażliwy na FODMAP"
-  notes: "Cebula i czosnek są wysokie w FODMAP; makaron pszenny średni."
-  substitutions: ["Zastąpić cebulę szczypiorkiem", "Użyć proszku czosnkowego zamiast świeżego czosnku", "Wybrać makaron bezglutenowy"]
+  status: caution
+  serving_ok: OK w tej porcji, ale unikać jeśli wrażliwy na FODMAP
+  notes: Cebula i czosnek są wysokie w FODMAP; makaron pszenny średni.
+  substitutions:
+  - Zastąpić cebulę szczypiorkiem
+  - Użyć proszku czosnkowego zamiast świeżego czosnku
+  - Wybrać makaron bezglutenowy
 ---
 
 ## Składniki

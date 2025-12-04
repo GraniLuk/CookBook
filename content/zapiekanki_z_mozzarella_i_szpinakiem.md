@@ -1,46 +1,42 @@
 ---
-video_file: videos/zapiekanki_z_mozarella_pesto.mp4
 title: Zapiekanki z Mozzarellą i Szpinakiem
 author: Kozak Trener
-draft: false
-tagline: Szybka, sycąca zapiekanka z mozzarellą, szpinakiem i nutą pesto.
-recipe_image: images/recipe-headers/zapiekanki_mozzarella_szpinak.avif
-tags:
-  - szybkie
-  - kanapki
 categories:
-  - sniadania
+- sniadania
 subcategories:
-  - słone
+- słone
+draft: false
+recipe_image: images/recipe-headers/zapiekanki_mozzarella_szpinak.avif
+date: 2025-10-24 12:30:00+00:00
+tags:
+- szybkie
+- kanapki
+tagline: Szybka, sycąca zapiekanka z mozzarellą, szpinakiem i nutą pesto.
+ingredients:
+- mozzarella
+- bułka
+- szpinak
+- oliwa z oliwek
+- pesto
+- czosnek
+- chili
 servings: 1
 prep_time: 10
 cook: true
 cook_time: 10
 calories: 485
 protein: 33
-fodmap:
-  status: depends
-  serving_ok: "OK po modyfikacjach: czosnek -> olej czosnkowy; pieczywo
-    bezglutenowe; ostrożnie z ilością chili"
-  notes: Pszenna bułka i czosnek zwiększają FODMAP. Szpinak w porcji 100g zwykle
-    tolerowany. Pesto może zawierać czosnek – wybierz wersję bez cząstek
-    czosnku.
-  substitutions:
-    - bułka pszenna -> bułka bezglutenowa (ryżowa/kukurydziana)
-    - czosnek -> olej czosnkowy (infuzja bez cząstek)
-    - pesto -> domowe bez czosnku
-date: 2025-10-24T12:30:00-00:00
 fat: 20
 carbohydrate: 44
-ingredients: ["mozzarella", "bułka", "szpinak", "oliwa z oliwek", "pesto", "czosnek", "chili"]
 fodmap:
-  status: "depends"
-  serving_ok: "OK po modyfikacjach: czosnek -> olej czosnkowy; pieczywo bezglutenowe; ostrożnie z ilością chili"
-  notes: "Pszenna bułka i czosnek zwiększają FODMAP. Szpinak w porcji 100g zwykle tolerowany. Pesto może zawierać czosnek – wybierz wersję bez cząstek czosnku."
+  status: depends
+  serving_ok: 'OK po modyfikacjach: czosnek -> olej czosnkowy; pieczywo bezglutenowe; ostrożnie z ilością chili'
+  notes: Pszenna bułka i czosnek zwiększają FODMAP. Szpinak w porcji 100g zwykle tolerowany. Pesto może zawierać czosnek – wybierz wersję bez cząstek czosnku.
   substitutions:
-    - "bułka pszenna -> bułka bezglutenowa (ryżowa/kukurydziana)"
-    - "czosnek -> olej czosnkowy (infuzja bez cząstek)"
-    - "pesto -> domowe bez czosnku"
+  - bułka pszenna -> bułka bezglutenowa (ryżowa/kukurydziana)
+  - czosnek -> olej czosnkowy (infuzja bez cząstek)
+  - pesto -> domowe bez czosnku
+video_file: videos/zapiekanki_z_mozarella_pesto.mp4
 ---
 
 ## Składniki (1 porcja)

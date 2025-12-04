@@ -1,13 +1,20 @@
 ---
+title: Tortilla z Jajecznicą
+author: Granica
+categories:
+- sniadania
+subcategories:
+- słone
 draft: false
-title: "Tortilla z Jajecznicą"
-author: "Granica"
 recipe_image: images/defaultImage.avif
-date: 2025-06-18T12:00:00-00:00
-categories: ["sniadania"]
-subcategories: ["słone"]
-tags: ["szybkie"]
-tagline: "Szybka tortilla z jajecznicą na śniadanie!"
+date: 2025-06-18 12:00:00+00:00
+tags:
+- szybkie
+tagline: Szybka tortilla z jajecznicą na śniadanie!
+link: https://youtu.be/3qI4Y5dRumA?t=174
+ingredients:
+- jajka
+- tortilla
 servings: 2
 prep_time: 5
 cook: true
@@ -16,17 +23,13 @@ calories: 168
 protein: 10
 fat: 8
 carbohydrate: 15
-
-ingredients: ["jajka", "tortilla"]
-
 fodmap:
-  status: "depends"
-  serving_ok: "Sprawdź skład tortilli - unikaj pszenicy pełnoziarnistej"
-  notes: "Jajka są OK. Problem z pełnoziarnistą tortillą (więcej błonnika)"
+  status: depends
+  serving_ok: Sprawdź skład tortilli - unikaj pszenicy pełnoziarnistej
+  notes: Jajka są OK. Problem z pełnoziarnistą tortillą (więcej błonnika)
   substitutions:
-    - "tortilla pełnoziarnista -> tortilla kukurydziana"
-    - "tortilla pszenna -> tortilla ryżowa"
-link: https://youtu.be/3qI4Y5dRumA?t=174
+  - tortilla pełnoziarnista -> tortilla kukurydziana
+  - tortilla pszenna -> tortilla ryżowa
 ---
 
 ## Składniki

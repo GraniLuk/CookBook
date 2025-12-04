@@ -1,16 +1,15 @@
 ---
 title: Kurczak "po chińsku". Tanie, szybkie, sprawdzone danie na masę. Jak zrobić kurczaka na 3 dni.
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=rTba9riskTY
-author: "[[Policzona Szama]]"
 published: 2017-02-04
 created: 2025-10-30
 description: Szczegółowy przewodnik po przygotowaniu szybkiego i pożywnego posiłku "Kurczak po chińsku" (kurczak z brązowym ryżem i mieszanką chińską) w wersji na masę lub redukcję, wraz z dokładnym rozpisem składników, kosztów i makroskładników.
 category: Fitness
 length: 955
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

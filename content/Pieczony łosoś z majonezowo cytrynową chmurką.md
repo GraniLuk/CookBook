@@ -1,15 +1,21 @@
 ---
-draft: false
 title: Pieczony Łosoś z Majonezowo-Cytrynową Chmurką
 author: Policzone Szamy
-recipe_image: images/recipe-headers/losos_z_majonezowa_chmurka.avif
-date: 2025-09-04T12:00:00-00:00
 categories:
-  - obiady
+- obiady
+draft: false
+recipe_image: images/recipe-headers/losos_z_majonezowa_chmurka.avif
+date: 2025-09-04 12:00:00+00:00
 tags:
-  - ryby
+- ryby
 tagline: Soczysty pieczony łosoś z aromatyczną majonezowo-cytrynową chmurką – prosty i elegancki obiad.
-ingredients: ["łosoś", "majonez", "oliwa czosnkowa", "koperek", "skórka cytrynowa"]
+link: https://www.youtube.com/watch?v=EavrO0GHCzQ
+ingredients:
+- łosoś
+- majonez
+- oliwa czosnkowa
+- koperek
+- skórka cytrynowa
 servings: 3
 prep_time: 10
 cook: true
@@ -18,14 +24,13 @@ calories: 280
 protein: 35
 fat: 15
 carbohydrate: 2
-link: https://www.youtube.com/watch?v=EavrO0GHCzQ
 fodmap:
-  status: yes
+  status: true
   serving_ok: OK w tej porcji z modyfikacją
   notes: Szalotka i czosnek są wysokofodmapowe – pominij szalotkę całkowicie i zastąp czosnek oliwą czosnkową (1 łyżeczka) lub pominij całkowicie.
   substitutions:
-    - Szalotka -> pomiń
-    - Czosnek -> oliwa czosnkowa lub pomiń
+  - Szalotka -> pomiń
+  - Czosnek -> oliwa czosnkowa lub pomiń
 ---
 
 ## Składniki

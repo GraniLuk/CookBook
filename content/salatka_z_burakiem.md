@@ -1,45 +1,41 @@
 ---
 title: Sałatka z Burakami, Jajkami, Orzechami Nerkowca i Mozzarellą
+author: anpsk
+categories:
+- salatki
 draft: false
 recipe_image: images/recipe-headers/salatka_z_burakiem.avif
+date: 2025-10-27 12:00:00+00:00
+tags:
+- jesień
+tagline: Kolorowa, sycąca sałatka – buraki, jajka, orzechy nerkowca i kremowa mozzarella.
+link: ''
+ingredients:
+- buraki gotowane
+- miks sałat
+- suszone pomidory
+- mozzarella
+- orzechy nerkowca
+- jajka
+- oliwa z oliwek
 servings: 2
 prep_time: 15
-fodmap:
-  status: depends
-  serving_ok: "OK po modyfikacjach: mniej buraka (~60g/os.), nerkowce ≤10g/os.,
-    suszone pomidory ≤8g, feta ≤40g lub mozzarella bez laktozy."
-  notes: Buraki, nerkowce i suszone pomidory w dużych ilościach podnoszą FODMAP
-    (fruktany, GOS). Jajka, oliwa, miks sałat – niskofodmapowe. Mozzarella bywa
-    tolerowana; feta zwykle OK w małej porcji.
-  substitutions:
-    - większa ilość buraka -> zmniejsz do 60g/os. lub użyj pieczonej dyni
-    - nerkowce -> orzechy włoskie/pekany (niższe FODMAP)
-    - suszone pomidory -> świeże pomidory lub ≤8g suszonych
-    - czosnek granulowany -> olej infuzowany czosnkiem (bez cząstek)
-    - mozzarella zwykła -> mozzarella bez laktozy / feta ≤40g
-ingredients:
-  - buraki gotowane
-  - miks sałat
-  - suszone pomidory
-  - mozzarella
-  - orzechy nerkowca
-  - jajka
-  - oliwa z oliwek
-author: anpsk
-tagline: Kolorowa, sycąca sałatka – buraki, jajka, orzechy nerkowca i kremowa
-  mozzarella.
-tags:
-  - jesień
 cook: true
 cook_time: 10
 calories: 133
 protein: 9
-date: 2025-10-27T12:00:00-00:00
-categories:
-  - salatki
 fat: 8
 carbohydrate: 8
-link: ""
+fodmap:
+  status: depends
+  serving_ok: 'OK po modyfikacjach: mniej buraka (~60g/os.), nerkowce ≤10g/os., suszone pomidory ≤8g, feta ≤40g lub mozzarella bez laktozy.'
+  notes: Buraki, nerkowce i suszone pomidory w dużych ilościach podnoszą FODMAP (fruktany, GOS). Jajka, oliwa, miks sałat – niskofodmapowe. Mozzarella bywa tolerowana; feta zwykle OK w małej porcji.
+  substitutions:
+  - większa ilość buraka -> zmniejsz do 60g/os. lub użyj pieczonej dyni
+  - nerkowce -> orzechy włoskie/pekany (niższe FODMAP)
+  - suszone pomidory -> świeże pomidory lub ≤8g suszonych
+  - czosnek granulowany -> olej infuzowany czosnkiem (bez cząstek)
+  - mozzarella zwykła -> mozzarella bez laktozy / feta ≤40g
 ---
 
 ## Składniki (2 porcje)

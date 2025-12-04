@@ -1,15 +1,27 @@
 ---
+title: Shoarma z Kurczaka a'la Sphinx z Domowymi Pitami
+author: Policzone Szamy
+categories:
+- kolacje
 draft: false
-title: "Shoarma z Kurczaka a'la Sphinx z Domowymi Pitami"
-author: "Policzone Szamy"
+readyToTest: true
 recipe_image: images/recipe-headers/shoarma_kurczak_sphinx.avif
-image_width: 512
-image_height: 512
-date: 2025-10-29T10:30:00-00:00
-categories: ["kolacje"]
-tags: ["szybkie", "na-wynos"]
-tagline: "Domowa shoarma z soczysta kurczakiem, 3 sosami i puszystymi pitami z kieszonką!"
-ingredients: ["mięso z uda kurczaka", "mąka pszenna", "drożdże świeże", "jogurt naturalny", "passata pomidorowa", "papryka", "frytki", "sałata mieszana", "coleslaw"]
+date: 2025-10-29 10:30:00+00:00
+tags:
+- szybkie
+- na-wynos
+tagline: Domowa shoarma z soczysta kurczakiem, 3 sosami i puszystymi pitami z kieszonką!
+link: https://www.youtube.com/watch?v=ou8d41WFfzw
+ingredients:
+- mięso z uda kurczaka
+- mąka pszenna
+- drożdże świeże
+- jogurt naturalny
+- passata pomidorowa
+- papryka
+- frytki
+- sałata mieszana
+- coleslaw
 servings: 2
 prep_time: 60
 cook: true
@@ -19,18 +31,18 @@ calories: 720
 protein: 48
 fat: 22
 carbohydrate: 85
-readyToTest: true
-link: https://www.youtube.com/watch?v=ou8d41WFfzw
 fodmap:
-  status: "no"
-  serving_ok: "NIE – pita pszenna (fruktany), cebula, czosnek w marinata i sosach"
-  notes: "Pita z mąki pszennej zawiera fruktany. Cebula i czosnek (w marinata, sosie czosnkowym i meksykańskim) są wysokofodmap. Kurczak, jogurt (w małej ilości), papryka są niskofodmap."
+  status: 'no'
+  serving_ok: NIE – pita pszenna (fruktany), cebula, czosnek w marinata i sosach
+  notes: Pita z mąki pszennej zawiera fruktany. Cebula i czosnek (w marinata, sosie czosnkowym i meksykańskim) są wysokofodmap. Kurczak, jogurt (w małej ilości), papryka są niskofodmap.
   substitutions:
-    - "pita pszenna -> pita bezglutenowa lub tortilla kukurydziana"
-    - "cebula -> pomiń lub użyj zielonych części dymki"
-    - "czosnek -> olej czosnkowy (infuzja bez cząstek)"
-    - "jogurt -> jogurt bezlaktozowy"
-    - "frytki -> pieczone ziemniaki (sprawdź porcję ≤150 g)"
+  - pita pszenna -> pita bezglutenowa lub tortilla kukurydziana
+  - cebula -> pomiń lub użyj zielonych części dymki
+  - czosnek -> olej czosnkowy (infuzja bez cząstek)
+  - jogurt -> jogurt bezlaktozowy
+  - frytki -> pieczone ziemniaki (sprawdź porcję ≤150 g)
+image_width: 512
+image_height: 512
 ---
 
 ## Składniki

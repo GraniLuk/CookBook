@@ -1,16 +1,15 @@
 ---
 title: Tikka Masala KURCZAK z ryżem - LunchBOX na 3 dni
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=wUJsHpDuEP0
-author: "[[Policzona Szama]]"
 published: 2020-11-15
 created: 2025-10-27
 description: Szczegółowy przewodnik krok po kroku dotyczący przygotowania aromatycznego kurczaka Tikka Masala z ryżem basmati, przeznaczonego do podziału na trzy porcje w formie gotowych boxów obiadowych, wraz z prezentacją kosztów i wartości odżywczych.
 category: Fitness
 length: 1117
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

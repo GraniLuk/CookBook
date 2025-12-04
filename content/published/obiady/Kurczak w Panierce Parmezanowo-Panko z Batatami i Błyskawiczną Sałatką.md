@@ -1,13 +1,24 @@
 ---
-draft: false
-title: "Kurczak w Panierce Parmezanowo-Panko z Batatami"
-author: "Policzona Szama"
-recipe_image: images/recipe-headers/kurczak_w_panierce_panko.avif
-date: 2025-06-18T12:00:00-00:00
+title: Kurczak w Panierce Parmezanowo-Panko z Batatami
+author: Policzona Szama
 categories: obiady
-tags: [""]
-tagline: "Pyszny kurczak w chrupiącej panierce z batatami!"
-ingredients: ["bataty", "kurczak", "panko", "parmezan", "oliwa", "miks sałat", "cebula czerwona", "pomidorki cherry", "cytryna"]
+draft: false
+recipe_image: images/recipe-headers/kurczak_w_panierce_panko.avif
+date: 2025-06-18 12:00:00+00:00
+tags:
+- ''
+tagline: Pyszny kurczak w chrupiącej panierce z batatami!
+link: https://youtu.be/SQ4saBQrBYc?t=224
+ingredients:
+- bataty
+- kurczak
+- panko
+- parmezan
+- oliwa
+- miks sałat
+- cebula czerwona
+- pomidorki cherry
+- cytryna
 servings: 3
 prep_time: 20
 cook: true
@@ -16,15 +27,13 @@ calories: 174
 protein: 15
 fat: 6
 carbohydrate: 13
-link: https://youtu.be/SQ4saBQrBYc?t=224
-
 fodmap:
-  status: "depends"
-  serving_ok: "OK po modyfikacjach: panierka bez pszenicy; sałatka bez czerwonej cebuli"
-  notes: "Panko zwykle pszenne (fruktany) – wybierz wersję bezglutenową/ryżową. Czerwona cebula w sałatce jest wysokofodmapowa – zamień na szczypior. Bataty są OK w umiarkowanej porcji."
+  status: depends
+  serving_ok: 'OK po modyfikacjach: panierka bez pszenicy; sałatka bez czerwonej cebuli'
+  notes: Panko zwykle pszenne (fruktany) – wybierz wersję bezglutenową/ryżową. Czerwona cebula w sałatce jest wysokofodmapowa – zamień na szczypior. Bataty są OK w umiarkowanej porcji.
   substitutions:
-    - "panko pszenne -> bułka tarta bezglutenowa/ryżowa lub drobno mielone płatki kukurydziane"
-    - "czerwona cebula -> zielona część dymki/szczypior"
+  - panko pszenne -> bułka tarta bezglutenowa/ryżowa lub drobno mielone płatki kukurydziane
+  - czerwona cebula -> zielona część dymki/szczypior
 ---
 
 ## Składniki

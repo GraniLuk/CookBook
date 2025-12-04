@@ -1,13 +1,24 @@
 ---
-draft: false
-title: "Łosoś Pieczony Z Ziemniakami I Sosem Szparagowym"
-author: "Autor Przepisu"
-recipe_image: images/recipe-headers/losos_pieczony_z_ziemniakami.avif
-date: 2025-06-19T12:00:00-00:00
+title: Łosoś Pieczony Z Ziemniakami I Sosem Szparagowym
+author: Autor Przepisu
 categories: obiady
-tags: ["ryby", "goście"]
-tagline: "Efektowny obiad z pieczonego łososia z ziemniakami i kremowym sosem szparagowym!"
-ingredients: ["łosoś", "cytryna", "masło", "ziemniaki", "oliwa", "szparagi", "mascarpone", "suszone pomidory", "czosnek"]
+draft: false
+recipe_image: images/recipe-headers/losos_pieczony_z_ziemniakami.avif
+date: 2025-06-19 12:00:00+00:00
+tags:
+- ryby
+- goście
+tagline: Efektowny obiad z pieczonego łososia z ziemniakami i kremowym sosem szparagowym!
+ingredients:
+- łosoś
+- cytryna
+- masło
+- ziemniaki
+- oliwa
+- szparagi
+- mascarpone
+- suszone pomidory
+- czosnek
 servings: 4
 prep_time: 25
 cook: true
@@ -16,15 +27,14 @@ calories: 193
 protein: 14
 fat: 10
 carbohydrate: 10
-
 fodmap:
-  status: "depends"
-  serving_ok: "OK po modyfikacjach: bez czosnku; mascarpone zamienić; suszone pomidory ≤ 8–12 g/os.; szparagi 4–5 łodyg"
-  notes: "Czosnek (fruktany) i mascarpone (laktoza) są problematyczne. Suszone pomidory podnoszą FODMAP powyżej małej porcji – ogranicz. Ziemniaki i łosoś są bezpieczne."
+  status: depends
+  serving_ok: 'OK po modyfikacjach: bez czosnku; mascarpone zamienić; suszone pomidory ≤ 8–12 g/os.; szparagi 4–5 łodyg'
+  notes: Czosnek (fruktany) i mascarpone (laktoza) są problematyczne. Suszone pomidory podnoszą FODMAP powyżej małej porcji – ogranicz. Ziemniaki i łosoś są bezpieczne.
   substitutions:
-    - "czosnek -> olej czosnkowy (bez cząstek)"
-    - "mascarpone -> śmietanka/śmietana bez laktozy lub tarty ser dojrzewający (mała porcja)"
-    - "suszone pomidory -> ≤ 8–12 g/os. lub świeże pomidory w małej ilości"
+  - czosnek -> olej czosnkowy (bez cząstek)
+  - mascarpone -> śmietanka/śmietana bez laktozy lub tarty ser dojrzewający (mała porcja)
+  - suszone pomidory -> ≤ 8–12 g/os. lub świeże pomidory w małej ilości
 ---
 
 Oto przepis na pieczonego łososia w piekarniku z ziemniakami pieczonymi oraz kremowym sosem z szparagów, mascarpone i suszonych pomidorów. Przepis jest łatwy do wykonania i pozwoli uzyskać efektowny obiad z wyrazistym smakiem.

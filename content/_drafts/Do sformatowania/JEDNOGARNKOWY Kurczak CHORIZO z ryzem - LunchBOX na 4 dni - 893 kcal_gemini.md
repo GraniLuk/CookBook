@@ -1,16 +1,15 @@
 ---
 title: JEDNOGARNKOWY Kurczak CHORIZO z ryżem  - LunchBOX na 4 dni - 893 kcal
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=ReCj6oOuCO4
-author: "[[Policzona Szama]]"
 published: 2019-10-16
 created: 2025-10-27
 description: Szczegółowy przepis na jednogarnkowe danie typu paella/jambalaya z kiełbasą chorizo i kurczakiem, zoptymalizowany pod kątem szybkiego przygotowania i podziału na cztery solidne porcje do lunch boxów.
 category: Fitness
 length: 1023
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

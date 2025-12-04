@@ -1,14 +1,24 @@
 ---
+title: Placki a la Pizza z Suszonymi Pomidorami
+author: Policzona Szama
+categories: śniadania
 draft: false
 readyToTest: true
-title: "Placki a la Pizza z Suszonymi Pomidorami"
-author: "Policzona Szama"
 recipe_image: images/recipe-headers/placki_pizza_pomidory.avif
-date: 2025-10-31T12:00:00-00:00
-categories: śniadania
-tags: ["szybkie", "przekąska"]
-tagline: "Wytrawne placki w stylu pizzy z suszonymi pomidorami, oliwkami i serem cheddar."
-ingredients: ["suszone pomidory", "oliwki", "ser cheddar", "płatki owsiane", "ser wiejski", "jajko", "oliwa z oliwek"]
+date: 2025-10-31 12:00:00+00:00
+tags:
+- szybkie
+- przekąska
+tagline: Wytrawne placki w stylu pizzy z suszonymi pomidorami, oliwkami i serem cheddar.
+link: https://www.youtube.com/watch?v=7WBWsXO6G3g
+ingredients:
+- suszone pomidory
+- oliwki
+- ser cheddar
+- płatki owsiane
+- ser wiejski
+- jajko
+- oliwa z oliwek
 servings: 4
 prep_time: 10
 cook: true
@@ -17,13 +27,12 @@ calories: 220
 protein: 10
 fat: 12
 carbohydrate: 18
-link: https://www.youtube.com/watch?v=7WBWsXO6G3g
 fodmap:
-  status: "no"
-  serving_ok: "Nie – zawiera suszone pomidory >30g."
-  notes: "Suszone pomidory zwiększają FODMAP."
+  status: 'no'
+  serving_ok: Nie – zawiera suszone pomidory >30g.
+  notes: Suszone pomidory zwiększają FODMAP.
   substitutions:
-    - "Ogranicz suszone pomidory do ~15g."
+  - Ogranicz suszone pomidory do ~15g.
 ---
 
 ## Składniki (4 porcje)

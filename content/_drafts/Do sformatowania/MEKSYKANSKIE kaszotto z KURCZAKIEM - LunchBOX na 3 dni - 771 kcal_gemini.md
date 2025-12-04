@@ -1,16 +1,15 @@
 ---
 title: MEKSYKAŃSKIE kaszotto z KURCZAKIEM - LunchBOX na 3 dni - 771 kcal
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=T5SSE0Gwo60
-author: "[[Policzona Szama]]"
 published: 2020-07-05
 created: 2025-10-27
 description: Powrót do boxów z jedzeniem, prezentujący przepis na trzy porcje meksykańskiego kaszotto z kaszy pęczak i piersi kurczaka, z uwzględnieniem szczegółowego procesu przygotowania i wykorzystania płynów z pieczenia kurczaka jako bazy smakowej.
 category: Fitness
 length: 1103
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

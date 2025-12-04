@@ -1,16 +1,15 @@
 ---
 title: Pyszny sos BARBECUE - BBQ Idealny do GRILLA i mięsnych dań - 2 MINUTY SZAMA
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=qUyczcdmp_4
-author: "[[Policzona Szama]]"
 published: 2019-06-13
 created: 2025-10-28
 description: Szczegółowy przepis na rewelacyjny sos barbecue, obejmujący listę składników, precyzyjne kroki przygotowania, czasy gotowania oraz wskazówki dotyczące konsystencji i smaku.
 category: Fitness
 length: 771
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

@@ -1,42 +1,44 @@
 ---
-video_file: videos/brownie_kinder_bueno.mp4
 title: Brownie Kinder Bueno
 author: Bartłomiej Włodarczyk
-draft: false
-tagline: Gęste, intensywnie czekoladowe brownie z kawałkami batonów Kinder Bueno
-  i kremem orzechowo-kakaowym.
-ingredients: ["mąka pszenna", "jajka", "masło", "gorzka czekolada", "cukier", "kakao", "kinder bueno", "proszek do pieczenia", "ekstrakt waniliowy"]
-recipe_image: images/recipe-headers/brownie_kinder_bueno.avif
-tags:
-  - brownie
 categories:
-  - desery
+- desery
+draft: false
+recipe_image: images/recipe-headers/brownie_kinder_bueno.avif
+date: 2025-10-08 12:00:00+00:00
+tags:
+- brownie
+tagline: Gęste, intensywnie czekoladowe brownie z kawałkami batonów Kinder Bueno i kremem orzechowo-kakaowym.
+link: null
+ingredients:
+- mąka pszenna
+- jajka
+- masło
+- gorzka czekolada
+- cukier
+- kakao
+- kinder bueno
+- proszek do pieczenia
+- ekstrakt waniliowy
 servings: 28
 prep_time: 20
 cook: true
 cook_time: 30
 calories: 229
 protein: 3.9
-link: null
-fodmap:
-  status: no
-  serving_ok: Nie – pszenna mąka, krem i batony Kinder Bueno zwiększają FODMAP.
-  notes: Przepis w oryginale nie jest low FODMAP (mąka pszenna – fruktany; batony
-    i krem zawierają mleko (laktoza) i dodatki; duża ilość sacharozy). Porcja 1
-    kawałek nadal high FODMAP. Można wykonać wersję adaptowaną – patrz
-    zamienniki.
-  substitutions:
-    - Mąka pszenna -> mieszanka bezglutenowa low FODMAP (ryżowa + kukurydziana +
-      ziemniaczana) + 0.5 łyżeczki gumy ksantanowej
-    - Krem Kinder Bueno -> pasta z orzechów laskowych (≤15 g porcja) + 70%
-      ciemna czekolada
-    - Batony Kinder Bueno -> kostki ciemnej czekolady 70% + odrobina chrupiących
-      płatków kukurydzianych (bez pszenicy)
-    - Masło (jeśli wrażliwość na laktozę) -> masło klarowane (ghee)
-    - Cukier biały -> erytrol / mieszanka erytrol+odrobina cukru (dla struktury)
-date: 2025-10-08T12:00:00-00:00
 fat: 13.3
 carbohydrate: 23.6
+fodmap:
+  status: false
+  serving_ok: Nie – pszenna mąka, krem i batony Kinder Bueno zwiększają FODMAP.
+  notes: Przepis w oryginale nie jest low FODMAP (mąka pszenna – fruktany; batony i krem zawierają mleko (laktoza) i dodatki; duża ilość sacharozy). Porcja 1 kawałek nadal high FODMAP. Można wykonać wersję adaptowaną – patrz zamienniki.
+  substitutions:
+  - Mąka pszenna -> mieszanka bezglutenowa low FODMAP (ryżowa + kukurydziana + ziemniaczana) + 0.5 łyżeczki gumy ksantanowej
+  - Krem Kinder Bueno -> pasta z orzechów laskowych (≤15 g porcja) + 70% ciemna czekolada
+  - Batony Kinder Bueno -> kostki ciemnej czekolady 70% + odrobina chrupiących płatków kukurydzianych (bez pszenicy)
+  - Masło (jeśli wrażliwość na laktozę) -> masło klarowane (ghee)
+  - Cukier biały -> erytrol / mieszanka erytrol+odrobina cukru (dla struktury)
+video_file: videos/brownie_kinder_bueno.mp4
 ---
 
 ## Składniki

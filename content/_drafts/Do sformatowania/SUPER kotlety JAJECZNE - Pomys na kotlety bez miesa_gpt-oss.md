@@ -1,16 +1,15 @@
 ---
 title: SUPER kotlety JAJECZNE - Pomysł na kotlety bez mięsa
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=fEFA_k_Etfo
-author: "[[Policzona Szama]]"
 published: 2021-04-17
 created: 2025-10-26
 description: W kolejnym przepysznie‑śmieszku odcinku **Policzonej Szamy** pokażę, jak zrobić 4 miękkie, soczyste **kotlety jajeczne** z frytkami z batatów, słodko‑pikantnym dodatkiem i delikatnym sosem czosnkowym ze **Skyrem**, a wszystko to bez głębokiego smażenia i bez potrzebnych bułek tarte!
 category: Fitness
 length: 861
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ---  
 

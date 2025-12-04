@@ -1,29 +1,41 @@
 ---
-draft: false  
-title: "Pikantna Pasta z Tuńczyka z Mozzarellą"  
-author: "GraniLuk"  
-recipe_image: images/recipe-headers/pasta_pikantna_z_tunczyka.avif
-date: 2025-10-21T12:00:00-00:00  
+title: Pikantna Pasta z Tuńczyka z Mozzarellą
+author: GraniLuk
 categories: śniadania
-subcategories: ["słone"]  
-tags: ["pikantne", "kanapki"]  
-tagline: "Pikantna pasta z tuńczyka z mozzarellą - idealna na kanapki lub jako przekąska."  
-ingredients: ["tuńczyk", "mozzarella", "ketchup", "majonez", "jalapeno", "pomidor", "rukola", "czosnek"]
-servings: 2  
-prep_time: 10  
-cook: false  
+subcategories:
+- słone
+draft: false
+recipe_image: images/recipe-headers/pasta_pikantna_z_tunczyka.avif
+date: 2025-10-21 12:00:00+00:00
+tags:
+- pikantne
+- kanapki
+tagline: Pikantna pasta z tuńczyka z mozzarellą - idealna na kanapki lub jako przekąska.
+ingredients:
+- tuńczyk
+- mozzarella
+- ketchup
+- majonez
+- jalapeno
+- pomidor
+- rukola
+- czosnek
+servings: 2
+prep_time: 10
+cook: false
+cook_time: 15
 calories: 258
 protein: 17.5
 fat: 9
 carbohydrate: 25
-video_file: videos/pasta_pikanta_z_tunczyka.mp4
 fodmap:
-  status: "depends"
-  serving_ok: "OK po modyfikacjach: bez czosnku, sprawdź ilość jalapeno"
-  notes: "Czosnek zawiera fruktany (wysokie FODMAP). Ketchup i majonez light zazwyczaj OK w małych ilościach. Jalapeno może być problematyczne dla niektórych osób."
+  status: depends
+  serving_ok: 'OK po modyfikacjach: bez czosnku, sprawdź ilość jalapeno'
+  notes: Czosnek zawiera fruktany (wysokie FODMAP). Ketchup i majonez light zazwyczaj OK w małych ilościach. Jalapeno może być problematyczne dla niektórych osób.
   substitutions:
-    - "czosnek -> olej czosnkowy (bez cząstek) lub zrezygnować"
-    - "jalapeno -> ograniczyć ilość lub zrezygnować w razie problemów"
+  - czosnek -> olej czosnkowy (bez cząstek) lub zrezygnować
+  - jalapeno -> ograniczyć ilość lub zrezygnować w razie problemów
+video_file: videos/pasta_pikanta_z_tunczyka.mp4
 ---
 
 ## Składniki (na 2 porcje)

@@ -1,16 +1,15 @@
 ---
 title: Prosty MEKSYKAŃSKI Kurczak z RYŻEM - LunchBOX na 4 dni - 697 kcal
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=dQFXkyBNUco
-author: "[[Policzona Szama]]"
 published: 2019-06-04
 created: 2025-10-28
 description: Przepis ten przedstawia szczegółową instrukcję przygotowania meksykańskiego boxa obiadowego z soczystym kurczakiem i ryżem, znanego jako „Biedrobox”, wykorzystując składniki łatwo dostępne w Biedronce.
 category: Fitness
 length: 1280
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

@@ -1,13 +1,21 @@
 ---
-draft: false
-title: "Kurczak Z Szpinakiem I Mascarpone"
-author: "Autor Przepisu"
-recipe_image: images/recipe-headers/kurczak_szpinak_mascarpone.avif
-date: 2025-06-18T12:00:00-00:00
+title: Kurczak Z Szpinakiem I Mascarpone
+author: Autor Przepisu
 categories: obiady
+draft: false
+recipe_image: images/recipe-headers/kurczak_szpinak_mascarpone.avif
+date: 2025-06-18 12:00:00+00:00
 tags: []
-tagline: "Kremowy kurczak ze szpinakiem i mascarpone!"
-ingredients: ["pierś z kurczaka", "szpinak", "mascarpone", "cebula", "czosnek", "oliwa", "bulion", "cytryna"]
+tagline: Kremowy kurczak ze szpinakiem i mascarpone!
+ingredients:
+- pierś z kurczaka
+- szpinak
+- mascarpone
+- cebula
+- czosnek
+- oliwa
+- bulion
+- cytryna
 servings: 4
 prep_time: 20
 cook: true
@@ -16,15 +24,14 @@ calories: 433
 protein: 39
 fat: 27
 carbohydrate: 6
-
 fodmap:
-   status: "no"
-   serving_ok: "W obecnej formie nieodpowiednie (cebula, czosnek, mascarpone)"
-   notes: "Cebula/czosnek (fruktany) i mascarpone (wysoka laktoza) czynią danie niezgodne na etapie eliminacji."
-   substitutions:
-      - "cebula -> zielona część dymki/szczypior"
-      - "czosnek -> olej czosnkowy (bez cząstek)"
-      - "mascarpone -> śmietanka/napój bez laktozy + tarty ser dojrzewający (w małej porcji)"
+  status: 'no'
+  serving_ok: W obecnej formie nieodpowiednie (cebula, czosnek, mascarpone)
+  notes: Cebula/czosnek (fruktany) i mascarpone (wysoka laktoza) czynią danie niezgodne na etapie eliminacji.
+  substitutions:
+  - cebula -> zielona część dymki/szczypior
+  - czosnek -> olej czosnkowy (bez cząstek)
+  - mascarpone -> śmietanka/napój bez laktozy + tarty ser dojrzewający (w małej porcji)
 ---
 
 ## Składniki

@@ -1,16 +1,15 @@
 ---
 title: Pyszna Ryba Curry - zaczniesz jeść ryby częściej - 730 kcal
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=4mgyEZo1Oes
-author: "[[Policzona Szama]]"
 published: 2019-02-09
 created: 2025-11-22
 description: W tym, 10‑tym odcinku kanału Policzo przygotowujemy niezwykłą rybę w aromatycznym, orientalnym **kary** – danie, które rozbudzi smaki każdego z nas, a wszystko zrobimy w jednej patelni, podając trzykrotnie porcje bez konieczności gotowania ryżu na osobnej patelni.
 category: Fitness
 length: 709
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ---
 

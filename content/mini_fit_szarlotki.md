@@ -1,37 +1,44 @@
 ---
-video_file: videos/mini_fit_szarlotki.mp4
 title: Mini Fit Szarlotki
 author: Autor Przepisu
-draft: false
-tagline: Małe, miękkie i wilgotne mini szarlotki z twarogiem – idealne do kawy i
-  do lunchboxa.
-ingredients: ["twaróg", "jabłka", "jajka", "masło", "mąka pszenna", "orzechy włoskie", "proszek do pieczenia", "erytrytol", "cynamon"]
-recipe_image: images/recipe-headers/mini_fit_szarlotki.avif
-tags:
-  - przekąska
-  - jesień
 categories:
-  - desery
+- desery
 subcategories: null
+draft: false
+recipe_image: images/recipe-headers/mini_fit_szarlotki.avif
+date: 2025-10-03 12:00:00+00:00
+tags:
+- przekąska
+- jesień
+tagline: Małe, miękkie i wilgotne mini szarlotki z twarogiem – idealne do kawy i do lunchboxa.
+ingredients:
+- twaróg
+- jabłka
+- jajka
+- masło
+- mąka pszenna
+- orzechy włoskie
+- proszek do pieczenia
+- erytrytol
+- cynamon
 servings: 10
 prep_time: 10
 cook: true
 cook_time: 30
 calories: 193
 protein: 10.6
-fodmap:
-  status: no
-  serving_ok: Nie jest low FODMAP w tej wersji (jabłka + laktoza).
-  notes: Jabłka są wysokofodmapowe (fruktoza + poliole), twaróg może zawierać
-    laktozę. Małe porcje nadal kumulują FODMAP przy innych posiłkach.
-  substitutions:
-    - jabłka -> borówki, truskawki lub rabarbar (wtedy mniejsza fruktoza)
-    - twaróg -> twaróg bez laktozy lub chudy serek bez laktozy
-    - mąka pszenna -> mąka ryżowa (wersja bezglutenowa / lepiej tolerowana)
-    - erytrytol -> można zostawić (niski FODMAP); unikać dużej ilości ksylitolu
-date: 2025-10-03T12:00:00-00:00
 fat: 8.7
 carbohydrate: 15.9
+fodmap:
+  status: false
+  serving_ok: Nie jest low FODMAP w tej wersji (jabłka + laktoza).
+  notes: Jabłka są wysokofodmapowe (fruktoza + poliole), twaróg może zawierać laktozę. Małe porcje nadal kumulują FODMAP przy innych posiłkach.
+  substitutions:
+  - jabłka -> borówki, truskawki lub rabarbar (wtedy mniejsza fruktoza)
+  - twaróg -> twaróg bez laktozy lub chudy serek bez laktozy
+  - mąka pszenna -> mąka ryżowa (wersja bezglutenowa / lepiej tolerowana)
+  - erytrytol -> można zostawić (niski FODMAP); unikać dużej ilości ksylitolu
+video_file: videos/mini_fit_szarlotki.mp4
 ---
 
 ## Składniki

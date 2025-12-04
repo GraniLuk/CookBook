@@ -1,14 +1,24 @@
 ---
+title: Szakszuka
+author: Jemy Razem
+categories:
+- sniadania
+subcategories:
+- słone
 draft: false
-title: "Szakszuka"
-author: "Jemy Razem"
 recipe_image: images/recipe-headers/szakszuka.avif
-date: 2025-06-18T12:00:00-00:00
-categories: ["sniadania"]
-subcategories: ["słone"]
+date: 2025-06-18 12:00:00+00:00
 tags: []
-tagline: "Klasyczna szakszuka z jajkami w sosie pomidorowym!"
-ingredients: ["pesto bazyliowe", "jajka", "pomidory", "czosnek", "jarmuż", "oregano", "mascarpone", "chleb żytni"]
+tagline: Klasyczna szakszuka z jajkami w sosie pomidorowym!
+ingredients:
+- pesto bazyliowe
+- jajka
+- pomidory
+- czosnek
+- jarmuż
+- oregano
+- mascarpone
+- chleb żytni
 servings: 3
 prep_time: 10
 cook: true
@@ -17,14 +27,13 @@ calories: 114
 protein: 6
 fat: 7
 carbohydrate: 7
-
 fodmap:
-  status: "no"
-  serving_ok: "Nieodpowiednie w obecnej wersji (cebula, czosnek, mascarpone)"
-  notes: "Cebula i czosnek (fruktany) są niewskazane; mascarpone to wysoka laktoza."
+  status: 'no'
+  serving_ok: Nieodpowiednie w obecnej wersji (cebula, czosnek, mascarpone)
+  notes: Cebula i czosnek (fruktany) są niewskazane; mascarpone to wysoka laktoza.
   substitutions:
-    - "Cebula/czosnek -> zielona część dymki + olej czosnkowy."
-    - "Mascarpone -> ser twardy (np. cheddar) lub niewielka porcja śmietanki bez laktozy."
+  - Cebula/czosnek -> zielona część dymki + olej czosnkowy.
+  - Mascarpone -> ser twardy (np. cheddar) lub niewielka porcja śmietanki bez laktozy.
 ---
 
 ## Składniki

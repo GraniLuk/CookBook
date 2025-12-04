@@ -1,14 +1,21 @@
 ---
+title: Placki z Serka Wiejskiego
+author: Autor Przepisu
+categories:
+- sniadania
+subcategories:
+- słodkie
 draft: false
-title: "Placki z Serka Wiejskiego"
-author: "Autor Przepisu"
 recipe_image: images/recipe-headers/placki_z_serka_wiejskiego.avif
-date: 2025-06-19T12:00:00-00:00
-categories: ["sniadania"]
-subcategories: ["słodkie"]
-tags: ["Stefan"]
-tagline: "Zdrowe placki z serka wiejskiego!"
-ingredients: ["banan", "serek wiejski", "mąka", "jajka"]
+date: 2025-06-19 12:00:00+00:00
+tags:
+- Stefan
+tagline: Zdrowe placki z serka wiejskiego!
+ingredients:
+- banan
+- serek wiejski
+- mąka
+- jajka
 servings: 12
 prep_time: 10
 cook: true
@@ -17,15 +24,14 @@ calories: 158
 protein: 10
 fat: 4
 carbohydrate: 21
-
 fodmap:
-  status: "no"
-  serving_ok: "Mała porcja - zamień mąkę, uważaj na banan"
-  notes: "Banan (1/2 max), mąka orkiszowa/pszenna problematyczna"
+  status: 'no'
+  serving_ok: Mała porcja - zamień mąkę, uważaj na banan
+  notes: Banan (1/2 max), mąka orkiszowa/pszenna problematyczna
   substitutions:
-    - "mąka pszenna/orkiszowa -> mąka ryżowa"
-    - "duży banan -> 1/2 banana"
-    - "serek wiejski -> sprawdź czy bezlaktozowy"
+  - mąka pszenna/orkiszowa -> mąka ryżowa
+  - duży banan -> 1/2 banana
+  - serek wiejski -> sprawdź czy bezlaktozowy
 ---
 
 ## Składniki

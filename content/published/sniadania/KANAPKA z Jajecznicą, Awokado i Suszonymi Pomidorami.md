@@ -1,26 +1,32 @@
 ---
-draft: false  
+title: KANAPKA z Jajecznicą, Awokado i Suszonymi Pomidorami
+author: Policzona Szama
+categories: śniadania
+draft: false
 readyToTest: true
-title: "KANAPKA z Jajecznicą, Awokado i Suszonymi Pomidorami"  
-author: "Policzona Szama"  
-recipe_image: images/recipe-headers/kanapka_jajecznica_awokado.avif  
-date: 2025-11-29T12:00:00-00:00  
-categories: śniadania  
-tags: ["kanapki"]  
-tagline: "Kremowa kanapka z jajecznicą, awokado i suszonymi pomidorami na rukoli."  
-ingredients: ["bułka paryska", "jajka", "awokado", "suszone pomidory", "rukola"]
-servings: 2  
-prep_time: 10  
-cook: true  
-cook_time: 5  
+recipe_image: images/recipe-headers/kanapka_jajecznica_awokado.avif
+date: 2025-11-29 12:00:00+00:00
+tags:
+- kanapki
+tagline: Kremowa kanapka z jajecznicą, awokado i suszonymi pomidorami na rukoli.
+link: https://www.youtube.com/watch?v=6GTyB2M09mU
+ingredients:
+- bułka paryska
+- jajka
+- awokado
+- suszone pomidory
+- rukola
+servings: 2
+prep_time: 10
+cook: true
+cook_time: 5
 calories: 560
 protein: 24
 fat: 22
-carbohydrate: 70 
-link: https://www.youtube.com/watch?v=6GTyB2M09mU
+carbohydrate: 70
 fodmap:
-  status: "yes"
-  notes: "Wszystkie składniki są bezpieczne dla diety low FODMAP."
+  status: 'yes'
+  notes: Wszystkie składniki są bezpieczne dla diety low FODMAP.
 ---
 
 ## Składniki

@@ -1,16 +1,15 @@
 ---
 title: Szykujemy posiłki na 4 dni lunch box. Pomysł na kurczaka z ryżem - 700 kcal.
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=SPXlUI1TnPo
-author: "[[Policzona Szama]]"
 published: 2018-11-02
 created: 2025-11-22
 description: Przepisy krok‑po‑kroku na soczystego kurczaka z aromatyczną cukinią i pieczarkami, przyrządzone w 200 g porcjach, w przystępnej formie kanału Boks, wraz z humorystycznym, nieformalnym opowiedzeniem i wskazówkami dotyczącymi zakupów oraz subskrypcji.
 category: Fitness
 length: 874
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ---  
 

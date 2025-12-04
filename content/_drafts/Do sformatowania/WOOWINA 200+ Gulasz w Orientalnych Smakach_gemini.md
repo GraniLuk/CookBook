@@ -1,16 +1,15 @@
 ---
 title: WOŁOWINA 200+  Gulasz w Orientalnych Smakach
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=QglNbCwysMg
-author: "[[Policzona Szama]]"
 published: 2020-02-01
 created: 2025-10-27
 description: Szczegółowy przepis na pikantny, orientalny gulasz wołowy (Madras) z pieczoną dynią piżmową i marchewką, zorganizowany pod kątem szybkiego przygotowania i długiego, wolnego duszenia, idealny do planowania posiłków.
 category: Fitness
 length: 874
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

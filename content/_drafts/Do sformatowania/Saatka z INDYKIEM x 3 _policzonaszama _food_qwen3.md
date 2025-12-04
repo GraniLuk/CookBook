@@ -1,3 +1,7 @@
+---
+{}
+---
+
 ﻿---
 draft: true
 title: "**PRZEPIS NA SAŁATKĘ Z INDYKIEM**"

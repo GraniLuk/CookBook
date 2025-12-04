@@ -1,14 +1,23 @@
 ---
+title: Placki Bananowo-Twarogowe
+author: Autor Przepisu
+categories:
+- sniadania
+subcategories:
+- słodkie
 draft: false
-title: "Placki Bananowo-Twarogowe"
-author: "Autor Przepisu"
 recipe_image: images/recipe-headers/placki_bananowo_twarogowe.avif
-date: 2025-08-29T12:00:00-00:00
-categories: ["sniadania"]
-subcategories: ["słodkie"]
-tags: ["Stefan"]
-tagline: "Pyszne placki z bananami i twarogiem!"
-ingredients: ["jajka", "mleko", "woda", "twaróg", "mąka pszenna", "banan"]
+date: 2025-08-29 12:00:00+00:00
+tags:
+- Stefan
+tagline: Pyszne placki z bananami i twarogiem!
+ingredients:
+- jajka
+- mleko
+- woda
+- twaróg
+- mąka pszenna
+- banan
 servings: 10
 prep_time: 10
 cook: true
@@ -17,15 +26,14 @@ calories: 142
 protein: 8
 fat: 3
 carbohydrate: 23
-
 fodmap:
-  status: "no"
-  serving_ok: "Mała porcja - uważaj na banany i mleko"
-  notes: "Banany (max 1 na porcję), mleko krowie problematyczne, twaróg może zawierać laktozę"
+  status: 'no'
+  serving_ok: Mała porcja - uważaj na banany i mleko
+  notes: Banany (max 1 na porcję), mleko krowie problematyczne, twaróg może zawierać laktozę
   substitutions:
-    - "mleko krowie -> mleko bezlaktozowe lub roślinne"
-    - "twaróg -> twaróg bezlaktozowy"
-    - "duże banany -> mniejsze banany lub mniej"
+  - mleko krowie -> mleko bezlaktozowe lub roślinne
+  - twaróg -> twaróg bezlaktozowy
+  - duże banany -> mniejsze banany lub mniej
 ---
 
 ## Składniki

@@ -1,3 +1,7 @@
+---
+{}
+---
+
 ﻿---
 draft: true
 title: "## **Wstęp: Letni Box 2023 - Danie Idealne na Upały**"

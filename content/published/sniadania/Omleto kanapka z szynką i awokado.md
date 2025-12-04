@@ -1,14 +1,24 @@
 ---
+title: Omleto-Kanapka z Szynką i Awokado
+author: Granica
+categories:
+- sniadania
+subcategories:
+- słone
 draft: false
-title: "Omleto-Kanapka z Szynką i Awokado"
-author: "Granica"
 recipe_image: images/recipe-headers/omletoKanapka.avif
-date: 2025-06-18T12:00:00-00:00
-categories: ["sniadania"]
-subcategories: ["słone"]
+date: 2025-06-18 12:00:00+00:00
 tags: []
-tagline: "Pyszna omleto-kanapka z szynką i awokado!"
-ingredients: ["jajka", "bułka", "serek wiejski", "rukola", "awokado", "szynka", "pomidorki koktajlowe"]
+tagline: Pyszna omleto-kanapka z szynką i awokado!
+link: https://www.youtube.com/watch?v=RR5V2Wcxk0w
+ingredients:
+- jajka
+- bułka
+- serek wiejski
+- rukola
+- awokado
+- szynka
+- pomidorki koktajlowe
 servings: 1
 prep_time: 10
 cook: true
@@ -17,16 +27,14 @@ calories: 143
 protein: 9
 fat: 8
 carbohydrate: 9
-
 fodmap:
-  status: "depends"
-  serving_ok: "OK po modyfikacjach: pieczywo bez pszenicy; serek wiejski bez laktozy; awokado ≤ 30 g"
-  notes: "Bułka pszenna (fruktany), serek wiejski (laktoza) i 100 g awokado (sorbitol) nie są zalecane na etapie eliminacji. Jajka są bezpieczne; szynka zwykle OK – sprawdź dodatki (bez cebuli/czosnku)."
+  status: depends
+  serving_ok: 'OK po modyfikacjach: pieczywo bez pszenicy; serek wiejski bez laktozy; awokado ≤ 30 g'
+  notes: Bułka pszenna (fruktany), serek wiejski (laktoza) i 100 g awokado (sorbitol) nie są zalecane na etapie eliminacji. Jajka są bezpieczne; szynka zwykle OK – sprawdź dodatki (bez cebuli/czosnku).
   substitutions:
-    - "bułka pszenna -> 100% kukurydziana tortilla lub pieczywo bezglutenowe (mała porcja)"
-    - "serek wiejski -> wersja bez laktozy lub cienkie plastry sera dojrzewającego"
-    - "awokado 100 g -> ≤ 30 g lub pominąć"
-link: https://www.youtube.com/watch?v=RR5V2Wcxk0w
+  - bułka pszenna -> 100% kukurydziana tortilla lub pieczywo bezglutenowe (mała porcja)
+  - serek wiejski -> wersja bez laktozy lub cienkie plastry sera dojrzewającego
+  - awokado 100 g -> ≤ 30 g lub pominąć
 ---
 
 ## Składniki
@@ -64,4 +72,3 @@ link: https://www.youtube.com/watch?v=RR5V2Wcxk0w
 | **RAZEM:**       | **470**   | **672**       | **43.2**   | **38.6**     | **42.8**        |
 
 ---
-

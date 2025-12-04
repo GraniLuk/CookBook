@@ -1,16 +1,15 @@
 ---
 title: FIT SERNIK na zimno - pyszny i prosty.  "Atak Leśnych Owoców"
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=FQ3pauMvIPI
-author: "[[Policzona Szama]]"
 published: 2019-07-20
 created: 2025-10-28
 description: Szczegółowy przewodnik po przygotowaniu szybkiego i prostego fit sernika na zimno, wykorzystującego twaróg, daktyle i dużą ilość kwaskowatych owoców leśnych.
 category: Fitness
 length: 949
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

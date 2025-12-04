@@ -1,15 +1,23 @@
 ---
+title: Serek Wiejski z Owocami, Dżemem i Masłem Orzechowym
+author: Policzone Szamy
+categories:
+- sniadania
 draft: false
-title: "Serek Wiejski z Owocami, Dżemem i Masłem Orzechowym"
-author: "Policzone Szamy"
+readyToTest: true
 recipe_image: images/recipe-headers/serek_wiejski_owoce.avif
-image_width: 512
-image_height: 512
-date: 2025-10-28T13:15:00-00:00
-categories: ["sniadania"]
-tags: ["szybkie", "przekąska"]
-tagline: "Pożywne śniadanie z serkiem wiejskim, świeżymi owocami i masłem orzechowym – gotowe w 5 minut!"
-ingredients: ["serek wiejski", "płatki owsiane", "masło orzechowe", "jagody", "dżem"]
+date: 2025-10-28 13:15:00+00:00
+tags:
+- szybkie
+- przekąska
+tagline: Pożywne śniadanie z serkiem wiejskim, świeżymi owocami i masłem orzechowym – gotowe w 5 minut!
+link: https://youtu.be/3qI4Y5dRumA?t=526
+ingredients:
+- serek wiejski
+- płatki owsiane
+- masło orzechowe
+- jagody
+- dżem
 servings: 1
 prep_time: 5
 cook: false
@@ -19,17 +27,17 @@ calories: 380
 protein: 24
 fat: 14
 carbohydrate: 38
-link: https://youtu.be/3qI4Y5dRumA?t=526
-readyToTest: true
 fodmap:
-  status: "depends"
-  serving_ok: "OK po modyfikacjach: uwaga na płatki owsiane, masło orzechowe, jagody"
-  notes: "Serek wiejski (laktozowy) – bezpieczna porcja do ~40 g (tu 150 g to za dużo dla wrażliwych na laktozę). Płatki owsiane (fruktany) – bezpieczna porcja ~23 g (tu 2 łyżki ~20 g to OK). Masło orzechowe z orzechów ziemnych może zawierać GOS – bezpieczna porcja ~30 g. Jagody (borówki/maliny) są niskofodmap w małych porcjach (~20–40 g)."
+  status: depends
+  serving_ok: 'OK po modyfikacjach: uwaga na płatki owsiane, masło orzechowe, jagody'
+  notes: Serek wiejski (laktozowy) – bezpieczna porcja do ~40 g (tu 150 g to za dużo dla wrażliwych na laktozę). Płatki owsiane (fruktany) – bezpieczna porcja ~23 g (tu 2 łyżki ~20 g to OK). Masło orzechowe z orzechów ziemnych może zawierać GOS – bezpieczna porcja ~30 g. Jagody (borówki/maliny) są niskofodmap w małych porcjach (~20–40 g).
   substitutions:
-    - "serek wiejski -> serek bezlaktozowy lub jogurt bezlaktozowy"
-    - "płatki owsiane -> płatki ryżowe lub quinoa flakes"
-    - "masło orzechowe (orzeszki ziemne) -> masło migdałowe (migdały ≤10 szt.)"
-    - "dżem -> sprawdź skład, unikaj wersji z fruktozą/miodem"
+  - serek wiejski -> serek bezlaktozowy lub jogurt bezlaktozowy
+  - płatki owsiane -> płatki ryżowe lub quinoa flakes
+  - masło orzechowe (orzeszki ziemne) -> masło migdałowe (migdały ≤10 szt.)
+  - dżem -> sprawdź skład, unikaj wersji z fruktozą/miodem
+image_width: 512
+image_height: 512
 ---
 
 ## Składniki

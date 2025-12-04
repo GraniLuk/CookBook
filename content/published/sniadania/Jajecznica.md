@@ -1,14 +1,19 @@
 ---
+title: Jajecznica na Maśle
+author: Autor Przepisu
+categories:
+- sniadania
+subcategories:
+- słone
 draft: false
-title: "Jajecznica na Maśle"
-author: "Autor Przepisu"
 recipe_image: images/recipe-headers/jajecznica.avif
-date: 2025-06-18T12:00:00-00:00
-categories: ["sniadania"]
-subcategories: ["słone"]
+date: 2025-06-18 12:00:00+00:00
 tags: []
-tagline: "Klasyczna jajecznica na śniadanie!"
-ingredients: ["jajka", "masło", "szczypiorek"]
+tagline: Klasyczna jajecznica na śniadanie!
+ingredients:
+- jajka
+- masło
+- szczypiorek
 servings: 2
 prep_time: 5
 cook: true
@@ -17,11 +22,10 @@ calories: 196
 protein: 11
 fat: 16
 carbohydrate: 1
-
 fodmap:
-  status: "yes"
-  serving_ok: "Porcja bez ograniczeń"
-  notes: "Wszystkie składniki są bezpieczne na diecie Low FODMAP."
+  status: 'yes'
+  serving_ok: Porcja bez ograniczeń
+  notes: Wszystkie składniki są bezpieczne na diecie Low FODMAP.
   substitutions: []
 ---
 

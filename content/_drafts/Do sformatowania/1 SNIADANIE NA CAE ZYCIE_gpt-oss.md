@@ -1,17 +1,16 @@
 ---
-draft: true
 title: 1 ŚNIADANIE NA CAŁE ŻYCIE
+author: '[[Policzona Szama]]'
+draft: true
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=fS2YEsoFTjc
-author: "[[Policzona Szama]]"
 published: 2025-09-11
 created: 2025-09-12
 description: Oszczędny przepis na ośmiokrotnie przygotowane śniadaniowe wrapy z jajecznicą, wieprzowiną i serkiem wiejskim, który można przechowywać w lodówce lub zamrażarce i podgrzewać na gorąco w airfryerze lub na patelni.
 category: Fitness
 length: 728
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ---
 

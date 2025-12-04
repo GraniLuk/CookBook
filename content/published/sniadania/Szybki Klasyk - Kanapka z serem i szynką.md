@@ -1,26 +1,33 @@
 ---
-draft: false  
+title: Szybki Klasyk - Kanapka z serem i szynką
+author: Policzona Szama
+categories: śniadania
+draft: false
 readyToTest: true
-title: "Szybki Klasyk - Kanapka z serem i szynką"  
-author: "Policzona Szama"  
-recipe_image: images/recipe-headers/kanapka_klasyczna.avif  
-date: 2025-11-29T12:00:00-00:00  
-categories: śniadania  
-tags: ["kanapki"]  
-tagline: "Klasyczna kanapka z serem królewskim, szynką, pomidorem i kiełkami, gotowa w 3 minuty."  
-ingredients: ["bułka paryska", "roszponka", "ser żółty", "szynka wiejska", "pomidor malinowy", "kiełki"]
-servings: 2  
-prep_time: 3  
-cook: false  
-cook_time: 0  
+recipe_image: images/recipe-headers/kanapka_klasyczna.avif
+date: 2025-11-29 12:00:00+00:00
+tags:
+- kanapki
+tagline: Klasyczna kanapka z serem królewskim, szynką, pomidorem i kiełkami, gotowa w 3 minuty.
+link: https://www.youtube.com/watch?v=6GTyB2M09mU
+ingredients:
+- bułka paryska
+- roszponka
+- ser żółty
+- szynka wiejska
+- pomidor malinowy
+- kiełki
+servings: 2
+prep_time: 3
+cook: false
+cook_time: 0
 calories: 630
 protein: 41
 fat: 23
-carbohydrate: 64 
-link: https://www.youtube.com/watch?v=6GTyB2M09mU
+carbohydrate: 64
 fodmap:
-  status: "yes"
-  notes: "Wszystkie składniki są bezpieczne dla diety low FODMAP."
+  status: 'yes'
+  notes: Wszystkie składniki są bezpieczne dla diety low FODMAP.
 ---
 
 ## Składniki

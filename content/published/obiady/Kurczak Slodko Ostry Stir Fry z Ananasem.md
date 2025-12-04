@@ -1,15 +1,25 @@
 ---
-draft: false
-title: "Kurczak Słodko-Ostry Stir Fry z Ananasem (3 Lunch Boxy)"
-author: "Policzone Szamy"
-recipe_image: images/recipe-headers/kurczak_slodko_ostry_ananas.avif
-image_width: 512
-image_height: 512
-date: 2025-10-28T13:35:00-00:00
+title: Kurczak Słodko-Ostry Stir Fry z Ananasem (3 Lunch Boxy)
+author: Policzone Szamy
 categories: obiady
-tags: ["szybkie", "lunchbox"]
-tagline: "Kwaśno-słodko-pikantny kurczak z ananasem i warzywami smażony w woku – 3 porcje na 3 dni!"
-ingredients: ["kurczak", "ananas", "marchewka", "papryka czerwona", "ryż jaśminowy", "sos sojowy", "miód", "pasta yellow curry"]
+draft: false
+readyToTest: true
+recipe_image: images/recipe-headers/kurczak_slodko_ostry_ananas.avif
+date: 2025-10-28 13:35:00+00:00
+tags:
+- szybkie
+- lunchbox
+tagline: Kwaśno-słodko-pikantny kurczak z ananasem i warzywami smażony w woku – 3 porcje na 3 dni!
+link: https://www.youtube.com/watch?v=hUuBB72gqmk
+ingredients:
+- kurczak
+- ananas
+- marchewka
+- papryka czerwona
+- ryż jaśminowy
+- sos sojowy
+- miód
+- pasta yellow curry
 servings: 3
 prep_time: 20
 cook: true
@@ -19,17 +29,17 @@ calories: 550
 protein: 42
 fat: 12
 carbohydrate: 64
-readyToTest: true
-link: https://www.youtube.com/watch?v=hUuBB72gqmk
 fodmap:
-  status: "depends"
-  serving_ok: "OK po modyfikacjach: uwaga na czosnek, cebulę, miód"
-  notes: "Czosnek (fruktany) i czerwona cebula (fruktany) są wysokofodmap. Miód (fruktoza) jest wysokofodmap. Ananas w małych ilościach (~40 g/porcję) jest niskofodmap. Marchewka, papryka, ryż, kurczak są OK. Pasta yellow curry może zawierać czosnek/szalotkę."
+  status: depends
+  serving_ok: 'OK po modyfikacjach: uwaga na czosnek, cebulę, miód'
+  notes: Czosnek (fruktany) i czerwona cebula (fruktany) są wysokofodmap. Miód (fruktoza) jest wysokofodmap. Ananas w małych ilościach (~40 g/porcję) jest niskofodmap. Marchewka, papryka, ryż, kurczak są OK. Pasta yellow curry może zawierać czosnek/szalotkę.
   substitutions:
-    - "czosnek -> olej czosnkowy (infuzja)"
-    - "czerwona cebula -> zielona część dymki"
-    - "miód -> syrop klonowy ≤1 łyżeczka lub pomiń"
-    - "pasta curry z czosnkiem/szalotką -> własna mieszanka (kurkuma, chili, galanga)"
+  - czosnek -> olej czosnkowy (infuzja)
+  - czerwona cebula -> zielona część dymki
+  - miód -> syrop klonowy ≤1 łyżeczka lub pomiń
+  - pasta curry z czosnkiem/szalotką -> własna mieszanka (kurkuma, chili, galanga)
+image_width: 512
+image_height: 512
 ---
 
 ## Składniki

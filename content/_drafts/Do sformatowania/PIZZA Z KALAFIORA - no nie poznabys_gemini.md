@@ -1,16 +1,15 @@
 ---
 title: PIZZA Z KALAFIORA - no nie poznałbyś
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=W_o1EQ6tWk0
-author: "[[Policzona Szama]]"
 published: 2020-07-11
 created: 2025-10-27
 description: Mateusz z kanału POLICZONA SZAMA prezentuje szczegółowy przepis na niskowęglowodanowy, zwarty spód do pizzy z kalafiora oraz aromatyczny sos pomidorowy.
 category: Fitness
 length: 917
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

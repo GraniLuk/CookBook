@@ -1,16 +1,15 @@
 ---
 title: Pyszna kolacja w domu - Łosoś w Prosciutto
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=yaYi4hrp1yQ
-author: "[[Policzona Szama]]"
 published: 2021-02-12
 created: 2025-10-27
 description: Przepyszny, romantyczny przepis na łososia zawiniętego w szynkę z kremowym puree ziemniaczano‑kalafiorowym i aromatycznym sosami pistacjowym‑miętowo‑cytrynowym, podany z lekko posmakiwanym, zieleninowym dodatkiem – idealny na kolację, którą warto zapamiętać i udokumentować screenshotem.
 category: Fitness
 length: 631
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ---  
 

@@ -1,16 +1,15 @@
 ---
 title: Wypas OMLET hiszpański ze słodkim ziemniakiem
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=5oVpFUqpsC8
-author: "[[Policzona Szama]]"
 published: 2017-09-24
 created: 2025-11-23
 description: Krok po kroku, z nutą humoru i hiszpańskim akcentem, przyrządzenie omleta z batatem, cebulą i sześcioma jajkami – szybkie, smaczne i łatwe do przyrządzenia nawet na drugi dzień.
 category: Fitness
 length: 856
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ---
 

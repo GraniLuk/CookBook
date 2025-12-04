@@ -1,13 +1,20 @@
 ---
-draft: true
 title: Sałatka z Indykiem, Żurawiną i Orzechami Pekan
 author: Policzona Szama
-recipe_image: images/defaultImage.avif
-date: 2025-09-02T12:00:00-00:00
 categories: salatki
-tags: ["przekąska"]
+draft: true
+recipe_image: images/defaultImage.avif
+date: 2025-09-02 12:00:00+00:00
+tags:
+- przekąska
 tagline: Świąteczna sałatka z indykiem, żurawiną i orzechami – prosta, zdrowa i pełna smaku, idealna na zimno.
-ingredients: ["indyk", "żurawina", "orzechy pekan", "sałata", "ser"]
+link: https://www.youtube.com/watch?v=LGERJ1Qut5U
+ingredients:
+- indyk
+- żurawina
+- orzechy pekan
+- sałata
+- ser
 servings: 3
 prep_time: 15
 cook_time: 10
@@ -15,14 +22,13 @@ calories: 450
 protein: 35
 fat: 25
 carbohydrate: 20
-link: https://www.youtube.com/watch?v=LGERJ1Qut5U
-video_file: videos/Sałatka z INDYKIEM.webm
 fodmap:
-  status: yes
+  status: true
   serving_ok: OK w tej porcji z modyfikacją
   notes: Jogurt typu Skyr jest wysokofodmapowy – zastąp bezlaktozowym jogurtem lub jogurtem kokosowym. Szczypior (zielona część) jest bezpieczny, unikaj białej części.
   substitutions:
-    - Jogurt Skyr -> jogurt bezlaktozowy lub kokosowy
+  - Jogurt Skyr -> jogurt bezlaktozowy lub kokosowy
+video_file: videos/Sałatka z INDYKIEM.webm
 ---
 
 ## Składniki

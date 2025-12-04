@@ -1,13 +1,19 @@
 ---
-draft: false
-title: "Placki z Dyni"
-author: "Policzone Szamy"
-recipe_image: images/recipe-headers/placki_z_dyni.avif
-date: 2025-11-03T12:00:00-00:00
+title: Placki z Dyni
+author: Policzone Szamy
 categories: śniadania
-tags: ["dynia", "placki"]
-tagline: "Proste placki z dyni, jajek, mąki i banana, idealne na zdrowe śniadanie."
-ingredients: ["dynia", "jajka", "mąka", "banan"]
+draft: false
+recipe_image: images/recipe-headers/placki_z_dyni.avif
+date: 2025-11-03 12:00:00+00:00
+tags:
+- dynia
+- placki
+tagline: Proste placki z dyni, jajek, mąki i banana, idealne na zdrowe śniadanie.
+ingredients:
+- dynia
+- jajka
+- mąka
+- banan
 servings: 2
 prep_time: 10
 cook: true
@@ -17,10 +23,11 @@ protein: 9
 fat: 6
 carbohydrate: 36
 fodmap:
-  status: "no"
-  serving_ok: "Nie OK w tej porcji"
-  notes: "Dynia i banan mogą być wysokofodmapowe w większych ilościach; jajka i mąka są bezpieczne."
-  substitutions: ["Zmniejsz ilość dyni i banana dla wersji low FODMAP."]
+  status: 'no'
+  serving_ok: Nie OK w tej porcji
+  notes: Dynia i banan mogą być wysokofodmapowe w większych ilościach; jajka i mąka są bezpieczne.
+  substitutions:
+  - Zmniejsz ilość dyni i banana dla wersji low FODMAP.
 ---
 
 ## Składniki

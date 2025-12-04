@@ -1,47 +1,48 @@
 ---
-video_file: videos/owsianka_migdalowa.mp4
 title: Pieczona Owsianka Migdałowa (Croissant Vibe)
 author: Nowakuje
-draft: false
-tagline: Kremowa, pachnąca migdałami pieczona owsianka inspirowana migdałowym
-  croissantem.
-ingredients: ["płatki owsiane", "mąka migdałowa", "odżywka białkowa", "banan", "jajka", "skyr", "napój migdałowy", "masło migdałowe", "płatki migdałowe"]
-recipe_image: images/recipe-headers/owsianka_migdalowa.avif
-tags:
-  - szybkie
-  - owsianka
 categories:
-  - sniadania
+- sniadania
 subcategories:
-  - słodkie
+- słodkie
+draft: false
+recipe_image: images/recipe-headers/owsianka_migdalowa.avif
+date: 2025-10-11 07:00:00+00:00
+tags:
+- szybkie
+- owsianka
+tagline: Kremowa, pachnąca migdałami pieczona owsianka inspirowana migdałowym croissantem.
+ingredients:
+- płatki owsiane
+- mąka migdałowa
+- odżywka białkowa
+- banan
+- jajka
+- skyr
+- napój migdałowy
+- masło migdałowe
+- płatki migdałowe
 servings: 1
 prep_time: 10
 cook: true
-cook_time: "30"
+cook_time: '30'
 calories: 600
 protein: 33
-fodmap:
-  status: depends
-  serving_ok: "Porcja (1/2 całości) trzyma się umiarkowanych limitów: płatki 40g,
-    migdały w sumie <25g ekwiwalentu."
-  notes: Kluczowe czynniki FODMAP to płatki owsiane (porcja 40g jest zwykle
-    tolerowana), produkty migdałowe (mąka + masło + płatki — łącznie w 1 porcji
-    umiarkowanie), dojrzałość banana (wybierz średnio dojrzałego). Skyr może
-    zawierać laktozę – wybierz wersję bez laktozy jeśli wrażliwość jest wysoka.
-  substitutions:
-    - Skyr zwykły -> skyr/jogurt bez laktozy.
-    - Koncentrat whey -> izolat WPI (bez laktozy) lub odżywka roślinna (ryż +
-      groch).
-    - Mleko migdałowe -> napój migdałowy bez inuliny/gumy guar; alternatywnie
-      napój ryżowy.
-    - Część migdałów (15g) -> pestki słonecznika (niższy FODMAP) jeśli potrzeba
-      zmniejszyć ładunek.
-    - Banana bardzo dojrzałego -> mniej dojrzały (żółty z lekkimi zielonymi
-      końcówkami).
-date: 2025-10-11T07:00:00-00:00
 fat: 28
 carbohydrate: 54
+fodmap:
+  status: depends
+  serving_ok: 'Porcja (1/2 całości) trzyma się umiarkowanych limitów: płatki 40g, migdały w sumie <25g ekwiwalentu.'
+  notes: Kluczowe czynniki FODMAP to płatki owsiane (porcja 40g jest zwykle tolerowana), produkty migdałowe (mąka + masło + płatki — łącznie w 1 porcji umiarkowanie), dojrzałość banana (wybierz średnio dojrzałego). Skyr może zawierać laktozę – wybierz wersję bez laktozy jeśli wrażliwość jest wysoka.
+  substitutions:
+  - Skyr zwykły -> skyr/jogurt bez laktozy.
+  - Koncentrat whey -> izolat WPI (bez laktozy) lub odżywka roślinna (ryż + groch).
+  - Mleko migdałowe -> napój migdałowy bez inuliny/gumy guar; alternatywnie napój ryżowy.
+  - Część migdałów (15g) -> pestki słonecznika (niższy FODMAP) jeśli potrzeba zmniejszyć ładunek.
+  - Banana bardzo dojrzałego -> mniej dojrzały (żółty z lekkimi zielonymi końcówkami).
+video_file: videos/owsianka_migdalowa.mp4
 ---
+
 ## Składniki
 
 * 80 g płatków owsianych

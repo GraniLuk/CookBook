@@ -1,16 +1,17 @@
 ---
-draft: true
 title: 10 posiłków za 50 PLN z BIEDRONKI! 💸
+author: '[[Michał Wrzosek]]'
+draft: true
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=Kto631xzwSU
-author: "[[Michał Wrzosek]]"
 published: 2025-08-18
 created: 2025-08-19
 description: Tekst przedstawia wyzwanie przygotowania 10 zdrowych, zbilansowanych i pełnowartościowych posiłków za budżet 50 zł, bazując na zakupach z Biedronki, szczegółowo opisując proces gotowania, użyte składniki oraz humorystyczne interakcje między uczestnikami, a także promując usługi dietetyczne dopasowane do budżetu klienta.
 category: Fitness
 length: 832
-tags:
-  - Summaries/Przepisy
 ---
+
 1. **Placki z ziemniaka i marchewki**
     
     - **Składniki**: Ziemniak, marchewka, jajko, odrobina mąki i przyprawy. W wideo zaznaczono również, że zamiast marchewki można użyć niemal każdego innego warzywa.

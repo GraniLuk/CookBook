@@ -1,13 +1,23 @@
 ---
-draft: false
-title: "Pierś z Kurczaka Gotowana na Parze z Brązowym Ryżem i Warzywami (Meksykański Twist)"
-author: "Autor Przepisu"
-recipe_image: images/recipe-headers/kurczak_na_parze.avif
-date: 2025-06-18T12:00:00-00:00
+title: Pierś z Kurczaka Gotowana na Parze z Brązowym Ryżem i Warzywami (Meksykański Twist)
+author: Autor Przepisu
 categories: obiady
-tags: ["meksykańskie"]
-tagline: "Zdrowy kurczak na parze z warzywami w meksykańskim stylu!"
-ingredients: ["ryż brązowy", "pierś z kurczaka", "jarmuż", "kukurydza", "czerwona fasola", "pomidorki cherry", "majonez light", "jogurt naturalny", "limonka"]
+draft: false
+recipe_image: images/recipe-headers/kurczak_na_parze.avif
+date: 2025-06-18 12:00:00+00:00
+tags:
+- meksykańskie
+tagline: Zdrowy kurczak na parze z warzywami w meksykańskim stylu!
+ingredients:
+- ryż brązowy
+- pierś z kurczaka
+- jarmuż
+- kukurydza
+- czerwona fasola
+- pomidorki cherry
+- majonez light
+- jogurt naturalny
+- limonka
 servings: 3
 prep_time: 25
 cook: true
@@ -16,15 +26,14 @@ calories: 144
 protein: 11
 fat: 3
 carbohydrate: 19
-
 fodmap:
-  status: "depends"
-  serving_ok: "OK po modyfikacjach: czerwona fasola ≤ 1/4 szkl.; jogurt bez laktozy; przyprawy bez cebuli/czosnku"
-  notes: "Fasola (GOS) w większej ilości jest problematyczna – ogranicz lub zamień. Jogurt wybierz bez laktozy. Sprawdź mieszanki przypraw, by nie zawierały cebuli/czosnku."
+  status: depends
+  serving_ok: 'OK po modyfikacjach: czerwona fasola ≤ 1/4 szkl.; jogurt bez laktozy; przyprawy bez cebuli/czosnku'
+  notes: Fasola (GOS) w większej ilości jest problematyczna – ogranicz lub zamień. Jogurt wybierz bez laktozy. Sprawdź mieszanki przypraw, by nie zawierały cebuli/czosnku.
   substitutions:
-    - "czerwona fasola -> soczewica czerwona z puszki (płukana) ≤ 1/2 szkl. lub więcej warzyw"
-    - "jogurt naturalny -> jogurt bez laktozy"
-    - "mieszanki przypraw -> bez cebuli/czosnku, ewentualnie olej czosnkowy"
+  - czerwona fasola -> soczewica czerwona z puszki (płukana) ≤ 1/2 szkl. lub więcej warzyw
+  - jogurt naturalny -> jogurt bez laktozy
+  - mieszanki przypraw -> bez cebuli/czosnku, ewentualnie olej czosnkowy
 ---
 
 ## Składniki

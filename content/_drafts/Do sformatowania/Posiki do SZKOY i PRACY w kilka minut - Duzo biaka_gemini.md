@@ -1,16 +1,15 @@
 ---
 title: Posiłki do SZKOŁY i PRACY w kilka minut - Dużo białka
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=w8LcJauh9fM
-author: "[[Policzona Szama]]"
 published: 2020-09-06
 created: 2025-10-27
 description: Materiał prezentuje cztery proste, szybkie i wysokobiałkowe propozycje posiłków (sałatkę z łososiem, całonocną owsiankę, burrito z tuńczykiem i awaryjny zestaw z serkiem wiejskim) idealne do przygotowania do pracy lub szkoły.
 category: Fitness
 length: 1050
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

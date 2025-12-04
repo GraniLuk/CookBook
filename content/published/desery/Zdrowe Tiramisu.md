@@ -1,14 +1,26 @@
 ---
+title: Zdrowe Tiramisu
+author: Policzone Szamy
+categories: desery
 draft: false
 readyToTest: true
-title: "Zdrowe Tiramisu"
-author: "Policzone Szamy"
 recipe_image: images/recipe-headers/zdrowe_tiramisu.avif
-date: 2025-11-01T12:00:00-00:00
-categories: desery
-tags: ["włoskie", "bez-pieczenia", "proteinowe"]
-tagline: "Lekkie tiramisu z twarogiem i biszkoptami, idealne na deser lub przekąskę."
-ingredients: ["skyr naturalny", "skyr waniliowy", "ser homogenizowany waniliowy", "ser homogenizowany ciasteczkowy", "erytrytol", "herbatniki", "kawa", "kakao"]
+date: 2025-11-01 12:00:00+00:00
+tags:
+- włoskie
+- bez-pieczenia
+- proteinowe
+tagline: Lekkie tiramisu z twarogiem i biszkoptami, idealne na deser lub przekąskę.
+link: https://www.youtube.com/watch?v=vZ52mlw4yRs&t
+ingredients:
+- skyr naturalny
+- skyr waniliowy
+- ser homogenizowany waniliowy
+- ser homogenizowany ciasteczkowy
+- erytrytol
+- herbatniki
+- kawa
+- kakao
 servings: 3
 prep_time: 15
 cook: false
@@ -17,11 +29,10 @@ calories: 250
 protein: 20
 fat: 8
 carbohydrate: 25
-link: https://www.youtube.com/watch?v=vZ52mlw4yRs&t
 fodmap:
-  status: "yes"
-  serving_ok: "OK w tej porcji"
-  notes: "Wszystkie składniki są bezpieczne dla low FODMAP."
+  status: 'yes'
+  serving_ok: OK w tej porcji
+  notes: Wszystkie składniki są bezpieczne dla low FODMAP.
   substitutions: []
 ---
 

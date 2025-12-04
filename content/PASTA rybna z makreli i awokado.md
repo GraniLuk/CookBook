@@ -1,26 +1,33 @@
 ---
-draft: false  
+title: PASTA rybna z makreli i awokado
+author: Policzona Szama
+categories:
+- przekąski
+draft: false
 readyToTest: true
-title: "PASTA rybna z makreli i awokado"  
-author: "Policzona Szama"  
-recipe_image: images/recipe-headers/pasta_makrela_awokado.avif  
-date: 2025-11-29T12:00:00-00:00  
-categories: ["przekąski"]  
-tags: ["pasta", "ryby"]  
-tagline: "Prosta i szybka pasta z wędzonej makreli, awokado, sera żółtego i jajka, idealna na kanapki."  
-ingredients: ["makrela wędzona", "awokado", "ser żółty", "jajko"]
-servings: 13  
-prep_time: 10  
-cook: true  
-cook_time: 10  
+recipe_image: images/recipe-headers/pasta_makrela_awokado.avif
+date: 2025-11-29 12:00:00+00:00
+tags:
+- pasta
+- ryby
+tagline: Prosta i szybka pasta z wędzonej makreli, awokado, sera żółtego i jajka, idealna na kanapki.
+link: https://www.youtube.com/watch?v=GFUD7PhsSUw
+ingredients:
+- makrela wędzona
+- awokado
+- ser żółty
+- jajko
+servings: 13
+prep_time: 10
+cook: true
+cook_time: 10
 calories: 99
 protein: 7
 fat: 7
-carbohydrate: 1 
-link: https://www.youtube.com/watch?v=GFUD7PhsSUw
+carbohydrate: 1
 fodmap:
-  status: "yes"
-  notes: "Wszystkie składniki są bezpieczne dla diety low FODMAP."
+  status: 'yes'
+  notes: Wszystkie składniki są bezpieczne dla diety low FODMAP.
 ---
 
 ## Składniki

@@ -1,16 +1,15 @@
 ---
 title: Pyszny Letni OBIAD x3 - Młode ziemniaki i medaliony z indyka
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=phcen65I6bg
-author: "[[Policzona Szama]]"
 published: 2020-08-08
 created: 2025-10-27
 description: Szczegółowy przewodnik kulinarny prezentujący przepis na trzy porcje letnich Mega Boxów obiadowych, zawierających pieczone medaliony z indyka z fetą i brokułem, młode ziemniaki oraz jogurtowo-koperkowy sos.
 category: Fitness
 length: 1145
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

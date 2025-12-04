@@ -1,16 +1,15 @@
 ---
 title: SERNIK OREO + truskawka. NA ZIMNO
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=GRoK2uvGv6c
-author: "[[Policzona Szama]]"
 published: 2020-06-25
 created: 2025-10-27
 description: Przepis przedstawia sposób przygotowania sernika OREO z truskawką, który jest puszystym, wysokobiałkowym deserem z idealnymi makrosami na posiłek okołotreningowy.
 category: Fitness
 length: 385
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

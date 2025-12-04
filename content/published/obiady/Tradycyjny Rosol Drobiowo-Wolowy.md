@@ -1,14 +1,30 @@
 ---
-draft: false
-title: "Tradycyjny Rosół Drobiowo‑Wołowy"
-author: "Policzone Szamy"
-favourite: true
-recipe_image: images/recipe-headers/rosol_tradycyjny.avif
-date: 2025-12-02T12:00:00-00:00
+title: Tradycyjny Rosół Drobiowo‑Wołowy
+author: Policzone Szamy
 categories: obiady
-tags: ["włoskie", "szybkie"]
-tagline: "Esencjonalny, klarowny rosół – baza pod zupy i sosy oraz napój bogów w kubku."
-ingredients: ["skrzydło indycze", "kotlet z antrykotu z kością", "kości cielęce", "marchew", "pietruszka", "seler", "por", "cebula", "czosnek", "sól", "pieprz", "ziele angielskie", "liść laurowy"]
+draft: false
+recipe_image: images/recipe-headers/rosol_tradycyjny.avif
+date: 2025-12-02 12:00:00+00:00
+tags:
+- włoskie
+- szybkie
+tagline: Esencjonalny, klarowny rosół – baza pod zupy i sosy oraz napój bogów w kubku.
+link: https://www.youtube.com/watch?v=v4IZxeOCFss
+favourite: true
+ingredients:
+- skrzydło indycze
+- kotlet z antrykotu z kością
+- kości cielęce
+- marchew
+- pietruszka
+- seler
+- por
+- cebula
+- czosnek
+- sól
+- pieprz
+- ziele angielskie
+- liść laurowy
 servings: 10
 prep_time: 30
 cook: true
@@ -17,12 +33,14 @@ calories: 50
 protein: 6
 fat: 2
 carbohydrate: 2
-link: https://www.youtube.com/watch?v=v4IZxeOCFss
 fodmap:
-  status: "conditional"
-  serving_ok: "TAK – jeśli bez cząstek cebuli/czosnku lub z olejem czosnkowym"
-  notes: "Cebula i czosnek są high FODMAP. Klarowny wywar jest zwykle tolerowany, gdy warzywa są wyjęte, a cząstki nieobecne. Zamiast czosnku użyj oleju czosnkowego (infuzja bez cząstek)."
-  substitutions: ["Usuń cebulę i czosnek lub zastosuj olej czosnkowy", "Dodaj zieloną część pora zamiast białej", "Użyj natki pietruszki, selera naciowego w bezpiecznych ilościach"]
+  status: conditional
+  serving_ok: TAK – jeśli bez cząstek cebuli/czosnku lub z olejem czosnkowym
+  notes: Cebula i czosnek są high FODMAP. Klarowny wywar jest zwykle tolerowany, gdy warzywa są wyjęte, a cząstki nieobecne. Zamiast czosnku użyj oleju czosnkowego (infuzja bez cząstek).
+  substitutions:
+  - Usuń cebulę i czosnek lub zastosuj olej czosnkowy
+  - Dodaj zieloną część pora zamiast białej
+  - Użyj natki pietruszki, selera naciowego w bezpiecznych ilościach
 ---
 
 ## Składniki

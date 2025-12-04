@@ -1,16 +1,15 @@
 ---
 title: ZAPIEKANKA z kalafiorem i kurczakiem w sosie beszamelowo brokułowym
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=pyNIQ-bMkSo
-author: "[[Policzona Szama]]"
 published: 2017-12-03
 created: 2025-11-23
 description: Przewodnik krok‑po‑kroku, pełen humoru i nieoczekiwanych zwrotów, poświęcony przygotowaniu zapiekanki kalafiorowej z brokułowym beszamelem, kurczakiem i serem cheddar, w wersji „skurczaka”.
 category: Fitness
 length: 756
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ---
 

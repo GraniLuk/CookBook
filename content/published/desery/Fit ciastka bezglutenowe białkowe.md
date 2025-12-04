@@ -1,33 +1,34 @@
 ---
-draft: false
-readyToTest: true
 title: Fit ciastka bezglutenowe / białkowe
 author: Policzona Szama
+categories: desery
+draft: false
+readyToTest: true
 recipe_image: images/fit_ciastka_bezglutenowe.jpg
 date: 2025-11-29
-categories: desery
-tags: ["ciastka"]
+tags:
+- ciastka
 tagline: Zabawny przepis na bezglutenowe, wysokobiałkowe ciasteczka migdałowo-kokosowe z odżywką białkową i kawa-wanilowym aromatem.
+link: https://www.youtube.com/watch?v=kJUz0RjGYyU
+ingredients:
+- migdały
+- mąka kokosowa
+- białka jajek
+- odżywka białkowa
+- mleko bez laktozy
+- czekolada gorzka
 servings: 10
 prep_time: 20
 cook: true
-cook_time: "6-8"
 cook_increment: minutes
+cook_time: 6-8
 calories: 159
 protein: 9
 fat: 11
 carbohydrate: 8
-link: https://www.youtube.com/watch?v=kJUz0RjGYyU
 fodmap:
-  status: "yes"
-  notes: "Low FODMAP przy małych porcjach migdałów i kokosowej mąki."
-ingredients:
-- "migdały"
-- "mąka kokosowa"
-- "białka jajek"
-- "odżywka białkowa"
-- "mleko bez laktozy"
-- "czekolada gorzka"
+  status: 'yes'
+  notes: Low FODMAP przy małych porcjach migdałów i kokosowej mąki.
 ---
 
 ## Instrukcje przygotowania

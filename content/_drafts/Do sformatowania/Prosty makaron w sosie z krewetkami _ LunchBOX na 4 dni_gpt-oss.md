@@ -1,16 +1,15 @@
 ---
 title: Prosty makaron w sosie z krewetkami / LunchBOX na 4 dni
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=lyeo0GUPms4
-author: "[[Policzona Szama]]"
 published: 2021-09-08
 created: 2025-10-26
 description: Przygotowanie czterech szybkich, pysznych boxów makaronu *farfalle* z krewetkami, które można od razu podgrzać w mikrofalówce lub na kuchence gazowej, włączając w to wszystkie szczegóły procesu, składników i humorystyczne anegdoty.
 category: Fitness
 length: 876
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ---
 

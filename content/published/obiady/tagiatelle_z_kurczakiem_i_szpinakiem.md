@@ -1,29 +1,40 @@
 ---
-draft: false  
-title: "Tagliatelle z Kurczakiem, Szpinakiem i Pomidorami"  
-author: "barlomiej_wlodarczyk"  
+title: Tagliatelle z Kurczakiem, Szpinakiem i Pomidorami
+author: barlomiej_wlodarczyk
+categories: obiady
+draft: false
 recipe_image: images/recipe-headers/tagliatelle_kurczak_szpinak.avif
-video_file: videos/tagiatelle_z_szpinakiem.mp4
-date: 2025-10-24T12:00:00-00:00  
-categories: obiady  
-tags: ["włoskie", "szybkie"]  
-tagline: "Szybki i smaczny makaron tagliatelle z kurczakiem, szpinakiem i pomidorami w 20 minut."  
-servings: 2  
-prep_time: 20  
-cook: true  
-cook_time: 20  
+date: 2025-10-24 12:00:00+00:00
+tags:
+- włoskie
+- szybkie
+tagline: Szybki i smaczny makaron tagliatelle z kurczakiem, szpinakiem i pomidorami w 20 minut.
+ingredients:
+- makaron tagliatelle
+- pierś z kurczaka
+- szpinak
+- pomidory koktajlowe
+- cebula
+- suszone pomidory
+- ser grana padano
+- oliwa z oliwek
+- natka pietruszki
+servings: 2
+prep_time: 20
+cook: true
+cook_time: 20
 calories: 485
 protein: 37.8
 fat: 12
 carbohydrate: 47
-ingredients: ["makaron tagliatelle", "pierś z kurczaka", "szpinak", "pomidory koktajlowe", "cebula", "suszone pomidory", "ser grana padano", "oliwa z oliwek", "natka pietruszki"]
 fodmap:
-  status: "depends"
-  serving_ok: "OK po modyfikacjach: cebula -> zielona część dymki, makaron bezglutenowy"
-  notes: "Cebula i pszenica (makaron) podnoszą FODMAP. Można użyć makaronu bezglutenowego i zamienić cebulę na dymkę."
+  status: depends
+  serving_ok: 'OK po modyfikacjach: cebula -> zielona część dymki, makaron bezglutenowy'
+  notes: Cebula i pszenica (makaron) podnoszą FODMAP. Można użyć makaronu bezglutenowego i zamienić cebulę na dymkę.
   substitutions:
-    - "makaron tagliatelle -> bezglutenowy"
-    - "cebula -> zielona część dymki"
+  - makaron tagliatelle -> bezglutenowy
+  - cebula -> zielona część dymki
+video_file: videos/tagiatelle_z_szpinakiem.mp4
 ---
 
 ## Składniki (na 2 porcje)

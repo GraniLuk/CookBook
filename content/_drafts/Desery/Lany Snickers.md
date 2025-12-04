@@ -1,3 +1,7 @@
+---
+{}
+---
+
 ﻿---
 draft: true
 title: "Lany Snickers - Szybki Fit Deser"

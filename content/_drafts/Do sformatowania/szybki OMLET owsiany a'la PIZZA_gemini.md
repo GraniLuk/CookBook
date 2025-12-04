@@ -1,16 +1,15 @@
 ---
 title: szybki OMLET owsiany a'la PIZZA
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=0iqasRK5S8k
-author: "[[Policzona Szama]]"
 published: 2017-03-17
 created: 2025-10-30
 description: Szczegółowy przewodnik po przygotowaniu szybkiego, słonego omleta owsianego w stylu mini pizzy, z wykorzystaniem resztek z lodówki, zawierający listę składników, instrukcje krok po kroku oraz podsumowanie makroskładników bazowych.
 category: Fitness
 length: 604
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

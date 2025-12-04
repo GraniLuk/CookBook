@@ -1,13 +1,20 @@
 ---
-draft: false
-title: "Kurczak w Sosie Curry z Ryżem i Brokułami na Parze"
-author: "Policzone Szamy"
-recipe_image: images/recipe-headers/kurczak_curry_ryz_brokuły.avif
-date: 2025-07-06T16:55:00-00:00
+title: Kurczak w Sosie Curry z Ryżem i Brokułami na Parze
+author: Policzone Szamy
 categories: obiady
-tags: ["lunchbox"]
-tagline: "Aromatyczny kurczak w sosie curry z ryżem i świeżymi brokułami na parze."
-ingredients: ["kurczak", "ryż", "brokuł", "mleko kokosowe", "curry"]
+draft: false
+recipe_image: images/recipe-headers/kurczak_curry_ryz_brokuły.avif
+date: 2025-07-06 16:55:00+00:00
+tags:
+- lunchbox
+tagline: Aromatyczny kurczak w sosie curry z ryżem i świeżymi brokułami na parze.
+link: https://www.youtube.com/watch?v=gtkbJZfsios
+ingredients:
+- kurczak
+- ryż
+- brokuł
+- mleko kokosowe
+- curry
 servings: 4
 prep_time: 20
 cook: true
@@ -16,16 +23,14 @@ calories: 140
 protein: 11
 fat: 3.9
 carbohydrate: 14.6
-link: https://www.youtube.com/watch?v=gtkbJZfsios
-
 fodmap:
-  status: "depends"
-  serving_ok: "OK po modyfikacjach: bez cebuli/czosnku; brokuły (tylko różyczki) ~60–75 g/porcję; mleczko kokosowe ≤ 60 ml/porcję"
-  notes: "Wybierz pastę curry bez cebuli/czosnku (częste w składzie). Czosnek/cebula to źródło fruktanów – zamień na olej czosnkowy i zielone części dymki. Kokos: ogranicz porcję mleczka, resztę objętości dolej bulionem."
+  status: depends
+  serving_ok: 'OK po modyfikacjach: bez cebuli/czosnku; brokuły (tylko różyczki) ~60–75 g/porcję; mleczko kokosowe ≤ 60 ml/porcję'
+  notes: 'Wybierz pastę curry bez cebuli/czosnku (częste w składzie). Czosnek/cebula to źródło fruktanów – zamień na olej czosnkowy i zielone części dymki. Kokos: ogranicz porcję mleczka, resztę objętości dolej bulionem.'
   substitutions:
-    - "czosnek -> olej czosnkowy (bez cząstek)"
-    - "cebula -> zielona część dymki/szczypior"
-    - "mleczko kokosowe -> ≤ 60 ml + bulion"
+  - czosnek -> olej czosnkowy (bez cząstek)
+  - cebula -> zielona część dymki/szczypior
+  - mleczko kokosowe -> ≤ 60 ml + bulion
 ---
 
 ## Składniki

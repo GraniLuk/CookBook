@@ -1,15 +1,25 @@
 ---
-draft: false
-title: "Pad Thai z Kurczakiem (2 Porcje) – Tajska Legenda Street Foodu"
-author: "Policzone Szamy"
-recipe_image: images/recipe-headers/pad_thai_kurczak.avif
-image_width: 512
-image_height: 512
-date: 2025-10-28T13:45:00-00:00
+title: Pad Thai z Kurczakiem (2 Porcje) – Tajska Legenda Street Foodu
+author: Policzone Szamy
 categories: obiady
-tags: ["szybkie", "na-wynos"]
-tagline: "Autentyczny Pad Thai z kurczakiem, sosem tamaryndowym i orzeszkami – słodko-kwaśno-pikantny klasyk tajskiej kuchni!"
-ingredients: ["makaron ryżowy", "kurczak", "jajko", "pasta z tamaryndowca", "sos rybny", "sos sojowy", "orzeszki ziemne", "kiełki fasoli mung"]
+draft: false
+readyToTest: true
+recipe_image: images/recipe-headers/pad_thai_kurczak.avif
+date: 2025-10-28 13:45:00+00:00
+tags:
+- szybkie
+- na-wynos
+tagline: Autentyczny Pad Thai z kurczakiem, sosem tamaryndowym i orzeszkami – słodko-kwaśno-pikantny klasyk tajskiej kuchni!
+link: https://www.youtube.com/watch?v=QnNP5iDxoJ4
+ingredients:
+- makaron ryżowy
+- kurczak
+- jajko
+- pasta z tamaryndowca
+- sos rybny
+- sos sojowy
+- orzeszki ziemne
+- kiełki fasoli mung
 servings: 2
 prep_time: 20
 cook: true
@@ -19,17 +29,17 @@ calories: 620
 protein: 38
 fat: 18
 carbohydrate: 72
-readyToTest: true
-link: https://www.youtube.com/watch?v=QnNP5iDxoJ4
 fodmap:
-  status: "depends"
-  serving_ok: "OK po modyfikacjach: uwaga na czosnek, szalotkę, kiełki"
-  notes: "Czosnek i szalotka (fruktany) są wysokofodmap. Kiełki fasoli mung mogą zawierać GOS – bezpieczna porcja ~40 g. Makaron ryżowy, jajka, kurczak, orzeszki ziemne (≤30 g), sos rybny, sos sojowy są niskofodmap. Pasta z tamaryndowca jest OK. Cukier brązowy – w małych ilościach tolerowany."
+  status: depends
+  serving_ok: 'OK po modyfikacjach: uwaga na czosnek, szalotkę, kiełki'
+  notes: Czosnek i szalotka (fruktany) są wysokofodmap. Kiełki fasoli mung mogą zawierać GOS – bezpieczna porcja ~40 g. Makaron ryżowy, jajka, kurczak, orzeszki ziemne (≤30 g), sos rybny, sos sojowy są niskofodmap. Pasta z tamaryndowca jest OK. Cukier brązowy – w małych ilościach tolerowany.
   substitutions:
-    - "czosnek -> olej czosnkowy (infuzja)"
-    - "szalotka -> zielona część dymki lub pomiń"
-    - "kiełki fasoli mung -> ogranicz do 40 g lub pomiń"
-    - "orzeszki ziemne -> ogranicz do 30 g/porcję"
+  - czosnek -> olej czosnkowy (infuzja)
+  - szalotka -> zielona część dymki lub pomiń
+  - kiełki fasoli mung -> ogranicz do 40 g lub pomiń
+  - orzeszki ziemne -> ogranicz do 30 g/porcję
+image_width: 512
+image_height: 512
 ---
 
 ## Składniki

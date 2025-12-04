@@ -1,17 +1,25 @@
 ---
-draft: false
 title: Czekoladowa owsianka z duszonymi śliwkami
 author: Policzone Szamy
+categories:
+- sniadania
+subcategories:
+- słodkie
+draft: false
 recipe_image: images/recipe-headers/owsianka_z_sliwkami.avif
-date: 2025-10-02T12:00:00-00:00
-categories: ["sniadania"]
-subcategories: ["słodkie"]
+date: 2025-10-02 12:00:00+00:00
 tags:
-  - szybkie
-  - owsianka
+- szybkie
+- owsianka
 tagline: Pyszna czekoladowa owsianka z duszonymi śliwkami.
-ingredients: ["płatki owsiane", "napój roślinny", "czekolada gorzka", "kakao", "jogurt skyr waniliowy", "śliwki", "masło orzechowe"]
-video_file: videos/owsianka_z_sliwkami.mp4
+ingredients:
+- płatki owsiane
+- napój roślinny
+- czekolada gorzka
+- kakao
+- jogurt skyr waniliowy
+- śliwki
+- masło orzechowe
 servings: 1
 prep_time: 10
 cook: true
@@ -21,10 +29,11 @@ protein: 27
 fat: 14
 carbohydrate: 78
 fodmap:
-  status: yes
+  status: true
   serving_ok: OK w tej porcji
   notes: Śliwki w ilości 220g mogą być borderline dla low FODMAP (limit ~45g na porcję), ale w małych porcjach lub z mniejszymi śliwkami bezpieczne
   substitutions: []
+video_file: videos/owsianka_z_sliwkami.mp4
 ---
 
 ## Składniki

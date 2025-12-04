@@ -1,15 +1,24 @@
 ---
+title: Mini Racuchy Twarogowe z Bananem i Rodzynkami
+author: Policzone Szamy
+categories:
+- sniadania
 draft: false
-title: "Mini Racuchy Twarogowe z Bananem i Rodzynkami"
-author: "Policzone Szamy"
+readyToTest: true
 recipe_image: images/recipe-headers/racuchy_twarogowe_banan.avif
-image_width: 512
-image_height: 512
-date: 2025-10-28T12:40:00-00:00
-categories: ["sniadania"]
-tags: ["szybkie", "proteinowe"]
-tagline: "Pusziste mini racuchy twarogowe z bananem – 11 sztuk pełnych białka i smaku!"
-ingredients: ["twaróg chudy", "jajko", "banan", "mleko", "mąka orkiszowa pełnoziarnista", "rodzynki"]
+date: 2025-10-28 12:40:00+00:00
+tags:
+- szybkie
+- proteinowe
+tagline: Pusziste mini racuchy twarogowe z bananem – 11 sztuk pełnych białka i smaku!
+link: https://youtu.be/wmM49OvW780?t=390
+ingredients:
+- twaróg chudy
+- jajko
+- banan
+- mleko
+- mąka orkiszowa pełnoziarnista
+- rodzynki
 servings: 1
 prep_time: 5
 cook: true
@@ -19,17 +28,17 @@ calories: 450
 protein: 38
 fat: 9
 carbohydrate: 56
-readyToTest: true
-link: https://youtu.be/wmM49OvW780?t=390
 fodmap:
-  status: "no"
-  serving_ok: "NIE – banan i rodzynki są wysokofodmap"
-  notes: "Banan (zwłaszcza dojrzały) zawiera oligo-fruktany i fruktозę. Bezpieczna porcja to ~1/3 niedojrzałego banana (~30 g). Rodzynki są bardzo wysokofodmap (fruktoza, fruktany). Twaróg zawiera laktozę – w większych ilościach może być problemem. Mleko (laktoza) również."
+  status: 'no'
+  serving_ok: NIE – banan i rodzynki są wysokofodmap
+  notes: Banan (zwłaszcza dojrzały) zawiera oligo-fruktany i fruktозę. Bezpieczna porcja to ~1/3 niedojrzałego banana (~30 g). Rodzynki są bardzo wysokofodmap (fruktoza, fruktany). Twaróg zawiera laktozę – w większych ilościach może być problemem. Mleko (laktoza) również.
   substitutions:
-    - "banan -> 1/3 niedojrzałego banana lub pomiń (zwiększ mleko)"
-    - "rodzynki -> pomiń lub zamień na wiórki czekoladowe (niewielka ilość, sprawdź skład)"
-    - "mleko -> mleko bezlaktozowe lub roślinne"
-    - "twaróg -> twaróg bezlaktozowy"
+  - banan -> 1/3 niedojrzałego banana lub pomiń (zwiększ mleko)
+  - rodzynki -> pomiń lub zamień na wiórki czekoladowe (niewielka ilość, sprawdź skład)
+  - mleko -> mleko bezlaktozowe lub roślinne
+  - twaróg -> twaróg bezlaktozowy
+image_width: 512
+image_height: 512
 ---
 
 ## Składniki

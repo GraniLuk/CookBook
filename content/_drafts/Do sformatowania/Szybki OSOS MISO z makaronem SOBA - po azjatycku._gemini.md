@@ -1,16 +1,15 @@
 ---
 title: Szybki ŁOSOŚ MISO z makaronem SOBA - po azjatycku.
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=hmLeCiIKr-s
-author: "[[Policzona Szama]]"
 published: 2020-05-27
 created: 2025-10-27
 description: Szczegółowy przewodnik po przygotowaniu łososia w stylu azjatyckim, marynowanego w paście miso, serwowanego z makaronem Soba i specjalnym sosem, zawierający porady dotyczące techniki i składników.
 category: Fitness
 length: 1057
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

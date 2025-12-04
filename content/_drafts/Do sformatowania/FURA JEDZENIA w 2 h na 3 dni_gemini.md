@@ -1,17 +1,16 @@
 ---
-draft: true
 title: FURA JEDZENIA w 2 h na 3 dni
+author: '[[Policzona Szama]]'
+draft: true
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=TeQ5D1yuuC8
-author: "[[Policzona Szama]]"
 published: 2025-10-14
 created: 2025-10-14
 description: Prezentacja czterech posiłków o łącznej kaloryczności 3200 kcal, przygotowywanych metodą meal prep na trzy dni do przodu, wraz z ogłoszeniem dotyczącym nowej aplikacji do planowania diet.
 category: Fitness
 length: 1462
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

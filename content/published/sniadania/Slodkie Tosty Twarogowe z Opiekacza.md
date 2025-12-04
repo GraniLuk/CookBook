@@ -1,15 +1,23 @@
 ---
+title: Słodkie Tosty Twarogowe z Opiekacza
+author: Policzone Szamy
+categories:
+- sniadania
 draft: false
-title: "Słodkie Tosty Twarogowe z Opiekacza"
-author: "Policzone Szamy"
+readyToTest: true
 recipe_image: images/recipe-headers/tosty_twarogowe_slodkie.avif
-image_width: 512
-image_height: 512
-date: 2025-10-28T12:30:00-00:00
-categories: ["sniadania"]
-tags: ["szybkie", "proteinowe"]
-tagline: "Ekspresowe słodkie tosty z twarogu – mięciutkie, wysokobiałkowe i niskokalaryczne."
-ingredients: ["twaróg chudy", "jajko", "mąka orkiszowa pełnoziarnista", "mleko", "wiórki kokosowe"]
+date: 2025-10-28 12:30:00+00:00
+tags:
+- szybkie
+- proteinowe
+tagline: Ekspresowe słodkie tosty z twarogu – mięciutkie, wysokobiałkowe i niskokalaryczne.
+link: https://youtu.be/wmM49OvW780?t=136
+ingredients:
+- twaróg chudy
+- jajko
+- mąka orkiszowa pełnoziarnista
+- mleko
+- wiórki kokosowe
 servings: 1
 prep_time: 5
 cook: true
@@ -19,16 +27,16 @@ calories: 350
 protein: 40
 fat: 8
 carbohydrate: 29
-readyToTest: true
-link: https://youtu.be/wmM49OvW780?t=136
 fodmap:
-  status: "depends"
-  serving_ok: "OK po modyfikacjach: uwaga na mleko laktozowe"
-  notes: "Twaróg chudy jest niskofodmap w porcjach do ~40 g (zawiera laktozę, ale w małych ilościach). W tym przepisie używamy ok. 100 g twarogu, co może być za dużo dla osób wrażliwych na laktozę. Mleko krowie jest wysokofodmap (laktoza). Mąka orkiszowa zawiera gluten i może zawierać fruktany, ale w niewielkich ilościach jest zwykle tolerowana."
+  status: depends
+  serving_ok: 'OK po modyfikacjach: uwaga na mleko laktozowe'
+  notes: Twaróg chudy jest niskofodmap w porcjach do ~40 g (zawiera laktozę, ale w małych ilościach). W tym przepisie używamy ok. 100 g twarogu, co może być za dużo dla osób wrażliwych na laktozę. Mleko krowie jest wysokofodmap (laktoza). Mąka orkiszowa zawiera gluten i może zawierać fruktany, ale w niewielkich ilościach jest zwykle tolerowana.
   substitutions:
-    - "mleko krowie -> mleko bezlaktozowe lub mleko roślinne (migdałowe, ryżowe)"
-    - "twaróg -> twaróg bezlaktozowy lub tofu jedwabiste"
-    - "mąka orkiszowa -> mąka ryżowa / bezglutenowa mieszanka"
+  - mleko krowie -> mleko bezlaktozowe lub mleko roślinne (migdałowe, ryżowe)
+  - twaróg -> twaróg bezlaktozowy lub tofu jedwabiste
+  - mąka orkiszowa -> mąka ryżowa / bezglutenowa mieszanka
+image_width: 512
+image_height: 512
 ---
 
 ## Składniki

@@ -1,27 +1,37 @@
 ---
-draft: false  
+title: Burrito - prawdziwy DYNAMIT smaku - 850 kcal
+author: Policzona Szama
+categories: obiady
+draft: false
 readyToTest: true
-title: "Burrito - prawdziwy DYNAMIT smaku - 850 kcal" 
-queued: true 
-author: "Policzona Szama"  
-recipe_image: images/recipe-headers/burrito.avif  
-date: 2025-11-29T12:00:00-00:00  
-categories: obiady  
-tags: ["meksykańskie", "szybkie", "proteinowe"]  
-tagline: "Epickie burrito z wołowiną w pikantnym sosie pomidorowym, czerwoną fasolą, awokado, serem cheddar i jajecznicą."  
-ingredients: ["wołowina mielona", "czerwona fasola", "pomidory krojone", "awokado", "ser cheddar", "jajka", "tortilla"]
-servings: 4  
-prep_time: 20  
-cook: true  
-cook_time: 30  
+recipe_image: images/recipe-headers/burrito.avif
+date: 2025-11-29 12:00:00+00:00
+tags:
+- meksykańskie
+- szybkie
+- proteinowe
+tagline: Epickie burrito z wołowiną w pikantnym sosie pomidorowym, czerwoną fasolą, awokado, serem cheddar i jajecznicą.
+link: https://www.youtube.com/watch?v=h8zZXIgS30c
+queued: true
+ingredients:
+- wołowina mielona
+- czerwona fasola
+- pomidory krojone
+- awokado
+- ser cheddar
+- jajka
+- tortilla
+servings: 4
+prep_time: 20
+cook: true
+cook_time: 30
 calories: 850
 protein: 54
 fat: 42
-carbohydrate: 49 
-link: https://www.youtube.com/watch?v=h8zZXIgS30c
+carbohydrate: 49
 fodmap:
-  status: "no"
-  notes: "Fasola czerwona, cebula i czosnek są źródłami FODMAP."
+  status: 'no'
+  notes: Fasola czerwona, cebula i czosnek są źródłami FODMAP.
 ---
 
 ## Składniki

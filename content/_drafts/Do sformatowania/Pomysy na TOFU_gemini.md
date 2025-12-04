@@ -1,16 +1,15 @@
 ---
 title: Pomysły na TOFU
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=n5173WONE4w
-author: "[[Policzona Szama]]"
 published: 2020-08-19
 created: 2025-10-27
 description: Trzy bezmięsne przepisy z tofu, w tym wegetariańska tofucznica z kurkami, wegetariański wrap a'la kebs oraz wegański, ekspresowy makaron azjatycki, prezentowane przez mięsożercę motywującego się do kuchni roślinnej.
 category: Fitness
 length: 1455
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

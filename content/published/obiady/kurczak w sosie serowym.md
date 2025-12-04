@@ -1,31 +1,40 @@
 ---
-draft: false  
-title: "Pieczony Kurczak z Ryżem, Warzywami i Fit Sosem Serowym"  
-author: "Policzone Szamy"  
+title: Pieczony Kurczak z Ryżem, Warzywami i Fit Sosem Serowym
+author: Policzone Szamy
+categories: obiady
+draft: false
 recipe_image: images/recipe-headers/kurczak_w_sosie_serowym.avif
-date: 2025-06-27T12:17:00-00:00  
-categories: obiady  
-tags: []  
-tagline: "Soczysty kurczak z ryżem i warzywami w kremowym, lekkim sosie serowym."  
-ingredients: ["pierś z kurczaka", "mrożone warzywa", "ryż basmati", "oliwa", "czosnek", "ser cheddar", "mleko", "masło", "mąka pszenna", "chili"]
-servings: 3  
-prep_time: 20  
-cook: true  
-cook_time: 30  
+date: 2025-06-27 12:17:00+00:00
+tags: []
+tagline: Soczysty kurczak z ryżem i warzywami w kremowym, lekkim sosie serowym.
+link: https://www.youtube.com/watch?v=AIlwvEvCONM
+ingredients:
+- pierś z kurczaka
+- mrożone warzywa
+- ryż basmati
+- oliwa
+- czosnek
+- ser cheddar
+- mleko
+- masło
+- mąka pszenna
+- chili
+servings: 3
+prep_time: 20
+cook: true
+cook_time: 30
 calories: 164
 protein: 13
 fat: 6
-carbohydrate: 14 
-link: https://www.youtube.com/watch?v=AIlwvEvCONM
-
+carbohydrate: 14
 fodmap:
-  status: "depends"
-  serving_ok: "OK po modyfikacjach: bez czosnku; mleko bez laktozy; zagęszczenie skrobią zamiast mąki pszennej"
-  notes: "Czosnek (fruktany) i mąka pszenna podnoszą FODMAP. Ser cheddar bywa niskolaktozowy, ale bazowe mleko powinno być bez laktozy."
+  status: depends
+  serving_ok: 'OK po modyfikacjach: bez czosnku; mleko bez laktozy; zagęszczenie skrobią zamiast mąki pszennej'
+  notes: Czosnek (fruktany) i mąka pszenna podnoszą FODMAP. Ser cheddar bywa niskolaktozowy, ale bazowe mleko powinno być bez laktozy.
   substitutions:
-    - "czosnek -> olej czosnkowy (bez cząstek)"
-    - "mleko 1,5% -> mleko bez laktozy"
-    - "mąka pszenna -> skrobia kukurydziana/ryżowa"
+  - czosnek -> olej czosnkowy (bez cząstek)
+  - mleko 1,5% -> mleko bez laktozy
+  - mąka pszenna -> skrobia kukurydziana/ryżowa
 ---
 
 ## Składniki

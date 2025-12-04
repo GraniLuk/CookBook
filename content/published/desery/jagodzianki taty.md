@@ -1,31 +1,38 @@
 ---
-draft: false  
-title: "Jagodzianki Taty"  
-author: "Policzone Szamy"  
-recipe_image: images/recipe-headers/jagodzianki.avif  
-date: 2025-06-29T19:37:00-00:00  
-categories: desery  
-tags: []  
-tagline: "Miękkie, domowe jagodzianki na puszystym cieście drożdżowym."  
-ingredients: ["mąka pszenna", "drożdże", "żółtka", "mleko", "masło", "cukier", "jagody", "cukier puder"]
-servings: 12  
-prep_time: 30  
-cook: true  
-cook_time: 25  
-calories: 290  
-protein: 7  
-fat: 9  
-carbohydrate: 44  
-link:   
-
+title: Jagodzianki Taty
+author: Policzone Szamy
+categories: desery
+draft: false
+recipe_image: images/recipe-headers/jagodzianki.avif
+date: 2025-06-29 19:37:00+00:00
+tags: []
+tagline: Miękkie, domowe jagodzianki na puszystym cieście drożdżowym.
+link: null
+ingredients:
+- mąka pszenna
+- drożdże
+- żółtka
+- mleko
+- masło
+- cukier
+- jagody
+- cukier puder
+servings: 12
+prep_time: 30
+cook: true
+cook_time: 25
+calories: 290
+protein: 7
+fat: 9
+carbohydrate: 44
 fodmap:
-   status: "no"
-   serving_ok: "Unikaj na diecie Low FODMAP"
-   notes: "Mąka pszenna i fermentacja drożdżowa sprzyjają fruktanom."
-   substitutions:
-      - "mąka pszenna -> mąka ryżowa lub mieszanka bezglutenowa"
-      - "drożdże -> proszek do pieczenia (BG)"
-      - "mleko -> mleko bezlaktozowe"
+  status: 'no'
+  serving_ok: Unikaj na diecie Low FODMAP
+  notes: Mąka pszenna i fermentacja drożdżowa sprzyjają fruktanom.
+  substitutions:
+  - mąka pszenna -> mąka ryżowa lub mieszanka bezglutenowa
+  - drożdże -> proszek do pieczenia (BG)
+  - mleko -> mleko bezlaktozowe
 ---
 
 ## Składniki

@@ -1,15 +1,24 @@
 ---
+title: Całonocna Owsianka Słoik z Nutami
+author: Policzone Szamy
+categories: śniadania
 draft: false
 readyToTest: true
-title: "Całonocna Owsianka Słoik z Nutami"
-author: "Policzone Szamy"
 recipe_image: images/recipe-headers/calonocna_owsianka_sloik_z_nutami.avif
+date: 2025-11-01 12:00:00+00:00
+tags:
+- szybkie
+- czekoladowe
+- owsianka
+tagline: Bogata w białko owsianka z malinami, twarogiem i czekoladą, idealna na drugie śniadanie.
 link: https://www.youtube.com/watch?v=2oRiIWljFJo
-date: 2025-11-01T12:00:00-00:00
-categories: śniadania
-tags: ["szybkie", "czekoladowe", "owsianka"]
-tagline: "Bogata w białko owsianka z malinami, twarogiem i czekoladą, idealna na drugie śniadanie."
-ingredients: ["płatki owsiane", "maliny", "twaróg chudy", "napój sojowy", "czekolada organiczna", "masło orzechowe"]
+ingredients:
+- płatki owsiane
+- maliny
+- twaróg chudy
+- napój sojowy
+- czekolada organiczna
+- masło orzechowe
 servings: 1
 prep_time: 10
 cook: false
@@ -19,9 +28,9 @@ protein: 45
 fat: 35
 carbohydrate: 95
 fodmap:
-  status: "yes"
-  serving_ok: "OK w tej porcji"
-  notes: "Maliny, twaróg, czekolada ciemna, masło orzechowe i płatki owsiane są bezpieczne dla low FODMAP; napój sojowy jest zgodny."
+  status: 'yes'
+  serving_ok: OK w tej porcji
+  notes: Maliny, twaróg, czekolada ciemna, masło orzechowe i płatki owsiane są bezpieczne dla low FODMAP; napój sojowy jest zgodny.
   substitutions: []
 ---
 

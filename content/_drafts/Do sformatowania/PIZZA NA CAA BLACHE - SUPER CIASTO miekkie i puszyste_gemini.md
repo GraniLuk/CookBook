@@ -1,16 +1,15 @@
 ---
 title: PIZZA NA CAŁĄ BLACHĘ - SUPER CIASTO miękkie i puszyste
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=hmlPEUD4aIY
-author: "[[Policzona Szama]]"
 published: 2020-04-03
 created: 2025-10-27
 description: Szczegółowy przepis na domową pizzę na całą blachę, zawierający precyzyjne instrukcje przygotowania miękkiego i puszystego ciasta, sosu pomidorowego oraz propozycje dodatków z uwzględnieniem makroskładników.
 category: Fitness
 length: 1223
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

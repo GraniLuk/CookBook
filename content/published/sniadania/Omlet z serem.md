@@ -1,14 +1,24 @@
 ---
+title: Wysokobiałkowe Śniadanie Bez Węglowodanów
+author: Granica
+categories:
+- sniadania
+subcategories:
+- słone
 draft: false
-title: "Wysokobiałkowe Śniadanie Bez Węglowodanów"
-author: "Granica"
 recipe_image: images/defaultImage.avif
-date: 2025-06-18T12:00:00-00:00
-categories: ["sniadania"]
-subcategories: ["słone"]
+date: 2025-06-18 12:00:00+00:00
 tags: []
-tagline: "Wysokobiałkowy omlet bez węglowodanów!"
-ingredients: ["jajka", "ser", "oliwa", "pesto", "mozzarella", "pomidorki koktajlowe", "rukola"]
+tagline: Wysokobiałkowy omlet bez węglowodanów!
+link: https://www.youtube.com/shorts/qb3A_kAPio4
+ingredients:
+- jajka
+- ser
+- oliwa
+- pesto
+- mozzarella
+- pomidorki koktajlowe
+- rukola
 servings: 1
 prep_time: 7
 cook: true
@@ -17,15 +27,13 @@ calories: 183
 protein: 13
 fat: 14
 carbohydrate: 2
-link: https://www.youtube.com/shorts/qb3A_kAPio4
-
 fodmap:
-  status: "depends"
-  serving_ok: "OK po modyfikacjach: pesto bez czosnku; pomidorki ≤ 5 szt.; ser w małej porcji"
-  notes: "Czosnek w pesto (fruktany) niewskazany. Pomidorki w małej porcji zwykle OK. Sery dojrzewające mają mało laktozy; mozzarella w umiarkowanej porcji."
+  status: depends
+  serving_ok: 'OK po modyfikacjach: pesto bez czosnku; pomidorki ≤ 5 szt.; ser w małej porcji'
+  notes: Czosnek w pesto (fruktany) niewskazany. Pomidorki w małej porcji zwykle OK. Sery dojrzewające mają mało laktozy; mozzarella w umiarkowanej porcji.
   substitutions:
-    - "pesto z czosnkiem -> pesto bazyliowe bez czosnku lub olej czosnkowy"
-    - "ser -> ser dojrzewający (jeśli wrażliwość na laktozę)"
+  - pesto z czosnkiem -> pesto bazyliowe bez czosnku lub olej czosnkowy
+  - ser -> ser dojrzewający (jeśli wrażliwość na laktozę)
 ---
 
 ## Składniki

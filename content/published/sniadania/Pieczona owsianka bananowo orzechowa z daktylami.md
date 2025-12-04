@@ -1,16 +1,26 @@
 ---
+title: Pieczona Owsianka Bananowo-Orzechowa z Daktylami
+author: Michał Wrzosek
+categories:
+- sniadania
+subcategories:
+- słodkie
 draft: false
-title: "Pieczona Owsianka Bananowo-Orzechowa z Daktylami"
-author: "Michał Wrzosek"
 recipe_image: images/recipe-headers/owsianka_daktylowa.avif
-date: 2025-06-19T12:00:00-00:00
-categories: ["sniadania"]
-subcategories: ["słodkie"]
-tags: 
-  - Stefan
-  - owsianka
-tagline: "Sycąca owsianka z naturalną słodyczą daktyli!"
-ingredients: ["banan", "mleko", "płatki owsiane", "miód", "masło orzechowe", "siemię lniane", "daktyle"]
+date: 2025-06-19 12:00:00+00:00
+tags:
+- Stefan
+- owsianka
+tagline: Sycąca owsianka z naturalną słodyczą daktyli!
+link: https://www.youtube.com/shorts/mp41DOJiTco
+ingredients:
+- banan
+- mleko
+- płatki owsiane
+- miód
+- masło orzechowe
+- siemię lniane
+- daktyle
 servings: 2
 prep_time: 15
 cook: true
@@ -19,17 +29,15 @@ calories: 138
 protein: 4
 fat: 3
 carbohydrate: 26
-
 fodmap:
-  status: "no"
-  serving_ok: "Nieodpowiednie na etapie eliminacji"
-  notes: "Daktyle (wysokie FODMAP), dojrzałe banany i miód zwiększają ładunek FODMAP; mleko krowie zawiera laktozę."
+  status: 'no'
+  serving_ok: Nieodpowiednie na etapie eliminacji
+  notes: Daktyle (wysokie FODMAP), dojrzałe banany i miód zwiększają ładunek FODMAP; mleko krowie zawiera laktozę.
   substitutions:
-    - "Zamień daktyle na maliny/truskawki (≤40–60 g/porcję)."
-    - "Użyj niedojrzałego banana i zmniejsz ilość (maks. 1/3–1/2 na porcję) lub zastąp część owocem jagodowym."
-    - "Mleko -> napój ryżowy lub mleko bez laktozy."
-    - "Miód -> syrop klonowy."
-link: https://www.youtube.com/shorts/mp41DOJiTco
+  - Zamień daktyle na maliny/truskawki (≤40–60 g/porcję).
+  - Użyj niedojrzałego banana i zmniejsz ilość (maks. 1/3–1/2 na porcję) lub zastąp część owocem jagodowym.
+  - Mleko -> napój ryżowy lub mleko bez laktozy.
+  - Miód -> syrop klonowy.
 ---
 
 ## Składniki

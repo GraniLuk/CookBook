@@ -1,13 +1,25 @@
 ---
-draft: false
-title: "Włoski Rozgrzewający Kurczak z Makaronem i Warzywami"
-author: "Policzone Szamy"
-recipe_image: images/recipe-headers/kurczak_makaron_warzywa.avif
-date: 2025-11-01T12:00:00-00:00
+title: Włoski Rozgrzewający Kurczak z Makaronem i Warzywami
+author: Policzone Szamy
 categories: obiady
-tags: ["włoskie", "szybkie", "proteinowe"]
-tagline: "Pikantny kurczak z makaronem i warzywami w sosie, rozgrzewający obiad."
-ingredients: ["pierś z kurczaka", "makaron", "czosnek", "passata pomidorowa", "brokuł", "marchewka", "mascarpone", "parmezan"]
+draft: false
+recipe_image: images/recipe-headers/kurczak_makaron_warzywa.avif
+date: 2025-11-01 12:00:00+00:00
+tags:
+- włoskie
+- szybkie
+- proteinowe
+tagline: Pikantny kurczak z makaronem i warzywami w sosie, rozgrzewający obiad.
+link: https://youtu.be/nbZB9V3N6LY?t=277
+ingredients:
+- pierś z kurczaka
+- makaron
+- czosnek
+- passata pomidorowa
+- brokuł
+- marchewka
+- mascarpone
+- parmezan
 servings: 3
 prep_time: 10
 cook: true
@@ -16,12 +28,12 @@ calories: 600
 protein: 40
 fat: 15
 carbohydrate: 60
-link: https://youtu.be/nbZB9V3N6LY?t=277
 fodmap:
-  status: "no"
-  serving_ok: "Nie OK w tej porcji"
-  notes: "Czosnek jest wysokofodmapowy; kurczak, makaron, passaty i warzywa są bezpieczne."
-  substitutions: ["Zastąp czosnek szczypiorkiem dla wersji low FODMAP."]
+  status: 'no'
+  serving_ok: Nie OK w tej porcji
+  notes: Czosnek jest wysokofodmapowy; kurczak, makaron, passaty i warzywa są bezpieczne.
+  substitutions:
+  - Zastąp czosnek szczypiorkiem dla wersji low FODMAP.
 ---
 
 ## Składniki

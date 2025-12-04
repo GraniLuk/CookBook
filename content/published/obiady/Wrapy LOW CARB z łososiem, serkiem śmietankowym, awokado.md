@@ -1,26 +1,34 @@
 ---
-draft: false  
+title: Wrapy LOW CARB z łososiem, serkiem śmietankowym, awokado
+author: Policzona Szama
+categories: obiady
+draft: false
 readyToTest: true
-title: "Wrapy LOW CARB z łososiem, serkiem śmietankowym, awokado"  
-author: "Policzona Szama"  
-recipe_image: images/recipe-headers/wrapy_low_carb.avif  
-date: 2025-11-29T12:00:00-00:00  
-categories: obiady  
-tags: ["low carb", "ryby"]  
-tagline: "Niskowęglowodanowe wrapy z domowym serkiem śmietankowym, wędzonym łososiem, awokado i jajecznymi naleśnikami."  
-ingredients: ["twaróg", "śmietana kremowa", "szczypiorek", "łosoś wędzony", "awokado", "jajka"]
-servings: 3  
-prep_time: 20  
-cook: true  
-cook_time: 10  
+recipe_image: images/recipe-headers/wrapy_low_carb.avif
+date: 2025-11-29 12:00:00+00:00
+tags:
+- low carb
+- ryby
+tagline: Niskowęglowodanowe wrapy z domowym serkiem śmietankowym, wędzonym łososiem, awokado i jajecznymi naleśnikami.
+link: https://www.youtube.com/watch?v=sdc2hl89tRc
+ingredients:
+- twaróg
+- śmietana kremowa
+- szczypiorek
+- łosoś wędzony
+- awokado
+- jajka
+servings: 3
+prep_time: 20
+cook: true
+cook_time: 10
 calories: 248
 protein: 19
 fat: 18
-carbohydrate: 5 
-link: https://www.youtube.com/watch?v=sdc2hl89tRc
+carbohydrate: 5
 fodmap:
-  status: "yes"
-  notes: "Wszystkie składniki są bezpieczne dla diety low FODMAP w podanych ilościach."
+  status: 'yes'
+  notes: Wszystkie składniki są bezpieczne dla diety low FODMAP w podanych ilościach.
 ---
 
 ## Składniki

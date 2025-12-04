@@ -1,33 +1,36 @@
 ---
-draft: false
-readyToTest: true
 title: Kurczak w sosie orzechowym
 author: Policzona Szama
+categories: obiady
+draft: false
+readyToTest: true
 recipe_image: images/kurczak_sos_orzechowy.jpg
 date: 2025-11-29
-categories: obiady
-tags: ["kurczak", "orzechowy", "pikantne"]
+tags:
+- kurczak
+- orzechowy
+- pikantne
 tagline: Rewelacyjny przepis na kurczaka w sosie orzechowym z limonką, czosnkiem i chili – pełen smaku i białka.
+link: https://www.youtube.com/watch?v=1vuRykWRvrM
+ingredients:
+- kurczak
+- masło orzechowe
+- limonki
+- czosnek
+- chili
+- oliwa z oliwek
 servings: 3
 prep_time: 20
 cook: true
-cook_time: "15-20"
 cook_increment: minutes
+cook_time: 15-20
 calories: 400
 protein: 40
 fat: 20
 carbohydrate: 10
-link: https://www.youtube.com/watch?v=1vuRykWRvrM
 fodmap:
-  status: "yes"
-  notes: "Low FODMAP przy małych porcjach czosnku i chili."
-ingredients:
-- "kurczak"
-- "masło orzechowe"
-- "limonki"
-- "czosnek"
-- "chili"
-- "oliwa z oliwek"
+  status: 'yes'
+  notes: Low FODMAP przy małych porcjach czosnku i chili.
 ---
 
 ## Instrukcje przygotowania

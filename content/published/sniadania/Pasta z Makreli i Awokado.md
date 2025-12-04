@@ -1,14 +1,21 @@
 ---
+title: Pasta z Makreli i Awokado
+author: Policzona Szama
+categories: śniadania
 draft: false
 readyToTest: true
-title: "Pasta z Makreli i Awokado"
-author: "Policzona Szama"
 recipe_image: images/recipe-headers/pasta_makrela_awokado.avif
-date: 2025-10-31T12:00:00-00:00
-categories: śniadania
-tags: ["ryby"]
-tagline: "Prosta i odżywcza pasta z wędzonej makreli, awokado i sera, idealna na kanapki."
-ingredients: ["makrela", "awokado", "ser żółty", "jajko", "majonez"]
+date: 2025-10-31 12:00:00+00:00
+tags:
+- ryby
+tagline: Prosta i odżywcza pasta z wędzonej makreli, awokado i sera, idealna na kanapki.
+link: https://www.youtube.com/watch?v=GFUD7PhsSUw
+ingredients:
+- makrela
+- awokado
+- ser żółty
+- jajko
+- majonez
 servings: 4
 prep_time: 10
 cook: true
@@ -17,11 +24,10 @@ calories: 250
 protein: 15
 fat: 18
 carbohydrate: 5
-link: https://www.youtube.com/watch?v=GFUD7PhsSUw
 fodmap:
-  status: "yes"
-  serving_ok: "OK w tej porcji"
-  notes: "Wszystkie składniki są bezpieczne w umiarkowanych ilościach."
+  status: 'yes'
+  serving_ok: OK w tej porcji
+  notes: Wszystkie składniki są bezpieczne w umiarkowanych ilościach.
   substitutions: []
 ---
 

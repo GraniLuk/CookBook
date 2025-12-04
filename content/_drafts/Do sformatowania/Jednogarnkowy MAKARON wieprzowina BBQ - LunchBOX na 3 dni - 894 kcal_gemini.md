@@ -1,16 +1,15 @@
 ---
 title: Jednogarnkowy MAKARON wieprzowina BBQ - LunchBOX na 3 dni - 894 kcal
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=bySPdXXOf6w
-author: "[[Policzona Szama]]"
 published: 2020-04-09
 created: 2025-10-27
-description: "** Ten odcinek „Policzonej Szamy” prezentuje przepis na przygotowanie trzech porcji makaronu z łopatką wieprzową w smaku barbecue, z wykorzystaniem karmelizowanej cebulki jako gwoździa programu, idealnego jako prosty i smaczny lunch box."
+description: '** Ten odcinek „Policzonej Szamy” prezentuje przepis na przygotowanie trzech porcji makaronu z łopatką wieprzową w smaku barbecue, z wykorzystaniem karmelizowanej cebulki jako gwoździa programu, idealnego jako prosty i smaczny lunch box.'
 category: Fitness
 length: 793
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

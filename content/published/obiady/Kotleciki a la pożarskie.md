@@ -1,13 +1,20 @@
 ---
-draft: false
-title: "Kotleciki a la pożarskie"
-author: "Autor Przepisu"
-recipe_image: images/recipe-headers/kotlety_pozarskie.avif
-date: 2025-06-18T12:00:00-00:00
+title: Kotleciki a la pożarskie
+author: Autor Przepisu
 categories: obiady
-tags: ["Stefan"]
-tagline: "Pyszne kotleciki z kurczaka i warzyw!"
-ingredients: ["pierś z kurczaka", "jajko", "marchewka", "dynia", "por", "mąka jaglana"]
+draft: false
+recipe_image: images/recipe-headers/kotlety_pozarskie.avif
+date: 2025-06-18 12:00:00+00:00
+tags:
+- Stefan
+tagline: Pyszne kotleciki z kurczaka i warzyw!
+ingredients:
+- pierś z kurczaka
+- jajko
+- marchewka
+- dynia
+- por
+- mąka jaglana
 servings: 6
 prep_time: 15
 cook: true
@@ -16,15 +23,14 @@ calories: 150
 protein: 22
 fat: 3
 carbohydrate: 7
-
 fodmap:
-  status: "depends"
-  serving_ok: "Por - tylko zielona część; marchewka bez ograniczeń"
-  notes: "Por – tylko zielona część. Unikaj czosnku i mieszanek przypraw z cebulą/czosnkiem."
+  status: depends
+  serving_ok: Por - tylko zielona część; marchewka bez ograniczeń
+  notes: Por – tylko zielona część. Unikaj czosnku i mieszanek przypraw z cebulą/czosnkiem.
   substitutions:
-    - "biała część pora -> zielona część pora"
-    - "mąka pszenna -> mąka jaglana (jak w przepisie) lub ryżowa"
-    - "czosnek granulowany -> asafetyda lub olej czosnkowy"
+  - biała część pora -> zielona część pora
+  - mąka pszenna -> mąka jaglana (jak w przepisie) lub ryżowa
+  - czosnek granulowany -> asafetyda lub olej czosnkowy
 ---
 
 ## Składniki

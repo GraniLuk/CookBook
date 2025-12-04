@@ -1,16 +1,15 @@
 ---
 title: Lunch BOX - Risotto z KURCZAKIEM curry - danie po treningu
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=avNXQh4rw3E
-author: "[[Policzona Szama]]"
 published: 2018-09-21
 created: 2025-11-22
 description: Przepis na cztery szybkie i pożywne boxy z risotto z kurczakiem kary, opisany w stylu vlogu z humorystycznym narratorem – pełen szczegółów, dokładnych proporcji, kroków gotowania oraz kalkulacji makroskładników i ceny.
 category: Fitness
 length: 737
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ---
 

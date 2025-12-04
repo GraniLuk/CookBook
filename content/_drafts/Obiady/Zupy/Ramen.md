@@ -1,3 +1,7 @@
+---
+{}
+---
+
 ﻿---
 draft: true
 title: "Domowy Ramen – Shoyu i Miso (Policzona Szama)"

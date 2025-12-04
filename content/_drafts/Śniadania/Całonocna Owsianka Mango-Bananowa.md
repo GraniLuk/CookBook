@@ -1,15 +1,22 @@
 ---
+title: Całonocna Owsianka Mango-Bananowa
+author: Policzone Szamy
+categories: śniadania
 draft: false
 readyToTest: true
-title: "Całonocna Owsianka Mango-Bananowa"
-author: "Policzone Szamy"
 recipe_image: images/recipe-headers/calonocna_owsianka_mango_bananowa.avif
+date: 2025-11-01 12:00:00+00:00
+tags:
+- szybkie
+- tropikalne
+- owsianka
+tagline: Kremowa owsianka z mango i bananem, pełna energii na cały dzień.
 link: https://www.youtube.com/watch?v=2oRiIWljFJo
-date: 2025-11-01T12:00:00-00:00
-categories: śniadania
-tags: ["szybkie", "tropikalne", "owsianka"]
-tagline: "Kremowa owsianka z mango i bananem, pełna energii na cały dzień."
-ingredients: ["płatki owsiane", "banan", "mango", "mleko"]
+ingredients:
+- płatki owsiane
+- banan
+- mango
+- mleko
 servings: 1
 prep_time: 10
 cook: false
@@ -19,10 +26,11 @@ protein: 30
 fat: 18
 carbohydrate: 165
 fodmap:
-  status: "no"
-  serving_ok: "Nie OK w tej porcji"
-  notes: "Mango jest wysokofodmapowe; banana w małych ilościach jest bezpieczny, ale mango może powodować problemy. Płatki owsiane i mleko są zgodne."
-  substitutions: ["Zastąp mango jabłkiem lub ananasem dla wersji low FODMAP."]
+  status: 'no'
+  serving_ok: Nie OK w tej porcji
+  notes: Mango jest wysokofodmapowe; banana w małych ilościach jest bezpieczny, ale mango może powodować problemy. Płatki owsiane i mleko są zgodne.
+  substitutions:
+  - Zastąp mango jabłkiem lub ananasem dla wersji low FODMAP.
 ---
 
 ## Składniki

@@ -1,14 +1,24 @@
 ---
+title: Placki z Cukinią i Pieczarkami
+author: Policzona Szama
+categories: śniadania
 draft: false
 readyToTest: true
-title: "Placki z Cukinią i Pieczarkami"
-author: "Policzona Szama"
 recipe_image: images/recipe-headers/placki_cukinia_pieczarki.avif
-date: 2025-10-31T12:00:00-00:00
-categories: śniadania
-tags: ["szybkie", "przekąska"]
-tagline: "Wytrawne placki z cukini, pieczarek, cebuli i serka wiejskiego, aromatyczne i miękkie."
-ingredients: ["cukinia", "pieczarki", "cebula", "płatki owsiane", "ser wiejski", "jajko", "oliwa z oliwek"]
+date: 2025-10-31 12:00:00+00:00
+tags:
+- szybkie
+- przekąska
+tagline: Wytrawne placki z cukini, pieczarek, cebuli i serka wiejskiego, aromatyczne i miękkie.
+link: https://www.youtube.com/watch?v=7WBWsXO6G3g
+ingredients:
+- cukinia
+- pieczarki
+- cebula
+- płatki owsiane
+- ser wiejski
+- jajko
+- oliwa z oliwek
 servings: 4
 prep_time: 15
 cook: true
@@ -17,13 +27,12 @@ calories: 150
 protein: 9
 fat: 6
 carbohydrate: 15
-link: https://www.youtube.com/watch?v=7WBWsXO6G3g
 fodmap:
-  status: "no"
-  serving_ok: "Nie – zawiera cebulę."
-  notes: "Cebula jest wysoka w fruktanach."
+  status: 'no'
+  serving_ok: Nie – zawiera cebulę.
+  notes: Cebula jest wysoka w fruktanach.
   substitutions:
-    - "Zastąp cebulę zieloną częścią szczypiorku."
+  - Zastąp cebulę zieloną częścią szczypiorku.
 ---
 
 ## Składniki (4 porcje, ok. 8 placków)

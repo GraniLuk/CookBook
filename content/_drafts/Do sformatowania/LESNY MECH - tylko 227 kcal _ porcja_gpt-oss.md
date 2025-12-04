@@ -1,16 +1,15 @@
 ---
 title: LEŚNY MECH - tylko 227 kcal / porcja
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=Le9VynT8Opc
-author: "[[Policzona Szama]]"
 published: 2021-05-04
 created: 2025-10-26
 description: Fit‑ciasto leśne bez cukru – zielony spód z szpinaku, twarogowa warstwa kokosowa i galaretka z malinami, z humorem, krok po kroku, i z mniej niż 200 kcal na kawałek.
 category: Fitness
 length: 721
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ---  
 

@@ -1,16 +1,15 @@
 ---
 title: Dyniowy Kurczak Curry - 3 x LunchBOX - 621 kcal
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=0t1TNUMGD8w
-author: "[[Policzona Szama]]"
 published: 2023-10-01
 created: 2025-10-19
 description: Przepis przedstawia sposób przygotowania trzech pikantnych, rozgrzewających lunch boxów z kurczakiem i gęstym sosem dyniowym curry, idealnych na jesień, z naciskiem na prostotę wykonania i rewelacyjne makro.
 category: Fitness
 length: 1067
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ---
 

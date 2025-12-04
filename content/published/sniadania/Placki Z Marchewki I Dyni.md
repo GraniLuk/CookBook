@@ -1,14 +1,24 @@
 ---
+title: Placki Z Marchewki I Dyni
+author: Granica
+categories:
+- sniadania
+subcategories:
+- słodkie
 draft: false
-title: "Placki Z Marchewki I Dyni"
-author: "Granica"
 recipe_image: images/defaultImage.avif
-date: 2025-06-20T12:00:00-00:00
-categories: ["sniadania"]
-subcategories: ["słodkie"]
-tags: ["Stefan", "wegańskie"]
-tagline: "Zdrowe placki z marchewki i dyni - idealne na każdą porę dnia!"
-ingredients: ["marchewka", "dynia", "mąka pszenna", "jajko", "banan", "olej"]
+date: 2025-06-20 12:00:00+00:00
+tags:
+- Stefan
+- wegańskie
+tagline: Zdrowe placki z marchewki i dyni - idealne na każdą porę dnia!
+ingredients:
+- marchewka
+- dynia
+- mąka pszenna
+- jajko
+- banan
+- olej
 servings: 20
 prep_time: 30
 cook: true
@@ -17,14 +27,13 @@ calories: 71
 protein: 3
 fat: 1
 carbohydrate: 14
-
 fodmap:
-  status: "depends"
-  serving_ok: "OK przy małej porcji i zamianie mąki; kontroluj banana"
-  notes: "Marchewka i dynia (w małych porcjach) są low FODMAP. Pszenica i dojrzały banan zwiększają FODMAP."
+  status: depends
+  serving_ok: OK przy małej porcji i zamianie mąki; kontroluj banana
+  notes: Marchewka i dynia (w małych porcjach) są low FODMAP. Pszenica i dojrzały banan zwiększają FODMAP.
   substitutions:
-    - "Mąka pszenna -> mąka ryżowa lub owsiana bezglutenowa."
-    - "Dojrzały banan -> niedojrzały i w mniejszej ilości lub zamień na puree z dyni."
+  - Mąka pszenna -> mąka ryżowa lub owsiana bezglutenowa.
+  - Dojrzały banan -> niedojrzały i w mniejszej ilości lub zamień na puree z dyni.
 ---
 
 ## Składniki

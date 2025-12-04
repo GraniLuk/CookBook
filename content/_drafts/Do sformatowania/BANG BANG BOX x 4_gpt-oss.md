@@ -1,17 +1,16 @@
 ---
-draft: true
 title: BANG BANG BOX x 4
+author: '[[Policzona Szama]]'
+draft: true
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=bCFszRmuv-Y
-author: "[[Policzona Szama]]"
 published: 2025-11-29
 created: 2025-11-29
 description: Bang Chicken – przepis na chrupiącego, w panierce kurczaka z aromatycznym sosem, podawanego z ryżem i al dente brokułami, doprawionego sezamem i zieloną cebulką, w wersji „Bang Light” na bazie jogurtu greckiego.
 category: Fitness
 length: 424
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ---
 

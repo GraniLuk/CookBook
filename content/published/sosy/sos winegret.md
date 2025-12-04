@@ -1,30 +1,35 @@
 ---
-draft: false  
-title: "Sos Winegret"  
-author: "Policzone Szamy"  
+title: Sos Winegret
+author: Policzone Szamy
+categories: sosy
+draft: false
 recipe_image: images/recipe-headers/sos_winegret.avif
-date: 2025-07-05T17:52:00-00:00  
-categories: sosy  
-tags: []  
-tagline: "Klasyczny sos winegret z dodatkiem miodu i oregano - idealny do sałatek."  
-ingredients: ["miód", "musztarda", "woda", "oliwa z oliwek", "cytryna", "oregano"]
-servings: 4  
-prep_time: 5  
-cook: false  
-cook_time: 0  
+date: 2025-07-05 17:52:00+00:00
+tags: []
+tagline: Klasyczny sos winegret z dodatkiem miodu i oregano - idealny do sałatek.
+link: ''
+ingredients:
+- miód
+- musztarda
+- woda
+- oliwa z oliwek
+- cytryna
+- oregano
+servings: 4
+prep_time: 5
+cook: false
+cook_time: 0
 calories: 406
 protein: 0.1
 fat: 44
-carbohydrate: 5 
-
+carbohydrate: 5
 fodmap:
-    status: "depends"
-    serving_ok: "OK po zamianie miodu"
-    notes: "Miód ma wysoki FODMAP (fruktoza); reszta składników jest zwykle OK."
-    substitutions:
-      - "Miód -> syrop klonowy."
-      - "Musztarda – sprawdź skład (bez cebuli/czosnku)."
-link: ""  
+  status: depends
+  serving_ok: OK po zamianie miodu
+  notes: Miód ma wysoki FODMAP (fruktoza); reszta składników jest zwykle OK.
+  substitutions:
+  - Miód -> syrop klonowy.
+  - Musztarda – sprawdź skład (bez cebuli/czosnku).
 ---
 
 ## Składniki

@@ -1,3 +1,7 @@
+---
+{}
+---
+
 ﻿---
 draft: true
 title: "Recipe Book: _Przekąski i Dipy_"

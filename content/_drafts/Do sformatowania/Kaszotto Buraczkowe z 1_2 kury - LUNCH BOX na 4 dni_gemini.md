@@ -1,16 +1,15 @@
 ---
 title: Kaszotto Buraczkowe z 1/2 kury - LUNCH BOX na 4 dni
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=sKVmVXocXyw
-author: "[[Policzona Szama]]"
 published: 2019-06-27
 created: 2025-10-28
 description: Niniejszy odcinek przedstawia przepis na proste, szybkie i pożywne buraczane kaszo-otto z kurczakiem, szczegółowo analizując makroskładniki i kaloryczność każdej porcji.
 category: Fitness
 length: 926
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

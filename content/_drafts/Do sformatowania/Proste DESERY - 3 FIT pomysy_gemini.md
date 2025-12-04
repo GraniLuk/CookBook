@@ -1,16 +1,15 @@
 ---
 title: Proste DESERY - 3 FIT pomysły
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=vSQluiXClMI
-author: "[[Policzona Szama]]"
 published: 2019-12-16
 created: 2025-10-27
-description: "Ten odcinek kulinarny prezentuje trzy przepisy na zdrowe, bezcukrowe desery idealne na zimowy czas: muffinki owsiano-bananowe z kremem czekoladowym, epicki sernik pomarańczowo-cynamonowy oraz szybkie, korzenne pierniczki bezglutenowe."
+description: 'Ten odcinek kulinarny prezentuje trzy przepisy na zdrowe, bezcukrowe desery idealne na zimowy czas: muffinki owsiano-bananowe z kremem czekoladowym, epicki sernik pomarańczowo-cynamonowy oraz szybkie, korzenne pierniczki bezglutenowe.'
 category: Fitness
 length: 1202
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

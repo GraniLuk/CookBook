@@ -1,3 +1,7 @@
+---
+{}
+---
+
 ﻿---
 draft: true
 title: "**Szybki bajgel śniadaniowy – przepis na 5 minut**"

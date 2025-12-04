@@ -1,17 +1,16 @@
 ---
-draft: true
 title: BANG BANG Kurczak - AIR FRY vs DEEP FRY
+author: '[[Policzona Szama]]'
+draft: true
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=6BIPAXnh0S8
-author: "[[Policzona Szama]]"
 published: 2025-11-25
 created: 2025-11-25
 description: Przyjazny przewodnik krok po kroku, w humorystycznym stylu, opisujący przygotowanie i porównanie Bang Chicken w dwóch wersjach – air fryer i deep fry – z zachowaniem wszystkich szczegółów, składników i technik.
 category: Fitness
 length: 988
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ---  
 

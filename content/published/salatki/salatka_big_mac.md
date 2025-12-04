@@ -1,13 +1,30 @@
 ---
-draft: false
-title: "Sałatka Big Mac"
-author: "Policzona Szama"
-recipe_image: images/recipe-headers/salatka_big_mac.avif
-date: 2025-08-18T12:00:00-00:00
+title: Sałatka Big Mac
+author: Policzona Szama
 categories: salatki
-tags: ["low carb"]
-tagline: "Big Mac bez bułki – warstwowa, niskowęglowodanowa sałatka w słoikach."
-ingredients: ["wołowina", "masło klarowane", "ser cheddar", "ser mimolette", "parmezan", "sałata rzymska", "ogórki konserwowe", "cebula czerwona", "pomidorki", "majonez", "musztarda", "ogórki kiszone", "chili", "papryka wędzona", "czosnek suszony"]
+draft: false
+recipe_image: images/recipe-headers/salatka_big_mac.avif
+date: 2025-08-18 12:00:00+00:00
+tags:
+- low carb
+tagline: Big Mac bez bułki – warstwowa, niskowęglowodanowa sałatka w słoikach.
+link: https://www.youtube.com/watch?v=5dtlGZke2Zg
+ingredients:
+- wołowina
+- masło klarowane
+- ser cheddar
+- ser mimolette
+- parmezan
+- sałata rzymska
+- ogórki konserwowe
+- cebula czerwona
+- pomidorki
+- majonez
+- musztarda
+- ogórki kiszone
+- chili
+- papryka wędzona
+- czosnek suszony
 servings: 3
 prep_time: 25
 cook: true
@@ -16,16 +33,14 @@ calories: 214
 protein: 9.9
 fat: 18.3
 carbohydrate: 2.1
-link: "https://www.youtube.com/watch?v=5dtlGZke2Zg"
-
 fodmap:
-  status: "depends"
-  serving_ok: "OK przy małej ilości cebuli i bez czosnku w sosie"
-  notes: "Czerwona cebula tylko w małych ilościach; czosnek w proszku niewskazany. Sery dojrzewające zwykle OK."
+  status: depends
+  serving_ok: OK przy małej ilości cebuli i bez czosnku w sosie
+  notes: Czerwona cebula tylko w małych ilościach; czosnek w proszku niewskazany. Sery dojrzewające zwykle OK.
   substitutions:
-    - "Czerwona cebula -> zielona część dymki/szczypiorek."
-    - "Czosnek suszony -> olej czosnkowy lub asafetyda (szczypta)."
-    - "Więcej cebuli -> zamień na szczypiorek."
+  - Czerwona cebula -> zielona część dymki/szczypiorek.
+  - Czosnek suszony -> olej czosnkowy lub asafetyda (szczypta).
+  - Więcej cebuli -> zamień na szczypiorek.
 ---
 
 ## Składniki

@@ -1,15 +1,24 @@
 ---
+title: Kanapka z Wędzonym Łososiem, Rukolą i Pomidorkami
+author: Policzone Szamy
+categories:
+- sniadania
 draft: false
-title: "Kanapka z Wędzonym Łososiem, Rukolą i Pomidorkami"
-author: "Policzone Szamy"
+readyToTest: true
 recipe_image: images/recipe-headers/kanapka_losos_rukola.avif
-image_width: 512
-image_height: 512
-date: 2025-10-28T13:10:00-00:00
-categories: ["sniadania"]
-tags: ["kanapki", "szybkie", "na-wynos"]
-tagline: "Elegancka kanapka z wędzonym łososiem i rukolą – idealna na śniadanie do pracy!"
-ingredients: ["łosoś wędzony", "bułka pełnoziarnista", "serek śmietankowy", "rukola", "pomidorki koktajlowe"]
+date: 2025-10-28 13:10:00+00:00
+tags:
+- kanapki
+- szybkie
+- na-wynos
+tagline: Elegancka kanapka z wędzonym łososiem i rukolą – idealna na śniadanie do pracy!
+link: https://www.youtube.com/watch?v=3qI4Y5dRumA
+ingredients:
+- łosoś wędzony
+- bułka pełnoziarnista
+- serek śmietankowy
+- rukola
+- pomidorki koktajlowe
 servings: 1
 prep_time: 5
 cook: false
@@ -19,15 +28,15 @@ calories: 420
 protein: 26
 fat: 18
 carbohydrate: 38
-link: https://www.youtube.com/watch?v=3qI4Y5dRumA
-readyToTest: true
 fodmap:
-  status: "depends"
-  serving_ok: "OK po modyfikacjach: uwaga na bułkę"
-  notes: "Bułka pełnoziarnista (pszenica) zawiera gluten i fruktany. Łosoś wędzony, serek śmietankowy (mała ilość laktozy), rukola i pomidorki są niskofodmap."
+  status: depends
+  serving_ok: 'OK po modyfikacjach: uwaga na bułkę'
+  notes: Bułka pełnoziarnista (pszenica) zawiera gluten i fruktany. Łosoś wędzony, serek śmietankowy (mała ilość laktozy), rukola i pomidorki są niskofodmap.
   substitutions:
-    - "bułka pełnoziarnista -> bułka bezglutenowa"
-    - "serek śmietankowy -> serek bezlaktozowy lub humus"
+  - bułka pełnoziarnista -> bułka bezglutenowa
+  - serek śmietankowy -> serek bezlaktozowy lub humus
+image_width: 512
+image_height: 512
 ---
 
 ## Składniki

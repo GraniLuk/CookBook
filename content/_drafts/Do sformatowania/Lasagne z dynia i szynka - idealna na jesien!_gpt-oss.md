@@ -1,17 +1,16 @@
 ---
-draft: true
 title: Lasagne z dynią i szynką - idealna na jesień!
+author: '[[Policzona Szama]]'
+draft: true
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=N3b6C3Wm6OY
-author: "[[Policzona Szama]]"
 published: 2025-09-18
 created: 2025-09-19
 description: Rozgrzewająca, jesienna lazania na trzy porcje, przygotowana w prosty sposób z mięsnego sosu, proteinowego beszamelu i warzyw, pełna makroskładników i aromatu, idealna na szybkie obiady lub podgrzanie w późniejszym czasie.
 category: Fitness
 length: 597
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ---  
 

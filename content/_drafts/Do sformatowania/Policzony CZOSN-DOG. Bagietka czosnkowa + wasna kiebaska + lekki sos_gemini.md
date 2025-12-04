@@ -1,16 +1,15 @@
 ---
 title: Policzony CZOSN-DOG. Bagietka czosnkowa + własna kiełbaska + lekki sos
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=F0K1yb7epqM
-author: "[[Policzona Szama]]"
 published: 2021-01-12
 created: 2025-11-01
 description: Przepis kulinarny prezentujący przygotowanie "policzonego" CZOSN-DOGA, czyli popularnego hot doga na bazie bagietki czosnkowej, z wykorzystaniem chudego mięsa wieprzowego i niskotłuszczowego sosu jogurtowego, zoptymalizowanego pod kątem makroskładników i kalorii.
 category: Fitness
 length: 1067
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

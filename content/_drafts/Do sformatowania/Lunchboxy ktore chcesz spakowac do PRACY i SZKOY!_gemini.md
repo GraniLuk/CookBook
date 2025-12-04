@@ -1,12 +1,13 @@
 ---
+title: '---'
+author: Autor Przepisu
+categories:
+- sniadania
 draft: true
-title: "---"
-author: "Autor Przepisu"
 recipe_image: images/recipe-headers/default.avif
-date: 2025-08-29T17:13:22-00:00
-categories: ["sniadania"]
+date: 2025-08-29 17:13:22+00:00
 tags: []
-tagline: "Przepis do sformatowania"
+tagline: Przepis do sformatowania
 servings: 4
 prep_time: 15
 cook: true
@@ -15,7 +16,9 @@ calories: 300
 protein: 20
 fat: 10
 carbohydrate: 25
+draft: true
 ---
+
 ---
 
 **Wstęp: Powrót po Wakacjach i Propozycje Posiłków**

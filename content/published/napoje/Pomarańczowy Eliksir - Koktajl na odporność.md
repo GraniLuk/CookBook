@@ -1,26 +1,36 @@
 ---
-draft: false  
+title: Pomarańczowy Eliksir - Koktajl na odporność
+author: Policzona Szama
+categories:
+- napoje
+draft: false
 readyToTest: true
-title: "Pomarańczowy Eliksir - Koktajl na odporność"  
-author: "Policzona Szama"  
-recipe_image: images/recipe-headers/koktajl_pomaranczowy.avif  
-date: 2025-11-29T12:00:00-00:00  
-categories: ["napoje"]  
-tags: ["koktajle", "odporność"]  
-tagline: "Pomarańczowy koktajl z selenem, polifenolami i imbirem, przeciwzapalny."  
-ingredients: ["orzechy brazylijskie", "siemię lniane", "mango", "gruszka", "imbir", "pomarańcza", "jogurt"]
-servings: 2  
-prep_time: 5  
-cook: false  
-cook_time: 0  
+recipe_image: images/recipe-headers/koktajl_pomaranczowy.avif
+date: 2025-11-29 12:00:00+00:00
+tags:
+- koktajle
+- odporność
+tagline: Pomarańczowy koktajl z selenem, polifenolami i imbirem, przeciwzapalny.
+link: https://www.youtube.com/watch?v=RUPfihOOViA
+ingredients:
+- orzechy brazylijskie
+- siemię lniane
+- mango
+- gruszka
+- imbir
+- pomarańcza
+- jogurt
+servings: 2
+prep_time: 5
+cook: false
+cook_time: 0
 calories: 293
 protein: 8
 fat: 8
-carbohydrate: 54 
-link: https://www.youtube.com/watch?v=RUPfihOOViA
+carbohydrate: 54
 fodmap:
-  status: "no"
-  notes: "Mango jest źródłem FODMAP."
+  status: 'no'
+  notes: Mango jest źródłem FODMAP.
 ---
 
 ## Składniki

@@ -1,14 +1,25 @@
 ---
+title: Placki Marchewkowe
+author: Stefan
+categories:
+- sniadania
+subcategories:
+- słodkie
 draft: false
-title: "Placki Marchewkowe"
-author: "Stefan"
 recipe_image: images/recipe-headers/placki_marchewkowe.avif
-date: 2025-06-20T12:00:00-00:00
-categories: ["sniadania"]
-subcategories: ["słodkie"]
-tags: ["Stefan"]
-tagline: "Pyszne placki marchewkowe z cynamonem - zdrowe i szybkie śniadanie!"
-ingredients: ["jajko", "marchewka", "mąka pszenna", "mleko", "cukier kokosowy", "cynamon", "proszek do pieczenia", "olej"]
+date: 2025-06-20 12:00:00+00:00
+tags:
+- Stefan
+tagline: Pyszne placki marchewkowe z cynamonem - zdrowe i szybkie śniadanie!
+ingredients:
+- jajko
+- marchewka
+- mąka pszenna
+- mleko
+- cukier kokosowy
+- cynamon
+- proszek do pieczenia
+- olej
 servings: 12
 prep_time: 10
 cook: true
@@ -17,14 +28,13 @@ calories: 174
 protein: 7
 fat: 7
 carbohydrate: 21
-
 fodmap:
-  status: "depends"
-  serving_ok: "OK przy zamianie mąki pszennej i mleka na wersje low FODMAP"
-  notes: "Marchewka jest low FODMAP. Ogranicz pszenicę; wybierz nabiał bez laktozy."
+  status: depends
+  serving_ok: OK przy zamianie mąki pszennej i mleka na wersje low FODMAP
+  notes: Marchewka jest low FODMAP. Ogranicz pszenicę; wybierz nabiał bez laktozy.
   substitutions:
-    - "Mąka pszenna -> mąka ryżowa lub owsiana bezglutenowa."
-    - "Mleko -> mleko bez laktozy lub napój ryżowy."
+  - Mąka pszenna -> mąka ryżowa lub owsiana bezglutenowa.
+  - Mleko -> mleko bez laktozy lub napój ryżowy.
 ---
 
 ## Składniki

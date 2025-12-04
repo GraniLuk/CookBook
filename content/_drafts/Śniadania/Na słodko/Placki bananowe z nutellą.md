@@ -1,3 +1,7 @@
+---
+{}
+---
+
 ﻿---
 draft: true
 title: "Placki Bananowe z Nutellą Laskową, Owocami i Czekoladową Polewą"

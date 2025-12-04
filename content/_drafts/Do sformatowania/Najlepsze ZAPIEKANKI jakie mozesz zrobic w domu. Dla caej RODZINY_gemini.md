@@ -1,16 +1,15 @@
 ---
 title: Najlepsze ZAPIEKANKI jakie możesz zrobić w domu. Dla całej RODZINY
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=VvCzxJq4Wx0
-author: "[[Policzona Szama]]"
 published: 2020-10-19
 created: 2025-11-01
-description: "Przepis na hurtową ilość (4 sztuki) domowych zapiekanek z rewelacyjnym sosem pomidorowym, pieczarkami, serem mozzarella oraz dwoma wariantami białkowymi: szynką i tuńczykiem, z dokładnym omówieniem technik zapewniających chrupkość i soczystość."
+description: 'Przepis na hurtową ilość (4 sztuki) domowych zapiekanek z rewelacyjnym sosem pomidorowym, pieczarkami, serem mozzarella oraz dwoma wariantami białkowymi: szynką i tuńczykiem, z dokładnym omówieniem technik zapewniających chrupkość i soczystość.'
 category: Fitness
 length: 1337
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

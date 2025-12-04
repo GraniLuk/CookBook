@@ -1,16 +1,15 @@
 ---
 title: Słodkie CHILI. Słodko ostry sos w 10 minut.
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=VgKsUAxmJaA
-author: "[[Policzona Szama]]"
 published: 2019-03-20
 created: 2025-10-30
 description: Ten szybki i treściwy przewodnik kulinarny przedstawia przepis na idealny sos słodkie chili, łączący słodycz, pikantność i kwaskowatość, idealny do sajgonek i innych potraw.
 category: Fitness
 length: 502
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

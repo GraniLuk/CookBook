@@ -1,31 +1,45 @@
 ---
-draft: false  
-title: "Karkówka z Grilla w Dwóch Marynatach - Klasycznej i Azjatyckiej"  
-author: "Policzone Szamy"  
+title: Karkówka z Grilla w Dwóch Marynatach - Klasycznej i Azjatyckiej
+author: Policzone Szamy
+categories: obiady
+draft: false
 recipe_image: images/defaultImage.avif
-date: 2025-07-05T20:16:00-00:00  
-categories: obiady  
-tags: ["grill"]  
-tagline: "Soczysta karkówka z grilla w dwóch wersjach - klasycznej z papryką i azjatyckiej z imbirem."  
-ingredients: ["karkówka wieprzowa", "ketchup", "musztarda", "olej rzepakowy", "czosnek", "papryka wędzona", "papryka słodka", "majeranek", "cytryna", "sos sojowy", "ocet balsamiczny", "miód", "tymianek", "imbir"]
-servings: 4  
-prep_time: 15  
-cook: true  
-cook_time: 20  
+date: 2025-07-05 20:16:00+00:00
+tags:
+- grill
+tagline: Soczysta karkówka z grilla w dwóch wersjach - klasycznej z papryką i azjatyckiej z imbirem.
+link: https://www.youtube.com/watch?v=U0RCUwb7as4
+ingredients:
+- karkówka wieprzowa
+- ketchup
+- musztarda
+- olej rzepakowy
+- czosnek
+- papryka wędzona
+- papryka słodka
+- majeranek
+- cytryna
+- sos sojowy
+- ocet balsamiczny
+- miód
+- tymianek
+- imbir
+servings: 4
+prep_time: 15
+cook: true
+cook_time: 20
 calories: 285
 protein: 25
 fat: 18
 carbohydrate: 8
-link: https://www.youtube.com/watch?v=U0RCUwb7as4
-
 fodmap:
-  status: "depends"
-  serving_ok: "OK po modyfikacjach: marynata bez cebuli/czosnku; miód zamienić na syrop klonowy"
-  notes: "Mięso jest low FODMAP. Źródłem FODMAP są dodatki w marynacie (czosnek/cebula/honey). Użyj past bez cebuli/czosnku i słodź syropem klonowym."
+  status: depends
+  serving_ok: 'OK po modyfikacjach: marynata bez cebuli/czosnku; miód zamienić na syrop klonowy'
+  notes: Mięso jest low FODMAP. Źródłem FODMAP są dodatki w marynacie (czosnek/cebula/honey). Użyj past bez cebuli/czosnku i słodź syropem klonowym.
   substitutions:
-    - "czosnek -> olej czosnkowy (bez cząstek)"
-    - "cebula -> zielona część dymki/szczypior"
-    - "miód -> syrop klonowy"
+  - czosnek -> olej czosnkowy (bez cząstek)
+  - cebula -> zielona część dymki/szczypior
+  - miód -> syrop klonowy
 ---
 
 Karkówka z grilla to prawdziwy klasyk polskich grillowań. Ten przepis przedstawia dwie różne marynaty oraz eksperyment z czasem marynowania, który pokazuje, że nie zawsze trzeba marynować mięso przez całą noc - **3 godziny również wystarczą** do uzyskania soczystego i miękkiego mięsa.

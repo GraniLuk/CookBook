@@ -1,16 +1,15 @@
 ---
 title: PROSTE 2500 kcal - Dzień Jedzenia - Szybkie 4 posiłki
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=7jZ1mluBJAQ
-author: "[[Policzona Szama]]"
 published: 2021-02-05
 created: 2025-11-01
 description: Szczegółowe przedstawienie całego dnia jedzenia w ramach serii „Policzona Szama”, realizującego dietę zbilansowaną o kaloryczności około 2500 kcal, z czterema prostymi posiłkami i założonymi makroskładnikami.
 category: Fitness
 length: 1005
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

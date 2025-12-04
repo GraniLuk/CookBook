@@ -1,14 +1,22 @@
 ---
+title: Racuchy z Dyni
+author: Policzona Szama
+categories: śniadania
 draft: false
 readyToTest: true
-title: "Racuchy z Dyni"
-author: "Policzona Szama"
 recipe_image: images/recipe-headers/racuchy_z_dyni.avif
-date: 2025-10-31T12:00:00-00:00
-categories: śniadania
-tags: ["szybkie", "przekąska"]
-tagline: "Proste i słodkie racuchy z dyni, płatków owsianych i serka wiejskiego, bez dodatku cukru."
-ingredients: ["dynia", "płatki owsiane", "ser wiejski", "jajko", "oliwa z oliwek"]
+date: 2025-10-31 12:00:00+00:00
+tags:
+- szybkie
+- przekąska
+tagline: Proste i słodkie racuchy z dyni, płatków owsianych i serka wiejskiego, bez dodatku cukru.
+link: https://www.youtube.com/watch?v=7WBWsXO6G3g
+ingredients:
+- dynia
+- płatki owsiane
+- ser wiejski
+- jajko
+- oliwa z oliwek
 servings: 4
 prep_time: 10
 cook: true
@@ -17,11 +25,10 @@ calories: 180
 protein: 8
 fat: 7
 carbohydrate: 20
-link: https://www.youtube.com/watch?v=7WBWsXO6G3g
 fodmap:
-  status: "yes"
-  serving_ok: "OK w tej porcji"
-  notes: "Dynia, płatki owsiane, ser wiejski i jajko są bezpieczne w umiarkowanych ilościach."
+  status: 'yes'
+  serving_ok: OK w tej porcji
+  notes: Dynia, płatki owsiane, ser wiejski i jajko są bezpieczne w umiarkowanych ilościach.
   substitutions: []
 ---
 

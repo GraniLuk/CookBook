@@ -1,16 +1,15 @@
 ---
 title: WOŁOWINA po pekińsku z makaronem - PIKANTNE 789 kcal - STIR FRY
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=OgfbU2BEk2E
-author: "[[Policzona Szama]]"
 published: 2019-06-19
 created: 2025-10-28
 description: Szczegółowy przewodnik po przygotowaniu wołowiny po pekińsku z nudlami typu Lo Mein w woku, obejmujący listę składników, marynatę, precyzyjne krojenie i sekwencję smażenia metodą stir fry.
 category: Fitness
 length: 934
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

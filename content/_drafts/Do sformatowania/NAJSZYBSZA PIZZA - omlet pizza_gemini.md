@@ -1,16 +1,15 @@
 ---
 title: NAJSZYBSZA PIZZA - omlet pizza
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=CKPQzqp2LZA
-author: "[[Policzona Szama]]"
 published: 2020-02-21
 created: 2025-10-27
 description: Szybki i luźny odcinek prezentujący przepis na ekspresową, niskowęglowodanową pizzę na jajeczno-parmezanowym spodzie.
 category: Fitness
 length: 603
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

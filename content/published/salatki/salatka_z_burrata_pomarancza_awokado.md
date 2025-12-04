@@ -1,40 +1,39 @@
 ---
 title: Sałatka z Burratą, Pomarańczą i Awokado
+author: Michał Wrzosek
+categories: salatki
 draft: false
 recipe_image: images/recipe-headers/salatka_burrata_pomarancza_awokado.avif
+date: 2025-11-25 12:00:00+00:00
+tags:
+- szybkie
+- wegetariańskie
+tagline: Sałatka niesamowicie poprawiająca humor podczas jesiennej chandry.
+link: https://youtu.be/wIC8JJtZEso?t=227
+ingredients:
+- burrata
+- pomarańcza
+- awokado
+- cebula dymka
+- rukola
+- oliwa z oliwek
+- ocet balsamiczny
+- miód
 servings: 1
 prep_time: 10
-fodmap:
-  status: no
-  serving_ok: Nie OK - zawiera cebulę dymkę i miód
-  notes: Cebula dymka jest źródłem FODMAP, miód również. Można zastąpić cebulę
-    dymkę szczypiorkiem, a miód erytrolem.
-  substitutions:
-    - cebula dymka -> szczypiorek
-    - miód -> erytrol
-ingredients:
-  - burrata
-  - pomarańcza
-  - awokado
-  - cebula dymka
-  - rukola
-  - oliwa z oliwek
-  - ocet balsamiczny
-  - miód
-author: Michał Wrzosek
-tagline: Sałatka niesamowicie poprawiająca humor podczas jesiennej chandry.
-tags:
-  - szybkie
-  - wegetariańskie
 cook: false
 cook_time: 0
 calories: 450
 protein: 15
-date: 2025-11-25T12:00:00-00:00
-categories: salatki
 fat: 35
 carbohydrate: 25
-link: https://youtu.be/wIC8JJtZEso?t=227
+fodmap:
+  status: false
+  serving_ok: Nie OK - zawiera cebulę dymkę i miód
+  notes: Cebula dymka jest źródłem FODMAP, miód również. Można zastąpić cebulę dymkę szczypiorkiem, a miód erytrolem.
+  substitutions:
+  - cebula dymka -> szczypiorek
+  - miód -> erytrol
 ---
 
 ## Składniki

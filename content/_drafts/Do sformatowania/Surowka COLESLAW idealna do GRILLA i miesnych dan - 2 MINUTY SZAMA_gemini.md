@@ -1,16 +1,15 @@
 ---
 title: Surówka COLESLAW idealna do GRILLA i mięsnych dań - 2 MINUTY SZAMA
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=3gQB5F9zGps
-author: "[[Policzona Szama]]"
 published: 2019-05-18
 created: 2025-10-28
 description: Jest to pierwszy odcinek cyklu szybkich przepisów „Dwuminutową Mieszamy”, prezentujący przepis na chrupiącą surówkę colesław (nazywaną „Bolesław”) idealną jako dodatek do dań z grilla.
 category: Fitness
 length: 551
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

@@ -1,13 +1,27 @@
 ---
-draft: false
-title: "Gulasz Z Łopatki Wieprzowej"
-author: "Autor Przepisu"
-recipe_image: images/recipe-headers/gulasz_z_lopatki_wieprzowej.avif
-date: 2025-06-18T12:00:00-00:00
+title: Gulasz Z Łopatki Wieprzowej
+author: Autor Przepisu
 categories: obiady
-tags: ["instant pot", "Stefan"]
-tagline: "Aromatyczny gulasz z łopatki wieprzowej!"
-ingredients: ["łopatka wieprzowa", "cebula", "czosnek", "marchewka", "papryka", "papryka słodka", "papryka ostra", "kminek", "liść laurowy", "koncentrat pomidorowy", "bulion", "olej"]
+draft: false
+recipe_image: images/recipe-headers/gulasz_z_lopatki_wieprzowej.avif
+date: 2025-06-18 12:00:00+00:00
+tags:
+- instant pot
+- Stefan
+tagline: Aromatyczny gulasz z łopatki wieprzowej!
+ingredients:
+- łopatka wieprzowa
+- cebula
+- czosnek
+- marchewka
+- papryka
+- papryka słodka
+- papryka ostra
+- kminek
+- liść laurowy
+- koncentrat pomidorowy
+- bulion
+- olej
 servings: 8
 prep_time: 30
 cook: true
@@ -16,15 +30,14 @@ calories: 133
 protein: 11
 fat: 8
 carbohydrate: 4
-
 fodmap:
-  status: "no"
-  serving_ok: "Unikaj na diecie Low FODMAP"
-  notes: "Cebula i czosnek (fruktany) czynią danie nieodpowiednim."
+  status: 'no'
+  serving_ok: Unikaj na diecie Low FODMAP
+  notes: Cebula i czosnek (fruktany) czynią danie nieodpowiednim.
   substitutions:
-    - "cebula -> zielona część dymki/szczypior"
-    - "czosnek -> olej czosnkowy"
-    - "aromat -> asafetyda/papryka wędzona + więcej marchewki i papryki"
+  - cebula -> zielona część dymki/szczypior
+  - czosnek -> olej czosnkowy
+  - aromat -> asafetyda/papryka wędzona + więcej marchewki i papryki
 ---
 
 ## Składniki

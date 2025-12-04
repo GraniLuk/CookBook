@@ -1,17 +1,16 @@
 ---
-draft: true
 title: GIGA PROTEINOWY WRAP na 4 dni
+author: '[[Policzona Szama]]'
+draft: true
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=Am_Prt1_xp0
-author: "[[Policzona Szama]]"
 published: 2025-10-02
 created: 2025-10-03
 description: Instrukcja przygotowania warzywnego „kabana” – wielowymiarowego wrapa, który możesz zjeść w stylu kebabowym, roladowym lub po prostu w spokoju, z dowolnymi dodatkami, a szczególnie dobrze smakuje na zimno.
 category: Fitness
 length: 434
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ---
 

@@ -1,16 +1,15 @@
 ---
 title: WRAPO LASAGNE - hit w kuchni
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=JB0XbOfP4Xs
-author: "[[Policzona Szama]]"
 published: 2020-08-31
 created: 2025-10-27
 description: '** Szczegółowy przepis kulinarny na proste, szybkie i niezwykle smaczne danie "Wrapo Lasagne" z mieloną piersią z indyka, passatą pomidorową i mozzarellą, zawierający listę składników, instrukcje przygotowania i makroskładniki.'
 category: Fitness
 length: 1051
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

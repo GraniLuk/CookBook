@@ -1,16 +1,15 @@
 ---
 title: Zdrowe słodycze - Batony BOUNTY
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=YHAUPAD3G18
-author: "[[Policzona Szama]]"
 published: 2017-04-23
 created: 2025-10-30
 description: Prezentacja prostego i szybkiego przepisu na epickie, wysokobiałkowe batoniki kokosowe o niskiej zawartości cukru, zawierające zdrowe tłuszcze.
 category: Fitness
 length: 649
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

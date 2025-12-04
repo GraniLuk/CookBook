@@ -1,16 +1,15 @@
 ---
 title: RYŻ z Jajkiem. Expresowe pełnowartościowe śniadanie.
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=ouuH1oDLdqA
-author: "[[Policzona Szama]]"
 published: 2019-10-24
 created: 2025-10-27
 description: Szczegółowy przewodnik kulinarny prezentujący przepis na szybkie i aromatyczne, orientalne danie z ryżu i jajek, idealne jako śniadanie, obiad potreningowy lub kolacja, wraz z techniką wcześniejszego przygotowania ryżu.
 category: Fitness
 length: 664
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

@@ -1,16 +1,15 @@
 ---
 title: MAKARON śmietanowo SEROWY z brokułem / 3 PORCJE
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=0QyYur1rVS4
-author: "[[Policzona Szama]]"
 published: 2020-03-17
 created: 2025-10-27
 description: Przepis kulinarny na makaron penne w kremowym sosie śmietanowo-serowym z dodatkiem brokuła, charakteryzujący się szybkością, prostotą wykonania i intensywnym smakiem.
 category: Fitness
 length: 738
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

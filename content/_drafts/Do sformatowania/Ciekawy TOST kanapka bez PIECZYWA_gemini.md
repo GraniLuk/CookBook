@@ -1,16 +1,15 @@
 ---
 title: Ciekawy TOST kanapka bez PIECZYWA
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=9YOOourTvMA
-author: "[[Policzona Szama]]"
 published: 2019-05-14
 created: 2025-10-28
 description: Szczegółowy poradnik wideo o przygotowaniu rewolucyjnych tostów, w których pieczywo zastąpiono aromatycznymi plackami z batatów z czosnkiem, podawanych z polędwicą z indyka, roztopionym serem Camembert i ekspresowym sosem borówkowo-bananowym (700 kcal).
 category: Fitness
 length: 815
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

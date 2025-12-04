@@ -1,16 +1,15 @@
 ---
 title: Pita SOUVLAKI z patelni! - grecki gyros
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=ksjtkeRLxU0
-author: "[[Policzona Szama]]"
 published: 2018-09-04
 created: 2025-11-22
 description: Przepis i wideo‑wyjaśnienie, jak przyrządzić grecką pitę suwla z mięsem wieprzowym, soczystym sosem zaciki i chrupiącymi frytkami, w humorystycznym stylu, z podaniem makroskładników.
 category: Fitness
 length: 861
-tags:
-  - Summaries/Przepisy
 ---
-
 
 # Wprowadzenie  
 Witajcie, byki na kanale!  

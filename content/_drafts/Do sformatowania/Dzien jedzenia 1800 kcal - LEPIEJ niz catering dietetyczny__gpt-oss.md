@@ -1,16 +1,15 @@
 ---
 title: Dzień jedzenia 1800 kcal - LEPIEJ niż catering dietetyczny?
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=KZZ4jesGReM
-author: "[[Policzona Szama]]"
 published: 2021-06-04
 created: 2025-10-26
 description: Zaproszenie do przeglądania „Policzona Szama” – przyjazny, żartobliwy przewodnik po 1800‑kcalowym dniu jedzenia, obejmujący cztery posiłki i podsumowanie makroskładników, z zapowiedzią nadchodzącej „bombe” 3600 kcal.
 category: Fitness
 length: 735
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ---
 

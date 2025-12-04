@@ -1,14 +1,24 @@
 ---
+title: Jajka Zapiekane Z Szynką I Warzywami
+author: Granica
+categories:
+- sniadania
+subcategories:
+- słone
 draft: false
-title: "Jajka Zapiekane Z Szynką I Warzywami"
-author: "Granica"
 recipe_image: images/recipe-headers/jajka_zapiekane_z_szynka_warzywami.avif
-date: 2025-06-20T12:00:00-00:00
-categories: ["sniadania"]
-subcategories: ["słone"]
+date: 2025-06-20 12:00:00+00:00
 tags: []
-tagline: "Sycące jajka zapiekane z warzywami i szynką - pełnowartościowy posiłek!"
-ingredients: ["jajka", "szynka", "ser piórko", "oliwa", "brokuł", "papryka", "cebula", "szczypiorek"]
+tagline: Sycące jajka zapiekane z warzywami i szynką - pełnowartościowy posiłek!
+ingredients:
+- jajka
+- szynka
+- ser piórko
+- oliwa
+- brokuł
+- papryka
+- cebula
+- szczypiorek
 servings: 3
 prep_time: 15
 cook: true
@@ -17,14 +27,13 @@ calories: 196
 protein: 15
 fat: 12
 carbohydrate: 6
-
 fodmap:
-  status: "depends"
-  serving_ok: "OK po modyfikacjach: bez cebuli; brokuły (różyczki) ~60–75 g/porcję"
-  notes: "Cebula (fruktany) niewskazana. Brokuły – wybieraj różyczki i trzymaj umiarkowaną porcję. Szynka zwykle OK – sprawdź dodatki (bez cebuli/czosnku)."
+  status: depends
+  serving_ok: 'OK po modyfikacjach: bez cebuli; brokuły (różyczki) ~60–75 g/porcję'
+  notes: Cebula (fruktany) niewskazana. Brokuły – wybieraj różyczki i trzymaj umiarkowaną porcję. Szynka zwykle OK – sprawdź dodatki (bez cebuli/czosnku).
   substitutions:
-    - "cebula -> zielona część dymki/szczypior"
-    - "duże ilości brokułów -> więcej papryki"
+  - cebula -> zielona część dymki/szczypior
+  - duże ilości brokułów -> więcej papryki
 ---
 
 ## Składniki

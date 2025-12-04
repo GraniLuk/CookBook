@@ -1,26 +1,34 @@
 ---
-draft: false  
+title: Domowe lody truskawkowe - Białkowe
+author: Policzona Szama
+categories: desery
+draft: false
 readyToTest: true
-title: "Domowe lody truskawkowe - Białkowe"  
-author: "Policzona Szama"  
-recipe_image: images/recipe-headers/lody_truskawkowe.avif  
-date: 2025-11-29T12:00:00-00:00  
-categories: desery  
-tags: ["blender", "lody"]  
-tagline: "Domowe białkowe lody truskawkowe z serkiem wiejskim, śmietanką i odżywką białkową."  
-ingredients: ["truskawki", "serek wiejski", "śmietanka 30%", "białko jajeczne", "odżywka białkowa", "wanilia"]
-servings: 4  
-prep_time: 10  
-cook: false  
-cook_time: 0  
+recipe_image: images/recipe-headers/lody_truskawkowe.avif
+date: 2025-11-29 12:00:00+00:00
+tags:
+- blender
+- lody
+tagline: Domowe białkowe lody truskawkowe z serkiem wiejskim, śmietanką i odżywką białkową.
+link: https://www.youtube.com/watch?v=4c9RIlmR1rg
+ingredients:
+- truskawki
+- serek wiejski
+- śmietanka 30%
+- białko jajeczne
+- odżywka białkowa
+- wanilia
+servings: 4
+prep_time: 10
+cook: false
+cook_time: 0
 calories: 241
 protein: 18
 fat: 13
-carbohydrate: 12 
-link: https://www.youtube.com/watch?v=4c9RIlmR1rg
+carbohydrate: 12
 fodmap:
-  status: "yes"
-  notes: "Wszystkie składniki są bezpieczne dla diety low FODMAP."
+  status: 'yes'
+  notes: Wszystkie składniki są bezpieczne dla diety low FODMAP.
 ---
 
 ## Składniki

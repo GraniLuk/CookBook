@@ -1,15 +1,21 @@
 ---
-draft: false
 title: Sałatka z Brokułem, Fetą i Prażonym Słonecznikiem
 author: Policzone Szamy
-recipe_image: images/recipe-headers/salatka_brokul_slonecznik.avif
-date: 2025-07-05T17:04:00-00:00
 categories:
-  - salatki
+- salatki
+draft: false
+recipe_image: images/recipe-headers/salatka_brokul_slonecznik.avif
+date: 2025-07-05 17:04:00+00:00
 tags:
-  - grill
+- grill
 tagline: Świeża sałatka z chrupiącym brokułem, kremową fetą i aromatycznym prażonym słonecznikiem.
-ingredients: ["brokuł", "pomidory koktajlowe", "ser feta", "pestki słonecznika", "sos winegret"]
+link: ''
+ingredients:
+- brokuł
+- pomidory koktajlowe
+- ser feta
+- pestki słonecznika
+- sos winegret
 servings: 4
 prep_time: 15
 cook: true
@@ -23,8 +29,7 @@ fodmap:
   serving_ok: OK przy użyciu samych różyczek brokuła (~75–90 g/porcję)
   notes: Różyczki brokuła w umiarkowanej porcji są OK; unikaj łodyg. Feta zwykle OK, pestki słonecznika OK.
   substitutions:
-    - Brokuł – tylko różyczki; w razie wątpliwości zmniejsz porcję.
-link: ""
+  - Brokuł – tylko różyczki; w razie wątpliwości zmniejsz porcję.
 ---
 
 ## Składniki

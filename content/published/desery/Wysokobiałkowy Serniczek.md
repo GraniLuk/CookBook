@@ -1,12 +1,19 @@
 ---
-draft: false
-title: "Wysokobiałkowy Serniczek"
-author: "Autor Przepisu"
-recipe_image: images/defaultImage.avif
-date: 2025-06-19T10:00:00-00:00
+title: Wysokobiałkowy Serniczek
+author: Autor Przepisu
 categories: desery
+draft: false
+recipe_image: images/defaultImage.avif
+date: 2025-06-19 10:00:00+00:00
 tags: []
-tagline: "Zdrowy serniczek z wysoką zawartością białka!"
+tagline: Zdrowy serniczek z wysoką zawartością białka!
+link: https://www.youtube.com/watch?v=SspgxK9oPdY
+ingredients:
+- jajka
+- skyr waniliowy
+- budyń waniliowy
+- erytrol
+- maliny
 servings: 1
 prep_time: 10
 cook: true
@@ -15,17 +22,13 @@ calories: 112
 protein: 9
 fat: 4
 carbohydrate: 10
-
-ingredients: ["jajka", "skyr waniliowy", "budyń waniliowy", "erytrol", "maliny"]
-
 fodmap:
-  status: "depends"
-  serving_ok: "OK przy nabiale bez laktozy i umiarkowanej porcji"
-  notes: "Skyr i proszek budyniowy mogą zawierać laktozę; wybierz wersje bez laktozy."
+  status: depends
+  serving_ok: OK przy nabiale bez laktozy i umiarkowanej porcji
+  notes: Skyr i proszek budyniowy mogą zawierać laktozę; wybierz wersje bez laktozy.
   substitutions:
-    - "Skyr -> skyr bez laktozy."
-    - "Budyń -> budyń przygotowany na mleku bez laktozy lub napoju ryżowym."
-link: https://www.youtube.com/watch?v=SspgxK9oPdY
+  - Skyr -> skyr bez laktozy.
+  - Budyń -> budyń przygotowany na mleku bez laktozy lub napoju ryżowym.
 ---
 
 ## Składniki
@@ -64,4 +67,3 @@ Ten wysokobiałkowy serniczek zawiera około 20g białka w porcji przy zaledwie 
 | Erytrol          | 30        | 0.6           | 0          | 0            | 0.3             |
 | Maliny           | 50        | 26            | 0.6        | 0.33         | 6               |
 | **RAZEM:**       | **450**   | **503.5**     | **38.7**   | **18.7**     | **45.6**        |
-

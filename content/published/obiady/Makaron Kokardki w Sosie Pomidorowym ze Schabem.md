@@ -1,15 +1,25 @@
 ---
-draft: false
-title: "Makaron Kokardki w Sosie Pomidorowym ze Schabem (Jednogarnkowy)"
-author: "Policzone Szamy"
-recipe_image: images/recipe-headers/makaron_kokardki_schab.avif
-image_width: 512
-image_height: 512
-date: 2025-10-29T10:15:00-00:00
+title: Makaron Kokardki w Sosie Pomidorowym ze Schabem (Jednogarnkowy)
+author: Policzone Szamy
 categories: obiady
-tags: ["lunchbox", "włoskie"]
-tagline: "Prosty makaron w intensywnie pomidorowym sosie z pieczonym schabem – gotowy w 15 minut!"
-ingredients: ["makaron pełnoziarnisty kokardki", "schab pieczony", "passata pomidorowa", "koncentrat pomidorowy", "cebula", "czosnek", "parmezan", "oregano"]
+draft: false
+readyToTest: true
+recipe_image: images/recipe-headers/makaron_kokardki_schab.avif
+date: 2025-10-29 10:15:00+00:00
+tags:
+- lunchbox
+- włoskie
+tagline: Prosty makaron w intensywnie pomidorowym sosie z pieczonym schabem – gotowy w 15 minut!
+link: https://www.youtube.com/watch?v=7js_OwaaDCQ
+ingredients:
+- makaron pełnoziarnisty kokardki
+- schab pieczony
+- passata pomidorowa
+- koncentrat pomidorowy
+- cebula
+- czosnek
+- parmezan
+- oregano
 servings: 3
 prep_time: 10
 cook: true
@@ -19,17 +29,17 @@ calories: 485
 protein: 28
 fat: 12
 carbohydrate: 65
-readyToTest: true
-link: https://www.youtube.com/watch?v=7js_OwaaDCQ
 fodmap:
-  status: "no"
-  serving_ok: "NIE – makaron pełnoziarnisty (fruktany), cebula, czosnek"
-  notes: "Makaron pełnoziarnisty (pszenica) zawiera fruktany. Cebula i czosnek są wysokofodmap. Pomidory w passacie są niskofodmap. Schab i parmezan są bezpieczne."
+  status: 'no'
+  serving_ok: NIE – makaron pełnoziarnisty (fruktany), cebula, czosnek
+  notes: Makaron pełnoziarnisty (pszenica) zawiera fruktany. Cebula i czosnek są wysokofodmap. Pomidory w passacie są niskofodmap. Schab i parmezan są bezpieczne.
   substitutions:
-    - "makaron pełnoziarnisty -> makaron bezglutenowy (ryżowy/kukurydziany)"
-    - "cebula -> pomiń lub użyj zielonych części dymki"
-    - "czosnek -> olej czosnkowy (infuzja bez cząstek)"
-    - "parmezan -> parmigiano reggiano dojrzewający ≥32 miesiące (praktycznie bez laktozy)"
+  - makaron pełnoziarnisty -> makaron bezglutenowy (ryżowy/kukurydziany)
+  - cebula -> pomiń lub użyj zielonych części dymki
+  - czosnek -> olej czosnkowy (infuzja bez cząstek)
+  - parmezan -> parmigiano reggiano dojrzewający ≥32 miesiące (praktycznie bez laktozy)
+image_width: 512
+image_height: 512
 ---
 
 ## Składniki

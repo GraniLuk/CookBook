@@ -1,17 +1,16 @@
 ---
-draft: true
 title: ECO Chińczyk na 4 porcje
+author: '[[Policzona Szama]]'
+draft: true
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=twN1vcuVUaM
-author: "[[Policzona Szama]]"
 published: 2025-11-27
 created: 2025-11-28
 description: Zabawny i szczegółowy przepis na cztery porcje chińskiego dania z brązowym ryżem, kurczakiem i warzywami, przygotowany w prosty sposób, z dokładnym spisem zakupów oraz wskazówkami, jak zaplanować posiłki w aplikacji Launcher.
 category: Fitness
 length: 524
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ---
 

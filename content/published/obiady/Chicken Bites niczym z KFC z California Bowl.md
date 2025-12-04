@@ -1,14 +1,29 @@
 ---
+title: Chicken Bites niczym z KFC z California Bowl
+author: Policzone Szamy
+categories: obiady
 draft: false
 readyToTest: true
-title: "Chicken Bites niczym z KFC z California Bowl"
-author: "Policzone Szamy"
 recipe_image: images/recipe-headers/chicken_bites_kfc.avif
-date: 2025-10-29T12:00:00-00:00
-categories: obiady
-tags: ["szybkie", "przekąska"]
-tagline: "Chrupiące chicken bites w stylu KFC połączone z pysznym California Bowl – idealne na przekąskę lub posiłek."
-ingredients: ["polędwiczki kurczaka", "mąka pszenna", "jajko", "mleko", "muszarda sarepska", "oliwa z oliwek", "ryż parboiled", "awokado", "ananas", "pomidor", "sałata", "sos teriyaki"]
+date: 2025-10-29 12:00:00+00:00
+tags:
+- szybkie
+- przekąska
+tagline: Chrupiące chicken bites w stylu KFC połączone z pysznym California Bowl – idealne na przekąskę lub posiłek.
+link: https://www.youtube.com/watch?v=8hl96ntYJsg
+ingredients:
+- polędwiczki kurczaka
+- mąka pszenna
+- jajko
+- mleko
+- muszarda sarepska
+- oliwa z oliwek
+- ryż parboiled
+- awokado
+- ananas
+- pomidor
+- sałata
+- sos teriyaki
 servings: 3
 prep_time: 20
 cook: true
@@ -17,12 +32,13 @@ calories: 800
 protein: 57
 fat: 44
 carbohydrate: 64
-link: "https://www.youtube.com/watch?v=8hl96ntYJsg"
 fodmap:
-  status: "caution"
-  serving_ok: "OK w tej porcji, ale monitorować objawy"
-  notes: "Czosnek i mąka pszenna mogą powodować problemy; sos teriyaki może zawierać gluten."
-  substitutions: ["Zastąpić czosnek proszkiem czosnkowym lub pominąć", "Użyć mąki ryżowej zamiast pszennej dla panierki"]
+  status: caution
+  serving_ok: OK w tej porcji, ale monitorować objawy
+  notes: Czosnek i mąka pszenna mogą powodować problemy; sos teriyaki może zawierać gluten.
+  substitutions:
+  - Zastąpić czosnek proszkiem czosnkowym lub pominąć
+  - Użyć mąki ryżowej zamiast pszennej dla panierki
 ---
 
 ## Składniki

@@ -1,16 +1,15 @@
 ---
 title: mega KURCZAK z warzywami z piekarnika - grillowany bakłażan, cukinia.... Szybki przepis na 4 porcje.
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=YK6vThYJ9dE
-author: "[[Policzona Szama]]"
 published: 2017-02-17
 created: 2025-10-30
 description: Ten odcinek prezentuje przepis na proste, smaczne danie z kurczaka i warzyw, pozwalające na przygotowanie czterech posiłków na cztery dni, będące częścią nowej serii "Kurczak 200 Plus".
 category: Fitness
 length: 870
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

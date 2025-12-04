@@ -1,16 +1,15 @@
 ---
 title: Letni OBIAD x3 - Kurczak w PIWNO - MIODOWYM sosie + warzywa
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=0bMAdKdvPxI
-author: "[[Policzona Szama]]"
 published: 2021-07-07
 created: 2025-10-26
 description: Letni przepis na lunchboxy z kurczakiem w piwno‑miodowym sosie, pieczonymi ziemniakami i szparagami zawiniętymi w szynkę – pełen szczegółów, humoru i praktycznych wskazówek, gotowy do odtworzenia w kuchni i pakowania do szklanych pojemników.
 category: Fitness
 length: 651
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ---  
 

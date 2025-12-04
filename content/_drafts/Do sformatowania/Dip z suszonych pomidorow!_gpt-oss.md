@@ -1,17 +1,16 @@
 ---
 title: Dip z suszonych pomidorów! 🍅
+author: '[[Policzona Szama]]'
+tags:
+- Przepisy/Grill
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=2URSuGluYs4
-author: "[[Policzona Szama]]"
 published: 2025-04-30
 created: 2025-11-22
 description: Praktyczny, zabawny przewodnik po przygotowaniu smarowidła z suszonymi pomidorami, które zachwyci znajomych na grillu, z pełnym opisem składników, kroków i przydatnych wskazówek dotyczących konsystencji oraz przechowywania.
 category: Fitness
 length: 293
-tags:
-  - Przepisy/Grill
-  - Summaries/Przepisy
 ---
-
 
 ---
 

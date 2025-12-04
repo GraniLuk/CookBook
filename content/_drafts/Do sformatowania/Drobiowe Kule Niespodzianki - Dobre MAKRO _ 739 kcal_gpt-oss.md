@@ -1,16 +1,15 @@
 ---
 title: Drobiowe Kule Niespodzianki  - Dobre MAKRO | 739 kcal
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=fWhedQoTIII
-author: "[[Policzona Szama]]"
 published: 2019-03-05
 created: 2025-11-22
 description: Nadchodzący przepis to szybką, w pełni wartościową i nieco zabawnie przedstawioną potrawę z bulionowym indykowym sercem, frytkami z batatów i pikantnym sosem brokułowym, idealną na lunch w pracy lub na trening.
 category: Fitness
 length: 819
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ---
 

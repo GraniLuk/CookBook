@@ -1,16 +1,15 @@
 ---
 title: Szykujemy lunch boxy - dieta pudełkowa samemu - 2 posiłki na kilka dni
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=C_e4hTGtndM
-author: "[[Policzona Szama]]"
 published: 2019-04-03
 created: 2025-10-30
 description: Szczegółowy przewodnik po przygotowaniu dwóch prostych i efektywnych posiłków typu meal prep – makaronu z sosem mięsnym (spaghetti bolognese) oraz jednogarnkowego ryżu w stylu orientalnym – dostarczających łącznie niecałe 1400 kcal w 8 porcjach.
 category: Fitness
 length: 1043
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

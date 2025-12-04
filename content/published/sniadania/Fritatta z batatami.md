@@ -1,14 +1,23 @@
 ---
+title: Śniadaniowa Frittata z Batatami i Serem Feta
+author: Policzone Szamy
+categories:
+- sniadania
+subcategories:
+- słone
 draft: false
-title: "Śniadaniowa Frittata z Batatami i Serem Feta"
-author: "Policzone Szamy"
 recipe_image: images/recipe-headers/fritatta.avif
-date: 2025-08-06T10:00:00-00:00
-categories: ["sniadania"]
-subcategories: ["słone"]
+date: 2025-08-06 10:00:00+00:00
 tags: []
-tagline: "Połączenie słodkiego ziemniaka ze słonym serem w puszystej frittacie."
-ingredients: ["bataty", "jajka", "papryka", "cebula", "szpinak", "ser feta"]
+tagline: Połączenie słodkiego ziemniaka ze słonym serem w puszystej frittacie.
+link: https://www.youtube.com/watch?v=prsZbulipCk
+ingredients:
+- bataty
+- jajka
+- papryka
+- cebula
+- szpinak
+- ser feta
 servings: 3
 prep_time: 15
 cook: true
@@ -17,16 +26,14 @@ calories: 107
 protein: 6.2
 fat: 5.3
 carbohydrate: 9.2
-link: https://www.youtube.com/watch?v=prsZbulipCk
-video_file: videos/Frittata z batatem, fetą i szpinakiem - szybkie śniadanie!.webm
-
 fodmap:
-  status: "depends"
-  serving_ok: "OK bez cebuli; bataty do ~75–100 g/porcję; feta ~30–40 g/porcję"
-  notes: "Cebula (fruktany) niewskazana – użyj tylko zielonych części dymki. Bataty zawierają mannitol – zachowaj umiarkowaną porcję (~75–100 g na osobę). Feta jest zwykle OK w małej porcji."
+  status: depends
+  serving_ok: OK bez cebuli; bataty do ~75–100 g/porcję; feta ~30–40 g/porcję
+  notes: Cebula (fruktany) niewskazana – użyj tylko zielonych części dymki. Bataty zawierają mannitol – zachowaj umiarkowaną porcję (~75–100 g na osobę). Feta jest zwykle OK w małej porcji.
   substitutions:
-    - "czerwona cebula -> zielona część dymki / szczypior"
-    - "za dużo batatów -> mniejsza porcja lub więcej papryki/szpinaku"
+  - czerwona cebula -> zielona część dymki / szczypior
+  - za dużo batatów -> mniejsza porcja lub więcej papryki/szpinaku
+video_file: videos/Frittata z batatem, fetą i szpinakiem - szybkie śniadanie!.webm
 ---
 
 ## Składniki

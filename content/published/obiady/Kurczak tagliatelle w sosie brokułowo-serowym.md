@@ -1,38 +1,37 @@
 ---
 title: Kurczak tagliatelle w sosie brokułowo-serowym
 author: Policzona Szama
+categories: obiady
 draft: false
 readyToTest: true
-tagline: Przepis na kurczaka z makaronem tagliatelle w sosie brokułowo-serowym –
-  prosty, smaczny i pełen białka.
 recipe_image: images/kurczak_tagliatelle_brokułowy.jpg
+date: 2025-11-29
 tags:
-  - kurczak
-  - makaron
+- kurczak
+- makaron
+tagline: Przepis na kurczaka z makaronem tagliatelle w sosie brokułowo-serowym – prosty, smaczny i pełen białka.
+link: https://www.youtube.com/watch?v=V8dQJDSQ7lI
 ingredients:
-  - kurczak
-  - makaron tagliatelle
-  - brokuł
-  - śmietana
-  - serek blu
-  - parmezan
-  - olej roślinny
-  - czosnek
-categories: obiady
+- kurczak
+- makaron tagliatelle
+- brokuł
+- śmietana
+- serek blu
+- parmezan
+- olej roślinny
+- czosnek
 servings: 3
 prep_time: 15
 cook: true
-cook_time: "20"
 cook_increment: minutes
+cook_time: '20'
 calories: 450
 protein: 35
-link: https://www.youtube.com/watch?v=V8dQJDSQ7lI
-fodmap:
-  status: yes
-  notes: Low FODMAP przy małych porcjach czosnku i brokułu.
-date: 2025-11-29
 fat: 15
 carbohydrate: 40
+fodmap:
+  status: true
+  notes: Low FODMAP przy małych porcjach czosnku i brokułu.
 ---
 
 ## Instrukcje przygotowania

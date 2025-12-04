@@ -1,16 +1,15 @@
 ---
 title: Piersi kurczaka NADZIEWANE bobem. Zapiekane z MŁODYMI ziemniaczkami.
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=iKUALgvERbI
-author: "[[Policzona Szama]]"
 published: 2019-07-05
 created: 2025-10-28
 description: Szczegółowy i entuzjastyczny przewodnik kulinarny dotyczący przygotowania piersi z kurczaka faszerowanych bobem i kozim serem, zawiniętych w boczek, podanych z młodymi ziemniakami i brokułem.
 category: Fitness
 length: 1147
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ---
 

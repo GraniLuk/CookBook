@@ -1,16 +1,15 @@
 ---
 title: proste Batony Proteinowe  - zastępują posiłek. Idealne do diety. Bez pieczenia.
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=tei6b5UNTjg
-author: "[[Policzona Szama]]"
 published: 2017-03-03
 created: 2025-10-30
 description: Ten odcinek prezentuje szczegółowy przepis na proste, wysokoenergetyczne i praktyczne batony proteinowe, bogate w białko, zdrowe węglowodany oraz kwasy tłuszczowe.
 category: Fitness
 length: 749
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

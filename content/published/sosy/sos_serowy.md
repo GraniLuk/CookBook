@@ -1,13 +1,20 @@
 ---
-draft: false
-title: "Fit Sos Serowy Cheddar"
-author: "Policzone Szama"
-recipe_image: images/recipe-headers/sos_serowy.avif
-date: 2025-06-27T12:15:00-00:00
+title: Fit Sos Serowy Cheddar
+author: Policzone Szama
 categories: sosy
-tags: ["impreza"]
-tagline: "Kremowy i lekki sos serowy, idealny do wielu dań."
-ingredients: ["ser cheddar", "mleko", "masło", "mąka pszenna", "chili"]
+draft: false
+recipe_image: images/recipe-headers/sos_serowy.avif
+date: 2025-06-27 12:15:00+00:00
+tags:
+- impreza
+tagline: Kremowy i lekki sos serowy, idealny do wielu dań.
+link: https://www.youtube.com/watch?v=AIlwvEvCONM
+ingredients:
+- ser cheddar
+- mleko
+- masło
+- mąka pszenna
+- chili
 servings: 3
 prep_time: 5
 cook: true
@@ -16,15 +23,13 @@ calories: 158
 protein: 7
 fat: 12
 carbohydrate: 5
-
 fodmap:
-  status: "depends"
-  serving_ok: "Sprawdź mleko - używaj bezlaktozowego"
-  notes: "Cheddar OK, mąka pszenna w małej ilości. Problem z laktozą"
+  status: depends
+  serving_ok: Sprawdź mleko - używaj bezlaktozowego
+  notes: Cheddar OK, mąka pszenna w małej ilości. Problem z laktozą
   substitutions:
-    - "mleko zwykłe -> mleko bezlaktozowe"
-    - "mąka pszenna -> mąka ryżowa (zagęszczanie)"
-link: https://www.youtube.com/watch?v=AIlwvEvCONM
+  - mleko zwykłe -> mleko bezlaktozowe
+  - mąka pszenna -> mąka ryżowa (zagęszczanie)
 ---
 
 ## Składniki

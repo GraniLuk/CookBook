@@ -1,14 +1,23 @@
 ---
+title: Gofry Twarogowe
+author: Autor Przepisu
+categories:
+- sniadania
+subcategories:
+- słodkie
 draft: false
-title: "Gofry Twarogowe"
-author: "Autor Przepisu"
 recipe_image: images/recipe-headers/gofry_twarogowe.avif
-date: 2025-06-20T12:00:00-00:00
-categories: ["sniadania"]
-subcategories: ["słodkie"]
-tags: ["Stefan"]
-tagline: "Pyszne i zdrowe gofry twarogowe na śniadanie!"
-ingredients: ["twaróg", "jajka", "banan", "mleko", "mąka", "olej"]
+date: 2025-06-20 12:00:00+00:00
+tags:
+- Stefan
+tagline: Pyszne i zdrowe gofry twarogowe na śniadanie!
+ingredients:
+- twaróg
+- jajka
+- banan
+- mleko
+- mąka
+- olej
 servings: 4
 prep_time: 5
 cook: true
@@ -17,15 +26,14 @@ calories: 158
 protein: 10
 fat: 5
 carbohydrate: 18
-
 fodmap:
-  status: "depends"
-  serving_ok: "OK po modyfikacjach: twaróg i mleko bez laktozy; mąka bez pszenicy; banan ≤ 1/3 szt. na porcję"
-  notes: "Twaróg i mleko zawierają laktozę – wybierz wersje bez laktozy. Mąka pszenna to źródło fruktanów – zamień na ryżową/owsianą (GF). Dojrzały banan w większej porcji zwiększa FODMAP."
+  status: depends
+  serving_ok: 'OK po modyfikacjach: twaróg i mleko bez laktozy; mąka bez pszenicy; banan ≤ 1/3 szt. na porcję'
+  notes: Twaróg i mleko zawierają laktozę – wybierz wersje bez laktozy. Mąka pszenna to źródło fruktanów – zamień na ryżową/owsianą (GF). Dojrzały banan w większej porcji zwiększa FODMAP.
   substitutions:
-    - "mąka pszenna -> mąka ryżowa/gluten-free owsiana"
-    - "twaróg/mleko -> odpowiedniki bez laktozy"
-    - "banan -> mniejsza ilość (≤ 1/3 szt. na porcję) lub bardziej niedojrzały"
+  - mąka pszenna -> mąka ryżowa/gluten-free owsiana
+  - twaróg/mleko -> odpowiedniki bez laktozy
+  - banan -> mniejsza ilość (≤ 1/3 szt. na porcję) lub bardziej niedojrzały
 ---
 
 ## Składniki

@@ -1,16 +1,15 @@
 ---
 title: JEDNOGARNKOWY makaron z tuńczykiem z puszki
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=WCMp-zeKAQc
-author: "[[Policzona Szama]]"
 published: 2020-07-20
 created: 2025-10-27
-description: "Przepis na szybki, jednogarnkowy makaron penne z tuńczykiem z puszki, który idealnie wpisuje się w filozofię kanału „Policzona Szama”: prosto, szybko i z dobrym makro."
+description: 'Przepis na szybki, jednogarnkowy makaron penne z tuńczykiem z puszki, który idealnie wpisuje się w filozofię kanału „Policzona Szama”: prosto, szybko i z dobrym makro.'
 category: Fitness
 length: 688
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

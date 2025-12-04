@@ -1,16 +1,15 @@
 ---
 title: Epicki BURGER wołowy. Przepis na ekskluzywnego burgera.
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=aGyrmJnQ0_g
-author: "[[Policzona Szama]]"
 published: 2017-04-30
 created: 2025-10-30
 description: Epicki odcinek prezentujący przepis na ekskluzywnego burgera wołowego (z awokado, fetą i szynką szwarcwaldzką), zawierający szczegółową analizę kosztów jego samodzielnego przygotowania w porównaniu do cen restauracyjnych.
 category: Fitness
 length: 869
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

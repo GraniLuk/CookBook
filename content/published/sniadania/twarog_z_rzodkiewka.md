@@ -1,29 +1,38 @@
 ---
-draft: false  
-title: "Domowy Twarożek z Rzodkiewką i Szczypiorkiem"  
-author: "GraniLuk"  
+title: Domowy Twarożek z Rzodkiewką i Szczypiorkiem
+author: GraniLuk
+categories:
+- sniadania
+subcategories:
+- słone
+draft: false
 recipe_image: images/recipe-headers/twarog_z_rzodkiewka.avif
-date: 2025-10-23T11:00:00-00:00  
-categories: ["sniadania"]  
-subcategories: ["słone"]
-tags: ["szybkie", "kanapki"]  
-tagline: "Kremowy domowy twarożek z chrupiącą rzodkiewką i świeżym szczypiorkiem - idealne śniadanie."  
-servings: 5  
-prep_time: 20  
-cook: false  
+date: 2025-10-23 11:00:00+00:00
+tags:
+- szybkie
+- kanapki
+tagline: Kremowy domowy twarożek z chrupiącą rzodkiewką i świeżym szczypiorkiem - idealne śniadanie.
+ingredients:
+- twaróg półtłusty
+- śmietana 18%
+- rzodkiewka
+- szczypiorek
+servings: 5
+prep_time: 20
+cook: false
+cook_time: 15
 calories: 150
 protein: 10
 fat: 8
 carbohydrate: 6
-ingredients: ["twaróg półtłusty", "śmietana 18%", "rzodkiewka", "szczypiorek"]
 fodmap:
-  status: "depends"
-  serving_ok: "OK po modyfikacjach: szczypiorek ≤ 1 łyżka/os.; śmietana bez laktozy"
-  notes: "Twaróg jest niskolaktozowy (OK). Śmietana kwaśna - wybieraj bez laktozy. Szczypiorek w małych ilościach jest bezpieczny (≤1 łyżka). Rzodkiewka jest OK."
+  status: depends
+  serving_ok: 'OK po modyfikacjach: szczypiorek ≤ 1 łyżka/os.; śmietana bez laktozy'
+  notes: Twaróg jest niskolaktozowy (OK). Śmietana kwaśna - wybieraj bez laktozy. Szczypiorek w małych ilościach jest bezpieczny (≤1 łyżka). Rzodkiewka jest OK.
   substitutions:
-    - "śmietana kwaśna 18% -> śmietana bez laktozy lub jogurt grecki bez laktozy"
-    - "szczypiorek -> zielona część dymki lub ograniczyć ilość"
-    - "opcjonalnie: cebula -> całkowicie pominąć lub użyć oleju czosnkowego"
+  - śmietana kwaśna 18% -> śmietana bez laktozy lub jogurt grecki bez laktozy
+  - szczypiorek -> zielona część dymki lub ograniczyć ilość
+  - 'opcjonalnie: cebula -> całkowicie pominąć lub użyć oleju czosnkowego'
 ---
 
 ## Składniki (na około 550g twarożku)

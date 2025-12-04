@@ -1,26 +1,33 @@
 ---
-draft: false  
+title: Szybkie mini serniczki (placuszkami)
+author: Policzona Szama
+categories: śniadania
+draft: false
 readyToTest: true
-title: "Szybkie mini serniczki (placuszkami)"  
-author: "Policzona Szama"  
-recipe_image: images/recipe-headers/mini_serniczki.avif  
-date: 2025-11-29T12:00:00-00:00  
-categories: śniadania  
-tags: ["szybkie", "słodkie"]  
-tagline: "Słodkie placuszki z twarogu smakujące jak sernik, idealne na śniadanie."  
-ingredients: ["twaróg", "jajka", "erytrytol", "rodzynki", "olej kokosowy"]
-servings: 6  
-prep_time: 10  
-cook: true  
-cook_time: 15  
+recipe_image: images/recipe-headers/mini_serniczki.avif
+date: 2025-11-29 12:00:00+00:00
+tags:
+- szybkie
+- słodkie
+tagline: Słodkie placuszki z twarogu smakujące jak sernik, idealne na śniadanie.
+link: https://www.youtube.com/watch?v=oCjBBuNLGpc
+ingredients:
+- twaróg
+- jajka
+- erytrytol
+- rodzynki
+- olej kokosowy
+servings: 6
+prep_time: 10
+cook: true
+cook_time: 15
 calories: 129
 protein: 11
 fat: 7
-carbohydrate: 7 
-link: https://www.youtube.com/watch?v=oCjBBuNLGpc
+carbohydrate: 7
 fodmap:
-  status: "no"
-  notes: "Rodzynki są źródłem FODMAP."
+  status: 'no'
+  notes: Rodzynki są źródłem FODMAP.
 ---
 
 ## Składniki

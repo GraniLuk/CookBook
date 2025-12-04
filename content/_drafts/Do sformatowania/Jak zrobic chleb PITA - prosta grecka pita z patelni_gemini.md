@@ -1,16 +1,15 @@
 ---
 title: Jak zrobić chleb PITA - prosta grecka pita z patelni
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=CeaBvtaZvow
-author: "[[Policzona Szama]]"
 published: 2018-08-20
 created: 2025-10-30
 description: Przepis na greckie chlebki pita, które mają posłużyć jako baza do oczekiwanego dania pita souvlaki/gyros, z dokładnym opisem składników, procesu wyrabiania ciasta i pieczenia na patelni.
 category: Fitness
 length: 912
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

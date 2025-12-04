@@ -1,16 +1,15 @@
 ---
 title: Domowy, zdrowy MAJONEZ taki, że nie kupisz więcej w sklepie - KETO SZAMA
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=mhZA5jPtvEw
-author: "[[Policzona Szama]]"
 published: 2019-04-19
 created: 2025-10-30
 description: Ten odcinek prezentuje przepis na domowy, zdrowy i kremowy majonez, wyjaśniając jednocześnie, dlaczego sklepowe wersje mają złą reputację, oraz szczegółowo omawiając proces jego przygotowania.
 category: Fitness
 length: 798
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

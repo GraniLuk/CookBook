@@ -1,16 +1,15 @@
 ---
 title: JAJKA PO TURECKU - uzależniające śniadanie na szybko
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=q4V8HFqElIs
-author: "[[Policzona Szama]]"
 published: 2021-08-15
 created: 2025-10-26
 description: Odtworzenie zabawnego, pełnego humoru i detali przepisu na *jajka po turecku* z jogurtem Skyr, cytryną i czosnkiem, z dokładnym opisem wszystkich kroków i składników.
 category: Fitness
 length: 722
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ---
 

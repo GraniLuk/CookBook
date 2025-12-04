@@ -1,26 +1,34 @@
 ---
-draft: false  
+title: Wytrawne wrapy twarogowe z łososiem i awokado
+author: Policzona Szama
+categories: śniadania
+draft: false
 readyToTest: true
-title: "Wytrawne wrapy twarogowe z łososiem i awokado"  
-author: "Policzona Szama"  
-recipe_image: images/recipe-headers/wrapy_twarogowe.avif  
-date: 2025-11-29T12:00:00-00:00  
-categories: śniadania  
-tags: ["szybkie", "proteinowe"]  
-tagline: "Wytrawne wrapy z pastą twarogową, łososiem i awokado, idealne na śniadanie do pracy."  
-ingredients: ["twaróg", "serek śmietankowy chrzanowy", "szczypiorek", "łosoś wędzony", "awokado", "tortilla"]
-servings: 4  
-prep_time: 15  
-cook: false  
-cook_time: 0  
+recipe_image: images/recipe-headers/wrapy_twarogowe.avif
+date: 2025-11-29 12:00:00+00:00
+tags:
+- szybkie
+- proteinowe
+tagline: Wytrawne wrapy z pastą twarogową, łososiem i awokado, idealne na śniadanie do pracy.
+link: https://www.youtube.com/watch?v=oCjBBuNLGpc
+ingredients:
+- twaróg
+- serek śmietankowy chrzanowy
+- szczypiorek
+- łosoś wędzony
+- awokado
+- tortilla
+servings: 4
+prep_time: 15
+cook: false
+cook_time: 0
 calories: 381
 protein: 26
 fat: 21
-carbohydrate: 22 
-link: https://www.youtube.com/watch?v=oCjBBuNLGpc
+carbohydrate: 22
 fodmap:
-  status: "yes"
-  notes: "Wszystkie składniki są bezpieczne dla diety low FODMAP."
+  status: 'yes'
+  notes: Wszystkie składniki są bezpieczne dla diety low FODMAP.
 ---
 
 ## Składniki

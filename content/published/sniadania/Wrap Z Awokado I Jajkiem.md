@@ -1,14 +1,23 @@
 ---
+title: Wrap Z Awokado I Jajkiem
+author: Granica
+categories:
+- sniadania
+subcategories:
+- słone
 draft: false
-title: "Wrap Z Awokado I Jajkiem"
-author: "Granica"
 recipe_image: images/recipe-headers/wrap_z_awokado.avif
-video_file: videos/wrap_z_awokado.mp4
-date: 2025-06-18T12:00:00-00:00
-categories: ["sniadania"]
-subcategories: ["słone"]
+date: 2025-06-18 12:00:00+00:00
 tags: []
-tagline: "Zdrowy i sycący wrap z awokado i jajkiem!"
+tagline: Zdrowy i sycący wrap z awokado i jajkiem!
+ingredients:
+- tortilla pełnoziarnista
+- jajka
+- awokado
+- pomidor
+- ser żółty
+- sok z cytryny
+- oliwa z oliwek
 servings: 1
 prep_time: 10
 cook: true
@@ -17,16 +26,14 @@ calories: 141
 protein: 8
 fat: 9
 carbohydrate: 10
-
-ingredients: ["tortilla pełnoziarnista", "jajka", "awokado", "pomidor", "ser żółty", "sok z cytryny", "oliwa z oliwek"]
-
 fodmap:
-  status: "depends"
-  serving_ok: "Zamień tortillę pełnoziarnistą na kukurydzianą"
-  notes: "Awokado, jajka, pomidor są OK. Problem z pełnoziarnistą tortillą"
+  status: depends
+  serving_ok: Zamień tortillę pełnoziarnistą na kukurydzianą
+  notes: Awokado, jajka, pomidor są OK. Problem z pełnoziarnistą tortillą
   substitutions:
-    - "tortilla pełnoziarnista -> tortilla kukurydziana"
-    - "tortilla pszenna -> tortilla ryżowa"
+  - tortilla pełnoziarnista -> tortilla kukurydziana
+  - tortilla pszenna -> tortilla ryżowa
+video_file: videos/wrap_z_awokado.mp4
 ---
 
 ## Składniki

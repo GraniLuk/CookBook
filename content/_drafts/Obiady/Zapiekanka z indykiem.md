@@ -1,3 +1,7 @@
+---
+{}
+---
+
 ﻿---
 draft: false
 readyToTest: true
@@ -80,4 +84,3 @@ fodmap:
 - Za gęste? Dodaj 30–50 ml wody pod koniec duszenia.
 - Wersja z większym białkiem: +100 g indyka, oliwa 10 g.
 - Wersja bez zapiekania: ser dodaj na patelni – szybciej.
-

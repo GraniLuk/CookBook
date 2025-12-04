@@ -1,13 +1,21 @@
 ---
-draft: false
-title: "Chili Con Carne w Instant Pot"
-author: "Autor Przepisu"
-recipe_image: images/recipe-headers/chili-con-carne.avif
-date: 2025-06-18T12:00:00-00:00
+title: Chili Con Carne w Instant Pot
+author: Autor Przepisu
 categories: obiady
-tags: ["instant pot", "meksykańskie"]
-tagline: "TOP Policzonej Szamy – pyszne chili con carne!"
-ingredients: ["wołowina", "cebula", "czosnek", "marchew", "pomidory", "czerwona fasola"]
+draft: false
+recipe_image: images/recipe-headers/chili-con-carne.avif
+date: 2025-06-18 12:00:00+00:00
+tags:
+- instant pot
+- meksykańskie
+tagline: TOP Policzonej Szamy – pyszne chili con carne!
+ingredients:
+- wołowina
+- cebula
+- czosnek
+- marchew
+- pomidory
+- czerwona fasola
 servings: 6
 prep_time: 20
 cook: true
@@ -16,15 +24,14 @@ calories: 332
 protein: 25
 fat: 15
 carbohydrate: 31
-
 fodmap:
-  status: "no"
-  serving_ok: "Unikaj na diecie Low FODMAP"
-  notes: "Cebula i czosnek to główne źródła fruktanów. Czerwona fasola również jest wysokofodmapowa (zwłaszcza w dużej porcji)."
+  status: 'no'
+  serving_ok: Unikaj na diecie Low FODMAP
+  notes: Cebula i czosnek to główne źródła fruktanów. Czerwona fasola również jest wysokofodmapowa (zwłaszcza w dużej porcji).
   substitutions:
-    - "cebula -> zielona część dymki/szczypior"
-    - "czosnek -> olej czosnkowy"
-    - "czerwona fasola -> więcej marchewki lub bataty"
+  - cebula -> zielona część dymki/szczypior
+  - czosnek -> olej czosnkowy
+  - czerwona fasola -> więcej marchewki lub bataty
 ---
 
 ## Składniki

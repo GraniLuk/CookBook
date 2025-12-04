@@ -1,14 +1,22 @@
 ---
+title: Pasta z Piersi z Kurczaka z Suszonymi Pomidorami
+author: Policzona Szama
+categories:
+- sniadania
+subcategories:
+- słone
 draft: false
-title: "Pasta z Piersi z Kurczaka z Suszonymi Pomidorami"
-author: "Policzona Szama"
 recipe_image: images/defaultImage.avif
-date: 2025-08-12T12:00:00-00:00
-categories: ["sniadania"]
-subcategories: ["słone"]
-tags: ["szybkie", "kanapki"]
-tagline: "Kremowa, aromatyczna pasta z piersi kurczaka i suszonych pomidorów – idealna na kanapki lub wafle ryżowe."
-ingredients: ["pierś z kurczaka", "suszone pomidory", "majonez"]
+date: 2025-08-12 12:00:00+00:00
+tags:
+- szybkie
+- kanapki
+tagline: Kremowa, aromatyczna pasta z piersi kurczaka i suszonych pomidorów – idealna na kanapki lub wafle ryżowe.
+link: ''
+ingredients:
+- pierś z kurczaka
+- suszone pomidory
+- majonez
 servings: 1
 prep_time: 5
 cook: true
@@ -18,13 +26,12 @@ protein: 16.6
 fat: 9.1
 carbohydrate: 18.9
 fodmap:
-  status: "yes"
-  serving_ok: "OK przy porcji 1; ogranicz suszone pomidory do 8–12 g"
-  notes: "Bezpieczne: kurczak, wafle ryżowe, majonez bez dodatków. Suszone pomidory tylko w małej porcji; przyprawy bez cebuli/czosnku."
+  status: 'yes'
+  serving_ok: OK przy porcji 1; ogranicz suszone pomidory do 8–12 g
+  notes: 'Bezpieczne: kurczak, wafle ryżowe, majonez bez dodatków. Suszone pomidory tylko w małej porcji; przyprawy bez cebuli/czosnku.'
   substitutions:
-    - "Jogurt bez laktozy zamiast części majonezu (dla lżejszej wersji)."
-    - "Podawaj z pieczywem bezglutenowym/owsianym lub małą porcją chleba orkiszowego na zakwasie."
-link: ""
+  - Jogurt bez laktozy zamiast części majonezu (dla lżejszej wersji).
+  - Podawaj z pieczywem bezglutenowym/owsianym lub małą porcją chleba orkiszowego na zakwasie.
 ---
 
 ## Składniki

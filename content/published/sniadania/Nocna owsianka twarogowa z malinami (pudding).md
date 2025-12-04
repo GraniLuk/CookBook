@@ -1,26 +1,32 @@
 ---
-draft: false  
+title: Nocna owsianka twarogowa z malinami (pudding)
+author: Policzona Szama
+categories: śniadania
+draft: false
 readyToTest: true
-title: "Nocna owsianka twarogowa z malinami (pudding)"  
-author: "Policzona Szama"  
-recipe_image: images/recipe-headers/owsianka_twarogowa_maliny.avif  
-date: 2025-11-29T12:00:00-00:00  
-categories: śniadania  
-tags: ["owsianka"]  
-tagline: "Nocna owsianka z twarogiem i malinami, przygotowana dzień wcześniej."  
-ingredients: ["płatki owsiane", "twaróg", "maliny", "mleko", "chia"]
-servings: 1  
-prep_time: 5  
-cook: false  
-cook_time: 0  
+recipe_image: images/recipe-headers/owsianka_twarogowa_maliny.avif
+date: 2025-11-29 12:00:00+00:00
+tags:
+- owsianka
+tagline: Nocna owsianka z twarogiem i malinami, przygotowana dzień wcześniej.
+link: https://www.youtube.com/watch?v=oCjBBuNLGpc
+ingredients:
+- płatki owsiane
+- twaróg
+- maliny
+- mleko
+- chia
+servings: 1
+prep_time: 5
+cook: false
+cook_time: 0
 calories: 809
 protein: 58
 fat: 27
-carbohydrate: 87 
-link: https://www.youtube.com/watch?v=oCjBBuNLGpc
+carbohydrate: 87
 fodmap:
-  status: "yes"
-  notes: "Wszystkie składniki są bezpieczne dla diety low FODMAP."
+  status: 'yes'
+  notes: Wszystkie składniki są bezpieczne dla diety low FODMAP.
 ---
 
 ## Składniki

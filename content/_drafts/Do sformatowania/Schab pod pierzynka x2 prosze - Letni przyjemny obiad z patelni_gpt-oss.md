@@ -1,16 +1,15 @@
 ---
 title: Schab pod pierzynką x2 proszę - Letni przyjemny obiad z patelni
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=qrJHqXU6T3A
-author: "[[Policzona Szama]]"
 published: 2021-07-15
 created: 2025-10-26
 description: Jednolity, lekki, letni obiad na dwie porcje – ziemniaczane talarki al‑dente z jogurtowo‑feta‑sosem, grillowany schabik pod chmurką mozzarelli i świeżym brokułem, podany w stylu vlogowego kucharza z humorem i Team Kielecki.
 category: Fitness
 length: 843
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ---
 

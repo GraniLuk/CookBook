@@ -1,15 +1,24 @@
 ---
+title: Omlet Marchewkowo-Jabłkowy Pieczony w Pudełku
+author: Policzone Szamy
+categories:
+- sniadania
 draft: false
-title: "Omlet Marchewkowo-Jabłkowy Pieczony w Pudełku"
-author: "Policzone Szamy"
 recipe_image: images/recipe-headers/omlet_marchew_jablko.avif
-image_width: 512
-image_height: 512
-date: 2025-10-28T12:35:00-00:00
-categories: ["sniadania"]
-tags: ["szybkie", "proteinowe"]
-tagline: "Pulchny, aromatyczny omlet marchewkowo-jabłkowy pieczony w lunch boxie – zero dodanego cukru!"
-ingredients: ["jajko", "mleko", "odżywka białkowa", "płatki jaglane", "jabłko", "marchewka", "mąka orkiszowa pełnoziarnista"]
+date: 2025-10-28 12:35:00+00:00
+tags:
+- szybkie
+- proteinowe
+tagline: Pulchny, aromatyczny omlet marchewkowo-jabłkowy pieczony w lunch boxie – zero dodanego cukru!
+link: https://youtu.be/wmM49OvW780?t=267
+ingredients:
+- jajko
+- mleko
+- odżywka białkowa
+- płatki jaglane
+- jabłko
+- marchewka
+- mąka orkiszowa pełnoziarnista
 servings: 1
 prep_time: 10
 cook: true
@@ -19,16 +28,17 @@ calories: 420
 protein: 35
 fat: 11
 carbohydrate: 31
-link: https://youtu.be/wmM49OvW780?t=267
 fodmap:
-  status: "depends"
-  serving_ok: "OK po modyfikacjach: uwaga na mleko, odżywkę i jabłko"
-  notes: "Mleko krowie (laktoza) jest wysokofodmap. Jabłko zawiera fruktozę i sorbitol – bezpieczna porcja to ~20 g (1/4 małego jabłka). W przepisie 60 g jabłka może być za dużo. Marchewka jest niskofodmap. Płatki jaglane są OK. Odżywka białkowa – sprawdź skład (unikaj inuliny, FOS, laktozy)."
+  status: depends
+  serving_ok: 'OK po modyfikacjach: uwaga na mleko, odżywkę i jabłko'
+  notes: Mleko krowie (laktoza) jest wysokofodmap. Jabłko zawiera fruktozę i sorbitol – bezpieczna porcja to ~20 g (1/4 małego jabłka). W przepisie 60 g jabłka może być za dużo. Marchewka jest niskofodmap. Płatki jaglane są OK. Odżywka białkowa – sprawdź skład (unikaj inuliny, FOS, laktozy).
   substitutions:
-    - "mleko krowie -> mleko bezlaktozowe lub mleko roślinne (migdałowe, ryżowe)"
-    - "jabłko -> ogranicz do 20 g lub zamień na jagody (np. borówki ~40 g)"
-    - "odżywka białkowa -> wybierz bez inuliny/FOS, lub zamień na dodatkowe białko jajka"
-    - "mąka orkiszowa -> mąka ryżowa"
+  - mleko krowie -> mleko bezlaktozowe lub mleko roślinne (migdałowe, ryżowe)
+  - jabłko -> ogranicz do 20 g lub zamień na jagody (np. borówki ~40 g)
+  - odżywka białkowa -> wybierz bez inuliny/FOS, lub zamień na dodatkowe białko jajka
+  - mąka orkiszowa -> mąka ryżowa
+image_width: 512
+image_height: 512
 ---
 
 ## Składniki

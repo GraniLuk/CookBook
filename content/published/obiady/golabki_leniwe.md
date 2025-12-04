@@ -1,13 +1,25 @@
 ---
-draft: false
-title: "Gołąbki Leniwe"
-author: "Autor Przepisu"
-recipe_image: images/recipe-headers/golabkiLeniwe.avif
-date: 2025-06-18T12:00:00-00:00
+title: Gołąbki Leniwe
+author: Autor Przepisu
 categories: obiady
-tags: ["instant pot", "Stefan"]
-tagline: "Pyszne gołąbki bez zawijania!"
-ingredients: ["mięso mielone", "kapusta biała", "jajko", "papryka słodka", "koncentrat pomidorowy", "czosnek", "passata pomidorowa", "koperek", "liść laurowy", "śmietana 30%"]
+draft: false
+recipe_image: images/recipe-headers/golabkiLeniwe.avif
+date: 2025-06-18 12:00:00+00:00
+tags:
+- instant pot
+- Stefan
+tagline: Pyszne gołąbki bez zawijania!
+ingredients:
+- mięso mielone
+- kapusta biała
+- jajko
+- papryka słodka
+- koncentrat pomidorowy
+- czosnek
+- passata pomidorowa
+- koperek
+- liść laurowy
+- śmietana 30%
 servings: 9
 prep_time: 20
 cook: true
@@ -16,15 +28,14 @@ calories: 82
 protein: 5
 fat: 5
 carbohydrate: 4
-
 fodmap:
-  status: "depends"
-  serving_ok: "OK po modyfikacjach: bez czosnku; śmietana bez laktozy; kapusta w umiarkowanej porcji (~75–90 g/porcję)"
-  notes: "Czosnek (fruktany) jest niewskazany, śmietana zawiera laktozę. Kapusta biała jest akceptowalna w małej/umiarkowanej porcji."
+  status: depends
+  serving_ok: 'OK po modyfikacjach: bez czosnku; śmietana bez laktozy; kapusta w umiarkowanej porcji (~75–90 g/porcję)'
+  notes: Czosnek (fruktany) jest niewskazany, śmietana zawiera laktozę. Kapusta biała jest akceptowalna w małej/umiarkowanej porcji.
   substitutions:
-    - "czosnek -> olej czosnkowy (bez cząstek)"
-    - "śmietana 30% -> śmietanka bez laktozy lub pominąć"
-    - "duża ilość kapusty -> mniejsza porcja kapusty + więcej mięsa/sosu pomidorowego"
+  - czosnek -> olej czosnkowy (bez cząstek)
+  - śmietana 30% -> śmietanka bez laktozy lub pominąć
+  - duża ilość kapusty -> mniejsza porcja kapusty + więcej mięsa/sosu pomidorowego
 ---
 
 ## Składniki

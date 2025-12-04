@@ -1,16 +1,15 @@
 ---
 title: Placki z WĄTRÓBKI Drobiowej - LunchBOX / 505 kcal
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=YdDj4prCq_Q
-author: "[[Policzona Szama]]"
 published: 2019-01-31
 created: 2025-10-30
 description: Przepis na cztery pożywne i tanie posiłki typu „meal prep” (boksy) z plackami z wątróbki drobiowej, kremowym sosem kalafiorowo-czosnkowym i brukselką.
 category: Fitness
 length: 942
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

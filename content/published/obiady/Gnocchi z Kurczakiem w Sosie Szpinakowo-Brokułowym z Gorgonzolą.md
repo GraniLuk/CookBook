@@ -1,13 +1,25 @@
 ---
-draft: false
-title: "Gnocchi z Kurczakiem w Sosie Szpinakowo-Brokułowym z Gorgonzolą"
-author: "Policzona Szama"
-recipe_image: images/recipe-headers/gnocchi_kurczak_brokul.avif
-date: 2025-10-27T12:00:00-00:00
+title: Gnocchi z Kurczakiem w Sosie Szpinakowo-Brokułowym z Gorgonzolą
+author: Policzona Szama
 categories: obiady
-tags: ["włoskie", "szybkie"]
-tagline: "Anaboliczne gnocchi w kremowym, zielonym sosie z kurczakiem, brokułem i gorgonzolą."
-ingredients: ["gnocchi", "pierś z kurczaka", "szpinak", "brokuł", "ser gorgonzola", "śmietana 12%", "suszone pomidory", "oliwa z oliwek", "cebula"]
+draft: false
+recipe_image: images/recipe-headers/gnocchi_kurczak_brokul.avif
+date: 2025-10-27 12:00:00+00:00
+tags:
+- włoskie
+- szybkie
+tagline: Anaboliczne gnocchi w kremowym, zielonym sosie z kurczakiem, brokułem i gorgonzolą.
+link: https://www.youtube.com/watch?v=iK4ab0eXFJY
+ingredients:
+- gnocchi
+- pierś z kurczaka
+- szpinak
+- brokuł
+- ser gorgonzola
+- śmietana 12%
+- suszone pomidory
+- oliwa z oliwek
+- cebula
 servings: 4
 prep_time: 20
 cook: true
@@ -16,16 +28,15 @@ calories: 131
 protein: 11
 fat: 5
 carbohydrate: 10
-link: https://www.youtube.com/watch?v=iK4ab0eXFJY
 fodmap:
-  status: "no"
-  serving_ok: "Nie – zawiera cebulę, czosnek oraz pszenne/winne składniki w gnocchi."
-  notes: "Cebula i czosnek są wysokie w fruktanach; gotowe gnocchi często zawierają mąkę pszenną. Suszone pomidory w >30 g też zwiększają FODMAP. Danie nie kwalifikuje się jako low FODMAP w standardowej porcji."
+  status: 'no'
+  serving_ok: Nie – zawiera cebulę, czosnek oraz pszenne/winne składniki w gnocchi.
+  notes: Cebula i czosnek są wysokie w fruktanach; gotowe gnocchi często zawierają mąkę pszenną. Suszone pomidory w >30 g też zwiększają FODMAP. Danie nie kwalifikuje się jako low FODMAP w standardowej porcji.
   substitutions:
-    - "Zastąp cebulę zieloną częścią szczypiorku."
-    - "Usuń czosnek lub użyj oleju czosnkowego (infused)."
-    - "Użyj gnocchi z mąki ryżowej / bezglutenowej."
-    - "Ogranicz suszone pomidory do ~15 g lub pomiń."
+  - Zastąp cebulę zieloną częścią szczypiorku.
+  - Usuń czosnek lub użyj oleju czosnkowego (infused).
+  - Użyj gnocchi z mąki ryżowej / bezglutenowej.
+  - Ogranicz suszone pomidory do ~15 g lub pomiń.
 ---
 
 ## Składniki (4 porcje)

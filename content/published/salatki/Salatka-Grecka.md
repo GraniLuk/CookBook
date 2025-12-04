@@ -1,27 +1,34 @@
 ---
-draft: false
-title: "Sałatka Grecka"
-author: "Autor Przepisu"
-recipe_image: images/defaultImage.avif
-date: 2025-06-18T12:00:00-00:00
+title: Sałatka Grecka
+author: Autor Przepisu
 categories: salatki
+draft: false
+recipe_image: images/defaultImage.avif
+date: 2025-06-18 12:00:00+00:00
 tags: []
-tagline: "Lekka i sycąca sałatka grecka na kolację!"
-ingredients: ["pomidory", "ogórek", "cebula czerwona", "ser feta", "oliwki", "oliwa z oliwek", "ocet winny"]
+tagline: Lekka i sycąca sałatka grecka na kolację!
+ingredients:
+- pomidory
+- ogórek
+- cebula czerwona
+- ser feta
+- oliwki
+- oliwa z oliwek
+- ocet winny
 servings: 3
 prep_time: 15
 cook: false
+cook_time: 15
 calories: 86
 protein: 3
 fat: 6
 carbohydrate: 5
-
 fodmap:
-  status: "depends"
-  serving_ok: "OK po modyfikacjach: bez czerwonej cebuli; feta w małej porcji (~30–40 g/os.)"
-  notes: "Pomidory, ogórek, oliwki są zwykle dobrze tolerowane. Czerwona cebula jest wysokofodmapowa – zamień na szczypiorek. Feta bywa akceptowalna w małej porcji."
+  status: depends
+  serving_ok: 'OK po modyfikacjach: bez czerwonej cebuli; feta w małej porcji (~30–40 g/os.)'
+  notes: Pomidory, ogórek, oliwki są zwykle dobrze tolerowane. Czerwona cebula jest wysokofodmapowa – zamień na szczypiorek. Feta bywa akceptowalna w małej porcji.
   substitutions:
-    - "czerwona cebula -> szczypiorek/zielona część dymki"
+  - czerwona cebula -> szczypiorek/zielona część dymki
 ---
 
 ## Składniki

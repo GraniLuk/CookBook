@@ -1,14 +1,20 @@
 ---
+title: Jajecznica Ze Szpinakiem
+author: Stefan
+categories:
+- sniadania
+subcategories:
+- słone
 draft: false
-title: "Jajecznica Ze Szpinakiem"
-author: "Stefan"
 recipe_image: images/recipe-headers/jajecznica_z_szpinakiem.avif
-date: 2025-06-18T12:00:00-00:00
-categories: ["sniadania"]
-subcategories: ["słone"]
+date: 2025-06-18 12:00:00+00:00
 tags: []
-tagline: "Zdrowa jajecznica ze szpinakiem na śniadanie!"
-ingredients: ["jajka", "szpinak", "czosnek", "masło"]
+tagline: Zdrowa jajecznica ze szpinakiem na śniadanie!
+ingredients:
+- jajka
+- szpinak
+- czosnek
+- masło
 servings: 1
 prep_time: 5
 cook: true
@@ -17,16 +23,15 @@ calories: 144
 protein: 10
 fat: 10
 carbohydrate: 2
-
 fodmap:
-  status: "depends"
-  serving_ok: "OK po modyfikacjach: bez czosnku; pieczywo bez pszenicy; awokado ≤ 30 g; pomidorki ≤ 5 szt."
-  notes: "Czosnek (fruktany) niewskazany – użyj oleju czosnkowego. Pieczywo pszenne zawiera fruktany – wybierz bezglutenowe. Awokado tylko w małej porcji. Szpinak i jajka są bezpieczne."
+  status: depends
+  serving_ok: 'OK po modyfikacjach: bez czosnku; pieczywo bez pszenicy; awokado ≤ 30 g; pomidorki ≤ 5 szt.'
+  notes: Czosnek (fruktany) niewskazany – użyj oleju czosnkowego. Pieczywo pszenne zawiera fruktany – wybierz bezglutenowe. Awokado tylko w małej porcji. Szpinak i jajka są bezpieczne.
   substitutions:
-    - "czosnek -> olej czosnkowy lub pominąć"
-    - "cebula w dodatkach -> szczypiorek/ziele dymki"
-    - "chleb pszenny -> pieczywo bezglutenowe"
-    - "awokado (do podania) -> ≤ 30 g lub pominąć"
+  - czosnek -> olej czosnkowy lub pominąć
+  - cebula w dodatkach -> szczypiorek/ziele dymki
+  - chleb pszenny -> pieczywo bezglutenowe
+  - awokado (do podania) -> ≤ 30 g lub pominąć
 ---
 
 ## Składniki

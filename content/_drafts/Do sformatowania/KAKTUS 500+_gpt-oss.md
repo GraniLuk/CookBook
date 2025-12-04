@@ -1,16 +1,15 @@
 ---
 title: KAKTUS 500+
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=h2HjSR16OCs
-author: "[[Policzona Szama]]"
 published: 2021-06-29
 created: 2025-10-26
 description: Rozkładany, zabawny poradnik na przygotowanie trzech warstwowych lodów typu “kaktus” z ananasem, truskawkami i pomarańczą, z dodatkiem izotonika, erytrytolu oraz zielonego barwnika, w którym autor opisuje krok po kroku każdy etap, od zamrażania owoców po finałowe polewy, zachowując pełny humor i detale.
 category: Fitness
 length: 800
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ---
 

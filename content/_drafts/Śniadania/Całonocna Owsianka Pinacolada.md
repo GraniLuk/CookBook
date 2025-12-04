@@ -1,15 +1,24 @@
 ---
+title: Całonocna Owsianka Pinacolada
+author: Policzone Szamy
+categories: śniadania
 draft: false
 readyToTest: true
-title: "Całonocna Owsianka Pinacolada"
-author: "Policzone Szamy"
 recipe_image: images/recipe-headers/calonocna_owsianka_pinacolada.avif
+date: 2025-11-01 12:00:00+00:00
+tags:
+- szybkie
+- tropikalne
+- owsianka
+tagline: Orzeźwiająca całonocna owsianka z nutą pinacolady, pełna białka i witamin.
 link: https://www.youtube.com/watch?v=2oRiIWljFJo
-date: 2025-11-01T12:00:00-00:00
-categories: śniadania
-tags: ["szybkie", "tropikalne", "owsianka"]
-tagline: "Orzeźwiająca całonocna owsianka z nutą pinacolady, pełna białka i witamin."
-ingredients: ["płatki owsiane", "ananas", "odżywka białkowa", "jogurt naturalny", "wiórki kokosowe", "mleko sojowe"]
+ingredients:
+- płatki owsiane
+- ananas
+- odżywka białkowa
+- jogurt naturalny
+- wiórki kokosowe
+- mleko sojowe
 servings: 1
 prep_time: 10
 cook: false
@@ -19,9 +28,9 @@ protein: 40
 fat: 18
 carbohydrate: 90
 fodmap:
-  status: "yes"
-  serving_ok: "OK w tej porcji"
-  notes: "Ananas w małych ilościach jest bezpieczny dla low FODMAP; płatki owsiane, odżywka białkowa, jogurt, wiórki kokosowe i mleko sojowe są zgodne."
+  status: 'yes'
+  serving_ok: OK w tej porcji
+  notes: Ananas w małych ilościach jest bezpieczny dla low FODMAP; płatki owsiane, odżywka białkowa, jogurt, wiórki kokosowe i mleko sojowe są zgodne.
   substitutions: []
 ---
 

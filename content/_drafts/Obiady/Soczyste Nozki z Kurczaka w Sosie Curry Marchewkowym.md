@@ -1,16 +1,23 @@
 ---
+title: Soczyste Nóżki z Kurczaka w Marchewkowym Sosie Curry (3 Lunch Boxy)
+author: Policzone Szamy
+categories: obiady
 draft: false
 readyToTest: true
-title: "Soczyste Nóżki z Kurczaka w Marchewkowym Sosie Curry (3 Lunch Boxy)"
-author: "Policzone Szamy"
 recipe_image: images/recipe-headers/nozki_kurczak_curry_marchew.avif
-image_width: 512
-image_height: 512
-date: 2025-10-28T12:00:00-00:00
-categories: obiady
-tags: ["lunchbox", "pikantne"]
-tagline: "Aromatyczne, soczyste nóżki z kurczaka duszone w słodko‑pikantnym marchewkowym sosie curry z limonką i miodem."
-ingredients: ["kurczak nóżki", "marchewka", "olej ryżowy", "oliwa z oliwek", "pasta curry", "miód"]
+date: 2025-10-28 12:00:00+00:00
+tags:
+- lunchbox
+- pikantne
+tagline: Aromatyczne, soczyste nóżki z kurczaka duszone w słodko‑pikantnym marchewkowym sosie curry z limonką i miodem.
+link: https://www.youtube.com/watch?v=Dit-aCe7DTU
+ingredients:
+- kurczak nóżki
+- marchewka
+- olej ryżowy
+- oliwa z oliwek
+- pasta curry
+- miód
 servings: 3
 prep_time: 15
 cook: true
@@ -20,16 +27,17 @@ calories: 539
 protein: 46.4
 fat: 30.3
 carbohydrate: 20.7
-link: https://www.youtube.com/watch?v=Dit-aCe7DTU
 fodmap:
-  status: "depends"
-  serving_ok: "OK po modyfikacjach: bez cebuli/czosnku; miód ≤ 5 g/porcję lub zamiana; zachowaj limonkę"
-  notes: "Cebula, czosnek i miód są wysokofodmapowe (fruktany, fruktoza). Marchewka i kurczak są niskofodmap. Aby dostosować: użyj oleju czosnkowego (bez cząstek), zielone części dymki zamiast cebuli, ogranicz/usuń miód (zamień na syrop klonowy ≤ 1 łyżeczka). Pasta curry często zawiera cebulę/czosnek – wybierz wersję bez nich lub przygotuj własną mieszankę (imbir, kurkuma, chili, kolendra)."
+  status: depends
+  serving_ok: 'OK po modyfikacjach: bez cebuli/czosnku; miód ≤ 5 g/porcję lub zamiana; zachowaj limonkę'
+  notes: 'Cebula, czosnek i miód są wysokofodmapowe (fruktany, fruktoza). Marchewka i kurczak są niskofodmap. Aby dostosować: użyj oleju czosnkowego (bez cząstek), zielone części dymki zamiast cebuli, ogranicz/usuń miód (zamień na syrop klonowy ≤ 1 łyżeczka). Pasta curry często zawiera cebulę/czosnek – wybierz wersję bez nich lub przygotuj własną mieszankę (imbir, kurkuma, chili, kolendra).'
   substitutions:
-    - "czosnek -> olej czosnkowy (infuzja bez cząstek)"
-    - "cebula -> zielona część dymki / szczypior"
-    - "miód -> syrop klonowy ≤ 5 g lub kilka kropel stevii"
-    - "pasta curry z cebulą/czosnkiem -> mieszanka przypraw własna (kurkuma, chili, kolendra, gorczyca)"
+  - czosnek -> olej czosnkowy (infuzja bez cząstek)
+  - cebula -> zielona część dymki / szczypior
+  - miód -> syrop klonowy ≤ 5 g lub kilka kropel stevii
+  - pasta curry z cebulą/czosnkiem -> mieszanka przypraw własna (kurkuma, chili, kolendra, gorczyca)
+image_width: 512
+image_height: 512
 ---
 
 ## Składniki

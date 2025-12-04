@@ -1,15 +1,22 @@
 ---
+title: Kanapka z Jajkiem Sadzonym i Pomidorkami
+author: Policzone Szamy
+categories:
+- sniadania
 draft: false
-title: "Kanapka z Jajkiem Sadzonym i Pomidorkami"
-author: "Policzone Szamy"
+readyToTest: true
 recipe_image: images/recipe-headers/kanapka_jajko_sadzone.avif
-image_width: 512
-image_height: 512
-date: 2025-10-28T13:05:00-00:00
-categories: ["sniadania"]
-tags: ["kanapki", "szybkie"]
-tagline: "Klasyczna kanapka z jajkiem sadzonym, serkiem śmietankowym i świeżymi pomidorkami – gotowa w 10 minut!"
-ingredients: ["jajko", "bułka pełnoziarnista", "serek śmietankowy", "pomidorki koktajlowe"]
+date: 2025-10-28 13:05:00+00:00
+tags:
+- kanapki
+- szybkie
+tagline: Klasyczna kanapka z jajkiem sadzonym, serkiem śmietankowym i świeżymi pomidorkami – gotowa w 10 minut!
+link: https://youtu.be/3qI4Y5dRumA?t=62
+ingredients:
+- jajko
+- bułka pełnoziarnista
+- serek śmietankowy
+- pomidorki koktajlowe
 servings: 1
 prep_time: 5
 cook: true
@@ -19,15 +26,15 @@ calories: 380
 protein: 18
 fat: 16
 carbohydrate: 40
-link: https://youtu.be/3qI4Y5dRumA?t=62
-readyToTest: true
 fodmap:
-  status: "depends"
-  serving_ok: "OK po modyfikacjach: uwaga na bułkę pełnoziarnistą"
-  notes: "Bułka pełnoziarnista (pszenica) zawiera gluten i fruktany – może być problematyczna. Jajka, serek śmietankowy (laktozowy, ale w małej ilości) i pomidorki koktajlowe są niskofodmap."
+  status: depends
+  serving_ok: 'OK po modyfikacjach: uwaga na bułkę pełnoziarnistą'
+  notes: Bułka pełnoziarnista (pszenica) zawiera gluten i fruktany – może być problematyczna. Jajka, serek śmietankowy (laktozowy, ale w małej ilości) i pomidorki koktajlowe są niskofodmap.
   substitutions:
-    - "bułka pełnoziarnista -> bułka bezglutenowa lub chleb ryżowy"
-    - "serek śmietankowy -> serek bezlaktozowy lub humus"
+  - bułka pełnoziarnista -> bułka bezglutenowa lub chleb ryżowy
+  - serek śmietankowy -> serek bezlaktozowy lub humus
+image_width: 512
+image_height: 512
 ---
 
 ## Składniki

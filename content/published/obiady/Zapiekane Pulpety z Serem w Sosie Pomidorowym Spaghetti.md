@@ -1,14 +1,29 @@
 ---
+title: Zapiekane Pulpety z Serem w Sosie Pomidorowym Spaghetti
+author: Policzone Szamy
+categories: obiady
 draft: false
 readyToTest: true
-title: "Zapiekane Pulpety z Serem w Sosie Pomidorowym Spaghetti"
-author: "Policzone Szamy"
 recipe_image: images/recipe-headers/zapiekane_pulpety_ser_sos_spaghetti.avif
-date: 2025-11-01T12:00:00-00:00
-categories: obiady
-tags: ["włoskie", "szybkie"]
-tagline: "Domowe pulpety w sosie spaghetti z mozzarellą, idealne na rodzinny obiad."
-ingredients: ["wieprzowina", "jajko", "cebula", "bułka tarta", "mleko", "parmezan", "mozzarella", "natka pietruszki", "czosnek", "passata pomidorowa", "koncentrat pomidorowy", "spaghetti"]
+date: 2025-11-01 12:00:00+00:00
+tags:
+- włoskie
+- szybkie
+tagline: Domowe pulpety w sosie spaghetti z mozzarellą, idealne na rodzinny obiad.
+link: https://www.youtube.com/watch?v=G0zUrkRnMI4
+ingredients:
+- wieprzowina
+- jajko
+- cebula
+- bułka tarta
+- mleko
+- parmezan
+- mozzarella
+- natka pietruszki
+- czosnek
+- passata pomidorowa
+- koncentrat pomidorowy
+- spaghetti
 servings: 3
 prep_time: 20
 cook: true
@@ -17,12 +32,12 @@ calories: 650
 protein: 45
 fat: 25
 carbohydrate: 60
-link: https://www.youtube.com/watch?v=G0zUrkRnMI4
 fodmap:
-  status: "no"
-  serving_ok: "Nie OK w tej porcji"
-  notes: "Cebula i czosnek są wysokofodmapowe; reszta składników jest bezpieczna."
-  substitutions: ["Zastąp cebulę i czosnek porami lub szczypiorkiem dla wersji low FODMAP."]
+  status: 'no'
+  serving_ok: Nie OK w tej porcji
+  notes: Cebula i czosnek są wysokofodmapowe; reszta składników jest bezpieczna.
+  substitutions:
+  - Zastąp cebulę i czosnek porami lub szczypiorkiem dla wersji low FODMAP.
 ---
 
 ## Składniki

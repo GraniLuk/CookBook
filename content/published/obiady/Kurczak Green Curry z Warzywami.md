@@ -1,15 +1,24 @@
 ---
-draft: false
-title: "Kurczak Green Curry z Warzywami i Ryżem (2 Porcje)"
-author: "Policzone Szamy"
-recipe_image: images/recipe-headers/kurczak_green_curry.avif
-image_width: 512
-image_height: 512
-date: 2025-10-28T13:00:00-00:00
+title: Kurczak Green Curry z Warzywami i Ryżem (2 Porcje)
+author: Policzone Szamy
 categories: obiady
-tags: ["szybkie", "pikantne"]
-tagline: "Aromatyczny, pikantny kurczak Green Curry smażony w woku z zielonymi warzywami – azjatyckie doznania smakowe!"
-ingredients: ["kurczak", "pasta green curry", "mleko kokosowe", "ryż basmati", "brokuł", "fasolka szparagowa", "groszek cukrowy"]
+draft: false
+readyToTest: true
+recipe_image: images/recipe-headers/kurczak_green_curry.avif
+date: 2025-10-28 13:00:00+00:00
+tags:
+- szybkie
+- pikantne
+tagline: Aromatyczny, pikantny kurczak Green Curry smażony w woku z zielonymi warzywami – azjatyckie doznania smakowe!
+link: https://www.youtube.com/watch?v=zlV-lx2cuts
+ingredients:
+- kurczak
+- pasta green curry
+- mleko kokosowe
+- ryż basmati
+- brokuł
+- fasolka szparagowa
+- groszek cukrowy
 servings: 2
 prep_time: 15
 cook: true
@@ -19,18 +28,18 @@ calories: 580
 protein: 42
 fat: 25
 carbohydrate: 67
-readyToTest: true
-link: https://www.youtube.com/watch?v=zlV-lx2cuts
 fodmap:
-  status: "depends"
-  serving_ok: "OK po modyfikacjach: uwaga na czosnek, cebulę, pastę curry, brokuł"
-  notes: "Pasta Green Curry zazwyczaj zawiera czosnek, szalotkę, trawę cytrynową (OK), chili (OK). Czosnek i cebula (szczypior) to fruktany. Brokuł – bezpieczna porcja tylko główki (różyczki) ~75 g. Groszek cukrowy (strączki) są OK do ~10 strączków. Mleko kokosowe ≤60 ml/porcję."
+  status: depends
+  serving_ok: 'OK po modyfikacjach: uwaga na czosnek, cebulę, pastę curry, brokuł'
+  notes: Pasta Green Curry zazwyczaj zawiera czosnek, szalotkę, trawę cytrynową (OK), chili (OK). Czosnek i cebula (szczypior) to fruktany. Brokuł – bezpieczna porcja tylko główki (różyczki) ~75 g. Groszek cukrowy (strączki) są OK do ~10 strączków. Mleko kokosowe ≤60 ml/porcję.
   substitutions:
-    - "czosnek -> olej czosnkowy (infuzja)"
-    - "szczypior -> zielona część dymki (tylko zielone)"
-    - "pasta curry z czosnkiem/szalotką -> własna mieszanka (zielone chili, trawa cytrynowa, imbir, kolendra, kurkuma)"
-    - "brokuł -> ogranicz do różyczek ~75 g lub zamień na bok choy"
-    - "mleko kokosowe -> ogranicz do 60 ml/porcję"
+  - czosnek -> olej czosnkowy (infuzja)
+  - szczypior -> zielona część dymki (tylko zielone)
+  - pasta curry z czosnkiem/szalotką -> własna mieszanka (zielone chili, trawa cytrynowa, imbir, kolendra, kurkuma)
+  - brokuł -> ogranicz do różyczek ~75 g lub zamień na bok choy
+  - mleko kokosowe -> ogranicz do 60 ml/porcję
+image_width: 512
+image_height: 512
 ---
 
 ## Składniki

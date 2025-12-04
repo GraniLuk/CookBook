@@ -1,14 +1,21 @@
 ---
+title: Naleśniki
+author: Autor Przepisu
+categories:
+- sniadania
+subcategories:
+- słodkie
 draft: false
-title: "Naleśniki"
-author: "Autor Przepisu"
 recipe_image: images/recipe-headers/nalesniki.avif
-date: 2025-06-19T12:00:00-00:00
-categories: ["sniadania"]
-subcategories: ["słodkie"]
-tags: ["klasyczne"]
-tagline: "Klasyczne naleśniki na każdą okazję!"
-ingredients: ["mąka pszenna", "mleko", "jajka", "olej"]
+date: 2025-06-19 12:00:00+00:00
+tags:
+- klasyczne
+tagline: Klasyczne naleśniki na każdą okazję!
+ingredients:
+- mąka pszenna
+- mleko
+- jajka
+- olej
 servings: 8
 prep_time: 10
 cook: true
@@ -17,14 +24,13 @@ calories: 144
 protein: 5
 fat: 6
 carbohydrate: 17
-
 fodmap:
-  status: "no"
-  serving_ok: "Unikaj na diecie Low FODMAP"
-  notes: "Mąka pszenna zawiera gluten i fruktany. Nie jest odpowiednia na diecie Low FODMAP."
+  status: 'no'
+  serving_ok: Unikaj na diecie Low FODMAP
+  notes: Mąka pszenna zawiera gluten i fruktany. Nie jest odpowiednia na diecie Low FODMAP.
   substitutions:
-    - "mąka pszenna -> mąka ryżowa lub mąka ziemniaczana"
-    - "mleko -> mleko bezlaktozowe lub mleko ryżowe"
+  - mąka pszenna -> mąka ryżowa lub mąka ziemniaczana
+  - mleko -> mleko bezlaktozowe lub mleko ryżowe
 ---
 
 ## Składniki

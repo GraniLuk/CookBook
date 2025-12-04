@@ -1,14 +1,23 @@
 ---
+title: Placki Bananowo-Czekoladowe z Cynamonem
+author: Policzona Szama
+categories: śniadania
 draft: false
 readyToTest: true
-title: "Placki Bananowo-Czekoladowe z Cynamonem"
-author: "Policzona Szama"
 recipe_image: images/recipe-headers/placki_banan_czekolada.avif
-date: 2025-10-31T12:00:00-00:00
-categories: śniadania
-tags: ["szybkie", "przekąska"]
-tagline: "Słodkie, puszyste placki bananowe z czekoladą i cynamonem, proste do przygotowania."
-ingredients: ["banan", "czekolada", "płatki jaglane", "ser wiejski", "jajko", "oliwa z oliwek"]
+date: 2025-10-31 12:00:00+00:00
+tags:
+- szybkie
+- przekąska
+tagline: Słodkie, puszyste placki bananowe z czekoladą i cynamonem, proste do przygotowania.
+link: https://www.youtube.com/watch?v=7WBWsXO6G3g
+ingredients:
+- banan
+- czekolada
+- płatki jaglane
+- ser wiejski
+- jajko
+- oliwa z oliwek
 servings: 4
 prep_time: 10
 cook: true
@@ -17,11 +26,10 @@ calories: 200
 protein: 7
 fat: 8
 carbohydrate: 25
-link: https://www.youtube.com/watch?v=7WBWsXO6G3g
 fodmap:
-  status: "yes"
-  serving_ok: "OK w tej porcji"
-  notes: "Wszystkie składniki są bezpieczne w umiarkowanych ilościach."
+  status: 'yes'
+  serving_ok: OK w tej porcji
+  notes: Wszystkie składniki są bezpieczne w umiarkowanych ilościach.
   substitutions: []
 ---
 

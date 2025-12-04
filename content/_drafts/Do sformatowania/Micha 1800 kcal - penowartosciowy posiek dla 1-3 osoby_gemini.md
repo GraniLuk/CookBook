@@ -1,16 +1,15 @@
 ---
 title: Micha 1800 kcal - pełnowartościowy posiłek dla 1-3 osoby
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=YNY0H8Eoves
-author: "[[Policzona Szama]]"
 published: 2019-12-08
 created: 2025-10-27
 description: Szczegółowy przepis na „Michę Mocy”, czyli wysokobiałkowy i kaloryczny posiłek składający się z indyka w sosie śmietanowo-musztardowym chili, maślano-czosnkowych pieczarek, ryżu basmati i brokułów, możliwy do przygotowania jednocześnie na jednej kuchence.
 category: Fitness
 length: 878
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ---
 

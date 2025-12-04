@@ -1,16 +1,15 @@
 ---
 title: Azjatycki POMARAŃCZOWY Kurczak - Orange Chicken NISKOTŁUSZCZOWY
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=DHsnBStnkl4
-author: "[[Policzona Szama]]"
 published: 2019-09-02
 created: 2025-10-27
 description: Przepis na błyskawicznego, niskotłuszczowego i wysokowęglowodanowego kurczaka pomarańczowego (Orange Chicken), idealnego jako posiłek potreningowy, zawierający szczegółowe instrukcje przygotowania marynaty, sosu i finalnej obróbki w 11 minut.
 category: Fitness
 length: 656
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

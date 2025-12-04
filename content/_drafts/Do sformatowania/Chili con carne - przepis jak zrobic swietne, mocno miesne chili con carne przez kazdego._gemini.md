@@ -1,16 +1,15 @@
 ---
 title: Chili con carne - przepis jak zrobić świetne, mocno mięsne chili con carne przez każdego.
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=fL9ecMblENY
-author: "[[Policzona Szama]]"
 published: 2017-04-08
 created: 2025-10-30
 description: Szczegółowy i prosty przepis na epickie, pożywne Chili con Carne z wołowiną i wieprzowiną, charakteryzujący się szybkością i łatwością wykonania.
 category: Fitness
 length: 875
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

@@ -1,16 +1,15 @@
 ---
 title: Zdrowa BLACHA - Warzywa z piekarnika + kurczak / LunchBOX na 3 dni
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=s7dKmwS_bcY
-author: "[[Policzona Szama]]"
 published: 2019-11-03
 created: 2025-10-27
 description: Szczegółowy przepis na przygotowanie trzech pełnowartościowych, wysokobiałkowych i niskotłuszczowych zestawów obiadowych (lunch boxów) z pieczonym kurczakiem, batatami, brokułami i cebulą, zorganizowany w prosty proces pieczenia.
 category: Fitness
 length: 1086
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

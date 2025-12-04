@@ -1,16 +1,15 @@
 ---
 title: Proste KOTLETY rybne - Pyszne Medaliony z piekarnika
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=D7anWBaBDd0
-author: "[[Policzona Szama]]"
 published: 2019-11-28
 created: 2025-10-27
 description: Szczegółowy przepis kulinarny na niskotłuszczowe, chrupiące z zewnątrz i soczyste w środku medaliony rybne (kotlety) pieczone w piekarniku, idealne do przygotowania posiłków (boss) i spożywania na zimno.
 category: Fitness
 length: 800
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ---
 

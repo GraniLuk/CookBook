@@ -1,16 +1,15 @@
 ---
 title: Jak zrobić idealne BUŁKI do HAMBURGERÓW
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=JL4jyt-LbWI
-author: "[[Policzona Szama]]"
 published: 2021-05-12
 created: 2025-10-26
 description: Przyjazny, humorystyczny poradnik krok po kroku, jak zrobić domowe, maślane bułki hamburgerowe do McChickena, z pełnym opisem składników, technik wyrabiania, podnoszenia, smarowania, pieczenia i końcowej prezentacji, zachowując wszystkie detale i oryginalny styl wypowiedzi.
 category: Fitness
 length: 556
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ---
 

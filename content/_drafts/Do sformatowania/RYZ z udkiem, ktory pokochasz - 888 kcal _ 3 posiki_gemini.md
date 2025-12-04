@@ -1,16 +1,15 @@
 ---
 title: RYŻ z udkiem, który pokochasz - 888 kcal / 3 posiłki
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=qzggp-NjH0M
-author: "[[Policzona Szama]]"
 published: 2019-01-07
 created: 2025-10-30
 description: Szczegółowy poradnik kulinarny dotyczący przygotowania w piekarniku soczystych udek z kurczaka serwowanych z rewelacyjnym, maślanym ryżem i prostą, kwaskową surówką, idealnych do pudełkowania.
 category: Fitness
 length: 817
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

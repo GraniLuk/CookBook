@@ -1,3 +1,7 @@
+---
+{}
+---
+
 ﻿---
 draft: true
 title: "Recipe Book: _Kolorowe Obiady i Lunchboxy_"

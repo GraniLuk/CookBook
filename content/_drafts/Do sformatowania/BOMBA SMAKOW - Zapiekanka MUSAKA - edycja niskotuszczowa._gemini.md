@@ -1,16 +1,15 @@
 ---
 title: BOMBA SMAKÓW - Zapiekanka MUSAKA - edycja niskotłuszczowa.
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=cbjp8b_gH1I
-author: "[[Policzona Szama]]"
 published: 2020-06-18
 created: 2025-10-27
-description: "Szczegółowy, instruktażowy przepis kulinarny na grecką musakę w wersji fit, składającą się z trzech warstw: pieczonych ziemniaków z bakłażanem, mięsnego farszu w sosie pomidorowym oraz beszamelu z parmezanem."
+description: 'Szczegółowy, instruktażowy przepis kulinarny na grecką musakę w wersji fit, składającą się z trzech warstw: pieczonych ziemniaków z bakłażanem, mięsnego farszu w sosie pomidorowym oraz beszamelu z parmezanem.'
 category: Fitness
 length: 1135
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

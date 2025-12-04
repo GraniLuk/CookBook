@@ -1,16 +1,15 @@
 ---
 title: CARBONARA z kurczakiem
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=IwKn-xVM-dw
-author: "[[Policzona Szama]]"
 published: 2017-09-06
 created: 2025-11-23
 description: Przedstawiamy szczegółowy, humorystyczny przepis na **karbonarę z kurczakiem** po wakacjach, zachowując wszystkie oryginalne anegdoty, powtórzenia i dźwiękowe „ok” w celu maksymalnej czytelności i przyjazności zarówno dla ludzi, jak i dla AI.
 category: Fitness
 length: 719
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ---
 

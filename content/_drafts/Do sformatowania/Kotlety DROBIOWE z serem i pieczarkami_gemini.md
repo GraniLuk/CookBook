@@ -1,16 +1,15 @@
 ---
 title: Kotlety DROBIOWE z serem i pieczarkami
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=stbKHyewOc4
-author: "[[Policzona Szama]]"
 published: 2017-06-23
 created: 2025-10-30
 description: Przepis na kotleciki drobiowe z pieczarkami, żółtym serem i przesmażoną cebulką, z instrukcjami dotyczącymi przygotowania, przyprawiania, mrożenia i smażenia.
 category: Fitness
 length: 810
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

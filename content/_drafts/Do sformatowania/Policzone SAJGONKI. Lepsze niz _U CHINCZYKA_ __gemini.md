@@ -1,16 +1,15 @@
 ---
 title: Policzone SAJGONKI. Lepsze niż "U CHIŃCZYKA" ?
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=hszZgtrbYtY
-author: "[[Policzona Szama]]"
 published: 2019-03-16
 created: 2025-10-30
 description: Szczegółowy przewodnik kulinarny prezentujący przepis na wietnamskie sajgonki z chudą wieprzowiną, zawierający instrukcje przygotowania farszu i zawijania, a także analizę makroskładników, kalorii oraz pomiar absorpcji oleju podczas smażenia.
 category: Fitness
 length: 1283
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

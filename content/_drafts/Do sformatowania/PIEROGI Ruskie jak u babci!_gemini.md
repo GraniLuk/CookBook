@@ -1,16 +1,15 @@
 ---
 title: PIEROGI Ruskie jak u babci!
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=LeJBD0mKxXw
-author: "[[Policzona Szama]]"
 published: 2018-04-30
 created: 2025-11-23
 description: Szczegółowy poradnik kulinarny dotyczący przygotowania tradycyjnych pierogów ruskich według przepisu babci, połączony z refleksją na temat dziedzictwa kulturowego materialnego i niematerialnego z okazji Dni Europy 2018.
 category: Fitness
 length: 1184
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

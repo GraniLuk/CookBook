@@ -1,13 +1,17 @@
 ---
-draft: false
-title: "Sos Szparagowy Z Mascarpone I Suszonymi Pomidorami"
-author: "Autor Przepisu"
-recipe_image: images/defaultImage.avif
-date: 2025-06-19T12:00:00-00:00
+title: Sos Szparagowy Z Mascarpone I Suszonymi Pomidorami
+author: Autor Przepisu
 categories: sosy
+draft: false
+recipe_image: images/defaultImage.avif
+date: 2025-06-19 12:00:00+00:00
 tags: []
-tagline: "Kremowy sos szparagowy z mascarpone - idealny do ryb, mięsa i warzyw!"
-ingredients: ["szparagi", "mascarpone", "suszone pomidory", "czosnek"]
+tagline: Kremowy sos szparagowy z mascarpone - idealny do ryb, mięsa i warzyw!
+ingredients:
+- szparagi
+- mascarpone
+- suszone pomidory
+- czosnek
 servings: 4
 prep_time: 10
 cook: true
@@ -16,14 +20,13 @@ calories: 238
 protein: 7
 fat: 19
 carbohydrate: 12
-
 fodmap:
-  status: "depends"
-  serving_ok: "OK po modyfikacjach: usuń czosnek, kontroluj suszone pomidory (≤10–12 g/os.)"
-  notes: "Mascarpone ma wysoką laktozę; czosnek i większe ilości suszonych pomidorów zwiększają FODMAP."
+  status: depends
+  serving_ok: 'OK po modyfikacjach: usuń czosnek, kontroluj suszone pomidory (≤10–12 g/os.)'
+  notes: Mascarpone ma wysoką laktozę; czosnek i większe ilości suszonych pomidorów zwiększają FODMAP.
   substitutions:
-    - "Mascarpone -> śmietanka bez laktozy lub ser twardy (np. cheddar) rozpuszczony w sosie."
-    - "Czosnek -> olej czosnkowy."
+  - Mascarpone -> śmietanka bez laktozy lub ser twardy (np. cheddar) rozpuszczony w sosie.
+  - Czosnek -> olej czosnkowy.
 ---
 
 Kremowy sos szparagowy z mascarpone i suszonymi pomidorami to doskonały dodatek do ryb, mięsa drobiowego czy pieczonego mięsa. Sos ma delikatny smak szparagów wzbogacony kremowością mascarpone i słonawą nutą suszonych pomidorów.

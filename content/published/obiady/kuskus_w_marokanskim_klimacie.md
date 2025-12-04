@@ -1,43 +1,40 @@
 ---
 title: Kuskus w Marokańskim Klimacie (Low FODMAP)
 author: Policzone Szamy
-draft: false
-tagline: Lekki kuskus z marchewką, fasolą i kurczakiem w orzeźwiającym sosie
-  pomarańczowym – idealny na lunchbox, przyjazny dla diety low FODMAP.
-recipe_image: images/recipe-headers/kuskus_w_marokanskim_klimacie.avif
-tags:
-  - marokański
-  - lunchbox
-ingredients:
-  - kuskus
-  - marchewka
-  - natka pietruszki
-  - papryczka chili
-  - orzechy nerkowca
-  - kurczak
-  - oliwa
-  - przyprawa
-  - pomarańcza
-  - kolendra
-  - fasola biała
 categories: obiady
+draft: false
+recipe_image: images/recipe-headers/kuskus_w_marokanskim_klimacie.avif
+date: 2025-09-23 12:00:00+00:00
+tags:
+- marokański
+- lunchbox
+tagline: Lekki kuskus z marchewką, fasolą i kurczakiem w orzeźwiającym sosie pomarańczowym – idealny na lunchbox, przyjazny dla diety low FODMAP.
+ingredients:
+- kuskus
+- marchewka
+- natka pietruszki
+- papryczka chili
+- orzechy nerkowca
+- kurczak
+- oliwa
+- przyprawa
+- pomarańcza
+- kolendra
+- fasola biała
 servings: 3
 prep_time: 15
 cook: true
 cook_time: 10
 calories: 658
 protein: 41
-fodmap:
-  status: yes
-  serving_ok: OK w tej porcji z modyfikacją
-  notes: Czerwona cebula jest wysokofodmapowa – pominąć całkowicie. Fasola biała
-    może być graniczna – zmniejszono ilość do bezpiecznej dawki (50g na porcję).
-    Orzechy nerkowca dozwolone w małych ilościach (10g na porcję).
-  substitutions:
-    - Czerwona cebula -> pomiń
-date: 2025-09-23T12:00:00-00:00
 fat: 17
 carbohydrate: 78
+fodmap:
+  status: true
+  serving_ok: OK w tej porcji z modyfikacją
+  notes: Czerwona cebula jest wysokofodmapowa – pominąć całkowicie. Fasola biała może być graniczna – zmniejszono ilość do bezpiecznej dawki (50g na porcję). Orzechy nerkowca dozwolone w małych ilościach (10g na porcję).
+  substitutions:
+  - Czerwona cebula -> pomiń
 ---
 
 ## Składniki

@@ -1,26 +1,36 @@
 ---
-draft: false  
+title: Zielona Bomba Witaminowa - Koktajl na odporność
+author: Policzona Szama
+categories:
+- napoje
+draft: false
 readyToTest: true
-title: "Zielona Bomba Witaminowa - Koktajl na odporność"  
-author: "Policzona Szama"  
-recipe_image: images/recipe-headers/koktajl_zielony.avif  
-date: 2025-11-29T12:00:00-00:00  
-categories: ["napoje"]  
-tags: ["koktajle", "odporność"]  
-tagline: "Zielony koktajl bogaty w witaminę C, wzmacniający odporność."  
-ingredients: ["banan", "awokado", "szpinak", "jarmuż", "cytryna", "pomarańcza", "pietruszka"]
-servings: 2  
-prep_time: 5  
-cook: false  
-cook_time: 0  
+recipe_image: images/recipe-headers/koktajl_zielony.avif
+date: 2025-11-29 12:00:00+00:00
+tags:
+- koktajle
+- odporność
+tagline: Zielony koktajl bogaty w witaminę C, wzmacniający odporność.
+link: https://www.youtube.com/watch?v=RUPfihOOViA
+ingredients:
+- banan
+- awokado
+- szpinak
+- jarmuż
+- cytryna
+- pomarańcza
+- pietruszka
+servings: 2
+prep_time: 5
+cook: false
+cook_time: 0
 calories: 191
 protein: 3
 fat: 6
-carbohydrate: 35 
-link: https://www.youtube.com/watch?v=RUPfihOOViA
+carbohydrate: 35
 fodmap:
-  status: "yes"
-  notes: "Wszystkie składniki są bezpieczne dla diety low FODMAP."
+  status: 'yes'
+  notes: Wszystkie składniki są bezpieczne dla diety low FODMAP.
 ---
 
 ## Składniki

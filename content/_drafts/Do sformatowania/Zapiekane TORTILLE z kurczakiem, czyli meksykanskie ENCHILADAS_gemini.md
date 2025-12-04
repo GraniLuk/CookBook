@@ -1,16 +1,15 @@
 ---
 title: Zapiekane TORTILLE z kurczakiem, czyli meksykańskie ENCHILADAS
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=e7HY_dwBIas
-author: "[[Policzona Szama]]"
 published: 2020-05-19
 created: 2025-10-27
 description: Szczegółowy przepis na meksykańskie ENCHILADAS z szarpanym kurczakiem, aromatycznym sosem pomidorowym i serem, wraz z obliczonymi makroskładnikami i kaloriami.
 category: Fitness
 length: 1007
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

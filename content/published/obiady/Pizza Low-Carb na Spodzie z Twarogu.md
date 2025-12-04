@@ -1,15 +1,25 @@
 ---
-draft: false
-title: "Pizza Low-Carb na Spodzie z Twarogu (3 metody pieczenia)"
-author: "Policzone Szamy"
-recipe_image: images/recipe-headers/pizza_twarog_lowcarb.avif
-image_width: 512
-image_height: 512
-date: 2025-10-29T11:00:00-00:00
+title: Pizza Low-Carb na Spodzie z Twarogu (3 metody pieczenia)
+author: Policzone Szamy
 categories: obiady
-tags: ["low carb", "proteinowe"]
-tagline: "Niskowęglowodanowa pizza na spodzie z twarogu – sprężysta jak prawdziwa!"
-ingredients: ["twaróg półtłusty", "jajko", "parmezan", "mąka ryżowa", "sos pomidorowy", "ser mozzarella", "pepperoni", "tuńczyk"]
+draft: false
+readyToTest: true
+recipe_image: images/recipe-headers/pizza_twarog_lowcarb.avif
+date: 2025-10-29 11:00:00+00:00
+tags:
+- low carb
+- proteinowe
+tagline: Niskowęglowodanowa pizza na spodzie z twarogu – sprężysta jak prawdziwa!
+link: https://www.youtube.com/watch?v=QtO_jPVqDpU
+ingredients:
+- twaróg półtłusty
+- jajko
+- parmezan
+- mąka ryżowa
+- sos pomidorowy
+- ser mozzarella
+- pepperoni
+- tuńczyk
 servings: 3
 prep_time: 15
 cook: true
@@ -19,17 +29,17 @@ calories: 320
 protein: 28
 fat: 14
 carbohydrate: 18
-readyToTest: true
-link: https://www.youtube.com/watch?v=QtO_jPVqDpU
 fodmap:
-  status: "depends"
-  serving_ok: "OK po modyfikacjach: uwaga na czosnek w cieście i dodatki"
-  notes: "Twaróg (laktoza) w większej ilości może być problematyczny – użyj bezlaktozowego. Czosnek (fruktany) w cieście – zamień na olej czosnkowy. Mąka ryżowa jest niskofodmap. Dodatki: pepperoni, tuńczyk, oliwki są OK. Ser mozzarella (laktoza) – wybierz dojrzały lub bezlaktozowy."
+  status: depends
+  serving_ok: 'OK po modyfikacjach: uwaga na czosnek w cieście i dodatki'
+  notes: 'Twaróg (laktoza) w większej ilości może być problematyczny – użyj bezlaktozowego. Czosnek (fruktany) w cieście – zamień na olej czosnkowy. Mąka ryżowa jest niskofodmap. Dodatki: pepperoni, tuńczyk, oliwki są OK. Ser mozzarella (laktoza) – wybierz dojrzały lub bezlaktozowy.'
   substitutions:
-    - "twaróg -> twaróg bezlaktozowy"
-    - "czosnek w cieście -> olej czosnkowy lub pomiń"
-    - "mozzarella -> ser dojrzały (parmezan) lub mozzarella bezlaktozowa"
-    - "dodatki z cebulą/czosnkiem -> pomiń lub ogranicz"
+  - twaróg -> twaróg bezlaktozowy
+  - czosnek w cieście -> olej czosnkowy lub pomiń
+  - mozzarella -> ser dojrzały (parmezan) lub mozzarella bezlaktozowa
+  - dodatki z cebulą/czosnkiem -> pomiń lub ogranicz
+image_width: 512
+image_height: 512
 ---
 
 ## Składniki

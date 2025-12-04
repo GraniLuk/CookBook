@@ -1,14 +1,26 @@
 ---
+title: Sałatka Śródziemnomorska z Grzankami
+author: Policzone Szamy
+categories: salatki
 draft: false
 readyToTest: true
-title: "Sałatka Śródziemnomorska z Grzankami"
-author: "Policzone Szamy"
 recipe_image: images/recipe-headers/salatka_srodziemnomorska_grzanki.avif
-date: 2025-11-01T12:00:00-00:00
-categories: salatki
-tags: ["śródziemnomorska", "lunchbox", "szybkie"]
-tagline: "Śródziemnomorska sałatka z pstrągiem i chrupiącymi grzankami, idealna na lunch."
-ingredients: ["mix sałat", "pomidorki koktajlowe", "papryka czerwona", "cebula czerwona", "oliwki", "pstrąg wędzony", "chleb", "oliwa z oliwek"]
+date: 2025-11-01 12:00:00+00:00
+tags:
+- śródziemnomorska
+- lunchbox
+- szybkie
+tagline: Śródziemnomorska sałatka z pstrągiem i chrupiącymi grzankami, idealna na lunch.
+link: https://www.youtube.com/watch?v=vZ52mlw4yRs&t
+ingredients:
+- mix sałat
+- pomidorki koktajlowe
+- papryka czerwona
+- cebula czerwona
+- oliwki
+- pstrąg wędzony
+- chleb
+- oliwa z oliwek
 servings: 3
 prep_time: 20
 cook: true
@@ -17,12 +29,12 @@ calories: 400
 protein: 25
 fat: 20
 carbohydrate: 30
-link: https://www.youtube.com/watch?v=vZ52mlw4yRs&t
 fodmap:
-  status: "no"
-  serving_ok: "Nie OK w tej porcji"
-  notes: "Cebula czerwona jest wysokofodmapowa; reszta składników jest bezpieczna."
-  substitutions: ["Zastąp cebulę szczypiorkiem dla wersji low FODMAP."]
+  status: 'no'
+  serving_ok: Nie OK w tej porcji
+  notes: Cebula czerwona jest wysokofodmapowa; reszta składników jest bezpieczna.
+  substitutions:
+  - Zastąp cebulę szczypiorkiem dla wersji low FODMAP.
 ---
 
 ## Składniki

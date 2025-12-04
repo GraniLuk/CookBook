@@ -1,16 +1,15 @@
 ---
 title: Policzone BURRITO - kolorowo, bardziej zdrowo.
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=I4OHJX2EdT0
-author: "[[Policzona Szama]]"
 published: 2021-04-22
 created: 2025-10-26
 description: Szybka, smaczna i obliczona receptura na dwa kolorowe burrito z indykiem, pełna wartości odżywczych, niskiej zawartości tłuszczu i meksykańskich aromatów, z krok po kroku opisem przygotowania, gotowania, pakowania i pieczenia, utrzymana w humorystycznym, przyjacielskim stylu.
 category: Fitness
 length: 844
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ---
 

@@ -1,16 +1,15 @@
 ---
 title: Proteinowy MOCARZ - szybki placek na śniadanie. Idealny przed i po TRENINGU
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=bspPkNEZIPs
-author: "[[Policzona Szama]]"
 published: 2020-04-18
 created: 2025-10-27
 description: Szczegółowy przepis na wysokobiałkowy, pożywny placek śniadaniowy, przygotowany z prostych składników, idealny do spożycia również na zimno.
 category: Fitness
 length: 677
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 

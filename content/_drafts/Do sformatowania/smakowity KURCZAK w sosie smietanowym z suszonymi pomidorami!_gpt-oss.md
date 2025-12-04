@@ -1,16 +1,15 @@
 ---
 title: smakowity KURCZAK w sosie śmietanowym z suszonymi pomidorami!
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=v5A-7VpL2mo
-author: "[[Policzona Szama]]"
 published: 2017-10-14
 created: 2025-11-23
 description: Nieformalny, zabawny opis przygotowania kremowego dania z kurczakiem i suszonymi pomidorami w 200 g porcji, podany w formie strukturyzowanego skryptu z pełnym opisem składników, kroków i humoru.
 category: Fitness
 length: 581
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ---
 

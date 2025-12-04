@@ -1,16 +1,15 @@
 ---
 title: Kotlety MIELONE - Prosty przepis na tradycyjne, PUSZYSTE w środku i chrupiące na zewnątrz.
+author: '[[Policzona Szama]]'
+tags:
+- Summaries/Przepisy
 source: https://www.youtube.com/watch?v=W_6cFRYVKDM
-author: "[[Policzona Szama]]"
 published: 2019-07-12
 created: 2025-10-28
 description: Szczegółowy przepis na klasyczne, soczyste polskie kotlety mielone z chrupiącą panierką, wzbogacone o jeden dodatkowy składnik (musztardę Dijon), wraz z precyzyjnym wyliczeniem składników i makroskładników.
 category: Fitness
 length: 1103
-tags:
-  - Summaries/Przepisy
 ---
-
 
 ***
 
