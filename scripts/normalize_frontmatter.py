@@ -42,6 +42,27 @@ ORDER = [
     "favourite",
 ]
 
+# Define keys that must be present in official recipes (draft: false)
+REQUIRED_KEYS = [
+    "title",
+    "author",
+    "recipe_image",
+    "image_width",
+    "image_height",
+    "date",
+    "tags",
+    "tagline",
+    "ingredients",
+    "servings",
+    "prep_time",
+    "cook",
+    "cook_time",
+    "calories",
+    "protein",
+    "fat",
+    "carbohydrate",
+]
+
 
 def reorder_metadata(metadata):
     new_metadata = {}
@@ -56,6 +77,17 @@ def reorder_metadata(metadata):
             new_metadata[key] = metadata[key]
 
     return new_metadata
+
+
+def validate_metadata(metadata, filename):
+    # Skip validation for drafts
+    if metadata.get("draft") is True:
+        return
+
+    missing_keys = [key for key in REQUIRED_KEYS if key not in metadata]
+
+    if missing_keys:
+        print(f"WARNING: {filename} missing keys: {', '.join(missing_keys)}")
 
 
 # Custom dumper to improve YAML formatting
@@ -73,6 +105,9 @@ def process_directory(content_dir):
                 try:
                     # Load the file
                     post = frontmatter.load(file_path)
+
+                    # Validate metadata
+                    validate_metadata(post.metadata, file)
 
                     # Reorder metadata
                     original_keys = list(post.metadata.keys())
