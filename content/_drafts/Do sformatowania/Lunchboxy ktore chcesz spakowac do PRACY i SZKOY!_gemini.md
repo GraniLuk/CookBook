@@ -16,7 +16,6 @@ calories: 300
 protein: 20
 fat: 10
 carbohydrate: 25
-draft: true
 ---
 
 ---

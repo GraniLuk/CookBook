@@ -5,7 +5,7 @@ categories: obiady
 draft: false
 readyToTest: false
 recipe_image: images/recipe-headers/kurczak_teriyaki_mega.avif
-date: 2025-12-04T13:20:00-00:00
+date: 2025-12-04 13:20:00+00:00
 tags:
 - szybkie
 - na-wynos
