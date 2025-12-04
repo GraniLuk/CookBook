@@ -80,8 +80,8 @@ def reorder_metadata(metadata):
 
 
 def validate_metadata(metadata, filename):
-    # Skip validation for drafts
-    if metadata.get("draft") is True:
+    # Skip validation for drafts or if draft is missing
+    if metadata.get("draft") is True or metadata.get("draft") is None:
         return
 
     missing_keys = [key for key in REQUIRED_KEYS if key not in metadata]
