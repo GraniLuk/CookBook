@@ -429,15 +429,6 @@ collections:
     editor:
       preview: true
       visualEditing: true
-    fields:
-      - { label: Tytuł, name: title, widget: string }
-      - label: Podkategorie
-        name: subcategories
-        widget: select
-        required: false
-        options: 
-          - { label: "słodkie", value: "słodkie" }
-          - { label: "słone", value: "słone" }
       - label: Kategorie
         name: categories
         widget: select
@@ -450,6 +441,15 @@ collections:
           - { label: "sałatki", value: "salatki" }
           - { label: "desery", value: "desery" }
           - { label: "sosy", value: "sosy" }
+      fields:
+      - { label: Tytuł, name: title, widget: string }
+      - label: Podkategorie
+        name: subcategories
+        widget: select
+        required: false
+        options: 
+          - { label: "słodkie", value: "słodkie" }
+          - { label: "słone", value: "słone" }
       - { label: Ulubiony, name: favourite, widget: boolean, required: true, default: false }
       - { label: W Kolejce, name: queued, widget: boolean, required: true, default: false }
       - { label: Testowy, name: readyToTest, widget: boolean, required: true, default: false }
