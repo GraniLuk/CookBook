@@ -112,7 +112,7 @@
 
     <div class="columns is-multiline">
         {{ range .Site.RegularPages }}
-        {{ if not (in .Params.categories "sosy") }}
+        {{ if and (isset .Params "draft") (eq .Params.draft false) }}
         <div class="column is-2-desktop is-3-tablet is-full-mobile"
             data-ingredients='{{ .Params.ingredients | jsonify }}' data-categories='{{ .Params.categories | jsonify }}'
             data-draft="{{ default false .Draft }}" data-ready-to-test="{{ if .Params.readyToTest }}true{{ else }}false{{ end }}">
