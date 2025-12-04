@@ -19,10 +19,10 @@ ingredients:
   - sos sojowy
   - olej sezamowy
 image_width: 512
-title: Kurczak Teriyaki z Fasolką Szparagową i Ananasem (Mega Micha)
+title: Kurczak Teriyaki z Fasolką Szparagową i Ananasem
 author: Policzone Szamy
-queued: true
-readyToTest: true
+queued: false
+readyToTest: false
 tagline: Ogromna, sycąca porcja kurczaka teriyaki z fasolką, ryżem, awokado i
   ananasem – prawdziwa Mega Micha Mocy!
 recipe_image: images/recipe-headers/kurczak_teriyaki_mega.avif
