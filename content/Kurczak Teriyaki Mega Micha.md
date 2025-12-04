@@ -29,8 +29,7 @@ recipe_image: images/recipe-headers/kurczak_teriyaki_mega.avif
 tags:
   - szybkie
   - na-wynos
-categories:
-  - obiady
+categories: obiady
 servings: 2
 prep_time: 15
 cook: true
