@@ -1,4 +1,5 @@
 ---
+draft: true
 title: BANG BANG Kurczak - AIR FRY vs DEEP FRY
 source: https://www.youtube.com/watch?v=6BIPAXnh0S8
 author: "[[Policzona Szama]]"

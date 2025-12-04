@@ -1,4 +1,5 @@
 ---
+draft: true
 title: GIGA WRAP - PROTEINOWA ROLADA na 4 dni
 source: https://www.youtube.com/watch?v=E1YmUUr9dMA
 author: "[[Policzona Szama]]"

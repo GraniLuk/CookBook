@@ -1,4 +1,5 @@
 ---
+draft: true
 title: BANG BANG BOX x 4
 source: https://www.youtube.com/watch?v=bCFszRmuv-Y
 author: "[[Policzona Szama]]"

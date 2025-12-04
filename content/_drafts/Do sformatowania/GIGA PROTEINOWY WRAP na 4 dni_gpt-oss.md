@@ -1,4 +1,5 @@
 ---
+draft: true
 title: GIGA PROTEINOWY WRAP na 4 dni
 source: https://www.youtube.com/watch?v=Am_Prt1_xp0
 author: "[[Policzona Szama]]"

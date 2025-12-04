@@ -1,4 +1,5 @@
 ---
+draft: true
 title: 1 ŚNIADANIE NA CAŁE ŻYCIE
 source: https://www.youtube.com/watch?v=fS2YEsoFTjc
 author: "[[Policzona Szama]]"

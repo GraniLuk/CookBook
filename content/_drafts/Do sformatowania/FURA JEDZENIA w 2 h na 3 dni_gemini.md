@@ -1,4 +1,5 @@
 ---
+draft: true
 title: FURA JEDZENIA w 2 h na 3 dni
 source: https://www.youtube.com/watch?v=TeQ5D1yuuC8
 author: "[[Policzona Szama]]"
