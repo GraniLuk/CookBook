@@ -3,10 +3,10 @@ import os
 import frontmatter
 
 
-def find_md_without_proper_frontmatter(directory):
+def find_md_not_ready(directory):
     """
-    Find all Markdown files in the given directory that do not have proper frontmatter.
-    Proper frontmatter means it starts with ---, contains valid YAML, and ends with ---.
+    Find all Markdown files in the given directory that are not ready.
+    Not ready means: no frontmatter, malformed frontmatter, draft: true in frontmatter, or 'draft' in file path.
     """
     count = 0
     for root, dirs, files in os.walk(directory):
@@ -18,12 +18,18 @@ def find_md_without_proper_frontmatter(directory):
                     if not post.metadata:
                         print(f"No frontmatter: {filepath}")
                         count += 1
+                    elif post.metadata.get("draft", False):
+                        print(f"Draft: {filepath}")
+                        count += 1
+                    elif "draft" in filepath.lower():
+                        print(f"Draft (path): {filepath}")
+                        count += 1
                 except Exception as e:
                     print(f"Malformed frontmatter: {filepath} - Error: {e}")
                     count += 1
-    print(f"\nSummary: Found {count} Markdown files without proper frontmatter.")
+    print(f"\nSummary: Found {count} Markdown files that are not ready.")
 
 
 if __name__ == "__main__":
     content_dir = "content"
-    find_md_without_proper_frontmatter(content_dir)
+    find_md_not_ready(content_dir)
