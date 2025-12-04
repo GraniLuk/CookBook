@@ -1,8 +1,4 @@
 ---
-{}
----
-
-﻿---
 draft: true
 title: "Recipe Book: _Ulubione Kolacje_"
 author: "Autor Przepisu"

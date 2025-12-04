@@ -1,8 +1,4 @@
 ---
-{}
----
-
-﻿---
 draft: false
 readyToTest: true
 title: "Zapiekanka Makaronowo-Brokułowa z Mozzarellą"

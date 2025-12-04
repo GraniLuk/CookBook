@@ -1,8 +1,4 @@
 ---
-{}
----
-
-﻿---
 draft: false
 readyToTest: true
 title: "Bowl z Łososiem, Ryżem i Warzywami"

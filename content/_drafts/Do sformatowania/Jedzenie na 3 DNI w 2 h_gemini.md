@@ -1,8 +1,4 @@
 ---
-{}
----
-
-﻿---
 draft: true
 title: "**DESCRIPTION:** Szczegółowy opis przygotowania i degustacji czterech posiłków w ramach 3-dnioweg..."
 author: "Autor Przepisu"

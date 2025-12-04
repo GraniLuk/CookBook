@@ -1,8 +1,4 @@
 ---
-{}
----
-
-﻿---
 draft: true
 title: "Recipe Book: *Fit Lunchboxy i Meal Prep*"
 author: "Autor Przepisu"

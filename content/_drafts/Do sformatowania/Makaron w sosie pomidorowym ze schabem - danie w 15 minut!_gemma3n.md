@@ -1,8 +1,4 @@
 ---
-{}
----
-
-﻿---
 draft: true
 title: "DESKRYPCJA:"
 author: "Autor Przepisu"

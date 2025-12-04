@@ -1,8 +1,4 @@
 ---
-{}
----
-
-﻿---
 draft: false
 readyToTest: true
 title: "Zimowy Burger z Kurczakiem i Plackiem Ziemniaczano-Parmezanowym"

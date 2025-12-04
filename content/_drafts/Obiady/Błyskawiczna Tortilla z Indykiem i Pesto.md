@@ -1,8 +1,4 @@
 ---
-{}
----
-
-﻿---
 draft: false
 readyToTest: true
 title: "Błyskawiczna Tortilla z Indykiem i Pesto"

@@ -1,8 +1,4 @@
 ---
-{}
----
-
-﻿---
 draft: false
 readyToTest: true
 title: "Jednogarnkowa Zapiekanka z Indykiem, Jarmużem i Suszonymi Pomidorami"

@@ -1,8 +1,4 @@
 ---
-{}
----
-
-﻿---
 draft: true
 title: "Recipe Book: _Przekąski i Dipy_"
 author: "Autor Przepisu"

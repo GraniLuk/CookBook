@@ -1,8 +1,4 @@
 ---
-{}
----
-
-﻿---
 draft: false
 readyToTest: true
 title: "Kurczak Teriyaki z Warzywami i Ryżem"

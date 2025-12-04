@@ -1,8 +1,4 @@
 ---
-{}
----
-
-﻿---
 draft: true
 title: "Recipe Book: *Fit Dips i Sosy*"
 author: "Autor Przepisu"

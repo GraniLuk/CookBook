@@ -1,8 +1,4 @@
 ---
-{}
----
-
-﻿---
 draft: true
 title: "Domowa Quesadilla z Kurczakiem i Warzywami"
 author: "Autor Przepisu"

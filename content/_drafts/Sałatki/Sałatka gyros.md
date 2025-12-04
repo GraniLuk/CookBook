@@ -1,8 +1,4 @@
 ---
-{}
----
-
-﻿---
 draft: true
 title: "Sałatka Gyros w Zdrowej Wersji z Sosem Tzatziki"
 author: "Autor Przepisu"

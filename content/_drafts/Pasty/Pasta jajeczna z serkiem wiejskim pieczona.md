@@ -1,8 +1,4 @@
 ---
-{}
----
-
-﻿---
 draft: true
 title: "Pyszna i Lekka Pastęczna z Serka Wiejskiego i Jajek"
 author: "Autor Przepisu"

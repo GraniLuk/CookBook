@@ -1,8 +1,4 @@
 ---
-{}
----
-
-﻿---
 draft: false
 readyToTest: true
 title: "Makaron z Pieczonymi Warzywami i Mozzarellą"

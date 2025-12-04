@@ -1,8 +1,4 @@
 ---
-{}
----
-
-﻿---
 draft: true
 title: "Ulubiona Sałatka z Grillowanym Serem Halloumi"
 author: "Autor Przepisu"

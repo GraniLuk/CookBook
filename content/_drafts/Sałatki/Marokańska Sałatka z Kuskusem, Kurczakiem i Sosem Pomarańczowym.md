@@ -1,8 +1,4 @@
 ---
-{}
----
-
-﻿---
 draft: true
 title: "Recipe Book: _Kolorowe Obiady i Lunchboxy_"
 author: "Autor Przepisu"

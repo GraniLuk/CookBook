@@ -1,8 +1,4 @@
 ---
-{}
----
-
-﻿---
 draft: true
 title: "**PRZEPIS NA SAŁATKĘ Z INDYKIEM**"
 author: "Autor Przepisu"
