@@ -10,6 +10,81 @@ Write-Host "Scanning for misplaced recipes..." -ForegroundColor Cyan
 $movedCount = 0
 $checkedCount = 0
 
+function Process-Recipe {
+    param (
+        [System.IO.FileInfo]$file,
+        [string]$currentCategory # Optional, if known
+    )
+
+    $content = Get-Content $file.FullName -Raw -Encoding UTF8
+    
+    # Extract front matter
+    if ($content -match '(?s)^---\s*\n(.*?)\n---') {
+        $frontMatter = $Matches[1]
+        
+        # Extract categories field (handle different formats)
+        $recipeCategory = $null
+        
+        # Format 1: categories: desery
+        if ($frontMatter -match '(?m)^categories:\s*(\w+)') {
+            $recipeCategory = $Matches[1]
+        }
+        # Format 2: categories: [desery]
+        elseif ($frontMatter -match '(?m)^categories:\s*\[?"?([^"\]]+)"?\]?') {
+            $recipeCategory = $Matches[1]
+        }
+        
+        # Normalize category name
+        if ($recipeCategory) {
+            $recipeCategory = $recipeCategory -replace 'śniadania', 'sniadania' `
+                -replace 'sałatki', 'salatki'
+            
+            # Check if file is in wrong folder
+            # If currentCategory is provided, check against it.
+            # If not (root file), always move if category is valid.
+            
+            $shouldMove = $false
+            if ($currentCategory) {
+                if ($recipeCategory -ne $currentCategory) { $shouldMove = $true }
+            } else {
+                # Root file, move if it has a category
+                $shouldMove = $true
+            }
+
+            if ($shouldMove) {
+                # Validate category is one of the known ones
+                if ($categories -contains $recipeCategory) {
+                    $targetFolder = Join-Path $publishedPath $recipeCategory
+                    
+                    if (-not (Test-Path $targetFolder)) {
+                        New-Item -ItemType Directory -Path $targetFolder | Out-Null
+                    }
+
+                    $targetPath = Join-Path $targetFolder $file.Name
+                    
+                    # Check if target already exists (and it's not the same file)
+                    if ((Test-Path $targetPath) -and ($file.FullName -ne (Get-Item $targetPath).FullName)) {
+                        Write-Host "  ⚠️  Cannot move $($file.Name): target already exists in $recipeCategory" -ForegroundColor Yellow
+                    }
+                    elseif ($file.FullName -ne $targetPath) {
+                        Write-Host "  📦 Moving: $($file.Name)" -ForegroundColor Green
+                        $from = if ($currentCategory) { $currentCategory } else { "Root" }
+                        Write-Host "      From: $from → To: $recipeCategory" -ForegroundColor Gray
+                        
+                        Move-Item -Path $file.FullName -Destination $targetPath -Force
+                        return 1 # Moved
+                    }
+                }
+                else {
+                     Write-Host "  ⚠️  Unknown category '$recipeCategory' in $($file.Name)" -ForegroundColor Yellow
+                }
+            }
+        }
+    }
+    return 0 # Not moved
+}
+
+# 1. Scan existing category folders
 foreach ($category in $categories) {
     $categoryPath = Join-Path $publishedPath $category
     if (-not (Test-Path $categoryPath)) { continue }
@@ -18,52 +93,22 @@ foreach ($category in $categories) {
     
     foreach ($recipe in $recipes) {
         $checkedCount++
-        $content = Get-Content $recipe.FullName -Raw -Encoding UTF8
-        
-        # Extract front matter
-        if ($content -match '(?s)^---\s*\n(.*?)\n---') {
-            $frontMatter = $Matches[1]
-            
-            # Extract categories field (handle different formats)
-            $recipeCategory = $null
-            
-            # Format 1: categories: desery
-            if ($frontMatter -match '(?m)^categories:\s*(\w+)') {
-                $recipeCategory = $Matches[1]
-            }
-            # Format 2: categories: [desery]
-            elseif ($frontMatter -match '(?m)^categories:\s*\[?"?([^"\]]+)"?\]?') {
-                $recipeCategory = $Matches[1]
-            }
-            
-            # Normalize category name
-            $recipeCategory = $recipeCategory -replace 'śniadania', 'sniadania' `
-                -replace 'sałatki', 'salatki'
-            
-            # Check if file is in wrong folder
-            if ($recipeCategory -and $recipeCategory -ne $category) {
-                $targetFolder = Join-Path $publishedPath $recipeCategory
-                
-                if (Test-Path $targetFolder) {
-                    $targetPath = Join-Path $targetFolder $recipe.Name
-                    
-                    # Check if target already exists
-                    if (Test-Path $targetPath) {
-                        Write-Host "  ⚠️  Cannot move $($recipe.Name): target already exists in $recipeCategory" -ForegroundColor Yellow
-                    }
-                    else {
-                        Write-Host "  📦 Moving: $($recipe.Name)" -ForegroundColor Green
-                        Write-Host "      From: $category → To: $recipeCategory" -ForegroundColor Gray
-                        
-                        Move-Item -Path $recipe.FullName -Destination $targetPath -Force
-                        $movedCount++
-                    }
-                }
-                else {
-                    Write-Host "  ⚠️  Unknown category '$recipeCategory' in $($recipe.Name)" -ForegroundColor Yellow
-                }
-            }
-        }
+        $movedCount += Process-Recipe -file $recipe -currentCategory $category
+    }
+}
+
+# 2. Scan root content folders for loose recipes
+$rootPaths = @("content", "content/published")
+
+foreach ($rootPath in $rootPaths) {
+    if (-not (Test-Path $rootPath)) { continue }
+    
+    # Get files only, exclude _index.md
+    $files = Get-ChildItem -Path $rootPath -Filter "*.md" -File | Where-Object { $_.Name -ne "_index.md" }
+    
+    foreach ($file in $files) {
+        $checkedCount++
+        $movedCount += Process-Recipe -file $file
     }
 }
 
@@ -73,6 +118,6 @@ Write-Host "   Moved: $movedCount recipes" -ForegroundColor Gray
 
 if ($movedCount -gt 0) {
     Write-Host "`n💡 Don't forget to commit these changes:" -ForegroundColor Cyan
-    Write-Host "   git add content/published/" -ForegroundColor Gray
+    Write-Host "   git add content/" -ForegroundColor Gray
     Write-Host "   git commit -m 'fix: move recipes to correct category folders'" -ForegroundColor Gray
 }
