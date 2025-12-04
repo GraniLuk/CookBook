@@ -545,6 +545,13 @@ collections:
             field: { label: Zamiennik, name: substitution, widget: string }
           - { label: Porcja OK, name: serving_ok, widget: string, required: false }
       - { label: Autor, name: author, widget: string, required: false }
+      - label: Podkategorie
+        name: subcategories
+        widget: select
+        required: false
+        options: 
+          - { label: "słodkie", value: "słodkie" }
+          - { label: "słone", value: "słone" }
       - label: Treść
         name: body
         widget: markdown
@@ -608,6 +615,13 @@ collections:
             field: { label: Zamiennik, name: substitution, widget: string }
           - { label: Porcja OK, name: serving_ok, widget: string, required: false }
       - { label: Autor, name: author, widget: string, required: false }
+      - label: Podkategorie
+        name: subcategories
+        widget: select
+        required: false
+        options: 
+          - { label: "słodkie", value: "słodkie" }
+          - { label: "słone", value: "słone" }
       - label: Treść
         name: body
         widget: markdown
@@ -671,6 +685,13 @@ collections:
             field: { label: Zamiennik, name: substitution, widget: string }
           - { label: Porcja OK, name: serving_ok, widget: string, required: false }
       - { label: Autor, name: author, widget: string, required: false }
+      - label: Podkategorie
+        name: subcategories
+        widget: select
+        required: false
+        options: 
+          - { label: "słodkie", value: "słodkie" }
+          - { label: "słone", value: "słone" }
       - label: Treść
         name: body
         widget: markdown
@@ -734,6 +755,13 @@ collections:
             field: { label: Zamiennik, name: substitution, widget: string }
           - { label: Porcja OK, name: serving_ok, widget: string, required: false }
       - { label: Autor, name: author, widget: string, required: false }
+      - label: Podkategorie
+        name: subcategories
+        widget: select
+        required: false
+        options: 
+          - { label: "słodkie", value: "słodkie" }
+          - { label: "słone", value: "słone" }
       - label: Treść
         name: body
         widget: markdown
