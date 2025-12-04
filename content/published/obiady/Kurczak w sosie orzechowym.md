@@ -5,7 +5,7 @@ title: Kurczak w sosie orzechowym
 author: Policzona Szama
 recipe_image: images/kurczak_sos_orzechowy.jpg
 date: 2025-11-29
-categories: ["fitness"]
+categories: obiady
 tags: ["kurczak", "orzechowy", "pikantne"]
 tagline: Rewelacyjny przepis na kurczaka w sosie orzechowym z limonką, czosnkiem i chili – pełen smaku i białka.
 servings: 3

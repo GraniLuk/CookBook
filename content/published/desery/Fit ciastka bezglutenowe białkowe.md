@@ -5,7 +5,7 @@ title: Fit ciastka bezglutenowe / białkowe
 author: Policzona Szama
 recipe_image: images/fit_ciastka_bezglutenowe.jpg
 date: 2025-11-29
-categories: ["fitness"]
+categories: desery
 tags: ["ciastka"]
 tagline: Zabawny przepis na bezglutenowe, wysokobiałkowe ciasteczka migdałowo-kokosowe z odżywką białkową i kawa-wanilowym aromatem.
 servings: 10

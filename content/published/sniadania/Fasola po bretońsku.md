@@ -3,6 +3,8 @@ title: Fasolka po Bretońsku
 author: Instynkt po Polsku
 draft: false
 favourite: true
+categories: śniadania
+subcategories: słone
 tagline: Szybka i aromatyczna fasolka po bretońsku z boczkiem i kiełbasą,
   gotowana w Instant Pot bez wcześniejszego namaczania fasoli.
 recipe_image: images/recipe-headers/fasolka_po_bretonsku_instant_pot.avif
@@ -16,10 +18,6 @@ ingredients:
   - pomidory
   - koncentrat pomidorowy
   - czosnek
-categories:
-  - sniadania
-subcategories:
-  - słone
 servings: 4
 prep_time: 20
 cook: true
