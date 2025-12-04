@@ -1,3 +1,68 @@
+/* 
+   MEGA PROMPT UI OVERHAUL 
+   Warm, Organic, Friendly, Energetic
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Mulish:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap');
+
+:root {
+    /* Palette */
+    --color-bg: #FDFCF8;
+    --color-text: #2D2A26;
+    --color-text-light: #5D5A56;
+    --color-primary: #4A7C59;
+    /* Sage/Forest */
+    --color-primary-light: #E8F5E9;
+    --color-accent-1: #E07A5F;
+    /* Terracotta */
+    --color-accent-2: #F2CC8F;
+    /* Warm Yellow */
+    --color-accent-3: #81B29A;
+    /* Soft Green */
+    --color-surface: #FFFFFF;
+    --color-surface-alt: #F7F5F0;
+
+    /* Typography */
+    --font-heading: 'DM Serif Display', serif;
+    --font-body: 'Mulish', sans-serif;
+
+    /* Spacing & Radius */
+    --radius-sm: 8px;
+    --radius-md: 16px;
+    --radius-lg: 24px;
+    --radius-xl: 32px;
+
+    /* Shadows */
+    --shadow-soft: 0 10px 40px -10px rgba(0, 0, 0, 0.08);
+    --shadow-hover: 0 20px 50px -12px rgba(0, 0, 0, 0.12);
+}
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-body) !important;
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.title {
+    font-family: var(--font-heading) !important;
+    color: var(--color-text);
+    font-weight: 400;
+    letter-spacing: -0.02em;
+}
+
+.subtitle {
+    font-family: var(--font-body);
+    color: var(--color-text-light);
+    font-weight: 300;
+}
+
 li {
     padding-bottom: .5em;
     font-size: 20px;
@@ -19,8 +84,8 @@ li {
     font-family: "Georgia", "Times New Roman", "Palatino", "Book Antiqua", serif !important;
 } */
 
-/* Alternative option with modern sans-serif fonts */
-
+/* Alternative option with modern sans-serif fonts - DISABLED for new UI */
+/*
 body,
 button,
 input,
@@ -29,6 +94,7 @@ select,
 textarea {
     font-family: "Inter", "SF Pro Display", "Nunito", "Source Sans Pro", "Open Sans", sans-serif !important;
 }
+*/
 
 
 /* Ensure equal height cards - only for home page and list pages with card grids */
@@ -266,8 +332,8 @@ textarea {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 16px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, .15);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-soft);
 }
 
 /* Gradient overlay and title on hero */
@@ -278,7 +344,7 @@ textarea {
 .recipe-hero__gradient {
     position: absolute;
     inset: 0;
-    border-radius: 16px;
+    border-radius: var(--radius-md);
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, 0.55) 100%);
     pointer-events: none;
 }
