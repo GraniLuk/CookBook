@@ -23,6 +23,9 @@ ORDER = [
     "date",
     "tags",
     "tagline",
+    "link",
+    "queued",
+    "favourite",
     "ingredients",
     "servings",
     "prep_time",
@@ -33,11 +36,8 @@ ORDER = [
     "protein",
     "fat",
     "carbohydrate",
-    "link",
     "diets",
     "fodmap",
-    "queued",
-    "favourite",
 ]
 
 # Define keys that must be present in official recipes (draft: false)
