@@ -429,6 +429,7 @@ collections:
     editor:
       preview: true
       visualEditing: true
+      fields:
       - label: Kategorie
         name: categories
         widget: select
@@ -441,7 +442,6 @@ collections:
           - { label: "sałatki", value: "salatki" }
           - { label: "desery", value: "desery" }
           - { label: "sosy", value: "sosy" }
-      fields:
       - { label: Tytuł, name: title, widget: string }
       - label: Podkategorie
         name: subcategories
