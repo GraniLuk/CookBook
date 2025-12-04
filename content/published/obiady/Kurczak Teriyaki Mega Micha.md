@@ -1,47 +1,44 @@
 ---
-draft: false
-fodmap:
-  status: depends
-  serving_ok: "OK po modyfikacjach: uwaga na czosnek, awokado w dużej ilości"
-  notes: Czosnek (fruktany) jest wysokofodmap. Awokado – bezpieczna porcja ~30–50
-    g (tu połowa awokado to ~80 g, za dużo). Fasolka szparagowa, ananas (małe
-    ilości), ryż, kurczak są niskofodmap. Imbir jest OK.
-  substitutions:
-    - czosnek -> olej czosnkowy (infuzja bez cząstek)
-    - awokado -> ogranicz do 30–40 g
-    - brązowy cukier -> można użyć białego cukru lub stewii (sprawdź smak)
-ingredients:
-  - kurczak
-  - ryż jaśminowy
-  - fasolka szparagowa
-  - awokado
-  - ananas
-  - sos sojowy
-  - olej sezamowy
-image_width: 512
 title: Kurczak Teriyaki z Fasolką Szparagową i Ananasem
 author: Policzone Szamy
-queued: false
-readyToTest: false
-tagline: Ogromna, sycąca porcja kurczaka teriyaki z fasolką, ryżem, awokado i
-  ananasem – prawdziwa Mega Micha Mocy!
-recipe_image: images/recipe-headers/kurczak_teriyaki_mega.avif
-tags:
-  - szybkie
-  - na-wynos
 categories: obiady
+draft: false
+readyToTest: false
+recipe_image: images/recipe-headers/kurczak_teriyaki_mega.avif
+date: 2025-12-04T13:20:00-00:00
+tags:
+- szybkie
+- na-wynos
+tagline: Ogromna, sycąca porcja kurczaka teriyaki z fasolką, ryżem, awokado i ananasem – prawdziwa Mega Micha Mocy!
+link: https://www.youtube.com/watch?v=r9upjiK0zxU
+queued: false
+ingredients:
+- kurczak
+- ryż jaśminowy
+- fasolka szparagowa
+- awokado
+- ananas
+- sos sojowy
+- olej sezamowy
 servings: 2
 prep_time: 15
 cook: true
-cook_time: 15
 cook_increment: minutes
+cook_time: 15
 calories: 720
 protein: 52
-image_height: 512
-date: 2025-12-0fi4T13:20:00-00:00
 fat: 28
 carbohydrate: 76
-link: https://www.youtube.com/watch?v=r9upjiK0zxU
+fodmap:
+  status: depends
+  serving_ok: 'OK po modyfikacjach: uwaga na czosnek, awokado w dużej ilości'
+  notes: Czosnek (fruktany) jest wysokofodmap. Awokado – bezpieczna porcja ~30–50 g (tu połowa awokado to ~80 g, za dużo). Fasolka szparagowa, ananas (małe ilości), ryż, kurczak są niskofodmap. Imbir jest OK.
+  substitutions:
+  - czosnek -> olej czosnkowy (infuzja bez cząstek)
+  - awokado -> ogranicz do 30–40 g
+  - brązowy cukier -> można użyć białego cukru lub stewii (sprawdź smak)
+image_width: 512
+image_height: 512
 ---
 
 ## Składniki
