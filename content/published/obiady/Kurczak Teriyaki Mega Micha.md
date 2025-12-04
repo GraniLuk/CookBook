@@ -38,7 +38,7 @@ cook_increment: minutes
 calories: 720
 protein: 52
 image_height: 512
-date: 2025-12-4T13:20:00-00:00
+date: 2025-12-0fi4T13:20:00-00:00
 fat: 28
 carbohydrate: 76
 link: https://www.youtube.com/watch?v=r9upjiK0zxU
