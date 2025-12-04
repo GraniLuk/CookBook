@@ -1,6 +1,6 @@
 baseURL = "https://graniluk.github.io/CookBook/"
 defaultContentLanguage = "pl"
-ignoreFiles = ["content/_drafts/.*", "content/weekly-plans/.*"]
+ignoreFiles = ["content/_drafts/Do sformatowania/.*", "content/weekly-plans/.*"]
 
 [permalinks]
   categories = "/categories/:slug/"
