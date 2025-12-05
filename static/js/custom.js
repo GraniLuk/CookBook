@@ -89,15 +89,11 @@ function executeSearch(searchQuery) {
 
 function populateResults(result) {
   u('#searchResultsCol').empty();
-  const showTestRecipes = document.getElementById('showTestCheckbox')?.checked || false;
 
   Object.entries(result).forEach(entry => {
     const [idx, val] = entry;
     const item = (val && val.item) ? val.item : {};
 
-    if (item.readyToTest === true && !showTestRecipes) {
-      return;
-    }
 
     const contents = item.contents || '';
     let snippet = '';
