@@ -1,8 +1,8 @@
 ---
 title: Serek Wiejski z Warzywami
 author: Michał Wrzosek
-categories:
-- przekąski
+categories: sniadania
+subcategories: słone
 draft: false
 readyToTest: true
 recipe_image: images/recipe-headers/serek_wiejski_z_warzywami.avif

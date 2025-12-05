@@ -1,8 +1,8 @@
 ---
 title: Shoarma z Kurczaka a'la Sphinx z Domowymi Pitami
 author: Policzone Szamy
-categories:
-- kolacje
+categories: sniadania
+subcategories: słone
 draft: false
 readyToTest: true
 recipe_image: images/recipe-headers/shoarma_kurczak_sphinx.avif

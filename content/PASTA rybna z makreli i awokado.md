@@ -1,8 +1,8 @@
 ---
 title: PASTA rybna z makreli i awokado
 author: Policzona Szama
-categories:
-- przekąski
+categories: sniadania
+subcategories: słone
 draft: false
 readyToTest: true
 recipe_image: images/recipe-headers/pasta_makrela_awokado.avif
