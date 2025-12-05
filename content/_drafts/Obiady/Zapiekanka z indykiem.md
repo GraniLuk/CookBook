@@ -1,14 +1,29 @@
 ---
+title: Jednogarnkowa Zapiekanka z Indykiem, Jarmużem i Suszonymi Pomidorami
+author: Policzona Szama
+categories: obiady
 draft: false
 readyToTest: true
-title: "Jednogarnkowa Zapiekanka z Indykiem, Jarmużem i Suszonymi Pomidorami"
-author: "Policzona Szama"
 recipe_image: images/recipe-headers/zapiekanka_indyk_jarmuz.avif
-date: 2025-10-27T12:11:00-00:00
-categories: obiady
-tags: ["indyk", "zapiekanka", "jarmuż", "makaron", "passata"]
-tagline: "Indyk, makaron i jarmuż w aromatycznym, gęstym sosie pomidorowym – syty fit obiad."
-ingredients: ["mięso mielone z indyka", "makaron", "jarmuż", "suszone pomidory", "cebula", "czosnek", "passata pomidorowa", "mozzarella", "oliwa z oliwek"]
+date: 2025-10-27 12:11:00+00:00
+tags:
+- indyk
+- zapiekanka
+- jarmuż
+- makaron
+- passata
+tagline: Indyk, makaron i jarmuż w aromatycznym, gęstym sosie pomidorowym – syty fit obiad.
+link: https://www.youtube.com/watch?v=eRttoS2L1qE
+ingredients:
+- mięso mielone z indyka
+- makaron
+- jarmuż
+- suszone pomidory
+- cebula
+- czosnek
+- passata pomidorowa
+- mozzarella
+- oliwa z oliwek
 servings: 3
 prep_time: 20
 cook: true
@@ -17,15 +32,14 @@ calories: 109
 protein: 9
 fat: 2
 carbohydrate: 13
-link: https://www.youtube.com/watch?v=eRttoS2L1qE
 fodmap:
-  status: "no"
-  serving_ok: "Nie – cebula, czosnek, pszeniczny makaron."
-  notes: "Suszone pomidory dodatkowo podnoszą FODMAP; jarmuż umiarkowany."
+  status: 'no'
+  serving_ok: Nie – cebula, czosnek, pszeniczny makaron.
+  notes: Suszone pomidory dodatkowo podnoszą FODMAP; jarmuż umiarkowany.
   substitutions:
-    - "Makaron bezglutenowy."
-    - "Olej czosnkowy zamiast czosnku."
-    - "Szczypiorek zamiast cebuli."
+  - Makaron bezglutenowy.
+  - Olej czosnkowy zamiast czosnku.
+  - Szczypiorek zamiast cebuli.
 ---
 
 ## Składniki

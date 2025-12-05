@@ -1,14 +1,26 @@
 ---
+title: Zapiekanka Makaronowo-Brokułowa z Mozzarellą
+author: Policzona Szama
+categories: obiady
 draft: false
 readyToTest: true
-title: "Zapiekanka Makaronowo-Brokułowa z Mozzarellą"
-author: "Policzona Szama"
 recipe_image: images/recipe-headers/zapiekanka_makaron_brokul.avif
-date: 2025-10-27T12:10:00-00:00
-categories: obiady
-tags: ["zapiekanka", "makaron", "brokuł", "mozzarella", "meal-prep"]
-tagline: "Duża prosta zapiekanka pełnoziarnista z brokułem, pomidorkami i roztopioną mozzarellą."
-ingredients: ["makaron pełnoziarnisty", "brokuł", "cebula", "pomidorki koktajlowe", "mozzarella", "oliwa z oliwek"]
+date: 2025-10-27 12:10:00+00:00
+tags:
+- zapiekanka
+- makaron
+- brokuł
+- mozzarella
+- meal-prep
+tagline: Duża prosta zapiekanka pełnoziarnista z brokułem, pomidorkami i roztopioną mozzarellą.
+link: https://youtu.be/WV6HR4I7Flk?t=210
+ingredients:
+- makaron pełnoziarnisty
+- brokuł
+- cebula
+- pomidorki koktajlowe
+- mozzarella
+- oliwa z oliwek
 servings: 6
 prep_time: 20
 cook: true
@@ -17,15 +29,14 @@ calories: 128
 protein: 6
 fat: 3
 carbohydrate: 20
-link: https://youtu.be/WV6HR4I7Flk?t=210
 fodmap:
-  status: "no"
-  serving_ok: "Nie – pełnoziarnisty makaron i cebula (fruktany)."
-  notes: "Brokuł umiarkowanie FODMAP; duża porcja makaronu i cebuli podnosi poziom fruktanów."
+  status: 'no'
+  serving_ok: Nie – pełnoziarnisty makaron i cebula (fruktany).
+  notes: Brokuł umiarkowanie FODMAP; duża porcja makaronu i cebuli podnosi poziom fruktanów.
   substitutions:
-    - "Makaron bezglutenowy."
-    - "Szczypiorek zamiast cebuli."
-    - "Kontrola porcji brokułu (<75 g na osobę)."
+  - Makaron bezglutenowy.
+  - Szczypiorek zamiast cebuli.
+  - Kontrola porcji brokułu (<75 g na osobę).
 ---
 
 ## Składniki (Forma 6 porcji)

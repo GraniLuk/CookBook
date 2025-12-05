@@ -1,14 +1,31 @@
 ---
+title: Zimowy Burger z Kurczakiem i Plackiem Ziemniaczano-Parmezanowym
+author: Policzona Szama
+categories: obiady
 draft: false
 readyToTest: true
-title: "Zimowy Burger z Kurczakiem i Plackiem Ziemniaczano-Parmezanowym"
-author: "Policzona Szama"
 recipe_image: images/recipe-headers/burger_zimowy.avif
-date: 2025-10-27T12:07:00-00:00
-categories: obiady
-tags: ["burger", "kurczak", "parmezan", "fast-food", "zimowy"]
-tagline: "Syty domowy burger z chrupiącym plackiem ziemniaczano-parmezanowym i sosem z suszonych pomidorów."
-ingredients: ["mąka orkiszowa", "ziemniaki", "pierś z kurczaka", "mięso z uda kurczaka", "suszone pomidory", "jogurt grecki", "majonez", "parmezan", "nachosy", "mozzarella", "ogórek konserwowy"]
+date: 2025-10-27 12:07:00+00:00
+tags:
+- burger
+- kurczak
+- parmezan
+- fast-food
+- zimowy
+tagline: Syty domowy burger z chrupiącym plackiem ziemniaczano-parmezanowym i sosem z suszonych pomidorów.
+link: https://www.youtube.com/watch?v=8BAAnl33qe8
+ingredients:
+- mąka orkiszowa
+- ziemniaki
+- pierś z kurczaka
+- mięso z uda kurczaka
+- suszone pomidory
+- jogurt grecki
+- majonez
+- parmezan
+- nachosy
+- mozzarella
+- ogórek konserwowy
 servings: 2
 prep_time: 40
 cook: true
@@ -17,15 +34,14 @@ calories: 264
 protein: 16
 fat: 8
 carbohydrate: 34
-link: https://www.youtube.com/watch?v=8BAAnl33qe8
 fodmap:
-  status: "no"
-  serving_ok: "Nie – mąka orkiszowa, czosnek w sosie, suszone pomidory."
-  notes: "Główne źródła fruktanów: orkisz, czosnek. Suszone pomidory w większej ilości też mogą podnosić FODMAP."
+  status: 'no'
+  serving_ok: Nie – mąka orkiszowa, czosnek w sosie, suszone pomidory.
+  notes: 'Główne źródła fruktanów: orkisz, czosnek. Suszone pomidory w większej ilości też mogą podnosić FODMAP.'
   substitutions:
-    - "Bułki bezglutenowe."
-    - "Olej czosnkowy zamiast czosnku."
-    - "Ogranicz suszone pomidory do 2 szt."
+  - Bułki bezglutenowe.
+  - Olej czosnkowy zamiast czosnku.
+  - Ogranicz suszone pomidory do 2 szt.
 ---
 
 ## Składniki (2 burgery)

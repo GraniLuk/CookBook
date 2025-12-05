@@ -1,12 +1,14 @@
 ---
+title: '## **Wstęp: Letni Box 2023 - Danie Idealne na Upały**'
+author: Autor Przepisu
+categories:
+- sniadania
 draft: true
-title: "## **Wstęp: Letni Box 2023 - Danie Idealne na Upały**"
-author: "Autor Przepisu"
 recipe_image: images/recipe-headers/default.avif
-date: 2025-08-29T17:13:23-00:00
-categories: ["sniadania"]
-tags: ["draft"]
-tagline: "Przepis do sformatowania"
+date: 2025-08-29 17:13:23+00:00
+tags:
+- draft
+tagline: Przepis do sformatowania
 servings: 4
 prep_time: 15
 cook: true
@@ -16,6 +18,7 @@ protein: 20
 fat: 10
 carbohydrate: 25
 ---
+
 ### **Wstęp: Letni Box 2023 - Danie Idealne na Upały**
 
 Witam was kochani w kolejnym odcinku **Policzonej Szamy**! Dziś robimy **letni box 2023**! Upalne lato już jest z nami, także zgodnie z coroczną tradycją, wlatuje przepyszny posiłek na lato, w trzech porcjach oczywiście. Głównymi elementami dania są:

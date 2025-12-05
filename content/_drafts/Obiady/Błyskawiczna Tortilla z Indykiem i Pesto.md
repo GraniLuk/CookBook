@@ -1,14 +1,26 @@
 ---
+title: Błyskawiczna Tortilla z Indykiem i Pesto
+author: Policzona Szama
+categories: obiady
 draft: false
 readyToTest: true
-title: "Błyskawiczna Tortilla z Indykiem i Pesto"
-author: "Policzona Szama"
 recipe_image: images/recipe-headers/tortilla_indyk_pesto.avif
-date: 2025-10-27T12:05:00-00:00
-categories: obiady
-tags: ["tortilla", "indyk", "pesto", "szybkie", "fit"]
-tagline: "Ekspresowa tortilla z mielonym indykiem, pesto, rukolą i mozzarellą – gotowa w kilkanaście minut."
-ingredients: ["mięso mielone z indyka", "tortilla pszenna", "pesto", "rukola", "mozzarella light", "pomidorki koktajlowe"]
+date: 2025-10-27 12:05:00+00:00
+tags:
+- tortilla
+- indyk
+- pesto
+- szybkie
+- fit
+tagline: Ekspresowa tortilla z mielonym indykiem, pesto, rukolą i mozzarellą – gotowa w kilkanaście minut.
+link: https://www.youtube.com/shorts/zeDBT_QcLtc
+ingredients:
+- mięso mielone z indyka
+- tortilla pszenna
+- pesto
+- rukola
+- mozzarella light
+- pomidorki koktajlowe
 servings: 1
 prep_time: 5
 cook: true
@@ -17,15 +29,14 @@ calories: 190
 protein: 14
 fat: 9
 carbohydrate: 13
-link: https://www.youtube.com/shorts/zeDBT_QcLtc
 fodmap:
-  status: "no"
-  serving_ok: "Nie – pszenna tortilla (fruktany) i klasyczne pesto z czosnkiem."
-  notes: "Wysokie fruktany z pszennej tortilli; pesto zwykle zawiera czosnek. Pomidorki i rukola są niskie FODMAP."
+  status: 'no'
+  serving_ok: Nie – pszenna tortilla (fruktany) i klasyczne pesto z czosnkiem.
+  notes: Wysokie fruktany z pszennej tortilli; pesto zwykle zawiera czosnek. Pomidorki i rukola są niskie FODMAP.
   substitutions:
-    - "Bezglutenowa tortilla (ryżowa/kukurydziana)."
-    - "Pesto bez czosnku lub olej czosnkowy infuzyjny."
-    - "Zmniejsz porcję o połowę przy umiarkowanej tolerancji fruktanów."
+  - Bezglutenowa tortilla (ryżowa/kukurydziana).
+  - Pesto bez czosnku lub olej czosnkowy infuzyjny.
+  - Zmniejsz porcję o połowę przy umiarkowanej tolerancji fruktanów.
 ---
 
 ## Składniki

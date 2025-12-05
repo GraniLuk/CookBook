@@ -1,12 +1,14 @@
 ---
+title: '**PRZEPIS NA SAŁATKĘ Z INDYKIEM**'
+author: Autor Przepisu
+categories:
+- sniadania
 draft: true
-title: "**PRZEPIS NA SAŁATKĘ Z INDYKIEM**"
-author: "Autor Przepisu"
 recipe_image: images/recipe-headers/default.avif
-date: 2025-08-29T17:13:22-00:00
-categories: ["sniadania"]
-tags: ["draft"]
-tagline: "Przepis do sformatowania"
+date: 2025-08-29 17:13:22+00:00
+tags:
+- draft
+tagline: Przepis do sformatowania
 servings: 4
 prep_time: 15
 cook: true
@@ -16,6 +18,7 @@ protein: 20
 fat: 10
 carbohydrate: 25
 ---
+
 **PRZEPIS NA SAŁATKĘ Z INDYKIEM**  
 **Składniki**  
 - **Pierś z indyka** – w dużych kawałkach, obrobiona na parze, pokrojona na małe kostki, doprawiona solą.  

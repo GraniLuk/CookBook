@@ -1,14 +1,28 @@
 ---
+title: Bowl z Łososiem, Ryżem i Warzywami
+author: Policzona Szama
+categories: obiady
 draft: false
 readyToTest: true
-title: "Bowl z Łososiem, Ryżem i Warzywami"
-author: "Policzona Szama"
 recipe_image: images/recipe-headers/bowl_losos.avif
-date: 2025-10-27T12:06:00-00:00
-categories: obiady
-tags: ["łosoś", "bowl", "ryż", "awokado", "fit"]
-tagline: "Pełnowartościowa miska z marynowanym łososiem, ryżem i świeżymi warzywami."
-ingredients: ["łosoś", "ryż biały", "awokado", "ogórek", "marchewka", "szpinak", "olej sezamowy", "sos sojowy"]
+date: 2025-10-27 12:06:00+00:00
+tags:
+- łosoś
+- bowl
+- ryż
+- awokado
+- fit
+tagline: Pełnowartościowa miska z marynowanym łososiem, ryżem i świeżymi warzywami.
+link: null
+ingredients:
+- łosoś
+- ryż biały
+- awokado
+- ogórek
+- marchewka
+- szpinak
+- olej sezamowy
+- sos sojowy
 servings: 1
 prep_time: 15
 cook: true
@@ -17,15 +31,14 @@ calories: 173
 protein: 8
 fat: 7
 carbohydrate: 19
-link: 
 fodmap:
-  status: "partial"
-  serving_ok: "Częściowo – awokado 80 g przekracza niską porcję (30–50 g)."
-  notes: "Awokado (poliole) w dużej ilości podnosi FODMAP; reszta składników jest niska."
+  status: partial
+  serving_ok: Częściowo – awokado 80 g przekracza niską porcję (30–50 g).
+  notes: Awokado (poliole) w dużej ilości podnosi FODMAP; reszta składników jest niska.
   substitutions:
-    - "Zmniejsz awokado do 30 g."
-    - "Użyj tamari (bez pszenicy) przy wrażliwości na gluten."
-    - "Dodaj więcej ogórka i marchewki dla objętości."
+  - Zmniejsz awokado do 30 g.
+  - Użyj tamari (bez pszenicy) przy wrażliwości na gluten.
+  - Dodaj więcej ogórka i marchewki dla objętości.
 ---
 
 ## Składniki

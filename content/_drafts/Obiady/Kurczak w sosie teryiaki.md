@@ -1,14 +1,28 @@
 ---
+title: Kurczak Teriyaki z Warzywami i Ryżem
+author: Policzona Szama
+categories: obiady
 draft: false
 readyToTest: true
-title: "Kurczak Teriyaki z Warzywami i Ryżem"
-author: "Policzona Szama"
 recipe_image: images/recipe-headers/kurczak_teriyaki.avif
-date: 2025-10-27T12:08:00-00:00
-categories: obiady
-tags: ["kurczak", "teriyaki", "warzywa", "ryż", "azjatyckie"]
-tagline: "Szybki kurczak teriyaki z chrupiącymi warzywami i ryżem."
-ingredients: ["pierś z kurczaka", "ryż biały", "brokuł", "papryka", "marchewka", "sos teriyaki", "olej sezamowy", "oliwa z oliwek"]
+date: 2025-10-27 12:08:00+00:00
+tags:
+- kurczak
+- teriyaki
+- warzywa
+- ryż
+- azjatyckie
+tagline: Szybki kurczak teriyaki z chrupiącymi warzywami i ryżem.
+link: https://youtu.be/OOEN1F9s4c8?t=784
+ingredients:
+- pierś z kurczaka
+- ryż biały
+- brokuł
+- papryka
+- marchewka
+- sos teriyaki
+- olej sezamowy
+- oliwa z oliwek
 servings: 1
 prep_time: 10
 cook: true
@@ -17,14 +31,13 @@ calories: 121
 protein: 7
 fat: 3
 carbohydrate: 12
-link: https://youtu.be/OOEN1F9s4c8?t=784
 fodmap:
-  status: "no"
-  serving_ok: "Nie – gotowy sos teriyaki zwykle zawiera czosnek i czasem pszenicę."
-  notes: "Warzywa w umiarkowanych porcjach ok; główne FODMAP z sosu."
+  status: 'no'
+  serving_ok: Nie – gotowy sos teriyaki zwykle zawiera czosnek i czasem pszenicę.
+  notes: Warzywa w umiarkowanych porcjach ok; główne FODMAP z sosu.
   substitutions:
-    - "Domowy teriyaki: tamari + syrop klonowy + imbir (bez czosnku)."
-    - "Brokuł ≤75 g jeśli bardzo wrażliwe jelita."
+  - 'Domowy teriyaki: tamari + syrop klonowy + imbir (bez czosnku).'
+  - Brokuł ≤75 g jeśli bardzo wrażliwe jelita.
 ---
 
 ## Składniki

@@ -1,46 +1,43 @@
 ---
-draft: false
 title: Kurczak Teriyaki z Fasolką Szparagową i Ananasem
+author: Policzone Szamy
 categories: obiady
-favourite: false
-queued: false
+draft: false
 readyToTest: false
-tagline: Ogromna, sycąca porcja kurczaka teriyaki z fasolką, ryżem, awokado i
-  ananasem – prawdziwa Mega Micha Mocy!
+recipe_image: images/recipe-headers/kurczak_teriyaki_mega.avif
+date: 2025-12-04 13:20:00+00:00
 tags: null
+tagline: Ogromna, sycąca porcja kurczaka teriyaki z fasolką, ryżem, awokado i ananasem – prawdziwa Mega Micha Mocy!
+link: https://www.youtube.com/watch?v=r9upjiK0zxU
+queued: false
+favourite: false
 ingredients:
-  - kurczak
-  - ryż jaśminowy
-  - fasolka szparagowa
-  - awokado
-  - ananas
-  - sos sojowy
-  - olej sezamowy
+- kurczak
+- ryż jaśminowy
+- fasolka szparagowa
+- awokado
+- ananas
+- sos sojowy
+- olej sezamowy
 servings: 2
 prep_time: 25
 cook: true
+cook_increment: minutes
 cook_time: 15
 calories: 720
 protein: 52
-recipe_image: images/recipe-headers/kurczak_teriyaki_mega.avif
-fodmap:
-  status: depends
-  serving_ok: "OK po modyfikacjach: uwaga na czosnek, awokado w dużej ilości"
-  notes: Czosnek (fruktany) jest wysokofodmap. Awokado – bezpieczna porcja ~30–50
-    g (tu połowa awokado to ~80 g, za dużo). Fasolka szparagowa, ananas (małe
-    ilości), ryż, kurczak są niskofodmap. Imbir jest OK.
-  substitutions:
-    - czosnek -> olej czosnkowy (infuzja bez cząstek)
-    - awokado -> ogranicz do 30–40 g
-    - brązowy cukier -> można użyć białego cukru lub stewii (sprawdź smak)
-image_width: 512
-image_height: 512
-cook_increment: minutes
 fat: 28
 carbohydrate: 76
-link: https://www.youtube.com/watch?v=r9upjiK0zxU
-author: Policzone Szamy
-date: 2025-12-04 13:20:00+00:00
+fodmap:
+  status: depends
+  serving_ok: 'OK po modyfikacjach: uwaga na czosnek, awokado w dużej ilości'
+  notes: Czosnek (fruktany) jest wysokofodmap. Awokado – bezpieczna porcja ~30–50 g (tu połowa awokado to ~80 g, za dużo). Fasolka szparagowa, ananas (małe ilości), ryż, kurczak są niskofodmap. Imbir jest OK.
+  substitutions:
+  - czosnek -> olej czosnkowy (infuzja bez cząstek)
+  - awokado -> ogranicz do 30–40 g
+  - brązowy cukier -> można użyć białego cukru lub stewii (sprawdź smak)
+image_width: 512
+image_height: 512
 ---
 
 ## Składniki

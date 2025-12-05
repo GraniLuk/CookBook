@@ -1,14 +1,27 @@
 ---
+title: Makaron z Pieczonymi Warzywami i Mozzarellą
+author: Policzona Szama
+categories: obiady
 draft: false
 readyToTest: true
-title: "Makaron z Pieczonymi Warzywami i Mozzarellą"
-author: "Policzona Szama"
 recipe_image: images/recipe-headers/makaron_warzywa_mozzarella.avif
-date: 2025-10-27T12:09:00-00:00
-categories: obiady
-tags: ["makaron", "warzywa", "wegetariańskie", "mozzarella", "pieczenie"]
-tagline: "Pieczone warzywa, czosnek i roztopiona mozzarella połączone z al dente makaronem."
-ingredients: ["makaron", "papryka", "cukinia", "pomidorki koktajlowe", "mozzarella", "oliwa z oliwek", "czosnek"]
+date: 2025-10-27 12:09:00+00:00
+tags:
+- makaron
+- warzywa
+- wegetariańskie
+- mozzarella
+- pieczenie
+tagline: Pieczone warzywa, czosnek i roztopiona mozzarella połączone z al dente makaronem.
+link: https://youtu.be/OOEN1F9s4c8?t=1012
+ingredients:
+- makaron
+- papryka
+- cukinia
+- pomidorki koktajlowe
+- mozzarella
+- oliwa z oliwek
+- czosnek
 servings: 1
 prep_time: 15
 cook: true
@@ -17,13 +30,12 @@ calories: 116
 protein: 5
 fat: 6
 carbohydrate: 11
-link: https://youtu.be/OOEN1F9s4c8?t=1012
 fodmap:
-  status: "no"
-  serving_ok: "Nie – pszeniczny makaron oraz czosnek."
-  notes: "Warzywa są niskie w FODMAP, problemem pozostaje gluten i czosnek."
+  status: 'no'
+  serving_ok: Nie – pszeniczny makaron oraz czosnek.
+  notes: Warzywa są niskie w FODMAP, problemem pozostaje gluten i czosnek.
   substitutions:
-    - "Makaron bezglutenowy + olej czosnkowy zamiast czosnku."
+  - Makaron bezglutenowy + olej czosnkowy zamiast czosnku.
 ---
 
 ## Składniki
