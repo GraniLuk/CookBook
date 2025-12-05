@@ -110,7 +110,8 @@ function executeSearch(searchQuery) {
         const escapeRegExp = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
         const qNorm = normalize(searchQuery);
         if (qNorm) {
-          const exactRe = new RegExp('\\b' + escapeRegExp(qNorm) + '\\b', 'i');
+          // Use substring match (no word boundaries) so partial titles like 'schabowy' match 'schab'
+          const exactRe = new RegExp(escapeRegExp(qNorm), 'i');
           const exact = [];
           const others = [];
           result.forEach(r => {

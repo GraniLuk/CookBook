@@ -119,6 +119,16 @@ const testScenarios = [
     }
 ];
 
+// Additional check: ensure title-priority gives exact/partial title matches precedence
+testScenarios.push({
+    id: 'T-SCHAB',
+    category: 'TitlePriority',
+    query: 'schab',
+    expectedBehavior: 'Domowy Schab Wieprzowy should be the top result',
+    minResults: 1,
+    shouldPass: true
+});
+
 // Run tests
 console.log('═══════════════════════════════════════════════════════════════');
 console.log('  Fuse.js v7.1.0 TEST REPORT');
