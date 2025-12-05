@@ -1,42 +1,47 @@
 ---
-title: Chłopski Gar 2.0 - Tani i Zdrowy Obiad Jednogarnkowy
-author: Policzone Szamy
-categories: obiady
 draft: false
+title: Chłopski Gar 2.0 - Tani i Zdrowy Obiad Jednogarnkowy
+categories: obiady
+favourite: false
+queued: true
 readyToTest: true
-recipe_image: images/recipe-headers/chlopski_gar.avif
-date: 2025-12-04 12:00:00+00:00
+tagline: Soczysty jednogarnkowy obiad z kurczakiem, kiszoną kapustą i warzywami
+  – tani i pełen zdrowia!
 tags:
-- instant pot
-tagline: Soczysty jednogarnkowy obiad z kurczakiem, kiszoną kapustą i warzywami – tani i pełen zdrowia!
-link: https://www.youtube.com/watch?v=aUohiReA3gQ
+  - instant pot
 ingredients:
-- mięso z uda kurczaka
-- ziemniaki
-- marchewka
-- cebula
-- czosnek
-- kiszona kapusta
-- sos sojowy
-- koncentrat pomidorowy
+  - mięso z uda kurczaka
+  - ziemniaki
+  - marchewka
+  - cebula
+  - czosnek
+  - kiszona kapusta
+  - sos sojowy
+  - koncentrat pomidorowy
 servings: 5
 prep_time: 15
 cook: true
-cook_increment: minutes
 cook_time: 40
 calories: 380
 protein: 28
-fat: 12
-carbohydrate: 40
+recipe_image: images/recipe-headers/chlopski_gar.avif
 fodmap:
-  status: 'no'
+  status: no
   serving_ok: NIE – cebula, czosnek
-  notes: Cebula i czosnek są wysokofodmap (fruktany). Kiszona kapusta w umiarkowanych ilościach może być tolerowana, ale zależy od indywidualnej wrażliwości. Kurczak, ziemniaki, marchewka są niskofodmap.
+  notes: Cebula i czosnek są wysokofodmap (fruktany). Kiszona kapusta w
+    umiarkowanych ilościach może być tolerowana, ale zależy od indywidualnej
+    wrażliwości. Kurczak, ziemniaki, marchewka są niskofodmap.
   substitutions:
-  - cebula -> zielona część dymki lub pomiń
-  - czosnek -> olej czosnkowy (infuzja bez cząstek)
+    - cebula -> zielona część dymki lub pomiń
+    - czosnek -> olej czosnkowy (infuzja bez cząstek)
 image_width: 512
 image_height: 512
+cook_increment: minutes
+fat: 12
+carbohydrate: 40
+link: https://www.youtube.com/watch?v=aUohiReA3gQ
+author: Policzone Szamy
+date: 2025-12-04 12:00:00+00:00
 ---
 
 ## Składniki
