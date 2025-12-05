@@ -103,9 +103,9 @@ else
     ((PASSED++))
 fi
 
-# Test 5: Ensure specific salad slug remains intact
-TARGET_SALAD="CookBook/admin/#/collections/salatki/entries/Sa%C5%82atka%20%C5%9Ar%C3%B3dziemnomorska%20z%20Kurczakiem,%20Soczewic%C4%85%20i%20Granatem"
-echo "  🔍 Verifying flagship salad edit link..."
+# Test 5: Ensure specific salad slug remains intact (Now in queued)
+TARGET_SALAD="CookBook/admin/#/collections/queued/entries/Sa%C5%82atka%20%C5%9Ar%C3%B3dziemnomorska%20z%20Kurczakiem,%20Soczewic%C4%85%20i%20Granatem"
+echo "  🔍 Verifying flagship salad edit link (in queued)..."
 if grep -r "$TARGET_SALAD" public/ >/dev/null 2>&1; then
     echo "  ✅ Flagship salad edit link is correct"
     ((PASSED++))
@@ -113,7 +113,27 @@ else
     echo "  ❌ Flagship salad edit link not found"
     echo "     Expected: $TARGET_SALAD"
     echo "     Sample admin links:"
-    grep -r "collections/salatki/entries" public/ 2>/dev/null | head -3 | sed 's/^/     /'
+    grep -r "collections/queued/entries" public/ 2>/dev/null | head -3 | sed 's/^/     /'
+    ((FAILED++))
+fi
+
+# Test 6: Check queued collection URLs
+echo "  🔍 Checking queued collection..."
+if [ ! -d "public/queued" ]; then
+    echo "  ⚠️ Directory public/queued does not exist (might be empty)"
+    # Not necessarily a failure if no queued items, but we know there is one.
+    if [ -d "content/queued" ] && [ "$(ls -A content/queued/*.md 2>/dev/null)" ]; then
+         echo "  ❌ Content exists in content/queued but public/queued is missing!"
+         ((FAILED++))
+    fi
+elif grep -r "collections/queued/entries/" public/queued/ >/dev/null 2>&1; then
+    echo "  ✅ Queued collection URLs are correct"
+    ((PASSED++))
+else
+    echo "  ❌ Queued collection URLs not found or incorrect"
+    echo "     Expected pattern: collections/queued/entries/"
+    echo "     Checking what's actually there:"
+    grep -r "admin/#/collections" public/queued/ 2>/dev/null | head -3 | sed 's/^/     /'
     ((FAILED++))
 fi
 
