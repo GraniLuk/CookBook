@@ -55,8 +55,12 @@
                     {{ end }}
                     <div id="shareButton" class="is-rounded media-badge media-badge--right">
                         {{- $collection := "sniadania" -}}
+                        {{- /* Prefer explicit param or page section: queued */ -}}
+                        {{- if or .Params.queued (eq .Section "queued") -}}
+                        {{- $collection = "queued" -}}
+                        {{- end -}}
                         {{- $filePath := replace .File.Path "\\" "/" -}}
-                        {{- if or (strings.Contains $filePath "content/queued/") (strings.Contains $filePath "/queued/") -}}
+                        {{- if and (ne $collection "queued") (or (strings.Contains $filePath "content/queued/") (strings.Contains $filePath "/queued/")) -}}
                         {{- $collection = "queued" -}}
                         {{- else if or (strings.Contains $filePath "published/obiady/") (strings.Contains $filePath
                         "/obiady/") -}}
