@@ -6,7 +6,9 @@ param (
 # This script moves recipe files to the correct category folder based on their front matter
 # Run this after editing recipes in CMS to fix misplaced files
 
-$publishedPath = "content/published"
+# Ensure we are working from the repo root context
+$repoRoot = Split-Path $PSScriptRoot -Parent
+$publishedPath = Join-Path $repoRoot "content/published"
 $categories = @("sniadania", "obiady", "salatki", "desery", "sosy", "napoje")
 
 if ($CheckOnly) {
@@ -122,7 +124,10 @@ foreach ($category in $categories) {
 }
 
 # 2. Scan root content folders for loose recipes
-$rootPaths = @("content", "content/published")
+$rootPaths = @(
+    (Join-Path $repoRoot "content"),
+    (Join-Path $repoRoot "content/published")
+)
 
 foreach ($rootPath in $rootPaths) {
     if (-not (Test-Path $rootPath)) { continue }
