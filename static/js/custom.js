@@ -5,6 +5,7 @@ summaryInclude = 60;
 var fuseOptions = {
   shouldSort: true,
   includeMatches: true,
+  includeScore: true,
   threshold: 0.3,
   location: 0,
   distance: 100,
@@ -102,6 +103,33 @@ function executeSearch(searchQuery) {
       var pages = Array.isArray(data) ? data : [];
       var fuse = new Fuse(pages, fuseOptions);
       var result = fuse.search(searchQuery);
+
+      // Prioritize results where the title contains the exact query word (diacritics-insensitive)
+      try {
+        const normalize = (s) => (s || '').toString().toLowerCase().normalize('NFD').replace(/\p{Diacritic}/gu, '').replace(/[\u0300-\u036f]/g, '');
+        const escapeRegExp = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        const qNorm = normalize(searchQuery);
+        if (qNorm) {
+          const exactRe = new RegExp('\\b' + escapeRegExp(qNorm) + '\\b', 'i');
+          const exact = [];
+          const others = [];
+          result.forEach(r => {
+            const title = (r && r.item && r.item.title) ? r.item.title : '';
+            const titleNorm = normalize(title);
+            if (exactRe.test(titleNorm)) {
+              exact.push(r);
+            } else {
+              others.push(r);
+            }
+          });
+          // keep original relative ordering within groups
+          result = exact.concat(others);
+        }
+      } catch (e) {
+        // if anything goes wrong, fall back to the original ordering
+        console.warn('Error prioritizing title matches', e);
+      }
+
       lastSearchResult = result;
       if (result.length > 0) {
         u('#content').addClass("is-hidden"); //hiding our main content to display the results
