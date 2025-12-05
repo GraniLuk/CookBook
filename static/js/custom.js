@@ -23,6 +23,27 @@ u('#searchTerm').on('change keyup', function () { // Set the search value on key
   searchTerm = this.value;
 })
 
+// On load: if URL has a query param (?q= or ?search=), prefill and run search
+function getQueryParam() {
+  try {
+    const params = new URLSearchParams(window.location.search);
+    return params.get('q') || params.get('query') || params.get('search') || null;
+  } catch (e) {
+    return null;
+  }
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+  const q = getQueryParam();
+  if (q && q.trim()) {
+    const decoded = decodeURIComponent(q).trim();
+    searchTerm = decoded;
+    if (u('#searchTerm').first()) { u('#searchTerm').first().value = decoded; }
+    u('#searchButton').addClass("is-loading");
+    executeSearch(decoded);
+  }
+});
+
 function showAlert(message) {
   u('#alert').removeClass("is-hidden")
   u('#alert').html(message)
@@ -55,6 +76,20 @@ function executeSearch(searchQuery) {
   // Get the correct base URL for index.json
   const baseUrl = '/CookBook';
   const timestamp = new Date().getTime();
+  // normalize query
+  const normalizedQuery = (searchQuery || '').toString().trim();
+  // update browser URL without reloading so searches are shareable
+  try {
+    const url = new URL(window.location.href);
+    if (normalizedQuery) {
+      url.searchParams.set('q', normalizedQuery);
+    } else {
+      url.searchParams.delete('q');
+    }
+    window.history.replaceState({}, '', url.toString());
+  } catch (e) {
+    // ignore
+  }
   fetch(`${baseUrl}/index.json?v=${timestamp}`)
     .then(r => {
       if (!r.ok) throw new Error(`Failed to load index.json: ${r.status}`);
