@@ -13,7 +13,8 @@ $categories = @("sniadania", "obiady", "salatki", "desery", "sosy", "napoje")
 
 if ($CheckOnly) {
     Write-Host "Checking for misplaced recipes..." -ForegroundColor Cyan
-} else {
+}
+else {
     Write-Host "Scanning for misplaced recipes..." -ForegroundColor Cyan
 }
 
@@ -60,7 +61,8 @@ function Process-Recipe {
             $shouldMove = $false
             if ($currentCategory) {
                 if ($recipeCategory -ne $currentCategory) { $shouldMove = $true }
-            } else {
+            }
+            else {
                 # Root file, move if it has a category
                 $shouldMove = $true
             }
@@ -89,7 +91,8 @@ function Process-Recipe {
                             Write-Host "  ❌ Misplaced: $($file.Name)" -ForegroundColor Red
                             Write-Host "      Current: $from → Should be: $recipeCategory" -ForegroundColor Gray
                             return 1 # Count as misplaced
-                        } else {
+                        }
+                        else {
                             Write-Host "  📦 Moving: $($file.Name)" -ForegroundColor Green
                             Write-Host "      From: $from → To: $recipeCategory" -ForegroundColor Gray
                             
@@ -99,10 +102,10 @@ function Process-Recipe {
                     }
                 }
                 else {
-                     Write-Host "  ⚠️  Unknown category '$recipeCategory' in $($file.Name)" -ForegroundColor Yellow
-                     if ($CheckOnly) {
-                         return 1
-                     }
+                    Write-Host "  ⚠️  Unknown category '$recipeCategory' in $($file.Name)" -ForegroundColor Yellow
+                    if ($CheckOnly) {
+                        return 1
+                    }
                 }
             }
         }
@@ -145,11 +148,13 @@ if ($CheckOnly) {
     if ($movedCount -gt 0) {
         Write-Host "`n❌ Found $movedCount misplaced recipes." -ForegroundColor Red
         exit 1
-    } else {
+    }
+    else {
         Write-Host "`n✅ All recipes are in correct categories." -ForegroundColor Green
         exit 0
     }
-} else {
+}
+else {
     Write-Host "`n✅ Done!" -ForegroundColor Green
     Write-Host "   Checked: $checkedCount recipes" -ForegroundColor Gray
     Write-Host "   Moved: $movedCount recipes" -ForegroundColor Gray
