@@ -1,3 +1,7 @@
+param (
+    [Switch]$CheckOnly
+)
+
 # Sync Recipe Categories
 # This script moves recipe files to the correct category folder based on their front matter
 # Run this after editing recipes in CMS to fix misplaced files
@@ -5,7 +9,11 @@
 $publishedPath = "content/published"
 $categories = @("sniadania", "obiady", "salatki", "desery", "sosy", "napoje")
 
-Write-Host "Scanning for misplaced recipes..." -ForegroundColor Cyan
+if ($CheckOnly) {
+    Write-Host "Checking for misplaced recipes..." -ForegroundColor Cyan
+} else {
+    Write-Host "Scanning for misplaced recipes..." -ForegroundColor Cyan
+}
 
 $movedCount = 0
 $checkedCount = 0
@@ -26,11 +34,15 @@ function Process-Recipe {
         $recipeCategory = $null
         
         # Format 1: categories: desery
-        if ($frontMatter -match '(?m)^categories:\s*(\w+)') {
+        if ($frontMatter -match '(?m)^categories:\s*(\w+)\s*$') {
             $recipeCategory = $Matches[1]
         }
         # Format 2: categories: [desery]
-        elseif ($frontMatter -match '(?m)^categories:\s*\[?"?([^"\]]+)"?\]?') {
+        elseif ($frontMatter -match '(?m)^categories:\s*\[\s*"?([^"\]]+)"?\s*\]') {
+            $recipeCategory = $Matches[1]
+        }
+        # Format 3: categories:\n- desery
+        elseif ($frontMatter -match '(?m)^categories:\s*\r?\n\s*-\s*(\w+)') {
             $recipeCategory = $Matches[1]
         }
         
@@ -57,7 +69,9 @@ function Process-Recipe {
                     $targetFolder = Join-Path $publishedPath $recipeCategory
                     
                     if (-not (Test-Path $targetFolder)) {
-                        New-Item -ItemType Directory -Path $targetFolder | Out-Null
+                        if (-not $CheckOnly) {
+                            New-Item -ItemType Directory -Path $targetFolder | Out-Null
+                        }
                     }
 
                     $targetPath = Join-Path $targetFolder $file.Name
@@ -67,16 +81,26 @@ function Process-Recipe {
                         Write-Host "  ⚠️  Cannot move $($file.Name): target already exists in $recipeCategory" -ForegroundColor Yellow
                     }
                     elseif ($file.FullName -ne $targetPath) {
-                        Write-Host "  📦 Moving: $($file.Name)" -ForegroundColor Green
                         $from = if ($currentCategory) { $currentCategory } else { "Root" }
-                        Write-Host "      From: $from → To: $recipeCategory" -ForegroundColor Gray
                         
-                        Move-Item -Path $file.FullName -Destination $targetPath -Force
-                        return 1 # Moved
+                        if ($CheckOnly) {
+                            Write-Host "  ❌ Misplaced: $($file.Name)" -ForegroundColor Red
+                            Write-Host "      Current: $from → Should be: $recipeCategory" -ForegroundColor Gray
+                            return 1 # Count as misplaced
+                        } else {
+                            Write-Host "  📦 Moving: $($file.Name)" -ForegroundColor Green
+                            Write-Host "      From: $from → To: $recipeCategory" -ForegroundColor Gray
+                            
+                            Move-Item -Path $file.FullName -Destination $targetPath -Force
+                            return 1 # Moved
+                        }
                     }
                 }
                 else {
                      Write-Host "  ⚠️  Unknown category '$recipeCategory' in $($file.Name)" -ForegroundColor Yellow
+                     if ($CheckOnly) {
+                         return 1
+                     }
                 }
             }
         }
@@ -112,12 +136,22 @@ foreach ($rootPath in $rootPaths) {
     }
 }
 
-Write-Host "`n✅ Done!" -ForegroundColor Green
-Write-Host "   Checked: $checkedCount recipes" -ForegroundColor Gray
-Write-Host "   Moved: $movedCount recipes" -ForegroundColor Gray
+if ($CheckOnly) {
+    if ($movedCount -gt 0) {
+        Write-Host "`n❌ Found $movedCount misplaced recipes." -ForegroundColor Red
+        exit 1
+    } else {
+        Write-Host "`n✅ All recipes are in correct categories." -ForegroundColor Green
+        exit 0
+    }
+} else {
+    Write-Host "`n✅ Done!" -ForegroundColor Green
+    Write-Host "   Checked: $checkedCount recipes" -ForegroundColor Gray
+    Write-Host "   Moved: $movedCount recipes" -ForegroundColor Gray
 
-if ($movedCount -gt 0) {
-    Write-Host "`n💡 Don't forget to commit these changes:" -ForegroundColor Cyan
-    Write-Host "   git add content/" -ForegroundColor Gray
-    Write-Host "   git commit -m 'fix: move recipes to correct category folders'" -ForegroundColor Gray
+    if ($movedCount -gt 0) {
+        Write-Host "`n💡 Don't forget to commit these changes:" -ForegroundColor Cyan
+        Write-Host "   git add content/" -ForegroundColor Gray
+        Write-Host "   git commit -m 'fix: move recipes to correct category folders'" -ForegroundColor Gray
+    }
 }
