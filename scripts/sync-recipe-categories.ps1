@@ -9,6 +9,8 @@ param (
 # Ensure we are working from the repo root context
 $repoRoot = Split-Path $PSScriptRoot -Parent
 $publishedPath = Join-Path $repoRoot "content/published"
+$queuedPath = Join-Path $repoRoot "content/queued"
+$draftsPath = Join-Path $repoRoot "content/_drafts"
 $categories = @("sniadania", "obiady", "salatki", "desery", "sosy", "napoje")
 
 if ($CheckOnly) {
@@ -33,6 +35,41 @@ function Process-Recipe {
     if ($content -match '(?s)^---\s*\n(.*?)\n---') {
         $frontMatter = $Matches[1]
         
+        # 0. Check for readyToTest: true
+        if ($frontMatter -match '(?m)^readyToTest:\s*true\s*$') {
+            $targetFolder = $queuedPath
+            if (-not (Test-Path $targetFolder)) {
+                if (-not $CheckOnly) {
+                    New-Item -ItemType Directory -Path $targetFolder | Out-Null
+                }
+            }
+            
+            $targetPath = Join-Path $targetFolder $file.Name
+            
+            # If not already in queued
+            if ($file.FullName -ne $targetPath) {
+                $from = if ($currentCategory) { $currentCategory } else { "Source" }
+                if ($file.FullName -like "*_drafts*") { $from = "Drafts" }
+                
+                if ($CheckOnly) {
+                    Write-Host "  🚀 Ready to Test: $($file.Name)" -ForegroundColor Cyan
+                    Write-Host "      Current: $from → Should be: Queued" -ForegroundColor Gray
+                    return 1
+                }
+                else {
+                    Write-Host "  🚀 Moving to Queued: $($file.Name)" -ForegroundColor Cyan
+                    Move-Item -Path $file.FullName -Destination $targetPath -Force
+                    return 1
+                }
+            }
+            return 0 # Already in queued
+        }
+
+        # If in drafts and not ready to test, stop here (don't auto-publish drafts)
+        if ($file.FullName -like "*_drafts*") {
+            return 0
+        }
+
         # Extract categories field (handle different formats)
         $recipeCategory = $null
         
@@ -141,6 +178,15 @@ foreach ($rootPath in $rootPaths) {
     foreach ($file in $files) {
         $checkedCount++
         $movedCount += Process-Recipe -file $file
+    }
+}
+
+# 3. Scan drafts folder
+if (Test-Path $draftsPath) {
+    $draftRecipes = Get-ChildItem -Path $draftsPath -Filter "*.md" -Recurse -File
+    foreach ($recipe in $draftRecipes) {
+        $checkedCount++
+        $movedCount += Process-Recipe -file $recipe
     }
 }
 
