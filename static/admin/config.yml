@@ -417,6 +417,79 @@ _shared_fields:
     hint: "Wybierz z listy składników (wpisz lub kliknij, aby zobaczyć wszystkie)."
 
 collections:
+  - name: queued
+    label: "W kolejce"
+    label_singular: "W kolejce"
+    folder: "content/queued"
+    create: true
+    slug: "{{slug}}"
+    extension: md
+    format: frontmatter
+    filter: {field: "draft", value: false}
+    editor:
+      preview: true
+      visualEditing: true
+    fields:
+      - label: Kategorie
+        name: categories
+        widget: select
+        multiple: false
+        required: true
+        default: ["śniadania"]
+        options:
+          - { label: "śniadania", value: "śniadania" }
+          - { label: "obiady", value: "obiady" }
+          - { label: "sałatki", value: "salatki" }
+          - { label: "desery", value: "desery" }
+          - { label: "sosy", value: "sosy" }
+          - { label: "napoje", value: "napoje" }
+          - { label: "przekąski", value: "przekaski" }
+          - { label: "kolacje", value: "kolacje" }
+      - { label: Tytuł, name: title, widget: string }
+      - label: Podkategorie
+        name: subcategories
+        widget: select
+        required: false
+        options: 
+          - { label: "słodkie", value: "słodkie" }
+          - { label: "słone", value: "słone" }
+      - { label: Ulubiony, name: favourite, widget: boolean, required: true, default: false }
+      - { label: W Kolejce, name: queued, widget: boolean, required: true, default: true }
+      - { label: Testowy, name: readyToTest, widget: boolean, required: true, default: true }
+      - { label: Opis skrócony, name: tagline, widget: string, required: false }
+      - *tags_field
+      - *ingredients_field
+      - { label: Porcje, name: servings, widget: number, required: false, min: 1 }
+      - { label: Czas przygotowania (min), name: prep_time, widget: number, required: false, min: 0 }
+      - { label: Czy wymaga gotowania, name: cook, widget: boolean, required: false, default: false }
+      - { label: Czas gotowania (minuty/godziny), name: cook_time, widget: string, required: false }
+      - { label: Jednostka czasu gotowania, name: cook_increment, widget: string, required: false, hint: "minutes | hours" }
+      - { label: Kalorie, name: calories, widget: number, required: false, min: 0 }
+      - { label: Białko, name: protein, widget: number, required: false, min: 0 }
+      - { label: Tłuszcz, name: fat, widget: number, required: false, min: 0 }
+      - { label: Węglowodany, name: carbohydrate, widget: number, required: false, min: 0 }
+      - { label: Obrazek przepisu (static/...), name: recipe_image, widget: string, required: false }
+      - { label: Link (YouTube itp.), name: link, widget: string, required: false }
+      - label: Low FODMAP
+        name: fodmap
+        widget: object
+        required: false
+        collapsed: true
+        fields:
+          - { label: Status, name: status, widget: string, required: false }
+          - { label: Notatki, name: notes, widget: text, required: false }
+          - label: Zamienniki
+            name: substitutions
+            widget: list
+            required: false
+            field: { label: Zamiennik, name: substitution, widget: string }
+          - { label: Porcja OK, name: serving_ok, widget: string, required: false }
+      - { label: Autor, name: author, widget: string, required: false }
+      - label: Treść
+        name: body
+        widget: markdown
+        hint: "Treść przepisu"
+
   - name: sniadania
     label: "Śniadania"
     label_singular: "Śniadanie"
