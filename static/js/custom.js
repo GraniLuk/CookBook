@@ -71,9 +71,15 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function closeHamburgerMenu() {
-  if (u('#navBarButton').hasClass('is-active')) {
-    u('#navBarButton').removeClass('is-active');
-    u('#navBarMenu').removeClass('is-active');
+  // Use the global closeMobileMenu from navbar.js if available (handles state properly)
+  if (typeof window.closeMobileMenu === 'function') {
+    window.closeMobileMenu();
+  } else {
+    // Fallback: just remove CSS classes
+    if (u('#navBarButton').hasClass('is-active')) {
+      u('#navBarButton').removeClass('is-active');
+      u('#navBarMenu').removeClass('is-active');
+    }
   }
 }
 
