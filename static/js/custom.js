@@ -70,12 +70,15 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 });
 
-function executeSearch(searchQuery) {
-  // Close hamburger menu if open (for mobile)
+function closeHamburgerMenu() {
   if (u('#navBarButton').hasClass('is-active')) {
     u('#navBarButton').removeClass('is-active');
     u('#navBarMenu').removeClass('is-active');
   }
+}
+
+function executeSearch(searchQuery) {
+  closeHamburgerMenu();
 
   // Get the correct base URL for index.json
   const baseUrl = window.baseUrl || '/CookBook';
