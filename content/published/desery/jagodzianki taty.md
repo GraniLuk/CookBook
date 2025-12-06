@@ -1,6 +1,6 @@
 ---
 title: Jagodzianki Taty
-author: Policzone Szamy
+author: Teść Krzysztof
 categories: desery
 draft: false
 recipe_image: images/recipe-headers/jagodzianki.avif
