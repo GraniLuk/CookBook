@@ -17,8 +17,8 @@ ingredients:
 - jogurt naturalny
 servings: 8
 prep_time: 15
-cook: false
-cook_time: 0
+cook: true
+cook_time: 25
 calories: 435
 protein: 10
 fat: 24
@@ -42,6 +42,10 @@ fodmap:
 3.  Dodać 4 żółtka.  
 4.  Zagnieść na jednolitą masę.  
 5.  Jeżeli masa się nie lepi, dodać jogurtu, aż będzie się lepić.  
+6.  Rozwałkować ciasto na grubość około 0.5 cm.  
+7.  Przełożyć na blaszkę do pieczenia.  
+8.  Ponakłuwać widelcem.  
+9.  Upiec w piekarniku nagrzanym do 180°C (góra-dół) przez 20-25 minut, aż ciasto będzie miało złocisty kolor.  
 
 ## Podsumowanie wartości odżywczych (całe ciasto)
 

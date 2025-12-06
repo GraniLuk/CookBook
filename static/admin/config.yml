@@ -75,6 +75,7 @@ _shared_fields:
       - { label: "ryby", value: "ryby" }
       - { label: "Stefan", value: "Stefan" }
       - { label: "szybkie", value: "szybkie" }
+      - { label: "tarta", value: "tarta" }
       - { label: "słodkie", value: "słodkie" }
       - { label: "tropikalne", value: "tropikalne" }
       - { label: "wegańskie", value: "wegańskie" }
