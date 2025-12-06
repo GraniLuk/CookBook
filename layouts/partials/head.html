@@ -31,6 +31,7 @@
     {{ $title := print .Site.Title " | " .Title }}
     {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
     <title>{{ $title }}</title>
+    <script>window.baseUrl = '{{ .Site.BasePath }}';</script>
             {{ if in (default (slice) .Params.diets) "low-fodmap" }}
                 {{ $kw := (slice "low fodmap") }}
                 {{ with .Params.tags }}{{ $kw = $kw | append . }}{{ end }}

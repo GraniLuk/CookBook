@@ -78,7 +78,7 @@ function executeSearch(searchQuery) {
   }
 
   // Get the correct base URL for index.json
-  const baseUrl = '/CookBook';
+  const baseUrl = window.baseUrl || '/CookBook';
   const timestamp = new Date().getTime();
   // normalize query
   const normalizedQuery = (searchQuery || '').toString().trim();
@@ -321,7 +321,7 @@ document.addEventListener('click', function (e) {
     var slug = target.getAttribute('data-tag');
     if (slug) {
       // Detect base path (works for local dev under /CookBook/ subpath)
-      var url = '/CookBook/tags/' + slug + '/';
+      var url = (window.baseUrl || '/CookBook') + '/tags/' + slug + '/';
       // Support ctrl/cmd/middle click to open in new tab
       if (e.metaKey || e.ctrlKey || e.button === 1) {
         window.open(url, '_blank');
@@ -344,7 +344,7 @@ if (document.getElementById('showTestCheckbox')) {
 // Service Worker Registration
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/sw.js').then(registration => {
+    navigator.serviceWorker.register((window.baseUrl || '/CookBook') + '/sw.js').then(registration => {
       console.log('ServiceWorker registration successful with scope: ', registration.scope);
     }, err => {
       console.log('ServiceWorker registration failed: ', err);
