@@ -35,6 +35,31 @@ function getQueryParam() {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
+  // Attach event listeners now that DOM is ready
+  u('#searchTerm').on('change keyup', function () { // Set the search value on keyup for the input
+    searchTerm = this.value;
+  })
+
+  u('#searchButton').handle('click', function (e) { //use handle to automatically prevent default
+    const current = (u('#searchTerm').first() && u('#searchTerm').first().value) || searchTerm;
+    if (current && current.trim()) {
+      searchTerm = current.trim();
+      if (u('#searchTerm').first()) { u('#searchTerm').first().value = searchTerm; }
+      u('#searchButton').addClass("is-loading");
+      executeSearch(searchTerm);
+    } else {
+      showAlert("Search cannot be empty!")
+    }
+  })
+
+  // Allow pressing Enter in the input to run search without reloading the page
+  u('#searchTerm').on('keydown', function (e) {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      u('#searchButton').trigger('click');
+    }
+  });
+
   const q = getQueryParam();
   if (q && q.trim()) {
     const decoded = decodeURIComponent(q).trim();
@@ -45,35 +70,13 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 });
 
-function showAlert(message) {
-  u('#alert').removeClass("is-hidden")
-  u('#alert').html(message)
-  setTimeout(function () {
-    u('#alert').addClass("is-hidden")
-  }, 3000)
-}
-
-u('#searchButton').handle('click', function (e) { //use handle to automatically prevent default
-  const current = (u('#searchTerm').first() && u('#searchTerm').first().value) || searchTerm;
-  if (current && current.trim()) {
-    searchTerm = current.trim();
-    if (u('#searchTerm').first()) { u('#searchTerm').first().value = searchTerm; }
-    u('#searchButton').addClass("is-loading");
-    executeSearch(searchTerm);
-  } else {
-    showAlert("Search cannot be empty!")
-  }
-})
-
-// Allow pressing Enter in the input to run search without reloading the page
-u('#searchTerm').on('keydown', function (e) {
-  if (e.key === 'Enter') {
-    e.preventDefault();
-    u('#searchButton').trigger('click');
-  }
-});
-
 function executeSearch(searchQuery) {
+  // Close hamburger menu if open (for mobile)
+  if (u('#navBarButton').hasClass('is-active')) {
+    u('#navBarButton').removeClass('is-active');
+    u('#navBarMenu').removeClass('is-active');
+  }
+
   // Get the correct base URL for index.json
   const baseUrl = '/CookBook';
   const timestamp = new Date().getTime();
