@@ -4,13 +4,13 @@ author: Policzone Szamy
 categories: obiady
 draft: false
 readyToTest: false
+queued: false
+favourite: false
 recipe_image: images/recipe-headers/kurczak_teriyaki_mega.avif
 date: 2025-12-04 13:20:00+00:00
 tags: null
 tagline: Ogromna, sycąca porcja kurczaka teriyaki z fasolką, ryżem, awokado i ananasem – prawdziwa Mega Micha Mocy!
 link: https://www.youtube.com/watch?v=r9upjiK0zxU
-queued: false
-favourite: false
 ingredients:
 - kurczak
 - ryż jaśminowy

@@ -6,6 +6,7 @@ categories:
 subcategories:
 - słodkie
 draft: false
+favourite: true
 recipe_image: images/recipe-headers/granola.avif
 date: 2025-08-23 12:00:00+00:00
 tags:
@@ -13,7 +14,6 @@ tags:
 - owsianka
 tagline: Chrupiąca, złocista granola pieczona wolniej w niższej temperaturze – idealna do jogurtu i na wynos.
 link: https://www.youtube.com/watch?v=xsvyi8sl8xM
-favourite: true
 ingredients:
 - płatki owsiane
 - płatki migdałowe

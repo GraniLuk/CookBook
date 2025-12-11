@@ -4,13 +4,13 @@ author: Policzone Szamy
 categories: śniadania
 draft: false
 readyToTest: true
+queued: true
 recipe_image: images/recipe-headers/calonocna_owsianka_chia_bakalie.avif
 date: 2025-11-02 12:00:00+00:00
 tags:
 - owsianka
 tagline: Kremowa owsianka z twarogiem, chia i bakaliami, śródziemnomorski deser na lunch.
 link: https://www.youtube.com/watch?v=prsZbulipCk
-queued: true
 ingredients:
 - twaróg
 - skyr

@@ -4,6 +4,7 @@ author: Policzona Szama
 categories: obiady
 draft: false
 readyToTest: true
+queued: true
 recipe_image: images/recipe-headers/burrito.avif
 date: 2025-11-29 12:00:00+00:00
 tags:
@@ -12,7 +13,6 @@ tags:
 - proteinowe
 tagline: Epickie burrito z wołowiną w pikantnym sosie pomidorowym, czerwoną fasolą, awokado, serem cheddar i jajecznicą.
 link: https://www.youtube.com/watch?v=h8zZXIgS30c
-queued: true
 ingredients:
 - wołowina mielona
 - czerwona fasola

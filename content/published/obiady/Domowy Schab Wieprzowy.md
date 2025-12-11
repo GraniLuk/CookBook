@@ -3,6 +3,7 @@ title: Domowy Schab Wieprzowy
 author: Policzone Szamy
 categories: obiady
 draft: false
+favourite: true
 recipe_image: images/recipe-headers/domowy_schab.avif
 date: 2025-11-20 12:00:00+00:00
 tags:
@@ -11,7 +12,6 @@ tags:
 - mięso
 tagline: Soczysty domowy schab wieprzowy, idealny do kanapek i dań.
 link: https://www.youtube.com/watch?v=d71Nd3lS2Ok
-favourite: true
 ingredients:
 - schab wieprzowy
 - sól

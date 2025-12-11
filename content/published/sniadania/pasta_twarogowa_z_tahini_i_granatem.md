@@ -4,6 +4,7 @@ author: Anonimowy
 categories: śniadania
 subcategories: słodkie
 draft: false
+favourite: false
 recipe_image: images/recipe-headers/pasta_twarogowa_tahini_granat.avif
 date: 2025-11-26 12:00:00+00:00
 tags:
@@ -11,7 +12,6 @@ tags:
 - pasta
 tagline: Kremowa pasta twarogowa z tahini i granatem, idealna na śniadanie lub przekąskę.
 link: null
-favourite: false
 ingredients:
 - twaróg chudy
 - skyr naturalny

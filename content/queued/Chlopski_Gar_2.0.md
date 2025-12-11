@@ -4,14 +4,14 @@ author: Policzone Szamy
 categories: obiady
 draft: false
 readyToTest: true
+queued: true
+favourite: false
 recipe_image: images/recipe-headers/chlopski_gar.avif
 date: 2025-12-04 12:00:00+00:00
 tags:
 - instant pot
 tagline: Soczysty jednogarnkowy obiad z kurczakiem, kiszoną kapustą i warzywami – tani i pełen zdrowia!
 link: https://www.youtube.com/watch?v=aUohiReA3gQ
-queued: true
-favourite: false
 ingredients:
 - mięso z uda kurczaka
 - ziemniaki

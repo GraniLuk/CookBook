@@ -6,6 +6,8 @@ categories:
 subcategories:
 - słone
 draft: true
+queued: true
+favourite: false
 recipe_image: images/defaultImage.avif
 date: 2025-09-03 12:00:00+00:00
 tags:
@@ -13,8 +15,6 @@ tags:
 - ryby
 tagline: Stosowe weekendowe śniadanie z bajglem, łososiem, awokado i jajkiem sadzonym – pyszne i sycące.
 link: https://www.youtube.com/watch?v=mNq7c4FHAL0
-queued: true
-favourite: false
 ingredients:
 - bajgiel
 - serek
