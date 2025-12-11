@@ -446,13 +446,13 @@ _shared_fields:
         - { label: "słone", value: "słone" }
     - { label: Szkic (draft), name: draft, widget: hidden, default: false }
     - { label: Testowy, name: readyToTest, widget: boolean, required: true, default: false }
+    - { label: W Kolejce, name: queued, widget: boolean, required: true, default: false }
+    - { label: Ulubiony, name: favourite, widget: boolean, required: true, default: false }
     - { label: Obrazek przepisu (static/...), name: recipe_image, widget: string, required: false }
     - { label: Data, name: date, widget: hidden, default: "" }
     - *tags_field
     - { label: Opis skrócony, name: tagline, widget: string, required: false }
     - { label: Link (YouTube itp.), name: link, widget: string, required: false }
-    - { label: W Kolejce, name: queued, widget: boolean, required: true, default: false }
-    - { label: Ulubiony, name: favourite, widget: boolean, required: true, default: false }
     - *ingredients_field
     - { label: Porcje, name: servings, widget: number, required: false, min: 1 }
     - { label: Czas przygotowania (min), name: prep_time, widget: number, required: false, min: 0 }
