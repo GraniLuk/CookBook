@@ -1,26 +1,28 @@
 ---
 title: Pyszna sałatka i NAJLEPSZY SOS, który niszczy kubki
 author: Policzona Szama
-categories:
-- sałatki
+categories: salatki
 draft: false
 readyToTest: true
 recipe_image: images/recipe-headers/salatka_z_sosem.avif
 date: 2025-11-29 12:00:00+00:00
 tags:
-- szybkie
-- proteinowe
-- zdrowe
-tagline: Ulubiona sałatka z epickim sosem musztardowo-miodowo-czosnkowym na bazie oleju lnianego, idealna na śniadanie lub kolację.
+  - szybkie
+  - proteinowe
+  - zdrowe
+tagline: Ulubiona sałatka z epickim sosem musztardowo-miodowo-czosnkowym na
+  bazie oleju lnianego, idealna na śniadanie lub kolację.
 link: https://www.youtube.com/watch?v=eqd7KweVu0g
+queued: false
+favourite: false
 ingredients:
-- sałata lodowa
-- rukola
-- awokado
-- ciecierzyca
-- suszone pomidory
-- jajka
-- granat
+  - sałata lodowa
+  - rukola
+  - awokado
+  - ciecierzyca
+  - suszone pomidory
+  - jajka
+  - granat
 servings: 1
 prep_time: 15
 cook: true
@@ -30,8 +32,9 @@ protein: 25
 fat: 50
 carbohydrate: 65
 fodmap:
-  status: 'no'
-  notes: Ciecierzyca i czosnek w sosie mogą być problematyczne dla osób z wrażliwością na FODMAP.
+  status: no
+  notes: Ciecierzyca i czosnek w sosie mogą być problematyczne dla osób z
+    wrażliwością na FODMAP.
 ---
 
 ## Składniki
