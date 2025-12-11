@@ -1,10 +1,10 @@
-name: Validate Content
+# NOTE: This workflow is now redundant - validation is integrated into hugo.yml
+# Kept for reference but disabled. Delete this file if no longer needed.
+
+name: Validate Content (DISABLED)
 
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+  workflow_dispatch:  # Manual trigger only
 
 jobs:
   validate:

@@ -89,6 +89,7 @@ hugo -D
 - Admin panel: `/admin/` (requires authentication)
 - **Visual Editing enabled** – click on content in the preview pane to edit fields directly
 - Custom preview templates match the Hugo site's styling
+- **Frontmatter Validation**: All collections use consistent field order. See [docs/frontmatter-validation.md](docs/frontmatter-validation.md)
 - See [docs/VISUAL_EDITING.md](docs/VISUAL_EDITING.md) for details on the click-to-edit feature
 
 ## Gotchas
