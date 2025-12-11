@@ -1,24 +1,22 @@
 ---
-title: Sałatka z Łososiem, Pomarańczą i Granatem
-author: Policzone Szamy
-categories: salatki
 draft: false
+categories: salatki
+title: Sałatka z Łososiem, Pomarańczą i Granatem
+favourite: false
+queued: true
 readyToTest: true
-recipe_image: images/recipe-headers/salatka_losos_pomarancza_granat.avif
-date: 2025-11-01 12:00:00+00:00
-tags:
-- szybkie
-- ryby
-- śródziemnomorska
 tagline: Świeża sałatka z łososiem, pomarańczą i granatem w musztardowym sosie.
-link: https://youtu.be/nbZB9V3N6LY?t=433
+tags:
+  - szybkie
+  - ryby
+  - śródziemnomorska
 ingredients:
-- łosoś
-- mix sałat
-- pomarańcza
-- granat
-- olej lniany
-- pieczywo rustykalne
+  - łosoś
+  - mix sałat
+  - pomarańcza
+  - granat
+  - olej lniany
+  - pieczywo rustykalne
 servings: 3
 prep_time: 10
 cook: true
@@ -27,12 +25,17 @@ calories: 600
 protein: 35
 fat: 25
 carbohydrate: 50
+recipe_image: images/recipe-headers/salatka_losos_pomarancza_granat.avif
+link: https://youtu.be/nbZB9V3N6LY?t=433
 fodmap:
-  status: 'no'
+  status: no
   serving_ok: Nie OK w tej porcji
-  notes: Granat może być wysokofodmapowy w większych ilościach; łosoś, sałata i pomarańcza są bezpieczne.
+  notes: Granat może być wysokofodmapowy w większych ilościach; łosoś, sałata i
+    pomarańcza są bezpieczne.
   substitutions:
-  - Zmniejsz ilość granatu dla wersji low FODMAP.
+    - Zmniejsz ilość granatu dla wersji low FODMAP.
+author: Policzone Szamy
+date: 2025-11-01 12:00:00+00:00
 ---
 
 ## Składniki
