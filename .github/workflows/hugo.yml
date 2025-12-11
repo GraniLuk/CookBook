@@ -51,7 +51,7 @@ jobs:
       - name: Install Node.js dependencies
         run: npm ci
       - name: Setup Python for validation
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.x'
       - name: Install Python dependencies
