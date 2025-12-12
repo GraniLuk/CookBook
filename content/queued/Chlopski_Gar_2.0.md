@@ -12,7 +12,6 @@ tags:
 - instant pot
 tagline: Soczysty jednogarnkowy obiad z kurczakiem, kiszoną kapustą i warzywami – tani i pełen zdrowia!
 link: https://www.youtube.com/watch?v=aUohiReA3gQ
-video_file: "videos/CHŁOPSKI GAR 2.0.webm"
 ingredients:
 - mięso z uda kurczaka
 - ziemniaki
@@ -38,6 +37,7 @@ fodmap:
   substitutions:
   - cebula -> zielona część dymki lub pomiń
   - czosnek -> olej czosnkowy (infuzja bez cząstek)
+video_file: videos/CHŁOPSKI GAR 2.0.webm
 image_width: 512
 image_height: 512
 ---
