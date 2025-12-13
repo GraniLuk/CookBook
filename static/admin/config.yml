@@ -36,16 +36,20 @@ _shared_fields:
     required: false
     options:
       - { label: "", value: "" }
+      - { label: "azjatyckie", value: "azjatyckie" }
       - { label: "batony", value: "batony" }
       - { label: "bez gotowania", value: "bez gotowania" }
       - { label: "bez-pieczenia", value: "bez-pieczenia" }
       - { label: "blender", value: "blender" }
+      - { label: "bowl", value: "bowl" }
       - { label: "brownie", value: "brownie" }
+      - { label: "burger", value: "burger" }
       - { label: "chrupiące", value: "chrupiące" }
       - { label: "ciastka", value: "ciastka" }
       - { label: "ciastka owsiane", value: "ciastka owsiane" }
       - { label: "czekoladowe", value: "czekoladowe" }
       - { label: "dynia", value: "dynia" }
+      - { label: "fast-food", value: "fast-food" }
       - { label: "goście", value: "goście" }
       - { label: "grill", value: "grill" }
       - { label: "impreza", value: "impreza" }
@@ -76,12 +80,15 @@ _shared_fields:
       - { label: "ryby", value: "ryby" }
       - { label: "Stefan", value: "Stefan" }
       - { label: "szybkie", value: "szybkie" }
-      - { label: "tarta", value: "tarta" }
       - { label: "słodkie", value: "słodkie" }
+      - { label: "tarta", value: "tarta" }
+      - { label: "tortilla", value: "tortilla" }
       - { label: "tropikalne", value: "tropikalne" }
       - { label: "wegańskie", value: "wegańskie" }
       - { label: "wegetariańskie", value: "wegetariańskie" }
       - { label: "włoskie", value: "włoskie" }
+      - { label: "xmas", value: "xmas" }
+      - { label: "zapiekanka", value: "zapiekanka" }
       - { label: "zdrowe", value: "zdrowe" }
       - { label: "śródziemnomorska", value: "śródziemnomorska" }
     hint: "Wybierz z listy tagów (wpisz lub kliknij, aby zobaczyć wszystkie)."
@@ -94,11 +101,9 @@ _shared_fields:
     required: false
     options:
       - { label: "ananas", value: "ananas" }
-      - { label: "ananasa", value: "ananasa" }
       - { label: "awokado", value: "awokado" }
       - { label: "bagietka", value: "bagietka" }
       - { label: "bajgiel", value: "bajgiel" }
-      - { label: "bakalie", value: "bakalie" }
       - { label: "banan", value: "banan" }
       - { label: "bataty", value: "bataty" }
       - { label: "berberys", value: "berberys" }
@@ -106,7 +111,6 @@ _shared_fields:
       - { label: "białko jajeczne", value: "białko jajeczne" }
       - { label: "boczek", value: "boczek" }
       - { label: "brokuł", value: "brokuł" }
-      - { label: "brzoskwinie", value: "brzoskwinie" }
       - { label: "budyń waniliowy", value: "budyń waniliowy" }
       - { label: "bulion", value: "bulion" }
       - { label: "burak", value: "burak" }
@@ -149,6 +153,7 @@ _shared_fields:
       - { label: "erytrol", value: "erytrol" }
       - { label: "erytrytol", value: "erytrytol" }
       - { label: "fasola biała", value: "fasola biała" }
+      - { label: "fasola czerwona", value: "fasola czerwona" }
       - { label: "fasolka szparagowa", value: "fasolka szparagowa" }
       - { label: "frytki", value: "frytki" }
       - { label: "gnocchi", value: "gnocchi" }
@@ -182,11 +187,14 @@ _shared_fields:
       - { label: "kiełki", value: "kiełki" }
       - { label: "kiełki fasoli mung", value: "kiełki fasoli mung" }
       - { label: "kinder bueno", value: "kinder bueno" }
+      - { label: "kiszona kapusta", value: "kiszona kapusta" }
       - { label: "kminek", value: "kminek" }
       - { label: "kolendra", value: "kolendra" }
       - { label: "komosa ryżowa", value: "komosa ryżowa" }
       - { label: "koncentrat pomidorowy", value: "koncentrat pomidorowy" }
       - { label: "koperek", value: "koperek" }
+      - { label: "kotlet z antrykotu z kością", value: "kotlet z antrykotu z kością" }
+      - { label: "kości cielęce", value: "kości cielęce" }
       - { label: "kukurydza", value: "kukurydza" }
       - { label: "kurczak", value: "kurczak" }
       - { label: "kurczak nóżki", value: "kurczak nóżki" }
@@ -199,6 +207,7 @@ _shared_fields:
       - { label: "majonez light", value: "majonez light" }
       - { label: "makaron", value: "makaron" }
       - { label: "makaron orzo", value: "makaron orzo" }
+      - { label: "makaron pełnoziarnisty", value: "makaron pełnoziarnisty" }
       - { label: "makaron pełnoziarnisty kokardki", value: "makaron pełnoziarnisty kokardki" }
       - { label: "makaron ryżowy", value: "makaron ryżowy" }
       - { label: "makaron spaghetti", value: "makaron spaghetti" }
@@ -220,6 +229,7 @@ _shared_fields:
       - { label: "mix sałat", value: "mix sałat" }
       - { label: "miód", value: "miód" }
       - { label: "mięso mielone", value: "mięso mielone" }
+      - { label: "mięso mielone z indyka", value: "mięso mielone z indyka" }
       - { label: "mięso z indyka", value: "mięso z indyka" }
       - { label: "mięso z uda kurczaka", value: "mięso z uda kurczaka" }
       - { label: "mięta", value: "mięta" }
@@ -230,6 +240,7 @@ _shared_fields:
       - { label: "mleko sojowe", value: "mleko sojowe" }
       - { label: "morele suszone", value: "morele suszone" }
       - { label: "mozzarella", value: "mozzarella" }
+      - { label: "mozzarella light", value: "mozzarella light" }
       - { label: "mrożone warzywa", value: "mrożone warzywa" }
       - { label: "muszarda sarepska", value: "muszarda sarepska" }
       - { label: "musztarda", value: "musztarda" }
@@ -237,10 +248,12 @@ _shared_fields:
       - { label: "mąka jaglana", value: "mąka jaglana" }
       - { label: "mąka kokosowa", value: "mąka kokosowa" }
       - { label: "mąka migdałowa", value: "mąka migdałowa" }
+      - { label: "mąka orkiszowa", value: "mąka orkiszowa" }
       - { label: "mąka orkiszowa pełnoziarnista", value: "mąka orkiszowa pełnoziarnista" }
       - { label: "mąka owsiana", value: "mąka owsiana" }
       - { label: "mąka pszenna", value: "mąka pszenna" }
       - { label: "mąka ryżowa", value: "mąka ryżowa" }
+      - { label: "nachosy", value: "nachosy" }
       - { label: "napój migdałowy", value: "napój migdałowy" }
       - { label: "napój owsiany", value: "napój owsiany" }
       - { label: "napój roślinny", value: "napój roślinny" }
@@ -252,6 +265,7 @@ _shared_fields:
       - { label: "ocet winny", value: "ocet winny" }
       - { label: "odżywka białkowa", value: "odżywka białkowa" }
       - { label: "ogórek", value: "ogórek" }
+      - { label: "ogórek konserwowy", value: "ogórek konserwowy" }
       - { label: "ogórek zielony", value: "ogórek zielony" }
       - { label: "ogórki kiszone", value: "ogórki kiszone" }
       - { label: "ogórki konserwowe", value: "ogórki konserwowe" }
@@ -295,6 +309,7 @@ _shared_fields:
       - { label: "pesto bazyliowe", value: "pesto bazyliowe" }
       - { label: "pieczarki", value: "pieczarki" }
       - { label: "pieczywo rustykalne", value: "pieczywo rustykalne" }
+      - { label: "pieprz", value: "pieprz" }
       - { label: "pierś z kurczaka", value: "pierś z kurczaka" }
       - { label: "pietruszka", value: "pietruszka" }
       - { label: "pistacje", value: "pistacje" }
@@ -328,6 +343,7 @@ _shared_fields:
       - { label: "rukola", value: "rukola" }
       - { label: "ryż", value: "ryż" }
       - { label: "ryż basmati", value: "ryż basmati" }
+      - { label: "ryż biały", value: "ryż biały" }
       - { label: "ryż brązowy", value: "ryż brązowy" }
       - { label: "ryż czerwony", value: "ryż czerwony" }
       - { label: "ryż jaśminowy", value: "ryż jaśminowy" }
@@ -340,9 +356,11 @@ _shared_fields:
       - { label: "sałata rzymska", value: "sałata rzymska" }
       - { label: "schab pieczony", value: "schab pieczony" }
       - { label: "schab wieprzowy", value: "schab wieprzowy" }
+      - { label: "seler", value: "seler" }
       - { label: "ser", value: "ser" }
       - { label: "ser cheddar", value: "ser cheddar" }
       - { label: "ser feta", value: "ser feta" }
+      - { label: "ser gorgonzola", value: "ser gorgonzola" }
       - { label: "ser grana padano", value: "ser grana padano" }
       - { label: "ser homogenizowany ciasteczkowy", value: "ser homogenizowany ciasteczkowy" }
       - { label: "ser homogenizowany waniliowy", value: "ser homogenizowany waniliowy" }
@@ -360,11 +378,11 @@ _shared_fields:
       - { label: "serek śmietankowy chrzanowy", value: "serek śmietankowy chrzanowy" }
       - { label: "sezam", value: "sezam" }
       - { label: "siemię lniane", value: "siemię lniane" }
+      - { label: "skrzydło indycze", value: "skrzydło indycze" }
       - { label: "skyr", value: "skyr" }
       - { label: "skyr naturalny", value: "skyr naturalny" }
       - { label: "skyr waniliowy", value: "skyr waniliowy" }
       - { label: "skórka cytrynowa", value: "skórka cytrynowa" }
-      - { label: "skórka pomarańczowa", value: "skórka pomarańczowa" }
       - { label: "soczewica zielona", value: "soczewica zielona" }
       - { label: "sok z cytryny", value: "sok z cytryny" }
       - { label: "sos pomidorowy", value: "sos pomidorowy" }
@@ -402,6 +420,7 @@ _shared_fields:
       - { label: "woda", value: "woda" }
       - { label: "wołowina", value: "wołowina" }
       - { label: "wołowina mielona", value: "wołowina mielona" }
+      - { label: "ziele angielskie", value: "ziele angielskie" }
       - { label: "ziemniaki", value: "ziemniaki" }
       - { label: "zioła", value: "zioła" }
       - { label: "łopatka wieprzowa", value: "łopatka wieprzowa" }
@@ -415,6 +434,7 @@ _shared_fields:
       - { label: "śmietana kremowa", value: "śmietana kremowa" }
       - { label: "śmietanka 30%", value: "śmietanka 30%" }
       - { label: "żurawina", value: "żurawina" }
+      - { label: "żurawina suszona", value: "żurawina suszona" }
       - { label: "żółtka", value: "żółtka" }
     hint: "Wybierz z listy składników (wpisz lub kliknij, aby zobaczyć wszystkie)."
 
