@@ -1,8 +1,7 @@
 ---
 title: Swojska ZAPIEKANKA ziemniaczana z MIĘSEM - 240 g BIAŁKA
 author: '[[Policzona Szama]]'
-tags:
-- Summaries/Przepisy
+
 source: https://www.youtube.com/watch?v=vWAYh91Jols
 published: 2019-07-25
 created: 2025-10-27

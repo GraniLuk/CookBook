@@ -1,8 +1,7 @@
 ---
 title: WOŁOWINA w sosie jakiej nie znasz - ROZPŁYWA się w ustach.  LunchBOX 2 warianty | POLICZONA SZAMA
 author: '[[Policzona Szama]]'
-tags:
-- Summaries/Przepisy
+
 source: https://www.youtube.com/watch?v=Zi83vWOxG4c
 published: 2019-08-22
 created: 2025-10-27

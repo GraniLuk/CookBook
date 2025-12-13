@@ -1,8 +1,7 @@
 ---
 title: Jak zrobić idealne BUŁKI do HAMBURGERÓW
 author: '[[Policzona Szama]]'
-tags:
-- Summaries/Przepisy
+
 source: https://www.youtube.com/watch?v=JL4jyt-LbWI
 published: 2021-05-12
 created: 2025-10-26

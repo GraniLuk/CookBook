@@ -1,8 +1,7 @@
 ---
 title: GIGA placki ziemniaczane BEZ SMAŻENIA. Nadziewane serowo szpinakowo
 author: '[[Policzona Szama]]'
-tags:
-- Summaries/Przepisy
+
 source: https://www.youtube.com/watch?v=NNgkH6XmCTo
 published: 2021-01-24
 created: 2025-10-27

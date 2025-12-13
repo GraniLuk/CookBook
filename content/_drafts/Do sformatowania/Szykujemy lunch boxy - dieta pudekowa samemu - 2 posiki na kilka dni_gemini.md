@@ -1,8 +1,7 @@
 ---
 title: Szykujemy lunch boxy - dieta pudełkowa samemu - 2 posiłki na kilka dni
 author: '[[Policzona Szama]]'
-tags:
-- Summaries/Przepisy
+
 source: https://www.youtube.com/watch?v=C_e4hTGtndM
 published: 2019-04-03
 created: 2025-10-30

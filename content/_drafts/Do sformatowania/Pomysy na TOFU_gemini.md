@@ -1,8 +1,7 @@
 ---
 title: Pomysły na TOFU
 author: '[[Policzona Szama]]'
-tags:
-- Summaries/Przepisy
+
 source: https://www.youtube.com/watch?v=n5173WONE4w
 published: 2020-08-19
 created: 2025-10-27

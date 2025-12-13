@@ -1,8 +1,7 @@
 ---
 title: Batony ENERGETYCZNO BIAŁKOWE w podróż (vegan friendly)
 author: '[[Policzona Szama]]'
-tags:
-- Summaries/Przepisy
+
 source: https://www.youtube.com/watch?v=al_i77sWC2A
 published: 2021-08-08
 created: 2025-10-26

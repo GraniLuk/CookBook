@@ -1,8 +1,7 @@
 ---
 title: Kotlety MIELONE - Prosty przepis na tradycyjne, PUSZYSTE w środku i chrupiące na zewnątrz.
 author: '[[Policzona Szama]]'
-tags:
-- Summaries/Przepisy
+
 source: https://www.youtube.com/watch?v=W_6cFRYVKDM
 published: 2019-07-12
 created: 2025-10-28

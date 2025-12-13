@@ -1,8 +1,7 @@
 ---
 title: NAJSZYBSZA PIZZA - omlet pizza
 author: '[[Policzona Szama]]'
-tags:
-- Summaries/Przepisy
+
 source: https://www.youtube.com/watch?v=CKPQzqp2LZA
 published: 2020-02-21
 created: 2025-10-27

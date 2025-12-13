@@ -1,8 +1,7 @@
 ---
 title: Prosty makaron w sosie z krewetkami / LunchBOX na 4 dni
 author: '[[Policzona Szama]]'
-tags:
-- Summaries/Przepisy
+
 source: https://www.youtube.com/watch?v=lyeo0GUPms4
 published: 2021-09-08
 created: 2025-10-26

@@ -1,8 +1,7 @@
 ---
 title: Proste DESERY - 3 FIT pomysły
 author: '[[Policzona Szama]]'
-tags:
-- Summaries/Przepisy
+
 source: https://www.youtube.com/watch?v=vSQluiXClMI
 published: 2019-12-16
 created: 2025-10-27

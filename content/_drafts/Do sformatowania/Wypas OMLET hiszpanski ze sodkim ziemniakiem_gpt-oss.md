@@ -1,8 +1,7 @@
 ---
 title: Wypas OMLET hiszpański ze słodkim ziemniakiem
 author: '[[Policzona Szama]]'
-tags:
-- Summaries/Przepisy
+
 source: https://www.youtube.com/watch?v=5oVpFUqpsC8
 published: 2017-09-24
 created: 2025-11-23

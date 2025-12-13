@@ -1,8 +1,7 @@
 ---
 title: Jak zrobić chleb PITA - prosta grecka pita z patelni
 author: '[[Policzona Szama]]'
-tags:
-- Summaries/Przepisy
+
 source: https://www.youtube.com/watch?v=CeaBvtaZvow
 published: 2018-08-20
 created: 2025-10-30

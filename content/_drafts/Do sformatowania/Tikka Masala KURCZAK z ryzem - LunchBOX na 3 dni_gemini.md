@@ -1,8 +1,7 @@
 ---
 title: Tikka Masala KURCZAK z ryżem - LunchBOX na 3 dni
 author: '[[Policzona Szama]]'
-tags:
-- Summaries/Przepisy
+
 source: https://www.youtube.com/watch?v=wUJsHpDuEP0
 published: 2020-11-15
 created: 2025-10-27

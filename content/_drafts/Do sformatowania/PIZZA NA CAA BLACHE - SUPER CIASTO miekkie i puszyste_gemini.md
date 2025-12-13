@@ -1,8 +1,7 @@
 ---
 title: PIZZA NA CAŁĄ BLACHĘ - SUPER CIASTO miękkie i puszyste
 author: '[[Policzona Szama]]'
-tags:
-- Summaries/Przepisy
+
 source: https://www.youtube.com/watch?v=hmlPEUD4aIY
 published: 2020-04-03
 created: 2025-10-27

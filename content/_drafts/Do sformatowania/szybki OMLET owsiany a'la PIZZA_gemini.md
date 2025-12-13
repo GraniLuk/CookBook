@@ -1,8 +1,7 @@
 ---
 title: szybki OMLET owsiany a'la PIZZA
 author: '[[Policzona Szama]]'
-tags:
-- Summaries/Przepisy
+
 source: https://www.youtube.com/watch?v=0iqasRK5S8k
 published: 2017-03-17
 created: 2025-10-30

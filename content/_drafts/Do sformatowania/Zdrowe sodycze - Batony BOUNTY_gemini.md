@@ -1,8 +1,7 @@
 ---
 title: Zdrowe słodycze - Batony BOUNTY
 author: '[[Policzona Szama]]'
-tags:
-- Summaries/Przepisy
+
 source: https://www.youtube.com/watch?v=YHAUPAD3G18
 published: 2017-04-23
 created: 2025-10-30

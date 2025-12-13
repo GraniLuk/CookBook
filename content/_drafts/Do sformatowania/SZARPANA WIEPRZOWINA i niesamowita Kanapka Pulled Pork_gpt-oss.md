@@ -1,8 +1,7 @@
 ---
 title: SZARPANA WIEPRZOWINA i niesamowita Kanapka Pulled Pork
 author: '[[Policzona Szama]]'
-tags:
-- Summaries/Przepisy
+
 source: https://www.youtube.com/watch?v=K8RSTfTtbEA
 published: 2021-06-10
 created: 2025-10-26

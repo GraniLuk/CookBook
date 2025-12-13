@@ -2,8 +2,7 @@
 title: BANG BANG Kurczak - AIR FRY vs DEEP FRY
 author: '[[Policzona Szama]]'
 draft: true
-tags:
-- Summaries/Przepisy
+
 source: https://www.youtube.com/watch?v=6BIPAXnh0S8
 published: 2025-11-25
 created: 2025-11-25

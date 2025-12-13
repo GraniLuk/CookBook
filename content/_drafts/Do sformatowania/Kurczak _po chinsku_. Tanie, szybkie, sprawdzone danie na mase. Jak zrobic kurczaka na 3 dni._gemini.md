@@ -1,8 +1,7 @@
 ---
 title: Kurczak "po chińsku". Tanie, szybkie, sprawdzone danie na masę. Jak zrobić kurczaka na 3 dni.
 author: '[[Policzona Szama]]'
-tags:
-- Summaries/Przepisy
+
 source: https://www.youtube.com/watch?v=rTba9riskTY
 published: 2017-02-04
 created: 2025-10-30

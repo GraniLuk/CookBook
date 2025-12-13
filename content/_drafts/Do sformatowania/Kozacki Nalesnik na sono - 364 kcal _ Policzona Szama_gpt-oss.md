@@ -1,8 +1,7 @@
 ---
 title: Kozacki Naleśnik na słono - 364 kcal | Policzona Szama
 author: '[[Policzona Szama]]'
-tags:
-- Summaries/Przepisy
+
 source: https://www.youtube.com/watch?v=hPVtglIkLbw
 published: 2018-10-21
 created: 2025-11-22

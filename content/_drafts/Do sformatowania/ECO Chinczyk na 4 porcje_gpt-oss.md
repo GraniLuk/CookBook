@@ -2,8 +2,7 @@
 title: ECO Chińczyk na 4 porcje
 author: '[[Policzona Szama]]'
 draft: true
-tags:
-- Summaries/Przepisy
+
 source: https://www.youtube.com/watch?v=twN1vcuVUaM
 published: 2025-11-27
 created: 2025-11-28

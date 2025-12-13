@@ -1,8 +1,7 @@
 ---
 title: WRAPO LASAGNE - hit w kuchni
 author: '[[Policzona Szama]]'
-tags:
-- Summaries/Przepisy
+
 source: https://www.youtube.com/watch?v=JB0XbOfP4Xs
 published: 2020-08-31
 created: 2025-10-27

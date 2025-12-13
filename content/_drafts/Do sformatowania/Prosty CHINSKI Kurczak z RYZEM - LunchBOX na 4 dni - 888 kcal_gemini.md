@@ -1,8 +1,7 @@
 ---
 title: Prosty CHIŃSKI Kurczak z RYŻEM - LunchBOX na 4 dni - 888 kcal
 author: '[[Policzona Szama]]'
-tags:
-- Summaries/Przepisy
+
 source: https://www.youtube.com/watch?v=Ph7IcIXOQYo
 published: 2019-08-03
 created: 2025-10-27

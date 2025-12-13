@@ -1,8 +1,7 @@
 ---
 title: Dietetyczne PANCAKES - proste, wysokobiałkowe, bananowe! | POLICZONA SZAMA
 author: '[[Policzona Szama]]'
-tags:
-- Summaries/Przepisy
+
 source: https://www.youtube.com/watch?v=RN-4X6ziJzk
 published: 2017-03-12
 created: 2025-11-23

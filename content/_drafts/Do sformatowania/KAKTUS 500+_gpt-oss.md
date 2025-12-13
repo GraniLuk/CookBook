@@ -1,8 +1,7 @@
 ---
 title: KAKTUS 500+
 author: '[[Policzona Szama]]'
-tags:
-- Summaries/Przepisy
+
 source: https://www.youtube.com/watch?v=h2HjSR16OCs
 published: 2021-06-29
 created: 2025-10-26

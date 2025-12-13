@@ -2,8 +2,7 @@
 title: FURA JEDZENIA w 2 h na 3 dni
 author: '[[Policzona Szama]]'
 draft: true
-tags:
-- Summaries/Przepisy
+
 source: https://www.youtube.com/watch?v=TeQ5D1yuuC8
 published: 2025-10-14
 created: 2025-10-14

@@ -2,8 +2,7 @@
 title: Lasagne z dynią i szynką - idealna na jesień!
 author: '[[Policzona Szama]]'
 draft: true
-tags:
-- Summaries/Przepisy
+
 source: https://www.youtube.com/watch?v=N3b6C3Wm6OY
 published: 2025-09-18
 created: 2025-09-19

@@ -1,8 +1,7 @@
 ---
 title: Prosty kurczak z ryżem i warzywami w CHIŃSKICH smakach
 author: '[[Policzona Szama]]'
-tags:
-- Summaries/Przepisy
+
 source: https://www.youtube.com/watch?v=UuUGIXxrYL4
 published: 2021-03-19
 created: 2025-11-01

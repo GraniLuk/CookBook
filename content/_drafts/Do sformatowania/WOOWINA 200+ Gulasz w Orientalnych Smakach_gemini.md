@@ -1,8 +1,7 @@
 ---
 title: WOŁOWINA 200+  Gulasz w Orientalnych Smakach
 author: '[[Policzona Szama]]'
-tags:
-- Summaries/Przepisy
+
 source: https://www.youtube.com/watch?v=QglNbCwysMg
 published: 2020-02-01
 created: 2025-10-27

@@ -1,8 +1,7 @@
 ---
 title: Lubisz makaron? To zobacz to. - Tortilla de Pasta
 author: '[[Policzona Szama]]'
-tags:
-- Summaries/Przepisy
+
 source: https://www.youtube.com/watch?v=7goH41AOGeM
 published: 2020-08-24
 created: 2025-10-27

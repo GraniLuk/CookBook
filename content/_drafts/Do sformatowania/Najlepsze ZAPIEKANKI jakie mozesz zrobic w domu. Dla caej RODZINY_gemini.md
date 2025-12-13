@@ -1,8 +1,7 @@
 ---
 title: Najlepsze ZAPIEKANKI jakie możesz zrobić w domu. Dla całej RODZINY
 author: '[[Policzona Szama]]'
-tags:
-- Summaries/Przepisy
+
 source: https://www.youtube.com/watch?v=VvCzxJq4Wx0
 published: 2020-10-19
 created: 2025-11-01

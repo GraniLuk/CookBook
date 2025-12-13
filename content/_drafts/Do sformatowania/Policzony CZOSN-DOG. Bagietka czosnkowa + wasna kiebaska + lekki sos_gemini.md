@@ -1,8 +1,7 @@
 ---
 title: Policzony CZOSN-DOG. Bagietka czosnkowa + własna kiełbaska + lekki sos
 author: '[[Policzona Szama]]'
-tags:
-- Summaries/Przepisy
+
 source: https://www.youtube.com/watch?v=F0K1yb7epqM
 published: 2021-01-12
 created: 2025-11-01

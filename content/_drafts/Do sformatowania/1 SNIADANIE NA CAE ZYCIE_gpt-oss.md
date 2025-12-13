@@ -2,8 +2,7 @@
 title: 1 ŚNIADANIE NA CAŁE ŻYCIE
 author: '[[Policzona Szama]]'
 draft: true
-tags:
-- Summaries/Przepisy
+
 source: https://www.youtube.com/watch?v=fS2YEsoFTjc
 published: 2025-09-11
 created: 2025-09-12

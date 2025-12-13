@@ -1,8 +1,7 @@
 ---
 title: Sernik wysokobiałkowy. Low carb, bez cukru. Dwuwarstwowy, pyszny, prosty z piekarnika.
 author: '[[Policzona Szama]]'
-tags:
-- Summaries/Przepisy
+
 source: https://www.youtube.com/watch?v=8mW90a-tmp8
 published: 2017-02-10
 created: 2025-10-30

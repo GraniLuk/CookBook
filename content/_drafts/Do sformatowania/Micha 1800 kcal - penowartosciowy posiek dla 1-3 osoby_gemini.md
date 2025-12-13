@@ -1,8 +1,7 @@
 ---
 title: Micha 1800 kcal - pełnowartościowy posiłek dla 1-3 osoby
 author: '[[Policzona Szama]]'
-tags:
-- Summaries/Przepisy
+
 source: https://www.youtube.com/watch?v=YNY0H8Eoves
 published: 2019-12-08
 created: 2025-10-27

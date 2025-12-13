@@ -1,8 +1,7 @@
 ---
 title: Słodkie CHILI. Słodko ostry sos w 10 minut.
 author: '[[Policzona Szama]]'
-tags:
-- Summaries/Przepisy
+
 source: https://www.youtube.com/watch?v=VgKsUAxmJaA
 published: 2019-03-20
 created: 2025-10-30

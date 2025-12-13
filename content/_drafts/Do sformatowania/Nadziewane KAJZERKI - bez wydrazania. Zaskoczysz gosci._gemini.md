@@ -1,8 +1,7 @@
 ---
 title: Nadziewane KAJZERKI - bez wydrążania. Zaskoczysz gości.
 author: '[[Policzona Szama]]'
-tags:
-- Summaries/Przepisy
+
 source: https://www.youtube.com/watch?v=mshGe49eAjg
 published: 2021-03-12
 created: 2025-11-01

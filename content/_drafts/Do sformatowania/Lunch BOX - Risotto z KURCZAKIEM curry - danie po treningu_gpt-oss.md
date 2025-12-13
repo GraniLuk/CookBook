@@ -1,8 +1,7 @@
 ---
 title: Lunch BOX - Risotto z KURCZAKIEM curry - danie po treningu
 author: '[[Policzona Szama]]'
-tags:
-- Summaries/Przepisy
+
 source: https://www.youtube.com/watch?v=avNXQh4rw3E
 published: 2018-09-21
 created: 2025-11-22
