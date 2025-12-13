@@ -2,8 +2,7 @@
 title: Dip z suszonych pomidorów! 🍅
 author: '[[Policzona Szama]]'
 tags:
-- Przepisy/Grill
-- Summaries/Przepisy
+- Grill
 source: https://www.youtube.com/watch?v=2URSuGluYs4
 published: 2025-04-30
 created: 2025-11-22

@@ -8,10 +8,6 @@ recipe_image: images/recipe-headers/zapiekanka_makaron_brokul.avif
 date: 2025-10-27 12:10:00+00:00
 tags:
 - zapiekanka
-- makaron
-- brokuł
-- mozzarella
-- meal-prep
 tagline: Duża prosta zapiekanka pełnoziarnista z brokułem, pomidorkami i roztopioną mozzarellą.
 link: https://youtu.be/WV6HR4I7Flk?t=210
 ingredients:

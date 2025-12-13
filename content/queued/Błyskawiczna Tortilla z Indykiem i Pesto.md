@@ -8,10 +8,7 @@ recipe_image: images/recipe-headers/tortilla_indyk_pesto.avif
 date: 2025-10-27 12:05:00+00:00
 tags:
 - tortilla
-- indyk
-- pesto
 - szybkie
-- fit
 tagline: Ekspresowa tortilla z mielonym indykiem, pesto, rukolą i mozzarellą – gotowa w kilkanaście minut.
 link: https://www.youtube.com/shorts/zeDBT_QcLtc
 ingredients:

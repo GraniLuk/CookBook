@@ -7,11 +7,7 @@ readyToTest: true
 recipe_image: images/recipe-headers/zapiekanka_indyk_jarmuz.avif
 date: 2025-10-27 12:11:00+00:00
 tags:
-- indyk
 - zapiekanka
-- jarmuż
-- makaron
-- passata
 tagline: Indyk, makaron i jarmuż w aromatycznym, gęstym sosie pomidorowym – syty fit obiad.
 link: https://www.youtube.com/watch?v=eRttoS2L1qE
 ingredients:

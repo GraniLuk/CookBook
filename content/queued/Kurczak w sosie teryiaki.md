@@ -7,10 +7,6 @@ readyToTest: true
 recipe_image: images/recipe-headers/kurczak_teriyaki.avif
 date: 2025-10-27 12:08:00+00:00
 tags:
-- kurczak
-- teriyaki
-- warzywa
-- ryż
 - azjatyckie
 tagline: Szybki kurczak teriyaki z chrupiącymi warzywami i ryżem.
 link: https://youtu.be/OOEN1F9s4c8?t=784
