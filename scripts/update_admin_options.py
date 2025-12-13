@@ -1,6 +1,7 @@
 """
 Regenerate the tag and ingredient options in static/admin/config.yml from current content.
 """
+
 import pathlib
 import re
 
@@ -56,55 +57,65 @@ def main() -> None:
     ingredients = sorted(collect_ingredients(content_dir), key=str.casefold)
 
     # Build the options block for tags
-    tag_options_lines = ["        options:"]
+    tag_options_lines = ["    options:"]
     for tag in tags:
         # Escape quotes in tag values
         safe_tag = tag.replace('"', '\\"')
-        tag_options_lines.append(f'          - {{ label: "{safe_tag}", value: "{safe_tag}" }}')
+        tag_options_lines.append(
+            f'      - {{ label: "{safe_tag}", value: "{safe_tag}" }}'
+        )
     tag_options_block = "\n".join(tag_options_lines)
 
     # Build the options block for ingredients
-    ingredient_options_lines = ["        options:"]
+    ingredient_options_lines = ["    options:"]
     for ingredient in ingredients:
         # Escape quotes in ingredient values
         safe_ingredient = ingredient.replace('"', '\\"')
-        ingredient_options_lines.append(f'          - {{ label: "{safe_ingredient}", value: "{safe_ingredient}" }}')
+        ingredient_options_lines.append(
+            f'      - {{ label: "{safe_ingredient}", value: "{safe_ingredient}" }}'
+        )
     ingredient_options_block = "\n".join(ingredient_options_lines)
 
     config_text = config_path.read_text(encoding="utf-8")
 
     # Find and replace the options block for the Tagi field
     tag_pattern = re.compile(
-        r"(      - label: Tagi\n"
-        r"        name: tags\n"
-        r"        widget: select\n"
-        r"        multiple: true\n"
-        r"        required: false\n)"
-        r"        options:.*?"
-        r"(\n        hint:)",
+        r"(  tags_field: &tags_field\n"
+        r"    label: Tagi\n"
+        r"    name: tags\n"
+        r"    widget: select\n"
+        r"    multiple: true\n"
+        r"    required: false\n)"
+        r"    options:.*?"
+        r"(\n    hint:)",
         re.DOTALL,
     )
 
     # Find and replace the options block for the Składniki field
     ingredient_pattern = re.compile(
-        r"(      - label: Składniki\n"
-        r"        name: ingredients\n"
-        r"        widget: select\n"
-        r"        multiple: true\n"
-        r"        required: false\n)"
-        r"        options:.*?"
-        r"(\n        hint:)",
+        r"(  ingredients_field: &ingredients_field\n"
+        r"    label: Składniki\n"
+        r"    name: ingredients\n"
+        r"    widget: select\n"
+        r"    multiple: true\n"
+        r"    required: false\n)"
+        r"    options:.*?"
+        r"(\n    hint:)",
         re.DOTALL,
     )
 
     new_config = tag_pattern.sub(r"\1" + tag_options_block + r"\2", config_text)
-    new_config = ingredient_pattern.sub(r"\1" + ingredient_options_block + r"\2", new_config)
+    new_config = ingredient_pattern.sub(
+        r"\1" + ingredient_options_block + r"\2", new_config
+    )
 
     if new_config == config_text:
         print("No changes needed—options blocks not found or already up to date.")
     else:
         config_path.write_text(new_config, encoding="utf-8")
-        print(f"Updated config.yml with {len(tags)} tags and {len(ingredients)} ingredients.")
+        print(
+            f"Updated config.yml with {len(tags)} tags and {len(ingredients)} ingredients."
+        )
 
 
 if __name__ == "__main__":
