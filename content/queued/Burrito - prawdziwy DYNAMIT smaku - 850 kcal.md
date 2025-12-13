@@ -15,7 +15,7 @@ tagline: Epickie burrito z wołowiną w pikantnym sosie pomidorowym, czerwoną f
 link: https://www.youtube.com/watch?v=h8zZXIgS30c
 ingredients:
 - wołowina mielona
-- czerwona fasola
+- fasola czerwona
 - pomidory krojone
 - awokado
 - ser cheddar

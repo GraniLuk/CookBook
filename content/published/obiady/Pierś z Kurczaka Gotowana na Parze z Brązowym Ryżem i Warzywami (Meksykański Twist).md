@@ -13,7 +13,7 @@ ingredients:
 - pierś z kurczaka
 - jarmuż
 - kukurydza
-- czerwona fasola
+- fasola czerwona
 - pomidorki cherry
 - majonez light
 - jogurt naturalny

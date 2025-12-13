@@ -15,7 +15,7 @@ ingredients:
 - czosnek
 - marchew
 - pomidory
-- czerwona fasola
+- fasola czerwona
 servings: 6
 prep_time: 20
 cook: true
