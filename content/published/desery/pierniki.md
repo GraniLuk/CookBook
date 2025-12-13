@@ -1,26 +1,34 @@
 ---
-draft: false  
+title: Mięciutkie i puszyste pierniczki w lukrze
+author: przepeace
+categories: desery
+draft: false
 readyToTest: false
-title: "Mięciutkie i puszyste pierniczki w lukrze"  
-author: "przepeace"  
-recipe_image: images/recipe-headers/pierniki.avif  
-date: 2025-12-13T12:00:00-00:00  
-categories: desery  
-tags: ["xmas"]  
-tagline: "Mięciutkie i puszyste pierniczki w lukrze - przepis, który pokochaliście w zeszłym roku, więc nie mogło go zabraknąć i w tym! 🍪 Spokojnie wytrzymają do Świąt, więc możecie już zacząć przygotowania."  
-ingredients: ["miód", "masło", "erytrol", "jajko", "mąka", "cukier puder", "mleko"]
-servings: 24  
-prep_time: 20  
-cook: true  
-cook_time: 8  
+recipe_image: images/recipe-headers/pierniki.avif
+date: 2025-12-13 12:00:00+00:00
+tags:
+- xmas
+tagline: Mięciutkie i puszyste pierniczki w lukrze - przepis, który pokochaliście w zeszłym roku, więc nie mogło go zabraknąć i w tym! 🍪 Spokojnie wytrzymają do Świąt, więc możecie już zacząć przygotowania.
+ingredients:
+- miód
+- masło
+- erytrol
+- jajko
+- mąka
+- cukier puder
+- mleko
+servings: 24
+prep_time: 20
+cook: true
+cook_time: 8
 calories: 179
 protein: 2
 fat: 4
-carbohydrate: 34 
+carbohydrate: 34
 fodmap:
-  status: "no"
-  serving_ok: "Nie dla diety low FODMAP"
-  notes: "Miód jest źródłem FODMAP"
+  status: 'no'
+  serving_ok: Nie dla diety low FODMAP
+  notes: Miód jest źródłem FODMAP
   substitutions: []
 ---
 
