@@ -62,6 +62,8 @@ jobs:
       - name: Validate recipe categories
         shell: pwsh
         run: ./scripts/sync-recipe-categories.ps1 -CheckOnly
+      - name: Validate CMS config options
+        run: python scripts/update_admin_options.py --check
       - name: Build Hugo site for testing
         run: hugo
       - name: Run edit button tests
