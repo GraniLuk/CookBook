@@ -63,7 +63,7 @@ Lukier:
 6. Rozgrzej piekarnik do 190 stopni (góra dół, jeśli pieczesz jedną blaszkę lub termoobieg, jeśli dwie na raz). 
 7. Wyrób je chwilę rekami. Ciasto będzie dość lepkie, więc jeśli będzie kleiło się do blatu lub wałka, możesz wysmarować je delikatnie olejem - nie podsypuj mąką. 
 8. Rozwałkuj ciasto na dość gruby placek (6-8 mm). Wycinaj dowolne kształty i przekładaj na blaszki. 
-9. Piecz w 190 stopniach góra dół lub 180 termoobieg 7-8 minut (tylko do delikatnego zarumienienia). 
+9. Piecz w 190 stopniach góra dół lub 180 termoobieg 6-7 minut (tylko do delikatnego zarumienienia). 
 10. W międzyczasie przygotuj lukier dokładnie mieszając cukier puder z mlekiem i sokiem z cytryny. 
 11. Wyjmij z piekarnika i od razu zamaczaj gorące pierniczki w lukrze. Odłóż na kratkę do studzenia. Przechowuj w szczelnie zamkniętym pojemniku. 🫶🏻
 
