@@ -4,6 +4,7 @@ Usage: python find_recipes_with_tag.py <tag>
 """
 
 import argparse
+import os
 import pathlib
 
 import yaml
@@ -43,7 +44,12 @@ def main() -> None:
     if recipes:
         print(f"Recipes with tag '{args.tag}':")
         for recipe in sorted(recipes):
-            print(f"  {recipe}")
+            abs_filepath = os.path.abspath(recipe)
+            uri_path = abs_filepath.replace("\\", "/").replace(" ", "%20")
+            if not uri_path.startswith("/"):
+                uri_path = "/" + uri_path
+            file_uri = f"file://{uri_path}"
+            print(f"  {file_uri}")
     else:
         print(f"No recipes found with tag '{args.tag}'.")
 
