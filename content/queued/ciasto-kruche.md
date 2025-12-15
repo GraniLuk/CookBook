@@ -3,7 +3,7 @@ title: Ciasto Kruche
 author: Teść Krzysztof
 categories: desery
 draft: false
-readyToTest: true
+readyToTest: false
 recipe_image: images/recipe-headers/ciasto_kruche.avif
 date: 2025-12-06 12:00:00+00:00
 tags:
