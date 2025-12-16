@@ -166,7 +166,8 @@ foreach ($category in $categories) {
 # 2. Scan root content folders for loose recipes
 $rootPaths = @(
     (Join-Path $repoRoot "content"),
-    (Join-Path $repoRoot "content/published")
+    (Join-Path $repoRoot "content/published"),
+    $queuedPath
 )
 
 foreach ($rootPath in $rootPaths) {
