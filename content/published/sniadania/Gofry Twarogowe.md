@@ -16,7 +16,7 @@ ingredients:
 - jajka
 - banan
 - mleko
-- mąka
+- mąka pszenna
 - olej
 servings: 4
 prep_time: 5

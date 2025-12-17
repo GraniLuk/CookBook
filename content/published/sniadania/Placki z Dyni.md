@@ -12,7 +12,7 @@ tagline: Proste placki z dyni, jajek, mąki i banana, idealne na zdrowe śniadan
 ingredients:
 - dynia
 - jajka
-- mąka
+- mąka pszenna
 - banan
 servings: 2
 prep_time: 10

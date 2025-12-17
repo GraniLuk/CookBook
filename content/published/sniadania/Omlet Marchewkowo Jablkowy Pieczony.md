@@ -18,7 +18,7 @@ ingredients:
 - płatki jaglane
 - jabłko
 - marchewka
-- mąka orkiszowa pełnoziarnista
+- mąka orkiszowa
 servings: 1
 prep_time: 10
 cook: true

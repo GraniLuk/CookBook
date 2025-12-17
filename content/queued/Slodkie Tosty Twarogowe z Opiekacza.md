@@ -15,7 +15,7 @@ link: https://youtu.be/wmM49OvW780?t=136
 ingredients:
 - twaróg
 - jajko
-- mąka orkiszowa pełnoziarnista
+- mąka orkiszowa
 - mleko
 - wiórki kokosowe
 servings: 1

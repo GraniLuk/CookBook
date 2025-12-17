@@ -14,7 +14,7 @@ tagline: Zdrowe placki z serka wiejskiego!
 ingredients:
 - banan
 - serek wiejski
-- mąka
+- mąka pszenna
 - jajka
 servings: 12
 prep_time: 10

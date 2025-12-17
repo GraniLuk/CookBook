@@ -18,7 +18,7 @@ ingredients:
   - masło
   - erytrol
   - jajko
-  - mąka
+  - mąka pszenna
   - cukier puder
   - mleko
 servings: 24

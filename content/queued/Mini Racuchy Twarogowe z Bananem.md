@@ -17,7 +17,7 @@ ingredients:
 - jajko
 - banan
 - mleko
-- mąka orkiszowa pełnoziarnista
+- mąka orkiszowa
 - rodzynki
 servings: 1
 prep_time: 5

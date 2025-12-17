@@ -16,7 +16,7 @@ link: https://youtu.be/3qI4Y5dRumA?t=254
 ingredients:
 - banan
 - jajka
-- mąka
+- mąka pszenna
 servings: 1
 prep_time: 10
 cook: true

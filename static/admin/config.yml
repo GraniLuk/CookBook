@@ -237,7 +237,6 @@ _shared_fields:
       - { label: "mleko sojowe", value: "mleko sojowe" }
       - { label: "morele suszone", value: "morele suszone" }
       - { label: "mozzarella", value: "mozzarella" }
-      - { label: "mozzarella light", value: "mozzarella light" }
       - { label: "mrożone warzywa", value: "mrożone warzywa" }
       - { label: "muszarda sarepska", value: "muszarda sarepska" }
       - { label: "musztarda", value: "musztarda" }
@@ -400,8 +399,6 @@ _shared_fields:
       - { label: "szynka wędzona", value: "szynka wędzona" }
       - { label: "tahini", value: "tahini" }
       - { label: "tortilla", value: "tortilla" }
-      - { label: "tortilla pełnoziarnista", value: "tortilla pełnoziarnista" }
-      - { label: "tortilla pszenna", value: "tortilla pszenna" }
       - { label: "truskawki", value: "truskawki" }
       - { label: "tuńczyk", value: "tuńczyk" }
       - { label: "twaróg", value: "twaróg" }
@@ -424,7 +421,6 @@ _shared_fields:
       - { label: "śmietana 30%", value: "śmietana 30%" }
       - { label: "śmietana kremowa", value: "śmietana kremowa" }
       - { label: "śmietanka 30%", value: "śmietanka 30%" }
-      - { label: "żurawina", value: "żurawina" }
       - { label: "żurawina suszona", value: "żurawina suszona" }
       - { label: "żółtka", value: "żółtka" }
     hint: "Wybierz z listy składników (wpisz lub kliknij, aby zobaczyć wszystkie)."
