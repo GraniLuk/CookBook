@@ -21,7 +21,7 @@ ingredients:
 - pomidorki
 - majonez
 - musztarda
-- ogórki kiszone
+- ogórek kiszony
 - chili
 - papryka wędzona
 - czosnek suszony
