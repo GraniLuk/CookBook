@@ -21,10 +21,6 @@ ingredients:
 - por
 - cebula
 - czosnek
-- sól
-- pieprz
-- ziele angielskie
-- liść laurowy
 servings: 10
 prep_time: 30
 cook: true

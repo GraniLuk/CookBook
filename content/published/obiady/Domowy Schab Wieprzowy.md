@@ -14,12 +14,10 @@ tagline: Soczysty domowy schab wieprzowy, idealny do kanapek i dań.
 link: https://www.youtube.com/watch?v=d71Nd3lS2Ok
 ingredients:
 - schab wieprzowy
-- sól
 - czosnek
 - olej
 - woda
 - zioła
-- rozmaryn
 servings: 6
 prep_time: 30
 cook: true

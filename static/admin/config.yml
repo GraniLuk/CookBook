@@ -202,7 +202,6 @@ _shared_fields:
       - { label: "limonka", value: "limonka" }
       - { label: "limonki", value: "limonki" }
       - { label: "liść laurowy", value: "liść laurowy" }
-      - { label: "majeranek", value: "majeranek" }
       - { label: "majonez", value: "majonez" }
       - { label: "majonez light", value: "majonez light" }
       - { label: "makaron", value: "makaron" }
@@ -408,7 +407,6 @@ _shared_fields:
       - { label: "truskawki", value: "truskawki" }
       - { label: "tuńczyk", value: "tuńczyk" }
       - { label: "twaróg", value: "twaróg" }
-      - { label: "tymianek", value: "tymianek" }
       - { label: "wanilia", value: "wanilia" }
       - { label: "wieprzowina", value: "wieprzowina" }
       - { label: "wino białe", value: "wino białe" }
