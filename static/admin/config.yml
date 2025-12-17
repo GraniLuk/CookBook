@@ -238,14 +238,12 @@ _shared_fields:
       - { label: "morele suszone", value: "morele suszone" }
       - { label: "mozzarella", value: "mozzarella" }
       - { label: "mrożone warzywa", value: "mrożone warzywa" }
-      - { label: "muszarda sarepska", value: "muszarda sarepska" }
+      - { label: "muszarda", value: "muszarda" }
       - { label: "musztarda", value: "musztarda" }
-      - { label: "mąka", value: "mąka" }
       - { label: "mąka jaglana", value: "mąka jaglana" }
       - { label: "mąka kokosowa", value: "mąka kokosowa" }
       - { label: "mąka migdałowa", value: "mąka migdałowa" }
       - { label: "mąka orkiszowa", value: "mąka orkiszowa" }
-      - { label: "mąka orkiszowa pełnoziarnista", value: "mąka orkiszowa pełnoziarnista" }
       - { label: "mąka owsiana", value: "mąka owsiana" }
       - { label: "mąka pszenna", value: "mąka pszenna" }
       - { label: "mąka ryżowa", value: "mąka ryżowa" }
