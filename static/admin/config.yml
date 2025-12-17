@@ -266,7 +266,6 @@ _shared_fields:
       - { label: "ogórek kiszony", value: "ogórek kiszony" }
       - { label: "ogórek konserwowy", value: "ogórek konserwowy" }
       - { label: "ogórek zielony", value: "ogórek zielony" }
-      - { label: "ogórki kiszone", value: "ogórki kiszone" }
       - { label: "ogórki konserwowe", value: "ogórki konserwowe" }
       - { label: "olej", value: "olej" }
       - { label: "olej kokosowy", value: "olej kokosowy" }
@@ -409,8 +408,6 @@ _shared_fields:
       - { label: "truskawki", value: "truskawki" }
       - { label: "tuńczyk", value: "tuńczyk" }
       - { label: "twaróg", value: "twaróg" }
-      - { label: "twaróg chudy", value: "twaróg chudy" }
-      - { label: "twaróg półtłusty", value: "twaróg półtłusty" }
       - { label: "tymianek", value: "tymianek" }
       - { label: "wanilia", value: "wanilia" }
       - { label: "wieprzowina", value: "wieprzowina" }
