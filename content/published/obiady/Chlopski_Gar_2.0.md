@@ -3,11 +3,11 @@ title: Chłopski Gar 2.0 - Tani i Zdrowy Obiad Jednogarnkowy
 author: Policzone Szamy
 categories: obiady
 draft: false
-readyToTest: true
+readyToTest: false
 queued: true
 favourite: false
 recipe_image: images/recipe-headers/chlopski_gar.avif
-date: 2025-12-04 12:00:00+00:00
+date: 2025-12-17 12:00:00+00:00
 tags:
 - instant pot
 tagline: Soczysty jednogarnkowy obiad z kurczakiem, kiszoną kapustą i warzywami – tani i pełen zdrowia!
