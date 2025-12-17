@@ -22,9 +22,6 @@ ingredients:
 - majonez
 - musztarda
 - ogórek kiszony
-- chili
-- papryka wędzona
-- czosnek suszony
 servings: 3
 prep_time: 25
 cook: true

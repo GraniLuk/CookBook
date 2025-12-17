@@ -14,7 +14,6 @@ ingredients:
 - woda
 - oliwa z oliwek
 - cytryna
-- oregano
 servings: 4
 prep_time: 5
 cook: false

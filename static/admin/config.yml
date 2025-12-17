@@ -126,9 +126,7 @@ _shared_fields:
       - { label: "chia", value: "chia" }
       - { label: "chili", value: "chili" }
       - { label: "chleb", value: "chleb" }
-      - { label: "chleb pełnoziarnisty", value: "chleb pełnoziarnisty" }
       - { label: "chleb tostowy", value: "chleb tostowy" }
-      - { label: "chleb żytni", value: "chleb żytni" }
       - { label: "ciecierzyca", value: "ciecierzyca" }
       - { label: "coleslaw", value: "coleslaw" }
       - { label: "cukier", value: "cukier" }
@@ -142,7 +140,6 @@ _shared_fields:
       - { label: "czekolada gorzka", value: "czekolada gorzka" }
       - { label: "czekolada organiczna", value: "czekolada organiczna" }
       - { label: "czosnek", value: "czosnek" }
-      - { label: "czosnek suszony", value: "czosnek suszony" }
       - { label: "daktyle", value: "daktyle" }
       - { label: "drożdże", value: "drożdże" }
       - { label: "drożdże świeże", value: "drożdże świeże" }
@@ -274,7 +271,6 @@ _shared_fields:
       - { label: "oliwa czosnkowa", value: "oliwa czosnkowa" }
       - { label: "oliwa z oliwek", value: "oliwa z oliwek" }
       - { label: "oliwki", value: "oliwki" }
-      - { label: "oregano", value: "oregano" }
       - { label: "orzech włoski", value: "orzech włoski" }
       - { label: "orzechy", value: "orzechy" }
       - { label: "orzechy brazylijskie", value: "orzechy brazylijskie" }
@@ -290,7 +286,6 @@ _shared_fields:
       - { label: "papryka czerwona", value: "papryka czerwona" }
       - { label: "papryka ostra", value: "papryka ostra" }
       - { label: "papryka słodka", value: "papryka słodka" }
-      - { label: "papryka wędzona", value: "papryka wędzona" }
       - { label: "parmezan", value: "parmezan" }
       - { label: "passata pomidorowa", value: "passata pomidorowa" }
       - { label: "pasta curry", value: "pasta curry" }
@@ -300,7 +295,6 @@ _shared_fields:
       - { label: "pepperoni", value: "pepperoni" }
       - { label: "pestki słonecznika", value: "pestki słonecznika" }
       - { label: "pesto", value: "pesto" }
-      - { label: "pesto bazyliowe", value: "pesto bazyliowe" }
       - { label: "pieczarki", value: "pieczarki" }
       - { label: "pieczywo rustykalne", value: "pieczywo rustykalne" }
       - { label: "pierś z kurczaka", value: "pierś z kurczaka" }

@@ -18,7 +18,7 @@ ingredients:
 - pomidorki koktajlowe
 - ogórek zielony
 - awokado
-- chleb pełnoziarnisty
+- chleb
 servings: 1
 prep_time: 5
 cook: false

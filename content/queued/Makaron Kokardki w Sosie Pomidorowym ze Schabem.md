@@ -19,7 +19,6 @@ ingredients:
 - cebula
 - czosnek
 - parmezan
-- oregano
 servings: 3
 prep_time: 10
 cook: true
