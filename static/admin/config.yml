@@ -212,8 +212,6 @@ _shared_fields:
       - { label: "makaron ryżowy", value: "makaron ryżowy" }
       - { label: "makaron spaghetti", value: "makaron spaghetti" }
       - { label: "makaron tagliatelle", value: "makaron tagliatelle" }
-      - { label: "makrela", value: "makrela" }
-      - { label: "makrela wędzona", value: "makrela wędzona" }
       - { label: "maliny", value: "maliny" }
       - { label: "mandarynka", value: "mandarynka" }
       - { label: "mango", value: "mango" }
@@ -265,6 +263,7 @@ _shared_fields:
       - { label: "ocet winny", value: "ocet winny" }
       - { label: "odżywka białkowa", value: "odżywka białkowa" }
       - { label: "ogórek", value: "ogórek" }
+      - { label: "ogórek kiszony", value: "ogórek kiszony" }
       - { label: "ogórek konserwowy", value: "ogórek konserwowy" }
       - { label: "ogórek zielony", value: "ogórek zielony" }
       - { label: "ogórki kiszone", value: "ogórki kiszone" }

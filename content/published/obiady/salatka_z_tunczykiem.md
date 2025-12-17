@@ -1,7 +1,7 @@
 ---
 title: Sałatka z tuńczykiem, ryżem i kukurydzą
 author: Mama Grażyna
-categories: obiady
+categories: salatki
 draft: false
 readyToTest: false
 recipe_image: images/recipe-headers/salatka_z_tunczykiem.avif
@@ -11,10 +11,10 @@ tags:
 - lunchbox
 tagline: Klasyczna sałatka z tuńczykiem, ryżem i kukurydzą – idealna na lunch lub kolację.
 ingredients:
-- tuńczyk w sosie własnym
+- tuńczyk
 - ryż biały
-- kukurydza konserwowa
-- ogórek kwaszony
+- kukurydza
+- ogórek kiszony
 - jajko
 - majonez
 servings: 4
