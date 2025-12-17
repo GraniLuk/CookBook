@@ -23,7 +23,7 @@ ingredients:
 - olej kokosowy
 - wanilia
 - suszone morele
-- żurawina
+- żurawina suszona
 servings: 12
 prep_time: 10
 cook: true

@@ -306,7 +306,6 @@ _shared_fields:
       - { label: "pesto bazyliowe", value: "pesto bazyliowe" }
       - { label: "pieczarki", value: "pieczarki" }
       - { label: "pieczywo rustykalne", value: "pieczywo rustykalne" }
-      - { label: "pieprz", value: "pieprz" }
       - { label: "pierś z kurczaka", value: "pierś z kurczaka" }
       - { label: "pietruszka", value: "pietruszka" }
       - { label: "pistacje", value: "pistacje" }
@@ -399,7 +398,6 @@ _shared_fields:
       - { label: "szynka", value: "szynka" }
       - { label: "szynka wiejska", value: "szynka wiejska" }
       - { label: "szynka wędzona", value: "szynka wędzona" }
-      - { label: "sól", value: "sól" }
       - { label: "tahini", value: "tahini" }
       - { label: "tortilla", value: "tortilla" }
       - { label: "tortilla pełnoziarnista", value: "tortilla pełnoziarnista" }
@@ -414,7 +412,6 @@ _shared_fields:
       - { label: "woda", value: "woda" }
       - { label: "wołowina", value: "wołowina" }
       - { label: "wołowina mielona", value: "wołowina mielona" }
-      - { label: "ziele angielskie", value: "ziele angielskie" }
       - { label: "ziemniaki", value: "ziemniaki" }
       - { label: "zioła", value: "zioła" }
       - { label: "łopatka wieprzowa", value: "łopatka wieprzowa" }

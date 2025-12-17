@@ -11,7 +11,7 @@ tagline: 'Gigantyczne tacos: soczysta wołowina, chrupiąca tortilla, świeża s
 link: https://www.youtube.com/watch?v=UKEwoHAWCTs
 ingredients:
 - wołowina
-- tortilla pszenna
+- tortilla
 - ser cheddar
 - sałata lodowa
 - awokado

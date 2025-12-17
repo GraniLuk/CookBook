@@ -11,7 +11,7 @@ date: 2025-06-18 12:00:00+00:00
 tags: []
 tagline: Zdrowy i sycący wrap z awokado i jajkiem!
 ingredients:
-- tortilla pełnoziarnista
+- tortilla
 - jajka
 - awokado
 - pomidor

@@ -11,7 +11,7 @@ tagline: Świąteczna sałatka z indykiem, żurawiną i orzechami – prosta, zd
 link: https://www.youtube.com/watch?v=LGERJ1Qut5U
 ingredients:
 - indyk
-- żurawina
+- żurawina suszona
 - orzechy pekan
 - sałata
 - ser

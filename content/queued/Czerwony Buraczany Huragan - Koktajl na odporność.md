@@ -14,7 +14,7 @@ tagline: Czerwony koktajl z burakiem, malinami i żurawiną, wspierający układ
 link: https://www.youtube.com/watch?v=RUPfihOOViA
 ingredients:
 - orzech włoski
-- żurawina
+- żurawina suszona
 - maliny
 - jabłko
 - burak
