@@ -13,12 +13,10 @@ ingredients:
 - mięso mielone
 - kapusta biała
 - jajko
-- papryka słodka
 - koncentrat pomidorowy
 - czosnek
 - passata pomidorowa
 - koperek
-- liść laurowy
 - śmietana 30%
 servings: 9
 prep_time: 20

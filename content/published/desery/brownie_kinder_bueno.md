@@ -18,7 +18,6 @@ ingredients:
 - cukier
 - kakao
 - kinder bueno
-- proszek do pieczenia
 - ekstrakt waniliowy
 servings: 28
 prep_time: 20

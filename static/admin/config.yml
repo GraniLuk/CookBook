@@ -130,7 +130,6 @@ _shared_fields:
       - { label: "ciecierzyca", value: "ciecierzyca" }
       - { label: "coleslaw", value: "coleslaw" }
       - { label: "cukier", value: "cukier" }
-      - { label: "cukier kokosowy", value: "cukier kokosowy" }
       - { label: "cukier puder", value: "cukier puder" }
       - { label: "cukinia", value: "cukinia" }
       - { label: "curry", value: "curry" }
@@ -163,7 +162,6 @@ _shared_fields:
       - { label: "herbatniki", value: "herbatniki" }
       - { label: "imbir", value: "imbir" }
       - { label: "indyk", value: "indyk" }
-      - { label: "jabłka", value: "jabłka" }
       - { label: "jabłko", value: "jabłko" }
       - { label: "jagody", value: "jagody" }
       - { label: "jajka", value: "jajka" }

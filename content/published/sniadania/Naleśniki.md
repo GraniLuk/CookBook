@@ -15,7 +15,6 @@ ingredients:
 - mąka pszenna
 - mleko
 - jajka
-- olej
 servings: 8
 prep_time: 10
 cook: true

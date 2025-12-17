@@ -16,10 +16,7 @@ ingredients:
 - marchewka
 - mąka pszenna
 - mleko
-- cukier kokosowy
-- cynamon
-- proszek do pieczenia
-- olej
+- cukier
 servings: 12
 prep_time: 10
 cook: true

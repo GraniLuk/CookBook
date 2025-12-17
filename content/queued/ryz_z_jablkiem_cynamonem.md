@@ -16,7 +16,6 @@ ingredients:
 - ryż ugotowany
 - serek wiejski
 - jabłko
-- cynamon
 servings: 1
 prep_time: 5
 cook: false

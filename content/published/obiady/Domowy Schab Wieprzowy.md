@@ -15,9 +15,6 @@ link: https://www.youtube.com/watch?v=d71Nd3lS2Ok
 ingredients:
 - schab wieprzowy
 - czosnek
-- olej
-- woda
-- zioła
 servings: 6
 prep_time: 30
 cook: true

@@ -13,14 +13,12 @@ tags:
 tagline: Małe, miękkie i wilgotne mini szarlotki z twarogiem – idealne do kawy i do lunchboxa.
 ingredients:
 - twaróg
-- jabłka
+- jabłko
 - jajka
 - masło
 - mąka pszenna
 - orzechy włoskie
-- proszek do pieczenia
 - erytrytol
-- cynamon
 servings: 10
 prep_time: 10
 cook: true

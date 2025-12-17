@@ -15,13 +15,8 @@ ingredients:
 - czosnek
 - marchewka
 - papryka
-- papryka słodka
-- papryka ostra
-- kminek
-- liść laurowy
 - koncentrat pomidorowy
 - bulion
-- olej
 servings: 8
 prep_time: 30
 cook: true

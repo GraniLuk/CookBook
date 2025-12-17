@@ -18,7 +18,6 @@ ingredients:
 - mąka pszenna
 - jajko
 - banan
-- olej
 servings: 20
 prep_time: 30
 cook: true

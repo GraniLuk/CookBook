@@ -16,7 +16,6 @@ ingredients:
 - cebula
 - papryka czerwona
 - cukinia
-- olej
 servings: 3
 prep_time: 15
 cook: true

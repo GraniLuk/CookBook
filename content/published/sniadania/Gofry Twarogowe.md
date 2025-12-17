@@ -17,7 +17,6 @@ ingredients:
 - banan
 - mleko
 - mąka pszenna
-- olej
 servings: 4
 prep_time: 5
 cook: true
