@@ -13,7 +13,7 @@ tags:
 - kanapki
 tagline: Kremowy domowy twarożek z chrupiącą rzodkiewką i świeżym szczypiorkiem - idealne śniadanie.
 ingredients:
-- twaróg półtłusty
+- twaróg
 - śmietana 18%
 - rzodkiewka
 - szczypiorek

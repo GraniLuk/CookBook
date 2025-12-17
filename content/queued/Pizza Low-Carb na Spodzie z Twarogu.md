@@ -12,7 +12,7 @@ tags:
 tagline: Niskowęglowodanowa pizza na spodzie z twarogu – sprężysta jak prawdziwa!
 link: https://www.youtube.com/watch?v=QtO_jPVqDpU
 ingredients:
-- twaróg półtłusty
+- twaróg
 - jajko
 - parmezan
 - mąka ryżowa
