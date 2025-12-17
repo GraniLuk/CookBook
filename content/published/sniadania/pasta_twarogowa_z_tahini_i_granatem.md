@@ -13,7 +13,7 @@ tags:
 tagline: Kremowa pasta twarogowa z tahini i granatem, idealna na śniadanie lub przekąskę.
 link: null
 ingredients:
-- twaróg chudy
+- twaróg
 - skyr naturalny
 - tahini
 - granat

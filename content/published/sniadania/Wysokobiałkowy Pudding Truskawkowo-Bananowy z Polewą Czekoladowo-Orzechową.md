@@ -14,7 +14,7 @@ link: https://youtu.be/SQ4saBQrBYc?t=115
 ingredients:
 - truskawki
 - banan
-- twaróg chudy
+- twaróg
 - płatki owsiane
 - napój owsiany
 - miód

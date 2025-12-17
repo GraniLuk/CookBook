@@ -15,7 +15,7 @@ link: https://www.youtube.com/watch?v=2oRiIWljFJo
 ingredients:
 - płatki owsiane
 - maliny
-- twaróg chudy
+- twaróg
 - napój sojowy
 - czekolada organiczna
 - masło orzechowe

@@ -13,7 +13,7 @@ tags:
 tagline: Ekspresowe słodkie tosty z twarogu – mięciutkie, wysokobiałkowe i niskokalaryczne.
 link: https://youtu.be/wmM49OvW780?t=136
 ingredients:
-- twaróg chudy
+- twaróg
 - jajko
 - mąka orkiszowa pełnoziarnista
 - mleko
