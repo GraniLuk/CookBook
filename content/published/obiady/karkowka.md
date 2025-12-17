@@ -15,14 +15,10 @@ ingredients:
 - musztarda
 - olej rzepakowy
 - czosnek
-- papryka wędzona
-- papryka słodka
-- majeranek
 - cytryna
 - sos sojowy
 - ocet balsamiczny
 - miód
-- tymianek
 - imbir
 servings: 4
 prep_time: 15
