@@ -15,7 +15,7 @@ link: https://www.youtube.com/watch?v=1vuRykWRvrM
 ingredients:
 - kurczak
 - masło orzechowe
-- limonki
+- limonka
 - czosnek
 - chili
 - oliwa z oliwek

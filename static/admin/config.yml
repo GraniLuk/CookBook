@@ -133,7 +133,6 @@ _shared_fields:
       - { label: "cukier puder", value: "cukier puder" }
       - { label: "cukinia", value: "cukinia" }
       - { label: "curry", value: "curry" }
-      - { label: "cynamon", value: "cynamon" }
       - { label: "cytryna", value: "cytryna" }
       - { label: "czekolada", value: "czekolada" }
       - { label: "czekolada gorzka", value: "czekolada gorzka" }
@@ -183,7 +182,6 @@ _shared_fields:
       - { label: "kiełki fasoli mung", value: "kiełki fasoli mung" }
       - { label: "kinder bueno", value: "kinder bueno" }
       - { label: "kiszona kapusta", value: "kiszona kapusta" }
-      - { label: "kminek", value: "kminek" }
       - { label: "kolendra", value: "kolendra" }
       - { label: "komosa ryżowa", value: "komosa ryżowa" }
       - { label: "koncentrat pomidorowy", value: "koncentrat pomidorowy" }
@@ -195,8 +193,6 @@ _shared_fields:
       - { label: "kurczak nóżki", value: "kurczak nóżki" }
       - { label: "kuskus", value: "kuskus" }
       - { label: "limonka", value: "limonka" }
-      - { label: "limonki", value: "limonki" }
-      - { label: "liść laurowy", value: "liść laurowy" }
       - { label: "majonez", value: "majonez" }
       - { label: "majonez light", value: "majonez light" }
       - { label: "makaron", value: "makaron" }
@@ -258,7 +254,6 @@ _shared_fields:
       - { label: "ogórek konserwowy", value: "ogórek konserwowy" }
       - { label: "ogórek zielony", value: "ogórek zielony" }
       - { label: "ogórki konserwowe", value: "ogórki konserwowe" }
-      - { label: "olej", value: "olej" }
       - { label: "olej kokosowy", value: "olej kokosowy" }
       - { label: "olej lniany", value: "olej lniany" }
       - { label: "olej roślinny", value: "olej roślinny" }
@@ -282,8 +277,6 @@ _shared_fields:
       - { label: "papryczki padron", value: "papryczki padron" }
       - { label: "papryka", value: "papryka" }
       - { label: "papryka czerwona", value: "papryka czerwona" }
-      - { label: "papryka ostra", value: "papryka ostra" }
-      - { label: "papryka słodka", value: "papryka słodka" }
       - { label: "parmezan", value: "parmezan" }
       - { label: "passata pomidorowa", value: "passata pomidorowa" }
       - { label: "pasta curry", value: "pasta curry" }
@@ -311,7 +304,6 @@ _shared_fields:
       - { label: "pomidory krojone", value: "pomidory krojone" }
       - { label: "pomidory suszone", value: "pomidory suszone" }
       - { label: "por", value: "por" }
-      - { label: "proszek do pieczenia", value: "proszek do pieczenia" }
       - { label: "przecier pomidorowy", value: "przecier pomidorowy" }
       - { label: "przyprawa", value: "przyprawa" }
       - { label: "przyprawa korzenna", value: "przyprawa korzenna" }
@@ -400,7 +392,6 @@ _shared_fields:
       - { label: "wołowina", value: "wołowina" }
       - { label: "wołowina mielona", value: "wołowina mielona" }
       - { label: "ziemniaki", value: "ziemniaki" }
-      - { label: "zioła", value: "zioła" }
       - { label: "łopatka wieprzowa", value: "łopatka wieprzowa" }
       - { label: "łosoś", value: "łosoś" }
       - { label: "łosoś wędzony", value: "łosoś wędzony" }
