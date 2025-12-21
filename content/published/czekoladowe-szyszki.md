@@ -1,26 +1,31 @@
 ---
-draft: false  
+title: Czekoladowe Szyszki
+author: Policzone Szamy
+categories: desery
+draft: false
 readyToTest: true
-title: "Czekoladowe Szyszki"  
-author: "Policzone Szamy"  
-recipe_image: images/recipe-headers/czekoladowe_szyszki.avif  
-date: 2025-12-21T12:00:00-00:00  
-categories: desery  
-tags: ["xmas"]  
-tagline: "Smaczne czekoladowe szyszki z mascarpone i herbatników."  
-ingredients: ["mascarpone", "herbatniki", "kakao", "płatki czekoladowe"]
-servings: 8  
-prep_time: 20  
-cook: false  
-cook_time: 0  
+recipe_image: images/recipe-headers/czekoladowe_szyszki.avif
+date: 2025-12-21 12:00:00+00:00
+tags:
+- xmas
+tagline: Smaczne czekoladowe szyszki z mascarpone i herbatników.
+ingredients:
+- mascarpone
+- herbatniki
+- kakao
+- płatki czekoladowe
+servings: 8
+prep_time: 20
+cook: false
+cook_time: 0
 calories: 318
 protein: 7
 fat: 20
-carbohydrate: 29 
+carbohydrate: 29
 fodmap:
-  status: "yes"
-  serving_ok: "OK w tej porcji"
-  notes: "Mascarpone, herbatniki, kakao, płatki czekoladowe - wszystko bezpieczne"
+  status: 'yes'
+  serving_ok: OK w tej porcji
+  notes: Mascarpone, herbatniki, kakao, płatki czekoladowe - wszystko bezpieczne
   substitutions: []
 video_file: videos/czekoladowe_szyszki.mp4
 ---
