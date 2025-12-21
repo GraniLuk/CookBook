@@ -314,6 +314,7 @@ _shared_fields:
       - { label: "płatki migdałowe", value: "płatki migdałowe" }
       - { label: "płatki owsiane", value: "płatki owsiane" }
       - { label: "płatki owsiane błyskawiczne", value: "płatki owsiane błyskawiczne" }
+      - { label: "płatki czekoladowe", value: "płatki czekoladowe" }
       - { label: "rodzynki", value: "rodzynki" }
       - { label: "roszponka", value: "roszponka" }
       - { label: "rozmaryn", value: "rozmaryn" }
