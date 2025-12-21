@@ -3,7 +3,7 @@ title: Czekoladowe Szyszki
 author: Policzone Szamy
 categories: desery
 draft: false
-readyToTest: true
+readyToTest: false
 recipe_image: images/recipe-headers/czekoladowe_szyszki.avif
 date: 2025-12-21 12:00:00+00:00
 tags:
