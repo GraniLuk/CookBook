@@ -1,15 +1,25 @@
 ---
+title: Kremowa Zupa Kalafiorowa
+author: Nieznany
+categories: obiady
 draft: false
 readyToTest: true
-title: "Kremowa Zupa Kalafiorowa"
-author: "Nieznany"
 recipe_image: images/recipe-headers/kremowa_zupa_kalafiorowa.avif
+date: 2025-12-22 12:00:00+00:00
+tags:
+- szybkie
+tagline: Soczysta kremowa zupa kalafiorowa z mozzarellą i śmietanką.
 video_file: videos/kremowa_zupa_kalafiorowa.mp4
-date: 2025-12-22T12:00:00-00:00
-categories: obiady
-tags: ["szybkie"]
-tagline: "Soczysta kremowa zupa kalafiorowa z mozzarellą i śmietanką."
-ingredients: ["kalafior", "marchewka", "cebula", "czosnek", "bulion", "mozzarella", "śmietanka 30%", "oliwa z oliwek", "pietruszka"]
+ingredients:
+- kalafior
+- marchewka
+- cebula
+- czosnek
+- bulion
+- mozzarella
+- śmietanka 30%
+- oliwa z oliwek
+- pietruszka
 servings: 4
 prep_time: 15
 cook: true
@@ -19,9 +29,9 @@ protein: 14.3
 fat: 23.8
 carbohydrate: 26.3
 fodmap:
-  status: "no"
-  serving_ok: "Nie"
-  notes: "Zawiera cebulę i czosnek, które są źródłami FODMAP."
+  status: 'no'
+  serving_ok: Nie
+  notes: Zawiera cebulę i czosnek, które są źródłami FODMAP.
   substitutions: []
 ---
 
