@@ -36,8 +36,6 @@ fodmap:
   - płatki owsiane -> płatki ryżowe lub quinoa flakes
   - masło orzechowe (orzeszki ziemne) -> masło migdałowe (migdały ≤10 szt.)
   - dżem -> sprawdź skład, unikaj wersji z fruktozą/miodem
-image_width: 512
-image_height: 512
 ---
 
 ## Składniki

@@ -14,6 +14,7 @@ tags:
 - owsianka
 tagline: Chrupiąca, złocista granola pieczona wolniej w niższej temperaturze – idealna do jogurtu i na wynos.
 link: https://www.youtube.com/watch?v=xsvyi8sl8xM
+video_file: videos/granola.mp4
 ingredients:
 - płatki owsiane
 - płatki migdałowe
@@ -40,7 +41,6 @@ fodmap:
   - miód -> syrop klonowy
   - suszone morele/żurawina -> bardzo mała ilość lub pominąć
   - jogurt zwykły -> jogurt/skyr bez laktozy lub napój ryżowy
-video_file: videos/granola.mp4
 ---
 
 ## Składniki

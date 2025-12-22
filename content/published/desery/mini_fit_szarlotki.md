@@ -11,6 +11,7 @@ tags:
 - przekąska
 - jesień
 tagline: Małe, miękkie i wilgotne mini szarlotki z twarogiem – idealne do kawy i do lunchboxa.
+video_file: videos/mini_fit_szarlotki.mp4
 ingredients:
 - twaróg
 - jabłko
@@ -36,7 +37,6 @@ fodmap:
   - twaróg -> twaróg bez laktozy lub chudy serek bez laktozy
   - mąka pszenna -> mąka ryżowa (wersja bezglutenowa / lepiej tolerowana)
   - erytrytol -> można zostawić (niski FODMAP); unikać dużej ilości ksylitolu
-video_file: videos/mini_fit_szarlotki.mp4
 ---
 
 ## Składniki

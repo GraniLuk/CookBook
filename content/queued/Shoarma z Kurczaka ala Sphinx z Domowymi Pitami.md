@@ -41,8 +41,6 @@ fodmap:
   - czosnek -> olej czosnkowy (infuzja bez cząstek)
   - jogurt -> jogurt bezlaktozowy
   - frytki -> pieczone ziemniaki (sprawdź porcję ≤150 g)
-image_width: 512
-image_height: 512
 ---
 
 ## Składniki

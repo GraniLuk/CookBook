@@ -37,8 +37,6 @@ fodmap:
   - cebula -> pomiń lub użyj zielonych części dymki
   - czosnek -> olej czosnkowy (infuzja bez cząstek)
   - parmezan -> parmigiano reggiano dojrzewający ≥32 miesiące (praktycznie bez laktozy)
-image_width: 512
-image_height: 512
 ---
 
 ## Składniki

@@ -9,6 +9,7 @@ date: 2025-12-21 12:00:00+00:00
 tags:
 - xmas
 tagline: Smaczne czekoladowe szyszki z mascarpone i herbatników.
+video_file: videos/czekoladowe_szyszki.mp4
 ingredients:
 - mascarpone
 - herbatniki
@@ -27,7 +28,6 @@ fodmap:
   serving_ok: OK w tej porcji
   notes: Mascarpone, herbatniki, kakao, płatki czekoladowe - wszystko bezpieczne
   substitutions: []
-video_file: videos/czekoladowe_szyszki.mp4
 ---
 
 ## Składniki

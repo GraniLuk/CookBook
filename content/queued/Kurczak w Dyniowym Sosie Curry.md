@@ -37,8 +37,6 @@ fodmap:
   - pasta curry z czosnkiem/cebulą -> własna mieszanka (kurkuma, kumin, cynamon, chili)
   - kasza bulgur -> ryż biały (jaśminowy, basmati)
   - mleko kokosowe -> ogranicz do 50 ml/porcję, resztę dolej bulionem
-image_width: 512
-image_height: 512
 ---
 
 ## Składniki

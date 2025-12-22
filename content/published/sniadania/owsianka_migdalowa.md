@@ -12,6 +12,7 @@ tags:
 - szybkie
 - owsianka
 tagline: Kremowa, pachnąca migdałami pieczona owsianka inspirowana migdałowym croissantem.
+video_file: videos/owsianka_migdalowa.mp4
 ingredients:
 - płatki owsiane
 - mąka migdałowa
@@ -40,7 +41,6 @@ fodmap:
   - Mleko migdałowe -> napój migdałowy bez inuliny/gumy guar; alternatywnie napój ryżowy.
   - Część migdałów (15g) -> pestki słonecznika (niższy FODMAP) jeśli potrzeba zmniejszyć ładunek.
   - Banana bardzo dojrzałego -> mniej dojrzały (żółty z lekkimi zielonymi końcówkami).
-video_file: videos/owsianka_migdalowa.mp4
 ---
 
 ## Składniki

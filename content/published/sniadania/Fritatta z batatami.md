@@ -11,6 +11,7 @@ date: 2025-08-06 10:00:00+00:00
 tags: []
 tagline: Połączenie słodkiego ziemniaka ze słonym serem w puszystej frittacie.
 link: https://www.youtube.com/watch?v=prsZbulipCk
+video_file: videos/Frittata z batatem, fetą i szpinakiem - szybkie śniadanie!.webm
 ingredients:
 - bataty
 - jajka
@@ -33,7 +34,6 @@ fodmap:
   substitutions:
   - czerwona cebula -> zielona część dymki / szczypior
   - za dużo batatów -> mniejsza porcja lub więcej papryki/szpinaku
-video_file: videos/Frittata z batatem, fetą i szpinakiem - szybkie śniadanie!.webm
 ---
 
 ## Składniki

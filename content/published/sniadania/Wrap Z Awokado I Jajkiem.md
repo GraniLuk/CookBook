@@ -10,6 +10,7 @@ recipe_image: images/recipe-headers/wrap_z_awokado.avif
 date: 2025-06-18 12:00:00+00:00
 tags: []
 tagline: Zdrowy i sycący wrap z awokado i jajkiem!
+video_file: videos/wrap_z_awokado.mp4
 ingredients:
 - tortilla
 - jajka
@@ -33,7 +34,6 @@ fodmap:
   substitutions:
   - tortilla pełnoziarnista -> tortilla kukurydziana
   - tortilla pszenna -> tortilla ryżowa
-video_file: videos/wrap_z_awokado.mp4
 ---
 
 ## Składniki

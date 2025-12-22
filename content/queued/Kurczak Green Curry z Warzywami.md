@@ -38,8 +38,6 @@ fodmap:
   - pasta curry z czosnkiem/szalotką -> własna mieszanka (zielone chili, trawa cytrynowa, imbir, kolendra, kurkuma)
   - brokuł -> ogranicz do różyczek ~75 g lub zamień na bok choy
   - mleko kokosowe -> ogranicz do 60 ml/porcję
-image_width: 512
-image_height: 512
 ---
 
 ## Składniki

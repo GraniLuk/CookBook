@@ -38,8 +38,6 @@ fodmap:
   - szalotka -> zielona część dymki lub pomiń
   - kiełki fasoli mung -> ogranicz do 40 g lub pomiń
   - orzeszki ziemne -> ogranicz do 30 g/porcję
-image_width: 512
-image_height: 512
 ---
 
 ## Składniki

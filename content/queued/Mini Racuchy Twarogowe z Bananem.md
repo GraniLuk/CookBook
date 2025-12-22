@@ -37,8 +37,6 @@ fodmap:
   - rodzynki -> pomiń lub zamień na wiórki czekoladowe (niewielka ilość, sprawdź skład)
   - mleko -> mleko bezlaktozowe lub roślinne
   - twaróg -> twaróg bezlaktozowy
-image_width: 512
-image_height: 512
 ---
 
 ## Składniki

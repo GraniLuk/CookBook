@@ -40,8 +40,6 @@ fodmap:
   - pasta curry -> własna mieszanka (chili, kurkuma, imbir, kolendra)
   - suszone pomidory -> ogranicz do 2 szt. lub zamień na świeże
   - bulion -> sprawdź skład (bez cebuli/czosnku)
-image_width: 512
-image_height: 512
 ---
 
 ## Składniki

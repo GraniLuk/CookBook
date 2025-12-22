@@ -35,8 +35,6 @@ fodmap:
   - mleko krowie -> mleko bezlaktozowe lub mleko roślinne (migdałowe, ryżowe)
   - twaróg -> twaróg bezlaktozowy lub tofu jedwabiste
   - mąka orkiszowa -> mąka ryżowa / bezglutenowa mieszanka
-image_width: 512
-image_height: 512
 ---
 
 ## Składniki

@@ -10,6 +10,7 @@ tags:
 - ciastka owsiane
 - przekąska
 tagline: Zdrowa i pyszna przekąska dla małych i dużych – kruche i chrupiące ciasteczka owsiane!
+video_file: videos/ciasteczka_owsiane_maslo.mp4
 ingredients:
 - banan
 - płatki owsiane błyskawiczne
@@ -30,7 +31,6 @@ fodmap:
   substitutions:
   - suszone żurawiny -> rodzynki (w małych ilościach), pokrojone daktyle lub śliwki (sprawdź tolerancję)
   - czekolada -> opcjonalnie, wybierz niskofodmap (bez dodatków)
-video_file: videos/ciasteczka_owsiane_maslo.mp4
 ---
 
 ## Składniki

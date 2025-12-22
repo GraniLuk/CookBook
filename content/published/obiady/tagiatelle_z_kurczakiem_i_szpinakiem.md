@@ -9,6 +9,7 @@ tags:
 - włoskie
 - szybkie
 tagline: Szybki i smaczny makaron tagliatelle z kurczakiem, szpinakiem i pomidorami w 20 minut.
+video_file: videos/tagiatelle_z_szpinakiem.mp4
 ingredients:
 - makaron tagliatelle
 - pierś z kurczaka
@@ -34,7 +35,6 @@ fodmap:
   substitutions:
   - makaron tagliatelle -> bezglutenowy
   - cebula -> zielona część dymki
-video_file: videos/tagiatelle_z_szpinakiem.mp4
 ---
 
 ## Składniki (na 2 porcje)

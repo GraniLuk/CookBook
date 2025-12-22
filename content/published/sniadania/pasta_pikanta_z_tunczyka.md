@@ -11,6 +11,7 @@ tags:
 - pikantne
 - kanapki
 tagline: Pikantna pasta z tuńczyka z mozzarellą - idealna na kanapki lub jako przekąska.
+video_file: videos/pasta_pikanta_z_tunczyka.mp4
 ingredients:
 - tuńczyk
 - mozzarella
@@ -35,7 +36,6 @@ fodmap:
   substitutions:
   - czosnek -> olej czosnkowy (bez cząstek) lub zrezygnować
   - jalapeno -> ograniczyć ilość lub zrezygnować w razie problemów
-video_file: videos/pasta_pikanta_z_tunczyka.mp4
 ---
 
 ## Składniki (na 2 porcje)

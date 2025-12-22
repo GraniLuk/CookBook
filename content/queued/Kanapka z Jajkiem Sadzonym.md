@@ -33,8 +33,6 @@ fodmap:
   substitutions:
   - bułka pełnoziarnista -> bułka bezglutenowa lub chleb ryżowy
   - serek śmietankowy -> serek bezlaktozowy lub humus
-image_width: 512
-image_height: 512
 ---
 
 ## Składniki

@@ -38,8 +38,6 @@ fodmap:
   - czosnek w cieście -> olej czosnkowy lub pomiń
   - mozzarella -> ser dojrzały (parmezan) lub mozzarella bezlaktozowa
   - dodatki z cebulą/czosnkiem -> pomiń lub ogranicz
-image_width: 512
-image_height: 512
 ---
 
 ## Składniki

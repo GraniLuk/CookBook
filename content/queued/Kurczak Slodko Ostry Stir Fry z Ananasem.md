@@ -38,8 +38,6 @@ fodmap:
   - czerwona cebula -> zielona część dymki
   - miód -> syrop klonowy ≤1 łyżeczka lub pomiń
   - pasta curry z czosnkiem/szalotką -> własna mieszanka (kurkuma, chili, galanga)
-image_width: 512
-image_height: 512
 ---
 
 ## Składniki

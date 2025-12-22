@@ -442,6 +442,7 @@ _shared_fields:
     - *tags_field
     - { label: Opis skrócony, name: tagline, widget: string, required: false }
     - { label: Link (YouTube itp.), name: link, widget: string, required: false }
+    - { label: Plik video (videos/...), name: video_file, widget: string, required: false }
     - *ingredients_field
     - { label: Porcje, name: servings, widget: number, required: false, min: 1 }
     - { label: Czas przygotowania (min), name: prep_time, widget: number, required: false, min: 0 }

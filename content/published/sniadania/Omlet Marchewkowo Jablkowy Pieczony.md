@@ -37,8 +37,6 @@ fodmap:
   - jabłko -> ogranicz do 20 g lub zamień na jagody (np. borówki ~40 g)
   - odżywka białkowa -> wybierz bez inuliny/FOS, lub zamień na dodatkowe białko jajka
   - mąka orkiszowa -> mąka ryżowa
-image_width: 512
-image_height: 512
 ---
 
 ## Składniki

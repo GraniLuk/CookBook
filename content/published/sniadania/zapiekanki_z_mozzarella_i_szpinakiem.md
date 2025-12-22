@@ -12,6 +12,7 @@ tags:
 - szybkie
 - kanapki
 tagline: Szybka, sycąca zapiekanka z mozzarellą, szpinakiem i nutą pesto.
+video_file: videos/zapiekanki_z_mozarella_pesto.mp4
 ingredients:
 - mozzarella
 - bułka
@@ -36,7 +37,6 @@ fodmap:
   - bułka pszenna -> bułka bezglutenowa (ryżowa/kukurydziana)
   - czosnek -> olej czosnkowy (infuzja bez cząstek)
   - pesto -> domowe bez czosnku
-video_file: videos/zapiekanki_z_mozarella_pesto.mp4
 ---
 
 ## Składniki (1 porcja)

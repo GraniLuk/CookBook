@@ -36,8 +36,6 @@ fodmap:
   - cebula -> zielona część dymki / szczypior
   - miód -> syrop klonowy ≤ 5 g lub kilka kropel stevii
   - pasta curry z cebulą/czosnkiem -> mieszanka przypraw własna (kurkuma, chili, kolendra, gorczyca)
-image_width: 512
-image_height: 512
 ---
 
 ## Składniki

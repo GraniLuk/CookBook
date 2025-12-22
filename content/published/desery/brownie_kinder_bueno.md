@@ -10,6 +10,7 @@ tags:
 - brownie
 tagline: Gęste, intensywnie czekoladowe brownie z kawałkami batonów Kinder Bueno i kremem orzechowo-kakaowym.
 link: null
+video_file: videos/brownie_kinder_bueno.mp4
 ingredients:
 - mąka pszenna
 - jajka
@@ -37,7 +38,6 @@ fodmap:
   - Batony Kinder Bueno -> kostki ciemnej czekolady 70% + odrobina chrupiących płatków kukurydzianych (bez pszenicy)
   - Masło (jeśli wrażliwość na laktozę) -> masło klarowane (ghee)
   - Cukier biały -> erytrol / mieszanka erytrol+odrobina cukru (dla struktury)
-video_file: videos/brownie_kinder_bueno.mp4
 ---
 
 ## Składniki

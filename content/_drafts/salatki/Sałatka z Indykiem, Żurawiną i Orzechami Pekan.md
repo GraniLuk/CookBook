@@ -9,6 +9,7 @@ tags:
 - przekąska
 tagline: Świąteczna sałatka z indykiem, żurawiną i orzechami – prosta, zdrowa i pełna smaku, idealna na zimno.
 link: https://www.youtube.com/watch?v=LGERJ1Qut5U
+video_file: videos/Sałatka z INDYKIEM.webm
 ingredients:
 - indyk
 - żurawina suszona
@@ -28,7 +29,6 @@ fodmap:
   notes: Jogurt typu Skyr jest wysokofodmapowy – zastąp bezlaktozowym jogurtem lub jogurtem kokosowym. Szczypior (zielona część) jest bezpieczny, unikaj białej części.
   substitutions:
   - Jogurt Skyr -> jogurt bezlaktozowy lub kokosowy
-video_file: videos/Sałatka z INDYKIEM.webm
 ---
 
 ## Składniki

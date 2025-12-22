@@ -36,8 +36,6 @@ fodmap:
   - czosnek -> olej czosnkowy (infuzja bez cząstek)
   - awokado -> ogranicz do 30–40 g
   - brązowy cukier -> można użyć białego cukru lub stewii (sprawdź smak)
-image_width: 512
-image_height: 512
 ---
 
 ## Składniki

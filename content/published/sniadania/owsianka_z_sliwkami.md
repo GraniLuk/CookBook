@@ -12,6 +12,7 @@ tags:
 - szybkie
 - owsianka
 tagline: Pyszna czekoladowa owsianka z duszonymi śliwkami.
+video_file: videos/owsianka_z_sliwkami.mp4
 ingredients:
 - płatki owsiane
 - napój roślinny
@@ -33,7 +34,6 @@ fodmap:
   serving_ok: OK w tej porcji
   notes: Śliwki w ilości 220g mogą być borderline dla low FODMAP (limit ~45g na porcję), ale w małych porcjach lub z mniejszymi śliwkami bezpieczne
   substitutions: []
-video_file: videos/owsianka_z_sliwkami.mp4
 ---
 
 ## Składniki

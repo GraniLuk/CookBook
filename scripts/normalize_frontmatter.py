@@ -13,6 +13,7 @@ except ImportError:
     sys.exit(1)
 
 # Define the desired order of keys based on archetypes/default.md
+# This order MUST match the recipe_fields order in static/admin/config.yml
 ORDER = [
     "title",
     "author",
@@ -27,6 +28,7 @@ ORDER = [
     "tags",
     "tagline",
     "link",
+    "video_file",
     "ingredients",
     "servings",
     "prep_time",
