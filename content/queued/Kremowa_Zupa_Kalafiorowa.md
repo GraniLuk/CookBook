@@ -5,7 +5,7 @@ categories: obiady
 draft: false
 readyToTest: true
 recipe_image: images/recipe-headers/kremowa_zupa_kalafiorowa.avif
-date: 2025-12-22 12:00:00+00:00
+date: 2025-12-22 08:00:00+00:00
 tags:
 - szybkie
 tagline: Soczysta kremowa zupa kalafiorowa z mozzarellą i śmietanką.
