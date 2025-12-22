@@ -45,6 +45,7 @@ _shared_fields:
       - { label: "brownie", value: "brownie" }
       - { label: "burger", value: "burger" }
       - { label: "chrupiące", value: "chrupiące" }
+      - { label: "ciasta", value: "ciasta" }
       - { label: "ciastka", value: "ciastka" }
       - { label: "ciastka owsiane", value: "ciastka owsiane" }
       - { label: "czekoladowe", value: "czekoladowe" }

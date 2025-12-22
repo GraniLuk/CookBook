@@ -7,7 +7,7 @@ draft: false
 recipe_image: images/recipe-headers/brownie_kinder_bueno.avif
 date: 2025-10-08 12:00:00+00:00
 tags:
-- brownie
+- ciasta
 tagline: Gęste, intensywnie czekoladowe brownie z kawałkami batonów Kinder Bueno i kremem orzechowo-kakaowym.
 link: null
 video_file: videos/brownie_kinder_bueno.mp4
