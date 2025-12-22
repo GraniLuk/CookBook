@@ -172,6 +172,7 @@ _shared_fields:
       - { label: "jogurt naturalny", value: "jogurt naturalny" }
       - { label: "jogurt skyr waniliowy", value: "jogurt skyr waniliowy" }
       - { label: "kakao", value: "kakao" }
+      - { label: "kalafior", value: "kalafior" }
       - { label: "kapusta biała", value: "kapusta biała" }
       - { label: "karkówka wieprzowa", value: "karkówka wieprzowa" }
       - { label: "kasza bulgur", value: "kasza bulgur" }
@@ -310,11 +311,11 @@ _shared_fields:
       - { label: "pstrąg tęczowy", value: "pstrąg tęczowy" }
       - { label: "pstrąg wędzony", value: "pstrąg wędzony" }
       - { label: "puding białkowy waniliowy", value: "puding białkowy waniliowy" }
+      - { label: "płatki czekoladowe", value: "płatki czekoladowe" }
       - { label: "płatki jaglane", value: "płatki jaglane" }
       - { label: "płatki migdałowe", value: "płatki migdałowe" }
       - { label: "płatki owsiane", value: "płatki owsiane" }
       - { label: "płatki owsiane błyskawiczne", value: "płatki owsiane błyskawiczne" }
-      - { label: "płatki czekoladowe", value: "płatki czekoladowe" }
       - { label: "rodzynki", value: "rodzynki" }
       - { label: "roszponka", value: "roszponka" }
       - { label: "rozmaryn", value: "rozmaryn" }
