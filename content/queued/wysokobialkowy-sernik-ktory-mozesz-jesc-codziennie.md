@@ -3,9 +3,10 @@ title: Wysokobiałkowy sernik który możesz jeść codziennie
 author: '[[Czlowieku rusz się]]'
 categories:
 - desery
-draft: true
+draft: false
+readyToTest: true
 recipe_image: images/wysokobialkowy-sernik.avif
-date: 2025-12-22
+date: 2025-12-22 08:00:00+00:00
 tags:
 - ciasta
 tagline: Alternatywa dla klasycznego sernika nowojorskiego z wysoką zawartością białka i niską kalorycznością
