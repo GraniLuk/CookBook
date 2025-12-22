@@ -19,7 +19,6 @@ ingredients:
 - masło
 - śmietana
 - cytryna
-- owoce
 - gorzka czekolada
 servings: 8
 prep_time: 30
