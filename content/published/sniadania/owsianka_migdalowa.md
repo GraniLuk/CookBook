@@ -22,7 +22,7 @@ ingredients:
 - skyr
 - napój migdałowy
 - masło migdałowe
-- płatki migdałowe
+- płatki migdałów
 servings: 1
 prep_time: 10
 cook: true

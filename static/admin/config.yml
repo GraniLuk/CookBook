@@ -42,7 +42,6 @@ _shared_fields:
       - { label: "bez-pieczenia", value: "bez-pieczenia" }
       - { label: "blender", value: "blender" }
       - { label: "bowl", value: "bowl" }
-      - { label: "brownie", value: "brownie" }
       - { label: "burger", value: "burger" }
       - { label: "chrupiące", value: "chrupiące" }
       - { label: "ciasta", value: "ciasta" }
@@ -152,6 +151,7 @@ _shared_fields:
       - { label: "fasola czerwona", value: "fasola czerwona" }
       - { label: "fasolka szparagowa", value: "fasolka szparagowa" }
       - { label: "frytki", value: "frytki" }
+      - { label: "galaretka wiśniowa", value: "galaretka wiśniowa" }
       - { label: "gnocchi", value: "gnocchi" }
       - { label: "gorzka czekolada", value: "gorzka czekolada" }
       - { label: "granat", value: "granat" }
@@ -197,6 +197,7 @@ _shared_fields:
       - { label: "limonka", value: "limonka" }
       - { label: "majonez", value: "majonez" }
       - { label: "majonez light", value: "majonez light" }
+      - { label: "mak", value: "mak" }
       - { label: "makaron", value: "makaron" }
       - { label: "makaron orzo", value: "makaron orzo" }
       - { label: "makaron pełnoziarnisty", value: "makaron pełnoziarnisty" }
@@ -314,7 +315,7 @@ _shared_fields:
       - { label: "puding białkowy waniliowy", value: "puding białkowy waniliowy" }
       - { label: "płatki czekoladowe", value: "płatki czekoladowe" }
       - { label: "płatki jaglane", value: "płatki jaglane" }
-      - { label: "płatki migdałowe", value: "płatki migdałowe" }
+      - { label: "płatki migdałów", value: "płatki migdałów" }
       - { label: "płatki owsiane", value: "płatki owsiane" }
       - { label: "płatki owsiane błyskawiczne", value: "płatki owsiane błyskawiczne" }
       - { label: "rodzynki", value: "rodzynki" }
@@ -391,6 +392,7 @@ _shared_fields:
       - { label: "wieprzowina", value: "wieprzowina" }
       - { label: "wino białe", value: "wino białe" }
       - { label: "wiórki kokosowe", value: "wiórki kokosowe" }
+      - { label: "wiśnie mrożone", value: "wiśnie mrożone" }
       - { label: "woda", value: "woda" }
       - { label: "wołowina", value: "wołowina" }
       - { label: "wołowina mielona", value: "wołowina mielona" }

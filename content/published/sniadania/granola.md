@@ -17,7 +17,7 @@ link: https://www.youtube.com/watch?v=xsvyi8sl8xM
 video_file: videos/granola.mp4
 ingredients:
 - płatki owsiane
-- płatki migdałowe
+- płatki migdałów
 - wiórki kokosowe
 - orzechy włoskie
 - miód

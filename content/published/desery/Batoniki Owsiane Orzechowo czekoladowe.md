@@ -17,7 +17,7 @@ ingredients:
 - masło orzechowe
 - gorzka czekolada
 - miód
-- płatki migdałowe
+- płatki migdałów
 - jogurt naturalny
 servings: 8
 prep_time: 10
