@@ -11,6 +11,7 @@ tags:
 - ciasta
 tagline: Alternatywa dla klasycznego sernika nowojorskiego z wysoką zawartością białka i niską kalorycznością
 link: https://www.youtube.com/watch?v=wEIPXSziM98
+video_file: videos/wysokobialkowy-sernik.webm
 ingredients:
 - twaróg
 - skyr waniliowy
