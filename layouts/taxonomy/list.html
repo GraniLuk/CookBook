@@ -179,7 +179,11 @@
             "{{ .Title }}"</p>
 
         <div class="columns is-multiline">
-            {{ range .Pages.ByPublishDate.Reverse }}
+            {{/* Sort: official recipes first (readyToTest=false or not set), then testing recipes */}}
+            {{ $officialPages := where .Pages ".Params.readyToTest" "!=" true }}
+            {{ $testingPages := where .Pages ".Params.readyToTest" true }}
+            {{ $sortedPages := $officialPages | append $testingPages }}
+            {{ range $sortedPages }}
             <div class="column is-4">
                 <div class="card">
                     <div class="card-image">
