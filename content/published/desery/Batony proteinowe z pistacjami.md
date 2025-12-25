@@ -10,7 +10,7 @@ tags:
 - batony
 - przekąska
 - proteinowe
-- bez-pieczenia
+- bez gotowania
 tagline: Gęste, sycące batony białkowe z chrupiącymi pistacjami i kwaskowym berberysem.
 link: https://www.youtube.com/watch?v=OmL2ry--rGo
 ingredients:

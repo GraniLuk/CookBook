@@ -10,6 +10,18 @@ import sys
 import yaml
 
 
+def find_project_root(start_path: pathlib.Path) -> pathlib.Path:
+    """Find the project root by searching upwards for a directory containing 'content' and 'static'."""
+    current = start_path
+    while current != current.parent:
+        if (current / "content").is_dir() and (current / "static").is_dir():
+            return current
+        current = current.parent
+    raise ValueError(
+        "Could not find project root with 'content' and 'static' directories."
+    )
+
+
 def collect_tags(content_dir: pathlib.Path) -> set[str]:
     tags: set[str] = set()
     for path in content_dir.glob("**/*.md"):
@@ -79,7 +91,8 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    project_root = pathlib.Path(__file__).resolve().parents[1]
+    script_dir = pathlib.Path(__file__).resolve().parent
+    project_root = find_project_root(script_dir)
     content_dir = project_root / "content"
     config_path = project_root / "static" / "admin" / "config.yml"
 

@@ -6,7 +6,6 @@ draft: false
 recipe_image: images/recipe-headers/placki_z_dyni.avif
 date: 2025-11-03 12:00:00+00:00
 tags:
-- dynia
 - placki
 tagline: Proste placki z dyni, jajek, mąki i banana, idealne na zdrowe śniadanie.
 ingredients:

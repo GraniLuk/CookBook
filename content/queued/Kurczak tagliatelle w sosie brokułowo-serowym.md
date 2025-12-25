@@ -7,8 +7,6 @@ readyToTest: true
 recipe_image: images/kurczak_tagliatelle_brokułowy.jpg
 date: 2025-11-29
 tags:
-- kurczak
-- makaron
 tagline: Przepis na kurczaka z makaronem tagliatelle w sosie brokułowo-serowym – prosty, smaczny i pełen białka.
 link: https://www.youtube.com/watch?v=V8dQJDSQ7lI
 ingredients:

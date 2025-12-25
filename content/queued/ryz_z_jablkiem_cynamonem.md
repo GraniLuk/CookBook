@@ -8,7 +8,7 @@ recipe_image: images/recipe-headers/ryz_z_jablkiem_cynamonem.avif
 date: 2025-11-25 12:00:00+00:00
 tags:
 - szybkie
-- na słodko
+- słodkie
 - wegetariańskie
 tagline: Coś, co kochaliśmy w dzieciństwie, w wersji sycącej.
 link: https://www.youtube.com/watch?v=wIC8JJtZEso

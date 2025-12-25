@@ -7,7 +7,6 @@ readyToTest: true
 recipe_image: images/kurczak_sos_orzechowy.jpg
 date: 2025-11-29
 tags:
-- kurczak
 - orzechowy
 - pikantne
 tagline: Rewelacyjny przepis na kurczaka w sosie orzechowym z limonką, czosnkiem i chili – pełen smaku i białka.

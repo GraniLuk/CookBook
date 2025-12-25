@@ -7,7 +7,6 @@ recipe_image: images/recipe-headers/ciasteczka_owsiane_maslo.avif
 date: 2025-11-28 10:00:00+00:00
 tags:
 - ciastka
-- ciastka owsiane
 - przekąska
 tagline: Zdrowa i pyszna przekąska dla małych i dużych – kruche i chrupiące ciasteczka owsiane!
 video_file: videos/ciasteczka_owsiane_maslo.mp4

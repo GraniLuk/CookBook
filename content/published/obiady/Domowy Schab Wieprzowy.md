@@ -9,7 +9,6 @@ date: 2025-11-20 12:00:00+00:00
 tags:
 - szybkie
 - proteinowe
-- mięso
 tagline: Soczysty domowy schab wieprzowy, idealny do kanapek i dań.
 link: https://www.youtube.com/watch?v=d71Nd3lS2Ok
 ingredients:

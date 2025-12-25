@@ -6,7 +6,6 @@ draft: false
 recipe_image: images/recipe-headers/sos_serowy.avif
 date: 2025-06-27 12:15:00+00:00
 tags:
-- impreza
 tagline: Kremowy i lekki sos serowy, idealny do wielu dań.
 link: https://www.youtube.com/watch?v=AIlwvEvCONM
 ingredients:

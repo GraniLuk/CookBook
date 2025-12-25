@@ -10,6 +10,7 @@ recipe_image: images/recipe-headers/czekoladowe_szyszki.avif
 date: 2025-12-21 12:00:00+00:00
 tags:
   - xmas
+  - czekoladowe
 tagline: Smaczne czekoladowe szyszki z mascarpone i herbatników.
 video_file: videos/czekoladowe_szyszki.mp4
 ingredients:
