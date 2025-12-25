@@ -304,7 +304,7 @@
     pointer-events: none;
 }
 
-/* Arrow pointing down */
+/* Arrow pointing down (default - tooltip above) */
 .tag-preview::before {
     content: '';
     position: absolute;
@@ -314,6 +314,22 @@
     border: 8px solid transparent;
     border-top-color: var(--color-surface, #FFFFFF);
     border-bottom: 0;
+}
+
+/* Tooltip below variant */
+.tag-pill.tooltip-below .tag-preview {
+    bottom: auto;
+    top: calc(100% + 12px);
+    transform: translateX(-50%) translateY(8px);
+}
+
+.tag-pill.tooltip-below .tag-preview::before {
+    bottom: auto;
+    top: -8px;
+    border-top-color: transparent;
+    border-bottom-color: var(--color-surface, #FFFFFF);
+    border-top: 0;
+    border-bottom: 8px solid var(--color-surface, #FFFFFF);
 }
 
 /* Show on hover */

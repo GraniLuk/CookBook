@@ -108,4 +108,31 @@
         searchClear.style.opacity = '0';
     }
 
+    // ============================================
+    // SMART TOOLTIP POSITIONING
+    // ============================================
+    // Show tooltip above or below based on available space
+
+    const TOOLTIP_HEIGHT = 220; // Approximate tooltip height in pixels
+    const VIEWPORT_MARGIN = 20; // Minimum margin from viewport edge
+
+    function updateTooltipPosition(pill) {
+        const rect = pill.getBoundingClientRect();
+        const spaceAbove = rect.top;
+        const spaceBelow = window.innerHeight - rect.bottom;
+
+        // If more space below OR not enough space above, show below
+        if (spaceBelow > spaceAbove || spaceAbove < TOOLTIP_HEIGHT + VIEWPORT_MARGIN) {
+            pill.classList.add('tooltip-below');
+        } else {
+            pill.classList.remove('tooltip-below');
+        }
+    }
+
+    // Add hover listeners to all tag pills
+    tagPills.forEach(pill => {
+        pill.addEventListener('mouseenter', () => updateTooltipPosition(pill));
+        pill.addEventListener('focusin', () => updateTooltipPosition(pill));
+    });
+
 })();
