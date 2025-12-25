@@ -4,7 +4,11 @@
     <i class="fas fa-tags fa-2x pl-3 pb-3"></i>
     <div class="columns is-multiline">
         {{ $.Scratch.Set "category" .Title }}
-        {{ range .Data.Pages }}
+        {{ $pages := .Data.Pages }}
+        {{ $readyToTestFalse := where $pages ".Params.readyToTest" "ne" true }}
+        {{ $readyToTestTrue := where $pages ".Params.readyToTest" true }}
+        {{ $sortedPages := $readyToTestFalse | append $readyToTestTrue }}
+        {{ range $sortedPages }}
         <div class="column is-2-desktop is-3-tablet is-full-mobile">
             {{ partial "summary.html" . }} {{/* pass in the element to the partial */}}
         </div>
