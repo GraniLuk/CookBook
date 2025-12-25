@@ -1,17 +1,19 @@
 /* Tag styles extracted from custom.css for clarity and reuse */
 
-/* Modern recipe tag pill (scoped to overlay since tags only appear on cards) */
+/* ============================================
+   RECIPE CARD TAG OVERLAY (existing)
+   ============================================ */
 
 /* Overlay container for tags on images */
 .card-tags-overlay {
-    position:absolute;
-    left:6px;
-    bottom:6px;
-    display:flex;
-    flex-wrap:wrap;
-    gap:4px;
-    max-width:calc(100% - 12px);
-    justify-content:flex-end;
+    position: absolute;
+    left: 6px;
+    bottom: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    max-width: calc(100% - 12px);
+    justify-content: flex-end;
 }
 
 .card-tags-overlay .recipe-tag {
@@ -25,12 +27,513 @@
     align-items: center;
     transition: all .25s ease;
     text-transform: lowercase;
-    /* visual */
     background: #f1f1f1;
     border: 1px solid #d9d9d9;
-    color: var(--bulma-primary,hsl(171, 100%, 41%));
+    color: var(--bulma-primary, hsl(171, 100%, 41%));
 }
 
 .card-tags-overlay .recipe-tag:hover {
     background: #e8e8e8;
+}
+
+/* ============================================
+   TAGS PAGE - INTERACTIVE TAG CLOUD
+   ============================================ */
+
+/* Page Section */
+.tags-page {
+    background: var(--color-bg, #FDFCF8);
+    min-height: 80vh;
+    padding: 2.5rem 1.5rem 4rem;
+}
+
+/* Header */
+.tags-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tags-title {
+    font-family: var(--font-heading, 'DM Serif Display', serif);
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: var(--color-text, #2D2A26);
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+}
+
+.tags-title i {
+    color: var(--color-primary, #4A7C59);
+    font-size: 0.85em;
+}
+
+.tags-subtitle {
+    font-family: var(--font-body, 'Mulish', sans-serif);
+    font-size: 1.1rem;
+    color: var(--color-text-light, #5D5A56);
+    margin-bottom: 2rem;
+}
+
+/* Search Input */
+.tags-search-wrapper {
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.tags-search-input {
+    width: 100%;
+    padding: 0.875rem 3rem 0.875rem 2.75rem;
+    font-family: var(--font-body, 'Mulish', sans-serif);
+    font-size: 1rem;
+    border: 2px solid var(--color-surface-alt, #F7F5F0);
+    border-radius: 999px;
+    background: var(--color-surface, #FFFFFF);
+    color: var(--color-text, #2D2A26);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+}
+
+.tags-search-input:focus {
+    outline: none;
+    border-color: var(--color-primary, #4A7C59);
+    box-shadow: 0 4px 20px rgba(74, 124, 89, 0.15);
+}
+
+.tags-search-input::placeholder {
+    color: var(--color-text-light, #5D5A56);
+    opacity: 0.6;
+}
+
+.tags-search-icon {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--color-text-light, #5D5A56);
+    opacity: 0.5;
+    font-size: 0.95rem;
+    pointer-events: none;
+}
+
+.tags-search-clear {
+    position: absolute;
+    right: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: var(--color-text-light, #5D5A56);
+    opacity: 0;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+    font-size: 0.85rem;
+}
+
+.tags-search-clear:hover {
+    background: var(--color-surface-alt, #F7F5F0);
+    opacity: 1;
+}
+
+.tags-search-wrapper:focus-within .tags-search-clear,
+.tags-search-input:not(:placeholder-shown) ~ .tags-search-clear {
+    opacity: 0.6;
+}
+
+/* ============================================
+   TAG CLOUD CONTAINER
+   ============================================ */
+
+.tags-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.875rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* ============================================
+   TAG PILL BASE STYLES
+   ============================================ */
+
+.tag-pill {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.625rem 1rem;
+    background: var(--color-surface, #FFFFFF);
+    border: 1.5px solid var(--color-surface-alt, #F7F5F0);
+    border-radius: 999px;
+    text-decoration: none;
+    font-family: var(--font-body, 'Mulish', sans-serif);
+    font-weight: 500;
+    color: var(--color-text, #2D2A26);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    cursor: pointer;
+    z-index: 1;
+}
+
+.tag-pill:hover,
+.tag-pill:focus-within {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    border-color: var(--tag-icon-color, var(--color-primary));
+    background: var(--color-surface, #FFFFFF);
+    z-index: 100;
+}
+
+.tag-pill:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(74, 124, 89, 0.2);
+}
+
+/* Tag Icon */
+.tag-icon {
+    color: var(--tag-icon-color, var(--color-primary, #4A7C59));
+    transition: transform 0.3s ease;
+}
+
+.tag-pill:hover .tag-icon {
+    transform: scale(1.15);
+}
+
+/* Tag Name */
+.tag-name {
+    white-space: nowrap;
+}
+
+/* Tag Count Badge */
+.tag-count {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1.5em;
+    padding: 0.15em 0.5em;
+    font-size: 0.75em;
+    font-weight: 600;
+    background: var(--color-surface-alt, #F7F5F0);
+    color: var(--color-text-light, #5D5A56);
+    border-radius: 999px;
+    transition: all 0.3s ease;
+}
+
+.tag-pill:hover .tag-count {
+    background: var(--tag-icon-color, var(--color-primary));
+    color: white;
+}
+
+/* ============================================
+   TAG SIZE VARIATIONS
+   ============================================ */
+
+/* Small (1-2 recipes) */
+.tag-pill.tag-sm {
+    font-size: 0.85rem;
+    padding: 0.5rem 0.875rem;
+    gap: 0.4rem;
+}
+
+.tag-pill.tag-sm .tag-icon {
+    font-size: 0.8rem;
+}
+
+/* Medium (3-5 recipes) */
+.tag-pill.tag-md {
+    font-size: 0.95rem;
+    padding: 0.625rem 1rem;
+}
+
+.tag-pill.tag-md .tag-icon {
+    font-size: 0.9rem;
+}
+
+/* Large (6-10 recipes) */
+.tag-pill.tag-lg {
+    font-size: 1.05rem;
+    padding: 0.75rem 1.125rem;
+    gap: 0.55rem;
+}
+
+.tag-pill.tag-lg .tag-icon {
+    font-size: 1rem;
+}
+
+/* Extra Large (11+ recipes) */
+.tag-pill.tag-xl {
+    font-size: 1.15rem;
+    padding: 0.875rem 1.25rem;
+    gap: 0.6rem;
+    font-weight: 600;
+}
+
+.tag-pill.tag-xl .tag-icon {
+    font-size: 1.1rem;
+}
+
+/* ============================================
+   RECIPE PREVIEW TOOLTIP
+   ============================================ */
+
+.tag-preview {
+    position: absolute;
+    bottom: calc(100% + 12px);
+    left: 50%;
+    transform: translateX(-50%) translateY(-8px);
+    width: 280px;
+    background: var(--color-surface, #FFFFFF);
+    border-radius: var(--radius-md, 16px);
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.15), 0 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 1rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 1000;
+    pointer-events: none;
+}
+
+/* Arrow pointing down */
+.tag-preview::before {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 8px solid transparent;
+    border-top-color: var(--color-surface, #FFFFFF);
+    border-bottom: 0;
+}
+
+/* Show on hover */
+.tag-pill:hover .tag-preview,
+.tag-pill:focus .tag-preview {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+    pointer-events: auto;
+}
+
+/* Preview Header */
+.tag-preview-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--color-surface-alt, #F7F5F0);
+}
+
+.tag-preview-title {
+    font-family: var(--font-heading, 'DM Serif Display', serif);
+    font-size: 1rem;
+    color: var(--color-text, #2D2A26);
+}
+
+.tag-preview-count {
+    font-size: 0.75rem;
+    color: var(--color-text-light, #5D5A56);
+    background: var(--color-surface-alt, #F7F5F0);
+    padding: 0.25rem 0.5rem;
+    border-radius: 999px;
+}
+
+/* Recipe Grid */
+.tag-preview-recipes {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+}
+
+.tag-preview-recipe {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.tag-preview-img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: var(--radius-sm, 8px);
+    flex-shrink: 0;
+}
+
+.tag-preview-recipe-title {
+    font-size: 0.825rem;
+    color: var(--color-text, #2D2A26);
+    line-height: 1.3;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* ============================================
+   NO RESULTS MESSAGE
+   ============================================ */
+
+.tags-no-results {
+    text-align: center;
+    padding: 3rem 1rem;
+    color: var(--color-text-light, #5D5A56);
+}
+
+.tags-no-results i {
+    font-size: 3rem;
+    opacity: 0.3;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.tags-no-results p {
+    font-size: 1.1rem;
+}
+
+.tags-no-results span {
+    font-weight: 600;
+    color: var(--color-text, #2D2A26);
+}
+
+/* Hidden state for filtered tags */
+.tag-pill.hidden {
+    display: none;
+}
+
+/* ============================================
+   RESPONSIVE DESIGN
+   ============================================ */
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .tags-cloud {
+        gap: 0.75rem;
+        max-width: 800px;
+    }
+    
+    .tag-preview {
+        width: 250px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .tags-page {
+        padding: 2rem 1rem 3rem;
+    }
+    
+    .tags-title {
+        font-size: 2rem;
+    }
+    
+    .tags-subtitle {
+        font-size: 1rem;
+    }
+    
+    .tags-search-wrapper {
+        max-width: 100%;
+    }
+    
+    .tags-cloud {
+        gap: 0.625rem;
+        padding: 0.5rem;
+    }
+    
+    /* Reduce pill sizes on mobile */
+    .tag-pill.tag-sm {
+        font-size: 0.8rem;
+        padding: 0.4rem 0.75rem;
+    }
+    
+    .tag-pill.tag-md {
+        font-size: 0.85rem;
+        padding: 0.5rem 0.875rem;
+    }
+    
+    .tag-pill.tag-lg {
+        font-size: 0.9rem;
+        padding: 0.55rem 0.95rem;
+    }
+    
+    .tag-pill.tag-xl {
+        font-size: 1rem;
+        padding: 0.625rem 1rem;
+    }
+    
+    /* Hide preview tooltip on mobile - use tap to navigate */
+    .tag-preview {
+        display: none;
+    }
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+    .tags-header {
+        margin-bottom: 2rem;
+    }
+    
+    .tags-title {
+        font-size: 1.75rem;
+        gap: 0.5rem;
+    }
+    
+    .tags-cloud {
+        gap: 0.5rem;
+    }
+    
+    .tag-pill {
+        padding: 0.4rem 0.7rem;
+        gap: 0.35rem;
+    }
+    
+    .tag-count {
+        font-size: 0.7em;
+        padding: 0.1em 0.4em;
+    }
+}
+
+/* ============================================
+   ACCESSIBILITY - REDUCED MOTION
+   ============================================ */
+
+@media (prefers-reduced-motion: reduce) {
+    .tag-pill,
+    .tag-preview,
+    .tags-search-input,
+    .tag-icon,
+    .tag-count {
+        transition: none;
+    }
+    
+    .tag-pill:hover {
+        transform: none;
+    }
+    
+    .tag-pill:hover .tag-icon {
+        transform: none;
+    }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+    .tag-pill {
+        border-width: 2px;
+        border-color: var(--color-text, #2D2A26);
+    }
+    
+    .tags-search-input {
+        border-width: 2px;
+        border-color: var(--color-text, #2D2A26);
+    }
 }
