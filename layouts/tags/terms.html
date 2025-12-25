@@ -1,0 +1,216 @@
+{{ define "main" }}
+{{/* ============================================
+     COMPREHENSIVE TAG ICON & COLOR MAPPING
+     ============================================
+     Maps tag names to Font Awesome icons and accent colors.
+     Unmapped tags use fallback (fa-tag with primary green).
+     
+     Colors use site CSS variables:
+     --color-accent-1: #E07A5F (terracotta)
+     --color-accent-2: #F2CC8F (warm yellow)
+     --color-accent-3: #81B29A (soft green)
+     --color-primary: #4A7C59 (sage green)
+*/}}
+
+{{/* Icon mapping: tag name (lowercase) → Font Awesome icon class */}}
+{{ $tagIcons := dict
+    "azjatyckie" "fa-bowl-rice"
+    "batony" "fa-candy-cane"
+    "bez gotowania" "fa-snowflake"
+    "blender" "fa-blender"
+    "bowl" "fa-bowl-food"
+    "ciasta" "fa-cake-candles"
+    "ciastka" "fa-cookie"
+    "czekoladowe" "fa-chocolate-bar"
+    "fast-food" "fa-burger"
+    "goście" "fa-users"
+    "grill" "fa-fire-burner"
+    "instant pot" "fa-gauge-high"
+    "jesień" "fa-leaf"
+    "kanapki" "fa-bread-slice"
+    "klasyczne" "fa-star"
+    "koktajle" "fa-martini-glass-citrus"
+    "kotlety" "fa-drumstick-bite"
+    "lody" "fa-ice-cream"
+    "low carb" "fa-wheat-awn-circle-exclamation"
+    "lunchbox" "fa-box"
+    "marokański" "fa-moon"
+    "meksykańskie" "fa-pepper-hot"
+    "na-wynos" "fa-bag-shopping"
+    "odporność" "fa-shield-heart"
+    "orzechowy" "fa-seedling"
+    "owsianka" "fa-wheat-awn"
+    "pasta" "fa-jar"
+    "pikantne" "fa-fire-flame-curved"
+    "placki" "fa-circle"
+    "proteinowe" "fa-dumbbell"
+    "przekąska" "fa-apple-whole"
+    "ryby" "fa-fish"
+    "stefan" "fa-user-chef"
+    "szybkie" "fa-bolt"
+    "słodkie" "fa-candy-cane"
+    "tarta" "fa-pie-chart"
+    "tortilla" "fa-plate-wheat"
+    "tropikalne" "fa-sun"
+    "wegańskie" "fa-carrot"
+    "wegetariańskie" "fa-leaf"
+    "włoskie" "fa-pizza-slice"
+    "xmas" "fa-gift"
+    "zapiekanka" "fa-fire"
+    "zdrowe" "fa-heart-pulse"
+    "śródziemnomorska" "fa-olive"
+}}
+
+{{/* Color mapping: tag name (lowercase) → CSS color variable or hex */}}
+{{ $tagColors := dict
+    "azjatyckie" "var(--color-accent-1)"
+    "batony" "var(--color-accent-2)"
+    "bez gotowania" "#6BA3D6"
+    "blender" "var(--color-accent-3)"
+    "bowl" "var(--color-primary)"
+    "ciasta" "#D4A574"
+    "ciastka" "var(--color-accent-2)"
+    "czekoladowe" "#8B4513"
+    "fast-food" "var(--color-accent-1)"
+    "goście" "#9B59B6"
+    "grill" "#E74C3C"
+    "instant pot" "#3498DB"
+    "jesień" "#D35400"
+    "kanapki" "var(--color-accent-2)"
+    "klasyczne" "#F1C40F"
+    "koktajle" "#E91E63"
+    "kotlety" "var(--color-accent-1)"
+    "lody" "#00BCD4"
+    "low carb" "var(--color-primary)"
+    "lunchbox" "#795548"
+    "marokański" "#FF9800"
+    "meksykańskie" "#F44336"
+    "na-wynos" "#607D8B"
+    "odporność" "#4CAF50"
+    "orzechowy" "#A1887F"
+    "owsianka" "var(--color-accent-2)"
+    "pasta" "var(--color-accent-3)"
+    "pikantne" "#FF5722"
+    "placki" "var(--color-accent-2)"
+    "proteinowe" "#E07A5F"
+    "przekąska" "#8BC34A"
+    "ryby" "#2196F3"
+    "stefan" "var(--color-primary)"
+    "szybkie" "#FFC107"
+    "słodkie" "#E91E63"
+    "tarta" "#D4A574"
+    "tortilla" "var(--color-accent-2)"
+    "tropikalne" "#FF9800"
+    "wegańskie" "#4CAF50"
+    "wegetariańskie" "var(--color-accent-3)"
+    "włoskie" "#E74C3C"
+    "xmas" "#C62828"
+    "zapiekanka" "var(--color-accent-1)"
+    "zdrowe" "var(--color-accent-3)"
+    "śródziemnomorska" "#3F51B5"
+}}
+
+<section class="section tags-page">
+    <div class="container">
+        {{/* Page Header */}}
+        <header class="tags-header">
+            <h1 class="tags-title">
+                <i class="fas fa-tags"></i>
+                {{ i18n "tags" | default "Tagi" }}
+            </h1>
+            <p class="tags-subtitle">Przeglądaj przepisy według tagów</p>
+            
+            {{/* Search Input */}}
+            <div class="tags-search-wrapper">
+                <i class="fas fa-search tags-search-icon"></i>
+                <input 
+                    type="text" 
+                    id="tags-search" 
+                    class="tags-search-input" 
+                    placeholder="Szukaj tagów..."
+                    autocomplete="off"
+                >
+                <button type="button" id="tags-search-clear" class="tags-search-clear" aria-label="Wyczyść">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+        </header>
+
+        {{/* Tags Cloud Container */}}
+        <div class="tags-cloud" id="tags-cloud">
+            {{ range .Data.Terms.ByCount }}
+                {{/* Get tag data */}}
+                {{ $tagName := .Page.Title }}
+                {{ $tagNameLower := .Page.Title | lower }}
+                {{ $tagSlug := .Page.Title | urlize }}
+                {{ $count := .Count }}
+                {{ $pages := .Pages }}
+                
+                {{/* Lookup icon and color using lowercase key, with fallbacks */}}
+                {{ $icon := index $tagIcons $tagNameLower | default "fa-tag" }}
+                {{ $color := index $tagColors $tagNameLower | default "var(--color-primary)" }}
+                
+                {{/* Calculate size class based on recipe count */}}
+                {{ $sizeClass := "tag-sm" }}
+                {{ if ge $count 11 }}
+                    {{ $sizeClass = "tag-xl" }}
+                {{ else if ge $count 6 }}
+                    {{ $sizeClass = "tag-lg" }}
+                {{ else if ge $count 3 }}
+                    {{ $sizeClass = "tag-md" }}
+                {{ end }}
+                
+                {{/* Tag Pill */}}
+                <a 
+                    href="{{ .Page.RelPermalink }}" 
+                    class="tag-pill {{ $sizeClass }}"
+                    data-tag="{{ $tagNameLower }}"
+                    style="--tag-icon-color: {{ $color | safeCSS }};"
+                >
+                    <i class="fas {{ $icon }} tag-icon"></i>
+                    <span class="tag-name">{{ $tagName }}</span>
+                    <span class="tag-count">{{ $count }}</span>
+                    
+                    {{/* Recipe Preview Tooltip */}}
+                    <div class="tag-preview" aria-hidden="true">
+                        <div class="tag-preview-header">
+                            <span class="tag-preview-title">{{ $tagName }}</span>
+                            <span class="tag-preview-count">{{ $count }} {{ if eq $count 1 }}przepis{{ else if and (ge $count 2) (le $count 4) }}przepisy{{ else }}przepisów{{ end }}</span>
+                        </div>
+                        <div class="tag-preview-recipes">
+                            {{/* Sort: official recipes first (readyToTest=false or not set), then testing recipes */}}
+                            {{ $officialPages := where $pages ".Params.readyToTest" "!=" true }}
+                            {{ $testingPages := where $pages ".Params.readyToTest" true }}
+                            {{ $sortedPages := $officialPages | append $testingPages }}
+                            {{ range first 3 $sortedPages }}
+                                <div class="tag-preview-recipe">
+                                    {{- $image_url := partial "asset-url.html" "/images/defaultImage.avif" -}}
+                                    {{- if and .Params.recipe_image (fileExists (printf "static/%s" .Params.recipe_image)) -}}
+                                        {{- $image_url = partial "asset-url.html" (printf "/%s" .Params.recipe_image) -}}
+                                    {{- end -}}
+                                    <img 
+                                        src="{{ $image_url }}" 
+                                        alt="{{ .Title }}" 
+                                        class="tag-preview-img"
+                                        loading="lazy"
+                                    >
+                                    <span class="tag-preview-recipe-title">{{ .Title | truncate 35 }}</span>
+                                </div>
+                            {{ end }}
+                        </div>
+                    </div>
+                </a>
+            {{ end }}
+        </div>
+        
+        {{/* No Results Message */}}
+        <div class="tags-no-results" id="tags-no-results" hidden>
+            <i class="fas fa-search"></i>
+            <p>Nie znaleziono tagów pasujących do "<span id="tags-search-term"></span>"</p>
+        </div>
+    </div>
+</section>
+
+{{/* Load tags filter script */}}
+<script src="{{ partial "asset-url.html" "/js/tags-filter.js" }}" defer></script>
+{{ end }}
