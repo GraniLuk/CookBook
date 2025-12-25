@@ -3,7 +3,7 @@
  * Filters tag pills in real-time as user types
  */
 
-(function() {
+(function () {
     'use strict';
 
     // DOM Elements
@@ -12,7 +12,7 @@
     const tagsCloud = document.getElementById('tags-cloud');
     const noResults = document.getElementById('tags-no-results');
     const searchTermSpan = document.getElementById('tags-search-term');
-    
+
     if (!searchInput || !tagsCloud) {
         console.warn('Tags filter: Required elements not found');
         return;
@@ -20,7 +20,7 @@
 
     // Get all tag pills
     const tagPills = tagsCloud.querySelectorAll('.tag-pill');
-    
+
     // Debounce helper
     function debounce(func, wait) {
         let timeout;
@@ -42,7 +42,7 @@
         tagPills.forEach(pill => {
             const tagName = pill.getAttribute('data-tag') || '';
             const matches = term === '' || tagName.includes(term);
-            
+
             if (matches) {
                 pill.classList.remove('hidden');
                 visibleCount++;

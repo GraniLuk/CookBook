@@ -144,7 +144,7 @@
 }
 
 .tags-search-wrapper:focus-within .tags-search-clear,
-.tags-search-input:not(:placeholder-shown) ~ .tags-search-clear {
+.tags-search-input:not(:placeholder-shown)~.tags-search-clear {
     opacity: 0.6;
 }
 
@@ -421,7 +421,7 @@
         gap: 0.75rem;
         max-width: 800px;
     }
-    
+
     .tag-preview {
         width: 250px;
     }
@@ -432,45 +432,45 @@
     .tags-page {
         padding: 2rem 1rem 3rem;
     }
-    
+
     .tags-title {
         font-size: 2rem;
     }
-    
+
     .tags-subtitle {
         font-size: 1rem;
     }
-    
+
     .tags-search-wrapper {
         max-width: 100%;
     }
-    
+
     .tags-cloud {
         gap: 0.625rem;
         padding: 0.5rem;
     }
-    
+
     /* Reduce pill sizes on mobile */
     .tag-pill.tag-sm {
         font-size: 0.8rem;
         padding: 0.4rem 0.75rem;
     }
-    
+
     .tag-pill.tag-md {
         font-size: 0.85rem;
         padding: 0.5rem 0.875rem;
     }
-    
+
     .tag-pill.tag-lg {
         font-size: 0.9rem;
         padding: 0.55rem 0.95rem;
     }
-    
+
     .tag-pill.tag-xl {
         font-size: 1rem;
         padding: 0.625rem 1rem;
     }
-    
+
     /* Hide preview tooltip on mobile - use tap to navigate */
     .tag-preview {
         display: none;
@@ -482,21 +482,21 @@
     .tags-header {
         margin-bottom: 2rem;
     }
-    
+
     .tags-title {
         font-size: 1.75rem;
         gap: 0.5rem;
     }
-    
+
     .tags-cloud {
         gap: 0.5rem;
     }
-    
+
     .tag-pill {
         padding: 0.4rem 0.7rem;
         gap: 0.35rem;
     }
-    
+
     .tag-count {
         font-size: 0.7em;
         padding: 0.1em 0.4em;
@@ -508,6 +508,7 @@
    ============================================ */
 
 @media (prefers-reduced-motion: reduce) {
+
     .tag-pill,
     .tag-preview,
     .tags-search-input,
@@ -515,11 +516,11 @@
     .tag-count {
         transition: none;
     }
-    
+
     .tag-pill:hover {
         transform: none;
     }
-    
+
     .tag-pill:hover .tag-icon {
         transform: none;
     }
@@ -531,7 +532,7 @@
         border-width: 2px;
         border-color: var(--color-text, #2D2A26);
     }
-    
+
     .tags-search-input {
         border-width: 2px;
         border-color: var(--color-text, #2D2A26);
