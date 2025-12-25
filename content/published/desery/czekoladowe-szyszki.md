@@ -17,14 +17,17 @@ ingredients:
   - herbatniki
   - kakao
   - płatki czekoladowe
+  - żurawina suszona
+  - orzechy włoskie
+  - czekolada gorzka
 servings: 8
 prep_time: 20
 cook: false
 cook_time: 0
-calories: 318
-protein: 7
-fat: 20
-carbohydrate: 29
+calories: 377
+protein: 8
+fat: 24
+carbohydrate: 35
 fodmap:
   status: yes
   serving_ok: OK w tej porcji
@@ -37,13 +40,18 @@ fodmap:
 *   220g herbatników  
 *   30g kakao  
 *   90g płatków czekoladowych  
+*   30g żurawiny suszonej  
+*   30g orzechów włoskich  
+*   30g czekolady gorzkiej  
 *   Cukier puder do posypania (opcjonalnie)  
 
 ## Sposób przygotowania
-1.  Herbatniki zmiksuj na drobno.  
-2.  W misce wymieszaj mascarpone, herbatniki i kakao.  
-3.  Z masy uformuj stożki. Następnie wbijaj płatki czekoladowe w uformowaną masę, tak jak na filmie.  
-4.  Całość można posypać cukrem pudrem opcjonalnie.  
+1.  Posiekaj na drobno żurawinę suszoną, orzechy włoskie i czekoladę gorzką.
+2.  Herbatniki zmiksuj na drobno. 
+3.  Dodaj kakao i wymieszaj.  
+4.  W misce wymieszaj mascarpone z przygotowaną mieszanką.  
+5.  Z masy uformuj stożki. Następnie wbijaj płatki czekoladowe w uformowaną masę, tak jak na filmie.  
+6.  Całość można posypać cukrem pudrem opcjonalnie.  
 
 ## Podsumowanie wartości odżywczych (całe danie)
 
@@ -53,5 +61,8 @@ fodmap:
 | Herbatniki             | 220       | 880            | 17.6       | 22.0         | 154.0           |
 | Kakao                  | 30        | 90             | 6.0        | 3.0          | 15.0            |
 | Płatki czekoladowe     | 90        | 450            | 4.5        | 22.5         | 54.0            |
-| **RAZEM:**             | **590**   | **2545**       | **53.1**   | **160.0**    | **235.5**       |
+| Żurawina suszona       | 30        | 92             | 0.1        | 0.0         | 24.6           |
+| Orzechy włoskie        | 30        | 196            | 4.6        | 19.6        | 4.1            |
+| Czekolada gorzka       | 30        | 179            | 2.3        | 12.8        | 13.8           |
+| **RAZEM:**             | **680**   | **3013**       | **60.1**   | **192.4**   | **278.0**       |
 ---
