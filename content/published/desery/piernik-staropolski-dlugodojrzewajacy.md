@@ -7,27 +7,26 @@ readyToTest: false
 queued: false
 favourite: false
 recipe_image: images/recipe-headers/piernik_staropolski.avif
+date: 2025-12-26 12:00:00+00:00
+tags:
+- ciasta
+- słodkie
+- xmas
+tagline: Tradycyjny piernik wymagający długiego leżakowania, idealny na święta z kremem grysikowym i polewą czekoladową.
 link: https://www.instagram.com/reels/DQL9KOOjEVq/
 video_file: videos/piernik_spod.mp4
 video_file2: videos/piernik_ciasto.mp4
-date: 2025-12-26 12:00:00+00:00
-tags:
-  - ciasta
-  - słodkie
-  - xmas
-tagline: Tradycyjny piernik wymagający długiego leżakowania, idealny na święta z
-  kremem grysikowym i polewą czekoladową.
 ingredients:
-  - mąka pszenna
-  - miód
-  - cukier
-  - masło
-  - mleko
-  - jajka
-  - kasza manna
-  - powidła śliwkowe
-  - śmietanka 30%
-  - czekolada gorzka
+- mąka pszenna
+- miód
+- cukier
+- masło
+- mleko
+- jajka
+- kasza manna
+- powidła śliwkowe
+- śmietanka 30%
+- czekolada gorzka
 servings: 3
 prep_time: 20
 cook: true
@@ -37,13 +36,12 @@ protein: 11
 fat: 27
 carbohydrate: 130
 fodmap:
-  status: yes
+  status: true
   serving_ok: OK w tej porcji
-  notes: Przepis zawiera miód, który może być problematyczny dla osób z
-    wrażliwością na FODMAP w większych ilościach. Mleko i inne składniki są
-    generalnie bezpieczne. Sprawdź indywidualną tolerancję.
+  notes: Przepis zawiera miód, który może być problematyczny dla osób z wrażliwością na FODMAP w większych ilościach. Mleko i inne składniki są generalnie bezpieczne. Sprawdź indywidualną tolerancję.
   substitutions: []
 ---
+
 ## Składniki
 
 * 1 kg mąki pszennej tortowej

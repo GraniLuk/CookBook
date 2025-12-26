@@ -29,7 +29,7 @@ ORDER = [
     "tagline",
     "link",
     "video_file",
-    "ingredients",
+    "video_file2",
     "servings",
     "prep_time",
     "cook",
