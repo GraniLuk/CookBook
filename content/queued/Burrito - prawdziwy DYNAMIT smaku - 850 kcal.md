@@ -3,9 +3,10 @@ title: Burrito - prawdziwy DYNAMIT smaku - 850 kcal
 author: Policzona Szama
 categories: obiady
 draft: false
-readyToTest: true
-queued: true
+readyToTest: false
+queued: false
 recipe_image: images/recipe-headers/burrito.avif
+video_file: videos/buritto.webm
 date: 2025-11-29 12:00:00+00:00
 tags:
 - meksykańskie
