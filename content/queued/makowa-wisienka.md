@@ -1,29 +1,31 @@
 ---
 title: Makowa Wisienka
-author: ''
+author: ""
 categories: desery
 draft: false
 readyToTest: true
+queued: true
+favourite: false
 recipe_image: images/recipe-headers/makowa_wisienka.avif
 date: 2025-12-22 12:00:00+00:00
 tags:
-- xmas
-- ciasta
+  - xmas
+  - ciasta
 tagline: Pyszne ciasto z makiem, wiśniami i bezą na święta.
 link: https://www.instagram.com/reels/DSR-pdvjHmI/
 video_file: videos/makowa-wisienka.mp4
 ingredients:
-- jajka
-- mak
-- migdały
-- wiórki kokosowe
-- mąka pszenna
-- cukier
-- galaretka wiśniowa
-- wiśnie mrożone
-- mascarpone
-- śmietanka 30%
-- płatki migdałów
+  - jajka
+  - mak
+  - migdały
+  - wiórki kokosowe
+  - mąka pszenna
+  - cukier
+  - galaretka wiśniowa
+  - wiśnie mrożone
+  - mascarpone
+  - śmietanka 30%
+  - płatki migdałów
 servings: 12
 prep_time: 60
 cook: true
@@ -33,8 +35,8 @@ protein: 10
 fat: 39
 carbohydrate: 58
 fodmap:
-  status: 'no'
-  serving_ok: ''
+  status: no
+  serving_ok: ""
   notes: Zawiera migdały i nabiał, które mogą być problematyczne w diecie low FODMAP.
   substitutions: []
 ---
