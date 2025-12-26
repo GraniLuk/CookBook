@@ -3,7 +3,7 @@ title: Piernik Staropolski Długodojrzewający
 author: obiaddlataty
 categories: desery
 draft: false
-readyToTest: true
+readyToTest: false
 recipe_image: images/recipe-headers/piernik_staropolski.avif
 date: 2025-12-26 12:00:00+00:00
 tags:
