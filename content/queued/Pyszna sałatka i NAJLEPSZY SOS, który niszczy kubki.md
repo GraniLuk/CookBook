@@ -73,5 +73,3 @@ fodmap:
 | Granat             | 50        | 35             | 1          | 0            | 8               |
 | Sos (porcja)       | 40        | 222            | 0.5        | 20.5         | 9.5             |
 | **RAZEM:**         | **470**   | **792**        | **25.5**   | **51.5**     | **63.5**        |
-</content>
-<parameter name="filePath">d:\repos\CookBook\content\Pyszna Salatka i Najlepszy Sos.md

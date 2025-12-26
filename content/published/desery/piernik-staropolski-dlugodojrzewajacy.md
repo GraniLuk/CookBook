@@ -100,6 +100,4 @@ fodmap:
 | Powidła śliwkowe     | 600       | 1800           | 6.0        | 0.0          | 450.0           |            |
 | Śmietanka 30%        | 200       | 600            | 4.0        | 60.0         | 6.0             |            |
 | Czekolada gorzka     | 200       | 1000           | 12.0       | 60.0         | 80.0            |            |
-| **RAZEM:**           | **4315**  | **14488**      | **198.6**  | **479.7**    | **2340.0**      | </content> |
-
-<parameter name="filePath">d:\repos\CookBook\content\published\desery\piernik-staropolski-dlugodojrzewajacy.md
+| **RAZEM:**           | **4315**  | **14488**      | **198.6**  | **479.7**    | **2340.0**      |

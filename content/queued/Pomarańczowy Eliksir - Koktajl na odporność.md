@@ -60,5 +60,3 @@ fodmap:
 | Pomarańcza         | 150       | 80             | 1.6        | 0.2          | 20.2            |
 | Jogurt             | 170       | 100            | 8.6        | 3.4          | 8.6             |
 | **RAZEM:**         | **810**   | **586**        | **16.6**   | **15**       | **108.8**       |
-</content>
-<parameter name="filePath">d:\repos\CookBook\content\Pomarańczowy Eliksir - Koktajl na odporność.md

@@ -77,6 +77,3 @@ fodmap:
 | Oliwa z oliwek    | 28        | 248            | 0.0        | 28.0         | 0.0             |
 | **RAZEM:**        | **1488**  | **2303**       | **188.1**  | **69.4**     | **209.3**       |
 | **NA PORCJĘ (4):**| ~372      | ~576           | ~47.0      | ~17.4        | ~52.3           |
-
-</content>
-<parameter name="filePath">c:\Users\grani\repos\CookBook\content\Jednogarnkowa Zapiekanka z Indykiem.md

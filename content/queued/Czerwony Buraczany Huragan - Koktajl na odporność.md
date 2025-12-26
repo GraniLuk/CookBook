@@ -56,5 +56,3 @@ fodmap:
 | Burak              | 150       | 70             | 2.6        | 0.2          | 15.8            |
 | Woda               | 250       | 0              | 0          | 0            | 0               |
 | **RAZEM:**         | **640**   | **330**        | **5.4**    | **6.8**      | **68.8**        |
-</content>
-<parameter name="filePath">d:\repos\CookBook\content\Czerwony Buraczany Huragan - Koktajl na odporność.md

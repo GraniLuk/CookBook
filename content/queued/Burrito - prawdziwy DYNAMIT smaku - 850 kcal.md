@@ -76,5 +76,3 @@ fodmap:
 | Ser cheddar        | 100       | 400            | 25         | 33           | 1               |
 | Tortilla           | 200       | 600            | 20         | 10           | 100             |
 | **RAZEM:**         | **2270**  | **3325**       | **221.6**  | **167.5**    | **195**         |
-</content>
-<parameter name="filePath">d:\repos\CookBook\content\Burrito Prawdziwy Dynamit Smaku.md

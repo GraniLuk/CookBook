@@ -57,5 +57,3 @@ fodmap:
 | Roszponka          | 50        | 10             | 1          | 0            | 2               |
 | Kiełki             | 20        | 10             | 1          | 0            | 2               |
 | **RAZEM:**         | **630**   | **1280**       | **84**     | **45**       | **131**         |
-</content>
-<parameter name="filePath">d:\repos\CookBook\content\Szybki Klasyk - Kanapka z serem i szynką.md

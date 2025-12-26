@@ -55,5 +55,3 @@ fodmap:
 | Suszone pomidory   | 50        | 80             | 2          | 4            | 8               |
 | Rukola             | 50        | 10             | 1          | 0            | 2               |
 | **RAZEM:**         | **640**   | **1130**       | **49**     | **43**       | **141**         |
-</content>
-<parameter name="filePath">d:\repos\CookBook\content\KANAPKA z Jajecznicą, Awokado i Suszonymi Pomidorami.md

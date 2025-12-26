@@ -59,5 +59,3 @@ fodmap:
 | Awokado            | 100       | 160            | 2          | 15           | 9               |
 | Jajka              | 100       | 140            | 12         | 10           | 1               |
 | **RAZEM:**         | **470**   | **745**        | **55.5**   | **53**       | **15**          |
-</content>
-<parameter name="filePath">d:\repos\CookBook\content\Wrapy LOW CARB z łososiem, serkiem śmietankowym, awokado.md

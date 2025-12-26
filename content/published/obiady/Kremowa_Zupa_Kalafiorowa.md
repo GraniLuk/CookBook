@@ -83,6 +83,3 @@ Opcjonalne dodatkowo:
 | Oliwa z oliwek   | 20        | 180            | 0.0        | 20.0         | 0.0             |
 | Pietruszka       | 10        | 5              | 0.5        | 0.1          | 1.0             |
 | **RAZEM:**       | **2355**  | **1355**       | **47.5**   | **81.5**     | **99.0**        |
-
-</content>
-<parameter name="filePath">d:\repos\CookBook\content\published\obiady\Kremowa_Zupa_Kalafiorowa.md

@@ -62,5 +62,3 @@ fodmap:
 | Pietruszka         | 20        | 8              | 0.6        | 0.2          | 1.4             |
 | Woda               | 100       | 0              | 0          | 0            | 0               |
 | **RAZEM:**         | **655**   | **382**        | **8.5**    | **12.4**     | **69.6**        |
-</content>
-<parameter name="filePath">d:\repos\CookBook\content\Zielona Bomba Witaminowa - Koktajl na odporność.md

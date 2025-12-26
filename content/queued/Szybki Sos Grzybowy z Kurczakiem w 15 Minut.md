@@ -68,6 +68,3 @@ fodmap:
 | Oliwa z oliwek    | 10        | 88             | 0.0        | 10.0         | 0.0             |
 | **RAZEM:**        | **730**   | **1602**       | **137.5**  | **40.1**     | **160.5**       |
 | **NA PORCJĘ (2):**| ~365      | ~801           | ~68.8      | ~20.1        | ~80.3           |
-
-</content>
-<parameter name="filePath">c:\Users\grani\repos\CookBook\content\Szybki Sos Grzybowy z Kurczakiem w 15 Minut.md

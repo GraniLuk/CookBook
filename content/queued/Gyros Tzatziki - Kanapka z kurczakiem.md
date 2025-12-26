@@ -66,5 +66,3 @@ fodmap:
 | Mix sałat          | 50        | 10             | 0.6        | 0            | 2               |
 | Oliwa              | 20        | 180            | 0          | 20           | 0               |
 | **RAZEM:**         | **910**   | **1406**       | **132**    | **36**       | **140.2**       |
-</content>
-<parameter name="filePath">d:\repos\CookBook\content\Gyros Tzatziki - Kanapka z kurczakiem.md

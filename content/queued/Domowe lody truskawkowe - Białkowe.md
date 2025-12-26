@@ -59,5 +59,3 @@ fodmap:
 | Odżywka białkowa   | 50        | 200            | 40         | 2            | 4               |
 | Wanilia            | 5         | 10             | 0          | 0            | 2               |
 | **RAZEM:**         | **985**   | **975**        | **70**     | **53**       | **48**          |
-</content>
-<parameter name="filePath">d:\repos\CookBook\content\Domowe lody truskawkowe - Białkowe.md

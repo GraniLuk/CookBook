@@ -89,6 +89,3 @@ fodmap:
 | **RAZEM:**         | **1435**  | **2390**       | **168.5**  | **118.88**   | **160.8**       |
 | **NA 100G:**       | ~167      | ~167           | ~11.7      | ~8.3         | ~11.2           |
 | **NA PORCJĘ (3):** | ~478      | ~797           | ~56.2      | ~39.6        | ~53.6           |
-
-</content>
-<parameter name="filePath">c:\Users\grani\repos\CookBook\content\Chicken Bites niczym z KFC z California Bowl.md

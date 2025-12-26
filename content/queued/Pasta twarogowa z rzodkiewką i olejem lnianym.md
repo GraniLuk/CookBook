@@ -50,5 +50,3 @@ fodmap:
 | Jajko              | 50        | 70             | 6          | 5            | 0.5             |
 | Olej lniany        | 20        | 180            | 0          | 20           | 0               |
 | **RAZEM:**         | **420**   | **585**        | **47**     | **41**       | **11.5**        |
-</content>
-<parameter name="filePath">d:\repos\CookBook\content\Pasta twarogowa z rzodkiewką i olejem lnianym.md
