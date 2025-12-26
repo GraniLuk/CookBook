@@ -18,7 +18,7 @@ ingredients:
 - płatki owsiane
 - nasiona chia
 - odżywka białkowa
-- jogurt naturalny skyr
+- jogurt naturalny
 - napój owsiany
 - masło orzechowe
 servings: 1
