@@ -80,6 +80,7 @@ _shared_fields:
       - { label: "xmas", value: "xmas" }
       - { label: "zapiekanka", value: "zapiekanka" }
       - { label: "zdrowe", value: "zdrowe" }
+      - { label: "zupy", value: "zupy" }
       - { label: "śródziemnomorska", value: "śródziemnomorska" }
     hint: "Wybierz z listy tagów (wpisz lub kliknij, aby zobaczyć wszystkie)."
 

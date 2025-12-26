@@ -3,13 +3,13 @@ title: Kremowa Zupa Kalafiorowa
 author: Nieznany
 categories: obiady
 draft: false
-readyToTest: true
+readyToTest: false
 queued: true
 favourite: false
 recipe_image: images/recipe-headers/kremowa_zupa_kalafiorowa.avif
 date: 2025-12-22 08:00:00+00:00
 tags:
-  - szybkie
+  - zupy
 tagline: Soczysta kremowa zupa kalafiorowa z mozzarellą i śmietanką.
 video_file: videos/kremowa_zupa_kalafiorowa.mp4
 ingredients:
