@@ -30,6 +30,7 @@ ORDER = [
     "link",
     "video_file",
     "video_file2",
+    "ingredients",
     "servings",
     "prep_time",
     "cook",
