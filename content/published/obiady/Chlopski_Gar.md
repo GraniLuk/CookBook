@@ -1,5 +1,5 @@
 ---
-title: Chłopski Gar 2.0 - Tani i Zdrowy Obiad Jednogarnkowy
+title: Chłopski Gar - Tani i Zdrowy Obiad Jednogarnkowy
 author: Policzone Szamy
 categories: obiady
 draft: false
@@ -7,8 +7,6 @@ readyToTest: false
 queued: false
 favourite: true
 recipe_image: images/recipe-headers/chlopski_gar.avif
-
-
 date: 2025-12-17 12:00:00+00:00
 tags:
 - instant pot
