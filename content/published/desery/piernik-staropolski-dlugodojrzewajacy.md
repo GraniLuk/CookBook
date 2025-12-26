@@ -7,6 +7,9 @@ readyToTest: false
 queued: false
 favourite: false
 recipe_image: images/recipe-headers/piernik_staropolski.avif
+link: https://www.instagram.com/reels/DQL9KOOjEVq/
+video_file: videos/piernik_spod.mp4
+video_file2: videos/piernik_ciasto.mp4
 date: 2025-12-26 12:00:00+00:00
 tags:
   - ciasta
