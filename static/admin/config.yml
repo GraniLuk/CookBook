@@ -168,6 +168,7 @@ _shared_fields:
       - { label: "kapusta biała", value: "kapusta biała" }
       - { label: "karkówka wieprzowa", value: "karkówka wieprzowa" }
       - { label: "kasza bulgur", value: "kasza bulgur" }
+      - { label: "kasza manna", value: "kasza manna" }
       - { label: "kawa", value: "kawa" }
       - { label: "ketchup", value: "ketchup" }
       - { label: "kiełbasa", value: "kiełbasa" }
@@ -298,6 +299,7 @@ _shared_fields:
       - { label: "pomidory krojone", value: "pomidory krojone" }
       - { label: "pomidory suszone", value: "pomidory suszone" }
       - { label: "por", value: "por" }
+      - { label: "powidła śliwkowe", value: "powidła śliwkowe" }
       - { label: "przecier pomidorowy", value: "przecier pomidorowy" }
       - { label: "przyprawa", value: "przyprawa" }
       - { label: "przyprawa korzenna", value: "przyprawa korzenna" }
