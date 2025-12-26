@@ -4,7 +4,7 @@ author: Nieznany
 categories: obiady
 draft: false
 readyToTest: false
-queued: true
+queued: false
 favourite: false
 recipe_image: images/recipe-headers/kremowa_zupa_kalafiorowa.avif
 date: 2025-12-22 08:00:00+00:00
