@@ -6,7 +6,6 @@ draft: false
 readyToTest: false
 queued: false
 recipe_image: images/recipe-headers/burrito.avif
-video_file: videos/buritto.webm
 date: 2025-11-29 12:00:00+00:00
 tags:
 - meksykańskie
@@ -14,6 +13,7 @@ tags:
 - proteinowe
 tagline: Epickie burrito z wołowiną w pikantnym sosie pomidorowym, czerwoną fasolą, awokado, serem cheddar i jajecznicą.
 link: https://www.youtube.com/watch?v=h8zZXIgS30c
+video_file: videos/buritto.webm
 ingredients:
 - wołowina mielona
 - fasola czerwona
