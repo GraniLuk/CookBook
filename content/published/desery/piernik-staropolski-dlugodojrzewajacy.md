@@ -1,26 +1,39 @@
 ---
-draft: false  
+title: Piernik Staropolski Długodojrzewający
+author: obiaddlataty
+categories: desery
+draft: false
 readyToTest: true
-title: "Piernik Staropolski Długodojrzewający"  
-author: "obiaddlataty"  
-recipe_image: images/recipe-headers/piernik_staropolski.avif  
-date: 2025-12-26T12:00:00-00:00  
-categories: desery  
-tags: ["ciasta", "słodkie", "xmas"]  
-tagline: "Tradycyjny piernik wymagający długiego leżakowania, idealny na święta z kremem grysikowym i polewą czekoladową."  
-ingredients: ["mąka pszenna", "miód", "cukier", "masło", "mleko", "jajka", "kasza manna", "powidła śliwkowe", "śmietanka 30%", "czekolada gorzka"]
-servings: 18  
-prep_time: 20  
-cook: true  
-cook_time: 23  
+recipe_image: images/recipe-headers/piernik_staropolski.avif
+date: 2025-12-26 12:00:00+00:00
+tags:
+- ciasta
+- słodkie
+- xmas
+tagline: Tradycyjny piernik wymagający długiego leżakowania, idealny na święta z kremem grysikowym i polewą czekoladową.
+ingredients:
+- mąka pszenna
+- miód
+- cukier
+- masło
+- mleko
+- jajka
+- kasza manna
+- powidła śliwkowe
+- śmietanka 30%
+- czekolada gorzka
+servings: 18
+prep_time: 20
+cook: true
+cook_time: 23
 calories: 805
 protein: 11
 fat: 27
-carbohydrate: 130 
+carbohydrate: 130
 fodmap:
-  status: "yes"
-  serving_ok: "OK w tej porcji"
-  notes: "Przepis zawiera miód, który może być problematyczny dla osób z wrażliwością na FODMAP w większych ilościach. Mleko i inne składniki są generalnie bezpieczne. Sprawdź indywidualną tolerancję."
+  status: 'yes'
+  serving_ok: OK w tej porcji
+  notes: Przepis zawiera miód, który może być problematyczny dla osób z wrażliwością na FODMAP w większych ilościach. Mleko i inne składniki są generalnie bezpieczne. Sprawdź indywidualną tolerancję.
   substitutions: []
 ---
 
