@@ -3,17 +3,17 @@ title: Domowy Schab Wieprzowy
 author: Policzone Szamy
 categories: obiady
 draft: false
+readyToTest: false
+queued: false
 favourite: true
 recipe_image: images/recipe-headers/domowy_schab.avif
 date: 2025-11-20 12:00:00+00:00
-tags:
-- szybkie
-- proteinowe
+tags: null
 tagline: Soczysty domowy schab wieprzowy, idealny do kanapek i dań.
 link: https://www.youtube.com/watch?v=d71Nd3lS2Ok
 ingredients:
-- schab wieprzowy
-- czosnek
+  - schab wieprzowy
+  - czosnek
 servings: 6
 prep_time: 30
 cook: true
@@ -23,11 +23,12 @@ protein: 25
 fat: 9
 carbohydrate: 0
 fodmap:
-  status: 'yes'
+  status: yes
   serving_ok: TAK – bez cebuli i czosnku
-  notes: Schab wieprzowy, sól, olej, zioła, rozmaryn – bezpieczne. Czosnek jest high FODMAP, ale można go pominąć lub zastąpić olejem czosnkowym.
+  notes: Schab wieprzowy, sól, olej, zioła, rozmaryn – bezpieczne. Czosnek jest
+    high FODMAP, ale można go pominąć lub zastąpić olejem czosnkowym.
   substitutions:
-  - Zamiast czosnku użyć olej czosnkowy (infuzja bez cząstek)
+    - Zamiast czosnku użyć olej czosnkowy (infuzja bez cząstek)
 ---
 
 ## Składniki
