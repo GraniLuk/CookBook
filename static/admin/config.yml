@@ -394,6 +394,7 @@ _shared_fields:
       - { label: "łopatka wieprzowa", value: "łopatka wieprzowa" }
       - { label: "łosoś", value: "łosoś" }
       - { label: "łosoś wędzony", value: "łosoś wędzony" }
+      - { label: "śledź", value: "śledź" }
       - { label: "śliwki", value: "śliwki" }
       - { label: "śmietana", value: "śmietana" }
       - { label: "śmietana 12%", value: "śmietana 12%" }
