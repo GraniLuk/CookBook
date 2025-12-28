@@ -1,5 +1,5 @@
 ---
-title: zapiekanki_z_mozzarella_i_szpinakiem
+title: Zapiekanki z Mozzarellą i Szpinakiem
 author: Kozak Trener
 categories:
 - sniadania

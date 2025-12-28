@@ -1,6 +1,7 @@
 ---
-title: smakowity KURCZAK w sosie smietanowym z suszonymi pomidorami!_gpt-oss
+title: smakowity KURCZAK w sosie śmietanowym z suszonymi pomidorami!
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=v5A-7VpL2mo
 published: 2017-10-14
 created: 2025-11-23

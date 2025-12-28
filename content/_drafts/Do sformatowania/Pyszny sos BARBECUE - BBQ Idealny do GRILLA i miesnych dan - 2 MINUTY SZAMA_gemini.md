@@ -1,6 +1,7 @@
 ---
-title: Pyszny sos BARBECUE - BBQ Idealny do GRILLA i miesnych dan - 2 MINUTY SZAMA_gemini
+title: Pyszny sos BARBECUE - BBQ Idealny do GRILLA i mięsnych dań - 2 MINUTY SZAMA
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=qUyczcdmp_4
 published: 2019-06-13
 created: 2025-10-28

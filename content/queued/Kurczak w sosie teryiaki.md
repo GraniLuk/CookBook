@@ -1,5 +1,5 @@
 ---
-title: Kurczak w sosie teryiaki
+title: Kurczak Teriyaki z Warzywami i Ryżem
 author: Policzona Szama
 categories: obiady
 draft: false

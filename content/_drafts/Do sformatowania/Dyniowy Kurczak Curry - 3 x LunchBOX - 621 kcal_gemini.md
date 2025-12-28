@@ -1,6 +1,7 @@
 ---
-title: Dyniowy Kurczak Curry - 3 x LunchBOX - 621 kcal_gemini
+title: Dyniowy Kurczak Curry - 3 x LunchBOX - 621 kcal
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=0t1TNUMGD8w
 published: 2023-10-01
 created: 2025-10-19

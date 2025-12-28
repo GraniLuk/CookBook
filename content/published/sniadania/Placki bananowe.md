@@ -1,5 +1,5 @@
 ---
-title: Placki bananowe
+title: Placki Bananowe
 author: Autor Przepisu
 categories:
 - sniadania

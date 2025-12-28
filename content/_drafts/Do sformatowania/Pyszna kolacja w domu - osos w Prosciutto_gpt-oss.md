@@ -1,6 +1,7 @@
 ---
-title: Pyszna kolacja w domu - osos w Prosciutto_gpt-oss
+title: Pyszna kolacja w domu - Łosoś w Prosciutto
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=yaYi4hrp1yQ
 published: 2021-02-12
 created: 2025-10-27

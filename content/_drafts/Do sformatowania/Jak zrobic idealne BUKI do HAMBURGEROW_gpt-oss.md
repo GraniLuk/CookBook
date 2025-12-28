@@ -1,6 +1,7 @@
 ---
-title: Jak zrobic idealne BUKI do HAMBURGEROW_gpt-oss
+title: Jak zrobić idealne BUŁKI do HAMBURGERÓW
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=JL4jyt-LbWI
 published: 2021-05-12
 created: 2025-10-26

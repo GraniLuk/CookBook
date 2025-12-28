@@ -1,6 +1,7 @@
 ---
-title: Prosty MEKSYKANSKI Kurczak z RYZEM - LunchBOX na 4 dni - 697 kcal_gemini
+title: Prosty MEKSYKAŃSKI Kurczak z RYŻEM - LunchBOX na 4 dni - 697 kcal
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=dQFXkyBNUco
 published: 2019-06-04
 created: 2025-10-28

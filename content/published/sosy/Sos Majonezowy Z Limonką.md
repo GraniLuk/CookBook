@@ -1,5 +1,5 @@
 ---
-title: Sos Majonezowy Z Limonką
+title: Sos Majonezowy Z Limonką I Ostrą Papryką
 author: Autor Przepisu
 categories: sosy
 draft: false

@@ -1,6 +1,7 @@
 ---
-title: Wielki fit PLACEK z patelni - MAX sytosc, tylko 540 kcal - OMLET z jabkiem_gemini
+title: Wielki fit PLACEK z patelni - MAX sytość, tylko 540 kcal - OMLET z jabłkiem
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=CfSU0OYhxTA
 published: 2019-08-15
 created: 2025-10-27

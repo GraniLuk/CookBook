@@ -1,6 +1,7 @@
 ---
-title: Kolacja po ktorej ONA zostanie na sniadanie - NAJLEPSZE KREWETKI_gemini
+title: Kolacja po której ONA zostanie na śniadanie - NAJLEPSZE KREWETKI
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=4jp0Pm23QqU
 published: 2020-02-09
 created: 2025-10-27

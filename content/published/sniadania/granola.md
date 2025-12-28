@@ -1,5 +1,5 @@
 ---
-title: granola
+title: Domowa Granola z Miodem, Kokosem i Bakaliami
 author: Policzone Szamy
 categories:
 - sniadania

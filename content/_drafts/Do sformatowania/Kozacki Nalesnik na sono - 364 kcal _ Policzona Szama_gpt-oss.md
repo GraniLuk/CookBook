@@ -1,6 +1,7 @@
 ---
-title: Kozacki Nalesnik na sono - 364 kcal _ Policzona Szama_gpt-oss
+title: Kozacki Naleśnik na słono - 364 kcal | Policzona Szama
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=hPVtglIkLbw
 published: 2018-10-21
 created: 2025-11-22

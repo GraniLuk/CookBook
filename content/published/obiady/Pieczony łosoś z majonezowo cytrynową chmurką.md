@@ -1,5 +1,5 @@
 ---
-title: Pieczony łosoś z majonezowo cytrynową chmurką
+title: Pieczony Łosoś z Majonezowo-Cytrynową Chmurką
 author: Policzone Szamy
 categories:
 - obiady

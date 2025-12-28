@@ -1,6 +1,7 @@
 ---
-title: Pyszny Letni OBIAD x3 - Mode ziemniaki i medaliony z indyka_gemini
+title: Pyszny Letni OBIAD x3 - Młode ziemniaki i medaliony z indyka
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=phcen65I6bg
 published: 2020-08-08
 created: 2025-10-27

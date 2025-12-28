@@ -1,5 +1,5 @@
 ---
-title: Pikantna Potrawka z Kurczakiem i Ziemniakami
+title: Pikantna Potrawka z Kurczakiem i Ziemniakami (Jednogarnkowa)
 author: Policzone Szamy
 categories: obiady
 draft: false

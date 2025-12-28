@@ -1,6 +1,7 @@
 ---
-title: Policzone BURRITO - kolorowo, bardziej zdrowo._gpt-oss
+title: Policzone BURRITO - kolorowo, bardziej zdrowo.
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=I4OHJX2EdT0
 published: 2021-04-22
 created: 2025-10-26

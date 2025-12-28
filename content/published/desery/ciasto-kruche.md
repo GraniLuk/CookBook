@@ -1,5 +1,5 @@
 ---
-title: ciasto-kruche
+title: Ciasto Kruche
 author: Teść Krzysztof
 categories: desery
 draft: false
@@ -9,14 +9,14 @@ favourite: false
 recipe_image: images/recipe-headers/ciasto_kruche.avif
 date: 2025-12-06 12:00:00+00:00
 tags:
-- goście
-- tarta
+  - goście
+  - tarta
 tagline: Proste i kruche ciasto idealne na tarty i słodkości.
 ingredients:
-- mąka pszenna
-- masło
-- żółtka
-- jogurt naturalny
+  - mąka pszenna
+  - masło
+  - żółtka
+  - jogurt naturalny
 servings: 1
 prep_time: 15
 cook: true
@@ -26,9 +26,10 @@ protein: 10
 fat: 24
 carbohydrate: 46
 fodmap:
-  status: true
+  status: yes
   serving_ok: OK
-  notes: Mąka pszenna, masło, żółtka i jogurt naturalny są bezpieczne w diecie low FODMAP.
+  notes: Mąka pszenna, masło, żółtka i jogurt naturalny są bezpieczne w diecie low
+    FODMAP.
   substitutions: []
 ---
 

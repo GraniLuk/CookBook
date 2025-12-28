@@ -1,5 +1,5 @@
 ---
-title: 4 sposoby na KURCZAKA z dobrym MAKRO_gemini
+title: '***'
 author: Autor Przepisu
 categories:
 - sniadania

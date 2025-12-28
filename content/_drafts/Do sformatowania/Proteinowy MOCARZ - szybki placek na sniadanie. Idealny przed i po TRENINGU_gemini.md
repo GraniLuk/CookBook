@@ -1,6 +1,7 @@
 ---
-title: Proteinowy MOCARZ - szybki placek na sniadanie. Idealny przed i po TRENINGU_gemini
+title: Proteinowy MOCARZ - szybki placek na śniadanie. Idealny przed i po TRENINGU
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=bspPkNEZIPs
 published: 2020-04-18
 created: 2025-10-27

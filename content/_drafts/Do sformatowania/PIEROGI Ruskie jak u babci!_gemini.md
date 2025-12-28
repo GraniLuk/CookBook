@@ -1,6 +1,7 @@
 ---
-title: PIEROGI Ruskie jak u babci!_gemini
+title: PIEROGI Ruskie jak u babci!
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=LeJBD0mKxXw
 published: 2018-04-30
 created: 2025-11-23

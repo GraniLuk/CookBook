@@ -1,5 +1,5 @@
 ---
-title: salatka_z_burrata_pomarancza_awokado
+title: Sałatka z Burratą, Pomarańczą i Awokado
 author: Michał Wrzosek
 categories: salatki
 draft: false

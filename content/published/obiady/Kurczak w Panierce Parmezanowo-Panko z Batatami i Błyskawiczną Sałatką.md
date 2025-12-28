@@ -1,5 +1,5 @@
 ---
-title: Kurczak w Panierce Parmezanowo-Panko z Batatami i Błyskawiczną Sałatką
+title: Kurczak w Panierce Parmezanowo-Panko z Batatami
 author: Policzona Szama
 categories: obiady
 draft: false

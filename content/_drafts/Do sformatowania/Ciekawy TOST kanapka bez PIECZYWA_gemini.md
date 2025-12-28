@@ -1,6 +1,7 @@
 ---
-title: Ciekawy TOST kanapka bez PIECZYWA_gemini
+title: Ciekawy TOST kanapka bez PIECZYWA
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=9YOOourTvMA
 published: 2019-05-14
 created: 2025-10-28

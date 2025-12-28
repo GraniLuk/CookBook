@@ -1,7 +1,8 @@
 ---
-title: ECO Chinczyk na 4 porcje_gpt-oss
+title: ECO Chińczyk na 4 porcje
 author: '[[Policzona Szama]]'
 draft: true
+
 source: https://www.youtube.com/watch?v=twN1vcuVUaM
 published: 2025-11-27
 created: 2025-11-28

@@ -1,6 +1,7 @@
 ---
-title: Nadziewane KAJZERKI - bez wydrazania. Zaskoczysz gosci._gemini
+title: Nadziewane KAJZERKI - bez wydrążania. Zaskoczysz gości.
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=mshGe49eAjg
 published: 2021-03-12
 created: 2025-11-01

@@ -1,6 +1,7 @@
 ---
-title: MEKSYKANSKIE kaszotto z KURCZAKIEM - LunchBOX na 3 dni - 771 kcal_gemini
+title: MEKSYKAŃSKIE kaszotto z KURCZAKIEM - LunchBOX na 3 dni - 771 kcal
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=T5SSE0Gwo60
 published: 2020-07-05
 created: 2025-10-27

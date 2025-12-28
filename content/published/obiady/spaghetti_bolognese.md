@@ -1,5 +1,5 @@
 ---
-title: spaghetti_bolognese
+title: Spaghetti Bolognese
 author: Policzona Szama
 categories:
 - obiady

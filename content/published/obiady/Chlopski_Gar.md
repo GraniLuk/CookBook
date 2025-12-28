@@ -1,5 +1,5 @@
 ---
-title: Chlopski_Gar
+title: Chłopski Gar - Tani i Zdrowy Obiad Jednogarnkowy
 author: Policzone Szamy
 categories: obiady
 draft: false

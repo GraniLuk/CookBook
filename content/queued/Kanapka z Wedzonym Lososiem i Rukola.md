@@ -1,5 +1,5 @@
 ---
-title: Kanapka z Wedzonym Lososiem i Rukola
+title: Kanapka z Wędzonym Łososiem, Rukolą i Pomidorkami
 author: Policzone Szamy
 categories:
 - sniadania

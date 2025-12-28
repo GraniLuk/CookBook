@@ -1,6 +1,7 @@
 ---
-title: CAY DZIEN JEDZENIA 3000 kcal - Czysta MASA_gpt-oss
+title: CAŁY DZIEŃ JEDZENIA 3000 kcal - Czysta MASA
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=mFwqkGt1EEg
 published: 2021-04-11
 created: 2025-10-26

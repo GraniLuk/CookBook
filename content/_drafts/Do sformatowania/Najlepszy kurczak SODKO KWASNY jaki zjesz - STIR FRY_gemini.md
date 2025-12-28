@@ -1,6 +1,7 @@
 ---
-title: Najlepszy kurczak SODKO KWASNY jaki zjesz - STIR FRY_gemini
+title: Najlepszy kurczak SŁODKO KWAŚNY jaki zjesz - STIR FRY
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=hUuBB72gqmk
 published: 2019-05-05
 created: 2025-10-28

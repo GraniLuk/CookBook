@@ -1,5 +1,5 @@
 ---
-title: Ciastka owsiane
+title: Chrupiące Ciasteczka Owsiane Bananowo-Czekoladowe
 author: Autor Przepisu
 categories: desery
 draft: false

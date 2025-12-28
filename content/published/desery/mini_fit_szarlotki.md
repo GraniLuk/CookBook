@@ -1,5 +1,5 @@
 ---
-title: mini_fit_szarlotki
+title: Mini Fit Szarlotki
 author: Autor Przepisu
 categories:
 - desery

@@ -1,5 +1,5 @@
 ---
-title: golabki_leniwe
+title: Gołąbki Leniwe
 author: Autor Przepisu
 categories: obiady
 draft: false

@@ -1,6 +1,7 @@
 ---
-title: Swojska ZAPIEKANKA ziemniaczana z MIESEM - 240 g BIAKA_gemini
+title: Swojska ZAPIEKANKA ziemniaczana z MIĘSEM - 240 g BIAŁKA
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=vWAYh91Jols
 published: 2019-07-25
 created: 2025-10-27

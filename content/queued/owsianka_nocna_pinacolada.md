@@ -1,5 +1,5 @@
 ---
-title: owsianka_nocna_pinacolada
+title: Owsianka Nocna Pinacolada
 author: Michał Wrzosek
 categories: śniadania
 subcategories: słone

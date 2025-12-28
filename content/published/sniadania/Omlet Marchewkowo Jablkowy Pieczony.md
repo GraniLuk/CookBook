@@ -1,5 +1,5 @@
 ---
-title: Omlet Marchewkowo Jablkowy Pieczony
+title: Omlet Marchewkowo-Jabłkowy Pieczony w Pudełku
 author: Policzone Szamy
 categories:
 - sniadania

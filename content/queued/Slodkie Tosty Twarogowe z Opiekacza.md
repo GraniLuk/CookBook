@@ -1,5 +1,5 @@
 ---
-title: Slodkie Tosty Twarogowe z Opiekacza
+title: Słodkie Tosty Twarogowe z Opiekacza
 author: Policzone Szamy
 categories:
 - sniadania

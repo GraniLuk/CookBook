@@ -1,5 +1,5 @@
 ---
-title: sos winegret
+title: Sos Winegret
 author: Policzone Szamy
 categories: sosy
 draft: false

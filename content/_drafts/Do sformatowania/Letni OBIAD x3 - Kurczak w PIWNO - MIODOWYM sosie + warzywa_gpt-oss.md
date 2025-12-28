@@ -1,5 +1,5 @@
 ---
-title: Letni OBIAD x3 - Kurczak w PIWNO - MIODOWYM sosie + warzywa_gpt-oss
+title: Letni OBIAD x3 - Kurczak w PIWNO - MIODOWYM sosie + warzywa
 author: '[[Policzona Szama]]'
 source: https://www.youtube.com/watch?v=0bMAdKdvPxI
 published: 2021-07-07

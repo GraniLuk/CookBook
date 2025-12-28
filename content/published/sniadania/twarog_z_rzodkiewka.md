@@ -1,5 +1,5 @@
 ---
-title: twarog_z_rzodkiewka
+title: Domowy Twarożek z Rzodkiewką i Szczypiorkiem
 author: GraniLuk
 categories:
 - sniadania

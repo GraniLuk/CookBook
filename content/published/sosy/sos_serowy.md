@@ -1,5 +1,5 @@
 ---
-title: sos_serowy
+title: Fit Sos Serowy Cheddar
 author: Policzone Szama
 categories: sosy
 draft: false

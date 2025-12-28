@@ -1,5 +1,5 @@
 ---
-title: tagiatelle_z_kurczakiem_i_szpinakiem
+title: Tagliatelle z Kurczakiem, Szpinakiem i Pomidorami
 author: barlomiej_wlodarczyk
 categories: obiady
 draft: false

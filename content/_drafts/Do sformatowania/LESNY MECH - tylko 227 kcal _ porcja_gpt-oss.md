@@ -1,6 +1,7 @@
 ---
-title: LESNY MECH - tylko 227 kcal _ porcja_gpt-oss
+title: LEŚNY MECH - tylko 227 kcal / porcja
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=Le9VynT8Opc
 published: 2021-05-04
 created: 2025-10-26

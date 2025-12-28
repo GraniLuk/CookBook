@@ -1,5 +1,5 @@
 ---
-title: sledz-salsa
+title: Śledź Salsa
 author: Policzone Szamy
 categories: śniadania
 subcategories:

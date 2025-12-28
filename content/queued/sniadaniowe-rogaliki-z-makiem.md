@@ -1,5 +1,5 @@
 ---
-title: sniadaniowe-rogaliki-z-makiem
+title: Śniadaniowe rogaliki z makiem
 author: obiaddlataty
 categories: sniadania
 draft: false

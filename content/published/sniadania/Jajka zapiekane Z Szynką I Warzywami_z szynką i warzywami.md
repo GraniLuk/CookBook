@@ -1,5 +1,5 @@
 ---
-title: Jajka zapiekane Z Szynką I Warzywami_z szynką i warzywami
+title: Jajka Zapiekane Z Szynką I Warzywami
 author: Granica
 categories:
 - sniadania

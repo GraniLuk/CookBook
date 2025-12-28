@@ -1,6 +1,7 @@
 ---
-title: Kurczak Curry z ryzem - LunchBOX w tajskim klimacie!_gemini
+title: Kurczak Curry z ryżem - LunchBOX w tajskim klimacie!
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=Wl5ohxOmlDs
 published: 2020-03-25
 created: 2025-10-27

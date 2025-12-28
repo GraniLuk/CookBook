@@ -1,5 +1,5 @@
 ---
-title: brownie_kinder_bueno
+title: Brownie Kinder Bueno
 author: Bartłomiej Włodarczyk
 categories:
 - desery

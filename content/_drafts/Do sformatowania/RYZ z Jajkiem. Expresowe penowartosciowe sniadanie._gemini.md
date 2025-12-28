@@ -1,6 +1,7 @@
 ---
-title: RYZ z Jajkiem. Expresowe penowartosciowe sniadanie._gemini
+title: RYŻ z Jajkiem. Expresowe pełnowartościowe śniadanie.
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=ouuH1oDLdqA
 published: 2019-10-24
 created: 2025-10-27

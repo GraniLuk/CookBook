@@ -1,5 +1,5 @@
 ---
-title: Kanapka z Jajkiem Sadzonym
+title: Kanapka z Jajkiem Sadzonym i Pomidorkami
 author: Policzone Szamy
 categories:
 - sniadania

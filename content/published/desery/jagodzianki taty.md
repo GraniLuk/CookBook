@@ -1,5 +1,5 @@
 ---
-title: jagodzianki taty
+title: Jagodzianki Taty
 author: Teść Krzysztof
 categories: desery
 draft: false

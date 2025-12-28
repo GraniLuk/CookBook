@@ -1,5 +1,5 @@
 ---
-title: Kurczak Green Curry z Warzywami
+title: Kurczak Green Curry z Warzywami i Ryżem (2 Porcje)
 author: Policzone Szamy
 categories: obiady
 draft: false

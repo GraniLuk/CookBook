@@ -1,5 +1,5 @@
 ---
-title: Batoniki Owsiane Orzechowo czekoladowe
+title: Batoniki Owsiane z Orzechami i Czekoladą
 author: Centrum Respo
 categories:
 - desery

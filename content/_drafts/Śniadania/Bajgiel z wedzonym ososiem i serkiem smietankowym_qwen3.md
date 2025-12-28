@@ -1,12 +1,12 @@
 ---
-title: Bajgiel z wedzonym ososiem i serkiem smietankowym_qwen3
+title: '**Szybki bajgel śniadaniowy – przepis na 5 minut**'
 author: Autor Przepisu
 categories:
 - sniadania
 draft: true
 recipe_image: images/recipe-headers/default.avif
 date: 2025-08-29 17:13:21+00:00
-tags: null
+tags:
 tagline: Przepis do sformatowania
 servings: 4
 prep_time: 15

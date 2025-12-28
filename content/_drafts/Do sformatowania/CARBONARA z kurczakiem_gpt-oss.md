@@ -1,6 +1,7 @@
 ---
-title: CARBONARA z kurczakiem_gpt-oss
+title: CARBONARA z kurczakiem
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=IwKn-xVM-dw
 published: 2017-09-06
 created: 2025-11-23

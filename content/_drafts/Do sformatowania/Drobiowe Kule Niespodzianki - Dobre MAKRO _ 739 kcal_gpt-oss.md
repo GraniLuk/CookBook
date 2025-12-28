@@ -1,6 +1,7 @@
 ---
-title: Drobiowe Kule Niespodzianki - Dobre MAKRO _ 739 kcal_gpt-oss
+title: Drobiowe Kule Niespodzianki  - Dobre MAKRO | 739 kcal
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=fWhedQoTIII
 published: 2019-03-05
 created: 2025-11-22

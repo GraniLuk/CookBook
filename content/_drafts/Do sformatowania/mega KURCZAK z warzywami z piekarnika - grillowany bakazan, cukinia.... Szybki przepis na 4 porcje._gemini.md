@@ -1,6 +1,7 @@
 ---
-title: mega KURCZAK z warzywami z piekarnika - grillowany bakazan, cukinia.... Szybki przepis na 4 porcje._gemini
+title: mega KURCZAK z warzywami z piekarnika - grillowany bakłażan, cukinia.... Szybki przepis na 4 porcje.
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=YK6vThYJ9dE
 published: 2017-02-17
 created: 2025-10-30

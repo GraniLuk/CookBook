@@ -1,5 +1,5 @@
 ---
-title: owsianka_migdalowa
+title: Pieczona Owsianka Migdałowa (Croissant Vibe)
 author: Nowakuje
 categories:
 - sniadania

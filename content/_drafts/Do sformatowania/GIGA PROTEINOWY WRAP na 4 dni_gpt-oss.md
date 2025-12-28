@@ -1,7 +1,8 @@
 ---
-title: GIGA PROTEINOWY WRAP na 4 dni_gpt-oss
+title: GIGA PROTEINOWY WRAP na 4 dni
 author: '[[Policzona Szama]]'
 draft: true
+
 source: https://www.youtube.com/watch?v=Am_Prt1_xp0
 published: 2025-10-02
 created: 2025-10-03

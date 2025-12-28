@@ -1,5 +1,5 @@
 ---
-title: Jajecznica
+title: Jajecznica na Maśle
 author: Autor Przepisu
 categories:
 - sniadania

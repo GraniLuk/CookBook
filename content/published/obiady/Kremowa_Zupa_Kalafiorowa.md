@@ -1,5 +1,5 @@
 ---
-title: Kremowa_Zupa_Kalafiorowa
+title: Kremowa Zupa Kalafiorowa
 author: Nieznany
 categories: obiady
 draft: false

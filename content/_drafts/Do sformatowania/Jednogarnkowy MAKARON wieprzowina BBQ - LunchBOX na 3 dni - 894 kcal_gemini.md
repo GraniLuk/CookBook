@@ -1,6 +1,7 @@
 ---
-title: Jednogarnkowy MAKARON wieprzowina BBQ - LunchBOX na 3 dni - 894 kcal_gemini
+title: Jednogarnkowy MAKARON wieprzowina BBQ - LunchBOX na 3 dni - 894 kcal
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=bySPdXXOf6w
 published: 2020-04-09
 created: 2025-10-27

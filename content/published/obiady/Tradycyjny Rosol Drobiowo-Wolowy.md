@@ -1,5 +1,5 @@
 ---
-title: Tradycyjny Rosol Drobiowo-Wolowy
+title: Tradycyjny Rosół Drobiowo‑Wołowy
 author: Policzone Szamy
 categories: obiady
 draft: false

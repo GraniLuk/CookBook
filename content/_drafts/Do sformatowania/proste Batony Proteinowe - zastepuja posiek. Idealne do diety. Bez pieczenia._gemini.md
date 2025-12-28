@@ -1,6 +1,7 @@
 ---
-title: proste Batony Proteinowe - zastepuja posiek. Idealne do diety. Bez pieczenia._gemini
+title: proste Batony Proteinowe  - zastępują posiłek. Idealne do diety. Bez pieczenia.
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=tei6b5UNTjg
 published: 2017-03-03
 created: 2025-10-30

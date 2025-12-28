@@ -1,5 +1,5 @@
 ---
-title: Bowl z łososiem
+title: Bowl z Łososiem, Ryżem i Warzywami
 author: Policzona Szama
 categories: obiady
 draft: false

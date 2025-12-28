@@ -1,6 +1,7 @@
 ---
-title: Epicki BURGER woowy. Przepis na ekskluzywnego burgera._gemini
+title: Epicki BURGER wołowy. Przepis na ekskluzywnego burgera.
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=aGyrmJnQ0_g
 published: 2017-04-30
 created: 2025-10-30

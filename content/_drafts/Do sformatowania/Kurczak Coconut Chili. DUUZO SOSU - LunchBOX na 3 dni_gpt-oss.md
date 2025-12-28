@@ -1,6 +1,7 @@
 ---
-title: Kurczak Coconut Chili. DUUZO SOSU - LunchBOX na 3 dni_gpt-oss
+title: Kurczak Coconut Chili. DUUŻO SOSU - LunchBOX na 3 dni
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=NDTGB7A6L5E
 published: 2020-12-17
 created: 2025-10-27

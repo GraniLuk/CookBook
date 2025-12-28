@@ -1,6 +1,7 @@
 ---
-title: Placki z WATROBKI Drobiowej - LunchBOX _ 505 kcal_gemini
+title: Placki z WĄTRÓBKI Drobiowej - LunchBOX / 505 kcal
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=YdDj4prCq_Q
 published: 2019-01-31
 created: 2025-10-30

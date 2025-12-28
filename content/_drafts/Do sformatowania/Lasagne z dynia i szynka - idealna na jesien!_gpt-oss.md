@@ -1,7 +1,8 @@
 ---
-title: Lasagne z dynia i szynka - idealna na jesien!_gpt-oss
+title: Lasagne z dynią i szynką - idealna na jesień!
 author: '[[Policzona Szama]]'
 draft: true
+
 source: https://www.youtube.com/watch?v=N3b6C3Wm6OY
 published: 2025-09-18
 created: 2025-09-19

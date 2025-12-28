@@ -1,6 +1,7 @@
 ---
-title: Policzone SAJGONKI. Lepsze niz _U CHINCZYKA_ __gemini
+title: Policzone SAJGONKI. Lepsze niż "U CHIŃCZYKA" ?
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=hszZgtrbYtY
 published: 2019-03-16
 created: 2025-10-30

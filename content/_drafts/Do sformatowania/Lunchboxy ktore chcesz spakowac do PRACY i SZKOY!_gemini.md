@@ -1,5 +1,5 @@
 ---
-title: Lunchboxy ktore chcesz spakowac do PRACY i SZKOY!_gemini
+title: '---'
 author: Autor Przepisu
 categories:
 - sniadania

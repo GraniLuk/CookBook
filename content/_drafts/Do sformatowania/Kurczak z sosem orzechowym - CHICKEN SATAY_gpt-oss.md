@@ -1,6 +1,7 @@
 ---
-title: Kurczak z sosem orzechowym - CHICKEN SATAY_gpt-oss
+title: Kurczak z sosem orzechowym - CHICKEN SATAY
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=NEzFyx48bSw
 published: 2021-09-15
 created: 2025-10-26

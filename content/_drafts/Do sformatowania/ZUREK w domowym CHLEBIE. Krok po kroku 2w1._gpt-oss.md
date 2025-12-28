@@ -1,6 +1,7 @@
 ---
-title: ZUREK w domowym CHLEBIE. Krok po kroku 2w1._gpt-oss
+title: ŻUREK w domowym CHLEBIE.  Krok po kroku 2w1.
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=SDDaQ809DmY
 published: 2021-03-27
 created: 2025-10-26

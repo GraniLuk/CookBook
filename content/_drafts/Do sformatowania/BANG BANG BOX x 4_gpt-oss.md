@@ -1,7 +1,8 @@
 ---
-title: BANG BANG BOX x 4_gpt-oss
+title: BANG BANG BOX x 4
 author: '[[Policzona Szama]]'
 draft: true
+
 source: https://www.youtube.com/watch?v=bCFszRmuv-Y
 published: 2025-11-29
 created: 2025-11-29

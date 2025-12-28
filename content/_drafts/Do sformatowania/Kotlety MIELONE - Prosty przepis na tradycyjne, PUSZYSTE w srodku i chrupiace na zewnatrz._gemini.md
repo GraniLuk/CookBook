@@ -1,6 +1,7 @@
 ---
-title: Kotlety MIELONE - Prosty przepis na tradycyjne, PUSZYSTE w srodku i chrupiace na zewnatrz._gemini
+title: Kotlety MIELONE - Prosty przepis na tradycyjne, PUSZYSTE w środku i chrupiące na zewnątrz.
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=W_6cFRYVKDM
 published: 2019-07-12
 created: 2025-10-28

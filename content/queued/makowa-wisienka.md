@@ -1,5 +1,5 @@
 ---
-title: makowa-wisienka
+title: Makowa Wisienka
 author: ''
 categories: desery
 draft: false

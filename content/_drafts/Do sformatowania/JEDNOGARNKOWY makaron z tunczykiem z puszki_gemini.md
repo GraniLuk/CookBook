@@ -1,6 +1,7 @@
 ---
-title: JEDNOGARNKOWY makaron z tunczykiem z puszki_gemini
+title: JEDNOGARNKOWY makaron z tuńczykiem z puszki
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=WCMp-zeKAQc
 published: 2020-07-20
 created: 2025-10-27

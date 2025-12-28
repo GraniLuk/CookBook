@@ -1,5 +1,5 @@
 ---
-title: salatka brokul slonecznik
+title: Sałatka z Brokułem, Fetą i Prażonym Słonecznikiem
 author: Policzone Szamy
 categories:
 - salatki

@@ -1,5 +1,5 @@
 ---
-title: pasta_jajeczna_suszone_pomidory
+title: Pasta Jajeczna z Suszonymi Pomidorami i Tuńczykiem
 author: Użytkownik
 categories:
 - sniadania

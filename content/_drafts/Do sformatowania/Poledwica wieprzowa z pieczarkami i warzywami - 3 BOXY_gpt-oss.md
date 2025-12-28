@@ -1,6 +1,7 @@
 ---
-title: Poledwica wieprzowa z pieczarkami i warzywami - 3 BOXY_gpt-oss
+title: Polędwica wieprzowa z pieczarkami i warzywami - 3 BOXY
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=ILHfSzQOwTU
 published: 2017-08-19
 created: 2025-11-23

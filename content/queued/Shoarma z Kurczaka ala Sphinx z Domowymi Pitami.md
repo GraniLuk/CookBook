@@ -1,5 +1,5 @@
 ---
-title: Shoarma z Kurczaka ala Sphinx z Domowymi Pitami
+title: Shoarma z Kurczaka a'la Sphinx z Domowymi Pitami
 author: Policzone Szamy
 categories: sniadania
 subcategories: słone

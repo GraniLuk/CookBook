@@ -1,6 +1,7 @@
 ---
-title: Prosty CHINCZYK - wieprzowina w sosie z ryzem x 3_gemini
+title: Prosty CHIŃCZYK - wieprzowina w sosie z ryżem x 3
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=tRJsHTJgowE
 published: 2020-10-04
 created: 2025-10-27

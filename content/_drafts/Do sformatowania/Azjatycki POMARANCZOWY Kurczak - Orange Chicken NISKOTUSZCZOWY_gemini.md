@@ -1,6 +1,7 @@
 ---
-title: Azjatycki POMARANCZOWY Kurczak - Orange Chicken NISKOTUSZCZOWY_gemini
+title: Azjatycki POMARAŃCZOWY Kurczak - Orange Chicken NISKOTŁUSZCZOWY
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=DHsnBStnkl4
 published: 2019-09-02
 created: 2025-10-27

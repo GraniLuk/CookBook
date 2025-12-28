@@ -1,6 +1,7 @@
 ---
-title: Surowka COLESLAW idealna do GRILLA i miesnych dan - 2 MINUTY SZAMA_gemini
+title: Surówka COLESLAW idealna do GRILLA i mięsnych dań - 2 MINUTY SZAMA
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=3gQB5F9zGps
 published: 2019-05-18
 created: 2025-10-28

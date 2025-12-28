@@ -1,6 +1,7 @@
 ---
-title: SERNIK OREO + truskawka. NA ZIMNO_gemini
+title: SERNIK OREO + truskawka. NA ZIMNO
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=GRoK2uvGv6c
 published: 2020-06-25
 created: 2025-10-27

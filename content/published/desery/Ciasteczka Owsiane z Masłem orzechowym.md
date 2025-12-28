@@ -1,5 +1,5 @@
 ---
-title: Ciasteczka Owsiane z Masłem orzechowym
+title: Ciasteczka Owsiane z Masłem Orzechowym
 author: Policzone Szamy
 categories: desery
 draft: false

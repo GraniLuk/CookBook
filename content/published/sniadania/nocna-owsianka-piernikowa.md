@@ -1,5 +1,5 @@
 ---
-title: nocna-owsianka-piernikowa
+title: Nocna Owsianka Piernikowa
 author: olawolska.diet
 categories: sniadania
 draft: false

@@ -1,6 +1,7 @@
 ---
-title: BOMBA SMAKOW - Zapiekanka MUSAKA - edycja niskotuszczowa._gemini
+title: BOMBA SMAKÓW - Zapiekanka MUSAKA - edycja niskotłuszczowa.
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=cbjp8b_gH1I
 published: 2020-06-18
 created: 2025-10-27

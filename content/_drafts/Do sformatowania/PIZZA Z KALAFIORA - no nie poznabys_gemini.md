@@ -1,6 +1,7 @@
 ---
-title: PIZZA Z KALAFIORA - no nie poznabys_gemini
+title: PIZZA Z KALAFIORA - no nie poznałbyś
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=W_o1EQ6tWk0
 published: 2020-07-11
 created: 2025-10-27

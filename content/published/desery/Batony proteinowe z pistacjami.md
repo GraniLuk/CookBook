@@ -1,5 +1,5 @@
 ---
-title: Batony proteinowe z pistacjami
+title: Proteinowe Batony Energetyczne 2.0 z Pistacjami i Berberysem
 author: Policzone Szamy
 categories:
 - desery

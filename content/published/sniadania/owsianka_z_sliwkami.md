@@ -1,5 +1,5 @@
 ---
-title: owsianka_z_sliwkami
+title: Czekoladowa owsianka z duszonymi śliwkami
 author: Policzone Szamy
 categories:
 - sniadania

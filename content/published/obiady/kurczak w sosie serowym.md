@@ -1,5 +1,5 @@
 ---
-title: kurczak w sosie serowym
+title: Pieczony Kurczak z Ryżem, Warzywami i Fit Sosem Serowym
 author: Policzone Szamy
 categories: obiady
 draft: false

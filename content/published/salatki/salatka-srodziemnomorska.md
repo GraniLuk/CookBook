@@ -1,5 +1,5 @@
 ---
-title: salatka-srodziemnomorska
+title: Sałatka śródziemnomorska
 author: Nieznany
 categories: salatki
 draft: false

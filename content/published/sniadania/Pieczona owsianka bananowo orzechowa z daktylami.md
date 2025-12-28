@@ -1,5 +1,5 @@
 ---
-title: Pieczona owsianka bananowo orzechowa z daktylami
+title: Pieczona Owsianka Bananowo-Orzechowa z Daktylami
 author: Michał Wrzosek
 categories:
 - sniadania

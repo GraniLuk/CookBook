@@ -1,6 +1,7 @@
 ---
-title: Jaja na sniadanie najlepsza opcja_ - SZAKSZUKA - znikajace 1000 kcal_gemini
+title: Jaja na śniadanie najlepsza opcja? - SZAKSZUKA - znikające 1000 kcal
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=gGCYK63l8cA
 published: 2019-04-11
 created: 2025-10-30

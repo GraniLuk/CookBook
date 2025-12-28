@@ -1,5 +1,5 @@
 ---
-title: Pizza Low-Carb na Spodzie z Twarogu
+title: Pizza Low-Carb na Spodzie z Twarogu (3 metody pieczenia)
 author: Policzone Szamy
 categories: obiady
 draft: false

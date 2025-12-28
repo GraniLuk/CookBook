@@ -1,6 +1,7 @@
 ---
-title: Serowo - szpinakowa TARTA na batatach_gpt-oss
+title: Serowo - szpinakowa TARTA na batatach
 author: '[[Policzona Szama]]'
+
 source: https://www.youtube.com/watch?v=kUDlJUUslQ8
 published: 2020-12-07
 created: 2025-10-27
