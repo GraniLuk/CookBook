@@ -1,4 +1,5 @@
 import argparse
+import datetime
 import os
 import sys
 from pathlib import Path
@@ -109,6 +110,31 @@ def process_directory(content_dir, check_only=False):
                     # Load the file
                     post = frontmatter.load(file_path)
 
+                    # Check and fix future dates
+                    date_changed = False
+                    if "date" in post.metadata:
+                        date_value = post.metadata["date"]
+                        date_obj = None
+                        if isinstance(date_value, datetime.datetime):
+                            date_obj = date_value.date()
+                        elif isinstance(date_value, datetime.date):
+                            date_obj = date_value
+                        else:
+                            try:
+                                date_obj = datetime.datetime.fromisoformat(
+                                    str(date_value)
+                                ).date()
+                            except ValueError:
+                                pass  # Invalid date, skip
+                        if date_obj and date_obj > datetime.date.today():
+                            post.metadata["date"] = datetime.date.today()
+                            date_changed = True
+                            if check_only:
+                                print(f"ERROR: Future date in {file}")
+                                errors += 1
+                            else:
+                                print(f"Fixed future date: {file}")
+
                     # Validate metadata
                     is_valid = validate_metadata(post.metadata, file)
                     if not is_valid:
@@ -130,7 +156,9 @@ def process_directory(content_dir, check_only=False):
                     # Simplest check for reordering is checking keys.
                     # For formatting, we might need to read raw file, but let's stick to key order for now as primary check.
 
-                    needs_change = original_keys != new_keys
+                    needs_change = (original_keys != new_keys) or (
+                        date_changed and not check_only
+                    )
 
                     if needs_change:
                         if check_only:
