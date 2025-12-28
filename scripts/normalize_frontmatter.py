@@ -89,6 +89,14 @@ def validate_metadata(metadata, filename):
     if missing_keys:
         print(f"ERROR: {filename} missing keys: {', '.join(missing_keys)}")
         return False
+
+    # Validate that title matches filename (without .md extension)
+    title = metadata.get("title")
+    expected_title = filename[:-3]
+    if title != expected_title:
+        print(f"ERROR: {filename} title '{title}' does not match filename '{expected_title}'")
+        return False
+
     return True
 
 
@@ -159,6 +167,11 @@ def process_directory(content_dir, check_only=False):
                     needs_change = (original_keys != new_keys) or (
                         date_changed and not check_only
                     )
+
+                    if not check_only:
+                        if post.metadata.get("title") != file[:-3]:
+                            post.metadata["title"] = file[:-3]
+                            needs_change = True
 
                     if needs_change:
                         if check_only:
