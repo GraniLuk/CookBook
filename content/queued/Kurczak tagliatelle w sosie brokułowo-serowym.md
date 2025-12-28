@@ -16,7 +16,7 @@ ingredients:
 - śmietana
 - serek blu
 - parmezan
-- olej roślinny
+- olej
 - czosnek
 servings: 3
 prep_time: 15

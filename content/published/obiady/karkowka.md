@@ -13,7 +13,7 @@ ingredients:
 - karkówka wieprzowa
 - ketchup
 - musztarda
-- olej rzepakowy
+- olej
 - czosnek
 - cytryna
 - sos sojowy

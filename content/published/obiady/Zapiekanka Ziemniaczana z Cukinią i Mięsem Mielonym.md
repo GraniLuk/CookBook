@@ -16,7 +16,7 @@ ingredients:
 - przecier pomidorowy
 - śmietana 30%
 - ser żółty
-- olej roślinny
+- olej
 - natka pietruszki
 - szczypiorek
 - koperek
