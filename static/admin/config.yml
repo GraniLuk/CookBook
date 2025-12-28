@@ -102,6 +102,7 @@ _shared_fields:
       - { label: "białko jajeczne", value: "białko jajeczne" }
       - { label: "boczek wędzony", value: "boczek wędzony" }
       - { label: "brokuł", value: "brokuł" }
+      - { label: "brzoskwinie konserwowe", value: "brzoskwinie konserwowe" }
       - { label: "budyń waniliowy", value: "budyń waniliowy" }
       - { label: "bulion", value: "bulion" }
       - { label: "burak", value: "burak" }
