@@ -82,7 +82,7 @@ Oto przepis na pieczonego łososia w piekarniku z ziemniakami pieczonymi oraz kr
 
 ### 3. Przygotowanie sosu szparagowego
 
-> 📋 **Pełny przepis na sos**: [Sos Szparagowy Z Mascarpone I Suszonymi Pomidorami]({{< ref "Sos Szparagowy Z Mascarpone.md" >}})
+> 📋 **Pełny przepis na sos**: [Sos Szparagowy Z Mascarpone I Suszonymi Pomidorami]({{< ref "Sos Szparagowy Z Mascarpone I Suszonymi Pomidorami.md" >}})
 
 - Szparagi umyj, odłam twarde końcówki i pokrój na kawałki.
 - Ugotuj szparagi na parze do miękkości około 15min
