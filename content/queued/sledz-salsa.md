@@ -8,12 +8,12 @@ draft: false
 readyToTest: true
 queued: true
 recipe_image: images/recipe-headers/sledz-salsa.avif
-video_file: videos/sledz-salsa.avif
 date: 2025-12-26 12:00:00+00:00
 tags:
 - ryby
 - xmas
 tagline: Pikantny śledź w sosie pomidorowym z kukurydzą i ananasem.
+video_file: videos/sledz-salsa.avif
 ingredients:
 - śledź
 - papryka czerwona
