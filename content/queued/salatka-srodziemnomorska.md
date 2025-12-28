@@ -1,5 +1,5 @@
 ---
-title: Sałatka śródziemnomorska w 15 minut
+title: Sałatka śródziemnomorska
 author: Nieznany
 categories: salatki
 draft: false
