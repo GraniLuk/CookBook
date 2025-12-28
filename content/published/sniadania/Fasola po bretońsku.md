@@ -13,7 +13,7 @@ tagline: Szybka i aromatyczna fasolka po bretońsku z boczkiem i kiełbasą, got
 link: https://www.youtube.com/watch?v=RwzTn7o7OkY
 ingredients:
 - fasola biała
-- boczek
+- boczek wędzony
 - kiełbasa
 - cebula
 - pomidory
