@@ -5,7 +5,7 @@ categories: śniadania
 draft: false
 readyToTest: true
 recipe_image: images/recipe-headers/fasola_po_bretonsku1.avif
-date: 2025-12-28 12:00:00+00:00
+date: 2025-12-26 12:00:00+00:00
 tags:
 - instant pot
 - tradycyjne
