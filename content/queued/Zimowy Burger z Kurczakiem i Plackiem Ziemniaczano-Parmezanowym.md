@@ -4,6 +4,7 @@ author: Policzona Szama
 categories: obiady
 draft: false
 readyToTest: true
+queued: true
 link: https://www.youtube.com/watch?v=8BAAnl33qe8
 recipe_image: images/recipe-headers/burger_zimowy.avif
 date: 2025-10-27 12:07:00+00:00

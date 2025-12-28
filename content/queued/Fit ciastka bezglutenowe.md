@@ -1,5 +1,5 @@
 ---
-title: Fit ciastka bezglutenowe / białkowe
+title: Fit ciastka bezglutenowe
 author: Policzona Szama
 categories: desery
 draft: false

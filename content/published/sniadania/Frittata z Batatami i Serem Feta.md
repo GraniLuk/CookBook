@@ -1,5 +1,5 @@
 ---
-title: Śniadaniowa Frittata z Batatami i Serem Feta
+title: Frittata z Batatami i Serem Feta
 author: Policzone Szamy
 categories:
 - sniadania

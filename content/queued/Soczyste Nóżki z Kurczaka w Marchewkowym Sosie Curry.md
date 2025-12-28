@@ -1,9 +1,10 @@
 ---
-title: Soczyste Nóżki z Kurczaka w Marchewkowym Sosie Curry (3 Lunch Boxy)
+title: Soczyste Nóżki z Kurczaka w Marchewkowym Sosie Curry
 author: Policzone Szamy
 categories: obiady
 draft: false
 readyToTest: true
+queued: true
 link: https://www.youtube.com/watch?v=Dit-aCe7DTU
 recipe_image: images/recipe-headers/nozki_kurczak_curry_marchew.avif
 date: 2025-10-28 12:00:00+00:00

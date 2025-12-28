@@ -1,5 +1,5 @@
 ---
-title: Chrupiące Kotlety z Piersi Kurczaka w Panierce Panko
+title: Kotlety z Piersi Kurczaka w Panierce Panko
 author: Autor Przepisu
 categories: obiady
 draft: false
