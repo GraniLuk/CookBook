@@ -5,6 +5,7 @@ categories: obiady
 draft: false
 readyToTest: true
 queued: true
+link: https://www.instagram.com/reels/DPttNgnCOkP/
 recipe_image: images/recipe-headers/lasagne_jednogarnkowe.avif
 video_file: videos/lasagne_jednogarnkowe.mp4
 date: 2025-12-28 12:00:00+00:00

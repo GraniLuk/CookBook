@@ -5,6 +5,7 @@ categories: salatki
 draft: false
 readyToTest: true
 queued: true
+link: https://www.instagram.com/reels/DSt5KPUCOx8/
 recipe_image: images/recipe-headers/salatka_srodziemnomorska.avif
 video_file: videos/salatka_srodziemnomorska.mp4
 date: 2025-12-28 12:00:00+00:00
