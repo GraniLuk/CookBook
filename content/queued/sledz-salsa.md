@@ -8,7 +8,7 @@ draft: false
 readyToTest: true
 queued: true
 recipe_image: images/recipe-headers/sledz-salsa.avif
-date: 2025-12-28 12:00:00+00:00
+date: 2025-12-26 12:00:00+00:00
 tags:
 - ryby
 - xmas
