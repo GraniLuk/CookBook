@@ -1,8 +1,7 @@
 ---
-title: 1 ŚNIADANIE NA CAŁE ŻYCIE
+title: 1 SNIADANIE NA CAE ZYCIE_gpt-oss
 author: '[[Policzona Szama]]'
 draft: true
-
 source: https://www.youtube.com/watch?v=fS2YEsoFTjc
 published: 2025-09-11
 created: 2025-09-12

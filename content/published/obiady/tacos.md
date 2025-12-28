@@ -1,5 +1,5 @@
 ---
-title: Tacos z Wołowiną, Salsą z Awokado i Cheddarem
+title: tacos
 author: Policzona Szama
 categories: obiady
 draft: false

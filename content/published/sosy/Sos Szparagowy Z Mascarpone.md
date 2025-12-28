@@ -1,5 +1,5 @@
 ---
-title: Sos Szparagowy Z Mascarpone I Suszonymi Pomidorami
+title: Sos Szparagowy Z Mascarpone
 author: Autor Przepisu
 categories: sosy
 draft: false

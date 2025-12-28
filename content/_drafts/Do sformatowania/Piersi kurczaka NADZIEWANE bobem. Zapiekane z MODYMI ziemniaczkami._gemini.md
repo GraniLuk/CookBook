@@ -1,7 +1,6 @@
 ---
-title: Piersi kurczaka NADZIEWANE bobem. Zapiekane z MŁODYMI ziemniaczkami.
+title: Piersi kurczaka NADZIEWANE bobem. Zapiekane z MODYMI ziemniaczkami._gemini
 author: '[[Policzona Szama]]'
-
 source: https://www.youtube.com/watch?v=iKUALgvERbI
 published: 2019-07-05
 created: 2025-10-28

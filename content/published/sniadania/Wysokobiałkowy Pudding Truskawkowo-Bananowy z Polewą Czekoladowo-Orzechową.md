@@ -1,5 +1,5 @@
 ---
-title: Pudding Truskawkowo-Bananowy z Polewą Czekoladowo-Orzechową
+title: Wysokobiałkowy Pudding Truskawkowo-Bananowy z Polewą Czekoladowo-Orzechową
 author: Autor Przepisu
 categories:
 - sniadania

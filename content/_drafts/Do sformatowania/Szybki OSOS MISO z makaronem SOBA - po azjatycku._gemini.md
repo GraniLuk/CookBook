@@ -1,7 +1,6 @@
 ---
-title: Szybki ŁOSOŚ MISO z makaronem SOBA - po azjatycku.
+title: Szybki OSOS MISO z makaronem SOBA - po azjatycku._gemini
 author: '[[Policzona Szama]]'
-
 source: https://www.youtube.com/watch?v=hmLeCiIKr-s
 published: 2020-05-27
 created: 2025-10-27

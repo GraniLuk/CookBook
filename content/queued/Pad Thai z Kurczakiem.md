@@ -1,5 +1,5 @@
 ---
-title: Pad Thai z Kurczakiem (2 Porcje) – Tajska Legenda Street Foodu
+title: Pad Thai z Kurczakiem
 author: Policzone Szamy
 categories: obiady
 draft: false

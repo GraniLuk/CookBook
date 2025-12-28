@@ -1,7 +1,6 @@
 ---
-title: Proste KOTLETY rybne - Pyszne Medaliony z piekarnika
+title: Proste KOTLETY rybne - Pyszne Medaliony z piekarnika_gemini
 author: '[[Policzona Szama]]'
-
 source: https://www.youtube.com/watch?v=D7anWBaBDd0
 published: 2019-11-28
 created: 2025-10-27

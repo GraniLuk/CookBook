@@ -1,5 +1,5 @@
 ---
-title: Placki z Serka Wiejskiego
+title: Placki Z Serka Wiejskiego
 author: Autor Przepisu
 categories:
 - sniadania

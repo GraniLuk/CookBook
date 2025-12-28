@@ -1,12 +1,12 @@
 ---
-title: '**OPIS:** Prezentacja pięciu przepisów na szybkie (poniżej 10 minut) i zbilansowane (około 500 ka...'
+title: 5 szybkich sniadan w mniej niz 10 minut! Przepisy
 author: Autor Przepisu
 categories:
 - sniadania
 draft: true
 recipe_image: images/recipe-headers/default.avif
 date: 2025-08-29 17:13:21+00:00
-tags:
+tags: null
 tagline: Przepis do sformatowania
 servings: 4
 prep_time: 15

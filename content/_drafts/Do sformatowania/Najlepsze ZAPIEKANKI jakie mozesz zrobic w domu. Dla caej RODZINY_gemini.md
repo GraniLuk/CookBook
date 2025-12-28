@@ -1,7 +1,6 @@
 ---
-title: Najlepsze ZAPIEKANKI jakie możesz zrobić w domu. Dla całej RODZINY
+title: Najlepsze ZAPIEKANKI jakie mozesz zrobic w domu. Dla caej RODZINY_gemini
 author: '[[Policzona Szama]]'
-
 source: https://www.youtube.com/watch?v=VvCzxJq4Wx0
 published: 2020-10-19
 created: 2025-11-01

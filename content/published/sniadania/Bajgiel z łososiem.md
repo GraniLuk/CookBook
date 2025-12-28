@@ -1,5 +1,5 @@
 ---
-title: Bajgiel z Łososiem, Awokado i Jajkiem Sadzonym
+title: Bajgiel z łososiem
 author: Michał Wrzosek
 categories:
 - sniadania

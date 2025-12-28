@@ -1,7 +1,6 @@
 ---
-title: Pyszna LASAGNE Bolognese z mięsem bez beszamelu. Po studencku - szybko i konkretnie!
+title: Pyszna LASAGNE Bolognese z miesem bez beszamelu. Po studencku - szybko i konkretnie!_gemini
 author: '[[Policzona Szama]]'
-
 source: https://www.youtube.com/watch?v=oKY7E81EPcc
 published: 2017-07-04
 created: 2025-10-30

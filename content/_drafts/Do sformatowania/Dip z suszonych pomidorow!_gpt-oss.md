@@ -1,5 +1,5 @@
 ---
-title: Dip z suszonych pomidorów! 🍅
+title: Dip z suszonych pomidorow!_gpt-oss
 author: '[[Policzona Szama]]'
 tags:
 - grill

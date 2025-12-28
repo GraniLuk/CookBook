@@ -1,7 +1,6 @@
 ---
-title: Kurczak FETA szpinak z makaronem - LunchBOX na 3 dni
+title: Kurczak FETA szpinak z makaronem - LunchBOX na 3 dni_gemini
 author: '[[Policzona Szama]]'
-
 source: https://www.youtube.com/watch?v=Vq1a29cKn5A
 published: 2019-12-27
 created: 2025-10-27

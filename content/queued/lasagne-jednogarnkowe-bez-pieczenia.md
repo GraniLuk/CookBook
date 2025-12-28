@@ -1,5 +1,5 @@
 ---
-title: Lasagne Jednogarnkowe Bez Pieczenia
+title: lasagne-jednogarnkowe-bez-pieczenia
 author: Nieznany
 categories: obiady
 draft: false

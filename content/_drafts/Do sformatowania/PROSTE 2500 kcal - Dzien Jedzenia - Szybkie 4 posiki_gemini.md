@@ -1,7 +1,6 @@
 ---
-title: PROSTE 2500 kcal - Dzień Jedzenia - Szybkie 4 posiłki
+title: PROSTE 2500 kcal - Dzien Jedzenia - Szybkie 4 posiki_gemini
 author: '[[Policzona Szama]]'
-
 source: https://www.youtube.com/watch?v=7jZ1mluBJAQ
 published: 2021-02-05
 created: 2025-11-01

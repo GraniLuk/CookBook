@@ -1,7 +1,6 @@
 ---
-title: MAKARON śmietanowo SEROWY z brokułem / 3 PORCJE
+title: MAKARON smietanowo SEROWY z brokuem _ 3 PORCJE_gemini
 author: '[[Policzona Szama]]'
-
 source: https://www.youtube.com/watch?v=0QyYur1rVS4
 published: 2020-03-17
 created: 2025-10-27

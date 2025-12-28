@@ -1,5 +1,5 @@
 ---
-title: Sałatka z Burakami, Jajkami, Orzechami Nerkowca i Mozzarellą
+title: salatka_z_burakiem
 author: anpsk
 categories:
 - salatki

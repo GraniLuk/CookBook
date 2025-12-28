@@ -1,5 +1,5 @@
 ---
-title: Gofry
+title: gofry
 author: Nieznany
 categories: desery
 draft: false

@@ -1,7 +1,6 @@
 ---
-title: PIZZA NA CAŁĄ BLACHĘ - SUPER CIASTO miękkie i puszyste
+title: PIZZA NA CAA BLACHE - SUPER CIASTO miekkie i puszyste_gemini
 author: '[[Policzona Szama]]'
-
 source: https://www.youtube.com/watch?v=hmlPEUD4aIY
 published: 2020-04-03
 created: 2025-10-27

@@ -1,7 +1,6 @@
 ---
-title: Schab pod pierzynką x2 proszę - Letni przyjemny obiad z patelni
+title: Schab pod pierzynka x2 prosze - Letni przyjemny obiad z patelni_gpt-oss
 author: '[[Policzona Szama]]'
-
 source: https://www.youtube.com/watch?v=qrJHqXU6T3A
 published: 2021-07-15
 created: 2025-10-26

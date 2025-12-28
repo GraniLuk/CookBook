@@ -1,5 +1,5 @@
 ---
-title: Sałatka Big Mac
+title: salatka_big_mac
 author: Policzona Szama
 categories: salatki
 draft: false

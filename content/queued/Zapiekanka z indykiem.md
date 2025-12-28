@@ -1,5 +1,5 @@
 ---
-title: Jednogarnkowa Zapiekanka z Indykiem, Jarmużem i Suszonymi Pomidorami
+title: Zapiekanka z indykiem
 author: Policzona Szama
 categories: obiady
 draft: false

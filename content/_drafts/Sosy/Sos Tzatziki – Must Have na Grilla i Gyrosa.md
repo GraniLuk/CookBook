@@ -1,12 +1,12 @@
 ---
-title: 'Recipe Book: *Fit Dips i Sosy*'
+title: Sos Tzatziki – Must Have na Grilla i Gyrosa
 author: Autor Przepisu
 categories:
 - sniadania
 draft: true
 recipe_image: images/recipe-headers/default.avif
 date: 2025-08-29 17:13:23+00:00
-tags:
+tags: null
 tagline: Przepis do sformatowania
 servings: 4
 prep_time: 15

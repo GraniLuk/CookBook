@@ -1,7 +1,6 @@
 ---
-title: Zdrowe słodycze - Batony BOUNTY
+title: Zdrowe sodycze - Batony BOUNTY_gemini
 author: '[[Policzona Szama]]'
-
 source: https://www.youtube.com/watch?v=YHAUPAD3G18
 published: 2017-04-23
 created: 2025-10-30

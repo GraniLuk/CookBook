@@ -1,5 +1,5 @@
 ---
-title: Chili Con Carne w Instant Pot
+title: Chilli con carne
 author: Autor Przepisu
 categories: obiady
 draft: false

@@ -1,7 +1,6 @@
 ---
-title: SUPER kotlety JAJECZNE - Pomysł na kotlety bez mięsa
+title: SUPER kotlety JAJECZNE - Pomys na kotlety bez miesa_gpt-oss
 author: '[[Policzona Szama]]'
-
 source: https://www.youtube.com/watch?v=fEFA_k_Etfo
 published: 2021-04-17
 created: 2025-10-26

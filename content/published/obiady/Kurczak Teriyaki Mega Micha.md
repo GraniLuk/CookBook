@@ -1,5 +1,5 @@
 ---
-title: Kurczak Teriyaki z Fasolką Szparagową i Ananasem
+title: Kurczak Teriyaki Mega Micha
 author: Policzone Szamy
 categories: obiady
 draft: false

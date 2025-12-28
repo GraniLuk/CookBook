@@ -1,7 +1,6 @@
 ---
-title: Szykujemy posiłki na 4 dni lunch box. Pomysł na kurczaka z ryżem - 700 kcal.
+title: Szykujemy posiki na 4 dni lunch box. Pomys na kurczaka z ryzem - 700 kcal._gpt-oss
 author: '[[Policzona Szama]]'
-
 source: https://www.youtube.com/watch?v=SPXlUI1TnPo
 published: 2018-11-02
 created: 2025-11-22

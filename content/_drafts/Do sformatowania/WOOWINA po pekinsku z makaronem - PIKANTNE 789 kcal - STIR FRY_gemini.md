@@ -1,7 +1,6 @@
 ---
-title: WOŁOWINA po pekińsku z makaronem - PIKANTNE 789 kcal - STIR FRY
+title: WOOWINA po pekinsku z makaronem - PIKANTNE 789 kcal - STIR FRY_gemini
 author: '[[Policzona Szama]]'
-
 source: https://www.youtube.com/watch?v=OgfbU2BEk2E
 published: 2019-06-19
 created: 2025-10-28

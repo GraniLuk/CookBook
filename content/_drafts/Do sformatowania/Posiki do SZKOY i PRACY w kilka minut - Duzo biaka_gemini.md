@@ -1,7 +1,6 @@
 ---
-title: Posiłki do SZKOŁY i PRACY w kilka minut - Dużo białka
+title: Posiki do SZKOY i PRACY w kilka minut - Duzo biaka_gemini
 author: '[[Policzona Szama]]'
-
 source: https://www.youtube.com/watch?v=w8LcJauh9fM
 published: 2020-09-06
 created: 2025-10-27

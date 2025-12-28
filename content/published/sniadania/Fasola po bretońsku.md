@@ -1,5 +1,5 @@
 ---
-title: Fasolka po Bretońsku
+title: Fasola po bretońsku
 author: Instynkt po Polsku
 categories: śniadania
 subcategories: słone

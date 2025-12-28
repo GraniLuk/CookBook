@@ -1,7 +1,6 @@
 ---
-title: JAJKA PO TURECKU - uzależniające śniadanie na szybko
+title: JAJKA PO TURECKU - uzalezniajace sniadanie na szybko_gpt-oss
 author: '[[Policzona Szama]]'
-
 source: https://www.youtube.com/watch?v=q4V8HFqElIs
 published: 2021-08-15
 created: 2025-10-26

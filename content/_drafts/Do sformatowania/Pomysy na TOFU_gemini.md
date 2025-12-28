@@ -1,7 +1,6 @@
 ---
-title: Pomysły na TOFU
+title: Pomysy na TOFU_gemini
 author: '[[Policzona Szama]]'
-
 source: https://www.youtube.com/watch?v=n5173WONE4w
 published: 2020-08-19
 created: 2025-10-27

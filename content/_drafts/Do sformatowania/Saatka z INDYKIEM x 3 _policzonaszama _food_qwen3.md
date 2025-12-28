@@ -1,12 +1,12 @@
 ---
-title: '**PRZEPIS NA SAŁATKĘ Z INDYKIEM**'
+title: Saatka z INDYKIEM x 3 _policzonaszama _food_qwen3
 author: Autor Przepisu
 categories:
 - sniadania
 draft: true
 recipe_image: images/recipe-headers/default.avif
 date: 2025-08-29 17:13:22+00:00
-tags:
+tags: null
 tagline: Przepis do sformatowania
 servings: 4
 prep_time: 15

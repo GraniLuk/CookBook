@@ -1,7 +1,6 @@
 ---
-title: Najlepszy pomysł na SZPARAGI - Risotto krok po kroku na 3 porcje
+title: Najlepszy pomys na SZPARAGI - Risotto krok po kroku na 3 porcje_gpt-oss
 author: '[[Policzona Szama]]'
-
 source: https://www.youtube.com/watch?v=XlBgq_c1Rus
 published: 2021-05-16
 created: 2025-10-26

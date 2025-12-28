@@ -1,5 +1,5 @@
 ---
-title: Wysokobiałkowy sernik który możesz jeść codziennie
+title: wysokobialkowy-sernik-ktory-mozesz-jesc-codziennie
 author: '[[Czlowieku rusz się]]'
 categories:
 - desery

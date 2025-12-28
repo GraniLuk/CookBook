@@ -1,5 +1,5 @@
 ---
-title: Pasta Twarogowa z Tahini i Granatem
+title: pasta_twarogowa_z_tahini_i_granatem
 author: Anonimowy
 categories: śniadania
 subcategories: słodkie

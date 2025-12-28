@@ -1,5 +1,5 @@
 ---
-title: Omleto-Kanapka z Szynką i Awokado
+title: Omleto kanapka z szynką i awokado
 author: Granica
 categories:
 - sniadania

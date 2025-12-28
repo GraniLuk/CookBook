@@ -1,8 +1,7 @@
 ---
-title: 10 posiłków za 50 PLN z BIEDRONKI! 💸
+title: 10 posikow za 50 PLN z BIEDRONKI!_gemini
 author: '[[Michał Wrzosek]]'
 draft: true
-
 source: https://www.youtube.com/watch?v=Kto631xzwSU
 published: 2025-08-18
 created: 2025-08-19

@@ -1,5 +1,5 @@
 ---
-title: Zapiekanka Makaronowo-Brokułowa z Mozzarellą
+title: Zapiekanka Makaronowo-Brokułowa
 author: Policzona Szama
 categories: obiady
 draft: false

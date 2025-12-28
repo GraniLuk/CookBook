@@ -1,7 +1,6 @@
 ---
-title: Batony ENERGETYCZNO BIAŁKOWE w podróż (vegan friendly)
+title: Batony ENERGETYCZNO BIAKOWE w podroz (vegan friendly)_gpt-oss
 author: '[[Policzona Szama]]'
-
 source: https://www.youtube.com/watch?v=al_i77sWC2A
 published: 2021-08-08
 created: 2025-10-26

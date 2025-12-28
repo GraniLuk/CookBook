@@ -1,5 +1,5 @@
 ---
-title: Kurczak w Dyniowym Sosie Curry (3 Lunch Boxy)
+title: Kurczak w Dyniowym Sosie Curry
 author: Policzone Szamy
 categories: obiady
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: Czekoladowe Szyszki
+title: czekoladowe-szyszki
 author: Policzone Szamy
 categories: desery
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: Pikantna Pasta z Tuńczyka z Mozzarellą
+title: pasta_pikanta_z_tunczyka
 author: GraniLuk
 categories: śniadania
 subcategories:

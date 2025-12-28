@@ -1,5 +1,5 @@
 ---
-title: Kuskus w Marokańskim Klimacie (Low FODMAP)
+title: kuskus_w_marokanskim_klimacie
 author: Policzone Szamy
 categories: obiady
 draft: false

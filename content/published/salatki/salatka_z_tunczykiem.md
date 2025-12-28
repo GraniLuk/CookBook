@@ -1,5 +1,5 @@
 ---
-title: Sałatka z tuńczykiem, ryżem i kukurydzą
+title: salatka_z_tunczykiem
 author: Mama Grażyna
 categories: salatki
 draft: false

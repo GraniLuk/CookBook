@@ -1,7 +1,6 @@
 ---
-title: szybki OMLET owsiany a'la PIZZA
+title: szybki OMLET owsiany a'la PIZZA_gemini
 author: '[[Policzona Szama]]'
-
 source: https://www.youtube.com/watch?v=0iqasRK5S8k
 published: 2017-03-17
 created: 2025-10-30

@@ -1,5 +1,5 @@
 ---
-title: Ryż z Jabłkiem i Cynamonem
+title: ryz_z_jablkiem_cynamonem
 author: Michał Wrzosek
 categories: śniadania
 draft: false

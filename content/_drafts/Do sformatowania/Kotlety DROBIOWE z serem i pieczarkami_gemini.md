@@ -1,7 +1,6 @@
 ---
-title: Kotlety DROBIOWE z serem i pieczarkami
+title: Kotlety DROBIOWE z serem i pieczarkami_gemini
 author: '[[Policzona Szama]]'
-
 source: https://www.youtube.com/watch?v=stbKHyewOc4
 published: 2017-06-23
 created: 2025-10-30

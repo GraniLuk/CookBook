@@ -1,5 +1,5 @@
 ---
-title: Mięciutkie i puszyste pierniczki w lukrze
+title: pierniki
 author: przepeace
 categories: desery
 draft: false
@@ -9,18 +9,16 @@ favourite: false
 recipe_image: images/recipe-headers/pierniki.avif
 date: 2025-12-13 12:00:00+00:00
 tags:
-  - xmas
-tagline: Mięciutkie i puszyste pierniczki w lukrze - przepis, który
-  pokochaliście w zeszłym roku, więc nie mogło go zabraknąć i w tym! 🍪
-  Spokojnie wytrzymają do Świąt, więc możecie już zacząć przygotowania.
+- xmas
+tagline: Mięciutkie i puszyste pierniczki w lukrze - przepis, który pokochaliście w zeszłym roku, więc nie mogło go zabraknąć i w tym! 🍪 Spokojnie wytrzymają do Świąt, więc możecie już zacząć przygotowania.
 ingredients:
-  - miód
-  - masło
-  - erytrol
-  - jajko
-  - mąka pszenna
-  - cukier puder
-  - mleko
+- miód
+- masło
+- erytrol
+- jajko
+- mąka pszenna
+- cukier puder
+- mleko
 servings: 24
 prep_time: 20
 cook: true
@@ -30,11 +28,12 @@ protein: 2
 fat: 4
 carbohydrate: 34
 fodmap:
-  status: no
+  status: false
   serving_ok: Nie dla diety low FODMAP
   notes: Miód jest źródłem FODMAP
   substitutions: []
 ---
+
 ## Składniki
 
 * 150 g miodu

@@ -1,7 +1,6 @@
 ---
-title: Zdrowa BLACHA - Warzywa z piekarnika + kurczak / LunchBOX na 3 dni
+title: Zdrowa BLACHA - Warzywa z piekarnika + kurczak _ LunchBOX na 3 dni_gemini
 author: '[[Policzona Szama]]'
-
 source: https://www.youtube.com/watch?v=s7dKmwS_bcY
 published: 2019-11-03
 created: 2025-10-27

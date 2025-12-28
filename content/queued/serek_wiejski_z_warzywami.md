@@ -1,5 +1,5 @@
 ---
-title: Serek Wiejski z Warzywami
+title: serek_wiejski_z_warzywami
 author: Michał Wrzosek
 categories: sniadania
 subcategories: słone

@@ -1,7 +1,6 @@
 ---
-title: BATONY Energetyczne Naturalne z DAKTYLI - vege, paleo
+title: BATONY Energetyczne Naturalne z DAKTYLI - vege, paleo_gemini
 author: '[[Policzona Szama]]'
-
 source: https://www.youtube.com/watch?v=HcfH8MIP7N0
 published: 2019-02-20
 created: 2025-10-30

@@ -1,5 +1,5 @@
 ---
-title: Wysokobiałkowe Śniadanie Bez Węglowodanów
+title: Omlet z serem
 author: Granica
 categories:
 - sniadania

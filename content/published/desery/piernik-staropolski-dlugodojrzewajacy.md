@@ -1,5 +1,5 @@
 ---
-title: Piernik Staropolski Długodojrzewający
+title: piernik-staropolski-dlugodojrzewajacy
 author: obiaddlataty
 categories: desery
 draft: false

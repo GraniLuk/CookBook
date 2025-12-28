@@ -1,7 +1,6 @@
 ---
-title: Zapiekane TORTILLE z kurczakiem, czyli meksykańskie ENCHILADAS
+title: Zapiekane TORTILLE z kurczakiem, czyli meksykanskie ENCHILADAS_gemini
 author: '[[Policzona Szama]]'
-
 source: https://www.youtube.com/watch?v=e7HY_dwBIas
 published: 2020-05-19
 created: 2025-10-27

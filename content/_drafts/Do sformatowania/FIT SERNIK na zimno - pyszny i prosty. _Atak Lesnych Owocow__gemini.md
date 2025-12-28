@@ -1,7 +1,6 @@
 ---
-title: FIT SERNIK na zimno - pyszny i prosty.  "Atak Leśnych Owoców"
+title: FIT SERNIK na zimno - pyszny i prosty. _Atak Lesnych Owocow__gemini
 author: '[[Policzona Szama]]'
-
 source: https://www.youtube.com/watch?v=FQ3pauMvIPI
 published: 2019-07-20
 created: 2025-10-28

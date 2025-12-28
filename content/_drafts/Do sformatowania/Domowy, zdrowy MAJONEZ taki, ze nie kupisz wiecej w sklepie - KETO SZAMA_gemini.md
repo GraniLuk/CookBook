@@ -1,7 +1,6 @@
 ---
-title: Domowy, zdrowy MAJONEZ taki, że nie kupisz więcej w sklepie - KETO SZAMA
+title: Domowy, zdrowy MAJONEZ taki, ze nie kupisz wiecej w sklepie - KETO SZAMA_gemini
 author: '[[Policzona Szama]]'
-
 source: https://www.youtube.com/watch?v=mhZA5jPtvEw
 published: 2019-04-19
 created: 2025-10-30

@@ -1,7 +1,6 @@
 ---
-title: Pita SOUVLAKI z patelni! - grecki gyros
+title: Pita SOUVLAKI z patelni! - grecki gyros_gpt-oss
 author: '[[Policzona Szama]]'
-
 source: https://www.youtube.com/watch?v=ksjtkeRLxU0
 published: 2018-09-04
 created: 2025-11-22

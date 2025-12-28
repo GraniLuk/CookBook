@@ -1,7 +1,6 @@
 ---
-title: WOŁOWINA 200+  Gulasz w Orientalnych Smakach
+title: WOOWINA 200+ Gulasz w Orientalnych Smakach_gemini
 author: '[[Policzona Szama]]'
-
 source: https://www.youtube.com/watch?v=QglNbCwysMg
 published: 2020-02-01
 created: 2025-10-27

@@ -1,8 +1,7 @@
 ---
-title: Proteinowe pankejki z czekoladą, czyli co jem, żeby być w formie!
+title: Proteinowe pankejki z czekolada, czyli co jem, zeby byc w formie!_gpt-oss
 author: '[[Michał Wrzosek]]'
 draft: true
-
 source: https://www.youtube.com/watch?v=Vn5Tl60ATis
 published: 2025-10-16
 created: 2025-10-17

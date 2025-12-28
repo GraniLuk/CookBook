@@ -1,7 +1,6 @@
 ---
-title: Śniadaniowy NISZCZYCIEL jaglany
+title: Sniadaniowy NISZCZYCIEL jaglany_gpt-oss
 author: '[[Policzona Szama]]'
-
 source: https://www.youtube.com/watch?v=DcwHtr0s7pE
 published: 2021-05-28
 created: 2025-10-26

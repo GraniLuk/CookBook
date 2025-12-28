@@ -1,7 +1,6 @@
 ---
-title: KEBAB W BUŁCE, taki że nie kupisz już więcej na mieście.
+title: KEBAB W BUCE, taki ze nie kupisz juz wiecej na miescie._gemini
 author: '[[Policzona Szama]]'
-
 source: https://www.youtube.com/watch?v=OwGSru1vJX0
 published: 2020-05-03
 created: 2025-10-27

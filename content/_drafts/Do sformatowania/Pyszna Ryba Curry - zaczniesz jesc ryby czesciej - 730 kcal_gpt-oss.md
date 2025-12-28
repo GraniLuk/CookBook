@@ -1,7 +1,6 @@
 ---
-title: Pyszna Ryba Curry - zaczniesz jeść ryby częściej - 730 kcal
+title: Pyszna Ryba Curry - zaczniesz jesc ryby czesciej - 730 kcal_gpt-oss
 author: '[[Policzona Szama]]'
-
 source: https://www.youtube.com/watch?v=4mgyEZo1Oes
 published: 2019-02-09
 created: 2025-11-22

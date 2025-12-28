@@ -1,5 +1,5 @@
 ---
-title: Zimowy Burger z Kurczakiem i Plackiem Ziemniaczano-Parmezanowym
+title: Burger drwal
 author: Policzona Szama
 categories: obiady
 draft: false

@@ -1,7 +1,6 @@
 ---
-title: RYŻ z udkiem, który pokochasz - 888 kcal / 3 posiłki
+title: RYZ z udkiem, ktory pokochasz - 888 kcal _ 3 posiki_gemini
 author: '[[Policzona Szama]]'
-
 source: https://www.youtube.com/watch?v=qzggp-NjH0M
 published: 2019-01-07
 created: 2025-10-30

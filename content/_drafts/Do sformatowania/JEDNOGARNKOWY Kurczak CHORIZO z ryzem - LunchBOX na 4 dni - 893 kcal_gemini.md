@@ -1,7 +1,6 @@
 ---
-title: JEDNOGARNKOWY Kurczak CHORIZO z ryżem  - LunchBOX na 4 dni - 893 kcal
+title: JEDNOGARNKOWY Kurczak CHORIZO z ryzem - LunchBOX na 4 dni - 893 kcal_gemini
 author: '[[Policzona Szama]]'
-
 source: https://www.youtube.com/watch?v=ReCj6oOuCO4
 published: 2019-10-16
 created: 2025-10-27

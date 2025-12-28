@@ -1,5 +1,5 @@
 ---
-title: Pasta z Piersi z Kurczaka z Suszonymi Pomidorami
+title: pasta_z_kurczaka
 author: Policzona Szama
 categories:
 - sniadania

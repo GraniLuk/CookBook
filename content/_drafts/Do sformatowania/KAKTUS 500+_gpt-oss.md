@@ -1,7 +1,6 @@
 ---
-title: KAKTUS 500+
+title: KAKTUS 500+_gpt-oss
 author: '[[Policzona Szama]]'
-
 source: https://www.youtube.com/watch?v=h2HjSR16OCs
 published: 2021-06-29
 created: 2025-10-26

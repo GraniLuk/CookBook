@@ -1,5 +1,5 @@
 ---
-title: Sałatka Grecka
+title: Salatka-Grecka
 author: Autor Przepisu
 categories: salatki
 draft: false

@@ -1,7 +1,6 @@
 ---
-title: ZAPIEKANKA z kalafiorem i kurczakiem w sosie beszamelowo brokułowym
+title: ZAPIEKANKA z kalafiorem i kurczakiem w sosie beszamelowo brokuowym_gpt-oss
 author: '[[Policzona Szama]]'
-
 source: https://www.youtube.com/watch?v=pyNIQ-bMkSo
 published: 2017-12-03
 created: 2025-11-23

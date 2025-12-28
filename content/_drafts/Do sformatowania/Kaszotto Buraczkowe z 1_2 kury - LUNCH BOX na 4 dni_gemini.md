@@ -1,7 +1,6 @@
 ---
-title: Kaszotto Buraczkowe z 1/2 kury - LUNCH BOX na 4 dni
+title: Kaszotto Buraczkowe z 1_2 kury - LUNCH BOX na 4 dni_gemini
 author: '[[Policzona Szama]]'
-
 source: https://www.youtube.com/watch?v=sKVmVXocXyw
 published: 2019-06-27
 created: 2025-10-28

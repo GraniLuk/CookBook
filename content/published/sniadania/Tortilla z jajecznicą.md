@@ -1,5 +1,5 @@
 ---
-title: Tortilla z Jajecznicą
+title: Tortilla z jajecznicą
 author: Granica
 categories:
 - sniadania

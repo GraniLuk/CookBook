@@ -1,7 +1,6 @@
 ---
-title: PIONOWE ZAPIEKANKI rolsy - zaskocz znajomych
+title: PIONOWE ZAPIEKANKI rolsy - zaskocz znajomych_gpt-oss
 author: '[[Policzona Szama]]'
-
 source: https://www.youtube.com/watch?v=1hPc6szDQs8
 published: 2021-06-18
 created: 2025-10-26
