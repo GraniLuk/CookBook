@@ -1,28 +1,41 @@
 ---
-draft: false  
+title: Lasagne Jednogarnkowe Bez Pieczenia
+author: Nieznany
+categories: obiady
+draft: false
 readyToTest: true
 queued: true
-title: "Lasagne Jednogarnkowe Bez Pieczenia"  
-author: "Nieznany"  
-recipe_image: images/recipe-headers/lasagne_jednogarnkowe.avif  
-date: 2025-12-28T12:00:00-00:00  
-categories: obiady  
-tags: ["szybkie", "proteinowe", "włoskie"]  
-tagline: "Kremowa lasagne w jednym garnku, bez pieczenia – idealna na obiad."  
-ingredients: ["mielona wołowina", "passata pomidorowa", "cebula", "papryka", "batat", "seler", "makaron lasagne", "ser parmezan"]
-servings: 4  
-prep_time: 20  
-cook: true  
-cook_time: 40  
+recipe_image: images/recipe-headers/lasagne_jednogarnkowe.avif
+date: 2025-12-28 12:00:00+00:00
+tags:
+- szybkie
+- proteinowe
+- włoskie
+tagline: Kremowa lasagne w jednym garnku, bez pieczenia – idealna na obiad.
+video_file: videos/lasagne_jednogarnkowe.mp4
+ingredients:
+- mielona wołowina
+- passata pomidorowa
+- cebula
+- papryka
+- batat
+- seler
+- makaron lasagne
+- ser parmezan
+servings: 4
+prep_time: 20
+cook: true
+cook_time: 40
 calories: 1130
 protein: 72
 fat: 58
-carbohydrate: 85 
+carbohydrate: 85
 fodmap:
-  status: "no"
-  serving_ok: "Nie dla diety low FODMAP"
-  notes: "Cebula i czosnek są składnikami wysokofodmapowymi, więc przepis nie jest odpowiedni dla diety low FODMAP."
-  substitutions: ["Batat można zastąpić marchewką."]
+  status: 'no'
+  serving_ok: Nie dla diety low FODMAP
+  notes: Cebula i czosnek są składnikami wysokofodmapowymi, więc przepis nie jest odpowiedni dla diety low FODMAP.
+  substitutions:
+  - Batat można zastąpić marchewką.
 ---
 
 ## Składniki
