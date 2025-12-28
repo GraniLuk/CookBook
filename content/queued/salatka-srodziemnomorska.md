@@ -17,7 +17,6 @@ ingredients:
 - papryka czerwona
 - pomidory koktajlowe
 - ser feta
-- pieczywo
 - oliwa z oliwek
 servings: 4
 prep_time: 15

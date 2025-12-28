@@ -14,11 +14,11 @@ tags:
 tagline: Kremowa lasagne w jednym garnku, bez pieczenia – idealna na obiad.
 video_file: videos/lasagne_jednogarnkowe.mp4
 ingredients:
-- mielona wołowina
+- mięso mielone
 - passata pomidorowa
 - cebula
 - papryka
-- batat
+- bataty
 - seler
 - makaron lasagne
 - ser parmezan

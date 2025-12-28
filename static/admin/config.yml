@@ -191,6 +191,7 @@ _shared_fields:
       - { label: "majonez light", value: "majonez light" }
       - { label: "mak", value: "mak" }
       - { label: "makaron", value: "makaron" }
+      - { label: "makaron lasagne", value: "makaron lasagne" }
       - { label: "makaron orzo", value: "makaron orzo" }
       - { label: "makaron pełnoziarnisty", value: "makaron pełnoziarnisty" }
       - { label: "makaron pełnoziarnisty kokardki", value: "makaron pełnoziarnisty kokardki" }
