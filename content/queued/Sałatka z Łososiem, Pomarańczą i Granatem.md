@@ -6,6 +6,7 @@ draft: false
 readyToTest: true
 queued: true
 favourite: false
+link: https://youtu.be/nbZB9V3N6LY?t=433
 recipe_image: images/recipe-headers/salatka_losos_pomarancza_granat.avif
 date: 2025-11-01 12:00:00+00:00
 tags:
@@ -13,7 +14,6 @@ tags:
 - ryby
 - śródziemnomorska
 tagline: Świeża sałatka z łososiem, pomarańczą i granatem w musztardowym sosie.
-link: https://youtu.be/nbZB9V3N6LY?t=433
 ingredients:
 - łosoś
 - mix sałat

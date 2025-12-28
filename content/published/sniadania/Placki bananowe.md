@@ -6,13 +6,13 @@ categories:
 subcategories:
 - słodkie
 draft: false
+link: https://youtu.be/3qI4Y5dRumA?t=254
 recipe_image: images/defaultImage.avif
 date: 2025-06-19 12:00:00+00:00
 tags:
 - Stefan
 - na-wynos
 tagline: Śniadanie na słodko na wynos - placki bananowe!
-link: https://youtu.be/3qI4Y5dRumA?t=254
 ingredients:
 - banan
 - jajka

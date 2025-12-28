@@ -6,11 +6,11 @@ categories:
 subcategories:
 - słone
 draft: false
+link: https://www.youtube.com/shorts/qb3A_kAPio4
 recipe_image: images/defaultImage.avif
 date: 2025-06-18 12:00:00+00:00
 tags: []
 tagline: Wysokobiałkowy omlet bez węglowodanów!
-link: https://www.youtube.com/shorts/qb3A_kAPio4
 ingredients:
 - jajka
 - ser

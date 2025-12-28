@@ -4,13 +4,13 @@ author: Policzone Szamy
 categories: obiady
 draft: false
 readyToTest: true
+link: https://www.youtube.com/watch?v=QtO_jPVqDpU
 recipe_image: images/recipe-headers/pizza_twarog_lowcarb.avif
 date: 2025-10-29 11:00:00+00:00
 tags:
 - low carb
 - proteinowe
 tagline: Niskowęglowodanowa pizza na spodzie z twarogu – sprężysta jak prawdziwa!
-link: https://www.youtube.com/watch?v=QtO_jPVqDpU
 ingredients:
 - twaróg
 - jajko

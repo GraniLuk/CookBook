@@ -5,13 +5,13 @@ categories:
 - sniadania
 draft: false
 readyToTest: true
+link: https://youtu.be/3qI4Y5dRumA?t=62
 recipe_image: images/recipe-headers/kanapka_jajko_sadzone.avif
 date: 2025-10-28 13:05:00+00:00
 tags:
 - kanapki
 - szybkie
 tagline: Klasyczna kanapka z jajkiem sadzonym, serkiem śmietankowym i świeżymi pomidorkami – gotowa w 10 minut!
-link: https://youtu.be/3qI4Y5dRumA?t=62
 ingredients:
 - jajko
 - bułka pełnoziarnista

@@ -6,11 +6,11 @@ categories:
 subcategories:
 - słodkie
 draft: false
+link: https://youtu.be/SQ4saBQrBYc?t=115
 recipe_image: images/defaultImage.avif
 date: 2025-06-19 12:00:00+00:00
 tags: []
 tagline: Wysokobiałkowy pudding idealny na letnie śniadanie!
-link: https://youtu.be/SQ4saBQrBYc?t=115
 ingredients:
 - truskawki
 - banan

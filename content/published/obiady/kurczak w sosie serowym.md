@@ -3,11 +3,11 @@ title: Pieczony Kurczak z Ryżem, Warzywami i Fit Sosem Serowym
 author: Policzone Szamy
 categories: obiady
 draft: false
+link: https://www.youtube.com/watch?v=AIlwvEvCONM
 recipe_image: images/recipe-headers/kurczak_w_sosie_serowym.avif
 date: 2025-06-27 12:17:00+00:00
 tags: []
 tagline: Soczysty kurczak z ryżem i warzywami w kremowym, lekkim sosie serowym.
-link: https://www.youtube.com/watch?v=AIlwvEvCONM
 ingredients:
 - pierś z kurczaka
 - mrożone warzywa

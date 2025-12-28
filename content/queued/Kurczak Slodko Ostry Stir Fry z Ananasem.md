@@ -4,13 +4,13 @@ author: Policzone Szamy
 categories: obiady
 draft: false
 readyToTest: true
+link: https://www.youtube.com/watch?v=hUuBB72gqmk
 recipe_image: images/recipe-headers/kurczak_slodko_ostry_ananas.avif
 date: 2025-10-28 13:35:00+00:00
 tags:
 - szybkie
 - lunchbox
 tagline: Kwaśno-słodko-pikantny kurczak z ananasem i warzywami smażony w woku – 3 porcje na 3 dni!
-link: https://www.youtube.com/watch?v=hUuBB72gqmk
 ingredients:
 - kurczak
 - ananas

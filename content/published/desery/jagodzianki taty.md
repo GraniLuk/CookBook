@@ -3,11 +3,11 @@ title: Jagodzianki Taty
 author: Teść Krzysztof
 categories: desery
 draft: false
+link: null
 recipe_image: images/recipe-headers/jagodzianki.avif
 date: 2025-06-29 19:37:00+00:00
 tags: []
 tagline: Miękkie, domowe jagodzianki na puszystym cieście drożdżowym.
-link: null
 ingredients:
 - mąka pszenna
 - drożdże

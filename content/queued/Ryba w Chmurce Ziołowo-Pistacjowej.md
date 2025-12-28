@@ -4,6 +4,7 @@ author: Policzone Szamy
 categories: obiady
 draft: false
 readyToTest: true
+link: https://www.youtube.com/watch?v=prsZbulipCk
 recipe_image: images/recipe-headers/ryba_chmurka_ziolowa_pistacjowa.avif
 date: 2025-11-02 12:00:00+00:00
 tags:
@@ -11,7 +12,6 @@ tags:
 - ryby
 - szybkie
 tagline: Pstrąg z ziołowo-pistacjową chmurką, ryżem i grillowaną cukinią.
-link: https://www.youtube.com/watch?v=prsZbulipCk
 ingredients:
 - ryż czerwony
 - pistacje

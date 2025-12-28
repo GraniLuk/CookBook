@@ -4,12 +4,12 @@ author: Policzona Szama
 categories: śniadania
 draft: false
 readyToTest: true
+link: https://www.youtube.com/watch?v=6GTyB2M09mU
 recipe_image: images/recipe-headers/kanapka_klasyczna.avif
 date: 2025-11-29 12:00:00+00:00
 tags:
 - kanapki
 tagline: Klasyczna kanapka z serem królewskim, szynką, pomidorem i kiełkami, gotowa w 3 minuty.
-link: https://www.youtube.com/watch?v=6GTyB2M09mU
 ingredients:
 - bułka paryska
 - roszponka

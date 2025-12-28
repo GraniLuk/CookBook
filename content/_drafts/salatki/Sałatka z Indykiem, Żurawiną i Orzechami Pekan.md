@@ -3,13 +3,13 @@ title: Sałatka z Indykiem, Żurawiną i Orzechami Pekan
 author: Policzona Szama
 categories: salatki
 draft: true
+link: https://www.youtube.com/watch?v=LGERJ1Qut5U
 recipe_image: images/defaultImage.avif
+video_file: videos/Sałatka z INDYKIEM.webm
 date: 2025-09-02 12:00:00+00:00
 tags:
 - przekąska
 tagline: Świąteczna sałatka z indykiem, żurawiną i orzechami – prosta, zdrowa i pełna smaku, idealna na zimno.
-link: https://www.youtube.com/watch?v=LGERJ1Qut5U
-video_file: videos/Sałatka z INDYKIEM.webm
 ingredients:
 - indyk
 - żurawina suszona

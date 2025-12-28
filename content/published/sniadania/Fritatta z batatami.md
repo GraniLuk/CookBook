@@ -6,12 +6,12 @@ categories:
 subcategories:
 - słone
 draft: false
+link: https://www.youtube.com/watch?v=prsZbulipCk
 recipe_image: images/recipe-headers/fritatta.avif
+video_file: videos/Frittata z batatem, fetą i szpinakiem - szybkie śniadanie!.webm
 date: 2025-08-06 10:00:00+00:00
 tags: []
 tagline: Połączenie słodkiego ziemniaka ze słonym serem w puszystej frittacie.
-link: https://www.youtube.com/watch?v=prsZbulipCk
-video_file: videos/Frittata z batatem, fetą i szpinakiem - szybkie śniadanie!.webm
 ingredients:
 - bataty
 - jajka

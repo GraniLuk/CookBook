@@ -4,13 +4,13 @@ author: Policzona Szama
 categories: śniadania
 draft: false
 readyToTest: true
+link: https://www.youtube.com/watch?v=7WBWsXO6G3g
 recipe_image: images/recipe-headers/placki_banan_czekolada.avif
 date: 2025-10-31 12:00:00+00:00
 tags:
 - szybkie
 - przekąska
 tagline: Słodkie, puszyste placki bananowe z czekoladą i cynamonem, proste do przygotowania.
-link: https://www.youtube.com/watch?v=7WBWsXO6G3g
 ingredients:
 - banan
 - czekolada

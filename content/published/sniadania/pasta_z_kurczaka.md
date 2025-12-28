@@ -6,13 +6,13 @@ categories:
 subcategories:
 - słone
 draft: false
+link: ''
 recipe_image: images/defaultImage.avif
 date: 2025-08-12 12:00:00+00:00
 tags:
 - szybkie
 - kanapki
 tagline: Kremowa, aromatyczna pasta z piersi kurczaka i suszonych pomidorów – idealna na kanapki lub wafle ryżowe.
-link: ''
 ingredients:
 - pierś z kurczaka
 - suszone pomidory

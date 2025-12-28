@@ -6,6 +6,7 @@ categories:
 subcategories:
 - słone
 draft: false
+link: ''
 recipe_image: images/recipe-headers/pasta_jajeczna_suszone_pomidory.avif
 date: 2025-07-14 11:40:00+00:00
 tags:
@@ -13,7 +14,6 @@ tags:
 - pasta
 - kanapki
 tagline: Kremowa i aromatyczna pasta jajeczna z wyrazistym smakiem suszonych pomidorów i tuńczyka.
-link: ''
 ingredients:
 - jajka
 - tuńczyk

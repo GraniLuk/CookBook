@@ -4,6 +4,7 @@ author: Policzone Szamy
 categories:
 - desery
 draft: true
+link: https://www.youtube.com/watch?v=OmL2ry--rGo
 recipe_image: images/recipe-headers/proteinowe_batony_pistacjowe.avif
 date: 2025-09-07 10:00:00+00:00
 tags:
@@ -12,7 +13,6 @@ tags:
 - proteinowe
 - bez gotowania
 tagline: Gęste, sycące batony białkowe z chrupiącymi pistacjami i kwaskowym berberysem.
-link: https://www.youtube.com/watch?v=OmL2ry--rGo
 ingredients:
 - płatki owsiane
 - płatki jaglane

@@ -4,12 +4,12 @@ author: Policzone Szamy
 categories:
 - obiady
 draft: false
+link: https://www.youtube.com/watch?v=EavrO0GHCzQ
 recipe_image: images/recipe-headers/losos_z_majonezowa_chmurka.avif
 date: 2025-09-04 12:00:00+00:00
 tags:
 - ryby
 tagline: Soczysty pieczony łosoś z aromatyczną majonezowo-cytrynową chmurką – prosty i elegancki obiad.
-link: https://www.youtube.com/watch?v=EavrO0GHCzQ
 ingredients:
 - łosoś
 - majonez

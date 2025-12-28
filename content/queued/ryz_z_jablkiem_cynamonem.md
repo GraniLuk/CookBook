@@ -4,6 +4,7 @@ author: Michał Wrzosek
 categories: śniadania
 draft: false
 readyToTest: true
+link: https://www.youtube.com/watch?v=wIC8JJtZEso
 recipe_image: images/recipe-headers/ryz_z_jablkiem_cynamonem.avif
 date: 2025-11-25 12:00:00+00:00
 tags:
@@ -11,7 +12,6 @@ tags:
 - słodkie
 - wegetariańskie
 tagline: Coś, co kochaliśmy w dzieciństwie, w wersji sycącej.
-link: https://www.youtube.com/watch?v=wIC8JJtZEso
 ingredients:
 - ryż ugotowany
 - serek wiejski

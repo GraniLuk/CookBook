@@ -4,13 +4,13 @@ author: Policzona Szama
 categories: śniadania
 draft: false
 readyToTest: true
+link: https://www.youtube.com/watch?v=oCjBBuNLGpc
 recipe_image: images/recipe-headers/mini_serniczki.avif
 date: 2025-11-29 12:00:00+00:00
 tags:
 - szybkie
 - słodkie
 tagline: Słodkie placuszki z twarogu smakujące jak sernik, idealne na śniadanie.
-link: https://www.youtube.com/watch?v=oCjBBuNLGpc
 ingredients:
 - twaróg
 - jajka

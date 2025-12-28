@@ -4,13 +4,13 @@ author: Policzone Szamy
 categories:
 - sniadania
 draft: false
+link: https://youtu.be/wmM49OvW780?t=267
 recipe_image: images/recipe-headers/omlet_marchew_jablko.avif
 date: 2025-10-28 12:35:00+00:00
 tags:
 - szybkie
 - proteinowe
 tagline: Pulchny, aromatyczny omlet marchewkowo-jabłkowy pieczony w lunch boxie – zero dodanego cukru!
-link: https://youtu.be/wmM49OvW780?t=267
 ingredients:
 - jajko
 - mleko

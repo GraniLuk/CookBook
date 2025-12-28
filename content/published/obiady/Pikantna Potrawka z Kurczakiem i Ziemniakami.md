@@ -3,6 +3,7 @@ title: Pikantna Potrawka z Kurczakiem i Ziemniakami (Jednogarnkowa)
 author: Policzone Szamy
 categories: obiady
 draft: false
+link: https://www.youtube.com/watch?v=7js_OwaaDCQ
 recipe_image: images/recipe-headers/potrawka_kurczak_ziemniaki.avif
 date: 2025-11-20 12:00:00+00:00
 tags:
@@ -10,7 +11,6 @@ tags:
 - pikantne
 - instant pot
 tagline: Rozgrzewająca potrawka z kurczakiem, ziemniakami i warzywami – idealna na wypady!
-link: https://www.youtube.com/watch?v=7js_OwaaDCQ
 ingredients:
 - mięso z uda kurczaka
 - ziemniaki

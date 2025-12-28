@@ -3,12 +3,12 @@ title: Karkówka z Grilla w Dwóch Marynatach - Klasycznej i Azjatyckiej
 author: Policzone Szamy
 categories: obiady
 draft: false
+link: https://www.youtube.com/watch?v=U0RCUwb7as4
 recipe_image: images/defaultImage.avif
 date: 2025-07-05 20:16:00+00:00
 tags:
 - grill
 tagline: Soczysta karkówka z grilla w dwóch wersjach - klasycznej z papryką i azjatyckiej z imbirem.
-link: https://www.youtube.com/watch?v=U0RCUwb7as4
 ingredients:
 - karkówka wieprzowa
 - ketchup

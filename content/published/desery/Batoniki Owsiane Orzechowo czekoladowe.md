@@ -4,13 +4,13 @@ author: Centrum Respo
 categories:
 - desery
 draft: false
+link: https://centrumrespo.pl/przepisy/owsiane-batoniki-z-czekolada-orzechami-arachidowymi-i-miodem/
 recipe_image: images/recipe-headers/Batoniki_owsiane_orzechowo_czekoladowe.avif
 date: 2025-09-02 12:00:00+00:00
 tags:
 - batony
 - przekąska
 tagline: Proste, zdrowe batoniki owsiane bez pieczenia – idealne na śniadanie lub przekąskę, pełne orzechów i czekolady.
-link: https://centrumrespo.pl/przepisy/owsiane-batoniki-z-czekolada-orzechami-arachidowymi-i-miodem/
 ingredients:
 - płatki owsiane
 - orzeszki arachidowe

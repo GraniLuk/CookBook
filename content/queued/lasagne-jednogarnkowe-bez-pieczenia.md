@@ -6,13 +6,13 @@ draft: false
 readyToTest: true
 queued: true
 recipe_image: images/recipe-headers/lasagne_jednogarnkowe.avif
+video_file: videos/lasagne_jednogarnkowe.mp4
 date: 2025-12-28 12:00:00+00:00
 tags:
 - szybkie
 - proteinowe
 - włoskie
 tagline: Kremowa lasagne w jednym garnku, bez pieczenia – idealna na obiad.
-video_file: videos/lasagne_jednogarnkowe.mp4
 ingredients:
 - mięso mielone
 - passata pomidorowa

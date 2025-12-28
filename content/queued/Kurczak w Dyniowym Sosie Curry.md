@@ -4,6 +4,7 @@ author: Policzone Szamy
 categories: obiady
 draft: false
 readyToTest: true
+link: https://www.youtube.com/watch?v=0t1TNUMGD8w
 recipe_image: images/recipe-headers/kurczak_dynia_curry.avif
 date: 2025-10-28 12:50:00+00:00
 tags:
@@ -11,7 +12,6 @@ tags:
 - jesień
 - pikantne
 tagline: Rozgrzewający kurczak w gęstym, aromatycznym sosie dyniowym curry – top jesieni!
-link: https://www.youtube.com/watch?v=0t1TNUMGD8w
 ingredients:
 - kurczak
 - dynia piżmowa

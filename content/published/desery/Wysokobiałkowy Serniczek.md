@@ -3,11 +3,11 @@ title: Wysokobiałkowy Serniczek
 author: Autor Przepisu
 categories: desery
 draft: false
+link: https://www.youtube.com/watch?v=SspgxK9oPdY
 recipe_image: images/defaultImage.avif
 date: 2025-06-19 10:00:00+00:00
 tags: []
 tagline: Zdrowy serniczek z wysoką zawartością białka!
-link: https://www.youtube.com/watch?v=SspgxK9oPdY
 ingredients:
 - jajka
 - skyr waniliowy

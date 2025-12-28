@@ -4,13 +4,13 @@ author: Policzone Szamy
 categories: obiady
 draft: false
 readyToTest: true
+link: https://www.youtube.com/watch?v=QnNP5iDxoJ4
 recipe_image: images/recipe-headers/pad_thai_kurczak.avif
 date: 2025-10-28 13:45:00+00:00
 tags:
 - szybkie
 - na-wynos
 tagline: Autentyczny Pad Thai z kurczakiem, sosem tamaryndowym i orzeszkami – słodko-kwaśno-pikantny klasyk tajskiej kuchni!
-link: https://www.youtube.com/watch?v=QnNP5iDxoJ4
 ingredients:
 - makaron ryżowy
 - kurczak

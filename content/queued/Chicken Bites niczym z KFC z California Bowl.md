@@ -4,13 +4,13 @@ author: Policzone Szamy
 categories: obiady
 draft: false
 readyToTest: true
+link: https://www.youtube.com/watch?v=8hl96ntYJsg
 recipe_image: images/recipe-headers/chicken_bites_kfc.avif
 date: 2025-10-29 12:00:00+00:00
 tags:
 - szybkie
 - przekąska
 tagline: Chrupiące chicken bites w stylu KFC połączone z pysznym California Bowl – idealne na przekąskę lub posiłek.
-link: https://www.youtube.com/watch?v=8hl96ntYJsg
 ingredients:
 - polędwiczki kurczaka
 - mąka pszenna

@@ -4,12 +4,12 @@ author: Policzona Szama
 categories: obiady
 draft: false
 readyToTest: true
+link: null
 recipe_image: images/recipe-headers/bowl_losos.avif
 date: 2025-10-27 12:06:00+00:00
 tags:
 - bowl
 tagline: Pełnowartościowa miska z marynowanym łososiem, ryżem i świeżymi warzywami.
-link: null
 ingredients:
 - łosoś
 - ryż biały

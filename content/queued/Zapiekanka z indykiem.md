@@ -4,12 +4,12 @@ author: Policzona Szama
 categories: obiady
 draft: false
 readyToTest: true
+link: https://www.youtube.com/watch?v=eRttoS2L1qE
 recipe_image: images/recipe-headers/zapiekanka_indyk_jarmuz.avif
 date: 2025-10-27 12:11:00+00:00
 tags:
 - zapiekanka
 tagline: Indyk, makaron i jarmuż w aromatycznym, gęstym sosie pomidorowym – syty fit obiad.
-link: https://www.youtube.com/watch?v=eRttoS2L1qE
 ingredients:
 - mięso mielone z indyka
 - makaron

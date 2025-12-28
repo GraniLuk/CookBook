@@ -5,6 +5,7 @@ categories: sniadania
 subcategories: słone
 draft: false
 readyToTest: true
+link: https://www.youtube.com/watch?v=wIC8JJtZEso
 recipe_image: images/recipe-headers/serek_wiejski_z_warzywami.avif
 date: 2025-11-25 12:00:00+00:00
 tags:
@@ -12,7 +13,6 @@ tags:
 - bez gotowania
 - wegetariańskie
 tagline: Idealny posiłek bez gotowania, bogaty w białko i wapń.
-link: https://www.youtube.com/watch?v=wIC8JJtZEso
 ingredients:
 - serek wiejski
 - pomidorki koktajlowe

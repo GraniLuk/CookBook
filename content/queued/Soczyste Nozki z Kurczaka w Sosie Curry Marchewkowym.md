@@ -4,13 +4,13 @@ author: Policzone Szamy
 categories: obiady
 draft: false
 readyToTest: true
+link: https://www.youtube.com/watch?v=Dit-aCe7DTU
 recipe_image: images/recipe-headers/nozki_kurczak_curry_marchew.avif
 date: 2025-10-28 12:00:00+00:00
 tags:
 - lunchbox
 - pikantne
 tagline: Aromatyczne, soczyste nóżki z kurczaka duszone w słodko‑pikantnym marchewkowym sosie curry z limonką i miodem.
-link: https://www.youtube.com/watch?v=Dit-aCe7DTU
 ingredients:
 - kurczak nóżki
 - marchewka

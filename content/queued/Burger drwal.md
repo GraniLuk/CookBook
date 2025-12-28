@@ -4,12 +4,12 @@ author: Policzona Szama
 categories: obiady
 draft: false
 readyToTest: true
+link: https://www.youtube.com/watch?v=8BAAnl33qe8
 recipe_image: images/recipe-headers/burger_zimowy.avif
 date: 2025-10-27 12:07:00+00:00
 tags:
 - fast-food
 tagline: Syty domowy burger z chrupiącym plackiem ziemniaczano-parmezanowym i sosem z suszonych pomidorów.
-link: https://www.youtube.com/watch?v=8BAAnl33qe8
 ingredients:
 - mąka orkiszowa
 - ziemniaki

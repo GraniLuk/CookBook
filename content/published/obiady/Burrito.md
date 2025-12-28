@@ -5,22 +5,21 @@ categories: obiady
 draft: false
 readyToTest: false
 queued: false
+link: https://www.youtube.com/watch?v=h8zZXIgS30c
 recipe_image: images/recipe-headers/burrito.avif
+video_file: videos/buritto.webm
 date: 2025-11-29 12:00:00+00:00
 tags:
-  - meksykańskie
-tagline: Epickie burrito z wołowiną w pikantnym sosie pomidorowym, czerwoną
-  fasolą, awokado, serem cheddar i jajecznicą.
-link: https://www.youtube.com/watch?v=h8zZXIgS30c
-video_file: videos/buritto.webm
+- meksykańskie
+tagline: Epickie burrito z wołowiną w pikantnym sosie pomidorowym, czerwoną fasolą, awokado, serem cheddar i jajecznicą.
 ingredients:
-  - wołowina mielona
-  - fasola czerwona
-  - pomidory krojone
-  - awokado
-  - ser cheddar
-  - jajka
-  - tortilla
+- wołowina mielona
+- fasola czerwona
+- pomidory krojone
+- awokado
+- ser cheddar
+- jajka
+- tortilla
 servings: 4
 prep_time: 20
 cook: true
@@ -30,7 +29,7 @@ protein: 54
 fat: 42
 carbohydrate: 49
 fodmap:
-  status: no
+  status: false
   notes: Fasola czerwona, cebula i czosnek są źródłami FODMAP.
 ---
 

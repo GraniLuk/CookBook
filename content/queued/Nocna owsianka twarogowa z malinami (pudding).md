@@ -4,12 +4,12 @@ author: Policzona Szama
 categories: śniadania
 draft: false
 readyToTest: true
+link: https://www.youtube.com/watch?v=oCjBBuNLGpc
 recipe_image: images/recipe-headers/owsianka_twarogowa_maliny.avif
 date: 2025-11-29 12:00:00+00:00
 tags:
 - owsianka
 tagline: Nocna owsianka z twarogiem i malinami, przygotowana dzień wcześniej.
-link: https://www.youtube.com/watch?v=oCjBBuNLGpc
 ingredients:
 - płatki owsiane
 - twaróg

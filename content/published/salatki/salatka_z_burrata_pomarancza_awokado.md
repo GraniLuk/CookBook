@@ -3,13 +3,13 @@ title: Sałatka z Burratą, Pomarańczą i Awokado
 author: Michał Wrzosek
 categories: salatki
 draft: false
+link: https://youtu.be/wIC8JJtZEso?t=227
 recipe_image: images/recipe-headers/salatka_burrata_pomarancza_awokado.avif
 date: 2025-11-25 12:00:00+00:00
 tags:
 - szybkie
 - wegetariańskie
 tagline: Sałatka niesamowicie poprawiająca humor podczas jesiennej chandry.
-link: https://youtu.be/wIC8JJtZEso?t=227
 ingredients:
 - burrata
 - pomarańcza

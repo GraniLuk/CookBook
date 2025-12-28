@@ -4,13 +4,13 @@ author: Policzone Szamy
 categories: obiady
 draft: false
 readyToTest: true
+link: https://www.youtube.com/watch?v=G0zUrkRnMI4
 recipe_image: images/recipe-headers/zapiekane_pulpety_ser_sos_spaghetti.avif
 date: 2025-11-01 12:00:00+00:00
 tags:
 - włoskie
 - szybkie
 tagline: Domowe pulpety w sosie spaghetti z mozzarellą, idealne na rodzinny obiad.
-link: https://www.youtube.com/watch?v=G0zUrkRnMI4
 ingredients:
 - wieprzowina
 - jajko

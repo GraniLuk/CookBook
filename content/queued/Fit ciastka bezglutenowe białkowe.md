@@ -4,12 +4,12 @@ author: Policzona Szama
 categories: desery
 draft: false
 readyToTest: true
+link: https://www.youtube.com/watch?v=kJUz0RjGYyU
 recipe_image: images/fit_ciastka_bezglutenowe.jpg
 date: 2025-11-29
 tags:
 - ciastka
 tagline: Zabawny przepis na bezglutenowe, wysokobiałkowe ciasteczka migdałowo-kokosowe z odżywką białkową i kawa-wanilowym aromatem.
-link: https://www.youtube.com/watch?v=kJUz0RjGYyU
 ingredients:
 - migdały
 - mąka kokosowa

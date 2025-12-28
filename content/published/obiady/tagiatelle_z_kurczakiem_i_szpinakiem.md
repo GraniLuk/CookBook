@@ -4,12 +4,12 @@ author: barlomiej_wlodarczyk
 categories: obiady
 draft: false
 recipe_image: images/recipe-headers/tagliatelle_kurczak_szpinak.avif
+video_file: videos/tagiatelle_z_szpinakiem.mp4
 date: 2025-10-24 12:00:00+00:00
 tags:
 - włoskie
 - szybkie
 tagline: Szybki i smaczny makaron tagliatelle z kurczakiem, szpinakiem i pomidorami w 20 minut.
-video_file: videos/tagiatelle_z_szpinakiem.mp4
 ingredients:
 - makaron tagliatelle
 - pierś z kurczaka

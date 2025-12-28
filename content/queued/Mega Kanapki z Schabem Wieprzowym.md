@@ -5,6 +5,7 @@ categories: śniadania
 subcategories: słone
 draft: false
 readyToTest: true
+link: https://www.youtube.com/watch?v=d71Nd3lS2Ok
 recipe_image: images/recipe-headers/mega_kanapki_schab.avif
 date: 2025-11-20 12:00:00+00:00
 tags:
@@ -12,7 +13,6 @@ tags:
 - kanapki
 - proteinowe
 tagline: Mega kanapki z domowym schabem wieprzowym w sosie tatarskim.
-link: https://www.youtube.com/watch?v=d71Nd3lS2Ok
 ingredients:
 - schab wieprzowy
 - chleb tostowy

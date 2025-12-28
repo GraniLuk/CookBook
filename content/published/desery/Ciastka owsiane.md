@@ -3,11 +3,11 @@ title: Chrupiące Ciasteczka Owsiane Bananowo-Czekoladowe
 author: Autor Przepisu
 categories: desery
 draft: false
+link: https://www.youtube.com/shorts/x1zHo9TF1NA
 recipe_image: images/recipe-headers/ciasta_owsiane.avif
 date: 2025-06-19 10:00:00+00:00
 tags: []
 tagline: Chrupiące owsiane ciasteczka idealne na święta!
-link: https://www.youtube.com/shorts/x1zHo9TF1NA
 ingredients:
 - banan
 - płatki owsiane

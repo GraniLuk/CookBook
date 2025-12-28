@@ -5,13 +5,13 @@ categories:
 - sniadania
 draft: false
 readyToTest: true
+link: https://youtu.be/3qI4Y5dRumA?t=526
 recipe_image: images/recipe-headers/serek_wiejski_owoce.avif
 date: 2025-10-28 13:15:00+00:00
 tags:
 - szybkie
 - przekąska
 tagline: Pożywne śniadanie z serkiem wiejskim, świeżymi owocami i masłem orzechowym – gotowe w 5 minut!
-link: https://youtu.be/3qI4Y5dRumA?t=526
 ingredients:
 - serek wiejski
 - płatki owsiane

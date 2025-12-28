@@ -4,13 +4,13 @@ author: Policzone Szamy
 categories: obiady
 draft: false
 readyToTest: true
+link: https://www.youtube.com/watch?v=7js_OwaaDCQ
 recipe_image: images/recipe-headers/makaron_kokardki_schab.avif
 date: 2025-10-29 10:15:00+00:00
 tags:
 - lunchbox
 - włoskie
 tagline: Prosty makaron w intensywnie pomidorowym sosie z pieczonym schabem – gotowy w 15 minut!
-link: https://www.youtube.com/watch?v=7js_OwaaDCQ
 ingredients:
 - makaron pełnoziarnisty kokardki
 - schab pieczony

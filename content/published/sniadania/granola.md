@@ -7,14 +7,14 @@ subcategories:
 - słodkie
 draft: false
 favourite: true
+link: https://www.youtube.com/watch?v=xsvyi8sl8xM
 recipe_image: images/recipe-headers/granola.avif
+video_file: videos/granola.mp4
 date: 2025-08-23 12:00:00+00:00
 tags:
 - przekąska
 - owsianka
 tagline: Chrupiąca, złocista granola pieczona wolniej w niższej temperaturze – idealna do jogurtu i na wynos.
-link: https://www.youtube.com/watch?v=xsvyi8sl8xM
-video_file: videos/granola.mp4
 ingredients:
 - płatki owsiane
 - płatki migdałów

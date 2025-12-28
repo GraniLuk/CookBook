@@ -4,13 +4,13 @@ author: Policzone Szamy
 categories: obiady
 draft: false
 readyToTest: true
+link: https://www.youtube.com/watch?v=eRttoS2L1qE&t
 recipe_image: images/recipe-headers/jednogarnkowa_zapiekanka_indyk.avif
 date: 2025-10-29 12:00:00+00:00
 tags:
 - szybkie
 - włoskie
 tagline: Soczysta zapiekanka z indykiem i makaronem w jednym garnku – szybka i pełna smaku.
-link: https://www.youtube.com/watch?v=eRttoS2L1qE&t
 ingredients:
 - mięso z indyka
 - makaron

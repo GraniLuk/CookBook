@@ -5,13 +5,13 @@ categories:
 - sniadania
 draft: false
 readyToTest: true
+link: https://youtu.be/wmM49OvW780?t=390
 recipe_image: images/recipe-headers/racuchy_twarogowe_banan.avif
 date: 2025-10-28 12:40:00+00:00
 tags:
 - szybkie
 - proteinowe
 tagline: Pusziste mini racuchy twarogowe z bananem – 11 sztuk pełnych białka i smaku!
-link: https://youtu.be/wmM49OvW780?t=390
 ingredients:
 - twaróg
 - jajko

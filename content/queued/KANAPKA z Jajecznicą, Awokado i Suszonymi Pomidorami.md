@@ -4,12 +4,12 @@ author: Policzona Szama
 categories: śniadania
 draft: false
 readyToTest: true
+link: https://www.youtube.com/watch?v=6GTyB2M09mU
 recipe_image: images/recipe-headers/kanapka_jajecznica_awokado.avif
 date: 2025-11-29 12:00:00+00:00
 tags:
 - kanapki
 tagline: Kremowa kanapka z jajecznicą, awokado i suszonymi pomidorami na rukoli.
-link: https://www.youtube.com/watch?v=6GTyB2M09mU
 ingredients:
 - bułka paryska
 - jajka

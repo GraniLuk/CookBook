@@ -4,13 +4,13 @@ author: Policzona Szama
 categories: obiady
 draft: false
 readyToTest: true
+link: https://www.youtube.com/watch?v=sdc2hl89tRc
 recipe_image: images/recipe-headers/wrapy_low_carb.avif
 date: 2025-11-29 12:00:00+00:00
 tags:
 - low carb
 - ryby
 tagline: Niskowęglowodanowe wrapy z domowym serkiem śmietankowym, wędzonym łososiem, awokado i jajecznymi naleśnikami.
-link: https://www.youtube.com/watch?v=sdc2hl89tRc
 ingredients:
 - twaróg
 - śmietana kremowa

@@ -4,12 +4,12 @@ author: Policzona Szama
 categories: obiady
 draft: false
 readyToTest: true
+link: https://www.youtube.com/watch?v=ILHfSzQOwTU
 recipe_image: images/poledwica_wieprzowa_pieczarki.jpg
 date: 2025-11-29
 tags:
 - lunchbox
 tagline: Szybkie danie z polędwicy wieprzowej, pieczarek i warzyw – idealne na trzy boxy lunchowe.
-link: https://www.youtube.com/watch?v=ILHfSzQOwTU
 ingredients:
 - polędwica wieprzowa
 - pieczarki

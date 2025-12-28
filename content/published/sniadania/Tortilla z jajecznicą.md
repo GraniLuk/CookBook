@@ -6,12 +6,12 @@ categories:
 subcategories:
 - słone
 draft: false
+link: https://youtu.be/3qI4Y5dRumA?t=174
 recipe_image: images/defaultImage.avif
 date: 2025-06-18 12:00:00+00:00
 tags:
 - szybkie
 tagline: Szybka tortilla z jajecznicą na śniadanie!
-link: https://youtu.be/3qI4Y5dRumA?t=174
 ingredients:
 - jajka
 - tortilla

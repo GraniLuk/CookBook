@@ -6,16 +6,16 @@ draft: false
 readyToTest: false
 queued: false
 favourite: false
+link: https://www.instagram.com/reels/DQL9KOOjEVq/
 recipe_image: images/recipe-headers/piernik_staropolski.avif
+video_file: videos/piernik_spod.mp4
+video_file2: videos/piernik_ciasto.mp4
 date: 2025-12-26 12:00:00+00:00
 tags:
 - ciasta
 - słodkie
 - xmas
 tagline: Tradycyjny piernik wymagający długiego leżakowania, idealny na święta z kremem grysikowym i polewą czekoladową.
-link: https://www.instagram.com/reels/DQL9KOOjEVq/
-video_file: videos/piernik_spod.mp4
-video_file2: videos/piernik_ciasto.mp4
 ingredients:
 - mąka pszenna
 - miód

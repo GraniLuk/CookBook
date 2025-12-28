@@ -6,13 +6,13 @@ draft: false
 readyToTest: false
 queued: false
 favourite: true
+link: https://www.youtube.com/watch?v=aUohiReA3gQ
 recipe_image: images/recipe-headers/chlopski_gar.avif
+video_file: videos/CHŁOPSKI GAR 2.0.webm
 date: 2025-12-17 12:00:00+00:00
 tags:
 - instant pot
 tagline: Soczysty jednogarnkowy obiad z kurczakiem, kiszoną kapustą i warzywami – tani i pełen zdrowia!
-link: https://www.youtube.com/watch?v=aUohiReA3gQ
-video_file: videos/CHŁOPSKI GAR 2.0.webm
 ingredients:
 - mięso z uda kurczaka
 - ziemniaki

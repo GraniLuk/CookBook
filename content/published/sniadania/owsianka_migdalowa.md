@@ -7,12 +7,12 @@ subcategories:
 - słodkie
 draft: false
 recipe_image: images/recipe-headers/owsianka_migdalowa.avif
+video_file: videos/owsianka_migdalowa.mp4
 date: 2025-10-11 07:00:00+00:00
 tags:
 - szybkie
 - owsianka
 tagline: Kremowa, pachnąca migdałami pieczona owsianka inspirowana migdałowym croissantem.
-video_file: videos/owsianka_migdalowa.mp4
 ingredients:
 - płatki owsiane
 - mąka migdałowa

@@ -6,16 +6,16 @@ draft: false
 readyToTest: false
 queued: false
 favourite: false
+link: null
 recipe_image: images/recipe-headers/gofry.avif
 date: 2025-12-28 12:00:00+00:00
 tags: []
 tagline: Proste i puszyste gofry na śniadanie, przygotowane w gofrownicy.
-link: null
 ingredients:
-  - mąka pszenna
-  - mleko
-  - jajko
-  - olej
+- mąka pszenna
+- mleko
+- jajko
+- olej
 servings: 4
 prep_time: 10
 cook: true
@@ -25,13 +25,13 @@ protein: 12
 fat: 22
 carbohydrate: 52
 fodmap:
-  status: no
-  serving_ok: ""
+  status: false
+  serving_ok: ''
   notes: Mąka pszenna zawiera FODMAP, co może powodować problemy dla osób wrażliwych.
   substitutions:
-    - Zastąp mąkę pszenną mąką bezglutenową lub mąką ryżową dla wersji low
-      FODMAP.
+  - Zastąp mąkę pszenną mąką bezglutenową lub mąką ryżową dla wersji low FODMAP.
 ---
+
 ## Składniki
 
 * mąka pszenna (1,5 szklanki)  

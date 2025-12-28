@@ -7,19 +7,19 @@ draft: false
 readyToTest: true
 queued: true
 favourite: false
+link: https://www.youtube.com/watch?v=6GTyB2M09mU
 recipe_image: images/recipe-headers/kanapka_gyros.avif
 date: 2025-11-29 12:00:00+00:00
 tags:
-  - kanapki
+- kanapki
 tagline: Soczysta kanapka z kurczakiem gyros, sosem tzatziki, cebulą i ogórkiem.
-link: https://www.youtube.com/watch?v=6GTyB2M09mU
 ingredients:
-  - bułka paryska
-  - pierś z kurczaka
-  - skyr
-  - cebula czerwona
-  - ogórek zielony
-  - mix sałat
+- bułka paryska
+- pierś z kurczaka
+- skyr
+- cebula czerwona
+- ogórek zielony
+- mix sałat
 servings: 2
 prep_time: 15
 cook: true

@@ -6,11 +6,11 @@ categories:
 subcategories:
 - słone
 draft: false
+link: https://www.youtube.com/watch?v=RR5V2Wcxk0w
 recipe_image: images/recipe-headers/omletoKanapka.avif
 date: 2025-06-18 12:00:00+00:00
 tags: []
 tagline: Pyszna omleto-kanapka z szynką i awokado!
-link: https://www.youtube.com/watch?v=RR5V2Wcxk0w
 ingredients:
 - jajka
 - bułka

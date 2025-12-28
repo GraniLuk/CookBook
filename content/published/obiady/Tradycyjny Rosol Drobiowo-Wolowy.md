@@ -4,13 +4,13 @@ author: Policzone Szamy
 categories: obiady
 draft: false
 favourite: true
+link: https://www.youtube.com/watch?v=v4IZxeOCFss
 recipe_image: images/recipe-headers/rosol_tradycyjny.avif
 date: 2025-12-02 12:00:00+00:00
 tags:
 - włoskie
 - szybkie
 tagline: Esencjonalny, klarowny rosół – baza pod zupy i sosy oraz napój bogów w kubku.
-link: https://www.youtube.com/watch?v=v4IZxeOCFss
 ingredients:
 - skrzydło indycze
 - kotlet z antrykotu z kością

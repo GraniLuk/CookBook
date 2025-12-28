@@ -6,12 +6,12 @@ categories:
 subcategories: null
 draft: false
 recipe_image: images/recipe-headers/mini_fit_szarlotki.avif
+video_file: videos/mini_fit_szarlotki.mp4
 date: 2025-10-03 12:00:00+00:00
 tags:
 - przekąska
 - jesień
 tagline: Małe, miękkie i wilgotne mini szarlotki z twarogiem – idealne do kawy i do lunchboxa.
-video_file: videos/mini_fit_szarlotki.mp4
 ingredients:
 - twaróg
 - jabłko

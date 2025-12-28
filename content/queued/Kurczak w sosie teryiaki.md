@@ -4,12 +4,12 @@ author: Policzona Szama
 categories: obiady
 draft: false
 readyToTest: true
+link: https://youtu.be/OOEN1F9s4c8?t=784
 recipe_image: images/recipe-headers/kurczak_teriyaki.avif
 date: 2025-10-27 12:08:00+00:00
 tags:
 - azjatyckie
 tagline: Szybki kurczak teriyaki z chrupiącymi warzywami i ryżem.
-link: https://youtu.be/OOEN1F9s4c8?t=784
 ingredients:
 - pierś z kurczaka
 - ryż biały

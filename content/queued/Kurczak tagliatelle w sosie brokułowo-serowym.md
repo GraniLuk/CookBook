@@ -4,11 +4,11 @@ author: Policzona Szama
 categories: obiady
 draft: false
 readyToTest: true
+link: https://www.youtube.com/watch?v=V8dQJDSQ7lI
 recipe_image: images/kurczak_tagliatelle_brokułowy.jpg
 date: 2025-11-29
-tags:
+tags: null
 tagline: Przepis na kurczaka z makaronem tagliatelle w sosie brokułowo-serowym – prosty, smaczny i pełen białka.
-link: https://www.youtube.com/watch?v=V8dQJDSQ7lI
 ingredients:
 - kurczak
 - makaron tagliatelle

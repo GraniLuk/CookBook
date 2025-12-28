@@ -6,6 +6,7 @@ draft: false
 readyToTest: true
 queued: false
 favourite: false
+link: https://www.youtube.com/watch?v=eqd7KweVu0g
 recipe_image: images/recipe-headers/salatka_z_sosem.avif
 date: 2025-11-29 12:00:00+00:00
 tags:
@@ -13,7 +14,6 @@ tags:
 - proteinowe
 - zdrowe
 tagline: Ulubiona sałatka z epickim sosem musztardowo-miodowo-czosnkowym na bazie oleju lnianego, idealna na śniadanie lub kolację.
-link: https://www.youtube.com/watch?v=eqd7KweVu0g
 ingredients:
 - sałata lodowa
 - rukola

@@ -6,22 +6,21 @@ draft: false
 readyToTest: false
 queued: false
 favourite: false
+link: https://www.instagram.com/reels/DR9aD7uClvi
 recipe_image: images/recipe-headers/owsianka-piernikowa.avif
+video_file: videos/owsianka-piernikowa.mp4
 date: 2025-12-26 12:00:00+00:00
 tags:
-  - szybkie
-  - owsianka
-tagline: Kremowa, pachnąca przyprawą do piernika nocna owsianka z białkiem –
-  idealna na grudniowe poranki!
-link: https://www.instagram.com/reels/DR9aD7uClvi
-video_file: videos/owsianka-piernikowa.mp4
+- szybkie
+- owsianka
+tagline: Kremowa, pachnąca przyprawą do piernika nocna owsianka z białkiem – idealna na grudniowe poranki!
 ingredients:
-  - płatki owsiane
-  - nasiona chia
-  - odżywka białkowa
-  - jogurt naturalny
-  - napój owsiany
-  - masło orzechowe
+- płatki owsiane
+- nasiona chia
+- odżywka białkowa
+- jogurt naturalny
+- napój owsiany
+- masło orzechowe
 servings: 1
 prep_time: 5
 cook: false
@@ -31,7 +30,7 @@ protein: 42
 fat: 17
 carbohydrate: 50
 fodmap:
-  status: yes
+  status: true
   serving_ok: OK w tej porcji
   notes: Wszystkie składniki bezpieczne dla diety low FODMAP
   substitutions: []

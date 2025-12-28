@@ -5,13 +5,13 @@ categories:
 - napoje
 draft: false
 readyToTest: true
+link: https://www.youtube.com/watch?v=RUPfihOOViA
 recipe_image: images/recipe-headers/koktajl_czerwony.avif
 date: 2025-11-29 12:00:00+00:00
 tags:
 - koktajle
 - odporność
 tagline: Czerwony koktajl z burakiem, malinami i żurawiną, wspierający układ krwionośny.
-link: https://www.youtube.com/watch?v=RUPfihOOViA
 ingredients:
 - orzech włoski
 - żurawina suszona

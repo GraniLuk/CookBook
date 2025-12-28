@@ -5,13 +5,13 @@ categories:
 - sniadania
 draft: false
 readyToTest: true
+link: https://youtu.be/wmM49OvW780?t=136
 recipe_image: images/recipe-headers/tosty_twarogowe_slodkie.avif
 date: 2025-10-28 12:30:00+00:00
 tags:
 - szybkie
 - proteinowe
 tagline: Ekspresowe słodkie tosty z twarogu – mięciutkie, wysokobiałkowe i niskokalaryczne.
-link: https://youtu.be/wmM49OvW780?t=136
 ingredients:
 - twaróg
 - jajko

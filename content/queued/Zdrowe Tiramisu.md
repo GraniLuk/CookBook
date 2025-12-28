@@ -4,6 +4,7 @@ author: Policzone Szamy
 categories: desery
 draft: false
 readyToTest: true
+link: https://www.youtube.com/watch?v=vZ52mlw4yRs&t
 recipe_image: images/recipe-headers/zdrowe_tiramisu.avif
 date: 2025-11-01 12:00:00+00:00
 tags:
@@ -11,7 +12,6 @@ tags:
 - bez gotowania
 - proteinowe
 tagline: Lekkie tiramisu z twarogiem i biszkoptami, idealne na deser lub przekąskę.
-link: https://www.youtube.com/watch?v=vZ52mlw4yRs&t
 ingredients:
 - skyr naturalny
 - skyr waniliowy

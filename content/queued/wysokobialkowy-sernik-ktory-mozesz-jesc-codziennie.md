@@ -5,13 +5,13 @@ categories:
 - desery
 draft: false
 readyToTest: true
+link: https://www.youtube.com/watch?v=wEIPXSziM98
 recipe_image: images/wysokobialkowy-sernik.avif
+video_file: videos/wysokobialkowy-sernik.webm
 date: 2025-12-22 08:00:00+00:00
 tags:
 - ciasta
 tagline: Alternatywa dla klasycznego sernika nowojorskiego z wysoką zawartością białka i niską kalorycznością
-link: https://www.youtube.com/watch?v=wEIPXSziM98
-video_file: videos/wysokobialkowy-sernik.webm
 ingredients:
 - twaróg
 - skyr waniliowy

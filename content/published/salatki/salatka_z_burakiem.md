@@ -4,12 +4,12 @@ author: anpsk
 categories:
 - salatki
 draft: false
+link: ''
 recipe_image: images/recipe-headers/salatka_z_burakiem.avif
 date: 2025-10-27 12:00:00+00:00
 tags:
 - jesień
 tagline: Kolorowa, sycąca sałatka – buraki, jajka, orzechy nerkowca i kremowa mozzarella.
-link: ''
 ingredients:
 - buraki gotowane
 - miks sałat

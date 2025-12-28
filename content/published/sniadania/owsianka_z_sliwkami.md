@@ -7,12 +7,12 @@ subcategories:
 - słodkie
 draft: false
 recipe_image: images/recipe-headers/owsianka_z_sliwkami.avif
+video_file: videos/owsianka_z_sliwkami.mp4
 date: 2025-10-02 12:00:00+00:00
 tags:
 - szybkie
 - owsianka
 tagline: Pyszna czekoladowa owsianka z duszonymi śliwkami.
-video_file: videos/owsianka_z_sliwkami.mp4
 ingredients:
 - płatki owsiane
 - napój roślinny

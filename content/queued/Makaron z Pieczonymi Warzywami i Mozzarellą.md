@@ -4,11 +4,11 @@ author: Policzona Szama
 categories: obiady
 draft: false
 readyToTest: true
+link: https://youtu.be/OOEN1F9s4c8?t=1012
 recipe_image: images/recipe-headers/makaron_warzywa_mozzarella.avif
 date: 2025-10-27 12:09:00+00:00
-tags:
+tags: null
 tagline: Pieczone warzywa, czosnek i roztopiona mozzarella połączone z al dente makaronem.
-link: https://youtu.be/OOEN1F9s4c8?t=1012
 ingredients:
 - makaron
 - papryka

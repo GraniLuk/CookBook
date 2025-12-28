@@ -8,13 +8,13 @@ subcategories:
 draft: true
 queued: true
 favourite: false
+link: https://www.youtube.com/watch?v=mNq7c4FHAL0
 recipe_image: images/defaultImage.avif
 date: 2025-09-03 12:00:00+00:00
 tags:
 - kanapki
 - ryby
 tagline: Stosowe weekendowe śniadanie z bajglem, łososiem, awokado i jajkiem sadzonym – pyszne i sycące.
-link: https://www.youtube.com/watch?v=mNq7c4FHAL0
 ingredients:
 - bajgiel
 - serek

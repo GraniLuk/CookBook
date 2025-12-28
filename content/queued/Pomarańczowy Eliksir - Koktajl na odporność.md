@@ -5,13 +5,13 @@ categories:
 - napoje
 draft: false
 readyToTest: true
+link: https://www.youtube.com/watch?v=RUPfihOOViA
 recipe_image: images/recipe-headers/koktajl_pomaranczowy.avif
 date: 2025-11-29 12:00:00+00:00
 tags:
 - koktajle
 - odporność
 tagline: Pomarańczowy koktajl z selenem, polifenolami i imbirem, przeciwzapalny.
-link: https://www.youtube.com/watch?v=RUPfihOOViA
 ingredients:
 - orzechy brazylijskie
 - siemię lniane

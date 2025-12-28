@@ -7,20 +7,20 @@ readyToTest: false
 queued: false
 favourite: false
 recipe_image: images/recipe-headers/czekoladowe_szyszki.avif
+video_file: videos/czekoladowe_szyszki.mp4
 date: 2025-12-21 12:00:00+00:00
 tags:
-  - xmas
-  - czekoladowe
+- xmas
+- czekoladowe
 tagline: Smaczne czekoladowe szyszki z mascarpone i herbatników.
-video_file: videos/czekoladowe_szyszki.mp4
 ingredients:
-  - mascarpone
-  - herbatniki
-  - kakao
-  - płatki czekoladowe
-  - żurawina suszona
-  - orzechy włoskie
-  - czekolada gorzka
+- mascarpone
+- herbatniki
+- kakao
+- płatki czekoladowe
+- żurawina suszona
+- orzechy włoskie
+- czekolada gorzka
 servings: 8
 prep_time: 20
 cook: false
@@ -30,7 +30,7 @@ protein: 8
 fat: 24
 carbohydrate: 35
 fodmap:
-  status: yes
+  status: true
   serving_ok: OK w tej porcji
   notes: Mascarpone, herbatniki, kakao, płatki czekoladowe - wszystko bezpieczne
   substitutions: []

@@ -4,13 +4,13 @@ author: Policzone Szamy
 categories: obiady
 draft: false
 readyToTest: true
+link: https://www.youtube.com/watch?v=zlV-lx2cuts
 recipe_image: images/recipe-headers/kurczak_green_curry.avif
 date: 2025-10-28 13:00:00+00:00
 tags:
 - szybkie
 - pikantne
 tagline: Aromatyczny, pikantny kurczak Green Curry smażony w woku z zielonymi warzywami – azjatyckie doznania smakowe!
-link: https://www.youtube.com/watch?v=zlV-lx2cuts
 ingredients:
 - kurczak
 - pasta green curry

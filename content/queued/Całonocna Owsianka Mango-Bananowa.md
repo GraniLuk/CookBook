@@ -4,6 +4,7 @@ author: Policzone Szamy
 categories: śniadania
 draft: false
 readyToTest: true
+link: https://www.youtube.com/watch?v=2oRiIWljFJo
 recipe_image: images/recipe-headers/calonocna_owsianka_mango_bananowa.avif
 date: 2025-11-01 12:00:00+00:00
 tags:
@@ -11,7 +12,6 @@ tags:
 - tropikalne
 - owsianka
 tagline: Kremowa owsianka z mango i bananem, pełna energii na cały dzień.
-link: https://www.youtube.com/watch?v=2oRiIWljFJo
 ingredients:
 - płatki owsiane
 - banan

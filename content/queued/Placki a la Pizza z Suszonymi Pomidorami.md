@@ -4,13 +4,13 @@ author: Policzona Szama
 categories: śniadania
 draft: false
 readyToTest: true
+link: https://www.youtube.com/watch?v=7WBWsXO6G3g
 recipe_image: images/recipe-headers/placki_pizza_pomidory.avif
 date: 2025-10-31 12:00:00+00:00
 tags:
 - szybkie
 - przekąska
 tagline: Wytrawne placki w stylu pizzy z suszonymi pomidorami, oliwkami i serem cheddar.
-link: https://www.youtube.com/watch?v=7WBWsXO6G3g
 ingredients:
 - suszone pomidory
 - oliwki

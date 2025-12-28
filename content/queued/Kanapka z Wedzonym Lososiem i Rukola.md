@@ -5,6 +5,7 @@ categories:
 - sniadania
 draft: false
 readyToTest: true
+link: https://www.youtube.com/watch?v=3qI4Y5dRumA
 recipe_image: images/recipe-headers/kanapka_losos_rukola.avif
 date: 2025-10-28 13:10:00+00:00
 tags:
@@ -12,7 +13,6 @@ tags:
 - szybkie
 - na-wynos
 tagline: Elegancka kanapka z wędzonym łososiem i rukolą – idealna na śniadanie do pracy!
-link: https://www.youtube.com/watch?v=3qI4Y5dRumA
 ingredients:
 - łosoś wędzony
 - bułka pełnoziarnista

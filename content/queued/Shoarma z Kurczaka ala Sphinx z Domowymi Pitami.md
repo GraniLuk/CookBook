@@ -5,13 +5,13 @@ categories: sniadania
 subcategories: słone
 draft: false
 readyToTest: true
+link: https://www.youtube.com/watch?v=ou8d41WFfzw
 recipe_image: images/recipe-headers/shoarma_kurczak_sphinx.avif
 date: 2025-10-29 10:30:00+00:00
 tags:
 - szybkie
 - na-wynos
 tagline: Domowa shoarma z soczysta kurczakiem, 3 sosami i puszystymi pitami z kieszonką!
-link: https://www.youtube.com/watch?v=ou8d41WFfzw
 ingredients:
 - mięso z uda kurczaka
 - mąka pszenna

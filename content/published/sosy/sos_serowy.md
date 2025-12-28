@@ -3,11 +3,11 @@ title: Fit Sos Serowy Cheddar
 author: Policzone Szama
 categories: sosy
 draft: false
+link: https://www.youtube.com/watch?v=AIlwvEvCONM
 recipe_image: images/recipe-headers/sos_serowy.avif
 date: 2025-06-27 12:15:00+00:00
-tags:
+tags: null
 tagline: Kremowy i lekki sos serowy, idealny do wielu dań.
-link: https://www.youtube.com/watch?v=AIlwvEvCONM
 ingredients:
 - ser cheddar
 - mleko

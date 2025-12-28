@@ -4,13 +4,13 @@ author: Policzona Szama
 categories: desery
 draft: false
 readyToTest: true
+link: https://www.youtube.com/watch?v=4c9RIlmR1rg
 recipe_image: images/recipe-headers/lody_truskawkowe.avif
 date: 2025-11-29 12:00:00+00:00
 tags:
 - blender
 - lody
 tagline: Domowe białkowe lody truskawkowe z serkiem wiejskim, śmietanką i odżywką białkową.
-link: https://www.youtube.com/watch?v=4c9RIlmR1rg
 ingredients:
 - truskawki
 - serek wiejski

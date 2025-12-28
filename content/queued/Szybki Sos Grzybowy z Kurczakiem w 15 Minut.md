@@ -4,13 +4,13 @@ author: Policzone Szamy
 categories: obiady
 draft: false
 readyToTest: true
+link: https://www.youtube.com/watch?v=NWKkjC7qUH0
 recipe_image: images/recipe-headers/sos_grzybowy_kurczak.avif
 date: 2025-10-29 12:00:00+00:00
 tags:
 - szybkie
 - włoskie
 tagline: Kremowy sos grzybowy z kurczakiem i makaronem – gotowy w 15 minut.
-link: https://www.youtube.com/watch?v=NWKkjC7qUH0
 ingredients:
 - kurczak
 - grzyby suszone
