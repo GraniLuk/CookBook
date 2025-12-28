@@ -106,7 +106,7 @@ def validate_metadata(metadata, filename):
     title = metadata.get("title")
     if title:
         base_expected = sanitize_filename(title) + ".md"
-        if not filename.startswith(base_expected):
+        if filename != base_expected:
             print(f"ERROR: {filename} filename does not match title '{title}'")
             return False
     else:
@@ -186,18 +186,19 @@ def process_directory(content_dir, check_only=False):
 
                     if not check_only:
                         title = post.metadata.get("title")
-                        if title and file != title + ".md":
+                        if title:
                             base_filename = sanitize_filename(title)
-                            new_filename = base_filename + ".md"
-                            new_path = os.path.join(root, new_filename)
-                            counter = 1
-                            while os.path.exists(new_path):
-                                new_filename = f"{base_filename} ({counter}).md"
+                            if file != base_filename + ".md":
+                                new_filename = base_filename + ".md"
                                 new_path = os.path.join(root, new_filename)
-                                counter += 1
-                            os.rename(file_path, new_path)
-                            print(f"Renamed: {file} -> {new_filename}")
-                            needs_change = True
+                                counter = 1
+                                while os.path.exists(new_path):
+                                    new_filename = f"{base_filename} ({counter}).md"
+                                    new_path = os.path.join(root, new_filename)
+                                    counter += 1
+                                os.rename(file_path, new_path)
+                                print(f"Renamed: {file} -> {new_filename}")
+                                needs_change = True
 
                     if needs_change:
                         if check_only:
