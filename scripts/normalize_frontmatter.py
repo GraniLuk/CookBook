@@ -198,6 +198,8 @@ def process_directory(content_dir, check_only=False):
                                     counter += 1
                                 os.rename(file_path, new_path)
                                 print(f"Renamed: {file} -> {new_filename}")
+                                file_path = new_path
+                                file = new_filename
                                 needs_change = True
 
                     if needs_change:
