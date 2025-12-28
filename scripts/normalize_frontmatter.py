@@ -64,6 +64,18 @@ REQUIRED_KEYS = [
 ]
 
 
+def sanitize_filename(name):
+    # Replace Windows invalid characters with safe alternatives
+    invalid_chars = '<>:"|?*'
+    for char in invalid_chars:
+        name = name.replace(char, "")
+    # Replace slashes with dashes
+    name = name.replace("/", "-").replace("\\", "-")
+    # Remove leading/trailing spaces and dots
+    name = name.strip(" .")
+    return name
+
+
 def reorder_metadata(metadata):
     new_metadata = {}
     # Add keys in defined order if they exist
@@ -90,11 +102,15 @@ def validate_metadata(metadata, filename):
         print(f"ERROR: {filename} missing keys: {', '.join(missing_keys)}")
         return False
 
-    # Validate that title matches filename (without .md extension)
+    # Validate that filename matches title
     title = metadata.get("title")
-    expected_title = filename[:-3]
-    if title != expected_title:
-        print(f"ERROR: {filename} title '{title}' does not match filename '{expected_title}'")
+    if title:
+        base_expected = sanitize_filename(title) + ".md"
+        if not filename.startswith(base_expected):
+            print(f"ERROR: {filename} filename does not match title '{title}'")
+            return False
+    else:
+        print(f"ERROR: {filename} missing title")
         return False
 
     return True
@@ -169,8 +185,18 @@ def process_directory(content_dir, check_only=False):
                     )
 
                     if not check_only:
-                        if post.metadata.get("title") != file[:-3]:
-                            post.metadata["title"] = file[:-3]
+                        title = post.metadata.get("title")
+                        if title and file != title + ".md":
+                            base_filename = sanitize_filename(title)
+                            new_filename = base_filename + ".md"
+                            new_path = os.path.join(root, new_filename)
+                            counter = 1
+                            while os.path.exists(new_path):
+                                new_filename = f"{base_filename} ({counter}).md"
+                                new_path = os.path.join(root, new_filename)
+                                counter += 1
+                            os.rename(file_path, new_path)
+                            print(f"Renamed: {file} -> {new_filename}")
                             needs_change = True
 
                     if needs_change:
@@ -224,4 +250,5 @@ if __name__ == "__main__":
     content_dir = root_dir / "content"
 
     print(f"Scanning {content_dir}...")
-    process_directory(content_dir, check_only=args.check)
+    process_directory(content_dir / "published", check_only=args.check)
+    process_directory(content_dir / "queued", check_only=args.check)
