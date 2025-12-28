@@ -10,8 +10,7 @@ recipe_image: images/recipe-headers/salatka_srodziemnomorska.avif
 video_file: videos/salatka_srodziemnomorska.mp4
 date: 2025-12-28 12:00:00+00:00
 tags:
-- szybkie
-- przekąska
+- grill
 tagline: Świeża sałatka śródziemnomorska z chrupiącymi grzankami, gotowa w 15 minut.
 ingredients:
 - mix sałat
