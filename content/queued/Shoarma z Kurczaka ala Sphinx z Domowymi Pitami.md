@@ -20,7 +20,7 @@ ingredients:
 - passata pomidorowa
 - papryka
 - frytki
-- sałata mieszana
+- mix sałat
 - coleslaw
 servings: 2
 prep_time: 60

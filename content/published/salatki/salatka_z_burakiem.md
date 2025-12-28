@@ -12,7 +12,7 @@ tags:
 tagline: Kolorowa, sycąca sałatka – buraki, jajka, orzechy nerkowca i kremowa mozzarella.
 ingredients:
 - buraki gotowane
-- miks sałat
+- mix sałat
 - suszone pomidory
 - mozzarella
 - orzechy nerkowca

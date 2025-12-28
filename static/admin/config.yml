@@ -209,7 +209,6 @@ _shared_fields:
       - { label: "masło migdałowe", value: "masło migdałowe" }
       - { label: "masło orzechowe", value: "masło orzechowe" }
       - { label: "migdały", value: "migdały" }
-      - { label: "miks sałat", value: "miks sałat" }
       - { label: "mix sałat", value: "mix sałat" }
       - { label: "miód", value: "miód" }
       - { label: "mięso mielone", value: "mięso mielone" }
@@ -326,7 +325,6 @@ _shared_fields:
       - { label: "rzodkiewka", value: "rzodkiewka" }
       - { label: "sałata", value: "sałata" }
       - { label: "sałata lodowa", value: "sałata lodowa" }
-      - { label: "sałata mieszana", value: "sałata mieszana" }
       - { label: "sałata rzymska", value: "sałata rzymska" }
       - { label: "schab pieczony", value: "schab pieczony" }
       - { label: "schab wieprzowy", value: "schab wieprzowy" }

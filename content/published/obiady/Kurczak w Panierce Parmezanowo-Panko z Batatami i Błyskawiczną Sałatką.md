@@ -15,7 +15,7 @@ ingredients:
 - panko
 - parmezan
 - oliwa
-- miks sałat
+- mix sałat
 - cebula czerwona
 - pomidorki cherry
 - cytryna
