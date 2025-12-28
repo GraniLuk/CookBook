@@ -3,8 +3,8 @@ title: Sałatka śródziemnomorska
 author: Nieznany
 categories: salatki
 draft: false
-readyToTest: true
-queued: true
+readyToTest: false
+queued: false
 link: https://www.instagram.com/reels/DSt5KPUCOx8/
 recipe_image: images/recipe-headers/salatka_srodziemnomorska.avif
 video_file: videos/salatka_srodziemnomorska.mp4
