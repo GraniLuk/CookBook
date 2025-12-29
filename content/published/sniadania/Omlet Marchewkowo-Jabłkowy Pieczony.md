@@ -3,6 +3,7 @@ title: Omlet Marchewkowo-Jabłkowy Pieczony
 author: Policzone Szamy
 categories:
 - sniadania
+subcategories: słodkie
 draft: false
 link: https://youtu.be/wmM49OvW780?t=267
 recipe_image: images/recipe-headers/omlet_marchew_jablko.avif

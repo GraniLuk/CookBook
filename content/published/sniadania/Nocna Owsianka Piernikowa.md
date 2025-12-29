@@ -2,6 +2,7 @@
 title: Nocna Owsianka Piernikowa
 author: olawolska.diet
 categories: sniadania
+subcategories: słodkie
 draft: false
 readyToTest: false
 queued: false
