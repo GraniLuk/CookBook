@@ -3,8 +3,8 @@ title: Zapiekana Owsianka Świąteczna
 author: Policzone Szamy
 categories: śniadania
 draft: false
-readyToTest: true
-queued: true
+readyToTest: false
+queued: false
 link: https://youtu.be/nbZB9V3N6LY?t=119
 recipe_image: images/recipe-headers/zapiekana_owsianka_brzoskwinie.avif
 date: 2025-11-01 12:00:00+00:00
