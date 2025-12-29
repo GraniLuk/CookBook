@@ -2,6 +2,7 @@
 title: Całonocna Owsianka Tiramisu
 author: dietaniecud
 categories: śniadania
+subcategories: słodkie
 draft: false
 readyToTest: true
 link: https://www.instagram.com/reels/DSN68ofjeP4/
