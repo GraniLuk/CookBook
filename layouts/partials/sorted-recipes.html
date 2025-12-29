@@ -1,0 +1,17 @@
+{{ $pages := .pages }}
+{{ $template := .template }}
+{{ $columnClass := .columnClass }}
+{{ $sortedPages := slice }}
+{{ range $pages }}
+    {{ $readyToTest := .Params.readyToTest | default true }}
+    {{ $isNotReady := eq $readyToTest false }}
+    {{ $sortNum := 1 }}
+    {{ if $isNotReady }}{{ $sortNum = 0 }}{{ end }}
+    {{ $sortKey := printf "%d%s" $sortNum .Title }}
+    {{ $sortedPages = $sortedPages | append (dict "page" . "key" $sortKey) }}
+{{ end }}
+{{ range sort $sortedPages "key" }}
+<div class="column {{ $columnClass }}">
+{{ partial $template .page }}
+</div>
+{{ end }}

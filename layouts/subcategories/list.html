@@ -6,11 +6,7 @@
         <p class="subtitle">{{ len .Pages }} {{ if eq (len .Pages) 1 }}przepis{{ else }}przepisów{{ end }} w
             podkategorii "{{ .Title }}" ze śniadań</p>
         <div class="columns is-multiline">
-            {{ range .Pages.ByPublishDate.Reverse }}
-            <div class="column is-2-desktop is-3-tablet is-full-mobile">
-                {{ partial "summary.html" . }}
-            </div>
-            {{ end }}
+            {{ partial "sorted-recipes.html" (dict "pages" .Pages "template" "summary.html" "columnClass" "is-2-desktop is-3-tablet is-full-mobile") }}
         </div>
     </div>
 </div>
