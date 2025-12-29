@@ -49,6 +49,7 @@ ORDER = [
 REQUIRED_KEYS = [
     "title",
     "author",
+    "categories",
     "recipe_image",
     "date",
     "tags",
