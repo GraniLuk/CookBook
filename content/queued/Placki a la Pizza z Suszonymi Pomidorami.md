@@ -2,6 +2,7 @@
 title: Placki a la Pizza z Suszonymi Pomidorami
 author: Policzona Szama
 categories: śniadania
+subcategories: słodkie
 draft: false
 readyToTest: true
 link: https://www.youtube.com/watch?v=7WBWsXO6G3g

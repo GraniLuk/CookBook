@@ -3,6 +3,7 @@ title: Kanapka z Wędzonym Łososiem, Rukolą i Pomidorkami
 author: Policzone Szamy
 categories:
 - sniadania
+subcategories: słone  
 draft: false
 readyToTest: true
 link: https://www.youtube.com/watch?v=3qI4Y5dRumA

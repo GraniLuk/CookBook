@@ -2,6 +2,7 @@
 title: KANAPKA z Jajecznicą, Awokado i Suszonymi Pomidorami
 author: Policzona Szama
 categories: śniadania
+subcategories: słone
 draft: false
 readyToTest: true
 link: https://www.youtube.com/watch?v=6GTyB2M09mU

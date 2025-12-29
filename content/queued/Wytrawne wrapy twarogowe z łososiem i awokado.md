@@ -2,6 +2,7 @@
 title: Wytrawne wrapy twarogowe z łososiem i awokado
 author: Policzona Szama
 categories: śniadania
+subcategories: słone
 draft: false
 readyToTest: true
 link: https://www.youtube.com/watch?v=oCjBBuNLGpc

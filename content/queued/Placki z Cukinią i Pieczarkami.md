@@ -2,6 +2,7 @@
 title: Placki z Cukinią i Pieczarkami
 author: Policzona Szama
 categories: śniadania
+subcategories: słone
 draft: false
 readyToTest: true
 link: https://www.youtube.com/watch?v=7WBWsXO6G3g

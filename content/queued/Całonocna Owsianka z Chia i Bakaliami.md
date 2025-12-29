@@ -2,6 +2,7 @@
 title: Całonocna Owsianka z Chia i Bakaliami
 author: Policzone Szamy
 categories: śniadania
+subcategories: słodkie
 draft: false
 readyToTest: true
 queued: true

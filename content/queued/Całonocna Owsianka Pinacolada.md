@@ -2,6 +2,7 @@
 title: Całonocna Owsianka Pinacolada
 author: Policzone Szamy
 categories: śniadania
+subcategories: słodkie
 draft: false
 readyToTest: true
 link: https://www.youtube.com/watch?v=2oRiIWljFJo

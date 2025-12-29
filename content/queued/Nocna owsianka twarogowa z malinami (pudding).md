@@ -2,6 +2,7 @@
 title: Nocna owsianka twarogowa z malinami (pudding)
 author: Policzona Szama
 categories: śniadania
+subcategories: słodkie
 draft: false
 readyToTest: true
 link: https://www.youtube.com/watch?v=oCjBBuNLGpc

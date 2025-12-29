@@ -2,6 +2,7 @@
 title: Szybkie mini serniczki (placuszkami)
 author: Policzona Szama
 categories: śniadania
+subcategories: słodkie
 draft: false
 readyToTest: true
 link: https://www.youtube.com/watch?v=oCjBBuNLGpc

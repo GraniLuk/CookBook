@@ -3,6 +3,7 @@ title: Serek Wiejski z Owocami, Dżemem i Masłem Orzechowym
 author: Policzone Szamy
 categories:
 - sniadania
+subcategories: słodkie
 draft: false
 readyToTest: true
 link: https://youtu.be/3qI4Y5dRumA?t=526

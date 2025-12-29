@@ -2,6 +2,7 @@
 title: Ryż z Jabłkiem i Cynamonem
 author: Michał Wrzosek
 categories: śniadania
+subcategories: słodkie
 draft: false
 readyToTest: true
 link: https://www.youtube.com/watch?v=wIC8JJtZEso

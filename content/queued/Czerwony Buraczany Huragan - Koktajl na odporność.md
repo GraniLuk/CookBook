@@ -1,8 +1,8 @@
 ---
 title: Czerwony Buraczany Huragan - Koktajl na odporność
 author: Policzona Szama
-categories:
-- napoje
+categories: śniadania
+subcategories: słodkie
 draft: false
 readyToTest: true
 link: https://www.youtube.com/watch?v=RUPfihOOViA

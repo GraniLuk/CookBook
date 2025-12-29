@@ -2,6 +2,7 @@
 title: Szybki Klasyk - Kanapka z serem i szynką
 author: Policzona Szama
 categories: śniadania
+subcategories: słone
 draft: false
 readyToTest: true
 link: https://www.youtube.com/watch?v=6GTyB2M09mU
