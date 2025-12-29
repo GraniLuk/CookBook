@@ -2,26 +2,29 @@
 title: Zapiekana Owsianka Świąteczna
 author: Policzone Szamy
 categories: śniadania
+subcategories: słodkie
 draft: false
 readyToTest: false
 queued: false
-link: https://youtu.be/nbZB9V3N6LY?t=119
+favourite: false
 recipe_image: images/recipe-headers/zapiekana_owsianka_brzoskwinie.avif
 date: 2025-11-01 12:00:00+00:00
 tags:
-- szybkie
-- owsianka
-tagline: Rozgrzewająca zapiekana owsianka z brzoskwiniami i bakaliami, idealna na zimowe dni.
+  - szybkie
+  - owsianka
+tagline: Rozgrzewająca zapiekana owsianka z brzoskwiniami i bakaliami, idealna
+  na zimowe dni.
+link: https://youtu.be/nbZB9V3N6LY?t=119
 ingredients:
-- płatki owsiane
-- mleko
-- odżywka białkowa
-- masło orzechowe
-- jajka
-- brzoskwinie konserwowe
-- orzech włoski
-- żurawina suszona
-- mandarynka
+  - płatki owsiane
+  - mleko
+  - odżywka białkowa
+  - masło orzechowe
+  - jajka
+  - brzoskwinie konserwowe
+  - orzech włoski
+  - żurawina suszona
+  - mandarynka
 servings: 3
 prep_time: 15
 cook: true
