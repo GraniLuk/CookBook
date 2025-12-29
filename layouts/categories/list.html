@@ -21,9 +21,10 @@
         </div>
         {{ end }}
         <div class="columns is-multiline">
-            {{ range .Pages.ByPublishDate.Reverse }}
+            {{ $sortedPages := partial "sort-recipe-pages.html" .Pages | transform.Unmarshal }}
+            {{ range sort $sortedPages "key" }}
             <div class="column is-2-desktop is-3-tablet is-full-mobile">
-                {{ partial "summary.html" . }}
+                {{ partial "summary.html" .page }}
             </div>
             {{ end }}
         </div>
