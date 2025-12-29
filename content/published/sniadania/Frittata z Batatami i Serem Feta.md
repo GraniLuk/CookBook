@@ -6,6 +6,7 @@ categories:
 subcategories:
 - słone
 draft: false
+readyToTest: false
 link: https://www.youtube.com/watch?v=prsZbulipCk
 recipe_image: images/recipe-headers/fritatta.avif
 video_file: videos/Frittata z batatem, fetą i szpinakiem - szybkie śniadanie!.webm

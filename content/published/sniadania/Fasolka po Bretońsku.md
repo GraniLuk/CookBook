@@ -4,6 +4,7 @@ author: Instynkt po Polsku
 categories: śniadania
 subcategories: słone
 draft: false
+readyToTest: false
 favourite: true
 link: https://www.youtube.com/watch?v=RwzTn7o7OkY
 recipe_image: images/recipe-headers/fasolka_po_bretonsku_instant_pot.avif

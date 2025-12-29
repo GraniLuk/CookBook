@@ -3,6 +3,7 @@ title: Gnocchi z Kurczakiem w Sosie Szpinakowo-Brokułowym z Gorgonzolą
 author: Policzona Szama
 categories: obiady
 draft: false
+readyToTest: false
 link: https://www.youtube.com/watch?v=iK4ab0eXFJY
 recipe_image: images/recipe-headers/gnocchi_kurczak_brokul.avif
 date: 2025-10-27 12:00:00+00:00

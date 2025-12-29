@@ -3,6 +3,7 @@ title: Kotlety z Piersi Kurczaka w Panierce Panko
 author: Autor Przepisu
 categories: obiady
 draft: false
+readyToTest: false
 link: ''
 recipe_image: images/recipe-headers/kurczak_panko_kotlety.avif
 date: 2025-10-27 12:10:00+00:00

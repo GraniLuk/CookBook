@@ -3,6 +3,7 @@ title: Kurczak w Sosie Curry z Ryżem i Brokułami na Parze
 author: Policzone Szamy
 categories: obiady
 draft: false
+readyToTest: false
 link: https://www.youtube.com/watch?v=gtkbJZfsios
 recipe_image: images/recipe-headers/kurczak_curry_ryz_brokuły.avif
 date: 2025-07-06 16:55:00+00:00

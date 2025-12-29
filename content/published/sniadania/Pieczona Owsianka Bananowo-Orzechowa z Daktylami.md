@@ -6,6 +6,7 @@ categories:
 subcategories:
 - słodkie
 draft: false
+readyToTest: false
 link: https://www.youtube.com/shorts/mp41DOJiTco
 recipe_image: images/recipe-headers/owsianka_daktylowa.avif
 date: 2025-06-19 12:00:00+00:00

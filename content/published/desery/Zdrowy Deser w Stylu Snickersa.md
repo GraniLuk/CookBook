@@ -3,6 +3,7 @@ title: Zdrowy Deser w Stylu Snickersa
 author: Autor Przepisu
 categories: desery
 draft: false
+readyToTest: false
 link: https://www.youtube.com/watch?v=KoaGLBK5rhI
 recipe_image: images/defaultImage.avif
 date: 2025-06-19 10:00:00+00:00

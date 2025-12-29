@@ -4,6 +4,7 @@ author: Policzone Szamy
 categories:
 - obiady
 draft: false
+readyToTest: false
 link: https://www.youtube.com/watch?v=EavrO0GHCzQ
 recipe_image: images/recipe-headers/losos_z_majonezowa_chmurka.avif
 date: 2025-09-04 12:00:00+00:00

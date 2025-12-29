@@ -4,6 +4,7 @@ author: Policzone Szamy
 categories: śniadania
 subcategories: słodkie
 draft: false
+readyToTest: false
 recipe_image: images/recipe-headers/placki_z_dyni.avif
 date: 2025-11-03 12:00:00+00:00
 tags:

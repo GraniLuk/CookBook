@@ -6,6 +6,7 @@ categories:
 subcategories:
 - słone
 draft: false
+readyToTest: false
 recipe_image: images/recipe-headers/zapiekanki_mozzarella_szpinak.avif
 video_file: videos/zapiekanki_z_mozarella_pesto.mp4
 date: 2025-10-24 12:30:00+00:00

@@ -4,6 +4,7 @@ author: Policzone Szamy
 categories:
 - salatki
 draft: false
+readyToTest: false
 link: ''
 recipe_image: images/recipe-headers/salatka_brokul_slonecznik.avif
 date: 2025-07-05 17:04:00+00:00

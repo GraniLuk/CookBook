@@ -6,6 +6,7 @@ categories:
 subcategories:
 - słodkie
 draft: false
+readyToTest: false
 link: https://youtu.be/SQ4saBQrBYc?t=115
 recipe_image: images/defaultImage.avif
 date: 2025-06-19 12:00:00+00:00

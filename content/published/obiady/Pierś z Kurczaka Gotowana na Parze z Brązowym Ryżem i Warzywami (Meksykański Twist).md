@@ -3,6 +3,7 @@ title: Pierś z Kurczaka Gotowana na Parze z Brązowym Ryżem i Warzywami (Meksy
 author: Autor Przepisu
 categories: obiady
 draft: false
+readyToTest: false
 recipe_image: images/recipe-headers/kurczak_na_parze.avif
 date: 2025-06-18 12:00:00+00:00
 tags:

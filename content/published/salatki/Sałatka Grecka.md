@@ -3,6 +3,7 @@ title: Sałatka Grecka
 author: Autor Przepisu
 categories: salatki
 draft: false
+readyToTest: false
 recipe_image: images/defaultImage.avif
 date: 2025-06-18 12:00:00+00:00
 tags: []

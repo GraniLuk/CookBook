@@ -3,6 +3,7 @@ title: Sałatka Big Mac
 author: Policzona Szama
 categories: salatki
 draft: false
+readyToTest: false
 link: https://www.youtube.com/watch?v=5dtlGZke2Zg
 recipe_image: images/recipe-headers/salatka_big_mac.avif
 date: 2025-08-18 12:00:00+00:00

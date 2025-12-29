@@ -3,6 +3,7 @@ title: Chili Con Carne w Instant Pot
 author: Autor Przepisu
 categories: obiady
 draft: false
+readyToTest: false
 recipe_image: images/recipe-headers/chili-con-carne.avif
 date: 2025-06-18 12:00:00+00:00
 tags:

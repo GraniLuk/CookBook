@@ -3,6 +3,7 @@ title: Pikantna Potrawka z Kurczakiem i Ziemniakami (Jednogarnkowa)
 author: Policzone Szamy
 categories: obiady
 draft: false
+readyToTest: false
 link: https://www.youtube.com/watch?v=7js_OwaaDCQ
 recipe_image: images/recipe-headers/potrawka_kurczak_ziemniaki.avif
 date: 2025-11-20 12:00:00+00:00

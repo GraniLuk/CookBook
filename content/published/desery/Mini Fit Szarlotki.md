@@ -5,6 +5,7 @@ categories:
 - desery
 subcategories: null
 draft: false
+readyToTest: false
 recipe_image: images/recipe-headers/mini_fit_szarlotki.avif
 video_file: videos/mini_fit_szarlotki.mp4
 date: 2025-10-03 12:00:00+00:00

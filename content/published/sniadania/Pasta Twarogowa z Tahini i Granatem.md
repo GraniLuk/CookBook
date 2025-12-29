@@ -4,6 +4,7 @@ author: Anonimowy
 categories: śniadania
 subcategories: słodkie
 draft: false
+readyToTest: false
 favourite: false
 link: null
 recipe_image: images/recipe-headers/pasta_twarogowa_tahini_granat.avif

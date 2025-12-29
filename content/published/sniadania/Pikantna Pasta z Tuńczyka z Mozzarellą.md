@@ -5,6 +5,7 @@ categories: śniadania
 subcategories:
 - słone
 draft: false
+readyToTest: false
 recipe_image: images/recipe-headers/pasta_pikantna_z_tunczyka.avif
 video_file: videos/pasta_pikanta_z_tunczyka.mp4
 date: 2025-10-21 12:00:00+00:00

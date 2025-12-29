@@ -4,6 +4,7 @@ author: Bartłomiej Włodarczyk
 categories:
 - desery
 draft: false
+readyToTest: false
 link: null
 recipe_image: images/recipe-headers/brownie_kinder_bueno.avif
 video_file: videos/brownie_kinder_bueno.mp4

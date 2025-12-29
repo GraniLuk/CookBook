@@ -6,6 +6,7 @@ categories:
 subcategories:
 - słone
 draft: false
+readyToTest: false
 recipe_image: images/recipe-headers/jajka_zapiekane_z_szynka_warzywami.avif
 date: 2025-06-20 12:00:00+00:00
 tags: []

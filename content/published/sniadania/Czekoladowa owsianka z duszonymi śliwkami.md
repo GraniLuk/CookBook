@@ -6,6 +6,7 @@ categories:
 subcategories:
 - słodkie
 draft: false
+readyToTest: false
 recipe_image: images/recipe-headers/owsianka_z_sliwkami.avif
 video_file: videos/owsianka_z_sliwkami.mp4
 date: 2025-10-02 12:00:00+00:00

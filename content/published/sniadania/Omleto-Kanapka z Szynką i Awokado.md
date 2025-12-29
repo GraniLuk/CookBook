@@ -6,6 +6,7 @@ categories:
 subcategories:
 - słone
 draft: false
+readyToTest: false
 link: https://www.youtube.com/watch?v=RR5V2Wcxk0w
 recipe_image: images/recipe-headers/omletoKanapka.avif
 date: 2025-06-18 12:00:00+00:00

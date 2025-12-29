@@ -3,6 +3,7 @@ title: Gulasz Z Łopatki Wieprzowej
 author: Autor Przepisu
 categories: obiady
 draft: false
+readyToTest: false
 recipe_image: images/recipe-headers/gulasz_z_lopatki_wieprzowej.avif
 date: 2025-06-18 12:00:00+00:00
 tags:

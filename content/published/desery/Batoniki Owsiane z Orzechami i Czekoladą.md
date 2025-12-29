@@ -4,6 +4,7 @@ author: Centrum Respo
 categories:
 - desery
 draft: false
+readyToTest: false
 link: https://centrumrespo.pl/przepisy/owsiane-batoniki-z-czekolada-orzechami-arachidowymi-i-miodem/
 recipe_image: images/recipe-headers/Batoniki_owsiane_orzechowo_czekoladowe.avif
 date: 2025-09-02 12:00:00+00:00

@@ -5,6 +5,7 @@ categories:
 - sniadania
 subcategories: słodkie
 draft: false
+readyToTest: false
 link: https://youtu.be/wmM49OvW780?t=267
 recipe_image: images/recipe-headers/omlet_marchew_jablko.avif
 date: 2025-10-28 12:35:00+00:00

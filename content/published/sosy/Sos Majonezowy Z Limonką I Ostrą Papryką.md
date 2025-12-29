@@ -3,6 +3,7 @@ title: Sos Majonezowy Z Limonką I Ostrą Papryką
 author: Autor Przepisu
 categories: sosy
 draft: false
+readyToTest: false
 recipe_image: images/recipe-headers/sos_majonezowy.avif
 date: 2025-06-23 12:00:00+00:00
 tags:

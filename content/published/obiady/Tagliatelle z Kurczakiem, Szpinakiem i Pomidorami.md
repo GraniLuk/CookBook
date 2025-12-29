@@ -3,6 +3,7 @@ title: Tagliatelle z Kurczakiem, Szpinakiem i Pomidorami
 author: barlomiej_wlodarczyk
 categories: obiady
 draft: false
+readyToTest: false
 recipe_image: images/recipe-headers/tagliatelle_kurczak_szpinak.avif
 video_file: videos/tagiatelle_z_szpinakiem.mp4
 date: 2025-10-24 12:00:00+00:00

@@ -50,6 +50,8 @@ REQUIRED_KEYS = [
     "title",
     "author",
     "categories",
+    "draft",
+    "readyToTest",
     "recipe_image",
     "date",
     "tags",
@@ -136,8 +138,9 @@ def validate_metadata(metadata, filename):
             return False
 
         # Check if śniadania is present, then validate subcategories
-        is_sniadania = (isinstance(categories, str) and categories == "śniadania") or \
-                       (isinstance(categories, list) and "śniadania" in categories)
+        is_sniadania = (isinstance(categories, str) and categories == "śniadania") or (
+            isinstance(categories, list) and "śniadania" in categories
+        )
         if is_sniadania:
             subcategories = metadata.get("subcategories")
             if not subcategories:

@@ -6,6 +6,7 @@ categories:
 subcategories:
 - słodkie
 draft: false
+readyToTest: false
 recipe_image: images/recipe-headers/owsianka_migdalowa.avif
 video_file: videos/owsianka_migdalowa.mp4
 date: 2025-10-11 07:00:00+00:00

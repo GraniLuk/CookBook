@@ -6,6 +6,7 @@ categories:
 subcategories:
 - słone
 draft: false
+readyToTest: false
 recipe_image: images/recipe-headers/twarog_z_rzodkiewka.avif
 date: 2025-10-23 11:00:00+00:00
 tags:

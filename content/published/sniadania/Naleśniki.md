@@ -6,6 +6,7 @@ categories:
 subcategories:
 - słodkie
 draft: false
+readyToTest: false
 recipe_image: images/recipe-headers/nalesniki.avif
 date: 2025-06-19 12:00:00+00:00
 tags:

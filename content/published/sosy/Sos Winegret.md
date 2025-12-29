@@ -3,6 +3,7 @@ title: Sos Winegret
 author: Policzone Szamy
 categories: sosy
 draft: false
+readyToTest: false
 link: ''
 recipe_image: images/recipe-headers/sos_winegret.avif
 date: 2025-07-05 17:52:00+00:00

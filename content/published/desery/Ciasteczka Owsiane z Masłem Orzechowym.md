@@ -3,6 +3,7 @@ title: Ciasteczka Owsiane z Masłem Orzechowym
 author: Policzone Szamy
 categories: desery
 draft: false
+readyToTest: false
 recipe_image: images/recipe-headers/ciasteczka_owsiane_maslo.avif
 video_file: videos/ciasteczka_owsiane_maslo.mp4
 date: 2025-11-28 10:00:00+00:00

@@ -3,6 +3,7 @@ title: Włoski Rozgrzewający Kurczak z Makaronem i Warzywami
 author: Policzone Szamy
 categories: obiady
 draft: false
+readyToTest: false
 link: https://youtu.be/nbZB9V3N6LY?t=277
 recipe_image: images/recipe-headers/kurczak_makaron_warzywa.avif
 date: 2025-11-01 12:00:00+00:00

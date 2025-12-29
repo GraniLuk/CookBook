@@ -6,6 +6,7 @@ categories:
 subcategories:
 - słone
 draft: false
+readyToTest: false
 link: https://youtu.be/3qI4Y5dRumA?t=174
 recipe_image: images/defaultImage.avif
 date: 2025-06-18 12:00:00+00:00

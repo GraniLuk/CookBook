@@ -6,6 +6,7 @@ categories:
 subcategories:
 - słodkie
 draft: false
+readyToTest: false
 favourite: true
 link: https://www.youtube.com/watch?v=xsvyi8sl8xM
 recipe_image: images/recipe-headers/granola.avif

@@ -4,6 +4,7 @@ author: anpsk
 categories:
 - salatki
 draft: false
+readyToTest: false
 link: ''
 recipe_image: images/recipe-headers/salatka_z_burakiem.avif
 date: 2025-10-27 12:00:00+00:00

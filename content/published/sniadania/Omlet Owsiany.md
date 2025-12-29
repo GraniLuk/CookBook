@@ -6,6 +6,7 @@ categories:
 subcategories:
 - słodkie
 draft: false
+readyToTest: false
 recipe_image: images/recipe-headers/omlet_owsiany2.avif
 date: 2025-06-18 12:00:00+00:00
 tags: []

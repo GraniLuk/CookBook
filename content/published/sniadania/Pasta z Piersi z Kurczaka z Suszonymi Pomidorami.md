@@ -6,6 +6,7 @@ categories:
 subcategories:
 - słone
 draft: false
+readyToTest: false
 link: ''
 recipe_image: images/defaultImage.avif
 date: 2025-08-12 12:00:00+00:00

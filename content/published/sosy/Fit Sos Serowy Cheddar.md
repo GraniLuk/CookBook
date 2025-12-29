@@ -3,6 +3,7 @@ title: Fit Sos Serowy Cheddar
 author: Policzone Szama
 categories: sosy
 draft: false
+readyToTest: false
 link: https://www.youtube.com/watch?v=AIlwvEvCONM
 recipe_image: images/recipe-headers/sos_serowy.avif
 date: 2025-06-27 12:15:00+00:00

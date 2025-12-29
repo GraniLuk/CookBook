@@ -4,6 +4,7 @@ author: Policzona Szama
 categories:
 - obiady
 draft: false
+readyToTest: false
 link: https://youtu.be/vZ52mlw4yRs?t=447
 recipe_image: images/recipe-headers/spaghetti_bolognese.avif
 date: 2025-10-11 12:00:00+00:00

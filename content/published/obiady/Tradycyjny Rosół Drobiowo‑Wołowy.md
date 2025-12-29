@@ -3,6 +3,7 @@ title: Tradycyjny Rosół Drobiowo‑Wołowy
 author: Policzone Szamy
 categories: obiady
 draft: false
+readyToTest: false
 favourite: true
 link: https://www.youtube.com/watch?v=v4IZxeOCFss
 recipe_image: images/recipe-headers/rosol_tradycyjny.avif

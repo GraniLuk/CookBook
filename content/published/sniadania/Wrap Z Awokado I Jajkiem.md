@@ -6,6 +6,7 @@ categories:
 subcategories:
 - słone
 draft: false
+readyToTest: false
 recipe_image: images/recipe-headers/wrap_z_awokado.avif
 video_file: videos/wrap_z_awokado.mp4
 date: 2025-06-18 12:00:00+00:00

@@ -3,6 +3,7 @@ title: Jagodzianki Taty
 author: Teść Krzysztof
 categories: desery
 draft: false
+readyToTest: false
 link: null
 recipe_image: images/recipe-headers/jagodzianki.avif
 date: 2025-06-29 19:37:00+00:00

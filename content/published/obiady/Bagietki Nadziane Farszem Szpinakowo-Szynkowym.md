@@ -3,6 +3,7 @@ title: Bagietki Nadziane Farszem Szpinakowo-Szynkowym
 author: Policzona Szama
 categories: obiady
 draft: false
+readyToTest: false
 link: https://www.youtube.com/watch?v=O2d6gztzOjw
 recipe_image: images/recipe-headers/bagietki_szpinak_szynka.avif
 date: 2025-10-31 07:00:00+00:00

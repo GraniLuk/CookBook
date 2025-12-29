@@ -3,6 +3,7 @@ title: Łosoś Pieczony Z Ziemniakami I Sosem Szparagowym
 author: Autor Przepisu
 categories: obiady
 draft: false
+readyToTest: false
 recipe_image: images/recipe-headers/losos_pieczony_z_ziemniakami.avif
 date: 2025-06-19 12:00:00+00:00
 tags:
