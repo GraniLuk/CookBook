@@ -25,63 +25,62 @@
         </p>
 
         <div class="columns is-multiline">
-            {{ $sortedPages := partial "sort-recipe-pages.html" $safePages | transform.Unmarshal }}
-            {{ range sort $sortedPages "key" }}
+            {{ range $safePages.ByPublishDate.Reverse }}
             <div class="column is-4">
                 <div class="card">
                     <div class="card-image">
                         <figure class="image is-4by3">
                             {{- $image_url := partial "asset-url.html" "/images/defaultImage.avif" -}}
-                            {{- if and .page.Params.recipe_image (fileExists (printf "static/%s" .page.Params.recipe_image)) -}}
-                            {{- $image_url = partial "asset-url.html" (printf "/%s" .page.Params.recipe_image) -}}
+                            {{- if and .Params.recipe_image (fileExists (printf "static/%s" .Params.recipe_image)) -}}
+                            {{- $image_url = partial "asset-url.html" (printf "/%s" .Params.recipe_image) -}}
                             {{- end -}}
-                            <img src="{{ $image_url }}" alt="{{ .page.Title }}">
+                            <img src="{{ $image_url }}" alt="{{ .Title }}">
                         </figure>
                     </div>
                     <div class="card-content">
                         <div class="media">
                             <div class="media-content">
                                 <p class="title is-5">
-                                    <a href="{{ .page.Permalink }}">{{ .page.Title }}</a>
+                                    <a href="{{ .Permalink }}">{{ .Title }}</a>
                                     {{/* Dodajemy zielony znaczek dla bezpiecznych przepisów */}}
-                                    {{ partial "fodmap-badge.html" .page }}
+                                    {{ partial "fodmap-badge.html" . }}
                                 </p>
-                                {{ if .page.Params.tagline }}
-                                <p class="subtitle is-6">{{ .page.Params.tagline }}</p>
+                                {{ if .Params.tagline }}
+                                <p class="subtitle is-6">{{ .Params.tagline }}</p>
                                 {{ end }}
                             </div>
                         </div>
 
                         <div class="content">
-                            {{ if .page.Params.servings }}
+                            {{ if .Params.servings }}
                             <span class="tag is-light">
-                                <i class="fas fa-users pr-1"></i>{{ .page.Params.servings }} porcji
+                                <i class="fas fa-users pr-1"></i>{{ .Params.servings }} porcji
                             </span>
                             {{ end }}
 
-                            {{ if .page.Params.prep_time }}
+                            {{ if .Params.prep_time }}
                             <span class="tag is-light">
-                                <i class="fas fa-clock pr-1"></i>{{ .page.Params.prep_time }} min
+                                <i class="fas fa-clock pr-1"></i>{{ .Params.prep_time }} min
                             </span>
                             {{ end }}
 
-                            {{ if .page.Params.calories }}
+                            {{ if .Params.calories }}
                             <span class="tag is-light">
-                                <i class="fas fa-fire pr-1"></i>{{ .page.Params.calories }} kcal
+                                <i class="fas fa-fire pr-1"></i>{{ .Params.calories }} kcal
                             </span>
                             {{ end }}
 
                             {{/* Pokazujemy informacje FODMAP */}}
-                            {{ if .page.Params.fodmap }}
+                            {{ if .Params.fodmap }}
                             <br>
                             <span class="tag is-success is-light">
-                                <i class="fas fa-check pr-1"></i>{{ .page.Params.fodmap.serving_ok }}
+                                <i class="fas fa-check pr-1"></i>{{ .Params.fodmap.serving_ok }}
                             </span>
                             {{ end }}
 
                             <br><br>
-                            {{ if .page.Params.tags }}
-                            {{ range .page.Params.tags }}
+                            {{ if .Params.tags }}
+                            {{ range .Params.tags }}
                             <span class="tag is-primary is-light">{{ . }}</span>
                             {{ end }}
                             {{ end }}
@@ -108,62 +107,61 @@
         </div>
 
         <div class="columns is-multiline">
-            {{ $sortedPages := partial "sort-recipe-pages.html" $dependsPages | transform.Unmarshal }}
-            {{ range sort $sortedPages "key" }}
+            {{ range $dependsPages.ByPublishDate.Reverse }}
             <div class="column is-4">
                 <div class="card">
                     <div class="card-image">
                         <figure class="image is-4by3">
                             {{- $image_url := partial "asset-url.html" "/images/defaultImage.avif" -}}
-                            {{- if and .page.Params.recipe_image (fileExists (printf "static/%s" .page.Params.recipe_image)) -}}
-                            {{- $image_url = partial "asset-url.html" (printf "/%s" .page.Params.recipe_image) -}}
+                            {{- if and .Params.recipe_image (fileExists (printf "static/%s" .Params.recipe_image)) -}}
+                            {{- $image_url = partial "asset-url.html" (printf "/%s" .Params.recipe_image) -}}
                             {{- end -}}
-                            <img src="{{ $image_url }}" alt="{{ .page.Title }}">
+                            <img src="{{ $image_url }}" alt="{{ .Title }}">
                         </figure>
                     </div>
                     <div class="card-content">
                         <div class="media">
                             <div class="media-content">
                                 <p class="title is-5">
-                                    <a href="{{ .page.Permalink }}">{{ .page.Title }}</a>
-                                    {{ partial "fodmap-badge.html" .page }}
+                                    <a href="{{ .Permalink }}">{{ .Title }}</a>
+                                    {{ partial "fodmap-badge.html" . }}
                                 </p>
-                                {{ if .page.Params.tagline }}
-                                <p class="subtitle is-6">{{ .page.Params.tagline }}</p>
+                                {{ if .Params.tagline }}
+                                <p class="subtitle is-6">{{ .Params.tagline }}</p>
                                 {{ end }}
                             </div>
                         </div>
 
                         <div class="content">
-                            {{ if .page.Params.servings }}
+                            {{ if .Params.servings }}
                             <span class="tag is-light">
-                                <i class="fas fa-users pr-1"></i>{{ .page.Params.servings }} porcji
+                                <i class="fas fa-users pr-1"></i>{{ .Params.servings }} porcji
                             </span>
                             {{ end }}
 
-                            {{ if .page.Params.prep_time }}
+                            {{ if .Params.prep_time }}
                             <span class="tag is-light">
-                                <i class="fas fa-clock pr-1"></i>{{ .page.Params.prep_time }} min
+                                <i class="fas fa-clock pr-1"></i>{{ .Params.prep_time }} min
                             </span>
                             {{ end }}
 
-                            {{ if .page.Params.calories }}
+                            {{ if .Params.calories }}
                             <span class="tag is-light">
-                                <i class="fas fa-fire pr-1"></i>{{ .page.Params.calories }} kcal
+                                <i class="fas fa-fire pr-1"></i>{{ .Params.calories }} kcal
                             </span>
                             {{ end }}
 
                             {{/* Pokazujemy informacje FODMAP */}}
-                            {{ if .page.Params.fodmap }}
+                            {{ if .Params.fodmap }}
                             <br>
                             <span class="tag is-success is-light">
-                                <i class="fas fa-check pr-1"></i>{{ .page.Params.fodmap.serving_ok }}
+                                <i class="fas fa-check pr-1"></i>{{ .Params.fodmap.serving_ok }}
                             </span>
                             {{ end }}
 
                             <br><br>
-                            {{ if .page.Params.tags }}
-                            {{ range .page.Params.tags }}
+                            {{ if .Params.tags }}
+                            {{ range .Params.tags }}
                             <span class="tag is-primary is-light">{{ . }}</span>
                             {{ end }}
                             {{ end }}
@@ -181,53 +179,52 @@
             "{{ .Title }}"</p>
 
         <div class="columns is-multiline">
-            {{ $sortedPages := partial "sort-recipe-pages.html" .Pages | transform.Unmarshal }}
-            {{ range sort $sortedPages "key" }}
+            {{ range .Pages.ByPublishDate.Reverse }}
             <div class="column is-4">
                 <div class="card">
                     <div class="card-image">
                         <figure class="image is-4by3">
                             {{- $image_url := partial "asset-url.html" "/images/defaultImage.avif" -}}
-                            {{- if and .page.Params.recipe_image (fileExists (printf "static/%s" .page.Params.recipe_image)) -}}
-                            {{- $image_url = partial "asset-url.html" (printf "/%s" .page.Params.recipe_image) -}}
+                            {{- if and .Params.recipe_image (fileExists (printf "static/%s" .Params.recipe_image)) -}}
+                            {{- $image_url = partial "asset-url.html" (printf "/%s" .Params.recipe_image) -}}
                             {{- end -}}
-                            <img src="{{ $image_url }}" alt="{{ .page.Title }}">
+                            <img src="{{ $image_url }}" alt="{{ .Title }}">
                         </figure>
                     </div>
                     <div class="card-content">
                         <div class="media">
                             <div class="media-content">
                                 <p class="title is-5">
-                                    <a href="{{ .page.Permalink }}">{{ .page.Title }}</a>
+                                    <a href="{{ .Permalink }}">{{ .Title }}</a>
                                 </p>
-                                {{ if .page.Params.tagline }}
-                                <p class="subtitle is-6">{{ .page.Params.tagline }}</p>
+                                {{ if .Params.tagline }}
+                                <p class="subtitle is-6">{{ .Params.tagline }}</p>
                                 {{ end }}
                             </div>
                         </div>
 
                         <div class="content">
-                            {{ if .page.Params.servings }}
+                            {{ if .Params.servings }}
                             <span class="tag is-light">
-                                <i class="fas fa-users pr-1"></i>{{ .page.Params.servings }} porcji
+                                <i class="fas fa-users pr-1"></i>{{ .Params.servings }} porcji
                             </span>
                             {{ end }}
 
-                            {{ if .page.Params.prep_time }}
+                            {{ if .Params.prep_time }}
                             <span class="tag is-light">
-                                <i class="fas fa-clock pr-1"></i>{{ .page.Params.prep_time }} min
+                                <i class="fas fa-clock pr-1"></i>{{ .Params.prep_time }} min
                             </span>
                             {{ end }}
 
-                            {{ if .page.Params.calories }}
+                            {{ if .Params.calories }}
                             <span class="tag is-light">
-                                <i class="fas fa-fire pr-1"></i>{{ .page.Params.calories }} kcal
+                                <i class="fas fa-fire pr-1"></i>{{ .Params.calories }} kcal
                             </span>
                             {{ end }}
 
                             <br><br>
-                            {{ if .page.Params.tags }}
-                            {{ range .page.Params.tags }}
+                            {{ if .Params.tags }}
+                            {{ range .Params.tags }}
                             <span class="tag is-primary is-light">{{ . }}</span>
                             {{ end }}
                             {{ end }}
