@@ -92,6 +92,11 @@ def reorder_metadata(metadata):
     return new_metadata
 
 
+# Define valid categories
+VALID_CATEGORIES = ["śniadania", "obiady", "salatki", "desery", "sosy"]
+VALID_SUBCATEGORIES_FOR_SNIADANIA = ["słodkie", "słone"]
+
+
 def validate_metadata(metadata, filename):
     # Skip validation for drafts or if draft is missing
     if metadata.get("draft") is True or metadata.get("draft") is None:
@@ -114,6 +119,43 @@ def validate_metadata(metadata, filename):
         print(f"ERROR: {filename} missing title")
         return False
 
+    # Validate categories
+    categories = metadata.get("categories")
+    if categories:
+        if isinstance(categories, str):
+            if categories not in VALID_CATEGORIES:
+                print(f"ERROR: {filename} invalid category: {categories}")
+                return False
+        elif isinstance(categories, list):
+            for cat in categories:
+                if cat not in VALID_CATEGORIES:
+                    print(f"ERROR: {filename} invalid category: {cat}")
+                    return False
+        else:
+            print(f"ERROR: {filename} categories must be string or list")
+            return False
+
+        # Check if śniadania is present, then validate subcategories
+        is_sniadania = (isinstance(categories, str) and categories == "śniadania") or \
+                       (isinstance(categories, list) and "śniadania" in categories)
+        if is_sniadania:
+            subcategories = metadata.get("subcategories")
+            if not subcategories:
+                print(f"ERROR: {filename} subcategories required for śniadania")
+                return False
+            if isinstance(subcategories, str):
+                if subcategories not in VALID_SUBCATEGORIES_FOR_SNIADANIA:
+                    print(f"ERROR: {filename} invalid subcategory: {subcategories}")
+                    return False
+            elif isinstance(subcategories, list):
+                for sub in subcategories:
+                    if sub not in VALID_SUBCATEGORIES_FOR_SNIADANIA:
+                        print(f"ERROR: {filename} invalid subcategory: {sub}")
+                        return False
+            else:
+                print(f"ERROR: {filename} subcategories must be string or list")
+                return False
+
     return True
 
 
@@ -134,6 +176,18 @@ def process_directory(content_dir, check_only=False):
                 try:
                     # Load the file
                     post = frontmatter.load(file_path)
+
+                    # Normalize categories
+                    if "categories" in post.metadata:
+                        categories = post.metadata["categories"]
+                        if isinstance(categories, str):
+                            if categories == "sniadania":
+                                post.metadata["categories"] = "śniadania"
+                        elif isinstance(categories, list):
+                            for i, cat in enumerate(categories):
+                                if cat == "sniadania":
+                                    categories[i] = "śniadania"
+                            post.metadata["categories"] = categories
 
                     # Check and fix future dates
                     date_changed = False
