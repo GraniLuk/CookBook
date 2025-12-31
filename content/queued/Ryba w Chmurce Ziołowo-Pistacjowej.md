@@ -15,7 +15,7 @@ tagline: Pstrąg z ziołowo-pistacjową chmurką, ryżem i grillowaną cukinią.
 ingredients:
 - ryż czerwony
 - pistacje
-- pietruszka
+- pietruszka natka
 - rozmaryn
 - cytryna
 - pomarańcza

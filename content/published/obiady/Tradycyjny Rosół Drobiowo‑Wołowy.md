@@ -17,8 +17,8 @@ ingredients:
 - kotlet z antrykotu z kością
 - kości cielęce
 - marchew
-- pietruszka
-- seler
+- pietruszka natka
+- seler korzeń
 - por
 - cebula
 - czosnek

@@ -20,7 +20,7 @@ ingredients:
 - cebula
 - papryka
 - bataty
-- seler
+- seler korzeń
 - makaron lasagne
 - ser parmezan
 servings: 4

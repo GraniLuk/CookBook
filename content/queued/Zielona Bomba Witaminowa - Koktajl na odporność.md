@@ -19,7 +19,7 @@ ingredients:
 - jarmuż
 - cytryna
 - pomarańcza
-- pietruszka
+- pietruszka natka
 servings: 2
 prep_time: 5
 cook: false

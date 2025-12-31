@@ -282,9 +282,9 @@ _shared_fields:
       - { label: "pestki słonecznika", value: "pestki słonecznika" }
       - { label: "pesto", value: "pesto" }
       - { label: "pieczarki", value: "pieczarki" }
-      - { label: "pieczywo rustykalne", value: "pieczywo rustykalne" }
       - { label: "pierś z kurczaka", value: "pierś z kurczaka" }
-      - { label: "pietruszka", value: "pietruszka" }
+      - { label: "pietruszka korzeń", value: "pietruszka korzeń" }
+      - { label: "pietruszka natka", value: "pietruszka natka" }
       - { label: "pistacje", value: "pistacje" }
       - { label: "polędwica wieprzowa", value: "polędwica wieprzowa" }
       - { label: "polędwiczki kurczaka", value: "polędwiczki kurczaka" }
@@ -329,8 +329,9 @@ _shared_fields:
       - { label: "sałata rzymska", value: "sałata rzymska" }
       - { label: "schab pieczony", value: "schab pieczony" }
       - { label: "schab wieprzowy", value: "schab wieprzowy" }
-      - { label: "seler", value: "seler" }
+      - { label: "seler korzeń", value: "seler korzeń" }
       - { label: "ser", value: "ser" }
+      - { label: "ser camembert", value: "ser camembert" }
       - { label: "ser cheddar", value: "ser cheddar" }
       - { label: "ser feta", value: "ser feta" }
       - { label: "ser gorgonzola", value: "ser gorgonzola" }

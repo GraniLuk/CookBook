@@ -21,7 +21,7 @@ ingredients:
 - mozzarella
 - śmietanka 30%
 - oliwa z oliwek
-- pietruszka
+- pietruszka natka
 servings: 4
 prep_time: 15
 cook: true
