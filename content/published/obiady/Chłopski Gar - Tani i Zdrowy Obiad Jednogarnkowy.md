@@ -1,27 +1,28 @@
 ---
-title: Chłopski Gar - Tani i Zdrowy Obiad Jednogarnkowy
+title: Chłopski Gar
 author: Policzone Szamy
 categories: obiady
 draft: false
 readyToTest: false
 queued: false
 favourite: true
-link: https://www.youtube.com/watch?v=aUohiReA3gQ
 recipe_image: images/recipe-headers/chlopski_gar.avif
-video_file: videos/CHŁOPSKI GAR 2.0.webm
 date: 2025-12-17 12:00:00+00:00
 tags:
-- instant pot
-tagline: Soczysty jednogarnkowy obiad z kurczakiem, kiszoną kapustą i warzywami – tani i pełen zdrowia!
+  - instant pot
+tagline: Soczysty jednogarnkowy obiad z kurczakiem, kiszoną kapustą i warzywami
+  – tani i pełen zdrowia!
+link: https://www.youtube.com/watch?v=aUohiReA3gQ
+video_file: videos/CHŁOPSKI GAR 2.0.webm
 ingredients:
-- mięso z uda kurczaka
-- ziemniaki
-- marchewka
-- cebula
-- czosnek
-- kiszona kapusta
-- sos sojowy
-- koncentrat pomidorowy
+  - mięso z uda kurczaka
+  - ziemniaki
+  - marchewka
+  - cebula
+  - czosnek
+  - kiszona kapusta
+  - sos sojowy
+  - koncentrat pomidorowy
 servings: 5
 prep_time: 15
 cook: true
@@ -34,10 +35,12 @@ carbohydrate: 40
 fodmap:
   status: false
   serving_ok: NIE – cebula, czosnek
-  notes: Cebula i czosnek są wysokofodmap (fruktany). Kiszona kapusta w umiarkowanych ilościach może być tolerowana, ale zależy od indywidualnej wrażliwości. Kurczak, ziemniaki, marchewka są niskofodmap.
+  notes: Cebula i czosnek są wysokofodmap (fruktany). Kiszona kapusta w
+    umiarkowanych ilościach może być tolerowana, ale zależy od indywidualnej
+    wrażliwości. Kurczak, ziemniaki, marchewka są niskofodmap.
   substitutions:
-  - cebula -> zielona część dymki lub pomiń
-  - czosnek -> olej czosnkowy (infuzja bez cząstek)
+    - cebula -> zielona część dymki lub pomiń
+    - czosnek -> olej czosnkowy (infuzja bez cząstek)
 ---
 
 ## Składniki
