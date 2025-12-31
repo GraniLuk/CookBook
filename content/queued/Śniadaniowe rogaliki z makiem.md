@@ -6,17 +6,20 @@ subcategories: słodkie
 draft: false
 readyToTest: true
 queued: true
+favourite: false
 recipe_image: images/recipe-headers/sniadaniowe_rogaliki_makiem.avif
 date: 2025-12-28 12:00:00+00:00
 tags:
-- szybkie
-tagline: Ulubione śniadaniowe rogaliki z makiem, idealne z jajkiem na twardo i majonezem albo z masłem i domowym powidełkiem.
+  - szybkie
+tagline: Ulubione śniadaniowe rogaliki z makiem, idealne z jajkiem na twardo i
+  majonezem albo z masłem i domowym powidełkiem.
+link: https://www.youtube.com/watch?v=aUohiReA3gQ
 ingredients:
-- mąka pszenna
-- jajko
-- mleko
-- olej
-- mak
+  - mąka pszenna
+  - jajko
+  - mleko
+  - olej
+  - mak
 servings: 8
 prep_time: 30
 cook: true
@@ -26,9 +29,10 @@ protein: 13
 fat: 12
 carbohydrate: 61
 fodmap:
-  status: 'no'
-  serving_ok: ''
-  notes: Zawiera mąkę pszenną, która jest źródłem fruktoli i może być problematyczna dla osób z wrażliwością na FODMAP.
+  status: no
+  serving_ok: ""
+  notes: Zawiera mąkę pszenną, która jest źródłem fruktoli i może być
+    problematyczna dla osób z wrażliwością na FODMAP.
   substitutions: []
 ---
 
