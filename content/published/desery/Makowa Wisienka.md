@@ -9,7 +9,7 @@ favourite: false
 link: https://www.instagram.com/reels/DSR-pdvjHmI/
 recipe_image: images/recipe-headers/makowa_wisienka.avif
 video_file: videos/makowa-wisienka.mp4
-date: 2025-12-22 12:00:00+00:00
+date: 2025-12-31 10:00:00+00:00
 tags:
 - xmas
 - ciasta
