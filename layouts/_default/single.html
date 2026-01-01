@@ -258,13 +258,17 @@
 
                     // Show confirmation and offer to go to CMS
                     const count = selected.length;
-                    const msg = `Dodano ${count} składnik${count === 1 ? '' : count < 5 ? 'i' : 'ów'} do oczekujących.\n\nChcesz teraz otworzyć CMS, aby dodać je do listy zakupów?`;
                     
-                    if (confirm(msg)) {
-                        window.open('/CookBook/admin/#/collections/shopping_list', '_blank');
-                    }
+                    // Store in localStorage
+                    localStorage.setItem('cookbook-shopping-pending', JSON.stringify(pending));
 
                     closeModal();
+
+                    // Show confirmation and open CMS
+                    const msg = `✅ Wybrano ${count} składnik${count === 1 ? '' : count < 5 ? 'i' : 'ów'}.\n\nOtwieram CMS - składniki zostaną automatycznie dodane do listy!`;
+                    
+                    alert(msg);
+                    window.open('/CookBook/admin/#/collections/shopping_list/entries/shopping_list', '_blank');
                 });
 
                 // Close on Escape key
