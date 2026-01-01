@@ -264,11 +264,12 @@
 
                     closeModal();
 
-                    // Show confirmation and open CMS
-                    const msg = `✅ Wybrano ${count} składnik${count === 1 ? '' : count < 5 ? 'i' : 'ów'}.\n\nOtwieram CMS - składniki zostaną automatycznie dodane do listy!`;
+                    // Show confirmation
+                    const msg = `✅ Wybrano ${count} składnik${count === 1 ? '' : count < 5 ? 'i' : 'ów'}.\n\nOtworzyć CMS? Zobaczysz panel z listą składników do dodania.`;
                     
-                    alert(msg);
-                    window.open('/CookBook/admin/#/collections/shopping_list/entries/shopping_list', '_blank');
+                    if (confirm(msg)) {
+                        window.open('/CookBook/admin/#/collections/shopping_list/entries/shopping_list', '_blank');
+                    }
                 });
 
                 // Close on Escape key

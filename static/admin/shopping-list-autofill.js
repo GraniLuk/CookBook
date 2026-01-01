@@ -1,39 +1,24 @@
 /**
  * Shopping List Auto-fill for Decap CMS
- * Automatically populates the shopping list form with pending items from localStorage
+ * Shows pending items panel and helps user add them to the list
  */
 
 (function () {
     'use strict';
 
     const STORAGE_KEY = 'cookbook-shopping-pending';
-    let autoFillAttempted = false;
-
-    // Wait for CMS to be ready and listen for editor loads
-    if (window.CMS) {
-        window.CMS.registerEventListener({
-            name: 'postPublish',
-            handler: clearPendingItems
-        });
-
-        window.CMS.registerEventListener({
-            name: 'postSave',
-            handler: clearPendingItems
-        });
-    }
+    let panelShown = false;
 
     /**
-     * Check if we're on the shopping list edit page and auto-fill
+     * Check if we're on the shopping list edit page and show panel
      */
-    function checkAndAutoFill() {
-        // Check if we're editing the shopping list
+    function checkAndShowPanel() {
         const currentHash = window.location.hash;
         if (!currentHash.includes('shopping_list')) {
             return;
         }
 
-        // Only attempt once per page load
-        if (autoFillAttempted) {
+        if (panelShown) {
             return;
         }
 
@@ -53,134 +38,212 @@
             return;
         }
 
-        autoFillAttempted = true;
+        panelShown = true;
 
-        // Wait for form to be rendered
+        // Wait for CMS to render
         setTimeout(() => {
-            tryPopulateForm(pendingItems);
+            showPendingItemsPanel(pendingItems);
         }, 1500);
     }
 
     /**
-     * Try to populate the shopping list form
+     * Show a panel with pending items that user can copy
      */
-    function tryPopulateForm(pendingItems) {
-        // Find the "Add" buttons for the items list
-        // Decap CMS uses specific class names for list widgets
-        const addButtons = document.querySelectorAll('button[class*="ListControl"] button[class*="Button"]');
+    function showPendingItemsPanel(pendingItems) {
+        // Remove existing panel if any
+        const existing = document.getElementById('shopping-pending-panel');
+        if (existing) existing.remove();
 
-        if (addButtons.length === 0) {
-            console.log('Shopping list form not ready yet, retrying...');
-            setTimeout(() => tryPopulateForm(pendingItems), 1000);
-            return;
-        }
+        const panel = document.createElement('div');
+        panel.id = 'shopping-pending-panel';
+        panel.innerHTML = `
+            <style>
+                #shopping-pending-panel {
+                    position: fixed;
+                    top: 60px;
+                    right: 20px;
+                    width: 320px;
+                    max-height: 70vh;
+                    background: white;
+                    border-radius: 12px;
+                    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+                    z-index: 10000;
+                    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+                    overflow: hidden;
+                }
+                #shopping-pending-panel .panel-header {
+                    background: #4A7C59;
+                    color: white;
+                    padding: 12px 16px;
+                    font-weight: 600;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+                #shopping-pending-panel .panel-close {
+                    background: none;
+                    border: none;
+                    color: white;
+                    font-size: 20px;
+                    cursor: pointer;
+                    padding: 0 4px;
+                }
+                #shopping-pending-panel .panel-body {
+                    padding: 16px;
+                    max-height: 50vh;
+                    overflow-y: auto;
+                }
+                #shopping-pending-panel .pending-item {
+                    padding: 8px 12px;
+                    background: #f5f5f5;
+                    border-radius: 6px;
+                    margin-bottom: 8px;
+                    font-size: 14px;
+                }
+                #shopping-pending-panel .pending-item-name {
+                    font-weight: 500;
+                }
+                #shopping-pending-panel .pending-item-source {
+                    font-size: 12px;
+                    color: #666;
+                    font-style: italic;
+                }
+                #shopping-pending-panel .panel-footer {
+                    padding: 12px 16px;
+                    border-top: 1px solid #eee;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px;
+                }
+                #shopping-pending-panel .panel-btn {
+                    padding: 10px 16px;
+                    border: none;
+                    border-radius: 6px;
+                    cursor: pointer;
+                    font-size: 14px;
+                    font-weight: 500;
+                    transition: background 0.2s;
+                }
+                #shopping-pending-panel .panel-btn-primary {
+                    background: #4A7C59;
+                    color: white;
+                }
+                #shopping-pending-panel .panel-btn-primary:hover {
+                    background: #3d6a4a;
+                }
+                #shopping-pending-panel .panel-btn-secondary {
+                    background: #e0e0e0;
+                    color: #333;
+                }
+                #shopping-pending-panel .panel-btn-secondary:hover {
+                    background: #d0d0d0;
+                }
+                #shopping-pending-panel .panel-instructions {
+                    font-size: 12px;
+                    color: #666;
+                    line-height: 1.4;
+                    padding: 8px 0;
+                }
+            </style>
+            <div class="panel-header">
+                <span>📋 ${pendingItems.length} składnik${pendingItems.length === 1 ? '' : pendingItems.length < 5 ? 'i' : 'ów'} do dodania</span>
+                <button class="panel-close" title="Zamknij">×</button>
+            </div>
+            <div class="panel-body">
+                ${pendingItems.map(item => `
+                    <div class="pending-item">
+                        <div class="pending-item-name">${escapeHtml(item.name)}</div>
+                        ${item.source ? `<div class="pending-item-source">z: ${escapeHtml(item.source)}</div>` : ''}
+                    </div>
+                `).join('')}
+            </div>
+            <div class="panel-footer">
+                <p class="panel-instructions">
+                    Kliknij poniżej "Do kupienia" → "Add items" i dodaj każdy składnik ręcznie, lub skopiuj listę:
+                </p>
+                <button class="panel-btn panel-btn-primary" id="copyPendingBtn">
+                    📋 Kopiuj listę do schowka
+                </button>
+                <button class="panel-btn panel-btn-secondary" id="clearPendingBtn">
+                    🗑️ Wyczyść oczekujące
+                </button>
+            </div>
+        `;
 
-        console.log(`Auto-filling ${pendingItems.length} items to shopping list`);
+        document.body.appendChild(panel);
 
-        // For each pending item, click "Add" and fill the fields
-        pendingItems.forEach((item, index) => {
-            setTimeout(() => {
-                addItemToList(item);
-            }, index * 300); // Stagger additions to allow DOM updates
+        // Close button
+        panel.querySelector('.panel-close').addEventListener('click', () => {
+            panel.remove();
         });
 
-        // Show notification after all items are added
+        // Copy button
+        panel.querySelector('#copyPendingBtn').addEventListener('click', () => {
+            const text = pendingItems.map(item =>
+                `${item.name}${item.source ? ` (z: ${item.source})` : ''}`
+            ).join('\n');
+
+            navigator.clipboard.writeText(text).then(() => {
+                const btn = panel.querySelector('#copyPendingBtn');
+                btn.textContent = '✓ Skopiowano!';
+                btn.style.background = '#2e7d32';
+                setTimeout(() => {
+                    btn.textContent = '📋 Kopiuj listę do schowka';
+                    btn.style.background = '';
+                }, 2000);
+            }).catch(() => {
+                alert('Lista składników:\n\n' + text);
+            });
+        });
+
+        // Clear button
+        panel.querySelector('#clearPendingBtn').addEventListener('click', () => {
+            if (confirm('Wyczyścić oczekujące składniki?')) {
+                localStorage.removeItem(STORAGE_KEY);
+                panel.remove();
+                panelShown = false;
+            }
+        });
+    }
+
+    /**
+     * Escape HTML to prevent XSS
+     */
+    function escapeHtml(text) {
+        const div = document.createElement('div');
+        div.textContent = text;
+        return div.innerHTML;
+    }
+
+    // Monitor hash changes
+    window.addEventListener('hashchange', () => {
+        panelShown = false;
+        setTimeout(checkAndShowPanel, 500);
+    });
+
+    // Check on initial load
+    setTimeout(checkAndShowPanel, 1000);
+
+    // Register CMS event to clear items after save
+    if (typeof window.CMS !== 'undefined') {
         setTimeout(() => {
-            showNotification(`✓ Dodano ${pendingItems.length} składnik${pendingItems.length === 1 ? '' : pendingItems.length < 5 ? 'i' : 'ów'} do listy!`);
-        }, pendingItems.length * 300 + 500);
+            if (window.CMS && window.CMS.registerEventListener) {
+                window.CMS.registerEventListener({
+                    name: 'postSave',
+                    handler: () => {
+                        localStorage.removeItem(STORAGE_KEY);
+                        const panel = document.getElementById('shopping-pending-panel');
+                        if (panel) panel.remove();
+                    }
+                });
+            }
+        }, 2000);
     }
 
-    /**
-     * Add a single item to the list
-     */
-    function addItemToList(item) {
-        // Find the "Do kupienia" (items) section - look for the first list widget
-        const listSections = document.querySelectorAll('[class*="ListControl"]');
-
-        if (listSections.length === 0) {
-            console.warn('Could not find list widget');
-            return;
-        }
-
-        // Assume first list is "items" (Do kupienia)
-        const itemsSection = listSections[0];
-
-        // Find the "Add" button
-        const addBtn = itemsSection.querySelector('button[class*="Button"]');
-        if (addBtn && addBtn.textContent.includes('Add')) {
-            addBtn.click();
-
-            // Wait for the new item form to appear, then fill it
-            setTimeout(() => {
-                fillNewItemForm(item);
-            }, 200);
-        }
-    }
-
-    /**
-     * Fill the form fields for a newly added item
-     */
-    function fillNewItemForm(item) {
-        // Find all text inputs in the last expanded list item
-        const inputs = document.querySelectorAll('[class*="ListControl"] input[type="text"]');
-
-        if (inputs.length < 3) {
-            console.warn('Could not find input fields for item');
-            return;
-        }
-
-        // Get the last 3 inputs (from the most recently added item)
-        const lastInputs = Array.from(inputs).slice(-3);
-
-        // Fill: name, quantity, source
-        if (lastInputs[0]) {
-            lastInputs[0].value = item.name;
-            lastInputs[0].dispatchEvent(new Event('input', { bubbles: true }));
-        }
-
-        if (lastInputs[1] && item.quantity) {
-            lastInputs[1].value = item.quantity;
-            lastInputs[1].dispatchEvent(new Event('input', { bubbles: true }));
-        }
-
-        if (lastInputs[2] && item.source) {
-            lastInputs[2].value = item.source;
-            lastInputs[2].dispatchEvent(new Event('input', { bubbles: true }));
-        }
-    }
-
-    /**
-     * Clear pending items from localStorage after save
-     */
-    function clearPendingItems() {
-        try {
-            localStorage.removeItem(STORAGE_KEY);
-            console.log('Cleared pending shopping items');
-        } catch (e) {
-            console.warn('Failed to clear pending items:', e);
-        }
-    }
-
-    /**
-     * Show a notification to the user
-     */
-    function showNotification(message) {
-        // Create a simple notification element
-        const notification = document.createElement('div');
-        notification.style.cssText = `
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            background: #4A7C59;
-            color: white;
-            padding: 1rem 1.5rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-            z-index: 10000;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            font-size: 14px;
-            max-width: 300px;
-        `;
+})();
+font - size: 14px;
+max - width: 300px;
+`;
         notification.textContent = message;
 
         document.body.appendChild(notification);
