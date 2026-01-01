@@ -1,6 +1,9 @@
 ---
-title: "Lista zakupów"
-items: []
+title: Lista zakupów
+items:
+  - name: Chleb
+    quantity: "1"
+    source: manual
 purchased: []
 ---
 
