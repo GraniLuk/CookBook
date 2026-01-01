@@ -81,6 +81,12 @@ fileName = "/images/icon.png" #your favicon here if you wish to change it.
     pre = "fas fa-calendar-week"
     url = "/weekly-plans/"
     weight = 6
+
+  [[menu.main]]
+    name = "Lista zakupów"
+    pre = "fas fa-shopping-cart"
+    url = "/shopping-list/"
+    weight = 7
     
     [[menu.main]]
     name = "Śniadania"
@@ -122,7 +128,7 @@ fileName = "/images/icon.png" #your favicon here if you wish to change it.
     name = "Tagi" # change to w/e you want, tags or categories works best
     pre = "fas fa-tags" #icon, change if you would prefer a different icon
     url = "/tags/"
-  weight = 7
+    weight = 8
 
 # Print output just creates a special route for a print view
 [outputs]

@@ -567,6 +567,31 @@ collections:
       visualEditing: true
     fields: *recipe_fields
 
+  - name: shopping_list
+    label: Lista Zakupów
+    file: content/shopping-list/_index.md
+    fields:
+      - { label: Tytuł, name: title, widget: string, default: "Lista zakupów" }
+      - label: Do kupienia
+        name: items
+        widget: list
+        collapsed: false
+        summary: "{{fields.name}} {{fields.quantity}} ({{fields.source}})"
+        fields:
+          - { label: Nazwa, name: name, widget: string }
+          - { label: Ilość, name: quantity, widget: string, required: false }
+          - { label: Źródło, name: source, widget: string, required: false, hint: "Nazwa przepisu lub 'ręcznie'" }
+      - label: Kupione
+        name: purchased
+        widget: list
+        collapsed: true
+        summary: "{{fields.name}} {{fields.quantity}}"
+        hint: "Pozycje kupione podczas ostatnich zakupów. Usuń je przy następnej edycji."
+        fields:
+          - { label: Nazwa, name: name, widget: string }
+          - { label: Ilość, name: quantity, widget: string, required: false }
+          - { label: Źródło, name: source, widget: string, required: false }
+
   - name: weekly_plans
     label: Plany Tygodniowe
     label_singular: Plan Tygodniowy

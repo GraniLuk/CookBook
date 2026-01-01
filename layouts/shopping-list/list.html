@@ -1,0 +1,108 @@
+{{ define "main" }}
+<section class="section shopping-list-page">
+    <div class="container">
+        <div class="columns is-centered">
+            <div class="column is-full-mobile is-10-tablet is-8-desktop">
+                <header class="shopping-list-header">
+                    <h1 class="title is-2">
+                        <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                        {{ .Title }}
+                    </h1>
+                    <div class="shopping-list-actions">
+                        <span class="sync-badge" id="syncBadge" style="display: none;">
+                            <i class="fas fa-clock" aria-hidden="true"></i>
+                            <span id="syncCount">0</span> niezapisanych
+                        </span>
+                        <button class="button is-primary" id="syncBtn" style="display: none;">
+                            <span class="icon"><i class="fas fa-sync-alt"></i></span>
+                            <span>Synchronizuj</span>
+                        </button>
+                        <a href="{{ absURL "admin/#/collections/shopping_list" }}" class="button is-link is-outlined">
+                            <span class="icon"><i class="fas fa-pen"></i></span>
+                            <span>Edytuj w CMS</span>
+                        </a>
+                    </div>
+                </header>
+
+                {{- $items := .Params.items | default slice -}}
+                {{- $sortedItems := sort $items "name" -}}
+
+                {{ if eq (len $items) 0 }}
+                <div class="notification is-info is-light">
+                    <p>Lista zakupów jest pusta.</p>
+                    <p>Dodaj składniki z przepisów używając przycisku <strong>"Dodaj do listy"</strong> na stronie przepisu, lub <a href="{{ absURL "admin/#/collections/shopping_list" }}">dodaj ręcznie w CMS</a>.</p>
+                </div>
+                {{ else }}
+
+                <p class="shopping-list-hint">
+                    <i class="fas fa-hand-point-right" aria-hidden="true"></i>
+                    Przesuń w prawo lub kliknij, aby oznaczyć jako kupione
+                </p>
+
+                <ul class="shopping-list" id="shoppingList">
+                    {{- range $index, $item := $sortedItems -}}
+                    <li class="shopping-item" 
+                        data-index="{{ $index }}" 
+                        data-name="{{ $item.name }}"
+                        data-quantity="{{ $item.quantity | default "" }}"
+                        data-source="{{ $item.source | default "" }}">
+                        <label class="shopping-item__label">
+                            <input type="checkbox" class="shopping-item__checkbox" aria-label="Oznacz {{ $item.name }} jako kupione">
+                            <span class="shopping-item__checkmark">
+                                <i class="fas fa-check"></i>
+                            </span>
+                            <span class="shopping-item__content">
+                                <span class="shopping-item__name">{{ $item.name }}</span>
+                                {{ with $item.quantity }}
+                                <span class="shopping-item__quantity">{{ . }}</span>
+                                {{ end }}
+                                {{ with $item.source }}
+                                <span class="shopping-item__source">z: {{ . }}</span>
+                                {{ end }}
+                            </span>
+                        </label>
+                        <div class="shopping-item__swipe-hint">
+                            <i class="fas fa-check"></i>
+                        </div>
+                    </li>
+                    {{- end -}}
+                </ul>
+                {{ end }}
+
+                {{- $purchased := .Params.purchased | default slice -}}
+                {{ if gt (len $purchased) 0 }}
+                <div class="purchased-section">
+                    <h2 class="title is-4">
+                        <i class="fas fa-check-circle has-text-success" aria-hidden="true"></i>
+                        Kupione ({{ len $purchased }})
+                    </h2>
+                    <p class="help">Te pozycje zostaną usunięte przy następnej edycji w CMS.</p>
+                    <ul class="purchased-list">
+                        {{- range $purchased -}}
+                        <li class="purchased-item">
+                            <span class="purchased-item__name">{{ .name }}</span>
+                            {{ with .quantity }}
+                            <span class="purchased-item__quantity">{{ . }}</span>
+                            {{ end }}
+                        </li>
+                        {{- end -}}
+                    </ul>
+                </div>
+                {{ end }}
+
+                <!-- Checked items section (populated by JS from localStorage) -->
+                <div class="checked-section" id="checkedSection" style="display: none;">
+                    <h2 class="title is-4">
+                        <i class="fas fa-shopping-basket has-text-success" aria-hidden="true"></i>
+                        W koszyku
+                    </h2>
+                    <ul class="checked-list" id="checkedList"></ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="{{ partial "asset-url.html" "/js/shopping-list.js" }}"></script>
+{{ end }}

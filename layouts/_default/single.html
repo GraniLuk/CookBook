@@ -147,10 +147,139 @@
             </div>
             {{ end }}
 
+            {{/* Shopping List - Add Ingredients Button */}}
+            {{ if .Params.ingredients }}
+            <div class="shopping-list-add-section">
+                <button class="button is-success is-medium shopping-add-btn" id="openIngredientModal" aria-label="Dodaj składniki do listy zakupów">
+                    <span class="icon"><i class="fas fa-cart-plus"></i></span>
+                    <span>Dodaj do listy</span>
+                </button>
+            </div>
 
+            <!-- Ingredient Selection Modal -->
+            <div class="modal" id="ingredientModal" role="dialog" aria-modal="true" aria-labelledby="ingredientModalTitle">
+                <div class="modal-background" data-close-ingredient-modal></div>
+                <div class="modal-card">
+                    <header class="modal-card-head">
+                        <p class="modal-card-title" id="ingredientModalTitle">Dodaj składniki do listy</p>
+                        <button class="delete" aria-label="Zamknij" data-close-ingredient-modal></button>
+                    </header>
+                    <section class="modal-card-body">
+                        <div class="ingredient-modal-actions">
+                            <button class="button is-small" id="selectAllIngredients">Zaznacz wszystko</button>
+                            <button class="button is-small" id="selectNoneIngredients">Odznacz wszystko</button>
+                        </div>
+                        <ul class="ingredient-select-list" id="ingredientSelectList">
+                            {{- range $index, $ingredient := .Params.ingredients -}}
+                            <li class="ingredient-select-item">
+                                <label class="ingredient-select-label">
+                                    <input type="checkbox" class="ingredient-checkbox" value="{{ $ingredient }}" checked>
+                                    <span class="ingredient-checkmark"><i class="fas fa-check"></i></span>
+                                    <span class="ingredient-name">{{ $ingredient }}</span>
+                                </label>
+                            </li>
+                            {{- end -}}
+                        </ul>
+                    </section>
+                    <footer class="modal-card-foot">
+                        <button class="button is-success" id="addSelectedIngredients">
+                            <span class="icon"><i class="fas fa-plus"></i></span>
+                            <span>Dodaj wybrane</span>
+                        </button>
+                        <button class="button" data-close-ingredient-modal>Anuluj</button>
+                    </footer>
+                </div>
+            </div>
+
+            <script>
+            (function() {
+                const modal = document.getElementById('ingredientModal');
+                const openBtn = document.getElementById('openIngredientModal');
+                const closeElements = document.querySelectorAll('[data-close-ingredient-modal]');
+                const selectAllBtn = document.getElementById('selectAllIngredients');
+                const selectNoneBtn = document.getElementById('selectNoneIngredients');
+                const addBtn = document.getElementById('addSelectedIngredients');
+                const checkboxes = document.querySelectorAll('.ingredient-checkbox');
+                const recipeTitle = {{ .Title | jsonify }};
+
+                // Open modal
+                openBtn.addEventListener('click', () => {
+                    modal.classList.add('is-active');
+                    document.documentElement.classList.add('is-clipped');
+                });
+
+                // Close modal
+                closeElements.forEach(el => {
+                    el.addEventListener('click', closeModal);
+                });
+
+                function closeModal() {
+                    modal.classList.remove('is-active');
+                    document.documentElement.classList.remove('is-clipped');
+                }
+
+                // Select all
+                selectAllBtn.addEventListener('click', () => {
+                    checkboxes.forEach(cb => cb.checked = true);
+                });
+
+                // Select none
+                selectNoneBtn.addEventListener('click', () => {
+                    checkboxes.forEach(cb => cb.checked = false);
+                });
+
+                // Add selected ingredients
+                addBtn.addEventListener('click', () => {
+                    const selected = [];
+                    checkboxes.forEach(cb => {
+                        if (cb.checked) {
+                            selected.push(cb.value);
+                        }
+                    });
+
+                    if (selected.length === 0) {
+                        alert('Wybierz przynajmniej jeden składnik.');
+                        return;
+                    }
+
+                    // Store in localStorage for CMS to pick up
+                    let pending = [];
+                    try {
+                        pending = JSON.parse(localStorage.getItem('cookbook-shopping-pending') || '[]');
+                    } catch(e) {}
+
+                    selected.forEach(name => {
+                        if (!pending.find(i => i.name === name && i.source === recipeTitle)) {
+                            pending.push({ name: name, quantity: '', source: recipeTitle });
+                        }
+                    });
+
+                    localStorage.setItem('cookbook-shopping-pending', JSON.stringify(pending));
+
+                    // Show confirmation and offer to go to CMS
+                    const count = selected.length;
+                    const msg = `Dodano ${count} składnik${count === 1 ? '' : count < 5 ? 'i' : 'ów'} do oczekujących.\n\nChcesz teraz otworzyć CMS, aby dodać je do listy zakupów?`;
+                    
+                    if (confirm(msg)) {
+                        window.open('/CookBook/admin/#/collections/shopping_list', '_blank');
+                    }
+
+                    closeModal();
+                });
+
+                // Close on Escape key
+                document.addEventListener('keydown', (e) => {
+                    if (e.key === 'Escape' && modal.classList.contains('is-active')) {
+                        closeModal();
+                    }
+                });
+            })();
+            </script>
+            {{ end }}
 
             <div class="container has-text-centered recipe-meta recipe-meta--stats">
                 {{ partial "statstable.html" . }}
+            </div>
             </div>
             <hr class="recipe-sep">
             <div class="container has-text-centered recipe-meta recipe-meta--macros">
