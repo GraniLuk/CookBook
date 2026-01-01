@@ -241,35 +241,3 @@
     }
 
 })();
-font - size: 14px;
-max - width: 300px;
-`;
-        notification.textContent = message;
-
-        document.body.appendChild(notification);
-
-        // Remove after 5 seconds
-        setTimeout(() => {
-            notification.style.transition = 'opacity 0.3s ease';
-            notification.style.opacity = '0';
-            setTimeout(() => notification.remove(), 300);
-        }, 5000);
-    }
-
-    // Monitor hash changes to detect navigation to shopping list
-    window.addEventListener('hashchange', () => {
-        autoFillAttempted = false;
-        setTimeout(checkAndAutoFill, 500);
-    });
-
-    // Check on initial load
-    setTimeout(checkAndAutoFill, 1000);
-
-    // Also check periodically in case we missed the hash change
-    setInterval(() => {
-        if (!autoFillAttempted) {
-            checkAndAutoFill();
-        }
-    }, 2000);
-
-})();
