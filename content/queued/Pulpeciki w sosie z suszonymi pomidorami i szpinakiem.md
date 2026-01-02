@@ -14,13 +14,13 @@ tags:
 - kotlety
 tagline: Soczyste pulpeciki w kremowym sosie z suszonymi pomidorami i szpinakiem, podawane z puree ziemniaczanym.
 ingredients:
-- mięso mielone z łopatki
-- szpinak baby
-- suszony pomidor
+- łopatka wieprzowa
+- szpinak
+- suszone pomidory
 - mascarpone
 - cebula
-- ziemniak
-- mleko 1,5%
+- ziemniaki
+- mleko
 - masło
 servings: 4
 prep_time: 20
