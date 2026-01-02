@@ -1,7 +1,7 @@
 import argparse
-from datetime import datetime, date, timezone
 import os
 import sys
+from datetime import date, datetime, timezone
 from pathlib import Path
 
 try:
@@ -23,6 +23,7 @@ ORDER = [
     "draft",
     "readyToTest",
     "queued",
+    "priority",
     "favourite",
     "link",
     "recipe_image",

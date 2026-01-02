@@ -6,6 +6,7 @@ subcategories: słone
 draft: false
 readyToTest: true
 queued: true
+priority: 2
 favourite: false
 link: https://www.youtube.com/watch?v=6GTyB2M09mU
 recipe_image: images/recipe-headers/kanapka_gyros.avif
@@ -31,7 +32,6 @@ carbohydrate: 70
 fodmap:
   status: false
   notes: Cebula czerwona jest źródłem FODMAP.
-priority: 2
 ---
 
 ## Składniki
