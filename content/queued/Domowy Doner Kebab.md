@@ -10,7 +10,7 @@ recipe_image: images/recipe-headers/domowy_doner_kebab.avif
 date: 2026-01-02 12:00:00+00:00
 tags:
 - fast-food
-- impreza
+- goście
 tagline: Domowe, rzemieślnicze mięso typu doner kebab w bułce, z pełną kontrolą nad jakością i makro.
 ingredients:
 - wołowina
@@ -22,7 +22,7 @@ ingredients:
 - kapusta pekińska
 - ogórek
 - pomidor
-- czerwona cebula
+- cebula czerwona
 servings: 5
 prep_time: 20
 cook: true

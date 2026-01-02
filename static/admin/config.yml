@@ -111,6 +111,7 @@ _shared_fields:
       - { label: "bułka", value: "bułka" }
       - { label: "bułka paryska", value: "bułka paryska" }
       - { label: "bułka pełnoziarnista", value: "bułka pełnoziarnista" }
+      - { label: "bułka pita", value: "bułka pita" }
       - { label: "bułka tarta", value: "bułka tarta" }
       - { label: "cebula", value: "cebula" }
       - { label: "cebula czerwona", value: "cebula czerwona" }
@@ -167,6 +168,8 @@ _shared_fields:
       - { label: "kakao", value: "kakao" }
       - { label: "kalafior", value: "kalafior" }
       - { label: "kapusta biała", value: "kapusta biała" }
+      - { label: "kapusta kiszona", value: "kapusta kiszona" }
+      - { label: "kapusta pekińska", value: "kapusta pekińska" }
       - { label: "karkówka wieprzowa", value: "karkówka wieprzowa" }
       - { label: "kasza bulgur", value: "kasza bulgur" }
       - { label: "kasza manna", value: "kasza manna" }
@@ -176,7 +179,6 @@ _shared_fields:
       - { label: "kiełki", value: "kiełki" }
       - { label: "kiełki fasoli mung", value: "kiełki fasoli mung" }
       - { label: "kinder bueno", value: "kinder bueno" }
-      - { label: "kiszona kapusta", value: "kiszona kapusta" }
       - { label: "kolendra", value: "kolendra" }
       - { label: "komosa ryżowa", value: "komosa ryżowa" }
       - { label: "koncentrat pomidorowy", value: "koncentrat pomidorowy" }

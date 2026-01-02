@@ -19,7 +19,7 @@ ingredients:
 - marchewka
 - cebula
 - czosnek
-- kiszona kapusta
+- kapusta kiszona
 - sos sojowy
 - koncentrat pomidorowy
 servings: 5
