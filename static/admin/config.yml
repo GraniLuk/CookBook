@@ -130,7 +130,6 @@ _shared_fields:
       - { label: "czekolada", value: "czekolada" }
       - { label: "czekolada gorzka", value: "czekolada gorzka" }
       - { label: "czekolada organiczna", value: "czekolada organiczna" }
-      - { label: "czerwona kapusta", value: "czerwona kapusta" }
       - { label: "czosnek", value: "czosnek" }
       - { label: "daktyle", value: "daktyle" }
       - { label: "drożdże", value: "drożdże" }
@@ -169,6 +168,7 @@ _shared_fields:
       - { label: "kakao", value: "kakao" }
       - { label: "kalafior", value: "kalafior" }
       - { label: "kapusta biała", value: "kapusta biała" }
+      - { label: "kapusta czerwona", value: "kapusta czerwona" }
       - { label: "kapusta kiszona", value: "kapusta kiszona" }
       - { label: "karkówka wieprzowa", value: "karkówka wieprzowa" }
       - { label: "kasza bulgur", value: "kasza bulgur" }
