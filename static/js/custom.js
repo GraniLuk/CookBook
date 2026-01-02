@@ -29,10 +29,6 @@ function showAlert(message) {
   }
 }
 
-u('#searchTerm').on('change keyup', function () { // Set the search value on keyup for the input
-  searchTerm = this.value;
-})
-
 // On load: if URL has a query param (?q= or ?search=), prefill and run search
 function getQueryParam() {
   try {
