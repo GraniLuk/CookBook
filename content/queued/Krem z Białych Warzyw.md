@@ -1,30 +1,30 @@
 ---
 title: Krem z Białych Warzyw
-author: ""
+author: ''
 categories: obiady
 draft: false
 readyToTest: true
 queued: true
 favourite: false
+link: null
 recipe_image: images/recipe-headers/krem_bialych_warzyw.avif
+video_file: videos/krem_bialych_warzyw.mp4
 date: 2025-12-29 10:00:00+00:00
 tags:
-  - szybkie
-  - zupy
+- szybkie
+- zupy
 tagline: Kremowy krem z pieczonych białych warzyw, idealny na zimowe dni.
-link: null
-video_file: videos/krem_bialych_warzyw.mp4
 ingredients:
-  - por
-  - cebula
-  - pietruszka korzeń
-  - seler korzeń
-  - ziemniaki
-  - czosnek
-  - masło
-  - ser camembert
-  - śmietanka 30%
-  - oliwa z oliwek
+- por
+- cebula
+- pietruszka korzeń
+- seler korzeń
+- ziemniaki
+- czosnek
+- masło
+- ser camembert
+- śmietanka 30%
+- oliwa z oliwek
 servings: 4
 prep_time: 20
 cook: true
@@ -34,14 +34,12 @@ protein: 12
 fat: 25
 carbohydrate: 40
 fodmap:
-  status: no
-  serving_ok: ""
-  notes: Przepis zawiera cebulę i czosnek, które są składnikami high FODMAP. Nie
-    jest bezpieczny dla diety low FODMAP.
+  status: false
+  serving_ok: ''
+  notes: Przepis zawiera cebulę i czosnek, które są składnikami high FODMAP. Nie jest bezpieczny dla diety low FODMAP.
   substitutions:
-    - Zamiast cebuli użyj pora w większej ilości.
-    - Zamiast czosnku użyj niewielkiej ilości czosnku niedźwiedziego lub
-      zrezygnuj.
+  - Zamiast cebuli użyj pora w większej ilości.
+  - Zamiast czosnku użyj niewielkiej ilości czosnku niedźwiedziego lub zrezygnuj.
 ---
 
 ## Składniki
