@@ -3,8 +3,8 @@ title: Domowy Doner Kebab
 author: Policzona Szama
 categories: obiady
 draft: false
-readyToTest: true
-queued: true
+readyToTest: false
+queued: false
 link: https://www.youtube.com/watch?v=Z8Ai5EPOboY
 recipe_image: images/recipe-headers/domowy_doner_kebab.avif
 date: 2026-01-01 12:00:00+00:00
@@ -18,7 +18,7 @@ ingredients:
 - bułka pita
 - skyr
 - jogurt naturalny
-- czerwona kapusta
+- kapusta czerwona
 - ogórek
 - pomidor
 - cebula czerwona
