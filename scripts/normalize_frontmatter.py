@@ -1,5 +1,5 @@
 import argparse
-import datetime
+from datetime import datetime, date, timezone
 import os
 import sys
 from pathlib import Path
@@ -196,20 +196,23 @@ def process_directory(content_dir, check_only=False):
                     date_changed = False
                     if "date" in post.metadata:
                         date_value = post.metadata["date"]
-                        date_obj = None
-                        if isinstance(date_value, datetime.datetime):
-                            date_obj = date_value.date()
-                        elif isinstance(date_value, datetime.date):
-                            date_obj = date_value
+                        now = datetime.now(timezone.utc)
+                        future = False
+                        if isinstance(date_value, datetime):
+                            if date_value > now:
+                                future = True
+                        elif isinstance(date_value, date):
+                            if date_value > now.date():
+                                future = True
                         else:
                             try:
-                                date_obj = datetime.datetime.fromisoformat(
-                                    str(date_value)
-                                ).date()
+                                parsed_dt = datetime.fromisoformat(str(date_value))
+                                if parsed_dt > now:
+                                    future = True
                             except ValueError:
                                 pass  # Invalid date, skip
-                        if date_obj and date_obj > datetime.date.today():
-                            post.metadata["date"] = datetime.date.today()
+                        if future:
+                            post.metadata["date"] = date.today()
                             date_changed = True
                             if check_only:
                                 print(f"ERROR: Future date in {file}")
