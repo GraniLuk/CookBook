@@ -40,10 +40,8 @@
             {{ end }}
             
             {{ if gt (len $categoryPages) 0 }}
-                {{/* Sort by priority (descending) then by title (ascending) */}}
-                {{ $sortedPages := sort $categoryPages ".Params.priority" "desc" }}
-                {{ $sortedPages = sort $sortedPages ".Title" "asc" }}
-                {{/* Re-sort by priority to make it primary sort key */}}
+                {{/* Sort by title first (secondary key), then by priority (primary key) - Hugo stable sort maintains title order for same priority */}}
+                {{ $sortedPages := sort $categoryPages ".Title" "asc" }}
                 {{ $sortedPages = sort $sortedPages ".Params.priority" "desc" }}
                 
                 <div class="category-section">
@@ -75,8 +73,8 @@
             <div class="category-section">
                 <h2 class="category-header">📋 Inne <span class="category-count">({{ len $uncategorized }})</span></h2>
                 <div class="columns is-multiline">
-                    {{ $sortedUncategorized := sort $uncategorized ".Params.priority" "desc" }}
-                    {{ $sortedUncategorized = sort $sortedUncategorized ".Title" "asc" }}
+                    {{/* Sort by title first (secondary key), then by priority (primary key) */}}
+                    {{ $sortedUncategorized := sort $uncategorized ".Title" "asc" }}
                     {{ $sortedUncategorized = sort $sortedUncategorized ".Params.priority" "desc" }}
                     {{ range $sortedUncategorized }}
                     <div class="column is-2-desktop is-3-tablet is-full-mobile">
