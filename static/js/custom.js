@@ -20,6 +20,15 @@ var fuseOptions = {
   ]
 };
 
+// Show alert to user
+function showAlert(message) {
+  if (typeof alert === 'function') {
+    alert(message);
+  } else {
+    console.error('Alert:', message);
+  }
+}
+
 u('#searchTerm').on('change keyup', function () { // Set the search value on keyup for the input
   searchTerm = this.value;
 })
