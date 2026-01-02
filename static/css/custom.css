@@ -1981,3 +1981,80 @@ body.fodmap-view-enabled .fodmap-indicator {
         --bulma-size-7: 0.75rem
     }
 }
+
+/* ===========================================
+   QUEUED PAGE - Category Sections & Priority
+   =========================================== */
+
+/* Category section wrapper */
+.category-section {
+    margin-bottom: 2.5rem;
+}
+
+.category-section:last-child {
+    margin-bottom: 0;
+}
+
+/* Category header styling */
+.category-header {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    color: var(--color-text);
+    padding-bottom: 0.75rem;
+    margin-bottom: 1.25rem;
+    border-bottom: 2px solid var(--color-accent-2);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.category-header .category-count {
+    font-family: var(--font-body);
+    font-size: 1rem;
+    color: var(--color-text-light);
+    font-weight: 400;
+}
+
+/* Priority badge on recipe cards */
+.priority-badge {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(4px);
+    padding: 4px 8px;
+    border-radius: var(--radius-sm);
+    display: flex;
+    gap: 2px;
+    z-index: 10;
+}
+
+.priority-badge i {
+    color: var(--color-accent-2);
+    font-size: 0.7rem;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Priority badge hover effect */
+.card:hover .priority-badge {
+    background: rgba(0, 0, 0, 0.85);
+}
+
+/* Responsive adjustments for category headers */
+@media screen and (max-width: 768px) {
+    .category-header {
+        font-size: 1.25rem;
+        padding-bottom: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .priority-badge {
+        top: 6px;
+        right: 6px;
+        padding: 3px 6px;
+    }
+
+    .priority-badge i {
+        font-size: 0.6rem;
+    }
+}

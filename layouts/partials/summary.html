@@ -7,6 +7,12 @@
                     {{- $image_url = partial "asset-url.html" (printf "/%s" .Params.recipe_image) -}}
                 {{- end -}}
                 <img style="border-radius: 3%; width: 100%; height: 100%; object-fit: cover;" src="{{ $image_url }}" alt="Zdjęcie przepisu">
+                {{- if .Params.queued -}}
+                <div class="priority-badge">
+                    {{- $priority := default 1 .Params.priority -}}
+                    {{- range seq $priority -}}<i class="fas fa-star"></i>{{- end -}}
+                </div>
+                {{- end -}}
                 {{ with .Params.tags }}
                 <div class="card-tags-overlay">
                     {{ range . }}<span class="recipe-tag tag-link" data-tag="{{ . | urlize }}">#{{ . }}</span>{{ end }}

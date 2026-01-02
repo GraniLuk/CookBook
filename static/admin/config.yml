@@ -436,6 +436,18 @@ _shared_fields:
     - { label: Szkic (draft), name: draft, widget: hidden, default: false }
     - { label: Testowy, name: readyToTest, widget: boolean, required: true, default: false }
     - { label: W Kolejce, name: queued, widget: boolean, required: true, default: false }
+    - label: Priorytet
+      name: priority
+      widget: select
+      required: false
+      default: 1
+      hint: "Priorytet przepisu w kolejce (5 = najwyższy)"
+      options:
+        - { label: "⭐⭐⭐⭐⭐ Najwyższy", value: 5 }
+        - { label: "⭐⭐⭐⭐ Wysoki", value: 4 }
+        - { label: "⭐⭐⭐ Średni", value: 3 }
+        - { label: "⭐⭐ Niski", value: 2 }
+        - { label: "⭐ Najniższy", value: 1 }
     - { label: Ulubiony, name: favourite, widget: boolean, required: true, default: false }
     - { label: Obrazek przepisu (static/...), name: recipe_image, widget: string, required: false }
     - { label: Data, name: date, widget: hidden, default: "" }

@@ -2,15 +2,90 @@
 <div class="section">
     <div class="container">
         <h1 class="title">Kolejka</h1>
-        {{ $pages := where site.RegularPages "Params.queued" "eq" true }}
-        <p class="subtitle">{{ len $pages }} {{ if eq (len $pages) 1 }}przepis{{ else }}przepisów{{ end }} w kolejce</p>
-        <div class="columns is-multiline">
-            {{ range $pages.ByPublishDate.Reverse }}
-            <div class="column is-2-desktop is-3-tablet is-full-mobile">
-                {{ partial "summary.html" . }}
-            </div>
+        {{ $allPages := where site.RegularPages "Params.queued" "eq" true }}
+        <p class="subtitle">{{ len $allPages }} {{ if eq (len $allPages) 1 }}przepis{{ else }}przepisów{{ end }} w kolejce</p>
+        
+        {{/* Define category order - meal progression through the day */}}
+        {{ $categoryOrder := slice "śniadania" "obiady" "kolacje" "sałatki" "desery" "napoje" "sosy" "przekąski" }}
+        
+        {{/* Category display names */}}
+        {{ $categoryNames := dict 
+            "śniadania" "🌅 Śniadania"
+            "obiady" "🍽️ Obiady"
+            "kolacje" "🌙 Kolacje"
+            "sałatki" "🥗 Sałatki"
+            "desery" "🍰 Desery"
+            "napoje" "🥤 Napoje"
+            "sosy" "🫙 Sosy"
+            "przekąski" "🍿 Przekąski"
+        }}
+        
+        {{/* Also handle URL-friendly versions */}}
+        {{ $categoryAliases := dict
+            "salatki" "sałatki"
+            "przekaski" "przekąski"
+        }}
+        
+        {{ range $category := $categoryOrder }}
+            {{/* Filter pages by category - check both normal and aliased versions */}}
+            {{ $categoryPages := where $allPages "Params.categories" $category }}
+            {{/* Also check for URL-safe versions */}}
+            {{ if eq $category "sałatki" }}
+                {{ $aliasPages := where $allPages "Params.categories" "salatki" }}
+                {{ $categoryPages = $categoryPages | union $aliasPages }}
             {{ end }}
-        </div>
+            {{ if eq $category "przekąski" }}
+                {{ $aliasPages := where $allPages "Params.categories" "przekaski" }}
+                {{ $categoryPages = $categoryPages | union $aliasPages }}
+            {{ end }}
+            
+            {{ if gt (len $categoryPages) 0 }}
+                {{/* Sort by priority (descending) then by title (ascending) */}}
+                {{ $sortedPages := sort $categoryPages ".Params.priority" "desc" }}
+                {{ $sortedPages = sort $sortedPages ".Title" "asc" }}
+                {{/* Re-sort by priority to make it primary sort key */}}
+                {{ $sortedPages = sort $sortedPages ".Params.priority" "desc" }}
+                
+                <div class="category-section">
+                    <h2 class="category-header">{{ index $categoryNames $category }} <span class="category-count">({{ len $categoryPages }})</span></h2>
+                    <div class="columns is-multiline">
+                        {{ range $sortedPages }}
+                        <div class="column is-2-desktop is-3-tablet is-full-mobile">
+                            {{ partial "summary.html" . }}
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
+            {{ end }}
+        {{ end }}
+        
+        {{/* Handle uncategorized recipes */}}
+        {{ $categorized := slice }}
+        {{ range $category := $categoryOrder }}
+            {{ $categorized = $categorized | append $category }}
+        {{ end }}
+        {{ $categorized = $categorized | append "salatki" | append "przekaski" }}
+        
+        {{ $uncategorized := $allPages }}
+        {{ range $cat := $categorized }}
+            {{ $uncategorized = where $uncategorized "Params.categories" "ne" $cat }}
+        {{ end }}
+        
+        {{ if gt (len $uncategorized) 0 }}
+            <div class="category-section">
+                <h2 class="category-header">📋 Inne <span class="category-count">({{ len $uncategorized }})</span></h2>
+                <div class="columns is-multiline">
+                    {{ $sortedUncategorized := sort $uncategorized ".Params.priority" "desc" }}
+                    {{ $sortedUncategorized = sort $sortedUncategorized ".Title" "asc" }}
+                    {{ $sortedUncategorized = sort $sortedUncategorized ".Params.priority" "desc" }}
+                    {{ range $sortedUncategorized }}
+                    <div class="column is-2-desktop is-3-tablet is-full-mobile">
+                        {{ partial "summary.html" . }}
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        {{ end }}
     </div>
 </div>
 {{ end }}
