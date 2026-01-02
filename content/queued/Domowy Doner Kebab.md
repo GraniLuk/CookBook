@@ -7,7 +7,7 @@ readyToTest: true
 queued: true
 link: https://www.youtube.com/watch?v=Z8Ai5EPOboY
 recipe_image: images/recipe-headers/domowy_doner_kebab.avif
-date: 2026-01-02 12:00:00+00:00
+date: 2026-01-01 12:00:00+00:00
 tags:
 - fast-food
 - goście
