@@ -17,9 +17,8 @@ ingredients:
 - wieprzowina
 - bułka pita
 - skyr
-- majonez
 - jogurt naturalny
-- kapusta pekińska
+- czerwona kapusta
 - ogórek
 - pomidor
 - cebula czerwona
