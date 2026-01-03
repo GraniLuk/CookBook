@@ -245,6 +245,7 @@ _shared_fields:
       - { label: "nasionka chia", value: "nasionka chia" }
       - { label: "natka pietruszki", value: "natka pietruszki" }
       - { label: "ocet balsamiczny", value: "ocet balsamiczny" }
+      - { label: "ocet jabłkowy", value: "ocet jabłkowy" }
       - { label: "ocet winny", value: "ocet winny" }
       - { label: "odżywka białkowa", value: "odżywka białkowa" }
       - { label: "ogórek", value: "ogórek" }
