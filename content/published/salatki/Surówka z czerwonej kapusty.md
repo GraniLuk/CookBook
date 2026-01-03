@@ -1,6 +1,6 @@
 ---
 title: Surówka z czerwonej kapusty
-author: Policzona Szama
+author: Ania gotuje
 categories: salatki
 draft: false
 readyToTest: false
