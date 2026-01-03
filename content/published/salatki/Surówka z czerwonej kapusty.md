@@ -8,7 +8,7 @@ queued: false
 favourite: false
 link: https://aniagotuje.pl/przepis/surowka-z-czerwonej-kapusty
 recipe_image: images/recipe-headers/surowka_czerwona_kapusta.avif
-date: 2025-01-03 12:00:00+00:00
+date: 2026-01-03 12:00:00+00:00
 tags: []
 tagline: Świeża surówka z czerwonej kapusty z majonezem lub olejem, idealna do obiadu.
 ingredients:
