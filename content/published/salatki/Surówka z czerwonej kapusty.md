@@ -5,18 +5,19 @@ categories: salatki
 draft: false
 readyToTest: false
 queued: false
-link: https://aniagotuje.pl/przepis/surowka-z-czerwonej-kapusty
+favourite: false
 recipe_image: images/recipe-headers/surowka_czerwona_kapusta.avif
 date: 2025-01-03 12:00:00+00:00
 tags: []
 tagline: Świeża surówka z czerwonej kapusty z majonezem lub olejem, idealna do obiadu.
+link: https://aniagotuje.pl/przepis/surowka-z-czerwonej-kapusty
 ingredients:
-- kapusta czerwona
-- cebula
-- jabłko
-- marchew
-- majonez
-- ocet jabłkowy
+  - kapusta czerwona
+  - cebula
+  - jabłko
+  - marchew
+  - majonez
+  - ocet jabłkowy
 servings: 6
 prep_time: 30
 cook: false
@@ -26,11 +27,11 @@ protein: 3
 fat: 6
 carbohydrate: 22
 fodmap:
-  status: 'no'
+  status: no
   serving_ok: OK bez cebuli lub z zieloną cebulką
   notes: Cebula jest wysokofodmapowa, zastąpić zieloną cebulką lub pominąć.
   substitutions:
-  - cebula -> zielona cebula
+    - cebula -> zielona cebula
 ---
 
 ## Składniki
