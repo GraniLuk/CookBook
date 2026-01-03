@@ -3,8 +3,8 @@ title: Surówka z czerwonej kapusty
 author: Policzona Szama
 categories: salatki
 draft: false
-readyToTest: true
-queued: true
+readyToTest: false
+queued: false
 link: https://aniagotuje.pl/przepis/surowka-z-czerwonej-kapusty
 recipe_image: images/recipe-headers/surowka_czerwona_kapusta.avif
 date: 2025-01-03 12:00:00+00:00
