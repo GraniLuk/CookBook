@@ -11,8 +11,9 @@
     let allRecipeCards = [];
     let totalRecipes = 0;
     let isExpanded = false;
+    let hasOpenedFilter = false;     // Track if filter has been opened
     let showOfficialRecipes = true;  // Official recipes filter state (default: true)
-    let showTestRecipes = false;     // Test recipes filter state (readyToTest)
+    let showTestRecipes = false;     // Test recipes filter state (readyToTest) - hidden by default
 
     // Initialize the filter on page load
     function init() {
@@ -336,6 +337,14 @@
             filterExpanded.style.display = 'block';
             filterToggle.classList.add('is-active');
             isExpanded = true;
+
+            // On first open, enable test recipes filter to match the checked checkbox
+            if (!hasOpenedFilter) {
+                hasOpenedFilter = true;
+                showTestRecipes = true;
+                console.log('Filter opened for first time - enabling test recipes');
+                filterRecipes();
+            }
         }
     }
 
