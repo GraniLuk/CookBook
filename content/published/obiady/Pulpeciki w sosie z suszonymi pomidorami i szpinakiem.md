@@ -3,9 +3,8 @@ title: Pulpeciki w sosie z suszonymi pomidorami i szpinakiem
 author: Policzona Szama
 categories: obiady
 draft: false
-readyToTest: true
-queued: true
-priority: 3
+readyToTest: false
+queued: false
 link: https://www.instagram.com/reels/DTAT1X-DFiv/
 recipe_image: images/recipe-headers/pulpeciki_sos_suszonymi_pomidorami_szpinakiem.avif
 video_file: videos/pulpeciki_sos_suszonymi_pomidorami_szpinakiem.mp4
