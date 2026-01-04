@@ -4,22 +4,26 @@ author: Alaantkoweblw
 categories: obiady
 draft: false
 readyToTest: false
-link: https://alaantkoweblw.pl/blog/przepis/najlepsze-kotlety-rybne-z-warzywami-w-chrupiacej-panierce/
+queued: false
+favourite: false
 recipe_image: images/recipe-headers/najlepsze_kotlety_rybne.avif
 date: 2026-01-04 12:00:00+00:00
 tags:
-- kotlety
-- ryby
-tagline: Soczyste kotlety rybne z warzywami w chrupiącej panierce z płatków kukurydzianych.
+  - kotlety
+  - ryby
+  - Stefan
+tagline: Soczyste kotlety rybne z warzywami w chrupiącej panierce z płatków
+  kukurydzianych.
+link: https://alaantkoweblw.pl/blog/przepis/najlepsze-kotlety-rybne-z-warzywami-w-chrupiacej-panierce/
 ingredients:
-- filet z halibuta
-- cebula
-- papryka czerwona
-- marchewka
-- kasza manna
-- jajko
-- płatki kukurydziane
-- mozzarella
+  - filet z halibuta
+  - cebula
+  - papryka czerwona
+  - marchewka
+  - kasza manna
+  - jajko
+  - płatki kukurydziane
+  - mozzarella
 servings: 3
 prep_time: 20
 cook: true
@@ -29,7 +33,7 @@ protein: 46
 fat: 7
 carbohydrate: 14
 fodmap:
-  status: 'yes'
+  status: yes
   serving_ok: OK w tej porcji
   notes: Cebula w małych ilościach, reszta bezpieczna
   substitutions: []
