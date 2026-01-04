@@ -143,6 +143,7 @@ _shared_fields:
       - { label: "fasola biała", value: "fasola biała" }
       - { label: "fasola czerwona", value: "fasola czerwona" }
       - { label: "fasolka szparagowa", value: "fasolka szparagowa" }
+      - { label: "filet z halibuta", value: "filet z halibuta" }
       - { label: "frytki", value: "frytki" }
       - { label: "galaretka wiśniowa", value: "galaretka wiśniowa" }
       - { label: "gnocchi", value: "gnocchi" }
@@ -311,6 +312,7 @@ _shared_fields:
       - { label: "puding białkowy waniliowy", value: "puding białkowy waniliowy" }
       - { label: "płatki czekoladowe", value: "płatki czekoladowe" }
       - { label: "płatki jaglane", value: "płatki jaglane" }
+      - { label: "płatki kukurydziane", value: "płatki kukurydziane" }
       - { label: "płatki migdałów", value: "płatki migdałów" }
       - { label: "płatki owsiane", value: "płatki owsiane" }
       - { label: "płatki owsiane błyskawiczne", value: "płatki owsiane błyskawiczne" }
