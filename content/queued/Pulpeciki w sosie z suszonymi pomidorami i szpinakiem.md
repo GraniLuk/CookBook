@@ -38,6 +38,8 @@ fodmap:
 ---
 
 ## Składniki
+
+### Na pulpeciki
 *   500g mięsa mielonego z łopatki  
 *   Łyżeczka musztardy francuskiej  
 *   Łyżeczka pieprzu ziołowego  
@@ -47,6 +49,8 @@ fodmap:
 *   Pół łyżeczki soli  
 *   Skrobia do obtoczenia  
 *   Olej do smażenia  
+
+### Na sos
 *   Ok. 70g suszonych pomidorów  
 *   2 garści szpinaku baby  
 *   Mała cebula  
@@ -55,6 +59,8 @@ fodmap:
 *   Sól i pieprz  
 *   Plaster masła  
 *   Tarty parmezan (do smaku)  
+
+### Na puree
 *   Ziemniaki (ok. 800g na puree)  
 *   Mleko 1,5% (ok. 100ml na puree)  
 *   Masło (ok. 20g na puree)  
