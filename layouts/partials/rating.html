@@ -1,0 +1,38 @@
+{{/* Rating partial for single recipe page - 5 interactive stars */}}
+{{- $slug := .File.ContentBaseName -}}
+<div class="rating-container" data-recipe-slug="{{ $slug }}">
+    <div class="rating-stars" id="ratingStars" aria-label="Oceń przepis">
+        {{- range seq 5 -}}
+        <button type="button" class="rating-star" data-rating="{{ . }}" aria-label="Oceń na {{ . }} gwiazdek">
+            <i class="far fa-star"></i>
+        </button>
+        {{- end -}}
+    </div>
+    <span class="rating-count" id="ratingCount"></span>
+    <div class="rating-user" id="ratingUser" style="display: none;">
+        <span class="rating-user__label">Twoja ocena:</span>
+        <span class="rating-user__stars" id="userRatingStars"></span>
+    </div>
+</div>
+
+{{/* Auth modal - shown when unauthenticated user attempts to rate */}}
+<div class="auth-modal" id="authModal" style="display: none;">
+    <div class="auth-modal__backdrop" data-auth-close></div>
+    <div class="auth-modal__content">
+        <button type="button" class="auth-modal__close" data-auth-close aria-label="Zamknij">
+            <i class="fas fa-times"></i>
+        </button>
+        <h3 class="auth-modal__title">Zaloguj się, aby ocenić</h3>
+        <p class="auth-modal__subtitle">Wybierz sposób logowania:</p>
+        <div class="auth-modal__buttons">
+            <button type="button" class="auth-btn auth-btn--github" data-auth-provider="github">
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+            </button>
+            <button type="button" class="auth-btn auth-btn--google" data-auth-provider="google">
+                <i class="fab fa-google"></i>
+                <span>Google</span>
+            </button>
+        </div>
+    </div>
+</div>

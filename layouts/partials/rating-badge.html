@@ -1,0 +1,6 @@
+{{/* Rating badge for recipe cards - compact "★ 4.5" display */}}
+{{- $slug := .File.ContentBaseName -}}
+<div class="rating-badge" data-recipe-slug="{{ $slug }}">
+    <i class="far fa-star rating-badge__star"></i>
+    <span class="rating-badge__value">–</span>
+</div>

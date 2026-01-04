@@ -1,4 +1,4 @@
-<a href="{{ .Permalink }}" style="color: inherit; text-decoration: none; display: block; height: 100%;">
+<a href="{{ .Permalink }}" style="color: inherit; text-decoration: none; display: block; height: 100%;" data-recipe-slug="{{ .File.ContentBaseName }}">
     <div class="card" style="border-radius: 1%; height: 100%; display: flex; flex-direction: column; cursor: pointer; transition: transform 0.2s ease, box-shadow 0.2s ease;" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.1)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
         <div class="card-image" style="position:relative;">
             <figure class="image" style="position:relative; aspect-ratio: 1 / 1; width: 100%;">
@@ -13,6 +13,8 @@
                     {{- range seq $priority -}}<i class="fas fa-star"></i>{{- end -}}
                 </div>
                 {{- end -}}
+                {{/* Rating badge - top left */}}
+                {{ partial "rating-badge.html" . }}
                 {{ with .Params.tags }}
                 <div class="card-tags-overlay">
                     {{ range . }}<span class="recipe-tag tag-link" data-tag="{{ . | urlize }}">#{{ . }}</span>{{ end }}

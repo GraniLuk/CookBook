@@ -2040,6 +2040,289 @@ body.fodmap-view-enabled .fodmap-indicator {
     background: rgba(0, 0, 0, 0.85);
 }
 
+/* ============================================
+   RATING SYSTEM STYLES
+   ============================================ */
+
+/* Rating badge on recipe cards (top-left) */
+.rating-badge {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(4px);
+    padding: 4px 10px;
+    border-radius: var(--radius-sm);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    z-index: 10;
+    color: #fff;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.rating-badge__star {
+    color: #fbbf24;
+    font-size: 0.8rem;
+}
+
+.rating-badge__star.fas {
+    color: #fbbf24;
+}
+
+.rating-badge__value {
+    color: #fff;
+}
+
+.card:hover .rating-badge {
+    background: rgba(0, 0, 0, 0.85);
+}
+
+/* Rating section on single recipe page */
+.rating-section {
+    position: absolute;
+    bottom: 60px;
+    right: 10px;
+    z-index: 3;
+}
+
+.rating-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
+}
+
+/* Interactive star rating */
+.rating-stars {
+    display: flex;
+    gap: 2px;
+    padding: 6px 10px;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+    border-radius: var(--radius-sm);
+}
+
+.rating-star {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 2px;
+    transition: transform 0.15s ease;
+}
+
+.rating-star i {
+    font-size: 1.4rem;
+    color: #fbbf24;
+    transition: color 0.15s ease;
+}
+
+.rating-star:hover {
+    transform: scale(1.15);
+}
+
+.rating-star--active i {
+    color: #fbbf24;
+}
+
+/* Rating count */
+.rating-count {
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.9);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
+/* User's rating indicator */
+.rating-user {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.9);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+
+.rating-user__label {
+    opacity: 0.8;
+}
+
+.rating-user__stars i {
+    color: #fbbf24;
+    font-size: 0.7rem;
+}
+
+/* Auth Modal */
+.auth-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.auth-modal__backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+}
+
+.auth-modal__content {
+    position: relative;
+    background: var(--color-surface);
+    padding: 2rem;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-hover);
+    max-width: 360px;
+    width: 90%;
+    text-align: center;
+}
+
+.auth-modal__close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.25rem;
+    color: var(--color-text-light);
+    transition: color 0.2s ease;
+}
+
+.auth-modal__close:hover {
+    color: var(--color-text);
+}
+
+.auth-modal__title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--color-text);
+}
+
+.auth-modal__subtitle {
+    font-size: 0.95rem;
+    color: var(--color-text-light);
+    margin-bottom: 1.5rem;
+}
+
+.auth-modal__buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Auth buttons */
+.auth-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: var(--radius-sm);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.auth-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.auth-btn i {
+    font-size: 1.25rem;
+}
+
+.auth-btn--github {
+    background: #24292e;
+    color: #fff;
+}
+
+.auth-btn--github:hover {
+    background: #1a1e22;
+}
+
+.auth-btn--google {
+    background: #fff;
+    color: #333;
+    border: 1px solid #ddd;
+}
+
+.auth-btn--google:hover {
+    background: #f8f8f8;
+}
+
+.auth-btn--google i {
+    color: #4285f4;
+}
+
+/* Toast notification fallback */
+.toast-notification {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%) translateY(100px);
+    background: var(--color-text);
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: var(--radius-sm);
+    font-size: 0.95rem;
+    z-index: 1001;
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.toast-notification--visible {
+    transform: translateX(-50%) translateY(0);
+    opacity: 1;
+}
+
+/* Responsive adjustments for rating */
+@media screen and (max-width: 768px) {
+    .rating-badge {
+        top: 6px;
+        left: 6px;
+        padding: 3px 8px;
+        font-size: 0.75rem;
+    }
+
+    .rating-badge__star {
+        font-size: 0.7rem;
+    }
+
+    .rating-section {
+        bottom: 50px;
+        right: 8px;
+    }
+
+    .rating-stars {
+        padding: 4px 8px;
+    }
+
+    .rating-star i {
+        font-size: 1.1rem;
+    }
+
+    .auth-modal__content {
+        padding: 1.5rem;
+    }
+}
+
 /* Responsive adjustments for category headers */
 @media screen and (max-width: 768px) {
     .category-header {
