@@ -35,6 +35,17 @@
             ],
             "datasourceTemplate": "cdnjs",
             "depNameTemplate": "font-awesome"
+        },
+        {
+            "customType": "regex",
+            "fileMatch": [
+                "\\.github/workflows/.*\\.ya?ml$"
+            ],
+            "matchStrings": [
+                "HUGO_VERSION:\\s*(?<currentValue>[\\d.]+)"
+            ],
+            "depNameTemplate": "gohugoio/hugo",
+            "datasourceTemplate": "github-releases"
         }
     ]
 }
