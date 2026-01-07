@@ -7,6 +7,7 @@ readyToTest: false
 queued: false
 link: https://www.youtube.com/watch?v=Z8Ai5EPOboY
 recipe_image: images/recipe-headers/domowy_doner_kebab.avif
+video_file: videos/domowy_doner_kebab.webm
 date: 2026-01-01 12:00:00+00:00
 tags:
 - fast-food
