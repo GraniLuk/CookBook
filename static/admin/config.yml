@@ -306,6 +306,7 @@ _shared_fields:
       - { label: "przecier pomidorowy", value: "przecier pomidorowy" }
       - { label: "przyprawa", value: "przyprawa" }
       - { label: "przyprawa korzenna", value: "przyprawa korzenna" }
+      - { label: "pręga wołowa", value: "pręga wołowa" }
       - { label: "pstrąg tęczowy", value: "pstrąg tęczowy" }
       - { label: "pstrąg wędzony", value: "pstrąg wędzony" }
       - { label: "puding białkowy waniliowy", value: "puding białkowy waniliowy" }

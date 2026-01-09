@@ -10,18 +10,16 @@ recipe_image: images/recipe-headers/gulasz_wolowy.avif
 video_file: videos/gulasz_wolowy.webm
 date: 2026-01-09 12:00:00+00:00
 tags:
-- obiady
-- proteinowe
 tagline: Aromatyczny gulasz wołowy, idealny jako dodatek do placków ziemniaczanych.
 ingredients:
 - pręga wołowa
 - cebula
 - papryka czerwona
-- ogórki kiszone
+- ogórek kiszony
 - czosnek
 - suszone pomidory
 - koncentrat pomidorowy
-- olej rzepakowy
+- olej
 servings: 4
 prep_time: 30
 cook: true
