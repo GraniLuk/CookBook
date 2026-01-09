@@ -12,7 +12,7 @@ tags:
 - kanapki
 tagline: Klasyczna kanapka z serem królewskim, szynką, pomidorem i kiełkami, gotowa w 3 minuty.
 ingredients:
-- bułka paryska
+- bułka
 - roszponka
 - ser żółty
 - szynka wiejska

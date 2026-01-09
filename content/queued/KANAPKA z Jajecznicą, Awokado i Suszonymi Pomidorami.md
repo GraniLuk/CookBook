@@ -12,7 +12,7 @@ tags:
 - kanapki
 tagline: Kremowa kanapka z jajecznicą, awokado i suszonymi pomidorami na rukoli.
 ingredients:
-- bułka paryska
+- bułka
 - jajka
 - awokado
 - suszone pomidory

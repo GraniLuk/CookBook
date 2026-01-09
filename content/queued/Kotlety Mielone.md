@@ -15,7 +15,7 @@ ingredients:
 - mięso mielone
 - cebula
 - jajka
-- bułka pszenna
+- bułka
 - bułka tarta
 servings: 4
 prep_time: 20

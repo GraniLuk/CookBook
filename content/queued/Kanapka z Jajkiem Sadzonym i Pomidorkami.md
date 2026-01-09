@@ -15,7 +15,7 @@ tags:
 tagline: Klasyczna kanapka z jajkiem sadzonym, serkiem śmietankowym i świeżymi pomidorkami – gotowa w 10 minut!
 ingredients:
 - jajko
-- bułka pełnoziarnista
+- bułka
 - serek śmietankowy
 - pomidorki koktajlowe
 servings: 1

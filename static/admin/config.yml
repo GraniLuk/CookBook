@@ -109,8 +109,6 @@ _shared_fields:
       - { label: "buraki gotowane", value: "buraki gotowane" }
       - { label: "burrata", value: "burrata" }
       - { label: "bułka", value: "bułka" }
-      - { label: "bułka paryska", value: "bułka paryska" }
-      - { label: "bułka pełnoziarnista", value: "bułka pełnoziarnista" }
       - { label: "bułka pita", value: "bułka pita" }
       - { label: "bułka tarta", value: "bułka tarta" }
       - { label: "cebula", value: "cebula" }

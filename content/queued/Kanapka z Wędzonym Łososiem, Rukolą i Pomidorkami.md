@@ -16,7 +16,7 @@ tags:
 tagline: Elegancka kanapka z wędzonym łososiem i rukolą – idealna na śniadanie do pracy!
 ingredients:
 - łosoś wędzony
-- bułka pełnoziarnista
+- bułka
 - serek śmietankowy
 - rukola
 - pomidorki koktajlowe
