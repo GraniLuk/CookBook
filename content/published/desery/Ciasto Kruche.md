@@ -11,6 +11,7 @@ date: 2025-12-06 12:00:00+00:00
 tags:
   - goście
   - tarta
+  - ciasta
 tagline: Proste i kruche ciasto idealne na tarty i słodkości.
 ingredients:
   - mąka pszenna
