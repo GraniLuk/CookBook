@@ -73,6 +73,7 @@ _shared_fields:
       - { label: "słodkie", value: "słodkie" }
       - { label: "tarta", value: "tarta" }
       - { label: "tortilla", value: "tortilla" }
+      - { label: "tradycyjne", value: "tradycyjne" }
       - { label: "tropikalne", value: "tropikalne" }
       - { label: "wegańskie", value: "wegańskie" }
       - { label: "wegetariańskie", value: "wegetariańskie" }

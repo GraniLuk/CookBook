@@ -9,7 +9,7 @@ recipe_image: images/recipe-headers/kotlety_mielone.avif
 date: 2026-01-09
 tags:
 - kotlety
-- szybkie
+- tradycyjne
 tagline: Klasyczne kotlety mielone, smażone na głębokim oleju.
 ingredients:
 - mięso mielone
