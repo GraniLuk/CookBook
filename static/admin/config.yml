@@ -274,6 +274,7 @@ _shared_fields:
       - { label: "papryczki padron", value: "papryczki padron" }
       - { label: "papryka", value: "papryka" }
       - { label: "papryka czerwona", value: "papryka czerwona" }
+      - { label: "papryka zielona", value: "papryka zielona" }
       - { label: "parmezan", value: "parmezan" }
       - { label: "passata pomidorowa", value: "passata pomidorowa" }
       - { label: "pasta curry", value: "pasta curry" }
