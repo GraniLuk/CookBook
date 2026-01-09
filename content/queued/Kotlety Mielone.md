@@ -64,3 +64,15 @@ fodmap:
 | Olej               | 50        | 450            | 0.0        | 50.0         | 0.0             |
 | **RAZEM:**         | **1290**  | **2615**       | **153.6**  | **158.6**    | **84.1**        |
 ---
+
+## Porady na chrupiącą skórkę i miękkie wnętrze
+
+- Użyj mięsa z odrobiną tłuszczu (np. łopatka wieprzowa + trochę wołowiny). Zbyt chude mięso da suche, zbite kotlety.
+- Bułkę dokładnie odciśnij z nadmiaru wody – masa będzie bardziej zwarta, ale nadal soczysta.
+- Masę mięsną wyrabiaj krótko, tylko do połączenia składników; zbyt długie wyrabianie „ściśnie” mięso.
+- Formuj kotlety na kształt lekko spłaszczonych kulek – zbyt płaskie łatwo przesuszyć, zbyt grube mogą zostać surowe w środku.
+- Panieruj w cienkiej warstwie bułki tartej, lekko dociskając ją do powierzchni – to pomoże uzyskać równomiernie chrupiącą skórkę.
+- Rozgrzej olej przed smażeniem (powinien delikatnie „syczeć” po włożeniu kotleta). Zbyt chłodny tłuszcz wciągnie się w środek i kotlety będą ciężkie.
+- Smaż na średnim ogniu: na początku nieco mocniej, aby zamknąć mięso z wierzchu, potem zmniejsz ogień, żeby środek zdążył się dopiec.
+- Nie przeładowuj patelni – zostaw trochę miejsca między kotletami, żeby temperatura oleju nie spadała za bardzo.
+- Po usmażeniu odłóż kotlety na chwilę na ręcznik papierowy i daj im 2–3 minuty odpoczynku – skórka pozostanie chrupiąca, a wnętrze się „ustabilizuje”.
