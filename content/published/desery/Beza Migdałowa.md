@@ -13,7 +13,7 @@ tags:
 - ciasta
 tagline: Chrupiąca beza z migdałami, idealna do ciast.
 ingredients:
-- białka
+- białka jajek
 - cukier
 - płatki migdałów
 servings: 12
