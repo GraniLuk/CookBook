@@ -237,36 +237,36 @@
     background-color: var(--color-base-200);
     color: var(--color-base-content);
   }
-  
+
   /* 
    * Phase 3: Card Component Styling
    * DaisyUI cards with custom design system integration
    */
-  
+
   /* Recipe cards - preserve hover effects and spacing */
   .card {
     transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
-  
+
   /* Card header styling for weekly plans */
   .card-header {
     border-bottom: 1px solid;
     border-color: var(--color-base-300);
   }
-  
+
   .card-header-title {
     font-family: var(--font-heading);
     font-weight: 700;
     font-size: 1.125rem;
     margin: 0;
   }
-  
+
   /* Card footer styling for weekly plans */
   .card-footer {
     border-top: 1px solid;
     border-color: var(--color-base-300);
   }
-  
+
   .card-footer a {
     flex: 1;
     display: flex;
@@ -276,21 +276,21 @@
     padding: 0.75rem;
     transition: background-color 0.2s ease;
   }
-  
+
   .card-footer a:not(:last-child) {
     border-right: 1px solid;
     border-color: var(--color-base-300);
   }
-  
+
   .card-footer a:hover {
     background-color: var(--color-base-200);
   }
-  
+
   /* Ensure card text colors inherit properly */
   .text-inherit {
     color: inherit;
   }
-  
+
   .no-underline {
     text-decoration: none;
   }

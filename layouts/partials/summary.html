@@ -23,7 +23,7 @@
         </figure>
         <div class="card-body flex-grow flex flex-col p-4">
             <div class="flex items-center justify-between gap-2 h-[4.5em]">
-                <p class="text-lg font-heading font-bold text-center flex-1 m-0 line-clamp-2">{{ $.Title }}</p>
+                <p class="text-lg font-heading text-center flex-1 m-0 line-clamp-2">{{ $.Title }}</p>
                 <span class="fodmap-indicator flex-shrink-0">
                                                                 {{ $isLow := in (default (slice) $.Params.diets) "low-fodmap" }}
                                                                 {{ $status := "" }}
