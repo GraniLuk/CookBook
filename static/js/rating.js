@@ -103,9 +103,8 @@
      */
     function showAuthModal() {
         const modal = document.getElementById('authModal');
-        if (modal) {
-            modal.style.display = 'flex';
-            document.body.style.overflow = 'hidden';
+        if (modal && modal.showModal) {
+            modal.showModal();
         }
     }
 
@@ -114,9 +113,8 @@
      */
     function hideAuthModal() {
         const modal = document.getElementById('authModal');
-        if (modal) {
-            modal.style.display = 'none';
-            document.body.style.overflow = '';
+        if (modal && modal.close) {
+            modal.close();
         }
     }
 

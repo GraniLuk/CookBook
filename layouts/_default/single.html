@@ -118,37 +118,43 @@
             </div>
 
             {{ if $videoFileHref }}
-            <div id="{{ $modalId }}" class="modal recipe-video-modal" role="dialog" aria-modal="true"
-                aria-label="Odtwarzacz wideo" tabindex="-1">
-                <div class="modal-background" data-video-modal-close></div>
-                <div class="modal-content">
-                    <div class="box recipe-video-modal__box">
-                        <video class="recipe-video-modal__player" controls preload="metadata" data-video-modal-player>
-                            <source src="{{ $videoFileHref }}" type="video/mp4">
-                            Twoja przeglądarka nie wspiera odtwarzania wideo. Pobierz plik
-                            <a href="{{ $videoFileHref }}">tutaj</a>.
-                        </video>
-                    </div>
+            <dialog id="{{ $modalId }}" class="modal recipe-video-modal" aria-label="Odtwarzacz wideo">
+                <div class="modal-box max-w-4xl p-0 bg-black">
+                    <form method="dialog">
+                        <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 text-white z-10" aria-label="Zamknij wideo">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </form>
+                    <video class="recipe-video-modal__player w-full" controls preload="metadata" data-video-modal-player>
+                        <source src="{{ $videoFileHref }}" type="video/mp4">
+                        Twoja przeglądarka nie wspiera odtwarzania wideo. Pobierz plik
+                        <a href="{{ $videoFileHref }}">tutaj</a>.
+                    </video>
                 </div>
-                <button class="modal-close is-large" aria-label="Zamknij wideo" data-video-modal-close></button>
-            </div>
+                <form method="dialog" class="modal-backdrop">
+                    <button aria-label="Zamknij">close</button>
+                </form>
+            </dialog>
             {{ end }}
 
             {{ if $videoFileHref2 }}
-            <div id="{{ $modalId2 }}" class="modal recipe-video-modal" role="dialog" aria-modal="true"
-                aria-label="Odtwarzacz wideo 2" tabindex="-1">
-                <div class="modal-background" data-video-modal-close></div>
-                <div class="modal-content">
-                    <div class="box recipe-video-modal__box">
-                        <video class="recipe-video-modal__player" controls preload="metadata" data-video-modal-player>
-                            <source src="{{ $videoFileHref2 }}" type="video/mp4">
-                            Twoja przeglądarka nie wspiera odtwarzania wideo. Pobierz plik
-                            <a href="{{ $videoFileHref2 }}">tutaj</a>.
-                        </video>
-                    </div>
+            <dialog id="{{ $modalId2 }}" class="modal recipe-video-modal" aria-label="Odtwarzacz wideo 2">
+                <div class="modal-box max-w-4xl p-0 bg-black">
+                    <form method="dialog">
+                        <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 text-white z-10" aria-label="Zamknij wideo">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </form>
+                    <video class="recipe-video-modal__player w-full" controls preload="metadata" data-video-modal-player>
+                        <source src="{{ $videoFileHref2 }}" type="video/mp4">
+                        Twoja przeglądarka nie wspiera odtwarzania wideo. Pobierz plik
+                        <a href="{{ $videoFileHref2 }}">tutaj</a>.
+                    </video>
                 </div>
-                <button class="modal-close is-large" aria-label="Zamknij wideo 2" data-video-modal-close></button>
-            </div>
+                <form method="dialog" class="modal-backdrop">
+                    <button aria-label="Zamknij">close</button>
+                </form>
+            </dialog>
             {{ end }}
 
 

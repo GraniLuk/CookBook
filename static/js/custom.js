@@ -373,13 +373,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const closeVideoModal = (modal) => {
     if (!modal) { return; }
     const videoEl = modal.querySelector('[data-video-modal-player]');
-    modal.classList.remove('is-active');
+    // Use native dialog close
+    if (modal.close) {
+      modal.close();
+    }
     if (videoEl) {
       videoEl.pause();
       videoEl.currentTime = 0;
-    }
-    if (!document.querySelector('.modal.is-active')) {
-      rootElement.classList.remove('is-clipped');
     }
     if (activeVideoModal === modal) {
       activeVideoModal = null;
@@ -388,15 +388,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const openVideoModal = (modal) => {
     if (!modal) { return; }
-    modal.classList.add('is-active');
-    rootElement.classList.add('is-clipped');
+    // Use native dialog showModal
+    if (modal.showModal) {
+      modal.showModal();
+    }
     const videoEl = modal.querySelector('[data-video-modal-player]');
     if (videoEl) {
       videoEl.pause();
       videoEl.currentTime = 0;
     }
     activeVideoModal = modal;
-    modal.focus({ preventScroll: true });
   };
 
   document.querySelectorAll('[data-video-modal-trigger]').forEach((trigger) => {
@@ -410,11 +411,16 @@ document.addEventListener('DOMContentLoaded', () => {
       openVideoModal(modal);
     });
 
-    modal.querySelectorAll('[data-video-modal-close]').forEach((closeEl) => {
-      closeEl.addEventListener('click', (event) => {
-        event.preventDefault();
-        closeVideoModal(modal);
-      });
+    // Handle dialog close event to pause video
+    modal.addEventListener('close', () => {
+      const videoEl = modal.querySelector('[data-video-modal-player]');
+      if (videoEl) {
+        videoEl.pause();
+        videoEl.currentTime = 0;
+      }
+      if (activeVideoModal === modal) {
+        activeVideoModal = null;
+      }
     });
 
     modal.addEventListener('keydown', (event) => {

@@ -110,13 +110,10 @@
 
             const label = document.createElement('label');
             label.className = 'checkbox';
-            label.style.display = 'block';
-            label.style.cursor = 'pointer';
 
             const checkbox = document.createElement('input');
             checkbox.type = 'checkbox';
             checkbox.value = ingredient;
-            checkbox.className = 'mr-2';
 
             const text = document.createTextNode(capitalizeFirst(ingredient));
 
@@ -159,13 +156,10 @@
 
             const label = document.createElement('label');
             label.className = 'checkbox';
-            label.style.display = 'block';
-            label.style.cursor = 'pointer';
 
             const checkbox = document.createElement('input');
             checkbox.type = 'checkbox';
             checkbox.value = category;
-            checkbox.className = 'mr-2';
 
             const text = document.createTextNode(capitalizeFirst(category));
 
@@ -228,68 +222,59 @@
             closeFilter.addEventListener('click', collapseFilter);
         }
 
-        // Dropdown toggle - Ingredients
+        // Dropdown toggle - Ingredients (DaisyUI details-based)
         if (dropdown) {
-            const trigger = dropdown.querySelector('.dropdown-trigger button');
-            if (trigger) {
-                trigger.addEventListener('click', function (e) {
+            const summary = dropdown.querySelector('summary');
+            const dropdownContent = dropdown.querySelector('.dropdown-content');
+            
+            // Auto-focus search input when dropdown opens
+            dropdown.addEventListener('toggle', function () {
+                if (dropdown.open && searchInput) {
+                    setTimeout(() => {
+                        searchInput.focus();
+                    }, 100);
+                }
+            });
+            
+            // Prevent closing when clicking inside dropdown content
+            if (dropdownContent) {
+                dropdownContent.addEventListener('click', function (e) {
                     e.stopPropagation();
-                    dropdown.classList.toggle('is-active');
-
-                    // Auto-focus search input when dropdown opens
-                    if (dropdown.classList.contains('is-active') && searchInput) {
-                        // Small delay to ensure dropdown is fully rendered
-                        setTimeout(() => {
-                            searchInput.focus();
-                        }, 100);
-                    }
                 });
             }
         }
 
-        // Dropdown toggle - Categories
+        // Dropdown toggle - Categories (DaisyUI details-based)
         if (categoryDropdown) {
-            const trigger = categoryDropdown.querySelector('.dropdown-trigger button');
-            if (trigger) {
-                trigger.addEventListener('click', function (e) {
+            const summary = categoryDropdown.querySelector('summary');
+            const categoryDropdownContent = categoryDropdown.querySelector('.dropdown-content');
+            
+            // Auto-focus search input when dropdown opens
+            categoryDropdown.addEventListener('toggle', function () {
+                if (categoryDropdown.open && categorySearchInput) {
+                    setTimeout(() => {
+                        categorySearchInput.focus();
+                    }, 100);
+                }
+            });
+            
+            // Prevent closing when clicking inside dropdown content
+            if (categoryDropdownContent) {
+                categoryDropdownContent.addEventListener('click', function (e) {
                     e.stopPropagation();
-                    categoryDropdown.classList.toggle('is-active');
-
-                    // Auto-focus search input when dropdown opens
-                    if (categoryDropdown.classList.contains('is-active') && categorySearchInput) {
-                        setTimeout(() => {
-                            categorySearchInput.focus();
-                        }, 100);
-                    }
                 });
             }
         }
 
         // Close dropdowns when clicking outside
         document.addEventListener('click', function (e) {
-            if (dropdown && !dropdown.contains(e.target)) {
-                dropdown.classList.remove('is-active');
+            if (dropdown && dropdown.open && !dropdown.contains(e.target)) {
+                dropdown.open = false;
             }
-            if (categoryDropdown && !categoryDropdown.contains(e.target)) {
-                categoryDropdown.classList.remove('is-active');
+            if (categoryDropdown && categoryDropdown.open && !categoryDropdown.contains(e.target)) {
+                categoryDropdown.open = false;
             }
         });
-
-        // Prevent ingredient dropdown from closing when clicking inside
-        const dropdownMenu = document.getElementById('dropdown-menu');
-        if (dropdownMenu) {
-            dropdownMenu.addEventListener('click', function (e) {
-                e.stopPropagation();
-            });
-        }
-
-        // Prevent category dropdown from closing when clicking inside
-        const categoryDropdownMenu = document.getElementById('category-dropdown-menu');
-        if (categoryDropdownMenu) {
-            categoryDropdownMenu.addEventListener('click', function (e) {
-                e.stopPropagation();
-            });
-        }
 
         // Clear filters button
         const clearButton = document.getElementById('clearFilters');

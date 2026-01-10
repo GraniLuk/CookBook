@@ -16,23 +16,27 @@
 </div>
 
 {{/* Auth modal - shown when unauthenticated user attempts to rate */}}
-<div class="auth-modal" id="authModal" style="display: none;">
-    <div class="auth-modal__backdrop" data-auth-close></div>
-    <div class="auth-modal__content">
-        <button type="button" class="auth-modal__close" data-auth-close aria-label="Zamknij">
-            <i class="fas fa-times"></i>
-        </button>
-        <h3 class="auth-modal__title">Zaloguj się, aby ocenić</h3>
-        <p class="auth-modal__subtitle">Wybierz sposób logowania:</p>
-        <div class="auth-modal__buttons">
-            <button type="button" class="auth-btn auth-btn--github" data-auth-provider="github">
-                <i class="fab fa-github"></i>
+<dialog id="authModal" class="modal">
+    <div class="modal-box">
+        <form method="dialog">
+            <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2" aria-label="Zamknij">
+                <i class="fas fa-times"></i>
+            </button>
+        </form>
+        <h3 class="font-bold text-lg mb-2">Zaloguj się, aby ocenić</h3>
+        <p class="text-base-content/70 mb-4">Wybierz sposób logowania:</p>
+        <div class="flex flex-col gap-3">
+            <button type="button" class="btn btn-outline gap-2" data-auth-provider="github">
+                <i class="fab fa-github text-xl"></i>
                 <span>GitHub</span>
             </button>
-            <button type="button" class="auth-btn auth-btn--google" data-auth-provider="google">
-                <i class="fab fa-google"></i>
+            <button type="button" class="btn btn-outline gap-2" data-auth-provider="google">
+                <i class="fab fa-google text-xl"></i>
                 <span>Google</span>
             </button>
         </div>
     </div>
-</div>
+    <form method="dialog" class="modal-backdrop">
+        <button>close</button>
+    </form>
+</dialog>

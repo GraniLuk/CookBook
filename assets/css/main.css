@@ -332,6 +332,263 @@
     background-size: 1.5em 1.5em;
     padding-right: 2.5rem;
   }
+
+  /* DaisyUI Dropdown (details-based) styling */
+  details.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  details.dropdown summary {
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+  }
+
+  details.dropdown summary::-webkit-details-marker {
+    display: none;
+  }
+
+  details.dropdown[open] summary ~ * {
+    animation: dropdown-open 0.2s ease-out;
+  }
+
+  @keyframes dropdown-open {
+    from {
+      opacity: 0;
+      transform: translateY(-4px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  details.dropdown .dropdown-content {
+    position: absolute;
+    z-index: 50;
+    top: calc(100% + 0.25rem);
+    left: 0;
+    min-width: 100%;
+  }
+
+  /* Dropdown item styling - compact modern look */
+  details.dropdown .dropdown-item {
+    padding: 0;
+    margin: 0;
+    background: transparent;
+  }
+
+  details.dropdown .dropdown-item label.checkbox {
+    display: flex !important;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+    margin: 0;
+    font-size: 0.875rem;
+    white-space: nowrap;
+    width: 100%;
+    background: transparent;
+    transition: background-color 0.15s ease;
+    text-align: left;
+  }
+
+  details.dropdown .dropdown-item label.checkbox input[type="checkbox"] {
+    margin: 0 0.375rem 0 0;
+    flex-shrink: 0;
+    cursor: pointer;
+    appearance: auto;
+    -webkit-appearance: checkbox;
+    width: 14px;
+    height: 14px;
+  }
+
+  details.dropdown .dropdown-item label.checkbox:hover {
+    background-color: hsl(var(--b2));
+  }
+
+  /* Override any old Bulma/custom.css dropdown styles */
+  #ingredientDropdown .dropdown-item,
+  #categoryDropdown .dropdown-item {
+    padding: 0 !important;
+    margin: 0 !important;
+    background: transparent !important;
+  }
+
+  #ingredientDropdown .dropdown-item label,
+  #categoryDropdown .dropdown-item label {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    padding: 0.25rem 0.5rem !important;
+    margin: 0 !important;
+    background: transparent !important;
+  }
+
+  #ingredientDropdown .dropdown-item:hover,
+  #categoryDropdown .dropdown-item:hover {
+    background: transparent !important;
+  }
+
+  #ingredientDropdown .dropdown-item label:hover,
+  #categoryDropdown .dropdown-item label:hover {
+    background-color: hsl(var(--b2)) !important;
+  }
+
+  /* Compact dropdown scrollbar */
+  details.dropdown .dropdown-content::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  details.dropdown .dropdown-content::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  details.dropdown .dropdown-content::-webkit-scrollbar-thumb {
+    background-color: hsl(var(--bc) / 0.2);
+    border-radius: 3px;
+  }
+}
+
+/* ==================================
+ * Phase 5: Navbar Components - DaisyUI Migration
+ * ================================== */
+@layer components {
+
+  /* Sticky navbar with scroll effects */
+  .navbar {
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+
+  /* Body margin for fixed navbar */
+  body {
+    margin-top: 3.5rem;
+  }
+
+  /* Navbar menu items styling */
+  .navbar .menu-horizontal > li > a,
+  .navbar .menu-horizontal > li > details > summary {
+    color: var(--color-primary-content);
+    font-size: 0.9rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.375rem;
+  }
+
+  .navbar .menu-horizontal > li > a:hover,
+  .navbar .menu-horizontal > li > details > summary:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+
+  /* Dropdown menu in navbar */
+  .navbar .menu li details > ul {
+    position: absolute;
+    min-width: 12rem;
+  }
+
+  /* Nested dropdown positioning */
+  .navbar .menu li details li details > ul {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    margin-left: 0.25rem;
+  }
+
+  /* Mobile menu dropdown */
+  .navbar .dropdown-content.menu {
+    background-color: hsl(var(--b1));
+  }
+
+  /* Mobile menu scrollbar */
+  #mobileMenu::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  #mobileMenu::-webkit-scrollbar-track {
+    background: hsl(var(--b2));
+  }
+
+  #mobileMenu::-webkit-scrollbar-thumb {
+    background: hsl(var(--bc) / 0.3);
+    border-radius: 3px;
+  }
+
+  /* Search input in navbar */
+  .navbar .join .input {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .navbar .join .input:focus {
+    background-color: #fff;
+  }
+
+  /* Mobile search bar */
+  #mobileSearchBar {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+
+  #mobileSearchBar .input {
+    background-color: rgba(255, 255, 255, 0.95);
+  }
+}
+
+/* ==================================
+ * Phase 6: Modal Components - DaisyUI Migration
+ * ================================== */
+@layer components {
+
+  /* DaisyUI Modal base styling */
+  .modal {
+    /* Ensure modal backdrop has proper opacity */
+  }
+
+  .modal::backdrop {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .modal-backdrop > button {
+    /* Hide the backdrop button text */
+    font-size: 0;
+    cursor: default;
+  }
+
+  /* Video modal specific styling */
+  .recipe-video-modal .modal-box {
+    padding: 0;
+    background-color: #000;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+
+  .recipe-video-modal video {
+    display: block;
+    width: 100%;
+    max-height: 80vh;
+  }
+
+  .recipe-video-modal .btn-circle {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+  }
+
+  .recipe-video-modal .btn-circle:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  /* Auth modal styling */
+  #authModal .modal-box {
+    max-width: 24rem;
+  }
+
+  #authModal .btn-outline {
+    justify-content: flex-start;
+  }
+
+  #authModal .btn-outline:hover {
+    background-color: hsl(var(--b2));
+  }
 }
 
 /*

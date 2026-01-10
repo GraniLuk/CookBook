@@ -36,62 +36,40 @@
 
             <div class="field is-grouped is-grouped-multiline">
                 <div class="control">
-                    <div class="dropdown" id="categoryDropdown">
-                        <div class="dropdown-trigger">
-                            <button class="button is-small" aria-haspopup="true" aria-controls="category-dropdown-menu">
-                                <span>Wybierz kategorie</span>
-                                <span class="icon is-small">
-                                    <i class="fas fa-angle-down" aria-hidden="true"></i>
-                                </span>
-                            </button>
-                        </div>
-                        <div class="dropdown-menu" id="category-dropdown-menu" role="menu">
-                            <div class="dropdown-content">
-                                <div class="dropdown-item">
-                                    <div class="field">
-                                        <div class="control has-icons-left">
-                                            <input class="input is-small" type="text" id="categorySearch"
-                                                placeholder="Szukaj kategorii...">
-                                            <span class="icon is-small is-left">
-                                                <i class="fas fa-search"></i>
-                                            </span>
-                                        </div>
-                                    </div>
+                    <details class="dropdown" id="categoryDropdown">
+                        <summary class="btn btn-sm btn-ghost rounded">
+                            <span>Wybierz kategorie</span>
+                            <i class="fas fa-angle-down ml-1 text-xs"></i>
+                        </summary>
+                        <div class="dropdown-content bg-base-100 rounded shadow-md border border-base-300 mt-1 min-w-[200px] max-h-[250px] overflow-y-auto">
+                            <div class="px-2 py-1.5 border-b border-base-200">
+                                <div class="flex items-center gap-1.5">
+                                    <i class="fas fa-search text-xs text-base-content/50"></i>
+                                    <input class="bg-transparent border-none outline-none text-sm flex-1 py-0.5" type="text" id="categorySearch"
+                                        placeholder="Szukaj...">
                                 </div>
-                                <hr class="dropdown-divider">
-                                <div id="categoryList"></div>
                             </div>
+                            <div id="categoryList"></div>
                         </div>
-                    </div>
+                    </details>
                 </div>
                 <div class="control">
-                    <div class="dropdown" id="ingredientDropdown">
-                        <div class="dropdown-trigger">
-                            <button class="button is-small" aria-haspopup="true" aria-controls="dropdown-menu">
-                                <span>Wybierz składniki</span>
-                                <span class="icon is-small">
-                                    <i class="fas fa-angle-down" aria-hidden="true"></i>
-                                </span>
-                            </button>
-                        </div>
-                        <div class="dropdown-menu" id="dropdown-menu" role="menu">
-                            <div class="dropdown-content">
-                                <div class="dropdown-item">
-                                    <div class="field">
-                                        <div class="control has-icons-left">
-                                            <input class="input is-small" type="text" id="ingredientSearch"
-                                                placeholder="Szukaj składnika...">
-                                            <span class="icon is-small is-left">
-                                                <i class="fas fa-search"></i>
-                                            </span>
-                                        </div>
-                                    </div>
+                    <details class="dropdown" id="ingredientDropdown">
+                        <summary class="btn btn-sm btn-ghost rounded">
+                            <span>Wybierz składniki</span>
+                            <i class="fas fa-angle-down ml-1 text-xs"></i>
+                        </summary>
+                        <div class="dropdown-content bg-base-100 rounded shadow-md border border-base-300 mt-1 min-w-[200px] max-h-[250px] overflow-y-auto">
+                            <div class="px-2 py-1.5 border-b border-base-200">
+                                <div class="flex items-center gap-1.5">
+                                    <i class="fas fa-search text-xs text-base-content/50"></i>
+                                    <input class="bg-transparent border-none outline-none text-sm flex-1 py-0.5" type="text" id="ingredientSearch"
+                                        placeholder="Szukaj...">
                                 </div>
-                                <hr class="dropdown-divider">
-                                <div id="ingredientList"></div>
                             </div>
+                            <div id="ingredientList"></div>
                         </div>
-                    </div>
+                    </details>
                 </div>
                 <div class="control">
                     <button class="button is-light is-small" id="clearFilters">
