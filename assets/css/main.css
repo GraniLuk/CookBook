@@ -274,8 +274,8 @@
     padding: 3rem 1.5rem;
   }
 
-  /* Ensure filter-wrapper spacing is preserved - original design uses negative margin */
+  /* Ensure filter-wrapper spacing is preserved - small negative margin for subtle spacing */
   .filter-wrapper {
-    margin-top: -2rem !important;
+    margin-top: -1.5rem !important;
   }
 }
