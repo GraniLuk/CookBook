@@ -1,18 +1,25 @@
 {
     "name": "cookbook-search-tests",
     "version": "1.0.0",
-    "description": "Fuse.js search testing for Hugo CookBook",
+    "description": "Hugo CookBook - Recipe website with Tailwind CSS + DaisyUI",
     "private": true,
     "scripts": {
         "postinstall": "npm run copy-bulma",
+        "dev": "hugo server -D",
+        "build": "hugo --gc --minify",
         "test:search:v3": "node tests/fusejs-baseline-test.js",
         "test:search:v7": "node tests/fusejs-v7-test.js",
         "copy-bulma": "copyfiles -f node_modules/bulma/css/bulma.min.css static/css/"
     },
     "devDependencies": {
+        "@tailwindcss/cli": "^4.1.18",
+        "autoprefixer": "^10.4.23",
         "bulma": "^1.0.4",
+        "copyfiles": "^2.4.1",
+        "daisyui": "^5.5.14",
         "fuse.js": "7.1.0",
-        "copyfiles": "^2.4.1"
+        "postcss": "^8.5.6",
+        "tailwindcss": "^4.1.18"
     },
     "engines": {
         "node": ">=14.0.0"

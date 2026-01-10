@@ -4,10 +4,10 @@
         <h1 class="title is-2 has-text-centered">{{ .Title }}</h1>
         <p class="subtitle has-text-centered">{{ .Content }}</p>
 
-        <div class="buttons is-centered mb-5">
+        <div class="flex justify-center mb-5">
             <a href="{{ absURL "admin/#/collections/weekly_plans/new" }}"
-                class="button is-primary is-medium">
-                <span class="icon"><i class="fas fa-plus"></i></span>
+                class="btn btn-primary btn-md">
+                <i class="fas fa-plus"></i>
                 <span>Stwórz nowy plan</span>
             </a>
         </div>
@@ -23,7 +23,7 @@
                         </p>
                         <div class="card-header-icon">
                             {{ if .Params.start_date }}
-                            <span class="tag is-info is-medium">{{ .Params.start_date | time.Format "02.01" }}</span>
+                            <span class="badge badge-info badge-lg">{{ .Params.start_date | time.Format "02.01" }}</span>
                             {{ end }}
                         </div>
                     </header>

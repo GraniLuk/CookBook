@@ -24,19 +24,19 @@
 
         <div class="content">
             {{ if .Params.servings }}
-            <span class="tag is-light">
+            <span class="badge badge-ghost">
                 <i class="fas fa-users pr-1"></i>{{ .Params.servings }} porcji
             </span>
             {{ end }}
 
             {{ if .Params.prep_time }}
-            <span class="tag is-light">
+            <span class="badge badge-ghost">
                 <i class="fas fa-clock pr-1"></i>{{ .Params.prep_time }} min
             </span>
             {{ end }}
 
             {{ if .Params.calories }}
-            <span class="tag is-light">
+            <span class="badge badge-ghost">
                 <i class="fas fa-fire pr-1"></i>{{ .Params.calories }} kcal
             </span>
             {{ end }}
@@ -44,7 +44,7 @@
             {{/* Pokazujemy informacje FODMAP */}}
             {{ if .Params.fodmap }}
             <br>
-            <span class="tag is-success is-light">
+            <span class="badge badge-success">
                 <i class="fas fa-check pr-1"></i>{{ .Params.fodmap.serving_ok }}
             </span>
             {{ end }}
@@ -52,7 +52,7 @@
             <br><br>
             {{ if .Params.tags }}
             {{ range .Params.tags }}
-            <span class="tag is-primary is-light">{{ . }}</span>
+            <span class="badge badge-primary badge-outline">{{ . }}</span>
             {{ end }}
             {{ end }}
         </div>
