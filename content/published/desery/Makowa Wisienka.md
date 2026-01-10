@@ -25,15 +25,14 @@ ingredients:
 - wiśnie mrożone
 - mascarpone
 - śmietanka 30%
-- płatki migdałów
 servings: 12
 prep_time: 60
 cook: true
 cook_time: 180
-calories: 635
-protein: 10
-fat: 39
-carbohydrate: 58
+calories: 530
+protein: 8
+fat: 38
+carbohydrate: 37
 fodmap:
   status: false
   serving_ok: ''
@@ -61,18 +60,13 @@ fodmap:
   * 500 g mascarpone
   * 400 ml śmietanki 30%
   * 3 łyżki cukru pudru
-* **Beza:**
-
-  * 5 białek
-  * 250 g cukru
-  * 3 łyżki płatków migdałów
 
 ## Sposób przygotowania
 
 1. **Spód:** Mak, migdały, wiórki, proszek i mąkę wymieszać w misie. W osobnej misie ubić na sztywno białka. Kiedy piana będzie gęsta i sztywna, zmniejszyć obroty i dodawać powoli żółtka. Następnie w 3 partiach dodawać suche składniki i mieszać ostrożnie. Ciasto przełożyć do blaszki 33x22cm z papierem do pieczenia i wstawić do nagrzanego piekarnika góra dół 170' na ok 25min. Ostudzić.
 2. **Galaretka:** We wrzątku rozpuścić galaretki, wymieszać dobrze i ostudzić. Następnie dodać mrożone owoce i wymieszać, od razu zacznie tężeć i szybciutko taką tężejącą masę przełożyć na ostudzony spód i wstawić do lodówki.
 3. **Krem:** Wszystkie schłodzone składniki zmiksować na średnich obrotach na gęsty krem. Wyłożyć na ściętą galaretkę i schłodzić.
-4. **Beza:** Świeże białka w temperaturze pokojowej ubić na sztywno i stopniowo powoli dodawać cukier. Cierpliwie i po 1 łyżce. Kiedy całkowicie się rozpuści i piana jest gęsta, rozprowadzić ją na płaskiej blaszce z papierem o wymiarach blaszki na ciasto czyli 33x22cm. Posypać migdałami i wstawić do nagrzanego piekarnika 150' góra dół, od razu zmniejszyć do 110' i piec 2.5-3h. Nie otwieram piekarnika, a bezę po upieczeniu zostawiam do ostudzenia w zamkniętym piekarniku najlepiej na całą noc. Następnie ostrożnie odkleić od papieru i ułożyć na cieście. Ciasto przechowywać w lodówce, ale bez przykrycia.
+4. Przygotować bezę zgodnie z przepisem na [Bezową Bezę](/desery/beza-migdalowa/). Następnie ostrożnie odkleić od papieru i ułożyć na cieście. Ciasto przechowywać w lodówce, ale bez przykrycia.
 
 ## Podsumowanie wartości odżywczych (całe danie)
 
@@ -89,7 +83,4 @@ fodmap:
 | Mascarpone           | 500       | 2000           | 20.0       | 200.0        | 20.0            |
 | Śmietanka 30%        | 400       | 1200           | 8.0        | 120.0        | 12.0            |
 | Cukier puder         | 30        | 120            | 0.0        | 0.0          | 30.0            |
-| Białka               | 150       | 80             | 15.0       | 0.0          | 1.0             |
-| Cukier (beza)        | 250       | 1000           | 0.0        | 0.0          | 250.0           |
-| Płatki migdałów      | 30        | 180            | 6.0        | 15.0         | 6.0             |
-| **RAZEM:**           | **2635**  | **7625**       | **122.0**  | **472.0**    | **700.0**       |
+| **RAZEM:**           | **2205**  | **6365**       | **101.0**  | **457.0**    | **443.0**       |
