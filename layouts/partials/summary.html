@@ -1,12 +1,11 @@
-<a href="{{ .Permalink }}" style="color: inherit; text-decoration: none; display: block; height: 100%;" data-recipe-slug="{{ .File.ContentBaseName }}">
-    <div class="card" style="border-radius: 1%; height: 100%; display: flex; flex-direction: column; cursor: pointer; transition: transform 0.2s ease, box-shadow 0.2s ease;" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.1)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
-        <div class="card-image" style="position:relative;">
-            <figure class="image" style="position:relative; aspect-ratio: 1 / 1; width: 100%;">
-                {{- $image_url := partial "asset-url.html" "/images/defaultImage.avif" -}}
-                {{- if and .Params.recipe_image (fileExists (printf "static/%s" .Params.recipe_image)) -}}
-                    {{- $image_url = partial "asset-url.html" (printf "/%s" .Params.recipe_image) -}}
-                {{- end -}}
-                <img style="border-radius: 3%; width: 100%; height: 100%; object-fit: cover;" src="{{ $image_url }}" alt="Zdjęcie przepisu">
+<a href="{{ .Permalink }}" class="block h-full no-underline text-inherit" data-recipe-slug="{{ .File.ContentBaseName }}">
+    <div class="card bg-base-100 shadow-md hover:shadow-xl h-full flex flex-col cursor-pointer transition-all duration-200 hover:-translate-y-1 rounded-2xl overflow-hidden">
+        <figure class="relative aspect-square w-full">
+            {{- $image_url := partial "asset-url.html" "/images/defaultImage.avif" -}}
+            {{- if and .Params.recipe_image (fileExists (printf "static/%s" .Params.recipe_image)) -}}
+                {{- $image_url = partial "asset-url.html" (printf "/%s" .Params.recipe_image) -}}
+            {{- end -}}
+            <img class="rounded-t-2xl w-full h-full object-cover" src="{{ $image_url }}" alt="Zdjęcie przepisu">
                 {{- if .Params.queued -}}
                 <div class="priority-badge">
                     {{- $priority := default 1 .Params.priority -}}
@@ -21,11 +20,11 @@
                 </div>
                 {{ end }}
             </figure>
-        </div>
-          <div class="card-content" style="flex-grow: 1; display: flex; flex-direction: column;">
-                                                <div class="media-content" style="height: 4.5em; display: flex; align-items: center; justify-content: space-between; gap:.5rem;">
-                                                                <p class="title is-4 has-text-centered" style="flex:1; margin: 0; display: -webkit-box; -webkit-line-clamp: 2; line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">{{ $.Title }}</p>
-                                                                <span class="fodmap-indicator">
+        </figure>
+        <div class="card-body flex-grow flex flex-col p-4">
+            <div class="flex items-center justify-between gap-2 h-[4.5em]">
+                <p class="text-lg font-heading font-bold text-center flex-1 m-0 line-clamp-2">{{ $.Title }}</p>
+                <span class="fodmap-indicator flex-shrink-0">
                                                                 {{ $isLow := in (default (slice) $.Params.diets) "low-fodmap" }}
                                                                 {{ $status := "" }}
                                                                 {{ if and (isset $.Params "fodmap") (isset $.Params.fodmap "status") }}
@@ -41,25 +40,25 @@
                                                                         </span>
                                                                 {{ end }}
                                                                 </span>
-                                                </div>
-        <div class="content" style="flex-grow: 1; display: flex; flex-direction: column;">           
-            <div style="height: 3em; display: flex; justify-content: center; align-items: center; margin-top: .2em;">
-                <div style="display: flex; flex-wrap: wrap; gap: 1em; font-size: 0.8em; align-items: center; justify-content: center;">
-                    <span style="display: flex; align-items: center; gap: 0.3em;">
-                        <i class="fas fa-fire" style="color: #ff6b35;"></i><strong>{{ $.Params.calories }}</strong> kcal
-                    </span>
-                    <span style="display: flex; align-items: center; gap: 0.3em;">
-                        <i class="fas fa-dumbbell" style="color: #4ecdc4;"></i><strong>{{ $.Params.protein }}g</strong>
-                    </span>
-                    <span style="display: flex; align-items: center; gap: 0.3em;">
-                        <i class="fas fa-droplet" style="color: #687935;"></i><strong>{{ $.Params.fat }}g</strong>
-                    </span>
-                    <span style="display: flex; align-items: center; gap: 0.3em;">
-                        <i class="fas fa-wheat-awn" style="color: #f9ca24;"></i><strong>{{ $.Params.carbohydrate }}g</strong>
-                    </span>                
+            </div>
+            <div class="flex-grow flex flex-col">
+                <div class="h-12 flex justify-center items-center mt-1">
+                    <div class="flex flex-wrap gap-3 text-sm items-center justify-center">
+                        <span class="flex items-center gap-1">
+                            <i class="fas fa-fire" style="color: #ff6b35;"></i><strong>{{ $.Params.calories }}</strong> kcal
+                        </span>
+                        <span class="flex items-center gap-1">
+                            <i class="fas fa-dumbbell" style="color: #4ecdc4;"></i><strong>{{ $.Params.protein }}g</strong>
+                        </span>
+                        <span class="flex items-center gap-1">
+                            <i class="fas fa-droplet" style="color: #687935;"></i><strong>{{ $.Params.fat }}g</strong>
+                        </span>
+                        <span class="flex items-center gap-1">
+                            <i class="fas fa-wheat-awn" style="color: #f9ca24;"></i><strong>{{ $.Params.carbohydrate }}g</strong>
+                        </span>
+                    </div>
                 </div>
             </div>
-        </div>
         </div>
     </div>
 </a>

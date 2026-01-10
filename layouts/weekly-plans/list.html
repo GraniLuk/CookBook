@@ -16,21 +16,21 @@
         <div class="columns is-multiline">
             {{ range .Pages.ByDate.Reverse }}
             <div class="column is-4-desktop is-6-tablet is-full-mobile">
-                <div class="card">
-                    <header class="card-header">
-                        <p class="card-header-title">
-                            <a href="{{ .Permalink }}">{{ .Title }}</a>
+                <div class="card bg-base-100 shadow-md hover:shadow-xl rounded-2xl overflow-hidden transition-all duration-200 hover:-translate-y-1">
+                    <div class="card-header bg-base-200 p-4 flex items-center justify-between border-b border-base-300">
+                        <p class="card-header-title font-heading font-bold text-lg m-0">
+                            <a href="{{ .Permalink }}" class="text-inherit hover:text-primary">{{ .Title }}</a>
                         </p>
-                        <div class="card-header-icon">
+                        <div>
                             {{ if .Params.start_date }}
                             <span class="badge badge-info badge-lg">{{ .Params.start_date | time.Format "02.01" }}</span>
                             {{ end }}
                         </div>
-                    </header>
-                    <div class="card-content">
+                    </div>
+                    <div class="card-body p-4">
                         <div class="content">
-                            <p class="has-text-grey">
-                                <span class="icon"><i class="far fa-calendar"></i></span>
+                            <p class="text-base-content/70 flex items-center gap-2">
+                                <i class="far fa-calendar"></i>
                                 Tydzień {{ .Params.week_number }}/{{ .Params.year }}
                             </p>
                             {{ if .Params.notes }}
@@ -38,19 +38,19 @@
                             {{ end }}
                         </div>
                     </div>
-                    <footer class="card-footer">
-                        <a href="{{ .Permalink }}" class="card-footer-item">
-                            <span class="icon"><i class="fas fa-eye"></i></span>
+                    <div class="card-footer border-t border-base-300 flex">
+                        <a href="{{ .Permalink }}" class="flex-1 flex items-center justify-center gap-2 p-3 hover:bg-base-200 transition-colors border-r border-base-300">
+                            <i class="fas fa-eye"></i>
                             <span>Zobacz</span>
                         </a>
                         {{- $planSlug := urlquery .File.BaseFileName -}}
                         {{- $planSlug = replace $planSlug "+" "%20" -}}
                         <a href="{{ absURL (printf "admin/#/collections/weekly_plans/entries/%s" $planSlug) }}"
-                            class="card-footer-item">
-                            <span class="icon"><i class="fas fa-edit"></i></span>
+                            class="flex-1 flex items-center justify-center gap-2 p-3 hover:bg-base-200 transition-colors">
+                            <i class="fas fa-edit"></i>
                             <span>Edytuj</span>
                         </a>
-                    </footer>
+                    </div>
                 </div>
             </div>
             {{ end }}
