@@ -3,7 +3,7 @@ title: Kotlety Mielone
 author: Policzone Szamy
 categories: obiady
 draft: false
-readyToTest: true
+readyToTest: false
 queued: true
 recipe_image: images/recipe-headers/kotlety_mielone.avif
 date: 2026-01-09
