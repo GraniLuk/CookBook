@@ -2,7 +2,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="color-scheme" content="light only">
-    <meta name="color-scheme" content="light only">    
+
     <link rel="apple-touch-icon" sizes="180x180" href="{{ partial "asset-url.html" "/apple-touch-icon.png" }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ partial "asset-url.html" "/favicon-32x32.png" }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ partial "asset-url.html" "/favicon-16x16.png" }}">
@@ -32,14 +32,34 @@
     {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
     <title>{{ $title }}</title>
     {{ if .Site.Params.googleAnalytics }}
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.googleAnalytics }}"></script>
+    <!-- Google tag (gtag.js) - loaded only after user grants analytics consent -->
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      (function () {
+        var trackingId = '{{ .Site.Params.googleAnalytics }}';
 
-      gtag('config', '{{ .Site.Params.googleAnalytics }}');
+        // Read analytics consent from localStorage (set elsewhere when user accepts)
+        var consent = (function () {
+          try {
+            return window.localStorage && window.localStorage.getItem('analytics_consent');
+          } catch (e) {
+            return null;
+          }
+        })();
+
+        if (consent === 'granted') {
+          var script = document.createElement('script');
+          script.async = true;
+          script.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(trackingId);
+          document.head.appendChild(script);
+
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){ dataLayer.push(arguments); }
+          window.gtag = gtag;
+
+          gtag('js', new Date());
+          gtag('config', trackingId);
+        }
+      })();
     </script>
     {{ end }}
     <script>window.baseUrl = '{{ (urls.Parse site.BaseURL).Path | strings.TrimSuffix "/" }}';</script>
