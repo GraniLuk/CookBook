@@ -1,27 +1,29 @@
 {{ define "main" }}
-<div class="section">
-    <div class="container">
+<div class="page-section">
+    <div class="page-container">
         <h1 class="title">{{ .Title }}</h1>
         <p class="subtitle">{{ len .Pages }} {{ if eq (len .Pages) 1 }}przepis{{ else }}przepisów{{ end }} w kategorii
             "{{ .Title }}"</p>
 
         {{ if eq .Title "Śniadania" }}
-        <div class="notification is-info is-light">
-            <h3 class="title is-5">Podkategorie śniadań:</h3>
-            <div class="flex gap-2 flex-wrap">
-                <a class="btn btn-primary btn-outline" href="/subcategories/słodkie/">
-                    <i class="fas fa-cookie-bite"></i>
-                    <span>Słodkie</span>
-                </a>
-                <a class="btn btn-primary btn-outline" href="/subcategories/słone/">
-                    <i class="fas fa-egg"></i>
-                    <span>Słone</span>
-                </a>
+        <div class="alert alert-info mb-5">
+            <div>
+                <h3 class="font-bold mb-2">Podkategorie śniadań:</h3>
+                <div class="flex gap-2 flex-wrap">
+                    <a class="btn btn-primary btn-outline btn-sm" href="/subcategories/słodkie/">
+                        <i class="fas fa-cookie-bite"></i>
+                        <span>Słodkie</span>
+                    </a>
+                    <a class="btn btn-primary btn-outline btn-sm" href="/subcategories/słone/">
+                        <i class="fas fa-egg"></i>
+                        <span>Słone</span>
+                    </a>
+                </div>
             </div>
         </div>
         {{ end }}
-        <div class="columns is-multiline">
-            {{ partial "sorted-recipes.html" (dict "pages" .Pages "template" "summary.html" "columnClass" "is-2-desktop is-3-tablet is-full-mobile") }}
+        <div class="recipe-grid">
+            {{ partial "sorted-recipes.html" (dict "pages" .Pages "template" "summary.html" "columnClass" "") }}
         </div>
     </div>
 </div>

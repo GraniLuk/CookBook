@@ -1,31 +1,27 @@
-<div class="columns is-mobile is-multiline">
-    <div class="column is-4-mobile" style="border-right: 1px solid #dbdbdb">
+<div class="stats-grid">
+    <div class="stats-item border-r border-base-300">
         <i class="fas fa-concierge-bell fa-lg"></i>
-        <div></div>
-        <p class="has-text-weight-bold is-size-6">Porcje</p>
-        <div></div>
-        {{ .Params.Servings | default "---"}} porcji
+        <p class="font-bold text-sm mt-2">Porcje</p>
+        <p class="mt-1">{{ .Params.Servings | default "---"}} porcji</p>
     </div>
-    <div class="column is-4-mobile" style="border-right: 1px solid #dbdbdb">
+    <div class="stats-item border-r border-base-300">
         <i class="fas fa-hourglass-half fa-lg"></i>
-        <div></div>
-        <p class="has-text-weight-bold is-size-6">Czas przygotowania</p>
-        <div></div>
-        {{ .Params.Prep_time | default "---"}} minut
+        <p class="font-bold text-sm mt-2">Czas przygotowania</p>
+        <p class="mt-1">{{ .Params.Prep_time | default "---"}} minut</p>
     </div>
-    <div class="column is-4-mobile">
+    <div class="stats-item">
         <i class="fas fa-temperature-high fa-lg"></i>
-        <div></div>
         {{ if .Params.Cook }}
-        <p class="has-text-weight-bold is-size-6">Czas gotowania</p>
+        <p class="font-bold text-sm mt-2">Czas gotowania</p>
         {{ else }}
-        <p class="has-text-weight-bold is-size-6">Czas chłodzenia</p>
+        <p class="font-bold text-sm mt-2">Czas chłodzenia</p>
         {{ end }}
-        <div></div>
+        <p class="mt-1">
         {{ if eq .Params.Cook_increment "hours" }}
         {{ .Params.Cook_time | default "---"}} godzin
         {{ else }}
         {{ .Params.Cook_time | default "---"}} minut
         {{ end }}
+        </p>
     </div>
 </div>

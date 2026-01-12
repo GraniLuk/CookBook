@@ -1,11 +1,10 @@
 
-const CACHE_NAME = 'cookbook-cache-v1';
+const CACHE_NAME = 'cookbook-cache-v2';
 const IMAGE_CACHE_NAME = 'cookbook-image-cache-v1';
 
-// Files to cache on installation
+// Files to cache on installation (Tailwind CSS is generated dynamically by Hugo)
 const urlsToCache = [
   '/',
-  '/css/bulma.min.css',
   '/js/custom.js'
 ];
 

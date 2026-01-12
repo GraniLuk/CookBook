@@ -13,7 +13,7 @@
 
     // Initialize the filter on page load
     function init() {
-        allRecipeCards = document.querySelectorAll('.columns.is-multiline > .column[data-ingredients]');
+        allRecipeCards = document.querySelectorAll('.recipe-grid > .recipe-grid-item[data-ingredients]');
         totalRecipes = allRecipeCards.length;
 
         if (totalRecipes === 0) {

@@ -17,7 +17,7 @@
 
     // Initialize the filter on page load
     function init() {
-        allRecipeCards = document.querySelectorAll('.columns.is-multiline > .column[data-ingredients]');
+        allRecipeCards = document.querySelectorAll('.recipe-grid > .recipe-grid-item[data-ingredients]');
         totalRecipes = allRecipeCards.length;
 
         if (totalRecipes === 0) {
@@ -226,7 +226,7 @@
         if (dropdown) {
             const summary = dropdown.querySelector('summary');
             const dropdownContent = dropdown.querySelector('.dropdown-content');
-            
+
             // Auto-focus search input when dropdown opens
             dropdown.addEventListener('toggle', function () {
                 if (dropdown.open && searchInput) {
@@ -235,7 +235,7 @@
                     }, 100);
                 }
             });
-            
+
             // Prevent closing when clicking inside dropdown content
             if (dropdownContent) {
                 dropdownContent.addEventListener('click', function (e) {
@@ -248,7 +248,7 @@
         if (categoryDropdown) {
             const summary = categoryDropdown.querySelector('summary');
             const categoryDropdownContent = categoryDropdown.querySelector('.dropdown-content');
-            
+
             // Auto-focus search input when dropdown opens
             categoryDropdown.addEventListener('toggle', function () {
                 if (categoryDropdown.open && categorySearchInput) {
@@ -257,7 +257,7 @@
                     }, 100);
                 }
             });
-            
+
             // Prevent closing when clicking inside dropdown content
             if (categoryDropdownContent) {
                 categoryDropdownContent.addEventListener('click', function (e) {

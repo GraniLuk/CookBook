@@ -89,16 +89,16 @@
             </div>
             <div class="field is-grouped is-grouped-multiline mt-3" id="selectedCategories"></div>
             <div class="field is-grouped is-grouped-multiline mt-2" id="selectedIngredients"></div>
-            <div class="notification is-light is-small mt-3" id="filterResults">
+            <div class="alert alert-info text-sm mt-3" id="filterResults">
                 <p id="resultsCount">Pokazuję wszystkie przepisy</p>
             </div>
         </div>
     </div>
 
-    <div class="columns is-multiline">
+    <div class="recipe-grid" id="recipe-grid">
         {{ range .Site.RegularPages }}
         {{ if and (isset .Params "draft") (eq .Params.draft false) }}
-        <div class="column is-2-desktop is-3-tablet is-full-mobile"
+        <div class="recipe-grid-item"
             data-ingredients='{{ .Params.ingredients | jsonify }}' data-categories='{{ .Params.categories | jsonify }}'
             data-draft="{{ default false .Draft }}" data-ready-to-test="{{ if .Params.readyToTest }}true{{ else }}false{{ end }}">
             {{ partial "summary.html" . }}

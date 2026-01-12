@@ -1,6 +1,6 @@
 {{ define "main" }}
-<section class="section">
-    <div class="container">
+<section class="page-section">
+    <div class="page-container">
         <h1 class="title is-2 has-text-centered">{{ .Title }}</h1>
         <p class="subtitle has-text-centered">{{ .Content }}</p>
 
@@ -13,9 +13,9 @@
         </div>
 
         {{ if .Pages }}
-        <div class="columns is-multiline">
+        <div class="plan-grid">
             {{ range .Pages.ByDate.Reverse }}
-            <div class="column is-4-desktop is-6-tablet is-full-mobile">
+            <div>
                 <div class="card bg-base-100 shadow-md hover:shadow-xl rounded-2xl overflow-hidden transition-all duration-200 hover:-translate-y-1">
                     <div class="card-header bg-base-200 p-4 flex items-center justify-between border-b border-base-300">
                         <p class="card-header-title font-heading font-semibold text-lg m-0">
@@ -56,13 +56,15 @@
             {{ end }}
         </div>
         {{ else }}
-        <div class="notification is-info is-light">
-            <p class="has-text-centered">
-                <span class="icon is-large"><i class="fas fa-calendar-alt fa-2x"></i></span>
-            </p>
-            <p class="has-text-centered">
-                Nie masz jeszcze żadnych planów tygodniowych. Kliknij przycisk wyżej, aby stworzyć pierwszy!
-            </p>
+        <div class="alert alert-info">
+            <div class="text-center w-full">
+                <p class="mb-2">
+                    <span class="text-4xl"><i class="fas fa-calendar-alt"></i></span>
+                </p>
+                <p>
+                    Nie masz jeszcze żadnych planów tygodniowych. Kliknij przycisk wyżej, aby stworzyć pierwszy!
+                </p>
+            </div>
         </div>
         {{ end }}
     </div>

@@ -150,10 +150,10 @@ function executeSearch(searchQuery) {
 
       lastSearchResult = result;
       if (result.length > 0) {
-        u('#content').addClass("is-hidden"); //hiding our main content to display the results
+        u('#content').addClass("hidden"); //hiding our main content to display the results
         u('#searchResultsCol').empty(); // clean out any previous search results
         u('#searchButton').removeClass("is-loading") //change our button back
-        u('#searchResults').removeClass("is-hidden") //show Result area
+        u('#searchResults').removeClass("hidden") //show Result area
         populateResults(result);
       } else {
         showAlert("No results found!")
@@ -206,7 +206,7 @@ function populateResults(result) {
 
     // Build DOM nodes directly to avoid template parsing issues
     const col = document.createElement('div');
-    col.className = 'column is-2-desktop is-3-tablet is-full-mobile';
+    col.className = 'search-result-item';
 
     const resultWrap = document.createElement('div');
     resultWrap.className = 'result';
@@ -219,10 +219,8 @@ function populateResults(result) {
     resultWrap.appendChild(a);
 
     const card = document.createElement('div');
-    card.className = 'card';
-    card.style.cssText = 'border-radius: 1%; height: 100%; display: flex; flex-direction: column; cursor: pointer; transition: transform 0.2s ease, box-shadow 0.2s ease;';
-    card.onmouseover = function () { this.style.transform = 'translateY(-2px)'; this.style.boxShadow = '0 4px 8px rgba(0,0,0,0.1)'; };
-    card.onmouseout = function () { this.style.transform = 'translateY(0)'; this.style.boxShadow = 'none'; };
+    card.className = 'card bg-base-100 shadow-md hover:shadow-xl rounded-2xl overflow-hidden transition-all duration-200 hover:-translate-y-1';
+    card.style.cssText = 'height: 100%; display: flex; flex-direction: column; cursor: pointer;';
     a.appendChild(card);
 
     const cardImage = document.createElement('div');
@@ -349,7 +347,7 @@ document.addEventListener('click', function (e) {
 // Re-render search results when filter changes
 if (document.getElementById('showTestCheckbox')) {
   u('#showTestCheckbox').on('change', function () {
-    if (lastSearchResult && !u('#searchResults').hasClass('is-hidden')) {
+    if (lastSearchResult && !u('#searchResults').hasClass('hidden')) {
       populateResults(lastSearchResult);
     }
   });

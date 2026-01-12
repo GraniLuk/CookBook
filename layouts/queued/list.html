@@ -1,6 +1,6 @@
 {{ define "main" }}
-<div class="section">
-    <div class="container">
+<div class="page-section">
+    <div class="page-container">
         <h1 class="title">Kolejka</h1>
         {{ $allPages := where site.RegularPages "Params.queued" "eq" true }}
         <p class="subtitle">{{ len $allPages }} {{ if eq (len $allPages) 1 }}przepis{{ else }}przepisów{{ end }} w kolejce</p>
@@ -46,9 +46,9 @@
                 
                 <div class="category-section">
                     <h2 class="category-header">{{ index $categoryNames $category }} <span class="category-count">({{ len $categoryPages }})</span></h2>
-                    <div class="columns is-multiline">
+                    <div class="recipe-grid">
                         {{ range $sortedPages }}
-                        <div class="column is-2-desktop is-3-tablet is-full-mobile">
+                        <div>
                             {{ partial "summary.html" . }}
                         </div>
                         {{ end }}
@@ -72,12 +72,12 @@
         {{ if gt (len $uncategorized) 0 }}
             <div class="category-section">
                 <h2 class="category-header">📋 Inne <span class="category-count">({{ len $uncategorized }})</span></h2>
-                <div class="columns is-multiline">
+                <div class="recipe-grid">
                     {{/* Sort by title first (secondary key), then by priority (primary key) */}}
                     {{ $sortedUncategorized := sort $uncategorized ".Title" "asc" }}
                     {{ $sortedUncategorized = sort $sortedUncategorized ".Params.priority" "desc" }}
                     {{ range $sortedUncategorized }}
-                    <div class="column is-2-desktop is-3-tablet is-full-mobile">
+                    <div>
                         {{ partial "summary.html" . }}
                     </div>
                     {{ end }}

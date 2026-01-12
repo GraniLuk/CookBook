@@ -1,7 +1,7 @@
 {{ define "main" }}
-<div class="section recipe-page">
-    <div class="columns is-centered">
-        <div class="column is-full-mobile is-8-desktop recipe-card">
+<div class="page-section recipe-page">
+    <div class="recipe-page-container">
+        <div class="recipe-card">
             <div class="is-flex recipe-hero-wrap" style="justify-content: center; position: relative;">
                 <div class="recipe-status-icons">
                     {{ if .Params.favourite }}
@@ -159,11 +159,11 @@
 
 
 
-            <div class="container has-text-centered recipe-meta recipe-meta--stats">
+            <div class="text-center recipe-meta recipe-meta--stats">
                 {{ partial "statstable.html" . }}
             </div>
             <hr class="recipe-sep">
-            <div class="container has-text-centered recipe-meta recipe-meta--macros">
+            <div class="text-center recipe-meta recipe-meta--macros">
                 {{ partial "macrostable.html" . }}
             </div>
             <hr>

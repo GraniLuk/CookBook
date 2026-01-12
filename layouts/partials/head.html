@@ -8,20 +8,17 @@
     <link rel="icon" type="image/png" sizes="16x16" href="{{ partial "asset-url.html" "/favicon-16x16.png" }}">
     <link rel="icon" href="{{ partial "asset-url.html" "/favicon.ico" }}" sizes="any">
     <link rel="manifest" href="{{ partial "asset-url.html" "/site.webmanifest" }}">
-    {{/* Bulma CSS - will be removed in Phase 8 */}}
-    <link rel="stylesheet" type="text/css" href="{{ partial "asset-url.html" "/css/bulma.min.css" }}">
-    <link rel="stylesheet" type="text/css" href="{{ partial "asset-url.html" "/css/nested-menu.css" }}">
-    <link rel="stylesheet" type="text/css" href="{{ partial "asset-url.html" "/css/navbar.css" }}">
-    <link rel="stylesheet" type="text/css" href="{{ partial "asset-url.html" "/css/tags.css" }}">
-    <link rel="stylesheet" type="text/css" href="{{ partial "asset-url.html" "/css/custom.css" }}">
-    <link rel="stylesheet" type="text/css" href="{{ partial "asset-url.html" "/css/print.css" }}">
-    {{/* Tailwind CSS + DaisyUI (Phase 1 migration - loaded AFTER Bulma to override where needed) */}}
+    {{/* Tailwind CSS + DaisyUI - primary styling framework */}}
     {{ with resources.Get "css/main.css" }}
       {{ $opts := dict "minify" true }}
       {{ with . | css.TailwindCSS $opts }}
         <link rel="stylesheet" href="{{ .RelPermalink }}">
       {{ end }}
     {{ end }}
+    {{/* Legacy styles for components not yet migrated to Tailwind */}}
+    <link rel="stylesheet" type="text/css" href="{{ partial "asset-url.html" "/css/tags.css" }}">
+    <link rel="stylesheet" type="text/css" href="{{ partial "asset-url.html" "/css/custom.css" }}">
+    <link rel="stylesheet" type="text/css" href="{{ partial "asset-url.html" "/css/print.css" }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         /* Force light mode - disable dark mode until we're ready */

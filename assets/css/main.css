@@ -87,17 +87,17 @@
 }
 
 /* 
- * Migration Phase 1: Utility class aliases
- * These provide backwards compatibility during migration
+ * Utility class aliases for backwards compatibility
+ * These classes are used throughout templates
  */
 @layer utilities {
 
-  /* Bulma visibility -> Tailwind */
+  /* Visibility utilities */
   .is-hidden {
     display: none;
   }
 
-  /* Bulma flex utilities -> Tailwind */
+  /* Display utilities */
   .is-flex {
     display: flex;
   }
@@ -114,7 +114,7 @@
     display: inline-block;
   }
 
-  /* Bulma text alignment -> Tailwind */
+  /* Text alignment utilities */
   .has-text-centered {
     text-align: center;
   }
@@ -127,7 +127,7 @@
     text-align: right;
   }
 
-  /* Bulma text weight -> Tailwind */
+  /* Text weight utilities */
   .has-text-weight-bold {
     font-weight: 700;
   }
@@ -144,7 +144,7 @@
     font-weight: 300;
   }
 
-  /* Bulma text colors -> Tailwind */
+  /* Text color utilities */
   .has-text-white {
     color: white;
   }
@@ -161,7 +161,7 @@
     color: #b5b5b5;
   }
 
-  /* Bulma flex alignment -> Tailwind */
+  /* Flex alignment utilities */
   .is-justify-content-space-between {
     justify-content: space-between;
   }
@@ -194,7 +194,7 @@
     flex-wrap: wrap;
   }
 
-  /* Bulma text style */
+  /* Text style utilities */
   .is-italic {
     font-style: italic;
   }
@@ -208,7 +208,7 @@
 }
 
 /*
- * Migration Phase 2: Button & Badge Enhancements
+ * Button & Badge Enhancements
  * Additional styling for DaisyUI components to match design
  */
 @layer components {
@@ -296,8 +296,8 @@
   }
 
   /*
-   * Phase 4: Forms & Input Components
-   * DaisyUI form elements with Bulma compatibility
+   * Forms & Input Components
+   * DaisyUI form elements
    */
 
   /* Join component for search form */
@@ -349,7 +349,7 @@
     display: none;
   }
 
-  details.dropdown[open] summary ~ * {
+  details.dropdown[open] summary~* {
     animation: dropdown-open 0.2s ease-out;
   }
 
@@ -358,6 +358,7 @@
       opacity: 0;
       transform: translateY(-4px);
     }
+
     to {
       opacity: 1;
       transform: translateY(0);
@@ -408,7 +409,7 @@
     background-color: hsl(var(--b2));
   }
 
-  /* Override any old Bulma/custom.css dropdown styles */
+  /* Override legacy dropdown styles */
   #ingredientDropdown .dropdown-item,
   #categoryDropdown .dropdown-item {
     padding: 0 !important;
@@ -469,27 +470,27 @@
   }
 
   /* Navbar menu items styling */
-  .navbar .menu-horizontal > li > a,
-  .navbar .menu-horizontal > li > details > summary {
+  .navbar .menu-horizontal>li>a,
+  .navbar .menu-horizontal>li>details>summary {
     color: var(--color-primary-content);
     font-size: 0.9rem;
     padding: 0.5rem 0.75rem;
     border-radius: 0.375rem;
   }
 
-  .navbar .menu-horizontal > li > a:hover,
-  .navbar .menu-horizontal > li > details > summary:hover {
+  .navbar .menu-horizontal>li>a:hover,
+  .navbar .menu-horizontal>li>details>summary:hover {
     background-color: rgba(255, 255, 255, 0.15);
   }
 
   /* Dropdown menu in navbar */
-  .navbar .menu li details > ul {
+  .navbar .menu li details>ul {
     position: absolute;
     min-width: 12rem;
   }
 
   /* Nested dropdown positioning */
-  .navbar .menu li details li details > ul {
+  .navbar .menu li details li details>ul {
     position: absolute;
     left: 100%;
     top: 0;
@@ -548,7 +549,7 @@
     background-color: rgba(0, 0, 0, 0.6);
   }
 
-  .modal-backdrop > button {
+  .modal-backdrop>button {
     /* Hide the backdrop button text */
     font-size: 0;
     cursor: default;
@@ -591,14 +592,227 @@
   }
 }
 
+/* ==================================
+ * Phase 7: Layout & Grid Components
+ * ================================== */
+@layer components {
+
+  /* Recipe Grid - responsive grid for recipe cards */
+  .recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+  }
+
+  @media (min-width: 640px) {
+    .recipe-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 768px) {
+    .recipe-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .recipe-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .recipe-grid {
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
+
+  @media (min-width: 1536px) {
+    .recipe-grid {
+      grid-template-columns: repeat(6, 1fr);
+    }
+  }
+
+  .recipe-grid-item {
+    /* Grid item styling */
+  }
+
+  /* Taxonomy/Diet grid - 3 columns max for wider cards */
+  .taxonomy-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+  }
+
+  @media (min-width: 640px) {
+    .taxonomy-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .taxonomy-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  /* Weekly plan grid - 3 columns */
+  .plan-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+  }
+
+  @media (min-width: 640px) {
+    .plan-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .plan-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  /* DaisyUI Alert Component Styling */
+  .alert {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+  }
+
+  .alert-info {
+    background-color: hsl(var(--in) / 0.15);
+    color: var(--color-info-content);
+    border: 1px solid hsl(var(--in) / 0.3);
+  }
+
+  .alert-warning {
+    background-color: hsl(var(--wa) / 0.15);
+    color: var(--color-warning-content);
+    border: 1px solid hsl(var(--wa) / 0.3);
+  }
+
+  .alert-error {
+    background-color: hsl(var(--er) / 0.15);
+    color: var(--color-error-content);
+    border: 1px solid hsl(var(--er) / 0.3);
+  }
+
+  .alert-success {
+    background-color: hsl(var(--su) / 0.15);
+    color: var(--color-success-content);
+    border: 1px solid hsl(var(--su) / 0.3);
+  }
+
+  /* Section container - page sections */
+  .page-section {
+    padding: 2rem 1rem;
+  }
+
+  @media (min-width: 768px) {
+    .page-section {
+      padding: 3rem 1.5rem;
+    }
+  }
+
+  /* Container - centered content wrapper */
+  .page-container {
+    width: 100%;
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  @media (min-width: 640px) {
+    .page-container {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+
+  /* Recipe page layout - centered single column */
+  .recipe-page-container {
+    width: 100%;
+    max-width: 56rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  @media (min-width: 1024px) {
+    .recipe-page-container {
+      max-width: 64rem;
+    }
+  }
+
+  /* Meal grid for weekly plan single page */
+  .meal-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+
+  @media (min-width: 640px) {
+    .meal-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .meal-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  /* Stats grid for recipe page (3 columns) */
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    text-align: center;
+  }
+
+  .stats-item {
+    padding: 0.5rem;
+  }
+
+  .stats-item:last-child {
+    border-right: none !important;
+  }
+
+  /* Macros grid for recipe page (4 columns) */
+  .macros-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    text-align: center;
+  }
+
+  .macros-item {
+    padding: 0.5rem;
+  }
+
+  .macros-item:last-child {
+    border-right: none !important;
+  }
+}
+
 /*
- * Migration: Bulma Compatibility Fixes
- * Preserve Bulma styling during incremental migration
- * These will be removed once full migration is complete
+ * Base Layer Fixes
+ * Checkbox and section styling
  */
 @layer base {
 
-  /* Fix Tailwind Preflight overriding Bulma checkbox styling */
+  /* Checkbox styling */
   label.checkbox {
     display: inline-flex;
     align-items: center;
@@ -621,7 +835,7 @@
     -webkit-appearance: checkbox;
   }
 
-  /* Preserve Bulma's .section spacing - Tailwind resets margin/padding */
+  /* Preserve .section spacing */
   .section {
     padding: 3rem 1.5rem;
   }
@@ -629,5 +843,970 @@
   /* Ensure filter-wrapper spacing is preserved - small negative margin for subtle spacing */
   .filter-wrapper {
     margin-top: -1.5rem !important;
+  }
+}
+
+/* ===========================================================================
+   RECIPE PAGE STYLES (migrated from custom.css)
+   =========================================================================== */
+@layer components {
+
+  /* Recipe card */
+  .recipe-card {
+    border-radius: 16px;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, .12);
+    padding: 1.25rem 1.25rem 2rem;
+    background: #fff;
+  }
+
+  /* Recipe hero wrapper */
+  .recipe-hero-wrap {
+    margin: 0 auto 1rem;
+  }
+
+  /* Recipe hero image container */
+  .recipe-hero {
+    position: relative;
+    width: min(100%, 720px);
+    aspect-ratio: 1 / 1;
+    max-width: 90vw;
+  }
+
+  .recipe-hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-soft);
+  }
+
+  /* Gradient overlay */
+  .recipe-hero__gradient {
+    position: absolute;
+    inset: 0;
+    border-radius: var(--radius-md);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, 0.55) 100%);
+    pointer-events: none;
+  }
+
+  /* Title overlay */
+  .recipe-hero__title {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: clamp(10px, 4%, 24px);
+    padding: 0 18px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .recipe-hero__title .title {
+    font-size: clamp(1.25rem, 2.5vw + .75rem, 2.25rem);
+    text-shadow: 0 2px 12px rgba(0, 0, 0, .75);
+  }
+
+  /* Media badges (YouTube / Share) */
+  .media-badge {
+    position: absolute;
+    bottom: 10px;
+    background: transparent;
+    border-radius: 999px;
+    padding: .5rem .75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .25rem;
+    box-shadow: none;
+    z-index: 2;
+  }
+
+  .media-badge i {
+    font-size: 1.75rem;
+  }
+
+  .media-badge--left {
+    left: 10px;
+  }
+
+  .media-badge--right {
+    right: 10px;
+  }
+
+  .media-badge .fa-youtube {
+    color: #FF0000;
+  }
+
+  .media-badge .fa-film {
+    color: #38bdf8;
+  }
+
+  .media-badge .fa-share-from-square {
+    color: #ffffff;
+  }
+
+  .unstyled-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  /* Recipe meta tables */
+  .recipe-meta .columns {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  .recipe-meta .column {
+    padding-top: .5rem !important;
+    padding-bottom: .5rem !important;
+  }
+
+  .recipe-meta p.has-text-weight-bold {
+    font-size: .95rem !important;
+  }
+
+  .recipe-meta i {
+    color: #6b7280;
+  }
+
+  .recipe-meta--stats .column,
+  .recipe-meta--macros .column {
+    font-size: .95rem;
+  }
+
+  .recipe-sep {
+    width: min(100%, 760px);
+    margin: .5rem auto 1rem;
+    opacity: .4;
+  }
+
+  @media screen and (max-width: 768px) {
+    .recipe-card {
+      padding: 1rem;
+    }
+
+    .recipe-hero {
+      max-width: 100%;
+    }
+
+    .media-badge {
+      bottom: 8px;
+    }
+  }
+}
+
+/* ===========================================================================
+   FODMAP BADGE & PANEL STYLES (migrated from custom.css)
+   =========================================================================== */
+@layer components {
+  .fodmap-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: .35em;
+    padding: .25em .6em;
+    border-radius: 999px;
+    font-size: .85rem;
+    font-weight: 700;
+    border: 1px solid #d1d5db;
+    color: #374151;
+    background: #e5e7eb;
+  }
+
+  .fodmap-badge i {
+    font-size: .95em;
+  }
+
+  .fodmap-badge.fodmap--yes {
+    color: #15803d;
+    background: #22c55e20;
+    border-color: #22c55e66;
+  }
+
+  .fodmap-badge.fodmap--depends {
+    color: #92400e;
+    background: #f59e0b20;
+    border-color: #f59e0b66;
+  }
+
+  .fodmap-badge.fodmap--no {
+    color: #991b1b;
+    background: #ef444420;
+    border-color: #ef444466;
+  }
+
+  .fodmap-panel {
+    margin-top: 1.25rem;
+    padding: 1rem 1.25rem;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    background: #fafafa;
+  }
+
+  .fodmap-panel h3 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+  }
+
+  .fodmap-panel ul {
+    margin: .5rem 0 0 1.25rem;
+  }
+
+  .fodmap-row {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  /* FODMAP Toggle Icon */
+  #fodmap-toggle-icon .fa-leaf {
+    color: #dbdbdb;
+    transition: color 0.2s ease-in-out;
+    cursor: pointer;
+  }
+
+  #fodmap-toggle-icon:hover .fa-leaf {
+    color: #363636;
+  }
+
+  body.fodmap-view-enabled #fodmap-toggle-icon .fa-leaf {
+    color: #48c774;
+  }
+
+  .fodmap-indicator {
+    display: none;
+  }
+
+  body.fodmap-view-enabled .fodmap-indicator {
+    display: inline-block;
+  }
+}
+
+/* ===========================================================================
+   WEEKLY PLAN STYLES (migrated from custom.css)
+   =========================================================================== */
+@layer components {
+  .weekly-plan-day {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-radius: 8px;
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-left: 4px solid #00d1b2;
+  }
+
+  .weekly-plan-day:last-child {
+    margin-bottom: 0;
+  }
+
+  .meal-slot {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    min-height: 120px;
+    display: flex;
+    gap: 1rem;
+    border: 1px solid transparent;
+    transition: border-color 0.2s ease;
+  }
+
+  .meal-slot:hover {
+    border-color: #dbdbdb;
+  }
+
+  .meal-slot .heading {
+    color: #363636;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5rem;
+  }
+
+  .meal-slot img {
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+
+  .meal-slot img:hover {
+    transform: scale(1.05);
+  }
+
+  .meal-slot a {
+    color: #3273dc;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  .meal-slot a:hover {
+    color: #00d1b2;
+    text-decoration: underline;
+  }
+
+  .weekly-plan-list .card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .weekly-plan-list .card-content {
+    flex-grow: 1;
+  }
+
+  @media screen and (max-width: 768px) {
+    .meal-slot {
+      min-height: 100px;
+      padding: 0.75rem;
+    }
+
+    .meal-slot .image.is-128x128 {
+      width: 96px;
+      height: 96px;
+    }
+
+    .weekly-plan-day .title.is-4 {
+      font-size: 1.25rem;
+    }
+
+    .weekly-plan-day .columns {
+      margin-bottom: 0;
+    }
+
+    .weekly-plan-day .column {
+      padding-bottom: 0.5rem;
+    }
+  }
+}
+
+/* ===========================================================================
+   QUEUED PAGE - Category & Priority Styles (migrated from custom.css)
+   =========================================================================== */
+@layer components {
+  .category-section {
+    margin-bottom: 2.5rem;
+  }
+
+  .category-section:last-child {
+    margin-bottom: 0;
+  }
+
+  .category-header {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    color: var(--color-text);
+    padding-bottom: 0.75rem;
+    margin-bottom: 1.25rem;
+    border-bottom: 2px solid var(--color-accent-2);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .category-header .category-count {
+    font-family: var(--font-body);
+    font-size: 1rem;
+    color: var(--color-text-light);
+    font-weight: 400;
+  }
+
+  .priority-badge {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(4px);
+    padding: 4px 8px;
+    border-radius: var(--radius-sm);
+    display: flex;
+    gap: 2px;
+    z-index: 10;
+  }
+
+  .priority-badge i {
+    color: var(--color-accent-2);
+    font-size: 0.7rem;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  }
+
+  .card:hover .priority-badge {
+    background: rgba(0, 0, 0, 0.85);
+  }
+
+  @media screen and (max-width: 768px) {
+    .category-header {
+      font-size: 1.25rem;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .priority-badge {
+      top: 6px;
+      right: 6px;
+      padding: 3px 6px;
+    }
+
+    .priority-badge i {
+      font-size: 0.6rem;
+    }
+  }
+}
+
+/* ===========================================================================
+   RATING SYSTEM STYLES (migrated from custom.css)
+   =========================================================================== */
+@layer components {
+  .rating-badge {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(4px);
+    padding: 4px 10px;
+    border-radius: var(--radius-sm);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    z-index: 10;
+    color: #fff;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+
+  .rating-badge__star {
+    color: #fbbf24;
+    font-size: 0.8rem;
+  }
+
+  .rating-badge__star.fas {
+    color: #fbbf24;
+  }
+
+  .rating-badge__value {
+    color: #fff;
+  }
+
+  .card:hover .rating-badge {
+    background: rgba(0, 0, 0, 0.85);
+  }
+
+  .rating-section {
+    position: absolute;
+    bottom: 60px;
+    right: 10px;
+    z-index: 3;
+  }
+
+  .rating-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
+  }
+
+  .rating-stars {
+    display: flex;
+    gap: 2px;
+    padding: 6px 10px;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+    border-radius: var(--radius-sm);
+  }
+
+  .rating-star {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 2px;
+    transition: transform 0.15s ease;
+  }
+
+  .rating-star i {
+    font-size: 1.4rem;
+    color: #fbbf24;
+    transition: color 0.15s ease;
+  }
+
+  .rating-star:hover {
+    transform: scale(1.15);
+  }
+
+  .rating-star--active i {
+    color: #fbbf24;
+  }
+
+  .rating-count {
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.9);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2px 8px;
+    border-radius: 4px;
+  }
+
+  .rating-user {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.9);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 4px 10px;
+    border-radius: 4px;
+  }
+
+  .rating-user__label {
+    opacity: 0.8;
+  }
+
+  .rating-user__stars i {
+    color: #fbbf24;
+    font-size: 0.7rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    .rating-badge {
+      top: 6px;
+      left: 6px;
+      padding: 3px 8px;
+      font-size: 0.75rem;
+    }
+
+    .rating-badge__star {
+      font-size: 0.7rem;
+    }
+
+    .rating-section {
+      bottom: 50px;
+      right: 8px;
+    }
+
+    .rating-stars {
+      padding: 4px 8px;
+    }
+
+    .rating-star i {
+      font-size: 1.1rem;
+    }
+  }
+}
+
+/* ===========================================================================
+   AUTH MODAL STYLES (migrated from custom.css)
+   =========================================================================== */
+@layer components {
+  .auth-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+
+  .auth-modal__backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+  }
+
+  .auth-modal__content {
+    position: relative;
+    background: var(--color-surface);
+    padding: 2rem;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-hover);
+    max-width: 360px;
+    width: 90%;
+    text-align: center;
+  }
+
+  .auth-modal__close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.25rem;
+    color: var(--color-text-light);
+    transition: color 0.2s ease;
+  }
+
+  .auth-modal__close:hover {
+    color: var(--color-text);
+  }
+
+  .auth-modal__title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--color-text);
+  }
+
+  .auth-modal__subtitle {
+    font-size: 0.95rem;
+    color: var(--color-text-light);
+    margin-bottom: 1.5rem;
+  }
+
+  .auth-modal__buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .auth-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: var(--radius-sm);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .auth-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  .auth-btn i {
+    font-size: 1.25rem;
+  }
+
+  .auth-btn--github {
+    background: #24292e;
+    color: #fff;
+  }
+
+  .auth-btn--github:hover {
+    background: #1a1e22;
+  }
+
+  .auth-btn--google {
+    background: #fff;
+    color: #333;
+    border: 1px solid #ddd;
+  }
+
+  .auth-btn--google:hover {
+    background: #f8f8f8;
+  }
+
+  .auth-btn--google i {
+    color: #4285f4;
+  }
+
+  .toast-notification {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%) translateY(100px);
+    background: var(--color-text);
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: var(--radius-sm);
+    font-size: 0.95rem;
+    z-index: 1001;
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+
+  .toast-notification--visible {
+    transform: translateX(-50%) translateY(0);
+    opacity: 1;
+  }
+
+  @media screen and (max-width: 768px) {
+    .auth-modal__content {
+      padding: 1.5rem;
+    }
+  }
+}
+
+/* ===========================================================================
+   FILTER & COLLAPSIBLE SECTION STYLES (migrated from custom.css)
+   =========================================================================== */
+@layer components {
+  .filter-wrapper {
+    margin: -2.25rem -0.75rem 0.75rem;
+    padding: 0 0.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .filter-compact {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0;
+    transition: all 0.3s ease;
+  }
+
+  .filter-toggle {
+    border-radius: 999px !important;
+    transition: all 0.3s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+    font-size: 0.85rem;
+  }
+
+  .filter-toggle:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .filter-toggle .fa-chevron-down {
+    transition: transform 0.3s ease;
+  }
+
+  .filter-toggle.is-active .fa-chevron-down {
+    transform: rotate(180deg);
+  }
+
+  .quick-filter-status {
+    font-size: 0.85rem;
+    color: #7a7a7a;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .quick-filter-status .tag {
+    font-size: 0.75rem;
+  }
+
+  .filter-expanded {
+    margin-top: 0.75rem;
+    border-radius: 12px;
+    background: #fafafa;
+    border: 1px solid #e5e7eb;
+    animation: slideDown 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .ingredient-filter-box {
+    background: #fafafa;
+    border: 1px solid #e5e7eb;
+  }
+
+  .collapsible-section {
+    margin: 1.5rem 0;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    background: #fafafa;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+  }
+
+  .collapsible-section:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+
+  .collapsible-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 1.25rem;
+    cursor: pointer;
+    background: #ffffff;
+    border: none;
+    transition: background-color 0.2s ease;
+    list-style: none;
+    user-select: none;
+  }
+
+  .collapsible-header::-webkit-details-marker {
+    display: none;
+  }
+
+  .collapsible-header::marker {
+    display: none;
+  }
+
+  .collapsible-section:hover .collapsible-header {
+    background: #f9fafb;
+  }
+
+  .collapsible-icon {
+    font-size: 1.25rem;
+    transition: transform 0.3s ease;
+    flex-shrink: 0;
+  }
+
+  .collapsible-section[open] .collapsible-icon {
+    transform: rotate(180deg);
+  }
+
+  .collapsible-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #374151;
+  }
+
+  .collapsible-content {
+    padding: 1rem 1.25rem 1.5rem;
+    background: #ffffff;
+    animation: slideDown 0.3s ease;
+  }
+
+  .collapsible-content>*:first-child {
+    margin-top: 0;
+  }
+
+  .collapsible-content>*:last-child {
+    margin-bottom: 0;
+  }
+
+  .collapsible-section.instant-pot-section {
+    border-color: #e11d48;
+    background: linear-gradient(135deg, #fff1f2 0%, #fef2f2 100%);
+  }
+
+  .instant-pot-section .collapsible-header {
+    background: #fff1f2;
+  }
+
+  .instant-pot-section:hover .collapsible-header {
+    background: #ffe4e6;
+  }
+
+  .instant-pot-section .collapsible-title {
+    color: #be123c;
+  }
+
+  @media screen and (max-width: 768px) {
+    .filter-wrapper {
+      margin: -2rem -1rem 1rem;
+      padding: 0 1rem;
+    }
+
+    .filter-compact {
+      justify-content: center;
+      padding: 0.5rem 0;
+    }
+
+    .filter-toggle {
+      width: 100%;
+      justify-content: center;
+    }
+
+    .quick-filter-status {
+      text-align: center;
+      width: 100%;
+    }
+
+    .collapsible-section {
+      margin: 1rem 0;
+      border-radius: 8px;
+    }
+
+    .collapsible-header {
+      padding: 0.875rem 1rem;
+      gap: 0.5rem;
+    }
+
+    .collapsible-icon {
+      font-size: 1.1rem;
+    }
+
+    .collapsible-title {
+      font-size: 1rem;
+    }
+
+    .collapsible-content {
+      padding: 0.875rem 1rem 1.25rem;
+    }
+  }
+}
+
+/* ===========================================================================
+   PRINT STYLES FOR WEEKLY PLANS (migrated from custom.css)
+   =========================================================================== */
+@media print {
+
+  .buttons,
+  .card-footer,
+  .is-hidden-print,
+  .level-right,
+  .navbar,
+  footer {
+    display: none !important;
+  }
+
+  .section {
+    padding: 1rem !important;
+  }
+
+  .container {
+    max-width: 100% !important;
+  }
+
+  .box,
+  .weekly-plan-day {
+    page-break-inside: avoid;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 1rem !important;
+    box-shadow: none !important;
+  }
+
+  .weekly-plan-day {
+    border-left: 3px solid #00d1b2;
+  }
+
+  .meal-slot {
+    background: white;
+    border: 1px solid #e8e8e8;
+    page-break-inside: avoid;
+  }
+
+  .meal-slot img {
+    max-width: 100px !important;
+    height: auto !important;
+  }
+
+  .title {
+    font-size: 1.25rem !important;
+  }
+
+  .subtitle {
+    font-size: 1rem !important;
+  }
+
+  .notification {
+    border: 1px solid #dbdbdb;
+    background: #f5f5f5 !important;
+  }
+
+  .columns {
+    display: flex !important;
+  }
+
+  .column {
+    padding: 0.5rem !important;
   }
 }
