@@ -68,8 +68,9 @@
     </div>
     
     <!-- Desktop menu -->
-    <div class="navbar-center hidden lg:flex">
-        <ul class="menu menu-horizontal px-1">
+    <div class="navbar-center hidden lg:flex !h-14 !max-h-14 items-center overflow-hidden">
+        <ul class="menu menu-horizontal px-1 !p-0 !h-14 !max-h-14"
+            style="padding: 0 !important;">
             {{ with site.Menus.main }}
                 {{ range . }}
                     {{ if .HasChildren }}

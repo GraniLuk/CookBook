@@ -31,7 +31,7 @@ defaultImageWidth = 512 # default recipe image width
 [params.logo]
 fileName = "/CookBook/images/logo.webp"
 #fileName = "images/logo-alt.png" #alt logo if you are interested
-height =  50
+height = 50
 width = 200
 
 [params.favicon]
