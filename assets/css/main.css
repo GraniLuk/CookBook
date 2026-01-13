@@ -464,11 +464,6 @@
     -webkit-backdrop-filter: blur(10px);
   }
 
-  /* Body margin for fixed navbar */
-  body {
-    margin-top: 3.5rem;
-  }
-
   /* Navbar menu items styling */
   .navbar .menu-horizontal>li>a,
   .navbar .menu-horizontal>li>details>summary {
@@ -811,6 +806,12 @@
  * Checkbox and section styling
  */
 @layer base {
+
+  /* Reset body margins for proper navbar positioning */
+  body {
+    margin: 0;
+    padding: 0;
+  }
 
   /* Checkbox styling */
   label.checkbox {
