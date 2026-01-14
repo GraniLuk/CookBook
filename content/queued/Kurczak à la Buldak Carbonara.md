@@ -1,15 +1,25 @@
 ---
+title: Kurczak à la Buldak Carbonara
+author: Policzona Szama
+categories: obiady
 draft: false
 readyToTest: true
 queued: true
-title: "Kurczak à la Buldak Carbonara"
-author: "Policzona Szama"
+link: https://www.youtube.com/watch?v=lnRC1k1XDTg
 recipe_image: images/recipe-headers/kurczak_buldak_carbonara.avif
-date: 2026-01-12T12:00:00-00:00
-categories: obiady
-tags: ["orientalne", "włoskie"]
-tagline: "Pikantny kurczak w stylu buldak z kremowym sosem carbonara – fuzja smaków Orientu i Włoch."
-ingredients: ["udko z kurczaka", "ryż basmati", "boczek", "ser parmezan", "jajko", "gochujang", "czosnek"]
+date: 2026-01-12 12:00:00+00:00
+tags:
+- orientalne
+- włoskie
+tagline: Pikantny kurczak w stylu buldak z kremowym sosem carbonara – fuzja smaków Orientu i Włoch.
+ingredients:
+- kurczak udko
+- ryż basmati
+- boczek wędzony
+- ser parmezan
+- jajko
+- pasta gochujang
+- czosnek
 servings: 2
 prep_time: 20
 cook: true
@@ -18,11 +28,10 @@ calories: 949
 protein: 64
 fat: 47
 carbohydrate: 54
-link: https://www.youtube.com/watch?v=lnRC1k1XDTg
 fodmap:
-  status: "yes"
-  serving_ok: "OK w tej porcji"
-  notes: "Czosnek w małych ilościach, boczek bez cebuli, ryż bezpieczny"
+  status: 'yes'
+  serving_ok: OK w tej porcji
+  notes: Czosnek w małych ilościach, boczek bez cebuli, ryż bezpieczny
   substitutions: []
 ---
 
