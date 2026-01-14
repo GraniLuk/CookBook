@@ -7,8 +7,8 @@
 /* Google Fonts import (also referenced in main.css @theme) */
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Mulish:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap');
 
-/* Responsive desktop menu - show only at 1400px and above to avoid logo overlap */
-@media (max-width: 1450px) {
+/* Responsive desktop menu - show only at 1450px and above to avoid logo overlap */
+@media (max-width: 1449px) {
     nav.navbar .navbar-center.responsive-desktop-menu {
         display: none !important;
     }
@@ -17,6 +17,19 @@
 @media (min-width: 1450px) {
     nav.navbar .navbar-center.responsive-desktop-menu {
         display: flex !important;
+    }
+}
+
+/* Custom XL breakpoint for hamburger menu - aligns with desktop menu breakpoint */
+@media (max-width: 1449px) {
+    .xl\:hidden {
+        display: block !important;
+    }
+}
+
+@media (min-width: 1450px) {
+    .xl\:hidden {
+        display: none !important;
     }
 }
 
