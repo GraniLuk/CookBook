@@ -32,35 +32,14 @@
     {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
     <title>{{ $title }}</title>
     {{ if .Site.Params.googleAnalytics }}
-    <!-- Google tag (gtag.js) - loaded only after user grants analytics consent -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.googleAnalytics }}" crossorigin="anonymous"></script>
     <script>
-      (function () {
-        var trackingId = '{{ .Site.Params.googleAnalytics }}';
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-        // Read analytics consent from localStorage (set elsewhere when user accepts)
-        var consent = (function () {
-          try {
-            return window.localStorage && window.localStorage.getItem('analytics_consent');
-          } catch (e) {
-            return null;
-          }
-        })();
-
-        if (consent === 'granted') {
-          var script = document.createElement('script');
-          script.async = true;
-          script.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(trackingId);
-          script.crossOrigin = 'anonymous';
-          document.head.appendChild(script);
-
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){ dataLayer.push(arguments); }
-          window.gtag = gtag;
-
-          gtag('js', new Date());
-          gtag('config', trackingId);
-        }
-      })();
+      gtag('config', '{{ .Site.Params.googleAnalytics }}');
     </script>
     {{ end }}
     <script>window.baseUrl = '{{ (urls.Parse site.BaseURL).Path | strings.TrimSuffix "/" }}';</script>
