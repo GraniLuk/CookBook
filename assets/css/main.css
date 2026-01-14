@@ -999,6 +999,10 @@ nav[class*="navbar"] .menu[class*="menu-horizontal"]>li {
     color: #38bdf8;
   }
 
+  .media-badge .fa-pen-to-square {
+    color: #3298dc;
+  }
+
   .media-badge .fa-share-from-square {
     color: #ffffff;
   }
