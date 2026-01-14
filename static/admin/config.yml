@@ -60,6 +60,7 @@ _shared_fields:
       - { label: "meksykańskie", value: "meksykańskie" }
       - { label: "na-wynos", value: "na-wynos" }
       - { label: "odporność", value: "odporność" }
+      - { label: "orientalne", value: "orientalne" }
       - { label: "orzechowy", value: "orzechowy" }
       - { label: "owsianka", value: "owsianka" }
       - { label: "pasta", value: "pasta" }
@@ -188,6 +189,7 @@ _shared_fields:
       - { label: "kukurydza", value: "kukurydza" }
       - { label: "kurczak", value: "kurczak" }
       - { label: "kurczak nóżki", value: "kurczak nóżki" }
+      - { label: "kurczak udko", value: "kurczak udko" }
       - { label: "kuskus", value: "kuskus" }
       - { label: "limonka", value: "limonka" }
       - { label: "majonez", value: "majonez" }
@@ -279,6 +281,7 @@ _shared_fields:
       - { label: "parmezan", value: "parmezan" }
       - { label: "passata pomidorowa", value: "passata pomidorowa" }
       - { label: "pasta curry", value: "pasta curry" }
+      - { label: "pasta gochujang", value: "pasta gochujang" }
       - { label: "pasta green curry", value: "pasta green curry" }
       - { label: "pasta yellow curry", value: "pasta yellow curry" }
       - { label: "pasta z tamaryndowca", value: "pasta z tamaryndowca" }
