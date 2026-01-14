@@ -6,6 +6,11 @@
 <script src='{{ partial "asset-url.html" "/js/recipe-filter.js" }}'></script>
 <script src='https://cdn.jsdelivr.net/npm/fuse.js@7.1.0/dist/fuse.min.js'></script>
 
+{{/* Swipe navigation for category pages (mobile) */}}
+{{ if eq .Section "categories" }}
+<script src='{{ partial "asset-url.html" "/js/swipe-navigation.js" }}'></script>
+{{ end }}
+
 {{/* Firebase SDK for rating system */}}
 <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-auth-compat.js"></script>

@@ -184,3 +184,53 @@ li {
         right: 0;
     }
 }
+
+/* ===========================================
+   Category Swipe Navigation Dots (Mobile)
+   =========================================== */
+
+.category-nav-dots {
+    display: none;
+    /* Hidden by default, shown on mobile */
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 0;
+    margin-bottom: 0.5rem;
+}
+
+.category-nav-dots .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #d1d5db;
+    /* gray-300 */
+    transition: all 0.2s ease;
+    cursor: pointer;
+    border: none;
+    display: block;
+}
+
+.category-nav-dots .dot:hover {
+    background-color: #9ca3af;
+    /* gray-400 */
+    transform: scale(1.1);
+}
+
+.category-nav-dots .dot.active {
+    background-color: #10b981;
+    /* primary green */
+    transform: scale(1.25);
+}
+
+.category-nav-dots .dot.active:hover {
+    background-color: #059669;
+    /* darker green */
+}
+
+/* Show dots only on mobile/tablet */
+@media screen and (max-width: 768px) {
+    .category-nav-dots {
+        display: flex;
+    }
+}

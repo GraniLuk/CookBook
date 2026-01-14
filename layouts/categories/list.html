@@ -1,6 +1,25 @@
 {{ define "main" }}
 <div class="page-section">
     <div class="page-container">
+        {{/* Category navigation dots for mobile swipe */}}
+        {{ $categories := slice 
+            (dict "name" "Śniadania" "slug" "sniadania")
+            (dict "name" "Obiady" "slug" "obiady")
+            (dict "name" "Sałatki" "slug" "salatki")
+            (dict "name" "Desery" "slug" "desery")
+            (dict "name" "Sosy" "slug" "sosy")
+        }}
+        <nav class="category-nav-dots" aria-label="Nawigacja kategorii">
+            {{ range $categories }}
+            <a href='{{ partial "asset-url.html" (printf "/categories/%s/" .slug) | replaceRE "\\?v=.*" "" }}'
+               class="dot{{ if eq $.Title .name }} active{{ end }}"
+               title="{{ .name }}"
+               aria-label="{{ .name }}"
+               {{ if eq $.Title .name }}aria-current="page"{{ end }}>
+            </a>
+            {{ end }}
+        </nav>
+
         <h1 class="title">{{ .Title }}</h1>
         <p class="subtitle">{{ len .Pages }} {{ if eq (len .Pages) 1 }}przepis{{ else }}przepisów{{ end }} w kategorii
             "{{ .Title }}"</p>
