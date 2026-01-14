@@ -831,6 +831,8 @@ nav[class*="navbar"] .menu[class*="menu-horizontal"]>li {
     grid-template-columns: repeat(3, 1fr);
     gap: 0;
     text-align: center;
+    max-width: 720px;
+    margin: 0 auto;
   }
 
   .stats-item {
@@ -847,6 +849,8 @@ nav[class*="navbar"] .menu[class*="menu-horizontal"]>li {
     grid-template-columns: repeat(4, 1fr);
     gap: 0;
     text-align: center;
+    max-width: 720px;
+    margin: 0 auto;
   }
 
   .macros-item {
