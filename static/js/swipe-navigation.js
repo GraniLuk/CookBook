@@ -1,12 +1,13 @@
 /**
- * Swipe Navigation for Category Pages
- * Enables horizontal swipe gestures on mobile to navigate between categories
+ * Swipe Navigation for Home and Category Pages
+ * Enables horizontal swipe gestures on mobile to navigate between home and categories
  */
 (function () {
     'use strict';
 
-    // Ordered list of categories (matches hugo.toml menu weights)
-    const CATEGORIES = [
+    // Ordered list of pages (home page first, then categories matching hugo.toml menu weights)
+    const PAGES = [
+        { name: 'Strona główna', slug: 'home', isHome: true },
         { name: 'Śniadania', slug: 'sniadania' },
         { name: 'Obiady', slug: 'obiady' },
         { name: 'Sałatki', slug: 'salatki' },
@@ -36,15 +37,22 @@
     }
 
     /**
-     * Find current category index based on URL path
-     * @returns {number} Index in CATEGORIES array, or -1 if not on a category page
+     * Find current page index based on URL path
+     * @returns {number} Index in PAGES array, or -1 if not on a navigable page
      */
-    function getCurrentCategoryIndex() {
+    function getCurrentPageIndex() {
         const path = window.location.pathname.toLowerCase();
+        const basePath = getBasePath().toLowerCase();
 
-        for (let i = 0; i < CATEGORIES.length; i++) {
+        // Check if we're on home page
+        if (path === basePath + '/' || path === basePath || path === basePath + '/index.html') {
+            return 0; // Home page is at index 0
+        }
+
+        // Check categories (starting from index 1)
+        for (let i = 1; i < PAGES.length; i++) {
             // Match /categories/slug/ or /CookBook/categories/slug/
-            if (path.includes('/categories/' + CATEGORIES[i].slug)) {
+            if (path.includes('/categories/' + PAGES[i].slug)) {
                 return i;
             }
         }
@@ -52,15 +60,20 @@
     }
 
     /**
-     * Navigate to a category by index
-     * @param {number} index - Category index in CATEGORIES array
+     * Navigate to a page by index
+     * @param {number} index - Page index in PAGES array
      */
-    function navigateToCategory(index) {
-        if (index < 0 || index >= CATEGORIES.length) return;
+    function navigateToPage(index) {
+        if (index < 0 || index >= PAGES.length) return;
 
         const basePath = getBasePath();
-        const targetUrl = basePath + '/categories/' + CATEGORIES[index].slug + '/';
-        window.location.href = targetUrl;
+        const page = PAGES[index];
+
+        if (page.isHome) {
+            window.location.href = basePath + '/';
+        } else {
+            window.location.href = basePath + '/categories/' + page.slug + '/';
+        }
     }
 
     /**
@@ -77,15 +90,15 @@
         // Ignore if vertical movement is too large (user is scrolling)
         if (diffY > absDiffX * MAX_VERTICAL_RATIO) return;
 
-        const currentIndex = getCurrentCategoryIndex();
-        if (currentIndex === -1) return; // Not on a category page
+        const currentIndex = getCurrentPageIndex();
+        if (currentIndex === -1) return; // Not on a navigable page
 
-        if (diffX > 0 && currentIndex < CATEGORIES.length - 1) {
-            // Swipe left → next category
-            navigateToCategory(currentIndex + 1);
+        if (diffX > 0 && currentIndex < PAGES.length - 1) {
+            // Swipe left → next page
+            navigateToPage(currentIndex + 1);
         } else if (diffX < 0 && currentIndex > 0) {
-            // Swipe right → previous category
-            navigateToCategory(currentIndex - 1);
+            // Swipe right → previous page
+            navigateToPage(currentIndex - 1);
         }
     }
 
@@ -93,8 +106,8 @@
      * Initialize swipe listeners
      */
     function init() {
-        // Only initialize on category pages
-        if (getCurrentCategoryIndex() === -1) return;
+        // Only initialize on home or category pages
+        if (getCurrentPageIndex() === -1) return;
 
         // Only enable on touch devices
         if (!('ontouchstart' in window)) return;

@@ -1,5 +1,33 @@
 {{ define "main" }}
 <div class="section">
+    {{/* Category navigation dots for mobile swipe */}}
+    {{ $pages := slice 
+        (dict "name" "Strona główna" "slug" "home" "isHome" true)
+        (dict "name" "Śniadania" "slug" "sniadania")
+        (dict "name" "Obiady" "slug" "obiady")
+        (dict "name" "Sałatki" "slug" "salatki")
+        (dict "name" "Desery" "slug" "desery")
+        (dict "name" "Sosy" "slug" "sosy")
+    }}
+    <nav class="category-nav-dots" aria-label="Nawigacja stron">
+        {{ range $pages }}
+        {{ if .isHome }}
+        <a href='{{ partial "asset-url.html" "/" | replaceRE "\\?v=.*" "" }}'
+           class="dot active"
+           title="{{ .name }}"
+           aria-label="{{ .name }}"
+           aria-current="page">
+        </a>
+        {{ else }}
+        <a href='{{ partial "asset-url.html" (printf "/categories/%s/" .slug) | replaceRE "\\?v=.*" "" }}'
+           class="dot"
+           title="{{ .name }}"
+           aria-label="{{ .name }}">
+        </a>
+        {{ end }}
+        {{ end }}
+    </nav>
+
     <div class="filter-wrapper" id="filterContainer">
         <div class="filter-compact" id="filterCompact">
             <button class="button is-light is-small filter-toggle" id="filterToggle">
