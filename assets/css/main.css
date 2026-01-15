@@ -554,12 +554,30 @@
     min-width: 12rem;
   }
 
+  /* Dropdown menu items styling */
+  .navbar .menu li details>ul li>a,
+  .navbar .menu li details>ul li>details>summary {
+    display: flex !important;
+    align-items: center !important;
+    padding: 0.5rem 0.75rem !important;
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+  }
+
+  .navbar .menu li details>ul li>a:hover,
+  .navbar .menu li details>ul li>details>summary:hover {
+    background-color: hsl(var(--b2));
+  }
+
   /* Nested dropdown positioning */
   .navbar .menu li details li details>ul {
     position: absolute;
     left: 100%;
     top: 0;
     margin-left: 0.25rem;
+    min-width: 12rem;
   }
 
   /* Mobile menu dropdown */

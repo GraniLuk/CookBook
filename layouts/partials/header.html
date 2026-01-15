@@ -88,7 +88,7 @@
                                                         {{ if .Pre }}<i class="{{ .Pre }} mr-1"></i>{{ end }}
                                                         {{ .Name }}
                                                     </summary>
-                                                    <ul class="bg-base-100 rounded-box shadow-lg p-2">
+                                                    <ul style="position: absolute; left: 100%; top: 0; background-color: #ffffff; color: #2d2a26; padding: 0.5rem; border-radius: 0.5rem; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); z-index: 100; width: 13rem;">
                                                         {{ range .Children }}
                                                             <li><a href="{{ .URL }}">
                                                                 {{ if .Pre }}<i class="{{ .Pre }} mr-1"></i>{{ end }}
