@@ -47,6 +47,11 @@
     function initDropdownClose() {
         // Close details dropdowns when clicking outside
         document.addEventListener('click', function (e) {
+            // Don't close if clicking on a summary (opening/closing a dropdown)
+            if (e.target.closest('summary')) {
+                return;
+            }
+
             const openDetails = document.querySelectorAll('.navbar details[open]');
             openDetails.forEach(function (detail) {
                 if (!detail.contains(e.target)) {

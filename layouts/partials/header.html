@@ -68,9 +68,9 @@
     </div>
     
     <!-- Desktop menu -->
-    <div class="navbar-center responsive-desktop-menu !h-14 !max-h-14 items-center overflow-hidden">
-        <ul class="menu menu-horizontal px-1 !p-0 !h-14 !max-h-14"
-            style="padding: 0 !important;">
+    <div class="navbar-center responsive-desktop-menu items-center">
+        <ul class="menu menu-horizontal px-1"
+            style="padding: 0 !important; height: 3.5rem; min-height: 3.5rem;">
             {{ with site.Menus.main }}
                 {{ range . }}
                     {{ if .HasChildren }}
