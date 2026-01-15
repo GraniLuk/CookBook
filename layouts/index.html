@@ -1,31 +1,38 @@
 {{ define "main" }}
 <div class="section">
     {{/* Category navigation dots for mobile swipe */}}
-    {{ $pages := slice 
-        (dict "name" "Strona główna" "slug" "home" "isHome" true)
-        (dict "name" "Śniadania" "slug" "sniadania")
-        (dict "name" "Obiady" "slug" "obiady")
-        (dict "name" "Sałatki" "slug" "salatki")
-        (dict "name" "Desery" "slug" "desery")
-        (dict "name" "Sosy" "slug" "sosy")
-    }}
     <nav class="category-nav-dots" aria-label="Nawigacja stron">
-        {{ range $pages }}
-        {{ if .isHome }}
         <a href='{{ partial "asset-url.html" "/" | replaceRE "\\?v=.*" "" }}'
            class="dot active"
-           title="{{ .name }}"
-           aria-label="{{ .name }}"
+           title="Strona główna"
+           aria-label="Strona główna"
            aria-current="page">
         </a>
-        {{ else }}
-        <a href='{{ partial "asset-url.html" (printf "/categories/%s/" .slug) | replaceRE "\\?v=.*" "" }}'
+        <a href='{{ partial "asset-url.html" "/categories/sniadania/" | replaceRE "\\?v=.*" "" }}'
            class="dot"
-           title="{{ .name }}"
-           aria-label="{{ .name }}">
+           title="Śniadania"
+           aria-label="Śniadania">
         </a>
-        {{ end }}
-        {{ end }}
+        <a href='{{ partial "asset-url.html" "/categories/obiady/" | replaceRE "\\?v=.*" "" }}'
+           class="dot"
+           title="Obiady"
+           aria-label="Obiady">
+        </a>
+        <a href='{{ partial "asset-url.html" "/categories/salatki/" | replaceRE "\\?v=.*" "" }}'
+           class="dot"
+           title="Sałatki"
+           aria-label="Sałatki">
+        </a>
+        <a href='{{ partial "asset-url.html" "/categories/desery/" | replaceRE "\\?v=.*" "" }}'
+           class="dot"
+           title="Desery"
+           aria-label="Desery">
+        </a>
+        <a href='{{ partial "asset-url.html" "/categories/sosy/" | replaceRE "\\?v=.*" "" }}'
+           class="dot"
+           title="Sosy"
+           aria-label="Sosy">
+        </a>
     </nav>
 
     <div class="filter-wrapper" id="filterContainer">
