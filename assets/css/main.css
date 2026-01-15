@@ -497,17 +497,15 @@
   }
 
   .navbar-center {
-    height: 3.5rem !important;
     min-height: 3.5rem !important;
     align-items: center !important;
-    /* Remove max-height and overflow:hidden to allow dropdowns to show */
+    /* No fixed height to ensure dropdowns can overflow properly */
   }
 
   .navbar .navbar-center .menu,
   .navbar .navbar-center .menu.menu-horizontal {
-    height: 3.5rem !important;
     min-height: 3.5rem !important;
-    /* Remove max-height to allow dropdown menus to display */
+    /* No fixed height to allow dropdown menus to display */
     flex-wrap: nowrap !important;
     gap: 0 !important;
     padding: 0 !important;
