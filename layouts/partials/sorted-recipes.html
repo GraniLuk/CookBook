@@ -11,7 +11,7 @@
     {{ $sortedPages = $sortedPages | append (dict "page" . "key" $sortKey) }}
 {{ end }}
 {{ range sort $sortedPages "key" }}
-<div class="column {{ $columnClass }}">
+<div{{ if $columnClass }} class="{{ $columnClass }}"{{ end }}>
 {{ partial $template .page }}
 </div>
 {{ end }}

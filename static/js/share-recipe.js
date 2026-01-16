@@ -40,12 +40,12 @@ function toast(message) {
   const alertEl = document.getElementById('alert');
   if (!alertEl) return;
   alertEl.textContent = message;
-  alertEl.classList.remove('is-hidden', 'is-danger');
-  alertEl.classList.add('is-success');
+  alertEl.classList.remove('hidden', 'alert-error');
+  alertEl.classList.add('alert-success');
   alertEl.style.opacity = '0.95';
   // Auto-hide
   setTimeout(() => {
-    alertEl.classList.add('is-hidden');
-    alertEl.classList.remove('is-success');
+    alertEl.classList.add('hidden');
+    alertEl.classList.remove('alert-success');
   }, 1800);
 }

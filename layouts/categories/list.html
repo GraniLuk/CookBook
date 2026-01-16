@@ -1,27 +1,48 @@
 {{ define "main" }}
-<div class="section">
-    <div class="container">
+<div class="page-section">
+    <div class="page-container">
+        {{/* Category navigation dots for mobile swipe */}}
+        {{ $categories := slice 
+            (dict "name" "Śniadania" "slug" "sniadania")
+            (dict "name" "Obiady" "slug" "obiady")
+            (dict "name" "Sałatki" "slug" "salatki")
+            (dict "name" "Desery" "slug" "desery")
+            (dict "name" "Sosy" "slug" "sosy")
+        }}
+        <nav class="category-nav-dots" aria-label="Nawigacja kategorii">
+            {{ range $categories }}
+            <a href='{{ partial "asset-url.html" (printf "/categories/%s/" .slug) | replaceRE "\\?v=.*" "" }}'
+               class="dot{{ if eq $.Title .name }} active{{ end }}"
+               title="{{ .name }}"
+               aria-label="{{ .name }}"
+               {{ if eq $.Title .name }}aria-current="page"{{ end }}>
+            </a>
+            {{ end }}
+        </nav>
+
         <h1 class="title">{{ .Title }}</h1>
         <p class="subtitle">{{ len .Pages }} {{ if eq (len .Pages) 1 }}przepis{{ else }}przepisów{{ end }} w kategorii
             "{{ .Title }}"</p>
 
         {{ if eq .Title "Śniadania" }}
-        <div class="notification is-info is-light">
-            <h3 class="title is-5">Podkategorie śniadań:</h3>
-            <div class="buttons">
-                <a class="button is-primary is-outlined" href="/subcategories/słodkie/">
-                    <span class="icon"><i class="fas fa-cookie-bite"></i></span>
-                    <span>Słodkie</span>
-                </a>
-                <a class="button is-primary is-outlined" href="/subcategories/słone/">
-                    <span class="icon"><i class="fas fa-egg"></i></span>
-                    <span>Słone</span>
-                </a>
+        <div class="alert alert-info mb-5">
+            <div>
+                <h3 class="font-bold mb-2">Podkategorie śniadań:</h3>
+                <div class="flex gap-2 flex-wrap">
+                    <a class="btn btn-primary btn-outline btn-sm" href="/subcategories/słodkie/">
+                        <i class="fas fa-cookie-bite"></i>
+                        <span>Słodkie</span>
+                    </a>
+                    <a class="btn btn-primary btn-outline btn-sm" href="/subcategories/słone/">
+                        <i class="fas fa-egg"></i>
+                        <span>Słone</span>
+                    </a>
+                </div>
             </div>
         </div>
         {{ end }}
-        <div class="columns is-multiline">
-            {{ partial "sorted-recipes.html" (dict "pages" .Pages "template" "summary.html" "columnClass" "is-2-desktop is-3-tablet is-full-mobile") }}
+        <div class="recipe-grid">
+            {{ partial "sorted-recipes.html" (dict "pages" .Pages "template" "summary.html" "columnClass" "") }}
         </div>
     </div>
 </div>

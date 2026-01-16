@@ -29,7 +29,7 @@
     text-transform: lowercase;
     background: #f1f1f1;
     border: 1px solid #d9d9d9;
-    color: var(--bulma-primary, hsl(171, 100%, 41%));
+    color: var(--color-primary, #4A7C59);
 }
 
 .card-tags-overlay .recipe-tag:hover {

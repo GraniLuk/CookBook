@@ -1,78 +1,82 @@
 # Copilot Instructions for this repo (Hugo cookbook)
 
+## Mandatory Development Checklist
+- [ ] **Build**: `npm run build` (Hugo with Tailwind processing)
+- [ ] **Test**: `npm run test:search:v7` (Fuse.js search tests)
+- [ ] **Validate**: Run `hugo server -D` and check site renders correctly
+
 Purpose: help AI agents ship changes fast with the right context and conventions.
 
 ## Big picture
-- Static site built with Hugo using Bulma CSS and Font Awesome.
-- Source lives under `layouts/` (templates/partials/shortcodes) and `content/` (Markdown recipes). Static assets in `static/`.
-- Deployed to GitHub Pages under `/CookBook/` with canonical base `https://graniluk.github.io/CookBook/`.
-- All asset URLs (css/js/img) must go through `{{ partial "asset-url.html" "/path" }}` which handles env-specific prefixing and cache-busting.
+- Hugo static site with Tailwind CSS v4 + DaisyUI, Polish language, deployed to GitHub Pages under `/CookBook/`
+- Content: `layouts/` (templates), `content/` (Markdown recipes), `static/` (assets)
+- Search: Fuse.js with JSON index from `layouts/index.json`
+- Admin: Decap CMS for content editing
 
 ## Key architecture and patterns
-- Layout base: `layouts/_default/baseof.html` defines the page shell and includes `partials/head.html`, `partials/header.html`, `partials/script.html`.
-- Single recipe page: `layouts/_default/single.html` renders the hero image (square, gradient + title overlay) with share/YouTube badges, then stats/macros tables and content.
-- List and cards:
-  - Home page iterates `Site.RegularPages` and excludes category `sosy`: `layouts/index.html`.
-  - Card markup/patterns live in `partials/summary.html`; images are square with `aspect-ratio: 1/1` and object-fit.
-- Search: `layouts/_default/index.json` outputs a JSON index (title, tags, categories, contents, permalink, macros) consumed by Fuse.js in `static/js/*` and templated in `partials/searchResults.html`.
-- I18n: primary language is Polish (`i18n/pl.yaml`) and menu/taxonomy are configured in `hugo.toml`.
+- Layouts: `baseof.html` (shell), `single.html` (recipe page with hero + stats), `index.html` (filtered grid)
+- Cards: `partials/summary.html` with square images, macros, FODMAP/rating badges
+- Features: Video modals, rating system, FODMAP support, i18n via `i18n/pl.yaml`
 
-## Front matter conventions (new recipes)
-Use `archetypes/default.md` fields. Important keys (lowercase expected in templates):
-- `title`, `author`, `recipe_image` (path relative to `static/`), `image_width`, `image_height`
-- `tags` (array), `tagline`, `servings`, `prep_time`, `cook` (bool), `cook_increment` (minutes|hours), `cook_time`
+## Front matter conventions
+Use `archetypes/default.md`. Key fields:
+- Basics: `title`, `author`, `recipe_image`, `tags`, `tagline`
+- Times: `servings`, `prep_time`, `cook`, `cook_time`
 - Macros: `calories`, `protein`, `fat`, `carbohydrate`
-- Optional: `categories`, `subcategories`, `diets` (e.g. includes `low-fodmap`), `fodmap.status` and `fodmap.notes`
+- Optional: `categories`, `diets` (low-fodmap), `fodmap.status`, `link` (YouTube), `video_file`, `rating`
 
-## Asset URL rule (critical)
-Always wrap asset paths with `asset-url.html`:
-```go-html-template
-<link rel="stylesheet" href="{{ partial "asset-url.html" "/css/custom.css" }}">
-<img src="{{ partial "asset-url.html" (printf "/%s" .Params.recipe_image) }}" alt="...">
-```
-This ensures the correct `/CookBook` prefix in dev/prod and adds a version query string for cache busting.
+## Critical rules
+**Asset URLs**: Always wrap with `{{ partial "asset-url.html" "/path" }}` for `/CookBook` prefix and cache-busting.
 
-## Styling and UI conventions
-- Bulma is included via `static/css/bulma.min.css` and project styles in `static/css/custom.css`.
-- Images on cards and hero use CSS `aspect-ratio: 1/1` + `object-fit: cover`.
-- The recipe hero uses: `.recipe-hero`, `.recipe-hero__gradient`, `.recipe-hero__title`, and media badges `.media-badge` (YouTube left, Share right). Keep the hero image square and prominent.
-- Compact meta tables under the hero use `.recipe-meta` wrappers; do not expand their footprint.
+**Collection detection**: Edit links in `single.html` detect collection from file path (queued, obiady, sniadania, etc.).
 
-## Scripts
-Loaded in `partials/script.html` via `asset-url.html`:
-- `static/js/share-recipe.js` implements `shareRecipe()` for the share badge.
-- `static/js/navbar.js`, `menu.js`, `custom.js`, `umbrella.min.js` provide interactivity.
-- Fuse.js is loaded via CDN for search.
+## Styling conventions
+- Tailwind v4 + DaisyUI processed from `assets/css/main.css`
+- Images: `aspect-ratio: 1/1` + `object-fit: cover`
+- Hero: `.recipe-hero*` classes, media badges `.media-badge`
+- Legacy Bulma utilities still supported in `static/css/custom.css`
+
+## Scripts and tooling
+- JS: `share-recipe.js`, `navbar.js`, Fuse.js search
+- Python scripts in `scripts/`: find recipes by ingredient/tag, normalize frontmatter, validate tags
 
 ## Building and running
-- Local dev: run Hugo server (from repo root):
-  - Windows PowerShell
-    ```pwsh
-    hugo server -D
-    ```
-  - Site is under the base path `/CookBook/`. Asset URLs are handled by the `asset-url` partial.
-- Production build output in `public/` is already present. CI/CD not configured here; publishing is via GitHub Pages.
+- Dev: `hugo server -D` (serves at `/CookBook/`)
+- Build: `npm run build` (Hugo + minify)
+- Tests: `npm run test:search:v7`
 
-## Common tasks & examples
-- Add a recipe image:
-  - Put image under `static/images/...` and set front matter `recipe_image: images/your-file.avif`.
-  - In templates, always resolve via `asset-url.html`.
-- Add list card tweaks: edit `partials/summary.html` and matching styles in `static/css/custom.css`.
-- Modify hero overlay or badges: edit `layouts/_default/single.html` and styles in `static/css/custom.css` (`.recipe-hero*`, `.media-badge*`).
-- Update SEO for low FODMAP: `partials/head.html` conditionally injects keywords and JSON-LD when `.Params.diets` includes `low-fodmap` and/or `.Params.fodmap.*` is present.
+## Common tasks
+- Add recipe image: Set `recipe_image` in frontmatter, resolve via `asset-url.html`
+- Modify cards: Edit `partials/summary.html` + `static/css/custom.css`
+- Update search: Modify `layouts/index.json` fields
 
 ## Gotchas
-- Do not hardcode `/CookBook` in templates—always use the `asset-url.html` partial. Hardcoding breaks dev/prod URL behavior and cache-busting.
-- Respect lowercase front matter keys; templates mostly access `.Params.*` in lowercase.
-- Hero image should not be lazy-loaded (LCP). Lazy-load other, below-the-fold images if added later.
-- When changing menu, use `hugo.toml` `[menu.main]` blocks; nested menus are supported.
+- Never hardcode `/CookBook` - use `asset-url.html` partial
+- Lowercase frontmatter keys accessed via `.Params.*`
+- Hero images not lazy-loaded (LCP priority)
+- Draft recipes hidden via `[data-draft="true"] { display: none !important; }`
+- Update collection detection logic when adding new recipe categories
+- Always use Context7 MCP when I need library/API documentation, code generation, setup or configuration steps without me having to explicitly ask.
 
 ## Where to look
-- `layouts/_default/single.html` – recipe page structure
-- `layouts/partials/summary.html` – recipe cards on lists
+- `layouts/_default/single.html` - recipe pages, hero, modals
+- `layouts/index.html` - home page filtering
+- `partials/summary.html` - recipe cards
+- `layouts/index.json` - search index
+- `archetypes/default.md` - frontmatter template
+- `assets/css/main.css` - Tailwind + DaisyUI styles
+- `static/css/custom.css` - legacy styles
+- `scripts/` - Python management tools
+- `hugo.toml` - site config, menus
+
+If anything above is unclear or you see drift from current behavior, tell us which section to refine and we'll update this doc.
 - `layouts/partials/head.html` – assets, SEO, JSON-LD, styles
-- `layouts/_default/index.json` & `layouts/partials/searchResults.html` – search index & results template
+- `layouts/index.json` & `layouts/partials/searchResults.html` – search index & results template
+- `layouts/index.html` – home page filtering and grid
 - `static/css/custom.css` – primary custom styles
 - `layouts/partials/asset-url.html` – critical URL/versioning helper
+- `archetypes/default.md` – front matter template
+- `scripts/` – Python tools for recipe management
+- `hugo.toml` – site config, menus, taxonomies
 
 If anything above is unclear or you see drift from current behavior, tell us which section to refine and we’ll update this doc.

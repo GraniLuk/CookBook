@@ -1,10 +1,15 @@
 <script src='{{ partial "asset-url.html" "/js/umbrella.min.js" }}'></script>
-<script src='{{ partial "asset-url.html" "/js/navbar.js" }}'></script>
+<script src='{{ partial "asset-url.html" "/js/navbar-daisyui.js" }}'></script>
 <script src='{{ partial "asset-url.html" "/js/custom.js" }}'></script>
 <script src='{{ partial "asset-url.html" "/js/share-recipe.js" }}'></script>
 <script src='{{ partial "asset-url.html" "/js/menu.js" }}'></script>
 <script src='{{ partial "asset-url.html" "/js/recipe-filter.js" }}'></script>
 <script src='https://cdn.jsdelivr.net/npm/fuse.js@7.1.0/dist/fuse.min.js'></script>
+
+{{/* Swipe navigation for home and category pages (mobile) */}}
+{{ if or .IsHome (eq .Section "categories") }}
+<script src='{{ partial "asset-url.html" "/js/swipe-navigation.js" }}'></script>
+{{ end }}
 
 {{/* Firebase SDK for rating system */}}
 <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>

@@ -1,6 +1,6 @@
 # CookBook (Hugo)
 
-A Hugo-based cookbook using Bulma and Font Awesome. Deployed to GitHub Pages at: [graniluk.github.io/CookBook](https://graniluk.github.io/CookBook/)
+A Hugo-based cookbook using Tailwind CSS and DaisyUI. Deployed to GitHub Pages at: [graniluk.github.io/CookBook](https://graniluk.github.io/CookBook/)
 
 ## Quick start (Windows PowerShell)
 
@@ -52,7 +52,7 @@ Never hardcode `/CookBook` or absolute URLs; the partial handles prefixing for d
 
 ## Styling & UI
 
-- Bulma CSS (`static/css/bulma.min.css`) + project styles (`static/css/custom.css`).
+- Tailwind CSS v4 with DaisyUI (`assets/css/main.css`) + legacy styles (`static/css/custom.css`).
 - Cards and hero images use `aspect-ratio: 1/1` and `object-fit: cover`.
 - Single recipe hero includes:
   - `.recipe-hero`, `.recipe-hero__gradient`, `.recipe-hero__title`

@@ -452,6 +452,6 @@ CMS.registerPreviewTemplate('salatki', RecipePreview);
 CMS.registerPreviewTemplate('desery', RecipePreview);
 CMS.registerPreviewTemplate('sosy', RecipePreview);
 
-// Optional: Register preview styles
-CMS.registerPreviewStyle('/CookBook/css/bulma.min.css');
+// Optional: Register preview styles (Tailwind CSS - using built output)
 CMS.registerPreviewStyle('/CookBook/css/custom.css');
+CMS.registerPreviewStyle('/CookBook/css/tags.css');

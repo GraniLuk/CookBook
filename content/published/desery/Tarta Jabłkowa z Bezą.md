@@ -51,9 +51,9 @@ fodmap:
 
 ## Sposób przygotowania
 
-1.  Przygotować ciasto kruche zgodnie z przepisem na [Ciasto Kruche](/desery/ciasto-kruche/).
+1.  Przygotować ciasto kruche zgodnie z przepisem na [Ciasto Kruche](/CookBook/published/desery/ciasto-kruche/).
 2.  **Przygotować konfiturę jabłkową:** Jabłka obrać, usunąć gniazda nasienne i pokroić na kawałki. Włożyć do garnka, dodać cukier i sok z cytryny. Gotować na średnim ogniu, mieszając od czasu do czasu, aż jabłka się rozpadną i konfitura zgęstnieje (ok. 20-30 minut). Ostudzić.
-3.  Przygotować bezę migdałową zgodnie z przepisem na [Beza Migdałowa](/desery/beza-migdalowa/).
+3.  Przygotować bezę migdałową zgodnie z przepisem na [Beza Migdałowa](/CookBook/published/desery/beza-migdalowa/).
 4.  **Złożyć tartę:** Na ostudzony spód nałożyć konfiturę jabłkową. Na wierzch ułożyć bezę. Podawać po ostudzeniu.
 
 ## Podsumowanie wartości odżywczych (cała tarta)

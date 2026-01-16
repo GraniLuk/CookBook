@@ -1,101 +1,146 @@
-<nav class="navbar is-primary sticky-navbar" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-        <a class="navbar-brand" href="{{ .Site.Home.RelPermalink }}">
+<nav class="navbar bg-[#00d1b2] text-white sticky top-0 z-50 shadow-md min-h-14" role="navigation" aria-label="main navigation">
+    <div class="navbar-start">
+        <!-- Mobile menu button -->
+        <div class="dropdown xl:hidden">
+            <label tabindex="0" id="navBarButton" class="btn btn-ghost btn-circle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </label>
+            <ul tabindex="0" id="mobileMenu" class="menu menu-sm dropdown-content mt-3 z-[100] p-2 shadow-lg bg-base-100 text-base-content rounded-box w-64 max-h-[80vh] overflow-y-auto">
+                {{ with site.Menus.main }}
+                    {{ range . }}
+                        {{ if .HasChildren }}
+                            <li>
+                                <details>
+                                    <summary>
+                                        {{ if .Pre }}<i class="{{ .Pre }} mr-2"></i>{{ end }}
+                                        {{ .Name }}
+                                    </summary>
+                                    <ul>
+                                        {{ range .Children }}
+                                            {{ if .HasChildren }}
+                                                <li>
+                                                    <details>
+                                                        <summary>
+                                                            {{ if .Pre }}<i class="{{ .Pre }} mr-2"></i>{{ end }}
+                                                            {{ .Name }}
+                                                        </summary>
+                                                        <ul>
+                                                            {{ range .Children }}
+                                                                <li><a href="{{ .URL }}">
+                                                                    {{ if .Pre }}<i class="{{ .Pre }} mr-2"></i>{{ end }}
+                                                                    {{ .Name }}
+                                                                </a></li>
+                                                            {{ end }}
+                                                        </ul>
+                                                    </details>
+                                                </li>
+                                            {{ else }}
+                                                <li><a href="{{ .URL }}">
+                                                    {{ if .Pre }}<i class="{{ .Pre }} mr-2"></i>{{ end }}
+                                                    {{ .Name }}
+                                                </a></li>
+                                            {{ end }}
+                                        {{ end }}
+                                    </ul>
+                                </details>
+                            </li>
+                        {{ else }}
+                            <li><a href="{{ .URL }}">
+                                {{ if .Pre }}<i class="{{ .Pre }} mr-2"></i>{{ end }}
+                                {{ .Name }}
+                            </a></li>
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
+            </ul>
+        </div>
+        
+        <!-- Logo -->
+        <a href="{{ .Site.Home.RelPermalink }}" class="btn btn-ghost text-xl normal-case px-2">
             {{ with .Site.Params.logo }}
-                <img src="{{ .filename }}" width="{{ .width }}" height="{{ .height }}">
+                <img src="{{ .filename }}" width="{{ .width }}" height="{{ .height }}" alt="Logo">
             {{ else }}
-                <h1 style="font-size:300%"><em>{{ .Site.Params.navText.text }}</em></h1>
+                <span class="font-heading">{{ .Site.Params.navText.text }}</span>
             {{ end }}
-        </a>        
-        <a id="navBarButton" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navBarMenu">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
         </a>
     </div>
-    <div id="navBarMenu" class="navbar-menu">        
-        <div class="navbar-start">
+    
+    <!-- Desktop menu -->
+    <div class="navbar-center responsive-desktop-menu items-center">
+        <ul class="menu menu-horizontal px-1">
             {{ with site.Menus.main }}
                 {{ range . }}
                     {{ if .HasChildren }}
-                        <div class="navbar-item has-dropdown is-hoverable">
-                            <a class="navbar-link">
-                                {{ if .Pre }}
-                                {{ $icon := printf "<i class=\"%s pr-2\"></i> " .Pre | safeHTML }}
-                                {{- $icon -}}
-                                {{ end }}
+                        <li>
+                            <details>
+                                <summary>
+                                    {{ if .Pre }}<i class="{{ .Pre }} mr-1"></i>{{ end }}
+                                    {{ .Name }}
+                                </summary>
+                                <ul class="bg-base-100 text-base-content rounded-box shadow-lg z-[100] w-52 p-2">
+                                    {{ range .Children }}
+                                        {{ if .HasChildren }}
+                                            <li>
+                                                <details>
+                                                    <summary>
+                                                        {{ if .Pre }}<i class="{{ .Pre }} mr-1"></i>{{ end }}
+                                                        {{ .Name }}
+                                                    </summary>
+                                                    <ul style="position: absolute; left: 100%; top: 0; background-color: #ffffff; color: #2d2a26; padding: 0.5rem; border-radius: 0.5rem; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); z-index: 100; width: 13rem;">
+                                                        {{ range .Children }}
+                                                            <li><a href="{{ .URL }}">
+                                                                {{ if .Pre }}<i class="{{ .Pre }} mr-1"></i>{{ end }}
+                                                                {{ .Name }}
+                                                            </a></li>
+                                                        {{ end }}
+                                                    </ul>
+                                                </details>
+                                            </li>
+                                        {{ else }}
+                                            <li><a href="{{ .URL }}">
+                                                {{ if .Pre }}<i class="{{ .Pre }} mr-1"></i>{{ end }}
+                                                {{ .Name }}
+                                            </a></li>
+                                        {{ end }}
+                                    {{ end }}
+                                </ul>
+                            </details>
+                        </li>
+                    {{ else }}
+                        <li>
+                            <a href="{{ .URL }}" {{ if $.IsMenuCurrent .Menu . }}class="active"{{ end }}>
+                                {{ if .Pre }}<i class="{{ .Pre }} mr-1"></i>{{ end }}
                                 {{ .Name }}
                             </a>
-                            <div class="navbar-dropdown">
-                                {{ range .Children }}                                    
-                                {{ if .HasChildren }}
-                                        <div class="navbar-item has-dropdown is-hoverable nested-dropdown">
-                                            <a class="navbar-link-nested" href="{{- .URL -}}">
-                                                {{ if .Pre }}
-                                                {{ $icon := printf "<i class=\"%s pr-2\"></i> " .Pre | safeHTML }}
-                                                {{- $icon -}}
-                                                {{ end }}
-                                                {{ .Name }}
-                                                <span class="icon is-small">
-                                                    <i class="fas fa-angle-right" aria-hidden="true"></i>
-                                                </span>
-                                            </a>
-                                            <div class="navbar-dropdown nested-dropdown-content">
-                                                {{ range .Children }}
-                                                    <a class="navbar-item" href="{{- .URL -}}">
-                                                        {{ if .Pre }}
-                                                        {{ $icon := printf "<i class=\"%s pr-2\"></i> " .Pre | safeHTML }}
-                                                        {{- $icon -}}
-                                                        {{ end }}
-                                                        {{ .Name }}
-                                                    </a>
-                                                {{ end }}
-                                            </div>
-                                        </div>
-                                    {{ else }}
-                                        <a class="navbar-item" href="{{- .URL -}}">
-                                            {{ if .Pre }}
-                                            {{ $icon := printf "<i class=\"%s pr-2\"></i> " .Pre | safeHTML }}
-                                            {{- $icon -}}
-                                            {{ end }}
-                                            {{ .Name }}
-                                        </a>
-                                    {{ end }}
-                                {{ end }}
-                            </div>
-                        </div>
-                    {{ else }}
-                        {{ if $.IsMenuCurrent .Menu . }}
-                        <a class="navbar-item is-active" href="{{- .URL -}}">
-                        {{ else }}
-                        <a class="navbar-item" href="{{- .URL -}}">
-                        {{ end }}
-                        {{ if .Pre }}
-                        {{ $icon := printf "<i class=\"%s pr-2\"></i> " .Pre | safeHTML }}
-                        {{- $icon -}}
-                        {{ end }}
-                        {{ .Name }}
-                        </a>
+                        </li>
                     {{ end }}
                 {{ end }}
             {{ end }}
+        </ul>
+    </div>
+    
+    <!-- Right side: FODMAP toggle + Search -->
+    <div class="navbar-end gap-2">
+        <button id="fodmap-toggle-icon" class="btn btn-ghost btn-circle btn-sm" title="Toggle Low FODMAP Info">
+            <i class="fas fa-leaf"></i>
+        </button>
+        <div class="hidden sm:flex join">
+            <input class="input input-bordered input-sm join-item w-32 lg:w-44 text-base-content" id="searchTerm" type="text" placeholder="Szukaj przepisów...">
+            <button id="searchButton" class="btn btn-secondary btn-sm join-item">Szukaj</button>
         </div>
-        <div class="navbar-end">
-            <a id="fodmap-toggle-icon" class="navbar-item" title="Toggle Low FODMAP Info">
-                <span class="icon">
-                    <i class="fas fa-leaf"></i>
-                </span>
-            </a>
-            <div class="navbar-item">
-                <form class="field has-addons">
-                    <div class="control">
-                        <input class="input" id="searchTerm" type="text" value="" placeholder="Szukaj przepisów...">
-                    </div>
-                    <div class="control">
-                        <button id="searchButton" class="button is-secondary">Szukaj</button>
-                    </div>
-                </form>
-            </div>
-        </div>
+        <!-- Mobile search button -->
+        <button id="mobileSearchBtn" class="btn btn-ghost btn-circle btn-sm sm:hidden">
+            <i class="fas fa-search"></i>
+        </button>
     </div>
 </nav>
+
+<!-- Mobile search bar (shown when search button clicked) -->
+<div id="mobileSearchBar" class="bg-[#00d1b2] p-2 hidden sm:hidden sticky top-14 z-40">
+    <div class="join w-full">
+        <input class="input input-bordered input-sm join-item flex-1 text-base-content" id="mobileSearchTerm" type="text" placeholder="Szukaj przepisów...">
+        <button id="mobileSearchButton" class="btn btn-secondary btn-sm join-item">Szukaj</button>
+    </div>
+</div>

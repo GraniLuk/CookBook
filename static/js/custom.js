@@ -80,10 +80,12 @@ function closeHamburgerMenu() {
   if (typeof window.closeMobileMenu === 'function') {
     window.closeMobileMenu();
   } else {
-    // Fallback: just remove CSS classes
-    if (u('#navBarButton').hasClass('is-active')) {
-      u('#navBarButton').removeClass('is-active');
-      u('#navBarMenu').removeClass('is-active');
+    // Fallback: check data attribute instead of is-active class
+    const navBarButton = u('#navBarButton').first();
+    const navBarMenu = u('#navBarMenu').first();
+    if (navBarButton && navBarButton.hasAttribute('data-active')) {
+      navBarButton.removeAttribute('data-active');
+      if (navBarMenu) navBarMenu.classList.add('hidden');
     }
   }
 }
@@ -150,10 +152,10 @@ function executeSearch(searchQuery) {
 
       lastSearchResult = result;
       if (result.length > 0) {
-        u('#content').addClass("is-hidden"); //hiding our main content to display the results
+        u('#content').addClass("hidden"); //hiding our main content to display the results
         u('#searchResultsCol').empty(); // clean out any previous search results
         u('#searchButton').removeClass("is-loading") //change our button back
-        u('#searchResults').removeClass("is-hidden") //show Result area
+        u('#searchResults').removeClass("hidden") //show Result area
         populateResults(result);
       } else {
         showAlert("No results found!")
@@ -206,7 +208,7 @@ function populateResults(result) {
 
     // Build DOM nodes directly to avoid template parsing issues
     const col = document.createElement('div');
-    col.className = 'column is-2-desktop is-3-tablet is-full-mobile';
+    col.className = 'search-result-item';
 
     const resultWrap = document.createElement('div');
     resultWrap.className = 'result';
@@ -219,10 +221,8 @@ function populateResults(result) {
     resultWrap.appendChild(a);
 
     const card = document.createElement('div');
-    card.className = 'card';
-    card.style.cssText = 'border-radius: 1%; height: 100%; display: flex; flex-direction: column; cursor: pointer; transition: transform 0.2s ease, box-shadow 0.2s ease;';
-    card.onmouseover = function () { this.style.transform = 'translateY(-2px)'; this.style.boxShadow = '0 4px 8px rgba(0,0,0,0.1)'; };
-    card.onmouseout = function () { this.style.transform = 'translateY(0)'; this.style.boxShadow = 'none'; };
+    card.className = 'card bg-base-100 shadow-md hover:shadow-xl rounded-2xl overflow-hidden transition-all duration-200 hover:-translate-y-1';
+    card.style.cssText = 'height: 100%; display: flex; flex-direction: column; cursor: pointer;';
     a.appendChild(card);
 
     const cardImage = document.createElement('div');
@@ -268,7 +268,7 @@ function populateResults(result) {
     cardContent.appendChild(mediaContent);
 
     const titleP = document.createElement('p');
-    titleP.className = 'title is-4 has-text-centered';
+    titleP.className = 'text-xl font-serif text-center';
     titleP.style.cssText = 'width: 100%; margin: 0; display: -webkit-box; -webkit-line-clamp: 2; line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;';
     titleP.textContent = title;
     mediaContent.appendChild(titleP);
@@ -349,7 +349,7 @@ document.addEventListener('click', function (e) {
 // Re-render search results when filter changes
 if (document.getElementById('showTestCheckbox')) {
   u('#showTestCheckbox').on('change', function () {
-    if (lastSearchResult && !u('#searchResults').hasClass('is-hidden')) {
+    if (lastSearchResult && !u('#searchResults').hasClass('hidden')) {
       populateResults(lastSearchResult);
     }
   });
@@ -373,13 +373,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const closeVideoModal = (modal) => {
     if (!modal) { return; }
     const videoEl = modal.querySelector('[data-video-modal-player]');
-    modal.classList.remove('is-active');
+    // Use native dialog close
+    if (modal.close) {
+      modal.close();
+    }
     if (videoEl) {
       videoEl.pause();
       videoEl.currentTime = 0;
-    }
-    if (!document.querySelector('.modal.is-active')) {
-      rootElement.classList.remove('is-clipped');
     }
     if (activeVideoModal === modal) {
       activeVideoModal = null;
@@ -388,15 +388,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const openVideoModal = (modal) => {
     if (!modal) { return; }
-    modal.classList.add('is-active');
-    rootElement.classList.add('is-clipped');
+    // Use native dialog showModal
+    if (modal.showModal) {
+      modal.showModal();
+    }
     const videoEl = modal.querySelector('[data-video-modal-player]');
     if (videoEl) {
       videoEl.pause();
       videoEl.currentTime = 0;
     }
     activeVideoModal = modal;
-    modal.focus({ preventScroll: true });
   };
 
   document.querySelectorAll('[data-video-modal-trigger]').forEach((trigger) => {
@@ -410,11 +411,16 @@ document.addEventListener('DOMContentLoaded', () => {
       openVideoModal(modal);
     });
 
-    modal.querySelectorAll('[data-video-modal-close]').forEach((closeEl) => {
-      closeEl.addEventListener('click', (event) => {
-        event.preventDefault();
-        closeVideoModal(modal);
-      });
+    // Handle dialog close event to pause video
+    modal.addEventListener('close', () => {
+      const videoEl = modal.querySelector('[data-video-modal-player]');
+      if (videoEl) {
+        videoEl.pause();
+        videoEl.currentTime = 0;
+      }
+      if (activeVideoModal === modal) {
+        activeVideoModal = null;
+      }
     });
 
     modal.addEventListener('keydown', (event) => {

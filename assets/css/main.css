@@ -1,0 +1,2171 @@
+@import "tailwindcss";
+
+/* DaisyUI plugin for Tailwind v4 */
+@plugin "daisyui" {
+  themes: cookbook;
+}
+
+/* Custom DaisyUI theme */
+@plugin "daisyui/theme" {
+  name: "cookbook";
+  default: true;
+
+  /* Primary - Sage/Forest Green */
+  --color-primary: #4A7C59;
+  --color-primary-content: #ffffff;
+
+  /* Secondary - Terracotta */
+  --color-secondary: #E07A5F;
+  --color-secondary-content: #ffffff;
+
+  /* Accent - Warm Yellow */
+  --color-accent: #F2CC8F;
+  --color-accent-content: #2D2A26;
+
+  /* Neutral */
+  --color-neutral: #2D2A26;
+  --color-neutral-content: #FDFCF8;
+
+  /* Base colors */
+  --color-base-100: #FDFCF8;
+  --color-base-200: #F7F5F0;
+  --color-base-300: #EBE8E1;
+  --color-base-content: #2D2A26;
+
+  /* Info - Soft Green */
+  --color-info: #81B29A;
+  --color-info-content: #ffffff;
+
+  /* Success */
+  --color-success: #22c55e;
+  --color-success-content: #ffffff;
+
+  /* Warning */
+  --color-warning: #f59e0b;
+  --color-warning-content: #ffffff;
+
+  /* Error */
+  --color-error: #ef4444;
+  --color-error-content: #ffffff;
+
+  /* Border radius */
+  --radius-box: 16px;
+  --radius-btn: 24px;
+  --radius-badge: 999px;
+
+  /* Animation */
+  --animation-btn: 0.25s;
+  --animation-input: 0.2s;
+}
+
+/* Custom theme extensions for Tailwind */
+@theme {
+  /* Additional colors from custom.css */
+  --color-bg: #FDFCF8;
+  --color-text: #2D2A26;
+  --color-text-light: #5D5A56;
+  --color-primary-light: #E8F5E9;
+  --color-accent-1: #E07A5F;
+  --color-accent-2: #F2CC8F;
+  --color-accent-3: #81B29A;
+  --color-surface: #FFFFFF;
+  --color-surface-alt: #F7F5F0;
+
+  /* Typography */
+  --font-heading: 'DM Serif Display', serif;
+  --font-body: 'Mulish', sans-serif;
+
+  /* Border Radius */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+
+  /* Shadows */
+  --shadow-soft: 0 10px 40px -10px rgba(0, 0, 0, 0.08);
+  --shadow-hover: 0 20px 50px -12px rgba(0, 0, 0, 0.12);
+}
+
+/* 
+ * Utility class aliases for backwards compatibility
+ * These classes are used throughout templates
+ */
+@layer utilities {
+
+  /* Visibility utilities */
+  .is-hidden {
+    display: none;
+  }
+
+  /* Display utilities */
+  .is-flex {
+    display: flex;
+  }
+
+  .is-block {
+    display: block;
+  }
+
+  .is-inline {
+    display: inline;
+  }
+
+  .is-inline-block {
+    display: inline-block;
+  }
+
+  /* Text alignment utilities */
+  .has-text-centered {
+    text-align: center;
+  }
+
+  .has-text-left {
+    text-align: left;
+  }
+
+  .has-text-right {
+    text-align: right;
+  }
+
+  /* Text weight utilities */
+  .has-text-weight-bold {
+    font-weight: 700;
+  }
+
+  .has-text-weight-semibold {
+    font-weight: 600;
+  }
+
+  .has-text-weight-normal {
+    font-weight: 400;
+  }
+
+  .has-text-weight-light {
+    font-weight: 300;
+  }
+
+  /* Text color utilities */
+  .has-text-white {
+    color: white;
+  }
+
+  .has-text-black {
+    color: black;
+  }
+
+  .has-text-grey {
+    color: #7a7a7a;
+  }
+
+  .has-text-grey-light {
+    color: #b5b5b5;
+  }
+
+  /* Flex alignment utilities */
+  .is-justify-content-space-between {
+    justify-content: space-between;
+  }
+
+  .is-justify-content-center {
+    justify-content: center;
+  }
+
+  .is-justify-content-flex-start {
+    justify-content: flex-start;
+  }
+
+  .is-justify-content-flex-end {
+    justify-content: flex-end;
+  }
+
+  .is-align-items-center {
+    align-items: center;
+  }
+
+  .is-align-items-flex-start {
+    align-items: flex-start;
+  }
+
+  .is-align-items-flex-end {
+    align-items: flex-end;
+  }
+
+  .is-flex-wrap-wrap {
+    flex-wrap: wrap;
+  }
+
+  /* Text style utilities */
+  .is-italic {
+    font-style: italic;
+  }
+
+  /* Border radius utilities */
+  .is-rounded {
+    border-radius: 9999px;
+  }
+
+  /* Size utilities */
+  .is-large {
+    font-size: 1.5rem;
+  }
+
+  /* Color utilities */
+  .has-text-warning {
+    color: #ffdd57;
+  }
+
+  /* Icon utilities */
+  .icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .icon.is-large {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  /* Print utilities */
+  @media print {
+    .print\:hidden {
+      display: none !important;
+    }
+  }
+}
+
+/*
+ * Button & Badge Enhancements
+ * Additional styling for DaisyUI components to match design
+ */
+@layer components {
+
+  /* Button icon spacing */
+  .btn i.fas,
+  .btn i.far,
+  .btn i.fa {
+    margin-right: 0.375rem;
+  }
+
+  /* Badge icon spacing */
+  .badge i.fas,
+  .badge i.far,
+  .badge i.fa {
+    margin-right: 0.25rem;
+  }
+
+  /* Ensure buttons have gap for icon + text */
+  .btn {
+    gap: 0.5rem;
+  }
+
+  /* Badge variations for backwards compatibility */
+  .badge-ghost {
+    background-color: var(--color-base-200);
+    color: var(--color-base-content);
+  }
+
+  /* 
+   * Phase 3: Card Component Styling
+   * DaisyUI cards with custom design system integration
+   */
+
+  /* Recipe cards - preserve hover effects and spacing */
+  .card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  /* Card header styling for weekly plans */
+  .card-header {
+    border-bottom: 1px solid;
+    border-color: var(--color-base-300);
+  }
+
+  .card-header-title {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 1.125rem;
+    margin: 0;
+  }
+
+  /* Card footer styling for weekly plans */
+  .card-footer {
+    border-top: 1px solid;
+    border-color: var(--color-base-300);
+  }
+
+  .card-footer a {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.75rem;
+    transition: background-color 0.2s ease;
+  }
+
+  .card-footer a:not(:last-child) {
+    border-right: 1px solid;
+    border-color: var(--color-base-300);
+  }
+
+  .card-footer a:hover {
+    background-color: var(--color-base-200);
+  }
+
+  /* Ensure card text colors inherit properly */
+  .text-inherit {
+    color: inherit;
+  }
+
+  .no-underline {
+    text-decoration: none;
+  }
+
+  /*
+   * Forms & Input Components
+   * DaisyUI form elements
+   */
+
+  /* Join component for search form */
+  .join {
+    display: inline-flex;
+  }
+
+  .join-item:not(:first-child) {
+    margin-left: -1px;
+  }
+
+  .join-item:first-child {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .join-item:last-child {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .join-item:not(:first-child):not(:last-child) {
+    border-radius: 0;
+  }
+
+  /* Select dropdown styling */
+  select.select-bordered {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
+    background-position: right 0.5rem center;
+    background-repeat: no-repeat;
+    background-size: 1.5em 1.5em;
+    padding-right: 2.5rem;
+  }
+
+  /* DaisyUI Dropdown (details-based) styling */
+  details.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  details.dropdown summary {
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+  }
+
+  details.dropdown summary::-webkit-details-marker {
+    display: none;
+  }
+
+  details.dropdown[open] summary~* {
+    animation: dropdown-open 0.2s ease-out;
+  }
+
+  @keyframes dropdown-open {
+    from {
+      opacity: 0;
+      transform: translateY(-4px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  details.dropdown .dropdown-content {
+    position: absolute;
+    z-index: 50;
+    top: calc(100% + 0.25rem);
+    left: 0;
+    min-width: 100%;
+  }
+
+  /* Dropdown item styling - compact modern look */
+  details.dropdown .dropdown-item {
+    padding: 0;
+    margin: 0;
+    background: transparent;
+  }
+
+  details.dropdown .dropdown-item label.checkbox {
+    display: flex !important;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+    margin: 0;
+    font-size: 0.875rem;
+    white-space: nowrap;
+    width: 100%;
+    background: transparent;
+    transition: background-color 0.15s ease;
+    text-align: left;
+  }
+
+  details.dropdown .dropdown-item label.checkbox input[type="checkbox"] {
+    margin: 0 0.375rem 0 0;
+    flex-shrink: 0;
+    cursor: pointer;
+    appearance: auto;
+    -webkit-appearance: checkbox;
+    width: 14px;
+    height: 14px;
+  }
+
+  details.dropdown .dropdown-item label.checkbox:hover {
+    background-color: hsl(var(--b2));
+  }
+
+  /* Override legacy dropdown styles */
+  #ingredientDropdown .dropdown-item,
+  #categoryDropdown .dropdown-item {
+    padding: 0 !important;
+    margin: 0 !important;
+    background: transparent !important;
+  }
+
+  #ingredientDropdown .dropdown-item label,
+  #categoryDropdown .dropdown-item label {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    padding: 0.25rem 0.5rem !important;
+    margin: 0 !important;
+    background: transparent !important;
+  }
+
+  #ingredientDropdown .dropdown-item:hover,
+  #categoryDropdown .dropdown-item:hover {
+    background: transparent !important;
+  }
+
+  #ingredientDropdown .dropdown-item label:hover,
+  #categoryDropdown .dropdown-item label:hover {
+    background-color: hsl(var(--b2)) !important;
+  }
+
+  /* Compact dropdown scrollbar */
+  details.dropdown .dropdown-content::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  details.dropdown .dropdown-content::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  details.dropdown .dropdown-content::-webkit-scrollbar-thumb {
+    background-color: hsl(var(--bc) / 0.2);
+    border-radius: 3px;
+  }
+}
+
+/* ==================================
+ * Phase 5: Navbar Components - DaisyUI Migration
+ * ================================== */
+@layer components {
+
+  /* Sticky navbar with scroll effects */
+  .navbar {
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    min-height: 3.5rem !important;
+  }
+
+  .navbar-center {
+    min-height: 3.5rem !important;
+    align-items: center !important;
+    /* No fixed height to ensure dropdowns can overflow properly */
+  }
+
+  .navbar .navbar-center .menu,
+  .navbar .navbar-center .menu.menu-horizontal {
+    min-height: 3.5rem !important;
+    /* No fixed height to allow dropdown menus to display */
+    flex-wrap: nowrap !important;
+    gap: 0 !important;
+    padding: 0 !important;
+  }
+
+  .navbar .navbar-center .menu>li,
+  .navbar .navbar-center .menu.menu-horizontal>li {
+    flex-shrink: 0 !important;
+    height: 3.5rem !important;
+    min-height: 3.5rem !important;
+    max-height: 3.5rem !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Logo button alignment */
+  .navbar .btn-ghost {
+    height: 3.5rem !important;
+    min-height: 3.5rem !important;
+    padding: 0 0.5rem !important;
+    border-radius: 0 !important;
+  }
+
+  .navbar .btn-ghost img {
+    height: 3.5rem !important;
+    width: auto;
+  }
+
+  /* Navbar menu items styling */
+  .navbar .menu-horizontal>li>a,
+  .navbar .menu-horizontal>li>details>summary {
+    color: var(--color-primary-content);
+    font-size: 1rem;
+    padding: 0.5rem 0.75rem !important;
+    border-radius: 0.375rem;
+    height: 3.5rem !important;
+    min-height: 3.5rem !important;
+    line-height: 1.5rem !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+
+  /* Dropdown menu in navbar */
+  .navbar .menu li details>ul {
+    position: absolute;
+    min-width: 12rem;
+  }
+
+  /* Dropdown menu items styling */
+  .navbar .menu li details>ul li>a,
+  .navbar .menu li details>ul li>details>summary {
+    display: flex !important;
+    align-items: center !important;
+    padding: 0.5rem 0.75rem !important;
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+  }
+
+  .navbar .menu li details>ul li>a:hover,
+  .navbar .menu li details>ul li>details>summary:hover {
+    background-color: hsl(var(--b2));
+  }
+
+  /* Nested dropdown positioning */
+  .navbar .menu li details li details>ul {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    margin-left: 0.25rem;
+    min-width: 12rem;
+  }
+
+  /* Mobile menu dropdown */
+  .navbar .dropdown-content.menu {
+    background-color: hsl(var(--b1));
+  }
+
+  /* Mobile menu scrollbar */
+  #mobileMenu::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  #mobileMenu::-webkit-scrollbar-track {
+    background: hsl(var(--b2));
+  }
+
+  #mobileMenu::-webkit-scrollbar-thumb {
+    background: hsl(var(--bc) / 0.3);
+    border-radius: 3px;
+  }
+
+  /* Search input in navbar */
+  .navbar .join .input {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .navbar .join .input:focus {
+    background-color: #fff;
+  }
+
+  /* Mobile search bar */
+  #mobileSearchBar {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+
+  #mobileSearchBar .input {
+    background-color: rgba(255, 255, 255, 0.95);
+  }
+}
+
+/* ==================================
+ * Phase 6: Modal Components - DaisyUI Migration
+ * ================================== */
+@layer components {
+
+  /* DaisyUI Modal base styling */
+  .modal {
+    /* Ensure modal backdrop has proper opacity */
+  }
+
+  .modal::backdrop {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .modal-backdrop>button {
+    /* Hide the backdrop button text */
+    font-size: 0;
+    cursor: default;
+  }
+
+  /* Video modal specific styling */
+  .recipe-video-modal .modal-box {
+    padding: 0;
+    background-color: #000;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+
+  .recipe-video-modal video {
+    display: block;
+    width: 100%;
+    max-height: 80vh;
+  }
+
+  .recipe-video-modal .btn-circle {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+  }
+
+  .recipe-video-modal .btn-circle:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  /* Auth modal styling */
+  #authModal .modal-box {
+    max-width: 24rem;
+  }
+
+  #authModal .btn-outline {
+    justify-content: flex-start;
+  }
+
+  #authModal .btn-outline:hover {
+    background-color: hsl(var(--b2));
+  }
+}
+
+/* ==================================
+ * Phase 7: Layout & Grid Components
+ * ================================== */
+
+/* Critical navbar height overrides (outside @layer for maximum specificity) */
+nav.navbar[role="navigation"] .menu.menu-horizontal,
+nav[class*="navbar"] .menu[class*="menu-horizontal"] {
+  padding: 0 !important;
+}
+
+nav.navbar[role="navigation"] .menu.menu-horizontal>li,
+nav[class*="navbar"] .menu[class*="menu-horizontal"]>li {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+@layer components {
+
+  /* Recipe Grid - responsive grid for recipe cards */
+  .recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+  }
+
+  @media (min-width: 640px) {
+    .recipe-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 768px) {
+    .recipe-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .recipe-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .recipe-grid {
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
+
+  @media (min-width: 1536px) {
+    .recipe-grid {
+      grid-template-columns: repeat(6, 1fr);
+    }
+  }
+
+  .recipe-grid-item {
+    /* Grid item styling */
+  }
+
+  /* Taxonomy/Diet grid - 3 columns max for wider cards */
+  .taxonomy-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+  }
+
+  @media (min-width: 640px) {
+    .taxonomy-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .taxonomy-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  /* Weekly plan grid - 3 columns */
+  .plan-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+  }
+
+  @media (min-width: 640px) {
+    .plan-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .plan-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  /* DaisyUI Alert Component Styling */
+  .alert {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+  }
+
+  .alert-info {
+    background-color: hsl(var(--in) / 0.15);
+    color: var(--color-info-content);
+    border: 1px solid hsl(var(--in) / 0.3);
+  }
+
+  .alert-warning {
+    background-color: hsl(var(--wa) / 0.15);
+    color: var(--color-warning-content);
+    border: 1px solid hsl(var(--wa) / 0.3);
+  }
+
+  .alert-error {
+    background-color: hsl(var(--er) / 0.15);
+    color: var(--color-error-content);
+    border: 1px solid hsl(var(--er) / 0.3);
+  }
+
+  .alert-success {
+    background-color: hsl(var(--su) / 0.15);
+    color: var(--color-success-content);
+    border: 1px solid hsl(var(--su) / 0.3);
+  }
+
+  /* Section container - page sections */
+  .page-section {
+    padding: 2rem 1rem;
+  }
+
+  @media (min-width: 768px) {
+    .page-section {
+      padding: 3rem 1.5rem;
+    }
+  }
+
+  /* Container - centered content wrapper */
+  .page-container {
+    width: 100%;
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  @media (min-width: 640px) {
+    .page-container {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+
+  /* Recipe page layout - centered single column */
+  .recipe-page-container {
+    width: 100%;
+    max-width: 56rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  @media (min-width: 1024px) {
+    .recipe-page-container {
+      max-width: 64rem;
+    }
+  }
+
+  /* Meal grid for weekly plan single page */
+  .meal-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+
+  @media (min-width: 640px) {
+    .meal-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .meal-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  /* Stats grid for recipe page (3 columns) */
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    text-align: center;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  .stats-item {
+    padding: 0.5rem;
+  }
+
+  .stats-item:last-child {
+    border-right: none !important;
+  }
+
+  /* Macros grid for recipe page (4 columns) */
+  .macros-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    text-align: center;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  .macros-item {
+    padding: 0.5rem;
+  }
+
+  .macros-item:last-child {
+    border-right: none !important;
+  }
+}
+
+/*
+ * Base Layer Fixes
+ * Checkbox and section styling
+ */
+@layer base {
+
+  /* Reset body margins for proper navbar positioning */
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Checkbox styling */
+  label.checkbox {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  /* When checkbox has is-block, make it block level but still flex for alignment */
+  label.checkbox.is-block {
+    display: flex !important;
+    align-items: center;
+    white-space: nowrap;
+  }
+
+  .checkbox input[type="checkbox"] {
+    margin-right: 0.5em;
+    cursor: pointer;
+    flex-shrink: 0;
+    /* Restore checkbox appearance that Tailwind Preflight removes */
+    appearance: auto;
+    -webkit-appearance: checkbox;
+  }
+
+  /* Preserve .section spacing */
+  .section {
+    padding: 3rem 1.5rem;
+  }
+
+  /* Ensure filter-wrapper spacing is preserved - small negative margin for subtle spacing */
+  .filter-wrapper {
+    margin-top: -1.5rem !important;
+  }
+}
+
+/* ===========================================================================
+   RECIPE PAGE STYLES (migrated from custom.css)
+   =========================================================================== */
+@layer components {
+
+  /* Recipe card */
+  .recipe-card {
+    border-radius: 16px;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, .12);
+    padding: 1.25rem 1.25rem 2rem;
+    background: #fff;
+  }
+
+  /* Recipe hero wrapper */
+  .recipe-hero-wrap {
+    margin: 0 auto 1rem;
+  }
+
+  /* Recipe hero image container */
+  .recipe-hero {
+    position: relative !important;
+    width: min(100%, 720px);
+    aspect-ratio: 1 / 1;
+    max-width: 90vw;
+  }
+
+  .recipe-hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-soft);
+  }
+
+  /* Gradient overlay */
+  .recipe-hero__gradient {
+    position: absolute;
+    inset: 0;
+    border-radius: var(--radius-md);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, 0.55) 100%);
+    pointer-events: none;
+  }
+
+  /* Title overlay */
+  .recipe-hero__title {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: clamp(10px, 4%, 24px);
+    padding: 0 18px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .recipe-hero__title .title {
+    font-size: clamp(1.25rem, 2.5vw + .75rem, 2.25rem);
+    text-shadow: 0 2px 12px rgba(0, 0, 0, .75);
+  }
+
+  /* Media badges (YouTube / Share) */
+  .media-badge {
+    position: absolute !important;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .25rem;
+    z-index: 2;
+  }
+
+  .media-badge a {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    line-height: 1;
+    min-width: 1.75rem;
+    min-height: 1.75rem;
+  }
+
+  .media-badge i {
+    font-size: 1.75rem !important;
+    display: inline-block !important;
+    width: 1em !important;
+    height: 1em !important;
+    line-height: 1;
+  }
+
+  .media-badge button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .media-badge--left {
+    left: 10px !important;
+    right: auto !important;
+  }
+
+  .media-badge--right {
+    right: 10px !important;
+    left: auto !important;
+  }
+
+  .media-badge .fa-youtube {
+    color: #FF0000;
+  }
+
+  .media-badge .fa-film {
+    color: #38bdf8;
+  }
+
+  .media-badge .fa-pen-to-square {
+    color: #3298dc;
+  }
+
+  .media-badge .fa-share-from-square {
+    color: #ffffff;
+  }
+
+  .unstyled-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  /* Recipe meta tables */
+  .recipe-meta .columns {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  .recipe-meta .column {
+    padding-top: .5rem !important;
+    padding-bottom: .5rem !important;
+  }
+
+  .recipe-meta p.has-text-weight-bold {
+    font-size: .95rem !important;
+  }
+
+  .recipe-meta i {
+    color: #6b7280;
+  }
+
+  .recipe-meta--stats .column,
+  .recipe-meta--macros .column {
+    font-size: .95rem;
+  }
+
+  .recipe-sep {
+    width: min(100%, 760px);
+    margin: .5rem auto 1rem;
+    opacity: .4;
+  }
+
+  @media screen and (max-width: 768px) {
+    .recipe-card {
+      padding: 1rem;
+    }
+
+    .recipe-hero {
+      max-width: 100%;
+    }
+
+    .media-badge {
+      bottom: 8px;
+    }
+  }
+
+  /* Recipe content formatting */
+  .subtitle {
+    max-width: 800px;
+    margin: 1.5rem auto !important;
+    font-size: 1.15rem;
+    line-height: 1.6;
+    color: #4a5568;
+    text-align: center;
+  }
+
+  .content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .content h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #2d3748;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 0.5rem;
+  }
+
+  .content h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    color: #4a5568;
+  }
+
+  .content h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #4a5568;
+  }
+
+  .content ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    margin: 1rem 0;
+  }
+
+  .content ul li {
+    margin-bottom: 0.5rem;
+    line-height: 1.7;
+    color: #2d3748;
+  }
+
+  .content ol {
+    list-style-type: decimal;
+    padding-left: 1.5rem;
+    margin: 1rem 0;
+    counter-reset: step-counter;
+  }
+
+  .content ol li {
+    margin-bottom: 0.75rem;
+    line-height: 1.7;
+    color: #2d3748;
+    padding-left: 0.5rem;
+  }
+
+  .content p {
+    margin-bottom: 1rem;
+    line-height: 1.7;
+    color: #2d3748;
+  }
+
+  .content a {
+    color: #3b82f6;
+    text-decoration: underline;
+    transition: color 0.2s;
+  }
+
+  .content a:hover {
+    color: #2563eb;
+  }
+
+  .content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    font-size: 0.95rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .content thead {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+  }
+
+  .content thead th {
+    padding: 0.875rem 1rem;
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+  }
+
+  .content tbody tr {
+    border-bottom: 1px solid #e2e8f0;
+    transition: background-color 0.2s;
+  }
+
+  .content tbody tr:last-child {
+    border-bottom: none;
+  }
+
+  .content tbody tr:hover {
+    background-color: #f7fafc;
+  }
+
+  .content tbody tr:nth-child(even) {
+    background-color: #f9fafb;
+  }
+
+  .content tbody tr:nth-child(even):hover {
+    background-color: #f1f5f9;
+  }
+
+  .content tbody td {
+    padding: 0.875rem 1rem;
+    color: #2d3748;
+  }
+
+  .content tbody td:first-child {
+    font-weight: 600;
+    color: #4a5568;
+  }
+
+  /* Last row with totals */
+  .content tbody tr:last-child {
+    background: linear-gradient(135deg, #f0f4ff 0%, #f5f0ff 100%);
+    font-weight: 700;
+    border-top: 2px solid #667eea;
+  }
+
+  .content tbody tr:last-child td {
+    color: #4c1d95;
+  }
+
+  @media screen and (max-width: 768px) {
+    .subtitle {
+      font-size: 1rem;
+      padding: 0 1rem;
+    }
+
+    .content {
+      padding: 0 0.5rem;
+    }
+
+    .content h2 {
+      font-size: 1.25rem;
+    }
+
+    .content h3 {
+      font-size: 1.1rem;
+    }
+
+    .content table {
+      font-size: 0.85rem;
+    }
+
+    .content thead th,
+    .content tbody td {
+      padding: 0.625rem 0.5rem;
+    }
+  }
+}
+
+/* ===========================================================================
+   FODMAP BADGE & PANEL STYLES (migrated from custom.css)
+   =========================================================================== */
+@layer components {
+  .fodmap-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: .35em;
+    padding: .25em .6em;
+    border-radius: 999px;
+    font-size: .85rem;
+    font-weight: 700;
+    border: 1px solid #d1d5db;
+    color: #374151;
+    background: #e5e7eb;
+  }
+
+  .fodmap-badge i {
+    font-size: .95em;
+  }
+
+  .fodmap-badge.fodmap--yes {
+    color: #15803d;
+    background: #22c55e20;
+    border-color: #22c55e66;
+  }
+
+  .fodmap-badge.fodmap--depends {
+    color: #92400e;
+    background: #f59e0b20;
+    border-color: #f59e0b66;
+  }
+
+  .fodmap-badge.fodmap--no {
+    color: #991b1b;
+    background: #ef444420;
+    border-color: #ef444466;
+  }
+
+  .fodmap-panel {
+    margin-top: 1.25rem;
+    padding: 1rem 1.25rem;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    background: #fafafa;
+  }
+
+  .fodmap-panel h3 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+  }
+
+  .fodmap-panel ul {
+    margin: .5rem 0 0 1.25rem;
+  }
+
+  .fodmap-row {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  /* FODMAP Toggle Icon */
+  #fodmap-toggle-icon .fa-leaf {
+    color: #dbdbdb;
+    transition: color 0.2s ease-in-out;
+    cursor: pointer;
+  }
+
+  #fodmap-toggle-icon:hover .fa-leaf {
+    color: #363636;
+  }
+
+  body.fodmap-view-enabled #fodmap-toggle-icon .fa-leaf {
+    color: #48c774;
+  }
+
+  .fodmap-indicator {
+    display: none;
+  }
+
+  body.fodmap-view-enabled .fodmap-indicator {
+    display: inline-block;
+  }
+}
+
+/* ===========================================================================
+   WEEKLY PLAN STYLES (migrated from custom.css)
+   =========================================================================== */
+@layer components {
+  .weekly-plan-day {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-radius: 8px;
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-left: 4px solid #00d1b2;
+  }
+
+  .weekly-plan-day:last-child {
+    margin-bottom: 0;
+  }
+
+  .meal-slot {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    min-height: 120px;
+    display: flex;
+    gap: 1rem;
+    border: 1px solid transparent;
+    transition: border-color 0.2s ease;
+  }
+
+  .meal-slot:hover {
+    border-color: #dbdbdb;
+  }
+
+  .meal-slot .heading {
+    color: #363636;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5rem;
+  }
+
+  .meal-slot img {
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+
+  .meal-slot img:hover {
+    transform: scale(1.05);
+  }
+
+  .meal-slot a {
+    color: #3273dc;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  .meal-slot a:hover {
+    color: #00d1b2;
+    text-decoration: underline;
+  }
+
+  .weekly-plan-list .card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .weekly-plan-list .card-content {
+    flex-grow: 1;
+  }
+
+  @media screen and (max-width: 768px) {
+    .meal-slot {
+      min-height: 100px;
+      padding: 0.75rem;
+    }
+
+    .meal-slot .image.is-128x128 {
+      width: 96px;
+      height: 96px;
+    }
+
+    .weekly-plan-day .title.is-4 {
+      font-size: 1.25rem;
+    }
+
+    .weekly-plan-day .columns {
+      margin-bottom: 0;
+    }
+
+    .weekly-plan-day .column {
+      padding-bottom: 0.5rem;
+    }
+  }
+}
+
+/* ===========================================================================
+   QUEUED PAGE - Category & Priority Styles (migrated from custom.css)
+   =========================================================================== */
+@layer components {
+  .category-section {
+    margin-bottom: 2.5rem;
+  }
+
+  .category-section:last-child {
+    margin-bottom: 0;
+  }
+
+  .category-header {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    color: var(--color-text);
+    padding-bottom: 0.75rem;
+    margin-bottom: 1.25rem;
+    border-bottom: 2px solid var(--color-accent-2);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .category-header .category-count {
+    font-family: var(--font-body);
+    font-size: 1rem;
+    color: var(--color-text-light);
+    font-weight: 400;
+  }
+
+  .priority-badge {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(4px);
+    padding: 4px 8px;
+    border-radius: var(--radius-sm);
+    display: flex;
+    gap: 2px;
+    z-index: 10;
+  }
+
+  .priority-badge i {
+    color: var(--color-accent-2);
+    font-size: 0.7rem;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  }
+
+  .card:hover .priority-badge {
+    background: rgba(0, 0, 0, 0.85);
+  }
+
+  @media screen and (max-width: 768px) {
+    .category-header {
+      font-size: 1.25rem;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .priority-badge {
+      top: 6px;
+      right: 6px;
+      padding: 3px 6px;
+    }
+
+    .priority-badge i {
+      font-size: 0.6rem;
+    }
+  }
+}
+
+/* ===========================================================================
+   RATING SYSTEM STYLES (migrated from custom.css)
+   =========================================================================== */
+@layer components {
+  .rating-badge {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(4px);
+    padding: 4px 10px;
+    border-radius: var(--radius-sm);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    z-index: 10;
+    color: #fff;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+
+  .rating-badge__star {
+    color: #fbbf24;
+    font-size: 0.8rem;
+  }
+
+  .rating-badge__star.fas {
+    color: #fbbf24;
+  }
+
+  .rating-badge__value {
+    color: #fff;
+  }
+
+  .card:hover .rating-badge {
+    background: rgba(0, 0, 0, 0.85);
+  }
+
+  .rating-section {
+    position: absolute;
+    bottom: 60px;
+    right: 10px;
+    z-index: 3;
+  }
+
+  .rating-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
+  }
+
+  .rating-stars {
+    display: flex;
+    gap: 2px;
+    padding: 6px 10px;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+    border-radius: var(--radius-sm);
+  }
+
+  .rating-star {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 2px;
+    transition: transform 0.15s ease;
+  }
+
+  .rating-star i {
+    font-size: 1.4rem;
+    color: #fbbf24;
+    transition: color 0.15s ease;
+  }
+
+  .rating-star:hover {
+    transform: scale(1.15);
+  }
+
+  .rating-star--active i {
+    color: #fbbf24;
+  }
+
+  .rating-count {
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.9);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2px 8px;
+    border-radius: 4px;
+  }
+
+  .rating-user {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.9);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 4px 10px;
+    border-radius: 4px;
+  }
+
+  .rating-user__label {
+    opacity: 0.8;
+  }
+
+  .rating-user__stars i {
+    color: #fbbf24;
+    font-size: 0.7rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    .rating-badge {
+      top: 6px;
+      left: 6px;
+      padding: 3px 8px;
+      font-size: 0.75rem;
+    }
+
+    .rating-badge__star {
+      font-size: 0.7rem;
+    }
+
+    .rating-section {
+      bottom: 50px;
+      right: 8px;
+    }
+
+    .rating-stars {
+      padding: 4px 8px;
+    }
+
+    .rating-star i {
+      font-size: 1.1rem;
+    }
+  }
+}
+
+/* ===========================================================================
+   AUTH MODAL STYLES (migrated from custom.css)
+   =========================================================================== */
+@layer components {
+  .auth-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+
+  .auth-modal__backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+  }
+
+  .auth-modal__content {
+    position: relative;
+    background: var(--color-surface);
+    padding: 2rem;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-hover);
+    max-width: 360px;
+    width: 90%;
+    text-align: center;
+  }
+
+  .auth-modal__close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.25rem;
+    color: var(--color-text-light);
+    transition: color 0.2s ease;
+  }
+
+  .auth-modal__close:hover {
+    color: var(--color-text);
+  }
+
+  .auth-modal__title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--color-text);
+  }
+
+  .auth-modal__subtitle {
+    font-size: 0.95rem;
+    color: var(--color-text-light);
+    margin-bottom: 1.5rem;
+  }
+
+  .auth-modal__buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .auth-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: var(--radius-sm);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .auth-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  .auth-btn i {
+    font-size: 1.25rem;
+  }
+
+  .auth-btn--github {
+    background: #24292e;
+    color: #fff;
+  }
+
+  .auth-btn--github:hover {
+    background: #1a1e22;
+  }
+
+  .auth-btn--google {
+    background: #fff;
+    color: #333;
+    border: 1px solid #ddd;
+  }
+
+  .auth-btn--google:hover {
+    background: #f8f8f8;
+  }
+
+  .auth-btn--google i {
+    color: #4285f4;
+  }
+
+  .toast-notification {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%) translateY(100px);
+    background: var(--color-text);
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: var(--radius-sm);
+    font-size: 0.95rem;
+    z-index: 1001;
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+
+  .toast-notification--visible {
+    transform: translateX(-50%) translateY(0);
+    opacity: 1;
+  }
+
+  @media screen and (max-width: 768px) {
+    .auth-modal__content {
+      padding: 1.5rem;
+    }
+  }
+}
+
+/* ===========================================================================
+   FILTER & COLLAPSIBLE SECTION STYLES (migrated from custom.css)
+   =========================================================================== */
+@layer components {
+  .filter-wrapper {
+    margin: -2.25rem -0.75rem 0.75rem;
+    padding: 0 0.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .filter-compact {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0;
+    transition: all 0.3s ease;
+  }
+
+  .filter-toggle {
+    border-radius: 999px !important;
+    transition: all 0.3s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+    font-size: 0.85rem;
+  }
+
+  .filter-toggle:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .filter-toggle .fa-chevron-down {
+    transition: transform 0.3s ease;
+  }
+
+  .filter-toggle.is-active .fa-chevron-down {
+    transform: rotate(180deg);
+  }
+
+  .quick-filter-status {
+    font-size: 0.85rem;
+    color: #7a7a7a;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .quick-filter-status .tag {
+    font-size: 0.75rem;
+  }
+
+  .filter-expanded {
+    margin-top: 0.75rem;
+    border-radius: 12px;
+    background: #fafafa;
+    border: 1px solid #e5e7eb;
+    animation: slideDown 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .ingredient-filter-box {
+    background: #fafafa;
+    border: 1px solid #e5e7eb;
+  }
+
+  .collapsible-section {
+    margin: 1.5rem 0;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    background: #fafafa;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+  }
+
+  .collapsible-section:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+
+  .collapsible-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 1.25rem;
+    cursor: pointer;
+    background: #ffffff;
+    border: none;
+    transition: background-color 0.2s ease;
+    list-style: none;
+    user-select: none;
+  }
+
+  .collapsible-header::-webkit-details-marker {
+    display: none;
+  }
+
+  .collapsible-header::marker {
+    display: none;
+  }
+
+  .collapsible-section:hover .collapsible-header {
+    background: #f9fafb;
+  }
+
+  .collapsible-icon {
+    font-size: 1.25rem;
+    transition: transform 0.3s ease;
+    flex-shrink: 0;
+  }
+
+  .collapsible-section[open] .collapsible-icon {
+    transform: rotate(180deg);
+  }
+
+  .collapsible-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #374151;
+  }
+
+  .collapsible-content {
+    padding: 1rem 1.25rem 1.5rem;
+    background: #ffffff;
+    animation: slideDown 0.3s ease;
+  }
+
+  .collapsible-content>*:first-child {
+    margin-top: 0;
+  }
+
+  .collapsible-content>*:last-child {
+    margin-bottom: 0;
+  }
+
+  .collapsible-section.instant-pot-section {
+    border-color: #e11d48;
+    background: linear-gradient(135deg, #fff1f2 0%, #fef2f2 100%);
+  }
+
+  .instant-pot-section .collapsible-header {
+    background: #fff1f2;
+  }
+
+  .instant-pot-section:hover .collapsible-header {
+    background: #ffe4e6;
+  }
+
+  .instant-pot-section .collapsible-title {
+    color: #be123c;
+  }
+
+  @media screen and (max-width: 768px) {
+    .filter-wrapper {
+      margin: -2rem -1rem 1rem;
+      padding: 0 1rem;
+    }
+
+    .filter-compact {
+      justify-content: center;
+      padding: 0.5rem 0;
+    }
+
+    .filter-toggle {
+      width: 100%;
+      justify-content: center;
+    }
+
+    .quick-filter-status {
+      text-align: center;
+      width: 100%;
+    }
+
+    .collapsible-section {
+      margin: 1rem 0;
+      border-radius: 8px;
+    }
+
+    .collapsible-header {
+      padding: 0.875rem 1rem;
+      gap: 0.5rem;
+    }
+
+    .collapsible-icon {
+      font-size: 1.1rem;
+    }
+
+    .collapsible-title {
+      font-size: 1rem;
+    }
+
+    .collapsible-content {
+      padding: 0.875rem 1rem 1.25rem;
+    }
+  }
+}
+
+/* ===========================================================================
+   PRINT STYLES FOR WEEKLY PLANS (migrated from custom.css)
+   =========================================================================== */
+@media print {
+
+  .buttons,
+  .card-footer,
+  .is-hidden-print,
+  .level-right,
+  .navbar,
+  footer {
+    display: none !important;
+  }
+
+  .section {
+    padding: 1rem !important;
+  }
+
+  .container {
+    max-width: 100% !important;
+  }
+
+  .box,
+  .weekly-plan-day {
+    page-break-inside: avoid;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 1rem !important;
+    box-shadow: none !important;
+  }
+
+  .weekly-plan-day {
+    border-left: 3px solid #00d1b2;
+  }
+
+  .meal-slot {
+    background: white;
+    border: 1px solid #e8e8e8;
+    page-break-inside: avoid;
+  }
+
+  .meal-slot img {
+    max-width: 100px !important;
+    height: auto !important;
+  }
+
+  .title {
+    font-size: 1.25rem !important;
+  }
+
+  .subtitle {
+    font-size: 1rem !important;
+  }
+
+  .notification {
+    border: 1px solid #dbdbdb;
+    background: #f5f5f5 !important;
+  }
+
+  .columns {
+    display: flex !important;
+  }
+
+  .column {
+    padding: 0.5rem !important;
+  }
+}
+
+/* ===========================================================================
+   MEDIA BADGE OVERRIDES - Must be outside layers for maximum specificity
+   =========================================================================== */
+.media-badge {
+  position: absolute !important;
+  bottom: 10px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: .25rem !important;
+  z-index: 2 !important;
+}
+
+.media-badge a {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-decoration: none !important;
+  line-height: 1 !important;
+  min-width: 1.75rem !important;
+  min-height: 1.75rem !important;
+}
+
+.media-badge i {
+  position: static !important;
+  top: auto !important;
+  left: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  transform: none !important;
+  font-size: 1.75rem !important;
+  display: inline-block !important;
+  width: 1em !important;
+  height: 1em !important;
+  line-height: 1 !important;
+}
+
+.media-badge button {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.media-badge--left {
+  left: 10px !important;
+  right: auto !important;
+}
+
+.media-badge--right {
+  right: 10px !important;
+  left: auto !important;
+}

@@ -103,9 +103,8 @@
      */
     function showAuthModal() {
         const modal = document.getElementById('authModal');
-        if (modal) {
-            modal.style.display = 'flex';
-            document.body.style.overflow = 'hidden';
+        if (modal && modal.showModal) {
+            modal.showModal();
         }
     }
 
@@ -114,9 +113,8 @@
      */
     function hideAuthModal() {
         const modal = document.getElementById('authModal');
-        if (modal) {
-            modal.style.display = 'none';
-            document.body.style.overflow = '';
+        if (modal && modal.close) {
+            modal.close();
         }
     }
 
@@ -448,10 +446,10 @@
      * Sort recipes by rating
      */
     function sortByRating(order = 'desc') {
-        const container = document.querySelector('.columns.is-multiline');
+        const container = document.querySelector('.recipe-grid');
         if (!container) return;
 
-        const cards = [...container.querySelectorAll('.column[data-ingredients]')];
+        const cards = [...container.querySelectorAll('.recipe-grid-item[data-ingredients]')];
 
         cards.sort((a, b) => {
             const slugA = a.querySelector('[data-recipe-slug]')?.dataset.recipeSlug;

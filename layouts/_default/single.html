@@ -1,21 +1,21 @@
 {{ define "main" }}
-<div class="section recipe-page">
-    <div class="columns is-centered">
-        <div class="column is-full-mobile is-8-desktop recipe-card">
-            <div class="is-flex recipe-hero-wrap" style="justify-content: center; position: relative;">
+<div class="page-section recipe-page">
+    <div class="recipe-page-container">
+        <div class="recipe-card">
+            <div class="flex recipe-hero-wrap" style="justify-content: center; position: relative;">
                 <div class="recipe-status-icons">
                     {{ if .Params.favourite }}
-                    <span class="icon is-large has-text-warning">
+                    <span class="inline-flex items-center text-2xl text-warning">
                         <i class="fas fa-star"></i>
                     </span>
                     {{ end }}
                     {{ if .Params.queued }}
-                    <span class="icon is-large">
+                    <span class="inline-flex items-center text-2xl">
                         <i class="fas fa-hourglass"></i>
                     </span>
                     {{ end }}
                 </div>
-                <figure class="image recipe-hero">
+                <figure class="recipe-hero">
                     {{- $image_url := partial "asset-url.html" "/images/defaultImage.avif" -}}
                     {{- if and .Params.recipe_image (fileExists (printf "static/%s" .Params.recipe_image)) -}}
                     {{- $image_url = partial "asset-url.html" (printf "/%s" .Params.recipe_image) -}}
@@ -23,7 +23,7 @@
                     <img src="{{ $image_url }}" alt="Recipe image">
                     <div class="recipe-hero__gradient" aria-hidden="true"></div>
                     <div class="recipe-hero__title">
-                        <h1 class="title is-bold has-text-white">{{ .Title }}</h1>
+                        <h1 class="text-3xl font-serif font-bold text-white">{{ .Title }}</h1>
                         <div class="fodmap-indicator">
                             <div style="margin-top:.5rem;">{{ partial "fodmap-badge.html" . }}</div>
                         </div>
@@ -43,7 +43,7 @@
                     {{- $modalId := printf "recipe-video-modal-%s" (anchorize .Title) -}}
                     {{- $modalId2 := printf "recipe-video-modal-%s-2" (anchorize .Title) -}}
                     {{ if or $youtubeHref $videoFileHref $videoFileHref2 }}
-                    <div id="mediaButtons" class="is-rounded media-badge media-badge--left">
+                    <div id="mediaButtons" class="rounded-full media-badge media-badge--left">
                         {{ if $youtubeHref }}
                         <a href="{{ $youtubeHref }}" target="_blank" rel="noopener"
                             aria-label="Otwórz wideo na YouTube">
@@ -64,7 +64,7 @@
                         {{ end }}
                     </div>
                     {{ end }}
-                    <div id="shareButton" class="is-rounded media-badge media-badge--right">
+                    <div id="shareButton" class="rounded-full media-badge media-badge--right">
                         {{- $collection := "sniadania" -}}
                         {{- /* Prefer explicit param or page section: queued */ -}}
                         {{- if or .Params.queued (eq .Section "queued") -}}
@@ -118,50 +118,56 @@
             </div>
 
             {{ if $videoFileHref }}
-            <div id="{{ $modalId }}" class="modal recipe-video-modal" role="dialog" aria-modal="true"
-                aria-label="Odtwarzacz wideo" tabindex="-1">
-                <div class="modal-background" data-video-modal-close></div>
-                <div class="modal-content">
-                    <div class="box recipe-video-modal__box">
-                        <video class="recipe-video-modal__player" controls preload="metadata" data-video-modal-player>
-                            <source src="{{ $videoFileHref }}" type="video/mp4">
-                            Twoja przeglądarka nie wspiera odtwarzania wideo. Pobierz plik
-                            <a href="{{ $videoFileHref }}">tutaj</a>.
-                        </video>
-                    </div>
+            <dialog id="{{ $modalId }}" class="modal recipe-video-modal" aria-label="Odtwarzacz wideo">
+                <div class="modal-box max-w-4xl p-0 bg-black">
+                    <form method="dialog">
+                        <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 text-white z-10" aria-label="Zamknij wideo">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </form>
+                    <video class="recipe-video-modal__player w-full" controls preload="metadata" data-video-modal-player>
+                        <source src="{{ $videoFileHref }}" type="video/mp4">
+                        Twoja przeglądarka nie wspiera odtwarzania wideo. Pobierz plik
+                        <a href="{{ $videoFileHref }}">tutaj</a>.
+                    </video>
                 </div>
-                <button class="modal-close is-large" aria-label="Zamknij wideo" data-video-modal-close></button>
-            </div>
+                <form method="dialog" class="modal-backdrop">
+                    <button aria-label="Zamknij">close</button>
+                </form>
+            </dialog>
             {{ end }}
 
             {{ if $videoFileHref2 }}
-            <div id="{{ $modalId2 }}" class="modal recipe-video-modal" role="dialog" aria-modal="true"
-                aria-label="Odtwarzacz wideo 2" tabindex="-1">
-                <div class="modal-background" data-video-modal-close></div>
-                <div class="modal-content">
-                    <div class="box recipe-video-modal__box">
-                        <video class="recipe-video-modal__player" controls preload="metadata" data-video-modal-player>
-                            <source src="{{ $videoFileHref2 }}" type="video/mp4">
-                            Twoja przeglądarka nie wspiera odtwarzania wideo. Pobierz plik
-                            <a href="{{ $videoFileHref2 }}">tutaj</a>.
-                        </video>
-                    </div>
+            <dialog id="{{ $modalId2 }}" class="modal recipe-video-modal" aria-label="Odtwarzacz wideo 2">
+                <div class="modal-box max-w-4xl p-0 bg-black">
+                    <form method="dialog">
+                        <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 text-white z-10" aria-label="Zamknij wideo">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </form>
+                    <video class="recipe-video-modal__player w-full" controls preload="metadata" data-video-modal-player>
+                        <source src="{{ $videoFileHref2 }}" type="video/mp4">
+                        Twoja przeglądarka nie wspiera odtwarzania wideo. Pobierz plik
+                        <a href="{{ $videoFileHref2 }}">tutaj</a>.
+                    </video>
                 </div>
-                <button class="modal-close is-large" aria-label="Zamknij wideo 2" data-video-modal-close></button>
-            </div>
+                <form method="dialog" class="modal-backdrop">
+                    <button aria-label="Zamknij">close</button>
+                </form>
+            </dialog>
             {{ end }}
 
 
 
-            <div class="container has-text-centered recipe-meta recipe-meta--stats">
+            <div class="text-center recipe-meta recipe-meta--stats">
                 {{ partial "statstable.html" . }}
             </div>
             <hr class="recipe-sep">
-            <div class="container has-text-centered recipe-meta recipe-meta--macros">
+            <div class="text-center recipe-meta recipe-meta--macros">
                 {{ partial "macrostable.html" . }}
             </div>
             <hr>
-            <p class="subtitle is-italic"> {{ .Params.Tagline }}</p>
+            <p class="text-lg text-gray-600 italic"> {{ .Params.Tagline }}</p>
             <div class="content">
                 {{ .Content }}
             </div>
