@@ -16,7 +16,7 @@ ingredients:
 - mąka pszenna
 - jajko
 - mleko
-- muszarda
+- musztarda
 - oliwa z oliwek
 - ryż parboiled
 - awokado

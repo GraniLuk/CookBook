@@ -229,7 +229,6 @@ _shared_fields:
       - { label: "morele suszone", value: "morele suszone" }
       - { label: "mozzarella", value: "mozzarella" }
       - { label: "mrożone warzywa", value: "mrożone warzywa" }
-      - { label: "muszarda", value: "muszarda" }
       - { label: "musztarda", value: "musztarda" }
       - { label: "mąka jaglana", value: "mąka jaglana" }
       - { label: "mąka kokosowa", value: "mąka kokosowa" }
