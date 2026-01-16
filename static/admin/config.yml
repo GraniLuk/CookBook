@@ -58,6 +58,7 @@ _shared_fields:
       - { label: "lunchbox", value: "lunchbox" }
       - { label: "marokański", value: "marokański" }
       - { label: "meksykańskie", value: "meksykańskie" }
+      - { label: "muffinki", value: "muffinki" }
       - { label: "na-wynos", value: "na-wynos" }
       - { label: "odporność", value: "odporność" }
       - { label: "orientalne", value: "orientalne" }
@@ -368,6 +369,7 @@ _shared_fields:
       - { label: "skyr waniliowy", value: "skyr waniliowy" }
       - { label: "skórka cytrynowa", value: "skórka cytrynowa" }
       - { label: "soczewica zielona", value: "soczewica zielona" }
+      - { label: "soda oczyszczona", value: "soda oczyszczona" }
       - { label: "sok z cytryny", value: "sok z cytryny" }
       - { label: "sos pomidorowy", value: "sos pomidorowy" }
       - { label: "sos rybny", value: "sos rybny" }
