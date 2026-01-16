@@ -43,7 +43,6 @@ _shared_fields:
       - { label: "bowl", value: "bowl" }
       - { label: "ciasta", value: "ciasta" }
       - { label: "ciastka", value: "ciastka" }
-      - { label: "deser", value: "deser" }
       - { label: "czekoladowe", value: "czekoladowe" }
       - { label: "fast-food", value: "fast-food" }
       - { label: "goście", value: "goście" }
@@ -362,6 +361,7 @@ _shared_fields:
       - { label: "serek śmietankowy chrzanowy", value: "serek śmietankowy chrzanowy" }
       - { label: "sezam", value: "sezam" }
       - { label: "siemię lniane", value: "siemię lniane" }
+      - { label: "skrobia ziemniaczana", value: "skrobia ziemniaczana" }
       - { label: "skrzydło indycze", value: "skrzydło indycze" }
       - { label: "skyr", value: "skyr" }
       - { label: "skyr naturalny", value: "skyr naturalny" }

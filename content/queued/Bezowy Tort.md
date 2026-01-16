@@ -7,11 +7,10 @@ readyToTest: true
 recipe_image: images/recipe-headers/bezowy_tort.avif
 date: 2026-01-16
 tags:
-- deser
 - ciasta
 tagline: Lekki i puszysty bezowy tort idealny na każdą okazję, z kremem mascarpone i owocami.
 ingredients:
-- białka
+- białka jajek
 - cukier
 - skrobia ziemniaczana
 - sok z cytryny
