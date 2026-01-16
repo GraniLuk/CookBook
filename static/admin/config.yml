@@ -43,6 +43,7 @@ _shared_fields:
       - { label: "bowl", value: "bowl" }
       - { label: "ciasta", value: "ciasta" }
       - { label: "ciastka", value: "ciastka" }
+      - { label: "deser", value: "deser" }
       - { label: "czekoladowe", value: "czekoladowe" }
       - { label: "fast-food", value: "fast-food" }
       - { label: "goście", value: "goście" }
