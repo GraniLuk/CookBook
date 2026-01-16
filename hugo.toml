@@ -26,7 +26,7 @@ defaultImageHeight = 512 #default recipe image height
 defaultImageWidth = 512 # default recipe image width
 
 # If you have a logo image, add it here, else just text (as an image) will be added
-# The default height/width are the recommended bulma size (112W X 28H), best to get your logo as close as possible to that
+# The default height/width are optimized for the navbar (112W X 28H recommended), best to get your logo as close as possible to that
 # The site will SCALE your image, but will not force a stretch, so you may need to stretch it in external tool before using.
 [params.logo]
 fileName = "/CookBook/images/logo.webp"

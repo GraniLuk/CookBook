@@ -80,10 +80,12 @@ function closeHamburgerMenu() {
   if (typeof window.closeMobileMenu === 'function') {
     window.closeMobileMenu();
   } else {
-    // Fallback: just remove CSS classes
-    if (u('#navBarButton').hasClass('is-active')) {
-      u('#navBarButton').removeClass('is-active');
-      u('#navBarMenu').removeClass('is-active');
+    // Fallback: check data attribute instead of is-active class
+    const navBarButton = u('#navBarButton').first();
+    const navBarMenu = u('#navBarMenu').first();
+    if (navBarButton && navBarButton.hasAttribute('data-active')) {
+      navBarButton.removeAttribute('data-active');
+      if (navBarMenu) navBarMenu.classList.add('hidden');
     }
   }
 }
@@ -266,7 +268,7 @@ function populateResults(result) {
     cardContent.appendChild(mediaContent);
 
     const titleP = document.createElement('p');
-    titleP.className = 'title is-4 has-text-centered';
+    titleP.className = 'text-xl font-serif text-center';
     titleP.style.cssText = 'width: 100%; margin: 0; display: -webkit-box; -webkit-line-clamp: 2; line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;';
     titleP.textContent = title;
     mediaContent.appendChild(titleP);

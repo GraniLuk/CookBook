@@ -56,6 +56,7 @@ Use `archetypes/default.md`. Key fields:
 - Hero images not lazy-loaded (LCP priority)
 - Draft recipes hidden via `[data-draft="true"] { display: none !important; }`
 - Update collection detection logic when adding new recipe categories
+- Always use Context7 MCP when I need library/API documentation, code generation, setup or configuration steps without me having to explicitly ask.
 
 ## Where to look
 - `layouts/_default/single.html` - recipe pages, hero, modals

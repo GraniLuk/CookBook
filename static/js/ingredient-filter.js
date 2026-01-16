@@ -128,7 +128,12 @@
             if (trigger) {
                 trigger.addEventListener('click', function (e) {
                     e.stopPropagation();
-                    dropdown.classList.toggle('is-active');
+                    const isOpen = dropdown.hasAttribute('data-open');
+                    if (isOpen) {
+                        dropdown.removeAttribute('data-open');
+                    } else {
+                        dropdown.setAttribute('data-open', 'true');
+                    }
                 });
             }
         }
@@ -136,7 +141,7 @@
         // Close dropdown when clicking outside
         document.addEventListener('click', function (e) {
             if (dropdown && !dropdown.contains(e.target)) {
-                dropdown.classList.remove('is-active');
+                dropdown.removeAttribute('data-open');
             }
         });
 
@@ -184,7 +189,7 @@
 
         if (filterExpanded && filterToggle) {
             filterExpanded.style.display = 'block';
-            filterToggle.classList.add('is-active');
+            filterToggle.setAttribute('data-expanded', 'true');
             isExpanded = true;
         }
     }
@@ -196,7 +201,7 @@
 
         if (filterExpanded && filterToggle) {
             filterExpanded.style.display = 'none';
-            filterToggle.classList.remove('is-active');
+            filterToggle.removeAttribute('data-expanded');
             isExpanded = false;
         }
     }

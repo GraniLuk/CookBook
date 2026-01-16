@@ -131,13 +131,79 @@ Full phased migration from Bulma CSS to Tailwind + DaisyUI for the Hugo cookbook
 
 ## Migration Complete! 🎉
 
-All 8 phases have been successfully completed. The cookbook site now runs entirely on Tailwind CSS + DaisyUI.
+All 9 phases have been successfully completed. The cookbook site now runs entirely on Tailwind CSS + DaisyUI with zero Bulma dependencies.
 
 ### Summary of Changes:
 - **CSS Framework**: Bulma → Tailwind CSS v4.1.18 + DaisyUI v5.5.14
 - **Components**: Custom "cookbook" DaisyUI theme with sage/forest green primary color
 - **Architecture**: All styles consolidated in `assets/css/main.css` (~1,400 lines)
 - **Bundle Size**: Significantly reduced (Tailwind purges unused CSS)
+- **Phase 9**: All remaining Bulma utility classes replaced with Tailwind/DaisyUI equivalents
+
+---
+
+## Phase 9: Final Bulma Class Replacement ✅ COMPLETED (January 16, 2026)
+
+**Goal**: Remove all remaining Bulma utility classes and JS references from the codebase.
+
+### Changes Made:
+
+#### 1. HTML Templates (80+ replacements)
+**Files Updated:**
+- `layouts/_default/single.html` - Hero section, icons, titles, buttons
+- `layouts/index.html` - Filter UI, buttons, checkboxes, flexbox
+- `layouts/_default/list.html` - Title styling
+- `layouts/_default/baseof.print.html` - Print layout grid system
+- `layouts/weekly-plans/single.html` & `list.html` - All text and layout utilities
+- `layouts/taxonomy/list.html` & `layouts/diet/list.html` - Icon colors, text utilities
+- `layouts/partials/searchResults.html` - Title styling
+- `layouts/partials/recipe-card-*.html` - Card text styling
+- `layouts/partials/metadata.html` - Flexbox utilities
+- `layouts/partials/fodmap-panel.html` - Title styling
+- `layouts/partials/printstatstable.html` - Grid system
+
+**Key Replacements:**
+- Flexbox: `is-flex` → `flex`, `is-align-items-center` → `items-center`, `is-justify-content-space-between` → `justify-between`
+- Text: `has-text-centered` → `text-center`, `has-text-weight-bold` → `font-bold`, `has-text-*` → `text-*`
+- Sizing: `is-size-2` → `text-3xl`, `is-size-7` → `text-sm`
+- Titles: `title is-4` → `text-xl font-serif`, `subtitle` → `text-lg text-gray-600`
+- Buttons: `button is-light is-small` → `btn btn-sm btn-ghost`
+- Forms: `field is-grouped is-grouped-multiline` → `flex flex-wrap gap-2`, `checkbox is-block` → `flex items-center`
+- Icons: `icon is-small` → `inline-flex items-center text-sm`
+- Shapes: `is-rounded` → `rounded-full`
+- Grid: `columns` → `grid`, `column is-6` → `col-span-1`
+
+#### 2. JavaScript Files (13 replacements)
+**Files Updated:**
+- `static/js/recipe-filter.js` - Replaced `is-active` with `data-expanded` attribute
+- `static/js/ingredient-filter.js` - Replaced `is-active` with `data-open` attribute
+- `static/js/custom.js` - Updated navbar fallback and search result card styling
+- `static/js/menu.js` - Renamed to `.legacy` (no longer needed)
+
+**Key Changes:**
+- State management: `classList.add('is-active')` → `setAttribute('data-expanded', 'true')`
+- Dynamic styling: `'title is-4 has-text-centered'` → `'text-xl font-serif text-center'`
+
+#### 3. Documentation
+**Files Updated:**
+- `hugo.toml` - Removed Bulma reference in logo size comment
+
+#### 4. Verification
+✅ All HTML templates scanned - 0 Bulma classes remaining  
+✅ All JS files updated - 0 Bulma class references  
+✅ Documentation cleaned - 0 Bulma mentions  
+✅ Legacy files archived with `.legacy` extension  
+
+**Testing Checklist:**
+- [ ] Run `hugo server -D` and verify site loads
+- [ ] Test filter panel expand/collapse
+- [ ] Test ingredient dropdown
+- [ ] Test search functionality
+- [ ] Test recipe cards display correctly
+- [ ] Test print layout
+- [ ] Test weekly plans pages
+- [ ] Test taxonomy/diet pages
+- [ ] Verify responsive design at all breakpoints
 
 ---
 

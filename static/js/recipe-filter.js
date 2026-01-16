@@ -320,7 +320,7 @@
 
         if (filterExpanded && filterToggle) {
             filterExpanded.style.display = 'block';
-            filterToggle.classList.add('is-active');
+            filterToggle.setAttribute('data-expanded', 'true');
             isExpanded = true;
 
             // On first open, enable test recipes filter to match the checked checkbox
@@ -340,7 +340,7 @@
 
         if (filterExpanded && filterToggle) {
             filterExpanded.style.display = 'none';
-            filterToggle.classList.remove('is-active');
+            filterToggle.removeAttribute('data-expanded');
             isExpanded = false;
         }
     }

@@ -37,39 +37,39 @@
 
     <div class="filter-wrapper" id="filterContainer">
         <div class="filter-compact" id="filterCompact">
-            <button class="button is-light is-small filter-toggle" id="filterToggle">
-                <span class="icon is-small">
+            <button class="btn btn-sm btn-ghost filter-toggle" id="filterToggle">
+                <span class="inline-flex items-center text-sm">
                     <i class="fas fa-filter"></i>
                 </span>
                 <span>Filtruj przepisy</span>
-                <span class="icon is-small">
+                <span class="inline-flex items-center text-sm">
                     <i class="fas fa-chevron-down"></i>
                 </span>
             </button>
             <div id="quickFilterStatus" class="quick-filter-status"></div>
         </div>
         <div class="filter-expanded box" id="filterExpanded" style="display: none;">
-            <div class="is-flex is-justify-content-space-between is-align-items-center mb-3">
-                <h2 class="title is-6 mb-0">Filtruj przepisy</h2>
+            <div class="flex justify-between items-center mb-3">
+                <h2 class="text-base font-serif mb-0">Filtruj przepisy</h2>
                 <button class="delete" id="closeFilter" aria-label="close"></button>
             </div>
 
             <!-- Recipe Type Filter Checkboxes -->
             <div class="field mb-4">
-                <label class="label is-small mb-2">Pokaż przepisy:</label>
+                <label class="label text-sm mb-2">Pokaż przepisy:</label>
                 <div class="control">
-                    <label class="checkbox is-block mb-2">
+                    <label class="flex items-center mb-2">
                         <input type="checkbox" id="showOfficialCheckbox" checked>
                         <span class="ml-2">Oficjalne przepisy</span>
                     </label>
-                    <label class="checkbox is-block">
+                    <label class="flex items-center">
                         <input type="checkbox" id="showTestCheckbox" checked>
                         <span class="ml-2">Przepisy testowe</span>
                     </label>
                 </div>
             </div>
 
-            <div class="field is-grouped is-grouped-multiline">
+            <div class="flex flex-wrap gap-2">
                 <div class="control">
                     <details class="dropdown" id="categoryDropdown">
                         <summary class="btn btn-sm btn-ghost rounded">
@@ -107,8 +107,8 @@
                     </details>
                 </div>
                 <div class="control">
-                    <button class="button is-light is-small" id="clearFilters">
-                        <span class="icon is-small">
+                    <button class="btn btn-sm btn-ghost" id="clearFilters">
+                        <span class="inline-flex items-center text-sm">
                             <i class="fas fa-times"></i>
                         </span>
                         <span>Wyczyść</span>
@@ -122,8 +122,8 @@
                     </select>
                 </div>
             </div>
-            <div class="field is-grouped is-grouped-multiline mt-3" id="selectedCategories"></div>
-            <div class="field is-grouped is-grouped-multiline mt-2" id="selectedIngredients"></div>
+            <div class="flex flex-wrap gap-2 mt-3" id="selectedCategories"></div>
+            <div class="flex flex-wrap gap-2 mt-2" id="selectedIngredients"></div>
             <div class="alert alert-info text-sm mt-3" id="filterResults">
                 <p id="resultsCount">Pokazuję wszystkie przepisy</p>
             </div>

@@ -2,15 +2,15 @@
 <div class="page-section recipe-page">
     <div class="recipe-page-container">
         <div class="recipe-card">
-            <div class="is-flex recipe-hero-wrap" style="justify-content: center; position: relative;">
+            <div class="flex recipe-hero-wrap" style="justify-content: center; position: relative;">
                 <div class="recipe-status-icons">
                     {{ if .Params.favourite }}
-                    <span class="icon is-large has-text-warning">
+                    <span class="inline-flex items-center text-2xl text-warning">
                         <i class="fas fa-star"></i>
                     </span>
                     {{ end }}
                     {{ if .Params.queued }}
-                    <span class="icon is-large">
+                    <span class="inline-flex items-center text-2xl">
                         <i class="fas fa-hourglass"></i>
                     </span>
                     {{ end }}
@@ -23,7 +23,7 @@
                     <img src="{{ $image_url }}" alt="Recipe image">
                     <div class="recipe-hero__gradient" aria-hidden="true"></div>
                     <div class="recipe-hero__title">
-                        <h1 class="title has-text-weight-bold has-text-white">{{ .Title }}</h1>
+                        <h1 class="text-3xl font-serif font-bold text-white">{{ .Title }}</h1>
                         <div class="fodmap-indicator">
                             <div style="margin-top:.5rem;">{{ partial "fodmap-badge.html" . }}</div>
                         </div>
@@ -43,7 +43,7 @@
                     {{- $modalId := printf "recipe-video-modal-%s" (anchorize .Title) -}}
                     {{- $modalId2 := printf "recipe-video-modal-%s-2" (anchorize .Title) -}}
                     {{ if or $youtubeHref $videoFileHref $videoFileHref2 }}
-                    <div id="mediaButtons" class="is-rounded media-badge media-badge--left">
+                    <div id="mediaButtons" class="rounded-full media-badge media-badge--left">
                         {{ if $youtubeHref }}
                         <a href="{{ $youtubeHref }}" target="_blank" rel="noopener"
                             aria-label="Otwórz wideo na YouTube">
@@ -64,7 +64,7 @@
                         {{ end }}
                     </div>
                     {{ end }}
-                    <div id="shareButton" class="is-rounded media-badge media-badge--right">
+                    <div id="shareButton" class="rounded-full media-badge media-badge--right">
                         {{- $collection := "sniadania" -}}
                         {{- /* Prefer explicit param or page section: queued */ -}}
                         {{- if or .Params.queued (eq .Section "queued") -}}
@@ -167,7 +167,7 @@
                 {{ partial "macrostable.html" . }}
             </div>
             <hr>
-            <p class="subtitle is-italic"> {{ .Params.Tagline }}</p>
+            <p class="text-lg text-gray-600 italic"> {{ .Params.Tagline }}</p>
             <div class="content">
                 {{ .Content }}
             </div>
