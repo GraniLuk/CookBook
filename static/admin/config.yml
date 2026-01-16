@@ -356,6 +356,7 @@ _shared_fields:
       - { label: "ser żółty", value: "ser żółty" }
       - { label: "serek", value: "serek" }
       - { label: "serek blu", value: "serek blu" }
+      - { label: "serek kanapkowy", value: "serek kanapkowy" }
       - { label: "serek wiejski", value: "serek wiejski" }
       - { label: "serek śmietankowy", value: "serek śmietankowy" }
       - { label: "serek śmietankowy chrzanowy", value: "serek śmietankowy chrzanowy" }

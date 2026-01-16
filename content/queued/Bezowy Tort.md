@@ -4,6 +4,7 @@ author: Policzone Szamy
 categories: desery
 draft: false
 readyToTest: true
+link: https://www.instagram.com/reel/DTaG22gjESu/
 recipe_image: images/recipe-headers/bezowy_tort.avif
 date: 2026-01-16
 tags:
