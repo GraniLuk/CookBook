@@ -1,5 +1,5 @@
-<div class="is-flex is-justify-content-space-between is-align-items-center">
-    <div class="has-text-left">
+<div class="flex justify-between items-center">
+    <div class="text-left">
         {{ with .Params.link }}
         <a href="{{ . }}" target="_blank" title="Oryginalny przepis">
             <i class="fab fa-youtube" style="color: #FF0000;"></i>
@@ -7,7 +7,7 @@
         </a>
         {{ end }}
     </div>
-    <div class="has-text-right">
+    <div class="text-right">
         {{ $dateTime := .PublishDate.Format "01-02-2006" }}
         {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
         <i class="far fa-calendar-alt"></i>

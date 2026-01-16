@@ -1,19 +1,19 @@
 {{ define "main" }}
-<div class="section">
-    <div class="container">
+<div class="page-section">
+    <div class="page-container">
         <h1 class="title">Wszystkie Kategorie</h1>
         <p class="subtitle">Przeglądaj przepisy według kategorii</p>
 
-        <div class="columns is-multiline">
+        <div class="taxonomy-grid">
             {{ range .Pages.ByTitle }}
-            <div class="column is-3">
-                <div class="card">
-                    <header class="card-header">
-                        <p class="card-header-title">
-                            <a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a>
-                            <i class="fas fa-utensils pl-3 pb-3"></i>
+            <div>
+                <div class="card bg-base-100 shadow-md rounded-2xl overflow-hidden">
+                    <header class="card-header bg-base-200 p-4">
+                        <p class="card-header-title m-0">
+                            <a class="text-inherit hover:text-primary font-heading" href="{{ .RelPermalink }}">{{ .Title }}</a>
+                            <i class="fas fa-utensils pl-3"></i>
                         </p>
-                        <div class="pt-4 pr-2">
+                        <div class="text-sm text-base-content/70">
                             {{ $count := .Data.Pages | len }}
                             {{ if gt $count 1 }}
                             {{ $count }} przepisów
@@ -22,13 +22,15 @@
                             {{ end }}
                         </div>
                     </header>
-                    <div class="card-content">
+                    <div class="card-body p-4">
+                        <ul class="list-disc list-inside">
                         {{ range first 5 .Pages }}
-                        <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+                        <li><a href="{{ .Permalink }}" class="hover:text-primary">{{ .LinkTitle }}</a></li>
                         {{ end }}
                         {{ if gt (len .Pages) 5 }}
-                        <li><a href="{{ .Permalink }}">... i więcej</a></li>
+                        <li><a href="{{ .Permalink }}" class="hover:text-primary">... i więcej</a></li>
                         {{ end }}
+                        </ul>
                     </div>
                 </div>
             </div>

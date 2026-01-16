@@ -1,22 +1,24 @@
 {{ define "main" }}
-<div class="section">
+<div class="page-section">
   <h1 class="title">Diety</h1>
-  <div class="columns is-multiline">
+  <div class="taxonomy-grid">
     {{ range .Pages.ByTitle }}
-    <div class="column is-3">
-      <div class="card">
-        <header class="card-header">
-          <p class="card-header-title">
-            <a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a>
-            <i class="fas fa-leaf pl-3 pb-3"></i>
+    <div>
+      <div class="card bg-base-100 shadow-md rounded-2xl overflow-hidden">
+        <header class="card-header bg-base-200 p-4">
+          <p class="card-header-title m-0">
+            <a class="text-inherit hover:text-primary font-heading" href="{{ .RelPermalink }}">{{ .Title }}</a>
+            <i class="fas fa-leaf pl-3"></i>
           </p>
         </header>
-        <div class="card-content">
+        <div class="card-body p-4">
           {{ $cat := lower .Title }}
           {{ with .Site.GetPage (printf "diet/%s" $cat) }}
+          <ul class="list-disc list-inside">
           {{ range first 5 .Pages }}
-          <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+          <li><a href="{{ .Permalink }}" class="hover:text-primary">{{ .LinkTitle }}</a></li>
           {{ end }}
+          </ul>
           {{ end }}
         </div>
       </div>

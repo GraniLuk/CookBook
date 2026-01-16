@@ -1,16 +1,16 @@
 {{ define "main" }}
 <!-- DEBUG: Używamy szablonu diet/list.html -->
-<div class="section">
-    <div class="container">
+<div class="page-section">
+    <div class="page-container">
         <!-- DEBUG: Title = {{ .Title }}, Type = {{ .Type }}, Kind = {{ .Kind }} -->
         {{ if eq .Title "low-fodmap" }}
         {{/* Specjalna strona dla Low FODMAP - pokazuje tylko przepisy z fodmap.status = "yes" */}}
-        <h1 class="title"><i class="fas fa-leaf has-text-success"></i> Low FODMAP - Bezpieczne Przepisy</h1>
+        <h1 class="text-3xl font-serif"><i class="fas fa-leaf text-success"></i> Low FODMAP - Bezpieczne Przepisy</h1>
         <p class="subtitle">
             Przepisy oznaczone jako w pełni bezpieczne dla diety Low FODMAP
         </p>
 
-        <div class="notification is-info is-light mb-5">
+        <div class="alert alert-info mb-5">
             <p><strong>Co to oznacza?</strong> Te przepisy zawierają tylko składniki o niskiej zawartości FODMAP i można
                 je spożywać bez ograniczeń w normalnych porcjach.</p>
         </div>
@@ -18,15 +18,15 @@
         {{/* Filtruj wszystkie strony w site - tylko te z fodmap.status = "yes" */}}
         {{ $safePages := where site.RegularPages ".Params.fodmap.status" "yes" }}
 
-        <p class="has-text-grey mb-4">
-            <i class="fas fa-check-circle has-text-success"></i>
+        <p class="text-gray-600 mb-4">
+            <i class="fas fa-check-circle text-success"></i>
             {{ len $safePages }} {{ if eq (len $safePages) 1 }}bezpieczny przepis{{ else }}bezpiecznych przepisów{{ end
             }}
         </p>
 
-        <div class="columns is-multiline">
+        <div class="taxonomy-grid">
             {{ range $safePages.ByPublishDate.Reverse }}
-            <div class="column is-3">
+            <div>
                 {{ partial "summary.html" . }}
             </div>
             {{ end }}
@@ -36,20 +36,20 @@
         {{ $dependsPages := where site.RegularPages ".Params.fodmap.status" "depends" }}
         {{ if gt (len $dependsPages) 0 }}
         <hr class="my-6">
-        <h2 class="title is-4"><i class="fas fa-exclamation-triangle has-text-warning"></i> Przepisy z ograniczeniami
+        <h2 class="text-xl font-serif"><i class="fas fa-exclamation-triangle text-warning"></i> Przepisy z ograniczeniami
         </h2>
         <p class="subtitle">
             Przepisy, które można dostosować do diety Low FODMAP
         </p>
 
-        <div class="notification is-warning is-light">
+        <div class="alert alert-warning">
             <p><strong>Uwaga:</strong> Te przepisy wymagają modyfikacji składników lub ograniczeń porcji. Każdy przepis
                 zawiera szczegółowe instrukcje jak je dostosować do diety Low FODMAP.</p>
         </div>
 
-        <div class="columns is-multiline">
+        <div class="taxonomy-grid">
             {{ range $dependsPages.ByPublishDate.Reverse }}
-            <div class="column is-3">
+            <div>
                 {{ partial "summary.html" . }}
             </div>
             {{ end }}
@@ -59,9 +59,9 @@
         {{ else }}
         {{/* Domyślny szablon dla innych diet */}}
         <h1 class="title"><i class="fas fa-leaf" aria-hidden="true"></i> {{ .Title }}</h1>
-        <div class="columns is-multiline">
+        <div class="taxonomy-grid">
             {{ range .Pages }}
-            <div class="column is-3">
+            <div>
                 {{ partial "summary.html" . }}
             </div>
             {{ end }}

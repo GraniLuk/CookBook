@@ -1,128 +1,139 @@
 {{ define "main" }}
 <div class="section">
+    {{/* Category navigation dots for mobile swipe */}}
+    <nav class="category-nav-dots" aria-label="Nawigacja stron">
+        <a href='{{ partial "asset-url.html" "/" | replaceRE "\\?v=.*" "" }}'
+           class="dot active"
+           title="Strona główna"
+           aria-label="Strona główna"
+           aria-current="page">
+        </a>
+        <a href='{{ partial "asset-url.html" "/categories/sniadania/" | replaceRE "\\?v=.*" "" }}'
+           class="dot"
+           title="Śniadania"
+           aria-label="Śniadania">
+        </a>
+        <a href='{{ partial "asset-url.html" "/categories/obiady/" | replaceRE "\\?v=.*" "" }}'
+           class="dot"
+           title="Obiady"
+           aria-label="Obiady">
+        </a>
+        <a href='{{ partial "asset-url.html" "/categories/salatki/" | replaceRE "\\?v=.*" "" }}'
+           class="dot"
+           title="Sałatki"
+           aria-label="Sałatki">
+        </a>
+        <a href='{{ partial "asset-url.html" "/categories/desery/" | replaceRE "\\?v=.*" "" }}'
+           class="dot"
+           title="Desery"
+           aria-label="Desery">
+        </a>
+        <a href='{{ partial "asset-url.html" "/categories/sosy/" | replaceRE "\\?v=.*" "" }}'
+           class="dot"
+           title="Sosy"
+           aria-label="Sosy">
+        </a>
+    </nav>
+
     <div class="filter-wrapper" id="filterContainer">
         <div class="filter-compact" id="filterCompact">
-            <button class="button is-light is-small filter-toggle" id="filterToggle">
-                <span class="icon is-small">
+            <button class="btn btn-sm btn-ghost filter-toggle" id="filterToggle">
+                <span class="inline-flex items-center text-sm">
                     <i class="fas fa-filter"></i>
                 </span>
                 <span>Filtruj przepisy</span>
-                <span class="icon is-small">
+                <span class="inline-flex items-center text-sm">
                     <i class="fas fa-chevron-down"></i>
                 </span>
             </button>
             <div id="quickFilterStatus" class="quick-filter-status"></div>
         </div>
         <div class="filter-expanded box" id="filterExpanded" style="display: none;">
-            <div class="is-flex is-justify-content-space-between is-align-items-center mb-3">
-                <h2 class="title is-6 mb-0">Filtruj przepisy</h2>
+            <div class="flex justify-between items-center mb-3">
+                <h2 class="text-base font-serif mb-0">Filtruj przepisy</h2>
                 <button class="delete" id="closeFilter" aria-label="close"></button>
             </div>
 
             <!-- Recipe Type Filter Checkboxes -->
             <div class="field mb-4">
-                <label class="label is-small mb-2">Pokaż przepisy:</label>
+                <label class="label text-sm mb-2">Pokaż przepisy:</label>
                 <div class="control">
-                    <label class="checkbox is-block mb-2">
+                    <label class="flex items-center mb-2">
                         <input type="checkbox" id="showOfficialCheckbox" checked>
                         <span class="ml-2">Oficjalne przepisy</span>
                     </label>
-                    <label class="checkbox is-block">
+                    <label class="flex items-center">
                         <input type="checkbox" id="showTestCheckbox" checked>
                         <span class="ml-2">Przepisy testowe</span>
                     </label>
                 </div>
             </div>
 
-            <div class="field is-grouped is-grouped-multiline">
+            <div class="flex flex-wrap gap-2">
                 <div class="control">
-                    <div class="dropdown" id="categoryDropdown">
-                        <div class="dropdown-trigger">
-                            <button class="button is-small" aria-haspopup="true" aria-controls="category-dropdown-menu">
-                                <span>Wybierz kategorie</span>
-                                <span class="icon is-small">
-                                    <i class="fas fa-angle-down" aria-hidden="true"></i>
-                                </span>
-                            </button>
-                        </div>
-                        <div class="dropdown-menu" id="category-dropdown-menu" role="menu">
-                            <div class="dropdown-content">
-                                <div class="dropdown-item">
-                                    <div class="field">
-                                        <div class="control has-icons-left">
-                                            <input class="input is-small" type="text" id="categorySearch"
-                                                placeholder="Szukaj kategorii...">
-                                            <span class="icon is-small is-left">
-                                                <i class="fas fa-search"></i>
-                                            </span>
-                                        </div>
-                                    </div>
+                    <details class="dropdown" id="categoryDropdown">
+                        <summary class="btn btn-sm btn-ghost rounded">
+                            <span>Wybierz kategorie</span>
+                            <i class="fas fa-angle-down ml-1 text-xs"></i>
+                        </summary>
+                        <div class="dropdown-content bg-base-100 rounded shadow-md border border-base-300 mt-1 min-w-[200px] max-h-[250px] overflow-y-auto">
+                            <div class="px-2 py-1.5 border-b border-base-200">
+                                <div class="flex items-center gap-1.5">
+                                    <i class="fas fa-search text-xs text-base-content/50"></i>
+                                    <input class="bg-transparent border-none outline-none text-sm flex-1 py-0.5" type="text" id="categorySearch"
+                                        placeholder="Szukaj...">
                                 </div>
-                                <hr class="dropdown-divider">
-                                <div id="categoryList"></div>
                             </div>
+                            <div id="categoryList"></div>
                         </div>
-                    </div>
+                    </details>
                 </div>
                 <div class="control">
-                    <div class="dropdown" id="ingredientDropdown">
-                        <div class="dropdown-trigger">
-                            <button class="button is-small" aria-haspopup="true" aria-controls="dropdown-menu">
-                                <span>Wybierz składniki</span>
-                                <span class="icon is-small">
-                                    <i class="fas fa-angle-down" aria-hidden="true"></i>
-                                </span>
-                            </button>
-                        </div>
-                        <div class="dropdown-menu" id="dropdown-menu" role="menu">
-                            <div class="dropdown-content">
-                                <div class="dropdown-item">
-                                    <div class="field">
-                                        <div class="control has-icons-left">
-                                            <input class="input is-small" type="text" id="ingredientSearch"
-                                                placeholder="Szukaj składnika...">
-                                            <span class="icon is-small is-left">
-                                                <i class="fas fa-search"></i>
-                                            </span>
-                                        </div>
-                                    </div>
+                    <details class="dropdown" id="ingredientDropdown">
+                        <summary class="btn btn-sm btn-ghost rounded">
+                            <span>Wybierz składniki</span>
+                            <i class="fas fa-angle-down ml-1 text-xs"></i>
+                        </summary>
+                        <div class="dropdown-content bg-base-100 rounded shadow-md border border-base-300 mt-1 min-w-[200px] max-h-[250px] overflow-y-auto">
+                            <div class="px-2 py-1.5 border-b border-base-200">
+                                <div class="flex items-center gap-1.5">
+                                    <i class="fas fa-search text-xs text-base-content/50"></i>
+                                    <input class="bg-transparent border-none outline-none text-sm flex-1 py-0.5" type="text" id="ingredientSearch"
+                                        placeholder="Szukaj...">
                                 </div>
-                                <hr class="dropdown-divider">
-                                <div id="ingredientList"></div>
                             </div>
+                            <div id="ingredientList"></div>
                         </div>
-                    </div>
+                    </details>
                 </div>
                 <div class="control">
-                    <button class="button is-light is-small" id="clearFilters">
-                        <span class="icon is-small">
+                    <button class="btn btn-sm btn-ghost" id="clearFilters">
+                        <span class="inline-flex items-center text-sm">
                             <i class="fas fa-times"></i>
                         </span>
                         <span>Wyczyść</span>
                     </button>
                 </div>
                 <div class="control">
-                    <div class="select is-small">
-                        <select id="sortSelect">
-                            <option value="default">Sortuj: Domyślnie</option>
-                            <option value="rating-desc">Sortuj: Ocena ↓</option>
-                            <option value="rating-asc">Sortuj: Ocena ↑</option>
-                        </select>
-                    </div>
+                    <select id="sortSelect" class="select select-bordered select-sm">
+                        <option value="default">Sortuj: Domyślnie</option>
+                        <option value="rating-desc">Sortuj: Ocena ↓</option>
+                        <option value="rating-asc">Sortuj: Ocena ↑</option>
+                    </select>
                 </div>
             </div>
-            <div class="field is-grouped is-grouped-multiline mt-3" id="selectedCategories"></div>
-            <div class="field is-grouped is-grouped-multiline mt-2" id="selectedIngredients"></div>
-            <div class="notification is-light is-small mt-3" id="filterResults">
+            <div class="flex flex-wrap gap-2 mt-3" id="selectedCategories"></div>
+            <div class="flex flex-wrap gap-2 mt-2" id="selectedIngredients"></div>
+            <div class="alert alert-info text-sm mt-3" id="filterResults">
                 <p id="resultsCount">Pokazuję wszystkie przepisy</p>
             </div>
         </div>
     </div>
 
-    <div class="columns is-multiline">
+    <div class="recipe-grid" id="recipe-grid">
         {{ range .Site.RegularPages }}
         {{ if and (isset .Params "draft") (eq .Params.draft false) }}
-        <div class="column is-2-desktop is-3-tablet is-full-mobile"
+        <div class="recipe-grid-item"
             data-ingredients='{{ .Params.ingredients | jsonify }}' data-categories='{{ .Params.categories | jsonify }}'
             data-draft="{{ default false .Draft }}" data-ready-to-test="{{ if .Params.readyToTest }}true{{ else }}false{{ end }}">
             {{ partial "summary.html" . }}

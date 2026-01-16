@@ -1,12 +1,12 @@
 {{ define "main" }}
-<div class="section">
-    <div class="container">
+<div class="page-section">
+    <div class="page-container">
 
         <h1 class="title">{{ .Title }}</h1>
         <p class="subtitle">{{ len .Pages }} {{ if eq (len .Pages) 1 }}przepis{{ else }}przepisów{{ end }} w
             podkategorii "{{ .Title }}" ze śniadań</p>
-        <div class="columns is-multiline">
-            {{ partial "sorted-recipes.html" (dict "pages" .Pages "template" "summary.html" "columnClass" "is-2-desktop is-3-tablet is-full-mobile") }}
+        <div class="recipe-grid">
+            {{ partial "sorted-recipes.html" (dict "pages" .Pages "template" "summary.html" "columnClass" "") }}
         </div>
     </div>
 </div>

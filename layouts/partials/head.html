@@ -8,9 +8,14 @@
     <link rel="icon" type="image/png" sizes="16x16" href="{{ partial "asset-url.html" "/favicon-16x16.png" }}">
     <link rel="icon" href="{{ partial "asset-url.html" "/favicon.ico" }}" sizes="any">
     <link rel="manifest" href="{{ partial "asset-url.html" "/site.webmanifest" }}">
-    <link rel="stylesheet" type="text/css" href="{{ partial "asset-url.html" "/css/bulma.min.css" }}">
-    <link rel="stylesheet" type="text/css" href="{{ partial "asset-url.html" "/css/nested-menu.css" }}">
-    <link rel="stylesheet" type="text/css" href="{{ partial "asset-url.html" "/css/navbar.css" }}">
+    {{/* Tailwind CSS + DaisyUI - primary styling framework */}}
+    {{ with resources.Get "css/main.css" }}
+      {{ $opts := dict "minify" true }}
+      {{ with . | css.TailwindCSS $opts }}
+        <link rel="stylesheet" href="{{ .RelPermalink }}">
+      {{ end }}
+    {{ end }}
+    {{/* Legacy styles for components not yet migrated to Tailwind */}}
     <link rel="stylesheet" type="text/css" href="{{ partial "asset-url.html" "/css/tags.css" }}">
     <link rel="stylesheet" type="text/css" href="{{ partial "asset-url.html" "/css/custom.css" }}">
     <link rel="stylesheet" type="text/css" href="{{ partial "asset-url.html" "/css/print.css" }}">

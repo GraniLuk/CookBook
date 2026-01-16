@@ -1,0 +1,176 @@
+<!-- DaisyUI Navbar with mobile drawer -->
+<div class="drawer">
+    <input id="mobile-drawer" type="checkbox" class="drawer-toggle" />
+    
+    <!-- Main navbar -->
+    <div class="drawer-content">
+        <nav class="navbar bg-primary text-primary-content sticky top-0 z-50 shadow-md">
+            <!-- Mobile menu button -->
+            <div class="flex-none lg:hidden">
+                <label for="mobile-drawer" class="btn btn-square btn-ghost" aria-label="open menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </label>
+            </div>
+            
+            <!-- Logo / Brand -->
+            <div class="flex-1 lg:flex-none">
+                <a href="{{ .Site.Home.RelPermalink }}" class="btn btn-ghost text-xl normal-case">
+                    {{ with .Site.Params.logo }}
+                        <img src="{{ .filename }}" width="{{ .width }}" height="{{ .height }}" alt="Logo">
+                    {{ else }}
+                        <span class="font-heading">{{ .Site.Params.navText.text }}</span>
+                    {{ end }}
+                </a>
+            </div>
+            
+            <!-- Desktop menu -->
+            <div class="hidden lg:flex flex-1">
+                <ul class="menu menu-horizontal px-1">
+                    {{ with site.Menus.main }}
+                        {{ range . }}
+                            {{ if .HasChildren }}
+                                <li>
+                                    <details>
+                                        <summary>
+                                            {{ if .Pre }}<i class="{{ .Pre }}"></i>{{ end }}
+                                            {{ .Name }}
+                                        </summary>
+                                        <ul class="bg-base-100 text-base-content rounded-box shadow-lg z-50 w-52">
+                                            {{ range .Children }}
+                                                {{ if .HasChildren }}
+                                                    <li>
+                                                        <details>
+                                                            <summary>
+                                                                {{ if .Pre }}<i class="{{ .Pre }}"></i>{{ end }}
+                                                                {{ .Name }}
+                                                            </summary>
+                                                            <ul class="bg-base-100 rounded-box shadow-lg">
+                                                                {{ range .Children }}
+                                                                    <li><a href="{{ .URL }}">
+                                                                        {{ if .Pre }}<i class="{{ .Pre }}"></i>{{ end }}
+                                                                        {{ .Name }}
+                                                                    </a></li>
+                                                                {{ end }}
+                                                            </ul>
+                                                        </details>
+                                                    </li>
+                                                {{ else }}
+                                                    <li><a href="{{ .URL }}">
+                                                        {{ if .Pre }}<i class="{{ .Pre }}"></i>{{ end }}
+                                                        {{ .Name }}
+                                                    </a></li>
+                                                {{ end }}
+                                            {{ end }}
+                                        </ul>
+                                    </details>
+                                </li>
+                            {{ else }}
+                                <li>
+                                    <a href="{{ .URL }}" {{ if $.IsMenuCurrent .Menu . }}class="active"{{ end }}>
+                                        {{ if .Pre }}<i class="{{ .Pre }}"></i>{{ end }}
+                                        {{ .Name }}
+                                    </a>
+                                </li>
+                            {{ end }}
+                        {{ end }}
+                    {{ end }}
+                </ul>
+            </div>
+            
+            <!-- Right side: FODMAP toggle + Search -->
+            <div class="flex-none gap-2">
+                <button id="fodmap-toggle-icon" class="btn btn-ghost btn-circle" title="Toggle Low FODMAP Info">
+                    <i class="fas fa-leaf"></i>
+                </button>
+                <div class="hidden sm:flex join">
+                    <input class="input input-bordered join-item w-40 lg:w-52 text-base-content" id="searchTerm" type="text" placeholder="Szukaj przepisów...">
+                    <button id="searchButton" class="btn btn-secondary join-item">Szukaj</button>
+                </div>
+                <!-- Mobile search button -->
+                <button id="mobileSearchBtn" class="btn btn-ghost btn-circle sm:hidden">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </nav>
+        
+        <!-- Mobile search bar (shown when search button clicked) -->
+        <div id="mobileSearchBar" class="bg-primary p-2 hidden sm:hidden">
+            <div class="join w-full">
+                <input class="input input-bordered join-item flex-1 text-base-content" id="mobileSearchTerm" type="text" placeholder="Szukaj przepisów...">
+                <button id="mobileSearchButton" class="btn btn-secondary join-item">Szukaj</button>
+            </div>
+        </div>
+        
+        <!-- Page content goes here -->
+        {{ block "main" . }}{{ end }}
+    </div>
+    
+    <!-- Mobile drawer sidebar -->
+    <div class="drawer-side z-50">
+        <label for="mobile-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
+        <ul class="menu bg-base-100 text-base-content min-h-full w-72 p-4">
+            <!-- Logo in drawer -->
+            <li class="mb-4">
+                <a href="{{ .Site.Home.RelPermalink }}" class="text-xl font-bold">
+                    {{ with .Site.Params.logo }}
+                        <img src="{{ .filename }}" width="{{ .width }}" height="{{ .height }}" alt="Logo">
+                    {{ else }}
+                        <span>{{ .Site.Params.navText.text }}</span>
+                    {{ end }}
+                </a>
+            </li>
+            
+            <!-- Mobile menu items -->
+            {{ with site.Menus.main }}
+                {{ range . }}
+                    {{ if .HasChildren }}
+                        <li>
+                            <details>
+                                <summary>
+                                    {{ if .Pre }}<i class="{{ .Pre }} mr-2"></i>{{ end }}
+                                    {{ .Name }}
+                                </summary>
+                                <ul>
+                                    {{ range .Children }}
+                                        {{ if .HasChildren }}
+                                            <li>
+                                                <details>
+                                                    <summary>
+                                                        {{ if .Pre }}<i class="{{ .Pre }} mr-2"></i>{{ end }}
+                                                        {{ .Name }}
+                                                    </summary>
+                                                    <ul>
+                                                        {{ range .Children }}
+                                                            <li><a href="{{ .URL }}">
+                                                                {{ if .Pre }}<i class="{{ .Pre }} mr-2"></i>{{ end }}
+                                                                {{ .Name }}
+                                                            </a></li>
+                                                        {{ end }}
+                                                    </ul>
+                                                </details>
+                                            </li>
+                                        {{ else }}
+                                            <li><a href="{{ .URL }}">
+                                                {{ if .Pre }}<i class="{{ .Pre }} mr-2"></i>{{ end }}
+                                                {{ .Name }}
+                                            </a></li>
+                                        {{ end }}
+                                    {{ end }}
+                                </ul>
+                            </details>
+                        </li>
+                    {{ else }}
+                        <li>
+                            <a href="{{ .URL }}">
+                                {{ if .Pre }}<i class="{{ .Pre }} mr-2"></i>{{ end }}
+                                {{ .Name }}
+                            </a>
+                        </li>
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+        </ul>
+    </div>
+</div>

@@ -1,25 +1,25 @@
-<div class="columns">
-    <div class="column" style="border-right: 1px solid #dbdbdb; padding: 0px;">
+<div class="grid grid-cols-4 gap-0">
+    <div class="col-span-1" style="border-right: 1px solid #dbdbdb; padding: 0px;">
         <i class="fas fa-concierge-bell"></i>
         <div></div>
-        <p class="has-text-weight-bold">Porcje</p>
+        <p class="font-bold">Porcje</p>
         <div></div>
         {{ .Params.Servings | default "---"}} porcji
     </div>
-    <div class="column" style="border-right: 1px solid #dbdbdb; padding: 0px;">
+    <div class="col-span-1" style="border-right: 1px solid #dbdbdb; padding: 0px;">
         <i class="fas fa-hourglass-half"></i>
         <div></div>
-        <p class="has-text-weight-bold">Czas przygotowania</p>
+        <p class="font-bold">Czas przygotowania</p>
         <div></div>
         {{ .Params.Prep_time | default "---"}} minut
     </div>
-    <div class="column" style="border-right: 1px solid #dbdbdb; padding: 0px;">
+    <div class="col-span-1" style="border-right: 1px solid #dbdbdb; padding: 0px;">
         <i class="fas fa-temperature-high"></i>
         <div></div>
         {{ if .Params.Cook }}
-            <p class="has-text-weight-bold is-size-6">Czas gotowania</p>
+            <p class="font-bold text-base">Czas gotowania</p>
         {{ else }}
-            <p class="has-text-weight-bold is-size-6">Czas chłodzenia</p>
+            <p class="font-bold text-base">Czas chłodzenia</p>
         {{ end }}
         <div></div>
         {{ if eq .Params.Cook_increment "hours" }}
@@ -28,10 +28,10 @@
             {{ .Params.Cook_time | default "---"}} minut
         {{ end }}
     </div>
-    <div class="column" style="padding: 0px;">
+    <div class="col-span-1" style="padding: 0px;">
         <i class="fas fa-fire"></i>
         <div></div>
-        <p class="has-text-weight-bold">Kalorie</p>
+        <p class="font-bold">Kalorie</p>
         <div></div>
         {{ .Params.Calories | default "---" }} kcal
     </div>     
