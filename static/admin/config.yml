@@ -229,7 +229,6 @@ _shared_fields:
       - { label: "morele suszone", value: "morele suszone" }
       - { label: "mozzarella", value: "mozzarella" }
       - { label: "mrożone warzywa", value: "mrożone warzywa" }
-      - { label: "muszarda", value: "muszarda" }
       - { label: "musztarda", value: "musztarda" }
       - { label: "mąka jaglana", value: "mąka jaglana" }
       - { label: "mąka kokosowa", value: "mąka kokosowa" }
@@ -356,11 +355,13 @@ _shared_fields:
       - { label: "ser żółty", value: "ser żółty" }
       - { label: "serek", value: "serek" }
       - { label: "serek blu", value: "serek blu" }
+      - { label: "serek kanapkowy", value: "serek kanapkowy" }
       - { label: "serek wiejski", value: "serek wiejski" }
       - { label: "serek śmietankowy", value: "serek śmietankowy" }
       - { label: "serek śmietankowy chrzanowy", value: "serek śmietankowy chrzanowy" }
       - { label: "sezam", value: "sezam" }
       - { label: "siemię lniane", value: "siemię lniane" }
+      - { label: "skrobia ziemniaczana", value: "skrobia ziemniaczana" }
       - { label: "skrzydło indycze", value: "skrzydło indycze" }
       - { label: "skyr", value: "skyr" }
       - { label: "skyr naturalny", value: "skyr naturalny" }
