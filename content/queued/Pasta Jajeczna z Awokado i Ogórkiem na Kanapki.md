@@ -6,8 +6,8 @@ subcategories: słone
 draft: false
 readyToTest: true
 queued: true
-recipe_image: images/recipe-headers/pasta_jajeczna_awokado_ogorek.avif
 link: https://www.youtube.com/watch?v=BdyGysxMHBI
+recipe_image: images/recipe-headers/pasta_jajeczna_awokado_ogorek.avif
 date: 2026-01-16
 tags:
 - kanapki
