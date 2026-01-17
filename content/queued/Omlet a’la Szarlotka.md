@@ -2,6 +2,7 @@
 title: Omlet a’la Szarlotka
 author: User
 categories: śniadania
+subcategories: słodkie
 draft: false
 readyToTest: true
 queued: true
