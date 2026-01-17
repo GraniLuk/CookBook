@@ -60,6 +60,7 @@ _shared_fields:
       - { label: "meksykańskie", value: "meksykańskie" }
       - { label: "na-wynos", value: "na-wynos" }
       - { label: "odporność", value: "odporność" }
+      - { label: "omlet", value: "omlet" }
       - { label: "orientalne", value: "orientalne" }
       - { label: "orzechowy", value: "orzechowy" }
       - { label: "owsianka", value: "owsianka" }
