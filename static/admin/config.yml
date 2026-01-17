@@ -58,7 +58,6 @@ _shared_fields:
       - { label: "lunchbox", value: "lunchbox" }
       - { label: "marokański", value: "marokański" }
       - { label: "meksykańskie", value: "meksykańskie" }
-      - { label: "muffinki", value: "muffinki" }
       - { label: "na-wynos", value: "na-wynos" }
       - { label: "odporność", value: "odporność" }
       - { label: "orientalne", value: "orientalne" }
