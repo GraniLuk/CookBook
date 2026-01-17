@@ -3,7 +3,7 @@ title: Karkówka Zapiekana z Warzywami
 author: User
 categories: obiady
 draft: false
-readyToTest: true
+readyToTest: false
 recipe_image: images/recipe-headers/karkowka_z_warzywami.avif
 date: 2026-01-16 12:28:32+00:00
 tags:
