@@ -1,6 +1,6 @@
 ---
 title: Muffinki Czekoladowe
-author: User
+author: Granica
 categories: desery
 draft: false
 readyToTest: false

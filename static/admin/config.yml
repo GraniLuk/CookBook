@@ -418,11 +418,55 @@ _shared_fields:
       - { label: "żółtka", value: "żółtka" }
     hint: "Wybierz z listy składników (wpisz lub kliknij, aby zobaczyć wszystkie)."
 
+  authors_field: &authors_field
+    label: Autor
+    name: author
+    widget: select
+    multiple: false
+    required: false
+    options:
+      - { label: "[[Czlowieku rusz się]]", value: "[[Czlowieku rusz się]]" }
+      - { label: "[[Michał Wrzosek]]", value: "[[Michał Wrzosek]]" }
+      - { label: "[[Policzona Szama]]", value: "[[Policzona Szama]]" }
+      - { label: "Alaantkoweblw", value: "Alaantkoweblw" }
+      - { label: "Ania Gotuje", value: "Ania Gotuje" }
+      - { label: "Ania gotuje", value: "Ania gotuje" }
+      - { label: "Anonimowy", value: "Anonimowy" }
+      - { label: "anpsk", value: "anpsk" }
+      - { label: "Autor Przepisu", value: "Autor Przepisu" }
+      - { label: "barlomiej_wlodarczyk", value: "barlomiej_wlodarczyk" }
+      - { label: "bartlomiej_wlodarczyk", value: "bartlomiej_wlodarczyk" }
+      - { label: "Bartłomiej Włodarczyk", value: "Bartłomiej Włodarczyk" }
+      - { label: "Centrum Respo", value: "Centrum Respo" }
+      - { label: "dietaniecud", value: "dietaniecud" }
+      - { label: "Granica", value: "Granica" }
+      - { label: "GraniLuk", value: "GraniLuk" }
+      - { label: "Instynkt po Polsku", value: "Instynkt po Polsku" }
+      - { label: "Jemy Razem", value: "Jemy Razem" }
+      - { label: "Kozak trener", value: "Kozak trener" }
+      - { label: "Kozak Trener", value: "Kozak Trener" }
+      - { label: "Mama Grażyna", value: "Mama Grażyna" }
+      - { label: "Michał Wrzosek", value: "Michał Wrzosek" }
+      - { label: "Nieznany", value: "Nieznany" }
+      - { label: "Nowakuje", value: "Nowakuje" }
+      - { label: "ObiadDlaTaty", value: "ObiadDlaTaty" }
+      - { label: "obiaddlataty", value: "obiaddlataty" }
+      - { label: "olawolska.diet", value: "olawolska.diet" }
+      - { label: "Policzona Szama", value: "Policzona Szama" }
+      - { label: "Policzone Szama", value: "Policzone Szama" }
+      - { label: "Policzone Szamy", value: "Policzone Szamy" }
+      - { label: "przepeace", value: "przepeace" }
+      - { label: "Stefan", value: "Stefan" }
+      - { label: "Teść Krzysztof", value: "Teść Krzysztof" }
+      - { label: "the.foodini", value: "the.foodini" }
+      - { label: "Użytkownik", value: "Użytkownik" }
+    hint: "Wybierz z listy autorów (wpisz lub kliknij, aby zobaczyć wszystkie)."
+
   # Field order matches ORDER array in scripts/normalize_frontmatter.py
   # This ensures CMS saves frontmatter in the correct order
   recipe_fields: &recipe_fields
     - { label: Tytuł, name: title, widget: string }
-    - { label: Autor, name: author, widget: string, required: false }
+    - *authors_field
     - label: Kategorie
       name: categories
       widget: select

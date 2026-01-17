@@ -1,6 +1,6 @@
 ---
 title: Karkówka Zapiekana z Warzywami
-author: User
+author: Granica
 categories: obiady
 draft: false
 readyToTest: false

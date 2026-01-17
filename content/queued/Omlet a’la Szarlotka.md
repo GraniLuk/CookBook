@@ -1,6 +1,6 @@
 ---
 title: Omlet a’la Szarlotka
-author: User
+author: bartlomiej_wlodarczyk
 categories: śniadania
 subcategories: słodkie
 draft: false
