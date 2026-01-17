@@ -1,7 +1,8 @@
 ---
 title: Placuszkami z Łososiem
 author: the.foodini
-categories: przekąska
+categories: śniadania
+subcategories: słone
 draft: false
 readyToTest: true
 link: https://www.instagram.com/reel/DTlHs4NjWE2/
