@@ -10,8 +10,7 @@ favourite: false
 link: https://www.youtube.com/watch?v=aUohiReA3gQ
 recipe_image: images/recipe-headers/sniadaniowe_rogaliki_makiem.avif
 date: 2025-12-28 12:00:00+00:00
-tags:
-- szybkie
+tags: ["rogaliki"]
 tagline: Ulubione śniadaniowe rogaliki z makiem, idealne z jajkiem na twardo i majonezem albo z masłem i domowym powidełkiem.
 ingredients:
 - mąka pszenna

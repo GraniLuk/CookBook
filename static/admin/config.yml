@@ -69,6 +69,7 @@ _shared_fields:
       - { label: "placki", value: "placki" }
       - { label: "proteinowe", value: "proteinowe" }
       - { label: "przekąska", value: "przekąska" }
+      - { label: "rogaliki", value: "rogaliki" }
       - { label: "ryby", value: "ryby" }
       - { label: "Stefan", value: "Stefan" }
       - { label: "szybkie", value: "szybkie" }
