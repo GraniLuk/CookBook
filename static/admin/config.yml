@@ -425,8 +425,6 @@ _shared_fields:
     multiple: false
     required: false
     options:
-      - { label: "[[Czlowieku rusz się]]", value: "[[Czlowieku rusz się]]" }
-      - { label: "[[Michał Wrzosek]]", value: "[[Michał Wrzosek]]" }
       - { label: "[[Policzona Szama]]", value: "[[Policzona Szama]]" }
       - { label: "Alaantkoweblw", value: "Alaantkoweblw" }
       - { label: "Ania Gotuje", value: "Ania Gotuje" }
@@ -438,6 +436,7 @@ _shared_fields:
       - { label: "bartlomiej_wlodarczyk", value: "bartlomiej_wlodarczyk" }
       - { label: "Bartłomiej Włodarczyk", value: "Bartłomiej Włodarczyk" }
       - { label: "Centrum Respo", value: "Centrum Respo" }
+      - { label: "Czlowieku rusz się", value: "Czlowieku rusz się" }
       - { label: "dietaniecud", value: "dietaniecud" }
       - { label: "Granica", value: "Granica" }
       - { label: "GraniLuk", value: "GraniLuk" }
@@ -449,8 +448,8 @@ _shared_fields:
       - { label: "Michał Wrzosek", value: "Michał Wrzosek" }
       - { label: "Nieznany", value: "Nieznany" }
       - { label: "Nowakuje", value: "Nowakuje" }
-      - { label: "ObiadDlaTaty", value: "ObiadDlaTaty" }
       - { label: "obiaddlataty", value: "obiaddlataty" }
+      - { label: "ObiadDlaTaty", value: "ObiadDlaTaty" }
       - { label: "olawolska.diet", value: "olawolska.diet" }
       - { label: "Policzona Szama", value: "Policzona Szama" }
       - { label: "Policzone Szama", value: "Policzone Szama" }

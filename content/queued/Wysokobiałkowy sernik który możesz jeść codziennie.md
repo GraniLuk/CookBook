@@ -1,6 +1,6 @@
 ---
 title: Wysokobiałkowy sernik który możesz jeść codziennie
-author: '[[Czlowieku rusz się]]'
+author: 'Czlowieku rusz się'
 categories:
 - desery
 draft: false

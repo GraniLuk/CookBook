@@ -1,6 +1,6 @@
 ---
 title: 10 posiłków za 50 PLN z BIEDRONKI! 💸
-author: '[[Michał Wrzosek]]'
+author: 'Michał Wrzosek'
 draft: true
 
 source: https://www.youtube.com/watch?v=Kto631xzwSU
