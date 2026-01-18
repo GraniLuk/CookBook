@@ -432,6 +432,7 @@ _shared_fields:
       - { label: "Centrum Respo", value: "Centrum Respo" }
       - { label: "Czlowieku rusz się", value: "Czlowieku rusz się" }
       - { label: "dietaniecud", value: "dietaniecud" }
+      - { label: "Ebook-JemyToSamo", value: "Ebook-JemyToSamo" }
       - { label: "fit_przepisy_od_baletnicy", value: "fit_przepisy_od_baletnicy" }
       - { label: "Granica", value: "Granica" }
       - { label: "GraniLuk", value: "GraniLuk" }
