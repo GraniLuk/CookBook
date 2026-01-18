@@ -479,7 +479,10 @@ _shared_fields:
     - label: Podkategorie
       name: subcategories
       widget: select
-      required: false
+      required: true
+      condition:
+        field: categories
+        value: śniadania
       options:
         - { label: "słodkie", value: "słodkie" }
         - { label: "słone", value: "słone" }
@@ -499,12 +502,13 @@ _shared_fields:
         - { label: "⭐⭐ Niski", value: 2 }
         - { label: "⭐ Najniższy", value: 1 }
     - { label: Ulubiony, name: favourite, widget: boolean, required: true, default: false }
+    - { label: Link (YouTube itp.), name: link, widget: string, required: false }
     - { label: Obrazek przepisu (static/...), name: recipe_image, widget: string, required: false }
+    - { label: Plik video (videos/...), name: video_file, widget: string, required: false }
+    - { label: Plik video 2 (videos/...), name: video_file2, widget: string, required: false }
     - { label: Data, name: date, widget: hidden, default: "" }
     - *tags_field
     - { label: Opis skrócony, name: tagline, widget: string, required: false }
-    - { label: Link (YouTube itp.), name: link, widget: string, required: false }
-    - { label: Plik video (videos/...), name: video_file, widget: string, required: false }
     - *ingredients_field
     - { label: Porcje, name: servings, widget: number, required: false, min: 1 }
     - { label: Czas przygotowania (min), name: prep_time, widget: number, required: false, min: 0 }
