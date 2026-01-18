@@ -1,23 +1,26 @@
 ---
 title: Bagietki Nadziane Farszem Szpinakowo-Szynkowym
 author: Policzona Szama
-categories: obiady
+categories: śniadania
 draft: false
 readyToTest: false
-link: https://www.youtube.com/watch?v=O2d6gztzOjw
+queued: false
+favourite: false
 recipe_image: images/recipe-headers/bagietki_szpinak_szynka.avif
 date: 2025-10-31 07:00:00+00:00
 tags:
-- kanapki
-tagline: Nadziane bagietki z kremowym farszem ze szpinaku, sera śmietankowego, szynki i jajka.
+  - kanapki
+tagline: Nadziane bagietki z kremowym farszem ze szpinaku, sera śmietankowego,
+  szynki i jajka.
+link: https://www.youtube.com/watch?v=O2d6gztzOjw
 ingredients:
-- bagietka
-- szpinak
-- ser śmietankowy
-- szynka wędzona
-- jajko
-- suszone pomidory
-- oliwa z oliwek
+  - bagietka
+  - szpinak
+  - ser śmietankowy
+  - szynka wędzona
+  - jajko
+  - suszone pomidory
+  - oliwa z oliwek
 servings: 2
 prep_time: 20
 cook: true
@@ -27,13 +30,15 @@ protein: 32
 fat: 28
 carbohydrate: 60
 fodmap:
-  status: 'no'
+  status: no
   serving_ok: Nie – zawiera czosnek oraz suszone pomidory w ilości >30g.
-  notes: Czosnek jest wysoki w fruktanach; suszone pomidory w większej ilości zwiększają FODMAP. Danie nie kwalifikuje się jako low FODMAP w standardowej porcji.
+  notes: Czosnek jest wysoki w fruktanach; suszone pomidory w większej ilości
+    zwiększają FODMAP. Danie nie kwalifikuje się jako low FODMAP w standardowej
+    porcji.
   substitutions:
-  - Zastąp czosnek olejem czosnkowym (infused).
-  - Ogranicz suszone pomidory do ~15g lub pomiń.
-  - Użyj sera śmietankowego light dla niższego tłuszczu.
+    - Zastąp czosnek olejem czosnkowym (infused).
+    - Ogranicz suszone pomidory do ~15g lub pomiń.
+    - Użyj sera śmietankowego light dla niższego tłuszczu.
 ---
 
 ## Składniki (2 porcje)
