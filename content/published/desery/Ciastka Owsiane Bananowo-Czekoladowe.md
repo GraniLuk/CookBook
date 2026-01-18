@@ -1,6 +1,6 @@
 ---
 title: Ciastka Owsiane Bananowo-Czekoladowe
-author: Autor Przepisu
+author: Policzona Szama
 categories: desery
 draft: false
 readyToTest: false

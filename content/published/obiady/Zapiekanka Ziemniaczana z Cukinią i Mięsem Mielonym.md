@@ -1,6 +1,6 @@
 ---
 title: Zapiekanka Ziemniaczana z Cukinią i Mięsem Mielonym
-author: Autor Przepisu
+author: Granica
 categories: obiady
 draft: false
 readyToTest: false

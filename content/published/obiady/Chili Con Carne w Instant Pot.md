@@ -1,9 +1,10 @@
 ---
 title: Chili Con Carne w Instant Pot
-author: Autor Przepisu
+author: Policzona Szama
 categories: obiady
 draft: false
 readyToTest: false
+link: https://www.youtube.com/watch?v=F54K_1NhPdA
 recipe_image: images/recipe-headers/chili-con-carne.avif
 date: 2025-06-18 12:00:00+00:00
 tags:

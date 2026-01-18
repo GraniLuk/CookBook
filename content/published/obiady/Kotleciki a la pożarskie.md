@@ -1,6 +1,6 @@
 ---
 title: Kotleciki a la pożarskie
-author: Autor Przepisu
+author: Granica
 categories: obiady
 draft: false
 readyToTest: false

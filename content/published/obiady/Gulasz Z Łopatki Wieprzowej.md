@@ -1,6 +1,6 @@
 ---
 title: Gulasz Z Łopatki Wieprzowej
-author: Autor Przepisu
+author: Granica
 categories: obiady
 draft: false
 readyToTest: false

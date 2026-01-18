@@ -1,6 +1,6 @@
 ---
 title: Zdrowy Deser w Stylu Snickersa
-author: Autor Przepisu
+author: Michał Wrzosek
 categories: desery
 draft: false
 readyToTest: false

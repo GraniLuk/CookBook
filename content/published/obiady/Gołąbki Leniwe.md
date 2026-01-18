@@ -1,6 +1,6 @@
 ---
 title: Gołąbki Leniwe
-author: Autor Przepisu
+author: Ebook-JemyToSamo
 categories: obiady
 draft: false
 readyToTest: false

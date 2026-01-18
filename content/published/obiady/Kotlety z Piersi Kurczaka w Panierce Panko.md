@@ -1,6 +1,6 @@
 ---
 title: Kotlety z Piersi Kurczaka w Panierce Panko
-author: Autor Przepisu
+author: Granica
 categories: obiady
 draft: false
 readyToTest: false

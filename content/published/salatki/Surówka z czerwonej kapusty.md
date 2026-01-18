@@ -1,6 +1,6 @@
 ---
 title: Surówka z czerwonej kapusty
-author: Ania gotuje
+author: Ania Gotuje
 categories: salatki
 draft: false
 readyToTest: false

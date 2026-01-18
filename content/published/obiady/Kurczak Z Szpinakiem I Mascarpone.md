@@ -1,6 +1,6 @@
 ---
 title: Kurczak Z Szpinakiem I Mascarpone
-author: Autor Przepisu
+author: Nieznany
 categories: obiady
 draft: false
 readyToTest: false

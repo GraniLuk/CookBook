@@ -1,11 +1,12 @@
 ---
 title: Mini Fit Szarlotki
-author: Autor Przepisu
+author: fit_przepisy_od_baletnicy
 categories:
 - desery
 subcategories: null
 draft: false
 readyToTest: false
+link: https://www.instagram.com/reel/DPEtCa1iOtu/
 recipe_image: images/recipe-headers/mini_fit_szarlotki.avif
 video_file: videos/mini_fit_szarlotki.mp4
 date: 2025-10-03 12:00:00+00:00

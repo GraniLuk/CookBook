@@ -15,6 +15,8 @@ def find_recipes_with_author(
 ) -> list[pathlib.Path]:
     recipes = []
     for path in content_dir.glob("**/*.md"):
+        if "_drafts" in path.parts:
+            continue
         text = path.read_text(encoding="utf-8")
         if not text.startswith("---"):
             continue

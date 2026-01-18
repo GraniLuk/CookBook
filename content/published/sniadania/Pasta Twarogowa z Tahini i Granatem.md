@@ -1,6 +1,6 @@
 ---
 title: Pasta Twarogowa z Tahini i Granatem
-author: Anonimowy
+author: Trener Kozak
 categories: śniadania
 subcategories: słodkie
 draft: false

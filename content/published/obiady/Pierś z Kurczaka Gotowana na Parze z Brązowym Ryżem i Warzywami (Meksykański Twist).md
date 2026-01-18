@@ -1,6 +1,6 @@
 ---
 title: Pierś z Kurczaka Gotowana na Parze z Brązowym Ryżem i Warzywami (Meksykański Twist)
-author: Autor Przepisu
+author: Nieznany
 categories: obiady
 draft: false
 readyToTest: false

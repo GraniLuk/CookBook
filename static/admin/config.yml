@@ -157,7 +157,6 @@ _shared_fields:
       - { label: "grzyby suszone", value: "grzyby suszone" }
       - { label: "herbatniki", value: "herbatniki" }
       - { label: "imbir", value: "imbir" }
-      - { label: "indyk", value: "indyk" }
       - { label: "jabłko", value: "jabłko" }
       - { label: "jagody", value: "jagody" }
       - { label: "jajka", value: "jajka" }
@@ -269,7 +268,6 @@ _shared_fields:
       - { label: "orzechy", value: "orzechy" }
       - { label: "orzechy brazylijskie", value: "orzechy brazylijskie" }
       - { label: "orzechy nerkowca", value: "orzechy nerkowca" }
-      - { label: "orzechy pekan", value: "orzechy pekan" }
       - { label: "orzechy włoskie", value: "orzechy włoskie" }
       - { label: "orzeszki arachidowe", value: "orzeszki arachidowe" }
       - { label: "orzeszki ziemne", value: "orzeszki ziemne" }
@@ -425,12 +423,8 @@ _shared_fields:
     multiple: false
     required: false
     options:
-      - { label: "[[Policzona Szama]]", value: "[[Policzona Szama]]" }
       - { label: "Alaantkoweblw", value: "Alaantkoweblw" }
       - { label: "Ania Gotuje", value: "Ania Gotuje" }
-      - { label: "Ania gotuje", value: "Ania gotuje" }
-      - { label: "Anonimowy", value: "Anonimowy" }
-      - { label: "anpsk", value: "anpsk" }
       - { label: "Autor Przepisu", value: "Autor Przepisu" }
       - { label: "barlomiej_wlodarczyk", value: "barlomiej_wlodarczyk" }
       - { label: "bartlomiej_wlodarczyk", value: "bartlomiej_wlodarczyk" }
@@ -438,6 +432,7 @@ _shared_fields:
       - { label: "Centrum Respo", value: "Centrum Respo" }
       - { label: "Czlowieku rusz się", value: "Czlowieku rusz się" }
       - { label: "dietaniecud", value: "dietaniecud" }
+      - { label: "fit_przepisy_od_baletnicy", value: "fit_przepisy_od_baletnicy" }
       - { label: "Granica", value: "Granica" }
       - { label: "GraniLuk", value: "GraniLuk" }
       - { label: "Instynkt po Polsku", value: "Instynkt po Polsku" }
@@ -448,8 +443,8 @@ _shared_fields:
       - { label: "Michał Wrzosek", value: "Michał Wrzosek" }
       - { label: "Nieznany", value: "Nieznany" }
       - { label: "Nowakuje", value: "Nowakuje" }
-      - { label: "obiaddlataty", value: "obiaddlataty" }
       - { label: "ObiadDlaTaty", value: "ObiadDlaTaty" }
+      - { label: "obiaddlataty", value: "obiaddlataty" }
       - { label: "olawolska.diet", value: "olawolska.diet" }
       - { label: "Policzona Szama", value: "Policzona Szama" }
       - { label: "Policzone Szama", value: "Policzone Szama" }
@@ -458,6 +453,7 @@ _shared_fields:
       - { label: "Stefan", value: "Stefan" }
       - { label: "Teść Krzysztof", value: "Teść Krzysztof" }
       - { label: "the.foodini", value: "the.foodini" }
+      - { label: "Trener Kozak", value: "Trener Kozak" }
       - { label: "Użytkownik", value: "Użytkownik" }
     hint: "Wybierz z listy autorów (wpisz lub kliknij, aby zobaczyć wszystkie)."
 

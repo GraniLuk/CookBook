@@ -25,6 +25,8 @@ def find_project_root(start_path: pathlib.Path) -> pathlib.Path:
 def collect_tags(content_dir: pathlib.Path) -> set[str]:
     tags: set[str] = set()
     for path in content_dir.glob("**/*.md"):
+        if "_drafts" in path.parts:
+            continue
         text = path.read_text(encoding="utf-8")
         if not text.startswith("---"):
             continue
@@ -45,6 +47,8 @@ def collect_tags(content_dir: pathlib.Path) -> set[str]:
 def collect_ingredients(content_dir: pathlib.Path) -> set[str]:
     ingredients: set[str] = set()
     for path in content_dir.glob("**/*.md"):
+        if "_drafts" in path.parts:
+            continue
         text = path.read_text(encoding="utf-8")
         if not text.startswith("---"):
             continue
@@ -65,6 +69,8 @@ def collect_ingredients(content_dir: pathlib.Path) -> set[str]:
 def collect_authors(content_dir: pathlib.Path) -> set[str]:
     authors: set[str] = set()
     for path in content_dir.glob("**/*.md"):
+        if "_drafts" in path.parts:
+            continue
         text = path.read_text(encoding="utf-8")
         if not text.startswith("---"):
             continue
