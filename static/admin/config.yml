@@ -60,7 +60,6 @@ _shared_fields:
       - { label: "meksykańskie", value: "meksykańskie" }
       - { label: "na-wynos", value: "na-wynos" }
       - { label: "odporność", value: "odporność" }
-      - { label: "omlet", value: "omlet" }
       - { label: "orientalne", value: "orientalne" }
       - { label: "orzechowy", value: "orzechowy" }
       - { label: "owsianka", value: "owsianka" }
@@ -427,7 +426,6 @@ _shared_fields:
       - { label: "Ania Gotuje", value: "Ania Gotuje" }
       - { label: "Autor Przepisu", value: "Autor Przepisu" }
       - { label: "barlomiej_wlodarczyk", value: "barlomiej_wlodarczyk" }
-      - { label: "bartlomiej_wlodarczyk", value: "bartlomiej_wlodarczyk" }
       - { label: "Bartłomiej Włodarczyk", value: "Bartłomiej Włodarczyk" }
       - { label: "Centrum Respo", value: "Centrum Respo" }
       - { label: "Czlowieku rusz się", value: "Czlowieku rusz się" }
