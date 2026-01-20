@@ -33,10 +33,14 @@ fodmap:
 ---
 
 ## Składniki
+
+### Ciasto
 *   500 g mąki pszennej
 *   80 g miękkiego masła
 *   Łyżeczka soli
 *   200-250 ml wrzącej wody
+
+### Nadzienie
 *   300 g szpinaku baby
 *   150 g sera feta
 *   Mała łyżka masła (ok. 10 g)
