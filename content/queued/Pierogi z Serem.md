@@ -34,10 +34,14 @@ fodmap:
 ---
 
 ## Składniki
+
+### Ciasto
 *   500 g mąki pszennej tortowej
 *   80 g roztopionego masła
 *   Szczypta soli
 *   200-250 ml wrzącej wody
+
+### Nadzienie
 *   500 g mielonego twarogu dobrej jakości lub twarogu typu klinek
 *   2 żółtka
 *   Łyżeczka ekstraktu z wanilii
