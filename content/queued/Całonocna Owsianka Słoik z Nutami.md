@@ -1,6 +1,6 @@
 ---
 title: Całonocna Owsianka Słoik z Nutami
-author: Policzone Szamy
+author: Policzona Szama
 categories: śniadania
 subcategories: słodkie
 draft: false

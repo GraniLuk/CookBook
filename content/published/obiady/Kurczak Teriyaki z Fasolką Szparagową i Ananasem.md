@@ -1,6 +1,6 @@
 ---
 title: Kurczak Teriyaki z Fasolką Szparagową i Ananasem
-author: Policzone Szamy
+author: Policzona Szama
 categories: obiady
 draft: false
 readyToTest: false

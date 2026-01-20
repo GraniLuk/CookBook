@@ -1,6 +1,6 @@
 ---
 title: Całonocna Owsianka Mango-Bananowa
-author: Policzone Szamy
+author: Policzona Szama
 categories: śniadania
 subcategories: słodkie
 draft: false

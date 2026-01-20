@@ -1,6 +1,6 @@
 ---
 title: Proteinowe Batony Energetyczne 2.0 z Pistacjami i Berberysem
-author: Policzone Szamy
+author: Policzona Szama
 categories:
 - desery
 draft: true

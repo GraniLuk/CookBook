@@ -1,6 +1,6 @@
 ---
 title: Śledź Salsa
-author: Policzone Szamy
+author: ObiadDlaTaty
 categories: śniadania
 subcategories:
 - słone

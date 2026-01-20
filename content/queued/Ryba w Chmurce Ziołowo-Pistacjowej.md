@@ -1,6 +1,6 @@
 ---
 title: Ryba w Chmurce Ziołowo-Pistacjowej
-author: Policzone Szamy
+author: Policzona Szama
 categories: obiady
 draft: false
 readyToTest: true

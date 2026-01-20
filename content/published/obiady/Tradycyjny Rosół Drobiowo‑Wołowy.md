@@ -1,6 +1,6 @@
 ---
 title: Tradycyjny Rosół Drobiowo‑Wołowy
-author: Policzone Szamy
+author: Policzona Szama
 categories: obiady
 draft: false
 readyToTest: false

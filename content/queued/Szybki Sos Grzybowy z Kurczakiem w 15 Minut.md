@@ -1,6 +1,6 @@
 ---
 title: Szybki Sos Grzybowy z Kurczakiem w 15 Minut
-author: Policzone Szamy
+author: Policzona Szama
 categories: obiady
 draft: false
 readyToTest: true

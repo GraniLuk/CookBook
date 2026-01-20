@@ -1,6 +1,6 @@
 ---
 title: Kurczak Green Curry z Warzywami i Ryżem (2 Porcje)
-author: Policzone Szamy
+author: Policzona Szama
 categories: obiady
 draft: false
 readyToTest: true

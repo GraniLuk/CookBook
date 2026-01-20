@@ -1,6 +1,6 @@
 ---
 title: Jednogarnkowa Zapiekanka z Indykiem
-author: Policzone Szamy
+author: Policzona Szama
 categories: obiady
 draft: false
 readyToTest: true

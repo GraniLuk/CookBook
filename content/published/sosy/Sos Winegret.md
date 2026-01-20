@@ -1,6 +1,6 @@
 ---
 title: Sos Winegret
-author: Policzone Szamy
+author: Policzona Szama
 categories: sosy
 draft: false
 readyToTest: false

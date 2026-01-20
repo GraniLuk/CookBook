@@ -1,6 +1,6 @@
 ---
 title: Chicken Bites niczym z KFC z California Bowl
-author: Policzone Szamy
+author: Policzona Szama
 categories: obiady
 draft: false
 readyToTest: true

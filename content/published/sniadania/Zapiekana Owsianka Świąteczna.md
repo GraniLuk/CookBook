@@ -1,6 +1,6 @@
 ---
 title: Zapiekana Owsianka Świąteczna
-author: Policzone Szamy
+author: Policzona Szama
 categories: śniadania
 subcategories: słodkie
 draft: false

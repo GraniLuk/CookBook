@@ -1,6 +1,6 @@
 ---
 title: Makaron Kokardki w Sosie Pomidorowym ze Schabem (Jednogarnkowy)
-author: Policzone Szamy
+author: Policzona Szama
 categories: obiady
 draft: false
 readyToTest: true

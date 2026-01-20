@@ -1,6 +1,6 @@
 ---
 title: Pieczony Kurczak z Ryżem, Warzywami i Fit Sosem Serowym
-author: Policzone Szamy
+author: Policzona Szama
 categories: obiady
 draft: false
 readyToTest: false

@@ -1,6 +1,6 @@
 ---
 title: Soczyste Nóżki z Kurczaka w Marchewkowym Sosie Curry
-author: Policzone Szamy
+author: Policzona Szama
 categories: obiady
 draft: false
 readyToTest: true

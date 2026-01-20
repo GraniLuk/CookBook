@@ -1,6 +1,6 @@
 ---
 title: Zdrowe Tiramisu
-author: Policzone Szamy
+author: Policzona Szama
 categories: desery
 draft: false
 readyToTest: true

@@ -1,6 +1,6 @@
 ---
 title: Pasta z Awokado i Serką Wiejskim
-author: Policzone Szamy
+author: Policzona Szama
 categories: śniadania
 subcategories: słone
 draft: false

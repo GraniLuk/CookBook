@@ -1,6 +1,6 @@
 ---
 title: Czekoladowe Szyszki
-author: Policzone Szamy
+author: Policzona Szama
 categories: desery
 draft: false
 readyToTest: false

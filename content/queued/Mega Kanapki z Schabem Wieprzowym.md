@@ -1,6 +1,6 @@
 ---
 title: Mega Kanapki z Schabem Wieprzowym
-author: Policzone Szamy
+author: Policzona Szama
 categories: śniadania
 subcategories: słone
 draft: false

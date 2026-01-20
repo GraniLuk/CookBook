@@ -1,6 +1,6 @@
 ---
 title: Biała Fasolka w Kremowym Sosie z Surowej Fasoli
-author: Policzone Szamy
+author: Policzona Szama
 categories: obiady
 draft: false
 readyToTest: true

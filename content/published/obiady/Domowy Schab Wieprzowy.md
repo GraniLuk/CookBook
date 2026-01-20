@@ -1,6 +1,6 @@
 ---
 title: Domowy Schab Wieprzowy
-author: Policzone Szamy
+author: Policzona Szama
 categories: obiady
 draft: false
 readyToTest: false

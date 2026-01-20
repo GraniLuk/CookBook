@@ -1,6 +1,6 @@
 ---
 title: Kurczak Słodko-Ostry Stir Fry z Ananasem (3 Lunch Boxy)
-author: Policzone Szamy
+author: Policzona Szama
 categories: obiady
 draft: false
 readyToTest: true

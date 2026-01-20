@@ -1,6 +1,6 @@
 ---
 title: Zapiekane Pulpety z Serem w Sosie Pomidorowym Spaghetti
-author: Policzone Szamy
+author: Policzona Szama
 categories: obiady
 draft: false
 readyToTest: true

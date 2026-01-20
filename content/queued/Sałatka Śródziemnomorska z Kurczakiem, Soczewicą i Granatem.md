@@ -1,6 +1,6 @@
 ---
 title: Sałatka Śródziemnomorska z Kurczakiem, Soczewicą i Granatem
-author: Policzone Szamy
+author: Policzona Szama
 categories: salatki
 draft: false
 readyToTest: true

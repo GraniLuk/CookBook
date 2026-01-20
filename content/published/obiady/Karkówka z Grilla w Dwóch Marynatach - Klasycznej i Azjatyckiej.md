@@ -1,6 +1,6 @@
 ---
 title: Karkówka z Grilla w Dwóch Marynatach - Klasycznej i Azjatyckiej
-author: Policzone Szamy
+author: Policzona Szama
 categories: obiady
 draft: false
 readyToTest: false

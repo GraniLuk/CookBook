@@ -1,6 +1,6 @@
 ---
 title: Pieczony Łosoś z Majonezowo-Cytrynową Chmurką
-author: Policzone Szamy
+author: Policzona Szama
 categories:
 - obiady
 draft: false

@@ -1,6 +1,6 @@
 ---
 title: Omlet Marchewkowo-Jabłkowy Pieczony
-author: Policzone Szamy
+author: Policzona Szama
 categories:
 - sniadania
 subcategories: słodkie

@@ -1,6 +1,6 @@
 ---
 title: Pierogi ze Szpinakiem i Fetą
-author: Policzone Szamy
+author: Policzona Szama
 categories: obiady
 draft: false
 readyToTest: true

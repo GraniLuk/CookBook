@@ -1,6 +1,6 @@
 ---
 title: Tarta Jabłkowa z Bezą
-author: Policzone Szamy
+author: Policzona Szama
 categories: desery
 draft: false
 readyToTest: false

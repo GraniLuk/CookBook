@@ -1,6 +1,6 @@
 ---
 title: Pierogi z Jagodami
-author: Policzone Szamy
+author: Policzona Szama
 categories: desery
 draft: false
 readyToTest: true

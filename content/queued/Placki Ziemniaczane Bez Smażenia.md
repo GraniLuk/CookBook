@@ -1,6 +1,6 @@
 ---
 title: Placki Ziemniaczane Bez Smażenia
-author: Policzone Szamy
+author: Policzona Szama
 categories: obiady
 draft: false
 readyToTest: true
