@@ -443,7 +443,6 @@ _shared_fields:
       - { label: "przepeace", value: "przepeace" }
       - { label: "Teść Krzysztof", value: "Teść Krzysztof" }
       - { label: "the.foodini", value: "the.foodini" }
-      - { label: "Trener Kozak", value: "Trener Kozak" }
       - { label: "Użytkownik", value: "Użytkownik" }
     hint: "Wybierz z listy autorów (wpisz lub kliknij, aby zobaczyć wszystkie)."
 
