@@ -1,6 +1,6 @@
 ---
 title: Fasolka po Bretońsku
-author: Instynkt po Polsku
+author: Instant Pot po Polsku
 categories: śniadania
 subcategories: słone
 draft: false

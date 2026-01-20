@@ -1,6 +1,6 @@
 ---
 title: Domowy Twarożek z Rzodkiewką i Szczypiorkiem
-author: GraniLuk
+author: Granica
 categories:
 - sniadania
 subcategories:

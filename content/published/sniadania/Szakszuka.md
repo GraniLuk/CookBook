@@ -1,6 +1,6 @@
 ---
 title: Szakszuka
-author: Jemy Razem
+author: Ebook-JemyToSamo
 categories:
 - sniadania
 subcategories:

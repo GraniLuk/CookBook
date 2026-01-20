@@ -1,6 +1,6 @@
 ---
 title: Afrykański Gulasz z Kurczakiem
-author: Kozak trener
+author: Kozak Trener
 categories: obiady
 draft: false
 readyToTest: true

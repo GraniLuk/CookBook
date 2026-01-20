@@ -1,6 +1,6 @@
 ---
 title: Batoniki Owsiane z Orzechami i Czekoladą
-author: Centrum Respo
+author: Michał Wrzosek
 categories:
 - desery
 draft: false
