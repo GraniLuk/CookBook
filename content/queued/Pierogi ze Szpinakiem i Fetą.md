@@ -38,7 +38,7 @@ fodmap:
 *   500 g mąki pszennej
 *   80 g miękkiego masła
 *   Łyżeczka soli
-*   200-250 ml wrzącej wody
+*   250 ml wrzącej wody
 
 ### Nadzienie
 *   300 g szpinaku baby

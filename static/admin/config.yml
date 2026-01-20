@@ -436,8 +436,8 @@ _shared_fields:
       - { label: "GraniLuk", value: "GraniLuk" }
       - { label: "Instynkt po Polsku", value: "Instynkt po Polsku" }
       - { label: "Jemy Razem", value: "Jemy Razem" }
-      - { label: "Kozak trener", value: "Kozak trener" }
       - { label: "Kozak Trener", value: "Kozak Trener" }
+      - { label: "Kozak trener", value: "Kozak trener" }
       - { label: "Mama Grażyna", value: "Mama Grażyna" }
       - { label: "Michał Wrzosek", value: "Michał Wrzosek" }
       - { label: "Nieznany", value: "Nieznany" }

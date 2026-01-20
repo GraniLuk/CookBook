@@ -38,7 +38,7 @@ fodmap:
 *   500 g mąki pszennej
 *   80 g miękkiego masła
 *   Szczypta soli
-*   200-250 ml wrzącej wody
+*   250 ml wrzącej wody
 
 ### Nadzienie
 *   Ok. 600 g mrożonych jagód
