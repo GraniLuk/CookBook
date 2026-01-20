@@ -172,6 +172,38 @@ Set `fodmap.serving_ok`:
 5. **Write content** following structure above
 6. **Validate FODMAP** safety and add notes
 7. **Save file** as `content/queued/Recipe-Title.md`
+8. **Run validation scripts** (see Validation section below)
+
+## Validation After Conversion
+
+**ALWAYS run these validation scripts after creating a recipe file:**
+
+### 1. Validate frontmatter order
+```bash
+python scripts/normalize_frontmatter.py --check
+```
+Ensures all frontmatter fields are in correct order.
+
+### 2. Validate recipe categories
+```powershell
+./scripts/sync-recipe-categories.ps1 -CheckOnly
+```
+Verifies category matches file location (`content/queued/`, `content/published/obiady/`, etc.).
+
+### 3. Validate CMS config options
+```bash
+python scripts/update_admin_options.py --check
+```
+Checks that all tags and options exist in admin config.
+
+### Validation workflow:
+1. Save the recipe file
+2. Run all three validation scripts in sequence
+3. If any script reports errors:
+   - Read the error message carefully
+   - Fix the issues in the recipe file
+   - Run validation again
+4. Only consider the recipe complete when all validations pass
 
 ## File Naming
 
@@ -188,6 +220,7 @@ Use title case with hyphens: `Pieczony Kurczak z Warzywami.md`
 - [ ] FODMAP analysis thorough with substitutions
 - [ ] File saved in `content/queued/`
 - [ ] Proper Polish language throughout
+- [ ] All validation scripts pass without errors
 
 ## Common Mistakes to Avoid
 
