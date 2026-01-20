@@ -6,6 +6,7 @@ categories:
 draft: false
 readyToTest: true
 queued: true
+link: https://www.instagram.com/reel/Cnyjj-NvBJ4/
 recipe_image: images/recipe-headers/kapusniak.avif
 date: 2026-01-20 12:00:00+00:00
 tags:
