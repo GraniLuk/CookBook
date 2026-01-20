@@ -1,6 +1,6 @@
 ---
 title: Placki Marchewkowe
-author: Stefan
+author: Granica
 categories:
 - sniadania
 subcategories:

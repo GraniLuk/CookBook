@@ -1,6 +1,6 @@
 ---
 title: Jajecznica Ze Szpinakiem
-author: Stefan
+author: Granica
 categories:
 - sniadania
 subcategories:
