@@ -1,6 +1,6 @@
 ---
 title: Śniadaniowe rogaliki z makiem
-author: obiaddlataty
+author: ObiadDlaTaty
 categories: śniadania
 subcategories: słodkie
 draft: false

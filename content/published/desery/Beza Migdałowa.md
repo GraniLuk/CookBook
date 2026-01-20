@@ -1,6 +1,6 @@
 ---
 title: Beza Migdałowa
-author: obiaddlataty
+author: ObiadDlaTaty
 categories: desery
 draft: false
 readyToTest: false

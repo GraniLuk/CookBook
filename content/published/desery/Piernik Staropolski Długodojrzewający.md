@@ -1,6 +1,6 @@
 ---
 title: Piernik Staropolski Długodojrzewający
-author: obiaddlataty
+author: ObiadDlaTaty
 categories: desery
 draft: false
 readyToTest: false

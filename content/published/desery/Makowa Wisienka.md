@@ -1,6 +1,6 @@
 ---
 title: Makowa Wisienka
-author: 'obiaddlataty'
+author: 'ObiadDlaTaty'
 categories: desery
 draft: false
 readyToTest: false
