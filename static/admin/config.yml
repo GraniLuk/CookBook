@@ -60,6 +60,7 @@ _shared_fields:
       - { label: "meksykańskie", value: "meksykańskie" }
       - { label: "na-wynos", value: "na-wynos" }
       - { label: "odporność", value: "odporność" }
+      - { label: "omlety", value: "omlety" }
       - { label: "orientalne", value: "orientalne" }
       - { label: "orzechowy", value: "orzechowy" }
       - { label: "owsianka", value: "owsianka" }
@@ -202,6 +203,7 @@ _shared_fields:
       - { label: "makaron ryżowy", value: "makaron ryżowy" }
       - { label: "makaron spaghetti", value: "makaron spaghetti" }
       - { label: "makaron tagliatelle", value: "makaron tagliatelle" }
+      - { label: "makaron udon", value: "makaron udon" }
       - { label: "maliny", value: "maliny" }
       - { label: "mandarynka", value: "mandarynka" }
       - { label: "mango", value: "mango" }
@@ -375,6 +377,7 @@ _shared_fields:
       - { label: "sos teriyaki", value: "sos teriyaki" }
       - { label: "sos winegret", value: "sos winegret" }
       - { label: "spaghetti", value: "spaghetti" }
+      - { label: "sriracha", value: "sriracha" }
       - { label: "suszone morele", value: "suszone morele" }
       - { label: "suszone pomidory", value: "suszone pomidory" }
       - { label: "suszone żurawiny", value: "suszone żurawiny" }
