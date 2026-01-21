@@ -137,7 +137,6 @@ _shared_fields:
       - { label: "drożdże świeże", value: "drożdże świeże" }
       - { label: "dynia", value: "dynia" }
       - { label: "dynia piżmowa", value: "dynia piżmowa" }
-      - { label: "dżem", value: "dżem" }
       - { label: "ekstrakt waniliowy", value: "ekstrakt waniliowy" }
       - { label: "erytrol", value: "erytrol" }
       - { label: "erytrytol", value: "erytrytol" }
