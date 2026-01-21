@@ -61,5 +61,4 @@ fodmap:
 | Mąka owsiana       | 30        | 110            | 4.0        | 2.0          | 18.0            |
 | Płatki owsiane     | 30        | 110            | 4.0        | 2.0          | 18.0            |
 | Daktyle            | 30        | 90             | 0.5        | 0.1          | 24.0            |
-| **RAZEM:**         | **450**   | **555**        | **16.0**   | **9.8**      | **104.5**       |</content>
-<parameter name="filePath">d:\repos\CookBook\content\queued\Jabłkowe Bites.md
+| **RAZEM:**         | **450**   | **555**        | **16.0**   | **9.8**      | **104.5**       |

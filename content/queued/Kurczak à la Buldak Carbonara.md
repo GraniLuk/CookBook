@@ -70,5 +70,3 @@ fodmap:
 | Sos sojowy         | 30        | 18             | 3.0        | 0.0          | 1.5             |
 | Olej sezamowy      | 15        | 132            | 0.0        | 15.0         | 0.0             |
 | **RAZEM:**         | **1345**  | **1897**       | **127.8**  | **94.8**     | **107.7**       |
-</content>
-<parameter name="filePath">d:\repos\CookBook\content\queued\Kurczak a la Buldak Carbonara.md

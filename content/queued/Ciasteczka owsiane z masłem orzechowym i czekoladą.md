@@ -67,5 +67,4 @@ fodmap:
 | Płatki owsiane     | 50        | 190            | 6.0        | 3.0          | 33.0            |
 | Czekolada gorzka   | 50        | 250            | 3.0        | 15.0         | 20.0            |
 | Jajko              | 50        | 70             | 6.0        | 5.0          | 0.5             |
-| **RAZEM:**         | **640**   | **3030**       | **53.0**   | **172.5**    | **296.0**       |</content>
-<parameter name="filePath">d:\repos\CookBook\content\queued\Ciasteczka owsiane z masłem orzechowym i czekoladą.md
+| **RAZEM:**         | **640**   | **3030**       | **53.0**   | **172.5**    | **296.0**       |
