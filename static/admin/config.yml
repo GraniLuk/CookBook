@@ -127,6 +127,7 @@ _shared_fields:
       - { label: "cukier puder", value: "cukier puder" }
       - { label: "cukinia", value: "cukinia" }
       - { label: "curry", value: "curry" }
+      - { label: "cynamon", value: "cynamon" }
       - { label: "cytryna", value: "cytryna" }
       - { label: "czekolada", value: "czekolada" }
       - { label: "czekolada gorzka", value: "czekolada gorzka" }
@@ -155,6 +156,7 @@ _shared_fields:
       - { label: "grzyby suszone", value: "grzyby suszone" }
       - { label: "herbatniki", value: "herbatniki" }
       - { label: "imbir", value: "imbir" }
+      - { label: "jabłka", value: "jabłka" }
       - { label: "jabłko", value: "jabłko" }
       - { label: "jagody", value: "jagody" }
       - { label: "jajka", value: "jajka" }
