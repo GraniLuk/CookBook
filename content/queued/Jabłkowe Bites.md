@@ -1,6 +1,6 @@
 ---
 title: Jabłkowe Bites
-author: Nieznany
+author: Michał Wrzosek
 categories: desery
 draft: false
 readyToTest: true
