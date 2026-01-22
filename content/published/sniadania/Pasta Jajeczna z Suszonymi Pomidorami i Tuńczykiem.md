@@ -18,7 +18,7 @@ tagline: Kremowa i aromatyczna pasta jajeczna z wyrazistym smakiem suszonych pom
 ingredients:
 - jajka
 - tuńczyk
-- suszone pomidory
+- pomidory suszone
 - jogurt
 - majonez
 servings: 4

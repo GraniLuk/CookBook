@@ -16,7 +16,7 @@ tags:
 tagline: Kremowa, aromatyczna pasta z piersi kurczaka i suszonych pomidorów – idealna na kanapki lub wafle ryżowe.
 ingredients:
 - pierś z kurczaka
-- suszone pomidory
+- pomidory suszone
 - majonez
 servings: 1
 prep_time: 5

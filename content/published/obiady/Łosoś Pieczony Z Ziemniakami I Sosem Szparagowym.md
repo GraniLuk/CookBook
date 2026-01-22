@@ -18,7 +18,7 @@ ingredients:
 - oliwa
 - szparagi
 - mascarpone
-- suszone pomidory
+- pomidory suszone
 - czosnek
 servings: 4
 prep_time: 25
@@ -35,7 +35,7 @@ fodmap:
   substitutions:
   - czosnek -> olej czosnkowy (bez cząstek)
   - mascarpone -> śmietanka/śmietana bez laktozy lub tarty ser dojrzewający (mała porcja)
-  - suszone pomidory -> ≤ 8–12 g/os. lub świeże pomidory w małej ilości
+  - pomidory suszone -> ≤ 8–12 g/os. lub świeże pomidory w małej ilości
 ---
 
 Oto przepis na pieczonego łososia w piekarniku z ziemniakami pieczonymi oraz kremowym sosem z szparagów, mascarpone i suszonych pomidorów. Przepis jest łatwy do wykonania i pozwoli uzyskać efektowny obiad z wyrazistym smakiem.

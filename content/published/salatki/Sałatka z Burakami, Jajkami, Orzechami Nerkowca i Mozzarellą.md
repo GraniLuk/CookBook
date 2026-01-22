@@ -14,7 +14,7 @@ tagline: Kolorowa, sycąca sałatka – buraki, jajka, orzechy nerkowca i kremow
 ingredients:
 - buraki gotowane
 - mix sałat
-- suszone pomidory
+- pomidory suszone
 - mozzarella
 - orzechy nerkowca
 - jajka
@@ -34,7 +34,7 @@ fodmap:
   substitutions:
   - większa ilość buraka -> zmniejsz do 60g/os. lub użyj pieczonej dyni
   - nerkowce -> orzechy włoskie/pekany (niższe FODMAP)
-  - suszone pomidory -> świeże pomidory lub ≤8g suszonych
+  - pomidory suszone -> świeże pomidory lub ≤8g suszonych
   - czosnek granulowany -> olej infuzowany czosnkiem (bez cząstek)
   - mozzarella zwykła -> mozzarella bez laktozy / feta ≤40g
 ---

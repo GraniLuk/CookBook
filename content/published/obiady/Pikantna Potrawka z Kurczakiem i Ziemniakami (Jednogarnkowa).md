@@ -19,7 +19,7 @@ ingredients:
 - brokuł
 - cebula
 - czosnek
-- suszone pomidory
+- pomidory suszone
 - pasta curry
 - bulion
 servings: 3
@@ -39,7 +39,7 @@ fodmap:
   - cebula -> zielona część dymki lub pomiń
   - czosnek -> olej czosnkowy (infuzja bez cząstek)
   - pasta curry -> własna mieszanka (chili, kurkuma, imbir, kolendra)
-  - suszone pomidory -> ogranicz do 2 szt. lub zamień na świeże
+  - pomidory suszone -> ogranicz do 2 szt. lub zamień na świeże
   - bulion -> sprawdź skład (bez cebuli/czosnku)
 ---
 

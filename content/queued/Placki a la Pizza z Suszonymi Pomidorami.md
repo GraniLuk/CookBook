@@ -13,7 +13,7 @@ tags:
 - przekąska
 tagline: Wytrawne placki w stylu pizzy z suszonymi pomidorami, oliwkami i serem cheddar.
 ingredients:
-- suszone pomidory
+- pomidory suszone
 - oliwki
 - ser cheddar
 - płatki owsiane

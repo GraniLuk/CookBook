@@ -14,7 +14,7 @@ ingredients:
 - mięso mielone z indyka
 - makaron
 - jarmuż
-- suszone pomidory
+- pomidory suszone
 - cebula
 - czosnek
 - passata pomidorowa

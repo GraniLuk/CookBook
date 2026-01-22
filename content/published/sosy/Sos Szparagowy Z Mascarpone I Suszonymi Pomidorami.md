@@ -11,7 +11,7 @@ tagline: Kremowy sos szparagowy z mascarpone - idealny do ryb, mięsa i warzyw!
 ingredients:
 - szparagi
 - mascarpone
-- suszone pomidory
+- pomidory suszone
 - czosnek
 servings: 4
 prep_time: 10
@@ -50,7 +50,7 @@ Kremowy sos szparagowy z mascarpone i suszonymi pomidorami to doskonały dodatek
 - Ugotuj szparagi na parze przez około 15 minut, aż będą miękkie. Możesz też ugotować je w osolonej wodzie przez 10-12 minut.
 
 ### 2. Przygotowanie dodatków
-- Suszone pomidory odsącz z oleju i pokrój w paski.
+- pomidory suszone odsącz z oleju i pokrój w paski.
 - Czosnek obierz i przeciśnij przez praskę lub drobno posiekaj.
 
 ### 3. Łączenie składników

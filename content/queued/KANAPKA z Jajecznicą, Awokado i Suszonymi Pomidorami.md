@@ -15,7 +15,7 @@ ingredients:
 - bułka
 - jajka
 - awokado
-- suszone pomidory
+- pomidory suszone
 - rukola
 servings: 2
 prep_time: 10

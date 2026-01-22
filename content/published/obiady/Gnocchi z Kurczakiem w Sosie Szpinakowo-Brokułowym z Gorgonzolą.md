@@ -18,7 +18,7 @@ ingredients:
 - brokuł
 - ser gorgonzola
 - śmietana 12%
-- suszone pomidory
+- pomidory suszone
 - oliwa z oliwek
 - cebula
 servings: 4

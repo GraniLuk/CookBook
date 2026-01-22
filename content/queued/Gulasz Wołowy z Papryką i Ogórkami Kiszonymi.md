@@ -17,7 +17,7 @@ ingredients:
 - papryka czerwona
 - ogórek kiszony
 - czosnek
-- suszone pomidory
+- pomidory suszone
 - koncentrat pomidorowy
 - olej
 servings: 4

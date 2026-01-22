@@ -20,7 +20,7 @@ ingredients:
   - ser śmietankowy
   - szynka wędzona
   - jajko
-  - suszone pomidory
+  - pomidory suszone
   - oliwa z oliwek
 servings: 2
 prep_time: 20

@@ -18,7 +18,7 @@ ingredients:
 - ser mozzarella
 - cebula
 - czosnek
-- suszone pomidory
+- pomidory suszone
 - jarmuż
 - grzyby
 - oliwa z oliwek

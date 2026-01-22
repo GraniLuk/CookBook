@@ -19,7 +19,7 @@ ingredients:
 - rukola
 - awokado
 - ciecierzyca
-- suszone pomidory
+- pomidory suszone
 - jajka
 - granat
 servings: 1

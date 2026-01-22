@@ -16,7 +16,7 @@ tagline: Prosta pasta z awokado, serkiem wiejskim i suszonymi pomidorami.
 ingredients:
 - awokado
 - ser wiejski
-- suszone pomidory
+- pomidory suszone
 - jajka
 servings: 2
 prep_time: 10

@@ -17,7 +17,7 @@ ingredients:
 - oliwa z oliwek
 - cebula
 - czosnek
-- suszone pomidory
+- pomidory suszone
 - koncentrat pomidorowy
 - fasola biała
 - szpinak

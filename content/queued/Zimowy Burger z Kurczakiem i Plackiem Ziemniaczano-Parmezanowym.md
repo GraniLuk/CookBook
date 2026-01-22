@@ -16,7 +16,7 @@ ingredients:
 - ziemniaki
 - pierś z kurczaka
 - mięso z uda kurczaka
-- suszone pomidory
+- pomidory suszone
 - jogurt grecki
 - majonez
 - parmezan

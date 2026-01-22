@@ -17,7 +17,7 @@ ingredients:
 - szpinak
 - pomidory koktajlowe
 - cebula
-- suszone pomidory
+- pomidory suszone
 - ser grana padano
 - oliwa z oliwek
 - natka pietruszki

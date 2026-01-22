@@ -15,7 +15,7 @@ tagline: Soczyste pulpeciki w kremowym sosie z suszonymi pomidorami i szpinakiem
 ingredients:
 - łopatka wieprzowa
 - szpinak
-- suszone pomidory
+- pomidory suszone
 - mascarpone
 - cebula
 - ziemniaki
