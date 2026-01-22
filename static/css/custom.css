@@ -177,13 +177,6 @@ li {
     border-color: #b5b5b5;
 }
 
-@media screen and (max-width: 768px) {
-    #ingredientDropdown .dropdown-menu {
-        min-width: 100%;
-        left: 0;
-        right: 0;
-    }
-}
 
 /* ===========================================
    Category Swipe Navigation Dots (Mobile)
