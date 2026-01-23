@@ -126,6 +126,7 @@ _shared_fields:
       - { label: "coleslaw", value: "coleslaw" }
       - { label: "cukier", value: "cukier" }
       - { label: "cukier puder", value: "cukier puder" }
+      - { label: "cukier trzcinowy", value: "cukier trzcinowy" }
       - { label: "cukinia", value: "cukinia" }
       - { label: "curry", value: "curry" }
       - { label: "cytryna", value: "cytryna" }
