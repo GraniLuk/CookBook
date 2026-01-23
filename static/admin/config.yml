@@ -469,7 +469,7 @@ _shared_fields:
     - label: Podkategorie
       name: subcategories
       widget: select
-      required: true
+      required: false
       condition:
         field: categories
         value: śniadania
