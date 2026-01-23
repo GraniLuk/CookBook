@@ -1609,7 +1609,7 @@ nav[class*="navbar"] .menu[class*="menu-horizontal"]>li {
 
   .rating-section {
     position: absolute;
-    bottom: 60px;
+    top: 10px;
     right: 10px;
     z-index: 3;
   }
@@ -1625,8 +1625,8 @@ nav[class*="navbar"] .menu[class*="menu-horizontal"]>li {
     display: flex;
     gap: 2px;
     padding: 6px 10px;
-    background: rgba(0, 0, 0, 0.6);
-    backdrop-filter: blur(4px);
+    background: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(2px);
     border-radius: var(--radius-sm);
   }
 
@@ -1693,12 +1693,15 @@ nav[class*="navbar"] .menu[class*="menu-horizontal"]>li {
     }
 
     .rating-section {
-      bottom: 50px;
+      top: 8px;
       right: 8px;
+      bottom: auto;
     }
 
     .rating-stars {
       padding: 4px 8px;
+      background: rgba(0, 0, 0, 0.15);
+      backdrop-filter: blur(2px);
     }
 
     .rating-star i {
