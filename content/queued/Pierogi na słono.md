@@ -2,21 +2,23 @@
 title: Pierogi na słono
 author: Policzona Szama
 categories: obiady
+subcategories: słone
 draft: false
-readyToTest: true
-queued: true
+readyToTest: false
+queued: false
+favourite: false
 link: https://www.instagram.com/reels/CiIjomDpiEk/
 recipe_image: images/recipe-headers/pierogi_szpinak_feta.avif
 video_file: videos/pierogi_szpinak_feta.mp4
 date: 2026-01-23 12:00:00+00:00
 tags:
-- wegańskie
+  - wegańskie
 tagline: Ulubione pierogi z szpinakiem i fetą, idealne na obiad.
 ingredients:
-- mąka pszenna
-- masło
-- szpinak
-- ser feta
+  - mąka pszenna
+  - masło
+  - szpinak
+  - ser feta
 servings: 4
 prep_time: 30
 cook: true
@@ -26,9 +28,10 @@ protein: 24
 fat: 28
 carbohydrate: 100
 fodmap:
-  status: 'yes'
+  status: yes
   serving_ok: OK w tej porcji
-  notes: Szpinak, ser feta - wszystko bezpieczne. Czosnek w małych ilościach na porcję.
+  notes: Szpinak, ser feta - wszystko bezpieczne. Czosnek w małych ilościach na
+    porcję.
   substitutions: []
 ---
 
