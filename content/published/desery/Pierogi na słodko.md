@@ -9,7 +9,7 @@ link: https://www.instagram.com/reels/CuSHCa2u35A/
 recipe_image: images/recipe-headers/pierogi_na_slodko.avif
 video_file: videos/pierogi_ser.mp4
 video_file2: videos/pierogi_jagody.mp4
-date: 2026-01-08T12:00:00+00:00
+date: 2026-01-23T12:00:00+00:00
 tags:
 - słodkie
 tagline: Pierogi na słodko z różnymi nadzieniami, kwintesencja lata i dzieciństwa.

@@ -8,7 +8,7 @@ queued: true
 link: https://www.instagram.com/reels/CiIjomDpiEk/
 recipe_image: images/recipe-headers/pierogi_szpinak_feta.avif
 video_file: videos/pierogi_szpinak_feta.mp4
-date: 2026-01-08 12:00:00+00:00
+date: 2026-01-23 12:00:00+00:00
 tags:
 - wegańskie
 tagline: Ulubione pierogi z szpinakiem i fetą, idealne na obiad.

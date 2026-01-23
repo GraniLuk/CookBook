@@ -8,7 +8,7 @@ readyToTest: false
 queued: false
 link: https://www.youtube.com/watch?v=BdyGysxMHBI
 recipe_image: images/recipe-headers/pasta_awokado_jajko.avif
-date: 2025-01-21 12:00:00+00:00
+date: 2025-01-23 12:00:00+00:00
 tags:
 - szybkie
 - proteinowe
