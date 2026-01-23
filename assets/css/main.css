@@ -571,13 +571,22 @@
     background-color: hsl(var(--b2));
   }
 
-  /* Nested dropdown positioning */
-  .navbar .menu li details li details>ul {
+  /* Nested dropdown positioning - desktop only (flyout to right) */
+  .navbar .navbar-center .menu li details li details>ul {
     position: absolute;
     left: 100%;
     top: 0;
     margin-left: 0.25rem;
     min-width: 12rem;
+  }
+
+  /* Mobile menu nested dropdown - stack vertically, not flyout */
+  #mobileMenu li details li details>ul {
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-left: 0;
+    padding-left: 1rem;
   }
 
   /* Mobile menu dropdown */
