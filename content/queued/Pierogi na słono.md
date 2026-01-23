@@ -2,7 +2,6 @@
 title: Pierogi na słono
 author: Policzona Szama
 categories: obiady
-subcategories: słone
 draft: false
 readyToTest: false
 queued: false
