@@ -379,7 +379,6 @@ _shared_fields:
       - { label: "spaghetti", value: "spaghetti" }
       - { label: "sriracha", value: "sriracha" }
       - { label: "suszone morele", value: "suszone morele" }
-      - { label: "suszone pomidory", value: "suszone pomidory" }
       - { label: "suszone żurawiny", value: "suszone żurawiny" }
       - { label: "syrop klonowy", value: "syrop klonowy" }
       - { label: "szczypiorek", value: "szczypiorek" }

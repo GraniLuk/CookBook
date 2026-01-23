@@ -3,8 +3,8 @@ title: Pierogi na słono
 author: Policzona Szama
 categories: obiady
 draft: false
-readyToTest: true
-queued: true
+readyToTest: false
+queued: false
 link: https://www.instagram.com/reels/CiIjomDpiEk/
 recipe_image: images/recipe-headers/pierogi_szpinak_feta.avif
 video_file: videos/pierogi_szpinak_feta.mp4
