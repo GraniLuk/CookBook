@@ -5,6 +5,7 @@ categories: obiady
 draft: false
 readyToTest: false
 recipe_image: images/recipe-headers/karkowka_z_warzywami.avif
+video_file: videos/karkowka_z_warzywami.mp4
 date: 2026-01-16 12:28:32+00:00
 tags:
 - zapiekanka
