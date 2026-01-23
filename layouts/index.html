@@ -76,15 +76,15 @@
                             <span>Wybierz kategorie</span>
                             <i class="fas fa-angle-down ml-1 text-xs"></i>
                         </summary>
-                        <div class="dropdown-content bg-base-100 rounded shadow-md border border-base-300 mt-1 w-auto max-h-[250px] flex flex-col">
-                            <div class="px-2 py-1.5 border-b border-base-200 bg-base-100">
+                        <div class="dropdown-content bg-base-100 rounded shadow-md border border-base-300 mt-1 min-w-[200px] max-h-[250px] overflow-y-auto">
+                            <div class="px-2 py-1.5 border-b border-base-200">
                                 <div class="flex items-center gap-1.5">
                                     <i class="fas fa-search text-xs text-base-content/50"></i>
                                     <input class="bg-transparent border-none outline-none text-sm flex-1 py-0.5" type="text" id="categorySearch"
                                         placeholder="Szukaj...">
                                 </div>
                             </div>
-                            <div id="categoryList" class="overflow-y-auto max-h-[210px]"></div>
+                            <div id="categoryList"></div>
                         </div>
                     </details>
                 </div>
@@ -94,8 +94,8 @@
                             <span>Wybierz składniki</span>
                             <i class="fas fa-angle-down ml-1 text-xs"></i>
                         </summary>
-                        <div class="dropdown-content bg-base-100 rounded shadow-md border border-base-300 mt-1 w-auto max-h-[250px] overflow-y-auto">
-                            <div class="px-2 py-1.5 border-b border-base-200 sticky top-0 bg-base-100 z-10">
+                        <div class="dropdown-content bg-base-100 rounded shadow-md border border-base-300 mt-1 min-w-[200px] max-h-[250px] overflow-y-auto">
+                            <div class="px-2 py-1.5 border-b border-base-200">
                                 <div class="flex items-center gap-1.5">
                                     <i class="fas fa-search text-xs text-base-content/50"></i>
                                     <input class="bg-transparent border-none outline-none text-sm flex-1 py-0.5" type="text" id="ingredientSearch"
