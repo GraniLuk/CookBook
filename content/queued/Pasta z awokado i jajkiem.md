@@ -4,8 +4,8 @@ author: Michał Wrzosek
 categories: śniadania
 subcategories: słone
 draft: false
-readyToTest: true
-queued: true
+readyToTest: false
+queued: false
 link: https://www.youtube.com/watch?v=BdyGysxMHBI
 recipe_image: images/recipe-headers/pasta_awokado_jajko.avif
 date: 2025-01-21 12:00:00+00:00
