@@ -181,6 +181,9 @@ def process_directory(content_dir, check_only=False):
                     # Load the file
                     post = frontmatter.load(file_path)
 
+                    # Validate metadata BEFORE normalization to catch non-normalized categories
+                    is_valid = validate_metadata(post.metadata, file)
+
                     # Normalize categories
                     if "categories" in post.metadata:
                         categories = post.metadata["categories"]
@@ -220,9 +223,6 @@ def process_directory(content_dir, check_only=False):
                                 errors += 1
                             else:
                                 print(f"Fixed future date: {file}")
-
-                    # Validate metadata
-                    is_valid = validate_metadata(post.metadata, file)
                     if not is_valid:
                         errors += 1
 

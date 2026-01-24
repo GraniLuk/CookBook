@@ -2,7 +2,7 @@
 title: Omleto-Kanapka z Szynką i Awokado
 author: Granica
 categories:
-- sniadania
+- śniadania
 subcategories:
 - słone
 draft: false

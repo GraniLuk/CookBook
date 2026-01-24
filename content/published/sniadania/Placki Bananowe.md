@@ -2,7 +2,7 @@
 title: Placki Bananowe
 author: Autor Przepisu
 categories:
-- sniadania
+- śniadania
 subcategories:
 - słodkie
 draft: false

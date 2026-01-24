@@ -2,7 +2,7 @@
 title: Szakszuka
 author: Ebook-JemyToSamo
 categories:
-- sniadania
+- śniadania
 subcategories:
 - słone
 draft: false

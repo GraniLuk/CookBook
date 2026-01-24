@@ -2,7 +2,7 @@
 title: Omlet z serem
 author: Granica
 categories:
-- sniadania
+- śniadania
 subcategories:
 - słone
 draft: false

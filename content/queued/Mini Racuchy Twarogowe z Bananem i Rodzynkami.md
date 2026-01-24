@@ -2,7 +2,7 @@
 title: Mini Racuchy Twarogowe z Bananem i Rodzynkami
 author: Policzona Szama
 categories:
-- sniadania
+- śniadania
 subcategories: słodkie
 draft: false
 readyToTest: true

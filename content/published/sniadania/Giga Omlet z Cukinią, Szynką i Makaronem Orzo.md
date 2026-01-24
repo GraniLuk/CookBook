@@ -2,7 +2,7 @@
 title: Giga Omlet z Cukinią, Szynką i Makaronem Orzo
 author: Policzona Szama
 categories:
-- sniadania
+- śniadania
 subcategories:
 - słone
 draft: false

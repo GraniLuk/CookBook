@@ -2,7 +2,7 @@
 title: Pasta Jajeczna z Suszonymi Pomidorami i Tuńczykiem
 author: Użytkownik
 categories:
-- sniadania
+- śniadania
 subcategories:
 - słone
 draft: false

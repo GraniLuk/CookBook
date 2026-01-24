@@ -2,7 +2,7 @@
 title: Placki Z Marchewki I Dyni
 author: Granica
 categories:
-- sniadania
+- śniadania
 subcategories:
 - słodkie
 draft: false

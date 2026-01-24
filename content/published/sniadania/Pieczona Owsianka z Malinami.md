@@ -2,7 +2,7 @@
 title: Pieczona Owsianka z Malinami
 author: Autor Przepisu
 categories:
-- sniadania
+- śniadania
 subcategories:
 - słodkie
 draft: false

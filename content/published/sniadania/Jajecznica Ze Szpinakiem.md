@@ -2,7 +2,7 @@
 title: Jajecznica Ze Szpinakiem
 author: Granica
 categories:
-- sniadania
+- śniadania
 subcategories:
 - słone
 draft: false

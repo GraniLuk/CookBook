@@ -2,7 +2,7 @@
 title: Placki Bananowo-Twarogowe
 author: Autor Przepisu
 categories:
-- sniadania
+- śniadania
 subcategories:
 - słodkie
 draft: false

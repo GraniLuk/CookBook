@@ -2,7 +2,7 @@
 title: Domowa Quesadilla z Kurczakiem i Warzywami
 author: Autor Przepisu
 categories:
-- sniadania
+- śniadania
 draft: true
 recipe_image: images/recipe-headers/default.avif
 date: 2025-08-29 17:13:23+00:00

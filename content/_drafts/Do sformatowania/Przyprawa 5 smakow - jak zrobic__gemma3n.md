@@ -2,7 +2,7 @@
 title: Tekst opisuje przyprawę pięciu smaków i zawiera instrukcję jej użycia do przygotowania chińskiego...
 author: Autor Przepisu
 categories:
-- sniadania
+- śniadania
 draft: true
 recipe_image: images/recipe-headers/default.avif
 date: 2025-08-29 17:13:22+00:00

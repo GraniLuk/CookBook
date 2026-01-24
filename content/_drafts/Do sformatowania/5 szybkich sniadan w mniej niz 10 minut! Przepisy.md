@@ -2,7 +2,7 @@
 title: '**OPIS:** Prezentacja pięciu przepisów na szybkie (poniżej 10 minut) i zbilansowane (około 500 ka...'
 author: Autor Przepisu
 categories:
-- sniadania
+- śniadania
 draft: true
 recipe_image: images/recipe-headers/default.avif
 date: 2025-08-29 17:13:21+00:00

@@ -2,7 +2,7 @@
 title: Frittata z Batatami i Serem Feta
 author: Policzona Szama
 categories:
-- sniadania
+- śniadania
 subcategories:
 - słone
 draft: false

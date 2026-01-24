@@ -2,7 +2,7 @@
 title: Tortilla z Jajecznicą
 author: Granica
 categories:
-- sniadania
+- śniadania
 subcategories:
 - słone
 draft: false

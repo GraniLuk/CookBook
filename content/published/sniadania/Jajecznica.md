@@ -2,7 +2,7 @@
 title: Jajecznica
 author: Autor Przepisu
 categories:
-- sniadania
+- śniadania
 subcategories:
 - słone
 draft: false

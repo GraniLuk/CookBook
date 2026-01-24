@@ -2,7 +2,7 @@
 title: Wrap Z Awokado I Jajkiem
 author: Granica
 categories:
-- sniadania
+- śniadania
 subcategories:
 - słone
 draft: false

@@ -1,7 +1,7 @@
 ---
 title: Pasta twarogowa z rzodkiewką i olejem lnianym
 author: Policzona Szama
-categories: sniadania
+categories: śniadania
 subcategories: słone
 draft: false
 readyToTest: true

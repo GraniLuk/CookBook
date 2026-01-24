@@ -2,7 +2,7 @@
 title: Placki Marchewkowe
 author: Granica
 categories:
-- sniadania
+- śniadania
 subcategories:
 - słodkie
 draft: false

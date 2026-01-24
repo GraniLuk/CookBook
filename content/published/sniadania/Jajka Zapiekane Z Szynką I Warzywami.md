@@ -2,7 +2,7 @@
 title: Jajka Zapiekane Z Szynką I Warzywami
 author: Granica
 categories:
-- sniadania
+- śniadania
 subcategories:
 - słone
 draft: false

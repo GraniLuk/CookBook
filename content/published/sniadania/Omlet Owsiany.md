@@ -2,7 +2,7 @@
 title: Omlet Owsiany
 author: Granica
 categories:
-- sniadania
+- śniadania
 subcategories:
 - słodkie
 draft: false

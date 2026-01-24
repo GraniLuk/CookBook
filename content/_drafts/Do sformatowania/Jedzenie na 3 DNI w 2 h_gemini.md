@@ -2,7 +2,7 @@
 title: '**DESCRIPTION:** Szczegółowy opis przygotowania i degustacji czterech posiłków w ramach 3-dnioweg...'
 author: Autor Przepisu
 categories:
-- sniadania
+- śniadania
 draft: true
 recipe_image: images/recipe-headers/default.avif
 date: 2025-08-29 17:13:22+00:00
