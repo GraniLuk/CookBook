@@ -72,7 +72,6 @@
             const checkbox = document.createElement('input');
             checkbox.type = 'checkbox';
             checkbox.value = ingredient;
-            checkbox.className = 'mr-2';
 
             const text = document.createTextNode(capitalizeFirst(ingredient));
 

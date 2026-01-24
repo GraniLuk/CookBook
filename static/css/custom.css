@@ -85,12 +85,6 @@ li {
     background-color: #f5f5f5;
 }
 
-#ingredientDropdown .dropdown-item label {
-    width: 100%;
-    margin: 0;
-    padding: 0.25rem 0;
-}
-
 #ingredientDropdown .checkbox {
     user-select: none;
 }
