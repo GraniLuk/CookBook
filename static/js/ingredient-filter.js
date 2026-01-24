@@ -68,8 +68,6 @@
 
             const label = document.createElement('label');
             label.className = 'checkbox';
-            label.style.display = 'block';
-            label.style.cursor = 'pointer';
 
             const checkbox = document.createElement('input');
             checkbox.type = 'checkbox';
