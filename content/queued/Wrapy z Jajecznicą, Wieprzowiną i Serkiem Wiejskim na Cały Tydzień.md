@@ -51,9 +51,9 @@ fodmap:
 2.  Wyłóż mięso mielone, rozłóż równomiernie i smaż, aż straci różowy kolor i się przyrumieni. Dopiero wtedy wymieszaj.
 3.  Dopraw mięso mieszanką przypraw (Szama Tuning, papryka, 2 łyżki oregano, sól, pieprz).
 4.  Wyłącz palnik i dodaj 2 opakowania serka wiejskiego. Wymieszaj z mięsem – ciepło patelni roztopi serek, tworząc kremową konsystencję.
-5.  Pokrój papryki i cebulę w kostkę, dodaj do mięsa i podsmaż chwilę.
+5.  Pokrój papryki i cebulę w kostkę.
 6.  W osobnej patelni usmaż jajecznicę z 16 jajek (można podzielić na porcje).
-7.  Rozłóż wrapy, nałóż mięso z warzywami, jajecznicę, serek i sałatę. Zwiń w wrapy.
+7.  Rozłóż wrapy, nałóż mięso z warzywami, jajecznicę, warzywa i sałatę. Zwiń w wrapy.
 8.  Podawaj od razu lub przechowaj w lodówce/mrożeniu i odgrzej w airfryerze.
 
 ## Podsumowanie wartości odżywczych (całe danie)
