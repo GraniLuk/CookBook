@@ -431,6 +431,7 @@ _shared_fields:
       - { label: "dietaniecud", value: "dietaniecud" }
       - { label: "Ebook-JemyToSamo", value: "Ebook-JemyToSamo" }
       - { label: "fit_przepisy_od_baletnicy", value: "fit_przepisy_od_baletnicy" }
+      - { label: "foodbyok", value: "foodbyok" }
       - { label: "Granica", value: "Granica" }
       - { label: "Instant Pot po Polsku", value: "Instant Pot po Polsku" }
       - { label: "Kozak Trener", value: "Kozak Trener" }
