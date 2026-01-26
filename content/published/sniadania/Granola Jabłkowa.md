@@ -5,6 +5,7 @@ categories: śniadania
 subcategories: słodkie
 draft: false
 readyToTest: false
+link: https://www.youtube.com/watch?v=p9lw1B_X3YE
 recipe_image: images/recipe-headers/granola_jablkowa.avif
 date: 2026-01-26
 tags:
