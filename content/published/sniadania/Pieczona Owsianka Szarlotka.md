@@ -2,9 +2,12 @@
 title: Pieczona Owsianka Szarlotka
 author: foodbyok
 categories: śniadania
+subcategories: słodkie
 draft: false
-readyToTest: true
+readyToTest: false
+link: https://www.instagram.com/reel/DP6NtxygoK7/
 recipe_image: images/recipe-headers/owsianka_szarlotka.avif
+video_file: videos/owsianka_szarlotka.mp4
 date: 2026-01-26
 tags:
 - szybkie
