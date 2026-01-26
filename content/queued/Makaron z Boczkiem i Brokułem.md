@@ -7,6 +7,7 @@ readyToTest: true
 queued: true
 link: https://www.youtube.com/watch?v=I_PulnZ65fU
 recipe_image: images/recipe-headers/makaron_boczek_brokul.avif
+video_file: videos/makaron_boczek_brokul.webm
 date: 2026-01-21 12:00:00+00:00
 tags: []
 tagline: Gotowy w 15 minut, wyrazisty smak boczku i czosnku. Proste połączenie, które smakuje znacznie lepiej niż sugerowałaby to krótka lista składników.
