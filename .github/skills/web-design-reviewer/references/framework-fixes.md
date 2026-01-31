@@ -4,6 +4,312 @@ This document explains specific fix techniques for each framework and styling me
 
 ---
 
+## Hugo + Tailwind CSS v4 + DaisyUI (CookBook Project)
+
+### Project-Specific Conventions
+
+**CRITICAL**: Always use the `asset-url.html` partial for asset URLs:
+
+```html
+<!-- ❌ WRONG: Hardcoded path -->
+<img src="/images/recipe.jpg">
+<link href="/css/style.css">
+
+<!-- ✅ CORRECT: Using asset-url partial -->
+<img src="{{ partial \"asset-url.html\" \"/images/recipe.jpg\" }}">
+<link href="{{ partial \"asset-url.html\" \"/css/style.css\" }}">
+```
+
+### Fixing Recipe Card Images
+
+```html
+<!-- layouts/partials/summary.html -->
+
+<!-- ❌ BEFORE: Inconsistent card images -->
+<div class="card">
+  <img src="{{ .Params.recipe_image }}" alt="{{ .Title }}">
+</div>
+
+<!-- ✅ AFTER: Square images with proper aspect ratio -->
+<div class="card">
+  <div class="aspect-square overflow-hidden">
+    <img 
+      src="{{ partial \"asset-url.html\" .Params.recipe_image }}"
+      alt="{{ .Title }}"
+      class="w-full h-full object-cover"
+      loading="lazy"
+    >
+  </div>
+</div>
+```
+
+### Fixing Hero Images (Single Recipe Page)
+
+```html
+<!-- layouts/_default/single.html -->
+
+<!-- ❌ BEFORE: Hero image with lazy loading (bad LCP) -->
+<img 
+  src="{{ .Params.recipe_image }}"
+  loading="lazy"
+>
+
+<!-- ✅ AFTER: Priority loading for LCP optimization -->
+<img 
+  src="{{ partial \"asset-url.html\" .Params.recipe_image }}"
+  alt="{{ .Title }}"
+  class="w-full h-auto object-cover recipe-hero-image"
+  fetchpriority="high"
+>
+```
+
+### Fixing Layout with Hugo Templates
+
+```html
+<!-- layouts/_default/baseof.html -->
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body class="min-h-screen flex flex-col">
+  {{ partial "navbar.html" . }}
+  
+  <main class="flex-1 container mx-auto px-4 py-8">
+    {{ block "main" . }}{{ end }}
+  </main>
+  
+  {{ partial "footer.html" . }}
+</body>
+</html>
+```
+
+### Fixing Recipe Grid Layout
+
+```html
+<!-- layouts/index.html -->
+
+<!-- ❌ BEFORE: Fixed column count -->
+<div class="grid grid-cols-4 gap-4">
+  {{ range .Pages }}
+    {{ partial "summary.html" . }}
+  {{ end }}
+</div>
+
+<!-- ✅ AFTER: Responsive grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
+  {{ range .Pages }}
+    {{ partial "summary.html" . }}
+  {{ end }}
+</div>
+```
+
+### Adding Tailwind v4 Styles
+
+```css
+/* assets/css/main.css */
+
+/* Import Tailwind base */
+@import "tailwindcss";
+
+/* Custom recipe card styles */
+.recipe-card {
+  @apply rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105;
+}
+
+/* Hero image container */
+.recipe-hero {
+  @apply relative w-full h-64 md:h-96 overflow-hidden;
+}
+
+.recipe-hero-image {
+  @apply w-full h-full object-cover;
+}
+
+/* FODMAP badge */
+.fodmap-badge {
+  @apply inline-flex items-center px-3 py-1 rounded-full text-sm font-semibold;
+  @apply bg-green-100 text-green-800;
+}
+
+/* Media badge (video indicator) */
+.media-badge {
+  @apply absolute top-4 right-4 bg-red-600 text-white px-3 py-2 rounded-full;
+  @apply flex items-center gap-2 shadow-lg;
+}
+```
+
+### Fixing Legacy CSS (When Needed)
+
+```css
+/* static/css/custom.css */
+
+/* Hide draft recipes */
+[data-draft="true"] {
+  display: none !important;
+}
+
+/* Recipe card square images (legacy support) */
+.recipe-card-image {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Stats display */
+.recipe-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.recipe-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.75rem;
+  background: #f3f4f6;
+  border-radius: 0.5rem;
+  min-width: 80px;
+}
+```
+
+### Fixing Video Modals
+
+```html
+<!-- layouts/_default/single.html -->
+
+{{ if .Params.link }}
+<div class="video-section mt-8">
+  <button 
+    onclick="openVideoModal('{{ .Params.link }}')"
+    class="btn btn-primary flex items-center gap-2"
+  >
+    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+      <path d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"/>
+    </svg>
+    {{ i18n "watchVideo" }}
+  </button>
+</div>
+
+<!-- Modal structure -->
+<div id="videoModal" class="modal">
+  <div class="modal-box max-w-4xl">
+    <div class="aspect-video">
+      <iframe 
+        id="videoFrame"
+        class="w-full h-full"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <div class="modal-action">
+      <button class="btn" onclick="closeVideoModal()">
+        {{ i18n "close" }}
+      </button>
+    </div>
+  </div>
+</div>
+{{ end }}
+```
+
+### Fixing FODMAP Badge Display
+
+```html
+<!-- layouts/partials/summary.html -->
+
+{{ if .Params.fodmap }}
+  {{ if eq .Params.fodmap.status "low" }}
+    <span class="badge badge-success">
+      {{ i18n "lowFodmap" }}
+    </span>
+  {{ else if eq .Params.fodmap.status "high" }}
+    <span class="badge badge-error">
+      {{ i18n "highFodmap" }}
+    </span>
+  {{ end }}
+{{ end }}
+```
+
+### Fixing Rating Display
+
+```html
+<!-- layouts/partials/summary.html -->
+
+{{ if .Params.rating }}
+<div class="flex items-center gap-1">
+  {{ range seq 1 5 }}
+    {{ if le . $.Params.rating }}
+      <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20">
+        <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/>
+      </svg>
+    {{ else }}
+      <svg class="w-5 h-5 text-gray-300 fill-current" viewBox="0 0 20 20">
+        <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/>
+      </svg>
+    {{ end }}
+  {{ end }}
+  <span class="text-sm text-gray-600 ml-1">
+    ({{ .Params.rating }}/5)
+  </span>
+</div>
+{{ end }}
+```
+
+### Using DaisyUI Components
+
+```html
+<!-- Card with DaisyUI -->
+<div class="card bg-base-100 shadow-xl">
+  <figure class="aspect-square">
+    <img 
+      src="{{ partial \"asset-url.html\" .Params.recipe_image }}"
+      alt="{{ .Title }}"
+      class="object-cover"
+    >
+  </figure>
+  <div class="card-body">
+    <h2 class="card-title">{{ .Title }}</h2>
+    <p>{{ .Params.tagline }}</p>
+    <div class="card-actions justify-end">
+      <a href="{{ .RelPermalink }}" class="btn btn-primary">
+        {{ i18n "viewRecipe" }}
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- Alert with DaisyUI -->
+<div class="alert alert-info">
+  <svg class="stroke-current shrink-0 w-6 h-6" fill="none" viewBox="0 0 24 24">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+  </svg>
+  <span>{{ i18n "infoMessage" }}</span>
+</div>
+
+<!-- Badge with DaisyUI -->
+<div class="badge badge-primary">{{ .Type }}</div>
+<div class="badge badge-secondary">{{ .ReadingTime }} min</div>
+```
+
+### Responsive Testing for Hugo Site
+
+```html
+<!-- Mobile-first responsive utilities -->
+<div class="
+  p-4 sm:p-6 md:p-8
+  text-sm sm:text-base md:text-lg
+  grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4
+  gap-4 md:gap-6 lg:gap-8
+">
+  <!-- Content -->
+</div>
+```
+
+---
+
 ## Pure CSS / SCSS
 
 ### Fixing Layout Overflow

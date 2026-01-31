@@ -7,22 +7,27 @@ description: 'This skill enables visual inspection of websites running locally o
 
 This skill enables visual inspection and validation of website design quality, identifying and fixing issues at the source code level.
 
+**Quick Reference**: See [cookbook-checklist.md](references/cookbook-checklist.md) for a comprehensive visual inspection checklist specific to this project.
+
 ## Scope of Application
 
-- Static sites (HTML/CSS/JS)
-- SPA frameworks such as React / Vue / Angular / Svelte
-- Full-stack frameworks such as Next.js / Nuxt / SvelteKit
-- CMS platforms such as WordPress / Drupal
-- Any other web application
+This skill is specifically tailored for the **CookBook Hugo project**:
+
+- **Framework**: Hugo static site generator
+- **Styling**: Tailwind CSS v4 + DaisyUI
+- **Language**: Polish (i18n via `i18n/pl.yaml`)
+- **Deployment**: GitHub Pages under `/CookBook/` base path
+- **Content**: Recipe pages with hero images, cards, statistics, FODMAP info
+- **Key Features**: Fuse.js search, video modals, rating system, Decap CMS admin
 
 ## Prerequisites
 
 ### Required
 
 1. **Target website must be running**
-   - Local development server (e.g., `http://localhost:3000`)
-   - Staging environment
-   - Production environment (for read-only reviews)
+   - Local Hugo server: `http://localhost:1313/CookBook/` (via `hugo server -D`)
+   - Production: GitHub Pages (for read-only reviews)
+   - Note: Site is served under `/CookBook/` base path
 
 2. **Browser automation must be available**
    - Screenshot capture
@@ -50,47 +55,61 @@ flowchart TD
 
 ### 1.1 URL Confirmation
 
-If the URL is not provided, ask the user:
+**Default URL for CookBook project**: `http://localhost:1313/CookBook/`
 
-> Please provide the URL of the website to review (e.g., `http://localhost:3000`)
+If Hugo server is not running, instruct user to start it:
 
-### 1.2 Understanding Project Structure
-
-When making fixes, gather the following information:
-
-| Item | Example Question |
-|------|------------------|
-| Framework | Are you using React / Vue / Next.js, etc.? |
-| Styling Method | CSS / SCSS / Tailwind / CSS-in-JS, etc. |
-| Source Location | Where are style files and components located? |
-| Review Scope | Specific pages only or entire site? |
-
-### 1.3 Automatic Project Detection
-
-Attempt automatic detection from files in the workspace:
-
-```
-Detection targets:
-├── package.json     → Framework and dependencies
-├── tsconfig.json    → TypeScript usage
-├── tailwind.config  → Tailwind CSS
-├── next.config      → Next.js
-├── vite.config      → Vite
-├── nuxt.config      → Nuxt
-└── src/ or app/     → Source directory
+```bash
+hugo server -D
 ```
 
-### 1.4 Identifying Styling Method
+The site will be available at: `http://localhost:1313/CookBook/`
 
-| Method | Detection | Edit Target |
-|--------|-----------|-------------|
-| Pure CSS | `*.css` files | Global CSS or component CSS |
-| SCSS/Sass | `*.scss`, `*.sass` | SCSS files |
-| CSS Modules | `*.module.css` | Module CSS files |
-| Tailwind CSS | `tailwind.config.*` | className in components |
-| styled-components | `styled.` in code | JS/TS files |
-| Emotion | `@emotion/` imports | JS/TS files |
-| CSS-in-JS (other) | Inline styles | JS/TS files |
+**Note**: The `/CookBook/` base path is critical for proper asset loading.
+
+### 1.2 Hugo CookBook Project Structure
+
+The project structure is known and fixed:
+
+| Component | Location | Purpose |
+|-----------|----------|------|
+| **Templates** | `layouts/` | Hugo HTML templates |
+| **Partials** | `layouts/partials/` | Reusable components |
+| **Styles** | `assets/css/main.css` | Tailwind v4 + DaisyUI |
+| **Legacy Styles** | `static/css/custom.css` | Legacy Bulma utilities |
+| **Content** | `content/` | Recipe markdown files |
+| **Config** | `hugo.toml` | Site configuration |
+| **i18n** | `i18n/pl.yaml` | Polish translations |
+| **Scripts** | `static/js/` | JavaScript (search, modals, etc.) |
+
+### 1.3 Key Layouts and Partials
+
+```
+layouts/
+├── _default/
+│   ├── baseof.html       → Base template (site shell)
+│   └── single.html       → Recipe page (hero, stats, content)
+├── index.html            → Home page (filtered grid)
+├── index.json           → Search index for Fuse.js
+├── partials/
+│   ├── head.html         → Meta, assets, JSON-LD
+│   ├── summary.html      → Recipe cards (square images, badges)
+│   ├── asset-url.html    → CRITICAL: URL helper for /CookBook prefix
+│   └── searchResults.html → Search results template
+└── [collections]/        → Category-specific templates
+```
+
+### 1.4 CookBook Styling System
+
+| Method | Location | Usage | Priority |
+|--------|----------|-------|----------|
+| **Tailwind v4** | `assets/css/main.css` | Primary styling system | 1st |
+| **DaisyUI** | Via Tailwind | Component classes | 1st |
+| **Inline Classes** | HTML templates | Tailwind utility classes in `.html` files | 1st |
+| **Legacy CSS** | `static/css/custom.css` | Legacy Bulma utilities, custom classes | 2nd |
+| **Custom Classes** | Various | `.recipe-hero*`, `.media-badge`, etc. | 2nd |
+
+**Critical Convention**: Always use `{{ partial "asset-url.html" "/path" }}` for asset URLs to handle `/CookBook` prefix and cache-busting.
 
 ---
 
@@ -104,6 +123,21 @@ Detection targets:
 4. If additional pages exist, traverse through navigation
 
 ### 2.2 Inspection Items
+
+#### CookBook-Specific Checks
+
+| Issue | Description | Severity |
+|-------|-------------|----------|
+| Card Image Aspect Ratio | Recipe cards must use `aspect-ratio: 1/1` with `object-fit: cover` | High |
+| Base Path URLs | All asset URLs must use `{{ partial "asset-url.html" }}` for `/CookBook` prefix | High |
+| Square Card Images | Recipe cards (`.summary.html`) must display square images consistently | High |
+| Hero Image Priority | Hero images in `single.html` must not be lazy-loaded (LCP priority) | High |
+| FODMAP Badge Display | FODMAP status badges must be clearly visible on cards | Medium |
+| Rating System Display | Recipe ratings must display correctly | Medium |
+| Video Modal Functionality | YouTube video modals must open/close correctly | Medium |
+| Draft Recipe Hiding | Draft recipes must be hidden via `[data-draft="true"]` selector | Medium |
+| Polish i18n | All UI text must use proper Polish translations from `i18n/pl.yaml` | Medium |
+| Macro Display | Calories, protein, fat, carbs must be visible in recipe cards | Low |
 
 #### Layout Issues
 
@@ -160,30 +194,36 @@ Test at the following viewports:
 block-beta
     columns 1
     block:priority["Priority Matrix"]
-        P1["P1: Fix Immediately\n(Layout issues affecting functionality)"]
-        P2["P2: Fix Next\n(Visual issues degrading UX)"]
+        P1["P1: Fix Immediately\n(Base path URLs, card images, hero images)"]
+        P2["P2: Fix Next\n(FODMAP badges, ratings, modals)"]
         P3["P3: Fix If Possible\n(Minor visual inconsistencies)"]
     end
 ```
 
-### 3.2 Identifying Source Files
+### 3.2 CookBook-Specific Fix Locations
 
 Identify source files from problematic elements:
 
-1. **Selector-based Search**
-   - Search codebase by class name or ID
-   - Explore style definitions with `grep_search`
+| Issue Type | Primary Fix Location | Secondary Locations |
+|------------|---------------------|--------------------|
+| **Recipe Cards** | `layouts/partials/summary.html` | `static/css/custom.css` |
+| **Card Images** | `layouts/partials/summary.html` | `assets/css/main.css` |
+| **Hero Images** | `layouts/_default/single.html` | `assets/css/main.css` |
+| **Page Layout** | `layouts/_default/baseof.html` | `assets/css/main.css` |
+| **Home Grid** | `layouts/index.html` | `assets/css/main.css` |
+| **Navigation** | `layouts/partials/navbar.html` | `static/js/navbar.js` |
+| **Search UI** | `layouts/partials/searchResults.html` | `static/js/[search].js` |
+| **Video Modals** | `layouts/_default/single.html` | `static/js/share-recipe.js` |
+| **Badges/Stats** | `layouts/partials/summary.html`, `layouts/_default/single.html` | `static/css/custom.css` |
+| **Tailwind Utilities** | `assets/css/main.css` | N/A |
+| **Legacy Styles** | `static/css/custom.css` | N/A |
 
-2. **Component-based Search**
-   - Identify components from element text or structure
-   - Explore related files with `semantic_search`
-
-3. **File Pattern Filtering**
-   ```
-   Style files: src/**/*.css, styles/**/*
-   Components: src/components/**/*
-   Pages: src/pages/**, app/**
-   ```
+**Critical Rules**:
+1. ✅ Always use `{{ partial "asset-url.html" "/path" }}` for URLs
+2. ✅ Maintain `aspect-ratio: 1/1` for recipe card images
+3. ✅ Hero images must NOT be lazy-loaded (LCP optimization)
+4. ✅ Use Tailwind v4 utilities first, fall back to custom CSS only if needed
+5. ✅ Check Polish translations in `i18n/pl.yaml` for UI text
 
 ### 3.3 Applying Fixes
 
@@ -331,13 +371,23 @@ The same workflow can be implemented with these tools. As long as they provide t
 
 - ✅ Always save screenshots before making fixes
 - ✅ Fix one issue at a time and verify each
-- ✅ Follow the project's existing code style
-- ✅ Confirm with user before major changes
-- ✅ Document fix details thoroughly
+- ✅ Use `{{ partial "asset-url.html" }}` for all asset URLs
+- ✅ Maintain `aspect-ratio: 1/1` for recipe card images
+- ✅ Avoid lazy-loading hero images (LCP priority)
+- ✅ Use Tailwind v4 utilities first before custom CSS
+- ✅ Check Polish translations exist in `i18n/pl.yaml`
+- ✅ Test responsive behavior at mobile/tablet/desktop sizes
+- ✅ Verify changes with `hugo server -D` before committing
+- ✅ Run `npm run build` to ensure Tailwind processes correctly
 
 ### DON'T (Not Recommended)
 
-- ❌ Large-scale refactoring without confirmation
+- ❌ Hardcode `/CookBook` base path (use asset-url partial)
+- ❌ Break existing card image aspect ratios
+- ❌ Add lazy-loading to hero images
+- ❌ Create new CSS files without checking existing patterns
+- ❌ Ignore DaisyUI component classes when available
+- ❌ Skip testing on mobile viewports
 - ❌ Ignoring design systems or brand guidelines
 - ❌ Fixes that ignore performance
 - ❌ Fixing multiple issues at once (difficult to verify)
@@ -346,16 +396,72 @@ The same workflow can be implemented with these tools. As long as they provide t
 
 ## Troubleshooting
 
-### Problem: Style files not found
+### Hugo CookBook Specific Issues
 
-1. Check dependencies in `package.json`
-2. Consider the possibility of CSS-in-JS
-3. Consider CSS generated at build time
-4. Ask user about styling method
+#### Problem: Asset URLs showing 404 errors
 
-### Problem: Fixes not reflected
+1. Verify `{{ partial "asset-url.html" }}` is used
+2. Check `hugo.toml` for correct `baseURL` with `/CookBook/`
+3. Ensure assets are in correct directories (`static/` or `assets/`)
+4. Clear browser cache and rebuild with `npm run build`
 
-1. Check if development server HMR is working
+#### Problem: Tailwind styles not applying
+
+1. Check `assets/css/main.css` has `@import "tailwindcss";`
+2. Verify Hugo is processing the CSS: look for `resources/_gen/assets/css/`
+3. Run `npm run build` to regenerate styles
+4. Check browser console for CSS loading errors
+5. Ensure classes are valid Tailwind v4 utilities
+
+#### Problem: Recipe card images not square
+
+1. Check `layouts/partials/summary.html` template
+2. Verify `aspect-square` or `aspect-ratio: 1/1` is applied
+3. Check parent container doesn't have conflicting constraints
+4. Ensure `object-cover` class is present on `<img>`
+
+#### Problem: Changes not visible after editing templates
+
+1. Hugo server auto-reloads - wait 1-2 seconds
+2. Hard refresh browser (Ctrl+F5)
+3. Check for Hugo build errors in terminal
+4. Restart Hugo server: stop and run `hugo server -D`
+
+#### Problem: DaisyUI components not styled
+
+1. Verify DaisyUI is configured in `assets/css/main.css`
+2. Check component class names match DaisyUI docs
+3. Ensure Tailwind is processing the CSS correctly
+4. Look for JavaScript conflicts if interactive components fail
+
+#### Problem: Polish translations not showing
+
+1. Check key exists in `i18n/pl.yaml`
+2. Verify template uses `{{ i18n "keyName" }}`
+3. Ensure `hugo.toml` has `defaultContentLanguage = "pl"`
+4. Rebuild site with `hugo server -D`
+
+### General Issues
+
+#### Problem: Style files not found
+
+1. Styles are in `assets/css/main.css` (Tailwind) or `static/css/custom.css` (legacy)
+2. Templates are in `layouts/` directory
+3. Use `grep_search` to find specific class names or styles
+
+#### Problem: Fixes not reflected
+
+1. Hugo server auto-reloads, but sometimes needs manual restart
+2. Clear browser cache (Ctrl+Shift+R or Cmd+Shift+R)
+3. Check Hugo terminal for build errors
+4. Rebuild: `npm run build` to ensure Tailwind processes correctly
+
+#### Problem: Fixes affecting other areas
+
+1. Rollback changes in template files
+2. Use more specific Tailwind classes or Hugo conditionals
+3. Test multiple recipe types (with/without images, FODMAP, ratings)
+4. Check responsive behavior at all breakpoints
 2. Clear browser cache
 3. Rebuild if project requires build
 4. Check CSS specificity issues
