@@ -6,6 +6,7 @@ subcategories: słone
 draft: false
 readyToTest: true
 link: https://www.youtube.com/watch?v=oCjBBuNLGpc
+video_file: 
 recipe_image: images/recipe-headers/pasta_twarogowa_rzodkiewka.avif
 date: 2025-11-29 12:00:00+00:00
 tags:
