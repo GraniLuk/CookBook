@@ -330,7 +330,6 @@ _shared_fields:
       - { label: "ryż czerwony", value: "ryż czerwony" }
       - { label: "ryż jaśminowy", value: "ryż jaśminowy" }
       - { label: "ryż parboiled", value: "ryż parboiled" }
-      - { label: "ryż ugotowany", value: "ryż ugotowany" }
       - { label: "rzodkiewka", value: "rzodkiewka" }
       - { label: "sałata", value: "sałata" }
       - { label: "sałata lodowa", value: "sałata lodowa" }
