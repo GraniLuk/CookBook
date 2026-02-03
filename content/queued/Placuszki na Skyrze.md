@@ -8,6 +8,7 @@ readyToTest: true
 queued: true
 link: https://www.youtube.com/watch?v=I_PulnZ65fU
 recipe_image: images/recipe-headers/placuszki_na_skyrze.avif
+video_file: videos/placuszki_na_skurze.webm
 date: 2026-01-21 12:00:00+00:00
 tags:
 - szybkie
