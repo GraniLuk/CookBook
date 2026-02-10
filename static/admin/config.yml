@@ -122,6 +122,7 @@ _shared_fields:
       - { label: "chili", value: "chili" }
       - { label: "chleb", value: "chleb" }
       - { label: "chleb tostowy", value: "chleb tostowy" }
+      - { label: "ciastka owsiane", value: "ciastka owsiane" }
       - { label: "ciecierzyca", value: "ciecierzyca" }
       - { label: "coleslaw", value: "coleslaw" }
       - { label: "cukier", value: "cukier" }
@@ -130,6 +131,7 @@ _shared_fields:
       - { label: "curry", value: "curry" }
       - { label: "cytryna", value: "cytryna" }
       - { label: "czekolada", value: "czekolada" }
+      - { label: "czekolada biała", value: "czekolada biała" }
       - { label: "czekolada gorzka", value: "czekolada gorzka" }
       - { label: "czekolada organiczna", value: "czekolada organiczna" }
       - { label: "czosnek", value: "czosnek" }
@@ -391,6 +393,7 @@ _shared_fields:
       - { label: "truskawki", value: "truskawki" }
       - { label: "tuńczyk", value: "tuńczyk" }
       - { label: "twaróg", value: "twaróg" }
+      - { label: "twaróg sernikowy", value: "twaróg sernikowy" }
       - { label: "wanilia", value: "wanilia" }
       - { label: "wieprzowina", value: "wieprzowina" }
       - { label: "wino białe", value: "wino białe" }
