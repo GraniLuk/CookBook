@@ -4,11 +4,11 @@ author: the.foodini
 categories: śniadania
 subcategories: słone
 draft: false
-readyToTest: true
-queued: true
+readyToTest: false
+queued: false
 link: https://www.instagram.com/reel/DTXJEYriE6j/
 recipe_image: images/recipe-headers/domowa_pastella.avif
-date: 2026-01-16
+date: 2026-02-11
 tags:
 - pasta
 - ryby
