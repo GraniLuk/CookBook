@@ -240,6 +240,7 @@ _shared_fields:
       - { label: "mąka owsiana", value: "mąka owsiana" }
       - { label: "mąka pszenna", value: "mąka pszenna" }
       - { label: "mąka ryżowa", value: "mąka ryżowa" }
+      - { label: "mąka typ 00", value: "mąka typ 00" }
       - { label: "nachosy", value: "nachosy" }
       - { label: "napój migdałowy", value: "napój migdałowy" }
       - { label: "napój owsiany", value: "napój owsiany" }
@@ -445,6 +446,7 @@ _shared_fields:
       - { label: "olawolska.diet", value: "olawolska.diet" }
       - { label: "Policzona Szama", value: "Policzona Szama" }
       - { label: "przepeace", value: "przepeace" }
+      - { label: "ricetta.it", value: "ricetta.it" }
       - { label: "Teść Krzysztof", value: "Teść Krzysztof" }
       - { label: "the.foodini", value: "the.foodini" }
       - { label: "Użytkownik", value: "Użytkownik" }
