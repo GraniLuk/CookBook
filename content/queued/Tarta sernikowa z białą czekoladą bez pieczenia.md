@@ -4,13 +4,13 @@ author: ObiadDlaTaty
 categories:
 - desery
 draft: false
-readyToTest: true
-queued: true
+readyToTest: false
+queued: false
 recipe_image: images/recipe-headers/tarta-sernikowa-biala-czekolada.avif
-date: 2026-02-10 00:00:00+00:00
+date: 2026-02-14 00:00:00+00:00
 tags:
 - słodkie
-- przekąska
+- goście
 tagline: Lekka, bez pieczenia tarta z białą czekoladą, mascarpone i twarogiem, idealna na letnie dni
 ingredients:
 - ciastka owsiane
