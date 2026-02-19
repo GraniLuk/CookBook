@@ -289,7 +289,7 @@ _shared_fields:
       - { label: "pasta z tamaryndowca", value: "pasta z tamaryndowca" }
       - { label: "pepperoni", value: "pepperoni" }
       - { label: "pestki słonecznika", value: "pestki słonecznika" }
-      - { label: "pesto", value: "pesto" }
+      - { label: "pesto zielone", value: "pesto zielone" }
       - { label: "pieczarki", value: "pieczarki" }
       - { label: "pierś z kurczaka", value: "pierś z kurczaka" }
       - { label: "pietruszka korzeń", value: "pietruszka korzeń" }
@@ -438,6 +438,7 @@ _shared_fields:
       - { label: "Granica", value: "Granica" }
       - { label: "Instant Pot po Polsku", value: "Instant Pot po Polsku" }
       - { label: "Kozak Trener", value: "Kozak Trener" }
+      - { label: "Kwestia Smaku", value: "Kwestia Smaku" }
       - { label: "Mama Grażyna", value: "Mama Grażyna" }
       - { label: "Michał Wrzosek", value: "Michał Wrzosek" }
       - { label: "Nieznany", value: "Nieznany" }

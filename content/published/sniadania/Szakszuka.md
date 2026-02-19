@@ -12,7 +12,7 @@ date: 2025-06-18 12:00:00+00:00
 tags: []
 tagline: Klasyczna szakszuka z jajkami w sosie pomidorowym!
 ingredients:
-- pesto
+- pesto zielone
 - jajka
 - pomidory
 - czosnek

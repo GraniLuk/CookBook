@@ -14,7 +14,7 @@ tagline: Ekspresowa tortilla z mielonym indykiem, pesto, rukolą i mozzarellą �
 ingredients:
 - mięso mielone z indyka
 - tortilla
-- pesto
+- pesto zielone
 - rukola
 - mozzarella
 - pomidorki koktajlowe

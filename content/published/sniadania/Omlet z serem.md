@@ -1,6 +1,6 @@
 ---
 title: Omlet z serem
-author: Granica
+author: Michał Wrzosek
 categories:
 - śniadania
 subcategories:
@@ -16,7 +16,7 @@ ingredients:
 - jajka
 - ser
 - oliwa
-- pesto
+- pesto zielone
 - mozzarella
 - pomidorki koktajlowe
 - rukola

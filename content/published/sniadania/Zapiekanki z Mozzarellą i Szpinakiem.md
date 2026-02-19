@@ -19,7 +19,7 @@ ingredients:
 - bułka
 - szpinak
 - oliwa z oliwek
-- pesto
+- pesto zielone
 - czosnek
 - chili
 servings: 1
