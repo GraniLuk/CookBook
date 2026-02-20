@@ -4,8 +4,8 @@ author: Kwestia Smaku
 categories:
 - obiady
 draft: false
-readyToTest: true
-queued: true
+readyToTest: false
+queued: false
 link: https://www.kwestiasmaku.com/przepis/filety-z-kurczaka-zapiekane-z-pesto-pomidorem-i-mozzarella
 recipe_image: images/recipe-headers/chicken-pesto-mozzarella.avif
 date: 2026-02-19 12:00:00+00:00
