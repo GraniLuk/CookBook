@@ -19,6 +19,7 @@ ingredients:
 - cukier
 - kakao
 - orzechy włoskie
+- dżem z czarnej porzeczki
 servings: 12
 prep_time: 30
 cook: true
@@ -52,6 +53,7 @@ fodmap:
 ### Do wysmarowania i posypania
 - 1 łyżka kakao
 - 100 g posiekanych orzechów włoskich
+- 210 g dżemu z czarnej porzeczki
 - masło i bułka tarta do wysmarowania blachy
 
 ## Sposób przygotowania
@@ -74,13 +76,14 @@ fodmap:
 ### Montaż
 10. Wysmaruj blachę masłem i posyp bułką tartą.
 11. Wyłóż większą część ciasta bezpiekanego na dno blachy, wyrównując powierzchnię.
-12. Na ciasto rozłóż przygotowaną pianę z białek, wyrównując łyżką.
-13. Posyp orzechami włoskimi.
-14. Zetrzeć na wierzch mniejsze (kakaowe) ciasto za pomocą tarki lub nożyka.
+12. Rozłóż dżem z czarnej porzeczki na warstwę ciasta, wyrównując łyżką.
+13. Wbij orzechy włoskie w dżem, rozkładając je równomiernie.
+14. Ostrożnie rozłóż przygotowaną pianę z białek na warstwę z dżemem i orzechami.
+15. Zetrzeć na wierzch mniejsze (kakaowe) ciasto za pomocą tarki lub nożyka.
 
 ### Pieczenie
-15. Piecz przez 45 minut w temperaturze 150–160°C aż ciasto będzie złociste i sprężyste.
-16. Wyjmij z piekarnika i ostudź na kratce.
+16. Piecz przez 45 minut w temperaturze 150–160°C aż ciasto będzie złociste i sprężyste.
+17. Wyjmij z piekarnika i ostudź na kratce.
 
 ## Podsumowanie wartości odżywczych (całe danie na 12 porcji)
 
@@ -91,9 +94,10 @@ fodmap:
 | Jajka (5 szt.)        | 250       | 375            | 33.0       | 27.5         | 1.5             |
 | Cukier                | 150       | 600            | 0.0        | 0.0          | 150.0           |
 | Orzechy włoskie       | 100       | 660            | 15.0       | 66.0         | 11.0            |
+| Dżem z czarnej porzeczki | 210    | 560            | 1.0        | 0.5          | 135.0           |
 | Kakao                 | 15        | 48             | 2.0        | 1.5          | 8.0             |
-| **RAZEM (12 porcji)** | **1115**  | **4833**       | **82.4**   | **338.0**    | **377.5**       |
-| **Na 1 porcję**       | **93**    | **403**        | **6.9**    | **28.2**     | **31.5**        |
+| **RAZEM (12 porcji)** | **1325**  | **5393**       | **83.4**   | **338.5**    | **512.5**       |
+| **Na 1 porcję**       | **110**   | **449**        | **6.95**   | **28.2**     | **42.7**        |
 
 ## Uwagi
 
