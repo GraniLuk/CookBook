@@ -4,10 +4,10 @@ author: Babcia Grażynka
 categories:
 - desery
 draft: false
-readyToTest: true
-queued: true
+readyToTest: false
+queued: false
 recipe_image: images/recipe-headers/swiateczy-plesniak.avif
-date: 2026-02-20 12:00:00+00:00
+date: 2026-02-21 12:00:00+00:00
 tags:
 - słodkie
 - goście
@@ -39,16 +39,16 @@ fodmap:
 ## Składniki
 
 ### Ciasto
-- 2,5 szkl. mąki pszennej
-- 1 łyżeczka proszku do pieczenia
-- 4 łyżki cukru pudru
-- 300 g margaryny (lub masła)
-- 5 żółtek
+ 400 g mąki pszennej
+ 1 łyżeczka proszku do pieczenia
+ 50 g cukru pudru
+ 200 g margaryny (lub masła)
+ 5 żółtek
 
 ### Piana
-- 5 białek
-- 1 łyżka mąki ziemniaczanej
-- szklanka cukru (z przepisu 1,5 szklanki)
+ 5 białek
+ 1 łyżka mąki ziemniaczanej
+ 180 g cukru
 
 ### Do wysmarowania i posypania
 - 1 łyżka kakao
@@ -89,15 +89,16 @@ fodmap:
 
 | Składnik              | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
 |-----------------------|-----------|----------------|------------|--------------|-----------------|
-| Mąka pszenna          | 300       | 990            | 30.0       | 3.0          | 207.0           |
-| Margaryna             | 300       | 2160           | 2.4        | 240.0        | 0.0             |
+| Mąka pszenna          | 400       | 1320           | 40.0       | 4.0          | 276.0           |
+| Margaryna             | 200       | 1440           | 1.6        | 160.0        | 0.0             |
 | Jajka (5 szt.)        | 250       | 375            | 33.0       | 27.5         | 1.5             |
-| Cukier                | 150       | 600            | 0.0        | 0.0          | 150.0           |
+| Cukier puder          | 50        | 200            | 0.0        | 0.0          | 50.0            |
+| Cukier do piany       | 180       | 720            | 0.0        | 0.0          | 180.0           |
 | Orzechy włoskie       | 100       | 660            | 15.0       | 66.0         | 11.0            |
 | Dżem z czarnej porzeczki | 210    | 560            | 1.0        | 0.5          | 135.0           |
 | Kakao                 | 15        | 48             | 2.0        | 1.5          | 8.0             |
-| **RAZEM (12 porcji)** | **1325**  | **5393**       | **83.4**   | **338.5**    | **512.5**       |
-| **Na 1 porcję**       | **110**   | **449**        | **6.95**   | **28.2**     | **42.7**        |
+| **RAZEM (12 porcji)** | **1405**  | **5323**       | **92.6**   | **259.5**    | **661.5**       |
+| **Na 1 porcję**       | **117**   | **444**        | **7.7**    | **21.6**     | **55.1**        |
 
 ## Uwagi
 
