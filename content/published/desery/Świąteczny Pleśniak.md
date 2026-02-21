@@ -1,5 +1,5 @@
 ---
-title: Świąteczny Pleśniak
+title: Pleśniak
 author: Babcia Grażynka
 categories: desery
 draft: false
