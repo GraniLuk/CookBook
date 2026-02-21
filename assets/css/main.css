@@ -1303,6 +1303,10 @@ nav[class*="navbar"] .menu[class*="menu-horizontal"]>li {
 
     .content table {
       font-size: 0.85rem;
+      display: block;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      white-space: nowrap;
     }
 
     .content thead th,
