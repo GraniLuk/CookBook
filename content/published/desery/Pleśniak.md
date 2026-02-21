@@ -9,19 +9,18 @@ favourite: false
 recipe_image: images/recipe-headers/swiateczy-plesniak.avif
 date: 2026-02-21 12:00:00+00:00
 tags:
-  - słodkie
-  - goście
-  - ciasta
-tagline: Trzywarstwowe świąteczne ciasto z białkami, ciastem kakaowym i
-  krucho-słodkim spodem
+- słodkie
+- goście
+- ciasta
+tagline: Trzywarstwowe świąteczne ciasto z białkami, ciastem kakaowym i krucho-słodkim spodem
 ingredients:
-  - mąka pszenna
-  - masło
-  - jajka
-  - cukier
-  - kakao
-  - orzechy włoskie
-  - dżem z czarnej porzeczki
+- mąka pszenna
+- masło
+- jajka
+- cukier
+- kakao
+- orzechy włoskie
+- dżem z czarnej porzeczki
 servings: 12
 prep_time: 30
 cook: true
@@ -31,14 +30,13 @@ protein: 6
 fat: 22
 carbohydrate: 42
 fodmap:
-  status: no
+  status: false
   serving_ok: Unikaj
-  notes: Zawiera mąkę pszenną (wysokoglikemiczna). Osoby na diecie FODMAP powinny
-    unikać ze względu na zawartość pszenicy.
+  notes: Zawiera mąkę pszenną (wysokoglikemiczna). Osoby na diecie FODMAP powinny unikać ze względu na zawartość pszenicy.
   substitutions:
-    - Zastąp mąkę pszenną mieszanką low-FODMAP (np. mąka ryżowa + skrobia
-      ziemniaczana)
+  - Zastąp mąkę pszenną mieszanką low-FODMAP (np. mąka ryżowa + skrobia ziemniaczana)
 ---
+
 ## Składniki
 
 ### Ciasto
