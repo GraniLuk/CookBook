@@ -48,6 +48,26 @@
     </script>
     {{ end }}
     <script>window.baseUrl = '{{ (urls.Parse site.BaseURL).Path | strings.TrimSuffix "/" }}';</script>
+
+    {{- /* Determine the Open Graph Image */ -}}
+    {{- $og_image := "/images/defaultImage.avif" -}}
+    {{- if and .Params.recipe_image (fileExists (printf "static/%s" .Params.recipe_image)) -}}
+        {{- $og_image = printf "/%s" .Params.recipe_image -}}
+    {{- end -}}
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:title" content="{{ $title }}">
+    <meta property="og:description" content="{{ with .Params.Tagline }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 160 }}{{ end }}">
+    <meta property="og:image" content="{{ partial "asset-url.html" $og_image | absURL }}">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{{ .Permalink }}">
+    <meta property="twitter:title" content="{{ $title }}">
+    <meta property="twitter:description" content="{{ with .Params.Tagline }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 160 }}{{ end }}">
+    <meta property="twitter:image" content="{{ partial "asset-url.html" $og_image | absURL }}">
             {{ if in (default (slice) .Params.diets) "low-fodmap" }}
                 {{ $kw := (slice "low fodmap") }}
                 {{ with .Params.tags }}{{ $kw = $kw | append . }}{{ end }}
