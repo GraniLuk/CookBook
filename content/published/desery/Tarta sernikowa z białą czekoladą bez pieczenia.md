@@ -5,20 +5,22 @@ categories: desery
 draft: false
 readyToTest: false
 queued: false
+favourite: false
 link: https://www.instagram.com/reel/DUSx1HJjCBd/?igsh=MTR3eWo2c255cTBkaw==
 recipe_image: images/recipe-headers/tarta-sernikowa-biala-czekolada.avif
 date: 2026-02-14 00:00:00+00:00
 tags:
-- słodkie
-- przekąska
-tagline: Lekka, bez pieczenia tarta z białą czekoladą, mascarpone i twarogiem, idealna na letnie dni
+  - słodkie
+  - ciasta
+tagline: Lekka, bez pieczenia tarta z białą czekoladą, mascarpone i twarogiem,
+  idealna na letnie dni
 ingredients:
-- ciastka owsiane
-- masło
-- śmietanka 30%
-- czekolada biała
-- mascarpone
-- twaróg sernikowy
+  - ciastka owsiane
+  - masło
+  - śmietanka 30%
+  - czekolada biała
+  - mascarpone
+  - twaróg sernikowy
 servings: 8
 prep_time: 30
 cook: false
@@ -30,9 +32,12 @@ carbohydrate: 43
 fodmap:
   status: true
   serving_ok: OK w tej porcji
-  notes: Tarta zawiera ingredienty bezpieczne dla diety FODMAP. Przed podaniem wieniec owocami wybierz opcje FODMAP-friendly takie jak jagody, maliny lub pomarańcze. Unikaj jabłek, gruszek czy cebuli.
+  notes: Tarta zawiera ingredienty bezpieczne dla diety FODMAP. Przed podaniem
+    wieniec owocami wybierz opcje FODMAP-friendly takie jak jagody, maliny lub
+    pomarańcze. Unikaj jabłek, gruszek czy cebuli.
   substitutions:
-  - 'Zamiast nieznanego składu owoców: użyj jagód, malin, borówek lub plasterk pomarańczy'
+    - "Zamiast nieznanego składu owoców: użyj jagód, malin, borówek lub plasterk
+      pomarańczy"
 ---
 
 ## Składniki
