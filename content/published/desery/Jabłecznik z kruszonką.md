@@ -6,7 +6,7 @@ draft: false
 readyToTest: false
 queued: false
 favourite: false
-recipe_image: images/jablecznik_kruszonka.avif
+recipe_image: images/recipe-headers/jablecznik_kruszonka.avif
 date: 2026-03-01T20:28:33+01:00
 tags:
 - ciasta
