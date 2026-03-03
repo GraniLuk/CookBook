@@ -99,6 +99,7 @@ _shared_fields:
       - { label: "awokado", value: "awokado" }
       - { label: "bagietka", value: "bagietka" }
       - { label: "bajgiel", value: "bajgiel" }
+      - { label: "bakłażan", value: "bakłażan" }
       - { label: "banan", value: "banan" }
       - { label: "bataty", value: "bataty" }
       - { label: "berberys", value: "berberys" }
@@ -390,6 +391,7 @@ _shared_fields:
       - { label: "szpinak", value: "szpinak" }
       - { label: "szynka", value: "szynka" }
       - { label: "szynka wiejska", value: "szynka wiejska" }
+      - { label: "szynka wieprzowa", value: "szynka wieprzowa" }
       - { label: "szynka wędzona", value: "szynka wędzona" }
       - { label: "tahini", value: "tahini" }
       - { label: "tortilla", value: "tortilla" }
