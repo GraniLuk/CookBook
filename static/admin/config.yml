@@ -114,6 +114,7 @@ _shared_fields:
       - { label: "buraki gotowane", value: "buraki gotowane" }
       - { label: "burrata", value: "burrata" }
       - { label: "bułka", value: "bułka" }
+      - { label: "bułka hamburgerowa", value: "bułka hamburgerowa" }
       - { label: "bułka pita", value: "bułka pita" }
       - { label: "bułka tarta", value: "bułka tarta" }
       - { label: "cebula", value: "cebula" }
@@ -170,6 +171,7 @@ _shared_fields:
       - { label: "jogurt", value: "jogurt" }
       - { label: "jogurt grecki", value: "jogurt grecki" }
       - { label: "jogurt naturalny", value: "jogurt naturalny" }
+      - { label: "jogurt skyr", value: "jogurt skyr" }
       - { label: "jogurt skyr waniliowy", value: "jogurt skyr waniliowy" }
       - { label: "kakao", value: "kakao" }
       - { label: "kalafior", value: "kalafior" }
@@ -277,6 +279,7 @@ _shared_fields:
       - { label: "orzechy włoskie", value: "orzechy włoskie" }
       - { label: "orzeszki arachidowe", value: "orzeszki arachidowe" }
       - { label: "orzeszki ziemne", value: "orzeszki ziemne" }
+      - { label: "oscypek", value: "oscypek" }
       - { label: "panko", value: "panko" }
       - { label: "papryczka chili", value: "papryczka chili" }
       - { label: "papryczki padron", value: "papryczki padron" }
@@ -419,6 +422,7 @@ _shared_fields:
       - { label: "śmietana 30%", value: "śmietana 30%" }
       - { label: "śmietana kremowa", value: "śmietana kremowa" }
       - { label: "śmietanka 30%", value: "śmietanka 30%" }
+      - { label: "żurawina", value: "żurawina" }
       - { label: "żurawina suszona", value: "żurawina suszona" }
       - { label: "żółtka", value: "żółtka" }
     hint: "Wybierz z listy składników (wpisz lub kliknij, aby zobaczyć wszystkie)."
