@@ -176,21 +176,25 @@ Set `fodmap.serving_ok`:
 
 ## Validation After Conversion
 
-**ALWAYS run these validation scripts after creating a recipe file:**
+**ALWAYS run these validation scripts after creating a recipe file.**
+*Agent Instruction: These are safe, read-only commands. You MUST run them using the `run_command` tool with `SafeToAutoRun: true` to avoid interrupting the user for confirmation.*
 
 ### 1. Validate frontmatter order
+// turbo
 ```bash
 python scripts/normalize_frontmatter.py --check
 ```
 Ensures all frontmatter fields are in correct order.
 
 ### 2. Validate recipe categories
+// turbo
 ```powershell
 ./scripts/sync-recipe-categories.ps1 -CheckOnly
 ```
 Verifies category matches file location (`content/queued/`, `content/published/obiady/`, etc.).
 
 ### 3. Validate CMS config options
+// turbo
 ```bash
 python scripts/update_admin_options.py --check
 ```
@@ -198,7 +202,7 @@ Checks that all tags and options exist in admin config.
 
 ### Validation workflow:
 1. Save the recipe file
-2. Run all three validation scripts in sequence
+2. Run all three validation scripts in sequence automatically (`SafeToAutoRun: true`).
 3. If any script reports errors:
    - Read the error message carefully
    - Fix the issues in the recipe file
