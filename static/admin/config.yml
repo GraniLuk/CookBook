@@ -457,6 +457,7 @@ _shared_fields:
       - { label: "Policzona Szama", value: "Policzona Szama" }
       - { label: "przepeace", value: "przepeace" }
       - { label: "ricetta.it", value: "ricetta.it" }
+      - { label: "swiatzesmakiem", value: "swiatzesmakiem" }
       - { label: "Teść Krzysztof", value: "Teść Krzysztof" }
       - { label: "the.foodini", value: "the.foodini" }
       - { label: "Użytkownik", value: "Użytkownik" }
