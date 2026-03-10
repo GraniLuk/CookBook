@@ -1,16 +1,17 @@
 ---
-title: "Domowa Drożdżówka z Kruszonką"
-author: "swiatzesmakiem"
+title: Domowa Drożdżówka z Kruszonką
+author: swiatzesmakiem
 categories: desery
 draft: false
 readyToTest: false
 queued: false
+favourite: false
 link: https://www.instagram.com/p/DVEfuFODftB/
 recipe_image: images/recipe-headers/domowa-drozdzowka-z-kruszonka.avif
 date: 2026-03-09T16:05:05+01:00
 tags:
-  - słodkie
-tagline: "Mięciutka, puszysta i pachnąca masłem drożdżówka z chrupiącą kruszonką"
+  - ciasta
+tagline: Mięciutka, puszysta i pachnąca masłem drożdżówka z chrupiącą kruszonką
 ingredients:
   - mleko
   - mąka pszenna
@@ -25,11 +26,13 @@ protein: 10.4
 fat: 15.8
 carbohydrate: 64.9
 fodmap:
-  status: "no"
-  serving_ok: "Tylko mała porcja"
-  notes: "Zawiera dużo mąki pszennej (fruktany) oraz mleko (laktoza). Przepis nie jest odpowiedni w ścisłej fazie eliminacji FODMAP."
+  status: no
+  serving_ok: Tylko mała porcja
+  notes: Zawiera dużo mąki pszennej (fruktany) oraz mleko (laktoza). Przepis nie
+    jest odpowiedni w ścisłej fazie eliminacji FODMAP.
   substitutions:
-    - "Dla wersji nisko FODMAP użyj mleka bez laktozy i mąki bezglutenowej, co jednak zmieni właściwości ciasta drożdżowego."
+    - Dla wersji nisko FODMAP użyj mleka bez laktozy i mąki bezglutenowej, co
+      jednak zmieni właściwości ciasta drożdżowego.
 ---
 
 ## Składniki
