@@ -177,14 +177,18 @@ Set `fodmap.serving_ok`:
 ## Validation After Conversion
 
 **ALWAYS run these validation scripts after creating a recipe file.**
-*Agent Instruction: These are safe, read-only commands. You MUST run them using the `run_command` tool with `SafeToAutoRun: true` to avoid interrupting the user for confirmation.*
+*Agent Instruction: All validation and fix commands below are safe to auto-run. You MUST run them using the `run_command` tool with `SafeToAutoRun: true` to avoid interrupting the user for confirmation. This applies to BOTH `--check` commands AND their fix counterparts (without `--check`).*
 
 ### 1. Validate frontmatter order
 // turbo
 ```bash
 python scripts/normalize_frontmatter.py --check
 ```
-Ensures all frontmatter fields are in correct order.
+Ensures all frontmatter fields are in correct order. If issues are found, auto-fix by running without `--check`:
+// turbo
+```bash
+python scripts/normalize_frontmatter.py
+```
 
 ### 2. Validate recipe categories
 // turbo
@@ -198,15 +202,18 @@ Verifies category matches file location (`content/queued/`, `content/published/o
 ```bash
 python scripts/update_admin_options.py --check
 ```
-Checks that all tags and options exist in admin config.
+Checks that all tags and options exist in admin config. If missing options are found, auto-fix by running without `--check`:
+// turbo
+```bash
+python scripts/update_admin_options.py
+```
 
 ### Validation workflow:
 1. Save the recipe file
 2. Run all three validation scripts in sequence automatically (`SafeToAutoRun: true`).
 3. If any script reports errors:
-   - Read the error message carefully
-   - Fix the issues in the recipe file
-   - Run validation again
+   - Auto-fix by running the corresponding script without `--check` (`SafeToAutoRun: true`)
+   - Run validation again to confirm fixes
 4. Only consider the recipe complete when all validations pass
 
 ## File Naming
