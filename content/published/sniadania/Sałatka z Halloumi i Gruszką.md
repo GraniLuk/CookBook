@@ -4,8 +4,8 @@ author: Policzona Szama
 categories: śniadania
 subcategories: słone
 draft: false
-readyToTest: true
-queued: true
+readyToTest: false
+queued: false
 recipe_image: images/recipe-headers/salatka_z_halloumi_i_gruszka.avif
 date: 2026-03-10T16:00:00+01:00
 tags:
