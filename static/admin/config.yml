@@ -105,6 +105,7 @@ _shared_fields:
       - { label: "berberys", value: "berberys" }
       - { label: "białka jajek", value: "białka jajek" }
       - { label: "białko jajeczne", value: "białko jajeczne" }
+      - { label: "biszkopty", value: "biszkopty" }
       - { label: "boczek wędzony", value: "boczek wędzony" }
       - { label: "brokuł", value: "brokuł" }
       - { label: "brzoskwinie konserwowe", value: "brzoskwinie konserwowe" }
@@ -175,11 +176,13 @@ _shared_fields:
       - { label: "jogurt skyr waniliowy", value: "jogurt skyr waniliowy" }
       - { label: "kakao", value: "kakao" }
       - { label: "kalafior", value: "kalafior" }
+      - { label: "kapary", value: "kapary" }
       - { label: "kapusta biała", value: "kapusta biała" }
       - { label: "kapusta czerwona", value: "kapusta czerwona" }
       - { label: "kapusta kiszona", value: "kapusta kiszona" }
       - { label: "karkówka wieprzowa", value: "karkówka wieprzowa" }
       - { label: "kasza bulgur", value: "kasza bulgur" }
+      - { label: "kasza gryczana", value: "kasza gryczana" }
       - { label: "kasza manna", value: "kasza manna" }
       - { label: "kawa", value: "kawa" }
       - { label: "ketchup", value: "ketchup" }
@@ -203,6 +206,7 @@ _shared_fields:
       - { label: "majonez light", value: "majonez light" }
       - { label: "mak", value: "mak" }
       - { label: "makaron", value: "makaron" }
+      - { label: "makaron fusilli", value: "makaron fusilli" }
       - { label: "makaron lasagne", value: "makaron lasagne" }
       - { label: "makaron orzo", value: "makaron orzo" }
       - { label: "makaron pełnoziarnisty", value: "makaron pełnoziarnisty" }
@@ -236,6 +240,7 @@ _shared_fields:
       - { label: "mleko sojowe", value: "mleko sojowe" }
       - { label: "morele suszone", value: "morele suszone" }
       - { label: "mozzarella", value: "mozzarella" }
+      - { label: "mozzarella light", value: "mozzarella light" }
       - { label: "mrożone warzywa", value: "mrożone warzywa" }
       - { label: "musztarda", value: "musztarda" }
       - { label: "mąka jaglana", value: "mąka jaglana" }
@@ -272,6 +277,8 @@ _shared_fields:
       - { label: "oliwa czosnkowa", value: "oliwa czosnkowa" }
       - { label: "oliwa z oliwek", value: "oliwa z oliwek" }
       - { label: "oliwki", value: "oliwki" }
+      - { label: "oliwki czarne", value: "oliwki czarne" }
+      - { label: "oliwki zielone", value: "oliwki zielone" }
       - { label: "orzech włoski", value: "orzech włoski" }
       - { label: "orzechy", value: "orzechy" }
       - { label: "orzechy brazylijskie", value: "orzechy brazylijskie" }
@@ -286,6 +293,7 @@ _shared_fields:
       - { label: "papryka", value: "papryka" }
       - { label: "papryka czerwona", value: "papryka czerwona" }
       - { label: "papryka zielona", value: "papryka zielona" }
+      - { label: "papryka żółta", value: "papryka żółta" }
       - { label: "parmezan", value: "parmezan" }
       - { label: "passata pomidorowa", value: "passata pomidorowa" }
       - { label: "pasta curry", value: "pasta curry" }
@@ -312,6 +320,7 @@ _shared_fields:
       - { label: "pomidory", value: "pomidory" }
       - { label: "pomidory koktajlowe", value: "pomidory koktajlowe" }
       - { label: "pomidory krojone", value: "pomidory krojone" }
+      - { label: "pomidory krojone z puszki", value: "pomidory krojone z puszki" }
       - { label: "pomidory suszone", value: "pomidory suszone" }
       - { label: "por", value: "por" }
       - { label: "powidła śliwkowe", value: "powidła śliwkowe" }
@@ -352,6 +361,7 @@ _shared_fields:
       - { label: "ser feta", value: "ser feta" }
       - { label: "ser gorgonzola", value: "ser gorgonzola" }
       - { label: "ser grana padano", value: "ser grana padano" }
+      - { label: "ser halloumi", value: "ser halloumi" }
       - { label: "ser homogenizowany ciasteczkowy", value: "ser homogenizowany ciasteczkowy" }
       - { label: "ser homogenizowany waniliowy", value: "ser homogenizowany waniliowy" }
       - { label: "ser mimolette", value: "ser mimolette" }
@@ -363,6 +373,8 @@ _shared_fields:
       - { label: "ser żółty", value: "ser żółty" }
       - { label: "serek", value: "serek" }
       - { label: "serek blu", value: "serek blu" }
+      - { label: "serek homogenizowany ciasteczkowy", value: "serek homogenizowany ciasteczkowy" }
+      - { label: "serek homogenizowany waniliowy", value: "serek homogenizowany waniliowy" }
       - { label: "serek kanapkowy", value: "serek kanapkowy" }
       - { label: "serek wiejski", value: "serek wiejski" }
       - { label: "serek śmietankowy", value: "serek śmietankowy" }
@@ -400,7 +412,9 @@ _shared_fields:
       - { label: "tortilla", value: "tortilla" }
       - { label: "truskawki", value: "truskawki" }
       - { label: "tuńczyk", value: "tuńczyk" }
+      - { label: "tuńczyk w puszce", value: "tuńczyk w puszce" }
       - { label: "twaróg", value: "twaróg" }
+      - { label: "twaróg chudy", value: "twaróg chudy" }
       - { label: "twaróg sernikowy", value: "twaróg sernikowy" }
       - { label: "wanilia", value: "wanilia" }
       - { label: "wieprzowina", value: "wieprzowina" }
