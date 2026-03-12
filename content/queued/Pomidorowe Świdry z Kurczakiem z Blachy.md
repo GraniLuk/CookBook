@@ -5,11 +5,14 @@ categories: obiady
 draft: false
 readyToTest: true
 queued: true
+favourite: false
+link: https://m.youtube.com/watch?v=lzksRF6xkVQ&t=336s&pp=2AHQApACAQ%3D%3D
 recipe_image: images/recipe-headers/pomidorowe_swidry_z_kurczakiem_z_blachy.avif
 date: 2026-03-10T16:00:00+01:00
 tags:
   - lunchbox
-tagline: Makaron fusilli zapiekany z kurczakiem, papryką i mozzarellą w kremowym sosie pomidorowym – cały obiad prosto z blachy.
+tagline: Makaron fusilli zapiekany z kurczakiem, papryką i mozzarellą w kremowym
+  sosie pomidorowym – cały obiad prosto z blachy.
 ingredients:
   - makaron fusilli
   - pierś z kurczaka
@@ -27,9 +30,10 @@ protein: 50
 fat: 21
 carbohydrate: 65
 fodmap:
-  status: 'no'
+  status: no
   serving_ok: Tylko mała porcja
-  notes: Makaron pszenny zawiera fruktany (wysoki FODMAP). Cebula i czosnek to składniki o wysokim FODMAP.
+  notes: Makaron pszenny zawiera fruktany (wysoki FODMAP). Cebula i czosnek to
+    składniki o wysokim FODMAP.
   substitutions:
     - Zamień makaron na bezglutenowy fusilli
     - Zamień cebulę na część zieloną dymki
