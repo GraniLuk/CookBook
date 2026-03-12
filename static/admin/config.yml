@@ -125,6 +125,7 @@ _shared_fields:
       - { label: "chili", value: "chili" }
       - { label: "chleb", value: "chleb" }
       - { label: "chleb tostowy", value: "chleb tostowy" }
+      - { label: "ciastka oreo", value: "ciastka oreo" }
       - { label: "ciastka owsiane", value: "ciastka owsiane" }
       - { label: "ciecierzyca", value: "ciecierzyca" }
       - { label: "coleslaw", value: "coleslaw" }
@@ -237,6 +238,7 @@ _shared_fields:
       - { label: "mleko bez laktozy", value: "mleko bez laktozy" }
       - { label: "mleko kokosowe", value: "mleko kokosowe" }
       - { label: "mleko skondensowane odchudzone", value: "mleko skondensowane odchudzone" }
+      - { label: "mleko skondensowane słodzone", value: "mleko skondensowane słodzone" }
       - { label: "mleko sojowe", value: "mleko sojowe" }
       - { label: "morele suszone", value: "morele suszone" }
       - { label: "mozzarella", value: "mozzarella" }
