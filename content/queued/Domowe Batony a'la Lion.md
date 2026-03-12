@@ -7,6 +7,7 @@ readyToTest: true
 queued: true
 link: https://www.instagram.com/reels/DVHPFXMDm1V/
 recipe_image: images/recipe-headers/domowe-batony-ala-lion.avif
+video_file: videos/domowe-batony-ala-lion.mp4
 date: 2026-03-12
 tags:
 - batony
