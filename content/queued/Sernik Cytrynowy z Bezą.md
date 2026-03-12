@@ -7,6 +7,7 @@ readyToTest: true
 queued: true
 link: https://www.instagram.com/reels/DVvZzWRjIOC/
 recipe_image: images/recipe-headers/sernik-cytrynowy-z-beza.avif
+video_file: videos/sernik-cytrynowy-z-beza.mp4
 date: 2026-03-12 21:06:44+01:00
 tags:
 - goście

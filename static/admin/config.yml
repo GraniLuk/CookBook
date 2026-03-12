@@ -474,6 +474,7 @@ _shared_fields:
       - { label: "ObiadDlaTaty", value: "ObiadDlaTaty" }
       - { label: "olawolska.diet", value: "olawolska.diet" }
       - { label: "Policzona Szama", value: "Policzona Szama" }
+      - { label: "Policzone Szamy", value: "Policzone Szamy" }
       - { label: "przepeace", value: "przepeace" }
       - { label: "ricetta.it", value: "ricetta.it" }
       - { label: "swiatzesmakiem", value: "swiatzesmakiem" }
