@@ -5,6 +5,7 @@ categories: obiady
 draft: false
 readyToTest: true
 queued: true
+link: https://youtu.be/lzksRF6xkVQ?t=606
 recipe_image: images/recipe-headers/kasza_gryczana_a_la_puttanesca.avif
 date: 2026-03-10T16:00:00+01:00
 tags:

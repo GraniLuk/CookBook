@@ -6,7 +6,7 @@ draft: false
 readyToTest: false
 queued: false
 favourite: false
-link: https://m.youtube.com/watch?v=lzksRF6xkVQ&t=336s&pp=2AHQApACAQ%3D%3D
+link: https://youtu.be/lzksRF6xkVQ?t=679
 recipe_image: images/recipe-headers/pomidorowe_swidry_z_kurczakiem_z_blachy.avif
 date: 2026-03-10T16:00:00+01:00
 tags:

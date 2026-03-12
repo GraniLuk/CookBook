@@ -6,6 +6,7 @@ subcategories: słone
 draft: false
 readyToTest: false
 queued: false
+link: https://youtu.be/lzksRF6xkVQ?t=434
 recipe_image: images/recipe-headers/salatka_z_halloumi_i_gruszka.avif
 date: 2026-03-10T16:00:00+01:00
 tags:
