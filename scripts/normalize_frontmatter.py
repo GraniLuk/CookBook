@@ -169,6 +169,118 @@ class CustomDumper(yaml.SafeDumper):
         return True
 
 
+def process_single_file(file_path_str, check_only=False):
+    count = 0
+    errors = 0
+    file_path = os.path.abspath(file_path_str)
+    root = os.path.dirname(file_path)
+    file = os.path.basename(file_path)
+
+    try:
+        # Load the file
+        post = frontmatter.load(file_path)
+
+        # Validate metadata BEFORE normalization to catch non-normalized categories
+        is_valid = validate_metadata(post.metadata, file)
+
+        # Normalize categories
+        if "categories" in post.metadata:
+            categories = post.metadata["categories"]
+            if isinstance(categories, str):
+                if categories == "sniadania":
+                    post.metadata["categories"] = "śniadania"
+            elif isinstance(categories, list):
+                for i, cat in enumerate(categories):
+                    if cat == "sniadania":
+                        categories[i] = "śniadania"
+                post.metadata["categories"] = categories
+
+        # Check and fix future dates
+        date_changed = False
+        if "date" in post.metadata:
+            date_value = post.metadata["date"]
+            now = datetime.now(timezone.utc)
+            future = False
+            if isinstance(date_value, datetime):
+                if date_value > now:
+                    future = True
+            elif isinstance(date_value, date):
+                if date_value > now.date():
+                    future = True
+            else:
+                try:
+                    parsed_dt = datetime.fromisoformat(str(date_value))
+                    if parsed_dt > now:
+                        future = True
+                except ValueError:
+                    pass  # Invalid date, skip
+            if future:
+                post.metadata["date"] = date.today()
+                date_changed = True
+                if check_only:
+                    print(f"ERROR: Future date in {file}")
+                    errors += 1
+                else:
+                    print(f"Fixed future date: {file}")
+        if not is_valid:
+            errors += 1
+
+        # Reorder metadata
+        original_keys = list(post.metadata.keys())
+        post.metadata = reorder_metadata(post.metadata)
+        new_keys = list(post.metadata.keys())
+
+        needs_change = (original_keys != new_keys) or (
+            date_changed and not check_only
+        )
+
+        if not check_only:
+            title = post.metadata.get("title")
+            if title:
+                base_filename = sanitize_filename(title)
+                if file != base_filename + ".md":
+                    new_filename = base_filename + ".md"
+                    new_path = os.path.join(root, new_filename)
+                    counter = 1
+                    while os.path.exists(new_path):
+                        new_filename = f"{base_filename} ({counter}).md"
+                        new_path = os.path.join(root, new_filename)
+                        counter += 1
+                    os.rename(file_path, new_path)
+                    print(f"Renamed: {file} -> {new_filename}")
+                    file_path = new_path
+                    file = new_filename
+                    needs_change = True
+
+        if needs_change:
+            if check_only:
+                print(f"ERROR: Incorrect frontmatter order in {file}")
+                errors += 1
+            else:
+                with open(file_path, "wb") as f:
+                    # sort_keys=False is CRITICAL to preserve our custom order
+                    frontmatter.dump(
+                        post,
+                        f,
+                        Dumper=CustomDumper,
+                        allow_unicode=True,
+                        default_flow_style=False,
+                        sort_keys=False,
+                        width=1000,  # Prevent aggressive line wrapping
+                    )
+                print(f"Fixed order: {file}")
+                count += 1
+        elif not is_valid and check_only:
+            # Already counted error above
+            pass
+
+    except Exception as e:
+        print(f"Error processing {file_path_str}: {e}")
+        errors += 1
+        
+    return count, errors
+
+
 def process_directory(content_dir, check_only=False):
     count = 0
     errors = 0
@@ -177,127 +289,11 @@ def process_directory(content_dir, check_only=False):
         for file in files:
             if file.endswith(".md") and not file.startswith("_index"):
                 file_path = os.path.join(root, file)
-                try:
-                    # Load the file
-                    post = frontmatter.load(file_path)
+                c, e = process_single_file(file_path, check_only)
+                count += c
+                errors += e
 
-                    # Validate metadata BEFORE normalization to catch non-normalized categories
-                    is_valid = validate_metadata(post.metadata, file)
-
-                    # Normalize categories
-                    if "categories" in post.metadata:
-                        categories = post.metadata["categories"]
-                        if isinstance(categories, str):
-                            if categories == "sniadania":
-                                post.metadata["categories"] = "śniadania"
-                        elif isinstance(categories, list):
-                            for i, cat in enumerate(categories):
-                                if cat == "sniadania":
-                                    categories[i] = "śniadania"
-                            post.metadata["categories"] = categories
-
-                    # Check and fix future dates
-                    date_changed = False
-                    if "date" in post.metadata:
-                        date_value = post.metadata["date"]
-                        now = datetime.now(timezone.utc)
-                        future = False
-                        if isinstance(date_value, datetime):
-                            if date_value > now:
-                                future = True
-                        elif isinstance(date_value, date):
-                            if date_value > now.date():
-                                future = True
-                        else:
-                            try:
-                                parsed_dt = datetime.fromisoformat(str(date_value))
-                                if parsed_dt > now:
-                                    future = True
-                            except ValueError:
-                                pass  # Invalid date, skip
-                        if future:
-                            post.metadata["date"] = date.today()
-                            date_changed = True
-                            if check_only:
-                                print(f"ERROR: Future date in {file}")
-                                errors += 1
-                            else:
-                                print(f"Fixed future date: {file}")
-                    if not is_valid:
-                        errors += 1
-
-                    # Reorder metadata
-                    original_keys = list(post.metadata.keys())
-                    post.metadata = reorder_metadata(post.metadata)
-                    new_keys = list(post.metadata.keys())
-
-                    # Check if content would change (order or formatting)
-                    # We dump to string to compare exact output
-                    original_content = frontmatter.dumps(
-                        post, Dumper=CustomDumper, sort_keys=False
-                    )
-
-                    # To check if it changed, we need to compare with what's on disk.
-                    # However, frontmatter.load parses it.
-                    # Simplest check for reordering is checking keys.
-                    # For formatting, we might need to read raw file, but let's stick to key order for now as primary check.
-
-                    needs_change = (original_keys != new_keys) or (
-                        date_changed and not check_only
-                    )
-
-                    if not check_only:
-                        title = post.metadata.get("title")
-                        if title:
-                            base_filename = sanitize_filename(title)
-                            if file != base_filename + ".md":
-                                new_filename = base_filename + ".md"
-                                new_path = os.path.join(root, new_filename)
-                                counter = 1
-                                while os.path.exists(new_path):
-                                    new_filename = f"{base_filename} ({counter}).md"
-                                    new_path = os.path.join(root, new_filename)
-                                    counter += 1
-                                os.rename(file_path, new_path)
-                                print(f"Renamed: {file} -> {new_filename}")
-                                file_path = new_path
-                                file = new_filename
-                                needs_change = True
-
-                    if needs_change:
-                        if check_only:
-                            print(f"ERROR: Incorrect frontmatter order in {file}")
-                            errors += 1
-                        else:
-                            with open(file_path, "wb") as f:
-                                # sort_keys=False is CRITICAL to preserve our custom order
-                                frontmatter.dump(
-                                    post,
-                                    f,
-                                    Dumper=CustomDumper,
-                                    allow_unicode=True,
-                                    default_flow_style=False,
-                                    sort_keys=False,
-                                    width=1000,  # Prevent aggressive line wrapping
-                                )
-                            print(f"Fixed order: {file}")
-                            count += 1
-                    elif not is_valid and check_only:
-                        # Already counted error above
-                        pass
-
-                except Exception as e:
-                    print(f"Error processing {file_path}: {e}")
-                    errors += 1
-
-    if check_only:
-        if errors > 0:
-            print(f"\nFound {errors} issues.")
-            sys.exit(1)
-        else:
-            print("\nAll files passed validation.")
-    else:
-        print(f"\nDone! Reordered front matter in {count} files.")
+    return count, errors
 
 
 if __name__ == "__main__":
@@ -307,13 +303,39 @@ if __name__ == "__main__":
     parser.add_argument(
         "--check", action="store_true", help="Check for issues without modifying files."
     )
+    parser.add_argument(
+        "file", nargs="?", help="Optional specific Markdown file to process."
+    )
     args = parser.parse_args()
 
-    # Determine content directory relative to this script
-    script_dir = Path(__file__).parent
-    root_dir = script_dir.parent
-    content_dir = root_dir / "content"
+    if args.file:
+        file_path = Path(args.file)
+        if not file_path.is_absolute():
+            file_path = (Path.cwd() / file_path).resolve()
+            
+        if not file_path.exists() or not file_path.is_file():
+            print(f"Error: File '{args.file}' does not exist.")
+            sys.exit(1)
+            
+        print(f"Scanning single file: {args.file}...")
+        count, errors = process_single_file(str(file_path), check_only=args.check)
+    else:
+        # Determine content directory relative to this script
+        script_dir = Path(__file__).parent
+        root_dir = script_dir.parent
+        content_dir = root_dir / "content"
 
-    print(f"Scanning {content_dir}...")
-    process_directory(content_dir / "published", check_only=args.check)
-    process_directory(content_dir / "queued", check_only=args.check)
+        print(f"Scanning {content_dir}...")
+        c1, e1 = process_directory(content_dir / "published", check_only=args.check)
+        c2, e2 = process_directory(content_dir / "queued", check_only=args.check)
+        count = c1 + c2
+        errors = e1 + e2
+
+    if args.check:
+        if errors > 0:
+            print(f"\nFound {errors} issues.")
+            sys.exit(1)
+        else:
+            print("\nAll files passed validation.")
+    else:
+        print(f"\nDone! Reordered front matter in {count} files.")

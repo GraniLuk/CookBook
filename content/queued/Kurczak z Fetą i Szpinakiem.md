@@ -7,6 +7,7 @@ readyToTest: true
 queued: true
 link: https://www.youtube.com/watch?v=Vq1a29cKn5A
 recipe_image: images/recipe-headers/kurczak-z-feta-i-szpinakiem.avif
+video_file: videos/kurczak-z-feta-i-szpinakiem.webm
 date: 2026-03-12 14:36:55+01:00
 tags:
 - lunchbox
