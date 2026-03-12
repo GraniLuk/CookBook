@@ -3,8 +3,8 @@ title: Pomidorowe Świdry z Kurczakiem z Blachy
 author: Policzona Szama
 categories: obiady
 draft: false
-readyToTest: true
-queued: true
+readyToTest: false
+queued: false
 favourite: false
 link: https://m.youtube.com/watch?v=lzksRF6xkVQ&t=336s&pp=2AHQApACAQ%3D%3D
 recipe_image: images/recipe-headers/pomidorowe_swidry_z_kurczakiem_z_blachy.avif

@@ -247,6 +247,7 @@ _shared_fields:
       - { label: "musztarda", value: "musztarda" }
       - { label: "mąka jaglana", value: "mąka jaglana" }
       - { label: "mąka kokosowa", value: "mąka kokosowa" }
+      - { label: "mąka kukurydziana", value: "mąka kukurydziana" }
       - { label: "mąka migdałowa", value: "mąka migdałowa" }
       - { label: "mąka orkiszowa", value: "mąka orkiszowa" }
       - { label: "mąka owsiana", value: "mąka owsiana" }
@@ -259,6 +260,7 @@ _shared_fields:
       - { label: "napój roślinny", value: "napój roślinny" }
       - { label: "napój sojowy", value: "napój sojowy" }
       - { label: "nasiona chia", value: "nasiona chia" }
+      - { label: "nasiona słonecznika", value: "nasiona słonecznika" }
       - { label: "nasionka chia", value: "nasionka chia" }
       - { label: "natka pietruszki", value: "natka pietruszki" }
       - { label: "ocet balsamiczny", value: "ocet balsamiczny" }
@@ -464,6 +466,7 @@ _shared_fields:
       - { label: "fit_przepisy_od_baletnicy", value: "fit_przepisy_od_baletnicy" }
       - { label: "foodbyok", value: "foodbyok" }
       - { label: "Granica", value: "Granica" }
+      - { label: "Instagram", value: "Instagram" }
       - { label: "Instant Pot po Polsku", value: "Instant Pot po Polsku" }
       - { label: "Kozak Trener", value: "Kozak Trener" }
       - { label: "Kwestia Smaku", value: "Kwestia Smaku" }
