@@ -2,7 +2,7 @@
 title: Śniadaniowa Pasta Jajeczna
 author: the.foodini
 categories: śniadania
-subcategories: wytrawne
+subcategories: słone
 draft: false
 readyToTest: true
 queued: true
