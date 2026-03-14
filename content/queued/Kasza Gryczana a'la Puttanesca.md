@@ -1,5 +1,5 @@
 ---
-title: "Kasza Gryczana a'la Puttanesca"
+title: Kasza Gryczana a'la Puttanesca
 author: Policzona Szama
 categories: obiady
 draft: false
@@ -7,20 +7,21 @@ readyToTest: true
 queued: true
 link: https://youtu.be/lzksRF6xkVQ?t=606
 recipe_image: images/recipe-headers/kasza_gryczana_a_la_puttanesca.avif
-date: 2026-03-10T16:00:00+01:00
+video_file: videos/kasza_gryczana_a_la_puttanesca.mp4
+date: 2026-03-10 16:00:00+01:00
 tags:
-  - włoskie
-  - szybkie
-  - lunchbox
+- włoskie
+- szybkie
+- lunchbox
 tagline: Pikantny sos puttanesca z tuńczykiem, oliwkami i kaparami podany na kaszy gryczanej z mozzarellą.
 ingredients:
-  - kasza gryczana
-  - tuńczyk w puszce
-  - pomidory krojone z puszki
-  - oliwki zielone
-  - oliwki czarne
-  - kapary
-  - mozzarella light
+- kasza gryczana
+- tuńczyk w puszce
+- pomidory krojone z puszki
+- oliwki zielone
+- oliwki czarne
+- kapary
+- mozzarella light
 servings: 4
 prep_time: 5
 cook: true
@@ -34,8 +35,8 @@ fodmap:
   serving_ok: Tylko mała porcja
   notes: Czosnek jest składnikiem o wysokim FODMAP (fruktany). Kapary i oliwki w małych ilościach są bezpieczne.
   substitutions:
-    - Zamień czosnek na olej czosnkowy (infused oil) bez miąższu
-    - Zamień cebulę szalotkę na część zieloną dymki
+  - Zamień czosnek na olej czosnkowy (infused oil) bez miąższu
+  - Zamień cebulę szalotkę na część zieloną dymki
 ---
 
 ## Składniki
