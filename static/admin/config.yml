@@ -420,6 +420,7 @@ _shared_fields:
       - { label: "tuńczyk w puszce", value: "tuńczyk w puszce" }
       - { label: "twaróg", value: "twaróg" }
       - { label: "twaróg chudy", value: "twaróg chudy" }
+      - { label: "twaróg półtłusty", value: "twaróg półtłusty" }
       - { label: "twaróg sernikowy", value: "twaróg sernikowy" }
       - { label: "wafle ryżowe", value: "wafle ryżowe" }
       - { label: "wanilia", value: "wanilia" }
