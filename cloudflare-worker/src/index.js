@@ -5,7 +5,7 @@
 
 const OPENROUTER_URL = 'https://openrouter.ai/api/v1/chat/completions';
 const FIREBASE_PROJECT_ID = 'cookbook-ee262';
-const MODEL = 'google/gemini-2.0-flash-exp:free';
+const MODEL = 'google/gemini-3-flash-preview';
 const MAX_REQUESTS_PER_DAY = 20;
 
 /**
