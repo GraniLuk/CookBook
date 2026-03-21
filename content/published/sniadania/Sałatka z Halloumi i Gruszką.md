@@ -8,6 +8,7 @@ readyToTest: false
 queued: false
 link: https://youtu.be/lzksRF6xkVQ?t=434
 recipe_image: images/recipe-headers/salatka_z_halloumi_i_gruszka.avif
+video_file: videos/salatka_z_halloumi_i_gruszka.mp4
 date: 2026-03-10T16:00:00+01:00
 tags:
   - szybkie
