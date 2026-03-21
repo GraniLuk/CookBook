@@ -42,7 +42,7 @@ fodmap:
 ### Masa serowa
 - 250 g twarogu półtłustego
 - 1 żółtko
-- 2 płaskie łyżki kwaśnej śmietany
+- 2 płaskie łyżki kwaśnej śmietany 18%
 - 2 łyżki domowego cukru z wanilią
 
 ### Ciasto
