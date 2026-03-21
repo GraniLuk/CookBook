@@ -1,0 +1,64 @@
+{{/* Recipe Chat Box - AI assistant for recipe questions */}}
+{{/* Only shown on single recipe pages when JS is available */}}
+
+<!-- Chat FAB Button -->
+<button id="recipeChatFab" class="recipe-chat-fab" aria-label="Zapytaj o przepis" title="Zapytaj AI o ten przepis">
+    <i class="fas fa-robot" aria-hidden="true"></i>
+    <span class="recipe-chat-fab__label">Zapytaj o przepis</span>
+</button>
+
+<!-- Chat Panel -->
+<div id="recipeChatPanel" class="recipe-chat-panel" role="dialog" aria-label="Asystent przepisu" aria-hidden="true">
+    <div class="recipe-chat-panel__inner">
+        <!-- Header -->
+        <div class="recipe-chat-header">
+            <div class="recipe-chat-header__title">
+                <i class="fas fa-robot" aria-hidden="true"></i>
+                <span>Asystent przepisu</span>
+            </div>
+            <button id="recipeChatClose" class="recipe-chat-close" aria-label="Zamknij czat">
+                <i class="fas fa-times" aria-hidden="true"></i>
+            </button>
+        </div>
+
+        <!-- Login prompt (shown when not authenticated) -->
+        <div id="recipeChatLogin" class="recipe-chat-login">
+            <div class="recipe-chat-login__icon">
+                <i class="fas fa-lock"></i>
+            </div>
+            <p>Zaloguj się, aby porozmawiać z AI o tym przepisie.</p>
+            <button id="recipeChatLoginBtn" class="btn btn-primary btn-sm" type="button">
+                <i class="fas fa-sign-in-alt" aria-hidden="true"></i>
+                Zaloguj się
+            </button>
+        </div>
+
+        <!-- Messages area (shown when authenticated) -->
+        <div id="recipeChatMessages" class="recipe-chat-messages" style="display: none;">
+            <div class="recipe-chat-bubble recipe-chat-bubble--ai">
+                <div class="recipe-chat-bubble__content">
+                    Cześć! 👋 Jestem asystentem tego przepisu. Mogę pomóc z zamianą składników, technikami gotowania lub odpowiedzieć na inne pytania. W czym mogę pomóc?
+                </div>
+            </div>
+        </div>
+
+        <!-- Input area (shown when authenticated) -->
+        <div id="recipeChatInput" class="recipe-chat-input-area" style="display: none;">
+            <div class="recipe-chat-remaining" id="recipeChatRemaining"></div>
+            <form id="recipeChatForm" class="recipe-chat-form">
+                <input
+                    type="text"
+                    id="recipeChatTextField"
+                    class="recipe-chat-textfield"
+                    placeholder="Zadaj pytanie o przepis..."
+                    autocomplete="off"
+                    maxlength="500"
+                    aria-label="Wpisz pytanie"
+                />
+                <button type="submit" id="recipeChatSend" class="recipe-chat-send" aria-label="Wyślij">
+                    <i class="fas fa-paper-plane" aria-hidden="true"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+</div>

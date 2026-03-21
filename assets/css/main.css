@@ -2185,3 +2185,355 @@ nav[class*="navbar"] .menu[class*="menu-horizontal"]>li {
   right: 10px !important;
   left: auto !important;
 }
+
+/* ==================================
+ * Recipe Chat Box — AI Assistant
+ * ================================== */
+
+/* Floating Action Button */
+.recipe-chat-fab {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 40;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  background: linear-gradient(135deg, var(--color-primary), #3d6a4a);
+  color: white;
+  border: none;
+  border-radius: 2rem;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(74, 124, 89, 0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.recipe-chat-fab:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 28px rgba(74, 124, 89, 0.45);
+}
+
+.recipe-chat-fab:active {
+  transform: translateY(0);
+}
+
+.recipe-chat-fab i {
+  font-size: 1.1rem;
+}
+
+/* Hide FAB when panel is open */
+.recipe-chat-fab--hidden {
+  display: none !important;
+}
+
+/* Chat Panel */
+.recipe-chat-panel {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 50;
+  width: 380px;
+  max-height: 520px;
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.97);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  transform: translateY(20px) scale(0.95);
+  opacity: 0;
+  pointer-events: none;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+              opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.recipe-chat-panel--open {
+  transform: translateY(0) scale(1);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.recipe-chat-panel__inner {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-height: 520px;
+}
+
+/* Header */
+.recipe-chat-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.875rem 1rem;
+  background: linear-gradient(135deg, var(--color-primary), #3d6a4a);
+  color: white;
+}
+
+.recipe-chat-header__title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.recipe-chat-close {
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+  color: white;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+}
+
+.recipe-chat-close:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Login Prompt */
+.recipe-chat-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+  color: var(--color-text-light);
+  font-size: 0.9rem;
+}
+
+.recipe-chat-login__icon {
+  font-size: 2rem;
+  color: var(--color-base-300);
+}
+
+.recipe-chat-login p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Messages Area */
+.recipe-chat-messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  min-height: 200px;
+  max-height: 340px;
+}
+
+.recipe-chat-messages::-webkit-scrollbar {
+  width: 5px;
+}
+
+.recipe-chat-messages::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.recipe-chat-messages::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.12);
+  border-radius: 3px;
+}
+
+/* Message Bubbles */
+.recipe-chat-bubble {
+  display: flex;
+  max-width: 85%;
+}
+
+.recipe-chat-bubble--ai {
+  align-self: flex-start;
+}
+
+.recipe-chat-bubble--user {
+  align-self: flex-end;
+}
+
+.recipe-chat-bubble__content {
+  padding: 0.625rem 0.875rem;
+  border-radius: 14px;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  word-break: break-word;
+}
+
+.recipe-chat-bubble--ai .recipe-chat-bubble__content {
+  background: var(--color-base-200);
+  color: var(--color-text);
+  border-bottom-left-radius: 4px;
+}
+
+.recipe-chat-bubble--user .recipe-chat-bubble__content {
+  background: var(--color-primary);
+  color: white;
+  border-bottom-right-radius: 4px;
+}
+
+/* Typing Indicator */
+.recipe-chat-typing {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0.625rem 0.875rem;
+  background: var(--color-base-200);
+  border-radius: 14px;
+  border-bottom-left-radius: 4px;
+  width: fit-content;
+}
+
+.recipe-chat-typing__dot {
+  width: 6px;
+  height: 6px;
+  background: var(--color-text-light);
+  border-radius: 50%;
+  animation: chatTyping 1.4s ease-in-out infinite;
+}
+
+.recipe-chat-typing__dot:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.recipe-chat-typing__dot:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes chatTyping {
+  0%, 60%, 100% {
+    transform: translateY(0);
+    opacity: 0.4;
+  }
+  30% {
+    transform: translateY(-4px);
+    opacity: 1;
+  }
+}
+
+/* Input Area */
+.recipe-chat-input-area {
+  border-top: 1px solid var(--color-base-300);
+  padding: 0.5rem 0.75rem 0.75rem;
+}
+
+.recipe-chat-remaining {
+  font-size: 0.7rem;
+  color: var(--color-text-light);
+  text-align: right;
+  padding: 0 0.25rem 0.25rem;
+  min-height: 1rem;
+}
+
+.recipe-chat-form {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.recipe-chat-textfield {
+  flex: 1;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--color-base-300);
+  border-radius: 1.5rem;
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  outline: none;
+  transition: border-color 0.2s;
+  background: var(--color-base-100);
+}
+
+.recipe-chat-textfield:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 2px rgba(74, 124, 89, 0.15);
+}
+
+.recipe-chat-textfield:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.recipe-chat-send {
+  width: 2.25rem;
+  height: 2.25rem;
+  border: none;
+  border-radius: 50%;
+  background: var(--color-primary);
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s, transform 0.1s;
+  flex-shrink: 0;
+}
+
+.recipe-chat-send:hover {
+  background: #3d6a4a;
+}
+
+.recipe-chat-send:active {
+  transform: scale(0.92);
+}
+
+.recipe-chat-send:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Error message in chat */
+.recipe-chat-bubble--error .recipe-chat-bubble__content {
+  background: hsl(var(--er) / 0.1);
+  color: var(--color-error);
+  border: 1px solid hsl(var(--er) / 0.2);
+}
+
+/* Mobile responsive */
+@media (max-width: 480px) {
+  .recipe-chat-fab__label {
+    display: none;
+  }
+
+  .recipe-chat-fab {
+    padding: 0.875rem;
+    border-radius: 50%;
+  }
+
+  .recipe-chat-fab i {
+    font-size: 1.25rem;
+  }
+
+  .recipe-chat-panel {
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    max-height: 85vh;
+    border-radius: var(--radius-md) var(--radius-md) 0 0;
+  }
+
+  .recipe-chat-messages {
+    max-height: calc(85vh - 180px);
+  }
+}
+
+/* Print: hide chat completely */
+@media print {
+  .recipe-chat-fab,
+  .recipe-chat-panel {
+    display: none !important;
+  }
+}

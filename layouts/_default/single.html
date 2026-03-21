@@ -175,7 +175,29 @@
             <div class="fodmap-indicator">
                 {{ partial "fodmap-panel.html" . }}
             </div>
+
+            {{/* Recipe Chat Box - AI assistant */}}
+            {{ partial "recipe-chat.html" . }}
         </div>
     </div>
 </div>
+
+{{/* Serialize recipe context for the chat AI */}}
+<script>
+window.__recipeContext = {
+    title: {{ .Title }},
+    ingredients: {{ .Params.ingredients | default slice }},
+    tagline: {{ .Params.tagline | default "" }},
+    servings: {{ .Params.servings | default 0 }},
+    prepTime: {{ .Params.prep_time | default 0 }},
+    cookTime: {{ .Params.cook_time | default 0 }},
+    calories: {{ .Params.calories | default 0 }},
+    protein: {{ .Params.protein | default 0 }},
+    fat: {{ .Params.fat | default 0 }},
+    carbs: {{ .Params.carbohydrate | default 0 }},
+    fodmapStatus: {{ if .Params.fodmap }}{{ .Params.fodmap.status | default false }}{{ else }}false{{ end }},
+    fodmapNotes: {{ if .Params.fodmap }}{{ .Params.fodmap.notes | default "" }}{{ else }}""{{ end }},
+    content: {{ .RawContent }}
+};
+</script>
 {{ end }}
