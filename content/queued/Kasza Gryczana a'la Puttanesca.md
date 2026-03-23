@@ -3,8 +3,8 @@ title: Kasza Gryczana a'la Puttanesca
 author: Policzona Szama
 categories: obiady
 draft: false
-readyToTest: true
-queued: true
+readyToTest: false
+queued: false
 link: https://youtu.be/lzksRF6xkVQ?t=606
 recipe_image: images/recipe-headers/kasza_gryczana_a_la_puttanesca.avif
 video_file: videos/kasza_gryczana_a_la_puttanesca.mp4
