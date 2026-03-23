@@ -31,8 +31,8 @@ function corsHeaders(origin, allowedOrigin) {
  * Verify Firebase ID token using Google's public endpoint.
  * Returns the decoded token payload or throws on failure.
  */
-async function verifyFirebaseToken(token) {
-  const url = `https://www.googleapis.com/identitytoolkit/v3/relyingparty/getAccountInfo?key=AIzaSyBlDt8i7XqmibwycGXIpYKBj1G5MS7BDqo`;
+async function verifyFirebaseToken(token, firebaseApiKey) {
+  const url = `https://www.googleapis.com/identitytoolkit/v3/relyingparty/getAccountInfo?key=${firebaseApiKey}`;
 
   const res = await fetch(url, {
     method: 'POST',
@@ -135,7 +135,10 @@ export default {
       // 1. Verify Firebase token
       let user;
       try {
-        user = await verifyFirebaseToken(firebaseToken);
+        if (!env.FIREBASE_API_KEY) {
+          throw new Error('Missing FIREBASE_API_KEY environment variable');
+        }
+        user = await verifyFirebaseToken(firebaseToken, env.FIREBASE_API_KEY);
       } catch {
         return new Response(JSON.stringify({ error: 'Nieprawidłowy token — zaloguj się ponownie.' }), {
           status: 401,
