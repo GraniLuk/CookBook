@@ -16,6 +16,8 @@ tags:
 tagline: Pikantny sos puttanesca z tuńczykiem, oliwkami i kaparami podany na kaszy gryczanej z mozzarellą.
 ingredients:
 - kasza gryczana
+- cebula szalotka
+- czosnek
 - tuńczyk w puszce
 - pomidory krojone z puszki
 - oliwki zielone
@@ -45,6 +47,8 @@ fodmap:
 - 320 g kaszy gryczanej
 
 ### Sos Puttanesca
+- 1 cebula szalotka
+- 2 ząbki czosnku
 - 2 puszki tuńczyka w sosie własnym
 - 800 g pomidorów krojonych z puszki
 - 80 g oliwek zielonych

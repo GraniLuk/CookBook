@@ -121,6 +121,7 @@ _shared_fields:
       - { label: "cebula", value: "cebula" }
       - { label: "cebula czerwona", value: "cebula czerwona" }
       - { label: "cebula dymka", value: "cebula dymka" }
+      - { label: "cebula szalotka", value: "cebula szalotka" }
       - { label: "chia", value: "chia" }
       - { label: "chili", value: "chili" }
       - { label: "chleb", value: "chleb" }
