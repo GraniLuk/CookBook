@@ -394,8 +394,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     const videoEl = modal.querySelector('[data-video-modal-player]');
     if (videoEl) {
-      videoEl.pause();
       videoEl.currentTime = 0;
+      videoEl.play();
     }
     activeVideoModal = modal;
   };
