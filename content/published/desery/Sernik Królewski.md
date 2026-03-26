@@ -24,10 +24,10 @@ servings: 12
 prep_time: 40
 cook: true
 cook_time: 60
-calories: 4648
-protein: 135.4
-fat: 251.8
-carbohydrate: 444.8
+calories: 6246
+protein: 181.7
+fat: 322.0
+carbohydrate: 666.8
 fodmap:
   status: 'no'
   serving_ok: Tylko mała porcja
@@ -53,7 +53,7 @@ fodmap:
 - 100g masła
 - 4 żółtka
 - 7 białek (ubitych na sztywną pianę)
-- 100g cukru
+- 150g cukru
 - 2 łyżki mąki ziemniaczanej (lub mały budyń bez cukru)
 - aromat migdałowy lub cytrynowy
 
@@ -77,11 +77,11 @@ fodmap:
 |--------------------|-----------|----------------|------------|--------------|-----------------|
 | Twaróg             | 1000      | 1040           | 88.0       | 40.0         | 80.0            |
 | Masło (łącznie)    | 300       | 2154           | 2.4        | 243.0        | 0.3             |
-| Mąka pszenna       | 375       | 1283           | 37.5       | 3.8          | 270.0           |
-| Cukier (łącznie)   | 250       | 970            | 0.0        | 0.0          | 250.0           |
+| Mąka pszenna       | 400       | 1368           | 40.0       | 4.0          | 288.0           |
+| Cukier (łącznie)   | 260       | 1006           | 0.0        | 0.0          | 260.0           |
 | Żółtka (7 szt.)   | 119       | 385            | 19.0       | 31.5         | 1.0             |
 | Białka (7 szt.)    | 231       | 119            | 26.0       | 0.5          | 1.5             |
 | Kakao              | 30        | 69             | 6.0        | 3.0          | 10.5            |
 | Mąka ziemniaczana  | 30        | 105            | 0.3        | 0.0          | 25.5            |
-| **RAZEM:**         | **2335**  | **6125**       | **179.2**  | **321.8**    | **638.8**       |
+| **RAZEM:**         | **2370**  | **6246**       | **181.7**  | **322.0**    | **666.8**       |
 ---
