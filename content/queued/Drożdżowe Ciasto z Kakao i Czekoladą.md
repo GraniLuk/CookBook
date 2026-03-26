@@ -12,7 +12,7 @@ link: https://www.instagram.com/p/CHSQeTKB6FS/
 recipe_image: ''
 date: 2026-03-26 19:27:53+01:00
 tags:
-- słodkie
+- ciasta
 - przekąska
 - goście
 tagline: Idealnie wyrastające, mięciutkie ciasto drożdżowe z nadzieniem kakaowo-czekoladowym.
