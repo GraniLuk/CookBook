@@ -138,6 +138,7 @@ _shared_fields:
       - { label: "czekolada", value: "czekolada" }
       - { label: "czekolada biała", value: "czekolada biała" }
       - { label: "czekolada gorzka", value: "czekolada gorzka" }
+      - { label: "czekolada mleczna", value: "czekolada mleczna" }
       - { label: "czekolada organiczna", value: "czekolada organiczna" }
       - { label: "czosnek", value: "czosnek" }
       - { label: "daktyle", value: "daktyle" }
@@ -479,7 +480,6 @@ _shared_fields:
       - { label: "ObiadDlaTaty", value: "ObiadDlaTaty" }
       - { label: "olawolska.diet", value: "olawolska.diet" }
       - { label: "Policzona Szama", value: "Policzona Szama" }
-      - { label: "Policzone Szamy", value: "Policzone Szamy" }
       - { label: "przepeace", value: "przepeace" }
       - { label: "ricetta.it", value: "ricetta.it" }
       - { label: "swiatzesmakiem", value: "swiatzesmakiem" }
