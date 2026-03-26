@@ -156,6 +156,7 @@ _shared_fields:
       - { label: "fasolka szparagowa", value: "fasolka szparagowa" }
       - { label: "filet z halibuta", value: "filet z halibuta" }
       - { label: "frytki", value: "frytki" }
+      - { label: "galaretka", value: "galaretka" }
       - { label: "galaretka wiśniowa", value: "galaretka wiśniowa" }
       - { label: "gnocchi", value: "gnocchi" }
       - { label: "gorzka czekolada", value: "gorzka czekolada" }
