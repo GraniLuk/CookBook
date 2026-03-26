@@ -2,40 +2,43 @@
 title: Sernik Królewski
 author: Babcia Grażynka
 categories:
-- desery
+  - desery
 subcategories:
-- słodkie
+  - słodkie
 draft: false
 readyToTest: false
 queued: false
+favourite: false
 recipe_image: images/recipe-headers/sernik-krolewski.avif
-video_file: ''
+video_file: ""
 date: 2026-03-26 17:40:33+01:00
 tags:
-- słodkie
-- goście
-tagline: Klasyczny sernik królewski z czekoladowym ciastem kruchym tartym na tarce i kremowym nadzieniem serowym.
+  - goście
+  - ciasta
+tagline: Klasyczny sernik królewski z czekoladowym ciastem kruchym tartym na
+  tarce i kremowym nadzieniem serowym.
 ingredients:
-- twaróg
-- masło
-- mąka pszenna
-- kakao
+  - twaróg
+  - masło
+  - mąka pszenna
+  - kakao
 servings: 12
 prep_time: 40
 cook: true
 cook_time: 60
 calories: 6246
 protein: 181.7
-fat: 322.0
+fat: 322
 carbohydrate: 666.8
 fodmap:
-  status: 'no'
+  status: no
   serving_ok: Tylko mała porcja
-  notes: Twaróg zawiera laktozę (FODMAP). Duża ilość mąki pszennej w cieście może powodować problemy u osób wrażliwych na fruktany.
+  notes: Twaróg zawiera laktozę (FODMAP). Duża ilość mąki pszennej w cieście może
+    powodować problemy u osób wrażliwych na fruktany.
   substitutions:
-  - Zamień twaróg na twaróg bezlaktozowy.
-  - Użyj mąki bezglutenowej zamiast pszennej.
-  - Zmniejsz porcję do 1 kawałka.
+    - Zamień twaróg na twaróg bezlaktozowy.
+    - Użyj mąki bezglutenowej zamiast pszennej.
+    - Zmniejsz porcję do 1 kawałka.
 ---
 
 ## Składniki
