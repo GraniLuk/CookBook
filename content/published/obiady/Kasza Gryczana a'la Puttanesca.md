@@ -5,25 +5,27 @@ categories: obiady
 draft: false
 readyToTest: false
 queued: false
+favourite: false
 link: https://youtu.be/lzksRF6xkVQ?t=606
 recipe_image: images/recipe-headers/kasza_gryczana_a_la_puttanesca.avif
 video_file: videos/kasza_gryczana_a_la_puttanesca.mp4
 date: 2026-03-10 16:00:00+01:00
 tags:
-- włoskie
-- szybkie
-- lunchbox
-tagline: Pikantny sos puttanesca z tuńczykiem, oliwkami i kaparami podany na kaszy gryczanej z mozzarellą.
+  - włoskie
+  - szybkie
+  - wegetariańskie
+tagline: Pikantny sos puttanesca z tuńczykiem, oliwkami i kaparami podany na
+  kaszy gryczanej z mozzarellą.
 ingredients:
-- kasza gryczana
-- cebula szalotka
-- czosnek
-- tuńczyk w puszce
-- pomidory krojone z puszki
-- oliwki zielone
-- oliwki czarne
-- kapary
-- mozzarella light
+  - kasza gryczana
+  - cebula szalotka
+  - czosnek
+  - tuńczyk w puszce
+  - pomidory krojone z puszki
+  - oliwki zielone
+  - oliwki czarne
+  - kapary
+  - mozzarella light
 servings: 4
 prep_time: 5
 cook: true
@@ -33,12 +35,13 @@ protein: 34
 fat: 17
 carbohydrate: 59
 fodmap:
-  status: 'no'
+  status: no
   serving_ok: Tylko mała porcja
-  notes: Czosnek jest składnikiem o wysokim FODMAP (fruktany). Kapary i oliwki w małych ilościach są bezpieczne.
+  notes: Czosnek jest składnikiem o wysokim FODMAP (fruktany). Kapary i oliwki w
+    małych ilościach są bezpieczne.
   substitutions:
-  - Zamień czosnek na olej czosnkowy (infused oil) bez miąższu
-  - Zamień cebulę szalotkę na część zieloną dymki
+    - Zamień czosnek na olej czosnkowy (infused oil) bez miąższu
+    - Zamień cebulę szalotkę na część zieloną dymki
 ---
 
 ## Składniki
