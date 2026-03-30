@@ -4,8 +4,10 @@ author: Policzona Szama
 categories: obiady
 draft: false
 readyToTest: true
+queued: true
 link: https://www.youtube.com/watch?v=QnNP5iDxoJ4
 recipe_image: images/recipe-headers/pad_thai_kurczak.avif
+video_file: videos/pad_thai_kurczak.mp4
 date: 2025-10-28 13:45:00+00:00
 tags:
 - szybkie
