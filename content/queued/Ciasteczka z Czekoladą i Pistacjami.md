@@ -10,9 +10,9 @@ recipe_image: images/recipe-headers/ciasteczka_czekolada_pistacje.avif
 video_file: videos/ciasteczka_czekolada_pistacje.mp4
 date: 2026-03-30 20:41:49+02:00
 tags:
-  - słodkie
   - przekąska
   - goście
+  - ciastka
 tagline: Chrupiące na zewnątrz, miękkie w środku, pełne czekolady i pistacji.
 ingredients:
   - masło
