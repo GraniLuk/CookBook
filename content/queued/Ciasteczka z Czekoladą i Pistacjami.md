@@ -1,8 +1,7 @@
 ---
 title: Ciasteczka z Czekoladą i Pistacjami
 author: Nieznany
-categories:
-- desery
+categories: desery
 draft: false
 readyToTest: false
 queued: false
@@ -10,16 +9,16 @@ recipe_image: images/recipe-headers/ciasteczka_czekolada_pistacje.avif
 video_file: videos/ciasteczka_czekolada_pistacje.mp4
 date: 2026-03-30 20:41:49+02:00
 tags:
-- słodkie
-- przekąska
-- goście
+  - przekąska
+  - goście
+  - ciastka
 tagline: Chrupiące na zewnątrz, miękkie w środku, pełne czekolady i pistacji.
 ingredients:
-- masło
-- mąka pszenna
-- gorzka czekolada
-- jajka
-- pistacje
+  - masło
+  - mąka pszenna
+  - gorzka czekolada
+  - jajka
+  - pistacje
 servings: 20
 prep_time: 15
 cook: true
@@ -29,12 +28,14 @@ protein: 4
 fat: 12
 carbohydrate: 26
 fodmap:
-  status: 'no'
+  status: no
   serving_ok: Tylko mała porcja
-  notes: Zawiera mąkę pszenną (fruktany) oraz pistacje (fruktany/GOS). Erytrytol często wlicza się jako low FODMAP, ale w połączeniu mąką i pistacjami może obciążać jelita.
+  notes: Zawiera mąkę pszenną (fruktany) oraz pistacje (fruktany/GOS). Erytrytol
+    często wlicza się jako low FODMAP, ale w połączeniu mąką i pistacjami może
+    obciążać jelita.
   substitutions:
-  - mąka owsiana bezglutenowa
-  - orzechy makadamia
+    - mąka owsiana bezglutenowa
+    - orzechy makadamia
 ---
 
 ## Składniki
