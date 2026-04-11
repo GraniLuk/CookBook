@@ -6,7 +6,7 @@ categories:
 draft: false
 readyToTest: true
 queued: true
-link: "https://www.luncher.app"
+link: "https://www.youtube.com/watch?v=rVjXyy83-Fg"
 recipe_image: images/recipe-headers/coco-curry-chicken.avif
 date: 2026-04-11T09:43:07+00:00
 tags:
