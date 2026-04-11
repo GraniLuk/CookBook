@@ -2,25 +2,27 @@
 title: Ciastka ze Słonecznika i Migdałów
 author: Instagram
 categories:
-- desery
+  - desery
 subcategories:
-- słodkie
+  - słodkie
 draft: false
 readyToTest: true
 queued: true
+favourite: false
 link: https://www.instagram.com/reels/DU7dI9QCKPw/
-recipe_image: 'recipe-headers/ciastka_ze_słonecznika_i_migdałów.avif'
-video_file: 'videos/ciastka_ze_słonecznika_i_migdałów.mp4'
+recipe_image: recipe-headers/ciastka_ze_słonecznika_i_migdałów.avif
+video_file: videos/ciastka_ze_słonecznika_i_migdałów.mp4
 date: 2026-03-12 21:21:13+01:00
 tags:
-- przekąska
-- słodkie
-tagline: Zdrowe, pełne magnezu ciastka ze słonecznika, migdałów i suszonych moreli - idealne przy insulinooporności.
+  - przekąska
+  - ciastka
+tagline: Zdrowe, pełne magnezu ciastka ze słonecznika, migdałów i suszonych
+  moreli - idealne przy insulinooporności.
 ingredients:
-- nasiona słonecznika
-- suszone morele
-- migdały
-- mąka kukurydziana
+  - nasiona słonecznika
+  - suszone morele
+  - migdały
+  - mąka kukurydziana
 servings: 12
 prep_time: 10
 cook: true
@@ -30,11 +32,13 @@ protein: 72
 fat: 132
 carbohydrate: 144
 fodmap:
-  status: 'no'
+  status: no
   serving_ok: Tylko mała porcja
-  notes: Suszone morele zawierają fruktany i sorbitol. Migdały powyżej 12g mogą być problematyczne. Bezpieczna porcja to 1-2 ciastka naraz.
+  notes: Suszone morele zawierają fruktany i sorbitol. Migdały powyżej 12g mogą
+    być problematyczne. Bezpieczna porcja to 1-2 ciastka naraz.
   substitutions:
-  - Zamiast suszonych moreli użyj suszonej żurawiny lub posiekanej ciemnej czekolady.
+    - Zamiast suszonych moreli użyj suszonej żurawiny lub posiekanej ciemnej
+      czekolady.
 ---
 
 ## Składniki
