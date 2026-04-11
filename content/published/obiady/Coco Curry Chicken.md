@@ -4,8 +4,8 @@ author: "Policzona Szama"
 categories:
   - obiady
 draft: false
-readyToTest: true
-queued: true
+readyToTest: false
+queued: false
 link: "https://www.youtube.com/watch?v=rVjXyy83-Fg"
 recipe_image: images/recipe-headers/coco-curry-chicken.avif
 video_file: videos/coco-curry-chicken.webm
