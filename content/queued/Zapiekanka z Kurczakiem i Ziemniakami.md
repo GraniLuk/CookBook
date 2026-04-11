@@ -9,7 +9,7 @@ readyToTest: true
 queued: true
 link: https://www.youtube.com/watch?v=A-SUyiNq2gs
 recipe_image: images/recipe-headers/zapiekanka-z-kurczakiem-i-ziemniakami.avif
-video_file: null
+video_file: videos/zapiekanka-z-kurczakiem-i-ziemniakami.webm
 date: 2026-04-11 19:23:21+02:00
 tags:
 - lunchbox
