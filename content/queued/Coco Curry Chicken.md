@@ -8,6 +8,7 @@ readyToTest: true
 queued: true
 link: "https://www.youtube.com/watch?v=rVjXyy83-Fg"
 recipe_image: images/recipe-headers/coco-curry-chicken.avif
+video_file: videos/coco-curry-chicken.webm
 date: 2026-04-11T09:43:07+00:00
 tags:
   - lunchbox
