@@ -13,6 +13,7 @@ date: 2026-04-11T09:43:07+00:00
 tags:
   - lunchbox
   - azjatyckie
+  - jednogarnkowe
 tagline: "Kremowe kokosowe curry, soczysty kurczak, ryż, brokuł i marchewka. Turbo leniwe danie z piekarnika."
 ingredients:
   - "ryż parboiled"
@@ -20,14 +21,14 @@ ingredients:
   - "mleko kokosowe"
   - "brokuł"
   - "marchew"
-servings: 1
+servings: 4
 prep_time: 10
 cook: true
 cook_time: 40
-calories: 587
+calories: 594
 protein: 42
 fat: 23
-carbohydrate: 48
+carbohydrate: 58
 fodmap:
   status: "no"
   serving_ok: "Unikaj"
@@ -38,13 +39,13 @@ fodmap:
 
 ## Składniki
 
-- 50 g ryżu parboiled (konieczny, inaczej danie z piekarnika może się nie udać)
-- 150 g fileta z piersi kurczaka
-- 100 g mleczka kokosowego (1/4 puszki)
-- 10 g pasty red curry
-- 50 g brokułu
-- 75 g marchwi
-- 50 ml wody
+- 200 g ryżu parboiled (konieczny, inaczej danie z piekarnika może się nie udać)
+- 600 g fileta z piersi kurczaka
+- 400 g mleczka kokosowego (1 puszka)
+- 25 g pasty red curry
+- 500 g brokułu (1 brokuł)
+- 230 g marchwi (2 marchewki)
+- 200 ml wody
 - szczypta soli
 
 ## Sposób przygotowania
@@ -62,10 +63,10 @@ fodmap:
 
 | Składnik | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
 |---|---|---|---|---|---|
-| Ryż parboiled | 50 | 175 | 3.5 | 0.5 | 39.5 |
-| Pierś z kurczaka | 150 | 148 | 32.3 | 2.0 | 0.0 |
-| Mleczko kokosowe | 100 | 197 | 2.0 | 20.0 | 3.0 |
-| Pasta red curry | 10 | 12 | 0.5 | 0.5 | 1.5 |
-| Brokuł | 50 | 17 | 1.5 | 0.2 | 3.5 |
-| Marchew | 75 | 31 | 0.7 | 0.2 | 7.0 |
-| **RAZEM:** | **435** | **580** | **40.5** | **23.4** | **54.5** |
+| Ryż parboiled | 200 | 700 | 14.0 | 2.0 | 158.0 |
+| Pierś z kurczaka | 600 | 593 | 129.2 | 8.0 | 0.0 |
+| Mleczko kokosowe | 400 | 788 | 8.0 | 80.0 | 12.0 |
+| Pasta red curry | 25 | 30 | 1.2 | 1.2 | 3.8 |
+| Brokuł | 500 | 170 | 15.0 | 2.0 | 35.0 |
+| Marchew | 230 | 95 | 2.1 | 0.6 | 21.5 |
+| **RAZEM:** | **1955** | **2376** | **169.5** | **93.8** | **230.3** |
