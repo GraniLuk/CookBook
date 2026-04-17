@@ -3,8 +3,8 @@ title: Kapsalon Bowl z Szarpanym Kurczakiem
 author: ObiadDlaTaty
 categories: obiady
 draft: false
-readyToTest: true
-queued: true
+readyToTest: false
+queued: false
 link: https://www.instagram.com/reel/DT2ZKBgDP6j/
 recipe_image: images/recipe-headers/kapsalon_bowl.avif
 date: 2026-01-23 12:00:00+00:00
