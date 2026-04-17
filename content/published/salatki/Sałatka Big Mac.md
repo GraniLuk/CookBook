@@ -17,7 +17,7 @@ ingredients:
 - ser mimolette
 - parmezan
 - sałata rzymska
-- ogórki konserwowe
+- ogórek konserwowy
 - cebula czerwona
 - pomidorki
 - majonez

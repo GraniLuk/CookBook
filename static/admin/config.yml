@@ -275,7 +275,7 @@ _shared_fields:
       - { label: "ogórek kiszony", value: "ogórek kiszony" }
       - { label: "ogórek konserwowy", value: "ogórek konserwowy" }
       - { label: "ogórek zielony", value: "ogórek zielony" }
-      - { label: "ogórki konserwowe", value: "ogórki konserwowe" }
+      - { label: "ogórek świeży", value: "ogórek świeży" }
       - { label: "olej", value: "olej" }
       - { label: "olej kokosowy", value: "olej kokosowy" }
       - { label: "olej lniany", value: "olej lniany" }
@@ -487,6 +487,7 @@ _shared_fields:
       - { label: "swiatzesmakiem", value: "swiatzesmakiem" }
       - { label: "Teść Krzysztof", value: "Teść Krzysztof" }
       - { label: "the.foodini", value: "the.foodini" }
+      - { label: "Trener", value: "Trener" }
       - { label: "Użytkownik", value: "Użytkownik" }
     hint: "Wybierz z listy autorów (wpisz lub kliknij, aby zobaczyć wszystkie)."
 
