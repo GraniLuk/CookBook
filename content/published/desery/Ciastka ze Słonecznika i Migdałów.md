@@ -10,7 +10,7 @@ favourite: false
 link: https://www.instagram.com/reels/DU7dI9QCKPw/
 recipe_image: recipe-headers/ciastka_ze_słonecznika_i_migdałów.avif
 video_file: videos/ciastka_ze_słonecznika_i_migdałów.mp4
-date: 2026-03-12 21:21:13+01:00
+date: 2026-04-16 21:21:13+01:00
 tags:
   - przekąska
   - ciastka

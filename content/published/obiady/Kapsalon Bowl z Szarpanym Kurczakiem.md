@@ -7,7 +7,7 @@ readyToTest: false
 queued: false
 link: https://www.instagram.com/reel/DT2ZKBgDP6j/
 recipe_image: images/recipe-headers/kapsalon_bowl.avif
-date: 2026-01-23 12:00:00+00:00
+date: 2026-04-16 12:00:00+00:00
 tags:
 - szybkie
 - proteinowe
