@@ -3,11 +3,9 @@ title: Ciastka ze Słonecznika i Migdałów
 author: Instagram
 categories:
   - desery
-subcategories:
-  - słodkie
 draft: false
-readyToTest: true
-queued: true
+readyToTest: false
+queued: false
 favourite: false
 link: https://www.instagram.com/reels/DU7dI9QCKPw/
 recipe_image: recipe-headers/ciastka_ze_słonecznika_i_migdałów.avif
