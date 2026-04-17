@@ -5,24 +5,24 @@ categories: obiady
 draft: false
 readyToTest: false
 queued: false
+favourite: false
 link: https://www.instagram.com/reel/DT2ZKBgDP6j/
 recipe_image: images/recipe-headers/kapsalon_bowl.avif
 date: 2026-01-23 12:00:00+00:00
 tags:
-- szybkie
-- proteinowe
-- meksykańskie
-tagline: Soczysty szarpany kurczak w wędzonej marynacie, podawany z warzywami, sosem czosnkowym i do wyboru frytkami lub ryżem.
+  - meksykańskie
+tagline: Soczysty szarpany kurczak w wędzonej marynacie, podawany z warzywami,
+  sosem czosnkowym i do wyboru frytkami lub ryżem.
 ingredients:
-- mięso z uda kurczaka
-- ryż basmati
-- oliwa z oliwek
-- sos sojowy
-- ketchup
-- musztarda
-- cukier
-- majonez
-- śmietana 18%
+  - mięso z uda kurczaka
+  - ryż basmati
+  - oliwa z oliwek
+  - sos sojowy
+  - ketchup
+  - musztarda
+  - cukier
+  - majonez
+  - śmietana 18%
 servings: 4
 prep_time: 20
 cook: true
@@ -32,12 +32,13 @@ protein: 38
 fat: 18
 carbohydrate: 42
 fodmap:
-  status: 'yes'
+  status: yes
   serving_ok: OK w tej porcji
-  notes: Kurczak, oliwa, ryż i większość warzyw bezpieczne. Unikaj dodawania dużych ilości cebuli. Czosnkiem w sosie czosnkowym używaj oszczędnie.
+  notes: Kurczak, oliwa, ryż i większość warzyw bezpieczne. Unikaj dodawania
+    dużych ilości cebuli. Czosnkiem w sosie czosnkowym używaj oszczędnie.
   substitutions:
-  - Łyżka sosu sojowego → sos tamari lub namast
-  - Zwykła cebula → zielona część zdyskretyzowana lub pomiń
+    - Łyżka sosu sojowego → sos tamari lub namast
+    - Zwykła cebula → zielona część zdyskretyzowana lub pomiń
 ---
 
 ## Składniki
