@@ -1,6 +1,6 @@
 ---
 title: Lekkostrawny Kurczak na Parze z Ziemniakami
-author: Trener
+author: AI Trener
 categories: obiady
 subcategories: słone
 draft: false
@@ -10,8 +10,7 @@ recipe_image: ''
 date: 2026-04-17
 tags:
 - szybkie
-- proteinowe
-- goście
+- lekkostrawne
 tagline: Idealny obiad na podrażniony żołądek, lekkostrawny i pełen białka.
 ingredients:
 - pierś z kurczaka
