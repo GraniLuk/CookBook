@@ -5,18 +5,21 @@ categories: śniadania
 subcategories: słodkie
 draft: false
 readyToTest: true
+queued: false
+favourite: false
 link: https://www.youtube.com/watch?v=oCjBBuNLGpc
 recipe_image: images/recipe-headers/owsianka_twarogowa_maliny.avif
 date: 2025-11-29 12:00:00+00:00
 tags:
-- owsianka
+  - owsianka
+  - lekkostrawne
 tagline: Nocna owsianka z twarogiem i malinami, przygotowana dzień wcześniej.
 ingredients:
-- płatki owsiane
-- twaróg
-- maliny
-- mleko
-- chia
+  - płatki owsiane
+  - twaróg
+  - maliny
+  - mleko
+  - chia
 servings: 1
 prep_time: 5
 cook: false
@@ -26,7 +29,7 @@ protein: 58
 fat: 27
 carbohydrate: 87
 fodmap:
-  status: 'yes'
+  status: yes
   notes: Wszystkie składniki są bezpieczne dla diety low FODMAP.
 ---
 
