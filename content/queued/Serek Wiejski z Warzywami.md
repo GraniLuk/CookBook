@@ -5,20 +5,23 @@ categories: śniadania
 subcategories: słone
 draft: false
 readyToTest: false
+queued: false
+favourite: false
 link: https://youtu.be/wIC8JJtZEso?t=351
 recipe_image: images/recipe-headers/serek_wiejski_z_warzywami.avif
 date: 2026-04-19 10:00:00+00:00
 tags:
-- szybkie
-- bez gotowania
-- wegetariańskie
+  - szybkie
+  - bez gotowania
+  - wegetariańskie
+  - lekkostrawne
 tagline: Idealny posiłek bez gotowania, bogaty w białko i wapń.
 ingredients:
-- serek wiejski
-- pomidorki koktajlowe
-- ogórek zielony
-- awokado
-- chleb
+  - serek wiejski
+  - pomidorki koktajlowe
+  - ogórek zielony
+  - awokado
+  - chleb
 servings: 1
 prep_time: 5
 cook: false
@@ -28,7 +31,7 @@ protein: 20
 fat: 20
 carbohydrate: 25
 fodmap:
-  status: 'yes'
+  status: yes
   serving_ok: OK w tej porcji
   notes: Wszystkie składniki są bezpieczne dla diety low FODMAP w podanych ilościach.
   substitutions: []
