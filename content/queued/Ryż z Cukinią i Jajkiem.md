@@ -62,3 +62,14 @@ fodmap:
 | Cukinia            | 150       | 25             | 2.0        | 0.0          | 5.0             |
 | Oliwa z oliwek     | 10        | 90             | 0.0        | 10.0         | 0.0             |
 | **RAZEM:**         | **340**   | **515**        | **22.0**   | **21.5**     | **59.0**        |
+
+## Wersja lekkostrawna (na wieczór / wrażliwy żołądek)
+
+Jeśli jesz to danie wieczorem lub masz wrażliwy żołądek, zastosuj te modyfikacje:
+
+1. **Bez smażenia** — cukinię poddusz na suchej patelni teflonowej lub z łyżką wody zamiast oliwy. Tłuszcz smażalniczy wieczorem spowalnia opróżnianie żołądka i może powodować odbijanie.
+2. **Jajka gotowane zamiast smażonych** — ugotuj jajka na miękko (6 min) lub na twardo, pokrój i wymieszaj z ryżem i cukinią. Unikasz dodatkowego tłuszczu.
+3. **Mniej cukinii** — zmniejsz do 100 g (bezpieczna porcja Low-FODMAP wg Monash to ~65 g, ale 100 g to rozsądny kompromis).
+4. **Bez pieprzu** — dopraw tylko solą i koperkiem/tymiankiem, jeśli podejrzewasz drażnienie.
+
+> **Makra wersji lekkostrawnej (bez oliwy, jajka gotowane, 100g cukinii):** ~400 kcal, 20g B, 11g T, 55g W
