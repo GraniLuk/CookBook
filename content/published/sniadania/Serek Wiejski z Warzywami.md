@@ -7,7 +7,7 @@ draft: false
 readyToTest: false
 link: https://youtu.be/wIC8JJtZEso?t=351
 recipe_image: images/recipe-headers/serek_wiejski_z_warzywami.avif
-date: 2026-04-19 10:00:00+00:00
+date: 2025-11-25 12:00:00+00:00
 tags:
 - szybkie
 - bez gotowania
