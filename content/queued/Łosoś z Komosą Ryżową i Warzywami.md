@@ -7,10 +7,10 @@ readyToTest: true
 queued: true
 link: https://www.luncher.app
 recipe_image: images/recipe-headers/losos-komosa.avif
+video_file: videos/losos-komosa.webm
 date: 2026-04-21 19:51:14+02:00
 tags:
 - lunchbox
-- szybkie
 - proteinowe
 tagline: Szybki lunch z pieczonym łososiem, komosą ryżową i świeżymi warzywami. Idealny do pracy, na szybko po treningu.
 ingredients:
