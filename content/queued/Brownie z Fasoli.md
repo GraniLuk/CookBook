@@ -5,24 +5,28 @@ categories: desery
 draft: false
 readyToTest: true
 queued: true
+favourite: false
 link: https://www.policzona-szama.pl
 recipe_image: images/recipe-headers/brownie-z-fasoli.avif
 video_file: videos/brownie-z-fasoli.webm
 date: 2026-04-21 20:04:02+02:00
 tags:
-- proteinowe
-- lunchbox
-tagline: Mega czekoladowe, konkretne i sycące brownie z czerwonej fasoli. Idealne jako deserowy posiłek lub potreningowa przekąska z dużą ilością białka.
+  - proteinowe
+  - lunchbox
+  - ciasta
+tagline: Mega czekoladowe, konkretne i sycące brownie z czerwonej fasoli.
+  Idealne jako deserowy posiłek lub potreningowa przekąska z dużą ilością
+  białka.
 ingredients:
-- fasola czerwona
-- płatki owsiane
-- napój owsiany
-- masło orzechowe
-- banan
-- jajka
-- odżywka białkowa
-- kakao
-- żurawina suszona
+  - fasola czerwona
+  - płatki owsiane
+  - napój owsiany
+  - masło orzechowe
+  - banan
+  - jajka
+  - odżywka białkowa
+  - kakao
+  - żurawina suszona
 servings: 4
 prep_time: 5
 cook: true
@@ -32,11 +36,13 @@ protein: 45
 fat: 20
 carbohydrate: 90
 fodmap:
-  status: 'no'
+  status: no
   serving_ok: Unikaj
-  notes: Fasola czerwona (GOS/fruktany), miod (fruktoza) oraz dojrzałe banany (fruktany) są bogate w FODMAP.
+  notes: Fasola czerwona (GOS/fruktany), miod (fruktoza) oraz dojrzałe banany
+    (fruktany) są bogate w FODMAP.
   substitutions:
-  - Dla wersji low-FODMAP wymagane są drastyczne by zamienić fasolę na łagodniejszą mąkę, np. bezglutenową/owsianą. Miód zamień na syrop klonowy.
+    - Dla wersji low-FODMAP wymagane są drastyczne by zamienić fasolę na
+      łagodniejszą mąkę, np. bezglutenową/owsianą. Miód zamień na syrop klonowy.
 ---
 
 ## Składniki
