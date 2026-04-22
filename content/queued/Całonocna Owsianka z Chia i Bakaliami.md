@@ -31,10 +31,12 @@ protein: 30
 fat: 20
 carbohydrate: 80
 fodmap:
-  status: true
-  serving_ok: OK w tej porcji
-  notes: Wszystkie składniki są bezpieczne dla low FODMAP w małych ilościach.
-  substitutions: []
+  notes: Zawiera miód, suszone morele i rodzynki, które są high-FODMAP.
+  serving_ok: Tylko mała porcja (lub brak w przypadku silnych objawów)
+  status: depends
+  substitutions:
+  - miód -> syrop klonowy
+  - morele suszone/rodzynki -> owoce jagodowe lub pominąć
 ---
 
 ## Składniki

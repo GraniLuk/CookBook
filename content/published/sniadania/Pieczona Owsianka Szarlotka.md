@@ -12,16 +12,16 @@ recipe_image: images/recipe-headers/owsianka_szarlotka.avif
 video_file: videos/owsianka_szarlotka.mp4
 date: 2026-01-26
 tags:
-  - szybkie
-  - owsianka
+- szybkie
+- owsianka
 tagline: Pieczona owsianka z jabłkiem w stylu szarlotki, prosta i smaczna.
 ingredients:
-  - jabłko
-  - jajko
-  - mleko
-  - płatki owsiane
-  - odżywka białkowa
-  - oliwa
+- jabłko
+- jajko
+- mleko
+- płatki owsiane
+- odżywka białkowa
+- oliwa
 servings: 1
 prep_time: 10
 cook: true
@@ -31,11 +31,11 @@ protein: 23
 fat: 11
 carbohydrate: 60
 fodmap:
-  status: no
+  notes: Jabłko jest high FODMAP, zastąp owocem low FODMAP jak malina lub borówka.
   serving_ok: Nie OK - jabłko jest high FODMAP
-  notes: Jabłko jest high FODMAP, zastąp jabłkiem low FODMAP jak gruszka.
+  status: 'no'
   substitutions:
-    - jabłko -> gruszka
+  - jabłko -> maliny lub borówki
 ---
 
 ## Składniki

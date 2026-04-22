@@ -31,9 +31,9 @@ protein: 42
 fat: 17
 carbohydrate: 50
 fodmap:
-  status: true
-  serving_ok: OK w tej porcji
   notes: Wszystkie składniki bezpieczne dla diety low FODMAP
+  serving_ok: OK w tej porcji
+  status: 'yes'
   substitutions: []
 ---
 

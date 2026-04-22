@@ -27,11 +27,11 @@ protein: 30
 fat: 18
 carbohydrate: 165
 fodmap:
-  status: 'no'
-  serving_ok: Nie OK w tej porcji
   notes: Mango jest wysokofodmapowe; banana w małych ilościach jest bezpieczny, ale mango może powodować problemy. Płatki owsiane i mleko są zgodne.
+  serving_ok: Nie OK w tej porcji
+  status: 'no'
   substitutions:
-  - Zastąp mango jabłkiem lub ananasem dla wersji low FODMAP.
+  - Zastąp mango ananasem lub truskawkami dla wersji low FODMAP. (Jabłko jest również high-FODMAP).
 ---
 
 ## Składniki

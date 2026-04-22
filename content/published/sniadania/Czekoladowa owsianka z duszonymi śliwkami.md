@@ -31,9 +31,9 @@ protein: 27
 fat: 14
 carbohydrate: 78
 fodmap:
-  status: true
-  serving_ok: OK w tej porcji
-  notes: Śliwki w ilości 220g mogą być borderline dla low FODMAP (limit ~45g na porcję), ale w małych porcjach lub z mniejszymi śliwkami bezpieczne
+  notes: Porcja 220g śliwek to ogromny ładunek FODMAP (sorbitol, fruktoza). Bezpieczna porcja śliwek to maksymalnie ok. 30-40g.
+  serving_ok: Unikaj lub stosuj drastycznie zmniejszoną porcję
+  status: 'no'
   substitutions: []
 ---
 

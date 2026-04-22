@@ -27,11 +27,11 @@ protein: 26
 fat: 36
 carbohydrate: 112
 fodmap:
-  status: 'no'
-  serving_ok: Nie OK - jabłka są high FODMAP
   notes: Jabłka są high FODMAP, zastąp jabłkami low FODMAP jak gruszki lub banany w małych ilościach.
+  serving_ok: Nie OK - jabłka są high FODMAP
+  status: 'no'
   substitutions:
-  - jabłko -> gruszka
+  - jabłko -> maliny lub borówki
 ---
 
 ## Składniki
