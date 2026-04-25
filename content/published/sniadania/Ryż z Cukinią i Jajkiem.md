@@ -4,9 +4,9 @@ author: AI Trener
 categories: śniadania
 subcategories: słone
 draft: false
-readyToTest: true
-queued: true
-recipe_image: ''
+readyToTest: false
+queued: false
+recipe_image: images/recipe-headers/ryz_cukinia_jajko.avif
 date: 2026-04-18 10:00:00+02:00
 tags:
 - lekkostrawne
