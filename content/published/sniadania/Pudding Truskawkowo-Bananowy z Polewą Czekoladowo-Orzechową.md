@@ -2,25 +2,28 @@
 title: Pudding Truskawkowo-Bananowy z Polewą Czekoladowo-Orzechową
 author: Autor Przepisu
 categories:
-- śniadania
+  - śniadania
 subcategories:
-- słodkie
+  - słodkie
 draft: false
 readyToTest: false
+queued: false
+favourite: false
 link: https://youtu.be/SQ4saBQrBYc?t=115
 recipe_image: images/defaultImage.avif
 date: 2025-06-19 12:00:00+00:00
-tags: []
+tags:
+  - owsianka
 tagline: Wysokobiałkowy pudding idealny na letnie śniadanie!
 ingredients:
-- truskawki
-- banan
-- twaróg
-- płatki owsiane
-- napój owsiany
-- miód
-- czekolada gorzka
-- masło orzechowe
+  - truskawki
+  - banan
+  - twaróg
+  - płatki owsiane
+  - napój owsiany
+  - miód
+  - czekolada gorzka
+  - masło orzechowe
 servings: 3
 prep_time: 15
 cook: false
@@ -31,12 +34,15 @@ fat: 4
 carbohydrate: 15
 fodmap:
   status: depends
-  serving_ok: 'OK po modyfikacjach: nabiał bez laktozy; napój ryżowy; banan ≤ 1/2 na porcję'
-  notes: Płatki owsiane zwykle OK w umiarkowanej porcji; banany podnoszą FODMAP przy większej ilości. Twaróg wymaga wersji bez laktozy; unikaj napoju owsianego.
+  serving_ok: "OK po modyfikacjach: nabiał bez laktozy; napój ryżowy; banan ≤ 1/2
+    na porcję"
+  notes: Płatki owsiane zwykle OK w umiarkowanej porcji; banany podnoszą FODMAP
+    przy większej ilości. Twaróg wymaga wersji bez laktozy; unikaj napoju
+    owsianego.
   substitutions:
-  - twaróg -> skyr/twaróg bez laktozy
-  - napój owsiany -> napój ryżowy lub mleko bez laktozy
-  - część banana -> więcej truskawek
+    - twaróg -> skyr/twaróg bez laktozy
+    - napój owsiany -> napój ryżowy lub mleko bez laktozy
+    - część banana -> więcej truskawek
 ---
 
 ## Składniki
