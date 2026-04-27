@@ -214,7 +214,6 @@ _shared_fields:
       - { label: "makaron", value: "makaron" }
       - { label: "makaron fusilli", value: "makaron fusilli" }
       - { label: "makaron lasagne", value: "makaron lasagne" }
-      - { label: "makaron muszelki", value: "makaron muszelki" }
       - { label: "makaron orzo", value: "makaron orzo" }
       - { label: "makaron pełnoziarnisty", value: "makaron pełnoziarnisty" }
       - { label: "makaron pełnoziarnisty kokardki", value: "makaron pełnoziarnisty kokardki" }

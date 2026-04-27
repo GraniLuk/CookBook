@@ -45,8 +45,8 @@ fat: 20
 carbohydrate: 45
 link: https://source-url.com  # Optional
 fodmap:
-  status: "yes"  # or "no"
-  serving_ok: "OK w tej porcji"  # or "Tylko mała porcja" or "Unikaj"
+  status: "yes"  # or "no", "depends"
+  serving_ok: "OK w tej porcji"  # or "Tylko mała porcja", "Unikaj", "Wymaga modyfikacji"
   notes: "Safety notes for FODMAP diet"
   substitutions: []  # Array of substitution suggestions
 ---
@@ -157,11 +157,13 @@ Analyze each ingredient for FODMAP safety:
 Set `fodmap.status`:
 - "yes" = Safe in this portion size
 - "no" = Contains high FODMAP ingredients
+- "depends" = Contains high FODMAP ingredients, but can be made safe using substitutions (must provide `substitutions` array)
 
 Set `fodmap.serving_ok`:
 - "OK w tej porcji" = Safe as written
 - "Tylko mała porcja" = Reduce serving size
 - "Unikaj" = Not safe for FODMAP diet
+- "Wymaga modyfikacji" = Use when status is 'depends'
 
 ## Workflow
 

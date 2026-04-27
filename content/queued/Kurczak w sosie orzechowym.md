@@ -14,10 +14,8 @@ tagline: Rewelacyjny przepis na kurczaka w sosie orzechowym z limonką, czosnkie
 ingredients:
 - kurczak
 - masło orzechowe
-- limonka
-- czosnek
-- chili
 - oliwa z oliwek
+- limonka
 servings: 3
 prep_time: 20
 cook: true
@@ -28,9 +26,20 @@ protein: 40
 fat: 20
 carbohydrate: 10
 fodmap:
-  status: 'yes'
-  notes: Low FODMAP przy małych porcjach czosnku i chili.
+  status: depends
+  serving_ok: "Wymaga modyfikacji"
+  notes: Oryginalny przepis zawiera świeży czosnek, który jest mocnym triggerem fruktanowym (High-FODMAP). Aby danie było bezpieczne, należy zastosować zamiennik.
+  substitutions:
+  - 'Świeży czosnek i zwykła oliwa -> zastąp oliwą czosnkową (fruktany z czosnku nie rozpuszczają się w tłuszczach, więc oliwa daje smak, ale jest w 100% low-FODMAP).'
 ---
+
+## Składniki
+- 600 g kurczaka
+- 60 g masła orzechowego
+- 2 limonki
+- 3 ząbki czosnku
+- 1 papryczka chili
+- 15 ml oleju
 
 ## Instrukcje przygotowania
 
