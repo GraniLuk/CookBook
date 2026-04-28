@@ -7,7 +7,7 @@ draft: false
 readyToTest: false
 queued: false
 recipe_image: 'images/recipe-headers/lowfodmap-kurczak.avif'
-date: 2026-04-28
+date: 2026-04-17
 tags:
 - szybkie
 - lekkostrawne
