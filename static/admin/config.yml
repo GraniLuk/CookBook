@@ -186,6 +186,7 @@ _shared_fields:
       - { label: "kapusta biała", value: "kapusta biała" }
       - { label: "kapusta czerwona", value: "kapusta czerwona" }
       - { label: "kapusta kiszona", value: "kapusta kiszona" }
+      - { label: "kapusta pekińska", value: "kapusta pekińska" }
       - { label: "karkówka wieprzowa", value: "karkówka wieprzowa" }
       - { label: "kasza bulgur", value: "kasza bulgur" }
       - { label: "kasza gryczana", value: "kasza gryczana" }
