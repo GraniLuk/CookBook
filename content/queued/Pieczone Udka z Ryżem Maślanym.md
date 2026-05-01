@@ -9,7 +9,7 @@ readyToTest: true
 queued: true
 link: https://www.youtube.com/watch?v=qzggp-NjH0M
 recipe_image: images/recipe-headers/pieczone-udka-ryz.avif
-video_file: ''
+video_file: videos/pieczone-udka-z-ryzem-maslanym.webm
 date: 2026-04-29 00:00:00+00:00
 tags:
 - lunchbox
