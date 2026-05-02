@@ -379,6 +379,7 @@ _shared_fields:
       - { label: "ser mozzarella", value: "ser mozzarella" }
       - { label: "ser parmezan", value: "ser parmezan" }
       - { label: "ser piórko", value: "ser piórko" }
+      - { label: "ser twarogowy", value: "ser twarogowy" }
       - { label: "ser wiejski", value: "ser wiejski" }
       - { label: "ser śmietankowy", value: "ser śmietankowy" }
       - { label: "ser żółty", value: "ser żółty" }
@@ -448,6 +449,7 @@ _shared_fields:
       - { label: "śmietana 30%", value: "śmietana 30%" }
       - { label: "śmietana kremowa", value: "śmietana kremowa" }
       - { label: "śmietanka 30%", value: "śmietanka 30%" }
+      - { label: "śmietanka kremówka", value: "śmietanka kremówka" }
       - { label: "żurawina", value: "żurawina" }
       - { label: "żurawina suszona", value: "żurawina suszona" }
       - { label: "żółtka", value: "żółtka" }
@@ -463,6 +465,7 @@ _shared_fields:
       - { label: "AI Trener", value: "AI Trener" }
       - { label: "Alaantkoweblw", value: "Alaantkoweblw" }
       - { label: "Ania Gotuje", value: "Ania Gotuje" }
+      - { label: "AniaGotuje", value: "AniaGotuje" }
       - { label: "Autor Przepisu", value: "Autor Przepisu" }
       - { label: "Babcia Grażynka", value: "Babcia Grażynka" }
       - { label: "Bartłomiej Włodarczyk", value: "Bartłomiej Włodarczyk" }

@@ -18,7 +18,7 @@ tags:
 tagline: Klasyczny sernik królewski z czekoladowym ciastem kruchym tartym na
   tarce i kremowym nadzieniem serowym.
 ingredients:
-  - twaróg
+  - ser twarogowy
   - masło
   - mąka pszenna
   - kakao
