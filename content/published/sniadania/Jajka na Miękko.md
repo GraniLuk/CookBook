@@ -10,8 +10,7 @@ recipe_image: images/recipe-headers/jajka-na-miekko.avif
 date: 2026-04-29 21:23:19+02:00
 tags:
 - szybkie
-- proteinowe
-- przekąska
+- lekkostrawne
 tagline: Idealnie ugotowane jajka z płynnym żółtkiem i ściętym białkiem - klasyczne, pożywne śniadanie.
 ingredients:
 - jajka
