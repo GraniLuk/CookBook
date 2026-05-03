@@ -8,19 +8,19 @@ readyToTest: false
 queued: false
 link: https://www.youtube.com/watch?v=wIC8JJtZEso
 recipe_image: images/recipe-headers/owsianka_nocna_pinacolada.avif
-date: 2026-05-03T10:00:00+00:00
+date: 2026-05-03
 tags:
-  - owsianka
+- owsianka
 tagline: Ekspresowy posiłek na słodko, przygotowany wieczorem. Idealna kompozycja kokosa i ananasa w dwóch wariantach - lekkim i dla głodomorów.
 ingredients:
-  - płatki owsiane
-  - mleko
-  - nasiona chia
-  - wiórki kokosowe
-  - pudding białkowy
-  - ananas
-  - odżywka białkowa
-  - jogurt naturalny
+- płatki owsiane
+- mleko
+- nasiona chia
+- wiórki kokosowe
+- pudding białkowy
+- ananas
+- odżywka białkowa
+- jogurt naturalny
 servings: 1
 prep_time: 10
 cook: false
