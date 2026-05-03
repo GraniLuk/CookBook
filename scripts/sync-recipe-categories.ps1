@@ -1,4 +1,4 @@
-param (
+﻿param (
     [Switch]$CheckOnly
 )
 
@@ -88,8 +88,7 @@ function Process-Recipe {
         
         # Normalize category name
         if ($recipeCategory) {
-            $recipeCategory = $recipeCategory -replace 'śniadania', 'sniadania' `
-                -replace 'sałatki', 'salatki'
+            $recipeCategory = $recipeCategory -replace 'śniadania', 'sniadania' -replace 'sałatki', 'salatki'
             
             # Check if file is in wrong folder
             # If currentCategory is provided, check against it.

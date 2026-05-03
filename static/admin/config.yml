@@ -245,7 +245,6 @@ _shared_fields:
       - { label: "mleko kokosowe", value: "mleko kokosowe" }
       - { label: "mleko skondensowane odchudzone", value: "mleko skondensowane odchudzone" }
       - { label: "mleko skondensowane słodzone", value: "mleko skondensowane słodzone" }
-      - { label: "mleko sojowe", value: "mleko sojowe" }
       - { label: "morele suszone", value: "morele suszone" }
       - { label: "mozzarella", value: "mozzarella" }
       - { label: "mozzarella light", value: "mozzarella light" }
@@ -341,7 +340,7 @@ _shared_fields:
       - { label: "pręga wołowa", value: "pręga wołowa" }
       - { label: "pstrąg tęczowy", value: "pstrąg tęczowy" }
       - { label: "pstrąg wędzony", value: "pstrąg wędzony" }
-      - { label: "puding białkowy waniliowy", value: "puding białkowy waniliowy" }
+      - { label: "pudding białkowy", value: "pudding białkowy" }
       - { label: "płatki czekoladowe", value: "płatki czekoladowe" }
       - { label: "płatki jaglane", value: "płatki jaglane" }
       - { label: "płatki kukurydziane", value: "płatki kukurydziane" }
@@ -449,7 +448,6 @@ _shared_fields:
       - { label: "śmietana 30%", value: "śmietana 30%" }
       - { label: "śmietana kremowa", value: "śmietana kremowa" }
       - { label: "śmietanka 30%", value: "śmietanka 30%" }
-      - { label: "śmietanka kremówka", value: "śmietanka kremówka" }
       - { label: "żurawina", value: "żurawina" }
       - { label: "żurawina suszona", value: "żurawina suszona" }
       - { label: "żółtka", value: "żółtka" }
@@ -465,7 +463,6 @@ _shared_fields:
       - { label: "AI Trener", value: "AI Trener" }
       - { label: "Alaantkoweblw", value: "Alaantkoweblw" }
       - { label: "Ania Gotuje", value: "Ania Gotuje" }
-      - { label: "AniaGotuje", value: "AniaGotuje" }
       - { label: "Autor Przepisu", value: "Autor Przepisu" }
       - { label: "Babcia Grażynka", value: "Babcia Grażynka" }
       - { label: "Bartłomiej Włodarczyk", value: "Bartłomiej Włodarczyk" }
