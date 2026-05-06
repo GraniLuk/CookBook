@@ -259,6 +259,7 @@ _shared_fields:
       - { label: "mąka pszenna", value: "mąka pszenna" }
       - { label: "mąka ryżowa", value: "mąka ryżowa" }
       - { label: "mąka typ 00", value: "mąka typ 00" }
+      - { label: "mąka żytnia", value: "mąka żytnia" }
       - { label: "nachosy", value: "nachosy" }
       - { label: "napój migdałowy", value: "napój migdałowy" }
       - { label: "napój owsiany", value: "napój owsiany" }
@@ -436,6 +437,7 @@ _shared_fields:
       - { label: "woda", value: "woda" }
       - { label: "wołowina", value: "wołowina" }
       - { label: "wołowina mielona", value: "wołowina mielona" }
+      - { label: "zakwas żytni", value: "zakwas żytni" }
       - { label: "ziemniaki", value: "ziemniaki" }
       - { label: "łopatka wieprzowa", value: "łopatka wieprzowa" }
       - { label: "łosoś", value: "łosoś" }
@@ -466,6 +468,7 @@ _shared_fields:
       - { label: "Autor Przepisu", value: "Autor Przepisu" }
       - { label: "Babcia Grażynka", value: "Babcia Grażynka" }
       - { label: "Bartłomiej Włodarczyk", value: "Bartłomiej Włodarczyk" }
+      - { label: "Ciocia Iza", value: "Ciocia Iza" }
       - { label: "Czlowieku rusz się", value: "Czlowieku rusz się" }
       - { label: "dietaniecud", value: "dietaniecud" }
       - { label: "dietetykapodkontrola", value: "dietetykapodkontrola" }
