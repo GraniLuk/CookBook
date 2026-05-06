@@ -4,7 +4,7 @@ author: Ciocia Iza
 categories:
 - śniadania
 subcategories:
-- wytrawne
+- słone
 draft: false
 readyToTest: true
 queued: true
