@@ -35,7 +35,7 @@ fodmap:
 ---
 ## Składniki
 
-* 250g mąki pszennej
+* 160g mąki pszennej
 * 250ml mleka
 * 250ml wody (np. gazowanej)
 * 2 duże jajka (około 120g)
