@@ -1,21 +1,21 @@
 ---
 title: Naleśniki
 author: Autor Przepisu
-categories:
-- śniadania
-subcategories:
-- słodkie
+categories: śniadania
+subcategories: słodkie
 draft: false
 readyToTest: false
+queued: false
+favourite: false
 recipe_image: images/recipe-headers/nalesniki.avif
 date: 2025-06-19 12:00:00+00:00
 tags:
-- klasyczne
+  - klasyczne
 tagline: Klasyczne naleśniki na każdą okazję!
 ingredients:
-- mąka pszenna
-- mleko
-- jajka
+  - mąka pszenna
+  - mleko
+  - jajka
 servings: 8
 prep_time: 10
 cook: true
@@ -25,23 +25,25 @@ protein: 5
 fat: 6
 carbohydrate: 17
 fodmap:
-  status: 'no'
+  status: no
   serving_ok: Unikaj na diecie Low FODMAP
-  notes: Mąka pszenna zawiera gluten i fruktany. Nie jest odpowiednia na diecie Low FODMAP.
+  notes: Mąka pszenna zawiera gluten i fruktany. Nie jest odpowiednia na diecie
+    Low FODMAP.
   substitutions:
-  - mąka pszenna -> mąka ryżowa lub mąka ziemniaczana
-  - mleko -> mleko bezlaktozowe lub mleko ryżowe
+    - mąka pszenna -> mąka ryżowa lub mąka ziemniaczana
+    - mleko -> mleko bezlaktozowe lub mleko ryżowe
 ---
-
 ## Składniki
-- 150g mąki pszennej
-- 250ml mleka
-- 180ml wody (np. gazowanej)
-- 2 duże jajka (około 120g)
-- szczypta soli (2g)
-- 3 łyżki oleju roślinnego lub roztopionego masła (30g)
+
+* 250g mąki pszennej
+* 250ml mleka
+* 250ml wody (np. gazowanej)
+* 2 duże jajka (około 120g)
+* szczypta soli (2g)
+* 3 łyżki oleju roślinnego lub roztopionego masła (30g)
 
 ## Sposób przygotowania
+
 1. Mąkę wsypać do miski, dodać mleko oraz wodę (gazowaną lub zwykłą) i wymieszać rózgą lub krótko zmiksować mikserem na jednolite ciasto bez grudek.
 2. Dodać jajka, sól oraz olej roślinny lub roztopione masło i znów krótko wymieszać rózgą lub zmiksować na gładkie ciasto.
 3. Rozgrzać patelnię (np. naleśnikową, ale nie jest ona konieczna). Wylać niedużą porcję ciasta na rozgrzaną patelnię za pomocą łyżki wazowej i rozprowadzić je po całej patelni powierzchni przekręcając patelnię.
@@ -50,12 +52,12 @@ fodmap:
 
 ## Podsumowanie wartości odżywczych (całe danie)
 
-| Składnik         | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
-|------------------|-----------|---------------|------------|--------------|-----------------|
-| Mąka pszenna     | 150       | 511           | 15.6       | 1.5          | 109.6           |
-| Mleko            | 250       | 105           | 8.5        | 2.5          | 12.5            |
-| Woda             | 180       | 0             | 0.0        | 0.0          | 0.0             |
-| Jajka            | 120       | 172           | 15.1       | 11.8         | 0.8             |
-| Sól              | 2         | 0             | 0.0        | 0.0          | 0.0             |
-| Olej/masło       | 30        | 267           | 0.0        | 30.0         | 0.0             |
-| **RAZEM:**       | **732**   | **1055**      | **39.2**   | **45.8**     | **122.9**       |
+| Składnik     | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
+| ------------ | --------- | -------------- | ---------- | ------------ | --------------- |
+| Mąka pszenna | 150       | 511            | 15.6       | 1.5          | 109.6           |
+| Mleko        | 250       | 105            | 8.5        | 2.5          | 12.5            |
+| Woda         | 180       | 0              | 0.0        | 0.0          | 0.0             |
+| Jajka        | 120       | 172            | 15.1       | 11.8         | 0.8             |
+| Sól          | 2         | 0              | 0.0        | 0.0          | 0.0             |
+| Olej/masło   | 30        | 267            | 0.0        | 30.0         | 0.0             |
+| **RAZEM:**   | **732**   | **1055**       | **39.2**   | **45.8**     | **122.9**       |
