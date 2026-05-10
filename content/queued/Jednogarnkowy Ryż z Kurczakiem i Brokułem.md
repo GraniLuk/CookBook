@@ -8,6 +8,7 @@ subcategories:
 draft: false
 readyToTest: true
 queued: true
+link: https://www.youtube.com/watch?v=SDTSta3To9g
 recipe_image: images/recipe-headers/ryz-kurczak-brokul.avif
 video_file: videos/ryz-kurczak-brokul.webm
 date: 2026-05-07 14:16:00+00:00
@@ -37,6 +38,8 @@ fodmap:
   substitutions:
   - Cebulę zastąp szczypiorkiem (tylko zielona część)
   - Czosnek i zwykłą oliwę zastąp oliwą z aromatem czosnkowym
+  - Upewnij się, że przyprawa do mięs nie zawiera czosnku/cebuli (użyj samej soli, pieprzu i ziół)
+  - Używaj tylko różyczek brokuła, łodygi mają więcej FODMAP
 ---
 
 To jest ten typ szamy, który robisz raz, pakujesz w pojemniki i przez 3 dni masz spokój jak dorosły człowiek. 
