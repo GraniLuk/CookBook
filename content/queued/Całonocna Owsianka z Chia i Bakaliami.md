@@ -6,7 +6,7 @@ subcategories: słodkie
 draft: false
 readyToTest: true
 queued: true
-link: https://www.youtube.com/watch?v=prsZbulipCk
+link: https://youtu.be/prsZbulipCk?t=310
 recipe_image: images/recipe-headers/calonocna_owsianka_chia_bakalie.avif
 date: 2025-11-02 12:00:00+00:00
 tags:
