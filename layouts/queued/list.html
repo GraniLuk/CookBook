@@ -27,16 +27,20 @@
         }}
         
         {{ range $category := $categoryOrder }}
-            {{/* Filter pages by category - check both normal and aliased versions */}}
-            {{ $categoryPages := where $allPages "Params.categories" $category }}
+            {{/* Filter pages by category - handle both string and array formats */}}
+            {{ $pagesEq := where $allPages "Params.categories" "eq" $category }}
+            {{ $pagesIntersect := where $allPages "Params.categories" "intersect" (slice $category) }}
+            {{ $categoryPages := $pagesEq | union $pagesIntersect }}
             {{/* Also check for URL-safe versions */}}
             {{ if eq $category "sałatki" }}
-                {{ $aliasPages := where $allPages "Params.categories" "salatki" }}
-                {{ $categoryPages = $categoryPages | union $aliasPages }}
+                {{ $aliasEq := where $allPages "Params.categories" "eq" "salatki" }}
+                {{ $aliasIntersect := where $allPages "Params.categories" "intersect" (slice "salatki") }}
+                {{ $categoryPages = $categoryPages | union $aliasEq | union $aliasIntersect }}
             {{ end }}
             {{ if eq $category "przekąski" }}
-                {{ $aliasPages := where $allPages "Params.categories" "przekaski" }}
-                {{ $categoryPages = $categoryPages | union $aliasPages }}
+                {{ $aliasEq := where $allPages "Params.categories" "eq" "przekaski" }}
+                {{ $aliasIntersect := where $allPages "Params.categories" "intersect" (slice "przekaski") }}
+                {{ $categoryPages = $categoryPages | union $aliasEq | union $aliasIntersect }}
             {{ end }}
             
             {{ if gt (len $categoryPages) 0 }}
@@ -64,9 +68,21 @@
         {{ end }}
         {{ $categorized = $categorized | append "salatki" | append "przekaski" }}
         
-        {{ $uncategorized := $allPages }}
-        {{ range $cat := $categorized }}
-            {{ $uncategorized = where $uncategorized "Params.categories" "ne" $cat }}
+        {{/* Filter out pages that belong to any known category */}}
+        {{ $uncategorized := slice }}
+        {{ range $page := $allPages }}
+            {{ $found := false }}
+            {{ $pageCats := $page.Params.categories }}
+            {{ range $cat := $categorized }}
+                {{ if reflect.IsSlice $pageCats }}
+                    {{ if in $pageCats $cat }}{{ $found = true }}{{ end }}
+                {{ else }}
+                    {{ if eq $pageCats $cat }}{{ $found = true }}{{ end }}
+                {{ end }}
+            {{ end }}
+            {{ if not $found }}
+                {{ $uncategorized = $uncategorized | append $page }}
+            {{ end }}
         {{ end }}
         
         {{ if gt (len $uncategorized) 0 }}
