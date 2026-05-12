@@ -8,6 +8,7 @@ readyToTest: true
 queued: true
 link: https://youtu.be/prsZbulipCk?t=310
 recipe_image: images/recipe-headers/calonocna_owsianka_chia_bakalie.avif
+video_file: videos/calonocna_owsianka_chia_bakalie.webm
 date: 2025-11-02 12:00:00+00:00
 tags:
 - owsianka
