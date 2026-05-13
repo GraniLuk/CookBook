@@ -4,12 +4,12 @@ author: Policzona Szama
 categories: śniadania
 subcategories: słodkie
 draft: false
-readyToTest: true
-queued: true
+readyToTest: false
+queued: false
 link: https://www.youtube.com/watch?v=I_PulnZ65fU
 recipe_image: images/recipe-headers/placuszki_na_skyrze.avif
 video_file: videos/placuszki_na_skyrze.webm
-date: 2026-01-21 12:00:00+00:00
+date: 2026-05-13 12:00:00+00:00
 tags:
 - szybkie
 - proteinowe
