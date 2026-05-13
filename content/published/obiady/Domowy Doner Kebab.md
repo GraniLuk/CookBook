@@ -17,7 +17,7 @@ ingredients:
 - wołowina
 - wieprzowina
 - bułka pita
-- skyr
+- jogurt skyr
 - jogurt naturalny
 - kapusta czerwona
 - ogórek

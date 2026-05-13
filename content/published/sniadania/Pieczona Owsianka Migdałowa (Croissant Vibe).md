@@ -20,7 +20,7 @@ ingredients:
 - odżywka białkowa
 - banan
 - jajka
-- skyr
+- jogurt skyr
 - napój migdałowy
 - masło migdałowe
 - płatki migdałów

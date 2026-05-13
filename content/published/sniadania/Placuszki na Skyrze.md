@@ -15,7 +15,7 @@ tags:
 - proteinowe
 tagline: Trzyskładnikowe, puszyste i szybkie placuszki przygotowane na skyrze - idealne na śniadanie.
 ingredients:
-- skyr waniliowy
+- jogurt skyr waniliowy
 - jajka
 - mąka orkiszowa
 servings: 4

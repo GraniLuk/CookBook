@@ -13,10 +13,10 @@ tags:
 - proteinowe
 tagline: Lekkie tiramisu z twarogiem i biszkoptami, idealne na deser lub przekąskę.
 ingredients:
-- skyr naturalny
-- skyr waniliowy
-- ser homogenizowany waniliowy
-- ser homogenizowany ciasteczkowy
+- jogurt skyr
+- jogurt skyr waniliowy
+- serek homogenizowany waniliowy
+- serek homogenizowany ciasteczkowy
 - erytrytol
 - herbatniki
 - kawa

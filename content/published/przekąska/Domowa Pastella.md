@@ -18,7 +18,7 @@ ingredients:
 - łosoś wędzony
 - jajka
 - musztarda
-- skyr naturalny
+- jogurt skyr
 - cebula dymka
 servings: 4
 prep_time: 15

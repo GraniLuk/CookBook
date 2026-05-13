@@ -18,7 +18,7 @@ tags:
 tagline: Wysokobiałkowa pasta jajeczna ze skyrem i czerwoną cebulą.
 ingredients:
 - jajka
-- skyr naturalny
+- jogurt skyr
 - cebula czerwona 
 servings: 4
 prep_time: 10

@@ -14,7 +14,7 @@ tags:
 tagline: Alternatywa dla klasycznego sernika nowojorskiego z wysoką zawartością białka i niską kalorycznością
 ingredients:
 - twaróg
-- skyr waniliowy
+- jogurt skyr waniliowy
 - jajka
 - erytrytol
 - masło

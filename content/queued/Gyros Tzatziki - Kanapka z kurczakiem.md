@@ -17,7 +17,7 @@ tagline: Soczysta kanapka z kurczakiem gyros, sosem tzatziki, cebulą i ogórkie
 ingredients:
 - bułka
 - pierś z kurczaka
-- skyr
+- jogurt skyr
 - cebula czerwona
 - ogórek zielony
 - mix sałat

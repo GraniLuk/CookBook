@@ -12,7 +12,7 @@ tags: []
 tagline: Zdrowy serniczek z wysoką zawartością białka!
 ingredients:
 - jajka
-- skyr waniliowy
+- jogurt skyr waniliowy
 - budyń waniliowy
 - erytrol
 - maliny

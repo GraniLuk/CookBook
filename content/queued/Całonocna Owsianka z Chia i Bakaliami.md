@@ -15,7 +15,7 @@ tags:
 tagline: Kremowa owsianka z twarogiem, chia i bakaliami, śródziemnomorski deser na lunch.
 ingredients:
 - twaróg
-- skyr
+- jogurt skyr
 - miód
 - napój sojowy
 - nasionka chia

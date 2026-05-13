@@ -11,7 +11,7 @@ tags: []
 tagline: Zdrowa wersja ulubionego batonika!
 ingredients:
 - banan
-- skyr waniliowy
+- jogurt skyr waniliowy
 - masło orzechowe
 - orzechy
 - czekolada

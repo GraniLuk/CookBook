@@ -17,8 +17,8 @@ ingredients:
   - serek homogenizowany waniliowy
   - serek homogenizowany ciasteczkowy
   - twaróg chudy
-  - skyr naturalny
-  - skyr waniliowy
+  - jogurt skyr
+  - jogurt skyr waniliowy
   - biszkopty
 servings: 4
 prep_time: 15

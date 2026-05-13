@@ -16,7 +16,7 @@ ingredients:
 - jajka
 - mąka pszenna
 - łosoś wędzony
-- skyr naturalny
+- jogurt skyr
 servings: 4
 prep_time: 20
 cook: true

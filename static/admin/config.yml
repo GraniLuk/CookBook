@@ -373,8 +373,6 @@ _shared_fields:
       - { label: "ser gorgonzola", value: "ser gorgonzola" }
       - { label: "ser grana padano", value: "ser grana padano" }
       - { label: "ser halloumi", value: "ser halloumi" }
-      - { label: "ser homogenizowany ciasteczkowy", value: "ser homogenizowany ciasteczkowy" }
-      - { label: "ser homogenizowany waniliowy", value: "ser homogenizowany waniliowy" }
       - { label: "ser mimolette", value: "ser mimolette" }
       - { label: "ser mozzarella", value: "ser mozzarella" }
       - { label: "ser parmezan", value: "ser parmezan" }
@@ -395,9 +393,6 @@ _shared_fields:
       - { label: "siemię lniane", value: "siemię lniane" }
       - { label: "skrobia ziemniaczana", value: "skrobia ziemniaczana" }
       - { label: "skrzydło indycze", value: "skrzydło indycze" }
-      - { label: "skyr", value: "skyr" }
-      - { label: "skyr naturalny", value: "skyr naturalny" }
-      - { label: "skyr waniliowy", value: "skyr waniliowy" }
       - { label: "skórka cytrynowa", value: "skórka cytrynowa" }
       - { label: "soczewica zielona", value: "soczewica zielona" }
       - { label: "soda oczyszczona", value: "soda oczyszczona" }

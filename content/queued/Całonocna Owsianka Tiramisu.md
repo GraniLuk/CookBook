@@ -18,7 +18,7 @@ ingredients:
 - płatki owsiane
 - mleko
 - banan
-- skyr waniliowy
+- jogurt skyr waniliowy
 - kakao
 servings: 1
 prep_time: 10
