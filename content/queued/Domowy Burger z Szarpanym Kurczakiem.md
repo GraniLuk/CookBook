@@ -5,7 +5,9 @@ categories: obiady
 draft: false
 readyToTest: true
 queued: true
+link: https://www.instagram.com/reels/DYcq3MJs87i/
 recipe_image: images/recipe-headers/domowy_burger_z_szarpanym_kurczakiem.avif
+video_file: videos/domowy_burger_z_szarpanym_kurczakiem.mp4
 date: 2026-05-18 12:00:00+00:00
 tags:
 - kanapki

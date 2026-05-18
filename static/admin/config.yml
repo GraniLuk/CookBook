@@ -202,6 +202,8 @@ _shared_fields:
       - { label: "komosa ryżowa", value: "komosa ryżowa" }
       - { label: "koncentrat pomidorowy", value: "koncentrat pomidorowy" }
       - { label: "koperek", value: "koperek" }
+      - { label: "korzeń pietruszki", value: "korzeń pietruszki" }
+      - { label: "korzeń selera", value: "korzeń selera" }
       - { label: "kotlet z antrykotu z kością", value: "kotlet z antrykotu z kością" }
       - { label: "kości cielęce", value: "kości cielęce" }
       - { label: "kukurydza", value: "kukurydza" }
@@ -279,6 +281,7 @@ _shared_fields:
       - { label: "ogórek konserwowy", value: "ogórek konserwowy" }
       - { label: "ogórek zielony", value: "ogórek zielony" }
       - { label: "ogórek świeży", value: "ogórek świeży" }
+      - { label: "ogórki kiszone", value: "ogórki kiszone" }
       - { label: "olej", value: "olej" }
       - { label: "olej kokosowy", value: "olej kokosowy" }
       - { label: "olej lniany", value: "olej lniany" }
@@ -446,6 +449,7 @@ _shared_fields:
       - { label: "śmietana 18%", value: "śmietana 18%" }
       - { label: "śmietana 30%", value: "śmietana 30%" }
       - { label: "śmietana kremowa", value: "śmietana kremowa" }
+      - { label: "śmietanka", value: "śmietanka" }
       - { label: "śmietanka 30%", value: "śmietanka 30%" }
       - { label: "żurawina", value: "żurawina" }
       - { label: "żurawina suszona", value: "żurawina suszona" }
