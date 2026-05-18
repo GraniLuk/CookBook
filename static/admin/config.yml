@@ -118,6 +118,7 @@ _shared_fields:
       - { label: "burrata", value: "burrata" }
       - { label: "bułka", value: "bułka" }
       - { label: "bułka hamburgerowa", value: "bułka hamburgerowa" }
+      - { label: "bułka pełnoziarnista", value: "bułka pełnoziarnista" }
       - { label: "bułka pita", value: "bułka pita" }
       - { label: "bułka tarta", value: "bułka tarta" }
       - { label: "cebula", value: "cebula" }
@@ -397,6 +398,7 @@ _shared_fields:
       - { label: "soczewica zielona", value: "soczewica zielona" }
       - { label: "soda oczyszczona", value: "soda oczyszczona" }
       - { label: "sok z cytryny", value: "sok z cytryny" }
+      - { label: "sos czosnkowy", value: "sos czosnkowy" }
       - { label: "sos pomidorowy", value: "sos pomidorowy" }
       - { label: "sos rybny", value: "sos rybny" }
       - { label: "sos sojowy", value: "sos sojowy" }
