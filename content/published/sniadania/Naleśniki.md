@@ -1,6 +1,6 @@
 ---
 title: Naleśniki
-author: Autor Przepisu
+author: Granica
 categories: śniadania
 subcategories: słodkie
 draft: false
@@ -35,12 +35,12 @@ fodmap:
 ---
 ## Składniki
 
-* 160g mąki pszennej
+* 200g mąki pszennej
 * 250ml mleka
 * 250ml wody (np. gazowanej)
 * 2 duże jajka (około 120g)
 * szczypta soli (2g)
-* 3 łyżki oleju roślinnego lub roztopionego masła (30g)
+* 1 łyżka oleju roślinnego lub roztopionego masła (30g)
 
 ## Sposób przygotowania
 
