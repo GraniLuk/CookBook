@@ -1,26 +1,27 @@
 ---
 title: Pasta Jajeczna z Suszonymi Pomidorami i Tuńczykiem
-author: Użytkownik
-categories:
-- śniadania
-subcategories:
-- słone
+author: Ebook-JemyToSamo
+categories: śniadania
+subcategories: słone
 draft: false
 readyToTest: false
-link: ''
+queued: false
+favourite: false
+link: ""
 recipe_image: images/recipe-headers/pasta_jajeczna_suszone_pomidory.avif
 date: 2025-07-14 11:40:00+00:00
 tags:
-- szybkie
-- pasta
-- kanapki
-tagline: Kremowa i aromatyczna pasta jajeczna z wyrazistym smakiem suszonych pomidorów i tuńczyka.
+  - szybkie
+  - pasta
+  - kanapki
+tagline: Kremowa i aromatyczna pasta jajeczna z wyrazistym smakiem suszonych
+  pomidorów i tuńczyka.
 ingredients:
-- jajka
-- tuńczyk
-- pomidory suszone
-- jogurt
-- majonez
+  - jajka
+  - tuńczyk
+  - pomidory suszone
+  - jogurt
+  - majonez
 servings: 4
 prep_time: 5
 cook: true
@@ -31,11 +32,13 @@ fat: 12
 carbohydrate: 3
 fodmap:
   status: depends
-  serving_ok: 'OK po modyfikacjach: suszone pomidory ≤ 8–12 g/os.; jogurt bez laktozy'
-  notes: Suszone pomidory powyżej małej porcji mogą zwiększać ładunek FODMAP – ogranicz do ~1–2 kawałków na osobę. Nabiał wybieraj bez laktozy.
+  serving_ok: "OK po modyfikacjach: suszone pomidory ≤ 8–12 g/os.; jogurt bez laktozy"
+  notes: Suszone pomidory powyżej małej porcji mogą zwiększać ładunek FODMAP –
+    ogranicz do ~1–2 kawałków na osobę. Nabiał wybieraj bez laktozy.
   substitutions:
-  - jogurt naturalny -> jogurt/skyr bez laktozy
-  - za dużo suszonych pomidorów -> ogranicz do 8–12 g/os. lub użyj świeżych w małej ilości
+    - jogurt naturalny -> jogurt/skyr bez laktozy
+    - za dużo suszonych pomidorów -> ogranicz do 8–12 g/os. lub użyj świeżych w
+      małej ilości
 ---
 
 ## Składniki
