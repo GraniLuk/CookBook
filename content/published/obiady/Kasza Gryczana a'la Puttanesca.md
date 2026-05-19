@@ -2,6 +2,7 @@
 title: Kasza Gryczana a'la Puttanesca
 author: Policzona Szama
 categories: obiady
+subcategories: null
 draft: false
 readyToTest: false
 queued: false
@@ -20,12 +21,12 @@ ingredients:
   - kasza gryczana
   - cebula szalotka
   - czosnek
-  - tuńczyk w puszce
   - pomidory krojone z puszki
   - oliwki zielone
   - oliwki czarne
   - kapary
   - mozzarella light
+  - tuńczyk
 servings: 4
 prep_time: 5
 cook: true
