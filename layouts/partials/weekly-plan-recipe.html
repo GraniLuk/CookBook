@@ -1,0 +1,61 @@
+{{- $rawSlug := printf "%v" (.slug | default "") -}}
+{{- $recipe := false -}}
+
+{{- if $rawSlug -}}
+    {{- $needle := $rawSlug | lower -}}
+    {{- $needleDashed := replace $needle "_" "-" -}}
+    {{- $needleBase := replaceRE "^.*/([^/]+)/?$" "$1" $needle -}}
+    {{- $needleBaseDashed := replace $needleBase "_" "-" -}}
+    {{- $needleCandidates := slice
+        $needle
+        $needleDashed
+        $needleBase
+        $needleBaseDashed
+        (urlize $needle)
+        (urlize $needleDashed)
+        (urlize $needleBase)
+        (urlize $needleBaseDashed)
+    -}}
+
+    {{- range site.RegularPages -}}
+        {{- if and (not $recipe) (in (slice "published" "queued") .Section) -}}
+            {{- $page := . -}}
+            {{- $urlSlug := replaceRE "^.*/([^/]+)/?$" "$1" .RelPermalink | lower -}}
+            {{- $fileBase := .File.ContentBaseName | lower -}}
+            {{- $pageCandidates := slice
+                $urlSlug
+                $fileBase
+                (replace $fileBase "_" "-")
+                (.Title | lower)
+                (urlize .Title)
+            -}}
+            {{- with .Params.slug -}}
+                {{- $paramSlug := printf "%v" . | lower -}}
+                {{- $pageCandidates = $pageCandidates | append $paramSlug -}}
+                {{- $pageCandidates = $pageCandidates | append (replace $paramSlug "_" "-") -}}
+                {{- $pageCandidates = $pageCandidates | append (urlize $paramSlug) -}}
+            {{- end -}}
+
+            {{- range $candidate := $pageCandidates -}}
+                {{- if and (not $recipe) (in $needleCandidates $candidate) -}}
+                    {{- $recipe = $page -}}
+                {{- end -}}
+            {{- end -}}
+        {{- end -}}
+    {{- end -}}
+
+    {{- if not $recipe -}}
+        {{- range site.RegularPages -}}
+            {{- if and (not $recipe) (in (slice "published" "queued") .Section) -}}
+                {{- $page := . -}}
+                {{- $urlSlug := replaceRE "^.*/([^/]+)/?$" "$1" .RelPermalink | lower -}}
+                {{- $titleSlug := urlize .Title -}}
+                {{- if and (gt (len $needleDashed) 8) (or (in $urlSlug $needleDashed) (in $titleSlug $needleDashed)) -}}
+                    {{- $recipe = $page -}}
+                {{- end -}}
+            {{- end -}}
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
+
+{{- return $recipe -}}

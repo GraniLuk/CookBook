@@ -1426,7 +1426,8 @@ nav[class*="navbar"] .menu[class*="menu-horizontal"]>li {
     border-radius: 8px;
     min-height: 120px;
     display: flex;
-    gap: 1rem;
+    flex-direction: column;
+    gap: 0.5rem;
     border: 1px solid transparent;
     transition: border-color 0.2s ease;
   }
@@ -1448,6 +1449,16 @@ nav[class*="navbar"] .menu[class*="menu-horizontal"]>li {
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease;
+  }
+
+  .meal-slot .image.is-128x128 {
+    width: 128px;
+    height: 128px;
+  }
+
+  .meal-slot .flex.items-center {
+    flex-wrap: wrap;
+    gap: 0.5rem 0.75rem;
   }
 
   .meal-slot img:hover {

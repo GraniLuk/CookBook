@@ -54,7 +54,7 @@
                     <div class="meal-slot">
                         <p class="heading">{{ index $mealNames . }}</p>
                         {{ if $mealSlug }}
-                        {{ $recipe := $.Site.GetPage (printf "/%s" $mealSlug) }}
+                        {{ $recipe := partial "weekly-plan-recipe.html" (dict "slug" $mealSlug) }}
                         {{ if $recipe }}
                         <a href="{{ $recipe.Permalink }}" class="font-semibold">
                             {{ $recipe.Title }}
@@ -97,6 +97,12 @@
             </div>
             {{ end }}
         </div>
+
+        {{ if .Content }}
+        <div class="content weekly-plan-content mt-6">
+            {{ .Content }}
+        </div>
+        {{ end }}
 
         <div class="flex gap-2 mt-5 print:hidden">
             <a href="{{ partial "asset-url.html" "/weekly-plans/" }}" class="btn btn-ghost">
