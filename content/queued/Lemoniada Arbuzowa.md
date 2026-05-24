@@ -7,6 +7,7 @@ readyToTest: true
 queued: true
 link: https://www.instagram.com/reels/DYq_R5vt1hh/
 recipe_image: images/recipe-headers/lemoniada_arbuzowa.avif
+video_file: videos/lemoniada_arbuzowa.mp4
 date: 2026-05-24 12:00:00+00:00
 tags:
 - szybkie
