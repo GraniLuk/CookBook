@@ -170,6 +170,7 @@ _shared_fields:
       - { label: "grzyby", value: "grzyby" }
       - { label: "grzyby suszone", value: "grzyby suszone" }
       - { label: "herbatniki", value: "herbatniki" }
+      - { label: "ikra", value: "ikra" }
       - { label: "imbir", value: "imbir" }
       - { label: "jabłko", value: "jabłko" }
       - { label: "jagody", value: "jagody" }
@@ -203,6 +204,7 @@ _shared_fields:
       - { label: "komosa ryżowa", value: "komosa ryżowa" }
       - { label: "koncentrat pomidorowy", value: "koncentrat pomidorowy" }
       - { label: "koperek", value: "koperek" }
+      - { label: "korniszony", value: "korniszony" }
       - { label: "korzeń pietruszki", value: "korzeń pietruszki" }
       - { label: "korzeń selera", value: "korzeń selera" }
       - { label: "kotlet z antrykotu z kością", value: "kotlet z antrykotu z kością" }
