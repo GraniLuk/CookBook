@@ -96,7 +96,7 @@ def reorder_metadata(metadata):
 
 
 # Define valid categories
-VALID_CATEGORIES = ["śniadania", "obiady", "salatki", "desery", "sosy"]
+VALID_CATEGORIES = ["śniadania", "obiady", "salatki", "desery", "sosy", "napoje"]
 VALID_SUBCATEGORIES_FOR_SNIADANIA = ["słodkie", "słone"]
 
 

@@ -12,7 +12,8 @@
         { name: 'Obiady', slug: 'obiady' },
         { name: 'Sałatki', slug: 'salatki' },
         { name: 'Desery', slug: 'desery' },
-        { name: 'Sosy', slug: 'sosy' }
+        { name: 'Sosy', slug: 'sosy' },
+        { name: 'Napoje', slug: 'napoje' }
     ];
 
     // Swipe detection settings

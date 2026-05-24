@@ -119,6 +119,11 @@ fileName = "/images/icon.png" #your favicon here if you wish to change it.
     url = "/categories/sosy/"
     weight = 5
   [[menu.main]]
+    name = "Napoje"
+    parent = "categories"
+    url = "/categories/napoje/"
+    weight = 6
+  [[menu.main]]
     name = "Tagi" # change to w/e you want, tags or categories works best
     pre = "fas fa-tags" #icon, change if you would prefer a different icon
     url = "/tags/"

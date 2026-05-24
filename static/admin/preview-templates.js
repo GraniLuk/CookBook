@@ -451,6 +451,7 @@ CMS.registerPreviewTemplate('obiady', RecipePreview);
 CMS.registerPreviewTemplate('salatki', RecipePreview);
 CMS.registerPreviewTemplate('desery', RecipePreview);
 CMS.registerPreviewTemplate('sosy', RecipePreview);
+CMS.registerPreviewTemplate('napoje', RecipePreview);
 
 // Optional: Register preview styles (Tailwind CSS - using built output)
 CMS.registerPreviewStyle('/CookBook/css/custom.css');

@@ -33,6 +33,11 @@
            title="Sosy"
            aria-label="Sosy">
         </a>
+        <a href='{{ partial "asset-url.html" "/categories/napoje/" | replaceRE "\\?v=.*" "" }}'
+           class="dot"
+           title="Napoje"
+           aria-label="Napoje">
+        </a>
     </nav>
 
     <div class="filter-wrapper" id="filterContainer">

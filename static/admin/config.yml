@@ -98,6 +98,7 @@ _shared_fields:
     required: false
     options:
       - { label: "ananas", value: "ananas" }
+      - { label: "arbuz", value: "arbuz" }
       - { label: "awokado", value: "awokado" }
       - { label: "bagietka", value: "bagietka" }
       - { label: "bajgiel", value: "bajgiel" }
@@ -664,6 +665,20 @@ collections:
     label: "Sosy"
     label_singular: "Sos"
     folder: "content/published/sosy"
+    create: true
+    slug: "{{slug}}"
+    extension: md
+    format: frontmatter
+    filter: {field: "draft", value: false}
+    editor:
+      preview: true
+      visualEditing: true
+    fields: *recipe_fields
+
+  - name: napoje
+    label: "Napoje"
+    label_singular: "Napój"
+    folder: "content/published/napoje"
     create: true
     slug: "{{slug}}"
     extension: md

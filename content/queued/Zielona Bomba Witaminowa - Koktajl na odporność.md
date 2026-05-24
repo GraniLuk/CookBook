@@ -1,8 +1,7 @@
 ---
 title: Zielona Bomba Witaminowa - Koktajl na odporność
 author: Policzona Szama
-categories: śniadania
-subcategories: słone
+categories: napoje
 draft: false
 readyToTest: true
 link: https://www.youtube.com/watch?v=RUPfihOOViA
