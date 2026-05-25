@@ -3,8 +3,8 @@ title: Lasagne Pomidorowa Ricotta z Cukinią i Fetą
 author: Policzona Szama
 categories: obiady
 draft: false
-readyToTest: true
-queued: true
+readyToTest: false
+queued: false
 link: https://youtu.be/PNjCcXoYMGE?t=491
 recipe_image: images/recipe-headers/wiosenna_lasagne.avif
 video_file: videos/wiosenna_lasagne.webm
