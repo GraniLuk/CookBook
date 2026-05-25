@@ -21,7 +21,7 @@ ingredients:
 - cukinia
 - szpinak
 - ser feta
-servings: 1
+servings: 2
 prep_time: 20
 cook: true
 cook_time: 35
@@ -43,54 +43,54 @@ fodmap:
 ## Składniki
 
 ### Sos pomidorowy
-*   5 g oliwy
-*   1/2 cebuli, drobno posiekanej
-*   1/2 ząbka czosnku, drobno posiekanego
-*   200 g pomidorów krojonych z puszki
-*   1/2 łyżeczki suszonej bazylii
-*   1/2 łyżeczki suszonego oregano
+*   10 g oliwy
+*   1 cebula, drobno posiekana
+*   1 ząbek czosnku, drobno posiekany
+*   400 g pomidorów krojonych z puszki
+*   1 łyżeczka suszonej bazylii
+*   1 łyżeczka suszonego oregano
 *   sól i pieprz do smaku
 
 ### Masa serowa
-*   125 g sera ricotta
-*   1 jajko
-*   1/2 łyżeczki mielonej gałki muszkatołowej
+*   250 g sera ricotta
+*   2 jajka
+*   1 łyżeczka mielonej gałki muszkatołowej
 *   sól i pieprz do smaku
 
 ### Warzywa
-*   100 g cukinii
-*   3 g oliwy
-*   50 g świeżego szpinaku w liściach
+*   200 g cukinii
+*   6 g oliwy
+*   100 g świeżego szpinaku w liściach
 *   sól do smaku
 
 ### Złożenie i topping
-*   54 g makaronu lasagne (3 płaty)
-*   50 g sera feta
-*   1 garść natki pietruszki, opcjonalnie
+*   108 g makaronu lasagne (6 płatów)
+*   100 g sera feta
+*   2 garści natki pietruszki, opcjonalnie
 
 ## Sposób przygotowania
-1.  Rozgrzej piekarnik do 200°C. Przygotuj małe naczynie do zapiekania lub szklany boks odporny na wysoką temperaturę.
-2.  Na 5 g oliwy zeszklij cebulę, dodaj czosnek i smaż jeszcze kilkanaście sekund. Wlej pomidory krojone, dopraw bazylią, oregano, solą i pieprzem. Gotuj 8-10 minut, aż sos lekko zgęstnieje.
-3.  Cukinię pokrój w cienkie półplasterki albo zetrzyj na grubej tarce. Krótko podsmaż ją na 3 g oliwy, dodaj szpinak i smaż tylko do zwiędnięcia liści. Dopraw solą.
-4.  W misce wymieszaj ricottę z jajkiem, gałką muszkatołową, solą i pieprzem.
-5.  Na dnie naczynia rozsmaruj cienką warstwę sosu pomidorowego. Ułóż płat lasagne, część masy serowej, warzywa i odrobinę pokruszonej fety.
-6.  Powtarzaj warstwy, aż zużyjesz składniki. Na wierzchu rozprowadź resztę sosu pomidorowego i posyp pozostałą fetą.
-7.  Piecz około 35 minut w 200°C, aż makaron zmięknie, a wierzch lekko się zapiecze.
+1.  Rozgrzej piekarnik do 200°C. Przygotuj średnie naczynie do zapiekania lub szklany boks odporny na wysoką temperaturę.
+2.  Na 10 g oliwy zeszklij cebulę, dodaj czosnek i smaż jeszcze kilkanaście sekund. Wlej pomidory krojone, dopraw bazylią, oregano, solą i pieprzem. Gotuj 8-10 minut, aż sos lekko zgęstnieje.
+3.  Cukinię pokrój w cienkie półplasterki albo zetrzyj na grubej tarce. Posyp solą, aby łatwiej odparować wodę. Krótko podsmaż ją na 6 g oliwy, dodaj szpinak i smaż tylko do zwiędnięcia liści.
+4.  W misce wymieszaj ricottę z jajkami, gałką muszkatołową, solą i pieprzem.
+5.  Na dnie naczynia rozsmaruj cienką warstwę sosu pomidorowego. Ułóż płat lasagne, część masy serowej, warzywa.
+6.  Powtarzaj warstwy, aż zużyjesz składniki. Na wierzchu rozprowadź resztę sosu pomidorowego i posyp fetą.
+7.  Piecz około 35 minut w 200°C, aż makaron zmięknie, a wierzch lekko się zapiecze, feta powinna być przyrumieniona na wierzchu..
 8.  Po wyjęciu z piekarnika odstaw lasagne na 10 minut, żeby warstwy stężały i łatwiej się kroiły. Przed podaniem posyp natką pietruszki, jeśli jej używasz.
 
-## Podsumowanie wartości odżywczych (całe danie - 1 porcja)
+## Podsumowanie wartości odżywczych (całe danie - 2 porcje)
 
 | Składnik           | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
 |--------------------|-----------|----------------|------------|--------------|-----------------|
-| Makaron lasagne    | 54        | 191            | 6.5        | 0.8          | 39.0            |
-| Oliwa              | 8         | 72             | 0.0        | 8.0          | 0.0             |
-| Cebula             | 50        | 20             | 0.6        | 0.1          | 4.7             |
-| Czosnek            | 2         | 3              | 0.1        | 0.0          | 0.7             |
-| Pomidory krojone   | 200       | 42             | 2.0        | 0.4          | 7.8             |
-| Cukinia            | 100       | 17             | 1.2        | 0.3          | 3.1             |
-| Szpinak świeży     | 50        | 12             | 1.5        | 0.2          | 1.8             |
-| Ricotta            | 125       | 174            | 13.8       | 11.5         | 3.8             |
-| Jajko              | 55        | 78             | 6.8        | 5.3          | 0.4             |
-| Feta               | 50        | 85             | 3.2        | 6.4          | 2.1             |
-| Natka pietruszki   | 5         | 4              | 0.2        | 0.0          | 0.3             |
-| **RAZEM:**         | **649**   | **698**        | **36.0**   | **33.0**     | **64.0**        |
+| Makaron lasagne    | 108       | 382            | 13.0       | 1.6          | 78.0            |
+| Oliwa              | 16        | 144            | 0.0        | 16.0         | 0.0             |
+| Cebula             | 100       | 40             | 1.2        | 0.2          | 9.4             |
+| Czosnek            | 4         | 6              | 0.2        | 0.0          | 1.4             |
+| Pomidory krojone   | 400       | 84             | 4.0        | 0.8          | 15.6            |
+| Cukinia            | 200       | 34             | 2.4        | 0.6          | 6.2             |
+| Szpinak świeży     | 100       | 24             | 3.0        | 0.4          | 3.6             |
+| Ricotta            | 250       | 348            | 27.6       | 23.0         | 7.6             |
+| Jajko              | 110       | 156            | 13.6       | 10.6         | 0.8             |
+| Feta               | 100       | 170            | 6.4        | 12.8         | 4.2             |
+| Natka pietruszki   | 10        | 8              | 0.4        | 0.0          | 0.6             |
+| **RAZEM:**         | **1298**  | **1396**       | **72.0**   | **66.0**     | **128.0**       |
