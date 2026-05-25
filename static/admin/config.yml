@@ -110,6 +110,7 @@ _shared_fields:
       - { label: "białko jajeczne", value: "białko jajeczne" }
       - { label: "biszkopty", value: "biszkopty" }
       - { label: "boczek wędzony", value: "boczek wędzony" }
+      - { label: "borówki", value: "borówki" }
       - { label: "brokuł", value: "brokuł" }
       - { label: "brzoskwinie konserwowe", value: "brzoskwinie konserwowe" }
       - { label: "budyń waniliowy", value: "budyń waniliowy" }
@@ -194,6 +195,7 @@ _shared_fields:
       - { label: "kasza bulgur", value: "kasza bulgur" }
       - { label: "kasza gryczana", value: "kasza gryczana" }
       - { label: "kasza manna", value: "kasza manna" }
+      - { label: "kasza pęczak", value: "kasza pęczak" }
       - { label: "kawa", value: "kawa" }
       - { label: "ketchup", value: "ketchup" }
       - { label: "kiełbasa", value: "kiełbasa" }
@@ -266,6 +268,7 @@ _shared_fields:
       - { label: "mąka ryżowa", value: "mąka ryżowa" }
       - { label: "mąka typ 00", value: "mąka typ 00" }
       - { label: "mąka żytnia", value: "mąka żytnia" }
+      - { label: "młoda kapusta", value: "młoda kapusta" }
       - { label: "nachosy", value: "nachosy" }
       - { label: "napój migdałowy", value: "napój migdałowy" }
       - { label: "napój owsiany", value: "napój owsiany" }
@@ -385,11 +388,13 @@ _shared_fields:
       - { label: "ser mozzarella", value: "ser mozzarella" }
       - { label: "ser parmezan", value: "ser parmezan" }
       - { label: "ser piórko", value: "ser piórko" }
+      - { label: "ser sałatkowo-kanapkowy półtłusty", value: "ser sałatkowo-kanapkowy półtłusty" }
       - { label: "ser twarogowy", value: "ser twarogowy" }
       - { label: "ser wiejski", value: "ser wiejski" }
       - { label: "ser śmietankowy", value: "ser śmietankowy" }
       - { label: "ser żółty", value: "ser żółty" }
       - { label: "serek", value: "serek" }
+      - { label: "serek Bieluch", value: "serek Bieluch" }
       - { label: "serek blu", value: "serek blu" }
       - { label: "serek homogenizowany ciasteczkowy", value: "serek homogenizowany ciasteczkowy" }
       - { label: "serek homogenizowany waniliowy", value: "serek homogenizowany waniliowy" }
@@ -428,6 +433,7 @@ _shared_fields:
       - { label: "tortilla", value: "tortilla" }
       - { label: "truskawki", value: "truskawki" }
       - { label: "tuńczyk", value: "tuńczyk" }
+      - { label: "tuńczyk w sosie własnym", value: "tuńczyk w sosie własnym" }
       - { label: "twaróg", value: "twaróg" }
       - { label: "twaróg chudy", value: "twaróg chudy" }
       - { label: "twaróg sernikowy", value: "twaróg sernikowy" }
@@ -492,6 +498,7 @@ _shared_fields:
       - { label: "ObiadDlaTaty", value: "ObiadDlaTaty" }
       - { label: "olawolska.diet", value: "olawolska.diet" }
       - { label: "Policzona Szama", value: "Policzona Szama" }
+      - { label: "Policzone Szamy", value: "Policzone Szamy" }
       - { label: "przepeace", value: "przepeace" }
       - { label: "ricetta.it", value: "ricetta.it" }
       - { label: "swiatzesmakiem", value: "swiatzesmakiem" }
