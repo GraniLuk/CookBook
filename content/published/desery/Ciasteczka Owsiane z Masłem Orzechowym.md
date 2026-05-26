@@ -15,7 +15,7 @@ ingredients:
 - banan
 - płatki owsiane błyskawiczne
 - mąka owsiana
-- suszone żurawiny
+- żurawina suszona
 servings: 10
 prep_time: 10
 cook: true

@@ -190,6 +190,7 @@ _shared_fields:
       - { label: "kapusta biała", value: "kapusta biała" }
       - { label: "kapusta czerwona", value: "kapusta czerwona" }
       - { label: "kapusta kiszona", value: "kapusta kiszona" }
+      - { label: "kapusta młoda", value: "kapusta młoda" }
       - { label: "kapusta pekińska", value: "kapusta pekińska" }
       - { label: "karkówka wieprzowa", value: "karkówka wieprzowa" }
       - { label: "kasza bulgur", value: "kasza bulgur" }
@@ -268,7 +269,6 @@ _shared_fields:
       - { label: "mąka ryżowa", value: "mąka ryżowa" }
       - { label: "mąka typ 00", value: "mąka typ 00" }
       - { label: "mąka żytnia", value: "mąka żytnia" }
-      - { label: "młoda kapusta", value: "młoda kapusta" }
       - { label: "nachosy", value: "nachosy" }
       - { label: "napój migdałowy", value: "napój migdałowy" }
       - { label: "napój owsiany", value: "napój owsiany" }
@@ -323,6 +323,7 @@ _shared_fields:
       - { label: "pasta yellow curry", value: "pasta yellow curry" }
       - { label: "pasta z tamaryndowca", value: "pasta z tamaryndowca" }
       - { label: "pepperoni", value: "pepperoni" }
+      - { label: "pestki dyni", value: "pestki dyni" }
       - { label: "pestki słonecznika", value: "pestki słonecznika" }
       - { label: "pesto zielone", value: "pesto zielone" }
       - { label: "pieczarki", value: "pieczarki" }
@@ -420,7 +421,6 @@ _shared_fields:
       - { label: "spaghetti", value: "spaghetti" }
       - { label: "sriracha", value: "sriracha" }
       - { label: "suszone morele", value: "suszone morele" }
-      - { label: "suszone żurawiny", value: "suszone żurawiny" }
       - { label: "syrop klonowy", value: "syrop klonowy" }
       - { label: "szczypiorek", value: "szczypiorek" }
       - { label: "szparagi", value: "szparagi" }
