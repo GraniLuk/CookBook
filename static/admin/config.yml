@@ -484,6 +484,7 @@ _shared_fields:
       - { label: "dietetykapodkontrola", value: "dietetykapodkontrola" }
       - { label: "Ebook-JemyToSamo", value: "Ebook-JemyToSamo" }
       - { label: "fit_przepisy_od_baletnicy", value: "fit_przepisy_od_baletnicy" }
+      - { label: "fiteshoppl", value: "fiteshoppl" }
       - { label: "foodbyok", value: "foodbyok" }
       - { label: "Granica", value: "Granica" }
       - { label: "Instagram", value: "Instagram" }
