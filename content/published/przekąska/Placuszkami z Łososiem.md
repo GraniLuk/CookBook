@@ -17,6 +17,7 @@ ingredients:
 - mąka pszenna
 - łosoś wędzony
 - jogurt skyr
+- koperek
 servings: 4
 prep_time: 20
 cook: true

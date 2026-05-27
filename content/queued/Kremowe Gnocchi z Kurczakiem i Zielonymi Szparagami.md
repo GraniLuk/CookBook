@@ -26,6 +26,7 @@ ingredients:
 - bulion
 - oliwa z oliwek
 - parmezan
+- koperek
 servings: 4
 prep_time: 5
 cook: true

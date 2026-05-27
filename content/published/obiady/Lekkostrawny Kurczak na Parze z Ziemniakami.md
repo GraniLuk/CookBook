@@ -18,6 +18,7 @@ ingredients:
 - sałata rzymska
 - ogórek świeży
 - oliwa z oliwek
+- koperek
 servings: 1
 prep_time: 10
 cook: true

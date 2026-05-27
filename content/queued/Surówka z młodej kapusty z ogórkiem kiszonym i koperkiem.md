@@ -16,6 +16,7 @@ ingredients:
 - kapusta młoda
 - ogórki kiszone
 - marchew
+- koperek
 - majonez
 - śmietana
 servings: 4

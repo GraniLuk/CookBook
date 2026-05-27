@@ -16,6 +16,7 @@ ingredients:
 - cebula
 - jabłko
 - marchew
+- koperek
 - majonez
 - ocet jabłkowy
 servings: 6

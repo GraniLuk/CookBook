@@ -25,6 +25,7 @@ ingredients:
 - ikra
 - oliwa z oliwek
 - cytryna
+- koperek
 servings: 4
 prep_time: 25
 cook: true

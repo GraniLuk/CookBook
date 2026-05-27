@@ -22,6 +22,7 @@ ingredients:
 - frytki
 - mix sałat
 - coleslaw
+- koperek
 servings: 2
 prep_time: 60
 cook: true

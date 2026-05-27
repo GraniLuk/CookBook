@@ -18,6 +18,7 @@ ingredients:
 - bułka
 - pierś z kurczaka
 - jogurt skyr
+- koperek
 - cebula czerwona
 - ogórek zielony
 - mix sałat
