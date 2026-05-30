@@ -7,7 +7,7 @@ readyToTest: false
 queued: false
 favourite: false
 link: https://www.instagram.com/reels/DYovxDWMOrT/
-recipe_image: images/surowka_kapusta_koperek.avif
+recipe_image: images/recipe-headers/surowka_kapusta_koperek.avif
 date: 2026-05-30T12:00:00+00:00
 tags:
 - szybkie
