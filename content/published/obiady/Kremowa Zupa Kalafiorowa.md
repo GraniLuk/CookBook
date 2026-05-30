@@ -11,7 +11,7 @@ video_file: videos/kremowa_zupa_kalafiorowa.mp4
 date: 2025-12-22 08:00:00+00:00
 tags:
 - zupy
-tagline: Soczysta kremowa zupa kalafiorowa z mozzarellą i śmietanką.
+tagline: Kremowa zupa z pieczonego kalafiora, marchewki, mozzarelli i śmietanki.
 ingredients:
 - kalafior
 - marchewka
@@ -31,10 +31,13 @@ protein: 14.3
 fat: 23.8
 carbohydrate: 26.3
 fodmap:
-  status: false
-  serving_ok: Nie
-  notes: Zawiera cebulę i czosnek, które są źródłami FODMAP.
-  substitutions: []
+  status: no
+  serving_ok: Unikaj bez modyfikacji
+  notes: Zawiera dużą ilość cebuli i czosnku, czyli typowe źródła fruktanów. Kalafior też wymaga kontroli porcji przy wrażliwym żołądku.
+  substitutions:
+  - cebula -> zielona część szczypiorku lub olej infuzowany cebulą
+  - czosnek -> olej infuzowany czosnkiem bez cząstek
+  - śmietanka 30% -> śmietanka bez laktozy, jeśli laktoza nasila objawy
 ---
 
 ## Składniki
