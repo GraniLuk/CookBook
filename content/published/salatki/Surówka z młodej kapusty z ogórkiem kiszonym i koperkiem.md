@@ -3,12 +3,12 @@ title: Surówka z młodej kapusty z ogórkiem kiszonym i koperkiem
 author: Instagram
 categories: salatki
 draft: false
-readyToTest: true
-queued: true
+readyToTest: false
+queued: false
 favourite: false
 link: https://www.instagram.com/reels/DYovxDWMOrT/
-recipe_image: images/defaultImage.avif
-date: 2026-05-25T12:00:00+00:00
+recipe_image: images/surowka_kapusta_koperek.avif
+date: 2026-05-30T12:00:00+00:00
 tags:
 - szybkie
 tagline: Wyrazista surówka z młodej kapusty, kiszonych ogórków, marchewki, koperku i musztardy francuskiej.
