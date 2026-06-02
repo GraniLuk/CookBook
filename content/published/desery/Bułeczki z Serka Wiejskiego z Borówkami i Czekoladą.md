@@ -3,11 +3,11 @@ title: Bułeczki z Serka Wiejskiego z Borówkami i Czekoladą
 author: Instagram
 categories: desery
 draft: false
-readyToTest: true
-queued: true
+readyToTest: false
+queued: false
 favourite: false
 link: https://www.instagram.com/reels/DYw6Om1s_6T/
-recipe_image: ''
+recipe_image: images/recipe-headers/babeczki_serek_wiejski.avif
 video_file: videos/babeczki_serek_wiejski.mp4
 date: 2026-06-02
 tags:
