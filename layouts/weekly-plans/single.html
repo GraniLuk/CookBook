@@ -71,9 +71,9 @@
 ) }}
 {{ end }}
 {{ end }}
-<section class="page-section">
-    <div class="page-container">
-        <div class="flex flex-wrap items-center justify-between gap-4 mb-5">
+<section class="page-section weekly-plan-page">
+    <div class="page-container weekly-plan-page__container">
+        <div class="weekly-plan-header flex flex-wrap items-center justify-between gap-4 mb-5">
             <div>
                 <h1 class="text-3xl font-serif">{{ .Title }}</h1>
                 <p class="subtitle">
@@ -84,7 +84,7 @@
                         }}</span>
                 </p>
             </div>
-            <div class="flex gap-2">
+            <div class="weekly-plan-actions flex gap-2">
                 {{- $planSlug := urlquery .File.BaseFileName -}}
                 {{- $planSlug = replace $planSlug "+" "%20" -}}
                 <a href="{{ absURL (printf "admin/#/collections/weekly_plans/entries/%s" $planSlug) }}"
@@ -100,7 +100,7 @@
         </div>
 
         {{ if .Params.notes }}
-        <div class="alert alert-info mb-5">
+        <div class="weekly-plan-notes alert alert-info mb-5">
             <p><strong>Notatki do planu:</strong> {{ .Params.notes }}</p>
         </div>
         {{ end }}
@@ -142,12 +142,12 @@
             {{ range $dayIndex, $day := $days }}
             {{ $dayData := index $.Params $day }}
             <div class="box weekly-plan-day mb-4">
-                <h2 class="text-xl font-serif text-primary">
+                <h2 class="weekly-plan-day__title text-xl font-serif text-primary">
                     <span class="icon"><i class="fas fa-calendar-alt"></i></span>
                     {{ index $dayNames $day }}
                 </h2>
 
-                <div class="meal-grid">
+                <div class="meal-grid weekly-plan-meal-grid">
                     {{ range $meals }}
                     {{ $mealValue := index $dayData . }}
                     {{ $mealSlug := "" }}
@@ -161,7 +161,7 @@
                     {{ $mealSlug = printf "%v" $mealValue }}
                     {{ end }}
                     {{ end }}
-                    <div class="meal-slot">
+                    <div class="meal-slot weekly-plan-meal-card">
                         <p class="heading">{{ index $mealNames . }}</p>
                         {{ if $mealSlug }}
                         {{ $recipe := partial "weekly-plan-recipe.html" (dict "slug" $mealSlug) }}
@@ -179,11 +179,11 @@
                         {{- if and $recipe.Params.recipe_image (fileExists (printf "static/%s" $recipe.Params.recipe_image)) -}}
                         {{- $image_url = partial "asset-url.html" (printf "/%s" $recipe.Params.recipe_image) -}}
                         {{- end -}}
-                        <figure class="image is-128x128 mt-2">
+                        <figure class="weekly-plan-meal-image image is-128x128 mt-2">
                             <img src="{{ $image_url }}" alt="{{ $recipe.Title }}"
                                 style="aspect-ratio: 1/1; object-fit: cover; border-radius: 4px;">
                         </figure>
-                        <div class="flex items-center mt-2">
+                        <div class="weekly-plan-meal-meta flex items-center mt-2">
                             {{ with $recipe.Params.prep_time }}
                             <p class="text-gray-600 mr-3">
                                 <span class="inline-flex items-center text-sm"><i class="far fa-clock"></i></span>
@@ -208,7 +208,7 @@
                 </div>
 
                 {{ with $dayData.notes }}
-                <div class="alert mb-3">
+                <div class="weekly-plan-day-notes alert mb-3">
                     <p class="text-sm"><strong>Notatka:</strong> {{ . }}</p>
                 </div>
                 {{ end }}

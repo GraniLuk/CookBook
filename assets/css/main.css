@@ -1971,8 +1971,8 @@ nav[class*="navbar"] .menu[class*="menu-horizontal"]>li {
   }
 
   @media print {
-    .weekly-shopping-list > .weekly-shopping-list__content {
-      display: block !important;
+    .weekly-shopping-list {
+      display: none !important;
     }
 
     .weekly-shopping-list__header {
@@ -2628,6 +2628,223 @@ nav[class*="navbar"] .menu[class*="menu-horizontal"]>li {
 
   .column {
     padding: 0.5rem !important;
+  }
+
+  @page weekly-plan-print {
+    size: A4 landscape;
+    margin: 8mm;
+  }
+
+  .weekly-plan-page {
+    page: weekly-plan-print;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #111827 !important;
+    background: #ffffff !important;
+    font-size: 8pt !important;
+    line-height: 1.15 !important;
+  }
+
+  .weekly-plan-page__container {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .weekly-plan-actions,
+  .weekly-plan-notes,
+  .weekly-shopping-list,
+  .weekly-plan-day-notes,
+  .weekly-plan-content,
+  .weekly-plan-meal-image,
+  .weekly-plan-meal-card img,
+  .weekly-plan-meal-card .image,
+  .weekly-plan-page script {
+    display: none !important;
+  }
+
+  .weekly-plan-header {
+    display: flex !important;
+    align-items: flex-end !important;
+    justify-content: space-between !important;
+    gap: 4mm !important;
+    margin: 0 0 4mm !important;
+    padding: 0 0 2mm !important;
+    border-bottom: 1px solid #cbd5e1 !important;
+    break-after: avoid !important;
+  }
+
+  .weekly-plan-header h1 {
+    margin: 0 !important;
+    color: #111827 !important;
+    font-size: 15pt !important;
+    line-height: 1.05 !important;
+  }
+
+  .weekly-plan-header .subtitle {
+    display: flex !important;
+    align-items: center !important;
+    gap: 2mm !important;
+    margin: 1mm 0 0 !important;
+    color: #374151 !important;
+    font-size: 8.5pt !important;
+    line-height: 1.1 !important;
+    font-style: normal !important;
+  }
+
+  .weekly-plan-header .badge {
+    padding: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+    color: #111827 !important;
+    font-size: 8.5pt !important;
+    font-weight: 700 !important;
+    min-height: 0 !important;
+  }
+
+  .weekly-plan-grid {
+    display: grid !important;
+    grid-template-columns: repeat(7, minmax(0, 1fr)) !important;
+    align-items: stretch !important;
+    gap: 2mm !important;
+    margin: 0 !important;
+  }
+
+  .weekly-plan-day,
+  .box.weekly-plan-day {
+    display: flex !important;
+    flex-direction: column !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+    padding: 2mm !important;
+    border: 1px solid #cbd5e1 !important;
+    border-left: 2px solid #0f766e !important;
+    border-radius: 3px !important;
+    background: #ffffff !important;
+    box-shadow: none !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  .weekly-plan-day__title {
+    display: flex !important;
+    align-items: center !important;
+    gap: 1mm !important;
+    min-height: 8mm !important;
+    margin: 0 0 2mm !important;
+    padding-bottom: 1mm !important;
+    border-bottom: 1px solid #e5e7eb !important;
+    color: #0f766e !important;
+    font-size: 8.5pt !important;
+    font-weight: 800 !important;
+    line-height: 1.05 !important;
+  }
+
+  .weekly-plan-day__title .icon {
+    width: auto !important;
+    height: auto !important;
+    margin: 0 !important;
+    font-size: 7pt !important;
+  }
+
+  .weekly-plan-meal-grid,
+  .weekly-plan-day .meal-grid {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    grid-template-rows: repeat(4, minmax(0, 1fr)) !important;
+    flex: 1 1 auto !important;
+    gap: 1.5mm !important;
+  }
+
+  .weekly-plan-meal-card,
+  .meal-slot.weekly-plan-meal-card {
+    display: flex !important;
+    flex-direction: column !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 1.4mm !important;
+    gap: 0.7mm !important;
+    overflow: hidden !important;
+    border: 1px solid #e5e7eb !important;
+    border-radius: 3px !important;
+    background: #f9fafb !important;
+    color: #111827 !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  .weekly-plan-meal-card:hover,
+  .weekly-plan-meal-card a:hover {
+    border-color: #e5e7eb !important;
+    color: #111827 !important;
+    text-decoration: none !important;
+    transform: none !important;
+  }
+
+  .weekly-plan-meal-card .heading {
+    margin: 0 !important;
+    color: #4b5563 !important;
+    font-size: 6.2pt !important;
+    font-weight: 800 !important;
+    line-height: 1 !important;
+    letter-spacing: 0 !important;
+    text-transform: uppercase !important;
+  }
+
+  .weekly-plan-meal-card .meal-slot__title {
+    display: block !important;
+    min-height: 0 !important;
+    max-height: 20mm !important;
+    overflow: hidden !important;
+    color: #111827 !important;
+    font-size: 7.2pt !important;
+    font-weight: 700 !important;
+    line-height: 1.12 !important;
+    text-decoration: none !important;
+    overflow-wrap: anywhere !important;
+  }
+
+  .weekly-plan-meal-card p {
+    margin: 0 !important;
+  }
+
+  .weekly-plan-meal-card .text-gray-300 {
+    color: #9ca3af !important;
+    font-size: 7pt !important;
+    line-height: 1.15 !important;
+  }
+
+  .weekly-plan-meal-card .text-error {
+    color: #991b1b !important;
+    font-size: 7pt !important;
+    line-height: 1.15 !important;
+    overflow-wrap: anywhere !important;
+  }
+
+  .weekly-plan-meal-card .text-sm,
+  .weekly-plan-meal-card .text-gray-600,
+  .weekly-plan-meal-meta {
+    color: #4b5563 !important;
+    font-size: 6.5pt !important;
+    line-height: 1.05 !important;
+  }
+
+  .weekly-plan-meal-meta {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 1mm !important;
+    margin-top: auto !important;
+  }
+
+  .weekly-plan-meal-meta p {
+    margin-right: 0 !important;
+    white-space: nowrap !important;
+  }
+
+  .weekly-plan-page .icon,
+  .weekly-plan-page i {
+    color: inherit !important;
   }
 }
 
