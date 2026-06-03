@@ -38,6 +38,14 @@ function jsonResponse(data, status = 200, cors = null) {
   });
 }
 
+function publicErrorMessage(error) {
+  const message = String(error?.message || '');
+  if (message.startsWith('GitHub read failed:')) return message;
+  if (message.startsWith('GitHub commit failed:')) return 'GitHub commit failed';
+  if (message.startsWith('Missing ')) return message;
+  return '';
+}
+
 /**
  * Verify Firebase ID token using Google's public endpoint.
  * Returns the decoded token payload or throws on failure.
@@ -216,7 +224,10 @@ async function handleWeeklyShoppingGet(url, env, cors) {
     }, 200, cors);
   } catch (error) {
     console.error('Weekly shopping GET error:', error);
-    return jsonResponse({ error: 'Nie udało się wczytać listy kupionych składników.' }, 400, cors);
+    return jsonResponse({
+      error: 'Nie udało się wczytać listy kupionych składników.',
+      detail: publicErrorMessage(error),
+    }, 400, cors);
   }
 }
 
@@ -265,7 +276,10 @@ async function handleWeeklyShoppingPost(request, env, cors) {
     }, 200, cors);
   } catch (error) {
     console.error('Weekly shopping POST error:', error);
-    return jsonResponse({ error: 'Nie udało się zapisać listy zakupów.' }, 500, cors);
+    return jsonResponse({
+      error: 'Nie udało się zapisać listy zakupów.',
+      detail: publicErrorMessage(error),
+    }, 500, cors);
   }
 }
 

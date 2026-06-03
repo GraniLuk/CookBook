@@ -708,7 +708,8 @@
 
       if (!response.ok) {
         const data = await response.json().catch(() => ({}));
-        throw new Error(data.error || "Save failed");
+        const detail = data.detail ? ` (${data.detail})` : "";
+        throw new Error(`${data.error || "Save failed"}${detail}`);
       }
 
       writeStoredState(false);
