@@ -20,6 +20,37 @@ ingredients:
 - oliwa z oliwek
 - limonka
 - miód
+shopping_ingredients:
+- name: pierś z kurczaka
+  amount: 450
+  unit: g
+- name: komosa ryżowa
+  amount: 150
+  unit: g
+  note: ugotowana
+- name: soczewica zielona
+  amount: 150
+  unit: g
+  note: ugotowana
+- name: mięta
+  amount: 1
+  unit: porcja
+  note: kilka liści
+- name: granat
+  amount: 0.5
+  unit: szt.
+- name: rukola
+  amount: 100
+  unit: g
+- name: oliwa
+  amount: 20
+  unit: ml
+- name: limonka
+  amount: 1
+  unit: szt.
+- name: miód
+  amount: 10
+  unit: g
 servings: 3
 prep_time: 15
 cook: true

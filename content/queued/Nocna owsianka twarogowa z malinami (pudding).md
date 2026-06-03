@@ -20,6 +20,25 @@ ingredients:
 - maliny
 - mleko
 - chia
+shopping_ingredients:
+- name: płatki owsiane
+  amount: 100
+  unit: g
+- name: twaróg
+  amount: 250
+  unit: g
+- name: maliny
+  amount: 100
+  unit: g
+- name: mleko
+  amount: 100
+  unit: ml
+- name: nasiona chia
+  amount: 5
+  unit: g
+- name: erytrytol
+  amount: 10
+  unit: g
 servings: 1
 prep_time: 5
 cook: false

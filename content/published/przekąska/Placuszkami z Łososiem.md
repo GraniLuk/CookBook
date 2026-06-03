@@ -18,6 +18,28 @@ ingredients:
 - łosoś wędzony
 - jogurt skyr
 - koperek
+shopping_ingredients:
+- name: serek wiejski
+  amount: 400
+  unit: g
+- name: jajka
+  amount: 3
+  unit: szt.
+- name: mąka pszenna
+  amount: 150
+  unit: g
+- name: koperek
+  amount: 0.5
+  unit: pęczka
+- name: łosoś wędzony
+  amount: 400
+  unit: g
+- name: jogurt skyr
+  amount: 400
+  unit: g
+- name: sok z cytryny
+  amount: 40
+  unit: g
 servings: 4
 prep_time: 20
 cook: true

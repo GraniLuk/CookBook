@@ -22,6 +22,35 @@ ingredients:
 - jogurt naturalny
 - napój owsiany
 - masło orzechowe
+shopping_ingredients:
+- name: płatki owsiane
+  amount: 40
+  unit: g
+- name: nasiona chia
+  amount: 5
+  unit: g
+- name: odżywka białkowa
+  amount: 15
+  unit: g
+- name: jogurt skyr
+  amount: 150
+  unit: g
+- name: napój owsiany
+  amount: 140
+  unit: ml
+- name: przyprawa korzenna
+  amount: 0.5
+  unit: łyżeczki
+- name: masło orzechowe
+  amount: 15
+  unit: g
+- name: ekstrakt waniliowy
+  amount: 1
+  unit: porcja
+  note: kilka kropli
+- name: piernik
+  amount: 5
+  unit: g
 servings: 1
 prep_time: 5
 cook: false

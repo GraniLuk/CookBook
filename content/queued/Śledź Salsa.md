@@ -23,6 +23,46 @@ ingredients:
 - ananas
 - koncentrat pomidorowy
 - ketchup
+shopping_ingredients:
+- name: śledź
+  amount: 750
+  unit: g
+- name: ocet
+  amount: 6
+  unit: łyżek
+- name: papryka czerwona
+  amount: 1
+  unit: szt.
+- name: cebula
+  amount: 1
+  unit: szt.
+- name: marchewka
+  amount: 1
+  unit: szt.
+- name: olej
+  amount: 100
+  unit: ml
+- name: miód
+  amount: 1
+  unit: łyżeczka
+- name: liście laurowe
+  amount: 2
+  unit: szt.
+- name: ziele angielskie
+  amount: 4
+  unit: szt.
+- name: koncentrat pomidorowy
+  amount: 150
+  unit: g
+- name: ketchup
+  amount: 3
+  unit: łyżki
+- name: kukurydza
+  amount: 100
+  unit: g
+- name: ananas
+  amount: 4
+  unit: plastry
 servings: 4
 prep_time: 30
 cook: true

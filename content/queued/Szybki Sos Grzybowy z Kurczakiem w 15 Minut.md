@@ -20,6 +20,34 @@ ingredients:
 - masło
 - wino białe
 - oliwa z oliwek
+shopping_ingredients:
+- name: kurczak
+  amount: 300
+  unit: g
+- name: grzyby suszone
+  amount: 50
+  unit: g
+- name: makaron
+  amount: 150
+  unit: g
+- name: mleko skondensowane odchudzone
+  amount: 100
+  unit: g
+- name: cebula
+  amount: 50
+  unit: g
+- name: masło
+  amount: 20
+  unit: g
+- name: wino białe
+  amount: 50
+  unit: ml
+- name: oliwa
+  amount: 10
+  unit: ml
+- name: rozmaryn
+  amount: 1
+  unit: porcja
 servings: 2
 prep_time: 10
 cook: true

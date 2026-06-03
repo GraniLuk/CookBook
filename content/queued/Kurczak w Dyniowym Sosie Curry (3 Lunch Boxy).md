@@ -19,6 +19,57 @@ ingredients:
 - mleko kokosowe
 - pomidory krojone
 - curry
+shopping_ingredients:
+- name: pierś z kurczaka
+  amount: 600
+  unit: g
+- name: dynia piżmowa
+  amount: 1000
+  unit: g
+  note: surowa, po obraniu ok. 700-800 g
+- name: kasza bulgur
+  amount: 150
+  unit: g
+- name: cebula
+  amount: 150
+  unit: g
+- name: pomidory krojone
+  amount: 400
+  unit: g
+- name: mleko kokosowe
+  amount: 175
+  unit: ml
+  note: 150-200 ml
+- name: oliwa
+  amount: 15
+  unit: ml
+- name: cytryna
+  amount: 0.5
+  unit: szt.
+- name: curry
+  amount: 2
+  unit: łyżeczki
+- name: kumin
+  amount: 1.5
+  unit: łyżeczki
+- name: cynamon
+  amount: 1
+  unit: łyżeczka
+- name: gorczyca mielona
+  amount: 0.5
+  unit: łyżeczki
+- name: papryka
+  amount: 1.5
+  unit: łyżeczki
+  note: słodka
+- name: papryka chili
+  amount: 1
+  unit: łyżeczka
+  note: do smaku
+- name: kolendra
+  amount: 1
+  unit: porcja
+  note: do podania
 servings: 3
 prep_time: 20
 cook: true

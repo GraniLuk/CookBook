@@ -24,6 +24,58 @@ ingredients:
 - pomidor
 - sałata
 - sos teriyaki
+shopping_ingredients:
+- name: polędwiczki kurczaka
+  amount: 450
+  unit: g
+- name: mąka pszenna
+  amount: 25
+  unit: g
+- name: jajka
+  amount: 1
+  unit: szt.
+- name: mleko
+  amount: 50
+  unit: ml
+- name: musztarda
+  amount: 20
+  unit: g
+- name: przyprawa do kurczaka
+  amount: 1.5
+  unit: łyżki
+- name: czosnek
+  amount: 1
+  unit: porcja
+  note: do smaku
+- name: papryka
+  amount: 1
+  unit: porcja
+  note: pikantna, do smaku
+- name: oliwa
+  amount: 65
+  unit: ml
+  note: 60-70 ml
+- name: ryż parboiled
+  amount: 210
+  unit: g
+- name: awokado
+  amount: 1
+  unit: szt.
+- name: ananas
+  amount: 3
+  unit: półplastry
+- name: pomidor
+  amount: 1
+  unit: szt.
+- name: sałata
+  amount: 1
+  unit: garść
+- name: sos teriyaki
+  amount: 1
+  unit: porcja
+- name: sezam
+  amount: 1
+  unit: porcja
 servings: 3
 prep_time: 20
 cook: true

@@ -19,6 +19,52 @@ ingredients:
 - ananas
 - sos sojowy
 - olej sezamowy
+shopping_ingredients:
+- name: pierś z kurczaka
+  amount: 300
+  unit: g
+- name: olej
+  amount: 20
+  unit: ml
+- name: sos sojowy
+  amount: 30
+  unit: ml
+- name: cukier
+  amount: 20
+  unit: g
+  note: brązowy
+- name: limonka
+  amount: 1
+  unit: szt.
+- name: czosnek
+  amount: 2
+  unit: ząbki
+- name: imbir
+  amount: 10
+  unit: g
+- name: fasolka szparagowa
+  amount: 220
+  unit: g
+  note: 200-240 g
+- name: olej sezamowy
+  amount: 10
+  unit: ml
+- name: ryż jaśminowy
+  amount: 175
+  unit: g
+  note: 150-200 g
+- name: ananas
+  amount: 120
+  unit: g
+- name: awokado
+  amount: 0.5
+  unit: szt.
+- name: kolendra
+  amount: 1
+  unit: garść
+- name: sezam
+  amount: 1
+  unit: porcja
 servings: 2
 prep_time: 25
 cook: true

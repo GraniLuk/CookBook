@@ -20,6 +20,22 @@ ingredients:
 - musztarda
 - jogurt skyr
 - cebula dymka
+shopping_ingredients:
+- name: łosoś wędzony
+  amount: 600
+  unit: g
+- name: jajka
+  amount: 2
+  unit: szt.
+- name: musztarda
+  amount: 30
+  unit: g
+- name: jogurt skyr
+  amount: 200
+  unit: g
+- name: cebula dymka
+  amount: 0.5
+  unit: pęczka
 servings: 4
 prep_time: 15
 cook: false

@@ -23,6 +23,64 @@ ingredients:
   - cukier
   - majonez
   - śmietana 18%
+shopping_ingredients:
+- name: mięso z uda kurczaka
+  amount: 1000
+  unit: g
+- name: oliwa
+  amount: 56
+  unit: g
+- name: sos sojowy
+  amount: 15
+  unit: g
+- name: papryka wędzona
+  amount: 8
+  unit: g
+- name: czosnek suszony
+  amount: 3
+  unit: g
+- name: ketchup
+  amount: 45
+  unit: g
+- name: musztarda
+  amount: 15
+  unit: g
+- name: cukier
+  amount: 8
+  unit: g
+  note: trzcinowy
+- name: pomidorki koktajlowe
+  amount: 200
+  unit: g
+- name: sałata rzymska
+  amount: 150
+  unit: g
+- name: cebula czerwona
+  amount: 80
+  unit: g
+  note: opcjonalnie
+- name: ogórek
+  amount: 150
+  unit: g
+- name: kukurydza
+  amount: 100
+  unit: g
+- name: ryż basmati
+  amount: 300
+  unit: g
+  note: albo 400 g frytek
+- name: majonez
+  amount: 15
+  unit: g
+- name: śmietana 18%
+  amount: 15
+  unit: g
+- name: czosnek
+  amount: 1
+  unit: ząbek
+- name: sok z cytryny
+  amount: 15
+  unit: g
 servings: 4
 prep_time: 20
 cook: true

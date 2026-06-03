@@ -19,6 +19,26 @@ ingredients:
 - mix sałat
 - ogórek zielony
 - pomidorki koktajlowe
+shopping_ingredients:
+- name: łosoś
+  amount: 150
+  unit: g
+- name: komosa ryżowa
+  amount: 50
+  unit: g
+- name: mix sałat
+  amount: 1
+  unit: garść
+- name: ogórek zielony
+  amount: 0.25
+  unit: szt.
+- name: pomidorki koktajlowe
+  amount: 1
+  unit: porcja
+  note: kilka sztuk
+- name: cytryna
+  amount: 1
+  unit: szt.
 servings: 1
 prep_time: 15
 cook: true

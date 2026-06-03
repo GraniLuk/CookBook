@@ -20,6 +20,36 @@ ingredients:
 - papryka
 - cebula czerwona
 - oliwa
+shopping_ingredients:
+- name: wieprzowina
+  amount: 400
+  unit: g
+- name: jajka
+  amount: 8
+  unit: szt.
+- name: serek wiejski
+  amount: 200
+  unit: g
+- name: tortilla
+  amount: 4
+  unit: szt.
+- name: papryka
+  amount: 1
+  unit: szt.
+- name: cebula czerwona
+  amount: 0.25
+  unit: szt.
+- name: mix sałat
+  amount: 1
+  unit: porcja
+  note: lub rukola
+- name: oliwa
+  amount: 10
+  unit: ml
+- name: przyprawa
+  amount: 2
+  unit: łyżki
+  note: plus papryka słodka, oregano, sól i pieprz
 servings: 8
 prep_time: 35
 cook: true

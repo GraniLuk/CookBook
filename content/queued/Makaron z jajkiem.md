@@ -16,6 +16,26 @@ ingredients:
 - boczek wędzony
 - jajko
 - śmietanka 30%
+shopping_ingredients:
+- name: makaron
+  amount: 300
+  unit: g
+- name: boczek wędzony
+  amount: 100
+  unit: g
+- name: jajka
+  amount: 4
+  unit: szt.
+- name: śmietanka 30%
+  amount: 40
+  unit: g
+- name: olej
+  amount: 2
+  unit: łyżki
+  note: albo masło klarowane
+- name: szczypiorek
+  amount: 1
+  unit: garść
 servings: 4
 prep_time: 25
 cook: true

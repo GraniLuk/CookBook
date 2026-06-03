@@ -20,6 +20,23 @@ ingredients:
   - jajka
   - ogórek zielony
   - sok z cytryny
+shopping_ingredients:
+- name: serek kanapkowy
+  amount: 2
+  unit: łyżki
+- name: awokado
+  amount: 1
+  unit: szt.
+- name: jajka
+  amount: 3
+  unit: szt.
+- name: ogórek zielony
+  amount: 1
+  unit: szt.
+- name: cytryna
+  amount: 1
+  unit: porcja
+  note: sok do smaku
 servings: 1
 prep_time: 10
 cook: true

@@ -20,6 +20,33 @@ ingredients:
 - napój sojowy
 - czekolada organiczna
 - masło orzechowe
+shopping_ingredients:
+- name: płatki owsiane
+  amount: 100
+  unit: g
+- name: maliny
+  amount: 100
+  unit: g
+- name: twaróg chudy
+  amount: 125
+  unit: g
+- name: napój sojowy
+  amount: 50
+  unit: ml
+- name: czekolada
+  amount: 30
+  unit: g
+  note: 70% kakao
+- name: masło orzechowe
+  amount: 15
+  unit: g
+- name: borówki
+  amount: 50
+  unit: g
+- name: erytrytol
+  amount: 10
+  unit: g
+  note: opcjonalnie
 servings: 1
 prep_time: 10
 cook: false

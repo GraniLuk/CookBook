@@ -19,6 +19,27 @@ ingredients:
 - tahini
 - granat
 - erytrytol
+shopping_ingredients:
+- name: twaróg chudy
+  amount: 250
+  unit: g
+- name: jogurt skyr
+  amount: 150
+  unit: g
+- name: tahini
+  amount: 50
+  unit: g
+- name: granat
+  amount: 0.5
+  unit: szt.
+- name: erytrytol
+  amount: 35
+  unit: g
+  note: 30-40 g
+- name: kolendra
+  amount: 1
+  unit: porcja
+  note: opcjonalnie
 servings: 2
 prep_time: 10
 cook: false

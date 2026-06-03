@@ -20,6 +20,37 @@ ingredients:
 - jajko
 - pasta gochujang
 - czosnek
+shopping_ingredients:
+- name: mięso z uda kurczaka
+  amount: 400
+  unit: g
+- name: ryż basmati
+  amount: 200
+  unit: g
+- name: boczek wędzony
+  amount: 100
+  unit: g
+- name: jajka
+  amount: 2
+  unit: szt.
+- name: parmezan
+  amount: 50
+  unit: g
+- name: pasta gochujang
+  amount: 2
+  unit: łyżki
+- name: czosnek
+  amount: 2
+  unit: ząbki
+- name: miód
+  amount: 1
+  unit: łyżka
+- name: sos sojowy
+  amount: 2
+  unit: łyżki
+- name: olej sezamowy
+  amount: 1
+  unit: łyżka
 servings: 2
 prep_time: 20
 cook: true

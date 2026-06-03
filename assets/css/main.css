@@ -1420,6 +1420,376 @@ nav[class*="navbar"] .menu[class*="menu-horizontal"]>li {
     margin-bottom: 0;
   }
 
+  .weekly-shopping-list {
+    max-width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0.875rem;
+    border-radius: 8px;
+    border-left: 4px solid #3b82f6;
+  }
+
+  .weekly-shopping-list__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-bottom: 0.65rem;
+  }
+
+  .weekly-shopping-list__header h2 {
+    margin-bottom: 0.1rem;
+    font-size: 1.25rem;
+    line-height: 1.25;
+  }
+
+  .weekly-shopping-list__header .subtitle {
+    margin: 0;
+    font-size: 0.85rem;
+    line-height: 1.25;
+  }
+
+  .weekly-shopping-list #weekly-shopping-count {
+    min-height: auto;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.78rem;
+    white-space: nowrap;
+  }
+
+  .weekly-shopping-list__meta {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .weekly-shopping-save-status {
+    min-height: 1.25rem;
+    color: #64748b;
+    font-size: 0.78rem;
+    line-height: 1.25;
+    white-space: nowrap;
+  }
+
+  .weekly-shopping-save-status[data-state="saving"] {
+    color: #2563eb;
+  }
+
+  .weekly-shopping-save-status[data-state="saved"] {
+    color: #16a34a;
+  }
+
+  .weekly-shopping-save-status[data-state="error"] {
+    color: #dc2626;
+  }
+
+  .weekly-shopping-list__body {
+    max-height: min(56vh, 32rem);
+    overflow: auto;
+    padding-right: 0.25rem;
+  }
+
+  .weekly-shopping-list__body::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .weekly-shopping-list__body::-webkit-scrollbar-track {
+    background: #f3f4f6;
+    border-radius: 999px;
+  }
+
+  .weekly-shopping-list__body::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 999px;
+  }
+
+  .weekly-shopping-categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15.5rem, 1fr));
+    align-items: start;
+    gap: 0.75rem;
+  }
+
+  .weekly-shopping-category {
+    min-width: 0;
+  }
+
+  .weekly-shopping-category__title {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    margin: 0 0 0.4rem;
+    padding: 0.35rem 0.45rem;
+    border-radius: 6px;
+    background: #f8fafc;
+    color: #334155;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.78rem;
+    font-weight: 800;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .weekly-shopping-category__title i {
+    width: 1rem;
+    text-align: center;
+    font-size: 0.85rem;
+  }
+
+  .weekly-shopping-category--produce .weekly-shopping-category__title {
+    background: #f0fdf4;
+    border-left: 3px solid #22c55e;
+  }
+
+  .weekly-shopping-category--produce .weekly-shopping-category__title i {
+    color: #16a34a;
+  }
+
+  .weekly-shopping-category--protein .weekly-shopping-category__title {
+    background: #fff1f2;
+    border-left: 3px solid #f43f5e;
+  }
+
+  .weekly-shopping-category--protein .weekly-shopping-category__title i {
+    color: #e11d48;
+  }
+
+  .weekly-shopping-category--dairy .weekly-shopping-category__title {
+    background: #eff6ff;
+    border-left: 3px solid #3b82f6;
+  }
+
+  .weekly-shopping-category--dairy .weekly-shopping-category__title i {
+    color: #2563eb;
+  }
+
+  .weekly-shopping-category--grains .weekly-shopping-category__title {
+    background: #fffbeb;
+    border-left: 3px solid #f59e0b;
+  }
+
+  .weekly-shopping-category--grains .weekly-shopping-category__title i {
+    color: #d97706;
+  }
+
+  .weekly-shopping-category--sauces .weekly-shopping-category__title {
+    background: #f5f3ff;
+    border-left: 3px solid #8b5cf6;
+  }
+
+  .weekly-shopping-category--sauces .weekly-shopping-category__title i {
+    color: #7c3aed;
+  }
+
+  .weekly-shopping-category--spices .weekly-shopping-category__title {
+    background: #fff7ed;
+    border-left: 3px solid #f97316;
+  }
+
+  .weekly-shopping-category--spices .weekly-shopping-category__title i {
+    color: #ea580c;
+  }
+
+  .weekly-shopping-category--other .weekly-shopping-category__title {
+    background: #f8fafc;
+    border-left: 3px solid #94a3b8;
+  }
+
+  .weekly-shopping-category--other .weekly-shopping-category__title i {
+    color: #64748b;
+  }
+
+  .weekly-shopping-list__items {
+    display: grid;
+    gap: 0.45rem;
+  }
+
+  .weekly-shopping-bought {
+    margin-top: 1rem;
+    padding-top: 0.75rem;
+    border-top: 1px dashed #cbd5e1;
+  }
+
+  .weekly-shopping-bought .weekly-shopping-category__title {
+    background: #f1f5f9;
+    border-left: 3px solid #94a3b8;
+  }
+
+  .weekly-shopping-bought .weekly-shopping-category__title i {
+    color: #64748b;
+  }
+
+  .weekly-shopping-item {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  .weekly-shopping-item__summary {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 0.48rem 0.6rem;
+    cursor: pointer;
+    list-style: none;
+  }
+
+  .weekly-shopping-item__summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .weekly-shopping-item__summary::before {
+    content: "+";
+    grid-column: 2;
+    grid-row: 1;
+    width: 1rem;
+    height: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 999px;
+    background: #eef6ff;
+    color: #2563eb;
+    font-weight: 700;
+  }
+
+  .weekly-shopping-item[open] .weekly-shopping-item__summary::before {
+    content: "-";
+  }
+
+  .weekly-shopping-item__checkbox {
+    grid-column: 1;
+    grid-row: 1;
+    width: 1.15rem;
+    height: 1.15rem;
+    margin: 0;
+    cursor: pointer;
+    accent-color: #2563eb;
+  }
+
+  .weekly-shopping-item__name {
+    grid-column: 2;
+    grid-row: 1;
+    min-width: 0;
+    padding-left: 1.35rem;
+    font-weight: 700;
+    font-size: 0.92rem;
+    line-height: 1.2;
+    color: #1f2937;
+  }
+
+  .weekly-shopping-item__total {
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: end;
+    padding: 0.15rem 0.4rem;
+    border-radius: 999px;
+    background: #f3f4f6;
+    color: #111827;
+    font-size: 0.8rem;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  .weekly-shopping-item--checked {
+    background: #f8fafc;
+    border-color: #cbd5e1;
+    color: #64748b;
+  }
+
+  .weekly-shopping-item--checked .weekly-shopping-item__name,
+  .weekly-shopping-item--checked .weekly-shopping-item__total,
+  .weekly-shopping-item--checked .weekly-shopping-item__detail-amount,
+  .weekly-shopping-item--checked .weekly-shopping-item__recipe,
+  .weekly-shopping-item--checked .weekly-shopping-item__meal,
+  .weekly-shopping-item--checked .weekly-shopping-item__detail-note,
+  .weekly-shopping-item--checked .weekly-shopping-item__note {
+    color: #94a3b8;
+  }
+
+  .weekly-shopping-item--checked .weekly-shopping-item__name {
+    text-decoration: line-through;
+  }
+
+  .weekly-shopping-item--checked .weekly-shopping-item__total {
+    background: #e2e8f0;
+  }
+
+  .weekly-shopping-item__note {
+    margin: 0 0.6rem 0.45rem;
+    color: #6b7280;
+    font-size: 0.78rem;
+    line-height: 1.25;
+  }
+
+  .weekly-shopping-item__details {
+    display: grid;
+    gap: 0;
+    margin: 0;
+    padding: 0 0.6rem 0.55rem;
+  }
+
+  .weekly-shopping-item__details li {
+    display: grid;
+    grid-template-columns: minmax(4.5rem, auto) minmax(0, 1fr);
+    align-items: start;
+    gap: 0.15rem 0.5rem;
+    padding: 0.35rem 0;
+    border-top: 1px solid #f3f4f6;
+  }
+
+  .weekly-shopping-item__detail-amount {
+    font-weight: 700;
+    font-size: 0.82rem;
+    line-height: 1.25;
+    color: #374151;
+    white-space: nowrap;
+  }
+
+  .weekly-shopping-item__recipe {
+    min-width: 0;
+    color: #3273dc;
+    font-size: 0.85rem;
+    line-height: 1.25;
+    font-weight: 600;
+  }
+
+  .weekly-shopping-item__meal,
+  .weekly-shopping-item__detail-note {
+    grid-column: 2;
+    color: #6b7280;
+    font-size: 0.78rem;
+    line-height: 1.25;
+  }
+
+  .weekly-shopping-item__meal {
+    overflow-wrap: anywhere;
+  }
+
+  .weekly-shopping-missing {
+    margin-top: 1rem;
+  }
+
+  .weekly-shopping-missing__title {
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+
+  .weekly-shopping-missing ul {
+    margin: 0;
+    padding-left: 1.25rem;
+  }
+
+  .weekly-shopping-missing__count {
+    color: #6b7280;
+  }
+
   .meal-slot {
     background: white;
     padding: 1rem;
@@ -1496,6 +1866,34 @@ nav[class*="navbar"] .menu[class*="menu-horizontal"]>li {
   }
 
   @media screen and (max-width: 768px) {
+    .weekly-shopping-list__header {
+      align-items: stretch;
+      flex-direction: column;
+    }
+
+    .weekly-shopping-list__meta {
+      justify-content: flex-start;
+    }
+
+    .weekly-shopping-item__summary {
+      grid-template-columns: auto minmax(0, 1fr);
+      gap: 0.5rem;
+    }
+
+    .weekly-shopping-item__total {
+      grid-column: 2;
+      grid-row: 2;
+      justify-self: start;
+      margin-left: 1.35rem;
+      white-space: normal;
+    }
+
+    .weekly-shopping-item__details li {
+      grid-template-columns: 1fr;
+      align-items: start;
+      gap: 0.25rem;
+    }
+
     .meal-slot {
       min-height: 100px;
       padding: 0.75rem;
@@ -1516,6 +1914,20 @@ nav[class*="navbar"] .menu[class*="menu-horizontal"]>li {
 
     .weekly-plan-day .column {
       padding-bottom: 0.5rem;
+    }
+  }
+
+  @media print {
+    .weekly-shopping-item {
+      break-inside: avoid;
+    }
+
+    .weekly-shopping-item__details {
+      display: none;
+    }
+
+    .weekly-shopping-item[open] .weekly-shopping-item__details {
+      display: grid;
     }
   }
 }

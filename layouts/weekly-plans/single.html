@@ -1,4 +1,58 @@
 {{ define "main" }}
+{{ $days := slice "monday" "tuesday" "wednesday" "thursday" "friday" "saturday" "sunday" }}
+{{ $dayNames := dict "monday" "Poniedziałek" "tuesday" "Wtorek" "wednesday" "Środa" "thursday" "Czwartek"
+"friday" "Piątek" "saturday" "Sobota" "sunday" "Niedziela" }}
+{{ $meals := slice "breakfast" "lunch" "dinner" "supper" }}
+{{ $mealNames := dict "breakfast" "Śniadanie" "lunch" "Lunch" "dinner" "Obiad" "supper" "Kolacja" }}
+{{ $shoppingItems := slice }}
+{{ $missingShoppingRecipes := slice }}
+{{ range $dayIndex, $day := $days }}
+{{ $dayData := index $.Params $day }}
+{{ if $dayData }}
+{{ range $meal := $meals }}
+{{ $mealValue := index $dayData $meal }}
+{{ $mealSlug := "" }}
+{{ $plannedServings := 1 }}
+{{ if $mealValue }}
+{{ if reflect.IsMap $mealValue }}
+{{ with index $mealValue "recipe" }}{{ $mealSlug = printf "%v" . }}{{ end }}
+{{ with index $mealValue "servings" }}{{ $plannedServings = . }}{{ end }}
+{{ else }}
+{{ $mealSlug = printf "%v" $mealValue }}
+{{ end }}
+{{ end }}
+{{ if $mealSlug }}
+{{ $recipe := partial "weekly-plan-recipe.html" (dict "slug" $mealSlug) }}
+{{ if $recipe }}
+{{ $recipeServings := $recipe.Params.servings | default 1 }}
+{{ with $recipe.Params.shopping_ingredients }}
+{{ range . }}
+{{ $shoppingItems = $shoppingItems | append (dict
+    "name" (index . "name" | default "")
+    "amount" (index . "amount" | default 0)
+    "unit" (index . "unit" | default "")
+    "note" (index . "note" | default "")
+    "recipeTitle" $recipe.Title
+    "recipeUrl" $recipe.Permalink
+    "recipeServings" $recipeServings
+    "plannedServings" $plannedServings
+    "dayName" (index $dayNames $day)
+    "mealName" (index $mealNames $meal)
+) }}
+{{ end }}
+{{ else }}
+{{ $missingShoppingRecipes = $missingShoppingRecipes | append (dict
+    "recipeTitle" $recipe.Title
+    "recipeUrl" $recipe.Permalink
+    "dayName" (index $dayNames $day)
+    "mealName" (index $mealNames $meal)
+) }}
+{{ end }}
+{{ end }}
+{{ end }}
+{{ end }}
+{{ end }}
+{{ end }}
 <section class="page-section">
     <div class="page-container">
         <div class="flex flex-wrap items-center justify-between gap-4 mb-5">
@@ -33,13 +87,35 @@
         </div>
         {{ end }}
 
-        <div class="weekly-plan-grid">
-            {{ $days := slice "monday" "tuesday" "wednesday" "thursday" "friday" "saturday" "sunday" }}
-            {{ $dayNames := dict "monday" "Poniedziałek" "tuesday" "Wtorek" "wednesday" "Środa" "thursday" "Czwartek"
-            "friday" "Piątek" "saturday" "Sobota" "sunday" "Niedziela" }}
-            {{ $meals := slice "breakfast" "lunch" "dinner" "supper" }}
-            {{ $mealNames := dict "breakfast" "Śniadanie" "lunch" "Lunch" "dinner" "Obiad" "supper" "Kolacja" }}
+        <section class="box weekly-shopping-list mb-5">
+            <div class="weekly-shopping-list__header">
+                <div>
+                    <h2 class="text-2xl font-serif text-primary">
+                        <span class="icon"><i class="fas fa-basket-shopping"></i></span>
+                        Lista zakupów
+                    </h2>
+                    <p class="subtitle">Automatycznie z posiłków zaplanowanych w tym tygodniu.</p>
+                </div>
+                <div class="weekly-shopping-list__meta">
+                    <span class="badge badge-info" id="weekly-shopping-count">0 składników</span>
+                    <span class="weekly-shopping-save-status" id="weekly-shopping-save-status" aria-live="polite"></span>
+                </div>
+            </div>
+            <div id="weekly-plan-shopping-list" class="weekly-shopping-list__body">
+                <p class="text-gray-600">Ładowanie listy zakupów...</p>
+            </div>
+            {{ $shoppingPayload := dict
+                "items" $shoppingItems
+                "missingRecipes" $missingShoppingRecipes
+                "checked" (.Params.shopping_checked | default slice)
+                "planSlug" .File.BaseFileName
+                "planPath" .File.Path
+                "workerUrl" "https://cookbook-chat-proxy.cookbookgranica.workers.dev"
+            }}
+            <script type="application/json" id="weekly-plan-shopping-data">{{ $shoppingPayload | jsonify }}</script>
+        </section>
 
+        <div class="weekly-plan-grid">
             {{ range $dayIndex, $day := $days }}
             {{ $dayData := index $.Params $day }}
             <div class="box weekly-plan-day mb-4">
@@ -50,7 +126,18 @@
 
                 <div class="meal-grid">
                     {{ range $meals }}
-                    {{ $mealSlug := index $dayData . }}
+                    {{ $mealValue := index $dayData . }}
+                    {{ $mealSlug := "" }}
+                    {{ $plannedServings := 1 }}
+                    {{ $hasPlannedServings := false }}
+                    {{ if $mealValue }}
+                    {{ if reflect.IsMap $mealValue }}
+                    {{ with index $mealValue "recipe" }}{{ $mealSlug = printf "%v" . }}{{ end }}
+                    {{ with index $mealValue "servings" }}{{ $plannedServings = . }}{{ $hasPlannedServings = true }}{{ end }}
+                    {{ else }}
+                    {{ $mealSlug = printf "%v" $mealValue }}
+                    {{ end }}
+                    {{ end }}
                     <div class="meal-slot">
                         <p class="heading">{{ index $mealNames . }}</p>
                         {{ if $mealSlug }}
@@ -59,6 +146,12 @@
                         <a href="{{ $recipe.Permalink }}" class="font-semibold meal-slot__title" title="{{ $recipe.Title }}">
                             {{ $recipe.Title }}
                         </a>
+                        {{ if $hasPlannedServings }}
+                        <p class="text-gray-600 text-sm">
+                            <span class="inline-flex items-center text-sm"><i class="fas fa-utensils"></i></span>
+                            {{ $plannedServings }} porcji w planie
+                        </p>
+                        {{ end }}
                         {{- $image_url := partial "asset-url.html" "/images/defaultImage.avif" -}}
                         {{- if and $recipe.Params.recipe_image (fileExists (printf "static/%s" $recipe.Params.recipe_image)) -}}
                         {{- $image_url = partial "asset-url.html" (printf "/%s" $recipe.Params.recipe_image) -}}
@@ -114,4 +207,7 @@
         </div>
     </div>
 </section>
+<script>
+{{ readFile "static/js/weekly-plan-shopping-list.js" | safeJS }}
+</script>
 {{ end }}

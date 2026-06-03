@@ -17,6 +17,26 @@ ingredients:
 - jajka
 - bułka
 - bułka tarta
+shopping_ingredients:
+- name: mięso mielone
+  amount: 800
+  unit: g
+- name: cebula
+  amount: 2
+  unit: szt.
+- name: jajka
+  amount: 2
+  unit: szt.
+- name: bułka
+  amount: 1
+  unit: szt.
+- name: bułka tarta
+  amount: 50
+  unit: g
+- name: olej
+  amount: 50
+  unit: g
+  note: do smażenia
 servings: 4
 prep_time: 20
 cook: true

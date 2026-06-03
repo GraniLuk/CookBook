@@ -22,6 +22,42 @@ ingredients:
 - pomarańcza
 - kolendra
 - fasola biała
+shopping_ingredients:
+- name: kuskus
+  amount: 200
+  unit: g
+- name: marchewka
+  amount: 200
+  unit: g
+- name: fasola biała
+  amount: 150
+  unit: g
+- name: natka pietruszki
+  amount: 20
+  unit: g
+- name: papryczka chili
+  amount: 10
+  unit: g
+- name: orzechy nerkowca
+  amount: 30
+  unit: g
+- name: pierś z kurczaka
+  amount: 300
+  unit: g
+- name: oliwa
+  amount: 27
+  unit: ml
+  note: kurczak i sos
+- name: pomarańcza
+  amount: 1
+  unit: szt.
+- name: kolendra
+  amount: 10
+  unit: g
+- name: przyprawa
+  amount: 1
+  unit: porcja
+  note: opcjonalnie
 servings: 3
 prep_time: 15
 cook: true

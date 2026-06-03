@@ -4,6 +4,11 @@ import sys
 from datetime import date, datetime, timezone
 from pathlib import Path
 
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
 try:
     import frontmatter
     import yaml
@@ -33,6 +38,8 @@ ORDER = [
     "tags",
     "tagline",
     "ingredients",
+    "shopping_ingredients",
+    "shopping_checked",
     "servings",
     "prep_time",
     "cook",
