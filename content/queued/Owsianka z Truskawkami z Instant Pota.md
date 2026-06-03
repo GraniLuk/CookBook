@@ -11,8 +11,7 @@ recipe_image: images/recipe-headers/pieczona_owsianka_z_malinami.avif
 date: 2026-06-03
 tags:
 - owsianka
-- truskawki
-- instant-pot
+- instant pot
 tagline: Kremowa owsianka z Instant Pota z truskawkami, bananem, masłem orzechowym, skyrem i domową granolą.
 ingredients:
 - woda
@@ -21,8 +20,7 @@ ingredients:
 - truskawki
 - banan
 - masło orzechowe
-- domowa granola
-- skyr naturalny
+- jogurt skyr
 shopping_ingredients:
 - name: mleko
   amount: 400
@@ -40,11 +38,7 @@ shopping_ingredients:
   amount: 20
   unit: g
   note: 4 płaskie łyżeczki
-- name: domowa granola
-  amount: 80
-  unit: g
-  note: z przepisu Domowa Granola z Miodem, Kokosem i Bakaliami
-- name: skyr naturalny
+- name: jogurt skyr
   amount: 60
   unit: g
   note: po 1 łyżce stołowej na porcję
