@@ -105,8 +105,8 @@
         </div>
         {{ end }}
 
-        <section class="box weekly-shopping-list mb-5">
-            <div class="weekly-shopping-list__header">
+        <details class="box weekly-shopping-list mb-5">
+            <summary class="weekly-shopping-list__header">
                 <div>
                     <h2 class="text-2xl font-serif text-primary">
                         <span class="icon"><i class="fas fa-basket-shopping"></i></span>
@@ -117,21 +117,26 @@
                 <div class="weekly-shopping-list__meta">
                     <span class="badge badge-info" id="weekly-shopping-count">0 składników</span>
                     <span class="weekly-shopping-save-status" id="weekly-shopping-save-status" aria-live="polite"></span>
+                    <span class="weekly-shopping-list__chevron" aria-hidden="true">
+                        <i class="fas fa-chevron-down"></i>
+                    </span>
                 </div>
+            </summary>
+            <div class="weekly-shopping-list__content">
+                <div id="weekly-plan-shopping-list" class="weekly-shopping-list__body">
+                    <p class="text-gray-600">Ładowanie listy zakupów...</p>
+                </div>
+                {{ $shoppingPayload := dict
+                    "items" $shoppingItems
+                    "missingRecipes" $missingShoppingRecipes
+                    "checked" (.Params.shopping_checked | default slice)
+                    "planSlug" .File.BaseFileName
+                    "planPath" .File.Path
+                    "workerUrl" "https://cookbook-chat-proxy.cookbookgranica.workers.dev"
+                }}
+                <script type="application/json" id="weekly-plan-shopping-data">{{ $shoppingPayload | jsonify }}</script>
             </div>
-            <div id="weekly-plan-shopping-list" class="weekly-shopping-list__body">
-                <p class="text-gray-600">Ładowanie listy zakupów...</p>
-            </div>
-            {{ $shoppingPayload := dict
-                "items" $shoppingItems
-                "missingRecipes" $missingShoppingRecipes
-                "checked" (.Params.shopping_checked | default slice)
-                "planSlug" .File.BaseFileName
-                "planPath" .File.Path
-                "workerUrl" "https://cookbook-chat-proxy.cookbookgranica.workers.dev"
-            }}
-            <script type="application/json" id="weekly-plan-shopping-data">{{ $shoppingPayload | jsonify }}</script>
-        </section>
+        </details>
 
         <div class="weekly-plan-grid">
             {{ range $dayIndex, $day := $days }}

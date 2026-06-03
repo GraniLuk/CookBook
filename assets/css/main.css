@@ -1427,6 +1427,7 @@ nav[class*="navbar"] .menu[class*="menu-horizontal"]>li {
     padding: 0.875rem;
     border-radius: 8px;
     border-left: 4px solid #3b82f6;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
   }
 
   .weekly-shopping-list__header {
@@ -1434,7 +1435,26 @@ nav[class*="navbar"] .menu[class*="menu-horizontal"]>li {
     align-items: center;
     justify-content: space-between;
     gap: 0.75rem;
+    margin-bottom: 0;
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+  }
+
+  .weekly-shopping-list:hover {
+    box-shadow: 0 4px 14px rgba(15, 23, 42, 0.08);
+  }
+
+  .weekly-shopping-list[open] .weekly-shopping-list__header {
     margin-bottom: 0.65rem;
+  }
+
+  .weekly-shopping-list__header::-webkit-details-marker {
+    display: none;
+  }
+
+  .weekly-shopping-list__header::marker {
+    content: "";
   }
 
   .weekly-shopping-list__header h2 {
@@ -1462,6 +1482,39 @@ nav[class*="navbar"] .menu[class*="menu-horizontal"]>li {
     justify-content: flex-end;
     flex-wrap: wrap;
     gap: 0.4rem;
+  }
+
+  .weekly-shopping-list__chevron {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 999px;
+    background: #eff6ff;
+    color: #2563eb;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+  }
+
+  .weekly-shopping-list[open] .weekly-shopping-list__chevron {
+    transform: rotate(180deg);
+    background: #dbeafe;
+  }
+
+  .weekly-shopping-list__content {
+    animation: weekly-shopping-open 0.18s ease-out;
+  }
+
+  @keyframes weekly-shopping-open {
+    from {
+      opacity: 0;
+      transform: translateY(-4px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 
   .weekly-shopping-save-status {
@@ -1918,6 +1971,19 @@ nav[class*="navbar"] .menu[class*="menu-horizontal"]>li {
   }
 
   @media print {
+    .weekly-shopping-list > .weekly-shopping-list__content {
+      display: block !important;
+    }
+
+    .weekly-shopping-list__header {
+      cursor: default;
+      margin-bottom: 0.65rem !important;
+    }
+
+    .weekly-shopping-list__chevron {
+      display: none !important;
+    }
+
     .weekly-shopping-item {
       break-inside: avoid;
     }
