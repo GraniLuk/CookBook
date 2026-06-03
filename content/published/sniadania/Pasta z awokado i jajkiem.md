@@ -6,19 +6,20 @@ subcategories: słone
 draft: false
 readyToTest: false
 queued: false
+favourite: false
 link: https://www.youtube.com/watch?v=BdyGysxMHBI
 recipe_image: images/recipe-headers/pasta_awokado_jajko.avif
 date: 2026-01-23 12:00:00+00:00
 tags:
-- szybkie
-- proteinowe
+  - szybkie
+  - kanapki
 tagline: Kremowa pasta z awokado, jajek i świeżego ogórka.
 ingredients:
-- serek kanapkowy
-- awokado
-- jajka
-- ogórek zielony
-- sok z cytryny
+  - serek kanapkowy
+  - awokado
+  - jajka
+  - ogórek zielony
+  - sok z cytryny
 servings: 1
 prep_time: 10
 cook: true
@@ -28,7 +29,7 @@ protein: 29
 fat: 46
 carbohydrate: 13
 fodmap:
-  status: 'yes'
+  status: yes
   serving_ok: OK w tej porcji
   notes: Awokado, jajka, ogórek - wszystko bezpieczne w tej ilości
   substitutions: []
