@@ -21,6 +21,41 @@ ingredients:
 - natka pietruszki
 - szczypiorek
 - koperek
+shopping_ingredients:
+- name: ziemniaki
+  amount: 1000
+  unit: g
+- name: mięso mielone
+  amount: 700
+  unit: g
+  note: wieprzowe, wołowe lub drobiowe
+- name: cukinia
+  amount: 2
+  unit: szt.
+- name: cebula
+  amount: 2
+  unit: szt.
+- name: czosnek
+  amount: 4
+  unit: ząbki
+- name: przecier pomidorowy
+  amount: 300
+  unit: ml
+  note: opcjonalnie
+- name: śmietanka kremówka 30%
+  amount: 350
+  unit: g
+  note: opcjonalnie
+- name: ser żółty
+  amount: 200
+  unit: g
+- name: olej roślinny
+  amount: 30
+  unit: g
+- name: natka pietruszki
+  amount: 1
+  unit: pęczek
+  note: opcjonalnie, zamiennie ze szczypiorkiem lub koperkiem
 servings: 6
 prep_time: 40
 cook: true

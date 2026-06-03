@@ -26,6 +26,35 @@ ingredients:
 - wanilia
 - suszone morele
 - żurawina suszona
+shopping_ingredients:
+- name: płatki owsiane
+  amount: 250
+  unit: g
+- name: płatki migdałowe
+  amount: 40
+  unit: g
+- name: wiórki kokosowe
+  amount: 50
+  unit: g
+- name: orzechy włoskie
+  amount: 50
+  unit: g
+- name: miód
+  amount: 120
+  unit: g
+- name: olej kokosowy
+  amount: 50
+  unit: g
+- name: ekstrakt waniliowy
+  amount: 1
+  unit: opak.
+  note: 10-20 kropel
+- name: suszone morele
+  amount: 50
+  unit: g
+- name: żurawina suszona
+  amount: 30
+  unit: g
 servings: 12
 prep_time: 10
 cook: true

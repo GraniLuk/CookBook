@@ -23,6 +23,55 @@ ingredients:
 - ogórek
 - pomidor
 - cebula czerwona
+shopping_ingredients:
+- name: wołowina
+  amount: 400
+  unit: g
+  note: rozbratel lub mielona, 15-20% tłuszczu
+- name: wieprzowina
+  amount: 400
+  unit: g
+  note: łopatka, 15-20% tłuszczu
+- name: przyprawa uniwersalna do mięs
+  amount: 1
+  unit: łyżka
+- name: garam masala
+  amount: 1
+  unit: łyżka
+- name: tortilla lub bułka pita
+  amount: 5
+  unit: szt.
+- name: jogurt skyr
+  amount: 150
+  unit: g
+- name: jogurt naturalny
+  amount: 150
+  unit: g
+- name: majonez light
+  amount: 30
+  unit: g
+- name: czosnek
+  amount: 1
+  unit: ząbek
+- name: cytryna
+  amount: 1
+  unit: szt.
+  note: do soku
+- name: miks sałat
+  amount: 1
+  unit: opak.
+- name: kapusta czerwona
+  amount: 1
+  unit: szt.
+- name: pomidor
+  amount: 1
+  unit: szt.
+- name: ogórek
+  amount: 1
+  unit: szt.
+- name: cebula czerwona
+  amount: 1
+  unit: szt.
 servings: 5
 prep_time: 20
 cook: true

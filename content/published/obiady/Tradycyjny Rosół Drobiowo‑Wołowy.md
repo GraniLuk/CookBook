@@ -22,6 +22,44 @@ ingredients:
 - por
 - cebula
 - czosnek
+shopping_ingredients:
+- name: skrzydło indycze
+  amount: 800
+  unit: g
+- name: kotlet z antrykotu z kością
+  amount: 600
+  unit: g
+- name: kości cielęce
+  amount: 500
+  unit: g
+- name: marchew
+  amount: 300
+  unit: g
+- name: pietruszka
+  amount: 200
+  unit: g
+  note: z natką
+- name: seler korzeń
+  amount: 200
+  unit: g
+- name: por
+  amount: 150
+  unit: g
+- name: cebula
+  amount: 2
+  unit: szt.
+- name: czosnek
+  amount: 1
+  unit: główka
+- name: ziele angielskie
+  amount: 1
+  unit: garść
+- name: pieprz ziarnisty
+  amount: 1
+  unit: garść
+- name: liść laurowy
+  amount: 2
+  unit: szt.
 servings: 10
 prep_time: 30
 cook: true

@@ -13,15 +13,17 @@
 {{ $mealValue := index $dayData $meal }}
 {{ $mealSlug := "" }}
 {{ $plannedServings := 1 }}
+{{ $includeShopping := true }}
 {{ if $mealValue }}
 {{ if reflect.IsMap $mealValue }}
 {{ with index $mealValue "recipe" }}{{ $mealSlug = printf "%v" . }}{{ end }}
 {{ with index $mealValue "servings" }}{{ $plannedServings = . }}{{ end }}
+{{ if isset $mealValue "shopping" }}{{ $includeShopping = index $mealValue "shopping" }}{{ end }}
 {{ else }}
 {{ $mealSlug = printf "%v" $mealValue }}
 {{ end }}
 {{ end }}
-{{ if $mealSlug }}
+{{ if and $mealSlug $includeShopping }}
 {{ $recipe := partial "weekly-plan-recipe.html" (dict "slug" $mealSlug) }}
 {{ if $recipe }}
 {{ $recipeServings := $recipe.Params.servings | default 1 }}
@@ -51,6 +53,22 @@
 {{ end }}
 {{ end }}
 {{ end }}
+{{ end }}
+{{ end }}
+{{ with $.Params.extra_shopping_ingredients }}
+{{ range . }}
+{{ $shoppingItems = $shoppingItems | append (dict
+    "name" (index . "name" | default "")
+    "amount" (index . "amount" | default 0)
+    "unit" (index . "unit" | default "")
+    "note" (index . "note" | default "")
+    "recipeTitle" "Dodatki z planu"
+    "recipeUrl" $.Permalink
+    "recipeServings" 1
+    "plannedServings" 1
+    "dayName" (index . "day" | default "Plan tygodnia")
+    "mealName" (index . "meal" | default "Dodatkowo")
+) }}
 {{ end }}
 {{ end }}
 <section class="page-section">

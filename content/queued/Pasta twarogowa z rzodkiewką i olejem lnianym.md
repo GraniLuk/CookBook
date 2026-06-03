@@ -18,6 +18,19 @@ ingredients:
 - rzodkiewka
 - jajko
 - olej lniany
+shopping_ingredients:
+- name: twaróg
+  amount: 250
+  unit: g
+- name: rzodkiewka
+  amount: 100
+  unit: g
+- name: jajko
+  amount: 1
+  unit: szt.
+- name: olej lniany
+  amount: 20
+  unit: g
 servings: 2
 prep_time: 5
 cook: false

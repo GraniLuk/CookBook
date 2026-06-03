@@ -20,6 +20,25 @@ ingredients:
 - jogurt grecki
 - maliny
 - sezam
+shopping_ingredients:
+- name: płatki owsiane
+  amount: 160
+  unit: g
+- name: napój owsiany
+  amount: 170
+  unit: ml
+- name: syrop klonowy
+  amount: 30
+  unit: g
+- name: jogurt grecki
+  amount: 80
+  unit: g
+- name: maliny mrożone
+  amount: 200
+  unit: g
+- name: sezam
+  amount: 20
+  unit: g
 servings: 2
 prep_time: 5
 cook: true
