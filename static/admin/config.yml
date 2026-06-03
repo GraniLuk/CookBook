@@ -162,6 +162,7 @@ _shared_fields:
       - { label: "filet z halibuta", value: "filet z halibuta" }
       - { label: "frytki", value: "frytki" }
       - { label: "galaretka", value: "galaretka" }
+      - { label: "galaretka mango-marakuja", value: "galaretka mango-marakuja" }
       - { label: "galaretka wiśniowa", value: "galaretka wiśniowa" }
       - { label: "gnocchi", value: "gnocchi" }
       - { label: "gorzka czekolada", value: "gorzka czekolada" }
@@ -258,6 +259,7 @@ _shared_fields:
       - { label: "mozzarella", value: "mozzarella" }
       - { label: "mozzarella light", value: "mozzarella light" }
       - { label: "mrożone warzywa", value: "mrożone warzywa" }
+      - { label: "mus mango", value: "mus mango" }
       - { label: "musztarda", value: "musztarda" }
       - { label: "mąka jaglana", value: "mąka jaglana" }
       - { label: "mąka kokosowa", value: "mąka kokosowa" }
