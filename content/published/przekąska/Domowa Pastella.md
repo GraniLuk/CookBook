@@ -8,6 +8,7 @@ readyToTest: false
 queued: false
 link: https://www.instagram.com/reel/DTXJEYriE6j/
 recipe_image: images/recipe-headers/domowa_pastella.avif
+video_file: videos/domowa_pastella.mp4
 date: 2026-02-11
 tags:
 - pasta
