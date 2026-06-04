@@ -1,22 +1,22 @@
 ---
 title: Chleb Pszenno-Żytni Ulubiony Hamelmana
 author: Ciocia Iza
-categories:
-- śniadania
-subcategories:
-- słone
+categories: śniadania
+subcategories: słone
 draft: false
 readyToTest: false
 queued: false
+favourite: false
 recipe_image: images/recipe-headers/chleb.avif
 date: 2026-06-04 08:42:00+02:00
 tags:
-- wegańskie
+  - wegańskie
+  - kanapki
 tagline: Prosty, sprawdzony przepis na domowy chleb na zakwasie wg receptury Hamelmana.
 ingredients:
-- zakwas żytni
-- mąka żytnia
-- mąka pszenna
+  - zakwas żytni
+  - mąka żytnia
+  - mąka pszenna
 servings: 1
 prep_time: 20
 cook: true
@@ -26,9 +26,11 @@ protein: 36
 fat: 8
 carbohydrate: 324
 fodmap:
-  status: 'no'
+  status: no
   serving_ok: Unikaj
-  notes: Mąka żytnia i pszenna to źródła fruktanów. Fermentacja na zakwasie zmniejsza ich ilość, ale tradycyjny chleb żytnio-pszenny nadal może wywoływać objawy na etapie eliminacji diety Low FODMAP.
+  notes: Mąka żytnia i pszenna to źródła fruktanów. Fermentacja na zakwasie
+    zmniejsza ich ilość, ale tradycyjny chleb żytnio-pszenny nadal może
+    wywoływać objawy na etapie eliminacji diety Low FODMAP.
   substitutions: []
 ---
 
