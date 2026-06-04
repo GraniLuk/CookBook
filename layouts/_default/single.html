@@ -109,6 +109,13 @@
                         <button onclick="shareRecipe()" aria-label="Share recipe" class="unstyled-btn">
                             <i class="fas fa-share-from-square" aria-hidden="true"></i>
                         </button>
+                        {{ with .Params.shopping_ingredients }}
+                        <button type="button" class="unstyled-btn" aria-label="Dodaj przepis do listy zakupów"
+                            title="Dodaj do listy zakupów" data-shopping-action="add-recipe"
+                            data-shopping-source="recipe" data-shopping-payload="shopping-recipe-data">
+                            <i class="fas fa-basket-shopping" aria-hidden="true"></i>
+                        </button>
+                        {{ end }}
                     </div>
                     {{/* Rating stars section */}}
                     <div class="rating-section">
@@ -181,6 +188,27 @@
         </div>
     </div>
 </div>
+
+{{ with .Params.shopping_ingredients }}
+{{ $recipeShoppingItems := slice }}
+{{ range . }}
+{{ $recipeShoppingItems = $recipeShoppingItems | append (dict
+    "name" (index . "name" | default "")
+    "amount" (index . "amount" | default 0)
+    "unit" (index . "unit" | default "")
+    "note" (index . "note" | default "")
+    "recipeServings" ($.Params.servings | default 1)
+    "plannedServings" ($.Params.servings | default 1)
+) }}
+{{ end }}
+{{ $recipeShoppingPayload := dict
+    "items" $recipeShoppingItems
+    "recipeTitle" $.Title
+    "recipeSlug" $.File.ContentBaseName
+    "recipeUrl" $.Permalink
+}}
+<script type="application/json" id="shopping-recipe-data">{{ $recipeShoppingPayload | jsonify }}</script>
+{{ end }}
 
 {{/* Serialize recipe context for the chat AI */}}
 <script>

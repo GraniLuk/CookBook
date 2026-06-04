@@ -726,12 +726,6 @@ collections:
       - { label: Rok, name: year, widget: number, default: 2025, value_type: int }
       - { label: Od dnia, name: start_date, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false, required: false }
       - { label: Notatki, name: notes, widget: text, required: false }
-      - label: Kupione składniki zakupów
-        name: shopping_checked
-        widget: list
-        required: false
-        collapsed: true
-        field: { label: Składnik, name: item, widget: string }
       - label: Poniedziałek
         name: monday
         widget: object

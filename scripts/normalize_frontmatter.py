@@ -39,7 +39,6 @@ ORDER = [
     "tagline",
     "ingredients",
     "shopping_ingredients",
-    "shopping_checked",
     "servings",
     "prep_time",
     "cook",

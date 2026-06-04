@@ -1,0 +1,63 @@
+{{ define "main" }}
+<section class="page-section shopping-list-page">
+    <div class="page-container shopping-list-page__container">
+        <header class="shopping-list-header">
+            <div>
+                <h1 class="text-3xl font-serif text-primary">{{ .Title }}</h1>
+                <p class="text-gray-600">{{ .Content }}</p>
+            </div>
+            <div class="shopping-list-header__actions">
+                <button type="button" class="btn btn-outline" id="shopping-list-clear-checked">
+                    <i class="fas fa-check-double" aria-hidden="true"></i>
+                    <span>Wyczyść kupione</span>
+                </button>
+            </div>
+        </header>
+
+        <div id="shopping-list-auth" class="shopping-list-auth alert alert-info">
+            <div>
+                <p class="font-semibold">Zaloguj się, aby korzystać z listy zakupów.</p>
+                <p class="text-sm text-base-content/70">Lista synchronizuje się między urządzeniami przez Firebase.</p>
+            </div>
+            <div class="shopping-list-auth__buttons">
+                <button type="button" class="btn btn-primary btn-sm" data-shopping-auth-provider="github">
+                    <i class="fab fa-github" aria-hidden="true"></i>
+                    <span>GitHub</span>
+                </button>
+                <button type="button" class="btn btn-outline btn-sm" data-shopping-auth-provider="google">
+                    <i class="fab fa-google" aria-hidden="true"></i>
+                    <span>Google</span>
+                </button>
+            </div>
+        </div>
+
+        <form id="shopping-list-manual-form" class="shopping-list-manual" autocomplete="off">
+            <div class="shopping-list-manual__grid">
+                <label>
+                    <span>Składnik</span>
+                    <input class="input input-bordered" type="text" name="name" required placeholder="np. ziemniaki">
+                </label>
+                <label>
+                    <span>Ilość</span>
+                    <input class="input input-bordered" type="number" name="amount" min="0" step="0.01" placeholder="1">
+                </label>
+                <label>
+                    <span>Jednostka</span>
+                    <input class="input input-bordered" type="text" name="unit" placeholder="kg">
+                </label>
+                <label>
+                    <span>Notatka</span>
+                    <input class="input input-bordered" type="text" name="note" placeholder="opcjonalnie">
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary">
+                <i class="fas fa-plus" aria-hidden="true"></i>
+                <span>Dodaj</span>
+            </button>
+        </form>
+
+        <div class="shopping-list-status" id="shopping-list-status" aria-live="polite">Ładowanie listy...</div>
+        <div id="shopping-list-items" class="shopping-list-items"></div>
+    </div>
+</section>
+{{ end }}

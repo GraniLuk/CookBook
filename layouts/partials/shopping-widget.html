@@ -1,0 +1,22 @@
+{{ if ne .Section "shopping-list" }}
+<div class="shopping-widget" id="shopping-widget" data-shopping-widget>
+    <button type="button" class="shopping-widget__button" id="shopping-widget-toggle"
+        aria-label="Lista zakupów" aria-expanded="false" aria-controls="shopping-widget-panel">
+        <i class="fas fa-basket-shopping" aria-hidden="true"></i>
+        <span class="shopping-widget__count" id="shopping-widget-count" hidden>0</span>
+    </button>
+    <div class="shopping-widget__panel" id="shopping-widget-panel" hidden>
+        <div class="shopping-widget__header">
+            <span>Lista zakupów</span>
+            <button type="button" class="shopping-widget__close" id="shopping-widget-close" aria-label="Zamknij">
+                <i class="fas fa-times" aria-hidden="true"></i>
+            </button>
+        </div>
+        <div class="shopping-widget__body" id="shopping-widget-body">Otwórz listę zakupów albo zaloguj się, aby zobaczyć podgląd.</div>
+        <a href="{{ partial "asset-url.html" "/shopping-list/" }}" class="btn btn-primary btn-sm shopping-widget__link">
+            <i class="fas fa-basket-shopping" aria-hidden="true"></i>
+            <span>Otwórz listę</span>
+        </a>
+    </div>
+</div>
+{{ end }}

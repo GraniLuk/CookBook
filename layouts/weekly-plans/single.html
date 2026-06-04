@@ -112,27 +112,43 @@
                         <span class="icon"><i class="fas fa-basket-shopping"></i></span>
                         Lista zakupów
                     </h2>
-                    <p class="subtitle">Automatycznie z posiłków zaplanowanych w tym tygodniu.</p>
+                    <p class="subtitle">Składniki z planu możesz dopisać do bieżącej listy zakupów.</p>
                 </div>
                 <div class="weekly-shopping-list__meta">
-                    <span class="badge badge-info" id="weekly-shopping-count">0 składników</span>
-                    <span class="weekly-shopping-save-status" id="weekly-shopping-save-status" aria-live="polite"></span>
+                    <span class="badge badge-info">{{ len $shoppingItems }} składników</span>
                     <span class="weekly-shopping-list__chevron" aria-hidden="true">
                         <i class="fas fa-chevron-down"></i>
                     </span>
                 </div>
             </summary>
             <div class="weekly-shopping-list__content">
-                <div id="weekly-plan-shopping-list" class="weekly-shopping-list__body">
-                    <p class="text-gray-600">Ładowanie listy zakupów...</p>
+                <div class="weekly-shopping-list__body weekly-shopping-list__body--compact">
+                    <p class="text-gray-600">
+                        Ta akcja dodaje składniki z tego planu do jednej wspólnej listy zakupów.
+                    </p>
+                    <div class="weekly-shopping-list__actions">
+                        <button type="button" class="btn btn-primary" data-shopping-action="add-plan"
+                            data-shopping-source="weekly-plan" data-shopping-payload="weekly-plan-shopping-data">
+                            <i class="fas fa-plus" aria-hidden="true"></i>
+                            <span>Dodaj składniki z planu</span>
+                        </button>
+                        <a href="{{ partial "asset-url.html" "/shopping-list/" }}" class="btn btn-outline">
+                            <i class="fas fa-basket-shopping" aria-hidden="true"></i>
+                            <span>Otwórz listę</span>
+                        </a>
+                    </div>
+                    {{ if $missingShoppingRecipes }}
+                    <div class="weekly-shopping-missing alert alert-warning">
+                        <p class="weekly-shopping-missing__title">Część przepisów nie ma jeszcze składników zakupowych.</p>
+                    </div>
+                    {{ end }}
                 </div>
                 {{ $shoppingPayload := dict
                     "items" $shoppingItems
                     "missingRecipes" $missingShoppingRecipes
-                    "checked" (.Params.shopping_checked | default slice)
+                    "planTitle" .Title
                     "planSlug" .File.BaseFileName
-                    "planPath" .File.Path
-                    "workerUrl" "https://cookbook-chat-proxy.cookbookgranica.workers.dev"
+                    "planUrl" .Permalink
                 }}
                 <script type="application/json" id="weekly-plan-shopping-data">{{ $shoppingPayload | jsonify }}</script>
             </div>
@@ -230,7 +246,4 @@
         </div>
     </div>
 </section>
-<script>
-{{ readFile "static/js/weekly-plan-shopping-list.js" | safeJS }}
-</script>
 {{ end }}
