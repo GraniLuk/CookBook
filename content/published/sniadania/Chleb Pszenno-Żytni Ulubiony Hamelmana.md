@@ -6,10 +6,10 @@ categories:
 subcategories:
 - słone
 draft: false
-readyToTest: true
-queued: true
-recipe_image: images/recipe-headers/chleb.jpeg
-date: 2026-05-06 08:42:00+02:00
+readyToTest: false
+queued: false
+recipe_image: images/recipe-headers/chleb.avif
+date: 2026-06-04 08:42:00+02:00
 tags:
 - wegańskie
 tagline: Prosty, sprawdzony przepis na domowy chleb na zakwasie wg receptury Hamelmana.
