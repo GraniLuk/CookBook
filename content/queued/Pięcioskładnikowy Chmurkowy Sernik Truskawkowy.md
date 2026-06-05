@@ -5,8 +5,9 @@ categories: desery
 draft: false
 readyToTest: true
 queued: true
-link: https://www.youtube.com/watch?v=GOSNRJPll4U
+link: https://youtu.be/PNjCcXoYMGE?t=135
 recipe_image: images/recipe-headers/piecioskladnikowy_chmurkowy_sernik_truskawkowy.avif
+video_file: videos/piecioskladnikowy_chmurkowy_sernik_truskawkowy.webm
 date: 2026-05-16 12:00:00+00:00
 tags:
 - ciasta
