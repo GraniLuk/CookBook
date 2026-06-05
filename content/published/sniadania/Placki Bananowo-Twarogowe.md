@@ -19,6 +19,27 @@ ingredients:
 - twaróg
 - mąka pszenna
 - banan
+shopping_ingredients:
+- name: jajka
+  amount: 2
+  unit: szt.
+  note: 120g
+- name: mleka
+  amount: 0.5
+  unit: szklanki
+  note: 125ml
+- name: twaróg
+  amount: 1
+  unit: szt.
+  note: około 100g
+- name: miarki mąki
+  amount: 2.5
+  unit: szt.
+  note: około 140g mąki pszennej
+- name: banan
+  amount: 2
+  unit: szt.
+  note: około 240g
 servings: 10
 prep_time: 10
 cook: true

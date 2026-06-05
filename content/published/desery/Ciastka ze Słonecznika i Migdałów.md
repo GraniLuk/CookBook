@@ -2,7 +2,7 @@
 title: Ciastka ze Słonecznika i Migdałów
 author: Instagram
 categories:
-  - desery
+- desery
 draft: false
 readyToTest: false
 queued: false
@@ -12,15 +12,38 @@ recipe_image: images/recipe-headers/ciastka_ze_slonecznika_i_migdalow.avif
 video_file: videos/ciastka_ze_slonecznika_i_migdalow.mp4
 date: 2026-04-16 21:21:13+01:00
 tags:
-  - przekąska
-  - ciastka
-tagline: Zdrowe, pełne magnezu ciastka ze słonecznika, migdałów i suszonych
-  moreli - idealne przy insulinooporności.
+- przekąska
+- ciastka
+tagline: Zdrowe, pełne magnezu ciastka ze słonecznika, migdałów i suszonych moreli - idealne przy insulinooporności.
 ingredients:
-  - nasiona słonecznika
-  - suszone morele
-  - migdały
-  - mąka kukurydziana
+- nasiona słonecznika
+- suszone morele
+- migdały
+- mąka kukurydziana
+shopping_ingredients:
+- name: nasiona słonecznika
+  amount: 150
+  unit: g
+- name: suszone morele
+  amount: 100
+  unit: g
+- name: migdały
+  amount: 100
+  unit: g
+- name: jajko
+  amount: 1
+  unit: szt.
+  note: można pominąć
+- name: cynamonu
+  amount: 1
+  unit: łyżeczka
+- name: kardamonu lub imbiru
+  amount: 1
+  unit: łyżeczka
+- name: mąki kukurydzianej lub innej
+  amount: 2
+  unit: łyżki
+  note: np. owsianej
 servings: 12
 prep_time: 10
 cook: true
@@ -30,13 +53,11 @@ protein: 72
 fat: 132
 carbohydrate: 144
 fodmap:
-  status: no
+  status: false
   serving_ok: Tylko mała porcja
-  notes: Suszone morele zawierają fruktany i sorbitol. Migdały powyżej 12g mogą
-    być problematyczne. Bezpieczna porcja to 1-2 ciastka naraz.
+  notes: Suszone morele zawierają fruktany i sorbitol. Migdały powyżej 12g mogą być problematyczne. Bezpieczna porcja to 1-2 ciastka naraz.
   substitutions:
-    - Zamiast suszonych moreli użyj suszonej żurawiny lub posiekanej ciemnej
-      czekolady.
+  - Zamiast suszonych moreli użyj suszonej żurawiny lub posiekanej ciemnej czekolady.
 ---
 
 ## Składniki

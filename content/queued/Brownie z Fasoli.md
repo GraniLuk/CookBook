@@ -11,22 +11,59 @@ recipe_image: images/recipe-headers/brownie-z-fasoli.avif
 video_file: videos/brownie-z-fasoli.webm
 date: 2026-04-21 20:04:02+02:00
 tags:
-  - proteinowe
-  - lunchbox
-  - ciasta
-tagline: Mega czekoladowe, konkretne i sycące brownie z czerwonej fasoli.
-  Idealne jako deserowy posiłek lub potreningowa przekąska z dużą ilością
-  białka.
+- proteinowe
+- lunchbox
+- ciasta
+tagline: Mega czekoladowe, konkretne i sycące brownie z czerwonej fasoli. Idealne jako deserowy posiłek lub potreningowa przekąska z dużą ilością białka.
 ingredients:
-  - fasola czerwona
-  - płatki owsiane
-  - napój owsiany
-  - masło orzechowe
-  - banan
-  - jajka
-  - odżywka białkowa
-  - kakao
-  - żurawina suszona
+- fasola czerwona
+- płatki owsiane
+- napój owsiany
+- masło orzechowe
+- banan
+- jajka
+- odżywka białkowa
+- kakao
+- żurawina suszona
+shopping_ingredients:
+- name: fasola czerwona
+  amount: 2
+  unit: puszki
+  note: ok. 480 g po odsączeniu
+- name: płatki owsiane
+  amount: 160
+  unit: g
+- name: napój owsiany
+  amount: 320
+  unit: g
+- name: masła orzechowego
+  amount: 60
+  unit: g
+- name: miodu gryczanego
+  amount: 60
+  unit: g
+- name: banan
+  amount: 240
+  unit: g
+  note: ok. 2 sztuki
+- name: jajka
+  amount: 2
+  unit: szt.
+- name: odżywka białkowa
+  amount: 100
+  unit: g
+- name: kakao
+  amount: 100
+  unit: g
+- name: 1/4 łyżeczki proszku do pieczenia
+  amount: 3
+  unit: szt.
+- name: aromatu waniliowego
+  amount: 4
+  unit: g
+- name: żurawina suszona
+  amount: 40
+  unit: g
 servings: 4
 prep_time: 5
 cook: true
@@ -36,13 +73,11 @@ protein: 45
 fat: 20
 carbohydrate: 90
 fodmap:
-  status: no
+  status: false
   serving_ok: Unikaj
-  notes: Fasola czerwona (GOS/fruktany), miod (fruktoza) oraz dojrzałe banany
-    (fruktany) są bogate w FODMAP.
+  notes: Fasola czerwona (GOS/fruktany), miod (fruktoza) oraz dojrzałe banany (fruktany) są bogate w FODMAP.
   substitutions:
-    - Dla wersji low-FODMAP wymagane są drastyczne by zamienić fasolę na
-      łagodniejszą mąkę, np. bezglutenową/owsianą. Miód zamień na syrop klonowy.
+  - Dla wersji low-FODMAP wymagane są drastyczne by zamienić fasolę na łagodniejszą mąkę, np. bezglutenową/owsianą. Miód zamień na syrop klonowy.
 ---
 
 ## Składniki

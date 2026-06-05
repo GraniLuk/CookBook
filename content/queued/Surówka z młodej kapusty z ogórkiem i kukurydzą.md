@@ -8,7 +8,7 @@ queued: true
 favourite: false
 link: https://www.instagram.com/reels/DYovxDWMOrT/
 recipe_image: images/defaultImage.avif
-date: 2026-05-25T12:00:00+00:00
+date: 2026-05-25 12:00:00+00:00
 tags:
 - szybkie
 tagline: Chrupiąca surówka z młodej kapusty, świeżego ogórka, kukurydzy i delikatnego sosu majonezowo-śmietanowego.
@@ -19,6 +19,31 @@ ingredients:
 - por
 - majonez
 - śmietana 18%
+shopping_ingredients:
+- name: główki młodej kapusty
+  amount: 0.5
+  unit: szt.
+  note: ok. 500 g
+- name: ogórek zielony
+  amount: 1
+  unit: szt.
+  note: ok. 250 g
+- name: kukurydza
+  amount: 1
+  unit: puszka
+  note: ok. 140 g; odsączona
+- name: Jasna część pora
+  amount: 80
+  unit: g
+  note: ok. 80 g
+- name: majonez
+  amount: 1
+  unit: łyżka
+  note: ok. 25 g
+- name: śmietana 18%
+  amount: 1
+  unit: łyżka
+  note: ok. 25 g
 servings: 4
 prep_time: 15
 cook: false

@@ -23,6 +23,39 @@ ingredients:
 - morele suszone
 - rodzynki
 - orzechy włoskie
+shopping_ingredients:
+- name: twaróg
+  amount: 300
+  unit: g
+  note: kostkowego
+- name: skyru
+  amount: 300
+  unit: g
+- name: miodu
+  amount: 30
+  unit: g
+- name: napój sojowy
+  amount: 200
+  unit: ml
+- name: nasionka chia
+  amount: 30
+  unit: g
+- name: płatki owsiane
+  amount: 240
+  unit: g
+  note: po 80g na porcję
+- name: morele suszone
+  amount: 90
+  unit: g
+  note: po 30g na porcję
+- name: rodzynki
+  amount: 90
+  unit: g
+  note: po 30g na porcję
+- name: orzechy włoskie
+  amount: 90
+  unit: g
+  note: po 30g na porcję
 servings: 3
 prep_time: 10
 cook: false

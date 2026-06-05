@@ -18,6 +18,23 @@ ingredients:
 - limonka
 - erytrytol
 - woda
+shopping_ingredients:
+- name: arbuz
+  amount: 2
+  unit: kg
+  note: około połowa
+- name: limonka
+  amount: 3
+  unit: szt.
+- name: erytrytol
+  amount: 100
+  unit: g
+- name: mięta
+  amount: 1
+  unit: szt.
+- name: kostki lodu
+  amount: 1
+  unit: szt.
 servings: 8
 prep_time: 5
 cook: false
@@ -27,8 +44,8 @@ protein: 1.3
 fat: 0.3
 carbohydrate: 16.3
 fodmap:
-  status: "no"
-  serving_ok: "Unikaj"
+  status: 'no'
+  serving_ok: Unikaj
   notes: Arbuz jest owocem wysokofodmapowym w typowej porcji, a ta lemoniada bazuje na dużej ilości arbuza. Limonka, mięta i woda są zwykle dobrze tolerowane, ale nie zmieniają FODMAP całego napoju.
   substitutions:
   - Zamiast arbuza użyj truskawek, ananasa albo pomarańczy i dopasuj słodzenie do smaku.

@@ -15,6 +15,24 @@ ingredients:
 - masło
 - mąka pszenna
 - chili
+shopping_ingredients:
+- name: sera cheddar
+  amount: 50
+  unit: g
+- name: mleka 1
+  amount: 200
+  unit: ml
+  note: 5%
+- name: masła
+  amount: 15
+  unit: g
+- name: płaska łyżeczka mąki pszennej
+  amount: 1
+  unit: szt.
+  note: ok. 5g
+- name: chili
+  amount: 1
+  unit: szt.
 servings: 3
 prep_time: 5
 cook: true

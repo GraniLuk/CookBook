@@ -17,6 +17,22 @@ ingredients:
 - ser feta
 - pestki słonecznika
 - sos winegret
+shopping_ingredients:
+- name: brokuł
+  amount: 1
+  unit: szt.
+  note: ok. 500g
+- name: pomidory koktajlowe
+  amount: 11.0
+  unit: szt.
+  note: ok. 150g
+- name: sera feta
+  amount: 200
+  unit: g
+- name: stołowe pestek słonecznika
+  amount: 3
+  unit: łyżki
+  note: ok. 30g
 servings: 4
 prep_time: 15
 cook: true

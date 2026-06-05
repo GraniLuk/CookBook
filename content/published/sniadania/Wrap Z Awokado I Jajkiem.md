@@ -20,6 +20,40 @@ ingredients:
 - ser żółty
 - sok z cytryny
 - oliwa z oliwek
+shopping_ingredients:
+- name: tortilla
+  amount: 1
+  unit: szt.
+  note: 40g
+- name: jajka
+  amount: 2
+  unit: szt.
+  note: 120g
+- name: awokado
+  amount: 0.5
+  unit: szt.
+  note: 80g
+- name: pomidor
+  amount: 1
+  unit: szt.
+  note: 100g
+- name: sera żółtego light
+  amount: 20
+  unit: g
+- name: soku z cytryny
+  amount: 10
+  unit: ml
+- name: szczypty czosnku granulowanego
+  amount: 3
+  unit: szt.
+  note: 1g
+- name: szczypty suszonej cebuli
+  amount: 2
+  unit: szt.
+  note: 1g
+- name: oliwy z oliwek
+  amount: 3
+  unit: g
 servings: 1
 prep_time: 10
 cook: true

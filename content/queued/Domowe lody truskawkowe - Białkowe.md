@@ -18,6 +18,30 @@ ingredients:
 - białko jajeczne
 - odżywka białkowa
 - wanilia
+shopping_ingredients:
+- name: truskawki
+  amount: 500
+  unit: g
+- name: serka wiejskiego
+  amount: 200
+  unit: g
+- name: śmietanka 30%
+  amount: 200
+  unit: ml
+- name: białko jajeczne
+  amount: 1
+  unit: szt.
+- name: odżywka białkowa
+  amount: 50
+  unit: g
+  note: smak waniliowy
+- name: wanilia
+  amount: 1
+  unit: szt.
+- name: Mleko do regulacji gęstości
+  amount: 1
+  unit: szt.
+  note: jeśli potrzebne
 servings: 4
 prep_time: 10
 cook: false

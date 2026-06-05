@@ -25,6 +25,53 @@ ingredients:
 - parmezan
 - mozzarella
 - oliwa z oliwek
+shopping_ingredients:
+- name: oliwy z oliwek
+  amount: 3
+  unit: łyżki
+- name: papryka czerwona
+  amount: 0.5
+  unit: szt.
+- name: papryka zielona
+  amount: 0.5
+  unit: szt.
+- name: cebula
+  amount: 1
+  unit: szt.
+- name: mielonego mięsa wołowego
+  amount: 500
+  unit: g
+- name: czosnku
+  amount: 1
+  unit: ząbek
+- name: pomidory suszone
+  amount: 3
+  unit: szt.
+- name: pasty pomidorowej lub koncentratu
+  amount: 1
+  unit: łyżka
+- name: passaty
+  amount: 200
+  unit: g
+- name: pomidory krojone
+  amount: 400
+  unit: g
+- name: Suszony czosnek
+  amount: 1
+  unit: szt.
+- name: Oregano
+  amount: 1
+  unit: szt.
+- name: parmezan
+  amount: 1
+  unit: łyżka
+- name: mozzarella
+  amount: 75.0
+  unit: g
+- name: makaron
+  amount: 400
+  unit: g
+  note: ok. 400 g
 servings: 4
 prep_time: 15
 cook: true

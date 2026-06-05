@@ -18,6 +18,51 @@ ingredients:
 - papryka
 - koncentrat pomidorowy
 - bulion
+shopping_ingredients:
+- name: łopatka wieprzowa
+  amount: 700
+  unit: g
+  note: pokrojonej w kostkę
+- name: cebula
+  amount: 1
+  unit: szt.
+  note: 200g; drobno posiekana
+- name: czosnek
+  amount: 2
+  unit: ząbki
+  note: 6g; przeciśnięte przez praskę
+- name: marchewka
+  amount: 2
+  unit: szt.
+  note: 200g; pokrojone w plasterki
+- name: papryka
+  amount: 1
+  unit: szt.
+  note: 150g; pokrojona w kostkę
+- name: kminku mielonego lub całego
+  amount: 1
+  unit: łyżeczka
+  note: 2g
+- name: liście laurowe
+  amount: 2
+  unit: szt.
+  note: 1g
+- name: koncentrat pomidorowy
+  amount: 2
+  unit: łyżki
+  note: 30g
+- name: bulion
+  amount: 400
+  unit: ml
+  note: warzywnego lub mięsnego
+- name: oleju roślinnego
+  amount: 2
+  unit: łyżki
+  note: 25g
+- name: 'opcjonalnie: śmietana do podania'
+  amount: 50
+  unit: g
+  note: 50g
 servings: 8
 prep_time: 30
 cook: true

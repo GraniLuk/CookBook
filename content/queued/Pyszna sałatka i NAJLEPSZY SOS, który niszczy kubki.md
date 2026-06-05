@@ -22,6 +22,54 @@ ingredients:
 - pomidory suszone
 - jajka
 - granat
+shopping_ingredients:
+- name: sałata lodowa
+  amount: 1
+  unit: szt.
+  note: porwana na kawałki
+- name: rukola
+  amount: 1
+  unit: szt.
+- name: awokado
+  amount: 1
+  unit: szt.
+  note: pokrojone
+- name: ciecierzyca
+  amount: 100
+  unit: g
+  note: gotowanej, ze słoika
+- name: pomidory suszone
+  amount: 2.5
+  unit: szt.
+  note: pokrojone w kostkę
+- name: jajka
+  amount: 2
+  unit: szt.
+  note: sadzone
+- name: granat
+  amount: 1
+  unit: szt.
+- name: Sos
+  amount: 1
+  unit: szt.
+  note: na 5 porcji, użyć 1 porcję
+- name: oleju lnianego
+  amount: 100
+  unit: g
+- name: musztardy serdeleckiej
+  amount: 50
+  unit: g
+- name: miodu
+  amount: 50
+  unit: g
+  note: gryczanego
+- name: świeżego soku z cytryny
+  amount: 35
+  unit: g
+- name: czosnku
+  amount: 1
+  unit: ząbek
+  note: zmiażdżony
 servings: 1
 prep_time: 15
 cook: true

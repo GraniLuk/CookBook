@@ -18,6 +18,27 @@ ingredients:
 - banan
 - mango
 - mleko
+shopping_ingredients:
+- name: płatki owsiane
+  amount: 200
+  unit: g
+  note: 100g baza + 100g dodatkowa porcja
+- name: banan
+  amount: 0.5
+  unit: szt.
+  note: ok. 50g
+- name: mango
+  amount: 100
+  unit: g
+  note: ok. 100g
+- name: mleka
+  amount: 100
+  unit: ml
+  note: kreatywnego, np. krowiego
+- name: Świeżych kawałków owoców na wierzch
+  amount: 1
+  unit: szt.
+  note: opcjonalnie
 servings: 1
 prep_time: 10
 cook: false

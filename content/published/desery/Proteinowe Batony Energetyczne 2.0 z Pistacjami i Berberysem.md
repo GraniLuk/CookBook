@@ -22,6 +22,41 @@ ingredients:
 - odżywka białkowa
 - berberys
 - pistacje
+shopping_ingredients:
+- name: płatki owsiane
+  amount: 1
+  unit: szt.
+- name: płatki jaglane
+  amount: 1
+  unit: szt.
+  note: lub całość owsiane
+- name: mleko
+  amount: 1
+  unit: szt.
+  note: '5%: 150 ml'
+- name: masło orzechowe
+  amount: 1
+  unit: szt.
+  note: 100%
+- name: kakao
+  amount: 1
+  unit: szt.
+- name: odżywka białkowa
+  amount: 1
+  unit: szt.
+  note: wanilia / słony karmel; aby finalnie uzyskać 20 g białka w batonie
+- name: 'Berberys suszony: ~20 g'
+  amount: 1
+  unit: szt.
+  note: do masy + kilka sztuk na wierzch
+- name: pistacje
+  amount: 1
+  unit: szt.
+  note: posiekane, na wierzch
+- name: kropli aromatu waniliowego
+  amount: 1
+  unit: szt.
+  note: jeśli odżywka neutralna
 servings: 6
 prep_time: 15
 cook: false

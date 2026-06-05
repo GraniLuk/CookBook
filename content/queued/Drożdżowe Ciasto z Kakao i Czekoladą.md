@@ -22,6 +22,44 @@ ingredients:
 - masło
 - jajka
 - czekolada mleczna
+shopping_ingredients:
+- name: mąki pszennej
+  amount: 500
+  unit: g
+- name: lekko ciepłego mleka
+  amount: 120
+  unit: ml
+- name: letniego roztopionego masła
+  amount: 100
+  unit: g
+- name: świeżych drożdży
+  amount: 40
+  unit: g
+- name: jajka
+  amount: 2
+  unit: szt.
+- name: żółtko
+  amount: 1
+  unit: szt.
+- name: cukru
+  amount: 70
+  unit: g
+- name: roztopionego letniego masła
+  amount: 60
+  unit: g
+- name: kakao
+  amount: 1
+  unit: łyżka
+- name: cukru trzcinowego
+  amount: 5
+  unit: łyżki
+- name: czekolada mleczna
+  amount: 1
+  unit: szt.
+  note: 100 g; startej
+- name: cukru pudru
+  amount: 1
+  unit: szklanka
 servings: 10
 prep_time: 25
 cook: true

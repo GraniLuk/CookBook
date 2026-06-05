@@ -23,6 +23,68 @@ ingredients:
 - majonez
 - musztarda
 - ogórek kiszony
+shopping_ingredients:
+- name: wołowina
+  amount: 450
+  unit: g
+  note: 'mieszanka: antrykot, rostbef lub inne jakościowe – średnio mielona / siekana w większe kawałki'
+- name: masło klarowane
+  amount: 8.5
+  unit: g
+  note: do smażenia
+- name: ser cheddar
+  amount: 60
+  unit: g
+- name: ser mimolette
+  amount: 75
+  unit: g
+- name: parmezan
+  amount: 1
+  unit: szt.
+  note: płatki
+- name: sałata rzymska
+  amount: 1
+  unit: szt.
+  note: 2–3 garście + warstwa na wierzch
+- name: Ogórki konserwowe – ok. 60g
+  amount: 1
+  unit: szt.
+  note: na warstwę w słoikach
+- name: cebula czerwona
+  amount: 60
+  unit: g
+  note: ok. 60g
+- name: pomidorki
+  amount: 1
+  unit: szt.
+- name: dodatkowe ogórki kiszone do podania
+  amount: 1
+  unit: szt.
+  note: Opcjonalnie
+- name: majonez
+  amount: 100
+  unit: g
+  note: Majonez Kielecki
+- name: musztarda
+  amount: 25
+  unit: g
+- name: Ogórki kiszone drobno siekane
+  amount: 35
+  unit: g
+- name: Chili – 1/2 do 3/4 łyżeczki
+  amount: 1
+  unit: szt.
+  note: do smaku
+- name: Papryka wędzona – 1/4 łyżeczki
+  amount: 1
+  unit: szt.
+- name: Czosnek suszony – 1/2 łyżeczki
+  amount: 1
+  unit: szt.
+- name: 1–2 łyżeczki zalewy z ogórków
+  amount: 1
+  unit: szt.
+  note: Opcjonalnie; regulacja gęstości
 servings: 3
 prep_time: 25
 cook: true

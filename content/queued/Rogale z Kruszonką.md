@@ -19,6 +19,32 @@ ingredients:
 - olej
 - masło
 - cukier
+shopping_ingredients:
+- name: mąki pszennej
+  amount: 3
+  unit: łyżki
+- name: cukru
+  amount: 4
+  unit: łyżki
+- name: masła
+  amount: 70
+  unit: g
+- name: drożdże świeże
+  amount: 25
+  unit: g
+- name: jajka
+  amount: 2
+  unit: szt.
+- name: jajko
+  amount: 1
+  unit: szt.
+  note: do posmarowania
+- name: letniego mleka
+  amount: 120
+  unit: ml
+- name: oleju
+  amount: 4
+  unit: łyżki
 servings: 8
 prep_time: 30
 cook: true

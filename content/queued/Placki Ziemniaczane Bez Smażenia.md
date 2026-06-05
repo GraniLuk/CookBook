@@ -17,6 +17,28 @@ ingredients:
 - cebula
 - mąka pszenna
 - oliwa z oliwek
+shopping_ingredients:
+- name: ziemniaki
+  amount: 600
+  unit: g
+  note: po obraniu
+- name: jajko
+  amount: 1
+  unit: szt.
+  note: rozmiar M
+- name: cebula
+  amount: 80
+  unit: g
+  note: mała lub średnia sztuka
+- name: mąki pszennej
+  amount: 45
+  unit: g
+- name: oliwy z oliwek
+  amount: 10
+  unit: ml
+- name: szczypty oregano
+  amount: 2
+  unit: szt.
 servings: 4
 prep_time: 20
 cook: true

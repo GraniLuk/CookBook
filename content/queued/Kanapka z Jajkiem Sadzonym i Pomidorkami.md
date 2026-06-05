@@ -18,6 +18,26 @@ ingredients:
 - bułka
 - serek śmietankowy
 - pomidorki koktajlowe
+shopping_ingredients:
+- name: jajka
+  amount: 2
+  unit: szt.
+- name: bułka
+  amount: 1
+  unit: szt.
+  note: ~60–80 g
+- name: serka śmietankowego
+  amount: 2
+  unit: łyżki
+  note: ok. 30 g
+- name: pomidorki koktajlowe
+  amount: 5.0
+  unit: szt.
+  note: ok. 60 g
+- name: Odrobina oleju w sprayu
+  amount: 1
+  unit: szt.
+  note: do smażenia jajek
 servings: 1
 prep_time: 5
 cook: true

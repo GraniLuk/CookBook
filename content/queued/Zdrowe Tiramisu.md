@@ -21,6 +21,38 @@ ingredients:
 - herbatniki
 - kawa
 - kakao
+shopping_ingredients:
+- name: skyru naturalnego
+  amount: 1
+  unit: opak.
+  note: ok. 150g
+- name: skyru waniliowego
+  amount: 1
+  unit: opak.
+  note: ok. 150g
+- name: serka homogenizowanego waniliowego
+  amount: 1
+  unit: opak.
+  note: ok. 150g
+- name: serka homogenizowanego ciasteczkowego
+  amount: 1
+  unit: opak.
+  note: ok. 150g
+- name: erytrytol
+  amount: 30
+  unit: g
+- name: herbatniki
+  amount: 1
+  unit: szt.
+  note: ok. 200g, na 6 warstw po 4 sztuki
+- name: kawa
+  amount: 100
+  unit: ml
+  note: ok. 100ml
+- name: kakao
+  amount: 3
+  unit: łyżeczki
+  note: ok. 3 łyżeczki
 servings: 3
 prep_time: 15
 cook: false

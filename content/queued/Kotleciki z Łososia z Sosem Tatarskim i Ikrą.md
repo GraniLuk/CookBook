@@ -26,6 +26,66 @@ ingredients:
 - oliwa z oliwek
 - cytryna
 - koperek
+shopping_ingredients:
+- name: łosoś
+  amount: 600
+  unit: g
+- name: koperek
+  amount: 1
+  unit: szt.
+- name: cytryna
+  amount: 1
+  unit: szt.
+- name: czosnku
+  amount: 2
+  unit: ząbki
+- name: świeżego imbiru
+  amount: 10
+  unit: g
+- name: musztardy Dijon
+  amount: 1
+  unit: łyżeczka
+- name: panko
+  amount: 5
+  unit: łyżki
+  note: około 35 g
+- name: jajka
+  amount: 2
+  unit: szt.
+- name: szczypta płatków chilli
+  amount: 1
+  unit: szt.
+- name: oliwy z oliwek do smażenia
+  amount: 2
+  unit: łyżki
+- name: jogurt skyr
+  amount: 150
+  unit: g
+- name: majonez
+  amount: 1
+  unit: szt.
+  note: około 25 g
+- name: korniszony
+  amount: 6.0
+  unit: szt.
+  note: około 90 g
+- name: kapary
+  amount: 2
+  unit: łyżki
+  note: około 20 g
+- name: musztardy miodowej i francuskiej
+  amount: 2
+  unit: łyżeczki
+- name: octu sherry
+  amount: 1
+  unit: łyżka
+- name: odrobina miodu
+  amount: 1
+  unit: szt.
+  note: jeśli nie używasz musztardy miodowej
+- name: ikry lub kawioru
+  amount: 30
+  unit: g
 servings: 4
 prep_time: 25
 cook: true
@@ -35,8 +95,8 @@ protein: 42.6
 fat: 34.3
 carbohydrate: 15
 fodmap:
-  status: "depends"
-  serving_ok: "Wymaga modyfikacji"
+  status: depends
+  serving_ok: Wymaga modyfikacji
   notes: Przepis zawiera czosnek oraz panko pszenne, czyli składniki wysokofodmapowe. Skyr w tej porcji jest niewielki, ale przy większej wrażliwości na laktozę warto użyć wersji bez laktozy. Łosoś, jajka, koper, cytryna, kapary i oliwa są zwykle dobrze tolerowane.
   substitutions:
   - Zamiast świeżego czosnku użyj oliwy czosnkowej albo szczypiorku.

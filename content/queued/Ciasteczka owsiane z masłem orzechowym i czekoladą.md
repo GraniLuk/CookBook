@@ -19,6 +19,39 @@ ingredients:
 - płatki owsiane
 - czekolada gorzka
 - jajko
+shopping_ingredients:
+- name: mąki pszennej tortowej
+  amount: 130
+  unit: g
+- name: masła w temperaturze pokojowej
+  amount: 110
+  unit: g
+- name: masła z orzeszków ziemnych
+  amount: 120
+  unit: g
+- name: cukru drobnego
+  amount: 130
+  unit: g
+- name: płaska łyżeczka sody
+  amount: 1
+  unit: szt.
+- name: jajko
+  amount: 1
+  unit: szt.
+- name: płatki owsiane
+  amount: 50
+  unit: g
+- name: czekolada gorzka
+  amount: 0.5
+  unit: szt.
+  note: ok. 50 g
+- name: kropelek aromatu waniliowego
+  amount: 1
+  unit: szt.
+- name: płatki migdałowe
+  amount: 1
+  unit: szt.
+  note: orzeszki ziemne i nasiona słonecznika do dekoracji
 servings: 4
 prep_time: 15
 cook: true

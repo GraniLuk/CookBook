@@ -22,6 +22,26 @@ ingredients:
 - pomidory koktajlowe
 - ciecierzyca
 - ser sałatkowo-kanapkowy półtłusty
+shopping_ingredients:
+- name: kaszy pęczak
+  amount: 80
+  unit: g
+- name: tuńczyk w sosie własnym
+  amount: 93
+  unit: g
+  note: po odsączeniu
+- name: ogórka zielonego
+  amount: 100
+  unit: g
+- name: pomidory koktajlowe
+  amount: 120
+  unit: g
+- name: ciecierzyca
+  amount: 44
+  unit: g
+- name: sera sałatkowo-kanapkowego półtłustego
+  amount: 45
+  unit: g
 servings: 1
 prep_time: 15
 cook: true

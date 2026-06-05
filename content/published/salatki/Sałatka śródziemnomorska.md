@@ -19,6 +19,34 @@ ingredients:
 - pomidory koktajlowe
 - ser feta
 - oliwa z oliwek
+shopping_ingredients:
+- name: mieszanki sałat
+  amount: 220
+  unit: g
+- name: ogórka
+  amount: 1
+  unit: szt.
+- name: papryka czerwona
+  amount: 1
+  unit: szt.
+- name: pomidory koktajlowe
+  amount: 400
+  unit: g
+- name: sera typu feta
+  amount: 200
+  unit: g
+- name: pieczywa
+  amount: 3
+  unit: kromki
+- name: oliwy z oliwek
+  amount: 40
+  unit: g
+- name: czosnku granulowanego
+  amount: 3
+  unit: g
+- name: ziół prowansalskich
+  amount: 3
+  unit: g
 servings: 4
 prep_time: 15
 cook: false

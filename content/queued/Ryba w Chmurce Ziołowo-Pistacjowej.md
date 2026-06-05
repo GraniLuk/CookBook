@@ -23,6 +23,40 @@ ingredients:
 - oliwa z oliwek
 - pstrąg tęczowy
 - cukinia
+shopping_ingredients:
+- name: ryżu czerwonego
+  amount: 200
+  unit: g
+  note: ugotowanego
+- name: pistacje
+  amount: 30
+  unit: g
+  note: obraných, poszatkowanych
+- name: pietruszki
+  amount: 1
+  unit: szt.
+  note: szatkowanej
+- name: rozmaryn
+  amount: 1
+  unit: szt.
+  note: liście szatkowane
+- name: pomarańcza
+  amount: 1
+  unit: szt.
+- name: czosnek
+  amount: 3
+  unit: ząbki
+  note: przepuszczone przez praskę
+- name: oliwy z oliwek
+  amount: 25
+  unit: ml
+- name: pstrąg tęczowy
+  amount: 500
+  unit: g
+- name: cukinia
+  amount: 1
+  unit: szt.
+  note: pokrojona, skropiona 5ml oliwy
 servings: 3
 prep_time: 15
 cook: true

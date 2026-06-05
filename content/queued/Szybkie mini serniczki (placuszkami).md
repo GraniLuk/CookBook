@@ -18,6 +18,29 @@ ingredients:
 - erytrytol
 - rodzynki
 - olej kokosowy
+shopping_ingredients:
+- name: twaróg
+  amount: 250
+  unit: g
+  note: kostka
+- name: jajka
+  amount: 2
+  unit: szt.
+  note: rozdzielone na białka i żółtka
+- name: erytrytol
+  amount: 10
+  unit: g
+  note: 2 łyżeczki
+- name: rodzynki
+  amount: 50
+  unit: g
+- name: kropel aromatu waniliowego
+  amount: 5.5
+  unit: szt.
+- name: oleju kokosowego
+  amount: 5
+  unit: g
+  note: do smażenia
 servings: 6
 prep_time: 10
 cook: true

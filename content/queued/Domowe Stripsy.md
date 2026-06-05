@@ -23,6 +23,34 @@ ingredients:
 - płatki kukurydziane
 - mąka pszenna
 - oliwa z oliwek
+shopping_ingredients:
+- name: pierś z kurczaka
+  amount: 600
+  unit: g
+- name: jajka
+  amount: 2
+  unit: szt.
+- name: mleka
+  amount: 50
+  unit: ml
+- name: płatki kukurydziane
+  amount: 250
+  unit: g
+- name: mąki pszennej
+  amount: 80
+  unit: g
+- name: oliwy z oliwek
+  amount: 10
+  unit: g
+- name: papryki słodkiej
+  amount: 5
+  unit: g
+- name: czosnku granulowanego
+  amount: 4
+  unit: g
+- name: papryki ostrej
+  amount: 5
+  unit: g
 servings: 15
 prep_time: 15
 cook: true

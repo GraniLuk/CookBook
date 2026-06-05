@@ -35,6 +35,7 @@ subcategories: # Optional: słodkie, wytrawne, etc.
 tags: []  # See tag rules below
 tagline: "Brief, appetizing description"
 ingredients: []  # See ingredient rules below
+shopping_ingredients: []  # See shopping ingredient rules below
 servings: 4
 prep_time: 20
 cook: true
@@ -137,6 +138,45 @@ Include **MAIN ingredients only** (>30g or structural role).
 
 Format: `ingredients: ["pierś z kurczaka", "ryż basmati", "mrożone warzywa"]`
 
+## Shopping Ingredient Rules (CRITICAL)
+
+ALWAYS add `shopping_ingredients` to recipe front matter. This field powers the shopping-list import button, so every recipe must include it even when `ingredients` is already present.
+
+Build `shopping_ingredients` from the full `## Składniki` section and the full recipe text, not only from the short `ingredients` filter list.
+
+Use this structure:
+
+```yaml
+shopping_ingredients:
+- name: pierś z kurczaka
+  amount: 500
+  unit: g
+- name: ryż basmati
+  amount: 200
+  unit: g
+- name: jogurt naturalny
+  amount: 150
+  unit: g
+  note: do sosu
+```
+
+**Include:**
+- All buyable ingredients needed for the recipe, including smaller items omitted from `ingredients`
+- Spices, sauces, aromatics, toppings, fillings, and optional serving additions when they appear in the recipe
+- Exact package/can/piece info in `note` when useful, e.g. `1 puszka`, `2 ząbki`, `do podania`
+
+**Exclude:**
+- Water unless it is a purchased bottled/special ingredient
+- Salt and pepper when listed only as "do smaku"
+- Equipment, baking paper, trays, pans, and non-food items
+
+**Amounts and units:**
+- Prefer concrete metric amounts from the recipe text: `g`, `kg`, `ml`, `l`
+- Use count units when that is how the recipe gives the item: `szt.`, `ząbek`, `łyżka`, `łyżeczka`, `opak.`, `puszka`
+- If the recipe gives a range, use the midpoint as `amount` and preserve the range in `note`
+- If an ingredient is required but no amount is available, use `amount: 1`, `unit: szt.`, and add a clarifying `note` when possible
+- Keep names natural for shopping and merging, e.g. `pomidory suszone`, `masło klarowane`, `ser cheddar`
+
 ## FODMAP Guidelines
 
 Analyze each ingredient for FODMAP safety:
@@ -170,7 +210,7 @@ Set `fodmap.serving_ok`:
 1. **Extract recipe data** from source (URL, text, or video)
 2. **Calculate nutrition** using standard food databases
 3. **Organize ingredients** into logical sections (ciasto, nadzienie, etc.)
-4. **Generate front matter** with all required fields
+4. **Generate front matter** with all required fields, including `shopping_ingredients`
 5. **Write content** following structure above
 6. **Validate FODMAP** safety and add notes
 7. **Save file** as `content/queued/Recipe-Title.md`
@@ -228,6 +268,7 @@ Use title case with hyphens: `Pieczony Kurczak z Warzywami.md`
 - [ ] Categories from allowed list
 - [ ] Tags follow type/use rules (no ingredient tags)
 - [ ] Ingredients list contains MAIN items only (no spices)
+- [ ] Shopping ingredients list contains all buyable recipe ingredients with amount/unit/note
 - [ ] Składniki organized into sections when applicable
 - [ ] Nutritional table complete with totals
 - [ ] FODMAP analysis thorough with substitutions
@@ -238,6 +279,8 @@ Use title case with hyphens: `Pieczony Kurczak z Warzywami.md`
 ## Common Mistakes to Avoid
 
 ❌ Adding spices/herbs to `ingredients` field
+❌ Missing `shopping_ingredients`
+❌ Copying only the short `ingredients` list into `shopping_ingredients`
 ❌ Using ingredient names as tags
 ❌ Missing nutritional breakdown table
 ❌ Incomplete FODMAP analysis

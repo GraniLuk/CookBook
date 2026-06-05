@@ -16,6 +16,27 @@ ingredients:
 - budyń waniliowy
 - erytrol
 - maliny
+shopping_ingredients:
+- name: jajka
+  amount: 3
+  unit: szt.
+  note: 180g
+- name: skyru waniliowego
+  amount: 1
+  unit: opak.
+  note: 150g
+- name: budyń waniliowy
+  amount: 1
+  unit: opak.
+  note: 40g
+- name: erytrol
+  amount: 30
+  unit: g
+  note: ok. 30g
+- name: maliny
+  amount: 50
+  unit: g
+  note: 50g
 servings: 1
 prep_time: 10
 cook: true

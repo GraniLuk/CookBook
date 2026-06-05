@@ -24,6 +24,50 @@ ingredients:
 - passata pomidorowa
 - koncentrat pomidorowy
 - spaghetti
+shopping_ingredients:
+- name: wieprzowina
+  amount: 400
+  unit: g
+- name: jajko
+  amount: 1
+  unit: szt.
+- name: cebula
+  amount: 1
+  unit: szt.
+- name: bułki tartej
+  amount: 50
+  unit: g
+- name: mleka
+  amount: 50
+  unit: ml
+- name: parmezan
+  amount: 20
+  unit: g
+- name: mozzarella
+  amount: 100
+  unit: g
+- name: natki pietruszki
+  amount: 1
+  unit: szt.
+- name: czosnek
+  amount: 4
+  unit: ząbki
+- name: passata pomidorowa
+  amount: 700
+  unit: g
+- name: koncentrat pomidorowy
+  amount: 2
+  unit: łyżki
+- name: oliwy z oliwek
+  amount: 30
+  unit: ml
+- name: spaghetti
+  amount: 300
+  unit: g
+- name: Oregano
+  amount: 1
+  unit: szt.
+  note: bazylia, ostre płatki chili do smaku
 servings: 3
 prep_time: 20
 cook: true

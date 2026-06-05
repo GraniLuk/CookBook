@@ -11,19 +11,48 @@ favourite: false
 recipe_image: images/recipe-headers/tarta-mango-z-kremem-mascarpone-i-owocami.avif
 date: 2026-06-03 12:00:00+02:00
 tags:
-  - słodkie
-  - goście
+- słodkie
+- goście
 tagline: Krucha tarta z tropikalną warstwą mango, puszystym kremem mascarpone i świeżymi owocami.
 ingredients:
-  - mąka pszenna
-  - masło
-  - cukier puder
-  - jajko
-  - mus mango
-  - galaretka mango-marakuja
-  - mascarpone
-  - śmietanka 30%
-  - borówki
+- mąka pszenna
+- masło
+- cukier puder
+- jajko
+- mus mango
+- galaretka mango-marakuja
+- mascarpone
+- śmietanka 30%
+- borówki
+shopping_ingredients:
+- name: mąki pszennej
+  amount: 250
+  unit: g
+- name: zimnego masła
+  amount: 120
+  unit: g
+- name: cukru pudru
+  amount: 80
+  unit: g
+- name: jajko
+  amount: 1
+  unit: szt.
+- name: przecieru lub musu mango 100%
+  amount: 400
+  unit: g
+- name: galaretka mango-marakuja
+  amount: 1
+  unit: szt.
+- name: mascarpone
+  amount: 250
+  unit: g
+- name: śmietanka 30%
+  amount: 250
+  unit: ml
+- name: borówki
+  amount: 1
+  unit: szt.
+  note: truskawki lub inne owoce
 servings: 10
 prep_time: 40
 cook: true
@@ -38,9 +67,9 @@ fodmap:
   serving_ok: Wymaga modyfikacji
   notes: W wersji bazowej tarta zawiera mąkę pszenną, mango oraz nabiał z laktozą, więc nie będzie odpowiednia dla ścisłej diety low FODMAP. Borówki lub truskawki jako dekoracja są łagodniejsze w rozsądnej porcji.
   substitutions:
-    - Zamień mąkę pszenną na bezglutenową mieszankę do kruchego ciasta.
-    - Użyj mascarpone i śmietanki bez laktozy.
-    - Zamiast warstwy mango przygotuj warstwę z truskawek lub malin z odpowiednią galaretką bez dodatku polioli.
+  - Zamień mąkę pszenną na bezglutenową mieszankę do kruchego ciasta.
+  - Użyj mascarpone i śmietanki bez laktozy.
+  - Zamiast warstwy mango przygotuj warstwę z truskawek lub malin z odpowiednią galaretką bez dodatku polioli.
 ---
 
 ## Składniki

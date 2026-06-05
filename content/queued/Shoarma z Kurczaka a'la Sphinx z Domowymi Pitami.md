@@ -23,6 +23,112 @@ ingredients:
 - mix sałat
 - coleslaw
 - koperek
+shopping_ingredients:
+- name: mąki pszennej
+  amount: 240
+  unit: g
+- name: drożdże świeże
+  amount: 7.5
+  unit: g
+- name: brązowego cukru
+  amount: 7.5
+  unit: g
+- name: oliwy
+  amount: 10
+  unit: ml
+  note: do ciasta
+- name: Oliwa
+  amount: 1
+  unit: szt.
+  note: do nasmarowania miski
+- name: Mąka
+  amount: 1
+  unit: szt.
+  note: do podsypywania
+- name: mięsa z ud kurczaka
+  amount: 500
+  unit: g
+  note: wytrymowanego, pokrojonego w paski
+- name: przyprawy arabskiej
+  amount: 3.5
+  unit: łyżki
+  note: 'lub mix: papryki słodka i ostra, cebula suszona, czosnek suszony, cynamon, kumin'
+- name: jogurt naturalny
+  amount: 30
+  unit: ml
+- name: oleju
+  amount: 10
+  unit: ml
+- name: ketchupu
+  amount: 50
+  unit: g
+- name: majonezu light
+  amount: 50
+  unit: g
+- name: jogurtu typu Skyr
+  amount: 150
+  unit: g
+  note: lub greckiego
+- name: jogurtu greckiego
+  amount: 75
+  unit: g
+- name: czosnku
+  amount: 1
+  unit: ząbek
+  note: świeżego
+- name: suszonego czosnku
+  amount: 1
+  unit: łyżeczka
+- name: suszonego koperku
+  amount: 1
+  unit: łyżeczka
+- name: papryka
+  amount: 1
+  unit: szt.
+  note: ~100 g
+- name: cebula – drobna kostka
+  amount: 1
+  unit: szt.
+  note: '~70 g; low FODMAP: pomiń lub użyj zielonej części dymki'
+- name: passata pomidorowa
+  amount: 200
+  unit: ml
+- name: Sok z połowy pomarańczy
+  amount: 1
+  unit: szt.
+  note: ~40 ml
+- name: koncentratu pomidorowego
+  amount: 1
+  unit: łyżka
+  note: ~15 g
+- name: oliwy z oliwek
+  amount: 10
+  unit: ml
+- name: Szczpta suszonego oregano
+  amount: 1
+  unit: szt.
+- name: miodu
+  amount: 1
+  unit: łyżeczka
+- name: Sok z ćwierci cytryny
+  amount: 1
+  unit: szt.
+- name: frytek mrożonych
+  amount: 150
+  unit: g
+  note: do pieczenia
+- name: Mieszanka sałat
+  amount: 1
+  unit: szt.
+  note: ~30 g
+- name: Pomidorki koktajlowe
+  amount: 1
+  unit: szt.
+  note: ~50 g
+- name: coleslaw
+  amount: 1
+  unit: szt.
+  note: ~50 g, gotowa surówka lub domowa
 servings: 2
 prep_time: 60
 cook: true

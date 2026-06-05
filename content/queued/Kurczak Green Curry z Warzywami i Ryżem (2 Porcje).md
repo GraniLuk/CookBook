@@ -19,6 +19,61 @@ ingredients:
 - brokuł
 - fasolka szparagowa
 - groszek cukrowy
+shopping_ingredients:
+- name: kurczak
+  amount: 300
+  unit: g
+  note: lub pierś z kurczaka – będzie mniej soczysta
+- name: ryżu basmati
+  amount: 160
+  unit: g
+  note: 80 g na porcję, sucha waga
+- name: sosu sojowego
+  amount: 1
+  unit: łyżka
+  note: do marynaty kurczaka
+- name: brokuł
+  amount: 100
+  unit: g
+  note: różyczki, pokrojone w plasterki
+- name: groszek cukrowy
+  amount: 45.0
+  unit: g
+  note: strączki
+- name: fasolka szparagowa
+  amount: 70.0
+  unit: g
+- name: czosnku
+  amount: 3.5
+  unit: ząbki
+  note: zmiażdżone i drobno posiekane
+- name: Kawałek świeżego imbiru
+  amount: 1
+  unit: szt.
+  note: ~15 g, obranego i drobno poszatkowanego
+- name: szczypiorku
+  amount: 1
+  unit: szt.
+  note: część do gotowania, część do przyozdobienia
+- name: pasty Green Curry
+  amount: 10
+  unit: g
+  note: bardzo ostra, zielone chili + trawa cytrynowa
+- name: mleczka kokosowego
+  amount: 150
+  unit: ml
+  note: 17–18% tłuszczu, pełnotłuste
+- name: sosu rybnego
+  amount: 5
+  unit: ml
+- name: oleju
+  amount: 17.5
+  unit: ml
+  note: 'do smażenia: ~10 ml na kurczaka, reszta na warzywa'
+- name: Czarny sezam
+  amount: 1
+  unit: szt.
+  note: do przyozdobienia ryżu
 servings: 2
 prep_time: 15
 cook: true

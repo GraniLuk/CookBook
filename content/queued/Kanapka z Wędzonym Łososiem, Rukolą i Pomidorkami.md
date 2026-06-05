@@ -3,7 +3,7 @@ title: Kanapka z Wędzonym Łososiem, Rukolą i Pomidorkami
 author: Policzona Szama
 categories:
 - śniadania
-subcategories: słone  
+subcategories: słone
 draft: false
 readyToTest: true
 link: https://www.youtube.com/watch?v=3qI4Y5dRumA
@@ -20,6 +20,27 @@ ingredients:
 - serek śmietankowy
 - rukola
 - pomidorki koktajlowe
+shopping_ingredients:
+- name: bułka
+  amount: 1
+  unit: szt.
+  note: ~70 g
+- name: łosoś wędzony
+  amount: 70.0
+  unit: g
+  note: 3–4 plasterki
+- name: serka śmietankowego
+  amount: 2
+  unit: łyżki
+  note: ~30 g
+- name: rukola
+  amount: 1
+  unit: szt.
+  note: ~20 g
+- name: pomidorki koktajlowe
+  amount: 5.0
+  unit: szt.
+  note: ~60 g
 servings: 1
 prep_time: 5
 cook: false

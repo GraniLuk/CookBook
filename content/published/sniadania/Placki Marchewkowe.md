@@ -18,6 +18,41 @@ ingredients:
 - mąka pszenna
 - mleko
 - cukier
+shopping_ingredients:
+- name: jajko
+  amount: 1
+  unit: szt.
+  note: 60g
+- name: marchewka
+  amount: 50
+  unit: g
+- name: mąki pszennej
+  amount: 50
+  unit: g
+  note: lub innej ulubionej
+- name: mleka
+  amount: 60
+  unit: ml
+- name: cukru kokosowego
+  amount: 1
+  unit: łyżeczka
+  note: lub innego słodzidła; 5g
+- name: szczypta cynamonu
+  amount: 0.5
+  unit: g
+  note: 0.5g
+- name: szczypta proszku do pieczenia
+  amount: 0.5
+  unit: g
+  note: 0.5g
+- name: olej do smażenia
+  amount: 10
+  unit: g
+  note: np. kokosowy; 10g
+- name: ulubione dodatki
+  amount: 1
+  unit: szt.
+  note: np. jogurt naturalny, owoce, syrop klonowy
 servings: 12
 prep_time: 10
 cook: true

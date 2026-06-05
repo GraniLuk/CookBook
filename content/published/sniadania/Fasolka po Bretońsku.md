@@ -20,6 +20,52 @@ ingredients:
 - pomidory
 - koncentrat pomidorowy
 - czosnek
+shopping_ingredients:
+- name: suchej fasoli białej
+  amount: 900
+  unit: g
+  note: np. "Piękny Jaś"
+- name: surowego boczku wędzonego
+  amount: 500
+  unit: g
+- name: kiełbasa
+  amount: 500
+  unit: g
+  note: np. zwyczajna, wiejska
+- name: cebula
+  amount: 2
+  unit: szt.
+  note: ok. 400g
+- name: pomidory
+  amount: 1
+  unit: puszka
+  note: ok. 820g
+- name: koncentrat pomidorowy
+  amount: 2
+  unit: łyżeczki
+  note: ok. 30g
+- name: czosnek
+  amount: 2
+  unit: łyżki
+  note: ok. 30g
+- name: majeranku
+  amount: 3
+  unit: łyżki
+- name: słodkiej papryki
+  amount: 1
+  unit: łyżeczka
+- name: ostrej papryki
+  amount: 1
+  unit: łyżeczka
+- name: kminku
+  amount: 1
+  unit: łyżeczka
+- name: kulki ziela angielskiego
+  amount: 4
+  unit: szt.
+- name: liście laurowe
+  amount: 4
+  unit: szt.
 servings: 4
 prep_time: 20
 cook: true

@@ -15,6 +15,26 @@ ingredients:
 - woda
 - oliwa z oliwek
 - cytryna
+shopping_ingredients:
+- name: miodu
+  amount: 1
+  unit: łyżeczka
+  note: ok. 7g
+- name: musztarda
+  amount: 1
+  unit: łyżeczka
+  note: ok. 5g
+- name: stołowe oliwy z oliwek
+  amount: 4
+  unit: łyżki
+  note: 60ml
+- name: cytryna
+  amount: 1
+  unit: łyżeczka
+  note: 5ml
+- name: Szczypta oregano suszonego
+  amount: 1
+  unit: szt.
 servings: 4
 prep_time: 5
 cook: false

@@ -18,6 +18,30 @@ ingredients:
 - łosoś wędzony
 - awokado
 - jajka
+shopping_ingredients:
+- name: twaróg
+  amount: 105
+  unit: g
+- name: śmietana kremowa
+  amount: 50
+  unit: g
+- name: szczypiorek
+  amount: 15
+  unit: g
+  note: drobno posiekanego
+- name: łosoś wędzony
+  amount: 100
+  unit: g
+- name: awokado
+  amount: 100
+  unit: g
+  note: pół średniego
+- name: jajka
+  amount: 2
+  unit: szt.
+- name: Olej do smażenia
+  amount: 1
+  unit: szt.
 servings: 3
 prep_time: 20
 cook: true

@@ -14,6 +14,22 @@ tagline: Soczysty domowy schab wieprzowy, idealny do kanapek i dań.
 ingredients:
 - schab wieprzowy
 - czosnek
+shopping_ingredients:
+- name: schab wieprzowy
+  amount: 1
+  unit: szt.
+- name: czosnek
+  amount: 1
+  unit: szt.
+- name: 'Olej do smażenia: około 50 ml'
+  amount: 1
+  unit: szt.
+- name: 'Zioła Koksa Mateusza: ćwierć łyżeczki'
+  amount: 1
+  unit: szt.
+- name: 'Rozmaryn: 1 gałązka'
+  amount: 1
+  unit: szt.
 servings: 6
 prep_time: 30
 cook: true

@@ -20,6 +20,40 @@ ingredients:
 - śmietanka 30%
 - masło klarowane
 - koperek
+shopping_ingredients:
+- name: kalafior
+  amount: 1
+  unit: szt.
+  note: około 750 g przed obraniem, około 580 g różyczek
+- name: ziemniaki
+  amount: 450.0
+  unit: g
+- name: marchewka
+  amount: 1
+  unit: szt.
+  note: minimum 100 g
+- name: cebula dymka
+  amount: 1
+  unit: szt.
+- name: czosnku
+  amount: 3
+  unit: ząbki
+  note: opcjonalnie
+- name: bulion
+  amount: 1.5
+  unit: l
+- name: śmietanka 30%
+  amount: 100
+  unit: g
+- name: masło klarowane
+  amount: 15
+  unit: g
+- name: koperek
+  amount: 1
+  unit: szt.
+- name: szczypta kurkumy
+  amount: 1
+  unit: szt.
 servings: 6
 prep_time: 20
 cook: true

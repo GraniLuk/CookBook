@@ -7,7 +7,7 @@ readyToTest: false
 queued: false
 favourite: false
 recipe_image: images/recipe-headers/jablecznik_kruszonka.avif
-date: 2026-03-01T20:28:33+01:00
+date: 2026-03-01 20:28:33+01:00
 tags:
 - ciasta
 tagline: Tradycyjny jabłecznik na kruchym cieście z dżemem jabłkowym, pianą i kruszonką
@@ -18,6 +18,30 @@ ingredients:
 - cukier
 - orzechy włoskie
 - dżem jabłkowy
+shopping_ingredients:
+- name: mąki pszennej
+  amount: 450
+  unit: g
+- name: jajek
+  amount: 6
+  unit: szt.
+- name: masła
+  amount: 200
+  unit: g
+- name: cukru
+  amount: 60
+  unit: g
+  note: do ciasta
+- name: proszku do pieczenia
+  amount: 2
+  unit: łyżeczki
+- name: orzechy włoskie
+  amount: 40
+  unit: g
+- name: dżemu jabłkowego
+  amount: 400
+  unit: g
+  note: ok. 1 słoiczek
 servings: 12
 prep_time: 20
 cook: true

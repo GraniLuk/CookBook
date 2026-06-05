@@ -19,6 +19,47 @@ ingredients:
 - ser twarogowy
 - śmietanka 30%
 - gorzka czekolada
+shopping_ingredients:
+- name: mąki pszennej tortowej
+  amount: 320
+  unit: g
+  note: ok. 2 szklanki
+- name: masła
+  amount: 200
+  unit: g
+  note: 1 kostka
+- name: cukru
+  amount: 230
+  unit: g
+  note: ok. 1 szklanka
+- name: jajek
+  amount: 5
+  unit: szt.
+- name: kakao
+  amount: 3
+  unit: łyżki
+- name: proszku do pieczenia
+  amount: 2
+  unit: łyżeczki
+- name: sera twarogowego
+  amount: 1
+  unit: kg
+  note: np. z wiaderka
+- name: jajka
+  amount: 4
+  unit: szt.
+- name: śmietanka 30%
+  amount: 1
+  unit: opak.
+  note: 40 g
+- name: gorzka czekolada
+  amount: 100
+  unit: g
+  note: 1 tabliczka
+- name: płatków migdałowych
+  amount: 30
+  unit: g
+  note: ok. 30 g
 servings: 24
 prep_time: 30
 cook: true

@@ -19,6 +19,41 @@ ingredients:
 - passata pomidorowa
 - oliwa z oliwek
 - parmezan
+shopping_ingredients:
+- name: wołowina mielona
+  amount: 500
+  unit: g
+  note: najlepiej zmielonego na grubych oczkach
+- name: makaron spaghetti
+  amount: 300
+  unit: g
+- name: cebula
+  amount: 1
+  unit: szt.
+  note: ~150g
+- name: czosnek
+  amount: 3.5
+  unit: ząbki
+  note: ~15g
+- name: passata pomidorowa
+  amount: 1
+  unit: szt.
+  note: ~700g
+- name: oliwy z oliwek
+  amount: 15
+  unit: ml
+- name: parmezan
+  amount: 20
+  unit: g
+- name: suszonego oregano
+  amount: 1
+  unit: łyżka
+- name: suszonej bazylii
+  amount: 1
+  unit: łyżka
+- name: listków świeżej bazylii do dekoracji
+  amount: 1
+  unit: szt.
 servings: 3
 prep_time: 15
 cook: true

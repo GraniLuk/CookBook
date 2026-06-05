@@ -23,6 +23,40 @@ ingredients:
 - seler korzeń
 - makaron lasagne
 - ser parmezan
+shopping_ingredients:
+- name: wołowiny
+  amount: 1
+  unit: kg
+- name: passata pomidorowa
+  amount: 2
+  unit: l
+- name: cebula
+  amount: 1
+  unit: szt.
+- name: papryka
+  amount: 1
+  unit: szt.
+- name: bataty
+  amount: 1
+  unit: szt.
+- name: selera
+  amount: 0.5
+  unit: szt.
+- name: czosnku
+  amount: 5
+  unit: ząbki
+- name: ok. 8 płatów lasagne
+  amount: 1
+  unit: szt.
+  note: połamanych
+- name: startego parmezanu + do posypania
+  amount: 100
+  unit: g
+  note: lub innego twardego sera
+- name: oliwa
+  amount: 1
+  unit: szt.
+  note: opcjonalnie; świeża bazylia lub mozzarella
 servings: 4
 prep_time: 20
 cook: true

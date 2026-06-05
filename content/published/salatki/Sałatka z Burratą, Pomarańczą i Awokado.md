@@ -20,6 +20,33 @@ ingredients:
 - oliwa z oliwek
 - ocet balsamiczny
 - miód
+shopping_ingredients:
+- name: burrata
+  amount: 1
+  unit: szt.
+  note: ok. 150g
+- name: pomarańcza
+  amount: 1
+  unit: szt.
+- name: awokado
+  amount: 1
+  unit: szt.
+- name: cebula dymka
+  amount: 1
+  unit: szt.
+- name: rukola
+  amount: 1
+  unit: szt.
+  note: lub miksu sałat
+- name: oliwy z oliwek
+  amount: 2
+  unit: łyżki
+- name: octu balsamicznego
+  amount: 1
+  unit: łyżka
+- name: miodu
+  amount: 1
+  unit: łyżeczka
 servings: 1
 prep_time: 10
 cook: false

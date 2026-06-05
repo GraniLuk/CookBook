@@ -20,6 +20,30 @@ ingredients:
 - ser wiejski
 - jajko
 - oliwa z oliwek
+shopping_ingredients:
+- name: płatki owsiane
+  amount: 80
+  unit: g
+- name: serka wiejskiego
+  amount: 200
+  unit: g
+- name: jajka
+  amount: 2
+  unit: szt.
+- name: pomidory suszone
+  amount: 50
+  unit: g
+  note: 5-6 sztuk, odsączonych
+- name: oliwek
+  amount: 50
+  unit: g
+  note: 10 sztuk
+- name: sera cheddar
+  amount: 25
+  unit: g
+- name: oliwy z oliwek
+  amount: 20
+  unit: g
 servings: 4
 prep_time: 10
 cook: true

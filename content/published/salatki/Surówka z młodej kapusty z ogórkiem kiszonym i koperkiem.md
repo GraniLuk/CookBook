@@ -8,7 +8,7 @@ queued: false
 favourite: false
 link: https://www.instagram.com/reels/DYovxDWMOrT/
 recipe_image: images/recipe-headers/surowka_kapusta_koperek.avif
-date: 2026-05-30T12:00:00+00:00
+date: 2026-05-30 12:00:00+00:00
 tags:
 - szybkie
 tagline: Wyrazista surówka z młodej kapusty, kiszonych ogórków, marchewki, koperku i musztardy francuskiej.
@@ -19,6 +19,35 @@ ingredients:
 - koperek
 - majonez
 - śmietana
+shopping_ingredients:
+- name: główki młodej kapusty
+  amount: 0.5
+  unit: szt.
+  note: ok. 500 g
+- name: ogórki kiszone
+  amount: 4
+  unit: szt.
+  note: ok. 320 g
+- name: marchew
+  amount: 1
+  unit: szt.
+  note: ok. 120 g
+- name: koperek
+  amount: 0.5
+  unit: szt.
+  note: ok. 15 g
+- name: majonez
+  amount: 1
+  unit: łyżka
+  note: ok. 25 g
+- name: śmietana
+  amount: 1
+  unit: łyżka
+  note: ok. 25 g
+- name: musztardy francuskiej
+  amount: 1
+  unit: łyżeczka
+  note: ok. 10 g
 servings: 4
 prep_time: 15
 cook: false

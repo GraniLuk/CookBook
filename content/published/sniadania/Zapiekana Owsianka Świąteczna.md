@@ -24,6 +24,45 @@ ingredients:
 - orzech włoski
 - żurawina suszona
 - mandarynka
+shopping_ingredients:
+- name: mleko
+  amount: 1
+  unit: szt.
+  note: 150 ml do namaczania + 120 ml do blendowania
+- name: jajka
+  amount: 2
+  unit: szt.
+- name: Cynamon łyżeczka
+  amount: 1
+  unit: szt.
+- name: Proszek do pieczenia 3 g
+  amount: 1
+  unit: szt.
+- name: orzech włoski
+  amount: 1
+  unit: szt.
+- name: żurawina suszona
+  amount: 1
+  unit: szt.
+- name: Aromat waniliowe 3 krople
+  amount: 1
+  unit: szt.
+- name: odżywka białkowa
+  amount: 1
+  unit: szt.
+- name: masło orzechowe
+  amount: 1
+  unit: szt.
+- name: mandarynka
+  amount: 1
+  unit: szt.
+- name: brzoskwinie konserwowe
+  amount: 1
+  unit: szt.
+  note: 5 sztuki
+- name: Skórka z wyparzonej pomarańczy
+  amount: 1
+  unit: szt.
 servings: 3
 prep_time: 15
 cook: true

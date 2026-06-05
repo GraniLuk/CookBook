@@ -22,6 +22,52 @@ ingredients:
 - pomidory suszone
 - pasta curry
 - bulion
+shopping_ingredients:
+- name: mięsa z ud kurczaka
+  amount: 450
+  unit: g
+  note: pokrojone w średnią kostkę
+- name: ziemniaki
+  amount: 600
+  unit: g
+  note: umyte, pokrojone na ćwiartki lub 6 części
+- name: marchewka
+  amount: 1
+  unit: szt.
+  note: ~100 g
+- name: brokuł
+  amount: 1
+  unit: szt.
+- name: cebula
+  amount: 1
+  unit: szt.
+  note: ~100 g
+- name: czosnek
+  amount: 3
+  unit: ząbki
+  note: 'low FODMAP: zamień na olej czosnkowy'
+- name: pomidory suszone
+  amount: 6
+  unit: szt.
+  note: ~30 g
+- name: oleju
+  amount: 15
+  unit: ml
+  note: do smażenia
+- name: bulion
+  amount: 1
+  unit: szt.
+  note: warzywa/kurczak
+- name: czerwonej pasty curry
+  amount: 2
+  unit: łyżeczki
+- name: liście laurowe
+  amount: 2
+  unit: szt.
+- name: mąki pszennej
+  amount: 2
+  unit: łyżki
+  note: ~20 g
 servings: 3
 prep_time: 15
 cook: true

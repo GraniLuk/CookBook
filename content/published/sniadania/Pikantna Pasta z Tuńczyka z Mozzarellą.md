@@ -22,6 +22,51 @@ ingredients:
 - pomidor
 - rukola
 - czosnek
+shopping_ingredients:
+- name: tuńczyk
+  amount: 150
+  unit: g
+  note: odsączony
+- name: mozzarella
+  amount: 70
+  unit: g
+  note: lub innego ulubionego sera
+- name: ketchup
+  amount: 50
+  unit: g
+  note: np. Roleski, Kotlin
+- name: majonez
+  amount: 50
+  unit: g
+  note: np. Hellmann's
+- name: jalapeno
+  amount: 1
+  unit: szt.
+- name: pomidor
+  amount: 1
+  unit: szt.
+  note: ok. 100g
+- name: rukola
+  amount: 20
+  unit: g
+  note: ok. 20g
+- name: Słodka papryka w proszku
+  amount: 1
+  unit: szt.
+- name: Wędzona papryka w proszku
+  amount: 1
+  unit: szt.
+- name: czosnek
+  amount: 1
+  unit: szt.
+  note: granulowany lub świeży
+- name: 'Opcjonalnie: wędzone chipotle'
+  amount: 1
+  unit: szt.
+- name: pieczywa
+  amount: 180
+  unit: g
+  note: 90g na porcję
 servings: 2
 prep_time: 10
 cook: false

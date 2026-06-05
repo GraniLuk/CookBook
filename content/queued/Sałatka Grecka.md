@@ -16,6 +16,38 @@ ingredients:
 - oliwki
 - oliwa z oliwek
 - ocet winny
+shopping_ingredients:
+- name: pomidory
+  amount: 2
+  unit: szt.
+  note: około 400g
+- name: ogórek
+  amount: 1
+  unit: szt.
+  note: około 250g
+- name: cebula czerwona
+  amount: 1
+  unit: szt.
+  note: około 150g
+- name: sera feta
+  amount: 150
+  unit: g
+- name: oliwek czarnych
+  amount: 10
+  unit: szt.
+  note: około 30g
+- name: oliwy z oliwek
+  amount: 3
+  unit: łyżki
+  note: 30g
+- name: octu winnego
+  amount: 1
+  unit: łyżka
+  note: 15g
+- name: oregano suszone
+  amount: 2
+  unit: g
+  note: 2g
 servings: 3
 prep_time: 15
 cook: false

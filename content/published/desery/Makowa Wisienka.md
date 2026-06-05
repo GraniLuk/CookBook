@@ -1,6 +1,6 @@
 ---
 title: Makowa Wisienka
-author: 'ObiadDlaTaty'
+author: ObiadDlaTaty
 categories: desery
 draft: false
 readyToTest: false
@@ -25,6 +25,44 @@ ingredients:
 - wiśnie mrożone
 - mascarpone
 - śmietanka 30%
+shopping_ingredients:
+- name: jajek w temp pokojowej
+  amount: 6
+  unit: szt.
+- name: niebieskiego
+  amount: 100
+  unit: g
+  note: suchego maku
+- name: migdały
+  amount: 50
+  unit: g
+- name: wiórki kokosowe
+  amount: 70
+  unit: g
+- name: mąki pszennej
+  amount: 60
+  unit: g
+- name: Łyżeczka proszku do pieczenia
+  amount: 1
+  unit: szt.
+- name: wrzątku
+  amount: 750
+  unit: ml
+- name: galaretka wiśniowa
+  amount: 3
+  unit: szt.
+- name: wiśnie mrożone
+  amount: 500
+  unit: g
+- name: mascarpone
+  amount: 500
+  unit: g
+- name: śmietanka 30%
+  amount: 400
+  unit: ml
+- name: cukru pudru
+  amount: 3
+  unit: łyżki
 servings: 12
 prep_time: 60
 cook: true

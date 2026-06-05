@@ -19,6 +19,37 @@ ingredients:
 - szpinak
 - olej sezamowy
 - sos sojowy
+shopping_ingredients:
+- name: łosoś
+  amount: 140
+  unit: g
+  note: kostka
+- name: ryżu białego
+  amount: 100
+  unit: g
+  note: suchy
+- name: sosu sojowego
+  amount: 10
+  unit: g
+- name: oleju sezamowego
+  amount: 5
+  unit: g
+- name: szpinak
+  amount: 30
+  unit: g
+- name: ogórka
+  amount: 80
+  unit: g
+- name: marchewka
+  amount: 60
+  unit: g
+- name: awokado
+  amount: 80
+  unit: g
+- name: Sezam
+  amount: 1
+  unit: szt.
+  note: opcjonalnie
 servings: 1
 prep_time: 15
 cook: true

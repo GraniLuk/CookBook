@@ -18,6 +18,33 @@ ingredients:
 - śmietanka 30%
 - mascarpone
 - cukier puder
+shopping_ingredients:
+- name: białek
+  amount: 6
+  unit: szt.
+  note: najlepiej świeżo wybijanych, w temperaturze pokojowej
+- name: cukru zwykłego lub drobnego
+  amount: 300
+  unit: g
+- name: skrobia ziemniaczana
+  amount: 2
+  unit: łyżeczki
+- name: soku z cytryny
+  amount: 1
+  unit: łyżeczka
+- name: śmietanka 30%
+  amount: 250
+  unit: ml
+- name: mascarpone
+  amount: 250
+  unit: g
+- name: cukru pudru
+  amount: 2
+  unit: łyżki
+- name: Owoce do dekoracji
+  amount: 1
+  unit: szt.
+  note: np. wisienki lub inne świeże owoce
 servings: 8
 prep_time: 30
 cook: true

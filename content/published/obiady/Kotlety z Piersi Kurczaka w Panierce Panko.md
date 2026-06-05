@@ -16,6 +16,30 @@ ingredients:
 - mąka pszenna
 - jajka
 - panko
+shopping_ingredients:
+- name: pierś z kurczaka
+  amount: 500
+  unit: g
+  note: pokrojone w cienkie kotlety ~1 cm
+- name: mąki pszennej
+  amount: 120
+  unit: g
+  note: ok. 1 szklanka
+- name: jajka
+  amount: 2
+  unit: szt.
+  note: roztrzepane
+- name: panko
+  amount: 50
+  unit: g
+  note: ok. 1 szklanka luźno nasypana
+- name: 'Opcjonalnie: 1 ząbek czosnku starty lub 1 łyżeczka ziół prowansalskich'
+  amount: 1
+  unit: szt.
+- name: Olej roślinny do smażenia
+  amount: 1
+  unit: szt.
+  note: warstwa ~2 cm – realnie wchłonie się ok. 30g
 servings: 4
 prep_time: 15
 cook: true

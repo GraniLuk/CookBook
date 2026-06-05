@@ -22,6 +22,32 @@ ingredients:
 - jogurt grecki
 - banan
 - czekolada gorzka
+shopping_ingredients:
+- name: płatki owsiane
+  amount: 50
+  unit: g
+  note: zmielonych na mąkę
+- name: jajko
+  amount: 1
+  unit: szt.
+- name: białko jaja
+  amount: 1
+  unit: szt.
+- name: kakao
+  amount: 10
+  unit: g
+- name: jogurt grecki
+  amount: 90
+  unit: g
+- name: banan
+  amount: 0.5
+  unit: szt.
+- name: kropel aromatu waniliowego
+  amount: 1
+  unit: szt.
+- name: czekolada gorzka
+  amount: 2
+  unit: szt.
 servings: 1
 prep_time: 5
 cook: true

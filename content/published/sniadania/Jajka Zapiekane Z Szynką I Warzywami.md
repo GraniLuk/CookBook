@@ -20,6 +20,37 @@ ingredients:
 - papryka
 - cebula
 - szczypiorek
+shopping_ingredients:
+- name: jaja kurze rozmiar L
+  amount: 3
+  unit: szt.
+  note: około 180g
+- name: chudej wędliny
+  amount: 30
+  unit: g
+  note: np. z kurczaka
+- name: sera Piórko
+  amount: 30
+  unit: g
+- name: oliwy extra virgin
+  amount: 5
+  unit: g
+- name: brokuł
+  amount: 3.5
+  unit: szt.
+  note: około 100g
+- name: papryka
+  amount: 0.25
+  unit: szt.
+  note: około 50g
+- name: cebula
+  amount: 0.25
+  unit: szt.
+  note: około 40g
+- name: szczypiorek
+  amount: 1.5
+  unit: szt.
+  note: około 10g
 servings: 3
 prep_time: 15
 cook: true

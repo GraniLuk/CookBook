@@ -19,6 +19,58 @@ ingredients:
 - sos sojowy
 - imbir
 - sriracha
+shopping_ingredients:
+- name: pierś z kurczaka
+  amount: 600
+  unit: g
+  note: bez skóry, pokrojone w kostki lub paski
+- name: sosu sojowego
+  amount: 2
+  unit: łyżki
+- name: oleju
+  amount: 1
+  unit: łyżka
+  note: np. sezamowego lub arachidowego
+- name: sriracha
+  amount: 1.5
+  unit: łyżeczki
+  note: do smaku
+- name: keczupu
+  amount: 2
+  unit: łyżki
+- name: czosnku
+  amount: 4
+  unit: ząbki
+  note: lub 1 łyżka oleju czosnikowego dla low FODMAP
+- name: imbir
+  amount: 1
+  unit: szt.
+  note: ok. 3cm; starty na drobno
+- name: skrobi
+  amount: 1.5
+  unit: łyżeczki
+  note: kukurydzianej lub ziemniaczanej
+- name: masła orzechowego gładkiego
+  amount: 3
+  unit: łyżki
+- name: makaron udon
+  amount: 500
+  unit: g
+  note: świeżego lub mrożonego
+- name: Papryczka chili w płatkach do posypania
+  amount: 1
+  unit: szt.
+- name: orzechów nerkowca
+  amount: 100
+  unit: g
+  note: posiekanych
+- name: łodygi zielonej cebuli
+  amount: 2.5
+  unit: szt.
+  note: tylko białe części + nieco zieleni na koniec
+- name: sezamu do posypania
+  amount: 1
+  unit: łyżka
 servings: 4
 prep_time: 15
 cook: true

@@ -13,6 +13,21 @@ ingredients:
 - majonez
 - jogurt naturalny
 - limonka
+shopping_ingredients:
+- name: majonez
+  amount: 30
+  unit: g
+- name: jogurt naturalny
+  amount: 30
+  unit: g
+- name: limonka
+  amount: 1
+  unit: szt.
+  note: z 1/2 limonki
+- name: Ostra papryka – szczypta
+  amount: 1
+  unit: szt.
+  note: np. chili cayenne
 servings: 4
 prep_time: 5
 cook: false

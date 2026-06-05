@@ -23,6 +23,38 @@ ingredients:
 - galaretka
 - mascarpone
 - śmietanka 30%
+shopping_ingredients:
+- name: jajka
+  amount: 3
+  unit: szt.
+  note: w temperaturze pokojowej
+- name: cukru
+  amount: 4
+  unit: łyżki
+- name: mąki pszennej
+  amount: 3
+  unit: łyżki
+- name: skrobi ziemniaczanej
+  amount: 1
+  unit: łyżka
+- name: ok. 2 kg jabłek
+  amount: 1
+  unit: szt.
+- name: galaretka
+  amount: 2
+  unit: szt.
+  note: po ok. 75 g każda, np. pomarańczowa i mango-marakuja
+- name: mascarpone
+  amount: 500
+  unit: g
+  note: schłodzonego
+- name: śmietanka 30%
+  amount: 250
+  unit: ml
+  note: schłodzonej
+- name: cukru pudru
+  amount: 2
+  unit: łyżki
 servings: 12
 prep_time: 40
 cook: true

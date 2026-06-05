@@ -19,6 +19,38 @@ ingredients:
 - jarmuż
 - mascarpone
 - chleb
+shopping_ingredients:
+- name: pesto bazyliowe
+  amount: 15
+  unit: g
+  note: 15g
+- name: jajka
+  amount: 240
+  unit: g
+  note: 4 szt.; temperatura pokojowa
+- name: pomidory
+  amount: 400
+  unit: g
+  note: w sezonie
+- name: czosnek
+  amount: 1
+  unit: ząbek
+  note: 3g
+- name: jarmuż
+  amount: 50
+  unit: g
+  note: 50g
+- name: suszonego oregano
+  amount: 1
+  unit: łyżeczka
+  note: 2g
+- name: mascarpone
+  amount: 70
+  unit: g
+- name: chleb
+  amount: 2
+  unit: kromki
+  note: 60g
 servings: 3
 prep_time: 10
 cook: true

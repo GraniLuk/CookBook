@@ -15,6 +15,19 @@ ingredients:
 - jajka
 - masło
 - szczypiorek
+shopping_ingredients:
+- name: jajka
+  amount: 4
+  unit: szt.
+  note: około 240g
+- name: masła
+  amount: 2
+  unit: łyżki
+  note: około 25g
+- name: szczypiorek
+  amount: 5
+  unit: g
+  note: 5g
 servings: 2
 prep_time: 5
 cook: true

@@ -18,6 +18,31 @@ ingredients:
 - rukola
 - mozzarella
 - pomidorki koktajlowe
+shopping_ingredients:
+- name: mielonego mięsa z indyka
+  amount: 100
+  unit: g
+  note: chude
+- name: tortilla
+  amount: 1
+  unit: szt.
+  note: ~60 g
+- name: pesto
+  amount: 2
+  unit: łyżki
+  note: ~30 g
+- name: rukola
+  amount: 1
+  unit: szt.
+  note: ~20 g
+- name: mozzarella
+  amount: 30
+  unit: g
+  note: starta
+- name: pomidorki koktajlowe
+  amount: 5.5
+  unit: szt.
+  note: ~60 g; przekrojone na pół
 servings: 1
 prep_time: 5
 cook: true

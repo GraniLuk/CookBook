@@ -20,6 +20,31 @@ ingredients:
 - miód
 - płatki migdałów
 - jogurt naturalny
+shopping_ingredients:
+- name: płatki owsiane
+  amount: 100
+  unit: g
+  note: ok. 5 łyżek
+- name: orzeszki arachidowe
+  amount: 20
+  unit: g
+- name: łyżeczki masła orzechowego
+  amount: 30
+  unit: g
+  note: ok. 1,5 łyżeczki
+- name: gorzka czekolada
+  amount: 120
+  unit: g
+- name: miodu
+  amount: 24
+  unit: g
+  note: ok. 1 łyżeczka
+- name: płatki migdałów
+  amount: 20
+  unit: g
+- name: jogurt naturalny
+  amount: 160
+  unit: g
 servings: 8
 prep_time: 10
 cook: false

@@ -24,6 +24,50 @@ ingredients:
 - napój migdałowy
 - masło migdałowe
 - płatki migdałów
+shopping_ingredients:
+- name: płatki owsiane
+  amount: 80
+  unit: g
+- name: mąki migdałowej
+  amount: 20
+  unit: g
+  note: must have dla „croissantowego” efektu
+- name: odżywka białkowa
+  amount: 20
+  unit: g
+  note: opcjonalnie, można zastąpić dodatkowymi płatkami/mąką
+- name: banan
+  amount: 1
+  unit: szt.
+  note: ~120 g
+- name: jajka
+  amount: 2
+  unit: szt.
+- name: skyru waniliowego lub naturalnego
+  amount: 100
+  unit: g
+  note: ew. jogurt gęsty
+- name: napój migdałowy
+  amount: 100
+  unit: g
+  note: mleka
+- name: kropel aromatu migdałowego
+  amount: 1
+  unit: szt.
+  note: opcjonalnie
+- name: proszku do pieczenia
+  amount: 2
+  unit: łyżeczki
+- name: masła migdałowego + 20 ml wrzątku lub mleka – wymieszać do konsystencji polewy
+  amount: 20
+  unit: g
+- name: płatki migdałów
+  amount: 30
+  unit: g
+- name: Erytrytol w pudrze do posypania
+  amount: 1
+  unit: szt.
+  note: opcjonalnie
 servings: 1
 prep_time: 10
 cook: true

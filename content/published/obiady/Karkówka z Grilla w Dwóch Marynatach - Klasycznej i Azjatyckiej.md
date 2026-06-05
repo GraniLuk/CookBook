@@ -21,6 +21,54 @@ ingredients:
 - ocet balsamiczny
 - miód
 - imbir
+shopping_ingredients:
+- name: karkówka wieprzowa
+  amount: 1
+  unit: kg
+- name: olej
+  amount: 1
+  unit: szt.
+- name: ketchup
+  amount: 2
+  unit: łyżki
+- name: musztarda
+  amount: 2
+  unit: łyżki
+- name: oleju rzepakowego
+  amount: 3
+  unit: łyżki
+- name: czosnek
+  amount: 2
+  unit: ząbki
+- name: papryki wędzonej
+  amount: 1
+  unit: łyżeczka
+- name: papryki słodkiej
+  amount: 1
+  unit: łyżeczka
+- name: majeranku
+  amount: 1
+  unit: łyżeczka
+- name: cytryna
+  amount: 1
+  unit: szt.
+  note: opcjonalnie
+- name: sosu sojowego
+  amount: 40
+  unit: ml
+- name: octu balsamicznego z Modeny
+  amount: 20
+  unit: g
+- name: miodu
+  amount: 20
+  unit: g
+- name: tymianku
+  amount: 1
+  unit: łyżeczka
+- name: imbir
+  amount: 1
+  unit: łyżeczka
+  note: startego
 servings: 4
 prep_time: 15
 cook: true

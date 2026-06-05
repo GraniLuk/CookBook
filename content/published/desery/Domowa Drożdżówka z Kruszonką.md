@@ -8,15 +8,46 @@ queued: false
 favourite: false
 link: https://www.instagram.com/p/DVEfuFODftB/
 recipe_image: images/recipe-headers/domowa-drozdzowka-z-kruszonka.avif
-date: 2026-03-09T16:05:05+01:00
+date: 2026-03-09 16:05:05+01:00
 tags:
-  - ciasta
+- ciasta
 tagline: Mięciutka, puszysta i pachnąca masłem drożdżówka z chrupiącą kruszonką
 ingredients:
-  - mleko
-  - mąka pszenna
-  - jajka
-  - masło
+- mleko
+- mąka pszenna
+- jajka
+- masło
+shopping_ingredients:
+- name: ciepłego mleka
+  amount: 250
+  unit: ml
+- name: świeżych drożdży
+  amount: 50
+  unit: g
+- name: mąki pszennej
+  amount: 600
+  unit: g
+  note: przesianej
+- name: jajka
+  amount: 3
+  unit: szt.
+  note: oddzielnie żółtka i białka
+- name: cukru
+  amount: 100
+  unit: g
+- name: cukru wanilinowego
+  amount: 10
+  unit: g
+- name: masła
+  amount: 125
+  unit: g
+  note: roztopionego
+- name: jajko do posmarowania
+  amount: 1
+  unit: szt.
+- name: mąki
+  amount: 50
+  unit: g
 servings: 10
 prep_time: 30
 cook: true
@@ -26,13 +57,11 @@ protein: 10.4
 fat: 15.8
 carbohydrate: 64.9
 fodmap:
-  status: no
+  status: false
   serving_ok: Tylko mała porcja
-  notes: Zawiera dużo mąki pszennej (fruktany) oraz mleko (laktoza). Przepis nie
-    jest odpowiedni w ścisłej fazie eliminacji FODMAP.
+  notes: Zawiera dużo mąki pszennej (fruktany) oraz mleko (laktoza). Przepis nie jest odpowiedni w ścisłej fazie eliminacji FODMAP.
   substitutions:
-    - Dla wersji nisko FODMAP użyj mleka bez laktozy i mąki bezglutenowej, co
-      jednak zmieni właściwości ciasta drożdżowego.
+  - Dla wersji nisko FODMAP użyj mleka bez laktozy i mąki bezglutenowej, co jednak zmieni właściwości ciasta drożdżowego.
 ---
 
 ## Składniki

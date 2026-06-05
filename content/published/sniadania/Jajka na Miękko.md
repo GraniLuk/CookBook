@@ -14,6 +14,14 @@ tags:
 tagline: Idealnie ugotowane jajka z płynnym żółtkiem i ściętym białkiem - klasyczne, pożywne śniadanie.
 ingredients:
 - jajka
+shopping_ingredients:
+- name: jajka
+  amount: 2
+  unit: szt.
+  note: rozmiar M lub L
+- name: 'Opcjonalnie: świeży szczypiorek do posypania'
+  amount: 1
+  unit: szt.
 servings: 1
 prep_time: 2
 cook: true

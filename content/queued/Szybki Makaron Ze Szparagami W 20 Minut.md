@@ -21,6 +21,37 @@ ingredients:
 - pomidory
 - ser grana padano
 - oliwa z oliwek
+shopping_ingredients:
+- name: makaron
+  amount: 250
+  unit: g
+- name: pierś z kurczaka
+  amount: 500
+  unit: g
+- name: szparagi
+  amount: 500
+  unit: g
+- name: pomidorów koktajlowych
+  amount: 500
+  unit: g
+- name: cebula
+  amount: 1
+  unit: szt.
+- name: czosnku
+  amount: 3
+  unit: ząbki
+- name: sera grana padano
+  amount: 50
+  unit: g
+- name: oliwy z oliwek
+  amount: 10
+  unit: g
+- name: przyprawy do kurczaka
+  amount: 5
+  unit: g
+- name: papryki słodkiej
+  amount: 5
+  unit: g
 servings: 4
 prep_time: 10
 cook: true

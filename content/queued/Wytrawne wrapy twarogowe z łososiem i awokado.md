@@ -19,6 +19,29 @@ ingredients:
 - łosoś wędzony
 - awokado
 - tortilla
+shopping_ingredients:
+- name: twaróg
+  amount: 250
+  unit: g
+  note: kostka
+- name: serka śmietankowego chrzanowego
+  amount: 100
+  unit: g
+- name: szczypiorek
+  amount: 15
+  unit: g
+  note: poszatkowanego
+- name: łosoś wędzony
+  amount: 200
+  unit: g
+  note: 50g na wrap
+- name: awokado
+  amount: 150
+  unit: g
+  note: 1 sztuka, 37g na wrap
+- name: tortilla
+  amount: 4
+  unit: szt.
 servings: 4
 prep_time: 15
 cook: false

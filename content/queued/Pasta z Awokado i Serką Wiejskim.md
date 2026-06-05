@@ -10,16 +10,30 @@ favourite: false
 link: https://www.instagram.com/reels/DRcksq6DJVL/
 recipe_image: images/recipe-headers/pasta_awokado_ser.avif
 video_file: videos/pasta_awokado_ser.mp4
-date: 2026-01-08T12:00:00+00:00
+date: 2026-01-08 12:00:00+00:00
 tags:
-  - pasta
-  - kanapki
+- pasta
+- kanapki
 tagline: Prosta pasta z awokado, serkiem wiejskim i suszonymi pomidorami.
 ingredients:
-  - awokado
-  - ser wiejski
-  - pomidory suszone
-  - jajka
+- awokado
+- ser wiejski
+- pomidory suszone
+- jajka
+shopping_ingredients:
+- name: jajka
+  amount: 2
+  unit: szt.
+- name: awokado
+  amount: 0.5
+  unit: szt.
+- name: serka wiejskiego
+  amount: 1
+  unit: opak.
+  note: ok. 150 g
+- name: pomidory suszone
+  amount: 30
+  unit: g
 servings: 2
 prep_time: 10
 cook: false
@@ -29,7 +43,7 @@ protein: 16
 fat: 16
 carbohydrate: 12
 fodmap:
-  status: yes
+  status: true
   serving_ok: OK w tej porcji
   notes: Awokado w małych ilościach, reszta bezpieczna.
   substitutions: []

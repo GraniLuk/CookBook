@@ -17,6 +17,25 @@ ingredients:
 - awokado
 - pomidory suszone
 - rukola
+shopping_ingredients:
+- name: bułka
+  amount: 1
+  unit: szt.
+  note: 240g
+- name: jajka
+  amount: 4
+  unit: szt.
+  note: rozmiar M
+- name: awokado
+  amount: 100
+  unit: g
+- name: pomidory suszone
+  amount: 1
+  unit: szt.
+  note: odsączone, pokrojone
+- name: rukola
+  amount: 1
+  unit: szt.
 servings: 2
 prep_time: 10
 cook: true

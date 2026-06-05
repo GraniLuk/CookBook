@@ -17,6 +17,29 @@ ingredients:
 - ogórek kiszony
 - jajko
 - majonez
+shopping_ingredients:
+- name: woreczka ryżu białego
+  amount: 1.5
+  unit: szt.
+  note: ok. 150g suchego
+- name: tuńczyk
+  amount: 1
+  unit: puszka
+  note: ok. 140g po odsączeniu
+- name: kukurydza
+  amount: 1
+  unit: puszka
+  note: ok. 150g po odsączeniu
+- name: ogórki kwaszone średniej wielkości
+  amount: 3
+  unit: szt.
+- name: jajka
+  amount: 3
+  unit: szt.
+- name: majonez
+  amount: 2.5
+  unit: łyżki
+  note: ok. 50g
 servings: 4
 prep_time: 20
 cook: false

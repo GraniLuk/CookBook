@@ -10,17 +10,42 @@ link: https://www.instagram.com/reel/DUSx1HJjCBd/?igsh=MTR3eWo2c255cTBkaw==
 recipe_image: images/recipe-headers/tarta-sernikowa-biala-czekolada.avif
 date: 2026-02-14 00:00:00+00:00
 tags:
-  - słodkie
-  - ciasta
-tagline: Lekka, bez pieczenia tarta z białą czekoladą, mascarpone i twarogiem,
-  idealna na letnie dni
+- słodkie
+- ciasta
+tagline: Lekka, bez pieczenia tarta z białą czekoladą, mascarpone i twarogiem, idealna na letnie dni
 ingredients:
-  - ciastka owsiane
-  - masło
-  - śmietanka 30%
-  - czekolada biała
-  - mascarpone
-  - twaróg sernikowy
+- ciastka owsiane
+- masło
+- śmietanka 30%
+- czekolada biała
+- mascarpone
+- twaróg sernikowy
+shopping_ingredients:
+- name: ciastka owsiane
+  amount: 250
+  unit: g
+- name: roztopionego masła
+  amount: 100
+  unit: g
+- name: śmietanka 30%
+  amount: 300
+  unit: ml
+- name: białej czekolady dobrej jakości
+  amount: 300
+  unit: g
+  note: np. Wedel lub Fincaré
+- name: żelatyny
+  amount: 2.5
+  unit: łyżeczki
+- name: mascarpone
+  amount: 250
+  unit: g
+- name: twaróg sernikowy
+  amount: 500
+  unit: g
+- name: Owoce do dekoracji
+  amount: 1
+  unit: szt.
 servings: 8
 prep_time: 30
 cook: false
@@ -32,12 +57,9 @@ carbohydrate: 43
 fodmap:
   status: true
   serving_ok: OK w tej porcji
-  notes: Tarta zawiera ingredienty bezpieczne dla diety FODMAP. Przed podaniem
-    wieniec owocami wybierz opcje FODMAP-friendly takie jak jagody, maliny lub
-    pomarańcze. Unikaj jabłek, gruszek czy cebuli.
+  notes: Tarta zawiera ingredienty bezpieczne dla diety FODMAP. Przed podaniem wieniec owocami wybierz opcje FODMAP-friendly takie jak jagody, maliny lub pomarańcze. Unikaj jabłek, gruszek czy cebuli.
   substitutions:
-    - "Zamiast nieznanego składu owoców: użyj jagód, malin, borówek lub plasterk
-      pomarańczy"
+  - 'Zamiast nieznanego składu owoców: użyj jagód, malin, borówek lub plasterk pomarańczy'
 ---
 
 ## Składniki

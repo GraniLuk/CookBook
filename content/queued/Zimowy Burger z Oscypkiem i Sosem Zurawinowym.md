@@ -1,25 +1,72 @@
 ---
-title: "Zimowy Burger z Oscypkiem i Sosem Zurawinowym"
-author: "Policzona Szama"
+title: Zimowy Burger z Oscypkiem i Sosem Zurawinowym
+author: Policzona Szama
 categories: obiady
 draft: false
 readyToTest: true
 queued: true
 link: https://www.youtube.com/watch?v=placeholder
 recipe_image: images/recipe-headers/zimowy-burger.avif
-date: 2026-03-03T21:51:00+01:00
+date: 2026-03-03 21:51:00+01:00
 tags:
-  - goście
-tagline: "Autorski zimowy burger z wołowiną, wędzonym oscypkiem, domowym sosem żurawinowym i lekkim sosem hamburgerowym"
+- goście
+tagline: Autorski zimowy burger z wołowiną, wędzonym oscypkiem, domowym sosem żurawinowym i lekkim sosem hamburgerowym
 ingredients:
-  - wołowina
-  - oscypek
-  - żurawina
-  - bułka hamburgerowa
-  - sałata lodowa
-  - rukola
-  - majonez
-  - jogurt skyr
+- wołowina
+- oscypek
+- żurawina
+- bułka hamburgerowa
+- sałata lodowa
+- rukola
+- majonez
+- jogurt skyr
+shopping_ingredients:
+- name: wołowina
+  amount: 200
+  unit: g
+  note: łopatka + antrykot, grube oczka
+- name: oscypek
+  amount: 80
+  unit: g
+  note: 2–3 plastry
+- name: bułka hamburgerowa
+  amount: 1
+  unit: szt.
+  note: domowa, z czarnym sezamem
+- name: sałata lodowa
+  amount: 1
+  unit: szt.
+- name: rukola
+  amount: 1
+  unit: szt.
+- name: plasterków papryki
+  amount: 1
+  unit: szt.
+- name: plasterków czerwonej cebuli
+  amount: 1
+  unit: szt.
+- name: majonez
+  amount: 30
+  unit: g
+  note: Kielecki
+- name: jogurt skyr
+  amount: 15
+  unit: g
+- name: ketchupu
+  amount: 15
+  unit: g
+- name: żurawina
+  amount: 250
+  unit: g
+- name: sok z ½ pomarańczy
+  amount: 1
+  unit: szt.
+- name: erytrytolu
+  amount: 50
+  unit: g
+- name: szczypta cynamonu
+  amount: 1
+  unit: szt.
 servings: 1
 prep_time: 40
 cook: true
@@ -29,13 +76,13 @@ protein: 45
 fat: 38
 carbohydrate: 52
 fodmap:
-  status: "no"
-  serving_ok: "Tylko mała porcja"
-  notes: "Zawiera cebulę (fruktany – wysokie FODMAP), pszenicę w bułce (fruktany), mleko owcze w oscypku (laktoza)."
+  status: 'no'
+  serving_ok: Tylko mała porcja
+  notes: Zawiera cebulę (fruktany – wysokie FODMAP), pszenicę w bułce (fruktany), mleko owcze w oscypku (laktoza).
   substitutions:
-    - "Zamień cebulę na zieloną część dymki"
-    - "Użyj bułki bezglutenowej"
-    - "Ogranicz ilość oscypka lub zamień na ser dojrzewający"
+  - Zamień cebulę na zieloną część dymki
+  - Użyj bułki bezglutenowej
+  - Ogranicz ilość oscypka lub zamień na ser dojrzewający
 ---
 
 ## Składniki

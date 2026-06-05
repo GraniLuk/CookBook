@@ -9,15 +9,30 @@ favourite: false
 recipe_image: images/recipe-headers/ciasto_kruche.avif
 date: 2025-12-06 12:00:00+00:00
 tags:
-  - goście
-  - tarta
-  - ciasta
+- goście
+- tarta
+- ciasta
 tagline: Proste i kruche ciasto idealne na tarty i słodkości.
 ingredients:
-  - mąka pszenna
-  - masło
-  - żółtka
-  - jogurt naturalny
+- mąka pszenna
+- masło
+- żółtka
+- jogurt naturalny
+shopping_ingredients:
+- name: mąki pszennej
+  amount: 490
+  unit: g
+  note: ok. 3.5 szklanki
+- name: masła
+  amount: 200
+  unit: g
+- name: żółtka
+  amount: 4
+  unit: szt.
+- name: jogurt naturalny
+  amount: 2
+  unit: łyżki
+  note: opcjonalnie, do zagęszczenia
 servings: 1
 prep_time: 15
 cook: true
@@ -27,10 +42,9 @@ protein: 10
 fat: 24
 carbohydrate: 46
 fodmap:
-  status: yes
+  status: true
   serving_ok: OK
-  notes: Mąka pszenna, masło, żółtka i jogurt naturalny są bezpieczne w diecie low
-    FODMAP.
+  notes: Mąka pszenna, masło, żółtka i jogurt naturalny są bezpieczne w diecie low FODMAP.
   substitutions: []
 ---
 

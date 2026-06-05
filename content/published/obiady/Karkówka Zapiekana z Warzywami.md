@@ -17,6 +17,47 @@ ingredients:
 - cebula
 - por
 - ziemniaki
+shopping_ingredients:
+- name: karkówki
+  amount: 4
+  unit: plastry
+  note: ok. 650g
+- name: marchewka
+  amount: 2.5
+  unit: szt.
+  note: ok. 200g
+- name: cebula
+  amount: 1
+  unit: szt.
+  note: ok. 100g
+- name: por
+  amount: 1
+  unit: szt.
+  note: ok. 150g
+- name: ziemniaki
+  amount: 4.5
+  unit: szt.
+  note: ok. 500g
+- name: czosnku
+  amount: 2
+  unit: ząbki
+- name: słodka papryka
+  amount: 1
+  unit: szt.
+- name: majeranek lub tymianek
+  amount: 1
+  unit: szt.
+- name: sosu sojowego
+  amount: 2.5
+  unit: łyżki
+- name: suszone zioła
+  amount: 1
+  unit: szt.
+  note: tymianek, rozmaryn
+- name: oliwa z oliwek
+  amount: 1
+  unit: szt.
+  note: opcjonalnie, ok. 28g
 servings: 4
 prep_time: 20
 cook: true

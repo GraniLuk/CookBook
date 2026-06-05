@@ -10,13 +10,30 @@ favourite: false
 recipe_image: images/recipe-headers/omlet_owsiany2.avif
 date: 2025-06-18 12:00:00+00:00
 tags:
-  - omlety
+- omlety
 tagline: Zdrowy i sycący omlet owsiany na śniadanie!
 ingredients:
-  - jajka
-  - płatki owsiane
-  - mleko
-  - nasiona chia
+- jajka
+- płatki owsiane
+- mleko
+- nasiona chia
+shopping_ingredients:
+- name: płatki owsiane
+  amount: 100
+  unit: g
+- name: jajka
+  amount: 3
+  unit: szt.
+  note: około 180g
+- name: żurawiny
+  amount: 30
+  unit: g
+- name: mleka
+  amount: 250
+  unit: ml
+- name: nasiona chia
+  amount: 20
+  unit: g
 servings: 1
 prep_time: 5
 cook: true
@@ -28,12 +45,10 @@ carbohydrate: 30
 fodmap:
   status: depends
   serving_ok: Płatki owsiane - maksymalnie 1/2 szklanki (50g) na porcję
-  notes: Owies w większych ilościach może powodować problemy. Żurawina suszona
-    może zawierać dodatki. Nasiona chia są bezpieczne w małych ilościach (do 20g
-    na porcję).
+  notes: Owies w większych ilościach może powodować problemy. Żurawina suszona może zawierać dodatki. Nasiona chia są bezpieczne w małych ilościach (do 20g na porcję).
   substitutions:
-    - 100g płatków owsianych -> 50g płatków owsianych + 25g mąki ryżowej
-    - żurawina suszona -> świeże jagody (30g)
+  - 100g płatków owsianych -> 50g płatków owsianych + 25g mąki ryżowej
+  - żurawina suszona -> świeże jagody (30g)
 ---
 
 ## Składniki (wspólne)

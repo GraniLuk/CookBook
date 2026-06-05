@@ -7,19 +7,41 @@ readyToTest: true
 queued: true
 link: https://youtu.be/lzksRF6xkVQ?t=495
 recipe_image: images/recipe-headers/proteinowe_fit_tiramisu.avif
-date: 2026-03-10T16:00:00+01:00
+date: 2026-03-10 16:00:00+01:00
 tags:
-  - proteinowe
-  - lunchbox
-  - słodkie
+- proteinowe
+- lunchbox
+- słodkie
 tagline: Wysokobiałkowe tiramisu z twarogiem i biszkoptami w słoiku – idealny fit deser na drugie śniadanie.
 ingredients:
-  - serek homogenizowany waniliowy
-  - serek homogenizowany ciasteczkowy
-  - twaróg chudy
-  - jogurt skyr
-  - jogurt skyr waniliowy
-  - biszkopty
+- serek homogenizowany waniliowy
+- serek homogenizowany ciasteczkowy
+- twaróg chudy
+- jogurt skyr
+- jogurt skyr waniliowy
+- biszkopty
+shopping_ingredients:
+- name: serka homogenizowanego waniliowego
+  amount: 150
+  unit: g
+- name: serka homogenizowanego smak ciasteczko
+  amount: 150
+  unit: g
+- name: twarogu chudego
+  amount: 250
+  unit: g
+- name: skyru naturalnego
+  amount: 150
+  unit: g
+- name: skyru waniliowego
+  amount: 150
+  unit: g
+- name: biszkopty
+  amount: 180
+  unit: g
+- name: kakao
+  amount: 3
+  unit: g
 servings: 4
 prep_time: 15
 cook: false
@@ -33,8 +55,8 @@ fodmap:
   serving_ok: Tylko mała porcja
   notes: Serki homogenizowane i skyr mogą zawierać laktozę. Biszkopty zawierają pszenicę (fruktany).
   substitutions:
-    - Użyj serków bezlaktozowych
-    - Zamień biszkopty na bezglutenowe
+  - Użyj serków bezlaktozowych
+  - Zamień biszkopty na bezglutenowe
 ---
 
 ## Składniki

@@ -19,6 +19,47 @@ ingredients:
 - cebula
 - czosnek
 - parmezan
+shopping_ingredients:
+- name: makaron pełnoziarnisty kokardki
+  amount: 250
+  unit: g
+  note: ~pół paczki
+- name: schab pieczony
+  amount: 1
+  unit: szt.
+  note: pokrojonego w paski i kostkę
+- name: passata pomidorowa
+  amount: 1
+  unit: szt.
+  note: ~500 g
+- name: koncentrat pomidorowy
+  amount: 1
+  unit: łyżka
+  note: ~20 g
+- name: cebula
+  amount: 1
+  unit: szt.
+  note: '~80 g; low FODMAP: pomiń lub użyj zielonej części dymki'
+- name: czosnek
+  amount: 3
+  unit: ząbki
+  note: 'low FODMAP: zamień na 2 łyżki oleju czosnkowego'
+- name: oliwy z oliwek
+  amount: 2.5
+  unit: łyżki
+  note: ~30 ml
+- name: suszonego oregano
+  amount: 1
+  unit: łyżka
+  note: ~5 g
+- name: parmezan
+  amount: 35.0
+  unit: g
+  note: do podania
+- name: Natka pietruszki
+  amount: 1
+  unit: szt.
+  note: do dekoracji, opcjonalnie
 servings: 3
 prep_time: 10
 cook: true

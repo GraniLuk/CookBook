@@ -22,6 +22,51 @@ ingredients:
 - jarmuż
 - grzyby
 - oliwa z oliwek
+shopping_ingredients:
+- name: mięso z indyka
+  amount: 400
+  unit: g
+  note: 400g
+- name: makaron
+  amount: 200
+  unit: g
+  note: 200g
+- name: passata pomidorowa
+  amount: 500
+  unit: g
+  note: 500g
+- name: ser mozzarella
+  amount: 100
+  unit: g
+  note: 100g
+- name: cebula
+  amount: 1
+  unit: szt.
+  note: 1 sztuka
+- name: czosnek
+  amount: 2.5
+  unit: ząbki
+  note: 2-3 ząbki
+- name: pomidory suszone
+  amount: 50
+  unit: g
+  note: 50g
+- name: jarmuż
+  amount: 100
+  unit: g
+  note: 100g
+- name: grzyby
+  amount: 1
+  unit: szt.
+  note: 100g, suszone lub mrożone
+- name: oliwa z oliwek
+  amount: 2
+  unit: łyżki
+  note: 2 łyżki
+- name: Koncentrat pomidorowy
+  amount: 1.5
+  unit: łyżeczki
+  note: 1.5 łyżeczki
 servings: 4
 prep_time: 15
 cook: true

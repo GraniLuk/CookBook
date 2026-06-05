@@ -22,6 +22,39 @@ ingredients:
 - mąka pszenna
 - orzechy włoskie
 - erytrytol
+shopping_ingredients:
+- name: twaróg
+  amount: 250
+  unit: g
+  note: półtłusty lub chudy, rozgnieciony
+- name: jabłek
+  amount: 300
+  unit: g
+  note: około 5 średnich jabłek
+- name: jajka
+  amount: 2
+  unit: szt.
+- name: miękkiego masła
+  amount: 30
+  unit: g
+- name: ok. 120 g mąki pszennej
+  amount: 1
+  unit: szt.
+  note: lub ryżowej w wersji bezglutenowej
+- name: orzechy włoskie
+  amount: 30
+  unit: g
+- name: płaska łyżeczka proszku do pieczenia
+  amount: 1
+  unit: szt.
+- name: erytrytol
+  amount: 1.5
+  unit: łyżki
+  note: przy obliczeniach wersja z erytrytolem – 0 kcal
+- name: szczypta cynamonu do masy
+  amount: 1
+  unit: szt.
+  note: Opcjonalnie
 servings: 10
 prep_time: 10
 cook: true

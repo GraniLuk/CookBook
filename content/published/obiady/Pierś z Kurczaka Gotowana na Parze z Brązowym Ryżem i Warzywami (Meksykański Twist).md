@@ -19,6 +19,58 @@ ingredients:
 - majonez light
 - jogurt naturalny
 - limonka
+shopping_ingredients:
+- name: brązowego ryżu
+  amount: 240
+  unit: g
+  note: 80g na porcję, przed ugotowaniem
+- name: pierś z kurczaka
+  amount: 400
+  unit: g
+  note: pokrojonej w większe kawałki
+- name: jarmuż
+  amount: 200
+  unit: g
+  note: bez twardych łodyg
+- name: kukurydza
+  amount: 0.5
+  unit: puszki
+  note: ok. 140g po odsączeniu
+- name: fasola czerwona
+  amount: 1
+  unit: puszka
+  note: 400g; odsączona i przepłukana
+- name: pomidorki cherry
+  amount: 300
+  unit: g
+  note: przekrojonych na pół
+- name: kumin
+  amount: 1
+  unit: łyżeczka
+- name: oregano
+  amount: 1
+  unit: łyżeczka
+- name: papryki słodkiej
+  amount: 0.5
+  unit: łyżeczki
+- name: ostrej papryki
+  amount: 0.25
+  unit: łyżeczki
+  note: lub do smaku
+- name: majonez light
+  amount: 30
+  unit: g
+- name: jogurt naturalny
+  amount: 30
+  unit: g
+- name: limonka
+  amount: 1
+  unit: szt.
+  note: około 15ml
+- name: szczypta ostrej papryki
+  amount: 1
+  unit: szt.
+  note: np. chili cayenne
 servings: 3
 prep_time: 25
 cook: true

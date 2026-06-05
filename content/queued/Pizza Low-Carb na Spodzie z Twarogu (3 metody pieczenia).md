@@ -20,6 +20,56 @@ ingredients:
 - ser mozzarella
 - pepperoni
 - tuńczyk
+shopping_ingredients:
+- name: twaróg
+  amount: 300
+  unit: g
+  note: najlepiej ręcznie robionego
+- name: jajka
+  amount: 3
+  unit: szt.
+- name: parmezan
+  amount: 40
+  unit: g
+- name: mąki ryżowej
+  amount: 60
+  unit: g
+  note: lub mąki kokosowej dla jeszcze niższych węglowodanów
+- name: Ćwierć łyżeczki proszku do pieczenia
+  amount: 1
+  unit: szt.
+- name: suszonego czosnku
+  amount: 0.5
+  unit: łyżeczki
+  note: 'low FODMAP: pomiń lub zamień na szczyptę oleju czosnkowego'
+- name: mieszanki ziół włoskich
+  amount: 1
+  unit: łyżeczka
+  note: lub ziół prowansalskich
+- name: maślanki
+  amount: 2.5
+  unit: łyżki
+  note: do rozrzedzenia ciasta, jeśli jest za gęste
+- name: ~200 g gotowego sosu do pizzy
+  amount: 1
+  unit: szt.
+  note: lub domowego sosu pomidorowego
+- name: ~150 g mozzarelli light
+  amount: 1
+  unit: szt.
+  note: startej
+- name: pepperoni
+  amount: 1
+  unit: szt.
+  note: ~50 g
+- name: tuńczyk
+  amount: 1
+  unit: szt.
+  note: ~100 g; ~30 g, kilka sztuk
+- name: 'Opcjonalnie: rukola'
+  amount: 1
+  unit: szt.
+  note: pomidorki koktajlowe, pieczarki, papryka
 servings: 3
 prep_time: 15
 cook: true

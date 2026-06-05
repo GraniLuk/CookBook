@@ -9,18 +9,51 @@ favourite: false
 recipe_image: images/recipe-headers/pierniki.avif
 date: 2025-12-13 12:00:00+00:00
 tags:
-  - xmas
-tagline: Mięciutkie i puszyste pierniczki w lukrze - przepis, który
-  pokochaliście w zeszłym roku, więc nie mogło go zabraknąć i w tym! 🍪
-  Spokojnie wytrzymają do Świąt, więc możecie już zacząć przygotowania.
+- xmas
+tagline: Mięciutkie i puszyste pierniczki w lukrze - przepis, który pokochaliście w zeszłym roku, więc nie mogło go zabraknąć i w tym! 🍪 Spokojnie wytrzymają do Świąt, więc możecie już zacząć przygotowania.
 ingredients:
-  - miód
-  - masło
-  - erytrol
-  - jajko
-  - mąka pszenna
-  - cukier puder
-  - mleko
+- miód
+- masło
+- erytrol
+- jajko
+- mąka pszenna
+- cukier puder
+- mleko
+shopping_ingredients:
+- name: miodu
+  amount: 150
+  unit: g
+- name: masła
+  amount: 100
+  unit: g
+- name: erytrol
+  amount: 100
+  unit: g
+- name: jajko
+  amount: 1
+  unit: szt.
+- name: sody oczyszczonej
+  amount: 1
+  unit: łyżeczka
+- name: wrzątku
+  amount: 50
+  unit: g
+- name: spora łyżka cynamonu
+  amount: 1
+  unit: szt.
+  note: lub 2 duże łyżki przyprawy do piernika; 1/2 łyżeczki mielonych goździków, 1 łyżeczka mielonego imbiru, szczypta gałki muszkatołowej
+- name: mąki
+  amount: 380
+  unit: g
+- name: cukru pudru
+  amount: 250
+  unit: g
+- name: mleka
+  amount: 30
+  unit: g
+- name: cytryny
+  amount: 0.5
+  unit: szt.
 servings: 24
 prep_time: 20
 cook: true
@@ -30,11 +63,12 @@ protein: 2
 fat: 4
 carbohydrate: 34
 fodmap:
-  status: no
+  status: false
   serving_ok: Nie dla diety low FODMAP
   notes: Miód jest źródłem FODMAP
   substitutions: []
 ---
+
 ## Składniki
 
 * 150 g miodu

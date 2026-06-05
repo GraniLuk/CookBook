@@ -19,6 +19,33 @@ ingredients:
 - koperek
 - majonez
 - ocet jabłkowy
+shopping_ingredients:
+- name: kapusta czerwona
+  amount: 1
+  unit: szt.
+  note: ok. 1 kg
+- name: cebula
+  amount: 1
+  unit: szt.
+  note: ok. 120 g
+- name: jabłko
+  amount: 1
+  unit: szt.
+  note: ok. 200 g
+- name: marchew
+  amount: 1
+  unit: szt.
+  note: ok. 170 g
+- name: koperek
+  amount: 1
+  unit: szt.
+- name: majonez
+  amount: 3
+  unit: łyżki
+  note: lub 4-5 łyżek oleju rzepakowego
+- name: cukru
+  amount: 1
+  unit: łyżeczka
 servings: 6
 prep_time: 30
 cook: false

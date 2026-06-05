@@ -18,6 +18,25 @@ ingredients:
 - jajka
 - cukinia
 - oliwa z oliwek
+shopping_ingredients:
+- name: ryżu basmati lub jaśminowego
+  amount: 70
+  unit: g
+- name: jajka
+  amount: 2
+  unit: szt.
+  note: rozmiar M/L
+- name: cukinia
+  amount: 150
+  unit: g
+- name: oliwy z oliwek
+  amount: 1
+  unit: łyżka
+  note: ok. 10g
+- name: 'Opcjonalnie: odrobina szczypiorku'
+  amount: 1
+  unit: szt.
+  note: tylko zielona część - Low-FODMAP!
 servings: 1
 prep_time: 10
 cook: true

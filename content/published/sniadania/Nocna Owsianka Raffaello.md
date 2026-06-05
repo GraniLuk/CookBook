@@ -18,6 +18,33 @@ ingredients:
 - wiórki kokosowe
 - masło migdałowe
 - migdały
+shopping_ingredients:
+- name: płatki owsiane
+  amount: 50
+  unit: g
+- name: mleka kokosowego light
+  amount: 150
+  unit: ml
+- name: jogurt grecki
+  amount: 1
+  unit: łyżka
+  note: ok. 25 g
+- name: wiórki kokosowe
+  amount: 1
+  unit: łyżka
+  note: ok. 6 g
+- name: miodu lub syropu klonowego
+  amount: 1
+  unit: łyżeczka
+  note: ok. 7 g
+- name: migdały
+  amount: 1
+  unit: łyżka
+  note: ok. 15 g
+- name: odrobina ekstraktu waniliowego
+  amount: 1
+  unit: szt.
+  note: opcjonalnie
 servings: 1
 prep_time: 10
 cook: false

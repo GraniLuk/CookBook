@@ -19,6 +19,30 @@ ingredients:
 - mąka pszenna
 - jajko
 - banan
+shopping_ingredients:
+- name: marchewka
+  amount: 2
+  unit: szt.
+  note: około 200g
+- name: dyni
+  amount: 0.5
+  unit: szt.
+  note: około 400g
+- name: mąki pszennej
+  amount: 60
+  unit: g
+- name: jajko
+  amount: 1
+  unit: szt.
+  note: około 50g
+- name: banan
+  amount: 1
+  unit: szt.
+  note: około 120g
+- name: olej do smażenia
+  amount: 1
+  unit: szt.
+  note: około 10g
 servings: 20
 prep_time: 30
 cook: true

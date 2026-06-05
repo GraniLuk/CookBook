@@ -15,6 +15,21 @@ ingredients:
 - jajka
 - mąka pszenna
 - banan
+shopping_ingredients:
+- name: dyni
+  amount: 0.5
+  unit: szt.
+  note: ok. 500g, obranej i wydrążonej z pestek
+- name: jajka
+  amount: 2
+  unit: szt.
+- name: mąki
+  amount: 30
+  unit: g
+- name: banan
+  amount: 1
+  unit: szt.
+  note: ok. 100g
 servings: 2
 prep_time: 10
 cook: true

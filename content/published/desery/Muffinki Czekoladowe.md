@@ -17,6 +17,39 @@ ingredients:
 - olej
 - kakao
 - soda oczyszczona
+shopping_ingredients:
+- name: mleka
+  amount: 1
+  unit: szklanka
+  note: 250 ml, ok. 250 g
+- name: mąki tortowej
+  amount: 1
+  unit: szklanka
+  note: ok. 160 g
+- name: cukru
+  amount: 0.75
+  unit: szklanki
+  note: ok. 150–160 g
+- name: oleju
+  amount: 0.33
+  unit: szklanki
+  note: ok. 80 ml, 70–75 g
+- name: kakao
+  amount: 0.25
+  unit: szklanki
+  note: ok. 25–30 g
+- name: sody oczyszczonej
+  amount: 0.75
+  unit: łyżeczki
+  note: ok. 3–4 g
+- name: proszku do pieczenia
+  amount: 0.5
+  unit: łyżeczki
+  note: ok. 2–3 g
+- name: Aromat waniliowy
+  amount: 1
+  unit: szt.
+  note: kilka kropli lub 1 łyżeczka ekstraktu
 servings: 12
 prep_time: 10
 cook: true

@@ -20,6 +20,31 @@ ingredients:
 - ser wiejski
 - jajko
 - oliwa z oliwek
+shopping_ingredients:
+- name: cukinia
+  amount: 200
+  unit: g
+  note: bez końców
+- name: płatki owsiane
+  amount: 80
+  unit: g
+- name: serka wiejskiego
+  amount: 200
+  unit: g
+- name: jajko
+  amount: 1
+  unit: szt.
+- name: cebula
+  amount: 50
+  unit: g
+  note: połowa małej
+- name: pieczarki
+  amount: 100
+  unit: g
+  note: 2 garści
+- name: oliwy z oliwek
+  amount: 20
+  unit: g
 servings: 4
 prep_time: 15
 cook: true

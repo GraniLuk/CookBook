@@ -20,6 +20,39 @@ ingredients:
 - ser feta
 - kukurydza
 - oliwa z oliwek
+shopping_ingredients:
+- name: makaron fusilli
+  amount: 300
+  unit: g
+  note: świderki
+- name: pierś z kurczaka
+  amount: 450
+  unit: g
+  note: filet
+- name: szpinak
+  amount: 450
+  unit: g
+  note: rozdrobnionego, mrożonego
+- name: sera typu feta
+  amount: 200
+  unit: g
+  note: 1 kartonik
+- name: czosnku
+  amount: 3
+  unit: ząbki
+- name: oliwy z oliwek
+  amount: 30
+  unit: ml
+- name: kukurydza
+  amount: 140
+  unit: g
+  note: pół puszki
+- name: kminu rzymskiego
+  amount: 1
+  unit: łyżeczka
+- name: 'Opcjonalnie: płatki chilli'
+  amount: 1
+  unit: szt.
 servings: 3
 prep_time: 15
 cook: true

@@ -10,12 +10,27 @@ favourite: false
 recipe_image: images/recipe-headers/nalesniki.avif
 date: 2025-06-19 12:00:00+00:00
 tags:
-  - klasyczne
+- klasyczne
 tagline: Klasyczne naleśniki na każdą okazję!
 ingredients:
-  - mąka pszenna
-  - mleko
-  - jajka
+- mąka pszenna
+- mleko
+- jajka
+shopping_ingredients:
+- name: mąki pszennej
+  amount: 200
+  unit: g
+- name: mleka
+  amount: 250
+  unit: ml
+- name: jajka
+  amount: 2
+  unit: szt.
+  note: około 120g
+- name: oleju roślinnego lub roztopionego masła
+  amount: 1
+  unit: łyżka
+  note: 30g
 servings: 8
 prep_time: 10
 cook: true
@@ -25,14 +40,14 @@ protein: 5
 fat: 6
 carbohydrate: 17
 fodmap:
-  status: no
+  status: false
   serving_ok: Unikaj na diecie Low FODMAP
-  notes: Mąka pszenna zawiera gluten i fruktany. Nie jest odpowiednia na diecie
-    Low FODMAP.
+  notes: Mąka pszenna zawiera gluten i fruktany. Nie jest odpowiednia na diecie Low FODMAP.
   substitutions:
-    - mąka pszenna -> mąka ryżowa lub mąka ziemniaczana
-    - mleko -> mleko bezlaktozowe lub mleko ryżowe
+  - mąka pszenna -> mąka ryżowa lub mąka ziemniaczana
+  - mleko -> mleko bezlaktozowe lub mleko ryżowe
 ---
+
 ## Składniki
 
 * 200g mąki pszennej

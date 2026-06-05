@@ -19,6 +19,30 @@ ingredients:
 - mąka owsiana
 - płatki owsiane
 - daktyle
+shopping_ingredients:
+- name: jabłko
+  amount: 2
+  unit: szt.
+- name: wanilia
+  amount: 1
+  unit: szt.
+  note: do smaku
+- name: cynamon
+  amount: 1
+  unit: szt.
+  note: do smaku
+- name: jajko
+  amount: 1
+  unit: szt.
+- name: mąki owsianej
+  amount: 30
+  unit: g
+- name: płatki owsiane
+  amount: 30
+  unit: g
+- name: daktyle
+  amount: 30
+  unit: g
 servings: 1
 prep_time: 10
 cook: true

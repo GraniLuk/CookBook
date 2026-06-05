@@ -1,6 +1,6 @@
 ---
 title: Wysokobiałkowy sernik który możesz jeść codziennie
-author: 'Czlowieku rusz się'
+author: Czlowieku rusz się
 categories:
 - desery
 draft: false
@@ -21,6 +21,55 @@ ingredients:
 - śmietana
 - cytryna
 - gorzka czekolada
+shopping_ingredients:
+- name: ciastek o niskiej zawartości cukru
+  amount: 175.0
+  unit: g
+- name: masła
+  amount: 90.0
+  unit: g
+- name: twaróg
+  amount: 1
+  unit: kg
+  note: najlepiej niskotłuszczowego, 18%
+- name: skyru waniliowego
+  amount: 600
+  unit: g
+- name: jajek
+  amount: 4.5
+  unit: szt.
+- name: Ekstrakt waniliowy
+  amount: 1
+  unit: szt.
+  note: do smaku
+- name: erytrytol
+  amount: 125.0
+  unit: g
+  note: zmielonego na pył
+- name: Odżywka białkowa waniliowa
+  amount: 1
+  unit: szt.
+  note: opcjonalnie, np. od Jimbe Beam
+- name: Budyń waniliowy
+  amount: 1
+  unit: szt.
+  note: opcjonalnie, dla większej zwartości
+- name: śmietana
+  amount: 1
+  unit: szt.
+  note: do smaku
+- name: cytryna
+  amount: 1
+  unit: szt.
+  note: do smaku
+- name: Owoce
+  amount: 1
+  unit: szt.
+  note: maliny, borówki
+- name: gorzka czekolada
+  amount: 1
+  unit: szt.
+  note: do posypania
 servings: 8
 prep_time: 30
 cook: true

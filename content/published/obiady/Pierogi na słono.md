@@ -17,6 +17,29 @@ ingredients:
 - masło
 - szpinak
 - ser feta
+shopping_ingredients:
+- name: mąki pszennej
+  amount: 500
+  unit: g
+- name: miękkiego masła
+  amount: 80
+  unit: g
+- name: szpinak
+  amount: 300
+  unit: g
+- name: sera feta
+  amount: 150
+  unit: g
+- name: łyżka masła
+  amount: 10
+  unit: g
+  note: ok. 10 g
+- name: czosnku
+  amount: 2
+  unit: ząbki
+- name: Odrobina chili
+  amount: 1
+  unit: szt.
 servings: 4
 prep_time: 30
 cook: true

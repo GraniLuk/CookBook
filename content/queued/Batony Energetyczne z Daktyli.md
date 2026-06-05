@@ -1,23 +1,41 @@
 ---
-title: "Batony Energetyczne z Daktyli"
-author: "Policzona Szama"
+title: Batony Energetyczne z Daktyli
+author: Policzona Szama
 categories: desery
 draft: false
 readyToTest: true
 queued: true
 link: https://www.youtube.com/watch?v=HcfH8MIP7N0
 recipe_image: images/recipe-headers/batony-daktylowe.avif
-date: 2026-03-03T21:15:00+01:00
+date: 2026-03-03 21:15:00+01:00
 tags:
-  - batony
-  - wegańskie
-  - szybkie
-tagline: "100% naturalne batony energetyczne z masy daktylowej z orzechami – w wersji klasycznej i czekoladowej"
+- batony
+- wegańskie
+- szybkie
+tagline: 100% naturalne batony energetyczne z masy daktylowej z orzechami – w wersji klasycznej i czekoladowej
 ingredients:
-  - daktyle
-  - orzechy nerkowca
-  - orzechy brazylijskie
-  - olej kokosowy
+- daktyle
+- orzechy nerkowca
+- orzechy brazylijskie
+- olej kokosowy
+shopping_ingredients:
+- name: daktyle
+  amount: 500
+  unit: g
+- name: orzechów
+  amount: 125
+  unit: g
+  note: mieszanka nerkowca i brazylijskich
+- name: wiórków kokosowych
+  amount: 4
+  unit: g
+- name: oleju kokosowego
+  amount: 20
+  unit: g
+  note: nierafinowany, tłoczony na zimno
+- name: kakao
+  amount: 20
+  unit: g
 servings: 16
 prep_time: 20
 cook: false
@@ -27,12 +45,12 @@ protein: 2
 fat: 5
 carbohydrate: 17
 fodmap:
-  status: "no"
-  serving_ok: "Tylko mała porcja"
-  notes: "Daktyle są wysokie w FODMAP (fruktany, sorbitol) – bezpieczne do ok. 1 sztuki dziennie. Orzechy nerkowca wysokie w FODMAP powyżej 10g."
+  status: 'no'
+  serving_ok: Tylko mała porcja
+  notes: Daktyle są wysokie w FODMAP (fruktany, sorbitol) – bezpieczne do ok. 1 sztuki dziennie. Orzechy nerkowca wysokie w FODMAP powyżej 10g.
   substitutions:
-    - "Ogranicz porcję do 1 batona"
-    - "Zamień orzechy nerkowca na orzechy włoskie lub makadamia (niskie FODMAP)"
+  - Ogranicz porcję do 1 batona
+  - Zamień orzechy nerkowca na orzechy włoskie lub makadamia (niskie FODMAP)
 ---
 
 ## Składniki

@@ -19,6 +19,40 @@ ingredients:
 - mąka orkiszowa
 - mleko
 - wiórki kokosowe
+shopping_ingredients:
+- name: twaróg
+  amount: 100
+  unit: g
+- name: jajko
+  amount: 1
+  unit: szt.
+- name: erytrytolu
+  amount: 1
+  unit: łyżka
+  note: lub innego słodzika
+- name: proszku do pieczenia
+  amount: 0.5
+  unit: łyżeczki
+- name: wiórki kokosowe
+  amount: 5
+  unit: g
+- name: krople aromatu waniliowego
+  amount: 3
+  unit: szt.
+- name: mąki orkiszowej pełnoziarnistej
+  amount: 35.0
+  unit: g
+- name: mleka
+  amount: 50
+  unit: ml
+  note: zacząć od małej ilości, dolać w razie potrzeby
+- name: Olej w sprayu do posmarowania opiekacza
+  amount: 1
+  unit: szt.
+- name: Dżem bio słodzony ksylitolem lub o obniżonej zawartości cukru
+  amount: 1
+  unit: szt.
+  note: np. wiśniowy, porzeczkowy
 servings: 1
 prep_time: 5
 cook: true

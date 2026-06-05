@@ -20,6 +20,27 @@ ingredients:
 - banan
 - jogurt skyr waniliowy
 - kakao
+shopping_ingredients:
+- name: płatki owsiane
+  amount: 40
+  unit: g
+- name: tabletka słodzika
+  amount: 1
+  unit: szt.
+- name: mleka
+  amount: 200
+  unit: ml
+  note: krowiego lub roślinnego
+- name: banan
+  amount: 0.5
+  unit: szt.
+- name: skyru waniliowego
+  amount: 150
+  unit: g
+- name: kakao
+  amount: 5
+  unit: g
+  note: niesłodzonego
 servings: 1
 prep_time: 10
 cook: false

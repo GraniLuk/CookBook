@@ -9,7 +9,7 @@ link: https://www.instagram.com/reels/CuSHCa2u35A/
 recipe_image: images/recipe-headers/pierogi_na_slodko.avif
 video_file: videos/pierogi_ser.mp4
 video_file2: videos/pierogi_jagody.mp4
-date: 2026-01-23T12:00:00+00:00
+date: 2026-01-23 12:00:00+00:00
 tags:
 - słodkie
 tagline: Pierogi na słodko z różnymi nadzieniami, kwintesencja lata i dzieciństwa.
@@ -20,6 +20,40 @@ ingredients:
 - twaróg
 - żółtka
 - cukier
+shopping_ingredients:
+- name: mąki pszennej
+  amount: 500
+  unit: g
+- name: miękkiego masła
+  amount: 80
+  unit: g
+- name: jagody
+  amount: 1
+  unit: szt.
+- name: Łyżka cukru
+  amount: 1
+  unit: szt.
+- name: Łyżka skrobi ziemniaczanej
+  amount: 1
+  unit: szt.
+- name: twaróg
+  amount: 500
+  unit: g
+- name: żółtka
+  amount: 2
+  unit: szt.
+- name: Łyżeczka ekstraktu z wanilii
+  amount: 1
+  unit: szt.
+- name: budyniu śmietankowego
+  amount: 1
+  unit: łyżka
+- name: cukru
+  amount: 3
+  unit: łyżki
+- name: Opcjonalnie 1 łyżka kwaśnej śmietany jeśli masa jest zbyt sucha
+  amount: 1
+  unit: szt.
 servings: 4
 prep_time: 30
 cook: true

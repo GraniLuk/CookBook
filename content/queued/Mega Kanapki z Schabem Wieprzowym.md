@@ -21,6 +21,32 @@ ingredients:
 - pomidory suszone
 - sos tatarski
 - sałata
+shopping_ingredients:
+- name: schab wieprzowy
+  amount: 1
+  unit: szt.
+  note: już przygotowany, mocno schłodzony
+- name: chleb tostowy
+  amount: 1
+  unit: szt.
+  note: duże, pełnoziarniste
+- name: ser parmezan
+  amount: 1
+  unit: szt.
+  note: cieniutkie plastry
+- name: cebula czerwona
+  amount: 1
+  unit: szt.
+- name: pomidory suszone
+  amount: 1
+  unit: szt.
+- name: sos tatarski
+  amount: 1
+  unit: szt.
+  note: 30 g na porcję
+- name: sałata
+  amount: 1
+  unit: szt.
 servings: 3
 prep_time: 10
 cook: true

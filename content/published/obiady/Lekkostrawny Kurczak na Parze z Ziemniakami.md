@@ -6,7 +6,7 @@ subcategories: słone
 draft: false
 readyToTest: false
 queued: false
-recipe_image: 'images/recipe-headers/lowfodmap-kurczak.avif'
+recipe_image: images/recipe-headers/lowfodmap-kurczak.avif
 date: 2026-04-17
 tags:
 - szybkie
@@ -19,6 +19,31 @@ ingredients:
 - ogórek świeży
 - oliwa z oliwek
 - koperek
+shopping_ingredients:
+- name: pierś z kurczaka
+  amount: 150
+  unit: g
+- name: ziemniaki
+  amount: 200
+  unit: g
+- name: sałaty
+  amount: 100
+  unit: g
+  note: np. masłowej lub rzymskiej
+- name: świeżego ogórka bez skóry
+  amount: 50
+  unit: g
+- name: oliwy z oliwek
+  amount: 1
+  unit: łyżeczka
+  note: lub prawdziwego masła
+- name: cytryny
+  amount: 1
+  unit: plaster
+- name: lub suszony koperek
+  amount: 1
+  unit: szt.
+  note: do smaku; tymianek
 servings: 1
 prep_time: 10
 cook: true

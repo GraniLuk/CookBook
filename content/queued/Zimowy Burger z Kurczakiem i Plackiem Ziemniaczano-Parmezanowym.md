@@ -23,6 +23,69 @@ ingredients:
 - nachosy
 - mozzarella
 - ogórek konserwowy
+shopping_ingredients:
+- name: mąki orkiszowej pełnoziarnistej
+  amount: 500
+  unit: g
+- name: suchych drożdży
+  amount: 7
+  unit: g
+- name: oliwy
+  amount: 1
+  unit: łyżka
+- name: cukru
+  amount: 1
+  unit: łyżeczka
+- name: pomidory suszone
+  amount: 5
+  unit: szt.
+  note: odsączone
+- name: ząbka czosnku
+  amount: 0.5
+  unit: szt.
+- name: jogurt grecki
+  amount: 100
+  unit: g
+- name: majonez
+  amount: 25
+  unit: g
+- name: musztardy sarepskiej
+  amount: 25
+  unit: g
+- name: ziemniaki
+  amount: 3
+  unit: szt.
+  note: ~450 g
+- name: jajko
+  amount: 1
+  unit: szt.
+- name: mąki pszennej
+  amount: 20
+  unit: g
+- name: parmezan
+  amount: 40
+  unit: g
+- name: pierś z kurczaka
+  amount: 200
+  unit: g
+- name: mięsa z uda kurczaka
+  amount: 200
+  unit: g
+- name: nachosy
+  amount: 50
+  unit: g
+  note: rozdrobnione
+- name: miksu sałat
+  amount: 60
+  unit: g
+- name: ogórki konserwowe plastry
+  amount: 2
+  unit: szt.
+  note: ~60 g
+- name: mozzarella
+  amount: 60
+  unit: g
+  note: opcjonalnie
 servings: 2
 prep_time: 40
 cook: true

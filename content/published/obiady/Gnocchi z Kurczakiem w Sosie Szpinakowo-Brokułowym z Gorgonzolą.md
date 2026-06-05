@@ -21,6 +21,45 @@ ingredients:
 - pomidory suszone
 - oliwa z oliwek
 - cebula
+shopping_ingredients:
+- name: gnocchi
+  amount: 400
+  unit: g
+  note: z lodówki
+- name: pierś z kurczaka
+  amount: 500
+  unit: g
+  note: pokrojone w kostkę
+- name: brokuł
+  amount: 250
+  unit: g
+  note: różyczki, krótko blanszowane
+- name: sera Gorgonzola
+  amount: 60
+  unit: g
+- name: śmietana 12%
+  amount: 200
+  unit: ml
+- name: pomidory suszone
+  amount: 40
+  unit: g
+  note: odsączone, paski
+- name: cebula
+  amount: 1
+  unit: szt.
+  note: ok. 110 g; posiekana
+- name: czosnku
+  amount: 3
+  unit: ząbki
+  note: praska
+- name: oliwy z oliwek
+  amount: 20
+  unit: g
+  note: 10 g do kurczaka, 10 g do bazy sosu
+- name: Mieszanka ziół
+  amount: 1
+  unit: szt.
+  note: np. zioła prowansalskie / autorskie mieszanki
 servings: 4
 prep_time: 20
 cook: true

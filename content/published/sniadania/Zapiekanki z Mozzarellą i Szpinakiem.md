@@ -22,6 +22,33 @@ ingredients:
 - pesto zielone
 - czosnek
 - chili
+shopping_ingredients:
+- name: mozzarella
+  amount: 125
+  unit: g
+  note: np. Lidl/Biedronka
+- name: bułka
+  amount: 1
+  unit: szt.
+  note: ok. 65g
+- name: szpinak
+  amount: 100
+  unit: g
+- name: oliwy z oliwek
+  amount: 5
+  unit: g
+- name: pesto
+  amount: 5
+  unit: g
+  note: klasyczne lub bez czosnku
+- name: czosnek
+  amount: 1
+  unit: ząbek
+  note: drobno posiekany lub przeciśnięty
+- name: chili
+  amount: 1
+  unit: szt.
+  note: do smaku
 servings: 1
 prep_time: 10
 cook: true

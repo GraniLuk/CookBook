@@ -18,6 +18,24 @@ ingredients:
 - ser wiejski
 - jajko
 - oliwa z oliwek
+shopping_ingredients:
+- name: miąższu dyni piżmowej
+  amount: 600
+  unit: g
+  note: z połowy dyni ok. 1,2kg
+- name: płatki owsiane
+  amount: 100
+  unit: g
+- name: serka wiejskiego
+  amount: 200
+  unit: g
+- name: jajko
+  amount: 1
+  unit: szt.
+- name: oliwy z oliwek
+  amount: 40
+  unit: g
+  note: 10g na partię
 servings: 4
 prep_time: 10
 cook: true

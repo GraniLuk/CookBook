@@ -20,6 +20,54 @@ ingredients:
 - mascarpone
 - pomidory suszone
 - czosnek
+shopping_ingredients:
+- name: łosoś
+  amount: 1
+  unit: szt.
+  note: filet
+- name: cytryna
+  amount: 15
+  unit: ml
+  note: 15ml
+- name: masło
+  amount: 20
+  unit: g
+  note: 20g
+- name: ziemniaki
+  amount: 1250
+  unit: g
+  note: 1250g; 5 kg
+- name: oliwa
+  amount: 30
+  unit: ml
+  note: 30ml
+- name: czosnek
+  amount: 2
+  unit: g
+  note: 2g
+- name: Tymianek – 1 łyżeczka
+  amount: 2
+  unit: g
+  note: 2g
+- name: Przyprawa grillowa – do smaku
+  amount: 3
+  unit: g
+  note: 3g
+- name: Papryka słodka mielona – 1 łyżka
+  amount: 5
+  unit: g
+  note: 5g
+- name: szparagi
+  amount: 250
+  unit: g
+  note: ok. 250 g
+- name: mascarpone
+  amount: 250
+  unit: g
+- name: pomidory suszone
+  amount: 100
+  unit: g
+  note: 100g
 servings: 4
 prep_time: 25
 cook: true

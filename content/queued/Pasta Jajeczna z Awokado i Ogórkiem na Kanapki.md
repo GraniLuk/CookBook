@@ -18,6 +18,24 @@ ingredients:
 - jajka
 - ogórek
 - sok z cytryny
+shopping_ingredients:
+- name: serka kanapkowego
+  amount: 2
+  unit: łyżki
+  note: np. twaróg lub ser do smarowania
+- name: awokado
+  amount: 1
+  unit: szt.
+- name: jajka
+  amount: 3
+  unit: szt.
+- name: ogórek
+  amount: 1
+  unit: szt.
+- name: sok z cytryny
+  amount: 1
+  unit: szt.
+  note: do smaku
 servings: 4
 prep_time: 15
 cook: true

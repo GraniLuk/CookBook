@@ -16,6 +16,31 @@ ingredients:
 - mleko
 - jajko
 - olej
+shopping_ingredients:
+- name: mąka pszenna
+  amount: 1.5
+  unit: szklanki
+  note: 1,5 szklanki
+- name: mleko
+  amount: 1.5
+  unit: szklanki
+  note: 1,5 szklanki
+- name: proszek do pieczenia
+  amount: 1
+  unit: łyżeczka
+  note: 1 łyżeczka
+- name: cukier puder
+  amount: 1
+  unit: łyżka
+  note: 1 łyżka
+- name: olej
+  amount: 1
+  unit: szt.
+  note: 1/3 szklanki
+- name: jajko
+  amount: 2
+  unit: szt.
+  note: 2 szt.
 servings: 4
 prep_time: 10
 cook: true

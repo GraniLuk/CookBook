@@ -19,6 +19,61 @@ ingredients:
 - oliwa z oliwek
 - pasta curry
 - miód
+shopping_ingredients:
+- name: nóżek z kurczaka
+  amount: 9
+  unit: szt.
+  note: łącznie ok. 1050 g surowych ze skórą i kością; po zdjęciu skóry i kości ok. 55% mięsa -> ~570 g mięsa, ~190 g na porcję
+- name: marchewka
+  amount: 300
+  unit: g
+  note: starta na dużych oczkach
+- name: czerwona cebula
+  amount: 1
+  unit: szt.
+  note: '~70 g; dla wersji low FODMAP: pomiń lub użyj tylko zielonych części dymki'
+- name: czosnku
+  amount: 3
+  unit: ząbki
+  note: 'dla wersji low FODMAP: zamień na olej czosnkowy'
+- name: Spory kawałek świeżego imbiru – drobno posiekany i zmiażdżony
+  amount: 1
+  unit: szt.
+  note: ~20 g
+- name: pełna łyżka pasty curry – wybierz bez cebuli/czosnku jeśli potrzebna wersja low FODMAP
+  amount: 1
+  unit: szt.
+  note: ~25 g
+- name: Sok z 1 limonki
+  amount: 1
+  unit: szt.
+  note: ~40 g
+- name: miodu
+  amount: 15
+  unit: g
+  note: można ograniczyć lub zamienić jak w sekcji FODMAP
+- name: oleju ryżowego
+  amount: 20
+  unit: ml
+  note: obsmażanie mięsa
+- name: oliwy z oliwek
+  amount: 25
+  unit: ml
+  note: baza aromatyczna
+- name: słodkiej papryki
+  amount: 1
+  unit: łyżeczka
+- name: ostrej papryki chili
+  amount: 1
+  unit: łyżeczka
+- name: Świeżo miażdżona kolendra
+  amount: 1
+  unit: szt.
+  note: ~0,5 łyżeczki
+- name: Świeżo miażdżona gorczyca biała
+  amount: 1
+  unit: szt.
+  note: ~0,5 łyżeczki
 servings: 3
 prep_time: 15
 cook: true

@@ -19,6 +19,32 @@ ingredients:
 - sos teriyaki
 - olej sezamowy
 - oliwa z oliwek
+shopping_ingredients:
+- name: pierś z kurczaka
+  amount: 180
+  unit: g
+- name: sosu teriyaki
+  amount: 30
+  unit: g
+- name: oleju sezamowego
+  amount: 7
+  unit: g
+- name: ryżu
+  amount: 60
+  unit: g
+  note: suchy
+- name: marchewka
+  amount: 60
+  unit: g
+- name: papryka
+  amount: 75
+  unit: g
+- name: brokuł
+  amount: 80
+  unit: g
+- name: oliwy do smażenia
+  amount: 5
+  unit: g
 servings: 1
 prep_time: 10
 cook: true

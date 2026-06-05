@@ -19,6 +19,22 @@ ingredients:
 - ogórek zielony
 - awokado
 - chleb
+shopping_ingredients:
+- name: serka wiejskiego
+  amount: 200
+  unit: g
+- name: pomidorki koktajlowe
+  amount: 5.5
+  unit: szt.
+- name: ogórek zielony
+  amount: 1
+  unit: szt.
+- name: awokado
+  amount: 0.5
+  unit: szt.
+- name: chleb
+  amount: 2
+  unit: kromki
 servings: 1
 prep_time: 5
 cook: false

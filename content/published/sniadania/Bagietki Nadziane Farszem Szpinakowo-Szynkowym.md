@@ -11,17 +11,44 @@ link: https://www.youtube.com/watch?v=O2d6gztzOjw
 recipe_image: images/recipe-headers/bagietki_szpinak_szynka.avif
 date: 2025-10-31 07:00:00+00:00
 tags:
-  - kanapki
-tagline: Nadziane bagietki z kremowym farszem ze szpinaku, sera śmietankowego,
-  szynki i jajka.
+- kanapki
+tagline: Nadziane bagietki z kremowym farszem ze szpinaku, sera śmietankowego, szynki i jajka.
 ingredients:
-  - bagietka
-  - szpinak
-  - ser śmietankowy
-  - szynka wędzona
-  - jajko
-  - pomidory suszone
-  - oliwa z oliwek
+- bagietka
+- szpinak
+- ser śmietankowy
+- szynka wędzona
+- jajko
+- pomidory suszone
+- oliwa z oliwek
+shopping_ingredients:
+- name: bagietka
+  amount: 2
+  unit: szt.
+  note: prostokątne, ok. 400g łącznie
+- name: szynka wędzona
+  amount: 100
+  unit: g
+  note: np. strzyńskiej szwarcwalskiej
+- name: jajka
+  amount: 2
+  unit: szt.
+- name: czosnku
+  amount: 4.5
+  unit: ząbki
+- name: sera śmietankowego
+  amount: 200
+  unit: g
+- name: pomidory suszone
+  amount: 50
+  unit: g
+  note: odsączonych
+- name: szpinak
+  amount: 200
+  unit: g
+- name: oliwy z oliwek
+  amount: 20
+  unit: g
 servings: 2
 prep_time: 20
 cook: true
@@ -31,15 +58,13 @@ protein: 32
 fat: 28
 carbohydrate: 60
 fodmap:
-  status: no
+  status: false
   serving_ok: Nie – zawiera czosnek oraz suszone pomidory w ilości >30g.
-  notes: Czosnek jest wysoki w fruktanach; suszone pomidory w większej ilości
-    zwiększają FODMAP. Danie nie kwalifikuje się jako low FODMAP w standardowej
-    porcji.
+  notes: Czosnek jest wysoki w fruktanach; suszone pomidory w większej ilości zwiększają FODMAP. Danie nie kwalifikuje się jako low FODMAP w standardowej porcji.
   substitutions:
-    - Zastąp czosnek olejem czosnkowym (infused).
-    - Ogranicz suszone pomidory do ~15g lub pomiń.
-    - Użyj sera śmietankowego light dla niższego tłuszczu.
+  - Zastąp czosnek olejem czosnkowym (infused).
+  - Ogranicz suszone pomidory do ~15g lub pomiń.
+  - Użyj sera śmietankowego light dla niższego tłuszczu.
 ---
 
 ## Składniki (2 porcje)

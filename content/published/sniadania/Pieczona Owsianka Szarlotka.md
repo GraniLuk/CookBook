@@ -22,6 +22,32 @@ ingredients:
 - płatki owsiane
 - odżywka białkowa
 - oliwa
+shopping_ingredients:
+- name: jabłko
+  amount: 1
+  unit: szt.
+- name: jajko
+  amount: 1
+  unit: szt.
+- name: mleka lub napoju roślinnego
+  amount: 60
+  unit: ml
+- name: płatki owsiane
+  amount: 50
+  unit: g
+- name: odżywka białkowa
+  amount: 10
+  unit: g
+- name: cynamonu
+  amount: 1
+  unit: łyżeczka
+- name: proszku do pieczenia
+  amount: 0.5
+  unit: łyżeczki
+- name: oliwa
+  amount: 1
+  unit: szt.
+  note: do natłuszczenia formy
 servings: 1
 prep_time: 10
 cook: true

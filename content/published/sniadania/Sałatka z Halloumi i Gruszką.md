@@ -9,17 +9,47 @@ queued: false
 link: https://youtu.be/lzksRF6xkVQ?t=434
 recipe_image: images/recipe-headers/salatka_z_halloumi_i_gruszka.avif
 video_file: videos/salatka_z_halloumi_i_gruszka.mp4
-date: 2026-03-10T16:00:00+01:00
+date: 2026-03-10 16:00:00+01:00
 tags:
-  - szybkie
-  - lunchbox
+- szybkie
+- lunchbox
 tagline: Chrupiący halloumi na rukolowej sałatce z gruszką, orzechami i miodowo-musztardowym dressingiem.
 ingredients:
-  - ser halloumi
-  - rukola
-  - gruszka
-  - pomidory koktajlowe
-  - orzechy włoskie
+- ser halloumi
+- rukola
+- gruszka
+- pomidory koktajlowe
+- orzechy włoskie
+shopping_ingredients:
+- name: sera halloumi
+  amount: 225
+  unit: g
+  note: 1 opakowanie
+- name: rukola
+  amount: 1
+  unit: szt.
+- name: gruszka
+  amount: 2
+  unit: szt.
+- name: ogórek zielony
+  amount: 1
+  unit: szt.
+- name: pomidorów papryczkowych
+  amount: 240
+  unit: g
+- name: orzechy włoskie
+  amount: 60
+  unit: g
+- name: miodu
+  amount: 40
+  unit: g
+- name: musztardy sarepskiej
+  amount: 40
+  unit: g
+- name: sok z cytryny
+  amount: 1
+  unit: szt.
+  note: do smaku
 servings: 4
 prep_time: 15
 cook: true
@@ -33,8 +63,8 @@ fodmap:
   serving_ok: Tylko mała porcja
   notes: Gruszki i miód to składniki o wysokim FODMAP. Porcja może być tolerowana indywidualnie.
   substitutions:
-    - Zamień gruszki na truskawki lub pomarańcze (low FODMAP)
-    - Zamień miód na syrop klonowy
+  - Zamień gruszki na truskawki lub pomarańcze (low FODMAP)
+  - Zamień miód na syrop klonowy
 ---
 
 ## Składniki

@@ -10,14 +10,29 @@ link: https://ricetta.it/impasto-pizza
 recipe_image: images/recipe-headers/pizza.avif
 date: 2026-02-12
 tags:
-  - włoskie
-  - goście
-tagline: Lekkie i miękkie ciasto do pizzy o długości 26-28 cm, idealne na
-  spotkanie ze znajomymi
+- włoskie
+- goście
+tagline: Lekkie i miękkie ciasto do pizzy o długości 26-28 cm, idealne na spotkanie ze znajomymi
 ingredients:
-  - mąka typ 00
-  - drożdże świeże
-  - oliwa z oliwek
+- mąka typ 00
+- drożdże świeże
+- oliwa z oliwek
+shopping_ingredients:
+- name: mąki typ 00
+  amount: 500
+  unit: g
+  note: lub mąka Manitoba
+- name: drożdże świeże
+  amount: 7
+  unit: g
+  note: lub 3 g drożdży piekarskich suszonych
+- name: oliwy z oliwekExtra Vergine
+  amount: 10
+  unit: g
+- name: Mąka semolina do posypania
+  amount: 1
+  unit: szt.
+  note: opcjonalnie
 servings: 3
 prep_time: 60
 cook: true
@@ -27,13 +42,12 @@ protein: 18
 fat: 9
 carbohydrate: 108
 fodmap:
-  status: yes
+  status: true
   serving_ok: OK w tej porcji
-  notes: Przepis zawiera mąkę pszenną i drożdże, które są bezpieczne dla diety
-    FODMAP. Unikaj dodawania czosnku lub cebuli w ilościach większych niż
-    zalecane.
+  notes: Przepis zawiera mąkę pszenną i drożdże, które są bezpieczne dla diety FODMAP. Unikaj dodawania czosnku lub cebuli w ilościach większych niż zalecane.
   substitutions: []
 ---
+
 ## Składniki (na około 850 g ciasta / 3 pizze o średnicy 26-28 cm)
 
 * 500 g mąki typ 00 (lub mąka Manitoba)

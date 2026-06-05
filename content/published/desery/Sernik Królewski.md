@@ -2,26 +2,59 @@
 title: Sernik Królewski
 author: Babcia Grażynka
 categories:
-  - desery
+- desery
 subcategories:
-  - słodkie
+- słodkie
 draft: false
 readyToTest: false
 queued: false
 favourite: false
 recipe_image: images/recipe-headers/sernik-krolewski.avif
-video_file: ""
+video_file: ''
 date: 2026-03-26 17:40:33+01:00
 tags:
-  - goście
-  - ciasta
-tagline: Klasyczny sernik królewski z czekoladowym ciastem kruchym tartym na
-  tarce i kremowym nadzieniem serowym.
+- goście
+- ciasta
+tagline: Klasyczny sernik królewski z czekoladowym ciastem kruchym tartym na tarce i kremowym nadzieniem serowym.
 ingredients:
-  - ser twarogowy
-  - masło
-  - mąka pszenna
-  - kakao
+- ser twarogowy
+- masło
+- mąka pszenna
+- kakao
+shopping_ingredients:
+- name: szklanki mąki pszennej
+  amount: 400
+  unit: g
+- name: żółtka
+  amount: 3
+  unit: szt.
+- name: masła
+  amount: 200
+  unit: g
+- name: cukru
+  amount: 110
+  unit: g
+- name: kakao
+  amount: 30
+  unit: g
+- name: proszku do pieczenia
+  amount: 2
+  unit: łyżeczki
+- name: mielonego twarogu
+  amount: 1
+  unit: kg
+  note: np. z kubełka
+- name: białek
+  amount: 7
+  unit: szt.
+  note: ubitych na sztywną pianę
+- name: mąki ziemniaczanej
+  amount: 2
+  unit: łyżki
+  note: lub mały budyń bez cukru
+- name: aromat migdałowy lub cytrynowy
+  amount: 1
+  unit: szt.
 servings: 12
 prep_time: 40
 cook: true
@@ -31,14 +64,13 @@ protein: 181.7
 fat: 322
 carbohydrate: 666.8
 fodmap:
-  status: no
+  status: false
   serving_ok: Tylko mała porcja
-  notes: Twaróg zawiera laktozę (FODMAP). Duża ilość mąki pszennej w cieście może
-    powodować problemy u osób wrażliwych na fruktany.
+  notes: Twaróg zawiera laktozę (FODMAP). Duża ilość mąki pszennej w cieście może powodować problemy u osób wrażliwych na fruktany.
   substitutions:
-    - Zamień twaróg na twaróg bezlaktozowy.
-    - Użyj mąki bezglutenowej zamiast pszennej.
-    - Zmniejsz porcję do 1 kawałka.
+  - Zamień twaróg na twaróg bezlaktozowy.
+  - Użyj mąki bezglutenowej zamiast pszennej.
+  - Zmniejsz porcję do 1 kawałka.
 ---
 
 ## Składniki

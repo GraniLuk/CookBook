@@ -22,6 +22,51 @@ ingredients:
 - kapusta kiszona
 - sos sojowy
 - koncentrat pomidorowy
+shopping_ingredients:
+- name: mięsa z uda kurczaka
+  amount: 500
+  unit: g
+  note: pokrojone w kostkę
+- name: ziemniaki
+  amount: 1
+  unit: kg
+  note: obrane, pokrojone w kostkę
+- name: marchewka
+  amount: 300
+  unit: g
+  note: obrane, pokrojone w plasterki lub półplasterki
+- name: cebula
+  amount: 1
+  unit: szt.
+  note: ~100 g, pokrojona w drobną kostkę
+- name: czosnek
+  amount: 3.5
+  unit: ząbki
+  note: obrane
+- name: kapusta kiszona
+  amount: 500
+  unit: g
+  note: odciśniętej z nadmiaru płynu
+- name: sosu sojowego
+  amount: 30
+  unit: ml
+- name: koncentrat pomidorowy
+  amount: 2
+  unit: łyżki
+  note: ~30 g
+- name: papryki wędzonej
+  amount: 1
+  unit: łyżeczka
+- name: oleju
+  amount: 15
+  unit: ml
+  note: do smażenia
+- name: liście laurowe
+  amount: 2
+  unit: szt.
+- name: ziarna ziela angielskiego
+  amount: 3.5
+  unit: szt.
 servings: 5
 prep_time: 15
 cook: true

@@ -20,6 +20,35 @@ ingredients:
 - awokado
 - szynka
 - pomidorki koktajlowe
+shopping_ingredients:
+- name: jajka
+  amount: 3
+  unit: szt.
+  note: około 180g
+- name: bułka
+  amount: 1
+  unit: szt.
+  note: około 60g; przekrojona
+- name: serek wiejski
+  amount: 30
+  unit: g
+  note: 30g
+- name: rukola
+  amount: 10
+  unit: g
+  note: 10g
+- name: awokado
+  amount: 100
+  unit: g
+  note: 100g
+- name: szynka
+  amount: 40
+  unit: g
+  note: 40g
+- name: pomidorki koktajlowe
+  amount: 50
+  unit: g
+  note: 50g
 servings: 1
 prep_time: 10
 cook: true

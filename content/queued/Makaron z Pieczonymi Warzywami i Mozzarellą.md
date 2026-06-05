@@ -17,6 +17,29 @@ ingredients:
 - mozzarella
 - oliwa z oliwek
 - czosnek
+shopping_ingredients:
+- name: makaron
+  amount: 90
+  unit: g
+  note: suchy
+- name: czosnek
+  amount: 1.5
+  unit: ząbki
+- name: papryka
+  amount: 150
+  unit: g
+- name: cukinia
+  amount: 150
+  unit: g
+- name: pomidorki koktajlowe
+  amount: 120
+  unit: g
+- name: mozzarella
+  amount: 125
+  unit: g
+- name: oliwy
+  amount: 25
+  unit: g
 servings: 1
 prep_time: 15
 cook: true

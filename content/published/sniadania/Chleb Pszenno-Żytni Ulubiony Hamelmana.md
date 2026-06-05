@@ -10,13 +10,32 @@ favourite: false
 recipe_image: images/recipe-headers/chleb.avif
 date: 2026-06-04 08:42:00+02:00
 tags:
-  - wegańskie
-  - kanapki
+- wegańskie
+- kanapki
 tagline: Prosty, sprawdzony przepis na domowy chleb na zakwasie wg receptury Hamelmana.
 ingredients:
-  - zakwas żytni
-  - mąka żytnia
-  - mąka pszenna
+- zakwas żytni
+- mąka żytnia
+- mąka pszenna
+shopping_ingredients:
+- name: zakwas żytni
+  amount: 20
+  unit: g
+- name: mąki żytniej chlebowej typ 720
+  amount: 180
+  unit: g
+- name: Cały zaczyn
+  amount: 1
+  unit: szt.
+  note: z Fazy I
+- name: mąki pszennej chlebowej typ 750
+  amount: 150
+  unit: g
+  note: lub innej jasnej pszennej / orkiszowej
+- name: 10 g świeżych drożdży
+  amount: 1
+  unit: szt.
+  note: Opcjonalnie dla początkujących
 servings: 1
 prep_time: 20
 cook: true
@@ -26,11 +45,9 @@ protein: 36
 fat: 8
 carbohydrate: 324
 fodmap:
-  status: no
+  status: false
   serving_ok: Unikaj
-  notes: Mąka żytnia i pszenna to źródła fruktanów. Fermentacja na zakwasie
-    zmniejsza ich ilość, ale tradycyjny chleb żytnio-pszenny nadal może
-    wywoływać objawy na etapie eliminacji diety Low FODMAP.
+  notes: Mąka żytnia i pszenna to źródła fruktanów. Fermentacja na zakwasie zmniejsza ich ilość, ale tradycyjny chleb żytnio-pszenny nadal może wywoływać objawy na etapie eliminacji diety Low FODMAP.
   substitutions: []
 ---
 

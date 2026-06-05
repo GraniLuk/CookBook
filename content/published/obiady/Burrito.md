@@ -20,6 +20,43 @@ ingredients:
 - ser cheddar
 - jajka
 - tortilla
+shopping_ingredients:
+- name: tortilla
+  amount: 4
+  unit: szt.
+- name: wołowina mielona
+  amount: 500
+  unit: g
+  note: łopatka
+- name: pomidory krojone
+  amount: 1
+  unit: puszka
+- name: fasola czerwona
+  amount: 1
+  unit: puszka
+- name: cebula lub 1/2 średniej
+  amount: 1
+  unit: szt.
+- name: czosnku
+  amount: 2
+  unit: ząbki
+- name: oleju rzepakowego
+  amount: 10
+  unit: ml
+- name: awokado
+  amount: 1
+  unit: szt.
+- name: jajek
+  amount: 8
+  unit: szt.
+  note: 2 na burrito
+- name: sera cheddar
+  amount: 100
+  unit: g
+  note: 25g na burrito
+- name: Natka pietruszki do dekoracji
+  amount: 1
+  unit: szt.
 servings: 4
 prep_time: 20
 cook: true

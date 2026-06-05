@@ -19,6 +19,31 @@ ingredients:
 - cytryna
 - pomarańcza
 - pietruszka natka
+shopping_ingredients:
+- name: banan
+  amount: 1
+  unit: szt.
+  note: 130g
+- name: awokado
+  amount: 0.5
+  unit: szt.
+  note: 75g
+- name: szpinak
+  amount: 50
+  unit: g
+- name: jarmuż
+  amount: 30
+  unit: g
+- name: cytryna
+  amount: 50
+  unit: ml
+- name: pomarańcza
+  amount: 200
+  unit: ml
+- name: natki pietruszki
+  amount: 20
+  unit: g
+  note: 20g
 servings: 2
 prep_time: 5
 cook: false

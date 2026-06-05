@@ -23,6 +23,43 @@ ingredients:
 - szpinak
 - mleko kokosowe
 - pietruszka natka
+shopping_ingredients:
+- name: oliwy z oliwek
+  amount: 10
+  unit: g
+- name: cebula
+  amount: 100
+  unit: g
+- name: czosnek
+  amount: 2
+  unit: ząbki
+- name: pomidory suszone
+  amount: 35
+  unit: g
+- name: koncentrat pomidorowy
+  amount: 25
+  unit: g
+- name: suchej białej fasoli jaś
+  amount: 200
+  unit: g
+  note: namoczonej
+- name: szpinak
+  amount: 150
+  unit: g
+- name: mleczka kokosowego light
+  amount: 50
+  unit: g
+- name: Liście pietruszki
+  amount: 1
+  unit: szt.
+  note: do posypania
+- name: pieczywa
+  amount: 60
+  unit: g
+  note: do podania
+- name: 'Opcjonalnie: parmezan do posypania'
+  amount: 1
+  unit: szt.
 servings: 2
 prep_time: 20
 cook: true

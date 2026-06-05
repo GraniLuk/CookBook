@@ -20,6 +20,46 @@ ingredients:
 - passata pomidorowa
 - mozzarella
 - oliwa z oliwek
+shopping_ingredients:
+- name: mielonego indyka
+  amount: 400
+  unit: g
+- name: makaron
+  amount: 200
+  unit: g
+  note: suchy
+- name: jarmuż
+  amount: 2
+  unit: garście
+  note: ~100 g
+- name: pomidory suszone
+  amount: 7.0
+  unit: szt.
+  note: ≈25 g
+- name: cebula
+  amount: 1
+  unit: szt.
+  note: 110 g
+- name: czosnek
+  amount: 4
+  unit: ząbki
+  note: 20 g
+- name: suszonych grzybów lub 150 g pieczarek
+  amount: 10
+  unit: g
+- name: passaty
+  amount: 400
+  unit: ml
+- name: koncentratu
+  amount: 1.5
+  unit: łyżeczki
+  note: ~9 g
+- name: mozzarella
+  amount: 60
+  unit: g
+- name: oliwy
+  amount: 15
+  unit: g
 servings: 3
 prep_time: 20
 cook: true

@@ -16,6 +16,19 @@ tagline: Szybka tortilla z jajecznicą na śniadanie!
 ingredients:
 - jajka
 - tortilla
+shopping_ingredients:
+- name: jajek
+  amount: 300
+  unit: g
+  note: 5 szt.; 2 dla jednej osoby, 3 dla drugiej
+- name: tortilla
+  amount: 3
+  unit: szt.
+  note: 2 dla jednej osoby, 1 dla drugiej; 40g każda
+- name: 'opcjonalnie: papryka lub inne warzywa'
+  amount: 50
+  unit: g
+  note: 50g
 servings: 2
 prep_time: 5
 cook: true

@@ -24,6 +24,42 @@ ingredients:
 - jajka
 - mleko
 - masło
+shopping_ingredients:
+- name: mąki pszennej
+  amount: 500
+  unit: g
+- name: letniego mleka
+  amount: 120
+  unit: ml
+- name: świeżych drożdży
+  amount: 40
+  unit: g
+- name: masła
+  amount: 100
+  unit: g
+- name: jajka
+  amount: 2
+  unit: szt.
+- name: żółtko
+  amount: 1
+  unit: szt.
+- name: cukru
+  amount: 40
+  unit: g
+- name: mascarpone
+  amount: 250
+  unit: g
+- name: jagody
+  amount: 1
+  unit: szklanka
+  note: ok. 150 g
+- name: miękkiego masła
+  amount: 1
+  unit: łyżka
+  note: ok. 15 g
+- name: żółtko albo odrobina mleka
+  amount: 1
+  unit: szt.
 servings: 12
 prep_time: 100
 cook: true

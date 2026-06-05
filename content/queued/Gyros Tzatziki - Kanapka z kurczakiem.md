@@ -22,6 +22,44 @@ ingredients:
 - cebula czerwona
 - ogórek zielony
 - mix sałat
+shopping_ingredients:
+- name: bułka
+  amount: 1
+  unit: szt.
+  note: 240g
+- name: pierś z kurczaka
+  amount: 300
+  unit: g
+  note: pokrojonej w paski
+- name: oliwy
+  amount: 20
+  unit: ml
+  note: 10 ml do marynaty, 10 ml do smażenia
+- name: Przyprawa gyros do smaku
+  amount: 1
+  unit: szt.
+- name: skyru
+  amount: 150
+  unit: g
+  note: jogurt typu
+- name: przyprawy tzatziki
+  amount: 1.5
+  unit: łyżeczki
+- name: koperek
+  amount: 1
+  unit: szt.
+  note: poszatkowanego
+- name: cebula czerwona
+  amount: 1
+  unit: szt.
+  note: pokrojona w piórka
+- name: ogórek zielony
+  amount: 1
+  unit: szt.
+  note: plasterki
+- name: ilość mixu sałat
+  amount: 1
+  unit: szt.
 servings: 2
 prep_time: 15
 cook: true

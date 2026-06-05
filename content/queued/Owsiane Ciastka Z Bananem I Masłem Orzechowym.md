@@ -2,29 +2,57 @@
 title: Owsiane Ciastka Z Bananem I Masłem Orzechowym
 author: Michał Wrzosek
 categories:
-  - desery
+- desery
 subcategories:
-  - słodkie
+- słodkie
 draft: false
 readyToTest: true
 queued: true
 favourite: false
 link: https://www.youtube.com/watch?v=ScAJ7gkZo9s
 recipe_image: images/recipe-headers/owsiane-ciastka.avif
-video_file: ""
-date: 2026-03-23T16:47:27+01:00
+video_file: ''
+date: 2026-03-23 16:47:27+01:00
 tags:
-  - szybkie
-  - wegańskie
-  - przekąska
-  - ciastka
-tagline: Proste, wegańskie i szybkie ciasteczka z płatków owsianych, banana oraz
-  masła orzechowego.
+- szybkie
+- wegańskie
+- przekąska
+- ciastka
+tagline: Proste, wegańskie i szybkie ciasteczka z płatków owsianych, banana oraz masła orzechowego.
 ingredients:
-  - banan
-  - masło orzechowe
-  - płatki owsiane
-  - gorzka czekolada
+- banan
+- masło orzechowe
+- płatki owsiane
+- gorzka czekolada
+shopping_ingredients:
+- name: banan
+  amount: 1
+  unit: szt.
+  note: ~120 g
+- name: masła orzechowego
+  amount: 0.5
+  unit: szklanki
+  note: ~130 g
+- name: syropu z agawy
+  amount: 0.25
+  unit: szklanki
+  note: ~85 g
+- name: płatki owsiane
+  amount: 0.5
+  unit: szklanki
+  note: ~55 g
+- name: gorzka czekolada
+  amount: 45
+  unit: g
+- name: wanilii
+  amount: 1
+  unit: łyżeczka
+- name: cynamonu
+  amount: 1
+  unit: łyżeczka
+- name: papier do pieczenia
+  amount: 1
+  unit: szt.
 servings: 4
 prep_time: 10
 cook: true
@@ -34,13 +62,12 @@ protein: 42.6
 fat: 83.2
 carbohydrate: 185
 fodmap:
-  status: no
+  status: false
   serving_ok: Tylko mała porcja
-  notes: Syrop z agawy i bardzo dojrzałe banany mają wysoką zawartość FODMAP.
-    Płatki owsiane i masło orzechowe są bezpieczne, ale w odpowiednich porcjach.
+  notes: Syrop z agawy i bardzo dojrzałe banany mają wysoką zawartość FODMAP. Płatki owsiane i masło orzechowe są bezpieczne, ale w odpowiednich porcjach.
   substitutions:
-    - Zamień syrop z agawy na syrop klonowy.
-    - Użyj twardszego, mniej dojrzałego banana.
+  - Zamień syrop z agawy na syrop klonowy.
+  - Użyj twardszego, mniej dojrzałego banana.
 ---
 
 ## Składniki

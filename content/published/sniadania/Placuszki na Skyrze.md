@@ -18,6 +18,25 @@ ingredients:
 - jogurt skyr waniliowy
 - jajka
 - mąka orkiszowa
+shopping_ingredients:
+- name: pojemnik skyr waniliowy
+  amount: 1
+  unit: szt.
+  note: ok. 200g
+- name: jajka
+  amount: 3
+  unit: szt.
+- name: mąki orkiszowej
+  amount: 100
+  unit: g
+  note: z proszkiem do pieczenia
+- name: Spray do smażenia lub minimalna ilość masła/oleju
+  amount: 1
+  unit: szt.
+- name: 'Dodatki opcjonalne: aromat'
+  amount: 1
+  unit: szt.
+  note: wanilia, migdał; erytrytol, owoce, miód lub syrop klonowy
 servings: 4
 prep_time: 10
 cook: true

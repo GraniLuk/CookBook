@@ -21,6 +21,47 @@ ingredients:
 - korzeń selera
 - śmietanka
 - koperek
+shopping_ingredients:
+- name: bulion
+  amount: 2.5
+  unit: l
+- name: ogórki kiszone
+  amount: 1
+  unit: kg
+  note: startych na drobnych oczkach
+- name: ziemniaki
+  amount: 500
+  unit: g
+  note: obranych i pokrojonych w kostkę
+- name: korzeń pietruszki
+  amount: 1
+  unit: szt.
+  note: obrany i pokrojony w kostkę
+- name: marchew
+  amount: 2
+  unit: szt.
+  note: obrane i pokrojone w kostkę
+- name: por
+  amount: 1
+  unit: szt.
+  note: pokrojony w plastry
+- name: korzeń selera
+  amount: 0.5
+  unit: szt.
+  note: obrany i pokrojony w kostkę
+- name: śmietanka
+  amount: 100
+  unit: ml
+- name: koperek
+  amount: 20
+  unit: g
+  note: posiekanego
+- name: liście laurowe
+  amount: 2
+  unit: szt.
+- name: ziarna ziela angielskiego
+  amount: 3
+  unit: szt.
 servings: 6
 prep_time: 20
 cook: true

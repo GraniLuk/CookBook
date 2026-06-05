@@ -9,7 +9,7 @@ favourite: false
 link: https://www.instagram.com/reels/DYW9cSPNwGQ/
 recipe_image: images/surowka_jablko_marchewka.avif
 video_file: videos/surowka_jablko_marchewka.mp4
-date: 2026-05-26T12:00:00+00:00
+date: 2026-05-26 12:00:00+00:00
 tags:
 - szybkie
 tagline: Chrupiąca surówka z jabłkiem, marchewką, porem, żurawiną i jogurtowo-musztardowym sosem.
@@ -21,6 +21,46 @@ ingredients:
 - pestki dyni
 - żurawina suszona
 - jogurt naturalny
+shopping_ingredients:
+- name: jabłko
+  amount: 1
+  unit: szt.
+  note: ok. 200 g
+- name: pomarańcza
+  amount: 0.5
+  unit: szt.
+  note: ok. 80 g
+- name: marchew
+  amount: 2
+  unit: szt.
+  note: ok. 150 g
+- name: por
+  amount: 1
+  unit: szt.
+  note: ok. 100 g; biała część
+- name: prażonych pestek dyni
+  amount: 4
+  unit: łyżki
+  note: ok. 40 g
+- name: żurawina suszona
+  amount: 60
+  unit: g
+- name: pęczka natki pietruszki
+  amount: 0.5
+  unit: szt.
+  note: ok. 15 g
+- name: jogurt naturalny
+  amount: 6
+  unit: łyżki
+  note: ok. 120 g
+- name: miodu
+  amount: 1
+  unit: łyżeczka
+  note: ok. 12 g
+- name: musztardy francuskiej
+  amount: 1
+  unit: łyżka
+  note: ok. 15 g
 servings: 6
 prep_time: 10
 cook: false

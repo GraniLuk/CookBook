@@ -18,6 +18,32 @@ ingredients:
 - cukier
 - jagody
 - cukier puder
+shopping_ingredients:
+- name: mąki pszennej
+  amount: 0.5
+  unit: kg
+- name: drożdże
+  amount: 0.4
+  unit: szt.
+  note: ok. 40 g
+- name: żółtka
+  amount: 2
+  unit: szt.
+- name: szklanka mleka
+  amount: 300
+  unit: ml
+  note: ok. 300 ml
+- name: masła
+  amount: 80
+  unit: g
+- name: cukru
+  amount: 0.25
+  unit: szklanki
+  note: ok. 50 g
+- name: cukier
+  amount: 1
+  unit: szt.
+  note: ilość wg uznania
 servings: 12
 prep_time: 30
 cook: true

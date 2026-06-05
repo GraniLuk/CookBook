@@ -13,6 +13,22 @@ ingredients:
 - mascarpone
 - pomidory suszone
 - czosnek
+shopping_ingredients:
+- name: szparagi
+  amount: 250
+  unit: g
+  note: ok. 250 g
+- name: mascarpone
+  amount: 250
+  unit: g
+- name: pomidory suszone
+  amount: 1
+  unit: szt.
+  note: lub około 100 g
+- name: czosnek
+  amount: 3
+  unit: g
+  note: 3g
 servings: 4
 prep_time: 10
 cook: true

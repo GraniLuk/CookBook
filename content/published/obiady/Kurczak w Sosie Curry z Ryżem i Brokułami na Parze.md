@@ -16,6 +16,47 @@ ingredients:
 - brokuł
 - mleko kokosowe
 - curry
+shopping_ingredients:
+- name: kurczak
+  amount: 600
+  unit: g
+- name: ryżu
+  amount: 320
+  unit: g
+  note: np. basmati lub jaśminowy
+- name: brokuł
+  amount: 450
+  unit: g
+  note: świeżych, do ugotowania na parze
+- name: przecieru pomidorowego
+  amount: 500
+  unit: g
+- name: mleczka kokosowego
+  amount: 200
+  unit: ml
+  note: pełnotłuste, 16–19% tłuszczu
+- name: curry
+  amount: 2.5
+  unit: łyżki
+  note: z trawą cytrynową, kurkumą, chili
+- name: czosnku
+  amount: 3.5
+  unit: ząbki
+- name: limonka
+  amount: 1
+  unit: szt.
+  note: do podania
+- name: oliwy z oliwek
+  amount: 20
+  unit: ml
+- name: Szczypta kurkumy
+  amount: 1
+  unit: szt.
+  note: opcjonalnie, dla koloru
+- name: Szczypta suszonego imbiru
+  amount: 1
+  unit: szt.
+  note: opcjonalnie
 servings: 4
 prep_time: 20
 cook: true

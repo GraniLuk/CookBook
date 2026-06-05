@@ -27,6 +27,35 @@ ingredients:
 - oliwa z oliwek
 - parmezan
 - koperek
+shopping_ingredients:
+- name: gnocchi
+  amount: 500
+  unit: g
+- name: szparagi
+  amount: 1
+  unit: szt.
+  note: około 500 g
+- name: pierś z kurczaka
+  amount: 400
+  unit: g
+- name: czosnku
+  amount: 3
+  unit: ząbki
+- name: koperek
+  amount: 4
+  unit: szt.
+- name: serka śmietankowego Almette
+  amount: 150
+  unit: g
+- name: oliwy z oliwek
+  amount: 2
+  unit: łyżki
+- name: przyprawy do złocistego kurczaka
+  amount: 1
+  unit: łyżeczka
+- name: parmezan
+  amount: 3
+  unit: łyżki
 servings: 4
 prep_time: 5
 cook: true

@@ -21,6 +21,30 @@ ingredients:
 - twaróg
 - galaretka
 - truskawki
+shopping_ingredients:
+- name: biszkopty
+  amount: 25
+  unit: g
+  note: około 5 sztuk
+- name: skyru naturalnego
+  amount: 150
+  unit: g
+  note: 1 opakowanie
+- name: twaróg
+  amount: 125
+  unit: g
+  note: 1/2 opakowania
+- name: aromatu waniliowego
+  amount: 1
+  unit: g
+- name: galaretka
+  amount: 39
+  unit: g
+  note: 1 opakowanie
+- name: truskawki
+  amount: 100
+  unit: g
+  note: około 1,5 garści
 servings: 1
 prep_time: 15
 cook: false

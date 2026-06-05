@@ -7,7 +7,7 @@ readyToTest: false
 queued: false
 favourite: false
 recipe_image: images/recipe-headers/beza_migdalowa.avif
-date: 2025-12-31T10:00:00+00:00
+date: 2025-12-31 10:00:00+00:00
 tags:
 - słodkie
 - ciasta
@@ -16,6 +16,17 @@ ingredients:
 - białka jajek
 - cukier
 - płatki migdałów
+shopping_ingredients:
+- name: białek
+  amount: 5
+  unit: szt.
+  note: świeże, w temperaturze pokojowej
+- name: cukru
+  amount: 180
+  unit: g
+- name: płatki migdałów
+  amount: 3
+  unit: łyżki
 servings: 12
 prep_time: 10
 cook: true

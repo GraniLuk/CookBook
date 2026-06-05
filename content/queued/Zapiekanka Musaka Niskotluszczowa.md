@@ -1,23 +1,81 @@
 ---
-title: "Zapiekanka Musaka Niskotluszczowa"
-author: "Policzona Szama"
+title: Zapiekanka Musaka Niskotluszczowa
+author: Policzona Szama
 categories: obiady
 draft: false
 readyToTest: true
 queued: true
 link: https://www.youtube.com/watch?v=cbjp8b_gH1I
 recipe_image: images/recipe-headers/musaka-niskotluszczowa.avif
-date: 2026-03-03T21:07:00+01:00
+date: 2026-03-03 21:07:00+01:00
 tags:
-  - goście
-tagline: "Grecka musaka w wersji fit – trzy warstwy smaku: pieczone ziemniaki z bakłażanem, mięsny farsz w sosie pomidorowym i beszamel z parmezanem"
+- goście
+tagline: 'Grecka musaka w wersji fit – trzy warstwy smaku: pieczone ziemniaki z bakłażanem, mięsny farsz w sosie pomidorowym i beszamel z parmezanem'
 ingredients:
-  - ziemniaki
-  - bakłażan
-  - szynka wieprzowa
-  - przecier pomidorowy
-  - mleko
-  - parmezan
+- ziemniaki
+- bakłażan
+- szynka wieprzowa
+- przecier pomidorowy
+- mleko
+- parmezan
+shopping_ingredients:
+- name: ziemniaki
+  amount: 600
+  unit: g
+- name: bakłażan
+  amount: 1
+  unit: szt.
+  note: ~300 g
+- name: cebula
+  amount: 1
+  unit: szt.
+  note: pokrojona w piórka
+- name: oliwy z oliwek
+  amount: 10
+  unit: ml
+- name: oliwy w sprayu
+  amount: 3
+  unit: g
+  note: na bakłażana
+- name: szynka wieprzowa
+  amount: 600
+  unit: g
+  note: zmielonej
+- name: przecier pomidorowy
+  amount: 500
+  unit: g
+- name: nieduża czerwona cebula
+  amount: 1
+  unit: szt.
+- name: czosnku
+  amount: 4
+  unit: ząbki
+- name: oregano
+  amount: 1
+  unit: łyżeczka
+- name: tymianku
+  amount: 1
+  unit: łyżeczka
+- name: liści laurowych
+  amount: 1
+  unit: szt.
+- name: masła
+  amount: 20
+  unit: g
+- name: mąki pszennej
+  amount: 30
+  unit: g
+- name: mleka 1
+  amount: 400
+  unit: ml
+  note: 5%
+- name: parmezan
+  amount: 40
+  unit: g
+  note: 20 g do sosu, 20 g na wierzch
+- name: ¼–½ łyżeczki gałki muszkatołowej
+  amount: 1
+  unit: szt.
 servings: 4
 prep_time: 30
 cook: true
@@ -27,13 +85,13 @@ protein: 42
 fat: 13
 carbohydrate: 40
 fodmap:
-  status: "no"
-  serving_ok: "Tylko mała porcja"
-  notes: "Zawiera cebulę i czosnek (wysokie FODMAP – fruktany). Mleko krowie zawiera laktozę."
+  status: 'no'
+  serving_ok: Tylko mała porcja
+  notes: Zawiera cebulę i czosnek (wysokie FODMAP – fruktany). Mleko krowie zawiera laktozę.
   substitutions:
-    - "Zamień cebulę na zieloną część dymki"
-    - "Zamień czosnek na olej czosnkowy"
-    - "Użyj mleka bezlaktozowego zamiast zwykłego"
+  - Zamień cebulę na zieloną część dymki
+  - Zamień czosnek na olej czosnkowy
+  - Użyj mleka bezlaktozowego zamiast zwykłego
 ---
 
 ## Składniki

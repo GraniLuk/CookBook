@@ -11,16 +11,40 @@ link: https://www.instagram.com/reels/DYpW9tLojDZ/
 recipe_image: images/recipe-headers/babeczki-z-bielucha.avif
 date: 2026-05-25 12:00:00+02:00
 tags:
-  - szybkie
-  - słodkie
-  - przekąska
+- szybkie
+- słodkie
+- przekąska
 tagline: Ekspresowe serowe babeczki z owocami, mieszane widelcem i gotowe bez ubijania.
 ingredients:
-  - serek Bieluch
-  - jajko
-  - mąka orkiszowa
-  - borówki
-  - syrop klonowy
+- serek Bieluch
+- jajko
+- mąka orkiszowa
+- borówki
+- syrop klonowy
+shopping_ingredients:
+- name: serka Bieluch naturalnego
+  amount: 1
+  unit: opak.
+  note: 150 g
+- name: jajko
+  amount: 1
+  unit: szt.
+- name: syrop klonowy
+  amount: 1
+  unit: łyżka
+  note: ok. 15 g; opcjonalnie
+- name: większa szczypta proszku do pieczenia
+  amount: 2
+  unit: g
+  note: ok. 2 g
+- name: mąki orkiszowej lub pszennej
+  amount: 3
+  unit: łyżki
+  note: ok. 30 g
+- name: borówki
+  amount: 50
+  unit: g
+  note: ok. 50 g; pokrojonych truskawek albo 1 drobno pokrojona morela
 servings: 6
 prep_time: 5
 cook: true
@@ -35,10 +59,10 @@ fodmap:
   serving_ok: Wymaga modyfikacji
   notes: W wersji bazowej zwykły serek Bieluch może zawierać laktozę, mąka orkiszowa lub pszenna zawiera fruktany, a daktyle i jabłko są wysokie FODMAP. Mała porcja z borówkami i syropem klonowym będzie łagodniejsza, ale dla ścisłej diety low FODMAP wymaga podmian.
   substitutions:
-    - Użyj serka naturalnego bez laktozy zamiast klasycznego Bielucha.
-    - Zamień mąkę orkiszową lub pszenną na mąkę owsianą bezglutenową albo ryżową.
-    - Wybierz syrop klonowy albo pomiń słodzik; unikaj sproszkowanych daktyli i syropu daktylowego.
-    - Jako owoce wybierz borówki lub truskawki; unikaj jabłka, a morelę zostaw tylko w bardzo małej ilości.
+  - Użyj serka naturalnego bez laktozy zamiast klasycznego Bielucha.
+  - Zamień mąkę orkiszową lub pszenną na mąkę owsianą bezglutenową albo ryżową.
+  - Wybierz syrop klonowy albo pomiń słodzik; unikaj sproszkowanych daktyli i syropu daktylowego.
+  - Jako owoce wybierz borówki lub truskawki; unikaj jabłka, a morelę zostaw tylko w bardzo małej ilości.
 ---
 
 ## Składniki

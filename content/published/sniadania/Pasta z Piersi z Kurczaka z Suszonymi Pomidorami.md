@@ -18,6 +18,26 @@ ingredients:
 - pierś z kurczaka
 - pomidory suszone
 - majonez
+shopping_ingredients:
+- name: pierś z kurczaka
+  amount: 150
+  unit: g
+  note: gotowanej
+- name: pomidory suszone
+  amount: 5.5
+  unit: szt.
+  note: ok. 27g po odsączeniu
+- name: majonez
+  amount: 15
+  unit: g
+- name: wafli ryżowych
+  amount: 50
+  unit: g
+  note: do podania
+- name: mieszanki ziół
+  amount: 0.5
+  unit: łyżeczki
+  note: np. mieszanka ziół Koksa Mateusza
 servings: 1
 prep_time: 5
 cook: true

@@ -16,6 +16,22 @@ ingredients:
 - cebula
 - papryka czerwona
 - cukinia
+shopping_ingredients:
+- name: polędwica wieprzowa
+  amount: 1
+  unit: szt.
+- name: pieczarki
+  amount: 1
+  unit: szt.
+- name: cebula
+  amount: 1
+  unit: szt.
+- name: papryka czerwona
+  amount: 1
+  unit: szt.
+- name: cukinia
+  amount: 1
+  unit: szt.
 servings: 3
 prep_time: 15
 cook: true

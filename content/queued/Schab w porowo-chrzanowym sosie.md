@@ -9,7 +9,7 @@ queued: true
 link: https://www.instagram.com/reels/DVdbbkUDO0Y/
 recipe_image: images/recipe-headers/schab-por-chrzan.avif
 date: 2026-03-09 16:50:00+01:00
-tags:
+tags: null
 tagline: Kruchy schab duszony w kremowym sosie z porem i chrzanem, podawany z orzeźwiającą surówką.
 ingredients:
 - schab wieprzowy
@@ -17,6 +17,51 @@ ingredients:
 - śmietanka 30%
 - papryka czerwona
 - ogórek kiszony
+shopping_ingredients:
+- name: papryka czerwona
+  amount: 1
+  unit: szt.
+  note: 150 g
+- name: białej cebuli
+  amount: 0.5
+  unit: szt.
+  note: 50 g
+- name: ogórków kiszonych
+  amount: 7
+  unit: szt.
+  note: 350 g
+- name: oliwy z oliwek
+  amount: 2
+  unit: łyżki
+  note: 20 g
+- name: schabu
+  amount: 4
+  unit: plastry
+  note: 400 g
+- name: mąki pszennej
+  amount: 2.5
+  unit: łyżki
+  note: 20 g
+- name: oleju lub oliwy do smażenia
+  amount: 1
+  unit: łyżka
+  note: 10 g
+- name: masła
+  amount: 1
+  unit: plaster
+  note: 10 g
+- name: Jasna część pora
+  amount: 100
+  unit: g
+  note: 100 g
+- name: śmietanka 30%
+  amount: 100
+  unit: ml
+  note: 100 g
+- name: chrzanu ze słoiczka
+  amount: 1
+  unit: łyżka
+  note: 15 g
 servings: 4
 prep_time: 15
 cook: true

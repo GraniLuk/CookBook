@@ -21,6 +21,29 @@ ingredients:
 - jajka
 - mleko
 - masło
+shopping_ingredients:
+- name: mąki pszennej
+  amount: 380
+  unit: g
+- name: jajka
+  amount: 3
+  unit: szt.
+- name: mleka
+  amount: 140
+  unit: ml
+- name: erytrytolu
+  amount: 100
+  unit: g
+  note: lub cukru
+- name: masła
+  amount: 50
+  unit: g
+- name: świeżych drożdży
+  amount: 25
+  unit: g
+- name: truskawki
+  amount: 400
+  unit: g
 servings: 8
 prep_time: 90
 cook: true

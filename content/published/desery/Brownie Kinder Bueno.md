@@ -21,6 +21,39 @@ ingredients:
 - kakao
 - kinder bueno
 - ekstrakt waniliowy
+shopping_ingredients:
+- name: mąki pszennej
+  amount: 260
+  unit: g
+- name: jajek
+  amount: 6
+  unit: szt.
+  note: ok. 300 g
+- name: masła
+  amount: 250
+  unit: g
+- name: gorzka czekolada
+  amount: 100
+  unit: g
+  note: ≥60–70%
+- name: cukru białego
+  amount: 150
+  unit: g
+- name: kinder bueno
+  amount: 80
+  unit: g
+  note: lub innego kremu orzechowo-kakaowego
+- name: kakao
+  amount: 90
+  unit: g
+- name: proszku do pieczenia
+  amount: 1
+  unit: łyżeczka
+  note: ok. 5 g
+- name: ekstrakt waniliowy
+  amount: 1
+  unit: łyżeczka
+  note: ok. 4 g
 servings: 28
 prep_time: 20
 cook: true

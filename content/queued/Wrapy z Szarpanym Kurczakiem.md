@@ -1,43 +1,80 @@
 ---
-title: "Wrapy z Szarpanym Kurczakiem"
-author: "Policzona Szama"
+title: Wrapy z Szarpanym Kurczakiem
+author: Policzona Szama
 categories: obiady
 draft: false
 readyToTest: true
 queued: true
 favourite: false
-link: "https://www.instagram.com/reels/DVX7c-1DcLF/"
-recipe_image: "images/recipe-headers/wrapy_szarpany_kurczak.avif"
-date: "2026-03-02T20:17:13+01:00"
+link: https://www.instagram.com/reels/DVX7c-1DcLF/
+recipe_image: images/recipe-headers/wrapy_szarpany_kurczak.avif
+date: '2026-03-02T20:17:13+01:00'
 tags:
-  - lunchbox
-  - na-wynos
-  - szybkie
-tagline: "Te wrapy ze szarpanym kurczakiem i sosem miętowo-czosnkowym to absolutne odkrycie! Idealne do lunchboxa lub na szybki obiad."
+- lunchbox
+- na-wynos
+- szybkie
+tagline: Te wrapy ze szarpanym kurczakiem i sosem miętowo-czosnkowym to absolutne odkrycie! Idealne do lunchboxa lub na szybki obiad.
 ingredients:
-  - jogurt grecki
-  - majonez light
-  - mix sałat
-  - ogórek
-  - oliwa z oliwek
-  - pierś z kurczaka
-  - pomidory koktajlowe
-  - tortilla
+- jogurt grecki
+- majonez light
+- mix sałat
+- ogórek
+- oliwa z oliwek
+- pierś z kurczaka
+- pomidory koktajlowe
+- tortilla
+shopping_ingredients:
+- name: tortilla
+  amount: 4
+  unit: szt.
+- name: pierś z kurczaka
+  amount: 500
+  unit: g
+- name: mixu sałat
+  amount: 100
+  unit: g
+- name: ogórka
+  amount: 1
+  unit: szt.
+- name: pomidory koktajlowe
+  amount: 300
+  unit: g
+- name: oliwy z oliwek
+  amount: 10
+  unit: g
+- name: papryki słodkiej
+  amount: 7
+  unit: g
+- name: jogurt grecki
+  amount: 300
+  unit: g
+- name: majonez light
+  amount: 100
+  unit: g
+- name: czosnku
+  amount: 3
+  unit: ząbki
+- name: świeżej mięty
+  amount: 20
+  unit: g
+- name: soku z cytryny
+  amount: 15
+  unit: ml
 servings: 4
 prep_time: 25
 cook: true
-cook_time: "15"
+cook_time: '15'
 calories: 2124
 protein: 152
 fat: 92
 carbohydrate: 176
 fodmap:
-  status: "no"
-  notes: "Czosnek jest bogaty w FODMAP. Tortilla i mix sałat mogą stanowić umiarkowane/wysokie źródło FODMAP w zależności od porcji."
+  status: 'no'
+  notes: Czosnek jest bogaty w FODMAP. Tortilla i mix sałat mogą stanowić umiarkowane/wysokie źródło FODMAP w zależności od porcji.
   substitutions:
-    - "Użyj oliwy czosnkowej zamiast świeżego czosnku."
-    - "Wybierz tortillę bezglutenową lub kukurydzianą."
-  serving_ok: "Tylko mała porcja"
+  - Użyj oliwy czosnkowej zamiast świeżego czosnku.
+  - Wybierz tortillę bezglutenową lub kukurydzianą.
+  serving_ok: Tylko mała porcja
 ---
 
 ## Składniki

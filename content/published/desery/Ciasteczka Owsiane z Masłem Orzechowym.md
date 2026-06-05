@@ -16,6 +16,28 @@ ingredients:
 - płatki owsiane błyskawiczne
 - mąka owsiana
 - żurawina suszona
+shopping_ingredients:
+- name: banan
+  amount: 1
+  unit: szt.
+  note: ~100 g
+- name: dowolnego masła orzechowego
+  amount: 100
+  unit: g
+  note: np. z makadamii
+- name: płatki owsiane błyskawiczne
+  amount: 100
+  unit: g
+- name: mąki owsianej lub zwykłej
+  amount: 30
+  unit: g
+- name: żurawina suszona
+  amount: 20
+  unit: g
+  note: mogą być również rodzynki, pokrojone daktyle lub śliwki
+- name: Opcjonalnie kilka kostek pokruszonej czekolady
+  amount: 1
+  unit: szt.
 servings: 10
 prep_time: 10
 cook: true

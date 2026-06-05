@@ -22,6 +22,49 @@ ingredients:
 - papryka
 - ogórek
 - oliwa z oliwek
+shopping_ingredients:
+- name: udek z kurczaka
+  amount: 1.2
+  unit: kg
+  note: 3 sztuki - pałka i podudzie
+- name: ryżu parboiled
+  amount: 300
+  unit: g
+  note: 3 worki
+- name: masła
+  amount: 50
+  unit: g
+- name: ketchupu
+  amount: 40
+  unit: g
+- name: cebula
+  amount: 2
+  unit: szt.
+- name: czosnku
+  amount: 3
+  unit: ząbki
+- name: kropel oleju do natarcia mięsa
+  amount: 1
+  unit: szt.
+- name: ulubiona przyprawa do kurczaka
+  amount: 1
+  unit: szt.
+  note: np. złocista
+- name: kapusta pekińska
+  amount: 1
+  unit: szt.
+- name: papryka
+  amount: 0.5
+  unit: szt.
+- name: kawałek zielonego ogórka
+  amount: 1
+  unit: szt.
+- name: oliwy z oliwek
+  amount: 30
+  unit: ml
+- name: soku z cytryny
+  amount: 15
+  unit: ml
 servings: 3
 prep_time: 15
 cook: true

@@ -20,6 +20,46 @@ ingredients:
 - masło
 - mąka pszenna
 - chili
+shopping_ingredients:
+- name: pierś z kurczaka
+  amount: 1
+  unit: szt.
+  note: ok. 400g
+- name: mrożone warzywa
+  amount: 1
+  unit: opak.
+  note: np. kalafior, fasolka, marchew – ok. 450g
+- name: ryż basmati
+  amount: 200
+  unit: g
+  note: 200g
+- name: oliwy z oliwek
+  amount: 2
+  unit: łyżki
+  note: ok. 28g
+- name: czosnek
+  amount: 2.5
+  unit: ząbki
+- name: przyprawy do kurczaka
+  amount: 1
+  unit: łyżeczka
+- name: sera cheddar
+  amount: 50
+  unit: g
+- name: mleka 1
+  amount: 200
+  unit: ml
+  note: 5%
+- name: masła
+  amount: 15
+  unit: g
+- name: płaska łyżeczka mąki pszennej
+  amount: 1
+  unit: szt.
+  note: ok. 5g
+- name: chili
+  amount: 1
+  unit: szt.
 servings: 3
 prep_time: 20
 cook: true

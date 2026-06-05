@@ -23,6 +23,65 @@ ingredients:
 - czosnek
 - koncentrat pomidorowy
 - cebula czerwona
+shopping_ingredients:
+- name: wołowina
+  amount: 400
+  unit: g
+  note: ok. 200 g na jednego tacos; najlepiej kawałek na pieczeń, 4–5 g tłuszczu/100 g
+- name: tortilla
+  amount: 2
+  unit: szt.
+  note: duże
+- name: sera cheddar
+  amount: 40
+  unit: g
+  note: 20 g na tacos
+- name: sałata lodowa
+  amount: 1
+  unit: szt.
+- name: awokado
+  amount: 1
+  unit: szt.
+  note: świeże, nieprzejrzałe
+- name: cebula czerwona
+  amount: 0.5
+  unit: szt.
+- name: papryczki padron
+  amount: 2
+  unit: szt.
+- name: pomidory
+  amount: 2
+  unit: szt.
+  note: obrane, pokrojone w kostkę
+- name: kolendra
+  amount: 1
+  unit: szt.
+- name: cytryna
+  amount: 0.5
+  unit: szt.
+- name: czosnek
+  amount: 3
+  unit: ząbki
+  note: ≈ 4–5 „normalnych”
+- name: kumin
+  amount: 1
+  unit: łyżeczka
+  note: kmin rzymski
+- name: oregano
+  amount: 1
+  unit: łyżka
+- name: ostrej papryki
+  amount: 1
+  unit: łyżeczka
+- name: słodkiej papryki
+  amount: 1
+  unit: łyżeczka
+- name: koncentrat pomidorowy
+  amount: 1
+  unit: łyżeczka
+- name: oleju do smażenia
+  amount: 20
+  unit: ml
 servings: 2
 prep_time: 25
 cook: true

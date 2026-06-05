@@ -17,6 +17,25 @@ ingredients:
 - odżywka białkowa
 - mleko bez laktozy
 - czekolada gorzka
+shopping_ingredients:
+- name: migdały
+  amount: 1
+  unit: szt.
+- name: mąka kokosowa
+  amount: 1
+  unit: szt.
+- name: białka jajek
+  amount: 1
+  unit: szt.
+- name: odżywka białkowa
+  amount: 1
+  unit: szt.
+- name: mleko bez laktozy
+  amount: 1
+  unit: szt.
+- name: czekolada gorzka
+  amount: 1
+  unit: szt.
 servings: 10
 prep_time: 20
 cook: true

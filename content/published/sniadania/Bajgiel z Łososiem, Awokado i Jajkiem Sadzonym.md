@@ -24,6 +24,34 @@ ingredients:
 - awokado
 - jajko
 - oliwa
+shopping_ingredients:
+- name: bajgiel
+  amount: 1
+  unit: szt.
+- name: serka
+  amount: 2
+  unit: łyżki
+  note: zamiast kanapkowego
+- name: rukola
+  amount: 1
+  unit: szt.
+- name: plasterków świeżego ogórka
+  amount: 1
+  unit: szt.
+- name: łosoś
+  amount: 2.5
+  unit: plastry
+- name: awokado
+  amount: 0.5
+  unit: szt.
+  note: pokrojonego w plasterki
+- name: jajko
+  amount: 1
+  unit: szt.
+- name: oliwa
+  amount: 1
+  unit: szt.
+  note: opcjonalnie
 servings: 1
 prep_time: 10
 cook: true

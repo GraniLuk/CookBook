@@ -21,6 +21,59 @@ ingredients:
 - ziemniaki
 - mleko
 - masło
+shopping_ingredients:
+- name: mięsa mielonego z łopatki
+  amount: 500
+  unit: g
+- name: Łyżeczka musztardy francuskiej
+  amount: 1
+  unit: szt.
+- name: Łyżeczka suszonego czosnku
+  amount: 1
+  unit: szt.
+- name: Łyżka manny
+  amount: 1
+  unit: szt.
+- name: jajko
+  amount: 1
+  unit: szt.
+- name: Skrobia do obtoczenia
+  amount: 1
+  unit: szt.
+- name: Olej do smażenia
+  amount: 1
+  unit: szt.
+- name: pomidory suszone
+  amount: 1
+  unit: szt.
+- name: szpinak
+  amount: 2
+  unit: garście
+- name: cebula
+  amount: 1
+  unit: szt.
+- name: mascarpone
+  amount: 1
+  unit: szt.
+- name: Plaster masła
+  amount: 1
+  unit: szt.
+- name: Tarty parmezan
+  amount: 1
+  unit: szt.
+  note: do smaku
+- name: ziemniaki
+  amount: 1
+  unit: szt.
+  note: ok. 800g na puree
+- name: mleko
+  amount: 1
+  unit: szt.
+  note: ok. 100ml na puree; 5%
+- name: masło
+  amount: 1
+  unit: szt.
+  note: ok. 20g na puree
 servings: 4
 prep_time: 20
 cook: true

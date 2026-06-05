@@ -18,6 +18,31 @@ ingredients:
 - parmezan
 - olej
 - czosnek
+shopping_ingredients:
+- name: kurczak
+  amount: 1
+  unit: szt.
+- name: makaron tagliatelle
+  amount: 1
+  unit: szt.
+- name: brokuł
+  amount: 1
+  unit: szt.
+- name: śmietana
+  amount: 1
+  unit: szt.
+- name: serek blu
+  amount: 1
+  unit: szt.
+- name: parmezan
+  amount: 1
+  unit: szt.
+- name: olej
+  amount: 1
+  unit: szt.
+- name: czosnek
+  amount: 1
+  unit: szt.
 servings: 3
 prep_time: 15
 cook: true

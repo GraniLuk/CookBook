@@ -23,6 +23,50 @@ ingredients:
 - śmietanka 30%
 - masło
 - oliwa z oliwek
+shopping_ingredients:
+- name: pierś z kurczaka
+  amount: 750
+  unit: g
+- name: jogurt grecki
+  amount: 250
+  unit: g
+- name: czosnku
+  amount: 4
+  unit: ząbki
+- name: garam masala
+  amount: 5
+  unit: g
+- name: papryki słodkiej wędzonej
+  amount: 3
+  unit: g
+- name: kurkumy
+  amount: 1
+  unit: g
+- name: imbiru mielonego
+  amount: 1
+  unit: g
+- name: cebula
+  amount: 1
+  unit: szt.
+- name: papryka czerwona
+  amount: 2
+  unit: szt.
+- name: pomidory
+  amount: 2
+  unit: puszki
+  note: 800g
+- name: śmietanka 30%
+  amount: 200
+  unit: ml
+- name: masła
+  amount: 50
+  unit: g
+- name: oliwy z oliwek
+  amount: 20
+  unit: ml
+- name: świeżej kolendry
+  amount: 5
+  unit: g
 servings: 5
 prep_time: 15
 cook: true

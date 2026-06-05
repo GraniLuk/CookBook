@@ -17,6 +17,27 @@ ingredients:
 - pomidorki koktajlowe
 - mozzarella
 - oliwa z oliwek
+shopping_ingredients:
+- name: makaron pełnoziarnisty
+  amount: 500
+  unit: g
+- name: brokuł
+  amount: 300
+  unit: g
+  note: różyczki
+- name: cebula
+  amount: 1
+  unit: szt.
+  note: 110 g
+- name: pomidorki koktajlowe
+  amount: 150
+  unit: g
+- name: mozzarella
+  amount: 200
+  unit: g
+- name: oliwy
+  amount: 15
+  unit: g
 servings: 6
 prep_time: 20
 cook: true

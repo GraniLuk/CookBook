@@ -22,6 +22,38 @@ ingredients:
 - jogurt skyr waniliowy
 - śliwki
 - masło orzechowe
+shopping_ingredients:
+- name: płatki owsiane
+  amount: 4
+  unit: łyżki
+  note: 4 łyżki
+- name: napój roślinny
+  amount: 1
+  unit: szt.
+  note: 1/2 szklanki
+- name: czekolada gorzka
+  amount: 1
+  unit: szt.
+  note: 2 kostki
+- name: kakao
+  amount: 1
+  unit: łyżeczka
+  note: 1 łyżeczka
+- name: skyr waniliowy – 150 g
+  amount: 1
+  unit: opak.
+  note: 1 opakowanie
+- name: śliwki
+  amount: 4
+  unit: szt.
+  note: ok. 4 sztuki
+- name: cynamon – szczypta
+  amount: 1
+  unit: szt.
+- name: masło orzechowe
+  amount: 1
+  unit: łyżeczka
+  note: 1 łyżeczka
 servings: 1
 prep_time: 10
 cook: true

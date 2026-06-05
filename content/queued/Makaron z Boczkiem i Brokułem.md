@@ -16,6 +16,25 @@ ingredients:
 - brokuł
 - makaron
 - czosnek
+shopping_ingredients:
+- name: wędzonego boczku
+  amount: 250
+  unit: g
+  note: ok. 6-8 plastrów
+- name: brokuł
+  amount: 500
+  unit: g
+  note: różyczki
+- name: makaron
+  amount: 400
+  unit: g
+  note: np. świderki, penne lub fusilli
+- name: czosnek
+  amount: 3
+  unit: ząbki
+- name: 'Opcjonalnie: 50g parmezanu do posypania'
+  amount: 1
+  unit: szt.
 servings: 4
 prep_time: 5
 cook: true

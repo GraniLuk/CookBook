@@ -15,6 +15,22 @@ ingredients:
 - masło orzechowe
 - orzechy
 - czekolada
+shopping_ingredients:
+- name: banan
+  amount: 1
+  unit: szt.
+  note: 120g
+- name: Skyr waniliowy
+  amount: 150
+  unit: g
+  note: 150g
+- name: orzechy
+  amount: 3
+  unit: łyżki
+  note: 30g
+- name: czekolada
+  amount: 15
+  unit: g
 servings: 1
 prep_time: 10
 cook: false

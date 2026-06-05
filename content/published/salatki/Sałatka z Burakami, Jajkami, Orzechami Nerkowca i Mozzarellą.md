@@ -19,6 +19,34 @@ ingredients:
 - orzechy nerkowca
 - jajka
 - oliwa z oliwek
+shopping_ingredients:
+- name: buraki gotowane
+  amount: 2
+  unit: szt.
+  note: ok. 240g obrane
+- name: miksu sałat
+  amount: 50
+  unit: g
+- name: pomidory suszone
+  amount: 30
+  unit: g
+  note: odsączonych
+- name: mozzarella
+  amount: 100
+  unit: g
+  note: light lub klasyczna
+- name: orzechy nerkowca
+  amount: 20
+  unit: g
+  note: grubo posiekanych
+- name: jajka
+  amount: 3
+  unit: szt.
+  note: ugotowane na twardo
+- name: oliwy z oliwek
+  amount: 10
+  unit: g
+  note: ok. 2 łyżeczki
 servings: 2
 prep_time: 15
 cook: true

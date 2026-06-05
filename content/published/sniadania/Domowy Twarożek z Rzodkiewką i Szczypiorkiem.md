@@ -18,6 +18,32 @@ ingredients:
 - śmietana 18%
 - rzodkiewka
 - szczypiorek
+shopping_ingredients:
+- name: twaróg
+  amount: 400
+  unit: g
+- name: śmietana 18%
+  amount: 100
+  unit: g
+  note: 3 czubate łyżki
+- name: rzodkiewka
+  amount: 3
+  unit: szt.
+  note: około 60g
+- name: szczypiorek
+  amount: 1
+  unit: szt.
+  note: około 15-20g
+- name: Jajko na twardo jako dodatkowy składnik
+  amount: 1
+  unit: szt.
+  note: pokrojone
+- name: pieczywo lub bułka
+  amount: 1
+  unit: szt.
+- name: 'Opcjonalnie: plasterki szynki lub żółtego sera do roladek'
+  amount: 1
+  unit: szt.
 servings: 5
 prep_time: 20
 cook: false

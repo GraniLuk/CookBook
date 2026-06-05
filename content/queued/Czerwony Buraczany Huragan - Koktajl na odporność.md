@@ -17,6 +17,23 @@ ingredients:
 - maliny
 - jabłko
 - burak
+shopping_ingredients:
+- name: orzech włoski
+  amount: 10
+  unit: g
+- name: suchej żurawiny
+  amount: 30
+  unit: g
+- name: maliny
+  amount: 50
+  unit: g
+- name: jabłko
+  amount: 1
+  unit: szt.
+  note: 150g
+- name: burak
+  amount: 150
+  unit: g
 servings: 2
 prep_time: 10
 cook: false

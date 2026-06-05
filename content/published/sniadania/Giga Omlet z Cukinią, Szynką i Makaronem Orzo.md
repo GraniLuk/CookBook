@@ -26,6 +26,58 @@ ingredients:
 - parmezan
 - mąka pszenna
 - oliwa
+shopping_ingredients:
+- name: jajek
+  amount: 12
+  unit: szt.
+  note: ok. 600g
+- name: szynka
+  amount: 1
+  unit: szt.
+  note: drobno pokrojona; chuda, gotowana
+- name: makaron orzo
+  amount: 100
+  unit: g
+  note: suchy
+- name: cukinia
+  amount: 500
+  unit: g
+  note: ok. 500g
+- name: papryka
+  amount: 180
+  unit: g
+  note: ok. 180g
+- name: pomidory
+  amount: 240
+  unit: g
+  note: ok. 240g
+- name: cebula
+  amount: 110
+  unit: g
+  note: ok. 110g
+- name: czosnek
+  amount: 10
+  unit: g
+  note: ok. 10g
+- name: natka pietruszki
+  amount: 15
+  unit: g
+  note: 15g
+- name: rozmaryn
+  amount: 1
+  unit: szt.
+  note: igiełki posiekane
+- name: parmezan
+  amount: 1
+  unit: szt.
+  note: razem 40g
+- name: mąka pszenna
+  amount: 60
+  unit: g
+- name: oliwa
+  amount: 1
+  unit: łyżka
+  note: ok. 1 łyżka
 servings: 6
 prep_time: 20
 cook: true

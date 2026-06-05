@@ -19,6 +19,33 @@ ingredients:
 - imbir
 - pomarańcza
 - jogurt
+shopping_ingredients:
+- name: orzechy brazylijskie
+  amount: 2
+  unit: szt.
+  note: 10g
+- name: siemię lniane
+  amount: 10
+  unit: g
+- name: mango
+  amount: 1
+  unit: szt.
+  note: 300g
+- name: gruszka
+  amount: 1
+  unit: szt.
+  note: 150g
+- name: imbir
+  amount: 20
+  unit: g
+- name: pomarańcza
+  amount: 1
+  unit: szt.
+  note: 150g
+- name: jogurt
+  amount: 170
+  unit: g
+  note: np. Activia
 servings: 2
 prep_time: 5
 cook: false

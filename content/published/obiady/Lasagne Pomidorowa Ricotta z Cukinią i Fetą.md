@@ -21,6 +21,53 @@ ingredients:
 - cukinia
 - szpinak
 - ser feta
+shopping_ingredients:
+- name: oliwy
+  amount: 10
+  unit: g
+- name: cebula
+  amount: 1
+  unit: szt.
+  note: drobno posiekana
+- name: czosnku
+  amount: 1
+  unit: ząbek
+  note: drobno posiekany
+- name: pomidory krojone z puszki
+  amount: 400
+  unit: g
+- name: suszonej bazylii
+  amount: 1
+  unit: łyżeczka
+- name: suszonego oregano
+  amount: 1
+  unit: łyżeczka
+- name: ricotta
+  amount: 250
+  unit: g
+- name: jajka
+  amount: 2
+  unit: szt.
+- name: gałki muszkatołowej
+  amount: 1
+  unit: łyżeczka
+- name: cukinia
+  amount: 200
+  unit: g
+- name: szpinak
+  amount: 100
+  unit: g
+- name: makaron lasagne
+  amount: 108
+  unit: g
+  note: 6 płatów
+- name: sera feta
+  amount: 100
+  unit: g
+- name: natki pietruszki
+  amount: 2
+  unit: garście
+  note: opcjonalnie
 servings: 2
 prep_time: 20
 cook: true

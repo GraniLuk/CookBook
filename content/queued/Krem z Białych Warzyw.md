@@ -25,6 +25,72 @@ ingredients:
 - ser camembert
 - śmietanka 30%
 - oliwa z oliwek
+shopping_ingredients:
+- name: pora
+  amount: 200
+  unit: g
+- name: cebula
+  amount: 1
+  unit: szt.
+- name: pietruszki
+  amount: 200
+  unit: g
+  note: korzeń
+- name: selera
+  amount: 200
+  unit: g
+  note: korzeń
+- name: ziemniaki
+  amount: 300
+  unit: g
+- name: czosnek
+  amount: 1
+  unit: szt.
+- name: Plaster masła
+  amount: 10
+  unit: g
+  note: ok. 10 g
+- name: Sok z cytryny
+  amount: 1
+  unit: łyżka
+  note: 1 łyżka
+- name: Szczypta tymianku
+  amount: 1
+  unit: szt.
+- name: ser camembert
+  amount: 100
+  unit: g
+  note: ok. 100 g
+- name: śmietanka 30%
+  amount: 3
+  unit: łyżki
+  note: ok. 45 g
+- name: oliwa z oliwek
+  amount: 1
+  unit: szt.
+  note: do skropienia
+- name: Olej z pestek dyni
+  amount: 1
+  unit: szt.
+- name: Ser pleśniowy
+  amount: 50
+  unit: g
+  note: ok. 50 g
+- name: gruszka
+  amount: 1
+  unit: szt.
+- name: Orzechy pekan
+  amount: 30
+  unit: g
+  note: ok. 30 g
+- name: Bagietka
+  amount: 100
+  unit: g
+  note: ok. 100 g
+- name: Mozzarella
+  amount: 50
+  unit: g
+  note: ok. 50 g
 servings: 4
 prep_time: 20
 cook: true

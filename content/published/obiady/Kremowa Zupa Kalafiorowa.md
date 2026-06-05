@@ -22,6 +22,52 @@ ingredients:
 - śmietanka 30%
 - oliwa z oliwek
 - pietruszka natka
+shopping_ingredients:
+- name: kalafior
+  amount: 1
+  unit: szt.
+- name: marchewka
+  amount: 1
+  unit: szt.
+- name: cebula
+  amount: 1
+  unit: szt.
+- name: czosnek
+  amount: 1
+  unit: szt.
+- name: bulion
+  amount: 1000
+  unit: ml
+- name: mozzarella
+  amount: 1
+  unit: szt.
+- name: śmietanka 30%
+  amount: 150
+  unit: ml
+- name: świeżej bazylii
+  amount: 20
+  unit: g
+- name: oliwy z oliwek
+  amount: 20
+  unit: g
+- name: pietruszki
+  amount: 10
+  unit: g
+- name: papryki słodkiej
+  amount: 6
+  unit: g
+- name: płatków chili
+  amount: 2
+  unit: g
+- name: kurkumy
+  amount: 1
+  unit: g
+- name: imbiru mielonego
+  amount: 1
+  unit: g
+- name: grzanki z serem/tosty z serem
+  amount: 1
+  unit: szt.
 servings: 4
 prep_time: 15
 cook: true
@@ -31,7 +77,7 @@ protein: 14.3
 fat: 23.8
 carbohydrate: 26.3
 fodmap:
-  status: no
+  status: false
   serving_ok: Unikaj bez modyfikacji
   notes: Zawiera dużą ilość cebuli i czosnku, czyli typowe źródła fruktanów. Kalafior też wymaga kontroli porcji przy wrażliwym żołądku.
   substitutions:

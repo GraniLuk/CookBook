@@ -1,26 +1,49 @@
 ---
-title: "Coco Curry Chicken"
-author: "Policzona Szama"
+title: Coco Curry Chicken
+author: Policzona Szama
 categories:
-  - obiady
+- obiady
 draft: false
 readyToTest: false
 queued: false
-link: "https://www.youtube.com/watch?v=rVjXyy83-Fg"
+link: https://www.youtube.com/watch?v=rVjXyy83-Fg
 recipe_image: images/recipe-headers/coco-curry-chicken.avif
 video_file: videos/coco-curry-chicken.webm
-date: 2026-04-11T09:43:07+00:00
+date: 2026-04-11 09:43:07+00:00
 tags:
-  - lunchbox
-  - azjatyckie
-  - jednogarnkowe
-tagline: "Kremowe kokosowe curry, soczysty kurczak, ryż, brokuł i marchewka. Turbo leniwe danie z piekarnika."
+- lunchbox
+- azjatyckie
+- jednogarnkowe
+tagline: Kremowe kokosowe curry, soczysty kurczak, ryż, brokuł i marchewka. Turbo leniwe danie z piekarnika.
 ingredients:
-  - "ryż parboiled"
-  - "pierś z kurczaka"
-  - "mleko kokosowe"
-  - "brokuł"
-  - "marchew"
+- ryż parboiled
+- pierś z kurczaka
+- mleko kokosowe
+- brokuł
+- marchew
+shopping_ingredients:
+- name: ryżu parboiled
+  amount: 200
+  unit: g
+  note: konieczny, inaczej danie z piekarnika może się nie udać
+- name: pierś z kurczaka
+  amount: 600
+  unit: g
+- name: mleczka kokosowego
+  amount: 400
+  unit: g
+  note: 1 puszka
+- name: pasty red curry
+  amount: 25
+  unit: g
+- name: brokuł
+  amount: 500
+  unit: g
+  note: 1 brokuł
+- name: marchew
+  amount: 230
+  unit: g
+  note: 2 marchewki
 servings: 4
 prep_time: 10
 cook: true
@@ -30,11 +53,11 @@ protein: 42
 fat: 23
 carbohydrate: 58
 fodmap:
-  status: "no"
-  serving_ok: "Unikaj"
-  notes: "Pasta curry zazwyczaj zawiera czosnek i cebulę, które są wykluczone w diecie FODMAP. Pozostałe składniki są bezpieczne w użytych proporcjach."
-  substitutions: 
-    - "Zastąp gotową pastę curry domową mieszanką przypraw bez czosnku i cebuli."
+  status: 'no'
+  serving_ok: Unikaj
+  notes: Pasta curry zazwyczaj zawiera czosnek i cebulę, które są wykluczone w diecie FODMAP. Pozostałe składniki są bezpieczne w użytych proporcjach.
+  substitutions:
+  - Zastąp gotową pastę curry domową mieszanką przypraw bez czosnku i cebuli.
 ---
 
 ## Składniki

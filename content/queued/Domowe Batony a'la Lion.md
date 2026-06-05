@@ -20,6 +20,24 @@ ingredients:
 - masło orzechowe
 - orzechy ziemne
 - czekolada gorzka
+shopping_ingredients:
+- name: daktyle
+  amount: 110
+  unit: g
+- name: wafli ryżowych
+  amount: 40
+  unit: g
+- name: masła orzechowego
+  amount: 6
+  unit: łyżki
+  note: ok. 90 g
+- name: orzechy ziemne
+  amount: 80
+  unit: g
+- name: czekolady
+  amount: 0.5
+  unit: szt.
+  note: np. gorzkiej - do polania, ok. 50 g
 servings: 12
 prep_time: 75
 cook: false

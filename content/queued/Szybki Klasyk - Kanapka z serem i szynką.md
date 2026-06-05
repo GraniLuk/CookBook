@@ -18,6 +18,29 @@ ingredients:
 - szynka wiejska
 - pomidor malinowy
 - kiełki
+shopping_ingredients:
+- name: bułka
+  amount: 1
+  unit: szt.
+  note: 240g
+- name: roszponka
+  amount: 1
+  unit: szt.
+- name: sera żółtego
+  amount: 100
+  unit: g
+  note: np. Królewski, 6 plasterków
+- name: szynka wiejska
+  amount: 120
+  unit: g
+- name: pomidor malinowy
+  amount: 1
+  unit: szt.
+  note: grubo pokrojony
+- name: kiełki
+  amount: 1
+  unit: szt.
+  note: lub rzodkiewki
 servings: 2
 prep_time: 3
 cook: false

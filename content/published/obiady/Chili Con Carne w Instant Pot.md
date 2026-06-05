@@ -18,6 +18,71 @@ ingredients:
 - marchew
 - pomidory
 - fasola czerwona
+shopping_ingredients:
+- name: wołowina
+  amount: 550
+  unit: g
+  note: na drobnych oczkach
+- name: cebula
+  amount: 300
+  unit: g
+  note: 2 szt.; pokrojone w kostkę
+- name: czosnek
+  amount: 15
+  unit: g
+  note: 5 ząbki; przeciśniętych przez praskę
+- name: marchew
+  amount: 350
+  unit: g
+  note: 2 szt.; ok. 300-400g; połowa w plastry 4mm, połowa cieńsza; pokrojone w różnej grubości
+- name: pomidory suszone
+  amount: 30
+  unit: g
+  note: 10 szt.; pokrojonych
+- name: pomidory Pelati
+  amount: 800
+  unit: g
+  note: 2 puszki; 800g; pokrojonych w kostkę
+- name: fasola czerwona
+  amount: 400
+  unit: g
+  note: 1 puszka; 400g
+- name: rosół wołowy lub drobiowy
+  amount: 875
+  unit: ml
+  note: 750 ml-1 l
+- name: kumin
+  amount: 10
+  unit: g
+  note: 2 łyżki; kminu rzymskiego
+- name: oregano
+  amount: 4
+  unit: g
+  note: 2 łyżki
+- name: papryczka chili
+  amount: 1
+  unit: g
+  note: 1/2 łyżeczki; lub więcej do smaku
+- name: masło klarowane
+  amount: 25
+  unit: g
+  note: 2 łyżki
+- name: nachosy
+  amount: 1
+  unit: szt.
+  note: solone lub serowe
+- name: ser cheddar
+  amount: 1
+  unit: szt.
+  note: starty
+- name: natka pietruszki
+  amount: 1
+  unit: szt.
+  note: posiekana
+- name: płatki chili
+  amount: 1
+  unit: szt.
+  note: dla chętnych na większą ostrość
 servings: 6
 prep_time: 20
 cook: true

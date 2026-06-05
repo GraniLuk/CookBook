@@ -21,6 +21,37 @@ ingredients:
 - ser grana padano
 - oliwa z oliwek
 - natka pietruszki
+shopping_ingredients:
+- name: makaron tagliatelle
+  amount: 120
+  unit: g
+- name: pierś z kurczaka
+  amount: 200
+  unit: g
+- name: szpinak
+  amount: 100
+  unit: g
+- name: pomidory koktajlowe
+  amount: 200
+  unit: g
+- name: cebula
+  amount: 1
+  unit: szt.
+- name: pomidory suszone
+  amount: 50
+  unit: g
+- name: sera grana padano
+  amount: 20
+  unit: g
+- name: oliwy z oliwek
+  amount: 10
+  unit: g
+- name: natki pietruszki
+  amount: 15
+  unit: g
+- name: papryki słodkiej
+  amount: 5
+  unit: g
 servings: 2
 prep_time: 20
 cook: true

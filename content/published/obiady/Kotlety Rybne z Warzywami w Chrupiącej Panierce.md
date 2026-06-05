@@ -23,6 +23,34 @@ ingredients:
 - jajko
 - płatki kukurydziane
 - mozzarella
+shopping_ingredients:
+- name: filet z halibuta
+  amount: 400
+  unit: g
+- name: cebula
+  amount: 0.5
+  unit: szt.
+- name: papryka czerwona
+  amount: 0.25
+  unit: szt.
+- name: marchewka
+  amount: 1
+  unit: szt.
+- name: błyskawicznej kaszy manny
+  amount: 1
+  unit: łyżka
+- name: jajko
+  amount: 1
+  unit: szt.
+- name: płatki kukurydziane
+  amount: 1
+  unit: szklanka
+- name: olej rzepakowy do smażenia
+  amount: 1
+  unit: szt.
+- name: mozzarella
+  amount: 1
+  unit: szt.
 servings: 3
 prep_time: 20
 cook: true

@@ -21,6 +21,32 @@ ingredients:
 - żurawina suszona
 - orzechy włoskie
 - czekolada gorzka
+shopping_ingredients:
+- name: mascarpone
+  amount: 250
+  unit: g
+- name: herbatniki
+  amount: 220
+  unit: g
+- name: kakao
+  amount: 30
+  unit: g
+- name: płatki czekoladowe
+  amount: 90
+  unit: g
+- name: żurawina suszona
+  amount: 30
+  unit: g
+- name: orzechy włoskie
+  amount: 30
+  unit: g
+- name: czekolada gorzka
+  amount: 30
+  unit: g
+- name: Cukier puder do posypania
+  amount: 1
+  unit: szt.
+  note: opcjonalnie
 servings: 8
 prep_time: 20
 cook: false

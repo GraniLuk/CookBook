@@ -2,9 +2,9 @@
 title: Pudding Truskawkowo-Bananowy z Polewą Czekoladowo-Orzechową
 author: Autor Przepisu
 categories:
-  - śniadania
+- śniadania
 subcategories:
-  - słodkie
+- słodkie
 draft: false
 readyToTest: false
 queued: false
@@ -13,17 +13,50 @@ link: https://youtu.be/SQ4saBQrBYc?t=115
 recipe_image: images/defaultImage.avif
 date: 2025-06-19 12:00:00+00:00
 tags:
-  - owsianka
+- owsianka
 tagline: Wysokobiałkowy pudding idealny na letnie śniadanie!
 ingredients:
-  - truskawki
-  - banan
-  - twaróg
-  - płatki owsiane
-  - napój owsiany
-  - miód
-  - czekolada gorzka
-  - masło orzechowe
+- truskawki
+- banan
+- twaróg
+- płatki owsiane
+- napój owsiany
+- miód
+- czekolada gorzka
+- masło orzechowe
+shopping_ingredients:
+- name: truskawki
+  amount: 300
+  unit: g
+  note: do blendowania
+- name: banan
+  amount: 2
+  unit: szt.
+- name: twaróg
+  amount: 1
+  unit: szt.
+  note: ok. 300g
+- name: płatki owsiane
+  amount: 150
+  unit: g
+  note: 50g na porcję
+- name: kropli aromatu waniliowego
+  amount: 6
+  unit: szt.
+- name: napój owsiany
+  amount: 1
+  unit: szt.
+  note: mleko owsiane; około 100ml
+- name: miód
+  amount: 1
+  unit: szt.
+- name: czekolada gorzka
+  amount: 50
+  unit: g
+  note: 1/2 tabliczki
+- name: masła orzechowego
+  amount: 30
+  unit: g
 servings: 3
 prep_time: 15
 cook: false
@@ -34,15 +67,12 @@ fat: 4
 carbohydrate: 15
 fodmap:
   status: depends
-  serving_ok: "OK po modyfikacjach: nabiał bez laktozy; napój ryżowy; banan ≤ 1/2
-    na porcję"
-  notes: Płatki owsiane zwykle OK w umiarkowanej porcji; banany podnoszą FODMAP
-    przy większej ilości. Twaróg wymaga wersji bez laktozy; unikaj napoju
-    owsianego.
+  serving_ok: 'OK po modyfikacjach: nabiał bez laktozy; napój ryżowy; banan ≤ 1/2 na porcję'
+  notes: Płatki owsiane zwykle OK w umiarkowanej porcji; banany podnoszą FODMAP przy większej ilości. Twaróg wymaga wersji bez laktozy; unikaj napoju owsianego.
   substitutions:
-    - twaróg -> skyr/twaróg bez laktozy
-    - napój owsiany -> napój ryżowy lub mleko bez laktozy
-    - część banana -> więcej truskawek
+  - twaróg -> skyr/twaróg bez laktozy
+  - napój owsiany -> napój ryżowy lub mleko bez laktozy
+  - część banana -> więcej truskawek
 ---
 
 ## Składniki

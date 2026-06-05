@@ -20,6 +20,28 @@ ingredients:
 - cebula
 - szpinak
 - ser feta
+shopping_ingredients:
+- name: bataty
+  amount: 2
+  unit: szt.
+  note: ok. 450g
+- name: jajek
+  amount: 9
+  unit: szt.
+  note: po 3 na porcję
+- name: papryka
+  amount: 1
+  unit: szt.
+- name: cebula
+  amount: 0.5
+  unit: szt.
+- name: szpinak
+  amount: 1
+  unit: garście
+- name: sera typu feta
+  amount: 0.5
+  unit: opak.
+  note: np. Alafeta
 servings: 3
 prep_time: 15
 cook: true

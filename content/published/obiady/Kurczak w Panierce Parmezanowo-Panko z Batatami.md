@@ -20,6 +20,44 @@ ingredients:
 - cebula czerwona
 - pomidorki cherry
 - cytryna
+shopping_ingredients:
+- name: bataty
+  amount: 2
+  unit: szt.
+  note: około 600g
+- name: kurczak
+  amount: 3
+  unit: szt.
+  note: około 600g
+- name: panko
+  amount: 100
+  unit: g
+- name: parmezan
+  amount: 100
+  unit: g
+  note: startego
+- name: oliwy z oliwek
+  amount: 30
+  unit: g
+- name: miksu sałat
+  amount: 150
+  unit: g
+- name: cebula czerwona
+  amount: 50
+  unit: g
+  note: kilka piórek
+- name: pomidorki cherry
+  amount: 10
+  unit: szt.
+  note: około 100g; przekrojonych na pół
+- name: cytryna
+  amount: 1
+  unit: szt.
+  note: około 15ml
+- name: mieszanki ziół
+  amount: 0.5
+  unit: łyżeczki
+  note: około 1g
 servings: 3
 prep_time: 20
 cook: true

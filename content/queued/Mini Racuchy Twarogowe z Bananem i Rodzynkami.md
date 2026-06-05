@@ -20,6 +20,33 @@ ingredients:
 - mleko
 - mąka orkiszowa
 - rodzynki
+shopping_ingredients:
+- name: twaróg
+  amount: 100
+  unit: g
+- name: jajko
+  amount: 1
+  unit: szt.
+- name: banan
+  amount: 1
+  unit: szt.
+  note: ~100 g
+- name: mleka
+  amount: 70.0
+  unit: ml
+  note: zacząć od 60 ml, ewentualnie dolać
+- name: proszku do pieczenia
+  amount: 0.5
+  unit: łyżeczki
+- name: mąki orkiszowej pełnoziarnistej
+  amount: 40
+  unit: g
+- name: rodzynki
+  amount: 25.0
+  unit: g
+- name: Olej w sprayu do smażenia
+  amount: 1
+  unit: szt.
 servings: 1
 prep_time: 5
 cook: true

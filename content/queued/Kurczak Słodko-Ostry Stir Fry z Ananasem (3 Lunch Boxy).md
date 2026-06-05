@@ -20,6 +20,70 @@ ingredients:
 - sos sojowy
 - miód
 - pasta yellow curry
+shopping_ingredients:
+- name: kurczak
+  amount: 425.0
+  unit: g
+  note: pokrojonego w kostkę ~2 cm
+- name: ryżu jaśminowego
+  amount: 240
+  unit: g
+  note: 80 g na porcję, sucha waga
+- name: sosu sojowego
+  amount: 1
+  unit: łyżka
+  note: do marynaty kurczaka
+- name: marchewka
+  amount: 150
+  unit: g
+  note: pokrojonej w drobną kosteczkę ~1 cm
+- name: papryka czerwona
+  amount: 1
+  unit: szt.
+  note: ~150 g, pokrojona w kosteczkę
+- name: czerwona cebula
+  amount: 1
+  unit: szt.
+  note: ~100 g, pokrojona w drobną kosteczkę
+- name: ananas
+  amount: 3
+  unit: plastry
+  note: ~120 g, pokrojone w kawałki; może być z puszki lub świeży
+- name: czosnku
+  amount: 3
+  unit: ząbki
+  note: lub ~3–4 normalne, wciśnięte przez praskę
+- name: Kawałek zielonej cebulki/dymki
+  amount: 1
+  unit: szt.
+  note: ~30 g, pokrojony
+- name: miodu
+  amount: 30
+  unit: g
+  note: preferowany gryczany, ~1 łyżka
+- name: sosu rybnego
+  amount: 12.5
+  unit: ml
+- name: Sok z 0
+  amount: 1
+  unit: szt.
+  note: jeśli ananas z puszki – cała limonka; jeśli świeży – 0,5; 5–1 limonki
+- name: pasty yellow curry
+  amount: 20
+  unit: g
+  note: ~1 duża łyżka
+- name: oleju do smażenia
+  amount: 30
+  unit: ml
+  note: 'podzielone: 15 ml na kurczaka, 15 ml na warzywa'
+- name: orzechów nerkowca
+  amount: 15
+  unit: g
+  note: po 5 g na porcję, do ozdoby
+- name: Szczypiorek
+  amount: 1
+  unit: szt.
+  note: do ozdoby
 servings: 3
 prep_time: 20
 cook: true

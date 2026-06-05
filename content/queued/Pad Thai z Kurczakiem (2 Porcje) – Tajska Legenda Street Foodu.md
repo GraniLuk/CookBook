@@ -22,6 +22,65 @@ ingredients:
 - sos sojowy
 - orzeszki ziemne
 - kiełki fasoli mung
+shopping_ingredients:
+- name: kurczak
+  amount: 260
+  unit: g
+  note: 'z 1 ćwiartki, pokrojone w kawałki; alternatywy: pierś, tofu, krewetki, wołowina'
+- name: makaron ryżowy
+  amount: 140
+  unit: g
+  note: 70 g na porcję
+- name: jajka
+  amount: 2
+  unit: szt.
+  note: po 1 na porcję
+- name: szalotka
+  amount: 1
+  unit: szt.
+  note: ~30 g, pokrojona w cienkie plastry
+- name: czosnku
+  amount: 4
+  unit: ząbki
+  note: ~15 g, zmiażdżone i posiekane
+- name: sosu rybnego
+  amount: 20
+  unit: ml
+  note: z anchois/sardeli, ~20 g
+- name: cukru brązowego
+  amount: 40
+  unit: g
+  note: ~3 łyżki
+- name: sosu sojowego
+  amount: 30
+  unit: ml
+  note: ~30 g
+- name: pasty z tamaryndowca
+  amount: 35
+  unit: g
+  note: owoce tamaryndowca, NIE gotowy sos
+- name: Sok z 0
+  amount: 1
+  unit: szt.
+  note: druga połówka do podania; 5 limonki
+- name: płatków chili
+  amount: 1
+  unit: łyżeczka
+- name: orzeszki ziemne
+  amount: 20
+  unit: g
+  note: 'podzielone: połowa grubiej miażdżona, połowa drobno zmielona'
+- name: kiełki fasoli mung
+  amount: 75
+  unit: g
+  note: połowa paczki 150 g; reszta do garniszu
+- name: oleju do smażenia
+  amount: 22.5
+  unit: ml
+- name: oleju + odrobina sosu sojowego
+  amount: 7.5
+  unit: ml
+  note: do marynaty kurczaka
 servings: 2
 prep_time: 20
 cook: true

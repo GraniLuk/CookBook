@@ -18,6 +18,40 @@ ingredients:
 - burrata
 - oliwa z oliwek
 - pistacje
+shopping_ingredients:
+- name: kuskus
+  amount: 100
+  unit: g
+- name: rukola
+  amount: 4
+  unit: garście
+  note: ~80 g
+- name: truskawki
+  amount: 160
+  unit: g
+- name: burrata
+  amount: 126
+  unit: g
+  note: 1 opakowanie
+- name: oliwy z oliwek
+  amount: 20
+  unit: g
+- name: soku z cytryny
+  amount: 10
+  unit: g
+- name: miodu
+  amount: 10
+  unit: g
+- name: octu balsamicznego
+  amount: 10
+  unit: g
+- name: pistacje
+  amount: 20
+  unit: g
+- name: sosu balsamicznego
+  amount: 20
+  unit: g
+  note: opcjonalnie
 servings: 2
 prep_time: 10
 cook: false

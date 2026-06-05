@@ -10,7 +10,8 @@ favourite: false
 link: https://www.youtube.com/watch?v=aUohiReA3gQ
 recipe_image: images/recipe-headers/sniadaniowe_rogaliki_makiem.avif
 date: 2025-12-28 12:00:00+00:00
-tags: ["rogaliki"]
+tags:
+- rogaliki
 tagline: Ulubione śniadaniowe rogaliki z makiem, idealne z jajkiem na twardo i majonezem albo z masłem i domowym powidełkiem.
 ingredients:
 - mąka pszenna
@@ -18,6 +19,29 @@ ingredients:
 - mleko
 - olej
 - mak
+shopping_ingredients:
+- name: mąki pszennej
+  amount: 620
+  unit: g
+- name: świeżych drożdży
+  amount: 25
+  unit: g
+- name: cukru
+  amount: 1
+  unit: łyżeczka
+- name: jajka
+  amount: 2
+  unit: szt.
+- name: letniego mleka
+  amount: 120
+  unit: ml
+- name: oleju
+  amount: 4
+  unit: łyżki
+- name: ilość maku
+  amount: 50
+  unit: g
+  note: ok. 50 g
 servings: 8
 prep_time: 30
 cook: true

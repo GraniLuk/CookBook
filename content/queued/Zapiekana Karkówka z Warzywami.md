@@ -7,7 +7,7 @@ readyToTest: true
 queued: true
 recipe_image: images/recipe-headers/zapiekana_karkówka.avif
 date: 2025-06-28 12:00:00+00:00
-tags:
+tags: null
 tagline: Porcja dla głodomików – karkówka przysmażona na złoty kolor, zapiekana z papryką, pieczarkami i cebulą w sosie pomidorowym.
 ingredients:
 - karkówka wieprzowa
@@ -17,6 +17,49 @@ ingredients:
 - cebula
 - pomidory krojone
 - olej
+shopping_ingredients:
+- name: karkówki
+  amount: 1
+  unit: kg
+- name: 1½ łyżki oleju lub smalcu
+  amount: 1
+  unit: szt.
+- name: papryka czerwona
+  amount: 1
+  unit: szt.
+- name: papryka zielona
+  amount: 1
+  unit: szt.
+- name: pieczarki
+  amount: 400
+  unit: g
+- name: cebula
+  amount: 2
+  unit: szt.
+- name: pomidorów z puszki
+  amount: 400
+  unit: g
+- name: koncentratu pomidorowego
+  amount: 1
+  unit: łyżka
+- name: musztardy francuskiej
+  amount: 2
+  unit: łyżki
+- name: wędzonej papryki
+  amount: 1
+  unit: łyżka
+- name: majeranku
+  amount: 1
+  unit: łyżka
+- name: granulowanego czosnku
+  amount: 1
+  unit: łyżeczka
+- name: liście laurowe
+  amount: 3
+  unit: szt.
+- name: pęczka pietruszki do ozdoby
+  amount: 0.25
+  unit: szt.
 servings: 5
 prep_time: 25
 cook: true

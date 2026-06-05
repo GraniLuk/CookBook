@@ -19,7 +19,36 @@ tagline: Wysokobiałkowa pasta jajeczna ze skyrem i czerwoną cebulą.
 ingredients:
 - jajka
 - jogurt skyr
-- cebula czerwona 
+- cebula czerwona
+shopping_ingredients:
+- name: grahamek
+  amount: 300
+  unit: g
+  note: 4 szt.
+- name: jajek M
+  amount: 12
+  unit: szt.
+- name: skyru naturalnego
+  amount: 200
+  unit: g
+- name: sosu sriracha
+  amount: 25
+  unit: g
+- name: wędzonej papryki
+  amount: 1
+  unit: łyżeczka
+- name: czosnku granulowanego
+  amount: 0.5
+  unit: łyżeczki
+- name: płatków chilli
+  amount: 0.5
+  unit: łyżeczki
+- name: cebula czerwona
+  amount: 60
+  unit: g
+- name: pęczka szczypiorku
+  amount: 0.5
+  unit: szt.
 servings: 4
 prep_time: 10
 cook: true

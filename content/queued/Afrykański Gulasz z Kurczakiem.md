@@ -22,6 +22,48 @@ ingredients:
 - cebula
 - marchewka
 - cukinia
+shopping_ingredients:
+- name: pierś z kurczaka
+  amount: 400
+  unit: g
+- name: bataty
+  amount: 1
+  unit: szt.
+  note: ~300g
+- name: masło orzechowe
+  amount: 80
+  unit: g
+- name: Oliwa
+  amount: 15
+  unit: g
+- name: pomidory krojone
+  amount: 40
+  unit: g
+  note: puszka
+- name: koncentrat pomidorowy
+  amount: 15
+  unit: g
+- name: papryka zielona
+  amount: 1
+  unit: szt.
+- name: cebula
+  amount: 1
+  unit: szt.
+- name: marchewka
+  amount: 1
+  unit: szt.
+- name: cukinia
+  amount: 1
+  unit: szt.
+- name: Czosnek
+  amount: 3.5
+  unit: ząbki
+- name: Liść laurowy
+  amount: 1.5
+  unit: szt.
+- name: Papryczka chili – według gustu
+  amount: 1
+  unit: szt.
 servings: 3
 prep_time: 15
 cook: true

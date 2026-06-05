@@ -10,14 +10,30 @@ favourite: false
 recipe_image: images/recipe-headers/placki_z_serka_wiejskiego.avif
 date: 2025-06-19 12:00:00+00:00
 tags:
-  - Stefan
-  - placki
+- Stefan
+- placki
 tagline: Zdrowe placki z serka wiejskiego!
 ingredients:
-  - banan
-  - serek wiejski
-  - mąka pszenna
-  - jajka
+- banan
+- serek wiejski
+- mąka pszenna
+- jajka
+shopping_ingredients:
+- name: banan
+  amount: 1
+  unit: szt.
+  note: 120g
+- name: serek wiejski
+  amount: 1
+  unit: szt.
+  note: 200g
+- name: mąki orkiszowej lub pszennej
+  amount: 120
+  unit: g
+- name: jajka
+  amount: 2
+  unit: szt.
+  note: 120g
 servings: 12
 prep_time: 10
 cook: true
@@ -27,13 +43,13 @@ protein: 10
 fat: 4
 carbohydrate: 21
 fodmap:
-  status: no
+  status: false
   serving_ok: Mała porcja - zamień mąkę, uważaj na banan
   notes: Banan (1/2 max), mąka orkiszowa/pszenna problematyczna
   substitutions:
-    - mąka pszenna/orkiszowa -> mąka ryżowa
-    - duży banan -> 1/2 banana
-    - serek wiejski -> sprawdź czy bezlaktozowy
+  - mąka pszenna/orkiszowa -> mąka ryżowa
+  - duży banan -> 1/2 banana
+  - serek wiejski -> sprawdź czy bezlaktozowy
 ---
 
 ## Składniki

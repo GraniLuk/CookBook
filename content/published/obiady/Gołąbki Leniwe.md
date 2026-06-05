@@ -19,6 +19,52 @@ ingredients:
 - passata pomidorowa
 - koperek
 - śmietana 30%
+shopping_ingredients:
+- name: mięsa mielonego wieprzowego
+  amount: 400
+  unit: g
+- name: białej kapusty
+  amount: 450
+  unit: g
+- name: jajko
+  amount: 1
+  unit: szt.
+  note: 60g
+- name: słodkiej papryki
+  amount: 1
+  unit: łyżeczka
+  note: 2g
+- name: kurkumy
+  amount: 0.5
+  unit: łyżeczki
+  note: 1g
+- name: koncentrat pomidorowy
+  amount: 1
+  unit: łyżka
+  note: 15g
+- name: czosnek
+  amount: 1
+  unit: ząbek
+  note: 3g
+- name: passata pomidorowa
+  amount: 800
+  unit: ml
+- name: koperek
+  amount: 3
+  unit: łyżki
+  note: 15g
+- name: liście laurowe
+  amount: 3
+  unit: szt.
+  note: 1g
+- name: śmietana 30%
+  amount: 2
+  unit: łyżki
+  note: 30g
+- name: cukru kokosowego
+  amount: 1
+  unit: łyżka
+  note: 15g
 servings: 9
 prep_time: 20
 cook: true

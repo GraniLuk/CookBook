@@ -16,6 +16,25 @@ ingredients:
 - masło orzechowe
 - oliwa z oliwek
 - limonka
+shopping_ingredients:
+- name: kurczak
+  amount: 600
+  unit: g
+- name: masła orzechowego
+  amount: 60
+  unit: g
+- name: limonka
+  amount: 2
+  unit: szt.
+- name: czosnku
+  amount: 3
+  unit: ząbki
+- name: papryczka chili
+  amount: 1
+  unit: szt.
+- name: oleju
+  amount: 15
+  unit: ml
 servings: 3
 prep_time: 20
 cook: true
@@ -27,10 +46,10 @@ fat: 20
 carbohydrate: 10
 fodmap:
   status: depends
-  serving_ok: "Wymaga modyfikacji"
+  serving_ok: Wymaga modyfikacji
   notes: Oryginalny przepis zawiera świeży czosnek, który jest mocnym triggerem fruktanowym (High-FODMAP). Aby danie było bezpieczne, należy zastosować zamiennik.
   substitutions:
-  - 'Świeży czosnek i zwykła oliwa -> zastąp oliwą czosnkową (fruktany z czosnku nie rozpuszczają się w tłuszczach, więc oliwa daje smak, ale jest w 100% low-FODMAP).'
+  - Świeży czosnek i zwykła oliwa -> zastąp oliwą czosnkową (fruktany z czosnku nie rozpuszczają się w tłuszczach, więc oliwa daje smak, ale jest w 100% low-FODMAP).
 ---
 
 ## Składniki

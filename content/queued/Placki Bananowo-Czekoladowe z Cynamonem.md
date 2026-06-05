@@ -19,6 +19,30 @@ ingredients:
 - ser wiejski
 - jajko
 - oliwa z oliwek
+shopping_ingredients:
+- name: banan
+  amount: 2
+  unit: szt.
+  note: ok. 200g
+- name: czekolada
+  amount: 100
+  unit: g
+  note: tabliczka
+- name: płatki jaglane
+  amount: 100
+  unit: g
+- name: serka wiejskiego
+  amount: 200
+  unit: g
+- name: jajko
+  amount: 1
+  unit: szt.
+- name: cynamonu
+  amount: 1
+  unit: łyżeczka
+- name: oliwy z oliwek
+  amount: 20
+  unit: g
 servings: 4
 prep_time: 10
 cook: true

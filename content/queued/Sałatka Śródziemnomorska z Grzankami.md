@@ -21,6 +21,38 @@ ingredients:
 - pstrąg wędzony
 - chleb
 - oliwa z oliwek
+shopping_ingredients:
+- name: mixu sałat
+  amount: 200
+  unit: g
+- name: pomidorki koktajlowe
+  amount: 100
+  unit: g
+  note: ok. 100g
+- name: papryka czerwona
+  amount: 1
+  unit: szt.
+  note: ok. 100g
+- name: cebula czerwona
+  amount: 50
+  unit: g
+  note: ok. 50g
+- name: oliwek
+  amount: 1
+  unit: szt.
+  note: ok. 50g, pokrojonych
+- name: pstrąg wędzony
+  amount: 2
+  unit: opak.
+  note: ok. 260g
+- name: oliwa z oliwek
+  amount: 1
+  unit: szt.
+  note: do smaku; ocet, zioła
+- name: chleb
+  amount: 1
+  unit: szt.
+  note: 4 grube kromki; 15ml oliwy z oliwek, mieszanka ziół, szczypta suszonego czosnku
 servings: 3
 prep_time: 20
 cook: true

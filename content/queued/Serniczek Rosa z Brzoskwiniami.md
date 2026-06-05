@@ -21,6 +21,39 @@ ingredients:
 - mascarpone
 - jajka
 - brzoskwinie konserwowe
+shopping_ingredients:
+- name: ciastka owsiane
+  amount: 260
+  unit: g
+- name: masła
+  amount: 70
+  unit: g
+- name: twaróg sernikowy
+  amount: 1
+  unit: kg
+  note: dobrej jakości
+- name: mascarpone
+  amount: 250
+  unit: g
+- name: jajka
+  amount: 3
+  unit: szt.
+- name: żółtka
+  amount: 4
+  unit: szt.
+- name: cukru
+  amount: 160
+  unit: g
+- name: budyniu śmietankowego lub waniliowego
+  amount: 2
+  unit: łyżki
+- name: białka
+  amount: 4
+  unit: szt.
+- name: puszka brzoskwiń
+  amount: 1
+  unit: szt.
+  note: odsączonych
 servings: 16
 prep_time: 30
 cook: true

@@ -17,6 +17,30 @@ ingredients:
 - oliwa czosnkowa
 - koperek
 - skórka cytrynowa
+shopping_ingredients:
+- name: łosoś
+  amount: 600
+  unit: g
+  note: świeży, najlepiej w jednym kawałku
+- name: majonez
+  amount: 75
+  unit: g
+  note: lub innego ulubionego majonezu
+- name: oliwy czosnkowej
+  amount: 1
+  unit: łyżeczka
+  note: zamiast czosnku, opcjonalnie
+- name: koperek
+  amount: 1
+  unit: szt.
+  note: drobno posiekanego
+- name: skórka cytrynowa
+  amount: 1
+  unit: szt.
+  note: tylko żółta część
+- name: Papier do pieczenia
+  amount: 1
+  unit: szt.
 servings: 3
 prep_time: 10
 cook: true

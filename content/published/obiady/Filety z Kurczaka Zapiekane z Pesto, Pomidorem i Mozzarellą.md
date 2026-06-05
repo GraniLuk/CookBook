@@ -19,6 +19,27 @@ ingredients:
 - pesto zielone
 - pomidory
 - oliwa z oliwek
+shopping_ingredients:
+- name: filety z kurczaka
+  amount: 2
+  unit: szt.
+  note: ok. 500 g
+- name: mozzarella
+  amount: 100
+  unit: g
+  note: w kawałku, startej
+- name: pesto zielone
+  amount: 4
+  unit: łyżki
+- name: pomidory
+  amount: 1
+  unit: szt.
+- name: oliwa extra vergine do drażnienia
+  amount: 1
+  unit: szt.
+- name: bazylia do dekoracji
+  amount: 1
+  unit: szt.
 servings: 3
 prep_time: 10
 cook: true

@@ -21,6 +21,40 @@ ingredients:
 - masło
 - cytryna
 - cukier
+shopping_ingredients:
+- name: ciastka oreo
+  amount: 230
+  unit: g
+- name: roztopionego masła
+  amount: 50
+  unit: g
+- name: twaróg sernikowy
+  amount: 1
+  unit: kg
+- name: jajka
+  amount: 4
+  unit: szt.
+- name: mąki pszennej
+  amount: 1
+  unit: łyżka
+- name: słodzonego mleka skondensowanego
+  amount: 350
+  unit: g
+- name: żółtka
+  amount: 2
+  unit: szt.
+- name: cytryna
+  amount: 1
+  unit: szt.
+- name: cukru
+  amount: 180
+  unit: g
+- name: masła
+  amount: 80
+  unit: g
+- name: białka
+  amount: 2
+  unit: szt.
 servings: 12
 prep_time: 40
 cook: true

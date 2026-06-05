@@ -1,35 +1,79 @@
 ---
-title: "Całonocna Owsianka Bananowo-Cynamonowa"
-author: "Policzona Szama"
+title: Całonocna Owsianka Bananowo-Cynamonowa
+author: Policzona Szama
 categories: śniadania
 subcategories: słodkie
 draft: false
 readyToTest: true
 queued: true
 favourite: false
-link: ""
+link: ''
 recipe_image: images/recipe-headers/calonocna-owsianka-bananowo-cynamonowa.avif
 video_file: videos/calonocna-owsianka-bananowo-cynamonowa.webm
-date: 2026-05-13T21:38:00+02:00
-tags: ["bez gotowania", "owsianka", "proteinowe", "słodkie", "lunchbox"]
-tagline: "Kremowa, sycąca owsianka z bananami i masłem orzechowym, przygotowywana bez gotowania."
-ingredients: ["twaróg chudy", "jogurt skyr", "banan", "masło orzechowe", "mleko", "płatki owsiane", "nasiona chia"]
+date: 2026-05-13 21:38:00+02:00
+tags:
+- bez gotowania
+- owsianka
+- proteinowe
+- słodkie
+- lunchbox
+tagline: Kremowa, sycąca owsianka z bananami i masłem orzechowym, przygotowywana bez gotowania.
+ingredients:
+- twaróg chudy
+- jogurt skyr
+- banan
+- masło orzechowe
+- mleko
+- płatki owsiane
+- nasiona chia
+shopping_ingredients:
+- name: twarogu chudego
+  amount: 250
+  unit: g
+- name: skyru naturalnego
+  amount: 150
+  unit: g
+- name: banan
+  amount: 2
+  unit: szt.
+  note: ok. 200 g po obraniu
+- name: masła orzechowego
+  amount: 45
+  unit: g
+- name: mleka 1
+  amount: 450
+  unit: ml
+  note: 5%
+- name: cynamonu
+  amount: 1
+  unit: łyżka
+- name: Erytrytol
+  amount: 1
+  unit: szt.
+  note: opcjonalnie, do smaku
+- name: płatki owsiane
+  amount: 60
+  unit: g
+- name: nasiona chia
+  amount: 3
+  unit: g
+  note: 1 łyżeczka
 servings: 3
 prep_time: 10
 cook: false
-cook_time: "0"
+cook_time: '0'
 calories: 548
 protein: 39
 fat: 16
 carbohydrate: 67
 fodmap:
-  status: "no"
-  notes: "Zawiera laktozę (twaróg, skyr, mleko) oraz dojrzałe banany, które są zasobne w FODMAP."
+  status: 'no'
+  notes: Zawiera laktozę (twaróg, skyr, mleko) oraz dojrzałe banany, które są zasobne w FODMAP.
   substitutions:
-    - "Użyj twarogu i skyru bez laktozy."
-    - "Użyj mleka bez laktozy lub napoju migdałowego."
-    - "Użyj mniej dojrzałych bananów (z zielonkawą końcówką)."
-  serving_ok: "Unikaj"
+  - Użyj twarogu i skyru bez laktozy.
+  - Użyj mleka bez laktozy lub napoju migdałowego.
+  - Użyj mniej dojrzałych bananów (z zielonkawą końcówką).
+  serving_ok: Unikaj
 ---
 
 ## Składniki

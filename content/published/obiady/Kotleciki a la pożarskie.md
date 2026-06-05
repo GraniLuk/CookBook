@@ -16,6 +16,23 @@ ingredients:
 - dynia
 - por
 - mąka jaglana
+shopping_ingredients:
+- name: pierś z kurczaka
+  amount: 600
+  unit: g
+  note: może być kawałek
+- name: jajko
+  amount: 1
+  unit: szt.
+  note: 60g
+- name: warzywa
+  amount: 200
+  unit: g
+  note: kawałek marchewki, dyni, pora
+- name: mąki jaglanej lub innej
+  amount: 4
+  unit: łyżki
+  note: 60g
 servings: 6
 prep_time: 15
 cook: true

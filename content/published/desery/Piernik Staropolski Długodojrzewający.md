@@ -27,6 +27,50 @@ ingredients:
 - powidła śliwkowe
 - śmietanka 30%
 - czekolada gorzka
+shopping_ingredients:
+- name: mąki pszennej tortowej
+  amount: 1
+  unit: kg
+- name: prawdziwego płynnego miodu
+  amount: 500
+  unit: g
+  note: np. spadziowy
+- name: cukru
+  amount: 400
+  unit: g
+- name: masła 82%
+  amount: 250
+  unit: g
+- name: zimnego mleka
+  amount: 125
+  unit: ml
+- name: jajka
+  amount: 3
+  unit: szt.
+- name: sody oczyszczonej
+  amount: 3
+  unit: łyżeczki
+- name: przyprawy do piernika
+  amount: 50
+  unit: g
+- name: mleka
+  amount: 550
+  unit: ml
+- name: kaszy manny
+  amount: 8
+  unit: łyżki
+- name: miękkiego masła
+  amount: 140
+  unit: g
+- name: powidła śliwkowe
+  amount: 1
+  unit: szt.
+- name: czekolada gorzka
+  amount: 1
+  unit: szt.
+- name: Bakalie i słodycze do posypania
+  amount: 1
+  unit: szt.
 servings: 3
 prep_time: 20
 cook: true

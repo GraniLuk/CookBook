@@ -21,6 +21,37 @@ ingredients:
 - cytryna
 - białka jajek
 - płatki migdałów
+shopping_ingredients:
+- name: mąki pszennej
+  amount: 490
+  unit: g
+  note: ok. 3.5 szklanki
+- name: masła
+  amount: 200
+  unit: g
+- name: żółtka
+  amount: 4
+  unit: szt.
+- name: jogurt naturalny
+  amount: 2
+  unit: łyżki
+  note: opcjonalnie, do zagęszczenia
+- name: jabłek
+  amount: 500
+  unit: g
+- name: cukru
+  amount: 100
+  unit: g
+- name: cytryna
+  amount: 1
+  unit: szt.
+- name: białek
+  amount: 5
+  unit: szt.
+  note: świeże, w temperaturze pokojowej
+- name: płatki migdałów
+  amount: 3
+  unit: łyżki
 servings: 8
 prep_time: 45
 cook: true

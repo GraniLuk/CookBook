@@ -18,6 +18,29 @@ ingredients:
 - płatki owsiane
 - masło orzechowe
 - olej kokosowy
+shopping_ingredients:
+- name: jabłko
+  amount: 2
+  unit: szt.
+- name: nasiona chia
+  amount: 1
+  unit: łyżka
+- name: siemię lniane
+  amount: 1
+  unit: łyżka
+- name: płatki owsiane
+  amount: 100
+  unit: g
+- name: Cynamon
+  amount: 1
+  unit: szt.
+  note: do smaku
+- name: masła orzechowego
+  amount: 30
+  unit: g
+- name: oleju kokosowego
+  amount: 30
+  unit: g
 servings: 1
 prep_time: 10
 cook: true

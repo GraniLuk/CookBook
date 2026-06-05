@@ -21,6 +21,52 @@ ingredients:
 - por
 - ziemniaki
 - kapusta kiszona
+shopping_ingredients:
+- name: wędzonego boczku
+  amount: 300
+  unit: g
+- name: kiełbasa
+  amount: 300
+  unit: g
+- name: marchewka
+  amount: 1
+  unit: szt.
+- name: selera
+  amount: 150
+  unit: g
+- name: pietruszki
+  amount: 150
+  unit: g
+- name: Kawałek pora
+  amount: 1
+  unit: szt.
+- name: ziemniaki
+  amount: 1
+  unit: szt.
+- name: kapusta kiszona
+  amount: 300
+  unit: g
+- name: liście laurowe
+  amount: 3
+  unit: szt.
+- name: kulek ziela angielskiego
+  amount: 5
+  unit: szt.
+- name: Domowa jarzynka
+  amount: 1
+  unit: szt.
+- name: Suszony majeranek
+  amount: 1
+  unit: szt.
+- name: sosu sojowego
+  amount: 3
+  unit: łyżki
+- name: przecieru pomidorowego
+  amount: 4
+  unit: łyżki
+- name: Pęczek świeżej natki pietruszki
+  amount: 1
+  unit: szt.
 servings: 4
 prep_time: 15
 cook: true

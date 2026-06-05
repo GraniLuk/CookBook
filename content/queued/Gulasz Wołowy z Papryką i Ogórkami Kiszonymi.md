@@ -9,7 +9,7 @@ link: https://www.youtube.com/watch?v=3VzPFiF8mxY
 recipe_image: images/recipe-headers/gulasz_wolowy.avif
 video_file: videos/gulasz_wolowy.webm
 date: 2026-01-09 12:00:00+00:00
-tags:
+tags: null
 tagline: Aromatyczny gulasz wołowy, idealny jako dodatek do placków ziemniaczanych.
 ingredients:
 - pręga wołowa
@@ -20,6 +20,49 @@ ingredients:
 - pomidory suszone
 - koncentrat pomidorowy
 - olej
+shopping_ingredients:
+- name: pręgi wołowej
+  amount: 600
+  unit: g
+- name: cebula
+  amount: 1
+  unit: szt.
+- name: papryka czerwona
+  amount: 1
+  unit: szt.
+- name: ogórki kiszone
+  amount: 2
+  unit: szt.
+  note: lub 1 duży
+- name: czosnek
+  amount: 4
+  unit: ząbki
+- name: pomidory suszone
+  amount: 1
+  unit: szt.
+  note: najlepiej w oleju z ziołami
+- name: koncentrat pomidorowy
+  amount: 1
+  unit: łyżka
+  note: ok. 40g
+- name: oleju rzepakowego
+  amount: 40
+  unit: ml
+- name: papryki słodkiej
+  amount: 1
+  unit: łyżka
+- name: papryki ostrej
+  amount: 1
+  unit: łyżeczka
+- name: papryki wędzonej
+  amount: 1
+  unit: łyżeczka
+- name: ziaren ziela angielskiego
+  amount: 1
+  unit: szt.
+- name: liście laurowe
+  amount: 2
+  unit: szt.
 servings: 4
 prep_time: 30
 cook: true

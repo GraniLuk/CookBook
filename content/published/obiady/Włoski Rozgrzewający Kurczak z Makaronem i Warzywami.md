@@ -21,6 +21,35 @@ ingredients:
 - marchewka
 - mascarpone
 - parmezan
+shopping_ingredients:
+- name: pierś z kurczaka
+  amount: 400
+  unit: g
+  note: pokrojonej w kostkę
+- name: makaron
+  amount: 200
+  unit: g
+- name: czosnek
+  amount: 2
+  unit: ząbki
+- name: passata pomidorowa
+  amount: 200
+  unit: ml
+- name: brokuł
+  amount: 1
+  unit: szt.
+  note: ok. 300g, zblanszowany
+- name: marchewka
+  amount: 1
+  unit: szt.
+  note: ok. 100g
+- name: mascarpone
+  amount: 50
+  unit: g
+- name: parmezan
+  amount: 30
+  unit: g
+  note: starty
 servings: 3
 prep_time: 10
 cook: true

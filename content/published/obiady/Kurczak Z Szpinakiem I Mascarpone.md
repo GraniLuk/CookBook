@@ -17,6 +17,40 @@ ingredients:
 - oliwa
 - bulion
 - cytryna
+shopping_ingredients:
+- name: filety z kurczaka
+  amount: 650
+  unit: g
+  note: 4 szt.; około 600-700g
+- name: szpinak
+  amount: 300
+  unit: g
+- name: mascarpone
+  amount: 250
+  unit: g
+- name: cebula
+  amount: 1
+  unit: szt.
+  note: 150g; drobno posiekana
+- name: czosnek
+  amount: 2
+  unit: ząbki
+  note: 6g; przeciśnięte przez praskę
+- name: oliwy z oliwek
+  amount: 2
+  unit: łyżki
+  note: 25g
+- name: bulion
+  amount: 100
+  unit: ml
+- name: 'opcjonalnie: gałka muszkatołowa'
+  amount: 1
+  unit: szt.
+  note: sok z cytryny
+- name: roszponka
+  amount: 1
+  unit: szt.
+  note: testowo
 servings: 4
 prep_time: 20
 cook: true

@@ -23,6 +23,50 @@ ingredients:
 - cebula czerwona
 - ogórek kiszony
 - ketchup
+shopping_ingredients:
+- name: filetu z kurczaka
+  amount: 500
+  unit: g
+- name: passata pomidorowa
+  amount: 250
+  unit: g
+- name: cebula lub 2 szalotki
+  amount: 1
+  unit: szt.
+  note: drobno pokrojone
+- name: czosnku
+  amount: 1
+  unit: ząbek
+  note: przeciśnięty lub drobno posiekany
+- name: sosu sojowego
+  amount: 1
+  unit: łyżka
+- name: słodkiej papryki
+  amount: 1
+  unit: łyżeczka
+- name: pomidor
+  amount: 1
+  unit: łyżeczka
+- name: pełnoziarniste bułki burgerowe
+  amount: 4
+  unit: szt.
+- name: sosu czosnkowego
+  amount: 120
+  unit: g
+- name: sałata lodowa
+  amount: 80
+  unit: g
+- name: cebula czerwona
+  amount: 1
+  unit: szt.
+  note: pokrojona w cienkie piórka
+- name: ogórki kiszone
+  amount: 2
+  unit: szt.
+  note: pokrojone w plastry
+- name: ketchup
+  amount: 4
+  unit: łyżeczki
 servings: 4
 prep_time: 20
 cook: true

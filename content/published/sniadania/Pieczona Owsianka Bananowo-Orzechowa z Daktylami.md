@@ -24,6 +24,29 @@ ingredients:
 - masło orzechowe
 - siemię lniane
 - daktyle
+shopping_ingredients:
+- name: banan
+  amount: 2
+  unit: szt.
+  note: do rozgniecenia
+- name: mleka około 180g
+  amount: 0.75
+  unit: szklanki
+- name: płatki owsiane
+  amount: 100
+  unit: g
+- name: miód
+  amount: 1
+  unit: szt.
+- name: masła orzechowego 20g
+  amount: 1
+  unit: łyżka
+- name: siemię lniane
+  amount: 10
+  unit: g
+- name: daktyle
+  amount: 50
+  unit: g
 servings: 2
 prep_time: 15
 cook: true

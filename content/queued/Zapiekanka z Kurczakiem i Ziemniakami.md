@@ -22,6 +22,46 @@ ingredients:
 - mozzarella
 - parmezan
 - oliwa z oliwek
+shopping_ingredients:
+- name: ziemniaki
+  amount: 1500
+  unit: g
+- name: oliwy
+  amount: 12
+  unit: g
+- name: 1/2 łyżeczki suszonego oregano
+  amount: 1
+  unit: szt.
+- name: 1/2 łyżeczki wędzonej papryki mielonej
+  amount: 1
+  unit: szt.
+- name: 1/2 łyżeczki przyprawy do mięs lub Szama Tuning
+  amount: 1
+  unit: szt.
+- name: pierś z kurczaka
+  amount: 900
+  unit: g
+- name: czosnku
+  amount: 6
+  unit: ząbki
+  note: ok. 30 g
+- name: przyprawy do mięs lub Szama Tuning
+  amount: 6
+  unit: łyżeczki
+- name: serka wiejskiego
+  amount: 400
+  unit: g
+  note: 2 kubki
+- name: parmezan
+  amount: 60
+  unit: g
+- name: mozzarella
+  amount: 1
+  unit: opak.
+  note: ok. 125 g
+- name: Natka pietruszki
+  amount: 1
+  unit: szt.
 servings: 6
 prep_time: 15
 cook: true

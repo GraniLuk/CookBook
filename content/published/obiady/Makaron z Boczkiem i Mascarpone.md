@@ -17,6 +17,37 @@ ingredients:
 - cebula
 - mascarpone
 - jogurt naturalny
+shopping_ingredients:
+- name: makaron
+  amount: 300
+  unit: g
+- name: surowego boczku wędzanego
+  amount: 300
+  unit: g
+  note: pokrojonego w słupki
+- name: pieczarki
+  amount: 300
+  unit: g
+  note: pokrojonych w plastry
+- name: cebula
+  amount: 1
+  unit: szt.
+  note: posiekana
+- name: mascarpone
+  amount: 250
+  unit: g
+- name: jogurt naturalny
+  amount: 30
+  unit: g
+- name: papryki słodkiej
+  amount: 1
+  unit: łyżeczka
+- name: curry
+  amount: 0.5
+  unit: łyżeczki
+- name: czosnku w proszku
+  amount: 0.25
+  unit: łyżeczki
 servings: 4
 prep_time: 15
 cook: true

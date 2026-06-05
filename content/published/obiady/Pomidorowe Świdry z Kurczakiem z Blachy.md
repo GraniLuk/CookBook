@@ -9,19 +9,56 @@ favourite: false
 link: https://youtu.be/lzksRF6xkVQ?t=679
 recipe_image: images/recipe-headers/pomidorowe_swidry_z_kurczakiem_z_blachy.avif
 video_file: videos/pomidorowe-swidry-z-kurczakiem-z-blachy.webm
-date: 2026-03-10T16:00:00+01:00
+date: 2026-03-10 16:00:00+01:00
 tags:
-  - lunchbox
-tagline: Makaron fusilli zapiekany z kurczakiem, papryką i mozzarellą w kremowym
-  sosie pomidorowym – cały obiad prosto z blachy.
+- lunchbox
+tagline: Makaron fusilli zapiekany z kurczakiem, papryką i mozzarellą w kremowym sosie pomidorowym – cały obiad prosto z blachy.
 ingredients:
-  - makaron fusilli
-  - pierś z kurczaka
-  - passata pomidorowa
-  - mascarpone
-  - mozzarella
-  - papryka czerwona
-  - papryka żółta
+- makaron fusilli
+- pierś z kurczaka
+- passata pomidorowa
+- mascarpone
+- mozzarella
+- papryka czerwona
+- papryka żółta
+shopping_ingredients:
+- name: passata pomidorowa
+  amount: 700
+  unit: g
+- name: mascarpone
+  amount: 125
+  unit: g
+- name: makaron fusilli
+  amount: 460
+  unit: g
+  note: świdry
+- name: pierś z kurczaka
+  amount: 830
+  unit: g
+- name: oliwy z oliwek
+  amount: 18
+  unit: g
+- name: ziół prowansalskich
+  amount: 3.5
+  unit: łyżeczki
+- name: przyprawy do mięsa
+  amount: 3.5
+  unit: łyżeczki
+- name: cebula czerwona
+  amount: 1
+  unit: szt.
+- name: czosnku
+  amount: 3
+  unit: ząbki
+- name: papryka czerwona
+  amount: 1
+  unit: szt.
+- name: papryka żółta
+  amount: 1
+  unit: szt.
+- name: mozzarella
+  amount: 170
+  unit: g
 servings: 6
 prep_time: 15
 cook: true
@@ -31,14 +68,13 @@ protein: 50
 fat: 21
 carbohydrate: 65
 fodmap:
-  status: no
+  status: false
   serving_ok: Tylko mała porcja
-  notes: Makaron pszenny zawiera fruktany (wysoki FODMAP). Cebula i czosnek to
-    składniki o wysokim FODMAP.
+  notes: Makaron pszenny zawiera fruktany (wysoki FODMAP). Cebula i czosnek to składniki o wysokim FODMAP.
   substitutions:
-    - Zamień makaron na bezglutenowy fusilli
-    - Zamień cebulę na część zieloną dymki
-    - Zamień czosnek na olej czosnkowy (infused oil)
+  - Zamień makaron na bezglutenowy fusilli
+  - Zamień cebulę na część zieloną dymki
+  - Zamień czosnek na olej czosnkowy (infused oil)
 ---
 
 ## Składniki
