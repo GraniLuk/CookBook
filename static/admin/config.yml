@@ -291,6 +291,7 @@ _shared_fields:
       - { label: "ogórek świeży", value: "ogórek świeży" }
       - { label: "ogórki kiszone", value: "ogórki kiszone" }
       - { label: "olej", value: "olej" }
+      - { label: "olej do smażenia", value: "olej do smażenia" }
       - { label: "olej kokosowy", value: "olej kokosowy" }
       - { label: "olej lniany", value: "olej lniany" }
       - { label: "olej ryżowy", value: "olej ryżowy" }
@@ -432,6 +433,7 @@ _shared_fields:
       - { label: "szynka wieprzowa", value: "szynka wieprzowa" }
       - { label: "szynka wędzona", value: "szynka wędzona" }
       - { label: "tahini", value: "tahini" }
+      - { label: "tofu naturalne", value: "tofu naturalne" }
       - { label: "tortilla", value: "tortilla" }
       - { label: "truskawki", value: "truskawki" }
       - { label: "tuńczyk", value: "tuńczyk" }
@@ -450,6 +452,7 @@ _shared_fields:
       - { label: "wołowina mielona", value: "wołowina mielona" }
       - { label: "zakwas żytni", value: "zakwas żytni" }
       - { label: "ziemniaki", value: "ziemniaki" }
+      - { label: "ziemniaki młode", value: "ziemniaki młode" }
       - { label: "łopatka wieprzowa", value: "łopatka wieprzowa" }
       - { label: "łosoś", value: "łosoś" }
       - { label: "łosoś wędzony", value: "łosoś wędzony" }
