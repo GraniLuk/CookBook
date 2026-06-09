@@ -4,60 +4,62 @@ author: Policzona Szama
 categories: obiady
 draft: false
 readyToTest: false
+queued: false
+favourite: false
 link: https://youtu.be/SQ4saBQrBYc?t=224
 recipe_image: images/recipe-headers/kurczak_w_panierce_panko.avif
 date: 2025-06-18 12:00:00+00:00
 tags:
-- ''
+  - kotlety
 tagline: Pyszny kurczak w chrupiącej panierce z batatami!
 ingredients:
-- bataty
-- kurczak
-- panko
-- parmezan
-- oliwa
-- mix sałat
-- cebula czerwona
-- pomidorki cherry
-- cytryna
+  - bataty
+  - kurczak
+  - panko
+  - parmezan
+  - oliwa
+  - mix sałat
+  - cebula czerwona
+  - pomidorki cherry
+  - cytryna
 shopping_ingredients:
-- name: bataty
-  amount: 2
-  unit: szt.
-  note: około 600g
-- name: kurczak
-  amount: 3
-  unit: szt.
-  note: około 600g
-- name: panko
-  amount: 100
-  unit: g
-- name: parmezan
-  amount: 100
-  unit: g
-  note: startego
-- name: oliwy z oliwek
-  amount: 30
-  unit: g
-- name: miksu sałat
-  amount: 150
-  unit: g
-- name: cebula czerwona
-  amount: 50
-  unit: g
-  note: kilka piórek
-- name: pomidorki cherry
-  amount: 10
-  unit: szt.
-  note: około 100g; przekrojonych na pół
-- name: cytryna
-  amount: 1
-  unit: szt.
-  note: około 15ml
-- name: mieszanki ziół
-  amount: 0.5
-  unit: łyżeczki
-  note: około 1g
+  - name: bataty
+    amount: 2
+    unit: szt.
+    note: około 600g
+  - name: kurczak
+    amount: 3
+    unit: szt.
+    note: około 600g
+  - name: panko
+    amount: 100
+    unit: g
+  - name: parmezan
+    amount: 100
+    unit: g
+    note: startego
+  - name: oliwy z oliwek
+    amount: 30
+    unit: g
+  - name: miksu sałat
+    amount: 150
+    unit: g
+  - name: cebula czerwona
+    amount: 50
+    unit: g
+    note: kilka piórek
+  - name: pomidorki cherry
+    amount: 10
+    unit: szt.
+    note: około 100g; przekrojonych na pół
+  - name: cytryna
+    amount: 1
+    unit: szt.
+    note: około 15ml
+  - name: mieszanki ziół
+    amount: 0.5
+    unit: łyżeczki
+    note: około 1g
 servings: 3
 prep_time: 20
 cook: true
@@ -68,11 +70,14 @@ fat: 6
 carbohydrate: 13
 fodmap:
   status: depends
-  serving_ok: 'OK po modyfikacjach: panierka bez pszenicy; sałatka bez czerwonej cebuli'
-  notes: Panko zwykle pszenne (fruktany) – wybierz wersję bezglutenową/ryżową. Czerwona cebula w sałatce jest wysokofodmapowa – zamień na szczypior. Bataty są OK w umiarkowanej porcji.
+  serving_ok: "OK po modyfikacjach: panierka bez pszenicy; sałatka bez czerwonej cebuli"
+  notes: Panko zwykle pszenne (fruktany) – wybierz wersję bezglutenową/ryżową.
+    Czerwona cebula w sałatce jest wysokofodmapowa – zamień na szczypior. Bataty
+    są OK w umiarkowanej porcji.
   substitutions:
-  - panko pszenne -> bułka tarta bezglutenowa/ryżowa lub drobno mielone płatki kukurydziane
-  - czerwona cebula -> zielona część dymki/szczypior
+    - panko pszenne -> bułka tarta bezglutenowa/ryżowa lub drobno mielone płatki
+      kukurydziane
+    - czerwona cebula -> zielona część dymki/szczypior
 ---
 
 ## Składniki
