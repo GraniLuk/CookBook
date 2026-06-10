@@ -35,7 +35,6 @@ _shared_fields:
     multiple: true
     required: false
     options:
-      - { label: "", value: "" }
       - { label: "azjatyckie", value: "azjatyckie" }
       - { label: "batony", value: "batony" }
       - { label: "bez gotowania", value: "bez gotowania" }
@@ -477,6 +476,7 @@ _shared_fields:
     multiple: false
     required: false
     options:
+      - { label: "Ada Błaszczyk", value: "Ada Błaszczyk" }
       - { label: "AI Trener", value: "AI Trener" }
       - { label: "Alaantkoweblw", value: "Alaantkoweblw" }
       - { label: "Ania Gotuje", value: "Ania Gotuje" }
