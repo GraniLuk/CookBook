@@ -118,6 +118,49 @@ fodmap:
 7. Dolną część każdej bułki posmaruj sosem czosnkowym. Dodaj sałatę, porcję szarpanego kurczaka, pomidora, czerwoną cebulę i ogórka kiszonego.
 8. Dodaj odrobinę ketchupu, przykryj górą bułki i podawaj od razu.
 
+{{< collapsible title="Wersja w Instant Pot Duo 6" icon="⚡" >}}
+
+### Przygotowanie w Instant Pot
+
+Ta wersja skraca duszenie kurczaka i pomaga uzyskać bardzo miękkie mięso do szarpania. Instant Pot Duo 6 ma pojemność 5,7 litra, więc spokojnie mieści porcję z 500 g filetu i sos pomidorowy.
+
+**Zmiany w składnikach:**
+- Woda lub bulion: 100-150 ml, dodatkowo do passaty, żeby garnek łatwiej zbudował ciśnienie i nie pokazał komunikatu "burn".
+
+**Modyfikacje w przygotowaniu:**
+
+1. **Podsmażanie bazy (Sauté):**
+   - Włącz tryb **"Sauté"** w Instant Pot.
+   - Dodaj cebulę i kilka łyżek wody. Duś 3-4 minuty, aż zmięknie.
+   - Dodaj czosnek, sos sojowy, słodką paprykę i przyprawę chili con carne. Podsmaż krótko, około 30 sekund.
+
+2. **Deglazowanie i dodanie składników:**
+   - Wlej **100-150 ml wody lub bulionu** i dokładnie zeskrob z dna garnka wszystko, co mogło się przykleić.
+   - Włóż filety z kurczaka.
+   - Wlej passatę na wierzch mięsa. Wymieszaj tylko lekko, żeby gęsty sos pomidorowy nie osiadł mocno na dnie.
+
+3. **Gotowanie pod ciśnieniem:**
+   - Naciśnij **"Cancel"**, zamknij pokrywę i ustaw wentyl w pozycji **"Sealing"**.
+   - Wybierz **"Pressure Cook"** lub **"Manual"** i ustaw **10 minut** na **High Pressure**.
+   - Po zakończeniu gotowania zostaw garnek na **5 minut naturalnego uwolnienia ciśnienia** (Natural Release).
+   - Następnie ostrożnie przestaw wentyl na **"Venting"**, żeby wypuścić resztę pary.
+
+4. **Szarpanie i redukcja sosu:**
+   - Wyjmij kurczaka na talerz i poszarp dwoma widelcami.
+   - Jeśli sos jest zbyt rzadki, włącz **"Sauté"** i gotuj go bez pokrywy przez 5-8 minut, aż lekko zgęstnieje.
+   - Włóż poszarpane mięso z powrotem do sosu i wymieszaj. Dopraw solą i pieprzem do smaku.
+
+5. **Składanie burgerów:** Bez zmian - podpiecz bułki, posmaruj je sosem czosnkowym, dodaj sałatę, szarpanego kurczaka, pomidora, cebulę, ogórka kiszonego i ketchup.
+
+**Wskazówki:**
+- Jeśli filety są bardzo grube, ustaw **12 minut** zamiast 10.
+- Jeżeli po gotowaniu mięso nie szarpie się łatwo, dodaj kolejne **2-3 minuty** na High Pressure.
+- Przy sosach pomidorowych najważniejsze jest czyste dno garnka przed zamknięciem pokrywy i dodatkowy płyn pod ciśnienie.
+
+**Oszczędność czasu:** Około 25-35 minut w porównaniu do tradycyjnego duszenia.
+
+{{< /collapsible >}}
+
 ## Podsumowanie wartości odżywczych (całe danie - 4 burgery)
 
 | Składnik              | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
