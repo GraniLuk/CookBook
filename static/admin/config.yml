@@ -78,6 +78,7 @@ _shared_fields:
       - { label: "tarta", value: "tarta" }
       - { label: "tortilla", value: "tortilla" }
       - { label: "tradycyjne", value: "tradycyjne" }
+      - { label: "trello", value: "trello" }
       - { label: "tropikalne", value: "tropikalne" }
       - { label: "wegańskie", value: "wegańskie" }
       - { label: "wegetariańskie", value: "wegetariańskie" }
@@ -147,6 +148,7 @@ _shared_fields:
       - { label: "czosnek", value: "czosnek" }
       - { label: "daktyle", value: "daktyle" }
       - { label: "drożdże", value: "drożdże" }
+      - { label: "drożdże suche", value: "drożdże suche" }
       - { label: "drożdże świeże", value: "drożdże świeże" }
       - { label: "dynia", value: "dynia" }
       - { label: "dynia piżmowa", value: "dynia piżmowa" }
@@ -158,6 +160,7 @@ _shared_fields:
       - { label: "fasola biała", value: "fasola biała" }
       - { label: "fasola czerwona", value: "fasola czerwona" }
       - { label: "fasolka szparagowa", value: "fasolka szparagowa" }
+      - { label: "filet z dorsza", value: "filet z dorsza" }
       - { label: "filet z halibuta", value: "filet z halibuta" }
       - { label: "frytki", value: "frytki" }
       - { label: "galaretka", value: "galaretka" }
@@ -184,9 +187,11 @@ _shared_fields:
       - { label: "jogurt naturalny", value: "jogurt naturalny" }
       - { label: "jogurt skyr", value: "jogurt skyr" }
       - { label: "jogurt skyr waniliowy", value: "jogurt skyr waniliowy" }
+      - { label: "kajzerka", value: "kajzerka" }
       - { label: "kakao", value: "kakao" }
       - { label: "kalafior", value: "kalafior" }
       - { label: "kapary", value: "kapary" }
+      - { label: "kapusta", value: "kapusta" }
       - { label: "kapusta biała", value: "kapusta biała" }
       - { label: "kapusta czerwona", value: "kapusta czerwona" }
       - { label: "kapusta kiszona", value: "kapusta kiszona" }
@@ -216,6 +221,7 @@ _shared_fields:
       - { label: "kurczak", value: "kurczak" }
       - { label: "kurczak nóżki", value: "kurczak nóżki" }
       - { label: "kurczak udko", value: "kurczak udko" }
+      - { label: "kurczak wędzony", value: "kurczak wędzony" }
       - { label: "kuskus", value: "kuskus" }
       - { label: "limonka", value: "limonka" }
       - { label: "majonez", value: "majonez" }
@@ -231,11 +237,13 @@ _shared_fields:
       - { label: "makaron spaghetti", value: "makaron spaghetti" }
       - { label: "makaron tagliatelle", value: "makaron tagliatelle" }
       - { label: "makaron udon", value: "makaron udon" }
+      - { label: "makaron z zupek chińskich", value: "makaron z zupek chińskich" }
       - { label: "maliny", value: "maliny" }
       - { label: "mandarynka", value: "mandarynka" }
       - { label: "mango", value: "mango" }
       - { label: "marchew", value: "marchew" }
       - { label: "marchewka", value: "marchewka" }
+      - { label: "masa kajmakowa", value: "masa kajmakowa" }
       - { label: "mascarpone", value: "mascarpone" }
       - { label: "masło", value: "masło" }
       - { label: "masło klarowane", value: "masło klarowane" }
@@ -269,6 +277,7 @@ _shared_fields:
       - { label: "mąka pszenna", value: "mąka pszenna" }
       - { label: "mąka ryżowa", value: "mąka ryżowa" }
       - { label: "mąka typ 00", value: "mąka typ 00" }
+      - { label: "mąka ziemniaczana", value: "mąka ziemniaczana" }
       - { label: "mąka żytnia", value: "mąka żytnia" }
       - { label: "nachosy", value: "nachosy" }
       - { label: "napój migdałowy", value: "napój migdałowy" }
@@ -310,6 +319,7 @@ _shared_fields:
       - { label: "orzeszki arachidowe", value: "orzeszki arachidowe" }
       - { label: "orzeszki ziemne", value: "orzeszki ziemne" }
       - { label: "oscypek", value: "oscypek" }
+      - { label: "otręby owsiane", value: "otręby owsiane" }
       - { label: "panko", value: "panko" }
       - { label: "papryczka chili", value: "papryczka chili" }
       - { label: "papryczki padron", value: "papryczki padron" }
@@ -433,6 +443,7 @@ _shared_fields:
       - { label: "szynka wędzona", value: "szynka wędzona" }
       - { label: "tahini", value: "tahini" }
       - { label: "tofu naturalne", value: "tofu naturalne" }
+      - { label: "tortellini", value: "tortellini" }
       - { label: "tortilla", value: "tortilla" }
       - { label: "truskawki", value: "truskawki" }
       - { label: "tuńczyk", value: "tuńczyk" }
@@ -510,6 +521,7 @@ _shared_fields:
       - { label: "swiatzesmakiem", value: "swiatzesmakiem" }
       - { label: "Teść Krzysztof", value: "Teść Krzysztof" }
       - { label: "the.foodini", value: "the.foodini" }
+      - { label: "Trello", value: "Trello" }
     hint: "Wybierz z listy autorów (wpisz lub kliknij, aby zobaczyć wszystkie)."
 
   # Field order matches ORDER array in scripts/normalize_frontmatter.py
