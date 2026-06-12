@@ -40,6 +40,7 @@ _shared_fields:
       - { label: "bez gotowania", value: "bez gotowania" }
       - { label: "blender", value: "blender" }
       - { label: "bowl", value: "bowl" }
+      - { label: "burger", value: "burger" }
       - { label: "ciasta", value: "ciasta" }
       - { label: "ciastka", value: "ciastka" }
       - { label: "czekoladowe", value: "czekoladowe" }
@@ -109,6 +110,7 @@ _shared_fields:
       - { label: "białka jajek", value: "białka jajek" }
       - { label: "białko jajeczne", value: "białko jajeczne" }
       - { label: "biszkopty", value: "biszkopty" }
+      - { label: "boczek", value: "boczek" }
       - { label: "boczek wędzony", value: "boczek wędzony" }
       - { label: "borówki", value: "borówki" }
       - { label: "brokuł", value: "brokuł" }
@@ -120,6 +122,7 @@ _shared_fields:
       - { label: "burrata", value: "burrata" }
       - { label: "bułka", value: "bułka" }
       - { label: "bułka hamburgerowa", value: "bułka hamburgerowa" }
+      - { label: "bułka orkiszowa", value: "bułka orkiszowa" }
       - { label: "bułka pełnoziarnista", value: "bułka pełnoziarnista" }
       - { label: "bułka pita", value: "bułka pita" }
       - { label: "bułka tarta", value: "bułka tarta" }
@@ -129,8 +132,10 @@ _shared_fields:
       - { label: "cebula szalotka", value: "cebula szalotka" }
       - { label: "chia", value: "chia" }
       - { label: "chili", value: "chili" }
+      - { label: "chipsy Doritos Chili", value: "chipsy Doritos Chili" }
       - { label: "chleb", value: "chleb" }
       - { label: "chleb tostowy", value: "chleb tostowy" }
+      - { label: "chrupki serowe", value: "chrupki serowe" }
       - { label: "ciastka oreo", value: "ciastka oreo" }
       - { label: "ciastka owsiane", value: "ciastka owsiane" }
       - { label: "ciecierzyca", value: "ciecierzyca" }
@@ -184,6 +189,7 @@ _shared_fields:
       - { label: "jarmuż", value: "jarmuż" }
       - { label: "jogurt", value: "jogurt" }
       - { label: "jogurt grecki", value: "jogurt grecki" }
+      - { label: "jogurt gęsty", value: "jogurt gęsty" }
       - { label: "jogurt naturalny", value: "jogurt naturalny" }
       - { label: "jogurt skyr", value: "jogurt skyr" }
       - { label: "jogurt skyr waniliowy", value: "jogurt skyr waniliowy" }
@@ -255,6 +261,8 @@ _shared_fields:
       - { label: "mięso mielone", value: "mięso mielone" }
       - { label: "mięso mielone z indyka", value: "mięso mielone z indyka" }
       - { label: "mięso z indyka", value: "mięso z indyka" }
+      - { label: "mięso z nogi kurczaka", value: "mięso z nogi kurczaka" }
+      - { label: "mięso z ud kurczaka", value: "mięso z ud kurczaka" }
       - { label: "mięso z uda kurczaka", value: "mięso z uda kurczaka" }
       - { label: "mięta", value: "mięta" }
       - { label: "mleko", value: "mleko" }
@@ -275,11 +283,11 @@ _shared_fields:
       - { label: "mąka orkiszowa", value: "mąka orkiszowa" }
       - { label: "mąka owsiana", value: "mąka owsiana" }
       - { label: "mąka pszenna", value: "mąka pszenna" }
+      - { label: "mąka pszenna typ 650", value: "mąka pszenna typ 650" }
       - { label: "mąka ryżowa", value: "mąka ryżowa" }
       - { label: "mąka typ 00", value: "mąka typ 00" }
       - { label: "mąka ziemniaczana", value: "mąka ziemniaczana" }
       - { label: "mąka żytnia", value: "mąka żytnia" }
-      - { label: "nachosy", value: "nachosy" }
       - { label: "napój migdałowy", value: "napój migdałowy" }
       - { label: "napój owsiany", value: "napój owsiany" }
       - { label: "napój roślinny", value: "napój roślinny" }
@@ -345,6 +353,7 @@ _shared_fields:
       - { label: "pistacje", value: "pistacje" }
       - { label: "polędwica wieprzowa", value: "polędwica wieprzowa" }
       - { label: "polędwiczki kurczaka", value: "polędwiczki kurczaka" }
+      - { label: "polędwiczki z kurczaka", value: "polędwiczki z kurczaka" }
       - { label: "pomarańcza", value: "pomarańcza" }
       - { label: "pomidor", value: "pomidor" }
       - { label: "pomidor malinowy", value: "pomidor malinowy" }
@@ -393,6 +402,7 @@ _shared_fields:
       - { label: "ser", value: "ser" }
       - { label: "ser camembert", value: "ser camembert" }
       - { label: "ser cheddar", value: "ser cheddar" }
+      - { label: "ser edamski", value: "ser edamski" }
       - { label: "ser feta", value: "ser feta" }
       - { label: "ser gorgonzola", value: "ser gorgonzola" }
       - { label: "ser grana padano", value: "ser grana padano" }
@@ -419,10 +429,12 @@ _shared_fields:
       - { label: "siemię lniane", value: "siemię lniane" }
       - { label: "skrobia ziemniaczana", value: "skrobia ziemniaczana" }
       - { label: "skrzydło indycze", value: "skrzydło indycze" }
+      - { label: "skyr", value: "skyr" }
       - { label: "skórka cytrynowa", value: "skórka cytrynowa" }
       - { label: "soczewica zielona", value: "soczewica zielona" }
       - { label: "soda oczyszczona", value: "soda oczyszczona" }
       - { label: "sok z cytryny", value: "sok z cytryny" }
+      - { label: "sos barbecue", value: "sos barbecue" }
       - { label: "sos czosnkowy", value: "sos czosnkowy" }
       - { label: "sos pomidorowy", value: "sos pomidorowy" }
       - { label: "sos rybny", value: "sos rybny" }
@@ -433,11 +445,13 @@ _shared_fields:
       - { label: "spaghetti", value: "spaghetti" }
       - { label: "sriracha", value: "sriracha" }
       - { label: "suszone morele", value: "suszone morele" }
+      - { label: "suszone pomidory", value: "suszone pomidory" }
       - { label: "syrop klonowy", value: "syrop klonowy" }
       - { label: "szczypiorek", value: "szczypiorek" }
       - { label: "szparagi", value: "szparagi" }
       - { label: "szpinak", value: "szpinak" }
       - { label: "szynka", value: "szynka" }
+      - { label: "szynka szwarcwaldzka", value: "szynka szwarcwaldzka" }
       - { label: "szynka wiejska", value: "szynka wiejska" }
       - { label: "szynka wieprzowa", value: "szynka wieprzowa" }
       - { label: "szynka wędzona", value: "szynka wędzona" }
