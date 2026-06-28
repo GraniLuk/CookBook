@@ -290,6 +290,7 @@ _shared_fields:
       - { label: "mąka typ 00", value: "mąka typ 00" }
       - { label: "mąka ziemniaczana", value: "mąka ziemniaczana" }
       - { label: "mąka żytnia", value: "mąka żytnia" }
+      - { label: "naleśniki", value: "naleśniki" }
       - { label: "napój migdałowy", value: "napój migdałowy" }
       - { label: "napój owsiany", value: "napój owsiany" }
       - { label: "napój roślinny", value: "napój roślinny" }
@@ -313,6 +314,7 @@ _shared_fields:
       - { label: "olej kokosowy", value: "olej kokosowy" }
       - { label: "olej lniany", value: "olej lniany" }
       - { label: "olej ryżowy", value: "olej ryżowy" }
+      - { label: "olej rzepakowy", value: "olej rzepakowy" }
       - { label: "olej sezamowy", value: "olej sezamowy" }
       - { label: "oliwa", value: "oliwa" }
       - { label: "oliwa czosnkowa", value: "oliwa czosnkowa" }
@@ -320,6 +322,7 @@ _shared_fields:
       - { label: "oliwki", value: "oliwki" }
       - { label: "oliwki czarne", value: "oliwki czarne" }
       - { label: "oliwki zielone", value: "oliwki zielone" }
+      - { label: "oregano", value: "oregano" }
       - { label: "orzech włoski", value: "orzech włoski" }
       - { label: "orzechy", value: "orzechy" }
       - { label: "orzechy brazylijskie", value: "orzechy brazylijskie" }
