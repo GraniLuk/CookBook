@@ -489,6 +489,7 @@ _shared_fields:
       - { label: "śmietana kremowa", value: "śmietana kremowa" }
       - { label: "śmietanka", value: "śmietanka" }
       - { label: "śmietanka 30%", value: "śmietanka 30%" }
+      - { label: "świeże drożdże", value: "świeże drożdże" }
       - { label: "żurawina", value: "żurawina" }
       - { label: "żurawina suszona", value: "żurawina suszona" }
       - { label: "żółtka", value: "żółtka" }
