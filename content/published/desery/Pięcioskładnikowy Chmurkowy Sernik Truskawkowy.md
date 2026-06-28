@@ -3,13 +3,13 @@ title: Pięcioskładnikowy Chmurkowy Sernik Truskawkowy
 author: Policzona Szama
 categories: desery
 draft: false
-readyToTest: true
-queued: true
+readyToTest: false
+queued: false
 favourite: false
 link: https://youtu.be/PNjCcXoYMGE?t=135
 recipe_image: images/recipe-headers/piecioskladnikowy_chmurkowy_sernik_truskawkowy.avif
 video_file: videos/piecioskladnikowy_chmurkowy_sernik_truskawkowy.webm
-date: 2026-05-16 12:00:00+00:00
+date: 2026-06-28
 tags:
   - ciasta
   - proteinowe
