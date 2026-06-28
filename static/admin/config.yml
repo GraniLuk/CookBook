@@ -61,6 +61,7 @@ _shared_fields:
       - { label: "marokański", value: "marokański" }
       - { label: "meksykańskie", value: "meksykańskie" }
       - { label: "na-wynos", value: "na-wynos" }
+      - { label: "naleśniki", value: "naleśniki" }
       - { label: "odporność", value: "odporność" }
       - { label: "omlety", value: "omlety" }
       - { label: "orientalne", value: "orientalne" }
@@ -276,6 +277,7 @@ _shared_fields:
       - { label: "mrożone warzywa", value: "mrożone warzywa" }
       - { label: "mus mango", value: "mus mango" }
       - { label: "musztarda", value: "musztarda" }
+      - { label: "mąka gryczana", value: "mąka gryczana" }
       - { label: "mąka jaglana", value: "mąka jaglana" }
       - { label: "mąka kokosowa", value: "mąka kokosowa" }
       - { label: "mąka kukurydziana", value: "mąka kukurydziana" }
@@ -374,6 +376,7 @@ _shared_fields:
       - { label: "pstrąg tęczowy", value: "pstrąg tęczowy" }
       - { label: "pstrąg wędzony", value: "pstrąg wędzony" }
       - { label: "pudding białkowy", value: "pudding białkowy" }
+      - { label: "płatki chili", value: "płatki chili" }
       - { label: "płatki czekoladowe", value: "płatki czekoladowe" }
       - { label: "płatki jaglane", value: "płatki jaglane" }
       - { label: "płatki kukurydziane", value: "płatki kukurydziane" }
