@@ -46,6 +46,7 @@ _shared_fields:
       - { label: "czekoladowe", value: "czekoladowe" }
       - { label: "fast-food", value: "fast-food" }
       - { label: "goście", value: "goście" }
+      - { label: "greckie", value: "greckie" }
       - { label: "grill", value: "grill" }
       - { label: "instant pot", value: "instant pot" }
       - { label: "jednogarnkowe", value: "jednogarnkowe" }
@@ -448,6 +449,7 @@ _shared_fields:
       - { label: "sos sojowy", value: "sos sojowy" }
       - { label: "sos tatarski", value: "sos tatarski" }
       - { label: "sos teriyaki", value: "sos teriyaki" }
+      - { label: "sos tzatziki", value: "sos tzatziki" }
       - { label: "sos winegret", value: "sos winegret" }
       - { label: "spaghetti", value: "spaghetti" }
       - { label: "sriracha", value: "sriracha" }
