@@ -4,35 +4,38 @@ author: Granica
 categories: obiady
 draft: false
 readyToTest: false
+queued: false
+favourite: false
 recipe_image: images/recipe-headers/kotlety_pozarskie.avif
 date: 2025-06-18 12:00:00+00:00
 tags:
-- Stefan
+  - Stefan
+  - kotlety
 tagline: Pyszne kotleciki z kurczaka i warzyw!
 ingredients:
-- pierś z kurczaka
-- jajko
-- marchewka
-- dynia
-- por
-- mąka jaglana
+  - pierś z kurczaka
+  - jajko
+  - marchewka
+  - dynia
+  - por
+  - mąka jaglana
 shopping_ingredients:
-- name: pierś z kurczaka
-  amount: 600
-  unit: g
-  note: może być kawałek
-- name: jajko
-  amount: 1
-  unit: szt.
-  note: 60g
-- name: warzywa
-  amount: 200
-  unit: g
-  note: kawałek marchewki, dyni, pora
-- name: mąki jaglanej lub innej
-  amount: 4
-  unit: łyżki
-  note: 60g
+  - name: pierś z kurczaka
+    amount: 600
+    unit: g
+    note: może być kawałek
+  - name: jajko
+    amount: 1
+    unit: szt.
+    note: 60g
+  - name: warzywa
+    amount: 200
+    unit: g
+    note: kawałek marchewki, dyni, pora
+  - name: mąki jaglanej lub innej
+    amount: 4
+    unit: łyżki
+    note: 60g
 servings: 6
 prep_time: 15
 cook: true
@@ -44,11 +47,12 @@ carbohydrate: 7
 fodmap:
   status: depends
   serving_ok: Por - tylko zielona część; marchewka bez ograniczeń
-  notes: Por – tylko zielona część. Unikaj czosnku i mieszanek przypraw z cebulą/czosnkiem.
+  notes: Por – tylko zielona część. Unikaj czosnku i mieszanek przypraw z
+    cebulą/czosnkiem.
   substitutions:
-  - biała część pora -> zielona część pora
-  - mąka pszenna -> mąka jaglana (jak w przepisie) lub ryżowa
-  - czosnek granulowany -> asafetyda lub olej czosnkowy
+    - biała część pora -> zielona część pora
+    - mąka pszenna -> mąka jaglana (jak w przepisie) lub ryżowa
+    - czosnek granulowany -> asafetyda lub olej czosnkowy
 ---
 
 ## Składniki
