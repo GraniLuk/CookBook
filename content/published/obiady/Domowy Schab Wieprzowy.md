@@ -9,27 +9,28 @@ favourite: true
 link: https://www.youtube.com/watch?v=d71Nd3lS2Ok
 recipe_image: images/recipe-headers/domowy_schab.avif
 date: 2025-11-20 12:00:00+00:00
-tags: null
+tags:
+  - instant pot
 tagline: Soczysty domowy schab wieprzowy, idealny do kanapek i dań.
 ingredients:
-- schab wieprzowy
-- czosnek
+  - schab wieprzowy
+  - czosnek
 shopping_ingredients:
-- name: schab wieprzowy
-  amount: 1
-  unit: szt.
-- name: czosnek
-  amount: 1
-  unit: szt.
-- name: 'Olej do smażenia: około 50 ml'
-  amount: 1
-  unit: szt.
-- name: 'Zioła Koksa Mateusza: ćwierć łyżeczki'
-  amount: 1
-  unit: szt.
-- name: 'Rozmaryn: 1 gałązka'
-  amount: 1
-  unit: szt.
+  - name: schab wieprzowy
+    amount: 1
+    unit: szt.
+  - name: czosnek
+    amount: 1
+    unit: szt.
+  - name: "Olej do smażenia: około 50 ml"
+    amount: 1
+    unit: szt.
+  - name: "Zioła Koksa Mateusza: ćwierć łyżeczki"
+    amount: 1
+    unit: szt.
+  - name: "Rozmaryn: 1 gałązka"
+    amount: 1
+    unit: szt.
 servings: 6
 prep_time: 30
 cook: true
@@ -41,9 +42,10 @@ carbohydrate: 0
 fodmap:
   status: true
   serving_ok: TAK – bez cebuli i czosnku
-  notes: Schab wieprzowy, sól, olej, zioła, rozmaryn – bezpieczne. Czosnek jest high FODMAP, ale można go pominąć lub zastąpić olejem czosnkowym.
+  notes: Schab wieprzowy, sól, olej, zioła, rozmaryn – bezpieczne. Czosnek jest
+    high FODMAP, ale można go pominąć lub zastąpić olejem czosnkowym.
   substitutions:
-  - Zamiast czosnku użyć olej czosnkowy (infuzja bez cząstek)
+    - Zamiast czosnku użyć olej czosnkowy (infuzja bez cząstek)
 ---
 
 ## Składniki
