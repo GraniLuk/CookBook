@@ -12,59 +12,59 @@ recipe_image: images/recipe-headers/kasza_gryczana_a_la_puttanesca.avif
 video_file: videos/kasza_gryczana_a_la_puttanesca.mp4
 date: 2026-03-10 16:00:00+01:00
 tags:
-- włoskie
-- szybkie
-- wegetariańskie
-tagline: Pikantny sos puttanesca z tuńczykiem, oliwkami i kaparami podany na kaszy gryczanej z mozzarellą.
+  - włoskie
+  - wegetariańskie
+tagline: Pikantny sos puttanesca z tuńczykiem, oliwkami i kaparami podany na
+  kaszy gryczanej z mozzarellą.
 ingredients:
-- kasza gryczana
-- cebula szalotka
-- czosnek
-- pomidory krojone z puszki
-- oliwki zielone
-- oliwki czarne
-- kapary
-- mozzarella light
-- tuńczyk
+  - kasza gryczana
+  - cebula szalotka
+  - czosnek
+  - pomidory krojone z puszki
+  - oliwki zielone
+  - oliwki czarne
+  - kapary
+  - mozzarella light
+  - tuńczyk
 shopping_ingredients:
-- name: kaszy gryczanej
-  amount: 320
-  unit: g
-- name: cebula szalotka
-  amount: 1
-  unit: szt.
-- name: czosnek
-  amount: 2
-  unit: ząbki
-- name: tuńczyk
-  amount: 2
-  unit: puszki
-- name: pomidory krojone z puszki
-  amount: 800
-  unit: g
-- name: oliwek zielonych
-  amount: 80
-  unit: g
-- name: oliwek czarnych
-  amount: 80
-  unit: g
-- name: kapary
-  amount: 40
-  unit: g
-- name: oliwy z oliwek
-  amount: 20
-  unit: g
-- name: płatki chili
-  amount: 1
-  unit: szt.
-  note: do smaku
-- name: oregano suszone
-  amount: 1
-  unit: szt.
-  note: do smaku
-- name: mozzarella light
-  amount: 1
-  unit: szt.
+  - name: kaszy gryczanej
+    amount: 320
+    unit: g
+  - name: cebula szalotka
+    amount: 1
+    unit: szt.
+  - name: czosnek
+    amount: 2
+    unit: ząbki
+  - name: tuńczyk
+    amount: 2
+    unit: puszki
+  - name: pomidory krojone z puszki
+    amount: 800
+    unit: g
+  - name: oliwek zielonych
+    amount: 80
+    unit: g
+  - name: oliwek czarnych
+    amount: 80
+    unit: g
+  - name: kapary
+    amount: 40
+    unit: g
+  - name: oliwy z oliwek
+    amount: 20
+    unit: g
+  - name: płatki chili
+    amount: 1
+    unit: szt.
+    note: do smaku
+  - name: oregano suszone
+    amount: 1
+    unit: szt.
+    note: do smaku
+  - name: mozzarella light
+    amount: 1
+    unit: szt.
 servings: 4
 prep_time: 5
 cook: true
@@ -76,10 +76,11 @@ carbohydrate: 59
 fodmap:
   status: false
   serving_ok: Tylko mała porcja
-  notes: Czosnek jest składnikiem o wysokim FODMAP (fruktany). Kapary i oliwki w małych ilościach są bezpieczne.
+  notes: Czosnek jest składnikiem o wysokim FODMAP (fruktany). Kapary i oliwki w
+    małych ilościach są bezpieczne.
   substitutions:
-  - Zamień czosnek na olej czosnkowy (infused oil) bez miąższu
-  - Zamień cebulę szalotkę na część zieloną dymki
+    - Zamień czosnek na olej czosnkowy (infused oil) bez miąższu
+    - Zamień cebulę szalotkę na część zieloną dymki
 ---
 
 ## Składniki
