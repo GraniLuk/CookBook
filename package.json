@@ -10,12 +10,12 @@
         "test:search:v7": "node tests/fusejs-v7-test.js"
     },
     "devDependencies": {
-        "@tailwindcss/cli": "^4.1.18",
+        "@tailwindcss/cli": "^4.3.2",
         "autoprefixer": "^10.5.2",
         "daisyui": "^5.5.17",
         "fuse.js": "7.3.0",
         "postcss": "^8.5.6",
-        "tailwindcss": "^4.1.18"
+        "tailwindcss": "^4.3.2"
     },
     "engines": {
         "node": ">=14.0.0"
