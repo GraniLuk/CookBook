@@ -117,6 +117,8 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"          
+      - name: Fix permissions
+        run: chmod -c -R +rX "./public"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:

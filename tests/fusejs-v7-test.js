@@ -1,5 +1,5 @@
 /**
- * Fuse.js v7.1.0 Testing
+ * Fuse.js v7.4.2 Testing
  * 
  * Tests search behavior after migration to v7.1.0
  * Validates improvements: diacritics support, fuzzy matching, location independence
@@ -131,7 +131,7 @@ testScenarios.push({
 
 // Run tests
 console.log('═══════════════════════════════════════════════════════════════');
-console.log('  Fuse.js v7.1.0 TEST REPORT');
+console.log('  Fuse.js v7.4.2 TEST REPORT');
 console.log('═══════════════════════════════════════════════════════════════\n');
 
 const results = [];
