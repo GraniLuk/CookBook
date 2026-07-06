@@ -4,60 +4,61 @@ author: Granica
 categories: obiady
 draft: false
 readyToTest: false
+queued: false
+favourite: false
 recipe_image: images/recipe-headers/karkowka_z_warzywami.avif
 video_file: videos/karkowka_z_warzywami.mp4
 date: 2026-01-16 12:28:32+00:00
 tags:
-- zapiekanka
-- proteinowe
+  - zapiekanka
 tagline: Soczysta karkówka zapiekana z warstwami warzyw w naczyniu żaroodpornym
 ingredients:
-- karkówka wieprzowa
-- marchewka
-- cebula
-- por
-- ziemniaki
+  - karkówka wieprzowa
+  - marchewka
+  - cebula
+  - por
+  - ziemniaki
 shopping_ingredients:
-- name: karkówki
-  amount: 4
-  unit: plastry
-  note: ok. 650g
-- name: marchewka
-  amount: 2.5
-  unit: szt.
-  note: ok. 200g
-- name: cebula
-  amount: 1
-  unit: szt.
-  note: ok. 100g
-- name: por
-  amount: 1
-  unit: szt.
-  note: ok. 150g
-- name: ziemniaki
-  amount: 4.5
-  unit: szt.
-  note: ok. 500g
-- name: czosnku
-  amount: 2
-  unit: ząbki
-- name: słodka papryka
-  amount: 1
-  unit: szt.
-- name: majeranek lub tymianek
-  amount: 1
-  unit: szt.
-- name: sosu sojowego
-  amount: 2.5
-  unit: łyżki
-- name: suszone zioła
-  amount: 1
-  unit: szt.
-  note: tymianek, rozmaryn
-- name: oliwa z oliwek
-  amount: 1
-  unit: szt.
-  note: opcjonalnie, ok. 28g
+  - name: karkówki
+    amount: 4
+    unit: plastry
+    note: ok. 650g
+  - name: marchewka
+    amount: 2.5
+    unit: szt.
+    note: ok. 200g
+  - name: cebula
+    amount: 1
+    unit: szt.
+    note: ok. 100g
+  - name: por
+    amount: 1
+    unit: szt.
+    note: ok. 150g
+  - name: ziemniaki
+    amount: 4.5
+    unit: szt.
+    note: ok. 500g
+  - name: czosnku
+    amount: 2
+    unit: ząbki
+  - name: słodka papryka
+    amount: 1
+    unit: szt.
+  - name: majeranek lub tymianek
+    amount: 1
+    unit: szt.
+  - name: sosu sojowego
+    amount: 2.5
+    unit: łyżki
+  - name: suszone zioła
+    amount: 1
+    unit: szt.
+    note: tymianek, rozmaryn
+  - name: oliwa z oliwek
+    amount: 1
+    unit: szt.
+    note: opcjonalnie, ok. 28g
 servings: 4
 prep_time: 20
 cook: true
@@ -67,11 +68,11 @@ protein: 37
 fat: 28
 carbohydrate: 34
 fodmap:
-  status: 'no'
+  status: no
   serving_ok: Nie OK w tej porcji
   notes: Cebula, por i czosnek są składnikami wysokofodmapowymi
   substitutions:
-  - Zastąpić cebulę i por szczypiorkiem lub zieloną częścią cebuli
+    - Zastąpić cebulę i por szczypiorkiem lub zieloną częścią cebuli
 ---
 
 ## Składniki
