@@ -1,5 +1,5 @@
 ---
-title: "Chleb"
+title: Chleb pszenny drożdżowy
 author: Trello
 categories: śniadania
 subcategories: słone
@@ -9,37 +9,37 @@ queued: true
 priority: 1
 favourite: false
 link: https://trello.com/c/OwnTYiri
-recipe_image: images/recipe-headers/chleb.avif
+recipe_image: ""
 date: 2026-06-11 00:00:00+02:00
 tags:
-- klasyczne
-- trello
-tagline: "Prosty domowy chleb drożdżowy z keksówki."
+  - klasyczne
+  - trello
+tagline: Prosty domowy chleb drożdżowy z keksówki.
 ingredients:
-- mąka pszenna
-- drożdże suche
-- otręby owsiane
+  - mąka pszenna
+  - drożdże suche
+  - otręby owsiane
 shopping_ingredients:
-- name: mąka pszenna
-  amount: 500
-  unit: g
-- name: drożdże suche
-  amount: 7
-  unit: g
-- name: cukier
-  amount: 10
-  unit: g
-- name: otręby owsiane
-  amount: 40
-  unit: g
-- name: olej
-  amount: 5
-  unit: ml
-  note: do formy
-- name: bułka tarta
-  amount: 10
-  unit: g
-  note: do formy
+  - name: mąka pszenna
+    amount: 500
+    unit: g
+  - name: drożdże suche
+    amount: 7
+    unit: g
+  - name: cukier
+    amount: 10
+    unit: g
+  - name: otręby owsiane
+    amount: 40
+    unit: g
+  - name: olej
+    amount: 5
+    unit: ml
+    note: do formy
+  - name: bułka tarta
+    amount: 10
+    unit: g
+    note: do formy
 servings: 12
 prep_time: 15
 cook: true
@@ -52,11 +52,14 @@ carbohydrate: 35.5
 fodmap:
   status: depends
   serving_ok: Wymaga modyfikacji
-  notes: Wersja bazowa może zawierać pszenicę, laktozę, cebulę, czosnek albo większą porcję owoców/warzyw o wyższym FODMAP, zależnie od przepisu.
+  notes: Wersja bazowa może zawierać pszenicę, laktozę, cebulę, czosnek albo
+    większą porcję owoców/warzyw o wyższym FODMAP, zależnie od przepisu.
   substitutions:
-  - Użyj bezglutenowej mąki, makaronu lub bułki tartej tam, gdzie bazą jest pszenica.
-  - Zamień nabiał na wariant bez laktozy.
-  - Cebulę i czosnek zastąp zieloną częścią dymki, szczypiorkiem albo oliwą czosnkową.
+    - Użyj bezglutenowej mąki, makaronu lub bułki tartej tam, gdzie bazą jest
+      pszenica.
+    - Zamień nabiał na wariant bez laktozy.
+    - Cebulę i czosnek zastąp zieloną częścią dymki, szczypiorkiem albo oliwą
+      czosnkową.
 ---
 ## Składniki
 
