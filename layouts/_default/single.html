@@ -16,11 +16,40 @@
                     {{ end }}
                 </div>
                 <figure class="recipe-hero">
-                    {{- $image_url := partial "asset-url.html" "/images/defaultImage.avif" -}}
+                    {{- $images := slice -}}
                     {{- if and .Params.recipe_image (fileExists (printf "static/%s" .Params.recipe_image)) -}}
-                    {{- $image_url = partial "asset-url.html" (printf "/%s" .Params.recipe_image) -}}
+                        {{- $images = $images | append .Params.recipe_image -}}
                     {{- end -}}
-                    <img src="{{ $image_url }}" alt="Recipe image">
+                    {{- if and .Params.recipe_image2 (fileExists (printf "static/%s" .Params.recipe_image2)) -}}
+                        {{- $images = $images | append .Params.recipe_image2 -}}
+                    {{- end -}}
+                    {{- if and .Params.recipe_image3 (fileExists (printf "static/%s" .Params.recipe_image3)) -}}
+                        {{- $images = $images | append .Params.recipe_image3 -}}
+                    {{- end -}}
+
+                    {{- if eq (len $images) 0 -}}
+                        {{- $image_url := partial "asset-url.html" "/images/defaultImage.avif" -}}
+                        <img src="{{ $image_url }}" alt="Recipe image">
+                    {{- else if eq (len $images) 1 -}}
+                        {{- $image_url := partial "asset-url.html" (printf "/%s" (index $images 0)) -}}
+                        <img src="{{ $image_url }}" alt="Recipe image">
+                    {{- else -}}
+                        <div class="recipe-hero-slider" id="recipeHeroSlider">
+                            {{- range $index, $img := $images -}}
+                            {{- $image_url := partial "asset-url.html" (printf "/%s" $img) -}}
+                            <div class="recipe-hero-slide">
+                                <img src="{{ $image_url }}" alt="Recipe image {{ add $index 1 }}">
+                            </div>
+                            {{- end -}}
+                        </div>
+                        <button class="recipe-hero-nav prev" id="recipeHeroPrev" aria-label="Previous image"><i class="fas fa-chevron-left"></i></button>
+                        <button class="recipe-hero-nav next" id="recipeHeroNext" aria-label="Next image"><i class="fas fa-chevron-right"></i></button>
+                        <div class="recipe-hero-indicators" id="recipeHeroIndicators">
+                            {{- range $index, $img := $images -}}
+                            <div class="indicator-dot {{ if eq $index 0 }}active{{ end }}" data-index="{{ $index }}"></div>
+                            {{- end -}}
+                        </div>
+                    {{- end -}}
                     <div class="recipe-hero__gradient" aria-hidden="true"></div>
                     <div class="recipe-hero__title">
                         <h1 class="text-3xl font-serif font-bold text-white">{{ .Title }}</h1>
@@ -227,5 +256,50 @@ window.__recipeContext = {
     fodmapNotes: {{ if .Params.fodmap }}{{ .Params.fodmap.notes | default "" }}{{ else }}""{{ end }},
     content: {{ .RawContent }}
 };
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const slider = document.getElementById("recipeHeroSlider");
+        const indicators = document.querySelectorAll("#recipeHeroIndicators .indicator-dot");
+        const btnPrev = document.getElementById("recipeHeroPrev");
+        const btnNext = document.getElementById("recipeHeroNext");
+
+        if (slider && indicators.length > 0) {
+            slider.addEventListener("scroll", function () {
+                const scrollLeft = slider.scrollLeft;
+                const slideWidth = slider.clientWidth;
+                const activeIndex = Math.round(scrollLeft / slideWidth);
+
+                indicators.forEach((dot, index) => {
+                    if (index === activeIndex) {
+                        dot.classList.add("active");
+                    } else {
+                        dot.classList.remove("active");
+                    }
+                });
+            });
+
+            indicators.forEach(dot => {
+                dot.addEventListener("click", function () {
+                    const index = parseInt(this.getAttribute("data-index"), 10);
+                    const slideWidth = slider.clientWidth;
+                    slider.scrollTo({
+                        left: index * slideWidth,
+                        behavior: "smooth"
+                    });
+                });
+            });
+
+            if (btnPrev && btnNext) {
+                btnPrev.addEventListener("click", function () {
+                    slider.scrollBy({ left: -slider.clientWidth, behavior: "smooth" });
+                });
+                btnNext.addEventListener("click", function () {
+                    slider.scrollBy({ left: slider.clientWidth, behavior: "smooth" });
+                });
+            }
+        }
+    });
 </script>
 {{ end }}
