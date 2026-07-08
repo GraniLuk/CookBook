@@ -5,32 +5,34 @@ categories: śniadania
 subcategories: słone
 draft: false
 readyToTest: true
+queued: false
+favourite: false
 link: https://www.youtube.com/watch?v=oCjBBuNLGpc
 recipe_image: images/recipe-headers/pasta_twarogowa_rzodkiewka.avif
 video_file: null
 date: 2025-11-29 12:00:00+00:00
 tags:
-- szybkie
-- proteinowe
+  - szybkie
+  - kanapki
 tagline: Słona pasta z twarogu, rzodkiewki i oleju lnianego, idealna do kanapek.
 ingredients:
-- twaróg
-- rzodkiewka
-- jajko
-- olej lniany
+  - twaróg
+  - rzodkiewka
+  - jajko
+  - olej lniany
 shopping_ingredients:
-- name: twaróg
-  amount: 250
-  unit: g
-- name: rzodkiewka
-  amount: 100
-  unit: g
-- name: jajko
-  amount: 1
-  unit: szt.
-- name: olej lniany
-  amount: 20
-  unit: g
+  - name: twaróg
+    amount: 250
+    unit: g
+  - name: rzodkiewka
+    amount: 100
+    unit: g
+  - name: jajko
+    amount: 1
+    unit: szt.
+  - name: olej lniany
+    amount: 20
+    unit: g
 servings: 2
 prep_time: 5
 cook: false
@@ -40,7 +42,7 @@ protein: 16
 fat: 13
 carbohydrate: 2
 fodmap:
-  status: 'yes'
+  status: yes
   notes: Wszystkie składniki są bezpieczne dla diety low FODMAP.
 ---
 
