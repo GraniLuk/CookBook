@@ -76,7 +76,7 @@ fodmap:
 3. Dokładnie wymieszaj ciasto.
 4. Przełóż ciasto do wysmarowanej olejem i wysypanej otrębami lub mąką żytnią foremki (najlepiej keksówka 23-25 cm).
 5. Posyp wierzch mąką lub ziarnami słonecznika.
-6. **Wyrastanie:** Z dodatkiem drożdży ciasto będzie gotowe do pieczenia po około godzinie. Bez drożdży potrwa to kilka godzin – ciasto musi podwoić objętość. Wyrośnięte ciasto żytnie powinno mieć na powierzchni dziurki wielkości łebka od szpilki i widoczne linie pęknięć (kratery).
+6. **Wyrastanie:** Potrwa to kilka godzin – ciasto musi podwoić objętość. Wyrośnięte ciasto żytnie powinno mieć na powierzchni dziurki wielkości łebka od szpilki i widoczne linie pęknięć (kratery). Jeżeli chcesz przyspieszyć wstaw do piekarnika na 35°.
 7. **Pieczenie:** Wstaw foremkę do nagrzanego do 240 stopni piekarnika na 15 minut. Następnie zmniejsz temperaturę do 220 stopni i dopiekaj jeszcze przez 35 minut. *(Wskazówka: Każdy piekarnik jest inny – jeśli ciasto za bardzo się przypieka z góry, przykryj je folią aluminiową lub zmniejsz temperaturę).*
 8. Upieczony chleb wyłóż na kratkę. Po 5 minutach wyciągnij z formy i zostaw do całkowitego wystudzenia na kratce.
 
