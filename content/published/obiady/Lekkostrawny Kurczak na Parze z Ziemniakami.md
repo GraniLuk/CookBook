@@ -2,48 +2,49 @@
 title: Lekkostrawny Kurczak na Parze z Ziemniakami
 author: AI Trener
 categories: obiady
-subcategories: słone
+subcategories: null
 draft: false
 readyToTest: false
 queued: false
+favourite: false
 recipe_image: images/recipe-headers/lowfodmap-kurczak.avif
 date: 2026-04-17
 tags:
-- szybkie
-- lekkostrawne
+  - szybkie
+  - lekkostrawne
 tagline: Idealny obiad na podrażniony żołądek, lekkostrawny i pełen białka.
 ingredients:
-- pierś z kurczaka
-- ziemniaki
-- sałata rzymska
-- ogórek świeży
-- oliwa z oliwek
-- koperek
+  - pierś z kurczaka
+  - ziemniaki
+  - sałata rzymska
+  - ogórek świeży
+  - oliwa z oliwek
+  - koperek
 shopping_ingredients:
-- name: pierś z kurczaka
-  amount: 150
-  unit: g
-- name: ziemniaki
-  amount: 200
-  unit: g
-- name: sałaty
-  amount: 100
-  unit: g
-  note: np. masłowej lub rzymskiej
-- name: świeżego ogórka bez skóry
-  amount: 50
-  unit: g
-- name: oliwy z oliwek
-  amount: 1
-  unit: łyżeczka
-  note: lub prawdziwego masła
-- name: cytryny
-  amount: 1
-  unit: plaster
-- name: lub suszony koperek
-  amount: 1
-  unit: szt.
-  note: do smaku; tymianek
+  - name: pierś z kurczaka
+    amount: 150
+    unit: g
+  - name: ziemniaki
+    amount: 200
+    unit: g
+  - name: sałaty
+    amount: 100
+    unit: g
+    note: np. masłowej lub rzymskiej
+  - name: świeżego ogórka bez skóry
+    amount: 50
+    unit: g
+  - name: oliwy z oliwek
+    amount: 1
+    unit: łyżeczka
+    note: lub prawdziwego masła
+  - name: cytryny
+    amount: 1
+    unit: plaster
+  - name: lub suszony koperek
+    amount: 1
+    unit: szt.
+    note: do smaku; tymianek
 servings: 1
 prep_time: 10
 cook: true
@@ -53,9 +54,10 @@ protein: 38
 fat: 7
 carbohydrate: 37
 fodmap:
-  status: 'yes'
+  status: yes
   serving_ok: OK w tej porcji
-  notes: Całkowicie bezpieczne dla diety low FODMAP. Nie używaj czosnku ani cebuli w proszku do przyprawiania.
+  notes: Całkowicie bezpieczne dla diety low FODMAP. Nie używaj czosnku ani cebuli
+    w proszku do przyprawiania.
   substitutions: []
 ---
 
