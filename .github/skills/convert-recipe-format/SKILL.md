@@ -28,6 +28,8 @@ queued: true
 title: "Recipe Title"
 author: "Source Name or Policzone Szamy"
 recipe_image: images/recipe-headers/filename.avif
+recipe_image2: images/recipe-headers/filename2.avif # Optional
+recipe_image3: images/recipe-headers/filename3.avif # Optional
 video_file: videos/filename.mp4  # Optional
 date: YYYY-MM-DDTHH:mm:ss+00:00
 categories: # One of: śniadania, obiady, kolacje, desery, przekąska, napoje, sosy

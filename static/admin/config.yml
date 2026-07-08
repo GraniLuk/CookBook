@@ -596,6 +596,8 @@ _shared_fields:
     - { label: Ulubiony, name: favourite, widget: boolean, required: true, default: false }
     - { label: Link (YouTube itp.), name: link, widget: string, required: false }
     - { label: Obrazek przepisu (static/...), name: recipe_image, widget: string, required: false }
+    - { label: Obrazek przepisu 2 (static/...), name: recipe_image2, widget: string, required: false }
+    - { label: Obrazek przepisu 3 (static/...), name: recipe_image3, widget: string, required: false }
     - { label: Plik video (videos/...), name: video_file, widget: string, required: false }
     - { label: Plik video 2 (videos/...), name: video_file2, widget: string, required: false }
     - { label: Data, name: date, widget: hidden, default: "" }

@@ -1,21 +1,21 @@
 ---
 title: Ciasto z Truskawkami
-author: AniaGotuje.pl
+author: Ania Gotuje
 categories: desery
 subcategories: ciasta
 draft: false
 readyToTest: true
 queued: true
 link: https://aniagotuje.pl/przepis/ciasto-z-truskawkami
-recipe_image: images/recipe-headers/ciasto_truskawkowe1.avif
-recipe_image2: images/recipe-headers/ciasto_truskawkowe2.avif
+recipe_image: images/recipe-headers/ciasto_truskawkowe2.avif
+recipe_image2: images/recipe-headers/ciasto_truskawkowe1.avif
 date: 2026-07-08 20:50:00+02:00
 tags:
 - słodkie
 - szybkie
 tagline: Sprawdzony i najlepszy przepis na ciasto z truskawkami, które każdemu wychodzi. Pyszne ciasto ucierane z mnóstwem owoców.
 ingredients:
-- mąka pszenna tortowa
+- mąka pszenna
 - masło
 - jajka
 - truskawki

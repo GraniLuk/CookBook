@@ -24,6 +24,18 @@ ORDER = [
     "title",
     "author",
     "categories",
+except ImportError:
+    print(
+        "Error: 'python-frontmatter' is required. Install it with: pip install python-frontmatter"
+    )
+    sys.exit(1)
+
+# Define the desired order of keys based on archetypes/default.md
+# This order MUST match the recipe_fields order in static/admin/config.yml
+ORDER = [
+    "title",
+    "author",
+    "categories",
     "subcategories",
     "draft",
     "readyToTest",
@@ -32,6 +44,8 @@ ORDER = [
     "favourite",
     "link",
     "recipe_image",
+    "recipe_image2",
+    "recipe_image3",
     "video_file",
     "video_file2",
     "date",
