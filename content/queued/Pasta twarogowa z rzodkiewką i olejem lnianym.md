@@ -12,8 +12,8 @@ recipe_image: images/recipe-headers/pasta_twarogowa_rzodkiewka.avif
 video_file: null
 date: 2025-11-29 12:00:00+00:00
 tags:
-  - szybkie
   - kanapki
+  - pasta
 tagline: Słona pasta z twarogu, rzodkiewki i oleju lnianego, idealna do kanapek.
 ingredients:
   - twaróg
