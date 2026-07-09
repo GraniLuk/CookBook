@@ -4,15 +4,14 @@ author: Ania Gotuje
 categories: desery
 subcategories: ciasta
 draft: false
-readyToTest: true
-queued: true
+readyToTest: false
+queued: false
 link: https://aniagotuje.pl/przepis/ciasto-z-truskawkami
 recipe_image: images/recipe-headers/ciasto_truskawkowe2.avif
 recipe_image2: images/recipe-headers/ciasto_truskawkowe1.avif
 date: 2026-07-08 20:50:00+02:00
 tags:
-- słodkie
-- szybkie
+- ciasta
 tagline: Ekspresowe ciasto jogurtowe na oleju zrobisz w zaledwie 10 minut. Wystarczy wymieszać mokre składniki z suchymi, przelać do blaszki i piec w 180°C przez około 40-50 minut. Jest tanie, wilgotne i zawsze wychodzi.
 ingredients:
 - mąka pszenna
