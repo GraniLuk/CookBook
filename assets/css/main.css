@@ -1046,6 +1046,13 @@ nav[class*="navbar"] .menu[class*="menu-horizontal"]>li {
     transform: scale(1.2);
   }
 
+  @media (max-width: 768px) {
+    .recipe-hero-indicators,
+    .recipe-hero-nav {
+      display: none;
+    }
+  }
+
   .recipe-hero-nav {
     position: absolute;
     top: 50%;
