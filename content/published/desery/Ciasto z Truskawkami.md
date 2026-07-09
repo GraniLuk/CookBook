@@ -58,8 +58,6 @@ fodmap:
   - mąka bezglutenowa
 ---
 
-Ekspresowe ciasto jogurtowe na oleju zrobisz w zaledwie 10 minut. Wystarczy wymieszać mokre składniki z suchymi, przelać do blaszki i piec w 180°C przez około 40-50 minut. Jest tanie, wilgotne i zawsze wychodzi.
-
 ## Składniki
 - Mąka pszenna: 2 szklanki
 - Jogurt naturalny (lub grecki): 1 mały kubek (ok. 150-200 g)
