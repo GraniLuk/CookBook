@@ -28,8 +28,8 @@ shopping_ingredients:
   amount: 200
   unit: g
 - name: olej rzepakowy lub słonecznikowy
-  amount: 160
-  unit: ml
+  amount: 150
+  unit: g
 - name: cukier
   amount: 150
   unit: g
@@ -59,12 +59,12 @@ fodmap:
 ---
 
 ## Składniki
-- Mąka pszenna: 2 szklanki
-- Jogurt naturalny (lub grecki): 1 mały kubek (ok. 150-200 g)
-- Olej rzepakowy lub słonecznikowy: 2/3 szklanki
-- Cukier: 1/2 do 2/3 szklanki (w zależności od upodobań)
+- Mąka pszenna: 320 g
+- Jogurt naturalny (lub grecki): 200 g
+- Olej rzepakowy lub słonecznikowy: 150 g
+- Cukier: 100-150 g (w zależności od upodobań)
 - Jajka: 3 sztuki
-- Proszek do pieczenia: 2 łyżeczki
+- Proszek do pieczenia: 2 łyżeczki (ok. 10 g)
 - Truskawki: ok. 300-400 g
 
 ## Przygotowanie
