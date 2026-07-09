@@ -13,69 +13,69 @@ date: 2026-07-08 20:50:00+02:00
 tags:
 - słodkie
 - szybkie
-tagline: Sprawdzony i najlepszy przepis na ciasto z truskawkami, które każdemu wychodzi. Pyszne ciasto ucierane z mnóstwem owoców.
+tagline: Ekspresowe ciasto jogurtowe na oleju zrobisz w zaledwie 10 minut. Wystarczy wymieszać mokre składniki z suchymi, przelać do blaszki i piec w 180°C przez około 40-50 minut. Jest tanie, wilgotne i zawsze wychodzi.
 ingredients:
 - mąka pszenna
-- masło
+- jogurt naturalny
+- olej
 - jajka
+- cukier
 - truskawki
 shopping_ingredients:
-- name: mąka pszenna tortowa
+- name: mąka pszenna
   amount: 320
   unit: g
-- name: masło
+- name: jogurt naturalny
   amount: 200
   unit: g
-- name: jajka
-  amount: 5
-  unit: szt.
+- name: olej rzepakowy lub słonecznikowy
+  amount: 160
+  unit: ml
 - name: cukier
-  amount: 170
+  amount: 150
   unit: g
+- name: jajka
+  amount: 3
+  unit: szt.
 - name: proszek do pieczenia
   amount: 2
   unit: łyżeczki
 - name: truskawki
-  amount: 800
+  amount: 400
   unit: g
-servings: 14
-prep_time: 20
+servings: 12
+prep_time: 10
 cook: true
 cook_time: 50
-calories: 286
-protein: 5
-fat: 14
-carbohydrate: 35
+calories: 250
+protein: 4
+fat: 12
+carbohydrate: 32
 fodmap:
   status: depends
   serving_ok: Wymaga modyfikacji
-  notes: Mąka pszenna zawiera fruktany (high FODMAP). Można zamienić na mąkę bezglutenową (np. mieszankę do wypieków). Truskawki są low FODMAP w porcji 65g, wyższe ilości zawierają fruktozę.
+  notes: Mąka pszenna zawiera fruktany (high FODMAP). Można zamienić na mąkę bezglutenową. Truskawki są low FODMAP w porcji 65g.
   substitutions:
   - mąka bezglutenowa
 ---
 
+Ekspresowe ciasto jogurtowe na oleju zrobisz w zaledwie 10 minut. Wystarczy wymieszać mokre składniki z suchymi, przelać do blaszki i piec w 180°C przez około 40-50 minut. Jest tanie, wilgotne i zawsze wychodzi.
+
 ## Składniki
-- 2 szklanki mąki pszennej tortowej (320 g)
-- kostka prawdziwego masła (200 g)
-- 5 średnich jajek
-- około 3/4 szklanki cukru (170 g)
-- 2 łyżeczki proszku do pieczenia
-- 800 g truskawek
+- Mąka pszenna: 2 szklanki
+- Jogurt naturalny (lub grecki): 1 mały kubek (ok. 150-200 g)
+- Olej rzepakowy lub słonecznikowy: 2/3 szklanki
+- Cukier: 1/2 do 2/3 szklanki (w zależności od upodobań)
+- Jajka: 3 sztuki
+- Proszek do pieczenia: 2 łyżeczki
+- Truskawki: ok. 300-400 g
 
-## Sposób przygotowania
-1. **Nagrzej piekarnik:** Możesz już zacząć nagrzewać piekarnik do 180 stopni (środkowa półka z opcją pieczenia góra/dół). Z termoobiegiem ustaw 170 stopni.
-2. **Przygotuj masę jajeczną:** Do średniej wielkości szklanego lub metalowego naczynia wsyp około 3/4 szklanki drobnego cukru (170 g). Wbij pięć średniej wielkości jajek. Ubijaj mikserem na wysokich obrotach przez kilka minut. Cukier powinien całkowicie rozpuścić się w jajkach. Pod koniec ubijania ma powstać puszysta i jasna masa.
-3. **Roztop masło:** Kostkę prawdziwego masła (200 g) roztop w mikrofalówce, w rondelku lub w kąpieli wodnej. Przestudź je, by nie było gorące.
-4. **Wymieszaj mokre składniki:** Do miski z puchem jajecznym zacznij wlewać masło cienką strużką, cały czas ubijając na wysokich obrotach.
-5. **Dodaj suche składniki:** Po chwili wyłącz mikser. Do miski wsyp mieszankę sypkich składników (mąkę i proszek do pieczenia). Całość wymieszaj powoli, ale dokładnie szpatułką, sylikonową łopatką lub drewnianą łyżką.
-6. **Przygotuj formę:** Gotowe do pieczenia ciasto przelej do formy (blaszka o wymiarach 24 x 24 cm lub tortownica o średnicy 24-25 cm). Na dno wyłóż papier do pieczenia, a formę od wewnątrz wysmaruj odrobiną oleju lub masła i obsyp bułką tartą. Wyrównaj powierzchnię ciasta.
-7. **Wyłóż truskawki:** Świeże truskawki umyj, zdejmij szypułki i delikatnie osusz ręcznikiem papierowym. Układaj je na cieście (jedna obok drugiej, a potem na sobie), nie wciskając w ciasto - same zapadną się w trakcie pieczenia.
-8. **Piecz ciasto:** Formę umieść w nagrzanym piekarniku (180 stopni góra/dół). Piecz do 50 minut. Po 40-45 minutach można sprawdzić ciasto suchym drewnianym patyczkiem.
-9. **Studzenie:** Po upieczeniu zablokuj drzwiczki piekarnika z małą szparką. Po 10 minutach otwórz drzwi do połowy, a po chwili wyjmij ciasto. Uwolnij z foremki i przełóż na kratkę do wystudzenia. Oprósz cukrem pudrem.
+## Przygotowanie
+1. **Piekarnik i forma:** Piekarnik rozgrzej do 180°C (góra-dół). Blaszkę (np. 24x24 cm lub tortownicę) wyłóż papierem do pieczenia.
+2. **Suche składniki:** W jednej misce wymieszaj składniki suche: mąkę i proszek do pieczenia.
+3. **Mokre składniki:** W drugiej misce zmieszaj składniki mokre: jogurt, olej, jajka i cukier.
+4. **Łączenie składników:** Dodaj mokre składniki do suchych i całość wymieszaj krótko mikserem lub trzepaczką, tylko do połączenia składników.
+5. **Przekładanie do formy:** Ciasto przelej do formy, a na wierzchu gęsto ułóż truskawki (pokrojone na połówki lub ćwiartki).
+6. **Pieczenie:** Piecz około 40-50 minut (do tzw. suchego patyczka). Po ostudzeniu możesz posypać cukrem pudrem.
 
-## Podsumowanie wartości odżywczych (w 100 g - na porcję)
-
-| Składnik           | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
-|--------------------|-----------|----------------|------------|--------------|-----------------|
-| Ciasto z owocami   | 100       | 286            | 5.0        | 14.0         | 35.0            |
-| **RAZEM:**         | **100**   | **286**        | **5.0**    | **14.0**     | **35.0**        |
+Wskazówki i dokładny proces przygotowania krok po kroku możesz podejrzeć w filmach instruktażowych.
