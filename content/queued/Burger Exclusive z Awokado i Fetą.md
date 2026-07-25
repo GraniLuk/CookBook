@@ -1,16 +1,14 @@
 ---
-title: Burger Exclusive z Awokado i Fetą
+title: Burger z Awokado i Fetą
 author: Policzona Szama
 categories: obiady
 draft: false
-readyToTest: true
-queued: true
+readyToTest: false
+queued: false
 link: https://www.youtube.com/watch?v=aGyrmJnQ0_g
-recipe_image: images/recipe-headers/burger-exclusive-z-awokado-i-feta.avif
-date: 2026-06-12T12:00:00+00:00
+recipe_image: images/recipe-headers/burger-z-awokado-i-feta.avif
+date: 2026-07-24T12:00:00+00:00
 tags:
-- kanapki
-- szybkie
 - burger
 tagline: Wołowy burger z fetą, awokado, szynką szwarcwaldzką i prostym sosem z ketchupu oraz musztardy.
 ingredients:
