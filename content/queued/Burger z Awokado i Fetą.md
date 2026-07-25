@@ -7,7 +7,7 @@ readyToTest: false
 queued: false
 link: https://www.youtube.com/watch?v=aGyrmJnQ0_g
 recipe_image: images/recipe-headers/burger-z-awokado-i-feta.avif
-date: 2026-07-24T12:00:00+00:00
+date: 2026-07-24 12:00:00+00:00
 tags:
 - burger
 tagline: Wołowy burger z fetą, awokado, szynką szwarcwaldzką i prostym sosem z ketchupu oraz musztardy.
