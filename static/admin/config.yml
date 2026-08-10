@@ -285,6 +285,7 @@ _shared_fields:
       - { label: "mąka kukurydziana", value: "mąka kukurydziana" }
       - { label: "mąka migdałowa", value: "mąka migdałowa" }
       - { label: "mąka orkiszowa", value: "mąka orkiszowa" }
+      - { label: "mąka orkiszowa pełnoziarnista", value: "mąka orkiszowa pełnoziarnista" }
       - { label: "mąka owsiana", value: "mąka owsiana" }
       - { label: "mąka pszenna", value: "mąka pszenna" }
       - { label: "mąka pszenna typ 650", value: "mąka pszenna typ 650" }
