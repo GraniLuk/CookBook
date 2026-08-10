@@ -12,7 +12,6 @@ link: https://www.instagram.com/reels/Dbix0kwtv7C/
 recipe_image: images/recipe-headers/gofry_z_cukinii.avif
 date: 2026-08-10
 tags:
-- szybkie
 - przekąska
 - lunchbox
 tagline: Chrupiące i puszyste wytrawne gofry z cukinii i sera żółtego – szybki pomysł na śniadanie lub przekąskę.
