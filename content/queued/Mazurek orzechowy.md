@@ -10,91 +10,116 @@ priority: 1
 favourite: false
 link: https://trello.com/c/itxSXe29
 recipe_image: images/recipe-headers/mazurek-orzechowy.avif
-date: 2026-06-11 00:00:00+02:00
+date: 2026-08-12T08:43:35+02:00
 tags:
 - słodkie
 - ciasta
-- xmas
 - trello
-tagline: "Kruchy mazurek z kajmakiem, orzechami i gorzką czekoladą."
+tagline: "Kruchy mazurek orzechowy z puszystą masą białkową i bakaliami."
 ingredients:
 - mąka pszenna
-- masło
-- jajko
-- masa kajmakowa
+- margaryna
 - orzechy włoskie
-- czekolada gorzka
+- cukier
+- cukier puder
+- jajka
 shopping_ingredients:
 - name: mąka pszenna
-  amount: 300
+  amount: 150
   unit: g
-- name: masło
-  amount: 180
-  unit: g
-- name: cukier puder
-  amount: 80
-  unit: g
-- name: żółtka
-  amount: 2
-  unit: szt.
-- name: masa kajmakowa
-  amount: 400
+- name: margaryna
+  amount: 125
   unit: g
 - name: orzechy włoskie
-  amount: 160
+  amount: 85
   unit: g
-- name: czekolada gorzka
-  amount: 80
+  note: 35 g do ciasta, 30 g do masy, 20 g do dekoracji
+- name: cukier
+  amount: 100
   unit: g
-servings: 16
-prep_time: 35
+- name: żółtka
+  amount: 3
+  unit: szt.
+- name: białka jajek
+  amount: 3
+  unit: szt.
+- name: proszek do pieczenia
+  amount: 1
+  unit: szczypta
+- name: sól
+  amount: 1
+  unit: szczypta
+- name: cukier puder
+  amount: 150
+  unit: g
+- name: sok z cytryny
+  amount: 1
+  unit: łyżeczka
+- name: płatki migdałów
+  amount: 20
+  unit: g
+  note: do dekoracji
+- name: żurawina suszona
+  amount: 20
+  unit: g
+  note: do dekoracji
+servings: 12
+prep_time: 25
 cook: true
 cook_increment: minutes
 cook_time: 25
-calories: 349
-protein: 5.7
-fat: 20.1
-carbohydrate: 37.2
+calories: 283
+protein: 4.4
+fat: 15.1
+carbohydrate: 33.3
 fodmap:
   status: depends
   serving_ok: Wymaga modyfikacji
-  notes: Wersja bazowa może zawierać pszenicę, laktozę, cebulę, czosnek albo większą porcję owoców/warzyw o wyższym FODMAP, zależnie od przepisu.
+  notes: Zawiera mąkę pszenną, dużą ilość cukru oraz orzechy włoskie i suszoną żurawinę.
   substitutions:
-  - Użyj bezglutenowej mąki, makaronu lub bułki tartej tam, gdzie bazą jest pszenica.
-  - Zamień nabiał na wariant bez laktozy.
-  - Cebulę i czosnek zastąp zieloną częścią dymki, szczypiorkiem albo oliwą czosnkową.
+  - Użyj mąki bezglutenowej zamiast mąki pszennej.
+  - Zastąp żurawinę niewielką ilością dozwolonych owoców jagodowych lub pestek dyni.
 ---
 ## Składniki
 
-### Spód
+### Ciasto
 
-- 300 g mąka pszenna
-- 180 g masło
-- 80 g cukier puder
-- 2 szt. żółtka
+- 1 szklanka mąka pszenna (ok. 150 g)
+- 125 g margaryna
+- 35 g orzechy włoskie (mielone)
+- 1/2 szklanki cukier (ok. 100 g)
+- 3 szt. żółtka
+- 1 szczypta proszek do pieczenia
+- 1 szczypta sól
 
-### Wierzch
+### Nadzienie i dekoracja
 
-- 400 g masa kajmakowa
-- 160 g orzechy włoskie
-- 80 g czekolada gorzka
+- 1 garść orzechy włoskie (mielone, ok. 30 g)
+- 3 szt. białka jajek
+- 1 szklanka cukier puder (ok. 150 g)
+- 1 łyżeczka sok z cytryny
+- 60 g bakalie (orzechy włoskie, płatki migdałów, suszona żurawina)
 
 ## Sposób przygotowania
-1. Zagnieć składniki spodu, schłódź i rozwałkuj do formy.
-2. Piecz kruchy spód 20-25 minut w 180°C i wystudź.
-3. Rozsmaruj kajmak na zimnym spodzie.
-4. Udekoruj orzechami i roztopioną gorzką czekoladą.
-5. Odstaw, aż polewa stężeje.
+1. **Przygotowanie ciasta:** Mąkę przesiej przez sitko. Dodaj poszatkowaną margarynę, drobno zmielone orzechy włoskie, cukier, żółtka, proszek do pieczenia i sól.
+2. Zagnieć jednolite ciasto (jeśli ciasto będzie za rzadkie, dosyp odrobinę mąki).
+3. Oddziel około 1/4 ciasta do uformowania brzegów (lub wylep całością ciasta formę/tartaletkę).
+4. Ponakłuwaj spód widelcem i podpiecz w piekarniku nagrzanym do 180°C (termoobieg) przez około 10–15 minut, aż delikatnie się zrumieni.
+5. **Przygotowanie masy:** Białka ubij na sztywną pianę. Następnie dodaj cukier puder, mielone orzechy oraz sok z cytryny, mieszając do połączenia składników.
+6. Wyłóż masę równomiernie na podpieczony spód, a na wierzchu poukładaj bakalie do dekoracji (orzechy, płatki migdałów, suszoną żurawinę).
+7. Piecz całość przez około 10 minut w 170°C (termoobieg).
 
 ## Podsumowanie wartości odżywczych (całe danie)
 
 | Składnik           | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
 |--------------------|-----------|----------------|------------|--------------|-----------------|
-| mąka pszenna       |       300 |           1092 |       30.9 |          3.0 |           228.0 |
-| masło              |       180 |           1291 |        1.4 |        145.8 |             0.2 |
-| cukier puder       |        80 |            320 |        0.0 |          0.0 |            80.0 |
-| żółtka             |        36 |            116 |        5.7 |          9.5 |             1.3 |
-| masa kajmakowa     |       400 |           1280 |       24.0 |         32.0 |           224.0 |
-| orzechy włoskie    |       160 |           1046 |       24.0 |        104.0 |            22.4 |
-| czekolada gorzka   |        80 |            440 |        4.8 |         28.0 |            40.0 |
-| **RAZEM:**         | **1236** | **5585** | **90.9** | **322.3** | **595.9** |
+| mąka pszenna       |       150 |            546 |       15.5 |          1.5 |           114.0 |
+| margaryna          |       125 |            896 |        0.3 |        100.0 |             0.6 |
+| orzechy włoskie    |        85 |            556 |       12.9 |         55.4 |            11.6 |
+| cukier             |       100 |            400 |        0.0 |          0.0 |           100.0 |
+| żółtka             |        54 |            174 |        8.5 |         14.3 |             1.9 |
+| białka jajek       |        99 |             51 |       10.8 |          0.2 |             0.7 |
+| cukier puder       |       150 |            600 |        0.0 |          0.0 |           150.0 |
+| płatki migdałów    |        20 |            116 |        4.2 |         10.0 |             4.3 |
+| żurawina suszona   |        20 |             62 |        0.0 |          0.3 |            16.5 |
+| **RAZEM:**         | **803**   | **3401**       | **52.2**   | **181.7**    | **399.6**       |

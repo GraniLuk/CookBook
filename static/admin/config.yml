@@ -252,6 +252,7 @@ _shared_fields:
       - { label: "mango", value: "mango" }
       - { label: "marchew", value: "marchew" }
       - { label: "marchewka", value: "marchewka" }
+      - { label: "margaryna", value: "margaryna" }
       - { label: "masa kajmakowa", value: "masa kajmakowa" }
       - { label: "mascarpone", value: "mascarpone" }
       - { label: "masło", value: "masło" }
