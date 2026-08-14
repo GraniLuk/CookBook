@@ -11,6 +11,8 @@ recipe_image: images/recipe-headers/biszkopt_do_tortu_22_cm.avif
 date: 2026-08-13
 tags:
 - ciasta
+- tort
+- urodziny
 tagline: Klasyczny, wysoki biszkopt na 6 jajek. Idealny do przekrojenia na 3 blaty tortowe bez użycia proszku do pieczenia.
 ingredients:
 - jajka

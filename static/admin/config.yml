@@ -79,10 +79,12 @@ _shared_fields:
       - { label: "szybkie", value: "szybkie" }
       - { label: "słodkie", value: "słodkie" }
       - { label: "tarta", value: "tarta" }
+      - { label: "tort", value: "tort" }
       - { label: "tortilla", value: "tortilla" }
       - { label: "tradycyjne", value: "tradycyjne" }
       - { label: "trello", value: "trello" }
       - { label: "tropikalne", value: "tropikalne" }
+      - { label: "urodziny", value: "urodziny" }
       - { label: "wegańskie", value: "wegańskie" }
       - { label: "wegetariańskie", value: "wegetariańskie" }
       - { label: "włoskie", value: "włoskie" }

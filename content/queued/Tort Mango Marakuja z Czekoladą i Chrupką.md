@@ -117,8 +117,8 @@ fodmap:
 - 1 łyżeczka soku z cytryny (opcjonalnie)
 
 ### Żelka mango-marakuja (rant 20 cm)
-- 250 g puree z mango
-- 150 g puree z marakui
+- 150 g puree z mango
+- 250 g puree z marakui
 - 50 g cukru
 - 9 g żelatyny w proszku
 - 45 ml zimnej wody (do namoczenia żelatyny)
@@ -139,19 +139,19 @@ fodmap:
 ### Krem orzechowo-czekoladowy
 - 300 g sera mascarpone (schłodzonego)
 - 150 g śmietanki 30% (schłodzonej)
-- 120 g kremu orzechowo-czekoladowego (np. Nocciolata Original)
+- 120 g kremu orzechowo-czekoladowego (Nocciolata Original)
 
 ### Nadtynk (tynkowanie tortu 22 cm)
 - 250 g masła (miękkiego, w temperaturze pokojowej)
 - 250 g białej czekolady
 - 100 g śmietanki 30%
-- 1 szczypta soli (opcjonalnie)
+- 1 szczypta soli
 
 ## Sposób przygotowania
 
 ### 1. Biszkopt (rant 22 cm)
 1. Jajka i cukier ubijaj mikserem przez około 20 minut, aż masa stanie się bardzo jasna, puszysta i potroi swoją objętość.
-2. Mąkę przesiądź przez sitko.
+2. Mąkę przesiej przez sitko trzykrotnie.
 3. Dodawaj mąkę do ubitej masy jajecznej w 2-3 porcjach, delikatnie mieszając szpatułką ruchami od dołu do góry.
 4. Przelać masę do rantu o średnicy 22 cm wyłożonego papierem do pieczenia wyłącznie od spodu.
 5. Wyrównaj wierzch i piecz przez 55-60 minut w temperaturze 155-160°C (góra-dół, bez termoobiegu) na najniższym poziomie piekarnika. Nie otwieraj piekarnika przez pierwsze 50 minut.
