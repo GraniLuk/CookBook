@@ -5,8 +5,8 @@ categories: desery
 draft: false
 readyToTest: true
 queued: true
-recipe_image: images/recipe-headers/tort_mango_marakuja_czekolada.avif
 link: https://youtu.be/BHz9r57cu0U?is=NT26HtCi49uV5KEI
+recipe_image: images/recipe-headers/tort_mango_marakuja_czekolada.avif
 date: 2026-08-14
 tags:
 - ciasta
@@ -219,6 +219,10 @@ Nakładaj pasami od dołu do góry i wygładź skrobką. Granice kolorów delika
 - **Za miękki krem:** Wstaw nadtynk na 10-15 minut do lodówki.
 - **Za twardy krem:** Pozostaw nadtynk na 10-15 minut w temperaturze pokojowej i krótko przemiksuj.
 - **Pęcherzyki powietrza:** Wygładzaj wierzch ciepłą skrobką (np. zanurzoną we gorącej wodzie i osuszoną).
+
+#### Inspiracja
+
+[Akademia tortu](https://akademiatortu.pl/kategoria/krem-do-tortu/)
 
 ## Podsumowanie wartości odżywczych (całe danie)
 

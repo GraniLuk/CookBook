@@ -6,28 +6,27 @@ draft: false
 readyToTest: false
 queued: false
 favourite: false
-recipe_image: images/recipe-headers/biszkopt_do_tortu_22_cm.avif
 link: https://slodkipomysl.pl/biszkopt-do-tortu/
+recipe_image: images/recipe-headers/biszkopt_do_tortu_22_cm.avif
 date: 2026-08-13
 tags:
-  - ciasta
-tagline: Klasyczny, wysoki biszkopt na 6 jajek. Idealny do przekrojenia na 3
-  blaty tortowe bez użycia proszku do pieczenia.
+- ciasta
+tagline: Klasyczny, wysoki biszkopt na 6 jajek. Idealny do przekrojenia na 3 blaty tortowe bez użycia proszku do pieczenia.
 ingredients:
-  - jajka
-  - cukier
-  - mąka pszenna
+- jajka
+- cukier
+- mąka pszenna
 shopping_ingredients:
-  - name: jajka
-    amount: 6
-    unit: szt.
-    note: rozm. L
-  - name: cukier
-    amount: 200
-    unit: g
-  - name: mąka pszenna typ 450
-    amount: 240
-    unit: g
+- name: jajka
+  amount: 6
+  unit: szt.
+  note: rozm. L
+- name: cukier
+  amount: 200
+  unit: g
+- name: mąka pszenna typ 450
+  amount: 240
+  unit: g
 servings: 10
 prep_time: 25
 cook: true
@@ -39,11 +38,11 @@ carbohydrate: 380
 fodmap:
   status: depends
   serving_ok: Wymaga modyfikacji
-  notes: Mąka pszenna zawiera fruktany (high FODMAP). Biszkopt można przygotować w
-    wersji low FODMAP, zamieniając mąkę pszenną na bezglutenową mieszankę.
+  notes: Mąka pszenna zawiera fruktany (high FODMAP). Biszkopt można przygotować w wersji low FODMAP, zamieniając mąkę pszenną na bezglutenową mieszankę.
   substitutions:
-    - Mąka pszenna -> Mieszanka mąki ryżowej (160 g) i ziemniaczanej (80 g)
+  - Mąka pszenna -> Mieszanka mąki ryżowej (160 g) i ziemniaczanej (80 g)
 ---
+
 ## Składniki
 
 * 6 jajek (rozm. L)
