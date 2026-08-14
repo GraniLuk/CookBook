@@ -6,6 +6,7 @@ draft: false
 readyToTest: false
 queued: false
 recipe_image: images/recipe-headers/biszkopt_do_tortu_22_cm.avif
+link: https://slodkipomysl.pl/biszkopt-do-tortu/
 date: 2026-08-13
 tags:
 - ciasta
