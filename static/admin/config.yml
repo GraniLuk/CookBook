@@ -546,6 +546,7 @@ _shared_fields:
       - { label: "przepeace", value: "przepeace" }
       - { label: "ricetta.it", value: "ricetta.it" }
       - { label: "swiatzesmakiem", value: "swiatzesmakiem" }
+      - { label: "Słodki Pomysł", value: "Słodki Pomysł" }
       - { label: "Teść Krzysztof", value: "Teść Krzysztof" }
       - { label: "the.foodini", value: "the.foodini" }
       - { label: "Trello", value: "Trello" }
