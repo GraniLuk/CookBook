@@ -6,8 +6,8 @@ draft: false
 readyToTest: false
 queued: false
 link: https://youtu.be/BHz9r57cu0U?is=NT26HtCi49uV5KEI
-recipe_image: images/recipe-headers/tort_mango_marakuja_czekolada.avif
-recipe_image2: images/recipe-headers/tort_mango_marakuja_czekolada_2.avif
+recipe_image: images/recipe-headers/tort_mango_marakuja_czekolada_2.avif
+recipe_image2: images/recipe-headers/tort_mango_marakuja_czekolada.avif
 date: 2026-08-14
 tags:
 - ciasta
