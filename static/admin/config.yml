@@ -415,6 +415,7 @@ _shared_fields:
       - { label: "sałata rzymska", value: "sałata rzymska" }
       - { label: "schab pieczony", value: "schab pieczony" }
       - { label: "schab wieprzowy", value: "schab wieprzowy" }
+      - { label: "seler konserwowy", value: "seler konserwowy" }
       - { label: "seler korzeń", value: "seler korzeń" }
       - { label: "ser", value: "ser" }
       - { label: "ser camembert", value: "ser camembert" }
