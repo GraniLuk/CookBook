@@ -31,7 +31,7 @@ shopping_ingredients:
 - name: cukier puder
   amount: 50
   unit: g
-- name: masł0
+- name: masło
   amount: 200
   unit: g
 - name: jajka
