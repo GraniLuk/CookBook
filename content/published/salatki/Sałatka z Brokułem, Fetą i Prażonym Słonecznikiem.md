@@ -26,10 +26,10 @@ shopping_ingredients:
   amount: 11.0
   unit: szt.
   note: ok. 150g
-- name: sera feta
+- name: ser feta
   amount: 200
   unit: g
-- name: stołowe pestek słonecznika
+- name: pestki słonecznika
   amount: 3
   unit: łyżki
   note: ok. 30g

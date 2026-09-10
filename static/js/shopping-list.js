@@ -98,8 +98,8 @@
     if (/(jaj|mleko|jogurt|skyr|twaróg|serek|ser|śmietan|mozzarella|feta)/u.test(key)) return "Nabiał i jajka";
     if (/(ryż|makaron|kasza|mąka|płatki|kuskus|komosa|buł|tortilla|pieczywo|chleb)/u.test(key)) return "Zboża i pieczywo";
     if (/(olej|oliwa|sos|ketchup|majonez|musztarda|ocet|masło|tahini|pasta|mleko kokosowe)/u.test(key)) return "Tłuszcze i sosy";
-    if (/(przypraw|czosnek|cynamon|curry|kumin|kolendra|koperek|natka|miód|cukier|erytrytol|sezam|orzech|chia|kakao|imbir)/u.test(key)) return "Przyprawy i dodatki";
-    if (/(papryk|pomidor|ogórek|cebula|marchew|sałat|rukola|ananas|awokado|malin|cytryn|limonk|granat|dynia|fasol|kukurydz|ziemniak|cukinia|truskawk|banan|kapust|rzodkiew)/u.test(key)) return "Warzywa i owoce";
+    if (/(przypraw|czosnek|cynamon|curry|kumin|kolendra|koperek|natka|miód|cukier|erytrytol|pestki|sezam|orzech|chia|kakao|imbir)/u.test(key)) return "Przyprawy i dodatki";
+    if (/(papryk|pomidor|ogórek|cebula|marchew|sałat|rukola|ananas|awokado|malin|brokuł|cytryn|limonk|granat|dynia|fasol|kukurydz|ziemniak|cukinia|truskawk|banan|kapust|rzodkiew)/u.test(key)) return "Warzywa i owoce";
     return "Inne";
   }
 

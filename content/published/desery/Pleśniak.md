@@ -22,28 +22,28 @@ ingredients:
 - orzechy włoskie
 - dżem z czarnej porzeczki
 shopping_ingredients:
-- name: mąki pszennej
+- name: mąka pszenna
   amount: 400
   unit: g
-- name: proszku do pieczenia
+- name: proszek do pieczenia
   amount: 1
   unit: łyżeczka
-- name: cukru pudru
+- name: cukier puder
   amount: 50
   unit: g
 - name: masła
   amount: 200
   unit: g
-- name: żółtek
+- name: żółtka
   amount: 5
   unit: szt.
-- name: białek
+- name: białka
   amount: 5
   unit: szt.
-- name: mąki ziemniaczanej
+- name: mąka ziemniaczana
   amount: 1
   unit: łyżka
-- name: cukru
+- name: cukier
   amount: 180
   unit: g
 - name: kakao
@@ -52,7 +52,7 @@ shopping_ingredients:
 - name: orzechy włoskie
   amount: 100
   unit: g
-- name: dżemu z czarnej porzeczki
+- name: dżem z czarnej porzeczki
   amount: 210
   unit: g
 - name: masło
