@@ -31,13 +31,10 @@ shopping_ingredients:
 - name: cukier puder
   amount: 50
   unit: g
-- name: masła
+- name: masł0
   amount: 200
   unit: g
-- name: żółtka
-  amount: 5
-  unit: szt.
-- name: białka
+- name: jajka
   amount: 5
   unit: szt.
 - name: mąka ziemniaczana
