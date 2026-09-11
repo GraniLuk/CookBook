@@ -99,7 +99,7 @@ fodmap:
 ### Przygotowanie ciasta
 
 1. Wymieszaj mąkę z proszkiem do pieczenia i cukrem pudrem.
-2. Dodaj margarynę pokrojoną na małe kawałki i wymieszaj.
+2. Dodaj masło pokrojoną na małe kawałki i wymieszaj.
 3. Dodaj 5 żółtek i dobrze ugnieć ciasto.
 
 ### Podział i aromatyzacja
@@ -134,7 +134,7 @@ fodmap:
 | Składnik                 | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
 | ------------------------ | --------- | -------------- | ---------- | ------------ | --------------- |
 | Mąka pszenna             | 400       | 1320           | 40.0       | 4.0          | 276.0           |
-| Margaryna                | 200       | 1440           | 1.6        | 160.0        | 0.0             |
+| Masło                | 200       | 1440           | 1.6        | 160.0        | 0.0             |
 | Jajka (5 szt.)           | 250       | 375            | 33.0       | 27.5         | 1.5             |
 | Cukier puder             | 50        | 200            | 0.0        | 0.0          | 50.0            |
 | Cukier do piany          | 180       | 720            | 0.0        | 0.0          | 180.0           |
