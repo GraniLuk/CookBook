@@ -14,6 +14,7 @@ tags:
 - proteinowe
 - szybkie
 - jednogarnkowe
+- instant pot
 tagline: "Leniwy Butter Chicken z jednej blachy – zaledwie 15 minut pracy, zero brudnych garów i 6 sycących porcji z aromatycznym ryżem i soczystym kurczakiem!"
 ingredients:
 - pierś z kurczaka
@@ -128,6 +129,43 @@ fodmap:
 
 > [!TIP]
 > **Meal prep i mrożenie:** Danie zachowuje świeżość w lodówce przez 3–4 dni. Rewelacyjnie nadaje się również do mrożenia w całości – po rozmrożeniu na patelni lub w mikrofalówce ryż z sosem i mięsem zachowuje idealną strukturę i wilgotność.
+
+{{< collapsible title="Wersja w Instant Pot (z ryżem gotowanym osobno)" icon="⚡" >}}
+
+### Przygotowanie w Instant Pot
+
+Przygotowanie samego kurczaka z sosem w Instant Pot i ugotowanie ryżu osobno w garnku to kulinarnie **najlepsza opcja** – zyskujesz prawdziwy, gęsty sos Butter Chicken, sypki ryż basmati (zamiast konieczności używania parboiled) oraz całkowicie eliminujesz ryzyko przypalenia dna (**Food Burn**).
+
+**Kluczowe modyfikacje:**
+- **Drastycznie mniej wody:** Do Instant Pot dodaj tylko **100–150 ml wody** (zamiast 700 ml), aby lekko rozrzedzić passatę (700 g) – w szybkowarze woda nie odparowuje, a brak ryżu w garnku oznacza, że nic nie pije płynu.
+- **Dowolny ryż:** W garnku na kuchence możesz ugotować ulubiony, aromatyczny **ryż basmati** lub **jaśminowy**.
+- **Pełna kontrola:** Brak ryzyka błędu *Burn*, a sos ma idealną, aksamitną konsystencję.
+
+**Kroki przygotowania:**
+
+1. **Marynowanie kurczaka:** Pokrój kurczaka w kostkę (~2 cm) i wymieszaj z olejem (30 g), koncentratem pomidorowym (30 g), czosnkiem, imbirem, 1 łyżką garam masala, solą i chili (dokładnie jak w przepisie głównym).
+2. **Podsmażenie (tryb Sauté):**
+   - Włącz tryb **Sauté** w Instant Pot.
+   - Wrzuć zamarynowanego kurczaka i podsmażaj przez ok. 3 minuty, aż mięso zmieni kolor z zewnątrz i uwolnią się aromaty przypraw.
+3. **Deglazacja i baza sosu:**
+   - Wlej do garnka **100–150 ml wody** i drewnianą łopatką dokładnie zeskrob z dna wszystkie przypieczone cząstki (deglazacja zapobiega błędom grzania).
+   - Wyłącz tryb Sauté (przycisk **Cancel**).
+   - Wlej całą passatę pomidorową (700 g), dodaj drugą łyżkę garam masala oraz 1 płaską łyżeczkę soli i wymieszaj.
+4. **Gotowanie pod ciśnieniem:**
+   - Zamknij pokrywę, przekręć zawór na **Sealing**.
+   - Wybierz program **Pressure Cook / Manual (High Pressure)** na **5 minut**.
+5. **Uwalnianie ciśnienia:**
+   - Po sygnale odczekaj **5–10 minut naturalnego spadku ciśnienia (NPR)**, po czym ostrożnie przekręć zawór na **Venting** (Quick Release), aby uwolnić resztkę pary.
+6. **Aksamitne wykończenie:**
+   - Otwórz pokrywę. Do gorącego sosu wrzuć pokrojone zimne masło (20 g) oraz kubek kremowego jogurtu naturalnego (200 g).
+   - Wymieszaj całość łyżką – sos natychmiast stanie się lśniący, maślany i aksamitny.
+7. **Ryż i brokuł (w międzyczasie na kuchence):**
+   - W osobnym garnku ugotuj ryż (najlepiej basmati: 400 g ryżu zalej ok. 600–700 ml lekko osolonej wody, gotuj pod przykryciem na małym ogniu przez ok. 10–12 minut, aż wchłonie płyn).
+   - Ugotuj różyczki brokuła na parze lub w wodzie al dente (ok. 4 minuty).
+8. **Podanie:**
+   - Rozłóż sypki ryż do lunchboxów lub talerzy, polej obficie kurczakiem w aromatycznym sosie i dołóż brokuł. Posyp świeżą kolendrą.
+
+{{< /collapsible >}}
 
 ## Podsumowanie wartości odżywczych (całe danie, 6 porcji)
 
