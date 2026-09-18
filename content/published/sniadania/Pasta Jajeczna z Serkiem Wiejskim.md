@@ -1,16 +1,15 @@
-﻿---
+---
 title: Pasta Jajeczna z Serkiem Wiejskim
 author: Policzone Szamy
 categories: śniadania
 subcategories: słone
 draft: false
-readyToTest: true
-queued: true
-priority: 1
+readyToTest: false
+queued: false
 favourite: false
 link: ''
 recipe_image: images/recipe-headers/pasta_jajeczna_z_serkiem_wiejskim.avif
-date: 2026-08-24T18:11:00+00:00
+date: 2026-09-18T17:11:00+02:00
 tags:
 - kanapki
 - szybkie
