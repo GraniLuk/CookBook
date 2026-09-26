@@ -561,6 +561,8 @@ _shared_fields:
       - { label: "Teść Krzysztof", value: "Teść Krzysztof" }
       - { label: "the.foodini", value: "the.foodini" }
       - { label: "Trello", value: "Trello" }
+      - { label: "Tymoteusz Puchacz", value: "Tymoteusz Puchacz" }
+      - { label: "zdrowo_z_paula", value: "zdrowo_z_paula" }
     hint: "Wybierz z listy autorów (wpisz lub kliknij, aby zobaczyć wszystkie)."
 
   # Field order matches ORDER array in scripts/normalize_frontmatter.py

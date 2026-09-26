@@ -28,7 +28,7 @@ shopping_ingredients:
   unit: szt.
   note: 200g
 - name: mąki orkiszowej lub pszennej
-  amount: 120
+  amount: 80
   unit: g
 - name: jajka
   amount: 2
@@ -38,10 +38,10 @@ servings: 12
 prep_time: 10
 cook: true
 cook_time: 20
-calories: 158
+calories: 145
 protein: 10
 fat: 4
-carbohydrate: 21
+carbohydrate: 18
 fodmap:
   status: false
   serving_ok: Mała porcja - zamień mąkę, uważaj na banan
@@ -55,7 +55,7 @@ fodmap:
 ## Składniki
 - 1 dojrzały banan (120g)
 - 1 serek wiejski (200g)
-- 120g mąki orkiszowej lub pszennej
+- 80g mąki orkiszowej lub pszennej
 - 2 jajka L (120g)
 
 ## Sposób przygotowania
@@ -69,6 +69,6 @@ fodmap:
 |------------------|-----------|---------------|------------|--------------|-----------------|
 | Banan            | 120       | 107           | 1.3        | 0.3          | 27.6            |
 | Serek wiejski    | 200       | 203           | 22.1       | 9.0          | 6.8             |
-| Mąka orkiszowa   | 120       | 406           | 17.6       | 2.9          | 84.0            |
+| Mąka orkiszowa   | 80        | 271           | 11.7       | 1.9          | 56.0            |
 | Jajka            | 120       | 172           | 15.1       | 11.8         | 0.8             |
-| **RAZEM:**       | **560**   | **888**       | **56.1**   | **24.0**     | **119.2**       |
+| **RAZEM:**       | **520**   | **753**       | **50.2**   | **23.0**     | **91.2**        |
