@@ -12,6 +12,7 @@ date: 2025-06-20 12:00:00+00:00
 tags:
 - Stefan
 - wegańskie
+- gerd-safe
 tagline: Zdrowe placki z marchewki i dyni - idealne na każdą porę dnia!
 ingredients:
 - marchewka
@@ -20,29 +21,29 @@ ingredients:
 - jajko
 - banan
 shopping_ingredients:
-- name: marchewka
-  amount: 2
-  unit: szt.
+- amount: 2
+  name: marchewka
   note: około 200g
-- name: dyni
-  amount: 0.5
   unit: szt.
+- amount: 0.5
+  name: dyni
   note: około 400g
-- name: mąki pszennej
-  amount: 60
+  unit: szt.
+- amount: 60
+  name: mąki pszennej
   unit: g
-- name: jajko
-  amount: 1
-  unit: szt.
+- amount: 1
+  name: jajko
   note: około 50g
-- name: banan
-  amount: 1
   unit: szt.
+- amount: 1
+  name: banan
   note: około 120g
-- name: olej do smażenia
-  amount: 1
   unit: szt.
+- amount: 1
+  name: olej do smażenia
   note: około 10g
+  unit: szt.
 servings: 20
 prep_time: 30
 cook: true
@@ -51,10 +52,12 @@ calories: 71
 protein: 3
 fat: 1
 carbohydrate: 14
+diets:
+- gerd-safe
 fodmap:
-  status: depends
-  serving_ok: OK przy małej porcji i zamianie mąki; kontroluj banana
   notes: Marchewka i dynia (w małych porcjach) są low FODMAP. Pszenica i dojrzały banan zwiększają FODMAP.
+  serving_ok: OK przy małej porcji i zamianie mąki; kontroluj banana
+  status: depends
   substitutions:
   - Mąka pszenna -> mąka ryżowa lub owsiana bezglutenowa.
   - Dojrzały banan -> niedojrzały i w mniejszej ilości lub zamień na puree z dyni.

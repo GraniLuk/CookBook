@@ -12,6 +12,7 @@ date: 2025-10-28 12:40:00+00:00
 tags:
 - szybkie
 - proteinowe
+- gerd-safe
 tagline: Pusziste mini racuchy twarogowe z bananem – 11 sztuk pełnych białka i smaku!
 ingredients:
 - twaróg
@@ -21,31 +22,31 @@ ingredients:
 - mąka orkiszowa
 - rodzynki
 shopping_ingredients:
-- name: twaróg
-  amount: 100
+- amount: 100
+  name: twaróg
   unit: g
-- name: jajko
-  amount: 1
+- amount: 1
+  name: jajko
   unit: szt.
-- name: banan
-  amount: 1
-  unit: szt.
+- amount: 1
+  name: banan
   note: ~100 g
-- name: mleka
-  amount: 70.0
-  unit: ml
+  unit: szt.
+- amount: 70.0
+  name: mleka
   note: zacząć od 60 ml, ewentualnie dolać
-- name: proszku do pieczenia
-  amount: 0.5
+  unit: ml
+- amount: 0.5
+  name: proszku do pieczenia
   unit: łyżeczki
-- name: mąki orkiszowej pełnoziarnistej
-  amount: 40
+- amount: 40
+  name: mąki orkiszowej pełnoziarnistej
   unit: g
-- name: rodzynki
-  amount: 25.0
+- amount: 25.0
+  name: rodzynki
   unit: g
-- name: Olej w sprayu do smażenia
-  amount: 1
+- amount: 1
+  name: Olej w sprayu do smażenia
   unit: szt.
 servings: 1
 prep_time: 5
@@ -56,10 +57,12 @@ calories: 450
 protein: 38
 fat: 9
 carbohydrate: 56
+diets:
+- gerd-safe
 fodmap:
-  status: 'no'
-  serving_ok: NIE – banan i rodzynki są wysokofodmap
   notes: Banan (zwłaszcza dojrzały) zawiera oligo-fruktany i fruktозę. Bezpieczna porcja to ~1/3 niedojrzałego banana (~30 g). Rodzynki są bardzo wysokofodmap (fruktoza, fruktany). Twaróg zawiera laktozę – w większych ilościach może być problemem. Mleko (laktoza) również.
+  serving_ok: NIE – banan i rodzynki są wysokofodmap
+  status: 'no'
   substitutions:
   - banan -> 1/3 niedojrzałego banana lub pomiń (zwiększ mleko)
   - rodzynki -> pomiń lub zamień na wiórki czekoladowe (niewielka ilość, sprawdź skład)

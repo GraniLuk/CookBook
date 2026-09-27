@@ -12,6 +12,7 @@ date: 2025-10-23 11:00:00+00:00
 tags:
 - szybkie
 - kanapki
+- gerd-safe
 tagline: Kremowy domowy twarożek z chrupiącą rzodkiewką i świeżym szczypiorkiem - idealne śniadanie.
 ingredients:
 - twaróg
@@ -19,30 +20,30 @@ ingredients:
 - rzodkiewka
 - szczypiorek
 shopping_ingredients:
-- name: twaróg
-  amount: 400
+- amount: 400
+  name: twaróg
   unit: g
-- name: śmietana 18%
-  amount: 100
-  unit: g
+- amount: 100
+  name: śmietana 18%
   note: 3 czubate łyżki
-- name: rzodkiewka
-  amount: 3
-  unit: szt.
+  unit: g
+- amount: 3
+  name: rzodkiewka
   note: około 60g
-- name: szczypiorek
-  amount: 1
   unit: szt.
+- amount: 1
+  name: szczypiorek
   note: około 15-20g
-- name: Jajko na twardo jako dodatkowy składnik
-  amount: 1
   unit: szt.
+- amount: 1
+  name: Jajko na twardo jako dodatkowy składnik
   note: pokrojone
-- name: pieczywo lub bułka
-  amount: 1
   unit: szt.
-- name: 'Opcjonalnie: plasterki szynki lub żółtego sera do roladek'
-  amount: 1
+- amount: 1
+  name: pieczywo lub bułka
+  unit: szt.
+- amount: 1
+  name: 'Opcjonalnie: plasterki szynki lub żółtego sera do roladek'
   unit: szt.
 servings: 5
 prep_time: 20
@@ -52,10 +53,12 @@ calories: 150
 protein: 10
 fat: 8
 carbohydrate: 6
+diets:
+- gerd-safe
 fodmap:
-  status: depends
-  serving_ok: 'OK po modyfikacjach: szczypiorek ≤ 1 łyżka/os.; śmietana bez laktozy'
   notes: Twaróg jest niskolaktozowy (OK). Śmietana kwaśna - wybieraj bez laktozy. Szczypiorek w małych ilościach jest bezpieczny (≤1 łyżka). Rzodkiewka jest OK.
+  serving_ok: 'OK po modyfikacjach: szczypiorek ≤ 1 łyżka/os.; śmietana bez laktozy'
+  status: depends
   substitutions:
   - śmietana kwaśna 18% -> śmietana bez laktozy lub jogurt grecki bez laktozy
   - szczypiorek -> zielona część dymki lub ograniczyć ilość

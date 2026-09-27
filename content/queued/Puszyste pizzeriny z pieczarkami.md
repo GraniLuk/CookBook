@@ -15,6 +15,7 @@ tags:
 - ciasta
 - włoskie
 - kanapki
+- gerd-safe
 tagline: Puszyste bułeczki nadziewane pieczarkami i mozzarellą – domowa wersja pizzy w formie przekąski
 ingredients:
 - mąka pszenna
@@ -26,45 +27,45 @@ ingredients:
 - majonez
 - ser mozzarella
 shopping_ingredients:
-- name: mąka pszenna
-  amount: 300
+- amount: 300
+  name: mąka pszenna
   unit: g
-- name: świeże drożdże
-  amount: 15
+- amount: 15
+  name: świeże drożdże
   unit: g
-- name: mleko 1,5%
-  amount: 125
+- amount: 125
+  name: mleko 1,5%
   unit: ml
-- name: jajka
-  amount: 2
-  unit: szt.
+- amount: 2
+  name: jajka
   note: 1 do ciasta, 1 do smarowania
-- name: olej (rzepakowy lub słonecznikowy)
-  amount: 25
+  unit: szt.
+- amount: 25
+  name: olej (rzepakowy lub słonecznikowy)
   unit: ml
-- name: cukier
-  amount: 0.5
+- amount: 0.5
+  name: cukier
   unit: łyżeczki
-- name: sól
-  amount: 0.5
+- amount: 0.5
+  name: sól
   unit: łyżeczki
-- name: pieczarki
-  amount: 250
+- amount: 250
+  name: pieczarki
   unit: g
-- name: majonez
-  amount: 2
+- amount: 2
+  name: majonez
   unit: łyżki
-- name: ser mozzarella (tarty)
-  amount: 250
+- amount: 250
+  name: ser mozzarella (tarty)
   unit: g
-- name: keczup
-  amount: 1
-  unit: łyżka
+- amount: 1
+  name: keczup
   note: do podania
-- name: szczypiorek
-  amount: 1
-  unit: pęczek
+  unit: łyżka
+- amount: 1
+  name: szczypiorek
   note: do posypania
+  unit: pęczek
 servings: 6
 prep_time: 40
 cook: true
@@ -73,10 +74,12 @@ calories: 467
 protein: 21
 fat: 22
 carbohydrate: 53
+diets:
+- gerd-safe
 fodmap:
-  status: depends
-  serving_ok: Wymaga modyfikacji
   notes: Drożdże i pszenica zawierają fruktany – przy diecie low FODMAP zaleca się ograniczenie porcji lub użycie bezglutenowej mąki i drożdży nutrivitych. Pieczarki w małej porcji są bezpieczne (1/4 szklanki), w większej ilości zawierają mannitol. Majonez w małej ilości jest nisko-FODMAP.
+  serving_ok: Wymaga modyfikacji
+  status: depends
   substitutions:
   - Zamień mąkę pszenną na mąkę bezglutenową (ryżową + tapiokową) dla wersji low FODMAP
   - Użyj drożdży nutrivitych zamiast świeżych (lepiej tolerowanych)

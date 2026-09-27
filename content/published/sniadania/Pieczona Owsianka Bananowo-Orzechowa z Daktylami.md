@@ -15,6 +15,7 @@ date: 2025-06-19 12:00:00+00:00
 tags:
 - Stefan
 - owsianka
+- gerd-safe
 tagline: Sycąca owsianka z naturalną słodyczą daktyli!
 ingredients:
 - banan
@@ -25,27 +26,27 @@ ingredients:
 - siemię lniane
 - daktyle
 shopping_ingredients:
-- name: banan
-  amount: 2
-  unit: szt.
+- amount: 2
+  name: banan
   note: do rozgniecenia
-- name: mleka około 180g
-  amount: 0.75
-  unit: szklanki
-- name: płatki owsiane
-  amount: 100
-  unit: g
-- name: miód
-  amount: 1
   unit: szt.
-- name: masła orzechowego 20g
-  amount: 1
-  unit: łyżka
-- name: siemię lniane
-  amount: 10
+- amount: 0.75
+  name: mleka około 180g
+  unit: szklanki
+- amount: 100
+  name: płatki owsiane
   unit: g
-- name: daktyle
-  amount: 50
+- amount: 1
+  name: miód
+  unit: szt.
+- amount: 1
+  name: masła orzechowego 20g
+  unit: łyżka
+- amount: 10
+  name: siemię lniane
+  unit: g
+- amount: 50
+  name: daktyle
   unit: g
 servings: 2
 prep_time: 15
@@ -55,6 +56,8 @@ calories: 138
 protein: 4
 fat: 3
 carbohydrate: 26
+diets:
+- gerd-safe
 fodmap:
   notes: Daktyle (wysokie FODMAP), dojrzałe banany i miód zwiększają ładunek FODMAP; mleko krowie zawiera laktozę.
   serving_ok: Nieodpowiednie na etapie eliminacji

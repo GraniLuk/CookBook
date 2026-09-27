@@ -11,6 +11,7 @@ date: 2025-10-31 12:00:00+00:00
 tags:
 - szybkie
 - przekąska
+- gerd-safe
 tagline: Proste i słodkie racuchy z dyni, płatków owsianych i serka wiejskiego, bez dodatku cukru.
 ingredients:
 - dynia
@@ -19,23 +20,23 @@ ingredients:
 - jajko
 - oliwa z oliwek
 shopping_ingredients:
-- name: miąższu dyni piżmowej
-  amount: 600
-  unit: g
+- amount: 600
+  name: miąższu dyni piżmowej
   note: z połowy dyni ok. 1,2kg
-- name: płatki owsiane
-  amount: 100
   unit: g
-- name: serka wiejskiego
-  amount: 200
+- amount: 100
+  name: płatki owsiane
   unit: g
-- name: jajko
-  amount: 1
+- amount: 200
+  name: serka wiejskiego
+  unit: g
+- amount: 1
+  name: jajko
   unit: szt.
-- name: oliwy z oliwek
-  amount: 40
-  unit: g
+- amount: 40
+  name: oliwy z oliwek
   note: 10g na partię
+  unit: g
 servings: 4
 prep_time: 10
 cook: true
@@ -44,10 +45,12 @@ calories: 180
 protein: 8
 fat: 7
 carbohydrate: 20
+diets:
+- gerd-safe
 fodmap:
-  status: 'yes'
-  serving_ok: OK w tej porcji
   notes: Dynia, płatki owsiane, ser wiejski i jajko są bezpieczne w umiarkowanych ilościach.
+  serving_ok: OK w tej porcji
+  status: 'yes'
   substitutions: []
 ---
 

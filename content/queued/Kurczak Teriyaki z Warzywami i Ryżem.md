@@ -9,6 +9,7 @@ recipe_image: images/recipe-headers/kurczak_teriyaki.avif
 date: 2025-10-27 12:08:00+00:00
 tags:
 - azjatyckie
+- gerd-safe
 tagline: Szybki kurczak teriyaki z chrupiącymi warzywami i ryżem.
 ingredients:
 - pierś z kurczaka
@@ -20,30 +21,30 @@ ingredients:
 - olej sezamowy
 - oliwa z oliwek
 shopping_ingredients:
-- name: pierś z kurczaka
-  amount: 180
+- amount: 180
+  name: pierś z kurczaka
   unit: g
-- name: sosu teriyaki
-  amount: 30
+- amount: 30
+  name: sosu teriyaki
   unit: g
-- name: oleju sezamowego
-  amount: 7
+- amount: 7
+  name: oleju sezamowego
   unit: g
-- name: ryżu
-  amount: 60
-  unit: g
+- amount: 60
+  name: ryżu
   note: suchy
-- name: marchewka
-  amount: 60
   unit: g
-- name: papryka
-  amount: 75
+- amount: 60
+  name: marchewka
   unit: g
-- name: brokuł
-  amount: 80
+- amount: 75
+  name: papryka
   unit: g
-- name: oliwy do smażenia
-  amount: 5
+- amount: 80
+  name: brokuł
+  unit: g
+- amount: 5
+  name: oliwy do smażenia
   unit: g
 servings: 1
 prep_time: 10
@@ -53,10 +54,12 @@ calories: 121
 protein: 7
 fat: 3
 carbohydrate: 12
+diets:
+- gerd-safe
 fodmap:
-  status: 'no'
-  serving_ok: Nie – gotowy sos teriyaki zwykle zawiera czosnek i czasem pszenicę.
   notes: Warzywa w umiarkowanych porcjach ok; główne FODMAP z sosu.
+  serving_ok: Nie – gotowy sos teriyaki zwykle zawiera czosnek i czasem pszenicę.
+  status: 'no'
   substitutions:
   - 'Domowy teriyaki: tamari + syrop klonowy + imbir (bez czosnku).'
   - Brokuł ≤75 g jeśli bardzo wrażliwe jelita.

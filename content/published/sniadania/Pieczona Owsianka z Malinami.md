@@ -12,6 +12,7 @@ date: 2025-06-19 12:00:00+00:00
 tags:
 - Stefan
 - owsianka
+- gerd-safe
 tagline: Aromatyczna pieczona owsianka z malinami!
 ingredients:
 - płatki owsiane
@@ -21,23 +22,23 @@ ingredients:
 - maliny
 - sezam
 shopping_ingredients:
-- name: płatki owsiane
-  amount: 160
+- amount: 160
+  name: płatki owsiane
   unit: g
-- name: napój owsiany
-  amount: 170
+- amount: 170
+  name: napój owsiany
   unit: ml
-- name: syrop klonowy
-  amount: 30
+- amount: 30
+  name: syrop klonowy
   unit: g
-- name: jogurt grecki
-  amount: 80
+- amount: 80
+  name: jogurt grecki
   unit: g
-- name: maliny mrożone
-  amount: 200
+- amount: 200
+  name: maliny mrożone
   unit: g
-- name: sezam
-  amount: 20
+- amount: 20
+  name: sezam
   unit: g
 servings: 2
 prep_time: 5
@@ -47,10 +48,12 @@ calories: 157
 protein: 6
 fat: 4
 carbohydrate: 26
+diets:
+- gerd-safe
 fodmap:
-  status: depends
-  serving_ok: OK w małej porcji; wybierz napój ryżowy lub bez laktozy
   notes: Owies bywa dobrze tolerowany w umiarkowanych porcjach; jogurt grecki zwykle OK (niska laktoza), ale preferuj wersję bez laktozy. Napój owsiany bywa problematyczny – lepiej ryżowy/bezlaktozowy.
+  serving_ok: OK w małej porcji; wybierz napój ryżowy lub bez laktozy
+  status: depends
   substitutions:
   - Napój owsiany -> napój ryżowy lub mleko bez laktozy.
   - Jogurt grecki -> jogurt bez laktozy.

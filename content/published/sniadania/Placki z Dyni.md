@@ -9,6 +9,7 @@ recipe_image: images/recipe-headers/placki_z_dyni.avif
 date: 2025-11-03 12:00:00+00:00
 tags:
 - placki
+- gerd-safe
 tagline: Proste placki z dyni, jajek, mąki i banana, idealne na zdrowe śniadanie.
 ingredients:
 - dynia
@@ -16,20 +17,20 @@ ingredients:
 - mąka pszenna
 - banan
 shopping_ingredients:
-- name: dyni
-  amount: 0.5
-  unit: szt.
+- amount: 0.5
+  name: dyni
   note: ok. 500g, obranej i wydrążonej z pestek
-- name: jajka
-  amount: 2
   unit: szt.
-- name: mąki
-  amount: 30
+- amount: 2
+  name: jajka
+  unit: szt.
+- amount: 30
+  name: mąki
   unit: g
-- name: banan
-  amount: 1
-  unit: szt.
+- amount: 1
+  name: banan
   note: ok. 100g
+  unit: szt.
 servings: 2
 prep_time: 10
 cook: true
@@ -38,10 +39,12 @@ calories: 220
 protein: 9
 fat: 6
 carbohydrate: 36
+diets:
+- gerd-safe
 fodmap:
-  status: 'no'
-  serving_ok: Nie OK w tej porcji
   notes: Dynia i banan mogą być wysokofodmapowe w większych ilościach; jajka i mąka są bezpieczne.
+  serving_ok: Nie OK w tej porcji
+  status: 'no'
   substitutions:
   - Zmniejsz ilość dyni i banana dla wersji low FODMAP.
 ---

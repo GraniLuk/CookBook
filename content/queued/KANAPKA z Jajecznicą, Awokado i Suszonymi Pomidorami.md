@@ -10,6 +10,7 @@ recipe_image: images/recipe-headers/kanapka_jajecznica_awokado.avif
 date: 2025-11-29 12:00:00+00:00
 tags:
 - kanapki
+- gerd-safe
 tagline: Kremowa kanapka z jajecznicą, awokado i suszonymi pomidorami na rukoli.
 ingredients:
 - bułka
@@ -18,23 +19,23 @@ ingredients:
 - pomidory suszone
 - rukola
 shopping_ingredients:
-- name: bułka
-  amount: 1
-  unit: szt.
+- amount: 1
+  name: bułka
   note: 240g
-- name: jajka
-  amount: 4
   unit: szt.
+- amount: 4
+  name: jajka
   note: rozmiar M
-- name: awokado
-  amount: 100
-  unit: g
-- name: pomidory suszone
-  amount: 1
   unit: szt.
+- amount: 100
+  name: awokado
+  unit: g
+- amount: 1
+  name: pomidory suszone
   note: odsączone, pokrojone
-- name: rukola
-  amount: 1
+  unit: szt.
+- amount: 1
+  name: rukola
   unit: szt.
 servings: 2
 prep_time: 10
@@ -44,9 +45,11 @@ calories: 560
 protein: 24
 fat: 22
 carbohydrate: 70
+diets:
+- gerd-safe
 fodmap:
-  status: 'yes'
   notes: Wszystkie składniki są bezpieczne dla diety low FODMAP.
+  status: 'yes'
 ---
 
 ## Składniki

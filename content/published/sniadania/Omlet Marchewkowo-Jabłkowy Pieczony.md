@@ -12,6 +12,7 @@ recipe_image: images/recipe-headers/omlet_marchew_jablko.avif
 date: 2025-10-28 12:35:00+00:00
 tags:
 - omlety
+- gerd-safe
 tagline: Pulchny, aromatyczny omlet marchewkowo-jabłkowy pieczony w lunch boxie – zero dodanego cukru!
 ingredients:
 - jajko
@@ -22,40 +23,40 @@ ingredients:
 - marchewka
 - mąka orkiszowa
 shopping_ingredients:
-- name: jajka
-  amount: 2
+- amount: 2
+  name: jajka
   unit: szt.
-- name: mleka
-  amount: 100
+- amount: 100
+  name: mleka
   unit: ml
-- name: odżywka białkowa
-  amount: 20
-  unit: g
+- amount: 20
+  name: odżywka białkowa
   note: waniliowa lub inna ulubiona
-- name: płatki jaglane
-  amount: 30
   unit: g
-- name: mąki orkiszowej pełnoziarnistej
-  amount: 20
+- amount: 30
+  name: płatki jaglane
   unit: g
-- name: proszku do pieczenia
-  amount: 0.5
+- amount: 20
+  name: mąki orkiszowej pełnoziarnistej
+  unit: g
+- amount: 0.5
+  name: proszku do pieczenia
   unit: łyżeczki
-- name: cynamonu
-  amount: 1
+- amount: 1
+  name: cynamonu
   unit: łyżeczka
-- name: jabłko
-  amount: 60
-  unit: g
+- amount: 60
+  name: jabłko
   note: pokrojonego w słupki
-- name: marchewka
-  amount: 60
   unit: g
+- amount: 60
+  name: marchewka
   note: startej na grubych oczkach
-- name: Dżem bio z czarnej porzeczki o obniżonej zawartości cukru
-  amount: 1
-  unit: szt.
+  unit: g
+- amount: 1
+  name: Dżem bio z czarnej porzeczki o obniżonej zawartości cukru
   note: opcjonalnie
+  unit: szt.
 servings: 1
 prep_time: 10
 cook: true
@@ -65,10 +66,12 @@ calories: 420
 protein: 35
 fat: 11
 carbohydrate: 31
+diets:
+- gerd-safe
 fodmap:
-  status: depends
-  serving_ok: 'OK po modyfikacjach: uwaga na mleko, odżywkę i jabłko'
   notes: Mleko krowie (laktoza) jest wysokofodmap. Jabłko zawiera fruktozę i sorbitol – bezpieczna porcja to ~20 g (1/4 małego jabłka). W przepisie 60 g jabłka może być za dużo. Marchewka jest niskofodmap. Płatki jaglane są OK. Odżywka białkowa – sprawdź skład (unikaj inuliny, FOS, laktozy).
+  serving_ok: 'OK po modyfikacjach: uwaga na mleko, odżywkę i jabłko'
+  status: depends
   substitutions:
   - mleko krowie -> mleko bezlaktozowe lub mleko roślinne (migdałowe, ryżowe)
   - jabłko -> ogranicz do 20 g lub zamień na jagody (np. borówki ~40 g)

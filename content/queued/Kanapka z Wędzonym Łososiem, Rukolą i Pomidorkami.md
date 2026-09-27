@@ -13,6 +13,7 @@ tags:
 - kanapki
 - szybkie
 - na-wynos
+- gerd-safe
 tagline: Elegancka kanapka z wędzonym łososiem i rukolą – idealna na śniadanie do pracy!
 ingredients:
 - łosoś wędzony
@@ -21,26 +22,26 @@ ingredients:
 - rukola
 - pomidorki koktajlowe
 shopping_ingredients:
-- name: bułka
-  amount: 1
-  unit: szt.
+- amount: 1
+  name: bułka
   note: ~70 g
-- name: łosoś wędzony
-  amount: 70.0
-  unit: g
+  unit: szt.
+- amount: 70.0
+  name: łosoś wędzony
   note: 3–4 plasterki
-- name: serka śmietankowego
-  amount: 2
-  unit: łyżki
+  unit: g
+- amount: 2
+  name: serka śmietankowego
   note: ~30 g
-- name: rukola
-  amount: 1
-  unit: szt.
+  unit: łyżki
+- amount: 1
+  name: rukola
   note: ~20 g
-- name: pomidorki koktajlowe
-  amount: 5.0
   unit: szt.
+- amount: 5.0
+  name: pomidorki koktajlowe
   note: ~60 g
+  unit: szt.
 servings: 1
 prep_time: 5
 cook: false
@@ -50,10 +51,12 @@ calories: 420
 protein: 26
 fat: 18
 carbohydrate: 38
+diets:
+- gerd-safe
 fodmap:
-  status: depends
-  serving_ok: 'OK po modyfikacjach: uwaga na bułkę'
   notes: Bułka pełnoziarnista (pszenica) zawiera gluten i fruktany. Łosoś wędzony, serek śmietankowy (mała ilość laktozy), rukola i pomidorki są niskofodmap.
+  serving_ok: 'OK po modyfikacjach: uwaga na bułkę'
+  status: depends
   substitutions:
   - bułka pełnoziarnista -> bułka bezglutenowa
   - serek śmietankowy -> serek bezlaktozowy lub humus

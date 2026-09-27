@@ -14,6 +14,7 @@ tags:
 - kanapki
 - szybkie
 - lunchbox
+- gerd-safe
 tagline: Chrupiące kieszonki z chleba tostowego z serem, szynką i ogórkiem, obtoczone w jajku i zapieczone w gofrownicy.
 ingredients:
 - chleb tostowy
@@ -22,60 +23,60 @@ ingredients:
 - jajko
 - mleko
 shopping_ingredients:
-- name: chleb tostowy
-  amount: 2
-  unit: szt.
+- amount: 2
+  name: chleb tostowy
   note: kromki (np. pełnoziarnisty)
-- name: ser żółty
-  amount: 2
   unit: szt.
+- amount: 2
+  name: ser żółty
   note: plastry
-- name: szynka
-  amount: 2
   unit: szt.
+- amount: 2
+  name: szynka
   note: plastry (np. drobiowa)
-- name: ogórek konserwowy
-  amount: 0.5
   unit: szt.
+- amount: 0.5
+  name: ogórek konserwowy
   note: pokrojony w plasterki
-- name: ketchup
-  amount: 2
-  unit: łyżeczka
-- name: jajko
-  amount: 1
   unit: szt.
-- name: mleko
-  amount: 30
-  unit: ml
+- amount: 2
+  name: ketchup
+  unit: łyżeczka
+- amount: 1
+  name: jajko
+  unit: szt.
+- amount: 30
+  name: mleko
   note: ok. 2 łyżki
-- name: oliwa z oliwek
-  amount: 0.5
-  unit: łyżeczka
+  unit: ml
+- amount: 0.5
+  name: oliwa z oliwek
   note: do natłuszczenia gofrownicy
-- name: pomidorki koktajlowe
-  amount: 4
-  unit: szt.
+  unit: łyżeczka
+- amount: 4
+  name: pomidorki koktajlowe
   note: do lunchboxa (opcjonalnie)
-- name: papryka czerwona
-  amount: 0.5
   unit: szt.
+- amount: 0.5
+  name: papryka czerwona
   note: do lunchboxa (opcjonalnie)
-- name: ogórek
-  amount: 0.5
   unit: szt.
+- amount: 0.5
+  name: ogórek
   note: do lunchboxa (opcjonalnie)
-- name: jogurt naturalny
-  amount: 1
-  unit: opak.
+  unit: szt.
+- amount: 1
+  name: jogurt naturalny
   note: 150 g, do lunchboxa (opcjonalnie)
-- name: truskawki
-  amount: 50
+  unit: opak.
+- amount: 50
+  name: truskawki
+  note: do jogurtu (opcjonalnie)
   unit: g
+- amount: 2
+  name: granola
   note: do jogurtu (opcjonalnie)
-- name: granola
-  amount: 2
   unit: łyżka
-  note: do jogurtu (opcjonalnie)
 servings: 1
 prep_time: 5
 cook: true
@@ -84,10 +85,12 @@ calories: 432
 protein: 26
 fat: 20
 carbohydrate: 36
+diets:
+- gerd-safe
 fodmap:
-  status: depends
-  serving_ok: Wymaga modyfikacji
   notes: Tradycyjny chleb pszenny tostowy zawiera fruktany, a ketchup i ogórki konserwowe mogą zawierać czosnek lub cebulę. Zastosuj pieczywo bezglutenowe, mleko bez laktozy oraz ketchup bez czosnku i cebuli.
+  serving_ok: Wymaga modyfikacji
+  status: depends
   substitutions:
   - Użyj chleba tostowego bezglutenowego lub orkiszowego na zakwasie (low FODMAP).
   - Wybierz ketchup bez dodatku czosnku, cebuli i syropu glukozowo-fruktozowego.

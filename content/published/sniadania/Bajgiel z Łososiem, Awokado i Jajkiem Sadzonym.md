@@ -14,6 +14,7 @@ date: 2025-09-03 12:00:00+00:00
 tags:
 - kanapki
 - ryby
+- gerd-safe
 tagline: Stosowe weekendowe śniadanie z bajglem, łososiem, awokado i jajkiem sadzonym – pyszne i sycące.
 ingredients:
 - bajgiel
@@ -25,33 +26,33 @@ ingredients:
 - jajko
 - oliwa
 shopping_ingredients:
-- name: bajgiel
-  amount: 1
+- amount: 1
+  name: bajgiel
   unit: szt.
-- name: serka
-  amount: 2
-  unit: łyżki
+- amount: 2
+  name: serka
   note: zamiast kanapkowego
-- name: rukola
-  amount: 1
+  unit: łyżki
+- amount: 1
+  name: rukola
   unit: szt.
-- name: plasterków świeżego ogórka
-  amount: 1
+- amount: 1
+  name: plasterków świeżego ogórka
   unit: szt.
-- name: łosoś
-  amount: 2.5
+- amount: 2.5
+  name: łosoś
   unit: plastry
-- name: awokado
-  amount: 0.5
-  unit: szt.
+- amount: 0.5
+  name: awokado
   note: pokrojonego w plasterki
-- name: jajko
-  amount: 1
   unit: szt.
-- name: oliwa
-  amount: 1
+- amount: 1
+  name: jajko
   unit: szt.
+- amount: 1
+  name: oliwa
   note: opcjonalnie
+  unit: szt.
 servings: 1
 prep_time: 10
 cook: true
@@ -60,10 +61,12 @@ calories: 450
 protein: 25
 fat: 20
 carbohydrate: 30
+diets:
+- gerd-safe
 fodmap:
-  status: true
-  serving_ok: OK w tej porcji z modyfikacją
   notes: Bajgiel jest wysokofodmapowy (pszenny) – zastąp bezglutenowym. Serek kanapkowy jest wysokofodmapowy (jogurt) – zastąp bezlaktozowym serkiem śmietankowym.
+  serving_ok: OK w tej porcji z modyfikacją
+  status: true
   substitutions:
   - Bajgiel -> bajgiel bezglutenowy
   - Serek kanapkowy -> serek bezlaktozowy

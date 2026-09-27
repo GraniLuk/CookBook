@@ -9,6 +9,7 @@ recipe_image: images/recipe-headers/bowl_losos.avif
 date: 2025-10-27 12:06:00+00:00
 tags:
 - bowl
+- gerd-safe
 tagline: Pełnowartościowa miska z marynowanym łososiem, ryżem i świeżymi warzywami.
 ingredients:
 - łosoś
@@ -20,36 +21,36 @@ ingredients:
 - olej sezamowy
 - sos sojowy
 shopping_ingredients:
-- name: łosoś
-  amount: 140
-  unit: g
+- amount: 140
+  name: łosoś
   note: kostka
-- name: ryżu białego
-  amount: 100
   unit: g
+- amount: 100
+  name: ryżu białego
   note: suchy
-- name: sosu sojowego
-  amount: 10
   unit: g
-- name: oleju sezamowego
-  amount: 5
+- amount: 10
+  name: sosu sojowego
   unit: g
-- name: szpinak
-  amount: 30
+- amount: 5
+  name: oleju sezamowego
   unit: g
-- name: ogórka
-  amount: 80
+- amount: 30
+  name: szpinak
   unit: g
-- name: marchewka
-  amount: 60
+- amount: 80
+  name: ogórka
   unit: g
-- name: awokado
-  amount: 80
+- amount: 60
+  name: marchewka
   unit: g
-- name: Sezam
-  amount: 1
-  unit: szt.
+- amount: 80
+  name: awokado
+  unit: g
+- amount: 1
+  name: Sezam
   note: opcjonalnie
+  unit: szt.
 servings: 1
 prep_time: 15
 cook: true
@@ -58,10 +59,12 @@ calories: 173
 protein: 8
 fat: 7
 carbohydrate: 19
+diets:
+- gerd-safe
 fodmap:
-  status: partial
-  serving_ok: Częściowo – awokado 80 g przekracza niską porcję (30–50 g).
   notes: Awokado (poliole) w dużej ilości podnosi FODMAP; reszta składników jest niska.
+  serving_ok: Częściowo – awokado 80 g przekracza niską porcję (30–50 g).
+  status: partial
   substitutions:
   - Zmniejsz awokado do 30 g.
   - Użyj tamari (bez pszenicy) przy wrażliwości na gluten.

@@ -10,41 +10,42 @@ favourite: false
 recipe_image: images/recipe-headers/lowfodmap-kurczak.avif
 date: 2026-04-17
 tags:
-  - szybkie
-  - lekkostrawne
+- szybkie
+- lekkostrawne
+- gerd-safe
 tagline: Idealny obiad na podrażniony żołądek, lekkostrawny i pełen białka.
 ingredients:
-  - pierś z kurczaka
-  - ziemniaki
-  - sałata rzymska
-  - ogórek świeży
-  - oliwa z oliwek
-  - koperek
+- pierś z kurczaka
+- ziemniaki
+- sałata rzymska
+- ogórek świeży
+- oliwa z oliwek
+- koperek
 shopping_ingredients:
-  - name: pierś z kurczaka
-    amount: 150
-    unit: g
-  - name: ziemniaki
-    amount: 200
-    unit: g
-  - name: sałaty
-    amount: 100
-    unit: g
-    note: np. masłowej lub rzymskiej
-  - name: świeżego ogórka bez skóry
-    amount: 50
-    unit: g
-  - name: oliwy z oliwek
-    amount: 1
-    unit: łyżeczka
-    note: lub prawdziwego masła
-  - name: cytryny
-    amount: 1
-    unit: plaster
-  - name: lub suszony koperek
-    amount: 1
-    unit: szt.
-    note: do smaku; tymianek
+- amount: 150
+  name: pierś z kurczaka
+  unit: g
+- amount: 200
+  name: ziemniaki
+  unit: g
+- amount: 100
+  name: sałaty
+  note: np. masłowej lub rzymskiej
+  unit: g
+- amount: 50
+  name: świeżego ogórka bez skóry
+  unit: g
+- amount: 1
+  name: oliwy z oliwek
+  note: lub prawdziwego masła
+  unit: łyżeczka
+- amount: 1
+  name: cytryny
+  unit: plaster
+- amount: 1
+  name: lub suszony koperek
+  note: do smaku; tymianek
+  unit: szt.
 servings: 1
 prep_time: 10
 cook: true
@@ -53,11 +54,12 @@ calories: 380
 protein: 38
 fat: 7
 carbohydrate: 37
+diets:
+- gerd-safe
 fodmap:
-  status: yes
+  notes: Całkowicie bezpieczne dla diety low FODMAP. Nie używaj czosnku ani cebuli w proszku do przyprawiania.
   serving_ok: OK w tej porcji
-  notes: Całkowicie bezpieczne dla diety low FODMAP. Nie używaj czosnku ani cebuli
-    w proszku do przyprawiania.
+  status: true
   substitutions: []
 ---
 

@@ -11,6 +11,7 @@ recipe_image: images/recipe-headers/pasta_jajeczna_awokado_ogorek.avif
 date: 2026-01-16
 tags:
 - kanapki
+- gerd-safe
 tagline: Kremowa pasta jajeczna z awokado i ogórkiem, idealna na świeże kanapki.
 ingredients:
 - serek kanapkowy
@@ -19,23 +20,23 @@ ingredients:
 - ogórek
 - sok z cytryny
 shopping_ingredients:
-- name: serka kanapkowego
-  amount: 2
-  unit: łyżki
+- amount: 2
+  name: serka kanapkowego
   note: np. twaróg lub ser do smarowania
-- name: awokado
-  amount: 1
+  unit: łyżki
+- amount: 1
+  name: awokado
   unit: szt.
-- name: jajka
-  amount: 3
+- amount: 3
+  name: jajka
   unit: szt.
-- name: ogórek
-  amount: 1
+- amount: 1
+  name: ogórek
   unit: szt.
-- name: sok z cytryny
-  amount: 1
-  unit: szt.
+- amount: 1
+  name: sok z cytryny
   note: do smaku
+  unit: szt.
 servings: 4
 prep_time: 15
 cook: true
@@ -44,10 +45,12 @@ calories: 145
 protein: 8
 fat: 11
 carbohydrate: 6
+diets:
+- gerd-safe
 fodmap:
-  status: 'yes'
-  serving_ok: OK w tej porcji
   notes: Awokado w małych ilościach, jajka, ogórek, ser kanapkowy (twaróg), cytryna - wszystko bezpieczne.
+  serving_ok: OK w tej porcji
+  status: 'yes'
   substitutions: []
 ---
 

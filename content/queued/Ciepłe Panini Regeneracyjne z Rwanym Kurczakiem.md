@@ -1,6 +1,6 @@
 ---
-title: "Ciepłe Panini Regeneracyjne z Rwanym Kurczakiem"
-author: "AI Trener"
+title: Ciepłe Panini Regeneracyjne z Rwanym Kurczakiem
+author: AI Trener
 categories:
 - śniadania
 subcategories:
@@ -9,51 +9,52 @@ draft: false
 readyToTest: true
 queued: true
 recipe_image: images/recipe-headers/panini-regeneracyjne-z-kurczakiem.avif
-date: 2026-09-27T12:40:00+02:00
+date: 2026-09-27 12:40:00+02:00
 tags:
 - kanapki
 - szybkie
 - proteinowe
 - lekkostrawne
-tagline: "Chrupiące z zewnątrz, gorące i parujące w środku panini z soczystym rwanym kurczakiem, aksamitną pastą marchewkowo-koperkową i świeżym ogórkiem."
+- gerd-safe
+tagline: Chrupiące z zewnątrz, gorące i parujące w środku panini z soczystym rwanym kurczakiem, aksamitną pastą marchewkowo-koperkową i świeżym ogórkiem.
 ingredients:
 - bułka
 - pierś z kurczaka
 - marchewka
 - ogórek świeży
 shopping_ingredients:
-- name: bułka grahamka
-  amount: 1
-  unit: szt.
+- amount: 1
+  name: bułka grahamka
   note: lub ciabatta / bułka orkiszowa (ok. 75 g)
-- name: pierś z kurczaka
-  amount: 90
-  unit: g
-  note: ugotowana na parze (np. z obiadu)
-- name: marchewka
-  amount: 0.5
   unit: szt.
+- amount: 90
+  name: pierś z kurczaka
+  note: ugotowana na parze (np. z obiadu)
+  unit: g
+- amount: 0.5
+  name: marchewka
   note: ugotowana (ok. 45 g, z obiadu)
-- name: oliwa z oliwek
-  amount: 0.5
-  unit: łyżeczka
+  unit: szt.
+- amount: 0.5
+  name: oliwa z oliwek
   note: ok. 2.5 g
-- name: świeży koperek
-  amount: 1
   unit: łyżeczka
+- amount: 1
+  name: świeży koperek
   note: posiekany (ok. 3 g)
-- name: ogórek świeży
-  amount: 35
-  unit: g
-  note: obrany ze skórki, kilka plasterków
-- name: serek kanapkowy
-  amount: 15
-  unit: g
-  note: opcjonalnie (zamiast pasty z marchwi, np. kozi lub śmietankowy)
-- name: majeranek
-  amount: 0.5
   unit: łyżeczka
+- amount: 35
+  name: ogórek świeży
+  note: obrany ze skórki, kilka plasterków
+  unit: g
+- amount: 15
+  name: serek kanapkowy
+  note: opcjonalnie (zamiast pasty z marchwi, np. kozi lub śmietankowy)
+  unit: g
+- amount: 0.5
+  name: majeranek
   note: lub zioła prowansalskie
+  unit: łyżeczka
 servings: 1
 prep_time: 5
 cook: true
@@ -63,10 +64,12 @@ calories: 331
 protein: 28.2
 fat: 5.3
 carbohydrate: 40.9
+diets:
+- gerd-safe
 fodmap:
-  status: depends
-  serving_ok: Wymaga modyfikacji
   notes: Danie jest wyjątkowo lekkostrawne i łagodne dla przewodu pokarmowego. Jedynym potencjalnym źródłem FODMAP jest tradycyjne pieczywo pszenne/grahamka (fruktany). Przy użyciu bułki bezglutenowej lub orkiszowej na tradycyjnym zakwasie danie jest w 100% bezpieczne w diecie low FODMAP.
+  serving_ok: Wymaga modyfikacji
+  status: depends
   substitutions:
   - Użyj bułki bezglutenowej lub bułki orkiszowej na naturalnym zakwasie (sourdough) zamiast pszennej/grahamki.
   - Wybierając wariant z serkiem kanapkowym, sięgnij po serek bez laktozy lub delikatny kozi twaróg.

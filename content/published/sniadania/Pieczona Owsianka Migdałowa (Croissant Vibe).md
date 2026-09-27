@@ -13,6 +13,7 @@ date: 2025-10-11 07:00:00+00:00
 tags:
 - szybkie
 - owsianka
+- gerd-safe
 tagline: Kremowa, pachnąca migdałami pieczona owsianka inspirowana migdałowym croissantem.
 ingredients:
 - płatki owsiane
@@ -25,49 +26,49 @@ ingredients:
 - masło migdałowe
 - płatki migdałów
 shopping_ingredients:
-- name: płatki owsiane
-  amount: 80
+- amount: 80
+  name: płatki owsiane
   unit: g
-- name: mąki migdałowej
-  amount: 20
-  unit: g
+- amount: 20
+  name: mąki migdałowej
   note: must have dla „croissantowego” efektu
-- name: odżywka białkowa
-  amount: 20
   unit: g
+- amount: 20
+  name: odżywka białkowa
   note: opcjonalnie, można zastąpić dodatkowymi płatkami/mąką
-- name: banan
-  amount: 1
-  unit: szt.
+  unit: g
+- amount: 1
+  name: banan
   note: ~120 g
-- name: jajka
-  amount: 2
   unit: szt.
-- name: skyru waniliowego lub naturalnego
-  amount: 100
-  unit: g
+- amount: 2
+  name: jajka
+  unit: szt.
+- amount: 100
+  name: skyru waniliowego lub naturalnego
   note: ew. jogurt gęsty
-- name: napój migdałowy
-  amount: 100
   unit: g
+- amount: 100
+  name: napój migdałowy
   note: mleka
-- name: kropel aromatu migdałowego
-  amount: 1
-  unit: szt.
+  unit: g
+- amount: 1
+  name: kropel aromatu migdałowego
   note: opcjonalnie
-- name: proszku do pieczenia
-  amount: 2
+  unit: szt.
+- amount: 2
+  name: proszku do pieczenia
   unit: łyżeczki
-- name: masła migdałowego + 20 ml wrzątku lub mleka – wymieszać do konsystencji polewy
-  amount: 20
+- amount: 20
+  name: masła migdałowego + 20 ml wrzątku lub mleka – wymieszać do konsystencji polewy
   unit: g
-- name: płatki migdałów
-  amount: 30
+- amount: 30
+  name: płatki migdałów
   unit: g
-- name: Erytrytol w pudrze do posypania
-  amount: 1
-  unit: szt.
+- amount: 1
+  name: Erytrytol w pudrze do posypania
   note: opcjonalnie
+  unit: szt.
 servings: 1
 prep_time: 10
 cook: true
@@ -76,10 +77,12 @@ calories: 600
 protein: 33
 fat: 28
 carbohydrate: 54
+diets:
+- gerd-safe
 fodmap:
-  status: depends
-  serving_ok: 'Porcja (1/2 całości) trzyma się umiarkowanych limitów: płatki 40g, migdały w sumie <25g ekwiwalentu.'
   notes: Kluczowe czynniki FODMAP to płatki owsiane (porcja 40g jest zwykle tolerowana), produkty migdałowe (mąka + masło + płatki — łącznie w 1 porcji umiarkowanie), dojrzałość banana (wybierz średnio dojrzałego). Skyr może zawierać laktozę – wybierz wersję bez laktozy jeśli wrażliwość jest wysoka.
+  serving_ok: 'Porcja (1/2 całości) trzyma się umiarkowanych limitów: płatki 40g, migdały w sumie <25g ekwiwalentu.'
+  status: depends
   substitutions:
   - Skyr zwykły -> skyr/jogurt bez laktozy.
   - Koncentrat whey -> izolat WPI (bez laktozy) lub odżywka roślinna (ryż + groch).

@@ -13,31 +13,32 @@ date: 2025-08-12 12:00:00+00:00
 tags:
 - szybkie
 - kanapki
+- gerd-safe
 tagline: Kremowa, aromatyczna pasta z piersi kurczaka i suszonych pomidorów – idealna na kanapki lub wafle ryżowe.
 ingredients:
 - pierś z kurczaka
 - pomidory suszone
 - majonez
 shopping_ingredients:
-- name: pierś z kurczaka
-  amount: 150
-  unit: g
+- amount: 150
+  name: pierś z kurczaka
   note: gotowanej
-- name: pomidory suszone
-  amount: 5.5
-  unit: szt.
+  unit: g
+- amount: 5.5
+  name: pomidory suszone
   note: ok. 27g po odsączeniu
-- name: majonez
-  amount: 15
+  unit: szt.
+- amount: 15
+  name: majonez
   unit: g
-- name: wafli ryżowych
-  amount: 50
-  unit: g
+- amount: 50
+  name: wafli ryżowych
   note: do podania
-- name: mieszanki ziół
-  amount: 0.5
-  unit: łyżeczki
+  unit: g
+- amount: 0.5
+  name: mieszanki ziół
   note: np. mieszanka ziół Koksa Mateusza
+  unit: łyżeczki
 servings: 1
 prep_time: 5
 cook: true
@@ -46,10 +47,12 @@ calories: 229
 protein: 16.6
 fat: 9.1
 carbohydrate: 18.9
+diets:
+- gerd-safe
 fodmap:
-  status: 'yes'
-  serving_ok: OK przy porcji 1; ogranicz suszone pomidory do 8–12 g
   notes: 'Bezpieczne: kurczak, wafle ryżowe, majonez bez dodatków. Suszone pomidory tylko w małej porcji; przyprawy bez cebuli/czosnku.'
+  serving_ok: OK przy porcji 1; ogranicz suszone pomidory do 8–12 g
+  status: 'yes'
   substitutions:
   - Jogurt bez laktozy zamiast części majonezu (dla lżejszej wersji).
   - Podawaj z pieczywem bezglutenowym/owsianym lub małą porcją chleba orkiszowego na zakwasie.

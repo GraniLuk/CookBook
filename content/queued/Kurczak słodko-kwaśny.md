@@ -1,5 +1,5 @@
 ---
-title: "Kurczak słodko-kwaśny"
+title: Kurczak słodko-kwaśny
 author: Trello
 categories: obiady
 draft: false
@@ -14,7 +14,8 @@ tags:
 - azjatyckie
 - lunchbox
 - trello
-tagline: "Soczysty kurczak z papryką, ananasem i ryżem w słodko-kwaśnym sosie."
+- gerd-safe
+tagline: Soczysty kurczak z papryką, ananasem i ryżem w słodko-kwaśnym sosie.
 ingredients:
 - pierś z kurczaka
 - ryż
@@ -22,26 +23,26 @@ ingredients:
 - ananas
 - passata pomidorowa
 shopping_ingredients:
-- name: pierś z kurczaka
-  amount: 600
+- amount: 600
+  name: pierś z kurczaka
   unit: g
-- name: ryż
-  amount: 250
+- amount: 250
+  name: ryż
   unit: g
-- name: papryka
-  amount: 300
+- amount: 300
+  name: papryka
   unit: g
-- name: ananas
-  amount: 250
+- amount: 250
+  name: ananas
   unit: g
-- name: passata pomidorowa
-  amount: 300
+- amount: 300
+  name: passata pomidorowa
   unit: g
-- name: ketchup
-  amount: 60
+- amount: 60
+  name: ketchup
   unit: g
-- name: olej
-  amount: 20
+- amount: 20
+  name: olej
   unit: ml
 servings: 4
 prep_time: 20
@@ -52,15 +53,18 @@ calories: 523
 protein: 41.2
 fat: 8.4
 carbohydrate: 69.7
+diets:
+- gerd-safe
 fodmap:
-  status: depends
-  serving_ok: Wymaga modyfikacji
   notes: Wersja bazowa może zawierać pszenicę, laktozę, cebulę, czosnek albo większą porcję owoców/warzyw o wyższym FODMAP, zależnie od przepisu.
+  serving_ok: Wymaga modyfikacji
+  status: depends
   substitutions:
   - Użyj bezglutenowej mąki, makaronu lub bułki tartej tam, gdzie bazą jest pszenica.
   - Zamień nabiał na wariant bez laktozy.
   - Cebulę i czosnek zastąp zieloną częścią dymki, szczypiorkiem albo oliwą czosnkową.
 ---
+
 ## Składniki
 
 ### Kurczak

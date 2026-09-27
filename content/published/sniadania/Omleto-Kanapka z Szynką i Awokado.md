@@ -10,7 +10,8 @@ readyToTest: false
 link: https://www.youtube.com/watch?v=RR5V2Wcxk0w
 recipe_image: images/recipe-headers/omletoKanapka.avif
 date: 2025-06-18 12:00:00+00:00
-tags: []
+tags:
+- gerd-safe
 tagline: Pyszna omleto-kanapka z szynką i awokado!
 ingredients:
 - jajka
@@ -21,34 +22,34 @@ ingredients:
 - szynka
 - pomidorki koktajlowe
 shopping_ingredients:
-- name: jajka
-  amount: 3
-  unit: szt.
+- amount: 3
+  name: jajka
   note: około 180g
-- name: bułka
-  amount: 1
   unit: szt.
+- amount: 1
+  name: bułka
   note: około 60g; przekrojona
-- name: serek wiejski
-  amount: 30
-  unit: g
+  unit: szt.
+- amount: 30
+  name: serek wiejski
   note: 30g
-- name: rukola
-  amount: 10
   unit: g
+- amount: 10
+  name: rukola
   note: 10g
-- name: awokado
-  amount: 100
   unit: g
+- amount: 100
+  name: awokado
   note: 100g
-- name: szynka
-  amount: 40
   unit: g
+- amount: 40
+  name: szynka
   note: 40g
-- name: pomidorki koktajlowe
-  amount: 50
   unit: g
+- amount: 50
+  name: pomidorki koktajlowe
   note: 50g
+  unit: g
 servings: 1
 prep_time: 10
 cook: true
@@ -57,10 +58,12 @@ calories: 143
 protein: 9
 fat: 8
 carbohydrate: 9
+diets:
+- gerd-safe
 fodmap:
-  status: depends
-  serving_ok: 'OK po modyfikacjach: pieczywo bez pszenicy; serek wiejski bez laktozy; awokado ≤ 30 g'
   notes: Bułka pszenna (fruktany), serek wiejski (laktoza) i 100 g awokado (sorbitol) nie są zalecane na etapie eliminacji. Jajka są bezpieczne; szynka zwykle OK – sprawdź dodatki (bez cebuli/czosnku).
+  serving_ok: 'OK po modyfikacjach: pieczywo bez pszenicy; serek wiejski bez laktozy; awokado ≤ 30 g'
+  status: depends
   substitutions:
   - bułka pszenna -> 100% kukurydziana tortilla lub pieczywo bezglutenowe (mała porcja)
   - serek wiejski -> wersja bez laktozy lub cienkie plastry sera dojrzewającego

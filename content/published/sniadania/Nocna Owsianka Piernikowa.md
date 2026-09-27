@@ -14,6 +14,7 @@ date: 2025-12-26 12:00:00+00:00
 tags:
 - szybkie
 - owsianka
+- gerd-safe
 tagline: Kremowa, pachnąca przyprawą do piernika nocna owsianka z białkiem – idealna na grudniowe poranki!
 ingredients:
 - płatki owsiane
@@ -23,33 +24,33 @@ ingredients:
 - napój owsiany
 - masło orzechowe
 shopping_ingredients:
-- name: płatki owsiane
-  amount: 40
+- amount: 40
+  name: płatki owsiane
   unit: g
-- name: nasiona chia
-  amount: 5
+- amount: 5
+  name: nasiona chia
   unit: g
-- name: odżywka białkowa
-  amount: 15
+- amount: 15
+  name: odżywka białkowa
   unit: g
-- name: jogurt skyr
-  amount: 150
+- amount: 150
+  name: jogurt skyr
   unit: g
-- name: napój owsiany
-  amount: 140
+- amount: 140
+  name: napój owsiany
   unit: ml
-- name: przyprawa korzenna
-  amount: 0.5
+- amount: 0.5
+  name: przyprawa korzenna
   unit: łyżeczki
-- name: masło orzechowe
-  amount: 15
+- amount: 15
+  name: masło orzechowe
   unit: g
-- name: ekstrakt waniliowy
-  amount: 1
-  unit: porcja
+- amount: 1
+  name: ekstrakt waniliowy
   note: kilka kropli
-- name: piernik
-  amount: 5
+  unit: porcja
+- amount: 5
+  name: piernik
   unit: g
 servings: 1
 prep_time: 5
@@ -59,6 +60,8 @@ calories: 503
 protein: 42
 fat: 17
 carbohydrate: 50
+diets:
+- gerd-safe
 fodmap:
   notes: Wszystkie składniki bezpieczne dla diety low FODMAP
   serving_ok: OK w tej porcji

@@ -12,6 +12,7 @@ date: 2026-04-21 19:51:14+02:00
 tags:
 - lunchbox
 - proteinowe
+- gerd-safe
 tagline: Szybki lunch z pieczonym łososiem, komosą ryżową i świeżymi warzywami. Idealny do pracy, na szybko po treningu.
 ingredients:
 - łosoś
@@ -20,24 +21,24 @@ ingredients:
 - ogórek zielony
 - pomidorki koktajlowe
 shopping_ingredients:
-- name: łosoś
-  amount: 150
+- amount: 150
+  name: łosoś
   unit: g
-- name: komosa ryżowa
-  amount: 50
+- amount: 50
+  name: komosa ryżowa
   unit: g
-- name: mix sałat
-  amount: 1
+- amount: 1
+  name: mix sałat
   unit: garść
-- name: ogórek zielony
-  amount: 0.25
+- amount: 0.25
+  name: ogórek zielony
   unit: szt.
-- name: pomidorki koktajlowe
-  amount: 1
-  unit: porcja
+- amount: 1
+  name: pomidorki koktajlowe
   note: kilka sztuk
-- name: cytryna
-  amount: 1
+  unit: porcja
+- amount: 1
+  name: cytryna
   unit: szt.
 servings: 1
 prep_time: 15
@@ -47,10 +48,12 @@ calories: 564
 protein: 39
 fat: 30
 carbohydrate: 32
+diets:
+- gerd-safe
 fodmap:
-  status: 'yes'
-  serving_ok: OK w tej porcji
   notes: Wszystkie składniki są naturalnie low-FODMAP. Zwróć uwagę na ilość pomidorków koktajlowych – dawkuj zgodnie z tolerancją (bezpieczna porcja to zwykle ok. 5 sztuk).
+  serving_ok: OK w tej porcji
+  status: 'yes'
   substitutions: []
 ---
 

@@ -13,30 +13,31 @@ date: 2026-05-13 12:00:00+00:00
 tags:
 - szybkie
 - proteinowe
+- gerd-safe
 tagline: Trzyskładnikowe, puszyste i szybkie placuszki przygotowane na skyrze - idealne na śniadanie.
 ingredients:
 - jogurt skyr waniliowy
 - jajka
 - mąka orkiszowa
 shopping_ingredients:
-- name: pojemnik skyr waniliowy
-  amount: 1
-  unit: szt.
+- amount: 1
+  name: pojemnik skyr waniliowy
   note: ok. 200g
-- name: jajka
-  amount: 3
   unit: szt.
-- name: mąki orkiszowej
-  amount: 100
-  unit: g
+- amount: 3
+  name: jajka
+  unit: szt.
+- amount: 100
+  name: mąki orkiszowej
   note: z proszkiem do pieczenia
-- name: Spray do smażenia lub minimalna ilość masła/oleju
-  amount: 1
+  unit: g
+- amount: 1
+  name: Spray do smażenia lub minimalna ilość masła/oleju
   unit: szt.
-- name: 'Dodatki opcjonalne: aromat'
-  amount: 1
-  unit: szt.
+- amount: 1
+  name: 'Dodatki opcjonalne: aromat'
   note: wanilia, migdał; erytrytol, owoce, miód lub syrop klonowy
+  unit: szt.
 servings: 4
 prep_time: 10
 cook: true
@@ -45,10 +46,12 @@ calories: 156
 protein: 12
 fat: 4
 carbohydrate: 18
+diets:
+- gerd-safe
 fodmap:
-  status: 'yes'
-  serving_ok: OK w tej porcji
   notes: Skyr, jajka, mąka orkiszowa - wszystkie bezpieczne w tej porcji. Opcjonalne dodatki (owoce, miód) mogą wpływać na status.
+  serving_ok: OK w tej porcji
+  status: 'yes'
   substitutions:
   - 'Zamiast skyr: jogurt grecki'
   - 'Zamiast mąki orkiszowej: mąka pszenna lub ryżowa'

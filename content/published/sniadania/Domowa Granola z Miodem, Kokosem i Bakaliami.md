@@ -15,6 +15,7 @@ date: 2025-08-23 12:00:00+00:00
 tags:
 - przekąska
 - owsianka
+- gerd-safe
 tagline: Chrupiąca, złocista granola pieczona wolniej w niższej temperaturze – idealna do jogurtu i na wynos.
 ingredients:
 - płatki owsiane
@@ -27,33 +28,33 @@ ingredients:
 - suszone morele
 - żurawina suszona
 shopping_ingredients:
-- name: płatki owsiane
-  amount: 250
+- amount: 250
+  name: płatki owsiane
   unit: g
-- name: płatki migdałowe
-  amount: 40
+- amount: 40
+  name: płatki migdałowe
   unit: g
-- name: wiórki kokosowe
-  amount: 50
+- amount: 50
+  name: wiórki kokosowe
   unit: g
-- name: orzechy włoskie
-  amount: 50
+- amount: 50
+  name: orzechy włoskie
   unit: g
-- name: miód
-  amount: 120
+- amount: 120
+  name: miód
   unit: g
-- name: olej kokosowy
-  amount: 50
+- amount: 50
+  name: olej kokosowy
   unit: g
-- name: ekstrakt waniliowy
-  amount: 1
-  unit: opak.
+- amount: 1
+  name: ekstrakt waniliowy
   note: 10-20 kropel
-- name: suszone morele
-  amount: 50
+  unit: opak.
+- amount: 50
+  name: suszone morele
   unit: g
-- name: żurawina suszona
-  amount: 30
+- amount: 30
+  name: żurawina suszona
   unit: g
 servings: 12
 prep_time: 10
@@ -63,10 +64,12 @@ calories: 451
 protein: 10
 fat: 24
 carbohydrate: 54
+diets:
+- gerd-safe
 fodmap:
-  status: depends
-  serving_ok: Porcja ~30 g; podawać z nabiałem bez laktozy lub napojem ryżowym
   notes: Miód jest wysokofodmapowy – zamień na syrop klonowy. Suszone owoce szybko podbijają FODMAP – ogranicz lub pomiń. Płatki owsiane i orzechy są OK w małej porcji.
+  serving_ok: Porcja ~30 g; podawać z nabiałem bez laktozy lub napojem ryżowym
+  status: depends
   substitutions:
   - miód -> syrop klonowy
   - suszone morele/żurawina -> bardzo mała ilość lub pominąć

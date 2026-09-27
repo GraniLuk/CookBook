@@ -45,6 +45,7 @@ _shared_fields:
       - { label: "ciastka", value: "ciastka" }
       - { label: "czekoladowe", value: "czekoladowe" }
       - { label: "fast-food", value: "fast-food" }
+      - { label: "gerd-safe", value: "gerd-safe" }
       - { label: "goście", value: "goście" }
       - { label: "greckie", value: "greckie" }
       - { label: "grill", value: "grill" }

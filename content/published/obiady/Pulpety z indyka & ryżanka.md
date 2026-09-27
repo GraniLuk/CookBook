@@ -1,5 +1,5 @@
 ---
-title: "Pulpety z indyka & ryżanka"
+title: Pulpety z indyka & ryżanka
 author: Trello
 categories: obiady
 draft: false
@@ -14,41 +14,42 @@ tags:
 - zupy
 - klasyczne
 - lekkostrawne
-tagline: "Lekka, tradycyjna ryżanka na warzywnym wywarze z delikatnymi pulpetami z mielonej piersi indyka."
+- gerd-safe
+tagline: Lekka, tradycyjna ryżanka na warzywnym wywarze z delikatnymi pulpetami z mielonej piersi indyka.
 ingredients:
 - mięso mielone z indyka
 - ryż
 - marchew
 - pietruszka korzeń
 shopping_ingredients:
-- name: mięso mielone z indyka
-  amount: 500
-  unit: g
+- amount: 500
+  name: mięso mielone z indyka
   note: zmielona pierś z indyka
-- name: ryż
-  amount: 100
   unit: g
+- amount: 100
+  name: ryż
   note: 1 woreczek (np. biały lub jaśminowy)
-- name: marchew
-  amount: 200
   unit: g
+- amount: 200
+  name: marchew
   note: 2 szt.
-- name: pietruszka korzeń
-  amount: 100
   unit: g
+- amount: 100
+  name: pietruszka korzeń
   note: 1 szt.
-- name: seler korzeń
-  amount: 80
   unit: g
+- amount: 80
+  name: seler korzeń
   note: kawałek (opcjonalnie)
-- name: por
-  amount: 50
   unit: g
+- amount: 50
+  name: por
   note: kawałek (opcjonalnie)
-- name: natka pietruszki
-  amount: 1
-  unit: pęczek
+  unit: g
+- amount: 1
+  name: natka pietruszki
   note: do posypania
+  unit: pęczek
 servings: 4
 prep_time: 15
 cook: true
@@ -58,10 +59,12 @@ calories: 274
 protein: 32.3
 fat: 3
 carbohydrate: 28.9
+diets:
+- gerd-safe
 fodmap:
-  status: depends
-  serving_ok: Wymaga modyfikacji
   notes: Wersja z porem i selerem może dostarczać większej ilości fruktanów i mannitolu. Po ich wykluczeniu lub użyciu tylko zielonej części pora danie jest w pełni bezpieczne na diecie Low FODMAP.
+  serving_ok: Wymaga modyfikacji
+  status: depends
   substitutions:
   - Użyj tylko zielonej części pora zamiast białej lub zamień go na szczypiorek.
   - Pomiń seler korzeniowy, opierając wywar na marchwi i korzeniu pietruszki.

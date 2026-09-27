@@ -12,6 +12,7 @@ tags:
 - szybkie
 - tropikalne
 - owsianka
+- gerd-safe
 tagline: Kremowa owsianka z mango i bananem, pełna energii na cały dzień.
 ingredients:
 - płatki owsiane
@@ -19,26 +20,26 @@ ingredients:
 - mango
 - mleko
 shopping_ingredients:
-- name: płatki owsiane
-  amount: 200
-  unit: g
+- amount: 200
+  name: płatki owsiane
   note: 100g baza + 100g dodatkowa porcja
-- name: banan
-  amount: 0.5
-  unit: szt.
-  note: ok. 50g
-- name: mango
-  amount: 100
   unit: g
-  note: ok. 100g
-- name: mleka
-  amount: 100
-  unit: ml
-  note: kreatywnego, np. krowiego
-- name: Świeżych kawałków owoców na wierzch
-  amount: 1
+- amount: 0.5
+  name: banan
+  note: ok. 50g
   unit: szt.
+- amount: 100
+  name: mango
+  note: ok. 100g
+  unit: g
+- amount: 100
+  name: mleka
+  note: kreatywnego, np. krowiego
+  unit: ml
+- amount: 1
+  name: Świeżych kawałków owoców na wierzch
   note: opcjonalnie
+  unit: szt.
 servings: 1
 prep_time: 10
 cook: false
@@ -47,6 +48,8 @@ calories: 950
 protein: 30
 fat: 18
 carbohydrate: 165
+diets:
+- gerd-safe
 fodmap:
   notes: Mango jest wysokofodmapowe; banana w małych ilościach jest bezpieczny, ale mango może powodować problemy. Płatki owsiane i mleko są zgodne.
   serving_ok: Nie OK w tej porcji

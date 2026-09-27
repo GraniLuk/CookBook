@@ -14,6 +14,7 @@ date: 2026-01-08 12:00:00+00:00
 tags:
 - pasta
 - kanapki
+- gerd-safe
 tagline: Prosta pasta z awokado, serkiem wiejskim i suszonymi pomidorami.
 ingredients:
 - awokado
@@ -21,18 +22,18 @@ ingredients:
 - pomidory suszone
 - jajka
 shopping_ingredients:
-- name: jajka
-  amount: 2
+- amount: 2
+  name: jajka
   unit: szt.
-- name: awokado
-  amount: 0.5
+- amount: 0.5
+  name: awokado
   unit: szt.
-- name: serka wiejskiego
-  amount: 1
-  unit: opak.
+- amount: 1
+  name: serka wiejskiego
   note: ok. 150 g
-- name: pomidory suszone
-  amount: 30
+  unit: opak.
+- amount: 30
+  name: pomidory suszone
   unit: g
 servings: 2
 prep_time: 10
@@ -42,10 +43,12 @@ calories: 248
 protein: 16
 fat: 16
 carbohydrate: 12
+diets:
+- gerd-safe
 fodmap:
-  status: true
-  serving_ok: OK w tej porcji
   notes: Awokado w małych ilościach, reszta bezpieczna.
+  serving_ok: OK w tej porcji
+  status: true
   substitutions: []
 ---
 

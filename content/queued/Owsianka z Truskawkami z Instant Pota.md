@@ -12,6 +12,7 @@ date: 2026-06-03
 tags:
 - owsianka
 - instant pot
+- gerd-safe
 tagline: Kremowa owsianka z Instant Pota z truskawkami, bananem, masłem orzechowym, skyrem i domową granolą.
 ingredients:
 - woda
@@ -22,26 +23,26 @@ ingredients:
 - masło orzechowe
 - jogurt skyr
 shopping_ingredients:
-- name: mleko
-  amount: 400
+- amount: 400
+  name: mleko
   unit: ml
-- name: płatki owsiane
-  amount: 120
+- amount: 120
+  name: płatki owsiane
   unit: g
-- name: truskawki
-  amount: 200
+- amount: 200
+  name: truskawki
   unit: g
-- name: banan
-  amount: 1
+- amount: 1
+  name: banan
   unit: szt.
-- name: masło orzechowe
-  amount: 20
-  unit: g
+- amount: 20
+  name: masło orzechowe
   note: 4 płaskie łyżeczki
-- name: jogurt skyr
-  amount: 60
   unit: g
+- amount: 60
+  name: jogurt skyr
   note: po 1 łyżce stołowej na porcję
+  unit: g
 servings: 4
 prep_time: 5
 cook: true
@@ -50,10 +51,12 @@ calories: 340
 protein: 13
 fat: 10
 carbohydrate: 51
+diets:
+- gerd-safe
 fodmap:
-  status: depends
-  serving_ok: OK w małej porcji; wybierz mleko i skyr bez laktozy, jeśli trzeba
   notes: Owies bywa dobrze tolerowany w umiarkowanych porcjach. Banan i granola zależą od porcji oraz składu; przy low FODMAP wybierz mniej dojrzałego banana i granolę bez miodu/suszonych owoców albo trzymaj małą porcję.
+  serving_ok: OK w małej porcji; wybierz mleko i skyr bez laktozy, jeśli trzeba
+  status: depends
   substitutions:
   - Mleko -> mleko bez laktozy lub napój ryżowy.
   - Skyr naturalny -> skyr bez laktozy.

@@ -11,6 +11,7 @@ date: 2025-11-29 12:00:00+00:00
 tags:
 - szybkie
 - proteinowe
+- gerd-safe
 tagline: Wytrawne wrapy z pastą twarogową, łososiem i awokado, idealne na śniadanie do pracy.
 ingredients:
 - twaróg
@@ -20,27 +21,27 @@ ingredients:
 - awokado
 - tortilla
 shopping_ingredients:
-- name: twaróg
-  amount: 250
-  unit: g
+- amount: 250
+  name: twaróg
   note: kostka
-- name: serka śmietankowego chrzanowego
-  amount: 100
   unit: g
-- name: szczypiorek
-  amount: 15
+- amount: 100
+  name: serka śmietankowego chrzanowego
   unit: g
+- amount: 15
+  name: szczypiorek
   note: poszatkowanego
-- name: łosoś wędzony
-  amount: 200
   unit: g
+- amount: 200
+  name: łosoś wędzony
   note: 50g na wrap
-- name: awokado
-  amount: 150
   unit: g
+- amount: 150
+  name: awokado
   note: 1 sztuka, 37g na wrap
-- name: tortilla
-  amount: 4
+  unit: g
+- amount: 4
+  name: tortilla
   unit: szt.
 servings: 4
 prep_time: 15
@@ -50,9 +51,11 @@ calories: 381
 protein: 26
 fat: 21
 carbohydrate: 22
+diets:
+- gerd-safe
 fodmap:
-  status: 'yes'
   notes: Wszystkie składniki są bezpieczne dla diety low FODMAP.
+  status: 'yes'
 ---
 
 ## Składniki

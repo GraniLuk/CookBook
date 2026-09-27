@@ -10,6 +10,7 @@ date: 2025-11-29 12:00:00+00:00
 tags:
 - low carb
 - ryby
+- gerd-safe
 tagline: Niskowęglowodanowe wrapy z domowym serkiem śmietankowym, wędzonym łososiem, awokado i jajecznymi naleśnikami.
 ingredients:
 - twaróg
@@ -19,28 +20,28 @@ ingredients:
 - awokado
 - jajka
 shopping_ingredients:
-- name: twaróg
-  amount: 105
+- amount: 105
+  name: twaróg
   unit: g
-- name: śmietana kremowa
-  amount: 50
+- amount: 50
+  name: śmietana kremowa
   unit: g
-- name: szczypiorek
-  amount: 15
-  unit: g
+- amount: 15
+  name: szczypiorek
   note: drobno posiekanego
-- name: łosoś wędzony
-  amount: 100
   unit: g
-- name: awokado
-  amount: 100
+- amount: 100
+  name: łosoś wędzony
   unit: g
+- amount: 100
+  name: awokado
   note: pół średniego
-- name: jajka
-  amount: 2
+  unit: g
+- amount: 2
+  name: jajka
   unit: szt.
-- name: Olej do smażenia
-  amount: 1
+- amount: 1
+  name: Olej do smażenia
   unit: szt.
 servings: 3
 prep_time: 20
@@ -50,9 +51,11 @@ calories: 248
 protein: 19
 fat: 18
 carbohydrate: 5
+diets:
+- gerd-safe
 fodmap:
-  status: 'yes'
   notes: Wszystkie składniki są bezpieczne dla diety low FODMAP w podanych ilościach.
+  status: 'yes'
 ---
 
 ## Składniki

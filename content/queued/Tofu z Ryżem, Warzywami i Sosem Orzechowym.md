@@ -6,13 +6,14 @@ draft: false
 readyToTest: true
 queued: true
 favourite: false
-link: 'https://youtu.be/PNjCcXoYMGE?t=691'
+link: https://youtu.be/PNjCcXoYMGE?t=691
 recipe_image: images/recipe-headers/tofu-ryz-warzywa-sos-orzechowy.avif
 date: 2026-06-09 12:05:00+02:00
 tags:
 - szybkie
 - lunchbox
 - pikantne
+- gerd-safe
 tagline: Chrupiące tofu z ryżem, warzywami z patelni i kremowym sosem orzechowym z nutą miodu, cytryny i sosu sojowego.
 ingredients:
 - tofu naturalne
@@ -22,47 +23,47 @@ ingredients:
 - olej do smażenia
 - masło orzechowe
 shopping_ingredients:
-- name: tofu naturalne
-  amount: 90
-  unit: g
+- amount: 90
+  name: tofu naturalne
   note: najlepiej twarde
-- name: ryż basmati
-  amount: 60
   unit: g
+- amount: 60
+  name: ryż basmati
   note: suchy
-- name: marchew
-  amount: 50
   unit: g
+- amount: 50
+  name: marchew
   note: ok. 1/2 sztuki
-- name: papryka zielona
-  amount: 70
   unit: g
+- amount: 70
+  name: papryka zielona
   note: ok. 1/2 sztuki
-- name: olej do smażenia
-  amount: 10
   unit: g
+- amount: 10
+  name: olej do smażenia
   note: 1 łyżka
-- name: masło orzechowe
-  amount: 10
   unit: g
+- amount: 10
+  name: masło orzechowe
   note: 1 łyżka
-- name: miód
-  amount: 5
   unit: g
+- amount: 5
+  name: miód
   note: 1/2 łyżeczki
-- name: sos sojowy
-  amount: 5
   unit: g
+- amount: 5
+  name: sos sojowy
   note: 1/2 łyżki
-- name: sok z cytryny
-  amount: 5
   unit: g
+- amount: 5
+  name: sok z cytryny
   note: 1/2 łyżki
-- name: ostra papryka mielona
-  amount: 0.25
+  unit: g
+- amount: 0.25
+  name: ostra papryka mielona
   unit: łyżeczki
-- name: papryka wędzona mielona
-  amount: 0.25
+- amount: 0.25
+  name: papryka wędzona mielona
   unit: łyżeczki
 servings: 1
 prep_time: 10
@@ -72,10 +73,12 @@ calories: 522
 protein: 19
 fat: 22
 carbohydrate: 63
+diets:
+- gerd-safe
 fodmap:
-  status: depends
-  serving_ok: Wymaga modyfikacji
   notes: Ryż, marchew, zielona papryka, masło orzechowe w tej ilości i twarde tofu są zwykle niskie FODMAP. Potencjalne problemy to miód oraz użycie tofu jedwabistego zamiast twardego.
+  serving_ok: Wymaga modyfikacji
+  status: depends
   substitutions:
   - Zamień miód na syrop klonowy, aby obniżyć ryzyko FODMAP i uzyskać wersję roślinną.
   - Wybierz tofu twarde lub extra firm; unikaj tofu jedwabistego w fazie eliminacji.

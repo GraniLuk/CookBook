@@ -9,6 +9,7 @@ date: 2025-12-17 12:00:00+00:00
 tags:
 - szybkie
 - lunchbox
+- gerd-safe
 tagline: Klasyczna sałatka z tuńczykiem, ryżem i kukurydzą – idealna na lunch lub kolację.
 ingredients:
 - tuńczyk
@@ -18,28 +19,28 @@ ingredients:
 - jajko
 - majonez
 shopping_ingredients:
-- name: woreczka ryżu białego
-  amount: 1.5
-  unit: szt.
+- amount: 1.5
+  name: woreczka ryżu białego
   note: ok. 150g suchego
-- name: tuńczyk
-  amount: 1
-  unit: puszka
+  unit: szt.
+- amount: 1
+  name: tuńczyk
   note: ok. 140g po odsączeniu
-- name: kukurydza
-  amount: 1
   unit: puszka
+- amount: 1
+  name: kukurydza
   note: ok. 150g po odsączeniu
-- name: ogórki kwaszone średniej wielkości
-  amount: 3
+  unit: puszka
+- amount: 3
+  name: ogórki kwaszone średniej wielkości
   unit: szt.
-- name: jajka
-  amount: 3
+- amount: 3
+  name: jajka
   unit: szt.
-- name: majonez
-  amount: 2.5
-  unit: łyżki
+- amount: 2.5
+  name: majonez
   note: ok. 50g
+  unit: łyżki
 servings: 4
 prep_time: 20
 cook: false
@@ -48,10 +49,12 @@ calories: 230
 protein: 10
 fat: 7
 carbohydrate: 32
+diets:
+- gerd-safe
 fodmap:
-  status: partial
-  serving_ok: Umiarkowana porcja (1/4 całości) powinna być OK dla większości osób na diecie low FODMAP.
   notes: Kukurydza konserwowa i majonez są dozwolone w umiarkowanych ilościach. Ryż i jajka są bezpieczne. Uwaga na ilość ogórków kwaszonych (mogą być problematyczne w większych ilościach). Tuńczyk w sosie własnym jest bezpieczny.
+  serving_ok: Umiarkowana porcja (1/4 całości) powinna być OK dla większości osób na diecie low FODMAP.
+  status: partial
   substitutions:
   - Można zmniejszyć ilość ogórków lub zastąpić je ogórkiem świeżym.
 ---

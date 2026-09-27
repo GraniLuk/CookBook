@@ -14,6 +14,7 @@ date: 2026-06-20 00:00:00+00:00
 tags:
 - przekąska
 - szybkie
+- gerd-safe
 tagline: Bardzo proste krakersy z ziemniaków — tylko 3 główne składniki i gotowe!
 ingredients:
 - ziemniaki
@@ -21,21 +22,21 @@ ingredients:
 - mąka orkiszowa
 - oliwa z oliwek
 shopping_ingredients:
-- name: ziemniaki
-  amount: 285
+- amount: 285
+  name: ziemniaki
   unit: g
-- name: jajko
-  amount: 1
+- amount: 1
+  name: jajko
   unit: szt.
-- name: mąka orkiszowa jasna
-  amount: 140
-  unit: g
+- amount: 140
+  name: mąka orkiszowa jasna
   note: + trochę do podsypania
-- name: oregano suszone
-  amount: 1
+  unit: g
+- amount: 1
+  name: oregano suszone
   unit: łyżeczka
-- name: oliwa z oliwek
-  amount: 1
+- amount: 1
+  name: oliwa z oliwek
   unit: łyżka
 servings: 4
 prep_time: 15
@@ -45,10 +46,12 @@ calories: 680
 protein: 18
 fat: 14
 carbohydrate: 120
+diets:
+- gerd-safe
 fodmap:
-  status: 'yes'
-  serving_ok: OK w tej porcji
   notes: Ziemniaki, jajka i mąka orkiszowa są bezpieczne w diecie FODMAP. Oregano w małych ilościach jest tolerowane.
+  serving_ok: OK w tej porcji
+  status: 'yes'
   substitutions: []
 ---
 

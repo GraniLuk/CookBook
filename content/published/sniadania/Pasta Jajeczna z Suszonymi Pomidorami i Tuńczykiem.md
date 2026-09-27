@@ -14,6 +14,7 @@ tags:
 - szybkie
 - pasta
 - kanapki
+- gerd-safe
 tagline: Kremowa i aromatyczna pasta jajeczna z wyrazistym smakiem suszonych pomidorów i tuńczyka.
 ingredients:
 - jajka
@@ -22,25 +23,25 @@ ingredients:
 - jogurt
 - majonez
 shopping_ingredients:
-- name: jajka
-  amount: 4
+- amount: 4
+  name: jajka
   unit: szt.
-- name: tuńczyk
-  amount: 1
-  unit: puszka
+- amount: 1
+  name: tuńczyk
   note: ok. 120g po odsączeniu
-- name: pomidory suszone
-  amount: 10
-  unit: szt.
+  unit: puszka
+- amount: 10
+  name: pomidory suszone
   note: ok. 50g
-- name: jogurt
-  amount: 2
-  unit: łyżki
+  unit: szt.
+- amount: 2
+  name: jogurt
   note: ok. 30g
-- name: majonez
-  amount: 1
-  unit: łyżka
+  unit: łyżki
+- amount: 1
+  name: majonez
   note: ok. 25g
+  unit: łyżka
 servings: 4
 prep_time: 5
 cook: true
@@ -49,10 +50,12 @@ calories: 172
 protein: 13
 fat: 12
 carbohydrate: 3
+diets:
+- gerd-safe
 fodmap:
-  status: depends
-  serving_ok: 'OK po modyfikacjach: suszone pomidory ≤ 8–12 g/os.; jogurt bez laktozy'
   notes: Suszone pomidory powyżej małej porcji mogą zwiększać ładunek FODMAP – ogranicz do ~1–2 kawałków na osobę. Nabiał wybieraj bez laktozy.
+  serving_ok: 'OK po modyfikacjach: suszone pomidory ≤ 8–12 g/os.; jogurt bez laktozy'
+  status: depends
   substitutions:
   - jogurt naturalny -> jogurt/skyr bez laktozy
   - za dużo suszonych pomidorów -> ogranicz do 8–12 g/os. lub użyj świeżych w małej ilości

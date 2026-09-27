@@ -11,16 +11,17 @@ date: 2026-04-29 21:23:19+02:00
 tags:
 - szybkie
 - lekkostrawne
+- gerd-safe
 tagline: Idealnie ugotowane jajka z płynnym żółtkiem i ściętym białkiem - klasyczne, pożywne śniadanie.
 ingredients:
 - jajka
 shopping_ingredients:
-- name: jajka
-  amount: 2
-  unit: szt.
+- amount: 2
+  name: jajka
   note: rozmiar M lub L
-- name: 'Opcjonalnie: świeży szczypiorek do posypania'
-  amount: 1
+  unit: szt.
+- amount: 1
+  name: 'Opcjonalnie: świeży szczypiorek do posypania'
   unit: szt.
 servings: 1
 prep_time: 2
@@ -30,10 +31,12 @@ calories: 140
 protein: 12.0
 fat: 10.0
 carbohydrate: 1.0
+diets:
+- gerd-safe
 fodmap:
-  status: 'yes'
-  serving_ok: OK w tej porcji
   notes: Jajka są produktem w 100% bezpiecznym na diecie Low FODMAP (nie zawierają węglowodanów).
+  serving_ok: OK w tej porcji
+  status: 'yes'
   substitutions: []
 ---
 

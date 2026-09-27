@@ -1,5 +1,5 @@
 ---
-title: "Sałatka z wędzonym kurczakiem"
+title: Sałatka z wędzonym kurczakiem
 author: Trello
 categories: salatki
 draft: false
@@ -14,7 +14,8 @@ tags:
 - szybkie
 - lunchbox
 - trello
-tagline: "Sycąca sałatka z wędzonym kurczakiem, ryżem, kukurydzą i warzywami."
+- gerd-safe
+tagline: Sycąca sałatka z wędzonym kurczakiem, ryżem, kukurydzą i warzywami.
 ingredients:
 - kurczak wędzony
 - ryż
@@ -23,26 +24,26 @@ ingredients:
 - ogórek
 - majonez
 shopping_ingredients:
-- name: kurczak wędzony
-  amount: 350
+- amount: 350
+  name: kurczak wędzony
   unit: g
-- name: ryż
-  amount: 200
+- amount: 200
+  name: ryż
   unit: g
-- name: kukurydza
-  amount: 160
+- amount: 160
+  name: kukurydza
   unit: g
-- name: papryka
-  amount: 200
+- amount: 200
+  name: papryka
   unit: g
-- name: ogórek
-  amount: 200
+- amount: 200
+  name: ogórek
   unit: g
-- name: majonez
-  amount: 80
+- amount: 80
+  name: majonez
   unit: g
-- name: jogurt naturalny
-  amount: 100
+- amount: 100
+  name: jogurt naturalny
   unit: g
 servings: 5
 prep_time: 20
@@ -53,15 +54,18 @@ calories: 426
 protein: 22.3
 fat: 18.1
 carbohydrate: 42.9
+diets:
+- gerd-safe
 fodmap:
-  status: depends
-  serving_ok: Wymaga modyfikacji
   notes: Wersja bazowa może zawierać pszenicę, laktozę, cebulę, czosnek albo większą porcję owoców/warzyw o wyższym FODMAP, zależnie od przepisu.
+  serving_ok: Wymaga modyfikacji
+  status: depends
   substitutions:
   - Użyj bezglutenowej mąki, makaronu lub bułki tartej tam, gdzie bazą jest pszenica.
   - Zamień nabiał na wariant bez laktozy.
   - Cebulę i czosnek zastąp zieloną częścią dymki, szczypiorkiem albo oliwą czosnkową.
 ---
+
 ## Składniki
 
 ### Sałatka

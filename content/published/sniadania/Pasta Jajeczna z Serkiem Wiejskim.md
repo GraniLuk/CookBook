@@ -9,12 +9,13 @@ queued: false
 favourite: false
 link: ''
 recipe_image: images/recipe-headers/pasta_jajeczna_z_serkiem_wiejskim.avif
-date: 2026-09-18T17:11:00+02:00
+date: 2026-09-18 17:11:00+02:00
 tags:
 - kanapki
 - szybkie
 - proteinowe
 - pasta
+- gerd-safe
 tagline: Błyskawiczna, kremowa i wysokobiałkowa pasta jajeczna z serkiem wiejskim, świeżym ogórkiem i szczypiorkiem.
 ingredients:
 - serek wiejski
@@ -22,25 +23,25 @@ ingredients:
 - ogórek świeży
 - szczypiorek
 shopping_ingredients:
-- name: serek wiejski
-  amount: 1
-  unit: opak.
+- amount: 1
+  name: serek wiejski
   note: 200 g (klasyczny lub bez laktozy)
-- name: jajka
-  amount: 3
+  unit: opak.
+- amount: 3
+  name: jajka
   unit: szt.
-- name: ogórek świeży
-  amount: 1
-  unit: szt.
+- amount: 1
+  name: ogórek świeży
   note: ok. 100 g (lub 4-5 rzodkiewek)
-- name: szczypiorek
-  amount: 1
-  unit: pęczek
+  unit: szt.
+- amount: 1
+  name: szczypiorek
   note: posiekany
-- name: musztarda
-  amount: 1
-  unit: łyżeczka
+  unit: pęczek
+- amount: 1
+  name: musztarda
   note: ok. 10 g (opcjonalnie do smaku)
+  unit: łyżeczka
 servings: 2
 prep_time: 10
 cook: true
@@ -53,10 +54,11 @@ diets:
 - vegetarian
 - keto
 - low carb
+- gerd-safe
 fodmap:
-  status: depends
-  serving_ok: OK w tej porcji po wyborze serka bez laktozy
   notes: Jajka, ogórek, rzodkiewka oraz zielona część szczypiorku są naturalnie low FODMAP. Aby danie było w pełni bezpieczne przy zespole jelita drażliwego / nietolerancji laktozy, wybierz serek wiejski bez laktozy.
+  serving_ok: OK w tej porcji po wyborze serka bez laktozy
+  status: depends
   substitutions:
   - serek wiejski -> serek wiejski bez laktozy
 ---

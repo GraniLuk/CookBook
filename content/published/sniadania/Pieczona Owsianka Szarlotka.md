@@ -14,6 +14,7 @@ date: 2026-01-26
 tags:
 - szybkie
 - owsianka
+- gerd-safe
 tagline: Pieczona owsianka z jabłkiem w stylu szarlotki, prosta i smaczna.
 ingredients:
 - jabłko
@@ -23,31 +24,31 @@ ingredients:
 - odżywka białkowa
 - oliwa
 shopping_ingredients:
-- name: jabłko
-  amount: 1
+- amount: 1
+  name: jabłko
   unit: szt.
-- name: jajko
-  amount: 1
+- amount: 1
+  name: jajko
   unit: szt.
-- name: mleka lub napoju roślinnego
-  amount: 60
+- amount: 60
+  name: mleka lub napoju roślinnego
   unit: ml
-- name: płatki owsiane
-  amount: 50
+- amount: 50
+  name: płatki owsiane
   unit: g
-- name: odżywka białkowa
-  amount: 10
+- amount: 10
+  name: odżywka białkowa
   unit: g
-- name: cynamonu
-  amount: 1
+- amount: 1
+  name: cynamonu
   unit: łyżeczka
-- name: proszku do pieczenia
-  amount: 0.5
+- amount: 0.5
+  name: proszku do pieczenia
   unit: łyżeczki
-- name: oliwa
-  amount: 1
-  unit: szt.
+- amount: 1
+  name: oliwa
   note: do natłuszczenia formy
+  unit: szt.
 servings: 1
 prep_time: 10
 cook: true
@@ -56,6 +57,8 @@ calories: 413
 protein: 23
 fat: 11
 carbohydrate: 60
+diets:
+- gerd-safe
 fodmap:
   notes: Jabłko jest high FODMAP, zastąp owocem low FODMAP jak malina lub borówka.
   serving_ok: Nie OK - jabłko jest high FODMAP

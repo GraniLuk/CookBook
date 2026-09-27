@@ -9,7 +9,8 @@ link: https://www.instagram.com/reels/DYePF48NK0J/
 recipe_image: images/recipe-headers/zupa_ogorkowa.avif
 video_file: videos/zupa_ogorkowa.mp4
 date: 2026-05-18 12:00:00+00:00
-tags: []
+tags:
+- gerd-safe
 tagline: Klasyczna, lekko kwaśna zupa ogórkowa na bulionie z ziemniakami, warzywami korzeniowymi, koperkiem i śmietanką.
 ingredients:
 - bulion
@@ -22,45 +23,45 @@ ingredients:
 - śmietanka
 - koperek
 shopping_ingredients:
-- name: bulion
-  amount: 2.5
+- amount: 2.5
+  name: bulion
   unit: l
-- name: ogórki kiszone
-  amount: 1
-  unit: kg
+- amount: 1
+  name: ogórki kiszone
   note: startych na drobnych oczkach
-- name: ziemniaki
-  amount: 500
-  unit: g
+  unit: kg
+- amount: 500
+  name: ziemniaki
   note: obranych i pokrojonych w kostkę
-- name: korzeń pietruszki
-  amount: 1
-  unit: szt.
-  note: obrany i pokrojony w kostkę
-- name: marchew
-  amount: 2
-  unit: szt.
-  note: obrane i pokrojone w kostkę
-- name: por
-  amount: 1
-  unit: szt.
-  note: pokrojony w plastry
-- name: korzeń selera
-  amount: 0.5
-  unit: szt.
-  note: obrany i pokrojony w kostkę
-- name: śmietanka
-  amount: 100
-  unit: ml
-- name: koperek
-  amount: 20
   unit: g
-  note: posiekanego
-- name: liście laurowe
-  amount: 2
+- amount: 1
+  name: korzeń pietruszki
+  note: obrany i pokrojony w kostkę
   unit: szt.
-- name: ziarna ziela angielskiego
-  amount: 3
+- amount: 2
+  name: marchew
+  note: obrane i pokrojone w kostkę
+  unit: szt.
+- amount: 1
+  name: por
+  note: pokrojony w plastry
+  unit: szt.
+- amount: 0.5
+  name: korzeń selera
+  note: obrany i pokrojony w kostkę
+  unit: szt.
+- amount: 100
+  name: śmietanka
+  unit: ml
+- amount: 20
+  name: koperek
+  note: posiekanego
+  unit: g
+- amount: 2
+  name: liście laurowe
+  unit: szt.
+- amount: 3
+  name: ziarna ziela angielskiego
   unit: szt.
 servings: 6
 prep_time: 20
@@ -70,10 +71,12 @@ calories: 197
 protein: 5
 fat: 8
 carbohydrate: 31
+diets:
+- gerd-safe
 fodmap:
-  status: depends
-  serving_ok: Wymaga modyfikacji
   notes: Zupa zawiera por i korzeń selera, które mogą być problematyczne w większej porcji. Bulion bywa gotowany na cebuli lub czosnku, a śmietanka może zawierać laktozę. Ogórki kiszone, ziemniaki, marchew i koperek są zwykle dobrze tolerowane.
+  serving_ok: Wymaga modyfikacji
+  status: depends
   substitutions:
   - Użyj bulionu bez cebuli i czosnku albo przygotuj go na warzywach low-FODMAP.
   - Pora zastąp zieloną częścią szczypiorku lub pomiń.

@@ -12,6 +12,7 @@ date: 2025-10-28 12:30:00+00:00
 tags:
 - szybkie
 - proteinowe
+- gerd-safe
 tagline: Ekspresowe słodkie tosty z twarogu – mięciutkie, wysokobiałkowe i niskokalaryczne.
 ingredients:
 - twaróg
@@ -20,39 +21,39 @@ ingredients:
 - mleko
 - wiórki kokosowe
 shopping_ingredients:
-- name: twaróg
-  amount: 100
+- amount: 100
+  name: twaróg
   unit: g
-- name: jajko
-  amount: 1
+- amount: 1
+  name: jajko
   unit: szt.
-- name: erytrytolu
-  amount: 1
-  unit: łyżka
+- amount: 1
+  name: erytrytolu
   note: lub innego słodzika
-- name: proszku do pieczenia
-  amount: 0.5
+  unit: łyżka
+- amount: 0.5
+  name: proszku do pieczenia
   unit: łyżeczki
-- name: wiórki kokosowe
-  amount: 5
+- amount: 5
+  name: wiórki kokosowe
   unit: g
-- name: krople aromatu waniliowego
-  amount: 3
+- amount: 3
+  name: krople aromatu waniliowego
   unit: szt.
-- name: mąki orkiszowej pełnoziarnistej
-  amount: 35.0
+- amount: 35.0
+  name: mąki orkiszowej pełnoziarnistej
   unit: g
-- name: mleka
-  amount: 50
-  unit: ml
+- amount: 50
+  name: mleka
   note: zacząć od małej ilości, dolać w razie potrzeby
-- name: Olej w sprayu do posmarowania opiekacza
-  amount: 1
+  unit: ml
+- amount: 1
+  name: Olej w sprayu do posmarowania opiekacza
   unit: szt.
-- name: Dżem bio słodzony ksylitolem lub o obniżonej zawartości cukru
-  amount: 1
-  unit: szt.
+- amount: 1
+  name: Dżem bio słodzony ksylitolem lub o obniżonej zawartości cukru
   note: np. wiśniowy, porzeczkowy
+  unit: szt.
 servings: 1
 prep_time: 5
 cook: true
@@ -62,10 +63,12 @@ calories: 350
 protein: 40
 fat: 8
 carbohydrate: 29
+diets:
+- gerd-safe
 fodmap:
-  status: depends
-  serving_ok: 'OK po modyfikacjach: uwaga na mleko laktozowe'
   notes: Twaróg chudy jest niskofodmap w porcjach do ~40 g (zawiera laktozę, ale w małych ilościach). W tym przepisie używamy ok. 100 g twarogu, co może być za dużo dla osób wrażliwych na laktozę. Mleko krowie jest wysokofodmap (laktoza). Mąka orkiszowa zawiera gluten i może zawierać fruktany, ale w niewielkich ilościach jest zwykle tolerowana.
+  serving_ok: 'OK po modyfikacjach: uwaga na mleko laktozowe'
+  status: depends
   substitutions:
   - mleko krowie -> mleko bezlaktozowe lub mleko roślinne (migdałowe, ryżowe)
   - twaróg -> twaróg bezlaktozowy lub tofu jedwabiste

@@ -9,25 +9,26 @@ draft: false
 readyToTest: false
 recipe_image: images/recipe-headers/jajecznica.avif
 date: 2025-06-18 12:00:00+00:00
-tags: []
+tags:
+- gerd-safe
 tagline: Klasyczna jajecznica na śniadanie!
 ingredients:
 - jajka
 - masło
 - szczypiorek
 shopping_ingredients:
-- name: jajka
-  amount: 4
-  unit: szt.
+- amount: 4
+  name: jajka
   note: około 240g
-- name: masła
-  amount: 2
-  unit: łyżki
+  unit: szt.
+- amount: 2
+  name: masła
   note: około 25g
-- name: szczypiorek
-  amount: 5
-  unit: g
+  unit: łyżki
+- amount: 5
+  name: szczypiorek
   note: 5g
+  unit: g
 servings: 2
 prep_time: 5
 cook: true
@@ -36,10 +37,12 @@ calories: 196
 protein: 11
 fat: 16
 carbohydrate: 1
+diets:
+- gerd-safe
 fodmap:
-  status: 'yes'
-  serving_ok: Porcja bez ograniczeń
   notes: Wszystkie składniki są bezpieczne na diecie Low FODMAP.
+  serving_ok: Porcja bez ograniczeń
+  status: 'yes'
   substitutions: []
 ---
 

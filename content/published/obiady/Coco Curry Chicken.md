@@ -14,6 +14,7 @@ tags:
 - lunchbox
 - azjatyckie
 - jednogarnkowe
+- gerd-safe
 tagline: Kremowe kokosowe curry, soczysty kurczak, ryż, brokuł i marchewka. Turbo leniwe danie z piekarnika.
 ingredients:
 - ryż parboiled
@@ -22,28 +23,28 @@ ingredients:
 - brokuł
 - marchew
 shopping_ingredients:
-- name: ryżu parboiled
-  amount: 200
-  unit: g
+- amount: 200
+  name: ryżu parboiled
   note: konieczny, inaczej danie z piekarnika może się nie udać
-- name: pierś z kurczaka
-  amount: 600
   unit: g
-- name: mleczka kokosowego
-  amount: 400
+- amount: 600
+  name: pierś z kurczaka
   unit: g
+- amount: 400
+  name: mleczka kokosowego
   note: 1 puszka
-- name: pasty red curry
-  amount: 25
   unit: g
-- name: brokuł
-  amount: 500
+- amount: 25
+  name: pasty red curry
   unit: g
+- amount: 500
+  name: brokuł
   note: 1 brokuł
-- name: marchew
-  amount: 230
   unit: g
+- amount: 230
+  name: marchew
   note: 2 marchewki
+  unit: g
 servings: 4
 prep_time: 10
 cook: true
@@ -52,10 +53,12 @@ calories: 594
 protein: 42
 fat: 23
 carbohydrate: 58
+diets:
+- gerd-safe
 fodmap:
-  status: 'no'
-  serving_ok: Unikaj
   notes: Pasta curry zazwyczaj zawiera czosnek i cebulę, które są wykluczone w diecie FODMAP. Pozostałe składniki są bezpieczne w użytych proporcjach.
+  serving_ok: Unikaj
+  status: 'no'
   substitutions:
   - Zastąp gotową pastę curry domową mieszanką przypraw bez czosnku i cebuli.
 ---

@@ -7,12 +7,13 @@ draft: false
 readyToTest: true
 queued: true
 favourite: false
-link: 'https://youtu.be/PNjCcXoYMGE?t=363'
+link: https://youtu.be/PNjCcXoYMGE?t=363
 recipe_image: images/recipe-headers/salatka-mlode-ziemniaki-szparagi-jajko.avif
 date: 2026-06-09 12:00:00+02:00
 tags:
 - szybkie
 - lunchbox
+- gerd-safe
 tagline: Wiosenna sałatka z młodymi ziemniakami, chrupiącymi szparagami, jajkiem i lekkim sosem musztardowo-jogurtowym.
 ingredients:
 - ziemniaki młode
@@ -21,33 +22,33 @@ ingredients:
 - rukola
 - jogurt naturalny
 shopping_ingredients:
-- name: ziemniaki młode
-  amount: 250
-  unit: g
+- amount: 250
+  name: ziemniaki młode
   note: w mundurkach
-- name: jajka
-  amount: 2
+  unit: g
+- amount: 2
+  name: jajka
   unit: szt.
-- name: szparagi zielone
-  amount: 100
-  unit: g
+- amount: 100
+  name: szparagi zielone
   note: ok. 4 szt.
-- name: rukola
-  amount: 10
   unit: g
+- amount: 10
+  name: rukola
   note: 1/2 garści
-- name: jogurt naturalny
-  amount: 50
   unit: g
+- amount: 50
+  name: jogurt naturalny
   note: do sosu
-- name: musztarda sarepska
-  amount: 8
   unit: g
+- amount: 8
+  name: musztarda sarepska
   note: 1/2 łyżki
-- name: szczypiorek
-  amount: 5
   unit: g
+- amount: 5
+  name: szczypiorek
   note: opcjonalnie, do posypania
+  unit: g
 servings: 1
 prep_time: 10
 cook: true
@@ -56,10 +57,12 @@ calories: 396
 protein: 23
 fat: 11
 carbohydrate: 52
+diets:
+- gerd-safe
 fodmap:
-  status: depends
-  serving_ok: Wymaga modyfikacji
   notes: Ziemniaki, jajka i rukola są niskie FODMAP, ale 100 g zielonych szparagów to porcja problematyczna dla eliminacji FODMAP. Zwykły jogurt może też wnosić laktozę.
+  serving_ok: Wymaga modyfikacji
+  status: depends
   substitutions:
   - Zmniejsz szparagi do małej porcji 12-20 g albo zamień je na fasolkę szparagową, cukinię lub więcej rukoli.
   - Użyj jogurtu naturalnego bez laktozy.

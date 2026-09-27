@@ -12,6 +12,7 @@ recipe_image: images/defaultImage.avif
 date: 2025-06-18 12:00:00+00:00
 tags:
 - omlety
+- gerd-safe
 tagline: Wysokobiałkowy omlet bez węglowodanów!
 ingredients:
 - jajka
@@ -22,32 +23,32 @@ ingredients:
 - pomidorki koktajlowe
 - rukola
 shopping_ingredients:
-- name: jajka
-  amount: 2
-  unit: szt.
+- amount: 2
+  name: jajka
   note: około 120g
-- name: tartego sera wysokobiałkowego
-  amount: 40
-  unit: g
+  unit: szt.
+- amount: 40
+  name: tartego sera wysokobiałkowego
   note: np. mozzarella light, cheddar light
-- name: oliwy z oliwek
-  amount: 5
   unit: g
+- amount: 5
+  name: oliwy z oliwek
   note: 1 łyżeczka; do spryskania patelni
-- name: pesto
-  amount: 15
   unit: g
+- amount: 15
+  name: pesto
   note: 1 łyżka
-- name: mozzarella
-  amount: 30
   unit: g
+- amount: 30
+  name: mozzarella
   note: w plastrach lub porwanej
-- name: pomidorki koktajlowe
-  amount: 30
   unit: g
+- amount: 30
+  name: pomidorki koktajlowe
   note: 3.5 szt.; pokrojone na połówki
-- name: rukola
-  amount: 10
+  unit: g
+- amount: 10
+  name: rukola
   unit: g
 servings: 1
 prep_time: 7
@@ -57,10 +58,12 @@ calories: 183
 protein: 13
 fat: 14
 carbohydrate: 2
+diets:
+- gerd-safe
 fodmap:
-  status: depends
-  serving_ok: 'OK po modyfikacjach: pesto bez czosnku; pomidorki ≤ 5 szt.; ser w małej porcji'
   notes: Czosnek w pesto (fruktany) niewskazany. Pomidorki w małej porcji zwykle OK. Sery dojrzewające mają mało laktozy; mozzarella w umiarkowanej porcji.
+  serving_ok: 'OK po modyfikacjach: pesto bez czosnku; pomidorki ≤ 5 szt.; ser w małej porcji'
+  status: depends
   substitutions:
   - pesto z czosnkiem -> pesto bazyliowe bez czosnku lub olej czosnkowy
   - ser -> ser dojrzewający (jeśli wrażliwość na laktozę)

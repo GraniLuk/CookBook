@@ -1,5 +1,5 @@
 ---
-title: "Zupa ogórkowa (Trello)"
+title: Zupa ogórkowa (Trello)
 author: Trello
 categories: obiady
 draft: false
@@ -14,27 +14,28 @@ tags:
 - zupy
 - klasyczne
 - trello
-tagline: "Domowa ogórkowa z ziemniakami, marchewką i kwaśnymi ogórkami."
+- gerd-safe
+tagline: Domowa ogórkowa z ziemniakami, marchewką i kwaśnymi ogórkami.
 ingredients:
 - ziemniaki
 - ogórek kiszony
 - marchew
 - śmietana 18%
 shopping_ingredients:
-- name: ziemniaki
-  amount: 500
+- amount: 500
+  name: ziemniaki
   unit: g
-- name: ogórek kiszony
-  amount: 400
+- amount: 400
+  name: ogórek kiszony
   unit: g
-- name: marchew
-  amount: 200
+- amount: 200
+  name: marchew
   unit: g
-- name: śmietana 18%
-  amount: 120
+- amount: 120
+  name: śmietana 18%
   unit: g
-- name: masło
-  amount: 20
+- amount: 20
+  name: masło
   unit: g
 servings: 6
 prep_time: 20
@@ -45,15 +46,18 @@ calories: 147
 protein: 2.9
 fat: 6.5
 carbohydrate: 19.8
+diets:
+- gerd-safe
 fodmap:
-  status: depends
-  serving_ok: Wymaga modyfikacji
   notes: Wersja bazowa może zawierać pszenicę, laktozę, cebulę, czosnek albo większą porcję owoców/warzyw o wyższym FODMAP, zależnie od przepisu.
+  serving_ok: Wymaga modyfikacji
+  status: depends
   substitutions:
   - Użyj bezglutenowej mąki, makaronu lub bułki tartej tam, gdzie bazą jest pszenica.
   - Zamień nabiał na wariant bez laktozy.
   - Cebulę i czosnek zastąp zieloną częścią dymki, szczypiorkiem albo oliwą czosnkową.
 ---
+
 ## Składniki
 
 - 500 g ziemniaki

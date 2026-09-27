@@ -1,5 +1,5 @@
 ---
-title: "Sałatka z ananasem"
+title: Sałatka z ananasem
 author: Trello
 categories: salatki
 draft: false
@@ -14,7 +14,8 @@ tags:
 - szybkie
 - goście
 - trello
-tagline: "Słodko-słona sałatka z kurczakiem, ananasem, kukurydzą i lekkim sosem."
+- gerd-safe
+tagline: Słodko-słona sałatka z kurczakiem, ananasem, kukurydzą i lekkim sosem.
 ingredients:
 - pierś z kurczaka
 - ananas
@@ -22,25 +23,25 @@ ingredients:
 - ryż
 - majonez
 shopping_ingredients:
-- name: pierś z kurczaka
-  amount: 400
+- amount: 400
+  name: pierś z kurczaka
   unit: g
-- name: ryż
-  amount: 180
+- amount: 180
+  name: ryż
   unit: g
-- name: ananas
-  amount: 340
-  unit: g
+- amount: 340
+  name: ananas
   note: 1 puszka po odsączeniu
-- name: kukurydza
-  amount: 160
   unit: g
+- amount: 160
+  name: kukurydza
   note: 1 mała puszka
-- name: majonez
-  amount: 80
   unit: g
-- name: jogurt naturalny
-  amount: 120
+- amount: 80
+  name: majonez
+  unit: g
+- amount: 120
+  name: jogurt naturalny
   unit: g
 servings: 6
 prep_time: 20
@@ -51,15 +52,18 @@ calories: 335
 protein: 19.5
 fat: 12.3
 carbohydrate: 37.5
+diets:
+- gerd-safe
 fodmap:
-  status: depends
-  serving_ok: Wymaga modyfikacji
   notes: Wersja bazowa może zawierać pszenicę, laktozę, cebulę, czosnek albo większą porcję owoców/warzyw o wyższym FODMAP, zależnie od przepisu.
+  serving_ok: Wymaga modyfikacji
+  status: depends
   substitutions:
   - Użyj bezglutenowej mąki, makaronu lub bułki tartej tam, gdzie bazą jest pszenica.
   - Zamień nabiał na wariant bez laktozy.
   - Cebulę i czosnek zastąp zieloną częścią dymki, szczypiorkiem albo oliwą czosnkową.
 ---
+
 ## Składniki
 
 ### Sałatka

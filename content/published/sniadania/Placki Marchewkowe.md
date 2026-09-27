@@ -11,6 +11,7 @@ recipe_image: images/recipe-headers/placki_marchewkowe.avif
 date: 2025-06-20 12:00:00+00:00
 tags:
 - Stefan
+- gerd-safe
 tagline: Pyszne placki marchewkowe z cynamonem - zdrowe i szybkie śniadanie!
 ingredients:
 - jajko
@@ -19,40 +20,40 @@ ingredients:
 - mleko
 - cukier
 shopping_ingredients:
-- name: jajko
-  amount: 1
-  unit: szt.
+- amount: 1
+  name: jajko
   note: 60g
-- name: marchewka
-  amount: 50
-  unit: g
-- name: mąki pszennej
-  amount: 50
-  unit: g
-  note: lub innej ulubionej
-- name: mleka
-  amount: 60
-  unit: ml
-- name: cukru kokosowego
-  amount: 1
-  unit: łyżeczka
-  note: lub innego słodzidła; 5g
-- name: szczypta cynamonu
-  amount: 0.5
-  unit: g
-  note: 0.5g
-- name: szczypta proszku do pieczenia
-  amount: 0.5
-  unit: g
-  note: 0.5g
-- name: olej do smażenia
-  amount: 10
-  unit: g
-  note: np. kokosowy; 10g
-- name: ulubione dodatki
-  amount: 1
   unit: szt.
+- amount: 50
+  name: marchewka
+  unit: g
+- amount: 50
+  name: mąki pszennej
+  note: lub innej ulubionej
+  unit: g
+- amount: 60
+  name: mleka
+  unit: ml
+- amount: 1
+  name: cukru kokosowego
+  note: lub innego słodzidła; 5g
+  unit: łyżeczka
+- amount: 0.5
+  name: szczypta cynamonu
+  note: 0.5g
+  unit: g
+- amount: 0.5
+  name: szczypta proszku do pieczenia
+  note: 0.5g
+  unit: g
+- amount: 10
+  name: olej do smażenia
+  note: np. kokosowy; 10g
+  unit: g
+- amount: 1
+  name: ulubione dodatki
   note: np. jogurt naturalny, owoce, syrop klonowy
+  unit: szt.
 servings: 12
 prep_time: 10
 cook: true
@@ -61,10 +62,12 @@ calories: 174
 protein: 7
 fat: 7
 carbohydrate: 21
+diets:
+- gerd-safe
 fodmap:
-  status: depends
-  serving_ok: OK przy zamianie mąki pszennej i mleka na wersje low FODMAP
   notes: Marchewka jest low FODMAP. Ogranicz pszenicę; wybierz nabiał bez laktozy.
+  serving_ok: OK przy zamianie mąki pszennej i mleka na wersje low FODMAP
+  status: depends
   substitutions:
   - Mąka pszenna -> mąka ryżowa lub owsiana bezglutenowa.
   - Mleko -> mleko bez laktozy lub napój ryżowy.

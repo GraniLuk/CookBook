@@ -11,6 +11,7 @@ recipe_image: images/recipe-headers/owsianka_nocna_pinacolada.avif
 date: 2025-11-25 12:00:00+00:00
 tags:
 - owsianka
+- gerd-safe
 tagline: Ekspresowy posiłek na słodko, przygotowany wieczorem. Idealna kompozycja kokosa i ananasa w dwóch wariantach - lekkim i dla głodomorów.
 ingredients:
 - płatki owsiane
@@ -22,40 +23,40 @@ ingredients:
 - odżywka białkowa
 - jogurt naturalny
 shopping_ingredients:
-- name: płatki owsiane
-  amount: 40
+- amount: 40
+  name: płatki owsiane
   unit: g
-- name: mleka
-  amount: 120
-  unit: ml
+- amount: 120
+  name: mleka
   note: lub mleka roślinnego
-- name: nasiona chia
-  amount: 1
-  unit: łyżka
-  note: 10g
-- name: wiórki kokosowe
-  amount: 1
-  unit: łyżka
-  note: 10g
-- name: ananas
-  amount: 50
-  unit: g
-- name: mleka sojowego
-  amount: 200
   unit: ml
+- amount: 1
+  name: nasiona chia
+  note: 10g
+  unit: łyżka
+- amount: 1
+  name: wiórki kokosowe
+  note: 10g
+  unit: łyżka
+- amount: 50
+  name: ananas
+  unit: g
+- amount: 200
+  name: mleka sojowego
   note: lub innego
-- name: jogurt naturalny
-  amount: 50
+  unit: ml
+- amount: 50
+  name: jogurt naturalny
   unit: g
-- name: odżywka białkowa
-  amount: 35
+- amount: 35
+  name: odżywka białkowa
   unit: g
-- name: erytrytolu
-  amount: 10
-  unit: g
+- amount: 10
+  name: erytrytolu
   note: do smaku
-- name: 'Opcjonalnie: dodatkowy kokos do posypania na wierzch'
-  amount: 1
+  unit: g
+- amount: 1
+  name: 'Opcjonalnie: dodatkowy kokos do posypania na wierzch'
   unit: szt.
 servings: 1
 prep_time: 10
@@ -65,10 +66,12 @@ calories: 440
 protein: 32
 fat: 16
 carbohydrate: 50
+diets:
+- gerd-safe
 fodmap:
-  status: 'yes'
-  serving_ok: OK w tej porcji
   notes: Ananas w ilościach do 140g jest bezpieczny dla diety low FODMAP. Płatki owsiane, nasiona chia i wiórki kokosowe są w pełni dozwolone. Puding białkowy, mleko krowie i jogurt naturalny mogą wymagać wymiany na wersje bezlaktozowe lub roślinne, w zależności od tolerancji.
+  serving_ok: OK w tej porcji
+  status: 'yes'
   substitutions: []
 ---
 

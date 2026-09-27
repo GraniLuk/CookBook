@@ -1,5 +1,5 @@
 ---
-title: "Kotleciki a la pożarskie z piekarnika"
+title: Kotleciki a la pożarskie z piekarnika
 author: Trello
 categories: obiady
 draft: false
@@ -14,7 +14,8 @@ tags:
 - kotlety
 - lunchbox
 - trello
-tagline: "Pieczone kotleciki drobiowe w stylu pożarskim, soczyste i delikatne."
+- gerd-safe
+tagline: Pieczone kotleciki drobiowe w stylu pożarskim, soczyste i delikatne.
 ingredients:
 - pierś z kurczaka
 - kajzerka
@@ -22,26 +23,26 @@ ingredients:
 - bułka tarta
 - masło
 shopping_ingredients:
-- name: pierś z kurczaka
-  amount: 600
+- amount: 600
+  name: pierś z kurczaka
   unit: g
-- name: kajzerka
-  amount: 1
+- amount: 1
+  name: kajzerka
   unit: szt.
-- name: mleko
-  amount: 100
+- amount: 100
+  name: mleko
   unit: ml
-- name: jajko
-  amount: 1
+- amount: 1
+  name: jajko
   unit: szt.
-- name: masło
-  amount: 40
+- amount: 40
+  name: masło
   unit: g
-- name: bułka tarta
-  amount: 80
+- amount: 80
+  name: bułka tarta
   unit: g
-- name: olej
-  amount: 15
+- amount: 15
+  name: olej
   unit: ml
 servings: 4
 prep_time: 25
@@ -52,15 +53,18 @@ calories: 413
 protein: 40.8
 fat: 17.8
 carbohydrate: 23.4
+diets:
+- gerd-safe
 fodmap:
-  status: depends
-  serving_ok: Wymaga modyfikacji
   notes: Wersja bazowa może zawierać pszenicę, laktozę, cebulę, czosnek albo większą porcję owoców/warzyw o wyższym FODMAP, zależnie od przepisu.
+  serving_ok: Wymaga modyfikacji
+  status: depends
   substitutions:
   - Użyj bezglutenowej mąki, makaronu lub bułki tartej tam, gdzie bazą jest pszenica.
   - Zamień nabiał na wariant bez laktozy.
   - Cebulę i czosnek zastąp zieloną częścią dymki, szczypiorkiem albo oliwą czosnkową.
 ---
+
 ## Składniki
 
 ### Masa

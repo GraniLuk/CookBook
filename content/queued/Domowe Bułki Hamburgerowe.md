@@ -7,10 +7,11 @@ readyToTest: true
 queued: true
 link: https://www.youtube.com/watch?v=JL4jyt-LbWI
 recipe_image: images/recipe-headers/domowe-bulki-hamburgerowe.avif
-date: 2026-06-12T12:00:00+00:00
+date: 2026-06-12 12:00:00+00:00
 tags:
 - kanapki
 - burger
+- gerd-safe
 tagline: Maślane, puszyste bułki hamburgerowe do domowych burgerów.
 ingredients:
 - mąka pszenna typ 650
@@ -19,41 +20,41 @@ ingredients:
 - drożdże świeże
 - jajko
 shopping_ingredients:
-- name: mąka pszenna typ 650
-  amount: 400
+- amount: 400
+  name: mąka pszenna typ 650
   unit: g
-- name: masło
-  amount: 40
+- amount: 40
+  name: masło
   unit: g
-- name: mleko
-  amount: 150
-  unit: ml
+- amount: 150
+  name: mleko
   note: zimne, do ciasta
-- name: woda
-  amount: 100
   unit: ml
+- amount: 100
+  name: woda
   note: ciepła, do zaczynu
-- name: drożdże świeże
-  amount: 25
-  unit: g
+  unit: ml
+- amount: 25
+  name: drożdże świeże
   note: albo 7-8 g suchych
-- name: sól
-  amount: 5
   unit: g
-- name: cukier brązowy
-  amount: 10
+- amount: 5
+  name: sól
   unit: g
-- name: żółtko
-  amount: 1
+- amount: 10
+  name: cukier brązowy
+  unit: g
+- amount: 1
+  name: żółtko
   unit: szt.
-- name: mleko
-  amount: 1
-  unit: łyżka
+- amount: 1
+  name: mleko
   note: do posmarowania bułek
-- name: sezam biały
-  amount: 1
   unit: łyżka
+- amount: 1
+  name: sezam biały
   note: do posypania
+  unit: łyżka
 servings: 4
 prep_time: 30
 cook: true
@@ -62,10 +63,12 @@ calories: 466
 protein: 13
 fat: 10
 carbohydrate: 76
+diets:
+- gerd-safe
 fodmap:
-  status: depends
-  serving_ok: Wymaga modyfikacji
   notes: Klasyczna wersja zawiera mąkę pszenną i mleko, więc nie jest bezpieczna w diecie low-FODMAP bez zmian.
+  serving_ok: Wymaga modyfikacji
+  status: depends
   substitutions:
   - Użyj certyfikowanej mieszanki bezglutenowej do pieczywa zamiast mąki pszennej.
   - Mleko zamień na mleko bez laktozy.

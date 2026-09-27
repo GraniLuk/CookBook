@@ -1,5 +1,5 @@
 ---
-title: "Bułeczki taty"
+title: Bułeczki taty
 author: Trello
 categories: śniadania
 subcategories: słone
@@ -14,7 +14,8 @@ date: 2026-06-11 00:00:00+02:00
 tags:
 - klasyczne
 - trello
-tagline: "Miękkie domowe bułeczki śniadaniowe z prostego ciasta drożdżowego."
+- gerd-safe
+tagline: Miękkie domowe bułeczki śniadaniowe z prostego ciasta drożdżowego.
 ingredients:
 - mąka pszenna
 - drożdże świeże
@@ -22,23 +23,23 @@ ingredients:
 - jajko
 - masło
 shopping_ingredients:
-- name: mąka pszenna
-  amount: 500
+- amount: 500
+  name: mąka pszenna
   unit: g
-- name: drożdże świeże
-  amount: 25
+- amount: 25
+  name: drożdże świeże
   unit: g
-- name: mleko
-  amount: 250
+- amount: 250
+  name: mleko
   unit: ml
-- name: jajko
-  amount: 1
+- amount: 1
+  name: jajko
   unit: szt.
-- name: cukier
-  amount: 20
+- amount: 20
+  name: cukier
   unit: g
-- name: masło
-  amount: 60
+- amount: 60
+  name: masło
   unit: g
 servings: 10
 prep_time: 35
@@ -49,15 +50,18 @@ calories: 255
 protein: 6.9
 fat: 6.3
 carbohydrate: 41.7
+diets:
+- gerd-safe
 fodmap:
-  status: depends
-  serving_ok: Wymaga modyfikacji
   notes: Wersja bazowa może zawierać pszenicę, laktozę, cebulę, czosnek albo większą porcję owoców/warzyw o wyższym FODMAP, zależnie od przepisu.
+  serving_ok: Wymaga modyfikacji
+  status: depends
   substitutions:
   - Użyj bezglutenowej mąki, makaronu lub bułki tartej tam, gdzie bazą jest pszenica.
   - Zamień nabiał na wariant bez laktozy.
   - Cebulę i czosnek zastąp zieloną częścią dymki, szczypiorkiem albo oliwą czosnkową.
 ---
+
 ## Składniki
 
 - 500 g mąka pszenna

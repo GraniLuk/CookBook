@@ -12,6 +12,7 @@ recipe_image: images/recipe-headers/sniadaniowe_rogaliki_makiem.avif
 date: 2025-12-28 12:00:00+00:00
 tags:
 - rogaliki
+- gerd-safe
 tagline: Ulubione śniadaniowe rogaliki z makiem, idealne z jajkiem na twardo i majonezem albo z masłem i domowym powidełkiem.
 ingredients:
 - mąka pszenna
@@ -20,28 +21,28 @@ ingredients:
 - olej
 - mak
 shopping_ingredients:
-- name: mąki pszennej
-  amount: 620
+- amount: 620
+  name: mąki pszennej
   unit: g
-- name: świeżych drożdży
-  amount: 25
+- amount: 25
+  name: świeżych drożdży
   unit: g
-- name: cukru
-  amount: 1
+- amount: 1
+  name: cukru
   unit: łyżeczka
-- name: jajka
-  amount: 2
+- amount: 2
+  name: jajka
   unit: szt.
-- name: letniego mleka
-  amount: 120
+- amount: 120
+  name: letniego mleka
   unit: ml
-- name: oleju
-  amount: 4
+- amount: 4
+  name: oleju
   unit: łyżki
-- name: ilość maku
-  amount: 50
-  unit: g
+- amount: 50
+  name: ilość maku
   note: ok. 50 g
+  unit: g
 servings: 8
 prep_time: 30
 cook: true
@@ -50,10 +51,12 @@ calories: 410
 protein: 13
 fat: 12
 carbohydrate: 61
+diets:
+- gerd-safe
 fodmap:
-  status: false
-  serving_ok: ''
   notes: Zawiera mąkę pszenną, która jest źródłem fruktoli i może być problematyczna dla osób z wrażliwością na FODMAP.
+  serving_ok: ''
+  status: false
   substitutions: []
 ---
 

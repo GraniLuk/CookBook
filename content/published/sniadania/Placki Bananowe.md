@@ -13,31 +13,32 @@ date: 2025-06-19 12:00:00+00:00
 tags:
 - Stefan
 - na-wynos
+- gerd-safe
 tagline: Śniadanie na słodko na wynos - placki bananowe!
 ingredients:
 - banan
 - jajka
 - mąka pszenna
 shopping_ingredients:
-- name: mąki
-  amount: 60
-  unit: g
+- amount: 60
+  name: mąki
   note: np. pszennej pełnoziarnistej
-- name: banan
-  amount: 1
-  unit: szt.
+  unit: g
+- amount: 1
+  name: banan
   note: około 120g
-- name: jogurtu Skyr
-  amount: 100
-  unit: g
-- name: jajko
-  amount: 1
   unit: szt.
-  note: około 60g
-- name: olej kokosowy do smażenia
-  amount: 5
+- amount: 100
+  name: jogurtu Skyr
   unit: g
+- amount: 1
+  name: jajko
+  note: około 60g
+  unit: szt.
+- amount: 5
+  name: olej kokosowy do smażenia
   note: opcjonalnie
+  unit: g
 servings: 1
 prep_time: 10
 cook: true
@@ -46,10 +47,12 @@ calories: 145
 protein: 7
 fat: 3
 carbohydrate: 22
+diets:
+- gerd-safe
 fodmap:
-  status: depends
-  serving_ok: OK przy małej porcji; użyj niedojrzałego banana (≤1/2 szt. na porcję)
   notes: Dojrzałe banany są wysokie FODMAP – wybieraj niedojrzałe i ogranicz ilość. Rozważ zamianę mąki pszennej.
+  serving_ok: OK przy małej porcji; użyj niedojrzałego banana (≤1/2 szt. na porcję)
+  status: depends
   substitutions:
   - Mąka pszenna -> mąka owsiana bezglutenowa lub ryżowa.
   - Zmniejsz banana -> dodaj więcej jogurtu/skyr bez laktozy.

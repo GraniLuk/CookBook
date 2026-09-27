@@ -10,6 +10,7 @@ recipe_image: images/recipe-headers/placuszkami_z_lososiem.avif
 date: 2026-01-17 12:00:00+00:00
 tags:
 - placki
+- gerd-safe
 tagline: Puszyste placuszki z serka wiejskiego z dodatkiem wędzonego łososia i skyru.
 ingredients:
 - ser wiejski
@@ -19,26 +20,26 @@ ingredients:
 - jogurt skyr
 - koperek
 shopping_ingredients:
-- name: serek wiejski
-  amount: 400
+- amount: 400
+  name: serek wiejski
   unit: g
-- name: jajka
-  amount: 3
+- amount: 3
+  name: jajka
   unit: szt.
-- name: mąka pszenna
-  amount: 150
+- amount: 150
+  name: mąka pszenna
   unit: g
-- name: koperek
-  amount: 0.5
+- amount: 0.5
+  name: koperek
   unit: pęczka
-- name: łosoś wędzony
-  amount: 400
+- amount: 400
+  name: łosoś wędzony
   unit: g
-- name: jogurt skyr
-  amount: 400
+- amount: 400
+  name: jogurt skyr
   unit: g
-- name: sok z cytryny
-  amount: 40
+- amount: 40
+  name: sok z cytryny
   unit: g
 servings: 4
 prep_time: 20
@@ -48,10 +49,12 @@ calories: 550
 protein: 60
 fat: 17
 carbohydrate: 37
+diets:
+- gerd-safe
 fodmap:
-  status: 'yes'
-  serving_ok: OK w tej porcji
   notes: Wszystkie składniki są bezpieczne dla diety low FODMAP
+  serving_ok: OK w tej porcji
+  status: 'yes'
   substitutions: []
 ---
 

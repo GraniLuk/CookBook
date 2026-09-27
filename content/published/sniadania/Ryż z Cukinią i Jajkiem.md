@@ -12,6 +12,7 @@ tags:
 - lekkostrawne
 - lunchbox
 - włoskie
+- gerd-safe
 tagline: Proste, lekkostrawne i żołądkowo-przyjazne danie z ryżem i podsmażaną cukinią.
 ingredients:
 - ryż basmati
@@ -19,24 +20,24 @@ ingredients:
 - cukinia
 - oliwa z oliwek
 shopping_ingredients:
-- name: ryżu basmati lub jaśminowego
-  amount: 70
+- amount: 70
+  name: ryżu basmati lub jaśminowego
   unit: g
-- name: jajka
-  amount: 2
-  unit: szt.
+- amount: 2
+  name: jajka
   note: rozmiar M/L
-- name: cukinia
-  amount: 150
-  unit: g
-- name: oliwy z oliwek
-  amount: 1
-  unit: łyżka
-  note: ok. 10g
-- name: 'Opcjonalnie: odrobina szczypiorku'
-  amount: 1
   unit: szt.
+- amount: 150
+  name: cukinia
+  unit: g
+- amount: 1
+  name: oliwy z oliwek
+  note: ok. 10g
+  unit: łyżka
+- amount: 1
+  name: 'Opcjonalnie: odrobina szczypiorku'
   note: tylko zielona część - Low-FODMAP!
+  unit: szt.
 servings: 1
 prep_time: 10
 cook: true
@@ -45,10 +46,12 @@ calories: 515
 protein: 22
 fat: 21.5
 carbohydrate: 59
+diets:
+- gerd-safe
 fodmap:
-  status: 'yes'
-  serving_ok: OK w tej porcji
   notes: Danie bezpieczne z perspektywy diety Low FODMAP. Należy zachować umiar w porcji cukinii (bezpieczna do wg Monash to około 65g, jednak w dietach redukcyjnych i zdrowych dla żołądka z reguły dobrze toleruje się do 100-150g, dopasuj pod swoją tolerancję).
+  serving_ok: OK w tej porcji
+  status: 'yes'
   substitutions:
   - Możesz zetrzeć też marchew dla dodania smaku i objętości (marchew jest 100% bezpieczna).
 ---

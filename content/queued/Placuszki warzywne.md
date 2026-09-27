@@ -1,5 +1,5 @@
 ---
-title: "Placuszki warzywne"
+title: Placuszki warzywne
 author: Trello
 categories: obiady
 draft: false
@@ -14,7 +14,8 @@ tags:
 - placki
 - wegetariańskie
 - trello
-tagline: "Chrupiące placuszki z cukinii, marchewki i ziemniaków."
+- gerd-safe
+tagline: Chrupiące placuszki z cukinii, marchewki i ziemniaków.
 ingredients:
 - cukinia
 - marchew
@@ -22,26 +23,26 @@ ingredients:
 - jajko
 - mąka pszenna
 shopping_ingredients:
-- name: cukinia
-  amount: 500
+- amount: 500
+  name: cukinia
   unit: g
-- name: marchew
-  amount: 200
+- amount: 200
+  name: marchew
   unit: g
-- name: ziemniaki
-  amount: 300
+- amount: 300
+  name: ziemniaki
   unit: g
-- name: jajka
-  amount: 2
+- amount: 2
+  name: jajka
   unit: szt.
-- name: mąka pszenna
-  amount: 80
+- amount: 80
+  name: mąka pszenna
   unit: g
-- name: olej
-  amount: 30
+- amount: 30
+  name: olej
   unit: ml
-- name: jogurt naturalny
-  amount: 150
+- amount: 150
+  name: jogurt naturalny
   unit: g
 servings: 4
 prep_time: 25
@@ -52,15 +53,18 @@ calories: 292
 protein: 10.2
 fat: 11.0
 carbohydrate: 39.2
+diets:
+- gerd-safe
 fodmap:
-  status: depends
-  serving_ok: Wymaga modyfikacji
   notes: Wersja bazowa może zawierać pszenicę, laktozę, cebulę, czosnek albo większą porcję owoców/warzyw o wyższym FODMAP, zależnie od przepisu.
+  serving_ok: Wymaga modyfikacji
+  status: depends
   substitutions:
   - Użyj bezglutenowej mąki, makaronu lub bułki tartej tam, gdzie bazą jest pszenica.
   - Zamień nabiał na wariant bez laktozy.
   - Cebulę i czosnek zastąp zieloną częścią dymki, szczypiorkiem albo oliwą czosnkową.
 ---
+
 ## Składniki
 
 ### Masa

@@ -12,6 +12,7 @@ video_file: videos/calonocna_owsianka_chia_bakalie.webm
 date: 2025-11-02 12:00:00+00:00
 tags:
 - owsianka
+- gerd-safe
 tagline: Kremowa owsianka z twarogiem, chia i bakaliami, śródziemnomorski deser na lunch.
 ingredients:
 - twaróg
@@ -24,38 +25,38 @@ ingredients:
 - rodzynki
 - orzechy włoskie
 shopping_ingredients:
-- name: twaróg
-  amount: 300
-  unit: g
+- amount: 300
+  name: twaróg
   note: kostkowego
-- name: skyru
-  amount: 300
   unit: g
-- name: miodu
-  amount: 30
+- amount: 300
+  name: skyru
   unit: g
-- name: napój sojowy
-  amount: 200
+- amount: 30
+  name: miodu
+  unit: g
+- amount: 200
+  name: napój sojowy
   unit: ml
-- name: nasionka chia
-  amount: 30
+- amount: 30
+  name: nasionka chia
   unit: g
-- name: płatki owsiane
-  amount: 240
-  unit: g
+- amount: 240
+  name: płatki owsiane
   note: po 80g na porcję
-- name: morele suszone
-  amount: 90
   unit: g
+- amount: 90
+  name: morele suszone
   note: po 30g na porcję
-- name: rodzynki
-  amount: 90
   unit: g
+- amount: 90
+  name: rodzynki
   note: po 30g na porcję
-- name: orzechy włoskie
-  amount: 90
   unit: g
+- amount: 90
+  name: orzechy włoskie
   note: po 30g na porcję
+  unit: g
 servings: 3
 prep_time: 10
 cook: false
@@ -64,6 +65,8 @@ calories: 650
 protein: 30
 fat: 20
 carbohydrate: 80
+diets:
+- gerd-safe
 fodmap:
   notes: Zawiera miód, suszone morele i rodzynki, które są high-FODMAP.
   serving_ok: Tylko mała porcja (lub brak w przypadku silnych objawów)

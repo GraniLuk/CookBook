@@ -11,32 +11,33 @@ link: https://www.youtube.com/watch?v=BdyGysxMHBI
 recipe_image: images/recipe-headers/pasta_awokado_jajko.avif
 date: 2026-01-23 12:00:00+00:00
 tags:
-  - szybkie
-  - kanapki
+- szybkie
+- kanapki
+- gerd-safe
 tagline: Kremowa pasta z awokado, jajek i świeżego ogórka.
 ingredients:
-  - serek kanapkowy
-  - awokado
-  - jajka
-  - ogórek zielony
-  - sok z cytryny
+- serek kanapkowy
+- awokado
+- jajka
+- ogórek zielony
+- sok z cytryny
 shopping_ingredients:
-- name: serek kanapkowy
-  amount: 2
+- amount: 2
+  name: serek kanapkowy
   unit: łyżki
-- name: awokado
-  amount: 1
+- amount: 1
+  name: awokado
   unit: szt.
-- name: jajka
-  amount: 3
+- amount: 3
+  name: jajka
   unit: szt.
-- name: ogórek zielony
-  amount: 1
+- amount: 1
+  name: ogórek zielony
   unit: szt.
-- name: cytryna
-  amount: 1
-  unit: porcja
+- amount: 1
+  name: cytryna
   note: sok do smaku
+  unit: porcja
 servings: 1
 prep_time: 10
 cook: true
@@ -45,10 +46,12 @@ calories: 590
 protein: 29
 fat: 46
 carbohydrate: 13
+diets:
+- gerd-safe
 fodmap:
-  status: yes
-  serving_ok: OK w tej porcji
   notes: Awokado, jajka, ogórek - wszystko bezpieczne w tej ilości
+  serving_ok: OK w tej porcji
+  status: true
   substitutions: []
 ---
 

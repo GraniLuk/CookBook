@@ -1,5 +1,5 @@
 ---
-title: "Sałatka z makaronem ryżowym i szynką"
+title: Sałatka z makaronem ryżowym i szynką
 author: Trello
 categories: salatki
 draft: false
@@ -14,7 +14,8 @@ tags:
 - szybkie
 - goście
 - trello
-tagline: "Lekka sałatka z makaronem ryżowym, szynką, ogórkiem i kukurydzą."
+- gerd-safe
+tagline: Lekka sałatka z makaronem ryżowym, szynką, ogórkiem i kukurydzą.
 ingredients:
 - makaron ryżowy
 - szynka
@@ -22,26 +23,26 @@ ingredients:
 - kukurydza
 - majonez
 shopping_ingredients:
-- name: makaron ryżowy
-  amount: 200
+- amount: 200
+  name: makaron ryżowy
   unit: g
-- name: szynka
-  amount: 250
+- amount: 250
+  name: szynka
   unit: g
-- name: ogórek
-  amount: 250
+- amount: 250
+  name: ogórek
   unit: g
-- name: kukurydza
-  amount: 160
+- amount: 160
+  name: kukurydza
   unit: g
-- name: papryka
-  amount: 150
+- amount: 150
+  name: papryka
   unit: g
-- name: majonez
-  amount: 90
+- amount: 90
+  name: majonez
   unit: g
-- name: jogurt naturalny
-  amount: 120
+- amount: 120
+  name: jogurt naturalny
   unit: g
 servings: 6
 prep_time: 25
@@ -52,15 +53,18 @@ calories: 333
 protein: 12.7
 fat: 14.8
 carbohydrate: 36.5
+diets:
+- gerd-safe
 fodmap:
-  status: depends
-  serving_ok: Wymaga modyfikacji
   notes: Wersja bazowa może zawierać pszenicę, laktozę, cebulę, czosnek albo większą porcję owoców/warzyw o wyższym FODMAP, zależnie od przepisu.
+  serving_ok: Wymaga modyfikacji
+  status: depends
   substitutions:
   - Użyj bezglutenowej mąki, makaronu lub bułki tartej tam, gdzie bazą jest pszenica.
   - Zamień nabiał na wariant bez laktozy.
   - Cebulę i czosnek zastąp zieloną częścią dymki, szczypiorkiem albo oliwą czosnkową.
 ---
+
 ## Składniki
 
 ### Sałatka

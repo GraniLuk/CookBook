@@ -12,6 +12,7 @@ date: 2025-10-28 13:05:00+00:00
 tags:
 - kanapki
 - szybkie
+- gerd-safe
 tagline: Klasyczna kanapka z jajkiem sadzonym, serkiem śmietankowym i świeżymi pomidorkami – gotowa w 10 minut!
 ingredients:
 - jajko
@@ -19,25 +20,25 @@ ingredients:
 - serek śmietankowy
 - pomidorki koktajlowe
 shopping_ingredients:
-- name: jajka
-  amount: 2
+- amount: 2
+  name: jajka
   unit: szt.
-- name: bułka
-  amount: 1
-  unit: szt.
+- amount: 1
+  name: bułka
   note: ~60–80 g
-- name: serka śmietankowego
-  amount: 2
-  unit: łyżki
+  unit: szt.
+- amount: 2
+  name: serka śmietankowego
   note: ok. 30 g
-- name: pomidorki koktajlowe
-  amount: 5.0
-  unit: szt.
+  unit: łyżki
+- amount: 5.0
+  name: pomidorki koktajlowe
   note: ok. 60 g
-- name: Odrobina oleju w sprayu
-  amount: 1
   unit: szt.
+- amount: 1
+  name: Odrobina oleju w sprayu
   note: do smażenia jajek
+  unit: szt.
 servings: 1
 prep_time: 5
 cook: true
@@ -47,10 +48,12 @@ calories: 380
 protein: 18
 fat: 16
 carbohydrate: 40
+diets:
+- gerd-safe
 fodmap:
-  status: depends
-  serving_ok: 'OK po modyfikacjach: uwaga na bułkę pełnoziarnistą'
   notes: Bułka pełnoziarnista (pszenica) zawiera gluten i fruktany – może być problematyczna. Jajka, serek śmietankowy (laktozowy, ale w małej ilości) i pomidorki koktajlowe są niskofodmap.
+  serving_ok: 'OK po modyfikacjach: uwaga na bułkę pełnoziarnistą'
+  status: depends
   substitutions:
   - bułka pełnoziarnista -> bułka bezglutenowa lub chleb ryżowy
   - serek śmietankowy -> serek bezlaktozowy lub humus

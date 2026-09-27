@@ -11,6 +11,7 @@ date: 2025-10-31 12:00:00+00:00
 tags:
 - szybkie
 - przekąska
+- gerd-safe
 tagline: Wytrawne placki w stylu pizzy z suszonymi pomidorami, oliwkami i serem cheddar.
 ingredients:
 - pomidory suszone
@@ -21,28 +22,28 @@ ingredients:
 - jajko
 - oliwa z oliwek
 shopping_ingredients:
-- name: płatki owsiane
-  amount: 80
+- amount: 80
+  name: płatki owsiane
   unit: g
-- name: serka wiejskiego
-  amount: 200
+- amount: 200
+  name: serka wiejskiego
   unit: g
-- name: jajka
-  amount: 2
+- amount: 2
+  name: jajka
   unit: szt.
-- name: pomidory suszone
-  amount: 50
-  unit: g
+- amount: 50
+  name: pomidory suszone
   note: 5-6 sztuk, odsączonych
-- name: oliwek
-  amount: 50
   unit: g
+- amount: 50
+  name: oliwek
   note: 10 sztuk
-- name: sera cheddar
-  amount: 25
   unit: g
-- name: oliwy z oliwek
-  amount: 20
+- amount: 25
+  name: sera cheddar
+  unit: g
+- amount: 20
+  name: oliwy z oliwek
   unit: g
 servings: 4
 prep_time: 10
@@ -52,10 +53,12 @@ calories: 220
 protein: 10
 fat: 12
 carbohydrate: 18
+diets:
+- gerd-safe
 fodmap:
-  status: 'no'
-  serving_ok: Nie – zawiera suszone pomidory >30g.
   notes: Suszone pomidory zwiększają FODMAP.
+  serving_ok: Nie – zawiera suszone pomidory >30g.
+  status: 'no'
   substitutions:
   - Ogranicz suszone pomidory do ~15g.
 ---

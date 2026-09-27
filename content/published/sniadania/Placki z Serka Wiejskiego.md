@@ -12,6 +12,7 @@ date: 2025-06-19 12:00:00+00:00
 tags:
 - Stefan
 - placki
+- gerd-safe
 tagline: Zdrowe placki z serka wiejskiego!
 ingredients:
 - banan
@@ -19,21 +20,21 @@ ingredients:
 - mąka pszenna
 - jajka
 shopping_ingredients:
-- name: banan
-  amount: 1
-  unit: szt.
+- amount: 1
+  name: banan
   note: 120g
-- name: serek wiejski
-  amount: 1
   unit: szt.
+- amount: 1
+  name: serek wiejski
   note: 200g
-- name: mąki orkiszowej lub pszennej
-  amount: 80
-  unit: g
-- name: jajka
-  amount: 2
   unit: szt.
+- amount: 80
+  name: mąki orkiszowej lub pszennej
+  unit: g
+- amount: 2
+  name: jajka
   note: 120g
+  unit: szt.
 servings: 12
 prep_time: 10
 cook: true
@@ -42,10 +43,12 @@ calories: 145
 protein: 10
 fat: 4
 carbohydrate: 18
+diets:
+- gerd-safe
 fodmap:
-  status: false
-  serving_ok: Mała porcja - zamień mąkę, uważaj na banan
   notes: Banan (1/2 max), mąka orkiszowa/pszenna problematyczna
+  serving_ok: Mała porcja - zamień mąkę, uważaj na banan
+  status: false
   substitutions:
   - mąka pszenna/orkiszowa -> mąka ryżowa
   - duży banan -> 1/2 banana

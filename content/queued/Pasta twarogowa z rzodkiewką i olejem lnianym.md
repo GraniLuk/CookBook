@@ -12,27 +12,28 @@ recipe_image: images/recipe-headers/pasta_twarogowa_rzodkiewka.avif
 video_file: null
 date: 2025-11-29 12:00:00+00:00
 tags:
-  - kanapki
-  - pasta
+- kanapki
+- pasta
+- gerd-safe
 tagline: Słona pasta z twarogu, rzodkiewki i oleju lnianego, idealna do kanapek.
 ingredients:
-  - twaróg
-  - rzodkiewka
-  - jajko
-  - olej lniany
+- twaróg
+- rzodkiewka
+- jajko
+- olej lniany
 shopping_ingredients:
-  - name: twaróg
-    amount: 250
-    unit: g
-  - name: rzodkiewka
-    amount: 100
-    unit: g
-  - name: jajko
-    amount: 1
-    unit: szt.
-  - name: olej lniany
-    amount: 20
-    unit: g
+- amount: 250
+  name: twaróg
+  unit: g
+- amount: 100
+  name: rzodkiewka
+  unit: g
+- amount: 1
+  name: jajko
+  unit: szt.
+- amount: 20
+  name: olej lniany
+  unit: g
 servings: 2
 prep_time: 5
 cook: false
@@ -41,9 +42,11 @@ calories: 257
 protein: 16
 fat: 13
 carbohydrate: 2
+diets:
+- gerd-safe
 fodmap:
-  status: yes
   notes: Wszystkie składniki są bezpieczne dla diety low FODMAP.
+  status: true
 ---
 
 ## Składniki

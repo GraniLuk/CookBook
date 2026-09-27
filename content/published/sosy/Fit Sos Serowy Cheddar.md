@@ -7,7 +7,8 @@ readyToTest: false
 link: https://www.youtube.com/watch?v=AIlwvEvCONM
 recipe_image: images/recipe-headers/sos_serowy.avif
 date: 2025-06-27 12:15:00+00:00
-tags: null
+tags:
+- gerd-safe
 tagline: Kremowy i lekki sos serowy, idealny do wielu dań.
 ingredients:
 - ser cheddar
@@ -16,22 +17,22 @@ ingredients:
 - mąka pszenna
 - chili
 shopping_ingredients:
-- name: sera cheddar
-  amount: 50
+- amount: 50
+  name: sera cheddar
   unit: g
-- name: mleka 1
-  amount: 200
-  unit: ml
+- amount: 200
+  name: mleka 1
   note: 5%
-- name: masła
-  amount: 15
+  unit: ml
+- amount: 15
+  name: masła
   unit: g
-- name: płaska łyżeczka mąki pszennej
-  amount: 1
-  unit: szt.
+- amount: 1
+  name: płaska łyżeczka mąki pszennej
   note: ok. 5g
-- name: chili
-  amount: 1
+  unit: szt.
+- amount: 1
+  name: chili
   unit: szt.
 servings: 3
 prep_time: 5
@@ -41,10 +42,12 @@ calories: 158
 protein: 7
 fat: 12
 carbohydrate: 5
+diets:
+- gerd-safe
 fodmap:
-  status: depends
-  serving_ok: Sprawdź mleko - używaj bezlaktozowego
   notes: Cheddar OK, mąka pszenna w małej ilości. Problem z laktozą
+  serving_ok: Sprawdź mleko - używaj bezlaktozowego
+  status: depends
   substitutions:
   - mleko zwykłe -> mleko bezlaktozowe
   - mąka pszenna -> mąka ryżowa (zagęszczanie)

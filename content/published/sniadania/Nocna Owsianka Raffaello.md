@@ -10,6 +10,7 @@ recipe_image: images/recipe-headers/nocna-owsianka-raffaello.avif
 date: 2026-05-27 00:00:00+02:00
 tags:
 - owsianka
+- gerd-safe
 tagline: Kremowa nocna owsianka kokosowo-migdałowa inspirowana smakiem Raffaello.
 ingredients:
 - płatki owsiane
@@ -19,32 +20,32 @@ ingredients:
 - masło migdałowe
 - migdały
 shopping_ingredients:
-- name: płatki owsiane
-  amount: 50
+- amount: 50
+  name: płatki owsiane
   unit: g
-- name: mleka kokosowego light
-  amount: 150
+- amount: 150
+  name: mleka kokosowego light
   unit: ml
-- name: jogurt grecki
-  amount: 1
-  unit: łyżka
+- amount: 1
+  name: jogurt grecki
   note: ok. 25 g
-- name: wiórki kokosowe
-  amount: 1
   unit: łyżka
+- amount: 1
+  name: wiórki kokosowe
   note: ok. 6 g
-- name: miodu lub syropu klonowego
-  amount: 1
-  unit: łyżeczka
-  note: ok. 7 g
-- name: migdały
-  amount: 1
   unit: łyżka
+- amount: 1
+  name: miodu lub syropu klonowego
+  note: ok. 7 g
+  unit: łyżeczka
+- amount: 1
+  name: migdały
   note: ok. 15 g
-- name: odrobina ekstraktu waniliowego
-  amount: 1
-  unit: szt.
+  unit: łyżka
+- amount: 1
+  name: odrobina ekstraktu waniliowego
   note: opcjonalnie
+  unit: szt.
 servings: 1
 prep_time: 10
 cook: false
@@ -53,10 +54,12 @@ calories: 523
 protein: 16
 fat: 32
 carbohydrate: 49
+diets:
+- gerd-safe
 fodmap:
-  status: depends
-  serving_ok: Wymaga modyfikacji
   notes: Płatki owsiane i migdały są zwykle OK w tej porcji. Potencjalne problemy to miód, laktoza z jogurtu greckiego oraz większa porcja mleka kokosowego, zależnie od produktu.
+  serving_ok: Wymaga modyfikacji
+  status: depends
   substitutions:
   - Zamiast miodu wybierz syrop klonowy.
   - Użyj jogurtu greckiego bez laktozy.

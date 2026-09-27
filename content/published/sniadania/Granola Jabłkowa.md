@@ -10,6 +10,7 @@ recipe_image: images/recipe-headers/granola_jablkowa.avif
 date: 2026-01-26
 tags:
 - owsianka
+- gerd-safe
 tagline: Pyszna granola domowej roboty bez dodatku cukru, z jabłkami i bakaliami.
 ingredients:
 - jabłko
@@ -19,27 +20,27 @@ ingredients:
 - masło orzechowe
 - olej kokosowy
 shopping_ingredients:
-- name: jabłko
-  amount: 2
+- amount: 2
+  name: jabłko
   unit: szt.
-- name: nasiona chia
-  amount: 1
+- amount: 1
+  name: nasiona chia
   unit: łyżka
-- name: siemię lniane
-  amount: 1
+- amount: 1
+  name: siemię lniane
   unit: łyżka
-- name: płatki owsiane
-  amount: 100
+- amount: 100
+  name: płatki owsiane
   unit: g
-- name: Cynamon
-  amount: 1
-  unit: szt.
+- amount: 1
+  name: Cynamon
   note: do smaku
-- name: masła orzechowego
-  amount: 30
+  unit: szt.
+- amount: 30
+  name: masła orzechowego
   unit: g
-- name: oleju kokosowego
-  amount: 30
+- amount: 30
+  name: oleju kokosowego
   unit: g
 servings: 1
 prep_time: 10
@@ -49,6 +50,8 @@ calories: 878
 protein: 26
 fat: 36
 carbohydrate: 112
+diets:
+- gerd-safe
 fodmap:
   notes: Jabłka są high FODMAP, zastąp jabłkami low FODMAP jak gruszki lub banany w małych ilościach.
   serving_ok: Nie OK - jabłka są high FODMAP

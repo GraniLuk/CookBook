@@ -13,6 +13,7 @@ date: 2025-12-29 12:00:00+00:00
 tags:
 - szybkie
 - owsianka
+- gerd-safe
 tagline: Rozgrzewająca zapiekana owsianka z brzoskwiniami i bakaliami, idealna na zimowe dni.
 ingredients:
 - płatki owsiane
@@ -25,43 +26,43 @@ ingredients:
 - żurawina suszona
 - mandarynka
 shopping_ingredients:
-- name: mleko
-  amount: 1
-  unit: szt.
+- amount: 1
+  name: mleko
   note: 150 ml do namaczania + 120 ml do blendowania
-- name: jajka
-  amount: 2
   unit: szt.
-- name: Cynamon łyżeczka
-  amount: 1
+- amount: 2
+  name: jajka
   unit: szt.
-- name: Proszek do pieczenia 3 g
-  amount: 1
+- amount: 1
+  name: Cynamon łyżeczka
   unit: szt.
-- name: orzech włoski
-  amount: 1
+- amount: 1
+  name: Proszek do pieczenia 3 g
   unit: szt.
-- name: żurawina suszona
-  amount: 1
+- amount: 1
+  name: orzech włoski
   unit: szt.
-- name: Aromat waniliowe 3 krople
-  amount: 1
+- amount: 1
+  name: żurawina suszona
   unit: szt.
-- name: odżywka białkowa
-  amount: 1
+- amount: 1
+  name: Aromat waniliowe 3 krople
   unit: szt.
-- name: masło orzechowe
-  amount: 1
+- amount: 1
+  name: odżywka białkowa
   unit: szt.
-- name: mandarynka
-  amount: 1
+- amount: 1
+  name: masło orzechowe
   unit: szt.
-- name: brzoskwinie konserwowe
-  amount: 1
+- amount: 1
+  name: mandarynka
   unit: szt.
+- amount: 1
+  name: brzoskwinie konserwowe
   note: 5 sztuki
-- name: Skórka z wyparzonej pomarańczy
-  amount: 1
+  unit: szt.
+- amount: 1
+  name: Skórka z wyparzonej pomarańczy
   unit: szt.
 servings: 3
 prep_time: 15
@@ -71,6 +72,8 @@ calories: 525
 protein: 27
 fat: 23
 carbohydrate: 58
+diets:
+- gerd-safe
 fodmap:
   notes: Wszystkie składniki są bezpieczne dla low FODMAP w małych ilościach.
   serving_ok: OK w tej porcji

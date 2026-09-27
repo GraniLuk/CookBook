@@ -11,6 +11,7 @@ recipe_image: images/recipe-headers/placki_bananowo_twarogowe.avif
 date: 2025-08-29 12:00:00+00:00
 tags:
 - Stefan
+- gerd-safe
 tagline: Pyszne placki z bananami i twarogiem!
 ingredients:
 - jajka
@@ -20,26 +21,26 @@ ingredients:
 - mąka pszenna
 - banan
 shopping_ingredients:
-- name: jajka
-  amount: 2
-  unit: szt.
+- amount: 2
+  name: jajka
   note: 120g
-- name: mleka
-  amount: 0.5
-  unit: szklanki
+  unit: szt.
+- amount: 0.5
+  name: mleka
   note: 125ml
-- name: twaróg
-  amount: 1
-  unit: szt.
+  unit: szklanki
+- amount: 1
+  name: twaróg
   note: około 100g
-- name: miarki mąki
-  amount: 2.5
   unit: szt.
+- amount: 2.5
+  name: miarki mąki
   note: około 140g mąki pszennej
-- name: banan
-  amount: 2
   unit: szt.
+- amount: 2
+  name: banan
   note: około 240g
+  unit: szt.
 servings: 10
 prep_time: 10
 cook: true
@@ -48,10 +49,12 @@ calories: 142
 protein: 8
 fat: 3
 carbohydrate: 23
+diets:
+- gerd-safe
 fodmap:
-  status: 'no'
-  serving_ok: Mała porcja - uważaj na banany i mleko
   notes: Banany (max 1 na porcję), mleko krowie problematyczne, twaróg może zawierać laktozę
+  serving_ok: Mała porcja - uważaj na banany i mleko
+  status: 'no'
   substitutions:
   - mleko krowie -> mleko bezlaktozowe lub roślinne
   - twaróg -> twaróg bezlaktozowy

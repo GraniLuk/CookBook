@@ -13,6 +13,7 @@ date: 2025-11-29 12:00:00+00:00
 tags:
 - owsianka
 - lekkostrawne
+- gerd-safe
 tagline: Nocna owsianka z twarogiem i malinami, przygotowana dzień wcześniej.
 ingredients:
 - płatki owsiane
@@ -21,23 +22,23 @@ ingredients:
 - mleko
 - chia
 shopping_ingredients:
-- name: płatki owsiane
-  amount: 100
+- amount: 100
+  name: płatki owsiane
   unit: g
-- name: twaróg
-  amount: 250
+- amount: 250
+  name: twaróg
   unit: g
-- name: maliny
-  amount: 100
+- amount: 100
+  name: maliny
   unit: g
-- name: mleko
-  amount: 100
+- amount: 100
+  name: mleko
   unit: ml
-- name: nasiona chia
-  amount: 5
+- amount: 5
+  name: nasiona chia
   unit: g
-- name: erytrytol
-  amount: 10
+- amount: 10
+  name: erytrytol
   unit: g
 servings: 1
 prep_time: 5
@@ -47,6 +48,8 @@ calories: 809
 protein: 58
 fat: 27
 carbohydrate: 87
+diets:
+- gerd-safe
 fodmap:
   notes: Wszystkie składniki są bezpieczne dla diety low FODMAP.
   serving_ok: OK w tej porcji
