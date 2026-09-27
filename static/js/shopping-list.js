@@ -135,21 +135,45 @@
   function mergeSources(existingSources, source) {
     let sources = Array.isArray(existingSources) ? existingSources.slice() : [];
     if (!source) return sources;
-    if (source.type === "recipe" && source.planTitle) {
+    if (source.planTitle) {
       sources = sources.filter((item) => !(item.type === "weekly-plan" && item.title === source.planTitle));
+    }
+    if (source.type === "recipe") {
+      const matchIndex = sources.findIndex((item) =>
+        item.type === "recipe" && (
+          (item.id && source.id && item.id === source.id) ||
+          (item.title && source.title && item.title === source.title)
+        )
+      );
+      if (matchIndex >= 0) {
+        const existing = sources[matchIndex];
+        const days = Array.isArray(existing.days)
+          ? existing.days.slice()
+          : (existing.dayName ? [existing.dayName] : []);
+        if (source.dayName && !days.includes(source.dayName)) {
+          days.push(source.dayName);
+        }
+        sources[matchIndex] = {
+          ...existing,
+          ...source,
+          days,
+          dayName: days.length === 1 ? days[0] : "",
+        };
+        return sources;
+      }
     }
     const key = sourceKey(source);
     if (!sources.some((item) => sourceKey(item) === key)) {
-      sources.push(source);
+      const days = source.dayName ? [source.dayName] : [];
+      sources.push({ ...source, days });
     }
     return sources;
   }
 
   function mergeSourceLists(...lists) {
-    const merged = [];
+    let merged = [];
     lists.flat().filter(Boolean).forEach((source) => {
-      const key = sourceKey(source);
-      if (!merged.some((item) => sourceKey(item) === key)) merged.push(source);
+      merged = mergeSources(merged, source);
     });
     return merged;
   }
@@ -264,11 +288,120 @@
   function payloadItems(payload) {
     const items = Array.isArray(payload?.items) ? payload.items : [];
     return items.map((item) => ({
-      name: item.name,
+      ...item,
       amount: scaleAmount(item),
-      unit: item.unit,
-      note: item.note,
     }));
+  }
+
+  async function addPlanPayload(payload) {
+    await ensureSignedIn();
+    const items = payloadItems(payload);
+    if (!items.length) {
+      showToast("Brak składników w planie.");
+      return;
+    }
+
+    const planTitle = payload.planTitle || "Plan tygodniowy";
+    const planSlug = payload.planSlug || "";
+    const planUrl = payload.planUrl || "";
+
+    const aggregated = new Map();
+    for (const raw of items) {
+      const name = String(raw.name || "").trim();
+      const unit = String(raw.unit || "").trim();
+      if (!name) continue;
+      const id = documentId(name, unit);
+
+      let itemSource = {
+        type: "weekly-plan",
+        id: planSlug,
+        title: planTitle,
+        url: planUrl,
+      };
+
+      if (raw.recipeTitle) {
+        itemSource = {
+          type: "recipe",
+          id: raw.recipeUrl || raw.recipeTitle,
+          title: raw.recipeTitle,
+          url: raw.recipeUrl || "",
+          dayName: raw.dayName || "",
+          mealName: raw.mealName || "",
+          planTitle: planTitle,
+        };
+      }
+
+      if (!aggregated.has(id)) {
+        aggregated.set(id, {
+          name,
+          unit,
+          amount: roundAmount(raw.amount || 0),
+          notes: raw.note ? [String(raw.note).trim()] : [],
+          category: categorizeIngredient(name),
+          sources: [itemSource],
+        });
+      } else {
+        const entry = aggregated.get(id);
+        entry.amount = roundAmount(entry.amount + roundAmount(raw.amount || 0));
+        if (raw.note && !entry.notes.includes(String(raw.note).trim())) {
+          entry.notes.push(String(raw.note).trim());
+        }
+        entry.sources = mergeSources(entry.sources, itemSource);
+      }
+    }
+
+    const now = firebase.firestore.FieldValue.serverTimestamp();
+
+    for (const [docId, planItem] of aggregated) {
+      const ref = itemsCollection().doc(docId);
+      await db.runTransaction(async (transaction) => {
+        const snapshot = await transaction.get(ref);
+        const existing = snapshot.exists ? snapshot.data() : null;
+
+        let nextAmount = planItem.amount;
+        let nextSources = planItem.sources;
+        let nextChecked = false;
+        let nextCreatedAt = now;
+
+        if (existing) {
+          nextChecked = Boolean(existing.checked);
+          nextCreatedAt = existing.createdAt || now;
+
+          const nonPlanSources = (Array.isArray(existing.sources) ? existing.sources : []).filter((s) => {
+            const isThisPlan = (s.type === "weekly-plan" && (s.title === planTitle || s.id === planSlug)) ||
+                               (s.planTitle && (s.planTitle === planTitle || s.planTitle === planSlug));
+            return !isThisPlan;
+          });
+
+          if (nonPlanSources.length > 0) {
+            nextAmount = roundAmount((existing.amount || 0) + planItem.amount);
+            nextSources = mergeSourceLists(nonPlanSources, planItem.sources);
+          } else {
+            nextAmount = planItem.amount;
+            nextSources = planItem.sources;
+          }
+        }
+
+        const note = planItem.notes.filter(Boolean).join("; ");
+        const autoCat = categorizeIngredient(planItem.name);
+
+        transaction.set(ref, {
+          name: planItem.name,
+          normalizedName: canonicalName(planItem.name),
+          amount: nextAmount,
+          unit: planItem.unit,
+          note: note || (existing ? existing.note || "" : ""),
+          category: autoCat !== "Inne" ? autoCat : (existing?.category || "Inne"),
+          checked: nextChecked,
+          sources: nextSources,
+          createdAt: nextCreatedAt,
+          updatedAt: now,
+          updatedBy: auth.currentUser ? auth.currentUser.uid : "",
+        }, { merge: true });
+      });
+    }
+
+    showToast(`Zaktualizowano listę: ${aggregated.size} składników z planu.`);
   }
 
   function setupImportButtons() {
@@ -280,16 +413,19 @@
           return;
         }
 
-        const source = {
-          type: button.dataset.shoppingSource || "manual",
-          id: payload.recipeSlug || payload.planSlug || payload.sourceId || "",
-          title: payload.recipeTitle || payload.planTitle || payload.sourceTitle || "",
-          url: payload.recipeUrl || payload.planUrl || window.location.href,
-        };
-
         button.disabled = true;
         try {
-          await addItems(payloadItems(payload), source);
+          if (button.dataset.shoppingAction === "add-plan") {
+            await addPlanPayload(payload);
+          } else {
+            const source = {
+              type: button.dataset.shoppingSource || "manual",
+              id: payload.recipeSlug || payload.planSlug || payload.sourceId || "",
+              title: payload.recipeTitle || payload.planTitle || payload.sourceTitle || "",
+              url: payload.recipeUrl || payload.planUrl || window.location.href,
+            };
+            await addItems(payloadItems(payload), source);
+          }
         } catch (error) {
           console.error("Shopping import failed:", error);
           showToast("Nie udało się dodać składników.");
@@ -411,21 +547,33 @@
     const authBox = document.getElementById("shopping-list-auth");
     const form = document.getElementById("shopping-list-manual-form");
     const clear = document.getElementById("shopping-list-clear-checked");
+    const clearAllBtn = document.getElementById("shopping-list-clear-all");
     if (authBox) authBox.style.display = currentUser ? "none" : "flex";
     if (form) form.toggleAttribute("hidden", !currentUser);
     if (clear) clear.disabled = !currentUser || !pageItems.some((item) => item.checked);
+    if (clearAllBtn) clearAllBtn.disabled = !currentUser || !pageItems.length;
   }
 
   function sourceLabel(source) {
     if (!source) return "";
     if (source.type === "recipe") {
-      let label = source.title || "Przepis";
-      if (source.dayName && source.mealName) {
-        label += ` (${source.dayName} – ${source.mealName})`;
-      } else if (source.planTitle) {
-        label += ` (${source.planTitle})`;
+      const title = source.title || "Przepis";
+      if (title === "Dodatki z planu" || title === "Dodatki") {
+        return source.planTitle ? `Dodatki (${source.planTitle})` : "Dodatki z planu";
       }
-      return label;
+      const days = Array.isArray(source.days) && source.days.length
+        ? source.days
+        : (source.dayName && source.dayName !== "Plan tygodnia" ? [source.dayName] : []);
+      if (days.length === 1 && source.mealName && source.mealName !== "Dodatkowo") {
+        return `${title} (${days[0]} – ${source.mealName})`;
+      }
+      if (days.length > 0) {
+        return `${title} (${days.join(", ")})`;
+      }
+      if (source.planTitle) {
+        return `${title} (${source.planTitle})`;
+      }
+      return title;
     }
     if (source.type === "weekly-plan") return source.title || "Plan tygodniowy";
     return "Ręcznie";
@@ -636,6 +784,65 @@
     }
   }
 
+  async function clearAll() {
+    if (!currentUser) return;
+    if (!pageItems.length) return;
+    if (!window.confirm("Czy na pewno chcesz wyczyścić całą listę zakupów?")) return;
+    const batch = db.batch();
+    pageItems.forEach((item) => batch.delete(itemsCollection().doc(item.id)));
+    try {
+      await batch.commit();
+      showToast("Wyczyszczono całą listę zakupów.");
+    } catch (error) {
+      console.error("Shopping clear all failed:", error);
+      showToast("Nie udało się wyczyścić listy.");
+    }
+  }
+
+  let migratingPlans = new Set();
+
+  async function maybeUpgradeWeeklyPlanSources(items) {
+    if (!currentUser || !items || !items.length) return;
+    const legacyItems = items.filter((item) =>
+      Array.isArray(item.sources) && item.sources.some((s) => s.type === "weekly-plan" && (s.id || s.url || s.title))
+    );
+    if (!legacyItems.length) return;
+
+    const planUrls = new Set();
+    for (const item of legacyItems) {
+      for (const s of item.sources) {
+        if (s.type === "weekly-plan") {
+          let url = s.url || "";
+          if (!url && s.id) {
+            url = `/CookBook/weekly-plans/${s.id.toLowerCase()}/`;
+          }
+          if (url && !migratingPlans.has(url)) {
+            planUrls.add(url);
+          }
+        }
+      }
+    }
+
+    for (const url of planUrls) {
+      migratingPlans.add(url);
+      try {
+        const response = await fetch(url);
+        if (!response.ok) continue;
+        const html = await response.text();
+        const doc = new DOMParser().parseFromString(html, "text/html");
+        const script = doc.getElementById("weekly-plan-shopping-data");
+        if (!script) continue;
+        const payload = JSON.parse(script.textContent || "{}");
+        if (payload && Array.isArray(payload.items) && payload.items.length) {
+          console.log(`Auto-upgrading shopping sources from weekly plan: ${url}`);
+          await addPlanPayload(payload);
+        }
+      } catch (err) {
+        console.warn("Auto-upgrade weekly plan sources failed:", err);
+      }
+    }
+  }
+
   function subscribePage() {
     if (unsubscribe) unsubscribe();
     setStatus("Ładowanie listy...");
@@ -658,6 +865,7 @@
             return String(left.normalizedName || left.name || "").localeCompare(String(right.normalizedName || right.name || ""), "pl");
           });
         renderItems();
+        maybeUpgradeWeeklyPlanSources(pageItems);
       }, (error) => {
         console.error("Shopping list listener failed:", error);
         setStatus("Nie udało się wczytać listy zakupów.");
@@ -695,6 +903,9 @@
 
     const clear = document.getElementById("shopping-list-clear-checked");
     if (clear) clear.addEventListener("click", clearChecked);
+
+    const clearAllBtn = document.getElementById("shopping-list-clear-all");
+    if (clearAllBtn) clearAllBtn.addEventListener("click", clearAll);
 
     waitForFirebase(5000).then(() => {
       auth.onAuthStateChanged((user) => {
