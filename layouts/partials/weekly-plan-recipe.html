@@ -6,11 +6,15 @@
     {{- $needleDashed := replace $needle "_" "-" -}}
     {{- $needleBase := replaceRE "^.*/([^/]+)/?$" "$1" $needle -}}
     {{- $needleBaseDashed := replace $needleBase "_" "-" -}}
+    {{- $cleanNeedle := replaceRE "-+" "-" (replace (replace $needle "&" "-") "_" "-") -}}
     {{- $needleCandidates := slice
         $needle
         $needleDashed
         $needleBase
         $needleBaseDashed
+        $cleanNeedle
+        (replaceRE "-+" "-" (urlize $needle))
+        (replaceRE "-+" "-" (urlize $cleanNeedle))
         (urlize $needle)
         (urlize $needleDashed)
         (urlize $needleBase)
@@ -24,15 +28,18 @@
             {{- $fileBase := .File.ContentBaseName | lower -}}
             {{- $pageCandidates := slice
                 $urlSlug
+                (replaceRE "-+" "-" $urlSlug)
                 $fileBase
                 (replace $fileBase "_" "-")
                 (.Title | lower)
                 (urlize .Title)
+                (replaceRE "-+" "-" (urlize .Title))
             -}}
             {{- with .Params.slug -}}
                 {{- $paramSlug := printf "%v" . | lower -}}
                 {{- $pageCandidates = $pageCandidates | append $paramSlug -}}
                 {{- $pageCandidates = $pageCandidates | append (replace $paramSlug "_" "-") -}}
+                {{- $pageCandidates = $pageCandidates | append (replaceRE "-+" "-" (replace $paramSlug "_" "-")) -}}
                 {{- $pageCandidates = $pageCandidates | append (urlize $paramSlug) -}}
             {{- end -}}
 
@@ -50,7 +57,9 @@
                 {{- $page := . -}}
                 {{- $urlSlug := replaceRE "^.*/([^/]+)/?$" "$1" .RelPermalink | lower -}}
                 {{- $titleSlug := urlize .Title -}}
-                {{- if and (gt (len $needleDashed) 8) (or (in $urlSlug $needleDashed) (in $titleSlug $needleDashed)) -}}
+                {{- $cleanUrlSlug := replaceRE "-+" "-" $urlSlug -}}
+                {{- $cleanTitleSlug := replaceRE "-+" "-" $titleSlug -}}
+                {{- if and (gt (len $cleanNeedle) 8) (or (in $cleanUrlSlug $cleanNeedle) (in $cleanTitleSlug $cleanNeedle) (in $urlSlug $needleDashed) (in $titleSlug $needleDashed)) -}}
                     {{- $recipe = $page -}}
                 {{- end -}}
             {{- end -}}
