@@ -98,8 +98,8 @@
     if (/(jaj|mleko|jogurt|skyr|twaróg|serek|ser|śmietan|mozzarella|feta)/u.test(key)) return "Nabiał i jajka";
     if (/(ryż|makaron|kasza|mąka|płatki|kuskus|komosa|buł|tortilla|pieczywo|chleb)/u.test(key)) return "Zboża i pieczywo";
     if (/(olej|oliwa|sos|ketchup|majonez|musztarda|ocet|masło|tahini|pasta|mleko kokosowe)/u.test(key)) return "Tłuszcze i sosy";
-    if (/(przypraw|proszek|czosnek|cynamon|curry|kumin|kolendra|koperek|natka|miód|cukier|erytrytol|pestki|sezam|orzech|chia|kakao|imbir)/u.test(key)) return "Przyprawy i dodatki";
-    if (/(papryk|pomidor|ogórek|oliwki|cebula|marchew|sałat|rukola|ananas|awokado|malin|brokuł|cytryn|limonk|granat|dynia|fasol|kukurydz|ziemniak|cukinia|truskawk|banan|kapust|rzodkiew|roszponka)/u.test(key)) return "Warzywa i owoce";
+    if (/(przypraw|proszek|czosnek|cynamon|curry|kumin|kolendra|koperek|natka|miód|cukier|erytrytol|pestki|sezam|orzech|chia|kakao|imbir|pieprz|sól|oregano|bazyli|tymian|majeran|rozmaryn|gałk.*muszkat|liść.*laurow|ziele.*angielsk|kurkum|goździk|chili|chilli|szama tuning|papryk.*(mielon|wędzon|słodk|ostr|proszk)|(mielon|wędzon|słodk|ostr).*papryk|papryka w proszku)/u.test(key)) return "Przyprawy i dodatki";
+    if (/(papryk|pomidor|ogórek|oliwki|cebula|marchew|sałat|rukola|ananas|awokado|malin|brokuł|cytryn|limonk|granat|dynia|fasol|kukurydz|ziemniak|cukinia|truskawk|banan|kapust|rzodkiew|roszponka|szpinak)/u.test(key)) return "Warzywa i owoce";
     return "Inne";
   }
 
@@ -133,8 +133,11 @@
   }
 
   function mergeSources(existingSources, source) {
-    const sources = Array.isArray(existingSources) ? existingSources.slice() : [];
+    let sources = Array.isArray(existingSources) ? existingSources.slice() : [];
     if (!source) return sources;
+    if (source.type === "recipe" && source.planTitle) {
+      sources = sources.filter((item) => !(item.type === "weekly-plan" && item.title === source.planTitle));
+    }
     const key = sourceKey(source);
     if (!sources.some((item) => sourceKey(item) === key)) {
       sources.push(source);
@@ -154,15 +157,27 @@
   function buildItem(raw, source) {
     const name = String(raw.name || "").trim();
     const unit = String(raw.unit || "").trim();
+    let itemSource = source;
+    if (raw && raw.recipeTitle) {
+      itemSource = {
+        type: "recipe",
+        id: raw.recipeUrl || raw.recipeTitle,
+        title: raw.recipeTitle,
+        url: raw.recipeUrl || "",
+        dayName: raw.dayName || "",
+        mealName: raw.mealName || "",
+        planTitle: source && source.title ? source.title : "",
+      };
+    }
     return {
       name,
       normalizedName: canonicalName(name),
       amount: roundAmount(raw.amount || 0),
       unit,
       note: String(raw.note || "").trim(),
-      category: raw.category || categorizeIngredient(name),
+      category: categorizeIngredient(name) !== "Inne" ? categorizeIngredient(name) : (raw.category || "Inne"),
       checked: Boolean(raw.checked),
-      source,
+      source: itemSource,
     };
   }
 
@@ -403,7 +418,15 @@
 
   function sourceLabel(source) {
     if (!source) return "";
-    if (source.type === "recipe") return source.title || "Przepis";
+    if (source.type === "recipe") {
+      let label = source.title || "Przepis";
+      if (source.dayName && source.mealName) {
+        label += ` (${source.dayName} – ${source.mealName})`;
+      } else if (source.planTitle) {
+        label += ` (${source.planTitle})`;
+      }
+      return label;
+    }
     if (source.type === "weekly-plan") return source.title || "Plan tygodniowy";
     return "Ręcznie";
   }
@@ -619,7 +642,15 @@
     unsubscribe = itemsCollection()
       .onSnapshot((snapshot) => {
         pageItems = snapshot.docs
-          .map((doc) => ({ id: doc.id, ...doc.data() }))
+          .map((doc) => {
+            const data = doc.data();
+            const autoCategory = categorizeIngredient(data.name || "");
+            return {
+              id: doc.id,
+              ...data,
+              category: autoCategory !== "Inne" ? autoCategory : (data.category || "Inne"),
+            };
+          })
           .sort((left, right) => {
             const leftCategory = categoryOrder.indexOf(left.category || "Inne");
             const rightCategory = categoryOrder.indexOf(right.category || "Inne");

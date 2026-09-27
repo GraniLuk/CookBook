@@ -29,15 +29,12 @@ shopping_ingredients:
 - name: oliwy
   amount: 12
   unit: g
-- name: 1/2 łyżeczki suszonego oregano
-  amount: 1
-  unit: szt.
-- name: 1/2 łyżeczki wędzonej papryki mielonej
-  amount: 1
-  unit: szt.
-- name: 1/2 łyżeczki przyprawy do mięs lub Szama Tuning
-  amount: 1
-  unit: szt.
+- name: oregano suszone
+  amount: 1.5
+  unit: łyżeczka
+- name: papryka wędzona mielona
+  amount: 1.5
+  unit: łyżeczka
 - name: pierś z kurczaka
   amount: 900
   unit: g
@@ -46,7 +43,7 @@ shopping_ingredients:
   unit: ząbki
   note: ok. 30 g
 - name: przyprawy do mięs lub Szama Tuning
-  amount: 6
+  amount: 7.5
   unit: łyżeczki
 - name: serka wiejskiego
   amount: 400
