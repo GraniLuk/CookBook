@@ -2,70 +2,71 @@
 title: Puszyste pizzeriny z pieczarkami
 author: Policzone Szamy
 categories:
-- obiady
+  - obiady
 subcategories:
-- wytrawne
+  - wytrawne
 draft: false
 readyToTest: true
 queued: true
+favourite: false
 link: https://www.instagram.com/reels/DaC_DJwsBXP/
 recipe_image: images/recipe-headers/puszyste-pizzeriny-z-pieczarkami.avif
 date: 2026-06-28
 tags:
-- ciasta
-- włoskie
-- kanapki
-- gerd-safe
-tagline: Puszyste bułeczki nadziewane pieczarkami i mozzarellą – domowa wersja pizzy w formie przekąski
+  - włoskie
+  - kanapki
+  - gerd-safe
+tagline: Puszyste bułeczki nadziewane pieczarkami i mozzarellą – domowa wersja
+  pizzy w formie przekąski
 ingredients:
-- mąka pszenna
-- świeże drożdże
-- mleko
-- jajko
-- olej
-- pieczarki
-- majonez
-- ser mozzarella
+  - mąka pszenna
+  - świeże drożdże
+  - mleko
+  - jajko
+  - olej
+  - pieczarki
+  - majonez
+  - ser mozzarella
 shopping_ingredients:
-- amount: 300
-  name: mąka pszenna
-  unit: g
-- amount: 15
-  name: świeże drożdże
-  unit: g
-- amount: 125
-  name: mleko 1,5%
-  unit: ml
-- amount: 2
-  name: jajka
-  note: 1 do ciasta, 1 do smarowania
-  unit: szt.
-- amount: 25
-  name: olej (rzepakowy lub słonecznikowy)
-  unit: ml
-- amount: 0.5
-  name: cukier
-  unit: łyżeczki
-- amount: 0.5
-  name: sól
-  unit: łyżeczki
-- amount: 250
-  name: pieczarki
-  unit: g
-- amount: 2
-  name: majonez
-  unit: łyżki
-- amount: 250
-  name: ser mozzarella (tarty)
-  unit: g
-- amount: 1
-  name: keczup
-  note: do podania
-  unit: łyżka
-- amount: 1
-  name: szczypiorek
-  note: do posypania
-  unit: pęczek
+  - amount: 300
+    name: mąka pszenna
+    unit: g
+  - amount: 15
+    name: świeże drożdże
+    unit: g
+  - amount: 125
+    name: mleko 1,5%
+    unit: ml
+  - amount: 2
+    name: jajka
+    note: 1 do ciasta, 1 do smarowania
+    unit: szt.
+  - amount: 25
+    name: olej (rzepakowy lub słonecznikowy)
+    unit: ml
+  - amount: 0.5
+    name: cukier
+    unit: łyżeczki
+  - amount: 0.5
+    name: sól
+    unit: łyżeczki
+  - amount: 250
+    name: pieczarki
+    unit: g
+  - amount: 2
+    name: majonez
+    unit: łyżki
+  - amount: 250
+    name: ser mozzarella (tarty)
+    unit: g
+  - amount: 1
+    name: keczup
+    note: do podania
+    unit: łyżka
+  - amount: 1
+    name: szczypiorek
+    note: do posypania
+    unit: pęczek
 servings: 6
 prep_time: 40
 cook: true
@@ -75,16 +76,20 @@ protein: 21
 fat: 22
 carbohydrate: 53
 diets:
-- gerd-safe
+  - gerd-safe
 fodmap:
-  notes: Drożdże i pszenica zawierają fruktany – przy diecie low FODMAP zaleca się ograniczenie porcji lub użycie bezglutenowej mąki i drożdży nutrivitych. Pieczarki w małej porcji są bezpieczne (1/4 szklanki), w większej ilości zawierają mannitol. Majonez w małej ilości jest nisko-FODMAP.
+  notes: Drożdże i pszenica zawierają fruktany – przy diecie low FODMAP zaleca się
+    ograniczenie porcji lub użycie bezglutenowej mąki i drożdży nutrivitych.
+    Pieczarki w małej porcji są bezpieczne (1/4 szklanki), w większej ilości
+    zawierają mannitol. Majonez w małej ilości jest nisko-FODMAP.
   serving_ok: Wymaga modyfikacji
   status: depends
   substitutions:
-  - Zamień mąkę pszenną na mąkę bezglutenową (ryżową + tapiokową) dla wersji low FODMAP
-  - Użyj drożdży nutrivitych zamiast świeżych (lepiej tolerowanych)
-  - Ogranicz ilość pieczarek do 1/4 szklanki na porcję lub zamień na pomidory
-  - Zamień keczup na passatę pomidorową bez czosnku i cebuli
+    - Zamień mąkę pszenną na mąkę bezglutenową (ryżową + tapiokową) dla wersji
+      low FODMAP
+    - Użyj drożdży nutrivitych zamiast świeżych (lepiej tolerowanych)
+    - Ogranicz ilość pieczarek do 1/4 szklanki na porcję lub zamień na pomidory
+    - Zamień keczup na passatę pomidorową bez czosnku i cebuli
 ---
 
 ## Składniki
