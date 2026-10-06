@@ -2,55 +2,55 @@
 title: Owsiane Ciastka Z Bananem I Masłem Orzechowym
 author: Michał Wrzosek
 categories:
-- desery
+  - desery
 subcategories:
-- słodkie
+  - słodkie
 draft: false
 readyToTest: true
 queued: true
 favourite: false
 link: https://www.youtube.com/watch?v=ScAJ7gkZo9s
 recipe_image: images/recipe-headers/owsiane-ciastka.avif
-video_file: ''
+video_file: ""
 date: 2026-03-23 16:47:27+01:00
 tags:
-- szybkie
-- wegańskie
-- przekąska
-- ciastka
-tagline: Proste, wegańskie i szybkie ciasteczka z płatków owsianych, banana oraz masła orzechowego.
+  - szybkie
+  - przekąska
+  - ciastka
+tagline: Proste, wegańskie i szybkie ciasteczka z płatków owsianych, banana oraz
+  masła orzechowego.
 ingredients:
-- banan
-- masło orzechowe
-- płatki owsiane
-- gorzka czekolada
+  - banan
+  - masło orzechowe
+  - płatki owsiane
+  - gorzka czekolada
 shopping_ingredients:
-- name: banan
-  amount: 240
-  unit: g
-  note: 2 szt.
-- name: płatki owsiane
-  amount: 220
-  unit: g
-- name: masło orzechowe
-  amount: 40
-  unit: g
-  note: ok. 2 łyżki
-- name: gorzka czekolada
-  amount: 30
-  unit: g
-- name: syrop z agawy
-  amount: 15
-  unit: g
-  note: ok. 1 łyżka
-- name: ekstrakt z wanilii
-  amount: 10
-  unit: g
-  note: ok. 10 ml
-- name: cynamon mielony
-  amount: 3
-  unit: g
-  note: ok. 1 łyżeczka
+  - name: banan
+    amount: 240
+    unit: g
+    note: 2 szt.
+  - name: płatki owsiane
+    amount: 220
+    unit: g
+  - name: masło orzechowe
+    amount: 40
+    unit: g
+    note: ok. 2 łyżki
+  - name: gorzka czekolada
+    amount: 30
+    unit: g
+  - name: syrop z agawy
+    amount: 15
+    unit: g
+    note: ok. 1 łyżka
+  - name: ekstrakt z wanilii
+    amount: 10
+    unit: g
+    note: ok. 10 ml
+  - name: cynamon mielony
+    amount: 3
+    unit: g
+    note: ok. 1 łyżeczka
 servings: 4
 prep_time: 10
 cook: true
@@ -62,10 +62,11 @@ carbohydrate: 241.7
 fodmap:
   status: depends
   serving_ok: Tylko mała porcja
-  notes: Syrop z agawy i bardzo dojrzałe banany mają wysoką zawartość FODMAP. Płatki owsiane i masło orzechowe są bezpieczne, ale w odpowiednich porcjach.
+  notes: Syrop z agawy i bardzo dojrzałe banany mają wysoką zawartość FODMAP.
+    Płatki owsiane i masło orzechowe są bezpieczne, ale w odpowiednich porcjach.
   substitutions:
-  - Zamień syrop z agawy na syrop klonowy.
-  - Użyj twardszego, mniej dojrzałego banana.
+    - Zamień syrop z agawy na syrop klonowy.
+    - Użyj twardszego, mniej dojrzałego banana.
 ---
 
 ## Składniki
