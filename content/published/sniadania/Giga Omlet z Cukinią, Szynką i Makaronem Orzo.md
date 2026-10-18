@@ -136,6 +136,7 @@ fodmap:
 
 ## Wskazówki
 
+* **Zamiana orzo na płatki owsiane:** Makaron orzo możesz z powodzeniem zastąpić płatkami owsianymi górskimi (ok. 100–120 g). Płatków nie musisz wcześniej gotować – wsyp surowe płatki bezpośrednio do rozkłóconych jajek (krok 6) i odstaw na ok. 5 minut, aby wchłonęły część płynu przed połączeniem z warzywami. Omlet w wersji z płatkami jest nieco bardziej zbity i sycący.  
 * Jeśli używasz bardziej wilgotnych pomidorów – usuń gniazda lub dodaj +10g mąki.  
 * Możesz dodać szczyptę płatków chili lub wędzoną paprykę.  
 * Porcje świetne także na zimno – do lunchboxa.  
