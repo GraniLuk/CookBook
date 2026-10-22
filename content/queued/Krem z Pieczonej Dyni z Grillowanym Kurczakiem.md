@@ -5,77 +5,78 @@ categories: obiady
 draft: false
 readyToTest: true
 queued: true
+favourite: false
 link: https://www.youtube.com/shorts/Fwpa1gT67v4
 recipe_image: images/recipe-headers/krem-z-pieczonej-dyni-z-grillowanym-kurczakiem.avif
 date: 2026-10-19T16:05:28+02:00
 tags:
-- zupy
-- jesień
-- proteinowe
-- lunchbox
-tagline: Aromatyczny krem z pieczonej dyni Hokkaido i warzyw, podany z soczystym grillowanym kurczakiem, prażonymi pestkami dyni i chrupiącym pieczywem.
+  - zupy
+  - jesień
+  - lunchbox
+tagline: Aromatyczny krem z pieczonej dyni Hokkaido i warzyw, podany z soczystym
+  grillowanym kurczakiem, prażonymi pestkami dyni i chrupiącym pieczywem.
 ingredients:
-- dynia
-- pierś z kurczaka
-- pomidory
-- papryka czerwona
-- chleb
-- pestki dyni
-- jogurt naturalny
+  - dynia
+  - pierś z kurczaka
+  - pomidory
+  - papryka czerwona
+  - chleb
+  - pestki dyni
+  - jogurt naturalny
 shopping_ingredients:
-- name: dynia Hokkaido
-  amount: 1200
-  unit: g
-- name: pomidory
-  amount: 4
-  unit: szt.
-- name: papryka czerwona
-  amount: 2
-  unit: szt.
-- name: cebula
-  amount: 1
-  unit: szt.
-- name: papryka chili
-  amount: 1
-  unit: szt.
-- name: czosnek
-  amount: 4
-  unit: ząbki
-- name: oliwa z oliwek
-  amount: 20
-  unit: g
-- name: koncentrat bulionu drobiowego
-  amount: 30
-  unit: g
-  note: 2 łyżeczki
-- name: rozmaryn świeży
-  amount: 1
-  unit: gałązka
-- name: filet z piersi kurczaka
-  amount: 480
-  unit: g
-  note: 4 porcje po 120 g
-- name: papryka słodka mielona
-  amount: 1
-  unit: łyżeczka
-- name: papryka ostra mielona
-  amount: 0.5
-  unit: łyżeczka
-- name: czosnek suszony mielony
-  amount: 1
-  unit: łyżeczka
-- name: jogurt naturalny
-  amount: 80
-  unit: g
-  note: do dekoracji, opcjonalnie
-- name: pestki dyni
-  amount: 20
-  unit: g
-  note: do posypania
-- name: chleb pszenny
-  amount: 480
-  unit: g
-  note: 4 porcje po 120 g
+  - name: dynia Hokkaido
+    amount: 1200
+    unit: g
+  - name: pomidory
+    amount: 4
+    unit: szt.
+  - name: papryka czerwona
+    amount: 2
+    unit: szt.
+  - name: cebula
+    amount: 1
+    unit: szt.
+  - name: papryka chili
+    amount: 1
+    unit: szt.
+  - name: czosnek
+    amount: 4
+    unit: ząbki
+  - name: oliwa z oliwek
+    amount: 20
+    unit: g
+  - name: koncentrat bulionu drobiowego
+    amount: 30
+    unit: g
+    note: 2 łyżeczki
+  - name: rozmaryn świeży
+    amount: 1
+    unit: gałązka
+  - name: filet z piersi kurczaka
+    amount: 480
+    unit: g
+    note: 4 porcje po 120 g
+  - name: papryka słodka mielona
+    amount: 1
+    unit: łyżeczka
+  - name: papryka ostra mielona
+    amount: 0.5
+    unit: łyżeczka
+  - name: czosnek suszony mielony
+    amount: 1
+    unit: łyżeczka
+  - name: jogurt naturalny
+    amount: 80
+    unit: g
+    note: do dekoracji, opcjonalnie
+  - name: pestki dyni
+    amount: 20
+    unit: g
+    note: do posypania
+  - name: chleb pszenny
+    amount: 480
+    unit: g
+    note: 4 porcje po 120 g
 servings: 4
 prep_time: 20
 cook: true
@@ -87,12 +88,17 @@ carbohydrate: 97
 fodmap:
   status: depends
   serving_ok: Wymaga modyfikacji
-  notes: Tradycyjna wersja zawiera składniki o wysokiej zawartości FODMAP (cebula, czosnek, chleb pszenny oraz większą porcję dyni i jogurt). Przepis można łatwo zmodyfikować, aby był przyjazny dla jelit.
+  notes: Tradycyjna wersja zawiera składniki o wysokiej zawartości FODMAP (cebula,
+    czosnek, chleb pszenny oraz większą porcję dyni i jogurt). Przepis można
+    łatwo zmodyfikować, aby był przyjazny dla jelit.
   substitutions:
-  - Czosnek i cebulę z pieczenia pomiń, a smak uzupełnij oliwą infuzowaną czosnkiem oraz zieloną częścią szczypiorku na finiszu.
-  - Zwykły chleb pszenny zastąp chlebem bezglutenowym lub pieczywem orkiszowym na tradycyjnym, długim zakwasie.
-  - Jogurt naturalny wybierz w wersji bez laktozy.
-  - Wybierz bulion drobiowy low FODMAP bez dodatku sproszkowanej cebuli czy czosnku.
+    - Czosnek i cebulę z pieczenia pomiń, a smak uzupełnij oliwą infuzowaną
+      czosnkiem oraz zieloną częścią szczypiorku na finiszu.
+    - Zwykły chleb pszenny zastąp chlebem bezglutenowym lub pieczywem orkiszowym
+      na tradycyjnym, długim zakwasie.
+    - Jogurt naturalny wybierz w wersji bez laktozy.
+    - Wybierz bulion drobiowy low FODMAP bez dodatku sproszkowanej cebuli czy
+      czosnku.
 ---
 
 ## Składniki
