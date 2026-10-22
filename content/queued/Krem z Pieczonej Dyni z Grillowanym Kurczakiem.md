@@ -100,38 +100,40 @@ fodmap:
     - Wybierz bulion drobiowy low FODMAP bez dodatku sproszkowanej cebuli czy
       czosnku.
 ---
-
 ## Składniki
 
 ### Zupa krem z pieczonych warzyw
-- 1200 g dyni Hokkaido
-- 4 sztuki pomidorów (~600 g)
-- 2 sztuki papryki czerwonej (~350 g)
-- 1 sztuka cebuli (~100 g)
-- 1 sztuka papryczki chili
-- 4 ząbki czosnku (w łupinach)
-- 12 g oliwy z oliwek (do skropienia warzyw)
-- 600 ml wrzącej wody
-- 30 g koncentratu bulionu drobiowego (ok. 2 łyżeczki)
-- 1 gałązka świeżego rozmarynu
-- sól i świeżo mielony pieprz (do smaku)
+
+* 1200 g dyni Hokkaido
+* 4 sztuki pomidorów (~600 g)
+* 2 sztuki papryki czerwonej (~350 g)
+* 1 sztuka cebuli (~100 g)
+* 1 sztuka papryczki chili
+* 4 ząbki czosnku (w łupinach)
+* 12 g oliwy z oliwek (do skropienia warzyw)
+* 600 ml wrzącej wody
+* 30 g koncentratu bulionu drobiowego (ok. 2 łyżeczki)
+* 1 gałązka świeżego rozmarynu
+* sól i świeżo mielony pieprz (do smaku)
 
 ### Grillowany kurczak (na 4 porcje)
-- 480 g filetu z piersi kurczaka (120 g na porcję)
-- 8 g oliwy z oliwek (2 g na porcję)
-- 1 łyżeczka słodkiej papryki mielonej
-- 1/2 łyżeczki ostrej papryki mielonej
-- 1 łyżeczka czosnku suszonego / granulowanego
-- sól (do smaku)
+
+* 480 g filetu z piersi kurczaka (120 g na porcję)
+* 8 g oliwy z oliwek (2 g na porcję)
+* 1 łyżeczka słodkiej papryki mielonej
+* 1/2 łyżeczki ostrej papryki mielonej
+* 1 łyżeczka czosnku suszonego / granulowanego
+* sól (do smaku)
 
 ### Dodatki i podanie (na 4 porcje)
-- 80 g jogurtu naturalnego (20 g na porcję, opcjonalnie do dekoracji)
-- 20 g pestek dyni (5 g na porcję)
-- 480 g chleba pszennego (120 g na porcję)
+
+* 80 g jogurtu naturalnego (20 g na porcję, opcjonalnie do dekoracji)
+* 20 g pestek dyni (5 g na porcję)
+* 480 g chleba pszennego (120 g na porcję)
 
 ## Sposób przygotowania
 
-1. **Przygotowanie warzyw**: Dynię Hokkaido dokładnie umyj, przekrój na pół, wydrąż gniazdo nasienne łyżką i pokrój miąższ na mniejsze kawałki (dyni Hokkaido nie musisz obierać – jej skórka po upieczeniu idealnie zmięknie i zblenduje się z kremem). Pomidory nacinij na czubku na krzyż. Papryki przekrój na pół i usuń gniazda nasienne. Cebulę obierz i przekrój na ćwiartki. Ząbki czosnku pozostaw w łupinkach (dzięki temu czosnek upiecze się na słodko i nie przypali).
+1. **Przygotowanie warzyw**: Dynię Hokkaido dokładnie umyj, przekrój na ćwiartki, wydrąż gniazdo nasienne łyżką i pokrój miąższ na mniejsze kawałki (dyni Hokkaido nie musisz obierać – jej skórka po upieczeniu idealnie zmięknie i zblenduje się z kremem). Pomidory natnij na czubku na krzyż. Papryki przekrój na pół i usuń gniazda nasienne. Cebulę obierz i przekrój na ćwiartki. Ząbki czosnku pozostaw w łupinkach (dzięki temu czosnek upiecze się na słodko i nie przypali).
 2. **Pieczenie**: Wszystkie warzywa rozłóż równomiernie na dużej blasze wyłożonej papierem do pieczenia w jednej warstwie, aby się karmelizowały, a nie dusiły. Pomiędzy warzywa włóż papryczkę chili oraz gałązkę rozmarynu. Całość skrop równomiernie 12 g oliwy. Wstaw do piekarnika nagrzanego do 200°C (tryb góra-dół) na około 30–40 minut. Pod koniec pieczenia włącz termoobieg, aby warzywa uzyskały lekko przypieczone, karmelowe brzegi – to gwarancja głębokiego smaku.
 3. **Zupa krem**: Po upieczeniu zdejmij skórkę z pomidorów, usuń gałązkę rozmarynu, a miękki czosnek wyciśnij z łupinek. W garnku zagotuj 600 ml wody z 30 g koncentratu bulionu drobiowego. Przełóż upieczone warzywa do garnka, doprowadź do wrzenia, a następnie zdejmij z ognia i zblenduj na idealnie gładki, aksamitny krem. Wodę możesz dolewać stopniowo, kontrolując pożądaną gęstość zupy. Na koniec dopraw zupę solą oraz obficie świeżo mielonym pieprzem.
 4. **Grillowany kurczak**: Pierś z kurczaka oczyść i pokrój w kostkę lub podłużne paski. W miseczce wymieszaj mięso z 8 g oliwy, słodką i ostrą papryką, czosnkiem granulowanym oraz szczyptą soli. Usmaż na rozgrzanej patelni grillowej lub upiecz we frytkownicy beztłuszczowej (air fryer) na rumiano (ok. 8–10 minut), aż mięso będzie soczyste w środku.
@@ -140,20 +142,21 @@ fodmap:
 
 ## Podsumowanie wartości odżywczych (całe danie)
 
-| Składnik | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
-|---|---|---|---|---|---|
-| Dynia Hokkaido | 1200 | 420 | 13.2 | 3.6 | 84.0 |
-| Pomidory | 600 | 108 | 5.4 | 1.2 | 21.6 |
-| Papryka czerwona | 350 | 112 | 4.6 | 1.8 | 21.7 |
-| Cebula | 100 | 33 | 1.3 | 0.4 | 6.9 |
-| Czosnek | 20 | 30 | 1.3 | 0.1 | 6.6 |
-| Papryczka chili | 20 | 8 | 0.4 | 0.1 | 1.8 |
-| Oliwa z oliwek (warzywa) | 12 | 108 | 0.0 | 12.0 | 0.0 |
-| Koncentrat bulionu drobiowego | 30 | 40 | 2.5 | 2.0 | 2.0 |
-| Pierś z kurczaka | 480 | 480 | 103.2 | 6.2 | 0.0 |
-| Oliwa z oliwek (kurczak) | 8 | 72 | 0.0 | 8.0 | 0.0 |
-| Jogurt naturalny | 80 | 50 | 3.4 | 1.6 | 5.0 |
-| Pestki dyni | 20 | 115 | 5.0 | 9.2 | 2.8 |
-| Chleb pszenny | 480 | 1344 | 51.7 | 13.8 | 235.6 |
-| **RAZEM:** | **3400** | **2920** | **192.0** | **60.0** | **388.0** |
----
+| Składnik                      | Ilość (g) | Kalorie (kcal) | Białko (g) | Tłuszcze (g) | Węglowodany (g) |
+| ----------------------------- | --------- | -------------- | ---------- | ------------ | --------------- |
+| Dynia Hokkaido                | 1200      | 420            | 13.2       | 3.6          | 84.0            |
+| Pomidory                      | 600       | 108            | 5.4        | 1.2          | 21.6            |
+| Papryka czerwona              | 350       | 112            | 4.6        | 1.8          | 21.7            |
+| Cebula                        | 100       | 33             | 1.3        | 0.4          | 6.9             |
+| Czosnek                       | 20        | 30             | 1.3        | 0.1          | 6.6             |
+| Papryczka chili               | 20        | 8              | 0.4        | 0.1          | 1.8             |
+| Oliwa z oliwek (warzywa)      | 12        | 108            | 0.0        | 12.0         | 0.0             |
+| Koncentrat bulionu drobiowego | 30        | 40             | 2.5        | 2.0          | 2.0             |
+| Pierś z kurczaka              | 480       | 480            | 103.2      | 6.2          | 0.0             |
+| Oliwa z oliwek (kurczak)      | 8         | 72             | 0.0        | 8.0          | 0.0             |
+| Jogurt naturalny              | 80        | 50             | 3.4        | 1.6          | 5.0             |
+| Pestki dyni                   | 20        | 115            | 5.0        | 9.2          | 2.8             |
+| Chleb pszenny                 | 480       | 1344           | 51.7       | 13.8         | 235.6           |
+| **RAZEM:**                    | **3400**  | **2920**       | **192.0**  | **60.0**     | **388.0**       |
+
+- - -
