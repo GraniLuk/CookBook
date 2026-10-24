@@ -6,49 +6,48 @@ subcategories: słone
 draft: false
 readyToTest: true
 queued: true
+favourite: false
 link: https://www.instagram.com/reels/DV1T9TGDZr8/
 recipe_image: images/recipe-headers/sniadaniowa-pasta-jajeczna.avif
 video_file: videos/sniadaniowa-pasta-jajeczna.mp4
 date: 2026-03-14 21:52:00+01:00
 tags:
-- kanapki
-- szybkie
-- proteinowe
-- lunchbox
+  - kanapki
+  - pasta
 tagline: Wysokobiałkowa pasta jajeczna ze skyrem i czerwoną cebulą.
 ingredients:
-- jajka
-- jogurt skyr
-- cebula czerwona
+  - jajka
+  - jogurt skyr
+  - cebula czerwona
 shopping_ingredients:
-- name: grahamek
-  amount: 300
-  unit: g
-  note: 4 szt.
-- name: jajek M
-  amount: 12
-  unit: szt.
-- name: skyru naturalnego
-  amount: 200
-  unit: g
-- name: sosu sriracha
-  amount: 25
-  unit: g
-- name: wędzonej papryki
-  amount: 1
-  unit: łyżeczka
-- name: czosnku granulowanego
-  amount: 0.5
-  unit: łyżeczki
-- name: płatków chilli
-  amount: 0.5
-  unit: łyżeczki
-- name: cebula czerwona
-  amount: 60
-  unit: g
-- name: pęczka szczypiorku
-  amount: 0.5
-  unit: szt.
+  - name: grahamek
+    amount: 300
+    unit: g
+    note: 4 szt.
+  - name: jajek M
+    amount: 12
+    unit: szt.
+  - name: skyru naturalnego
+    amount: 200
+    unit: g
+  - name: sosu sriracha
+    amount: 25
+    unit: g
+  - name: wędzonej papryki
+    amount: 1
+    unit: łyżeczka
+  - name: czosnku granulowanego
+    amount: 0.5
+    unit: łyżeczki
+  - name: płatków chilli
+    amount: 0.5
+    unit: łyżeczki
+  - name: cebula czerwona
+    amount: 60
+    unit: g
+  - name: pęczka szczypiorku
+    amount: 0.5
+    unit: szt.
 servings: 4
 prep_time: 10
 cook: true
@@ -58,13 +57,15 @@ protein: 34
 fat: 18
 carbohydrate: 35
 fodmap:
-  status: 'no'
+  status: no
   serving_ok: Unikaj
-  notes: 'Przepis zawiera produkty wysoko-FODMAP: pieczywo pszenne/graham, czosnek, cebulę oraz sos sriracha (który może zawierać czosnek).'
+  notes: "Przepis zawiera produkty wysoko-FODMAP: pieczywo pszenne/graham,
+    czosnek, cebulę oraz sos sriracha (który może zawierać czosnek)."
   substitutions:
-  - Czerwoną cebulę zamień na zieloną część dymki lub pomiń
-  - Czosnek w proszku zamień na oliwę czosnkową
-  - Grahamki zamień na bezglutenowe pieczywo (np. chleb owsiany, ryżowy lub gryczany)
+    - Czerwoną cebulę zamień na zieloną część dymki lub pomiń
+    - Czosnek w proszku zamień na oliwę czosnkową
+    - Grahamki zamień na bezglutenowe pieczywo (np. chleb owsiany, ryżowy lub
+      gryczany)
 ---
 
 ## Składniki
