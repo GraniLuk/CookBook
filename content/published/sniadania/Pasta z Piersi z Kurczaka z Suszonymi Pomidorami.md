@@ -2,43 +2,46 @@
 title: Pasta z Piersi z Kurczaka z Suszonymi Pomidorami
 author: Policzona Szama
 categories:
-- śniadania
+  - śniadania
 subcategories:
-- słone
+  - słone
 draft: false
 readyToTest: false
-link: ''
+queued: false
+favourite: false
+link: ""
 recipe_image: images/defaultImage.avif
 date: 2025-08-12 12:00:00+00:00
 tags:
-- szybkie
-- kanapki
-- gerd-safe
-tagline: Kremowa, aromatyczna pasta z piersi kurczaka i suszonych pomidorów – idealna na kanapki lub wafle ryżowe.
+  - kanapki
+  - gerd-safe
+  - pasta
+tagline: Kremowa, aromatyczna pasta z piersi kurczaka i suszonych pomidorów –
+  idealna na kanapki lub wafle ryżowe.
 ingredients:
-- pierś z kurczaka
-- pomidory suszone
-- majonez
+  - pierś z kurczaka
+  - pomidory suszone
+  - majonez
 shopping_ingredients:
-- amount: 150
-  name: pierś z kurczaka
-  note: gotowanej
-  unit: g
-- amount: 5.5
-  name: pomidory suszone
-  note: ok. 27g po odsączeniu
-  unit: szt.
-- amount: 15
-  name: majonez
-  unit: g
-- amount: 50
-  name: wafli ryżowych
-  note: do podania
-  unit: g
-- amount: 0.5
-  name: mieszanki ziół
-  note: np. mieszanka ziół Koksa Mateusza
-  unit: łyżeczki
+  - amount: 150
+    name: pierś z kurczaka
+    note: gotowanej
+    unit: g
+  - amount: 5.5
+    name: pomidory suszone
+    note: ok. 27g po odsączeniu
+    unit: szt.
+  - amount: 15
+    name: majonez
+    unit: g
+  - amount: 50
+    name: wafli ryżowych
+    note: do podania
+    unit: g
+  - amount: 0.5
+    name: mieszanki ziół
+    note: np. mieszanka ziół Koksa Mateusza
+    unit: łyżeczki
 servings: 1
 prep_time: 5
 cook: true
@@ -48,14 +51,16 @@ protein: 16.6
 fat: 9.1
 carbohydrate: 18.9
 diets:
-- gerd-safe
+  - gerd-safe
 fodmap:
-  notes: 'Bezpieczne: kurczak, wafle ryżowe, majonez bez dodatków. Suszone pomidory tylko w małej porcji; przyprawy bez cebuli/czosnku.'
+  notes: "Bezpieczne: kurczak, wafle ryżowe, majonez bez dodatków. Suszone
+    pomidory tylko w małej porcji; przyprawy bez cebuli/czosnku."
   serving_ok: OK przy porcji 1; ogranicz suszone pomidory do 8–12 g
-  status: 'yes'
+  status: yes
   substitutions:
-  - Jogurt bez laktozy zamiast części majonezu (dla lżejszej wersji).
-  - Podawaj z pieczywem bezglutenowym/owsianym lub małą porcją chleba orkiszowego na zakwasie.
+    - Jogurt bez laktozy zamiast części majonezu (dla lżejszej wersji).
+    - Podawaj z pieczywem bezglutenowym/owsianym lub małą porcją chleba
+      orkiszowego na zakwasie.
 ---
 
 ## Składniki
