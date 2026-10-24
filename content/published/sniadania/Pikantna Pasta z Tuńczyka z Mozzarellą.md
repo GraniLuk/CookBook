@@ -3,70 +3,73 @@ title: Pikantna Pasta z Tuńczyka z Mozzarellą
 author: Granica
 categories: śniadania
 subcategories:
-- słone
+  - słone
 draft: false
 readyToTest: false
+queued: false
+favourite: false
 recipe_image: images/recipe-headers/pasta_pikantna_z_tunczyka.avif
 video_file: videos/pasta_pikanta_z_tunczyka.mp4
 date: 2025-10-21 12:00:00+00:00
 tags:
-- pikantne
-- kanapki
+  - pikantne
+  - kanapki
+  - pasta
 tagline: Pikantna pasta z tuńczyka z mozzarellą - idealna na kanapki lub jako przekąska.
 ingredients:
-- tuńczyk
-- mozzarella
-- ketchup
-- majonez
-- jalapeno
-- pomidor
-- rukola
-- czosnek
+  - tuńczyk
+  - mozzarella
+  - ketchup
+  - majonez
+  - jalapeno
+  - pomidor
+  - rukola
+  - czosnek
 shopping_ingredients:
-- name: tuńczyk
-  amount: 150
-  unit: g
-  note: odsączony
-- name: mozzarella
-  amount: 70
-  unit: g
-  note: lub innego ulubionego sera
-- name: ketchup
-  amount: 50
-  unit: g
-  note: np. Roleski, Kotlin
-- name: majonez
-  amount: 50
-  unit: g
-  note: np. Hellmann's
-- name: jalapeno
-  amount: 1
-  unit: szt.
-- name: pomidor
-  amount: 1
-  unit: szt.
-  note: ok. 100g
-- name: rukola
-  amount: 20
-  unit: g
-  note: ok. 20g
-- name: Słodka papryka w proszku
-  amount: 1
-  unit: szt.
-- name: Wędzona papryka w proszku
-  amount: 1
-  unit: szt.
-- name: czosnek
-  amount: 1
-  unit: szt.
-  note: granulowany lub świeży
-- name: 'Opcjonalnie: wędzone chipotle'
-  amount: 1
-  unit: szt.
-- name: pieczywa
-  amount: 180
-  unit: g
-  note: 90g na porcję
+  - name: tuńczyk
+    amount: 150
+    unit: g
+    note: odsączony
+  - name: mozzarella
+    amount: 70
+    unit: g
+    note: lub innego ulubionego sera
+  - name: ketchup
+    amount: 50
+    unit: g
+    note: np. Roleski, Kotlin
+  - name: majonez
+    amount: 50
+    unit: g
+    note: np. Hellmann's
+  - name: jalapeno
+    amount: 1
+    unit: szt.
+  - name: pomidor
+    amount: 1
+    unit: szt.
+    note: ok. 100g
+  - name: rukola
+    amount: 20
+    unit: g
+    note: ok. 20g
+  - name: Słodka papryka w proszku
+    amount: 1
+    unit: szt.
+  - name: Wędzona papryka w proszku
+    amount: 1
+    unit: szt.
+  - name: czosnek
+    amount: 1
+    unit: szt.
+    note: granulowany lub świeży
+  - name: "Opcjonalnie: wędzone chipotle"
+    amount: 1
+    unit: szt.
+  - name: pieczywa
+    amount: 180
+    unit: g
+    note: 90g na porcję
 servings: 2
 prep_time: 10
 cook: false
@@ -77,11 +80,13 @@ fat: 9
 carbohydrate: 25
 fodmap:
   status: depends
-  serving_ok: 'OK po modyfikacjach: bez czosnku, sprawdź ilość jalapeno'
-  notes: Czosnek zawiera fruktany (wysokie FODMAP). Ketchup i majonez light zazwyczaj OK w małych ilościach. Jalapeno może być problematyczne dla niektórych osób.
+  serving_ok: "OK po modyfikacjach: bez czosnku, sprawdź ilość jalapeno"
+  notes: Czosnek zawiera fruktany (wysokie FODMAP). Ketchup i majonez light
+    zazwyczaj OK w małych ilościach. Jalapeno może być problematyczne dla
+    niektórych osób.
   substitutions:
-  - czosnek -> olej czosnkowy (bez cząstek) lub zrezygnować
-  - jalapeno -> ograniczyć ilość lub zrezygnować w razie problemów
+    - czosnek -> olej czosnkowy (bez cząstek) lub zrezygnować
+    - jalapeno -> ograniczyć ilość lub zrezygnować w razie problemów
 ---
 
 ## Składniki (na 2 porcje)
