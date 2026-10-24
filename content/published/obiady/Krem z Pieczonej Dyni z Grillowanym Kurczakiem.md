@@ -3,12 +3,12 @@ title: Krem z Pieczonej Dyni z Grillowanym Kurczakiem
 author: Policzona Szama
 categories: obiady
 draft: false
-readyToTest: true
-queued: true
+readyToTest: false
+queued: false
 favourite: false
 link: https://www.youtube.com/shorts/Fwpa1gT67v4
 recipe_image: images/recipe-headers/krem-z-pieczonej-dyni-z-grillowanym-kurczakiem.avif
-date: 2026-10-19T16:05:28+02:00
+date: 2026-10-24T13:25:00+02:00
 tags:
   - zupy
   - jesień
