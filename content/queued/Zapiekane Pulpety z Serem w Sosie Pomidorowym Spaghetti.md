@@ -10,6 +10,7 @@ date: 2025-11-01 12:00:00+00:00
 tags:
 - włoskie
 - szybkie
+- instant pot
 tagline: Domowe pulpety w sosie spaghetti z mozzarellą, idealne na rodzinny obiad.
 ingredients:
 - wieprzowina
@@ -113,6 +114,61 @@ fodmap:
 7. W międzyczasie ugotuj spaghetti al dente w osolonej wodzie (8-9 minut).
 8. W naczyniu żaroodpornym (lub 3 pojemnikach) rozłóż makaron, polej sosem, ułóż pulpety na wierzchu, posyp tartym serem (bez mozzarelli).
 9. Zapiekaj 15 minut, aż ser się roztopi. Na koniec posyp mozzarellą i zapiekaj jeszcze chwilę, jeśli potrzeba.
+
+{{< collapsible title="Wersja w Instant Pot Duo 6" icon="⚡" >}}
+
+### Przygotowanie w Instant Pot
+
+Tradycyjna wersja wymaga podsmażania na patelni, osobnego gotowania makaronu i zapiekania w piekarniku. W Instant Pot przygotujesz całe danie w jednym garnku (One-Pot Spaghetti & Meatballs), a ser rozpuścisz bezpośrednio pod pokrywą lub zapieczesz nakładką Air Fryer.
+
+**Zmiany w składnikach:**
+- Woda: 350–400 ml (do wymieszania z koncentratem pomidorowym i deglasowania dna garnka).
+- Oliwa: około 15–20 ml (do obsmażenia pulpetów w garnku).
+
+**Modyfikacje w przygotowaniu:**
+
+1. **Przygotowanie masy i pulpetów:**
+   - Wykonaj kroki 1–3 z oryginalnego przepisu (przygotuj masę mięsną i uformuj 9 kul).
+
+2. **Obsmażanie pulpetów (Sauté):**
+   - Włącz program **"Sauté"** w Instant Pot i rozgrzej oliwę.
+   - Wkładaj pulpety partiami i obsmażaj po ok. 1–1,5 minuty z każdej strony do zrumienienia skórki (nie muszą dopiekać się w środku).
+   - Wyjmij obsmażone pulpety na talerz.
+
+3. **Baza sosu i deglasowanie (kluczowy krok):**
+   - Do pozostałego w garnku tłuszczu dodaj resztę drobno posiekanej cebuli (1/4) i czosnku (1 ząbek). Smaż przez ok. 1 minutę.
+   - Naciśnij **"Cancel"**.
+   - Wlej 350–400 ml wody oraz 2 łyżki koncentratu pomidorowego. Dodaj oregano, bazylię, chili, pieprz i sól.
+   - Drewnianą łopatką bardzo dokładnie zeskrob dno garnka ze wszystkich przypieczeń po pulpetach. Czyste dno chroni przed błędem *"Burn"*.
+
+4. **Układanie makaronu:**
+   - Połam makaron spaghetti na pół.
+   - Ułóż makaron partiami w kratkę (na krzyż), delikatnie wciskając go w płyn, aby był zwilżony. **Nie mieszaj go z dnem.**
+
+5. **Sos i pulpety:**
+   - Na warstwę makaronu wylej równomiernie passatę pomidorową (700 g). **Nie mieszaj!**
+   - Na samej górze delikatnie ułóż podsmażone pulpety.
+
+6. **Gotowanie pod ciśnieniem:**
+   - Zamknij pokrywę Instant Pot, zawór ustaw na pozycję **"Sealing"**.
+   - Wybierz program **"Pressure Cook"** na **wysokim ciśnieniu (High Pressure)** i ustaw czas na **5 minut**.
+
+7. **Szybkie uwolnienie ciśnienia (Quick Release):**
+   - Po skończonym cyklu natychmiast przestaw zawór na **"Venting"** (Quick Release), aby błyskawicznie uwolnić parę.
+   - Po opadnięciu zaworu ostrożnie otwórz pokrywę.
+
+8. **Wykończenie i ser:**
+   - Przełóż na chwilę pulpety na talerz, wymieszaj makaron z sosem (w ciągu 1–2 minut sos ładnie zgęstnieje dzięki skrobi), po czym ułóż pulpety z powrotem na wierzchu.
+   - Posyp startym parmezanem i mozzarellą.
+   - **Rozpuszczenie sera:**
+     - *Standardowa metoda:* Nałóż zwykłą pokrywę na 3–4 minuty (w trybie Keep Warm lub przy wyłączonym garnku) – ciepło resztkowe idealnie stopi mozzarellę.
+     - *Metoda Air Fryer / Crisp Lid:* Jeśli posiadasz nakładkę Air Fryer, ustaw funkcję "Broil" / "Air Fry" na 200°C na 3–4 minuty, aby ser się zapiekł i zrumienił.
+   - Przed podaniem posyp posiekaną natką pietruszki.
+
+**Wskazówki:**
+- Układanie makaronu na krzyż oraz passaty i pulpetów na wierzchu to gwarancja sukcesu – zapobiega sklejeniu makaronu i przypaleniu gęstego sosu pomidorowego.
+
+{{< /collapsible >}}
 
 ## Podsumowanie wartości odżywczych (całe danie na porcję)
 

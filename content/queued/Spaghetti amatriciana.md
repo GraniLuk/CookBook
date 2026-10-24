@@ -15,6 +15,7 @@ tags:
 - szybkie
 - pikantne
 - trello
+- instant pot
 tagline: "Makaron w pomidorowym sosie z boczkiem, chili i parmezanem."
 ingredients:
 - makaron spaghetti
@@ -80,6 +81,55 @@ fodmap:
 2. Dodaj cebulę, chili i pomidory. Gotuj sos 15-20 minut.
 3. Ugotuj makaron al dente i wymieszaj z sosem.
 4. Podaj z parmezanem i świeżo mielonym pieprzem.
+
+{{< collapsible title="Wersja w Instant Pot Duo 6" icon="⚡" >}}
+
+### Przygotowanie w Instant Pot
+
+Klasyczne spaghetti all'amatriciana można w łatwy sposób przygotować w Instant Pot jako danie jednogarnkowe. Makaron gotuje się w pomidorowo-boczkowym sosie pod ciśnieniem, dzięki czemu wchłania pełnię smaku, a skrobia naturalnie zagęszcza sos.
+
+**Zmiany w składnikach:**
+- Woda lub bulion: około 400–450 ml (niezbędne do ugotowania 350 g makaronu pod ciśnieniem i wytworzenia pary).
+
+**Modyfikacje w przygotowaniu:**
+
+1. **Smażenie boczku (Sauté):**
+   - Włącz program **"Sauté"** w Instant Pot.
+   - Dodaj oliwę i pokrojony w paseczki lub kostkę boczek. Smaż przez 3–4 minuty, aż ładnie się zrumieni i wytopi tłuszcz.
+   - Dodaj posiekaną cebulę oraz chili. Smaż jeszcze 1–2 minuty, aż cebula zmięknie.
+
+2. **Deglasowanie (kluczowy krok):**
+   - Wyłącz program (**"Cancel"**).
+   - Wlej 400–450 ml wody (lub lekkiego bulionu).
+   - Drewnianą łopatką dokładnie zeskrob dno garnka, odklejając wszelkie przypieczone cząstki boczku. Czyste dno chroni przed komunikatem błędu *"Burn"*.
+
+3. **Układanie makaronu:**
+   - Połam spaghetti na pół.
+   - Układaj partiami na krzyż (w kratkę / wachlarz), aby nitki się ze sobą nie sklejały.
+   - Lekko dociśnij makaron do płynu, ale **nie mieszaj go z dnem**.
+
+4. **Warstwa pomidorowa:**
+   - Wylej pomidory krojone równomiernie na wierzch makaronu. Dopraw odrobiną pieprzu.
+   - **Nie mieszaj!** Pomidory powinny pozostać na wierzchu podczas gotowania pod ciśnieniem.
+
+5. **Gotowanie pod ciśnieniem:**
+   - Zamknij pokrywę, przekręć zawór na pozycję **"Sealing"**.
+   - Wybierz program **"Pressure Cook"** (lub **"Manual"**) na wysokim ciśnieniu (**High Pressure**) i ustaw czas na **4 minuty** (lub 5 minut dla bardziej miękkiego makaronu).
+
+6. **Szybkie uwolnienie ciśnienia (Quick Release):**
+   - Po zakończeniu gotowania od razu ostrożnie przekręć zawór na **"Venting"**, aby błyskawicznie wypuścić parę.
+   - Po opadnięciu zaworu ciśnienia otwórz pokrywę.
+
+7. **Zagęszczenie i wykończenie:**
+   - Wymieszaj energicznie makaron z sosem.
+   - Wsyp starty parmezan (lub pecorino) i wymieszaj – sos w ciągu 1–2 minut połączy się i zgęstnieje dzięki skrobi.
+   - Podawaj od razu, posypane dodatkowym parmezanem i świeżo mielonym czarnym pieprzem.
+
+**Wskazówki:**
+- Pamiętaj o ułożeniu makaronu w kratkę – nitki ułożone równolegle zbiją się w twardą grudę.
+- Zawsze wykonuj szybkie uwolnienie pary (Quick Release) – pozostawienie makaronu na naturalnym uwalnianiu doprowadzi do jego rozgotowania.
+
+{{< /collapsible >}}
 
 ## Podsumowanie wartości odżywczych (całe danie)
 

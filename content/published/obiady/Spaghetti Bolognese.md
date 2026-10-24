@@ -10,6 +10,7 @@ recipe_image: images/recipe-headers/spaghetti_bolognese.avif
 date: 2025-10-11 12:00:00+00:00
 tags:
 - włoskie
+- instant pot
 tagline: Klasyczne i aromatyczne spaghetti bolognese, którego smak tkwi w prostocie.
 ingredients:
 - wołowina mielona
@@ -96,7 +97,56 @@ fodmap:
 4. **Mięso i sos:** Do zeszklonej cebuli dodaj zmielone mięso. Rozdrobnij je łopatką i smaż, aż straci różowy kolor. Dopraw solą, pieprzem, oregano oraz suszoną bazylią. Wlej całą butelkę passaty, wymieszaj i gotuj na małym ogniu, aż makaron będzie gotowy.
 5. **Łączenie:** Ugotowany makaron odcedź (zachowując trochę wody) i przełóż bezpośrednio na patelnię z sosem. Dodaj jedną chochlę wody z gotowania makaronu – zawarta w niej skrobia pomoże zagęścić sos i lepiej połączyć go z makaronem.
 6. **Finalne gotowanie:** Wszystko razem energicznie wymieszaj i gotuj jeszcze przez 3-4 minuty, aby makaron wchłonął smaki sosu, a całość lekko zgęstniała.
-7. **Podanie:** Gotowe spaghetti rozłóż na 3 porcje. Każdą udekoruj listkiem świeżej bazylii oraz startym parmezanem
+7. **Podanie:** Gotowe spaghetti rozłóż na 3 porcje. Każdą udekoruj listkiem świeżej bazylii oraz startym parmezanem.
+
+{{< collapsible title="Wersja w Instant Pot Duo 6" icon="⚡" >}}
+
+### Przygotowanie w Instant Pot
+
+Przygotowanie spaghetti bolognese w Instant Pot pozwala na zrobienie całego dania w jednym naczyniu (One-Pot). Makaron gotuje się bezpośrednio w płynie i przechodzi smakiem sosu, a skrobia naturalnie go zagęszcza.
+
+**Zmiany w składnikach:**
+- Woda lub bulion: około 400–450 ml (niezbędne, aby makaron wchłonął płyn i garnek wytworzył ciśnienie bez ryzyka błędu przypalenia).
+
+**Modyfikacje w przygotowaniu:**
+
+1. **Podsmażanie mięsa i warzyw (Sauté):**
+   - Włącz program **"Sauté"** w Instant Pot i rozgrzej oliwę.
+   - Wsyp posiekaną cebulę oraz czosnek, podsmażaj 1–2 minuty do zeszklenia.
+   - Dodaj mieloną wołowinę. Rozdrabniaj łopatką i smaż przez 3–4 minuty, aż mięso zmieni kolor.
+   - Dopraw solą, pieprzem, suszonym oregano i bazylią.
+
+2. **Deglasowanie (kluczowy krok):**
+   - Wyłącz program (**"Cancel"**).
+   - Wlej 400–450 ml wody (lub bulionu).
+   - Drewnianą lub silikonową łopatką dokładnie zeskrob z dna garnka wszelkie przypieczenia. Dno musi być czyste, aby uniknąć komunikatu *"Burn"*.
+
+3. **Układanie makaronu:**
+   - Połam makaron spaghetti na pół.
+   - Układaj go partiami na krzyż (w kratkę / wachlarz), aby nitki nie były ułożone równolegle i nie skleiły się w jedną bryłę.
+   - Lekko dociśnij makaron łyżką, aby był zanurzony w płynie, ale **nie mieszaj go z mięsem na dnie**.
+
+4. **Warstwa pomidorowa:**
+   - Wylej butelkę passaty pomidorowej równomiernie na wierzch makaronu.
+   - **Nie mieszaj!** Sos pomidorowy musi pozostać na samej górze.
+
+5. **Gotowanie pod ciśnieniem:**
+   - Zamknij pokrywę i ustaw zawór w pozycji **"Sealing"**.
+   - Wybierz program **"Pressure Cook"** (lub **"Manual"**) na **wysokim ciśnieniu (High Pressure)** i ustaw czas na **4 minuty** (dla makaronu al dente; 5 minut, jeśli wolisz bardziej miękki).
+
+6. **Szybkie uwolnienie ciśnienia (Quick Release):**
+   - Po usłyszeniu sygnału dźwiękowego natychmiast ostrożnie przekręć zawór na **"Venting"** (Quick Release), aby makaron się nie rozgotował.
+   - Gdy zawór ciśnienia opadnie, otwórz pokrywę.
+
+7. **Wymieszanie i odpoczynek:**
+   - Całość energicznie wymieszaj. Na początku sos może wydawać się rzadki – odczekaj 2–3 minuty, a makaron wchłonie nadmiar płynu i sos pięknie zgęstnieje. W razie potrzeby włącz "Sauté" na 1 minutę.
+   - Podawaj ze startym parmezanem i świeżą bazylią.
+
+**Wskazówki:**
+- Zawsze układaj połamany makaron w kratkę / na krzyż – to zapobiega jego sklejaniu się.
+- Nie zapomnij o dokładnym zeskrobaniu dna po podsmażeniu mięsa.
+
+{{< /collapsible >}}
 
 ## Podsumowanie wartości odżywczych (całe danie)
 
