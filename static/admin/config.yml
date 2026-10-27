@@ -185,6 +185,7 @@ _shared_fields:
       - { label: "gruszka", value: "gruszka" }
       - { label: "grzyby", value: "grzyby" }
       - { label: "grzyby suszone", value: "grzyby suszone" }
+      - { label: "herbata czarna", value: "herbata czarna" }
       - { label: "herbatniki", value: "herbatniki" }
       - { label: "ikra", value: "ikra" }
       - { label: "imbir", value: "imbir" }
@@ -298,7 +299,6 @@ _shared_fields:
       - { label: "mąka pszenna typ 650", value: "mąka pszenna typ 650" }
       - { label: "mąka ryżowa", value: "mąka ryżowa" }
       - { label: "mąka typ 00", value: "mąka typ 00" }
-      - { label: "mąka ziemniaczana", value: "mąka ziemniaczana" }
       - { label: "mąka żytnia", value: "mąka żytnia" }
       - { label: "naleśniki", value: "naleśniki" }
       - { label: "napój migdałowy", value: "napój migdałowy" }
