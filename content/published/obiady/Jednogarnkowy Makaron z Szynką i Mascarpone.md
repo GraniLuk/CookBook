@@ -3,8 +3,8 @@ title: Jednogarnkowy Makaron z Szynką i Mascarpone
 author: Policzona Szama
 categories: obiady
 draft: false
-readyToTest: true
-queued: true
+readyToTest: false
+queued: false
 link: https://www.youtube.com/watch?v=UINmWlTmBgk
 recipe_image: images/recipe-headers/jednogarnkowy_makaron_z_szynka_i_mascarpone.avif
 date: 2026-10-27
