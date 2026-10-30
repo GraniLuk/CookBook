@@ -9,6 +9,7 @@ draft: false
 readyToTest: false
 link: https://www.youtube.com/watch?v=wDmemjiyK4w&t=306s
 recipe_image: images/recipe-headers/giga_omlet.avif
+video_file: videos/giga_omlet.mp4
 date: 2025-08-13 12:00:00+00:00
 tags: []
 tagline: Syta, kolorowa frittata na 6 porcji – cukinia, warzywa, szynka i chrupiące orzo.
