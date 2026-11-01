@@ -27,7 +27,7 @@ shopping_ingredients:
   unit: g
   note: mieszanka nerkowca i brazylijskich
 - name: wiórków kokosowych
-  amount: 4
+  amount: 40
   unit: g
 - name: oleju kokosowego
   amount: 20
@@ -58,7 +58,7 @@ fodmap:
 ### Baza (na 16 batonów)
 - 500 g daktyli
 - 125 g orzechów (mieszanka nerkowca i brazylijskich)
-- 4 g wiórków kokosowych
+- 40 g wiórków kokosowych
 - 20 g oleju kokosowego (nierafinowany, tłoczony na zimno)
 
 ### Wersja czekoladowa (do połowy masy)
