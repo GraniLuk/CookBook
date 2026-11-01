@@ -266,6 +266,7 @@ _shared_fields:
       - { label: "masło klarowane", value: "masło klarowane" }
       - { label: "masło migdałowe", value: "masło migdałowe" }
       - { label: "masło orzechowe", value: "masło orzechowe" }
+      - { label: "maślanka", value: "maślanka" }
       - { label: "migdały", value: "migdały" }
       - { label: "mix sałat", value: "mix sałat" }
       - { label: "miód", value: "miód" }
@@ -529,6 +530,7 @@ _shared_fields:
       - { label: "AI Trener", value: "AI Trener" }
       - { label: "Alaantkoweblw", value: "Alaantkoweblw" }
       - { label: "Ania Gotuje", value: "Ania Gotuje" }
+      - { label: "Ania Jaworska", value: "Ania Jaworska" }
       - { label: "Autor Przepisu", value: "Autor Przepisu" }
       - { label: "Babcia Grażynka", value: "Babcia Grażynka" }
       - { label: "Bartłomiej Włodarczyk", value: "Bartłomiej Włodarczyk" }
