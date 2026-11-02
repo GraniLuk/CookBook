@@ -6,8 +6,9 @@ subcategories: słodkie
 draft: false
 readyToTest: true
 queued: true
-link: https://www.youtube.com/watch?v=e-u-Hpf6GLg
+link: https://www.instagram.com/reels/DfIZT8-jwOe/
 recipe_image: images/recipe-headers/kasza-manna-z-prazonym-jablkiem.avif
+video_file: videos/kasza-manna-z-prazonym-jablkiem.mp4
 date: 2026-10-15T12:00:00+00:00
 tags:
 - jesień
