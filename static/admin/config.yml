@@ -278,6 +278,7 @@ _shared_fields:
       - { label: "mięso z uda kurczaka", value: "mięso z uda kurczaka" }
       - { label: "mięta", value: "mięta" }
       - { label: "mleko", value: "mleko" }
+      - { label: "mleko 3,2%", value: "mleko 3,2%" }
       - { label: "mleko bez laktozy", value: "mleko bez laktozy" }
       - { label: "mleko kokosowe", value: "mleko kokosowe" }
       - { label: "mleko skondensowane odchudzone", value: "mleko skondensowane odchudzone" }
@@ -476,6 +477,7 @@ _shared_fields:
       - { label: "szynka szwarcwaldzka", value: "szynka szwarcwaldzka" }
       - { label: "szynka wiejska", value: "szynka wiejska" }
       - { label: "szynka wieprzowa", value: "szynka wieprzowa" }
+      - { label: "szynka wieprzowa mielona", value: "szynka wieprzowa mielona" }
       - { label: "szynka wędzona", value: "szynka wędzona" }
       - { label: "tahini", value: "tahini" }
       - { label: "tofu naturalne", value: "tofu naturalne" }
