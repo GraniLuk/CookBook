@@ -132,6 +132,7 @@ _shared_fields:
       - { label: "bułka pełnoziarnista", value: "bułka pełnoziarnista" }
       - { label: "bułka pita", value: "bułka pita" }
       - { label: "bułka tarta", value: "bułka tarta" }
+      - { label: "bułka włoska", value: "bułka włoska" }
       - { label: "bób", value: "bób" }
       - { label: "cebula", value: "cebula" }
       - { label: "cebula czerwona", value: "cebula czerwona" }
@@ -531,6 +532,7 @@ _shared_fields:
       - { label: "Ada Błaszczyk", value: "Ada Błaszczyk" }
       - { label: "AI Trener", value: "AI Trener" }
       - { label: "Alaantkoweblw", value: "Alaantkoweblw" }
+      - { label: "Amadeusz Braksator", value: "Amadeusz Braksator" }
       - { label: "Ania Gotuje", value: "Ania Gotuje" }
       - { label: "Ania Jaworska", value: "Ania Jaworska" }
       - { label: "Autor Przepisu", value: "Autor Przepisu" }
