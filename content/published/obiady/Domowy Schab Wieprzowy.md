@@ -11,30 +11,37 @@ recipe_image: images/recipe-headers/domowy_schab.avif
 date: 2025-11-20 12:00:00+00:00
 tags:
   - instant pot
-tagline: Soczysty domowy schab wieprzowy, idealny do kanapek i dań.
+  - kanapki
+tagline: Soczysty domowy schab wieprzowy z Instant Pot, idealny do kanapek i dań obiadowych.
 ingredients:
   - schab wieprzowy
   - czosnek
 shopping_ingredients:
   - name: schab wieprzowy
     amount: 1
-    unit: szt.
+    unit: kg
+  - name: sól
+    amount: 1
+    unit: łyżka
+    note: ok. 18 g
   - name: czosnek
+    amount: 3
+    unit: ząbki
+  - name: olej do smażenia
+    amount: 50
+    unit: ml
+  - name: zioła Koksa Mateusza
+    amount: 0.25
+    unit: łyżeczka
+    note: lub ulubiona mieszanka ziół
+  - name: rozmaryn
     amount: 1
-    unit: szt.
-  - name: "Olej do smażenia: około 50 ml"
-    amount: 1
-    unit: szt.
-  - name: "Zioła Koksa Mateusza: ćwierć łyżeczki"
-    amount: 1
-    unit: szt.
-  - name: "Rozmaryn: 1 gałązka"
-    amount: 1
-    unit: szt.
+    unit: gałązka
+    note: świeży
 servings: 6
 prep_time: 30
 cook: true
-cook_time: 90
+cook_time: 60
 calories: 180
 protein: 25
 fat: 9
@@ -49,58 +56,52 @@ fodmap:
 ---
 
 ## Składniki
-*   Schab wieprzowy: 1 kg
-*   Sól: 1 duża łyżka
-*   Czosnek: 3 ząbki
-*   Olej do smażenia: około 50 ml
-*   Woda: 50 ml
-*   Zioła Koksa Mateusza: ćwierć łyżeczki
-*   Rozmaryn: 1 gałązka
+- Schab wieprzowy: 1 kg
+- Sól: 1 duża łyżka (ok. 18 g)
+- Czosnek: 3 ząbki
+- Olej do smażenia: ok. 50 ml
+- Woda: 100–150 ml (niezbędna do wytworzenia ciśnienia w garnku)
+- Zioła Koksa Mateusza: 1/4 łyżeczki (lub ulubiona mieszanka ziół)
+- Świeży rozmaryn: 1 gałązka
 
 ## Sposób przygotowania
-1.  **Marynowanie schabu:** Osusz mięso ręcznikiem papierowym. W misce wymieszaj 1 dużą łyżkę soli z 3 zmiażdżonymi ząbkami czosnku, tworząc pastę. Wetrzyj pastę w mięso, włóż do woreczka i schłódź na kilka godzin lub całą noc.
-2.  **Przygotowanie do smażenia:** Usuń czosnek z powierzchni mięsa. Osusz ponownie.
-3.  **Obsmażanie:** Na rozgrzanej patelni (bez powłoki) z 50 ml oleju obsmaż mięso z każdej strony po 45-60 sekund, aż uzyska kolor.
-4.  **Duszenie:** Przenieś schab do garnka żeliwnego. Dodaj tłuszcz z patelni, 50 ml wody, zebrany czosnek z solą, ćwierć łyżeczki ziół i gałązkę rozmarynu. Duś pod przykryciem 90 minut, co jakiś czas obracając i polewając płynami.
-5.  **Chłodzenie:** Wyjmij mięso, usuń rozmaryn. Schłódź schab z sosem, aby powstała galaretka.
 
-{{< collapsible title="Wersja w Instant Pot Duo 6" icon="⚡" >}}
+### 1. Marynowanie schabu
+1. Mięso dokładnie osusz ręcznikiem papierowym.
+2. W miseczce wymieszaj 1 dużą łyżkę soli z 3 ząbkami czosnku przeciśniętymi przez praskę, tworząc gęstą pastę.
+3. Wetrzyj pastę równomiernie w całą powierzchnię schabu.
+4. Zawiń mięso w folię spożywczą lub włóż do woreczka strunowego i wstaw do lodówki na kilka godzin (najlepiej na całą noc).
 
-### Przygotowanie w Instant Pot
+### 2. Przygotowanie do obsmażania
+1. Wyjmij schab z lodówki i delikatnie zeskrob czosnek z powierzchni mięsa (odłóż go do miseczki – dodasz go później do gotowania, dzięki czemu nie przypali się podczas smażenia).
+2. Mięso ponownie dokładnie osusz ręcznikiem papierowym.
 
-Ta wersja przepisu pozwala znacznie skrócić czas duszenia mięsa dzięki gotowaniu pod ciśnieniem. Instant Pot Duo 6 to model o pojemności 5,7 litra, idealny do przygotowania 1 kg schabu.
+### 3. Obsmażanie mięsa
+1. W Instant Pot włącz tryb **Sauté** (ustawienie High) i rozgrzej 50 ml oleju *(alternatywnie możesz użyć mocno rozgrzanej patelni bez powłoki)*.
+2. Obsmaż schab z każdej strony po ok. 45–60 sekund, aż ładnie się zrumieni i zamknie pory.
+3. Wyłącz tryb Sauté przyciskiem **Cancel**. *(Jeśli używałeś patelni: przełóż obsmażony schab do misy Instant Pot i wlej cały tłuszcz ze smażenia wraz z sokami).*
 
-**Zmiany w składnikach:**
-- Woda: 100-150 ml (zamiast 50 ml - Instant Pot wymaga więcej płynu do zbudowania ciśnienia)
+### 4. Przygotowanie do gotowania pod ciśnieniem
+1. Do misy Instant Pot wlej **100–150 ml wody** (odpowiednia ilość płynu zapobiega pojawieniu się błędu „Burn” / Przypalenie i jest konieczna do wytworzenia pary pod ciśnieniem).
+2. Drewnianą lub silikonową łopatką zeskrob z dna garnka ewentualne przypieczone cząstki (deglazura zapobiega przypaleniom).
+3. Dodaj odłożony wcześniej czosnek z solą, 1/4 łyżeczki ziół oraz gałązkę świeżego rozmarynu.
 
-**Modyfikacje w przygotowaniu:**
+### 5. Gotowanie pod ciśnieniem
+1. Zamknij pokrywę Instant Pot i upewnij się, że zawór ciśnieniowy znajduje się w pozycji **Sealing** (w nowszych modelach zamyka się automatycznie).
+2. Wybierz program **Pressure Cook** (lub **Manual**) na poziomie **High Pressure** i ustaw czas na **45 minut**.
+3. Po zakończeniu czasu gotowania pozostaw urządzenie na **10–15 minut** do naturalnego opadnięcia ciśnienia (**Natural Release – NPR**).
+4. Po upływie tego czasu ostrożnie przesuń zawór do pozycji **Venting**, aby uwolnić resztę ciśnienia, a następnie zdejmij pokrywę.
 
-1. **Marynowanie i obsmażanie:** Bez zmian - wykonaj kroki 1-3 z oryginalnego przepisu.
+### 6. Chłodzenie i uzyskanie galaretki
+1. Ostrożnie wyjmij schab z garnka i usuń gałązkę rozmarynu.
+2. Przełóż mięso do naczynia/foremki i polej powstałym wywarem z dna garnka.
+3. Pozostaw do ostygnięcia do temperatury pokojowej, a następnie wstaw do lodówki (najlepiej na noc).
+4. Po schłodzeniu sos zmieni się w aromatyczną, zwartą galaretkę, a schab będzie niezwykle soczysty i gotowy do krojenia w cienkie plastry jako domowa wędlina.
 
-2. **Przygotowanie do gotowania pod ciśnieniem:**
-   - Przenieś obsmażony schab do garnka Instant Pot.
-   - Dodaj tłuszcz z patelni (olej + soki z mięsa).
-   - Wlej **100-150 ml wody** (nie mniej, aby uniknąć komunikatu "burn").
-   - Dodaj zebrany czosnek z solą, ćwierć łyżeczki ziół i gałązkę rozmarynu.
-
-3. **Gotowanie pod ciśnieniem:**
-   - Zamknij pokrywę Instant Pot i upewnij się, że wentyl ciśnienia jest w pozycji **"Sealing"**.
-   - Naciśnij przycisk **"Pressure Cook"** (lub **"Manual"** na starszych modelach).
-   - Ustaw czas na **45 minut** przy **wysokim ciśnieniu** (High Pressure).
-   - Po zakończeniu cyklu gotowania, pozwól na **naturalne uwolnienie ciśnienia** (Natural Release) przez **10-15 minut**.
-   - Następnie ostrożnie przestaw wentyl do pozycji **"Venting"**, aby uwolnić resztę ciśnienia (Quick Release).
-
-4. **Chłodzenie:** Bez zmian - usuń rozmaryn, schłódź mięso z sosem do powstania galaretki.
-
-**Wskazówki:**
-- Jeśli kawałek mięsa jest większy niż 1 kg, dodaj 5-10 minut do czasu gotowania.
-- Nie otwieraj pokrywy natychmiast po zakończeniu gotowania - poczekaj na spadek ciśnienia.
-- Po otwarciu sprawdź mięso - powinno być miękkie i soczyste. Jeśli nie, możesz dodać kolejne 5-10 minut gotowania.
-- Galaretka powinna powstać podobnie jak w tradycyjnej wersji po schłodzeniu.
-
-**Oszczędność czasu:** Około 30-40 minut w porównaniu do tradycyjnej metody!
-
-{{< /collapsible >}}
+### Wskazówki
+* **Większy kawałek mięsa:** Jeśli kawałek schabu jest większy niż 1 kg (np. 1,2–1,4 kg), wydłuż czas gotowania pod ciśnieniem o 5–10 minut (do ok. 50–55 minut).
+* **Soczystość (NPR):** Nie otwieraj pokrywy natychmiast po zakończeniu gotowania (Quick Release) – powolne, naturalne opadanie ciśnienia przez 10–15 minut pozwala zatrzymać wszystkie soki wewnątrz mięsa.
+* **Krojenie:** Schab najwygodniej kroić ostrym nożem po całkowitym schłodzeniu w lodówce.
 
 ## Podsumowanie wartości odżywczych (całe danie)
 
@@ -110,8 +111,8 @@ Ta wersja przepisu pozwala znacznie skrócić czas duszenia mięsa dzięki gotow
 | Sól               | 18        | 0              | 0.0        | 0.0          | 0.0             |
 | Czosnek           | 9         | 13             | 0.6        | 0.0          | 3.0             |
 | Olej              | 50        | 450            | 0.0        | 50.0         | 0.0             |
-| Woda              | 50        | 0              | 0.0        | 0.0          | 0.0             |
+| Woda              | 100       | 0              | 0.0        | 0.0          | 0.0             |
 | Zioła Koksa Mateusza | 1     | 2              | 0.1        | 0.0          | 0.4             |
 | Rozmaryn          | 5         | 9              | 0.1        | 0.4          | 1.8             |
-| **RAZEM:**        | **733**   | **1331**       | **155.6**  | **88.8**     | **5.2**         |
-| **NA PORCJĘ (1/6):** | **122** | **222**        | **26**     | **15**       | **1**           |
+| **RAZEM:**        | **783**   | **1331**       | **155.6**  | **88.8**     | **5.2**         |
+| **NA PORCJĘ (1/6):** | **131** | **222**        | **26**     | **15**       | **1**           |
