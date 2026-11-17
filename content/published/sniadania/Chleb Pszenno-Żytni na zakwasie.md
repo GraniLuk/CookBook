@@ -80,9 +80,22 @@ fodmap:
 7. **Pieczenie:** Wstaw foremkę do nagrzanego do 240 stopni piekarnika na 15 minut. Następnie zmniejsz temperaturę do 220 stopni i dopiekaj jeszcze przez 35 minut. *(Wskazówka: Każdy piekarnik jest inny – jeśli ciasto za bardzo się przypieka z góry, przykryj je folią aluminiową lub zmniejsz temperaturę).*
 8. Upieczony chleb wyłóż na kratkę. Po 5 minutach wyciągnij z formy i zostaw do całkowitego wystudzenia na kratce.
 
-*Wskazówki dodatkowe:* Do ciasta możesz wmieszać ulubione dodatki, np. pestki, żurawinę, orzechy. Mąkę pszenną chlebową możesz swobodnie zastąpić mąką orkiszową.
+## Wskazówki i prowadzenie zakwasu
 
-**ZAKWAS - Dokarmianie:** Proporcje 1:5:5 (np. 10g zakwasu + 50g wody + 50g mąki). Zamieszaj i odstaw aż urośnie. Gdy zacznie rosnąć – schowaj do lodówki. Karm go ok. 1 raz w tygodniu.
+### Cotygodniowy rytm pieczenia (metoda bez marnowania mąki)
+Jeśli pieczesz chleb regularnie w każdy weekend, **nie musisz dokarmiać zakwasu w środku tygodnia**. Całość zamykasz w jednej operacji w piątek wieczorem:
+1. **Piątek wieczorem:** Wyjmij słoik z lodówki. Odmierz **20 g zakwasu** bezpośrednio do miski na nocny Zaczyn (Faza I).
+2. **Odświeżenie zakwasu:** Do resztki w słoiku (ok. 20–30 g) dodaj **25 g wody** i **25 g mąki żytniej** (typ 720 lub razowej 2000). Wymieszaj, pozostaw na kuchennym blacie na 1–2 godziny (aż drożdże i bakterie ruszą), po czym schowaj słoik z powrotem do lodówki na kolejny tydzień.
+3. **Przechowywanie:** Na co dzień trzymaj w lodówce jedynie niewielką ilość (ok. 50–60 g bazy). Nakrętka słoika powinna być nałożona luźno (nie dokręcaj szczelnie, gazy fermentacyjne muszą mieć ujście).
+
+### Jak w piątek sprawdzić, czy zakwas wymaga rozbudzenia?
+* **Gotowy do użycia (zielone światło):** Stał w lodówce 5–7 dni, pachnie przyjemnie kwaskowato (jak żurek, kefir, kiszonki lub jabłka) i widać w nim drobne pęcherzyki. Możesz od razu pobrać 20 g do Zaczynu.
+* **Wymaga wcześniejszego dokarmienia (ostrzeżenie):** Stał w lodówce dłużej niż 7–10 dni, pachnie ostro/drażniąco octem, alkoholem lub zmywaczem do paznokci, na wierzchu podszedł ciemny płyn (*hooch*) lub struktura jest zbita jak gęsta plastelina bez bąbelków.
+  * **Szybkie rozbudzenie (piątek rano):** Zlej płyn z wierzchu, przełóż 1 łyżeczkę zakwasu (10–15 g) do czystego słoiczka, dodaj 30 g letniej wody i 30 g mąki żytniej. Wymieszaj i zostaw na blacie na 6–8 godzin. Wieczorem zakwas będzie aktywny i gotowy do nastawienia chleba.
+
+### Dodatkowe porady
+* **Koło ratunkowe:** Jeśli masz jakiekolwiek obawy co do siły zakwasu, w Fazie II (sobota rano) dodaj opcjonalne 10 g świeżych drożdży. Chleb zachowa głęboki smak zakwasu, a bochenek na pewno wyrośnie w keksówce.
+* **Dodatki:** Do ciasta w Fazie II możesz wmieszać ulubione ziarna (słonecznik, dynia, siemię lniane, czarnuszka) lub orzechy i żurawinę. Mąkę pszenną chlebową możesz zastąpić mąką orkiszową.
 
 ## Podsumowanie wartości odżywczych (cały bochenek)
 
