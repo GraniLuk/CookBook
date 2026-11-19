@@ -9,7 +9,8 @@ link: https://www.youtube.com/watch?v=3VzPFiF8mxY
 recipe_image: images/recipe-headers/gulasz_wolowy.avif
 video_file: videos/gulasz_wolowy.webm
 date: 2026-01-09 12:00:00+00:00
-tags: null
+tags:
+- instant pot
 tagline: Aromatyczny gulasz wołowy, idealny jako dodatek do placków ziemniaczanych.
 ingredients:
 - pręga wołowa
@@ -109,6 +110,40 @@ fodmap:
 6.  **Dodatki:** Dodaj suszone pomidory, paprykę i ogórki kiszone. Duś dalej 30-40 minut, aż mięso będzie miękkie, a warzywa zmiękną.
 
 7.  **Podanie:** Podawaj jako samodzielne danie lub jako dodatek do placków ziemniaczanych.
+
+{{< collapsible title="Wersja w Instant Pot" icon="⚡" >}}
+
+### Przygotowanie w Instant Pot
+
+Przygotowanie gulaszu z pręgi wołowej w szybkowarze elektrycznym (Instant Pot) skraca czas duszenia mięsa z ponad 2 godzin do zaledwie 35–40 minut, zapewniając wyjątkową kruchość i soczystość.
+
+**Kluczowe modyfikacje:**
+- **Mniej wody:** Użyj **ok. 250–300 ml wody** (zamiast 700 ml) – w szybkowarze płyn nie odparowuje.
+- **Dodawanie warzyw:** Świeżą paprykę oraz ogórki kiszone dodaj dopiero po zakończeniu gotowania ciśnieniowego na krótki program *Sauté*, dzięki czemu zachowają idealną chrupkość i wyrazisty smak.
+
+**Kroki przygotowania:**
+
+1. **Obsmażanie mięsa (Sauté):**
+   - Włącz tryb **Sauté**. Rozgrzej 30 ml oleju.
+   - Wrzuć pokrojoną w kostkę pręgę wołową i obsmaż na mocnym ogniu z obu stron na brązowy kolor (najlepiej w dwóch partiach, aby mięso nie puściło soków). Wyjmij mięso na talerz i oprósz pieprzem.
+2. **Podsmażanie cebuli i czosnku (Sauté):**
+   - Do garnka wlej pozostałe 10 ml oleju i wrzuć cebulę. Gdy się zeszkli (ok. 2–3 minuty), dodaj posiekany czosnek i podsmażaj jeszcze minutę.
+3. **Deglasowanie (kluczowe!):**
+   - Wlej do garnka ok. 50–70 ml wody. Drewnianą lub silikonową łopatką dokładnie zeskrob wszystkie przypieczone cząstki z dna garnka (zapobiega to pojawieniu się błędu *Burn*).
+4. **Gotowanie pod ciśnieniem (Pressure Cook):**
+   - Włóż mięso z powrotem do garnka.
+   - Dolej resztę wody (łącznie ok. 250–300 ml).
+   - Dodaj koncentrat pomidorowy, suszone pomidory, liście laurowe, ziele angielskie, paprykę wędzoną, słodką, ostrą oraz sól.
+   - Zamknij pokrywę i ustaw zawór w pozycji **Sealing**.
+   - Wybierz program **Pressure Cook / Manual (High Pressure)** na **35–40 minut**.
+5. **Uwalnianie ciśnienia:**
+   - Po sygnale odczekaj **10–15 minut naturalnego spadku ciśnienia (NPR)**, po czym ostrożnie przekręć zawór na **Venting** (Quick Release), aby wypuścić resztę pary.
+6. **Dodanie warzyw i redukcja (Sauté):**
+   - Otwórz pokrywę i ponownie włącz tryb **Sauté**.
+   - Dodaj pokrojoną paprykę oraz ogórki kiszone (możesz dodać też odrobinę wody z ogórków dla podbicia kwasowości).
+   - Gotuj bez pokrywy przez **6–8 minut**, aż papryka zmięknie, a sos naturalnie zgęstnieje dzięki uwolnionemu z pręgi kolagenowi.
+
+{{< /collapsible >}}
 
 ## Podsumowanie wartości odżywczych (całe danie)
 

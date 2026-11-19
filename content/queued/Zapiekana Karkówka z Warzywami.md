@@ -5,9 +5,14 @@ categories: obiady
 draft: false
 readyToTest: true
 queued: true
-recipe_image: images/recipe-headers/zapiekana_karkówka.avif
+link: https://www.instagram.com/reels/DT3JNMgDaYc/
+recipe_image: images/recipe-headers/zapiekana_karkowka_z_warzywami.avif
+video_file: videos/zapiekana_karkowka_z_warzywami.mp4
 date: 2025-06-28 12:00:00+00:00
-tags: null
+tags:
+- lunchbox
+- goście
+- klasyczne
 tagline: Porcja dla głodomików – karkówka przysmażona na złoty kolor, zapiekana z papryką, pieczarkami i cebulą w sosie pomidorowym.
 ingredients:
 - karkówka wieprzowa
