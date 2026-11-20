@@ -1,5 +1,5 @@
 ---
-title: Zapiekana Karkówka z Warzywami
+title: Karkówka w Sosie Pieczarkowo-Pomidorowym
 author: the.foodini
 categories: obiady
 draft: false
