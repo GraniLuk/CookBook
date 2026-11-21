@@ -144,6 +144,7 @@ _shared_fields:
       - { label: "chleb", value: "chleb" }
       - { label: "chleb tostowy", value: "chleb tostowy" }
       - { label: "chrupki serowe", value: "chrupki serowe" }
+      - { label: "ciastka lotus biscoff", value: "ciastka lotus biscoff" }
       - { label: "ciastka oreo", value: "ciastka oreo" }
       - { label: "ciastka owsiane", value: "ciastka owsiane" }
       - { label: "ciecierzyca", value: "ciecierzyca" }
@@ -232,6 +233,7 @@ _shared_fields:
       - { label: "korzeń selera", value: "korzeń selera" }
       - { label: "kotlet z antrykotu z kością", value: "kotlet z antrykotu z kością" }
       - { label: "kości cielęce", value: "kości cielęce" }
+      - { label: "krem lotus biscoff", value: "krem lotus biscoff" }
       - { label: "krem orzechowo-czekoladowy", value: "krem orzechowo-czekoladowy" }
       - { label: "kukurydza", value: "kukurydza" }
       - { label: "kurczak", value: "kurczak" }
@@ -570,6 +572,7 @@ _shared_fields:
       - { label: "the.foodini", value: "the.foodini" }
       - { label: "Trello", value: "Trello" }
       - { label: "Tymoteusz Puchacz", value: "Tymoteusz Puchacz" }
+      - { label: "WypiekAna", value: "WypiekAna" }
       - { label: "zdrowo_z_paula", value: "zdrowo_z_paula" }
     hint: "Wybierz z listy autorów (wpisz lub kliknij, aby zobaczyć wszystkie)."
 
