@@ -6,7 +6,7 @@ subcategories: słone
 draft: false
 readyToTest: false
 queued: false
-favourite: false
+favourite: true
 recipe_image: images/recipe-headers/chleb.avif
 date: 2026-06-04 08:42:00+02:00
 tags:
